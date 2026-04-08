@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.env
+.venv
+.env.*
+
+# Secrets - NEVER COMMIT
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*secret*
+*credential*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.db
+*.sqlite
+cache/
+logs/
