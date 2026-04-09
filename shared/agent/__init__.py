@@ -239,3 +239,46 @@ class ClawpackAgentRegistry:
     def list_agents(cls) -> List[str]:
         """List all registered agents"""
         return list(cls._agents.keys())
+
+
+    
+    async def _execute_tool_with_hooks(self, tool_name: str, arguments: Dict[str, Any]) -> Any:
+        """Execute a tool with PreToolUse and PostToolUse hooks"""
+        
+        # PreToolUse hooks
+        pre_result = await self.hooks.pre_tool_use(tool_name, arguments)
+        
+        if pre_result.should_block:
+            return {"error": f"Tool blocked by hook: {pre_result.message}"}
+        
+        if pre_result.has_modifications:
+            arguments = pre_result.modified_input
+        
+        # Execute the actual tool
+        tool_func = self.tools.get(tool_name)
+        if not tool_func:
+            return {"error": f"Unknown tool: {tool_name}"}
+        
+        try:
+            if asyncio.iscoroutinefunction(tool_func):
+                result = await tool_func(**arguments)
+            else:
+                result = tool_func(**arguments)
+        except Exception as e:
+            # PostToolFailure hooks
+            await self.hooks.execute(
+                HookPoint.POST_TOOL_FAILURE,
+                tool_name=tool_name,
+                tool_arguments=arguments,
+                tool_error=str(e)
+            )
+            raise
+        
+        # PostToolUse hooks
+        post_result = await self.hooks.post_tool_use(tool_name, arguments, result)
+        
+        if post_result.additional_context:
+            if isinstance(result, dict):
+                result['_hook_context'] = post_result.additional_context
+        
+        return result
