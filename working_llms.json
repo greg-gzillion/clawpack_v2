@@ -1,0 +1,66 @@
+[
+  {
+    "source": "ollama",
+    "model": "llama3.2:3b"
+  },
+  {
+    "source": "ollama",
+    "model": "codellama:7b"
+  },
+  {
+    "source": "ollama",
+    "model": "qwen3-vl:30b"
+  },
+  {
+    "source": "ollama",
+    "model": "qwen3-coder:30b"
+  },
+  {
+    "source": "ollama",
+    "model": "deepseek-r1:8b"
+  },
+  {
+    "source": "ollama",
+    "model": "gemma3:4b"
+  },
+  {
+    "source": "ollama",
+    "model": "gemma3:27b"
+  },
+  {
+    "source": "ollama",
+    "model": "gemma3:12b"
+  },
+  {
+    "source": "ollama",
+    "model": "deepseek-coder:6.7b"
+  },
+  {
+    "source": "ollama",
+    "model": "gemma3:1b"
+  },
+  {
+    "source": "openrouter",
+    "model": "google/gemma-4-26b-a4b-it:free"
+  },
+  {
+    "source": "openrouter",
+    "model": "google/gemma-4-31b-it:free"
+  },
+  {
+    "source": "openrouter",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free"
+  },
+  {
+    "source": "openrouter",
+    "model": "minimax/minimax-m2.5:free"
+  },
+  {
+    "source": "openrouter",
+    "model": "arcee-ai/trinity-large-preview:free"
+  },
+  {
+    "source": "anthropic",
+    "model": "claude-3-haiku"
+  }
+]
