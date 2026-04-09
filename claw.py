@@ -17,29 +17,35 @@ AGENTS = {
     "web": "agents/webclaw/webclaw.py",
     "plot": "agents/plotclaw/plotclaw.py",
     "dream": "agents/dreamclaw/dreamclaw.py",
-    "flow": "agents/flowclaw/flowclaw.py"
+    "flow": "agents/flowclaw/flowclaw.py",
+    "draft": "agents/draftclaw/draftclaw.py",
+    "design": "agents/designclaw/designclaw.py"
 }
 
 def main():
     if len(sys.argv) < 2:
         print("=" * 50)
-        print("🦞 CLAW - AI Agent Ecosystem")
+        print("🦞 CLAW - 14 Agent Ecosystem")
         print("=" * 50)
         print("\nUsage: python claw.py <agent>")
-        print("\n🎯 AGENTS:")
+        print("\n🎯 LANGUAGE AGENTS:")
         print("  lang   - Langclaw (Language Teacher)")
         print("  poly   - Polyclaw (Translator)")
+        print("\n💼 BUSINESS AGENTS:")
         print("  tx     - TXclaw (Blockchain)")
         print("  med    - Mediclaw (Medical)")
         print("  law    - Lawclaw (Legal)")
+        print("\n📐 TECHNICAL AGENTS:")
         print("  math   - Mathematicaclaw (Math)")
         print("  data   - Dataclaw (Data)")
         print("  doc    - Docuclaw (Documents)")
         print("  web    - Webclaw (Web)")
-        print("\n🎨 NEW VISUALIZATION AGENTS:")
+        print("\n🎨 VISUALIZATION AGENTS:")
         print("  plot   - Plotclaw (Charts & Graphs)")
-        print("  dream  - Dreamclaw (AI Image Generation)")
-        print("  flow  - Flowclaw (Diagrams & Flowcharts)")
+        print("  dream  - Dreamclaw (AI Images)")
+        print("  flow   - Flowclaw (Diagrams)")
+        print("  draft  - Draftclaw (Technical Drawings)")
+        print("  design - Designclaw (Graphic Design)")
         print("\n📖 Example: python claw.py plot")
         return
     
@@ -59,4 +65,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
