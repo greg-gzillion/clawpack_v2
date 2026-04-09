@@ -45,3 +45,5 @@ Thumbs.db
 
 # Generated scripts
 *generate*.ps1
+
+exports/

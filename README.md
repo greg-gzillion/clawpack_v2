@@ -1,70 +1,60 @@
-Single entry point for 10 specialized AI agents.
+🦞 Clawpack V2
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+**Unified AI Agent Ecosystem** - 15 specialized agents working as one.
 
-\## Quick Start
-
-
+## Quick Start
 
 ```bash
-
-git clone https://github.com/greg-gzillion/clawpack\_v2.git
-
-cd clawpack\_v2
-
+git clone https://github.com/greg-gzillion/clawpack_v2.git
+cd clawpack_v2
 pip install -r requirements.txt
-
-python claw.py lang
-
-Agents
-
+python clawpack.py
+Unified Commands
 Command	Agent	Description
+translate Hello to Spanish	interpretclaw	Translation + auto-speak
+speak Hello world	interpretclaw	Text-to-speech
+solve x**2 = 4	mathematicaclaw	Math equations
+plot sin(x)	plotclaw	Charts & graphs
+dream a lobster	dreamclaw	AI image prompts
+analyze photo.jpg	dreamclaw	Vision analysis (qwen3-vl)
+flowchart A->B->C	flowclaw	Diagrams
+/lesson es greetings	langclaw	Language lessons
+Agents
+Agent	Purpose
+🦞 clawpack	Unified router (all agents)
+🌐 interpretclaw	Translation + TTS
+📐 mathematicaclaw	Math computation
+📊 plotclaw	Charts & graphs
+🎨 dreamclaw	AI vision & generation
+🔷 flowclaw	Diagrams & flowcharts
+📏 draftclaw	Technical drawings
+🎯 designclaw	Graphic design
+📝 docuclaw	Document processing
+📈 dataclaw	Data analysis
+🌍 webclaw	Web search
+💰 txclaw	Blockchain
+🏥 mediclaw	Medical references
+⚖️ lawclaw	Legal references
+📚 langclaw	Language teacher
+LLMs
+16 working LLMs detected and available:
 
-python claw.py lang	Langclaw	Translation + TTS/STT
+10 local Ollama models (FREE)
 
-python claw.py tx	TXclaw	TX Blockchain
+4 OpenRouter models (FREE)
 
-python claw.py med	Mediclaw	Medical references
+1 Anthropic Claude model
 
-python claw.py law	Lawclaw	Legal references
+Individual Agents
+Run any agent directly:
 
-python claw.py math	Mathematicaclaw	Math computation
-
-python claw.py draw	Drawclaw	Drawing \& visualization
-
-python claw.py data	Dataclaw	Data science
-
-python claw.py doc	Docuclaw	Document processing
-
-python claw.py int	Interpretclaw	Code interpretation
-
-python claw.py web	Webclaw	Web crawling
-
-Examples
-
-Langclaw:
-
-
-
-text
-
-/translate Hello to es
-
-/speak Hola in es
-
-Mathematicaclaw:
-
-
-
-text
-
-/derivative sin(x)
-
-/evaluate x\*\*2 + 2 x=3
-
+bash
+python claw.py lang      # Language teacher
+python claw.py interpret # Translator
+python claw.py math      # Math solver
+python claw.py plot      # Charts
+python claw.py dream     # AI vision
 License
-
-MIT
-
-"@
-
+MIT License - see LICENSE
