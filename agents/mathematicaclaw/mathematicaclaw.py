@@ -1,51 +1,15 @@
-#!/usr/bin/env python3
-"""mathematicaclaw.py - Math Calculations"""
+﻿#!/usr/bin/env python3
+"""Mathematicaclaw - Mathematical Computation AI Agent"""
 
-from cli import parse_command
-from commands import test_command, help_command, quit_command
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent))
 
-class mathematicaclaw:
-    def __init__(self):
-        self.commands = {
-            "/test": test_command,
-            "/help": help_command,
-            "/quit": quit_command,
-        }
-        self.print_welcome()
-    
-    def print_welcome(self):
-        from core.data import get_data_path
-        print("\n" + "="*70)
-        print("?? MATHEMATICACLAW")
-        print("="*70)
-        print(f"Data: {get_data_path()}")
-        print("\nCOMMANDS:")
-        print("  /test              - Test agent")
-        print("  /help              - Show help")
-        print("  /quit              - Exit")
-        print("="*70)
-    
-    def run(self):
-        self.print_welcome()
-        while True:
-            try:
-                cmd = input(f"\nmathematicaclaw> ").strip()
-                if not cmd:
-                    continue
-                
-                command, args = parse_command(cmd)
-                if command in self.commands:
-                    result = self.commands[command](args)
-                    if result == "QUIT":
-                        print("Goodbye!")
-                        break
-                else:
-                    print(f"Unknown: {command}")
-                        
-            except KeyboardInterrupt:
-                print("\nGoodbye!")
-                break
+from cli.interface import MathematicaclawCLI
+
+def main():
+    cli = MathematicaclawCLI()
+    cli.run()
 
 if __name__ == "__main__":
-    agent = mathematicaclaw()
-    agent.run()
+    main()
