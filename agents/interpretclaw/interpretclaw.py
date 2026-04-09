@@ -4,6 +4,7 @@ import sys
 import asyncio
 import aiohttp
 import json
+import subprocess
 from pathlib import Path
 
 class Interpretclaw:
@@ -18,13 +19,32 @@ class Interpretclaw:
                 return line.split('=', 1)[1].strip().strip('"').strip("'")
         return None
     
+    def speak(self, text: str) -> str:
+        """Use Windows TTS to speak text - completely hidden"""
+        try:
+            # Use CREATE_NO_WINDOW flag to prevent window minimization
+            startupinfo = subprocess.STARTUPINFO()
+            startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+            startupinfo.wShowWindow = 0  # SW_HIDE
+            
+            ps_script = f'Add-Type -AssemblyName System.Speech; $s = New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Speak("{text}")'
+            subprocess.run(
+                ['powershell', '-WindowStyle', 'Hidden', '-NoProfile', '-Command', ps_script],
+                startupinfo=startupinfo,
+                capture_output=True,
+                creationflags=subprocess.CREATE_NO_WINDOW if hasattr(subprocess, 'CREATE_NO_WINDOW') else 0
+            )
+            return f"Spoke: {text}"
+        except Exception as e:
+            return f"TTS error: {e}"
+    
     async def translate(self, text: str, target: str) -> str:
         headers = {
             "Authorization": f"Bearer {self.key}",
             "Content-Type": "application/json"
         }
         
-        prompt = f"Translate '{text}' to {target}. Return ONLY the translation."
+        prompt = f"Translate '{text}' to {target}. Return ONLY the translation, no extra text."
         
         data = {
             "model": self.model,
@@ -41,13 +61,19 @@ class Interpretclaw:
             ) as resp:
                 result = await resp.json()
                 if "choices" in result:
-                    return result["choices"][0]["message"]["content"].strip()
+                    translated = result["choices"][0]["message"]["content"].strip()
+                    self.speak(translated)
+                    return translated
                 return "Translation failed"
     
     def run(self):
         if len(sys.argv) > 1:
             cmd = ' '.join(sys.argv[1:])
-            if " to " in cmd:
+            
+            if cmd.startswith("speak "):
+                text = cmd[6:].strip()
+                print(self.speak(text))
+            elif " to " in cmd:
                 parts = cmd.split(" to ")
                 text = parts[0].replace("translate ", "").strip()
                 target = parts[1].strip()
@@ -58,20 +84,29 @@ class Interpretclaw:
         print("\n" + "="*50)
         print("INTERPRETCLAW - Translation Agent")
         print("="*50)
-        print("Commands: translate <text> to <lang>, /quit")
+        print("Commands: translate <text> to <lang>, speak <text>, /quit")
+        print("Example: translate Hello to Spanish\n")
         
         while True:
             try:
                 cmd = input("> ").strip()
                 if cmd == "/quit":
+                    print("Goodbye!")
                     break
-                if " to " in cmd:
+                if cmd.startswith("speak "):
+                    text = cmd[6:].strip()
+                    print(self.speak(text))
+                elif " to " in cmd:
                     parts = cmd.split(" to ")
                     text = parts[0].replace("translate ", "").strip()
                     target = parts[1].strip()
+                    print("Translating...")
                     result = asyncio.run(self.translate(text, target))
-                    print(f"{result}\n")
+                    print(result)
+                else:
+                    print("Usage: translate <text> to <lang> OR speak <text>")
             except KeyboardInterrupt:
+                print("\nGoodbye!")
                 break
 
 if __name__ == "__main__":

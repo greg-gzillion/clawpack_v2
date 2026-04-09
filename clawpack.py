@@ -9,6 +9,7 @@ class Clawpack:
         self.agents_path = Path("agents")
         self.agent_map = {
             "translate": {"agent": "interpretclaw", "cmd": "translate {text} to {target}"},
+            "speak": {"agent": "interpretclaw", "cmd": "speak {text}"},
             "math": {"agent": "mathematicaclaw", "cmd": "solve {equation}"},
             "plot": {"agent": "plotclaw", "cmd": "plot {expression}"},
             "dream": {"agent": "dreamclaw", "cmd": "dream {prompt}"},
@@ -24,20 +25,24 @@ class Clawpack:
             target = parts[1].strip()
             return ("translate", {"text": text_part, "target": target})
         
+        if "speak" in text:
+            content = user_input.replace("speak ", "").strip()
+            return ("speak", {"text": content})
+        
         if "solve" in text:
-            eq = user_input.replace("solve", "").strip()
+            eq = user_input.replace("solve ", "").strip()
             return ("math", {"equation": eq})
         
         if "plot" in text:
-            expr = user_input.replace("plot", "").strip()
+            expr = user_input.replace("plot ", "").strip()
             return ("plot", {"expression": expr})
         
         if "dream" in text:
-            prompt = user_input.replace("dream", "").strip()
+            prompt = user_input.replace("dream ", "").strip()
             return ("dream", {"prompt": prompt})
         
         if "flowchart" in text:
-            steps = user_input.replace("flowchart", "").strip()
+            steps = user_input.replace("flowchart ", "").strip()
             return ("flowchart", {"steps": steps})
         
         return (None, None)
@@ -68,7 +73,6 @@ class Clawpack:
             if not output:
                 output = result.stderr.strip()
             
-            # Clean output - remove header lines
             lines = output.split('\n')
             cleaned = []
             for line in lines:
@@ -84,7 +88,7 @@ class Clawpack:
         print("\n" + "="*50)
         print("CLAWPACK")
         print("="*50)
-        print("Commands: translate, solve, plot, dream, flowchart")
+        print("Commands: translate, speak, solve, plot, dream, flowchart")
         
         while True:
             try:
@@ -94,7 +98,7 @@ class Clawpack:
                 if cmd == "/quit":
                     break
                 if cmd == "/help":
-                    print("translate <text> to <lang> | solve <eq> | plot <expr> | dream <prompt> | flowchart <steps>")
+                    print("translate <text> to <lang> | speak <text> | solve <eq> | plot <expr> | dream <prompt>")
                     continue
                 
                 task, params = self.route(cmd)
@@ -103,7 +107,7 @@ class Clawpack:
                     result = self.execute(task, params)
                     print(result)
                 else:
-                    print("Command not recognized. Try: translate Hello to Spanish")
+                    print("Try: translate Hello to Spanish | solve x**2=4 | dream lobster | speak Hello")
             except KeyboardInterrupt:
                 break
 
