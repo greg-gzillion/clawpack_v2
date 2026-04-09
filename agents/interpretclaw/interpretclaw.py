@@ -1,55 +1,58 @@
-#!/usr/bin/env python3
-"""interpretclaw.py - Translation Agent"""
+﻿#!/usr/bin/env python3
+"""INTERPRETCLAW - Human Language Translation Hub"""
 
-from cli import parse_command
-from commands import test_command, help_command, quit_command, translate_command, languages_command
+import sys
+from pathlib import Path
 
-class interpretclaw:
+sys.path.insert(0, str(Path(__file__).parent))
+
+class InterpretClaw:
     def __init__(self):
-        self.commands = {
-            "/test": test_command,
-            "/help": help_command,
-            "/quit": quit_command,
-            "/translate": translate_command,
-            "/languages": languages_command,
-        }
-        self.print_welcome()
+        self.commands = {}
+        self._load_commands()
     
-    def print_welcome(self):
-        from core.data import get_data_path
-        print("\n" + "="*70)
-        print("?? interpretclaw - Translation Agent")
-        print("="*70)
-        print(f"Data: {get_data_path()}")
-        print("\nCOMMANDS:")
-        print("  /test              - Test agent")
-        print("  /translate [text]  - Translate text")
-        print("  /languages         - List available languages")
-        print("  /help              - Show help")
-        print("  /quit              - Exit")
-        print("="*70)
+    def _load_commands(self):
+        cmds_path = Path(__file__).parent / "commands"
+        for py_file in cmds_path.glob("*.py"):
+            if py_file.name.startswith("__"):
+                continue
+            try:
+                import importlib.util
+                spec = importlib.util.spec_from_file_location(py_file.stem, py_file)
+                module = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(module)
+                if hasattr(module, 'name') and hasattr(module, 'run'):
+                    self.commands[module.name] = module.run
+            except: pass
     
     def run(self):
-        self.print_welcome()
+        print("\n" + "█"*70)
+        print("█" + " "*68 + "█")
+        print("█" + " "*12 + "🌐 INTERPRETCLAW - LANGUAGE HUB 🌐" + " "*12 + "█")
+        print("█" + " "*68 + "█")
+        print("█"*70)
+        
+        if "/help" in self.commands:
+            self.commands["/help"](None)
+        
         while True:
             try:
-                cmd = input("\ninterpretclaw> ").strip()
+                cmd = input("\n🌐 interpretclaw> ").strip()
                 if not cmd:
                     continue
-                
-                command, args = parse_command(cmd)
+                if cmd == "/quit":
+                    print("Goodbye!")
+                    break
+                parts = cmd.split(" ", 1)
+                command = parts[0]
+                args = parts[1] if len(parts) > 1 else ""
                 if command in self.commands:
-                    result = self.commands[command](args)
-                    if result == "QUIT":
-                        print("Goodbye!")
-                        break
+                    self.commands[command](args)
                 else:
-                    print(f"Unknown: {command}")
-                        
+                    print(f"Unknown: {command}. Type /help")
             except KeyboardInterrupt:
                 print("\nGoodbye!")
                 break
 
 if __name__ == "__main__":
-    agent = interpretclaw()
-    agent.run()
+    InterpretClaw().run()

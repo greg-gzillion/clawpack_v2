@@ -1,8 +1,19 @@
-﻿def format_result(content, max_lines=30):
-    lines = content.split('\n')[:max_lines]
-    return '\n'.join(lines)
+﻿"""Utility helpers for Langclaw"""
 
-def truncate(text, max_length=800):
-    if len(text) > max_length:
-        return text[:max_length] + "\n... (truncated)"
-    return text
+import re
+
+def parse_translate_command(cmd: str):
+    """Parse /translate command"""
+    match = re.search(r'/(?:translate)\s+(.+?)\s+to\s+(\w+)', cmd)
+    if match:
+        return {"text": match.group(1), "target": match.group(2)}
+    return None
+
+def get_language_flag(lang_code: str) -> str:
+    """Get flag emoji for language code"""
+    flags = {
+        "es": "🇪🇸", "fr": "🇫🇷", "de": "🇩🇪", "it": "🇮🇹", "pt": "🇵🇹",
+        "ja": "🇯🇵", "ko": "🇰🇷", "zh": "🇨🇳", "ru": "🇷🇺", "ar": "🇸🇦",
+        "hi": "🇮🇳", "vi": "🇻🇳", "th": "🇹🇭", "tr": "🇹🇷", "nl": "🇳🇱"
+    }
+    return flags.get(lang_code, "🌐")

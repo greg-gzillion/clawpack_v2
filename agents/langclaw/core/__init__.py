@@ -1,3 +1,1 @@
-﻿from .data import get_data_path
-
-__all__ = ['get_data_path']
+﻿"""Langclaw core module"""
