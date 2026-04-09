@@ -282,3 +282,40 @@ class ClawpackAgentRegistry:
                 result['_hook_context'] = post_result.additional_context
         
         return result
+
+
+    
+    async def fork_agent(self, task: str, **kwargs) -> Dict:
+        """Fork a sub-agent for a specific task (90% token savings)"""
+        from shared.fork import ForkConfig
+        
+        config = ForkConfig(**kwargs) if kwargs else None
+        result = await self.forks.fork(task, config)
+        
+        return {
+            'success': result.success,
+            'result': result.result,
+            'error': result.error,
+            'fork_id': result.fork_id,
+            'turns': result.turns_used,
+            'tokens': result.tokens_used,
+            'cache_hit': result.cache_hit,
+            'savings': result.cache_savings_tokens
+        }
+    
+    async def fork_many(self, tasks: List[str], **kwargs) -> List[Dict]:
+        """Fork multiple sub-agents in parallel"""
+        results = await self.forks.fork_many(tasks)
+        return [
+            {
+                'success': r.success,
+                'result': r.result,
+                'fork_id': r.fork_id,
+                'cache_hit': r.cache_hit
+            }
+            for r in results
+        ]
+    
+    def get_fork_stats(self) -> Dict:
+        """Get statistics about forked sub-agents"""
+        return self.forks.get_stats()
