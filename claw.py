@@ -7,7 +7,7 @@ from pathlib import Path
 
 AGENTS = {
     "lang": "agents/langclaw/langclaw.py",
-    "poly": "agents/interpretclaw/interpretclaw.py",
+    "interpret": "agents/interpretclaw/interpretclaw.py",
     "tx": "agents/txclaw/txclaw.py",
     "med": "agents/mediclaw/mediclaw.py",
     "law": "agents/lawclaw/lawclaw.py",
@@ -30,7 +30,7 @@ def main():
         print("\nUsage: python claw.py <agent>")
         print("\n🎯 LANGUAGE AGENTS:")
         print("  lang   - Langclaw (Language Teacher)")
-        print("  poly   - Polyclaw (Translator)")
+        print("  interpret - Interpretclaw (Translator)")
         print("\n💼 BUSINESS AGENTS:")
         print("  tx     - TXclaw (Blockchain)")
         print("  med    - Mediclaw (Medical)")
@@ -65,3 +65,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
