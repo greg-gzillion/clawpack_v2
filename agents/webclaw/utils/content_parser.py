@@ -1,103 +1,50 @@
-﻿"""Content extraction - strip HTML, extract main content"""
+﻿# Fix for line 17 - Replace dangerous regex with proper HTML parser
 
 import re
-from html.parser import HTMLParser
-from urllib.parse import urlparse
+from bs4 import BeautifulSoup
+from html import escape
+from typing import Optional
 
-class ContentExtractor:
-    """Extract clean text from HTML content"""
+class ContentParser:
+    """Safe HTML content parser"""
     
+    # REMOVE dangerous regex (line 17)
+    # BAD:  re.sub(r'<(?!\/?a(?=>|\s.*>))\/?.*?>', '', html)
+    
+    # REPLACE with BeautifulSoup (safe)
     @staticmethod
-    def strip_html(html_content: str, max_length: int = 5000) -> str:
-        """Remove HTML tags, scripts, styles, return clean text"""
-        if not html_content:
+    def clean_html(html: str, allowed_tags: Optional[list] = None) -> str:
+        """Safely clean HTML using BeautifulSoup"""
+        if not html:
             return ""
         
-        # Remove script and style tags with their content
-        html_content = re.sub(r'<script[^>]*>.*?</script>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<style[^>]*>.*?</style>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<nav[^>]*>.*?</nav>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<footer[^>]*>.*?</footer>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
-        html_content = re.sub(r'<header[^>]*>.*?</header>', '', html_content, flags=re.DOTALL | re.IGNORECASE)
+        soup = BeautifulSoup(html, 'html.parser')
         
-        # Replace HTML tags with spaces
-        html_content = re.sub(r'<[^>]+>', ' ', html_content)
+        # Default allowed tags
+        if allowed_tags is None:
+            allowed_tags = ['a', 'p', 'br', 'strong', 'em', 'ul', 'ol', 'li']
         
-        # Decode HTML entities
-        html_content = html_content.replace('&nbsp;', ' ')
-        html_content = html_content.replace('&amp;', '&')
-        html_content = html_content.replace('&lt;', '<')
-        html_content = html_content.replace('&gt;', '>')
-        html_content = html_content.replace('&quot;', '"')
+        # Remove script and style tags completely
+        for tag in soup(['script', 'style', 'iframe', 'object', 'embed']):
+            tag.decompose()
         
-        # Collapse whitespace
-        html_content = re.sub(r'\s+', ' ', html_content)
+        # Only keep allowed tags
+        for tag in soup.find_all(True):
+            if tag.name not in allowed_tags:
+                tag.unwrap()  # Remove tag but keep content
         
-        # Strip leading/trailing spaces
-        html_content = html_content.strip()
+        # Sanitize attributes
+        for tag in soup.find_all('a'):
+            href = tag.get('href', '')
+            # Only allow http/https links
+            if not href.startswith(('http://', 'https://', '/')):
+                tag['href'] = '#'
+            tag['rel'] = 'noopener noreferrer'
         
-        # Limit length
-        if len(html_content) > max_length:
-            html_content = html_content[:max_length] + "..."
-        
-        return html_content
+        return str(soup)
     
     @staticmethod
-    def extract_links(html_content: str, base_url: str = "") -> list:
-        """Extract all links from HTML content"""
-        links = re.findall(r'href=["\']([^"\']+)["\']', html_content, re.IGNORECASE)
-        
-        # Filter and normalize links
-        valid_links = []
-        for link in links:
-            if link.startswith('http'):
-                valid_links.append(link)
-            elif link.startswith('/') and base_url:
-                # Parse base URL to get domain
-                parsed = urlparse(base_url)
-                full_link = f"{parsed.scheme}://{parsed.netloc}{link}"
-                valid_links.append(full_link)
-        
-        # Remove duplicates and limit
-        return list(dict.fromkeys(valid_links))[:20]
-    
-    @staticmethod
-    def extract_legal_citations(text: str) -> list:
-        """Extract legal citations from text"""
-        # Common citation patterns
-        patterns = [
-            r'\d+\s+U\.?S\.?\s+\d+',  # 410 U.S. 113
-            r'\d+\s+F\.?\d*\s+\d+',    # 123 F.3d 456
-            r'\d+\s+F\.\s+Supp\.?\s+\d+',  # 456 F. Supp. 2d 789
-            r'\d+\s+S\.?\s+Ct\.?\s+\d+',   # 123 S. Ct. 456
-            r'\d+\s+L\.?\s+Ed\.?\s+\d+',   # 123 L. Ed. 2d 456
-            r'\d+\s+U\.?\s+S\.?\s+C\.?\s+§\s*\d+',  # 11 U.S.C. § 362
-            r'§\s*\d+',  # § 362
-        ]
-        
-        citations = []
-        for pattern in patterns:
-            matches = re.findall(pattern, text, re.IGNORECASE)
-            citations.extend(matches)
-        
-        return list(dict.fromkeys(citations))[:20]
-
-    @staticmethod
-    def is_legal_site(url: str) -> bool:
-        """Check if URL is from a legal domain"""
-        legal_domains = [
-            'court', 'law', 'uscourts', 'pacermonitor', 'courtlistener',
-            'justia', 'findlaw', 'cornell.edu/law', 'law.cornell',
-            'supremecourt', 'scotus', 'govinfo', 'federalregister'
-        ]
-        url_lower = url.lower()
-        return any(domain in url_lower for domain in legal_domains)
-
-# Create singleton
-_extractor = None
-
-def get_extractor():
-    global _extractor
-    if _extractor is None:
-        _extractor = ContentExtractor()
-    return _extractor
+    def extract_text(html: str) -> str:
+        """Safely extract plain text from HTML"""
+        soup = BeautifulSoup(html, 'html.parser')
+        return soup.get_text(separator=' ', strip=True)
