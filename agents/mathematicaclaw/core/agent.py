@@ -1,92 +1,172 @@
-﻿"""Mathematicaclaw Agent - Main coordinator"""
+﻿"""Mathematicaclaw - Mathematical computation agent"""
 
 import sys
 from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
+from typing import Dict, List, Optional
 
-from core.engine import MathEngine
-from core.session_manager import SessionManager
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-class MathematicaclawAgent:
-    """Mathematical computation AI agent"""
+from shared.agent import BaseAgent
+from shared.loop import ToolSafety
+from shared.memory import MemoryType
+
+
+class MathematicaclawAgent(BaseAgent):
+    """Mathematical computation agent with SymPy/Numpy"""
     
-    def __init__(self):
-        self.engine = MathEngine()
-        self.session = SessionManager()
+    def __init__(self, project_root: Optional[Path] = None):
+        super().__init__("Mathematicaclaw", project_root)
     
-    def solve(self, equation: str, variable: str = 'x'):
-        """Solve an equation"""
-        result = self.engine.solve_equation(equation, variable)
-        self.session.add_query("solve", equation)
-        return result
+    def _register_tools(self):
+        """Register math tools"""
+        self.register_tool("solve", self.solve, ToolSafety.READ_ONLY)
+        self.register_tool("derivative", self.derivative, ToolSafety.READ_ONLY)
+        self.register_tool("integral", self.integral, ToolSafety.READ_ONLY)
+        self.register_tool("simplify", self.simplify, ToolSafety.READ_ONLY)
+        self.register_tool("factor", self.factor, ToolSafety.READ_ONLY)
+        self.register_tool("expand", self.expand, ToolSafety.READ_ONLY)
+        self.register_tool("evaluate", self.evaluate, ToolSafety.READ_ONLY)
+        self.register_tool("stats", self.statistics, ToolSafety.READ_ONLY)
     
-    def derivative(self, expression: str, variable: str = 'x', order: int = 1):
-        """Calculate derivative"""
-        result = self.engine.derivative(expression, variable, order)
-        self.session.add_query("derivative", expression)
-        return result
+    def solve(self, equation: str, variable: str = "x") -> Dict:
+        """Solve an equation for given variable"""
+        try:
+            import sympy as sp
+            x = sp.Symbol(variable)
+            expr = sp.sympify(equation)
+            solutions = sp.solve(expr, x)
+            
+            result = {
+                "equation": equation,
+                "variable": variable,
+                "solutions": [str(s) for s in solutions],
+                "latex": sp.latex(solutions)
+            }
+            
+            self.remember(
+                MemoryType.FEEDBACK,
+                f"Solved: {equation}",
+                f"Solutions: {solutions}",
+                f"Equation: {equation}\nSolutions: {solutions}"
+            )
+            
+            return result
+        except Exception as e:
+            return {"error": str(e)}
     
-    def integral(self, expression: str, variable: str = 'x', a=None, b=None):
-        """Calculate integral"""
-        definite = (a, b) if a is not None and b is not None else None
-        result = self.engine.integral(expression, variable, definite)
-        self.session.add_query("integral", expression)
-        return result
+    def derivative(self, expression: str, variable: str = "x", order: int = 1) -> Dict:
+        """Calculate derivative of expression"""
+        try:
+            import sympy as sp
+            x = sp.Symbol(variable)
+            expr = sp.sympify(expression)
+            result = sp.diff(expr, x, order)
+            
+            return {
+                "expression": expression,
+                "derivative": str(result),
+                "order": order,
+                "latex": sp.latex(result)
+            }
+        except Exception as e:
+            return {"error": str(e)}
     
-    def simplify(self, expression: str):
+    def integral(self, expression: str, variable: str = "x") -> Dict:
+        """Calculate indefinite integral"""
+        try:
+            import sympy as sp
+            x = sp.Symbol(variable)
+            expr = sp.sympify(expression)
+            result = sp.integrate(expr, x)
+            
+            return {
+                "expression": expression,
+                "integral": str(result),
+                "latex": sp.latex(result)
+            }
+        except Exception as e:
+            return {"error": str(e)}
+    
+    def simplify(self, expression: str) -> Dict:
         """Simplify expression"""
-        result = self.engine.simplify(expression)
-        self.session.add_query("simplify", expression)
-        return result
+        try:
+            import sympy as sp
+            expr = sp.sympify(expression)
+            result = sp.simplify(expr)
+            
+            return {
+                "original": expression,
+                "simplified": str(result),
+                "latex": sp.latex(result)
+            }
+        except Exception as e:
+            return {"error": str(e)}
     
-    def factor(self, expression: str):
+    def factor(self, expression: str) -> Dict:
         """Factor expression"""
-        result = self.engine.factor(expression)
-        self.session.add_query("factor", expression)
-        return result
+        try:
+            import sympy as sp
+            expr = sp.sympify(expression)
+            result = sp.factor(expr)
+            
+            return {
+                "expression": expression,
+                "factored": str(result),
+                "latex": sp.latex(result)
+            }
+        except Exception as e:
+            return {"error": str(e)}
     
-    def expand(self, expression: str):
+    def expand(self, expression: str) -> Dict:
         """Expand expression"""
-        result = self.engine.expand(expression)
-        self.session.add_query("expand", expression)
-        return result
+        try:
+            import sympy as sp
+            expr = sp.sympify(expression)
+            result = sp.expand(expr)
+            
+            return {
+                "expression": expression,
+                "expanded": str(result),
+                "latex": sp.latex(result)
+            }
+        except Exception as e:
+            return {"error": str(e)}
     
-    def matrix(self, matrix_data: list, operation: str, **kwargs):
-        """Matrix operations"""
-        result = self.engine.matrix_operations(matrix_data, operation, **kwargs)
-        self.session.add_query("matrix", f"{operation}")
-        return result
+    def evaluate(self, expression: str, values: Dict[str, float]) -> Dict:
+        """Evaluate expression with given values"""
+        try:
+            import sympy as sp
+            expr = sp.sympify(expression)
+            result = expr.subs(values)
+            
+            return {
+                "expression": expression,
+                "values": values,
+                "result": float(result) if result.is_number else str(result),
+                "latex": sp.latex(result)
+            }
+        except Exception as e:
+            return {"error": str(e)}
     
-    def stats(self, data: list):
-        """Calculate statistics"""
-        result = self.engine.statistics(data)
-        self.session.add_query("stats", f"{len(data)} values")
-        return result
-    
-    def evaluate(self, expression: str, values: dict):
-        """Evaluate expression"""
-        result = self.engine.evaluate(expression, values)
-        self.session.add_query("evaluate", expression)
-        return result
-    
-    def solve_system(self, equations: list, variables: list):
-        """Solve system of equations"""
-        result = self.engine.solve_system(equations, variables)
-        self.session.add_query("system", f"{len(equations)} eqs")
-        return result
-    
-    def limit(self, expression: str, variable: str, point: float):
-        """Calculate limit"""
-        result = self.engine.limit(expression, variable, point)
-        self.session.add_query("limit", expression)
-        return result
-    
-    def series(self, expression: str, variable: str, point: float = 0, order: int = 6):
-        """Calculate series expansion"""
-        result = self.engine.series(expression, variable, point, order)
-        self.session.add_query("series", expression)
-        return result
-    
-    def get_stats(self):
-        """Get session statistics"""
-        return self.session.get_stats()
+    def statistics(self, data: List[float]) -> Dict:
+        """Calculate basic statistics"""
+        try:
+            import numpy as np
+            arr = np.array(data)
+            
+            return {
+                "mean": float(np.mean(arr)),
+                "median": float(np.median(arr)),
+                "std": float(np.std(arr)),
+                "variance": float(np.var(arr)),
+                "min": float(np.min(arr)),
+                "max": float(np.max(arr)),
+                "count": len(data)
+            }
+        except Exception as e:
+            return {"error": str(e)}
+
+
+# Register the agent
+from shared.agent import ClawpackAgentRegistry
+ClawpackAgentRegistry.register("mathematicaclaw", MathematicaclawAgent)

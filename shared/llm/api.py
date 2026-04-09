@@ -1,4 +1,5 @@
-﻿# Fix for line 94 - Remove sensitive data logging
+﻿from shared.prompt.slot_reservation import SlotReservation
+# Fix for line 94 - Remove sensitive data logging
 # Change from:
 #     print(f"API Key: {api_key}, Request: {request_data}")
 # To:
@@ -29,3 +30,4 @@ class LLMAPI:
         
         # ... rest of implementation
         return {}
+
