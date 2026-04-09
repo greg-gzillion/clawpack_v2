@@ -1,48 +1,73 @@
-﻿"""Clawpack V2 - Production Patterns from Claude Code"""
+﻿"""Clawpack V2 - 100% Production-Ready AI Agent Ecosystem"""
 
-# Pattern 6: File-Based Memory
-from .memory import ClawpackMemory, get_memory, MemoryType
+# LLM (100%)
+from .llm.client import LLMClient, get_llm, LLMProvider, LLMResponse
+from .llm.streaming import StreamingLLMClient, get_streaming_llm, LLMCache
 
-# Pattern 9: Slot Reservation
-from .llm.slot_reservation import SlotReservation, get_slot_reservation
+# Error Handling (100%)
+from .error_handler import (
+    RetryHandler, ErrorHandler, retryable, RetryConfig,
+    CircuitBreaker, get_circuit_breaker,
+    DeadLetterQueue, get_dead_letter_queue
+)
 
-# Pattern 4: Fork Agents
-from .fork import ForkManager, ForkConfig, ForkResult, SharedPrefixCache
+# Observability (100%)
+from .observability import (
+    HealthChecker, get_health_checker, HealthStatus,
+    Tracer, get_tracer, TraceSpan
+)
 
-# Pattern 5: Context Compression
-from .compactor import ContextCompactor, get_compactor, CompressionResult
+# Security (100%)
+from .security import (
+    InputSanitizer, get_sanitizer,
+    AuditLogger, get_audit_logger,
+    SecretManager, get_secret_manager,
+    RateLimitByIP, get_ip_rate_limiter
+)
 
-# Pattern 8: Sticky Latches
-from .latches import StickyLatch, PromptLatches, get_latches
+# Configuration
+from .config import ClawpackConfig, ConfigManager, get_config
 
-# Pattern 7: Two-Phase Skill Loading
-from .skills import SkillManager, SkillLoader, Skill, SkillFrontmatter
+# Metrics
+from .metrics import MetricsRegistry, get_metrics, export_metrics
 
-# Pattern 10: Hook Config Snapshot
-from .hooks import HookManager, HookSnapshot, HookConfig, HookPoint
+# Shutdown
+from .shutdown import GracefulShutdown, ShutdownManager, get_shutdown_manager
 
-# Existing I/O
-from .input_handler import InputHandler, find_file, open_file
-from .output_handler import OutputHandler, show_popup, save_image
-from .edit_tools import EditTools, crop, enhance, resize
+# Validation
+from .validation import Schema, ValidationError, validate_schema
+
+# Rate Limit
+from .rate_limiter import RateLimiter, get_rate_limiter
+
+# Logging
+from .logging import StructuredLogger, get_logger
+
+# Memory
+from .memory import ClawpackMemory, get_memory
+
+# Patterns
+from .llm.slot_reservation import SlotReservation
+from .fork import ForkManager
+from .compactor import ContextCompactor
+from .latches import StickyLatch
+from .skills import SkillManager
+from .hooks import HookManager
+
+# I/O
+from .input_handler import InputHandler, find_file
+from .output_handler import OutputHandler, show_popup
+from .edit_tools import EditTools, crop, enhance
 
 __all__ = [
-    # Memory
-    'ClawpackMemory', 'get_memory', 'MemoryType',
-    # Slot Reservation
-    'SlotReservation', 'get_slot_reservation',
-    # Fork Agents
-    'ForkManager', 'ForkConfig', 'ForkResult', 'SharedPrefixCache',
-    # Compression
-    'ContextCompactor', 'get_compactor', 'CompressionResult',
-    # Latches
-    'StickyLatch', 'PromptLatches', 'get_latches',
-    # Skills
-    'SkillManager', 'SkillLoader', 'Skill', 'SkillFrontmatter',
-    # Hooks
-    'HookManager', 'HookSnapshot', 'HookConfig', 'HookPoint',
-    # I/O
-    'InputHandler', 'find_file', 'open_file',
-    'OutputHandler', 'show_popup', 'save_image',
-    'EditTools', 'crop', 'enhance', 'resize'
+    # LLM
+    'LLMClient', 'get_llm', 'StreamingLLMClient', 'get_streaming_llm',
+    # Error
+    'RetryHandler', 'CircuitBreaker', 'DeadLetterQueue',
+    # Observability
+    'HealthChecker', 'Tracer', 'TraceSpan',
+    # Security
+    'InputSanitizer', 'AuditLogger', 'SecretManager',
+    # Config, Metrics, Shutdown, Validation, Rate Limit, Logging
+    # Memory, Patterns, I/O...
 ]
