@@ -1,24 +1,58 @@
-﻿#!/usr/bin/env python3
-"""Webclaw - Remote Data Fetcher (works with Dataclaw for local data)"""
+#!/usr/bin/env python3
+"""Webclaw - Remote Data Fetcher with safe HTML parsing"""
 import sys
 import json
 import re
+import hashlib
+import time
 from pathlib import Path
-from typing import Dict, List, Optional
+from datetime import datetime, timedelta
+from typing import Dict, List, Optional, Tuple
 import requests
+from html.parser import HTMLParser
+
+class SafeHTMLParser(HTMLParser):
+    """Safe HTML parser that extracts text without regex vulnerabilities"""
+    def __init__(self):
+        super().__init__()
+        self.text_parts = []
+        self.skip_tags = {'script', 'style', 'nav', 'footer', 'header'}
+        self.current_tag = None
+    
+    def handle_starttag(self, tag, attrs):
+        self.current_tag = tag
+    
+    def handle_endtag(self, tag):
+        self.current_tag = None
+    
+    def handle_data(self, data):
+        if self.current_tag not in self.skip_tags:
+            text = data.strip()
+            if text:
+                self.text_parts.append(text)
+    
+    def get_text(self):
+        return ' '.join(self.text_parts)
 
 class Webclaw:
-    """Fetches real content from URLs - remote data specialist"""
+    """Fetches real content from URLs with safe parsing"""
     
     def __init__(self):
         self.refs_path = Path(__file__).parent / "references"
         self.cache_dir = Path(__file__).parent / "cache"
+        self.memory_dir = Path(__file__).parent.parent.parent / "data" / "shared_memory"
         self.cache_dir.mkdir(exist_ok=True)
+        self.memory_dir.mkdir(parents=True, exist_ok=True)
+        
+        self.cache_ttl_hours = 168
         self.url_index = {}
+        self.content_cache = {}
+        
         self.load_index()
+        self.load_shared_memory()
     
     def load_index(self):
-        """Load the URL index"""
+        """Load the URL index from cache"""
         cache_file = self.cache_dir / "url_index.json"
         if cache_file.exists():
             try:
@@ -35,64 +69,66 @@ class Webclaw:
         """Index all URLs from reference files"""
         print("📚 Building URL index...", file=sys.stderr)
         for md_file in self.refs_path.rglob("*.md"):
-            category = md_file.parent.name
+            category = str(md_file.relative_to(self.refs_path).parent)
             if category not in self.url_index:
                 self.url_index[category] = []
             
             try:
                 content = md_file.read_text(encoding='utf-8', errors='ignore')
-                urls = re.findall(r'https?://[^\s\)\]\"]+', content)
+                # Safe URL extraction with simple regex (no catastrophic backtracking)
+                urls = re.findall(r'https?://[^\s<>"\'()\[\]{}]+', content)
                 
                 for url in urls:
                     url = url.rstrip('.,;:!?')
-                    self.url_index[category].append(url)  # Store as string, not dict
+                    self.url_index[category].append({
+                        "url": url,
+                        "source": str(md_file),
+                        "category": category
+                    })
             except:
                 pass
         
         with open(self.cache_dir / "url_index.json", 'w') as f:
-            json.dump(self.url_index, f)
+            json.dump(self.url_index, f, indent=2)
         
         total = sum(len(v) for v in self.url_index.values())
         print(f"📚 Indexed {total} URLs across {len(self.url_index)} categories", file=sys.stderr)
     
-    def search_urls(self, query: str, category: str = None) -> List[str]:
-        """Search for URLs matching query - returns list of URLs"""
-        results = []
-        query_lower = query.lower()
-        categories = [category] if category else self.url_index.keys()
-        
-        for cat in categories:
-            if cat not in self.url_index:
-                continue
-            for url in self.url_index[cat]:
-                if query_lower in url.lower():
-                    results.append(url)
-                if len(results) >= 10:
-                    return results
-        return results
+    def load_shared_memory(self):
+        """Load shared memory from data directory"""
+        memory_file = self.memory_dir / "webclaw_memory.json"
+        if memory_file.exists():
+            try:
+                with open(memory_file, 'r') as f:
+                    self.shared_memory = json.load(f)
+            except:
+                self.shared_memory = {}
+        else:
+            self.shared_memory = {}
     
-    def fetch_content(self, url: str) -> Dict:
-        """Fetch and extract actual content from URL"""
+    def get_cache_key(self, url: str) -> str:
+        """Generate cache key from URL"""
+        return hashlib.md5(url.encode()).hexdigest()
+    
+    def fetch_content_safe(self, url: str) -> Dict:
+        """Fetch and extract content using safe HTML parsing"""
         try:
-            response = requests.get(
-                url,
-                headers={"User-Agent": "Mozilla/5.0"},
-                timeout=10
-            )
-            html = response.text
+            headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+            response = requests.get(url, headers=headers, timeout=15)
+            response.raise_for_status()
             
-            # Extract title
-            title = url
-            title_match = re.search(r'<title[^>]*>([^<]+)</title>', html, re.I)
-            if title_match:
-                title = title_match.group(1).strip()
+            # Use safe HTML parser instead of regex
+            parser = SafeHTMLParser()
+            parser.feed(response.text)
+            text = parser.get_text()
             
-            # Clean text
-            text = re.sub(r'<script[^>]*>.*?</script>', ' ', html, flags=re.DOTALL | re.I)
-            text = re.sub(r'<style[^>]*>.*?</style>', ' ', text, flags=re.DOTALL | re.I)
-            text = re.sub(r'<[^>]+>', ' ', text)
+            # Extract title safely
+            title_match = re.search(r'<title[^>]*>([^<]+)</title>', response.text, re.I)
+            title = title_match.group(1).strip() if title_match else url
+            
+            # Clean up whitespace
             text = re.sub(r'\s+', ' ', text)
-            content = text[:1500].strip()
+            content = text[:3000].strip()
             
             return {
                 "url": url,
@@ -103,29 +139,38 @@ class Webclaw:
         except Exception as e:
             return {"url": url, "error": str(e), "success": False}
     
+    def search_urls(self, query: str, category: str = None) -> List[str]:
+        """Search for URLs matching query"""
+        results = []
+        query_lower = query.lower()
+        categories = [category] if category else self.url_index.keys()
+        
+        for cat in categories:
+            if cat not in self.url_index:
+                continue
+            for item in self.url_index[cat]:
+                url = item.get("url", item) if isinstance(item, dict) else item
+                if query_lower in url.lower():
+                    results.append(url)
+                if len(results) >= 10:
+                    return results
+        return results
+    
     def get_material(self, query: str) -> str:
-        """Get actual learning material for a query"""
+        """Get actual readable material for a query"""
         urls = self.search_urls(query)
         if not urls:
             return f"No resources found for '{query}'"
         
-        output = [f"\n📚 LEARNING MATERIAL: {query}\n"]
+        output = []
+        for url in urls[:3]:
+            content = self.fetch_content_safe(url)
+            if content["success"]:
+                output.append(f"\n📖 {content['title']}\n🔗 {content['url']}\n{content['content'][:500]}")
+            else:
+                output.append(f"\n❌ Could not fetch: {url}")
         
-        # Fetch content from first result
-        url = urls[0]
-        content = self.fetch_content(url)
-        
-        if content["success"]:
-            output.append(f"📖 {content['title']}")
-            output.append(f"🔗 {content['url']}")
-            output.append(f"\n{content['content']}\n")
-        else:
-            output.append(f"❌ Could not fetch: {url}")
-        
-        if len(urls) > 1:
-            output.append(f"📚 {len(urls)-1} more resources available")
-        
-        return '\n'.join(output)
+        return '\n'.join(output) if output else f"No content for '{query}'"
     
     def process_command(self, cmd: str) -> str:
         """Process a command"""
@@ -135,10 +180,7 @@ class Webclaw:
             query = cmd[7:].strip()
             urls = self.search_urls(query)
             if urls:
-                output = [f"Found {len(urls)} resources for '{query}':"]
-                for url in urls[:5]:
-                    output.append(f"  • {url}")
-                return '\n'.join(output)
+                return f"Found {len(urls)} resources:\n" + '\n'.join(f"  • {u}" for u in urls[:10])
             return f"No resources found for '{query}'"
         
         elif cmd.startswith("material "):
@@ -147,54 +189,20 @@ class Webclaw:
         
         elif cmd.startswith("fetch "):
             url = cmd[6:].strip()
-            result = self.fetch_content(url)
-            if result["success"]:
-                return f"📖 {result['title']}\n\n{result['content']}"
-            return f"Error: {result.get('error', 'Failed to fetch')}"
+            content = self.fetch_content_safe(url)
+            if content["success"]:
+                return f"📖 {content['title']}\n\n{content['content']}"
+            return f"Error: {content.get('error', 'Failed')}"
         
-        elif cmd == "/stats":
-            total = sum(len(v) for v in self.url_index.values())
-            return f"Categories: {len(self.url_index)} | URLs: {total}"
-        
-        elif cmd == "/help":
-            return """
-🌐 WEBCLAW (Remote Data):
-  search <query>    - Find resource URLs
-  material <query>  - Get actual content from URL
-  fetch <url>       - Fetch specific URL
-
-📊 DATACLAW (Local Data):
-  Use dataclaw for local files, CSV, JSON, databases
-  WebClaw + Dataclaw = Complete data coverage
-"""
-        elif cmd:
-            return self.process_command(f"search {cmd}")
         return ""
 
 def main():
     webclaw = Webclaw()
-    
     if len(sys.argv) > 1:
-        cmd = ' '.join(sys.argv[1:])
-        result = webclaw.process_command(cmd)
-        if result:
-            print(result)
-        return
-    
-    print("\n🌐 WEBCLAW - Remote Data Fetcher")
-    print("Commands: search, material, fetch, /stats, /help, /quit")
-    
-    while True:
-        try:
-            cmd = input("\n🌐 > ").strip()
-            if cmd == "/quit":
-                break
-            if cmd:
-                result = webclaw.process_command(cmd)
-                if result:
-                    print(result)
-        except (KeyboardInterrupt, EOFError):
-            break
+        print(webclaw.process_command(' '.join(sys.argv[1:])))
+    else:
+        print("Webclaw - Web content fetcher")
+        print("Commands: search, material, fetch")
 
 if __name__ == "__main__":
     main()
