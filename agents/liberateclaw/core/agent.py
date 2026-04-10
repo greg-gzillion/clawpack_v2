@@ -1,91 +1,103 @@
-﻿"""liberateclaw Core Logic"""
-import sys
+"""liberateclaw Core Logic - Model Liberation"""
+import subprocess
+import json
 from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 class liberateclawCore:
-    """Core processing logic for liberateclaw"""
+    """Core processing logic for model liberation"""
+    
+    def __init__(self):
+        self.liberated_dir = Path.home() / ".clawpack" / "liberated"
+        self.liberated_dir.mkdir(parents=True, exist_ok=True)
     
     def process(self, query: str) -> str:
-        """Process a query"""
-        # Original logic from the simple agent
-        #!/usr/bin/env python3
-"""liberateclaw - Universal CLI wrapper"""
-import sys
-import subprocess
-from pathlib import Path
-
-def process_command(cmd: str) -> str:
-    """Process a command"""
-    cmd = cmd.strip()
-    
-    if cmd == "/help":
-        return "liberateclaw Commands: /help, /stats, /quit"
-    elif cmd == "/stats":
-        return "liberateclaw - Ready"
-    elif cmd == "/quit":
-        return ""
-    elif cmd:
-        # Try to route to webclaw for search
-        try:
-            webclaw = Path(__file__).parent.parent / "webclaw" / "webclaw.py"
-            if webclaw.exists():
-                result = subprocess.run(
-                    [sys.executable, str(webclaw), "search", cmd],
-                    capture_output=True,
-                    text=True,
-                    timeout=10
-                )
-                output = result.stdout.strip()
-                if output and "No URLs found" not in output:
-                    return f"[liberateclaw] {output[:500]}"
-        except:
-            pass
+        """Process a liberation command"""
+        cmd = query.strip().lower()
         
-        return f"[liberateclaw] Processing: {cmd}"
+        if cmd == "/help":
+            return self._help()
+        elif cmd == "/stats":
+            return self._stats()
+        elif cmd == "/liberated":
+            return self._list_liberated()
+        elif cmd.startswith("/liberate "):
+            return self._liberate(cmd[10:].strip())
+        elif cmd.startswith("/use "):
+            return self._use_liberated(cmd[5:].strip())
+        else:
+            return f"Unknown: {cmd}. Type /help"
     
-    return ""
+    def _help(self) -> str:
+        return """
+🦞 LIBERATECLAW - Model Liberation Agent
+
+Commands:
+  /help                 - Show this help
+  /stats                - Show statistics
+  /liberated            - List liberated models
+  /liberate <model>     - Liberate a model
+  /use <model> <prompt> - Use a liberated model
+
+Examples:
+  /liberate llama3.2:3b
+  /use llama3.2:3b "Tell me a story"
+"""
+    
+    def _stats(self) -> str:
+        count = len(list(self.liberated_dir.glob("*")))
+        return f"Liberated models: {count}\nDirectory: {self.liberated_dir}"
+    
+    def _list_liberated(self) -> str:
+        models = list(self.liberated_dir.glob("*"))
+        if not models:
+            return "No liberated models yet. Use /liberate <model>"
+        return "Liberated models:\n" + "\n".join(f"  • {m.name}" for m in models)
+    
+    def _liberate(self, args: str) -> str:
+        """Liberate a model"""
+        model = args.strip()
+        model_slug = model.replace("/", "_").replace(":", "_")
+        model_dir = self.liberated_dir / model_slug
+        model_dir.mkdir(exist_ok=True)
+        
+        # Create info file
+        info = {"model": model, "liberated": True}
+        (model_dir / "info.json").write_text(json.dumps(info, indent=2))
+        
+        return f"✅ Liberated {model}\nSaved to {model_dir}"
+    
+    def _use_liberated(self, args: str) -> str:
+        """Use a liberated model"""
+        parts = args.split(maxsplit=1)
+        if len(parts) < 2:
+            return "Usage: /use <model> <prompt>"
+        
+        model, prompt = parts
+        model_slug = model.replace("/", "_").replace(":", "_")
+        model_dir = self.liberated_dir / model_slug
+        
+        if not model_dir.exists():
+            return f"❌ Model '{model}' not liberated. Use /liberate first."
+        
+        # Try to run with ollama
+        try:
+            result = subprocess.run(
+                ["ollama", "run", model, prompt],
+                capture_output=True,
+                text=True,
+                timeout=60
+            )
+            return result.stdout.strip() if result.stdout else f"Error: {result.stderr}"
+        except Exception as e:
+            return f"Error: {e}"
 
 def main():
-    # CLI mode - single command
+    core = liberateclawCore()
     if len(sys.argv) > 1:
-        cmd = ' '.join(sys.argv[1:])
-        result = process_command(cmd)
-        if result:
-            print(result)
-        return
-    
-    # Piped input mode
-    if not sys.stdin.isatty():
-        for line in sys.stdin:
-            cmd = line.strip()
-            if cmd and cmd != "/quit":
-                result = process_command(cmd)
-                if result:
-                    print(result)
-        return
-    
-    # Interactive mode
-    print(f"\nliberateclaw - Interactive Mode")
-    print("Type /help for commands, /quit to exit")
-    
-    while True:
-        try:
-            cmd = input("> ").strip()
-            if cmd == "/quit":
-                break
-            if cmd:
-                result = process_command(cmd)
-                if result:
-                    print(result)
-        except (KeyboardInterrupt, EOFError):
-            break
+        print(core.process(' '.join(sys.argv[1:])))
+    else:
+        print("Liberateclaw - Model Liberation Agent")
+        print("Type /help for commands")
 
 if __name__ == "__main__":
     main()
-
-        return f"[liberateclaw] Processing: {query}"
-
-    def _help(self) -> str:
-        return "liberateclaw Commands: /help, /stats, /quit"

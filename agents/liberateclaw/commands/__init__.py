@@ -1,1 +1,1 @@
-﻿"""liberateclaw commands module"""
+# Commands for liberateclaw
