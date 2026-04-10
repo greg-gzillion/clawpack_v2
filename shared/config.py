@@ -246,3 +246,7 @@ def get_config(workspace: Path = None) -> ConfigManager:
     if _config_manager is None:
         _config_manager = ConfigManager(workspace)
     return _config_manager
+# Add to existing config.py
+class SharedMemory:
+    """Memory management integrated with config"""
+    pass

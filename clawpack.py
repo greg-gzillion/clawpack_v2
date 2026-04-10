@@ -1,115 +1,117 @@
 ﻿#!/usr/bin/env python3
-"""CLAWPACK - Unified Agent Router"""
+"""CLAWPACK - Unified Agent System with QueryLoop"""
 import sys
-import subprocess
+import asyncio
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+
+from core.query import QueryLoop, QueryConfig
+from core.agent_loader import AgentLoader
+from core.llm_manager import LLMManager
 
 class Clawpack:
     def __init__(self):
-        self.agents_path = Path("agents")
-        self.agent_map = {
-            "translate": {"agent": "interpretclaw", "cmd": "translate {text} to {target}"},
-            "speak": {"agent": "interpretclaw", "cmd": "speak {text}"},
-            "math": {"agent": "mathematicaclaw", "cmd": "solve {equation}"},
-            "plot": {"agent": "plotclaw", "cmd": "plot {expression}"},
-            "dream": {"agent": "dreamclaw", "cmd": "dream {prompt}"},
-            "flowchart": {"agent": "flowclaw", "cmd": "flowchart {steps}"},
-        }
-    
-    def route(self, user_input: str) -> tuple:
-        text = user_input.lower()
-        
-        if "translate" in text and " to " in text:
-            parts = user_input.split(" to ")
-            text_part = parts[0].replace("translate ", "").strip()
-            target = parts[1].strip()
-            return ("translate", {"text": text_part, "target": target})
-        
-        if "speak" in text:
-            content = user_input.replace("speak ", "").strip()
-            return ("speak", {"text": content})
-        
-        if "solve" in text:
-            eq = user_input.replace("solve ", "").strip()
-            return ("math", {"equation": eq})
-        
-        if "plot" in text:
-            expr = user_input.replace("plot ", "").strip()
-            return ("plot", {"expression": expr})
-        
-        if "dream" in text:
-            prompt = user_input.replace("dream ", "").strip()
-            return ("dream", {"prompt": prompt})
-        
-        if "flowchart" in text:
-            steps = user_input.replace("flowchart ", "").strip()
-            return ("flowchart", {"steps": steps})
-        
-        return (None, None)
-    
-    def execute(self, task: str, params: dict) -> str:
-        if task not in self.agent_map:
-            return None
-        
-        config = self.agent_map[task]
-        agent = config["agent"]
-        cmd_template = config["cmd"]
-        cmd = cmd_template.format(**params)
-        
-        agent_path = self.agents_path / agent / f"{agent}.py"
-        if not agent_path.exists():
-            return f"Agent not found: {agent}"
-        
-        try:
-            result = subprocess.run(
-                [sys.executable, str(agent_path), cmd],
-                capture_output=True,
-                text=True,
-                timeout=30,
-                cwd=str(self.agents_path.parent)
-            )
-            
-            output = result.stdout.strip()
-            if not output:
-                output = result.stderr.strip()
-            
-            lines = output.split('\n')
-            cleaned = []
-            for line in lines:
-                if line and not line.startswith('=') and not line.startswith('Commands:') and not line.startswith('Example:') and line != '>':
-                    cleaned.append(line)
-            
-            return '\n'.join(cleaned) if cleaned else "Done"
-            
-        except Exception as e:
-            return f"Error: {e}"
-    
-    def run(self):
         print("\n" + "="*50)
-        print("CLAWPACK")
+        print("🦞 CLAWPACK v2 - Agentic System")
         print("="*50)
-        print("Commands: translate, speak, solve, plot, dream, flowchart")
+        
+        self.loader = AgentLoader()
+        self.agents = self.loader.load_all()
+        self.llm = LLMManager()
+        
+        # Create QueryLoop
+        self.config = QueryConfig(
+            max_turns=10,
+            auto_compact=True,
+            permission_mode="default"
+        )
+        self.loop = QueryLoop(self.config, {})
+        
+        print(f"\n✅ {len(self.agents)} agents | {len(self.llm.llms)} LLMs")
+        print("Using QueryLoop generator pattern")
+        print("Commands: translate, solve, search, dream, /help, /quit")
+    
+    async def run_async(self):
+        """Run with async generator"""
+        messages = []
         
         while True:
             try:
-                cmd = input("\n> ").strip()
+                cmd = input("\n🦞 > ").strip()
                 if not cmd:
                     continue
                 if cmd == "/quit":
                     break
-                if cmd == "/help":
-                    print("translate <text> to <lang> | speak <text> | solve <eq> | plot <expr> | dream <prompt>")
+                if cmd == "/llms":
+                    print(self.llm.list_models())
+                    continue
+                if cmd.startswith("/use "):
+                    print(self.llm.select_model(cmd[5:]))
+                    continue
+                if cmd.startswith("/mode "):
+                    mode_str = cmd[6:].strip()
+                    mode_map = {
+                        "plan": "plan", "default": "default", 
+                        "auto": "auto", "bypass": "bypass"
+                    }
+                    if mode_str in mode_map:
+                        self.config.permission_mode = mode_str
+                        print(f"🔒 Permission mode: {mode_str}")
+                    else:
+                        print(f"Unknown mode. Use: plan, default, auto, bypass")
+                    continue
+                if cmd == "/perms":
+                    from shared.permissions import get_permission_system
+                    perms = get_permission_system()
+                    stats = perms.get_stats()
+                    print(f"\n🔒 Permission Stats:")
+                    print(f"  Mode: {stats['mode']}")
+                    print(f"  Requests: {stats['total_requests']}")
+                    print(f"  Allowed: {stats['allowed']}")
+                    print(f"  Denied: {stats['denied']}")
+                    continue
+
+                    print(self._help())
                     continue
                 
-                task, params = self.route(cmd)
-                if task and params:
-                    print(f"[{self.agent_map[task]['agent']}] ", end="", flush=True)
-                    result = self.execute(task, params)
-                    print(result)
-                else:
-                    print("Try: translate Hello to Spanish | solve x**2=4 | dream lobster | speak Hello")
-            except KeyboardInterrupt:
+                # Add user message
+                messages.append({"role": "user", "content": cmd})
+                
+                # Run query loop
+                print(f"\n🤖 Processing...")
+                async for message in self.loop.query(messages):
+                    if message.get("role") == "assistant":
+                        print(f"\n🦞 {message['content']}")
+                    elif message.get("tool_result"):
+                        print(f"  🔧 {message['tool_result']}")
+                
+            except (KeyboardInterrupt, EOFError):
+                print("\nGoodbye!")
                 break
+    
+    def run(self):
+        """Synchronous wrapper"""
+        asyncio.run(self.run_async())
+    
+    def _help(self):
+        return """
+🦞 CLAWPACK COMMANDS:
+  /llms              - List all LLMs
+  /use <model>       - Select model
+  /help              - Show this help
+  /mode <mode>       - Set permission mode (plan/default/auto/bypass)
+  /perms             - Show permission stats
+  /quit              - Exit
+
+  translate <text> to <lang>
+  speak <text>
+  solve <equation>
+  search <query>
+  dream <prompt>
+"""
 
 if __name__ == "__main__":
     Clawpack().run()
+
+

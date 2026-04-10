@@ -1,0 +1,20 @@
+{
+  "conversations": [],
+  "learned_facts": {
+    "Python is popular for AI": {
+      "source": "dataclaw",
+      "learned_at": "2026-04-09T18:07:52.774475",
+      "confidence": 1.0
+    }
+  },
+  "agent_states": {
+    "interpretclaw": {
+      "last_translation": "Hello -> Hola",
+      "last_updated": "2026-04-09T18:07:52.773491"
+    },
+    "webclaw": {
+      "cached_urls": 32003,
+      "last_updated": "2026-04-09T18:07:52.774979"
+    }
+  }
+}

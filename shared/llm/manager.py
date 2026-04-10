@@ -1,4 +1,4 @@
-﻿"""LLM Manager with sync support"""
+﻿"""LLM Manager with liberated model preference"""
 import json
 import asyncio
 from pathlib import Path
@@ -7,8 +7,9 @@ from .openrouter import OpenRouterProvider
 from .anthropic import AnthropicProvider
 
 class LLMManager:
-    def __init__(self):
+    def __init__(self, prefer_liberated: bool = True):
         self.providers = []
+        self.prefer_liberated = prefer_liberated
         self.load_working_llms()
         self.timeout = 10
     
@@ -18,7 +19,14 @@ class LLMManager:
             return
         
         data = json.loads(config_path.read_text())
-        priority_order = ["openrouter", "ollama", "anthropic"]
+        
+        # Prioritize liberated models if enabled
+        if self.prefer_liberated:
+            liberated = [m for m in data if "liberated" in m["model"]]
+            standard = [m for m in data if "liberated" not in m["model"]]
+            data = liberated + standard
+        
+        priority_order = ["openrouter", "anthropic", "ollama"]
         
         for source in priority_order:
             for item in data:
@@ -45,35 +53,13 @@ class LLMManager:
         if not self.providers:
             return None
         
-        preferences = {
-            "translate": ["openrouter", "ollama"],
-            "default": ["openrouter", "ollama"]
-        }
-        
-        for source in preferences.get(task, ["openrouter"]):
+        # Use liberated models for creative/freeform tasks
+        if task in ["creative", "dream", "brainstorm"]:
             for p in self.providers:
-                if p.source == source:
+                if "liberated" in p.model:
                     return p
-        return self.providers[0] if self.providers else None
-    
-    def call_with_fallback_sync(self, prompt: str, task: str = "default") -> str:
-        provider = self.get_best_for_task(task)
-        if not provider:
-            return "No LLM available"
         
-        try:
-            return asyncio.run(provider.call(prompt, 150))
-        except:
-            for fallback in self.providers:
-                if fallback != provider:
-                    try:
-                        return asyncio.run(fallback.call(prompt, 150))
-                    except:
-                        continue
-        return "Request failed"
-    
-    async def call_with_fallback(self, prompt: str, task: str = "default") -> str:
-        return self.call_with_fallback_sync(prompt, task)
+        return self.providers[0]
     
     def list_providers(self):
         return [str(p) for p in self.providers]

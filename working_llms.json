@@ -62,5 +62,33 @@
   {
     "source": "anthropic",
     "model": "claude-3-haiku"
+  },
+  {
+    "source": "ollama",
+    "model": "llama3.2-liberated"
+  },
+  {
+    "source": "ollama",
+    "model": "codellama-liberated"
+  },
+  {
+    "source": "ollama",
+    "model": "qwen3-vl-liberated"
+  },
+  {
+    "source": "ollama",
+    "model": "qwen3-coder-liberated"
+  },
+  {
+    "source": "ollama",
+    "model": "deepseek-r1-liberated"
+  },
+  {
+    "source": "ollama",
+    "model": "gemma3-liberated"
+  },
+  {
+    "source": "ollama",
+    "model": "deepseek-coder-liberated"
   }
 ]

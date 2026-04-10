@@ -1,18 +1,74 @@
-﻿"""TXclaw - TX Blockchain Reference Agent"""
-
+﻿#!/usr/bin/env python3
+"""TXclaw - Universal CLI wrapper"""
 import sys
+import subprocess
 from pathlib import Path
 
-# Add parent directories to path
-sys.path.insert(0, str(Path(__file__).parent))
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-
-from cli.interface import TXclawCLI
+def process_command(cmd: str) -> str:
+    """Process a command"""
+    cmd = cmd.strip()
+    
+    if cmd == "/help":
+        return "TXclaw Commands: /help, /stats, /quit"
+    elif cmd == "/stats":
+        return "TXclaw - Ready"
+    elif cmd == "/quit":
+        return ""
+    elif cmd:
+        # Try to route to webclaw for search
+        try:
+            webclaw = Path(__file__).parent.parent / "webclaw" / "webclaw.py"
+            if webclaw.exists():
+                result = subprocess.run(
+                    [sys.executable, str(webclaw), "search", cmd],
+                    capture_output=True,
+                    text=True,
+                    timeout=10
+                )
+                output = result.stdout.strip()
+                if output and "No URLs found" not in output:
+                    return f"[TXclaw] {output[:500]}"
+        except:
+            pass
+        
+        return f"[TXclaw] Processing: {cmd}"
+    
+    return ""
 
 def main():
-    """Main entry point for TXclaw"""
-    cli = TXclawCLI()
-    cli.run()
+    # CLI mode - single command
+    if len(sys.argv) > 1:
+        cmd = ' '.join(sys.argv[1:])
+        result = process_command(cmd)
+        if result:
+            print(result)
+        return
+    
+    # Piped input mode
+    if not sys.stdin.isatty():
+        for line in sys.stdin:
+            cmd = line.strip()
+            if cmd and cmd != "/quit":
+                result = process_command(cmd)
+                if result:
+                    print(result)
+        return
+    
+    # Interactive mode
+    print(f"\nTXclaw - Interactive Mode")
+    print("Type /help for commands, /quit to exit")
+    
+    while True:
+        try:
+            cmd = input("> ").strip()
+            if cmd == "/quit":
+                break
+            if cmd:
+                result = process_command(cmd)
+                if result:
+                    print(result)
+        except (KeyboardInterrupt, EOFError):
+            break
 
 if __name__ == "__main__":
     main()

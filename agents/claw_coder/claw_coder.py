@@ -1,93 +1,74 @@
 ﻿#!/usr/bin/env python3
-"""ClawCoder - Multi-language Code Generation Agent"""
-
+"""claw_coder - Universal CLI wrapper"""
 import sys
+import subprocess
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
-
-from core.orchestrator import LanguageOrchestrator
-from core.memory import SharedMemory
-
-class ClawCoder:
-    def __init__(self):
-        self.memory = SharedMemory()
-        self.orchestrator = LanguageOrchestrator()
-        self.running = True
+def process_command(cmd: str) -> str:
+    """Process a command"""
+    cmd = cmd.strip()
     
-    def run(self):
-        self._print_welcome()
+    if cmd == "/help":
+        return "claw_coder Commands: /help, /stats, /quit"
+    elif cmd == "/stats":
+        return "claw_coder - Ready"
+    elif cmd == "/quit":
+        return ""
+    elif cmd:
+        # Try to route to webclaw for search
+        try:
+            webclaw = Path(__file__).parent.parent / "webclaw" / "webclaw.py"
+            if webclaw.exists():
+                result = subprocess.run(
+                    [sys.executable, str(webclaw), "search", cmd],
+                    capture_output=True,
+                    text=True,
+                    timeout=10
+                )
+                output = result.stdout.strip()
+                if output and "No URLs found" not in output:
+                    return f"[claw_coder] {output[:500]}"
+        except:
+            pass
         
-        while self.running:
-            try:
-                cmd = input("\n🔧 claw_coder> ").strip()
-                if not cmd:
-                    continue
-                
-                if cmd == "/quit" or cmd == "/exit":
-                    print("Goodbye!")
-                    break
-                elif cmd == "/help":
-                    self._print_help()
-                elif cmd == "/languages":
-                    self._list_languages()
-                elif cmd.startswith("/generate"):
-                    self._generate(cmd[9:].strip())
-                elif cmd.startswith("/analyze"):
-                    self._analyze(cmd[8:].strip())
-                else:
-                    print(f"Unknown: {cmd}. Type /help")
-                    
-            except KeyboardInterrupt:
-                print("\nGoodbye!")
+        return f"[claw_coder] Processing: {cmd}"
+    
+    return ""
+
+def main():
+    # CLI mode - single command
+    if len(sys.argv) > 1:
+        cmd = ' '.join(sys.argv[1:])
+        result = process_command(cmd)
+        if result:
+            print(result)
+        return
+    
+    # Piped input mode
+    if not sys.stdin.isatty():
+        for line in sys.stdin:
+            cmd = line.strip()
+            if cmd and cmd != "/quit":
+                result = process_command(cmd)
+                if result:
+                    print(result)
+        return
+    
+    # Interactive mode
+    print(f"\nclaw_coder - Interactive Mode")
+    print("Type /help for commands, /quit to exit")
+    
+    while True:
+        try:
+            cmd = input("> ").strip()
+            if cmd == "/quit":
                 break
-    
-    def _print_welcome(self):
-        print("\n" + "█"*70)
-        print("█" + " "*68 + "█")
-        print("█" + " "*15 + "🔧 CLAWCODER - MULTI-LANGUAGE CODE AGENT 🔧" + " "*15 + "█")
-        print("█" + " "*68 + "█")
-        print("█"*70)
-        self._print_help()
-    
-    def _print_help(self):
-        print("\n" + "="*60)
-        print("COMMANDS")
-        print("="*60)
-        print("  /languages          - List supported languages")
-        print("  /generate <lang> <prompt> - Generate code")
-        print("  /analyze <file>     - Analyze code file")
-        print("  /help               - This menu")
-        print("  /quit               - Exit")
-        print("="*60)
-        print(f"\n💡 Supported languages: {', '.join(self.orchestrator.list_languages())}")
-    
-    def _list_languages(self):
-        print(f"\n📚 Supported languages:\n")
-        for lang in sorted(self.orchestrator.list_languages()):
-            print(f"  • {lang}")
-    
-    def _generate(self, args: str):
-        if not args:
-            print("Usage: /generate <language> <prompt>")
-            print("Example: /generate python 'function to sort a list'")
-            return
-        
-        parts = args.split(" ", 1)
-        if len(parts) < 2:
-            print("❌ Please specify both language and prompt")
-            return
-        
-        lang, prompt = parts[0].lower(), parts[1]
-        print(f"\n🔧 Generating {lang} code...\n")
-        
-        result = self.orchestrator.generate(lang, prompt)
-        print(result)
-    
-    def _analyze(self, filepath: str):
-        print(f"\n🔍 Analyzing {filepath}...")
-        print("(Coming soon)")
+            if cmd:
+                result = process_command(cmd)
+                if result:
+                    print(result)
+        except (KeyboardInterrupt, EOFError):
+            break
 
 if __name__ == "__main__":
-    agent = ClawCoder()
-    agent.run()
+    main()

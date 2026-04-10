@@ -209,3 +209,19 @@ def get_metrics() -> MetricsRegistry:
 
 def export_metrics() -> str:
     return _registry.collect_all()
+# Learning metrics for agent improvement
+class LearningMetrics:
+    def __init__(self):
+        self.success_rates = {}
+        self.pattern_effectiveness = {}
+    
+    def record_success(self, agent: str, pattern: str, success: bool):
+        if agent not in self.success_rates:
+            self.success_rates[agent] = {"success": 0, "total": 0}
+        self.success_rates[agent]["total"] += 1
+        if success:
+            self.success_rates[agent]["success"] += 1
+    
+    def get_best_patterns(self, agent: str) -> list:
+        return sorted(self.pattern_effectiveness.get(agent, {}).items(), 
+                     key=lambda x: x[1], reverse=True)[:5]
