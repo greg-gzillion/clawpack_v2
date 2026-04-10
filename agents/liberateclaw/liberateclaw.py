@@ -5,14 +5,12 @@ import subprocess
 import json
 from pathlib import Path
 
-# Add parent to path
+# Add parent to path for shared modules
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from shared.base_agent import BaseAgent
 
 class liberateclawCore:
-    """Core processing logic for model liberation"""
-    
     def __init__(self):
         self.liberated_dir = Path.home() / ".clawpack" / "liberated"
         self.liberated_dir.mkdir(parents=True, exist_ok=True)
@@ -29,7 +27,7 @@ class liberateclawCore:
         elif cmd.startswith("/liberate "):
             return self._liberate(cmd[10:].strip())
         elif cmd.startswith("/use "):
-            return self._use_liberated(cmd[5:].strip())
+            return self._use(cmd[5:].strip())
         else:
             return f"Unknown: {cmd}. Type /help"
     
@@ -45,8 +43,8 @@ Commands:
   /use <model> <prompt> - Use a liberated model
 
 Examples:
-  /liberate llama3.2:3b
-  /use llama3.2:3b "Tell me a story"
+  /liberate tinyllama:1.1b
+  /use tinyllama:1.1b "Tell me a story"
 """
     
     def _stats(self) -> str:
@@ -69,17 +67,12 @@ Examples:
         
         return f"✅ Liberated {model}\nSaved to {model_dir}"
     
-    def _use_liberated(self, args: str) -> str:
+    def _use(self, args: str) -> str:
         parts = args.split(maxsplit=1)
         if len(parts) < 2:
             return "Usage: /use <model> <prompt>"
         
         model, prompt = parts
-        model_slug = model.replace("/", "_").replace(":", "_")
-        model_dir = self.liberated_dir / model_slug
-        
-        if not model_dir.exists():
-            return f"❌ Model '{model}' not liberated. Use /liberate first."
         
         try:
             result = subprocess.run(
@@ -105,11 +98,10 @@ def main():
     agent = liberateclawAgent()
     
     if len(sys.argv) > 1:
-        cmd = ' '.join(sys.argv[1:])
-        print(agent.handle(cmd))
+        print(agent.handle(' '.join(sys.argv[1:])))
         return
     
-    print("\n🎯 liberateclaw - Model Liberation Agent")
+    print("\n🦞 LIBERATECLAW - Model Liberation Agent")
     print("Type /help for commands, /quit to exit")
     
     while True:
