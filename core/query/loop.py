@@ -1,9 +1,11 @@
-﻿"""The Query Loop - Heartbeat of Clawpack"""
+"""The Query Loop - Heartbeat of Clawpack with Hooks integration"""
 import asyncio
 import subprocess
 import sys
 from pathlib import Path
-from typing import AsyncGenerator, List, Dict, Any
+from typing import AsyncGenerator, List, Dict, Any, Optional
+
+from shared.hooks import HookEvent, HookContext, get_hook_manager
 
 class QueryConfig:
     def __init__(self, max_turns=10, auto_compact=True, permission_mode="default"):
@@ -16,9 +18,10 @@ class QueryLoop:
         self.config = config
         self.context = context
         self.agents_path = Path("agents")
+        self.hook_manager = get_hook_manager()
     
     async def query(self, messages: List[Dict]) -> AsyncGenerator[Dict, None]:
-        """Execute the agent loop"""
+        """Execute the agent loop with hooks"""
         if not messages:
             yield {"role": "assistant", "content": "No messages"}
             return
@@ -26,102 +29,145 @@ class QueryLoop:
         last_msg = messages[-1]
         user_input = last_msg.get("content", "").strip()
         
-        # Route to appropriate agent
-        agent_name, command = self._route_command(user_input)
+        # Parse command
+        parts = user_input.split(maxsplit=1)
+        cmd = parts[0].lower()
+        args = parts[1] if len(parts) > 1 else ""
         
-        if agent_name:
-            result = await self._execute_agent(agent_name, command)
-            yield {"role": "assistant", "content": result}
-        else:
-            yield {"role": "assistant", "content": f"Unknown command: {user_input}"}
+        # Get agent name
+        agent_name = self._get_agent_for_command(cmd)
+        
+        if not agent_name:
+            agent_name = "mathematicaclaw"
+        
+        # Create hook context
+        hook_context = HookContext(
+            event=HookEvent.PRE_TOOL_USE,
+            tool_name=cmd,
+            tool_input={"command": user_input, "args": args},
+            session_id=id(self),
+        )
+        
+        # Run PRE_TOOL_USE hooks
+        hook_result = await self.hook_manager.run(HookEvent.PRE_TOOL_USE, hook_context)
+        
+        # Check if hook blocked
+        if hook_result.block:
+            yield {"role": "assistant", "content": f"⛔ Blocked: {hook_result.reason}"}
+            return
+        
+        # Use modified input if provided
+        final_user_input = user_input
+        if hook_result.modified_input:
+            final_user_input = hook_result.modified_input.get("command", user_input)
+        
+        # Add hook context to output if provided
+        if hook_result.additional_context:
+            yield {"role": "assistant", "content": f"📎 {hook_result.additional_context}"}
+        
+        # Execute the agent
+        result = await self._execute_agent(agent_name, final_user_input)
+        
+        # Run POST_TOOL_USE hooks
+        post_context = HookContext(
+            event=HookEvent.POST_TOOL_USE,
+            tool_name=cmd,
+            tool_input={"command": final_user_input, "result": result},
+            session_id=id(self),
+        )
+        await self.hook_manager.run(HookEvent.POST_TOOL_USE, post_context)
+        
+        yield {"role": "assistant", "content": result}
     
-    def _route_command(self, user_input: str) -> tuple:
-        """Route command to appropriate agent - returns (agent_name, command)"""
-        cmd_lower = user_input.lower()
+    def _get_agent_for_command(self, cmd: str) -> Optional[str]:
+        """Route command to appropriate agent"""
+        # Math commands
+        math_commands = ["add", "solve", "plot", "derivative", "diff", "integral", "int", 
+                         "simplify", "factor", "expand", "limit", "power", "sqrt", "percent"]
+        if cmd in math_commands:
+            return "mathematicaclaw"
         
         # Translation
-        if cmd_lower.startswith("translate"):
-            return "interpretclaw", user_input
+        if cmd in ["translate", "speak"]:
+            return "interpretclaw"
         
-        # Speak
-        elif cmd_lower.startswith("speak"):
-            return "interpretclaw", user_input
+        # Web search
+        if cmd in ["search", "material", "fetch", "browse"]:
+            return "webclaw"
         
-        # Math
-        elif cmd_lower.startswith("solve"):
-            return "mathematicaclaw", user_input
+        # Image generation
+        if cmd == "dream":
+            return "dreamclaw"
         
-        # Plot
-        elif cmd_lower.startswith("plot"):
-            return "plotclaw", user_input
+        # Legal
+        if cmd in ["law", "court", "legal"]:
+            return "lawclaw"
         
-        # Dream
-        elif cmd_lower.startswith("dream"):
-            return "dreamclaw", user_input
+        # Medical
+        if cmd in ["med", "medical"]:
+            return "mediclaw"
         
-        # Search
-        elif cmd_lower.startswith("search"):
-            return "webclaw", user_input
+        # Data
+        if cmd in ["data", "analyze"]:
+            return "dataclaw"
         
-        # Court
-        elif "/court" in cmd_lower:
-            return "lawclaw", user_input
+        # Language
+        if cmd in ["lang", "lesson"]:
+            return "langclaw"
         
-        # Stats/Data
-        elif "/stats" in cmd_lower or cmd_lower.startswith("analyze"):
-            return "dataclaw", user_input
+        # Blockchain
+        if cmd == "tx":
+            return "txclaw"
         
         # Documents
-        elif "/list" in cmd_lower:
-            return "docuclaw", user_input
+        if cmd in ["doc", "document"]:
+            return "docuclaw"
         
-        # Flowchart
-        elif "flowchart" in cmd_lower:
-            return "flowclaw", user_input
+        # Diagrams
+        if cmd in ["flow", "flowchart", "diagram"]:
+            return "flowclaw"
         
-        # Default - try webclaw
-        else:
-            return "webclaw", f"search {user_input}"
+        # Drawing
+        if cmd in ["draw", "draft"]:
+            return "draftclaw"
+        
+        # Design
+        if cmd == "design":
+            return "designclaw"
+        
+        # Code
+        if cmd in ["code", "coder"]:
+            return "claw_coder"
+        
+        # Default to mathematicaclaw
+        return "mathematicaclaw"
     
     async def _execute_agent(self, agent_name: str, command: str) -> str:
         """Execute an agent with the given command"""
-        agent_path = self.agents_path / agent_name / f"{agent_name}.py"
+        agent_file = self.agents_path / agent_name / f"{agent_name}.py"
         
-        if not agent_path.exists():
-            return f"Agent not found: {agent_name}"
+        if not agent_file.exists():
+            return f"❌ Agent '{agent_name}' not found"
         
         try:
-            # Run agent as subprocess
-            result = subprocess.run(
-                [sys.executable, str(agent_path), command],
+            # Run the agent in a subprocess
+            result = await asyncio.to_thread(
+                subprocess.run,
+                [sys.executable, str(agent_file), command],
                 capture_output=True,
                 text=True,
-                timeout=30,
+                timeout=60,
                 cwd=str(Path.cwd())
             )
             
-            output = result.stdout.strip()
-            if not output:
-                output = result.stderr.strip()
-            
-            # Clean up output
-            lines = []
-            for line in output.split('\n'):
-                line = line.strip()
-                if line and not line.startswith('===') and not line.startswith('COMMANDS'):
-                    if '█' not in line:
-                        lines.append(line)
-            
-            clean_output = '\n'.join(lines).strip()
-            
-            if clean_output:
-                return clean_output
+            if result.stdout:
+                return result.stdout.strip()
+            elif result.stderr:
+                return f"⚠️ {result.stderr.strip()}"
             else:
-                return f"[{agent_name}] No output"
+                return f"✅ Command executed"
                 
         except subprocess.TimeoutExpired:
-            return f"[{agent_name}] Command timed out"
+            return f"⏰ Command timed out after 60 seconds"
         except Exception as e:
-            return f"[{agent_name}] Error: {e}"
-
-__all__ = ['QueryLoop', 'QueryConfig']
+            return f"❌ Error: {str(e)}"
