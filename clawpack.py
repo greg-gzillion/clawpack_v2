@@ -5,7 +5,6 @@ import sys
 import os
 from pathlib import Path
 
-# Add project root to path
 PROJECT_ROOT = Path(__file__).resolve().parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
@@ -31,20 +30,18 @@ class Clawpack:
             "liberateclaw": "LiberateClaw - Model Liberation",
             "langclaw": "LangClaw - Language Teacher",
             "claw_coder": "ClawCoder - Code Generation",
-            "lawclaw": "LawClaw - Legal References",
+            "lawclaw": "LawClaw - Research",
             "mediclaw": "MedicClaw - Medical References",
             "rustypycraw": "RustyPyCraw - Code Crawler",
         }
         
         for name, desc in agents.items():
             try:
-                # Try to import the agent
                 agent_path = self.agents_dir / name
                 if agent_path.exists():
                     sys.path.insert(0, str(agent_path))
                     module = __import__(name)
                     
-                    # Find the agent class
                     agent_class = None
                     for attr in dir(module):
                         if attr.lower() == f"{name}agent" or attr.endswith("Agent"):
@@ -90,18 +87,48 @@ class Clawpack:
                     self._list_agents()
                     continue
                 
-                # Try to route to appropriate agent
+                # Route to appropriate agent based on command prefix
                 routed = False
-                for name, agent in self.agents.items():
-                    if cmd.startswith(f"/{name}"):
-                        args = cmd[len(name)+2:].strip()
-                        result = agent.handle(args) if hasattr(agent, 'handle') else agent.process("view", args.split())
+                
+                # Check for lawclaw commands
+                if cmd.startswith("/court") or cmd.startswith("/statute") or cmd.startswith("/case") or cmd.startswith("/search"):
+                    if "lawclaw" in self.agents:
+                        result = self.agents["lawclaw"].handle(cmd)
                         print(result)
                         routed = True
-                        break
+                
+                # Check for liberateclaw commands
+                elif cmd.startswith("/liberate") or cmd.startswith("/models") or cmd.startswith("/use"):
+                    if "liberateclaw" in self.agents:
+                        result = self.agents["liberateclaw"].handle(cmd)
+                        print(result)
+                        routed = True
+                
+                # Check for flowclaw commands
+                elif cmd.startswith("/flowchart") or cmd.startswith("/diagram"):
+                    if "flowclaw" in self.agents:
+                        result = self.agents["flowclaw"].handle(cmd)
+                        print(result)
+                        routed = True
+                
+                # Check for docuclaw commands
+                elif cmd.startswith("/create") or cmd.startswith("/document"):
+                    if "docuclaw" in self.agents:
+                        result = self.agents["docuclaw"].handle(cmd)
+                        print(result)
+                        routed = True
+                
+                # Generic agent command (e.g., /agentname args)
+                elif cmd.startswith("/"):
+                    parts = cmd[1:].split(maxsplit=1)
+                    agent_name = parts[0].lower()
+                    if agent_name in self.agents:
+                        args = parts[1] if len(parts) > 1 else ""
+                        result = self.agents[agent_name].handle(args)
+                        print(result)
+                        routed = True
                 
                 if not routed:
-                    # Default to general response
                     print(f"I understand: {cmd}")
                     print("Try /help for available commands")
             
@@ -122,16 +149,26 @@ class Clawpack:
 ║    /agents               - List all agents                      ║
 ║    /quit                 - Exit Clawpack                        ║
 ║                                                                  ║
-║  AGENT-SPECIFIC COMMANDS:                                       ║
+║  LawClaw COMMANDS:                                      ║
+║    /court <code>         - Court information (az, co, federal)  ║
+║    /statute <cite>       - Statute lookup                      ║
+║    /case <name>          - Case information                    ║
+║                                                                  ║
+║  MODEL COMMANDS (liberateclaw):                                 ║
+║    /models               - List available LLM models           ║
+║    /liberate <model>     - Download a model                    ║
+║    /use <model> <prompt> - Use a model                         ║
+║                                                                  ║
+║  OTHER AGENTS:                                                  ║
 ║    /flowclaw <task>      - Generate diagrams                   ║
 ║    /docuclaw <task>      - Process documents                   ║
 ║    /txclaw <task>        - Blockchain operations               ║
-║    /liberateclaw <cmd>   - Model liberation                    ║
 ║                                                                  ║
-║  EXAMPLES:                                                       ║
-║    /flowclaw view flowchart "user login"                       ║
-║    /docuclaw create letter                                      ║
-║    /liberateclaw /models                                        ║
+║  EXAMPLES:                                                      ║
+║    /court az                                                  ║
+║    /court co Clear Creek                                     ║
+║    /models                                                    ║
+║    /liberate tinyllama:1.1b                                   ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝""")
     
@@ -142,16 +179,12 @@ class Clawpack:
             print(f"  • {name}: {desc}")
 
 class SimpleAgent:
-    """Simple fallback agent"""
     def __init__(self, name, description):
         self.name = name
         self.description = description
     
     def handle(self, query):
         return f"{self.name}: Processing '{query[:100]}'"
-    
-    def process(self, cmd, args):
-        return self.handle(' '.join(args))
 
 def main():
     claw = Clawpack()
