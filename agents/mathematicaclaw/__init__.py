@@ -1,4 +1,5 @@
-"""Mathematicaclaw - Math Agent"""
-from .mathematicaclaw import run_command, interactive, main
+"""MathematicaClaw - Mathematics and Visualization Agent"""
 
-__all__ = ['run_command', 'interactive', 'main']
+from .mathematicaclaw import MathematicaClawAgent
+
+__all__ = ['MathematicaClawAgent']

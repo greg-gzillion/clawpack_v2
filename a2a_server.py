@@ -149,7 +149,7 @@ class A2AHandler(BaseHTTPRequestHandler):
         pass
 
 def main():
-    port = 8765
+    port = 8766
     server = HTTPServer(('127.0.0.1', port), A2AHandler)
     print(f"\n🦞 Clawpack A2A Server v2.0 - {len(AGENTS)} agents")
     print(f"📍 http://127.0.0.1:{port}")

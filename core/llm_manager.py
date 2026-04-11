@@ -1,53 +1,91 @@
-"""LLM Manager - Handles multiple LLM providers"""
-
+"""LLM Manager - Groq first, Ollama fallback"""
+import json
 import os
+import subprocess
 from pathlib import Path
-from typing import Optional, Dict, List
+from typing import Optional, Dict
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class LLMManager:
     def __init__(self):
+        self.llms = []
+        self.selected_model: Optional[Dict] = None
+        self.load_config()
         self.groq_client = None
-        self.ollama_client = None
-        self.available_models = []
         self._init_groq()
-        self._init_ollama()
     
     def _init_groq(self):
-        try:
-            from groq import Groq
-            api_key = os.environ.get('GROQ_API_KEY')
-            if api_key:
+        """Initialize Groq client if API key available"""
+        api_key = os.getenv("GROQ_API_KEY")
+        if api_key and api_key != "gsk_your_groq_api_key_here":
+            try:
+                from groq import Groq
                 self.groq_client = Groq(api_key=api_key)
-                print("⚡ Groq available", file=sys.stderr)
-        except:
-            pass
+                print("✅ Groq client initialized")
+            except Exception as e:
+                print(f"⚠️ Groq init failed: {e}")
     
-    def _init_ollama(self):
-        try:
-            import requests
-            response = requests.get('http://localhost:11434/api/tags', timeout=2)
-            if response.status_code == 200:
-                self.ollama_client = True
-                print("🦙 Ollama available", file=sys.stderr)
-        except:
-            pass
+    def load_config(self):
+        config_path = Path("working_llms.json")
+        if config_path.exists():
+            data = json.loads(config_path.read_text())
+            self.llms = data
     
-    def chat_sync(self, prompt: str, task_type: str = "general") -> str:
-        """Synchronous chat completion"""
+    def list_models(self) -> str:
+        if not self.llms:
+            return "No LLMs configured"
+        output = [f"\n📦 Working LLMs ({len(self.llms)} total):\n"]
+        sources = {}
+        for llm in self.llms:
+            src = llm["source"]
+            if src not in sources:
+                sources[src] = []
+            sources[src].append(llm["model"])
+        for src, models in sources.items():
+            output.append(f"\n{src.upper()} ({len(models)}):")
+            for m in models:
+                marker = " ✅" if self.selected_model and self.selected_model["model"] == m else ""
+                output.append(f"  • {m}{marker}")
+        return '\n'.join(output)
+    
+    def chat_sync(self, prompt: str, model: str = None) -> str:
+        """Chat using Groq (fast) or fallback to Ollama"""
+        
+        # Try Groq first
         if self.groq_client:
             try:
-                response = self.groq_client.chat.completions.create(
-                    model="llama-3.3-70b-versatile",
+                model_name = model or os.getenv("DEFAULT_MODEL", "llama3-8b-8192")
+                completion = self.groq_client.chat.completions.create(
+                    model=model_name,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.7,
-                    max_tokens=4096
+                    max_tokens=1024
                 )
-                return response.choices[0].message.content
-            except:
-                pass
+                return completion.choices[0].message.content
+            except Exception as e:
+                print(f"Groq error: {e}, falling back to Ollama")
         
-        # Fallback response
-        return f"[LLM Response] Processed: {prompt[:100]}..."
+        # Fallback to Ollama
+        try:
+            ollama_model = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
+            result = subprocess.run(
+                ["ollama", "run", ollama_model, prompt],
+                capture_output=True,
+                text=True,
+                timeout=60
+            )
+            if result.returncode == 0 and result.stdout:
+                return result.stdout.strip()
+            return f"Ollama error: {result.stderr}"
+        except Exception as e:
+            return f"Error: {e}"
 
-def get_llm_manager() -> LLMManager:
-    return LLMManager()
+_llm_manager = None
+
+def get_llm_manager():
+    global _llm_manager
+    if _llm_manager is None:
+        _llm_manager = LLMManager()
+    return _llm_manager

@@ -1,71 +1,81 @@
 #!/usr/bin/env python3
-"""Mathematicaclaw - Math Agent with Plotting"""
+"""MathematicaClaw - Mathematics and Visualization Agent"""
+
 import sys
+import subprocess
 from pathlib import Path
 
-def process_command(cmd: str) -> str:
-    cmd = cmd.strip()
-    parts = cmd.split(maxsplit=1)
-    command = parts[0].lower() if parts else ""
-    args = parts[1] if len(parts) > 1 else ""
-    
-    # Try to load command from commands folder
-    cmd_file = Path(__file__).parent / "commands" / f"{command}.py"
-    if cmd_file.exists():
-        import importlib.util
-        spec = importlib.util.spec_from_file_location(command, cmd_file)
-        module = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(module)
-        if hasattr(module, 'run'):
-            return module.run(args)
-    
-    # Built-in commands fallback
-    if command == "plot":
-        from commands.plot import run
-        return run(args)
-    elif command == "add":
-        from commands.add import run
-        return run(args)
-    elif command == "solve":
-        from commands.solve import run
-        return run(args)
-    elif command == "/help":
-        return """
-📐 MATHEMATICACLAW
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
-Commands:
-  add 2 3 4     - Add numbers
-  plot x**2     - Plot function (opens window)
-  solve x**2=16 - Solve equation
-  /help         - This help
-  /quit         - Exit
+class MathematicaClawAgent:
+    def __init__(self):
+        self.name = "mathematicaclaw"
+        self.llm = None
+        self._init_llm()
+        self._init_visualizer()
+    
+    def _init_llm(self):
+        try:
+            from core.llm_manager import get_llm_manager
+            self.llm = get_llm_manager()
+        except:
+            pass
+    
+    def _init_visualizer(self):
+        try:
+            from agents.mathematicaclaw.ai_visualizer import ai_visualizer
+            self.visualizer = ai_visualizer
+        except:
+            self.visualizer = None
+    
+    def handle(self, cmd: str) -> str:
+        cmd = cmd.strip()
+        
+        if cmd.startswith("/visualize"):
+            return self.visualize(cmd[10:].strip())
+        elif cmd.startswith("/solve"):
+            return self.solve(cmd[6:].strip())
+        elif cmd.startswith("/plot"):
+            return self.plot(cmd[5:].strip())
+        else:
+            return self._help()
+    
+    def visualize(self, request: str) -> str:
+        if not request:
+            return "Usage: /visualize <description>\nExample: /visualize show me a wave"
+        
+        if self.visualizer:
+            return self.visualizer.visualize(request)
+        return "Visualizer not available. Please install matplotlib and numpy."
+    
+    def solve(self, equation: str) -> str:
+        return f"Solving: {equation}\n(LLM integration coming soon)"
+    
+    def plot(self, function: str) -> str:
+        return f"Plotting: {function}\n(Use /visualize for AI-powered plotting)"
+    
+    def _help(self):
+        return """
+MATHEMATICACLAW - Mathematics and Visualization
+
+COMMANDS:
+  /visualize <description>  - AI-powered math visualization
+  /solve <equation>         - Solve equations
+  /plot <function>          - Plot functions
+
+EXAMPLES:
+  /visualize show me a wave
+  /visualize show me a 3D mountain
+  /visualize show me a fractal
 """
-    elif command == "/quit":
-        return "QUIT"
-    else:
-        return f"Unknown: {command}. Try add, plot, or solve"
 
 def main():
+    agent = MathematicaClawAgent()
     if len(sys.argv) > 1:
-        print(process_command(' '.join(sys.argv[1:])))
-        return
-    
-    print("\n📐 MATHEMATICACLAW - Math Agent")
-    print("Type /help for commands, /quit to exit")
-    
-    while True:
-        try:
-            cmd = input("\nmath> ").strip()
-            if cmd == "/quit":
-                break
-            if cmd:
-                result = process_command(cmd)
-                print(result)
-                if result == "QUIT":
-                    break
-        except KeyboardInterrupt:
-            print("\nGoodbye!")
-            break
+        print(agent.handle(' '.join(sys.argv[1:])))
+    else:
+        print(agent._help())
 
 if __name__ == "__main__":
     main()

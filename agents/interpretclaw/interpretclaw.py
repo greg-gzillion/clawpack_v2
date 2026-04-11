@@ -63,3 +63,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Add to clawpack integration
+def process_command(cmd, *args):
+    """Simple command processor for clawpack"""
+    if cmd == "translate":
+        text = ' '.join(args[:-1]) if len(args) > 1 else ''
+        lang = args[-1] if args else 'spanish'
+        return f"Translating '{text}' to {lang}... (AI would do this)"
+    elif cmd == "speak":
+        return f"Speaking: {' '.join(args)}"
+    else:
+        return "InterpretClaw ready. Commands: translate, speak"
