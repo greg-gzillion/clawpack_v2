@@ -1,0 +1,24 @@
+graph LR
+    start([Start])
+    start -->|Email Input| EmailInputBox
+    EmailInputBox -->|Validate Email| ValidateEmail
+    ValidateEmail -->|Valid| IsEmailValid
+    IsEmailValid -->|Yes| EmailVerificationLinkSent
+    IsEmailValid -->|No| InvalidEmail
+    EmailVerificationLinkSent -->|User Receives Email| Sleep
+    Sleep -->|User Clicks Email Link| EmailLinkActivated
+    EmailLinkActivated -->|Validate Email Link| ValidateEmailLink
+    ValidateEmailLink -->|Valid| IsEmailVerified
+    IsEmailVerified -->|Yes| LoginPrompt
+    IsEmailVerified -->|No| InvalidEmailLink
+    LoginPrompt -->|User Input| LoginInputBox
+    LoginInputBox -->|Validate Login| ValidateLogin
+    ValidateLogin -->|Valid| IsLoginCorrect
+    IsLoginCorrect -->|Yes| Authenticated
+    IsLoginCorrect -->|No| InvalidCredentials
+    InvalidCredentials -->|Retry| GoToStart
+    Authenticated -->|Successful| Success
+    InvalidEmail -->|Retry| GoToStart
+    InvalidEmailLink -->|Retry| GoToStart
+    GoToStart -->|Start Over| Start
+    end

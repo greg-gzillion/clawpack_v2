@@ -1,0 +1,10 @@
+flowchart TD
+    A[User Initiates Login] -->|Enter Credentials| B[Validate Credentials]
+    B -->|Valid| C[Grant Access]
+    B -->|Invalid| D[Notify Error]
+    C -->|Access Granted| E[Direct to Dashboard]
+    D -->|Error| F[Direct to Error Page]
+    E --> G[Logout Option]
+    F --> G
+    G --> H[End]
+    A --> H

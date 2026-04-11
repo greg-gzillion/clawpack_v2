@@ -1,0 +1,6 @@
+flowchart TD
+    A[Payment Received] --> B[Validate Payment]
+    B -->|Valid| C[Process Payment]
+    B -->|Invalid| D[Notify Customer]
+    C --> E[Send Confirmation]
+    E --> F[End]

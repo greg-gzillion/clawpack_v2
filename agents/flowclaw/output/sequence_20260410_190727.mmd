@@ -1,0 +1,25 @@
+```mermaid
+sequenceDiagram
+    participant Client as "Client Application"
+    participant Server as "Server Application"
+    participant AP as "Authentication Provider"
+
+    note "Client initiates REST API call to Server"
+    Client->>Server: POST /api/data HTTP/1.1
+    alt "Client is authenticated"
+        Client->>AP: Auth request for token
+        AP->>Client: Token response
+        Client->>Server: Authorization: Bearer <token>
+        Server->>Server: Validate token
+        alt "Token is valid"
+            Server->>Server: Process request
+            Server->>Client: Response
+        else "Token is invalid"
+            Server->>Server: Return 401 Unauthorized
+        end
+    else "Client is not authenticated"
+        Server->>Client: Return 401 Unauthorized
+    end
+```
+
+In this sequence diagram, the client application initiates a POST request to the server. The client is either authenticated or not, and the server handles the request accordingly. The authentication provider is used to authenticate the client.

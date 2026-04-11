@@ -1,0 +1,23 @@
+{
+  "testnet": {
+    "rpc": "https://rpc.testnet.tx.org",
+    "rest": "https://rest.testnet.tx.org",
+    "chain_id": "tx-testnet-1",
+    "fee_denom": "utx",
+    "gas_price": "0.025"
+  },
+  "mainnet": {
+    "rpc": "https://rpc.tx.org",
+    "rest": "https://rest.tx.org",
+    "chain_id": "tx-mainnet-1",
+    "fee_denom": "utx",
+    "gas_price": "0.025"
+  },
+  "local": {
+    "rpc": "http://localhost:26657",
+    "rest": "http://localhost:1317",
+    "chain_id": "tx-local",
+    "fee_denom": "utx",
+    "gas_price": "0.025"
+  }
+}

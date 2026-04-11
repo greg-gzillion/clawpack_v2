@@ -1,1 +1,1 @@
-﻿"""Langclaw commands module"""
+# Commands for langclaw

@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-"""Add command"""
 def run(args):
+    """Add numbers"""
     try:
         nums = [float(x) for x in args.split()]
         return f"Sum: {sum(nums)}"

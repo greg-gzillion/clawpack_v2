@@ -1,0 +1,12 @@
+```mermaid
+graph LR
+    A[User Input] --> B{Validate Input}
+    B -->|Valid| C[Hash Password]
+    C --> D[Compare Hash]
+    B -->|Invalid| E[Display Error]
+    D -->|Match| F[Login Successful]
+    D -->|No Match| E[Display Error]
+    E --> G[Return to Login Page]
+    F --> H[Display Dashboard]
+    G --> H[Return to Login Page]
+```

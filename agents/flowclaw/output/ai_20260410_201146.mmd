@@ -1,0 +1,7 @@
+flowchart TD
+    Start[Begin Payment Processing] --> PaymentReceived{Is Payment Received?}
+    PaymentReceived -->|Yes| CheckAmount[Check Payment Amount]
+    CheckAmount -->|Valid| ProcessPayment[Process Payment]
+    ProcessPayment -->|Success| End[Payment Processed]
+    PaymentReceived -->|No| Error[Payment Not Received]
+    Error --> End

@@ -1,0 +1,9 @@
+graph TB
+    subgraph Frontend
+        A[UI Component]
+    end
+    subgraph Backend  
+        B[API Server]
+    end
+    A-->|Request|B
+    B-->|Response|A

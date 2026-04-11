@@ -1,4 +1,4 @@
-"""Voice/STT routing"""
+"""Voice/STT routing (uses interpretclaw)"""
 class VoiceRoutes:
     commands = ['/listen']
     agent = 'interpretclaw'

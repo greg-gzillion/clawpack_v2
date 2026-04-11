@@ -1,0 +1,5 @@
+flowchart TD
+    Start --> Check_Email_Format{Is email valid?}
+    Check_Email_Format -->|Yes| Validate_Credentials[] --> Login_Successful[]
+    Check_Email_Format -->|No| Display_Error[] --> Start
+    Login_Successful --> End

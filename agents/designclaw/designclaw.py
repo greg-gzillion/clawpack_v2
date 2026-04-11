@@ -54,3 +54,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    def _search_chronicle(self, query):
+        from shared.chronicle_helper import search_chronicle
+        results = search_chronicle(query)
+        if results:
+            return "\n".join([f"  • {r.url}" for r in results[:5]])
+        return "  No results found"

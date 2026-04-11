@@ -1,0 +1,9 @@
+```mermaid
+graph LR
+    Client->>React Frontend: Request
+    React Frontend->>Node.js API: Request
+    Node.js API->>PostgreSQL: Query
+    PostgreSQL->>Node.js API: Response
+    Node.js API->>React Frontend: Response
+    Client->>React Frontend: Response
+```

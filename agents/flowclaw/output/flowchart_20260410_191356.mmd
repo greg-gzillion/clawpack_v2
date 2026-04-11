@@ -1,0 +1,16 @@
+graph TD
+    Start[User Requests Login]-->|Yes|{User Enters Email}
+    Start-->|No|End
+    {User Enters Email}-->|Valid|{User Enters Password}
+    {User Enters Email}-->|Invalid|Invalid Email
+    {User Enters Password}-->|Correct|Login Success
+    {User Enters Password}-->|Incorrect|Incorrect Password
+    Invalid Email-->|Retry|Start
+    Login Success-->|Yes|Home Page
+    Login Success-->|No|{User Enters New Request}
+    Home Page-->|Yes|{User Enters New Request}
+    Home Page-->|No|Logout
+    Logout-->End
+    Incorrect Password-->|Retry|{User Enters Password}
+    {User Enters New Request}-->|Yes|Start
+    {User Enters New Request}-->|No|End

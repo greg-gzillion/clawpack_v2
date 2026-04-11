@@ -1,0 +1,14 @@
+graph TD
+    []-> User Enters Credentials
+    User Enters Credentials-> [] Validate Credentials
+    []-> Validate Credentials -> Valid Credentials
+    []-> Validate Credentials -> Invalid Credentials
+    Valid Credentials-> [] Retrieve User Data
+    Invalid Credentials-> [] Display Login Error
+    Retrieve User Data-> [] Authenticate User
+    Authenticate User-> [] User Authenticated
+    Authenticate User-> [] User Not Authenticated
+    User Authenticated-> [] Login Successful
+    User Not Authenticated-> [] Display Login Error
+    []-> Login Successful -> Redirect User
+    []-> Display Login Error -> Back to Login Page

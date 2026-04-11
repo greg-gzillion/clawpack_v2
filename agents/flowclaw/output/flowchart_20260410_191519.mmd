@@ -1,0 +1,6 @@
+graph TD
+    Start(Start) --> IsUserValid{Is User Valid?}
+    IsUserValid -->|Yes| LoginUser[Login User]
+    IsUserValid -->|No| End(End)
+    LoginUser -->|Success| End
+    LoginUser -->|Failure| End

@@ -1,0 +1,15 @@
+```mermaid
+graph LR
+    start=>>A[Start]
+    A=>>B[Design]
+    A=>>C[Development]
+    C=>>D[Design Review]
+    D=>>E[Testing]
+    E=>>F[Deployment]
+    F=>>G[End]
+
+    B=>>C;
+    C=>>E;
+    E=>>F;
+    F=>>G;
+```

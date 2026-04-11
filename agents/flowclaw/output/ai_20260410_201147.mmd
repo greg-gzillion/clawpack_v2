@@ -1,0 +1,6 @@
+flowchart TD
+    Start[Backup Initiation] --> {Is Database Online?}
+    {Is Database Online?} -->|Yes| DatabaseBackup[Run Database Backup]
+    {Is Database Online?} -->|No| AbortBackup[Abort Backup Process]
+    DatabaseBackup --> StoreBackup[Store Backup in Safe Location]
+    StoreBackup --> End[Backup Complete]

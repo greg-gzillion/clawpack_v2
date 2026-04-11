@@ -1,15 +1,15 @@
-"""Interpretclaw routing"""
+"""Interpretclaw routing with language learning"""
 class TranslationRoutes:
-    commands = ['translate', 'speak', '/listen']
+    commands = ['translate', 'speak', '/listen', '/lesson', '/vocab']
     agent = 'interpretclaw'
     
     @staticmethod
     def get_help():
         return """
-🌐 TRANSLATION & SPEECH:
-  translate hello to spanish   - Translate text
-  speak hello                  - Speak text
-  speak hello to spanish       - Translate then speak
-  /listen                      - Speech to text
-  /listen to spanish           - Listen, translate, speak
+🌐 TRANSLATION & LANGUAGE:
+  translate <text> to <lang>  - Translate text
+  speak <text>                - Text-to-speech
+  /listen                     - Speech to text
+  /lesson <lang> <topic>      - Language lesson
+  /vocab <lang> <word>        - Vocabulary lookup
 """

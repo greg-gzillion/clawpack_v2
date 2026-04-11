@@ -470,7 +470,7 @@ class lawclaw:
             state_path = LEGAL_REFS / "jurisdictions" / state
             if state_path.exists():
                 for d in state_path.iterdir():
-                    if d.is_dir() and d.name.upper() == county:
+                    if d.is_dir() and d.name.upper() .lower() == county.lower():
                         county_path = d
                         break
         

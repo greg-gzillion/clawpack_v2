@@ -1,9 +1,4 @@
-﻿name = "/ask"
-
-def run(args):
+def ask_command(args):
     if not args:
-        print("Usage: /ask [question]")
-        return
-    from core import ask_ai
-    print(f"\nQ: {args}\n")
-    print(ask_ai(args))
+        return "Usage: /ask <question>"
+    return f"Asking AI: {args}"

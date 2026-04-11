@@ -1,8 +1,8 @@
-"""Route registry - collects all routes"""
-from .math_routes import MathRoutes
+"""Route registry - includes search"""
 from .web_routes import WebRoutes
+from .math_routes import MathRoutes
 from .translation_routes import TranslationRoutes
-from .legal_routes import LegalRoutes
+from .lawclaw_routes import LawclawRoutes
 from .medical_routes import MedicalRoutes
 from .code_routes import CodeRoutes
 from .data_routes import DataRoutes
@@ -11,22 +11,17 @@ from .language_routes import LanguageRoutes
 from .blockchain_routes import BlockchainRoutes
 from .fork_routes import ForkRoutes
 from .voice_routes import VoiceRoutes
+from .liberateclaw_routes import LiberateclawRoutes
+from .search_routes import SearchRoutes
 
 class RouteRegistry:
     def __init__(self):
         self.routes = [
-            MathRoutes,
-            WebRoutes,
-            TranslationRoutes,
-            LegalRoutes,
-            MedicalRoutes,
-            CodeRoutes,
-            DataRoutes,
-            DocumentRoutes,
-            LanguageRoutes,
-            BlockchainRoutes,
-            ForkRoutes,
-            VoiceRoutes
+            SearchRoutes,  # Add search first for priority
+            WebRoutes, MathRoutes, TranslationRoutes, LawclawRoutes,
+            MedicalRoutes, CodeRoutes, DataRoutes, DocumentRoutes,
+            LanguageRoutes, BlockchainRoutes, ForkRoutes, VoiceRoutes,
+            LiberateclawRoutes
         ]
         self.command_map = {}
         self._build_map()
@@ -34,17 +29,16 @@ class RouteRegistry:
     def _build_map(self):
         for route in self.routes:
             for cmd in route.commands:
-                self.command_map[cmd] = route.agent
+                self.command_map[cmd] = getattr(route, 'agent', route.__name__.replace('Routes', '').lower())
     
     def get_agent(self, command: str) -> str:
-        """Get agent name for a command"""
         return self.command_map.get(command, 'mathematicaclaw')
     
     def get_all_help(self) -> str:
-        """Get help from all routes"""
         help_text = ""
         for route in self.routes:
-            help_text += route.get_help()
+            if hasattr(route, 'get_help'):
+                help_text += route.get_help()
         return help_text
 
 _registry = None

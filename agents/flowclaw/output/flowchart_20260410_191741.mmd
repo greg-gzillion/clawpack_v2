@@ -1,0 +1,16 @@
+graph TD
+    []->> User Inputs Email and Password
+    User Inputs Email and Password ->> [] Checks if form is valid
+    [] Checks if form is valid ->> {} Email is valid?
+    {} Email is valid? ->> Yes: [] Validates Email Format
+    {} Email is valid? ->> No: [] Returns error message
+    [] Validates Email Format ->> {} Email format is valid?
+    {} Email format is valid? ->> Yes: [] Checks Email Existence
+    {} Email format is valid? ->> No: [] Returns error message
+    [] Checks Email Existence ->> {} Email exists?
+    {} Email exists? ->> Yes: [] Retrieves User Password Hash
+    {} Email exists? ->> No: [] Returns error message
+    [] Retrieves User Password Hash ->> [] Compares Password Hash
+    [] Compares Password Hash ->> {} Passwords match?
+    {} Passwords match? ->> Yes: [] User is authenticated
+    {} Passwords match? ->> No: [] Returns error message

@@ -1,25 +1,23 @@
-﻿"""Lesson command for Langclaw"""
-
-name = "lesson"
-description = "Start a language lesson"
-
 def run(args):
-    from teacher.core import teacher
+    import sys
+    from pathlib import Path
     
+    # Add paths
+    project_root = Path(__file__).parent.parent.parent.parent
+    sys.path.insert(0, str(project_root))
+    sys.path.insert(0, str(Path(__file__).parent.parent))
+    
+    # Parse arguments based on command
+    cmd_name = Path(__file__).stem
     if not args:
-        return "Usage: /lesson <language> <topic> [level]\nExample: /lesson es greetings beginner"
+        return "Usage: /lesson <language> <topic>\nExample: /lesson spanish greetings"
     
-    parts = args.split()
-    if len(parts) >= 2:
-        lang = parts[0]
-        topic = parts[1]
-        level = parts[2] if len(parts) > 2 else "beginner"
-    else:
-        return "Please specify language and topic"
+    parts = args.split(maxsplit=1)
+    language = parts[0].lower()
+    topic = parts[1] if len(parts) > 1 else "basics"
     
-    lesson = teacher.get_lesson(lang, topic, level)
-    if lesson:
-        return f"📚 **{lesson.title.upper()}** ({lang.upper()} - {level})\n\n{lesson.content}\n\n📝 Vocabulary:\n" + \
-               '\n'.join([f"  • {k} = {v}" for k, v in lesson.vocabulary.items()])
-    else:
-        return f"Lesson not found: {lang}/{topic}/{level}"
+    from core.lesson_engine import LessonEngine
+    engine = LessonEngine(language)
+    result = engine.get_lesson(topic)
+    
+    return f"📚 {language.upper()} LESSON: {topic.upper()}\n\n{result}"

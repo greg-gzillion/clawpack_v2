@@ -1,66 +1,34 @@
-﻿"""Translate command - Uses real LLMs"""
-
-import sys
-import time
-from pathlib import Path
-
-# Add project root
-sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-
-name = "translate"
-description = "Translate text to another language"
-
 def run(args):
+    """Translate text using LLM (same as lawclaw)"""
     if not args:
-        return "Usage: /translate <lang> <text>\nExample: /translate es Hello"
+        return "Usage: translate <text> to <lang>\nExample: translate hello to spanish"
     
-    parts = args.split(maxsplit=1)
-    if len(parts) < 2:
-        return "Usage: /translate <lang> <text>"
+    import sys
+    from pathlib import Path
     
-    target_lang = parts[0].lower()
-    text = parts[1]
+    # Parse command
+    text = args
+    target_lang = "spanish"
     
-    print(f"\n📝 Translating to {target_lang.upper()}...")
-    print(f"📖 Original: {text}\n")
+    if " to " in args.lower():
+        text = args.split(" to ")[0].strip()
+        target_lang = args.split(" to ")[1].strip()
     
-    # Simple dictionary fallback
-    translations = {
-        ("hello", "es"): "hola",
-        ("hello world", "es"): "hola mundo",
-        ("good morning", "es"): "buenos días",
-        ("thank you", "es"): "gracias",
-        ("goodbye", "es"): "adiós",
-        ("hello", "fr"): "bonjour",
-        ("thank you", "fr"): "merci",
-        ("hello", "de"): "hallo",
-        ("thank you", "de"): "danke",
-        ("hello", "it"): "ciao",
-        ("hello", "pt"): "olá",
-        ("hello", "ja"): "こんにちは",
-        ("hello", "ko"): "안녕하세요",
-        ("hello", "zh"): "你好",
-    }
+    # Add project root to path
+    project_root = Path(__file__).parent.parent.parent.parent
+    sys.path.insert(0, str(project_root))
     
-    key = (text.lower().strip(), target_lang)
-    if key in translations:
-        translated = translations[key]
-        print(f"🌐 Translated: {translated}")
-        print(f"✅ Using built-in dictionary")
-        return
+    # Import LLM the same way lawclaw does
+    from core.llm_manager import LLMManager
+    llm = LLMManager()
     
-    # Try to use LLM
-    try:
-        from translator.core import TranslationEngine
-        engine = TranslationEngine()
-        result = engine.translate(text, target_lang)
-        
-        if result.get("success"):
-            print(f"🌐 Translated: {result['translated']}")
-            print(f"✅ Engine: {result.get('engine', 'LLM')}")
-        else:
-            print(f"🌐 Translated: {text} (no translation available)")
-            print(f"💡 Add more phrases or connect LLM for full translation")
-    except Exception as e:
-        print(f"🌐 Translated: {text}")
-        print(f"💡 Connect LLM for full translation")
+    # Create prompt for translation
+    prompt = f"Translate the following text to {target_lang}. Only output the translation, nothing else.\n\nText: {text}"
+    
+    # Get translation (lawclaw uses chat_sync successfully)
+    response = llm.chat_sync(prompt)
+    
+    if response and "Error" not in response:
+        return f"🌐 {target_lang.upper()}: {response.strip()}"
+    else:
+        return f"Translation error: Could not translate '{text}' to {target_lang}"

@@ -1,0 +1,8 @@
+# Business Process Template
+
+```mermaid
+graph TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Process]
+    B -->|No| D[End]
+```

@@ -1,0 +1,6 @@
+flowchart TD
+    A[User Initiates Login] -->|Enter Username/Password| B[Validate Credentials]
+    B -->|Credentials Valid| C[Authenticates User]
+    B -->|Credentials Invalid| D[Display Error Message]
+    C -->|User Authenticated| E[Redirect to Dashboard]
+    D -->|Loop Back| A[User Initiates Login]

@@ -44,7 +44,7 @@ def get_county_info(state, county):
     
     county_path = None
     for d in state_path.iterdir():
-        if d.is_dir() and d.name.upper() == county.upper():
+        if d.is_dir() and d.name.upper() .lower() == county.lower().upper():
             county_path = d
             break
     

@@ -1,0 +1,11 @@
+graph TD
+    A[Start] --> B{Has Account?}
+    B -->|Yes| C[Enter Password]
+    B -->|No| D[Register]
+    C --> E{Password Valid?}
+    E -->|Yes| F[Login Success]
+    E -->|No| G[Try Again]
+    G --> C
+    D --> H[Create Account]
+    H --> F
+    F --> I[End]

@@ -1,6 +1,5 @@
-#!/usr/bin/env python3
-"""Solve command"""
 def run(args):
+    """Solve equation"""
     try:
         import sympy as sp
         if '=' in args:

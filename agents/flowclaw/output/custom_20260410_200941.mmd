@@ -1,0 +1,9 @@
+flowchart TD
+    A[Order Received] --> B[Verify Order Details]
+    B --> C[Check Inventory]
+    C -->|Yes| D[Pull Products from Warehouse]
+    C -->|No| E[Notify Customer of Backorder]
+    D --> E[Pack and Ship Order]
+    E --> F[Update Inventory and Order Status]
+    F --> G[Acknowledge to Customer]
+    G --> H[End]

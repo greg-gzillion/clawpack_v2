@@ -1,0 +1,6 @@
+flowchart TD
+    A[User Enters Credentials] -->|Validates| B[Checks Database]
+    B -->|Match Found| C[Login Successful]
+    B -->|Match Not Found| D[Invalid Credentials]
+    A -->|Cancel| E[Exit]
+    D --> E

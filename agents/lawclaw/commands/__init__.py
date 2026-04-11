@@ -1,23 +1,9 @@
-﻿"""Auto-discover all commands"""
+from .stats import stats_command
+from .list import list_command
+from .search import search_command
+from .browse import browse_command
+from .court import court_command
+from .ask import ask_command
 
-import importlib.util
-from pathlib import Path
-
-def get_all_commands():
-    commands = {}
-    cmds_path = Path(__file__).parent
-    
-    for py_file in cmds_path.glob("*.py"):
-        if py_file.name.startswith("__"):
-            continue
-        try:
-            spec = importlib.util.spec_from_file_location(py_file.stem, py_file)
-            module = importlib.util.module_from_spec(spec)
-            spec.loader.exec_module(module)
-            if hasattr(module, 'name') and hasattr(module, 'run'):
-                commands[module.name] = module.run
-        except:
-            pass
-    return commands
-
-__all__ = ['get_all_commands']
+__all__ = ['stats_command', 'list_command', 'search_command', 
+           'browse_command', 'court_command', 'ask_command']

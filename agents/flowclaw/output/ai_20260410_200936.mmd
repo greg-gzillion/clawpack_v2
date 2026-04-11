@@ -1,0 +1,7 @@
+flowchart TD
+    API Request[API Request] -->|Sent| Client[Client]
+    Client -->|Process| Server[Server]
+    Server -->|Response| API Response[API Response]
+    API Response -->|Received| Client
+    Client -->|Display| Display[Display Response]
+    Display --> End[End]

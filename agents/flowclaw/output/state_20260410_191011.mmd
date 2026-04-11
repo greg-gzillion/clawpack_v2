@@ -1,0 +1,29 @@
+```mermaid
+graph LR
+    A[User Requests Login] --> B[User Authenticated]
+    A --> C[Invalid Credentials]
+    B --> D[User Requests Data Access]
+    B --> E[User Requests Logout]
+    C --> F[User Requests Login Again]
+    D --> B
+    E --> G[User Logged Out]
+    F --> A
+    G --> H[User Requested to Login Again]
+    H --> A
+```
+
+```mermaid
+graph LR
+    A[User Requests Registration] --> B[User Registered]
+    A --> C[User Already Registered]
+    B --> D[User Requests Login]
+    B --> E[User Requests Data Access]
+    C --> F[User Requests Registration Again]
+    D --> B
+    E --> B
+    F --> A
+    D --> G[User Requests Logout]
+    G --> H[User Logged Out]
+    H --> I[User Requested to Login Again]
+    I --> D
+```

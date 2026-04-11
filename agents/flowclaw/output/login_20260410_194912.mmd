@@ -1,0 +1,5 @@
+flowchart TD
+    A[User Login] -->|Enter credentials| B{Valid?}
+    B -->|Yes| C[Dashboard]
+    B -->|No| D[Error]
+    D --> A

@@ -1,0 +1,15 @@
+```mermaid
+graph LR
+    Client[Client (Browser)]
+    NodeJs[Node.js Server]
+    Redis[Redis Cache]
+    PostgreSQL[PostgreSQL Database]
+
+    Client -->|HTTP Request| NodeJs
+    NodeJs -->|Database Query| PostgreSQL
+    PostgreSQL -->|Query Response| NodeJs
+    NodeJs -->|Cache Update| Redis
+    NodeJs -->|Cache Retrieve| Redis
+    Redis -->|Cached Response| NodeJs
+    NodeJs -->|Response| Client
+```

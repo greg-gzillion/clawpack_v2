@@ -1,0 +1,8 @@
+flowchart TD
+    A[Start] --> B[Enter Email]
+    B --> C[Enter Password]
+    C --> D{Valid Credentials?}
+    D -->|Yes| E[Dashboard]
+    D -->|No| F[Show Error]
+    F --> B
+    E --> G[Welcome]

@@ -1,73 +1,72 @@
-﻿#!/usr/bin/env python3
-"""claw_coder - Universal CLI wrapper"""
+#!/usr/bin/env python3
+"""claw_coder - Modular AI Programming Assistant"""
 import sys
-import subprocess
 from pathlib import Path
 
+# Add project root to path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 def process_command(cmd: str) -> str:
-    """Process a command"""
     cmd = cmd.strip()
     
-    if cmd == "/help":
-        return "claw_coder Commands: /help, /stats, /quit"
-    elif cmd == "/stats":
-        return "claw_coder - Ready"
+    if cmd.startswith("code "):
+        from commands.code import run
+        return run(cmd[5:].strip())
+    elif cmd.startswith("explain "):
+        from commands.explain import run
+        return run(cmd[8:].strip())
+    elif cmd.startswith("debug "):
+        from commands.debug import run
+        return run(cmd[6:].strip())
+    elif cmd.startswith("review "):
+        from commands.review import run
+        return run(cmd[7:].strip())
+    elif cmd.startswith("tutorial "):
+        from commands.tutorial import run
+        return run(cmd[9:].strip())
+    elif cmd == "/help":
+        return """
+💻 CLAW_CODER - AI Programming Assistant
+
+Commands:
+  code <task>           - Generate code
+  explain <code>        - Explain code
+  debug <code> [error]  - Debug code (use | for error)
+  review <code>         - Code review
+  tutorial <topic> [lang] [level] - Programming tutorial
+  /help                 - This help
+  /quit                 - Exit
+
+Examples:
+  code 'read CSV file'
+  explain 'def fib(n): return n if n<2 else fib(n-1)+fib(n-2)'
+  tutorial lists python beginner
+"""
     elif cmd == "/quit":
-        return ""
-    elif cmd:
-        # Try to route to webclaw for search
-        try:
-            webclaw = Path(__file__).parent.parent / "webclaw" / "webclaw.py"
-            if webclaw.exists():
-                result = subprocess.run(
-                    [sys.executable, str(webclaw), "search", cmd],
-                    capture_output=True,
-                    text=True,
-                    timeout=10
-                )
-                output = result.stdout.strip()
-                if output and "No URLs found" not in output:
-                    return f"[claw_coder] {output[:500]}"
-        except:
-            pass
-        
-        return f"[claw_coder] Processing: {cmd}"
-    
-    return ""
+        return "QUIT"
+    else:
+        return f"Unknown: {cmd}. Type /help"
 
 def main():
-    # CLI mode - single command
     if len(sys.argv) > 1:
-        cmd = ' '.join(sys.argv[1:])
-        result = process_command(cmd)
-        if result:
-            print(result)
+        print(process_command(' '.join(sys.argv[1:])))
         return
     
-    # Piped input mode
-    if not sys.stdin.isatty():
-        for line in sys.stdin:
-            cmd = line.strip()
-            if cmd and cmd != "/quit":
-                result = process_command(cmd)
-                if result:
-                    print(result)
-        return
-    
-    # Interactive mode
-    print(f"\nclaw_coder - Interactive Mode")
+    print("\n💻 CLAW_CODER - AI Programming Assistant")
     print("Type /help for commands, /quit to exit")
     
     while True:
         try:
-            cmd = input("> ").strip()
+            cmd = input("\nclaw_coder> ").strip()
             if cmd == "/quit":
                 break
             if cmd:
                 result = process_command(cmd)
-                if result:
-                    print(result)
-        except (KeyboardInterrupt, EOFError):
+                print(result)
+        except KeyboardInterrupt:
+            print("\nGoodbye!")
             break
 
 if __name__ == "__main__":

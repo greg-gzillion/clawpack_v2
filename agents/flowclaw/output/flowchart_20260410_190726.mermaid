@@ -1,0 +1,27 @@
+```mermaid
+graph LR
+    A[Start] -->|User starts login process|> B(Process: Show login form)
+    B -->|User enters email and password|> C(Process: Validate email and password)
+    C -->|Email and password valid|> D[Decision: Check if user exists]
+    D -->|User exists|> E(Process: Verify password)
+    E -->|Password correct|> F[Decision: Login successful]
+    F -->|Login successful|> G(Output: Login successful)
+    F -->|Invalid password|> H(Process: Display error message)
+    H -->|User tries to login again|> B
+    D -->|User does not exist|> I(Process: Display error message)
+    I -->|User wants to recover password|> J(Process: Send password recovery email)
+    J -->|User enters new password|> K(Process: Update password)
+    K -->|Password updated|> L[Decision: Password recovery successful]
+    L -->|Password recovery successful|> G
+    L -->|Invalid new password|> M(Process: Display error message)
+    M -->|User tries to recover password again|> J
+    C -->|Email and password invalid|> N(Process: Display error message)
+    N -->|User wants to recover password|> J
+    N -->|User wants to create new account|> O(Process: Redirect to registration page)
+    O -->|User creates new account|> P[Decision: Registration successful]
+    P -->|Registration successful|> G
+    P -->|Registration failed|> Q(Process: Display error message)
+    Q -->|User tries to register again|> O
+    C -->|User wants to recover password|> J
+    A -->|User starts over|> A
+```

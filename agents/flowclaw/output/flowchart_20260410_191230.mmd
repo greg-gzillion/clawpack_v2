@@ -1,0 +1,15 @@
+```mermaid
+graph LR
+    A[User Input: Email] -->|valid|> B[Validate Email]
+    A -->|invalid|> C[Error: Invalid Email]
+    B -->|valid|> D[User Input: Password]
+    B -->|invalid|> C
+    D -->|valid|> E[Validate Password]
+    D -->|invalid|> F[Error: Invalid Password]
+    E -->|match|> G[User Authenticated]
+    E -->|no match|> F
+    G -->|success|> H[Login Successful]
+    G -->|fail|> I[Error: Internal Server Error]
+    H -->|success|> J[Redirect to Dashboard]
+    I -->|error|> K[Error: Internal Server Error]
+```

@@ -1,7 +1,6 @@
 """Lawclaw routing"""
 class LawclawRoutes:
-    commands = ['/court', '/law', '/case', '/statute', 'court',
-                '/search', '/browse', '/ask', '/stats', '/list']
+    commands = ['/court', '/law', '/case', '/statute', 'court']
     agent = 'lawclaw'
     
     @staticmethod
@@ -11,7 +10,4 @@ class LawclawRoutes:
   /court <state> <county>   - Court information
   /law <query>              - Law research
   /case <name>              - Case law lookup
-  /search <query>           - Search law references
-  /browse <state>           - Browse state courts
-  /ask <question>           - Ask AI legal question
 """

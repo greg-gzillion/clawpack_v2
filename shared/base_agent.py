@@ -110,3 +110,31 @@ class BaseAgent:
             print(f"{self.name} ready")
 
 
+
+    def search_chronicle(self, query: str, limit: int = 5) -> list:
+        """Search the chronicle ledger for relevant URLs"""
+        try:
+            import sys
+            from pathlib import Path
+            sys.path.insert(0, str(Path(__file__).parent.parent / "agents/webclaw"))
+            from core.chronicle_ledger import get_chronicle
+            chronicle = get_chronicle()
+            return chronicle.recover_by_context(query, limit)
+        except:
+            return []
+    
+    def record_in_chronicle(self, url: str, context: str, source: str = None) -> None:
+        """Record a URL in the chronicle ledger"""
+        try:
+            import sys
+            from pathlib import Path
+            sys.path.insert(0, str(Path(__file__).parent.parent / "agents/webclaw"))
+            from core.chronicle_ledger import get_chronicle
+            chronicle = get_chronicle()
+            chronicle.record_fetch(
+                url=url,
+                context=context,
+                source=source or self.name
+            )
+        except:
+            pass

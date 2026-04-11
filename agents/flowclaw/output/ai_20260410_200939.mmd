@@ -1,0 +1,12 @@
+flowchart TD
+    A[Start] -->|Backup Initiated|> B[Backup Type]
+    B -->|Database|> C[Backup Database]
+    B -->|Files|> D[Backup Files]
+    C -->|Success|> E[Verify Backup]
+    D -->|Success|> E
+    E -->|Backup Valid|> F[Store Backup]
+    E -->|Backup Invalid|> G[Retry Backup]
+    F -->|Backup Stored|> H[End]
+    G -->|Backup Successful|> H
+    G -->|Backup Failed|> I[End]
+    I[End] -->|Exit|> H

@@ -1,0 +1,12 @@
+graph TD
+    A[Start: user login]
+    B[Process Step 1]
+    C{Decision?}
+    D[Process Step 2]
+    E[End]
+    
+    A --> B
+    B --> C
+    C -->|Yes| D
+    C -->|No| E
+    D --> E
