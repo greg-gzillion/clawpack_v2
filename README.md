@@ -58,3 +58,36 @@ python claw.py plot      # Charts
 python claw.py dream     # AI vision
 License
 MIT License - see LICENSE
+## Acknowledgments & Attribution
+
+### Common Chronicle by Liu Juanjuan (@liujuanjuan1984)
+
+The Chronicle indexing system in Clawpack is deeply inspired by Liu Juanjuan's **Common Chronicle** project.
+
+> *"Common Chronicle turns messy context into structured, sourced timelines"*
+
+**Key concepts adopted from Common Chronicle:**
+- Structured context from raw data
+- Source attribution for every piece of information  
+- Temporal organization (timeline-based structuring)
+- Tag-based organization over folder hierarchies
+
+Liu Juanjuan's insights on knowledge management, data sovereignty, and decentralized networks shaped our approach to:
+- WebClaw's Chronicle index (18,825+ cards)
+- DataClaw's local file management
+- Cross-agent knowledge sharing
+
+**Learn more:**
+- [Common Chronicle on GitHub](https://github.com/Intelligent-Internet/Common_Chronicle)
+- [Liu Juanjuan on Twitter](https://twitter.com/liujuanjuan1984)
+
+> *"试着用自己的语言复述一些基础常识"* - Liu Juanjuan  
+> *(Try to restate basic common sense in your own words)*
+
+We've tried to do exactly that with Clawpack.
+
+---
+
+**致敬开源精神，致敬知识分享者**  
+*(Salute to the open source spirit, salute to knowledge sharers)*
+
