@@ -47,3 +47,6 @@ Thumbs.db
 *generate*.ps1
 
 exports/
+venv/
+data/shared_memory.json
+*.bak
