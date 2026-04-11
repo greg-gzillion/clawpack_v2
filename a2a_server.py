@@ -149,3 +149,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Add liberateclaw to A2A agent registry
+AGENTS["liberateclaw"] = {
+    "description": "Model Liberation Agent - Download and manage local LLM models",
+    "capabilities": ["liberate_models", "local_inference", "model_management"],
+    "script": "agents/liberateclaw/liberateclaw.py"
+}
