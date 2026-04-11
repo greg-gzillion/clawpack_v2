@@ -1,1 +1,0 @@
-﻿"""designclaw core module"""

@@ -1,56 +1,33 @@
 ﻿#!/usr/bin/env python3
-"""designclaw - Modular Agent"""
+"""designclaw - Creative Design Agent"""
 import sys
 from pathlib import Path
 
-# Add agents directory to path for shared imports
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add root to path for shared
+ROOT_DIR = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(ROOT_DIR))
 
 from shared.base_agent import BaseAgent
-from .core.agent import designclawCore
+
+# Use absolute import from the agent package
+from agents.designclaw.core.agent import designclawCore
 
 class designclawAgent(BaseAgent):
-    """Main agent class inheriting from BaseAgent"""
-    
     def __init__(self):
         super().__init__("designclaw")
         self.core = designclawCore()
     
     def handle(self, query: str) -> str:
-        """Handle incoming queries"""
         self.track_interaction()
         return self.core.process(query)
 
 def main():
     agent = designclawAgent()
-    
-    # CLI mode
     if len(sys.argv) > 1:
-        cmd = ' '.join(sys.argv[1:])
-        print(agent.handle(cmd))
-        return
-    
-    # Piped input
-    if not sys.stdin.isatty():
-        for line in sys.stdin:
-            cmd = line.strip()
-            if cmd and cmd != "/quit":
-                print(agent.handle(cmd))
-        return
-    
-    # Interactive mode
-    print(f"\n🎯 designclaw - Ready")
-    print("Type /help for commands, /quit to exit")
-    
-    while True:
-        try:
-            cmd = input("> ").strip()
-            if cmd == "/quit":
-                break
-            if cmd:
-                print(agent.handle(cmd))
-        except (KeyboardInterrupt, EOFError):
-            break
+        print(agent.handle(' '.join(sys.argv[1:])))
+    else:
+        print("DESIGNCLAW ready. Type /help for commands.")
+        agent.run_cli()
 
 if __name__ == "__main__":
     main()

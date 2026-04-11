@@ -1,91 +1,144 @@
-﻿"""designclaw Core Logic"""
+﻿"""Designclaw Core - AI-Powered Design Assistant"""
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+# Add root to path
+root_path = Path(__file__).parent.parent.parent.parent
+if str(root_path) not in sys.path:
+    sys.path.insert(0, str(root_path))
+
+from core.llm_manager import LLMManager
 
 class designclawCore:
-    """Core processing logic for designclaw"""
+    """Creative design assistant with AI"""
+    
+    def __init__(self):
+        self.llm = LLMManager()
+        self.exports_dir = Path("C:/Users/greg/dev/clawpack_v2/exports/designclaw")
+        self.exports_dir.mkdir(parents=True, exist_ok=True)
     
     def process(self, query: str) -> str:
-        """Process a query"""
-        # Original logic from the simple agent
-        #!/usr/bin/env python3
-"""designclaw - Universal CLI wrapper"""
-import sys
-import subprocess
-from pathlib import Path
-
-def process_command(cmd: str) -> str:
-    """Process a command"""
-    cmd = cmd.strip()
-    
-    if cmd == "/help":
-        return "designclaw Commands: /help, /stats, /quit"
-    elif cmd == "/stats":
-        return "designclaw - Ready"
-    elif cmd == "/quit":
-        return ""
-    elif cmd:
-        # Try to route to webclaw for search
-        try:
-            webclaw = Path(__file__).parent.parent / "webclaw" / "webclaw.py"
-            if webclaw.exists():
-                result = subprocess.run(
-                    [sys.executable, str(webclaw), "search", cmd],
-                    capture_output=True,
-                    text=True,
-                    timeout=10
-                )
-                output = result.stdout.strip()
-                if output and "No URLs found" not in output:
-                    return f"[designclaw] {output[:500]}"
-        except:
-            pass
+        """Process design queries with AI"""
+        q = query.lower()
         
-        return f"[designclaw] Processing: {cmd}"
+        if "/interactive" in q:
+            return self._interactive_mode()
+        elif "/help" in q:
+            return self._help()
+        elif "brand" in q or "logo" in q or "identity" in q:
+            return self._ai_brand_identity(query)
+        elif "color" in q or "palette" in q:
+            return self._ai_color_palette(query)
+        elif "mood" in q or "aesthetic" in q:
+            return self._ai_mood(query)
+        elif "typography" in q or "font" in q:
+            return self._ai_typography(query)
+        elif "slogan" in q or "tagline" in q:
+            return self._ai_copywriting(query)
+        else:
+            return self._ai_general(query)
     
-    return ""
+    def _ai_brand_identity(self, query: str) -> str:
+        prompt = f"""You are a professional brand designer. Create a concise brand identity based on: "{query}"
 
-def main():
-    # CLI mode - single command
-    if len(sys.argv) > 1:
-        cmd = ' '.join(sys.argv[1:])
-        result = process_command(cmd)
-        if result:
-            print(result)
-        return
-    
-    # Piped input mode
-    if not sys.stdin.isatty():
-        for line in sys.stdin:
-            cmd = line.strip()
-            if cmd and cmd != "/quit":
-                result = process_command(cmd)
-                if result:
-                    print(result)
-        return
-    
-    # Interactive mode
-    print(f"\ndesignclaw - Interactive Mode")
-    print("Type /help for commands, /quit to exit")
-    
-    while True:
+Provide:
+1. Brand essence (1 sentence)
+2. Logo concept (2-3 sentences)
+3. Color palette (3-4 hex codes with names)
+4. Typography recommendation (header + body font)
+
+Keep it practical and specific."""
+        
         try:
-            cmd = input("> ").strip()
-            if cmd == "/quit":
-                break
-            if cmd:
-                result = process_command(cmd)
-                if result:
-                    print(result)
-        except (KeyboardInterrupt, EOFError):
-            break
+            response = self.llm.chat_sync(prompt)
+            return f"🎨 BRAND IDENTITY\n\n{response}"
+        except:
+            return self._fallback_brand(query)
+    
+    def _ai_color_palette(self, query: str) -> str:
+        prompt = f"""Create a cohesive color palette for: "{query}"
+Provide 4-5 hex codes with descriptive names and brief usage notes."""
+        
+        try:
+            response = self.llm.chat_sync(prompt)
+            return f"🎨 COLOR PALETTE\n\n{response}"
+        except:
+            return "Colors: #0066FF (Primary), #1E1E2E (Dark), #FFFFFF (Light), #00D4AA (Accent)"
+    
+    def _ai_mood(self, query: str) -> str:
+        prompt = f"""Describe an aesthetic/mood direction for: "{query}"
+Include: Vibe (2-3 words), Color story, Texture/feel, Typography style, Reference imagery."""
+        
+        try:
+            response = self.llm.chat_sync(prompt)
+            return f"🎭 MOOD DIRECTION\n\n{response}"
+        except:
+            return "Mood: Minimal, clean, airy. Colors: Neutrals with one bold accent."
+    
+    def _ai_typography(self, query: str) -> str:
+        prompt = f"""Recommend font pairings for: "{query}"
+Include header font, body font, and brief reasoning."""
+        
+        try:
+            response = self.llm.chat_sync(prompt)
+            return f"✍️ TYPOGRAPHY\n\n{response}"
+        except:
+            return "Typography: Inter (headers) + Open Sans (body) - clean and modern."
+    
+    def _ai_copywriting(self, query: str) -> str:
+        prompt = f"""Create brand copy for: "{query}"
+Provide: Tagline (5-7 words), Value proposition (1 sentence), Brand voice (3 adjectives)."""
+        
+        try:
+            response = self.llm.chat_sync(prompt)
+            return f"✍️ COPYWRITING\n\n{response}"
+        except:
+            return "Tagline: Design that works. Voice: Professional, clear, approachable."
+    
+    def _ai_general(self, query: str) -> str:
+        prompt = f"""You are a senior design consultant. Answer concisely: "{query}" """
+        
+        try:
+            response = self.llm.chat_sync(prompt)
+            return f"💡 DESIGN ADVICE\n\n{response}"
+        except:
+            return f"[designclaw] Processing: {query}\n\nTip: Try 'brand identity for...' or 'color palette for...'"
+    
+    def _fallback_brand(self, query: str) -> str:
+        return f"""
+🎨 BRAND IDENTITY
 
-if __name__ == "__main__":
-    main()
-
-        return f"[designclaw] Processing: {query}"
-
+Essence: Modern, trustworthy, innovative
+Logo: Clean wordmark with geometric symbol
+Colors: #0066FF (Primary), #1E1E2E (Secondary), #FFFFFF (Light)
+Typography: Inter (headers) + Open Sans (body)
+"""
+    
+    def _interactive_mode(self) -> str:
+        print("\n🎨 DESIGNCLAW INTERACTIVE")
+        print("=" * 40)
+        name = input("Brand/Project name: ").strip()
+        industry = input("Industry (tech/health/luxury/creative): ").strip()
+        mood = input("Mood/vibe: ").strip()
+        
+        query = f"brand identity for {name} - {industry} industry, {mood} vibe"
+        return self._ai_brand_identity(query)
+    
     def _help(self) -> str:
-        return "designclaw Commands: /help, /stats, /quit"
+        return """
+🎨 DESIGNCLAW COMMANDS:
+
+  brand identity for [name]     - AI brand concept
+  color palette for [mood]      - AI color scheme  
+  mood [aesthetic]              - AI mood board direction
+  typography for [style]        - Font recommendations
+  slogan for [brand]            - Copywriting help
+  /interactive                  - Guided design brief
+  /help                         - This menu
+  /quit                         - Exit
+
+Examples:
+  brand identity for eco-friendly fashion startup
+  color palette for luxury spa
+  mood dark academia
+"""

@@ -1,68 +1,82 @@
 ﻿#!/usr/bin/env python3
-"""Claw - One file to rule them all"""
+"""Claw - Dynamic Agent Launcher (Auto-discovers all agents)"""
 
 import sys
 import subprocess
 from pathlib import Path
 
-AGENTS = {
-    "lang": "agents/langclaw/langclaw.py",
-    "interpret": "agents/interpretclaw/interpretclaw.py",
-    "tx": "agents/txclaw/txclaw.py",
-    "med": "agents/mediclaw/mediclaw.py",
-    "law": "agents/lawclaw/lawclaw.py",
-    "math": "agents/mathematicaclaw/mathematicaclaw.py",
-    "data": "agents/dataclaw/dataclaw.py",
-    "doc": "agents/docuclaw/docuclaw.py",
-    "web": "agents/webclaw/webclaw.py",
-    "plot": "agents/plotclaw/plotclaw.py",
-    "dream": "agents/dreamclaw/dreamclaw.py",
-    "flow": "agents/flowclaw/flowclaw.py",
-    "draft": "agents/draftclaw/draftclaw.py",
-    "design": "agents/designclaw/designclaw.py"
-}
+def discover_agents():
+    """Auto-discover all agents in the agents/ directory"""
+    agents_dir = Path("agents")
+    agents = {}
+    
+    for agent_dir in agents_dir.iterdir():
+        if not agent_dir.is_dir():
+            continue
+        if agent_dir.name.startswith(('_', 'shared', 'langclaw_backup')):
+            continue
+        
+        agent_file = agent_dir / f"{agent_dir.name}.py"
+        if agent_file.exists():
+            # Use folder name as the command
+            name = agent_dir.name.replace('claw', '')
+            if not name:
+                name = agent_dir.name
+            agents[name] = str(agent_file)
+    
+    return agents
 
 def main():
+    AGENTS = discover_agents()
+    
     if len(sys.argv) < 2:
         print("=" * 50)
-        print("🦞 CLAW - 14 Agent Ecosystem")
+        print("CLAW - Dynamic Agent Launcher")
         print("=" * 50)
-        print("\nUsage: python claw.py <agent>")
-        print("\n🎯 LANGUAGE AGENTS:")
-        print("  lang   - Langclaw (Language Teacher)")
-        print("  interpret - Interpretclaw (Translator)")
-        print("\n💼 BUSINESS AGENTS:")
-        print("  tx     - TXclaw (Blockchain)")
-        print("  med    - Mediclaw (Medical)")
-        print("  law    - Lawclaw (Legal)")
-        print("\n📐 TECHNICAL AGENTS:")
-        print("  math   - Mathematicaclaw (Math)")
-        print("  data   - Dataclaw (Data)")
-        print("  doc    - Docuclaw (Documents)")
-        print("  web    - Webclaw (Web)")
-        print("\n🎨 VISUALIZATION AGENTS:")
-        print("  plot   - Plotclaw (Charts & Graphs)")
-        print("  dream  - Dreamclaw (AI Images)")
-        print("  flow   - Flowclaw (Diagrams)")
-        print("  draft  - Draftclaw (Technical Drawings)")
-        print("  design - Designclaw (Graphic Design)")
-        print("\n📖 Example: python claw.py plot")
+        print(f"\nDiscovered {len(AGENTS)} agents:\n")
+        
+        # Group by category
+        categories = {
+            "CREATIVE": ["design", "draw", "draft", "dream", "plot", "flow"],
+            "DATA": ["data", "math", "web", "docu"],
+            "LANGUAGE": ["lang", "interpret"],
+            "DOMAIN": ["law", "med", "tx"],
+            "SYSTEM": ["liberate", "_coder"]
+        }
+        
+        for category, patterns in categories.items():
+            print(f"\n{category}:")
+            for name, path in sorted(AGENTS.items()):
+                if any(p in name for p in patterns):
+                    print(f"  {name:12} -> {Path(path).parent.name}")
+        
+        print("\n" + "=" * 50)
+        print("Usage: python claw.py <agent>")
+        print("Example: python claw.py design")
         return
-    
+
     agent = sys.argv[1].lower()
     
-    if agent not in AGENTS:
-        print(f"❌ Unknown: {agent}")
-        return
-    
-    path = AGENTS[agent]
+    # Find matching agent
+    if agent in AGENTS:
+        path = AGENTS[agent]
+    else:
+        # Try partial match
+        matches = [a for a in AGENTS if agent in a]
+        if len(matches) == 1:
+            path = AGENTS[matches[0]]
+            agent = matches[0]
+        else:
+            print(f"Unknown agent: {agent}")
+            print(f"Available: {', '.join(sorted(AGENTS.keys()))}")
+            return
+
     if not Path(path).exists():
-        print(f"❌ Agent not found: {path}")
+        print(f"Agent not found: {path}")
         return
-    
-    print(f"🦞 Starting {agent}...\n")
+
+    print(f"Starting {agent}...\n")
     subprocess.run([sys.executable, path])
 
 if __name__ == "__main__":
     main()
-
