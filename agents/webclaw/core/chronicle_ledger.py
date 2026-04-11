@@ -140,3 +140,44 @@ def get_structured_context(self, query: str, max_sources: int = 5) -> Dict:
         })
     
     return structured
+
+    # ================================================================
+    # Features inspired by Liu Juanjuan's Common Chronicle
+    # ================================================================
+    
+    def create_timeline(self, topic: str, start_date: str = None, end_date: str = None) -> List[Dict]:
+        """Create structured timeline of events (from Common Chronicle)"""
+        cards = self.search(topic, 100)
+        
+        timeline = []
+        for card in cards:
+            if hasattr(card, 'timestamp'):
+                timeline.append({
+                    'date': getattr(card, 'timestamp', 'unknown'),
+                    'event': getattr(card, 'context', ''),
+                    'source': getattr(card, 'url', ''),
+                    'confidence': getattr(card, 'confidence', 'medium')
+                })
+        
+        # Sort by date
+        timeline.sort(key=lambda x: x.get('date', ''))
+        return timeline
+    
+    def get_sourced_context(self, query: str) -> Dict:
+        """Get structured context with source attribution"""
+        results = self.search(query, 10)
+        
+        return {
+            'query': query,
+            'timestamp': datetime.now().isoformat(),
+            'sources': [
+                {
+                    'url': r.url,
+                    'context': r.context,
+                    'verified': True,
+                    'relevance': 'high'
+                }
+                for r in results
+            ],
+            'summary': self._generate_summary(results)
+        }

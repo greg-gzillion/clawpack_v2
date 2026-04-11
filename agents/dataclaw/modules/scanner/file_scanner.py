@@ -8,11 +8,11 @@ from typing import List, Dict
 
 class FileScanner:
     SUPPORTED_TYPES = {
-        'documents': ['.pdf', '.doc', '.docx', '.txt', '.md', '.rtf', '.odt', '.csv', '.xls', '.xlsx'],
-        'ebooks': ['.epub', '.mobi', '.azw', '.azw3', '.pdf'],
-        'videos': ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm', '.m4v'],
-        'music': ['.mp3', '.flac', '.wav', '.aac', '.ogg', '.m4a', '.wma'],
-        'images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.webp', '.tiff']
+        'documents': ['.pdf', '.doc', '.docx', '.txt', '.md', '.rtf', '.odt', '.csv', '.xls', '.xlsx', '.rs', '.go', '.py', '.ts', '.js', '.sol', '.json', '.yaml', '.yml'],
+        'ebooks': ['.epub', '.mobi', '.azw', '.azw3'],
+        'videos': ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.webm'],
+        'music': ['.mp3', '.flac', '.wav', '.aac', '.ogg', '.m4a'],
+        'images': ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.webp']
     }
     
     def __init__(self, data_root=None):
@@ -52,12 +52,6 @@ class FileScanner:
         
         stat = file_path.stat()
         
-        # Calculate file hash for deduplication
-        sha256_hash = hashlib.sha256()
-        with open(file_path, 'rb') as f:
-            for byte_block in iter(lambda: f.read(4096), b""):
-                sha256_hash.update(byte_block)
-        
         return {
             'name': file_path.name,
             'path': str(file_path.absolute()),
@@ -67,7 +61,6 @@ class FileScanner:
             'size_mb': round(stat.st_size / (1024 * 1024), 2),
             'created': datetime.fromtimestamp(stat.st_ctime).isoformat(),
             'modified': datetime.fromtimestamp(stat.st_mtime).isoformat(),
-            'hash': sha256_hash.hexdigest()[:16],
             'parent_dir': str(file_path.parent)
         }
     
@@ -75,10 +68,11 @@ class FileScanner:
         """Scan all data subdirectories"""
         results = {t: [] for t in self.SUPPORTED_TYPES.keys()}
         
-        for type_dir in self.data_root.iterdir():
-            if type_dir.is_dir() and type_dir.name in self.SUPPORTED_TYPES:
-                files = self.scan_directory(type_dir)
-                results[type_dir.name] = files
+        if self.data_root.exists():
+            for type_dir in self.data_root.iterdir():
+                if type_dir.is_dir() and type_dir.name in self.SUPPORTED_TYPES:
+                    files = self.scan_directory(type_dir)
+                    results[type_dir.name] = files
         
         return results
     

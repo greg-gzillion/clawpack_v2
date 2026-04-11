@@ -144,3 +144,40 @@ class Clawpack:
 
 if __name__ == "__main__":
     Clawpack().run()
+
+# ============================================================================
+# A2A Server Command
+# ============================================================================
+
+def start_a2a_server(args):
+    """Start the A2A protocol server"""
+    import subprocess
+    import sys
+    from pathlib import Path
+    
+    host = "127.0.0.1"
+    port = 8765
+    
+    # Parse args for custom host/port
+    if len(args) > 0:
+        host = args[0]
+    if len(args) > 1:
+        port = int(args[1])
+    
+    print(f"🦞 Starting Clawpack A2A Server...")
+    print(f"   Host: {host}")
+    print(f"   Port: {port}")
+    print(f"   Discovery: http://{host}:{port}/.well-known/agent.json")
+    print("")
+    print("Press Ctrl+C to stop the server")
+    print("")
+    
+    # Run the server
+    server_path = Path(__file__).parent / "agents/webclaw/a2a/integrated_server.py"
+    if server_path.exists():
+        import subprocess
+        subprocess.run([sys.executable, str(server_path)])
+    else:
+        print("❌ A2A server module not found")
+
+# Add to command router (find where commands are processed)
