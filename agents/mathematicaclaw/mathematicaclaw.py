@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""MathematicaClaw - Mathematics and Visualization Agent"""
+"""MathematicaClaw - Mathematics and Visualization"""
 
 import sys
-import subprocess
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -11,63 +10,47 @@ sys.path.insert(0, str(PROJECT_ROOT))
 class MathematicaClawAgent:
     def __init__(self):
         self.name = "mathematicaclaw"
-        self.llm = None
-        self._init_llm()
+        self.visualizer = None
         self._init_visualizer()
-    
-    def _init_llm(self):
-        try:
-            from core.llm_manager import get_llm_manager
-            self.llm = get_llm_manager()
-        except:
-            pass
     
     def _init_visualizer(self):
         try:
             from agents.mathematicaclaw.ai_visualizer import ai_visualizer
             self.visualizer = ai_visualizer
-        except:
-            self.visualizer = None
+        except Exception as e:
+            print(f"⚠️ Visualizer error: {e}", file=sys.stderr)
     
     def handle(self, cmd: str) -> str:
         cmd = cmd.strip()
         
-        if cmd.startswith("/visualize"):
-            return self.visualize(cmd[10:].strip())
-        elif cmd.startswith("/solve"):
-            return self.solve(cmd[6:].strip())
-        elif cmd.startswith("/plot"):
-            return self.plot(cmd[5:].strip())
+        if cmd.startswith("/visualize") or cmd.startswith("/math"):
+            # Remove the command prefix
+            rest = cmd[10:].strip() if cmd.startswith("/visualize") else cmd[5:].strip()
+            return self.visualize(rest)
         else:
             return self._help()
     
     def visualize(self, request: str) -> str:
         if not request:
-            return "Usage: /visualize <description>\nExample: /visualize show me a wave"
+            return "Usage: /visualize <description>\nExample: /visualize sine wave"
         
         if self.visualizer:
             return self.visualizer.visualize(request)
-        return "Visualizer not available. Please install matplotlib and numpy."
-    
-    def solve(self, equation: str) -> str:
-        return f"Solving: {equation}\n(LLM integration coming soon)"
-    
-    def plot(self, function: str) -> str:
-        return f"Plotting: {function}\n(Use /visualize for AI-powered plotting)"
+        return "Visualizer not available"
     
     def _help(self):
         return """
-MATHEMATICACLAW - Mathematics and Visualization
+MATH CLAW - AI-Powered Math Visualization
 
 COMMANDS:
-  /visualize <description>  - AI-powered math visualization
-  /solve <equation>         - Solve equations
-  /plot <function>          - Plot functions
+  /visualize <desc>  - Generate AI visualization
+  /math <desc>       - Same as /visualize
 
 EXAMPLES:
-  /visualize show me a wave
-  /visualize show me a 3D mountain
-  /visualize show me a fractal
+  /visualize sine wave
+  /visualize 3D mountain
+  /visualize parabola
+  /math fractal
 """
 
 def main():

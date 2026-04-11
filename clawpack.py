@@ -1,307 +1,232 @@
 #!/usr/bin/env python3
-"""Clawpack V2 - Modular Agent Menu System"""
+"""
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🦞 CLAWPACK V2 - AI AGENT ECOSYSTEM                    ║
+║                         Modular | AI-Powered | 19 Specialized Agents          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+"""
 
+import os
 import sys
+import subprocess
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT))
 
 # ============================================================================
-# AGENT MODULES - Each agent handles its own commands
+# COLORS - Make it look GREAT
 # ============================================================================
+CYAN = '\033[96m'
+GREEN = '\033[92m'
+YELLOW = '\033[93m'
+RED = '\033[91m'
+BLUE = '\033[94m'
+PURPLE = '\033[95m'
+BOLD = '\033[1m'
+RESET = '\033[0m'
 
-class AgentMenu:
-    """Base class for agent menus"""
-    def __init__(self, name, description):
-        self.name = name
-        self.description = description
-        self.commands = {}
-    
-    def show(self):
-        print(f"\n{'='*50}")
-        print(f"🦞 {self.name.upper()} - {self.description}")
-        print(f"{'='*50}")
-        for cmd, desc in self.commands.items():
-            print(f"  {cmd:<25} {desc}")
-        print(f"\n  {'back':<25} Return to main menu")
-        print(f"  {'help':<25} Show this help")
-        print(f"{'='*50}")
-    
-    def handle(self, cmd):
-        return None  # Override in subclass
+def clear():
+    os.system('clear' if os.name == 'posix' else 'cls')
 
-# ============================================================================
-# LAWCLAW MENU
-# ============================================================================
-class LawClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("lawclaw", "LawClaw Research Assistant")
-        self.commands = {
-            "/court <ST> <loc>": "Court information",
-            "/searchindex <q>": "Search law database",
-            "/searchcase <case>": "AI case law analysis",
-            "/citation <cite>": "Citation lookup",
-            "/docket <num>": "Docket search",
-        }
-    
-    def handle(self, cmd):
-        from agents.lawclaw.lawclaw import LawClawAgent
-        agent = LawClawAgent()
-        return agent.handle(cmd)
+def banner():
+    print(f"""{CYAN}
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         🦞 {BOLD}CLAWPACK V2 - AI AGENT ECOSYSTEM{RESET}{CYAN}                        ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║  {GREEN}🤖 19 AI Agents  │  🧠 LLM Powered  │  🔗 A2A Ready  │  📚 Chronicle{RESET}{CYAN}        ║
+╚══════════════════════════════════════════════════════════════════════════════╝{RESET}
+""")
 
 # ============================================================================
-# FLOWCLAW MENU
+# AGENT REGISTRY - Complete with ALL your agents
 # ============================================================================
-class FlowClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("flowclaw", "Diagram Generator")
-        self.commands = {
-            "/flowchart <desc>": "Generate flowchart",
-            "/sequence <desc>": "Sequence diagram",
-            "/architecture <desc>": "Architecture diagram",
-            "/gantt <desc>": "Gantt chart",
-            "/state <desc>": "State diagram",
-        }
-    
-    def handle(self, cmd):
-        from agents.flowclaw.flowclaw import FlowClawAgent
-        agent = FlowClawAgent()
-        return agent.handle(cmd)
+AGENTS = [
+    {"num": 1,  "name": "lawclaw",         "emoji": "⚖️",  "desc": "LawClaw Research & AI Case Law"},
+    {"num": 2,  "name": "flowclaw",        "emoji": "📊",  "desc": "Flowcharts & Diagrams"},
+    {"num": 3,  "name": "docuclaw",        "emoji": "📝",  "desc": "Document Generation"},
+    {"num": 4,  "name": "mathematicaclaw", "emoji": "📐",  "desc": "Math & AI Visualization"},
+    {"num": 5,  "name": "liberateclaw",    "emoji": "🔓",  "desc": "LLM Model Liberation"},
+    {"num": 6,  "name": "txclaw",          "emoji": "💰",  "desc": "TX Blockchain"},
+    {"num": 7,  "name": "interpretclaw",   "emoji": "🌐",  "desc": "Translation & Speech"},
+    {"num": 8,  "name": "langclaw",        "emoji": "📚",  "desc": "Language Learning"},
+    {"num": 9,  "name": "claw_coder",      "emoji": "💻",  "desc": "Code Generation (38 langs)"},
+    {"num": 10, "name": "dataclaw",        "emoji": "💾",  "desc": "Data Management"},
+    {"num": 11, "name": "webclaw",         "emoji": "🌍",  "desc": "Web Search & Indexing"},
+    {"num": 12, "name": "fileclaw",        "emoji": "📁",  "desc": "File Analysis"},
+    {"num": 13, "name": "plotclaw",        "emoji": "📈",  "desc": "Charts & Graphs"},
+    {"num": 14, "name": "medicclaw",       "emoji": "🏥",  "desc": "Medical References"},
+    {"num": 15, "name": "dreamclaw",       "emoji": "🎨",  "desc": "AI Vision & Generation"},
+    {"num": 16, "name": "designclaw",      "emoji": "🎯",  "desc": "Graphic Design"},
+    {"num": 17, "name": "draftclaw",       "emoji": "📏",  "desc": "Technical Drawings"},
+    {"num": 18, "name": "crustyclaw",      "emoji": "🦀",  "desc": "Rust AI Assistant"},
+    {"num": 19, "name": "rustypycraw",     "emoji": "🔍",  "desc": "Code Crawler"},
+]
+
+def show_agents():
+    print(f"{BOLD}{CYAN}┌────────────────────────────────────────────────────────────────────────┐{RESET}")
+    print(f"{BOLD}{CYAN}│                         🤖 AVAILABLE AGENTS                             │{RESET}")
+    print(f"{BOLD}{CYAN}├────────────────────────────────────────────────────────────────────────┤{RESET}")
+    for a in AGENTS:
+        print(f"{CYAN}│  {GREEN}{a['num']:2}{RESET}  {a['emoji']}  {BOLD}{a['name']:16}{RESET}  {YELLOW}{a['desc']}{RESET}")
+    print(f"{BOLD}{CYAN}├────────────────────────────────────────────────────────────────────────┤{RESET}")
+    print(f"{CYAN}│  {GREEN}q{RESET}  🚪  {RED}Quit{RESET}                                                          {CYAN}│{RESET}")
+    print(f"{BOLD}{CYAN}└────────────────────────────────────────────────────────────────────────┘{RESET}")
 
 # ============================================================================
-# DOCUCLAW MENU
+# AGENT MENU SYSTEM - Each agent shows its commands
 # ============================================================================
-class DocClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("docuclaw", "Document Processor")
-        self.commands = {
-            "/create <type>": "Create document (letter/report/memo)",
-            "/ai <topic> <type>": "AI-generated document",
-            "/export <file> <fmt>": "Export to PDF/Markdown",
-            "/import <file>": "Import document",
-        }
+AGENT_COMMANDS = {
+    "lawclaw": """
+╔════════════════════════════════════════════════════════════════════════════╗
+║  ⚖️ LAWCLAW - AI Law Research Assistant                                  ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  COMMANDS:                                                                  ║
+║    /ask <question>        - Ask any law question (AI answers)            ║
+║    /search <topic>        - Research law topic (AI analyzes)             ║
+║    /court <ST> <county>   - Display local court info                       ║
+║                                                                             ║
+║  EXAMPLES:                                                                  ║
+║    /ask What is the statute of limitations for contract breach?            ║
+║    /search fourth amendment                                                ║
+║    /court CO Clear Creek                                                   ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝""",
     
-    def handle(self, cmd):
-        from agents.docuclaw.docuclaw import DocuClawAgent
-        agent = DocuClawAgent()
-        return agent.handle(cmd)
+    "flowclaw": """
+╔════════════════════════════════════════════════════════════════════════════╗
+║  📊 FLOWCLAW - AI Diagram Generator                                        ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  COMMANDS:                                                                  ║
+║    /flowchart <desc>     - Generate flowchart                             ║
+║    /sequence <desc>      - Generate sequence diagram                      ║
+║    /architecture <desc>  - Generate architecture diagram                  ║
+║    /gantt <desc>         - Generate Gantt chart                           ║
+║                                                                             ║
+║  EXAMPLES:                                                                  ║
+║    /flowchart user login process                                           ║
+║    /sequence API call flow                                                 ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝""",
+
+    "mathematicaclaw": """
+╔════════════════════════════════════════════════════════════════════════════╗
+║  📐 MATHEMATICACLAW - AI Math Visualization                                ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  COMMANDS:                                                                  ║
+║    /visualize <desc>     - AI-powered math visualization                  ║
+║    /solve <equation>     - Solve mathematical equation                    ║
+║    /plot <function>      - Plot function graph                            ║
+║                                                                             ║
+║  EXAMPLES:                                                                  ║
+║    /visualize 3D mountain                                                 ║
+║    /solve x^2 + 2x - 8 = 0                                                ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝""",
+
+    "liberateclaw": """
+╔════════════════════════════════════════════════════════════════════════════╗
+║  🔓 LIBERATECLAW - LLM Model Liberation                                    ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  COMMANDS:                                                                  ║
+║    /models              - List available models                           ║
+║    /liberate <model>    - Download/liberate a model                       ║
+║    /use <model> <prompt> - Run inference with model                       ║
+║    /liberated           - List liberated models                           ║
+║                                                                             ║
+║  EXAMPLES:                                                                  ║
+║    /liberate llama3.2:3b                                                  ║
+║    /use llama3.2:3b "Explain blockchain"                                  ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝""",
+}
+
+def get_agent_commands(agent_name):
+    if agent_name in AGENT_COMMANDS:
+        return AGENT_COMMANDS[agent_name]
+    return f"""
+╔════════════════════════════════════════════════════════════════════════════╗
+║  🦞 {agent_name.upper()} - AI Agent                                         ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  Type 'back' to return to main menu                                        ║
+║  Type 'help' to see this help                                             ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝"""
 
 # ============================================================================
-# MATHCLAW MENU
+# MAIN MENU
 # ============================================================================
-class MathClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("mathematicaclaw", "Mathematics & Visualization")
-        self.commands = {
-            "/visualize <desc>": "AI math visualization",
-            "/solve <equation>": "Solve equation",
-            "/plot <function>": "Plot function",
-        }
+def run_agent(agent_name):
+    agent_path = PROJECT_ROOT / "agents" / agent_name / f"{agent_name}.py"
     
-    def handle(self, cmd):
-        from agents.mathematicaclaw.mathematicaclaw import MathematicaClawAgent
-        agent = MathematicaClawAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# LIBERATECLAW MENU
-# ============================================================================
-class LiberateClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("liberateclaw", "Model Liberation")
-        self.commands = {
-            "/models": "List available models",
-            "/liberate <model>": "Download/liberate model",
-            "/use <model> <prompt>": "Run inference",
-            "/liberated": "List liberated models",
-        }
+    if not agent_path.exists():
+        print(f"{RED}❌ Agent {agent_name} not found{RESET}")
+        input("Press Enter to continue...")
+        return
     
-    def handle(self, cmd):
-        from agents.liberateclaw.liberateclaw import liberateclawAgent
-        agent = liberateclawAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# TXCLAW MENU
-# ============================================================================
-class TXClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("txclaw", "Blockchain Assistant")
-        self.commands = {
-            "/create <name>": "Create smart contract",
-            "/deploy <contract>": "Deploy to testnet",
-            "/test <contract>": "Run contract tests",
-        }
+    clear()
+    print(get_agent_commands(agent_name))
+    print(f"\n{YELLOW}💡 Type 'back' to return to main menu{RESET}\n")
     
-    def handle(self, cmd):
-        from agents.txclaw.txclaw import TXClaw
-        agent = TXClaw()
-        return agent.handle(cmd)
-
-# ============================================================================
-# INTERPRETCLAW MENU
-# ============================================================================
-class InterpretClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("interpretclaw", "Translation & Speech")
-        self.commands = {
-            "/translate <text> to <lang>": "Translate text",
-            "/speak <text>": "Text-to-speech",
-        }
-    
-    def handle(self, cmd):
-        from agents.interpretclaw.interpretclaw import InterpretClawAgent
-        agent = InterpretClawAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# LANGCLAW MENU
-# ============================================================================
-class LangClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("langclaw", "Language Teacher")
-        self.commands = {
-            "/lesson <lang> <topic>": "Start a lesson",
-            "/practice": "Practice session",
-            "/vocab": "Vocabulary builder",
-        }
-    
-    def handle(self, cmd):
-        from agents.langclaw.langclaw import LangClawAgent
-        agent = LangClawAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# CLAWCODER MENU
-# ============================================================================
-class ClawCoderMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("claw_coder", "Code Generation")
-        self.commands = {
-            "/code <task> <lang>": "Generate code",
-            "/analyze <file>": "Analyze code",
-        }
-    
-    def handle(self, cmd):
-        from agents.claw_coder.claw_coder import ClawCoderAgent
-        agent = ClawCoderAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# DATACLAW MENU
-# ============================================================================
-class DataClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("dataclaw", "Data Management")
-        self.commands = {
-            "/add <file>": "Add reference",
-            "/search <q>": "Search local data",
-            "/stats": "Show statistics",
-        }
-    
-    def handle(self, cmd):
-        from agents.dataclaw.dataclaw import DataClaw
-        agent = DataClaw()
-        return agent.handle(cmd)
-
-# ============================================================================
-# WEBCLAW MENU
-# ============================================================================
-class WebClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("webclaw", "Web Search")
-        self.commands = {
-            "/search <q>": "Search web",
-            "/index <url>": "Index URL",
-        }
-    
-    def handle(self, cmd):
-        from agents.webclaw.webclaw import WebClawAgent
-        agent = WebClawAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# FILECLAW MENU
-# ============================================================================
-class FileClawMenu(AgentMenu):
-    def __init__(self):
-        super().__init__("fileclaw", "File Management")
-        self.commands = {
-            "/analyze <file>": "AI file analysis",
-            "/convert <in> <out>": "Convert format",
-            "/batch <dir> <op>": "Batch process",
-            "/find <query>": "Find files",
-        }
-    
-    def handle(self, cmd):
-        from agents.fileclaw.fileclaw import FileClawAgent
-        agent = FileClawAgent()
-        return agent.handle(cmd)
-
-# ============================================================================
-# MAIN CLAWPACK
-# ============================================================================
-class Clawpack:
-    def __init__(self):
-        self.menus = {
-            "1": ("lawclaw", LawClawMenu(), "⚖️ LawClaw Research"),
-            "2": ("flowclaw", FlowClawMenu(), "📊 Diagrams"),
-            "3": ("docuclaw", DocClawMenu(), "📝 Documents"),
-            "4": ("mathematicaclaw", MathClawMenu(), "📐 Mathematics"),
-            "5": ("liberateclaw", LiberateClawMenu(), "🔓 Model Liberation"),
-            "6": ("txclaw", TXClawMenu(), "💰 Blockchain"),
-            "7": ("interpretclaw", InterpretClawMenu(), "🌐 Translation"),
-            "8": ("langclaw", LangClawMenu(), "📚 Language"),
-            "9": ("claw_coder", ClawCoderMenu(), "💻 Code"),
-            "10": ("dataclaw", DataClawMenu(), "💾 Data"),
-            "11": ("webclaw", WebClawMenu(), "🌍 Web"),
-            "12": ("fileclaw", FileClawMenu(), "📁 Files"),
-        }
-    
-    def show_main_menu(self):
-        print("\n" + "="*60)
-        print("🦞 CLAWPACK V2 - AI Agent Ecosystem")
-        print("="*60)
-        for key, (name, _, desc) in self.menus.items():
-            print(f"  {key}. {desc}")
-        print("-"*60)
-        print("  q. Quit")
-        print("="*60)
-    
-    def run(self):
-        while True:
-            self.show_main_menu()
-            choice = input("\n📋 Select an agent (1-12) or 'q' to quit: ").strip()
-            
-            if choice.lower() == 'q':
-                print("Goodbye! 🦞")
-                break
-            
-            if choice in self.menus:
-                name, menu, desc = self.menus[choice]
-                self.run_agent_menu(name, menu, desc)
-            else:
-                print("❌ Invalid choice. Please enter 1-12 or 'q'")
-    
-    def run_agent_menu(self, name, menu, desc):
-        while True:
-            menu.show()
-            cmd = input(f"\n{name}> ").strip()
+    while True:
+        try:
+            cmd = input(f"{GREEN}{agent_name}> {RESET}").strip()
             
             if cmd.lower() == 'back':
                 break
             elif cmd.lower() == 'help':
+                clear()
+                print(get_agent_commands(agent_name))
+                print(f"\n{YELLOW}💡 Type 'back' to return to main menu{RESET}\n")
                 continue
             elif cmd:
-                result = menu.handle(cmd)
-                print(f"\n{result}\n")
-                input("Press Enter to continue...")
+                # Run the agent with the command
+                result = subprocess.run(
+                    [sys.executable, str(agent_path)] + cmd.split(),
+                    capture_output=True,
+                    text=True,
+                    timeout=60
+                )
+                print(result.stdout if result.stdout else result.stderr)
+                print()
+        except KeyboardInterrupt:
+            break
+        except subprocess.TimeoutExpired:
+            print(f"{RED}❌ Command timed out{RESET}\n")
+        except Exception as e:
+            print(f"{RED}❌ Error: {e}{RESET}\n")
 
+# ============================================================================
+# MAIN
+# ============================================================================
 def main():
-    claw = Clawpack()
-    claw.run()
+    while True:
+        clear()
+        banner()
+        show_agents()
+        
+        choice = input(f"\n{BOLD}{YELLOW}📋 Select agent (1-19) or 'q' to quit: {RESET}").strip()
+        
+        if choice.lower() == 'q':
+            clear()
+            print(f"{GREEN}🦞 Goodbye!{RESET}\n")
+            break
+        
+        if choice.isdigit():
+            idx = int(choice) - 1
+            if 0 <= idx < len(AGENTS):
+                run_agent(AGENTS[idx]["name"])
+            else:
+                print(f"{RED}❌ Invalid choice{RESET}")
+                input("Press Enter...")
+        else:
+            print(f"{RED}❌ Invalid choice{RESET}")
+            input("Press Enter...")
 
 if __name__ == "__main__":
     main()

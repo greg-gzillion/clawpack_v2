@@ -36,6 +36,24 @@ class liberateclawAgent:
     def process(self, command, *args):
         return self.handle(' '.join(args))
     
+
+    def collaborate(self, target_agent: str, task: str) -> str:
+        """Collaborate with another agent via A2A"""
+        try:
+            import requests
+            response = requests.post(
+                f"http://127.0.0.1:8766/v1/message/{target_agent}",
+                json={"task": task},
+                timeout=60
+            )
+            if response.status_code == 200:
+                result = response.json()
+                return f"🤝 {target_agent.upper()} responded:
+{result.get('result', 'No result')[:500]}"
+            return f"❌ Agent {target_agent} not responding"
+        except Exception as e:
+            return f"❌ Collaboration error: {e}"
+
     def _help(self):
         return """
 LiberateClaw - Model Liberation Agent
