@@ -181,3 +181,126 @@ def start_a2a_server(args):
         print("❌ A2A server module not found")
 
 # Add to command router (find where commands are processed)
+
+def smart_route(command):
+    """Four-tier routing - inspired by Citadel"""
+    # Tier 0: Direct regex matches
+    if re.match(r'^fix (typo|spelling|grammar)', command):
+        return direct_edit(command)  # 0 tokens
+    
+    # Tier 1: Active session context
+    if command in active_session.commands:
+        return session_handler(command)  # 0 tokens
+    
+    # Tier 2: Keyword lookup
+    keywords = extract_keywords(command)
+    if matched := keyword_index.get(keywords):
+        return matched.handler(command)  # 0 tokens
+    
+    # Tier 3: LLM classification
+    return llm_route(command)  # ~500 tokens
+
+# ============================================================================
+# New features integration
+# ============================================================================
+
+def dashboard(args):
+    """Start web dashboard"""
+    import subprocess
+    subprocess.Popen([sys.executable, "dashboard/server.py"])
+    print("📊 Dashboard started at http://127.0.0.1:3777")
+
+def smart_route_command(args):
+    """Use smart routing for commands"""
+    from agents.shared.router import smart_router
+    command = ' '.join(args)
+    result = smart_router.route(command)
+    print(f"🎯 Routed to: {result.handler} (Tier {result.tier.value}) - Saved {result.tokens_saved} tokens")
+    return result
+
+def decompose_task(args):
+    """Decompose complex task"""
+    from agents.shared.decomposer import task_decomposer
+    task = ' '.join(args)
+    subtasks = task_decomposer.decompose(task)
+    print(f"📋 Task decomposition for: {task}")
+    print(f"📊 Estimated time: {task_decomposer.estimate_time(subtasks)} minutes")
+    for i, st in enumerate(subtasks, 1):
+        print(f"   {i}. [{st.agent}] {st.name}: {st.description} ({st.estimated_time} min)")
+    return subtasks
+
+# Add to command router
+def add_new_commands():
+    # Add to existing clawpack.py command processing
+    pass
+
+# ============================================================================
+# New commands from improvements
+# ============================================================================
+
+def mcp_command(args):
+    """MCP server management"""
+    from agents.shared.mcp_registry import mcp_registry
+    
+    if not args:
+        print(mcp_registry.list_servers())
+        return
+    
+    cmd = args[0]
+    if cmd == "list":
+        print(mcp_registry.list_servers())
+    elif cmd == "install" and len(args) > 1:
+        print(mcp_registry.install(args[1]))
+    elif cmd == "enable" and len(args) > 1:
+        print(mcp_registry.enable(args[1]))
+    elif cmd == "disable" and len(args) > 1:
+        print(mcp_registry.disable(args[1]))
+    else:
+        print("Usage: mcp [list|install|enable|disable]")
+
+def acp_command(args):
+    """ACP agent communication"""
+    from agents.shared.acp_client import acp_client
+    
+    if not args:
+        print("Usage: acp <agent> <message>")
+        return
+    
+    agent = args[0]
+    message = ' '.join(args[1:]) if len(args) > 1 else ""
+    
+    if agent in acp_client.SUPPORTED_AGENTS:
+        acp_client.agent = agent
+        result = acp_client.chat(message)
+        print(result)
+    else:
+        print(f"Unknown agent. Supported: {', '.join(acp_client.SUPPORTED_AGENTS.keys())}")
+
+def sandbox_command(args):
+    """Container sandbox management"""
+    from agents.shared.sandbox import sandbox
+    
+    if not args:
+        print("Usage: sandbox [create|exec|destroy]")
+        return
+    
+    cmd = args[0]
+    if cmd == "create" and len(args) > 1:
+        result = sandbox.create(args[1])
+        print(f"Sandbox created: {result}")
+    elif cmd == "exec" and len(args) > 1:
+        result = sandbox.exec_command(' '.join(args[1:]))
+        print(result)
+    elif cmd == "destroy":
+        sandbox.destroy()
+        print("Sandbox destroyed")
+    else:
+        print("Unknown sandbox command")
+
+def budget_command(args):
+    """Budget controller status"""
+    from agents.shared.budget_controller import budget_controller
+    stats = budget_controller.get_stats()
+    print(f"💰 Budget Controller: {stats}")
+
+# Add to command router (add these to the existing if/elif chain)

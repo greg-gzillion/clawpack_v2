@@ -115,6 +115,15 @@ class RustyPyCraw:
             result = self.a2a_chat(' '.join(args))
             return f"🦞 A2A Response: {result.get('message', 'No response')}"
         
+
+        elif cmd == "search-chronicle" and args:
+            source = args[1] if len(args) > 1 else "both"
+            return self.search_chronicle(args[0], source)
+        elif cmd == "sync-dataclaw":
+            return self.sync_with_dataclaw()
+        elif cmd == "chronicle-stats":
+            return self.chronicle_stats()
+
         else:
             return self.help()
     
@@ -174,6 +183,9 @@ class RustyPyCraw:
 ║    ask <question>           - Ask LLM about code                ║
 ║    index <path>             - Index codebase to chronicle       ║
 ║    search-index <query>     - Search chronicle index            ║
+║    search-chronicle <q> [src]- Search webclaw/dataclaw chronicles║
+║    sync-dataclaw            - Sync with DataClaw references     ║
+║    chronicle-stats          - Show chronicle statistics         ║
 ║    a2a-status               - Check A2A server status           ║
 ║    a2a-chat <task>          - Chat with other agents via A2A    ║
 ║                                                                  ║
@@ -203,3 +215,69 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    def search_chronicle(self, query: str, source: str = "both") -> str:
+        """Search webclaw and/or dataclaw chronicles"""
+        from integrations.chronicle_bridge import chronicle_bridge
+        
+        if source == "webclaw":
+            results = chronicle_bridge.search_webclaw(query)
+            return self._format_chronicle_results(results, "WebClaw Chronicle")
+        elif source == "dataclaw":
+            results = chronicle_bridge.search_dataclaw(query)
+            return self._format_chronicle_results(results, "DataClaw Index")
+
+        elif cmd == "search-chronicle" and args:
+            source = args[1] if len(args) > 1 else "both"
+            return self.search_chronicle(args[0], source)
+        elif cmd == "sync-dataclaw":
+            return self.sync_with_dataclaw()
+        elif cmd == "chronicle-stats":
+            return self.chronicle_stats()
+
+        else:
+            results = chronicle_bridge.unified_search(query)
+            output = f"🔍 UNIFIED SEARCH for '{query}':\n\n"
+            output += self._format_chronicle_results(results['webclaw'], "WebClaw Chronicle")
+            output += "\n"
+            output += self._format_chronicle_results(results['dataclaw'], "DataClaw Index")
+            output += f"\n📊 Total: {results['total']} results"
+            return output
+    
+    def _format_chronicle_results(self, results: List[Dict], source: str) -> str:
+        """Format chronicle search results"""
+        if not results:
+            return f"📚 {source}: No results\n"
+        
+        output = f"📚 {source}: {len(results)} results\n"
+        for r in results[:5]:
+            output += f"   • {r.get('url', 'unknown')[:80]}\n"
+            if r.get('context'):
+                output += f"     {r['context'][:60]}...\n"
+        return output
+    
+    def sync_with_dataclaw(self) -> str:
+        """Sync rustypycraw with dataclaw references"""
+        from integrations.chronicle_bridge import chronicle_bridge
+        return chronicle_bridge.sync_dataclaw_references()
+    
+    def chronicle_stats(self) -> str:
+        """Show chronicle statistics"""
+        from integrations.chronicle_bridge import chronicle_bridge
+        stats = chronicle_bridge.get_chronicle_stats()
+        
+        output = f"""
+╔══════════════════════════════════════════════════════════════════╗
+║              CHRONICLE INTEGRATION STATUS                        ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  🌐 WebClaw Chronicle:                                           ║
+║     • Total Cards: {stats['webclaw'].get('total_cards', 'N/A')}                                      ║
+║     • Unique URLs: {stats['webclaw'].get('unique_urls', 'N/A')}                                       ║
+║                                                                  ║
+║  💾 DataClaw Index:                                              ║
+║     • Total Cards: {stats['dataclaw'].get('total_cards', 'N/A')}                                      ║
+║     • Unique URLs: {stats['dataclaw'].get('unique_urls', 'N/A')}                                       ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝"""
+        return output

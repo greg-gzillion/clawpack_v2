@@ -150,3 +150,13 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     Ok(())
 }
+
+mod chronicle_commands;
+use chronicle_commands::{handle_chronicle_search, handle_chronicle_stats, handle_sync_dataclaw};
+
+// Add to existing match statement
+// In the command matching section, add:
+
+// chronicle search <query> [source]
+// chronicle stats
+// sync-dataclaw

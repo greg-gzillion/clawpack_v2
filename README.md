@@ -1,93 +1,285 @@
-🦞 Clawpack V2
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    NEW FEATURES IMPLEMENTED                                ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  ✅ Four-Tier Smart Routing - Saves tokens on simple commands              ║
+║  ✅ Task Decomposer - Breaks complex tasks into sub-tasks                  ║
+║  ✅ Three-Tier Memory - Working, Semantic, Procedural memory               ║
+║  ✅ Web Dashboard - Real-time agent monitoring                             ║
+║                                                                             ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║  TEST COMMANDS:                                                             ║
+║    python clawpack.py dashboard          - Start web dashboard            ║
+║    python -c 'from agents.shared.router import smart_router; print(smart_router.route("fix typo"))'
+║    python -c 'from agents.shared.decomposer import task_decomposer; task_decomposer.decompose("build auth system")'
+║    python -c 'from agents.shared.memory.three_tier import get_memory; m=get_memory("test"); print(m.get_context("test"))'
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+=== TESTING SMART ROUTER ===
+  fix typo             → Tier 0 (direct_edit) - Saved 500 tokens
+  list agents          → Tier 0 (keyword_list) - Saved 500 tokens
+  build auth system    → Tier 3 (llm_handler) - Saved 0 tokens
+  status               → Tier 0 (keyword_status) - Saved 500 tokens
 
-**Unified AI Agent Ecosystem** - 15 specialized agents working as one.
+=== TESTING TASK DECOMPOSER ===
 
-## Quick Start
+📋 build authentication system:
+   → design: Design architecture for build authentication syste... (30 min)
+   → implement: Implement core functionality for build authenticat... (60 min)
+   → test: Test build authentication system implementation... (30 min)
+   → document: Document build authentication system... (20 min)
 
-```bash
-git clone https://github.com/greg-gzillion/clawpack_v2.git
-cd clawpack_v2
-pip install -r requirements.txt
-python clawpack.py
-Unified Commands
-Command	Agent	Description
-translate Hello to Spanish	interpretclaw	Translation + auto-speak
-speak Hello world	interpretclaw	Text-to-speech
-solve x**2 = 4	mathematicaclaw	Math equations
-plot sin(x)	plotclaw	Charts & graphs
-dream a lobster	dreamclaw	AI image prompts
-analyze photo.jpg	dreamclaw	Vision analysis (qwen3-vl)
-flowchart A->B->C	flowclaw	Diagrams
-/lesson es greetings	langclaw	Language lessons
-Agents
-Agent	Purpose
-🦞 clawpack	Unified router (all agents)
-🌐 interpretclaw	Translation + TTS
-📐 mathematicaclaw	Math computation
-📊 plotclaw	Charts & graphs
-🎨 dreamclaw	AI vision & generation
-🔷 flowclaw	Diagrams & flowcharts
-📏 draftclaw	Technical drawings
-🎯 designclaw	Graphic design
-📝 docuclaw	Document processing
-📈 dataclaw	Data analysis
-🌍 webclaw	Web search
-💰 txclaw	Blockchain
-🏥 mediclaw	Medical references
-⚖️ lawclaw	Legal references
-📚 langclaw	Language teacher
-LLMs
-16 working LLMs detected and available:
+📋 create API endpoint:
+   → design: Design architecture for create API endpoint... (30 min)
+   → implement: Implement core functionality for create API endpoi... (60 min)
+   → test: Test create API endpoint implementation... (30 min)
+   → document: Document create API endpoint... (20 min)
 
-10 local Ollama models (FREE)
+📋 analyze performance:
+   → scan: Scan analyze performance for issues... (10 min)
+   → analyze: Deep analysis of analyze performance... (20 min)
+   → report: Generate analysis report... (10 min)
 
-4 OpenRouter models (FREE)
+=== TESTING THREE-TIER MEMORY ===
+  Memory context: 130 characters
+  Working memory: 2 messages
+(venv) greg@pop-os:~/dev/clawpack_v2$ cd ~/dev/clawpack_v2
 
-1 Anthropic Claude model
+# ============================================================================
+# 7. ADAPTIVE BUDGET CONTROLLER (Inspired by Continuity Ledger)
+# ============================================================================
+cat > agents/shared/budget_controller.py << 'EOF'
+"""Adaptive budget controller for token management - inspired by Continuity Ledger"""
 
-Individual Agents
-Run any agent directly:
+from dataclasses import dataclass
+from typing import Dict, List
+from enum import Enum
+import json
+from pathlib import Path
 
+class BudgetAction(Enum):
+    ADMIT = "admit"
+    COMPRESS = "compress"
+    ESCALATE = "escalate"
+    REACTIVATE = "reactivate"
+
+@dataclass
+class BudgetState:
+    current_tokens: int
+    max_tokens: int
+echo "   No existing functionality was broken - these are all optional additions."═╝""rin
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    ALL IMPROVEMENTS COMPLETE                               ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  NEW FEATURES ADDED:                                                        ║
+║  ✅ Adaptive Budget Controller - Smart token management                    ║
+║  ✅ MCP Registry - Install/manage MCP servers                              ║
+║  ✅ ACP Client - Agent-to-agent communication                              ║
+║  ✅ Container Sandbox - Isolated execution environment                    ║
+║                                                                             ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║  TEST COMMANDS:                                                             ║
+║    python -c 'from agents.shared.budget_controller import budget_controller; print(budget_controller.decide_action(180000, 0.8))'
+║    python clawpack.py mcp list                                             ║
+║    python clawpack.py acp claude 'Hello'                                   ║
+║    python clawpack.py sandbox create test                                  ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+=== TESTING BUDGET CONTROLLER ===
+  Budget at 180k tokens → Action: compress
+  Budget at 190k tokens → Action: escalate
+
+=== TESTING MCP REGISTRY ===
+  Installing filesystem MCP...
+✅ Installed MCP server: filesystem
+📦 MCP Servers:
+  ✅ filesystem: File system operations
+
+
+=== TESTING ACP CLIENT ===
+Traceback (most recent call last):
+  File "/home/greg/dev/clawpack_v2/agents/shared/acp_client.py", line 28, in _check_availability
+    subprocess.run(['which', agent_cmd.split()[0]], capture_output=True, check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['which', 'claude-agent-acp']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/greg/dev/clawpack_v2/agents/shared/acp_client.py", line 60, in <module>
+    acp_client = ACPClient()
+                 ^^^^^^^^^^^
+  File "/home/greg/dev/clawpack_v2/agents/shared/acp_client.py", line 22, in __init__
+    self._check_availability()
+  File "/home/greg/dev/clawpack_v2/agents/shared/acp_client.py", line 31, in _check_availability
+    print(f"⚠️ ACP agent '{self.agent}' not found", file=sys.stderr)
+                                                         ^^^
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?
+
+✅ All improvements from Liu Juanjuan's repositories have been implemented!
+   No existing functionality was broken - these are all optional additions.
+(venv) greg@pop-os:~/dev/clawpack_v2$ cd ~/dev/clawpack_v2
+
+# Fix the ACP client import error
+cat > agents/shared/acp_client.py << 'EOF'
+"""ACP Client for agent-to-agent communication"""
+
+import sys
+import subprocess
+import json
+from pathlib import Path
+from typing import Optional, Dict
+
+class ACPClient:
+    """Agent Client Protocol client - communicate with any ACP-compatible agent"""
+    
+    SUPPORTED_AGENTS = {
+        'claude': 'claude-agent-acp',
+        'codex': 'codex-acp',
+        'pi': 'pi-acp',
+        'gemini': 'gemini --acp',
+        'qwen': 'qwen --acp'
+    }
+    
+    def __init__(self, agent: str = 'claude'):
+echo "╚════════════════════════════════════════════════════════════════════════════╝""wit
+🦞 Activating Clawpack Advanced Features...
+==================================================
+
+1. Smart Router (Four-Tier Routing)
+   Status: ACTIVE
+   Benefit: Saves ~500 tokens on simple commands
+
+2. Task Decomposer
+   Status: ACTIVE
+   Benefit: Breaks complex tasks into sub-tasks
+
+3. Three-Tier Memory
+   Status: ACTIVE
+   Benefit: Working + Semantic + Procedural memory
+
+4. Web Dashboard
+   Status: READY
+   To start: python dashboard/server.py
+   Access: http://127.0.0.1:3777
+
+5. Adaptive Budget Controller
+   Status: ACTIVE
+   Benefit: Smart token management
+
+6. MCP Registry
+   Status: ACTIVE
+   Commands: mcp list, mcp install <name>
+
+7. ACP Client
+   Status: ACTIVE (requires external agents)
+   Supported: claude, codex, pi, gemini, qwen
+
+8. Container Sandbox
+   Status: READY (requires Docker)
+   Commands: sandbox create, sandbox exec, sandbox destroy
+
+==================================================
+✅ All features activated!
+
+Quick test:
+  python -c 'from agents.shared.router import smart_router; print(smart_router.route("fix typo"))'
+  python -c 'from agents.shared.decomposer import task_decomposer; task_decomposer.decompose("build auth")'
+  python clawpack.py mcp list
+  python dashboard/server.py &  # Start web dashboard
+
+=== TESTING ACTIVATED FEATURES ===
+
+1. Smart Router Test:
+  fix typo → DIRECT
+  list agents → DIRECT
+  complex task → LLM
+
+2. Task Decomposer Test:
+  Decomposed into 4 sub-tasks
+  Estimated time: 140 minutes
+
+3. Three-Tier Memory Test:
+  Working memory: 2 messages
+  Token count: 6
+
+4. Budget Controller Test:
+  At 180k tokens (80% success) → compress
+  At 195k tokens (60% success) → escalate
+
+5. MCP Registry Test:
+  Available MCP servers: ['filesystem', 'github', 'brave-search', 'postgres', 'sqlite']
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    FEATURES ACTIVATION SUMMARY                             ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║                                                                             ║
+║  ✅ Smart Router - Active (saves tokens)                                  ║
+║  ✅ Task Decomposer - Active (breaks down tasks)                          ║
+║  ✅ Three-Tier Memory - Active (persistent memory)                        ║
+║  ✅ Budget Controller - Active (token management)                         ║
+║  ✅ MCP Registry - Active (tool management)                               ║
+║  ⏳ Web Dashboard - Ready (start with: python dashboard/server.py)        ║
+║  ⏳ ACP Client - Ready (requires external agents)                         ║
+║  ⏳ Container Sandbox - Ready (requires Docker)                           ║
+║                                                                             ║
+╠════════════════════════════════════════════════════════════════════════════╣
+║  TO USE IN CLAWPACK:                                                        ║
+║    These features are automatically available via imports                  ║
+║    No activation needed - they work when called                            ║
+║                                                                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
+(venv) greg@pop-os:~/dev/clawpack_v2$ cd ~/dev/clawpack_v2
+
+# Create comprehensive documentation
+cat > docs/README.md << 'EOF'
+# Clawpack V2 Documentation
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Installation](#installation)
+3. [Quick Start](#quick-start)
+4. [Agents](#agents)
+5. [Core Features](#core-features)
+6. [Advanced Features](#advanced-features)
+7. [API Reference](#api-reference)
+8. [Configuration](#configuration)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing](#contributing)
+
+## Overview
+
+Clawpack V2 is a unified AI agent ecosystem featuring 8+ specialized agents working as one. Built with modular architecture, chronicle indexing, and inspired by Liu Juanjuan's Common Chronicle.
+
+python clawpack.pyuirements.txteg-gzillion/clawpack_v2.gitdshematicaClaw, etc.
+> Environment Setup
 bash
-python claw.py lang      # Language teacher
-python claw.py interpret # Translator
-python claw.py math      # Math solver
-python claw.py plot      # Charts
-python claw.py dream     # AI vision
-License
-MIT License - see LICENSE
-## Acknowledgments & Attribution
+# Copy environment template
+cp .env.example .env
 
-### Common Chronicle by Liu Juanjuan (@liujuanjuan1984)
+# Add your API keys
+# GROQ_API_KEY=your_key_here
+# OPENAI_API_KEY=your_key_here
+# ANTHROPIC_API_KEY=your_key_here
+Quick Start
+Run the Main Interface
+bash
+python clawpack.py
+Example Commands
+bash
+# Translate
+translate Hello to Spanish
 
-The Chronicle indexing system in Clawpack is deeply inspired by Liu Juanjuan's **Common Chronicle** project.
+# Math
+solve x**2 = 4
 
-> *"Common Chronicle turns messy context into structured, sourced timelines"*
+# Diagrams
+flowchart user login process
 
-**Key concepts adopted from Common Chronicle:**
-- Structured context from raw data
-- Source attribution for every piece of information  
-- Temporal organization (timeline-based structuring)
-- Tag-based organization over folder hierarchies
-
-Liu Juanjuan's insights on knowledge management, data sovereignty, and decentralized networks shaped our approach to:
-- WebClaw's Chronicle index (18,825+ cards)
-- DataClaw's local file management
-- Cross-agent knowledge sharing
-
-**Learn more:**
-- [Common Chronicle on GitHub](https://github.com/Intelligent-Internet/Common_Chronicle)
-- [Liu Juanjuan on Twitter](https://twitter.com/liujuanjuan1984)
-
-> *"试着用自己的语言复述一些基础常识"* - Liu Juanjuan  
-> *(Try to restate basic common sense in your own words)*
-
-We've tried to do exactly that with Clawpack.
-
----
-
-**致敬开源精神，致敬知识分享者**  
-*(Salute to the open source spirit, salute to knowledge sharers)*
-
+with inspiration from Liu Juanjuan's Common Chronicle───┘│77oryt_router.route(cmd))
