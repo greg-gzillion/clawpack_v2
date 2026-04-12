@@ -27,7 +27,8 @@ def run(args):
     # Export to Microsoft Word
     if app == "word":
         try:
-            subprocess.run(['start', 'winword', str(p.absolute())], shell=True)
+            # SECURE: Use cmd /c start with shell=False (prevents command injection)
+	subprocess.run(['cmd', '/c', 'start', 'winword', str(p.absolute())], shell=False)
             print(f"✅ Opening in Microsoft Word")
         except:
             print(f"❌ Could not open Word")
@@ -35,7 +36,7 @@ def run(args):
     # Export to Excel (for CSV files)
     elif app == "excel":
         try:
-            subprocess.run(['start', 'excel', str(p.absolute())], shell=True)
+            subprocess.run(['cmd', '/c', 'start', 'excel', str(p.absolute())], shell=False)  # SECURE: No shell injection
             print(f"✅ Opening in Microsoft Excel")
         except:
             print(f"❌ Could not open Excel")
@@ -43,7 +44,7 @@ def run(args):
     # Export to PowerPoint
     elif app == "powerpoint":
         try:
-            subprocess.run(['start', 'powerpnt', str(p.absolute())], shell=True)
+            subprocess.run(['cmd', '/c', 'start', 'powerpnt', str(p.absolute())], shell=False)  # SECURE: No shell injection
             print(f"✅ Opening in PowerPoint")
         except:
             print(f"❌ Could not open PowerPoint")
@@ -86,3 +87,5 @@ def run(args):
             print(f"✅ Opening with default application")
         except:
             print(f"❌ Could not open {p.name}")
+
+
