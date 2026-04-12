@@ -121,32 +121,30 @@ class A2AHandler(BaseHTTPRequestHandler):
         else:
             self._send_error(404, "Not found")
     
-    def _execute_agent(self, agent_name, cmd_args):
+    ddef _execute_agent(self, agent_name, cmd_args):
+        """Safely execute agent command with validated arguments"""
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
         if not agent_script.exists():
             return f"Agent script not found: {agent_script}"
         
+        # SECURITY: Validate all command arguments
+        safe_args = []
+        for arg in cmd_args:
+            arg = str(arg)
+            # Block dangerous shell characters
+            dangerous = [';', '|', '&', '$', '`', '>', '<', '\n', '\r']
+            if any(c in arg for c in dangerous):
+                return f"Error: Invalid characters in argument"
+            if len(arg) > 500:
+                return f"Error: Argument too long"
+            safe_args.append(arg)
+
         try:
-            cmd = [sys.executable, str(agent_script)] + cmd_args
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
+            cmd = [sys.executable, str(agent_script)] + safe_args
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, shell=False)
             return result.stdout[:1000] if result.stdout else "Agent executed"
         except Exception as e:
             return f"Error: {e}"
-    
-    def _send_json(self, data, status=200):
-        self.send_response(status)
-        self.send_header('Content-Type', 'application/json')
-        self.end_headers()
-        self.wfile.write(json.dumps(data, indent=2).encode())
-    
-    def _send_error(self, code, message):
-        self.send_response(code)
-        self.send_header('Content-Type', 'application/json')
-        self.end_headers()
-        self.wfile.write(json.dumps({"error": message, "code": code}).encode())
-    
-    def log_message(self, format, *args):
-        pass
 
 def main():
     port = 8766
