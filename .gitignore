@@ -52,3 +52,5 @@ data/shared_memory.json
 *.bak
 agents/flowclaw/output/*.mmd
 agents/dataclaw/data/
+/models
+/core/llm/obliterated
