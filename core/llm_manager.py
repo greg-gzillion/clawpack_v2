@@ -1,4 +1,4 @@
-"""LLM Manager - Groq first, Ollama fallback"""
+﻿"""LLM Manager - Groq first, Ollama fallback"""
 import json
 import os
 import subprocess
@@ -51,36 +51,46 @@ class LLMManager:
         return '\n'.join(output)
     
     def chat_sync(self, prompt: str, model: str = None) -> str:
-        """Chat using Groq (fast) or fallback to Ollama"""
-        
-        # Try Groq first
-        if self.groq_client:
-            try:
-                model_name = model or os.getenv("DEFAULT_MODEL", "llama3-8b-8192")
-                completion = self.groq_client.chat.completions.create(
-                    model=model_name,
+        """Chat using Groq with the latest supported model"""
+        try:
+            groq_key = os.getenv("GROQ_API_KEY")
+            if groq_key:
+                from groq import Groq
+                client = Groq(api_key=groq_key)
+                
+                # Use a currently supported model
+                # Options: llama-3.3-70b-versatile (best), llama-3.1-8b-instant (fastest)
+                model_to_use = model if model else "llama-3.3-70b-versatile"
+                
+                completion = client.chat.completions.create(
+                    model=model_to_use,
                     messages=[{"role": "user", "content": prompt}],
                     temperature=0.7,
-                    max_tokens=1024
+                    max_tokens=500
                 )
                 return completion.choices[0].message.content
-            except Exception as e:
-                print(f"Groq error: {e}, falling back to Ollama")
-        
-        # Fallback to Ollama
-        try:
-            ollama_model = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
-            result = subprocess.run(
-                ["ollama", "run", ollama_model, prompt],
-                capture_output=True,
-                text=True,
-                timeout=60
-            )
-            if result.returncode == 0 and result.stdout:
-                return result.stdout.strip()
-            return f"Ollama error: {result.stderr}"
+            
+            # Fallback to OpenRouter
+            key = os.getenv("OPENROUTER_API_KEY")
+            if key:
+                import requests
+                response = requests.post(
+                    "https://openrouter.ai/api/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                    json={
+                        "model": "google/gemma-2-9b-it:free",
+                        "messages": [{"role": "user", "content": prompt}],
+                        "max_tokens": 500
+                    },
+                    timeout=60
+                )
+                if response.status_code == 200:
+                    return response.json()["choices"][0]["message"]["content"]
+            
+            return "Error: No working API key. Please check GROQ_API_KEY in .env"
+            
         except Exception as e:
-            return f"Error: {e}"
+            return f"Error: {str(e)}"
 
 _llm_manager = None
 

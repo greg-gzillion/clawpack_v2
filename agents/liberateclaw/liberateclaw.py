@@ -1,133 +1,101 @@
-#!/usr/bin/env python3
-"""liberateclaw - Model Liberation Agent"""
+﻿#!/usr/bin/env python3
+"""Liberateclaw - Model Liberation Agent (Modular)"""
 
 import sys
-import subprocess
-import json
+import io
 from pathlib import Path
-from datetime import datetime
 
-class liberateclawAgent:
-    def __init__(self):
-        self.name = "liberateclaw"
-        self.description = "Model Liberation - Download and manage local LLM models"
-        self.liberated_dir = Path.home() / ".clawpack" / "liberated"
-        self.liberated_dir.mkdir(parents=True, exist_ok=True)
+# Fix Windows console encoding
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
+# Add parent to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+def process_command(cmd: str) -> str:
+    """Process liberateclaw commands"""
+    cmd = cmd.strip()
+
+    # Check exact matches first
+    if cmd == "/liberated":
+        from commands.liberated import list_liberated
+        return list_liberated()
+    elif cmd == "/models":
+        from commands.models import list_models
+        return list_models()
+    elif cmd == "/remote":
+        from commands.remote import show_remote_help
+        return show_remote_help()
+    elif cmd == "/help":
+        return get_help()
+    elif cmd == "/quit":
+        return "QUIT"
     
-    def handle(self, cmd: str) -> str:
-        cmd = cmd.strip()
-        
-        if cmd == "/help" or cmd == "help":
-            return self._help()
-        elif cmd == "/models" or cmd == "models":
-            return self._list_ollama_models()
-        elif cmd == "/liberated":
-            return self._list_liberated()
-        elif cmd.startswith("/liberate "):
-            return self._liberate(cmd[10:].strip())
-        elif cmd.startswith("/use "):
-            parts = cmd[5:].split(maxsplit=1)
-            if len(parts) == 2:
-                return self._use_model(parts[0], parts[1])
-            return "Usage: /use <model> <prompt>"
-        else:
-            return f"Unknown: {cmd}\n{self._help()}"
-    
-    def process(self, command, *args):
-        return self.handle(' '.join(args))
-    
+    # Check startswith matches (order matters - longer first)
+    elif cmd.startswith("/remote-liberate"):
+        from commands.remote import remote_liberate
+        return remote_liberate(cmd[17:].strip())
+    elif cmd.startswith("/liberate"):
+        from commands.liberate import run_liberate
+        return run_liberate(cmd[10:].strip())
+    elif cmd.startswith("/obliterate"):
+        from commands.obliterate import run_obliterate
+        return run_obliterate(cmd[12:].strip())
+    elif cmd.startswith("/use"):
+        parts = cmd[5:].split(maxsplit=1)
+        if len(parts) == 2:
+            from commands.use import run_use
+            return run_use(parts[0], parts[1])
+        return "Usage: /use <model> <prompt>"
+    else:
+        return f"Unknown: {cmd}\n{get_help()}"
 
-    def collaborate(self, target_agent: str, task: str) -> str:
-        """Collaborate with another agent via A2A"""
-        try:
-            import requests
-            response = requests.post(
-                f"http://127.0.0.1:8766/v1/message/{target_agent}",
-                json={"task": task},
-                timeout=60
-            )
-            if response.status_code == 200:
-                result = response.json()
-                return f"🤝 {target_agent.upper()} responded:
-{result.get('result', 'No result')[:500]}"
-            return f"❌ Agent {target_agent} not responding"
-        except Exception as e:
-            return f"❌ Collaboration error: {e}"
-
-    def _help(self):
-        return """
-LiberateClaw - Model Liberation Agent
-
-Commands:
-  /models              - List available Ollama models
-  /liberate <model>    - Download/liberate a model
-  /liberated           - List liberated models
-  /use <model> <prompt> - Use a liberated model
-  /help                - Show this help
-
-Examples:
-  /liberate tinyllama:1.1b
-  /use tinyllama:1.1b "Explain AI"
+def get_help():
+    return """
+╔══════════════════════════════════════════════════════════════════╗
+║  🔓 LIBERATECLAW - Model Liberation Agent (Modular)             ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  COMMANDS:                                                       ║
+║    /liberate <model>     - Liberate model via Ollama            ║
+║    /obliterate <model>   - OBLITERATUS (advanced liberation)    ║
+║    /use <model> <prompt> - Use liberated model                 ║
+║    /models               - List available models               ║
+║    /liberated            - List liberated models               ║
+║    /remote               - Remote liberation help              ║
+║    /remote-liberate <cmd> - Liberate on remote GPU server      ║
+║                                                                  ║
+║  EXAMPLES:                                                       ║
+║    /liberate llama3.2:3b                                        ║
+║    /obliterate meta-llama/Llama-3.1-8B-Instruct                ║
+║    /use llama3.2:3b "Explain AI"                               ║
+║    /remote-liberate --user user --host 10.0.0.5 --model name   ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 """
-    
-    def _list_ollama_models(self):
-        try:
-            result = subprocess.run(['ollama', 'list'], capture_output=True, text=True)
-            if result.returncode == 0:
-                return f"📦 Available Models:\n{result.stdout}"
-            return "Error listing models"
-        except Exception as e:
-            return f"Error: {e}"
-    
-    def _list_liberated(self):
-        models = list(self.liberated_dir.glob("*"))
-        if not models:
-            return "No liberated models yet. Use /liberate <model>"
-        output = f"🔓 Liberated Models ({len(models)}):\n"
-        for m in models:
-            output += f"  • {m.name}\n"
-        return output
-    
-    def _liberate(self, model):
-        model_slug = model.replace(':', '_').replace('/', '_')
-        model_dir = self.liberated_dir / model_slug
-        if model_dir.exists():
-            return f"Model {model} already liberated"
-        
-        try:
-            result = subprocess.run(['ollama', 'pull', model], capture_output=True, text=True)
-            if result.returncode == 0:
-                model_dir.mkdir(parents=True, exist_ok=True)
-                (model_dir / "info.json").write_text(json.dumps({
-                    "model": model, "liberated_at": datetime.now().isoformat()
-                }, indent=2))
-                return f"✅ Liberated: {model}"
-            return f"❌ Failed: {result.stderr}"
-        except Exception as e:
-            return f"Error: {e}"
-    
-    def _use_model(self, model, prompt):
-        model_slug = model.replace(':', '_').replace('/', '_')
-        model_dir = self.liberated_dir / model_slug
-        if not model_dir.exists():
-            return f"Model {model} not liberated. Use /liberate {model} first"
-        
-        try:
-            result = subprocess.run(['ollama', 'run', model, prompt], capture_output=True, text=True, timeout=60)
-            if result.returncode == 0:
-                return f"🤖 {model}:\n{result.stdout[:1000]}"
-            return f"Error: {result.stderr}"
-        except subprocess.TimeoutExpired:
-            return "Model inference timed out"
-        except Exception as e:
-            return f"Error: {e}"
 
 def main():
-    agent = liberateclawAgent()
     if len(sys.argv) > 1:
-        print(agent.handle(' '.join(sys.argv[1:])))
-    else:
-        print(agent._help())
+        print(process_command(' '.join(sys.argv[1:])))
+        return
+
+    print("\n🔓 LIBERATECLAW - Model Liberation Agent (Modular)")
+    print("Type /help for commands, /quit to exit")
+
+    while True:
+        try:
+            cmd = input("\nliberateclaw> ").strip()
+            if cmd == "/quit":
+                break
+            if cmd:
+                result = process_command(cmd)
+                print(result)
+                if result == "QUIT":
+                    break
+        except KeyboardInterrupt:
+            print("\nGoodbye!")
+            break
 
 if __name__ == "__main__":
     main()
