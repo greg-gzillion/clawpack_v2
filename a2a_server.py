@@ -1,217 +1,188 @@
-#!/usr/bin/env python3
-"""A2A Protocol Server - All 21 Agents"""
-
+﻿#!/usr/bin/env python3
+"""Clawpack A2A Server - Unified with Memory, WebClaw, and 21 Agents"""
 import json
-import subprocess
 import sys
+import subprocess
 from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
-PROJECT_ROOT = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).parent
+sys.path.insert(0, str(PROJECT_ROOT))
+
+# Import memory system
+from shared.memory import get_memory
+
+# Import WebClaw handler
+from agents.webclaw.agent_handler import process_task as webclaw_process
+
+# Initialize memory
+a2a_memory = get_memory("a2a_server")
 
 AGENTS = {
-    "llmclaw": {
-        "description": "Model selection and management",
-        "script": "agents/llmclaw/llmclaw.py",
-        "cmd_prefix": []
-    },
-    "liberateclaw": {
-        "description": "LLM Model Liberation",
-        "script": "agents/liberateclaw/liberateclaw.py",
-        "cmd_prefix": ["obliterate"]
-    },
-    "flowclaw": {
-        "description": "AI-powered diagram generator",
-        "script": "agents/flowclaw/flowclaw.py",
-        "cmd_prefix": ["view", "flowchart"]
-    },
-    "designclaw": {
-        "description": "Graphic design and logos",
-        "script": "agents/designclaw/designclaw.py",
-        "cmd_prefix": ["logo"]
-    },
-    "draftclaw": {
-        "description": "Technical drawings and blueprints",
-        "script": "agents/draftclaw/draftclaw.py",
-        "cmd_prefix": ["blueprint"]
-    },
-    "drawclaw": {
-        "description": "Drawing and sketching",
-        "script": "agents/drawclaw/drawclaw.py",
-        "cmd_prefix": ["draw"]
-    },
-    "dreamclaw": {
-        "description": "AI vision and generation",
-        "script": "agents/dreamclaw/dreamclaw.py",
-        "cmd_prefix": ["dream"]
-    },
-    "plotclaw": {
-        "description": "Charts and graphs",
-        "script": "agents/plotclaw/plotclaw.py",
-        "cmd_prefix": ["plot"]
-    },
-    "docuclaw": {
-        "description": "AI-powered document processor",
-        "script": "agents/docuclaw/docuclaw.py",
-        "cmd_prefix": ["create", "letter"]
-    },
-    "dataclaw": {
-        "description": "Data analysis and local references",
-        "script": "agents/dataclaw/dataclaw.py",
-        "cmd_prefix": ["search"]
-    },
-    "webclaw": {
-        "description": "Web search and indexing",
-        "script": "agents/webclaw/webclaw.py",
-        "cmd_prefix": ["search"]
-    },
-    "mathematicaclaw": {
-        "description": "AI-powered mathematics solver",
-        "script": "agents/mathematicaclaw/mathematicaclaw.py",
-        "cmd_prefix": ["solve"]
-    },
-    "fileclaw": {
-        "description": "File analysis and organization",
-        "script": "agents/fileclaw/fileclaw.py",
-        "cmd_prefix": ["analyze"]
-    },
-    "interpretclaw": {
-        "description": "Translation and interpretation",
-        "script": "agents/interpretclaw/interpretclaw.py",
-        "cmd_prefix": ["translate"]
-    },
-    "langclaw": {
-        "description": "Language teacher",
-        "script": "agents/langclaw/langclaw.py",
-        "cmd_prefix": ["lesson"]
-    },
-    "lawclaw": {
-        "description": "Legal research assistant",
-        "script": "agents/lawclaw/lawclaw.py",
-        "cmd_prefix": []
-    },
-    "mediclaw": {
-        "description": "Medical references and diagnosis",
-        "script": "agents/mediclaw/mediclaw.py",
-        "cmd_prefix": ["diagnose"]
-    },
-    "txclaw": {
-        "description": "Blockchain and smart contract developer",
-        "script": "agents/TXclaw/txclaw.py",
-        "cmd_prefix": ["deploy"]
-    },
-    "claw_coder": {
-        "description": "Code generation (38 languages)",
-        "script": "agents/claw_coder/claw_coder.py",
-        "cmd_prefix": ["code"]
-    },
-    "rustypycraw": {
-        "description": "Code crawler and analyzer",
-        "script": "agents/rustypycraw/rustypycraw.py",
-        "cmd_prefix": ["crawl"]
-    },
-    "crustyclaw": {
-        "description": "Rust AI Assistant",
-        "script": "agents/crustyclaw/chronicle_bridge.py",
-        "cmd_prefix": []
-    }
+    "llmclaw": {"script": "agents/llmclaw/llmclaw.py", "cmd_prefix": ["model"], "desc": "Model selection and management"},
+    "liberateclaw": {"script": "agents/liberateclaw/liberateclaw.py", "cmd_prefix": ["liberate"], "desc": "LLM Model Liberation"},
+    "flowclaw": {"script": "agents/flowclaw/flowclaw.py", "cmd_prefix": ["diagram"], "desc": "AI-powered diagram generator"},
+    "designclaw": {"script": "agents/designclaw/designclaw.py", "cmd_prefix": ["design"], "desc": "Graphic design and logos"},
+    "draftclaw": {"script": "agents/draftclaw/draftclaw.py", "cmd_prefix": ["draft"], "desc": "Technical drawings and blueprints"},
+    "drawclaw": {"script": "agents/drawclaw/drawclaw.py", "cmd_prefix": ["draw"], "desc": "Drawing and sketching"},
+    "dreamclaw": {"script": "agents/dreamclaw/dreamclaw.py", "cmd_prefix": ["dream"], "desc": "AI vision and generation"},
+    "plotclaw": {"script": "agents/plotclaw/plotclaw.py", "cmd_prefix": ["plot"], "desc": "Charts and graphs"},
+    "docuclaw": {"script": "agents/docuclaw/docuclaw.py", "cmd_prefix": ["doc"], "desc": "AI-powered document processor"},
+    "dataclaw": {"script": "agents/dataclaw/dataclaw.py", "cmd_prefix": ["search"], "desc": "Data analysis and local references"},
+    "webclaw": {"script": "agents/webclaw/webclaw.py", "cmd_prefix": ["search"], "desc": "Web search and indexing"},
+    "mathematicaclaw": {"script": "agents/mathematicaclaw/mathematicaclaw.py", "cmd_prefix": ["math"], "desc": "AI-powered mathematics solver"},
+    "fileclaw": {"script": "agents/fileclaw/fileclaw.py", "cmd_prefix": ["file"], "desc": "File analysis and organization"},
+    "interpretclaw": {"script": "agents/interpretclaw/interpretclaw.py", "cmd_prefix": ["translate"], "desc": "Translation and interpretation"},
+    "langclaw": {"script": "agents/langclaw/langclaw.py", "cmd_prefix": ["learn"], "desc": "Language teacher"},
+    "lawclaw": {"script": "agents/lawclaw/lawclaw.py", "cmd_prefix": ["search"], "desc": "Legal research assistant"},
+    "mediclaw": {"script": "agents/mediclaw/mediclaw.py", "cmd_prefix": ["diagnose"], "desc": "Medical references and diagnosis"},
+    "txclaw": {"script": "agents/txclaw/txclaw.py", "cmd_prefix": ["tx"], "desc": "Blockchain and smart contract developer"},
+    "claw_coder": {"script": "agents/claw_coder/claw_coder.py", "cmd_prefix": ["code"], "desc": "Code generation (38 languages)"},
+    "rustypycraw": {"script": "agents/rustypycraw/rustypycraw.py", "cmd_prefix": ["crawl"], "desc": "Code crawler and analyzer"},
+    "crustyclaw": {"script": "agents/crustyclaw/crustyclaw.py", "cmd_prefix": ["rust"], "desc": "Rust AI Assistant"},
 }
 
-class A2AHandler(BaseHTTPRequestHandler):
+class UnifiedA2AHandler(BaseHTTPRequestHandler):
+    """Unified A2A Handler - Memory + WebClaw + All Agents"""
+    
+    def log_message(self, format, *args):
+        print(f"  {self.address_string()} - {format % args}")
+    
     def do_GET(self):
-        parsed = urlparse(self.path)
-        if parsed.path == "/health":
-            self._send_json({"status": "healthy", "agents": len(AGENTS)})
-        elif parsed.path == "/.well-known/agent.json":
+        path = urlparse(self.path).path
+        
+        if path == "/health":
             self._send_json({
-                "name": "Clawpack",
-                "version": "2.0.0",
-                "description": "Unified AI Agent Ecosystem",
-                "agents": list(AGENTS.keys()),
-                "protocols": ["A2A", "REST"]
+                "status": "healthy",
+                "agents": len(AGENTS),
+                "memory": {
+                    "working_tokens": a2a_memory.working.token_count,
+                    "semantic_facts": len(a2a_memory.semantic.facts),
+                    "semantic_entities": len(a2a_memory.semantic.entities)
+                }
             })
-        elif parsed.path == "/v1/agents":
-            self._send_json({"agents": list(AGENTS.keys())})
+        elif path == "/v1/agents":
+            agents_list = [{"name": k, "description": v["desc"]} for k, v in AGENTS.items()]
+            self._send_json({"agents": agents_list})
+        elif path == "/memory/stats":
+            self._send_json({
+                "working_tokens": a2a_memory.working.token_count,
+                "semantic_facts": len(a2a_memory.semantic.facts),
+                "semantic_entities": len(a2a_memory.semantic.entities),
+                "working_messages": len(a2a_memory.working.messages),
+                "max_tokens": a2a_memory.working.max_tokens
+            })
         else:
             self._send_error(404, "Not found")
-
+    
     def do_POST(self):
-        parsed = urlparse(self.path)
-        if parsed.path == "/v1/chat":
-            length = int(self.headers.get('Content-Length', 0))
-            body = self.rfile.read(length)
+        path = urlparse(self.path).path
+        
+        if path.startswith("/v1/message/"):
+            agent_name = path.split("/")[-1]
+            content_length = int(self.headers.get('Content-Length', 0))
+            body = self.rfile.read(content_length)
             data = json.loads(body)
             task = data.get('task', '')
-            task_lower = task.lower()
-            if any(w in task_lower for w in ['flowchart', 'diagram']):
-                agent_name = "flowclaw"
-                cmd_args = ["view", "flowchart", task]
-            elif any(w in task_lower for w in ['searchindex', 'court', 'legal']):
-                agent_name = "lawclaw"
-                cmd_args = [task]
-            elif any(w in task_lower for w in ['letter', 'document']):
-                agent_name = "docuclaw"
-                cmd_args = ["create", "letter"]
-            else:
-                agent_name = "docuclaw"
-                cmd_args = ["ai", task, "report"]
-            result = self._execute_agent(agent_name, cmd_args)
-            self._send_json({"status": "success", "agent": agent_name, "task": task, "result": result[:500]})
-        elif parsed.path.startswith("/v1/message/"):
-            agent_name = parsed.path.split("/")[-1]
-            length = int(self.headers.get('Content-Length', 0))
-            body = self.rfile.read(length)
-            data = json.loads(body)
-            task = data.get('task', '')
+            
+            # Store in working memory
+            a2a_memory.working.add("user", f"[{agent_name}] {task}")
+            
             if agent_name in AGENTS:
-                cmd_args = [task] if agent_name == "lawclaw" else AGENTS[agent_name]["cmd_prefix"] + [task]
-                result = self._execute_agent(agent_name, cmd_args)
-                self._send_json({"status": "accepted", "agent": agent_name, "task": task, "result": result[:500]})
+                result = self._execute_agent(agent_name, task)
+                
+                # Store result in working memory
+                a2a_memory.working.add("assistant", result[:500])
+                
+                # Store in semantic memory
+                a2a_memory.semantic.add_fact(agent_name, task, result[:200])
+                
+                # Compress if needed
+                compressed = a2a_memory.working.compress()
+                
+                self._send_json({
+                    "status": "success",
+                    "agent": agent_name,
+                    "task": task,
+                    "result": result[:1000],
+                    "memory_tokens": a2a_memory.working.token_count
+                })
             else:
                 self._send_error(404, f"Agent '{agent_name}' not found")
         else:
             self._send_error(404, "Not found")
-
+    
     def _send_json(self, data, status=200):
         self.send_response(status)
         self.send_header('Content-Type', 'application/json')
         self.end_headers()
         self.wfile.write(json.dumps(data).encode())
-
+    
     def _send_error(self, code, message):
         self._send_json({"error": message}, code)
-
-    def _execute_agent(self, agent_name, cmd_args):
+    
+    def _execute_agent(self, agent_name: str, task: str) -> str:
+        """Execute agent with proper routing"""
+        
+        # WebClaw uses direct import for performance
+        if agent_name == "webclaw":
+            return webclaw_process(task)
+        
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
         if not agent_script.exists():
             return f"Agent script not found: {agent_script}"
+        
+        # Build command args
+        cmd_args = [task] if agent_name == "lawclaw" else AGENTS[agent_name]["cmd_prefix"] + [task]
+        
+        # Security validation
         safe_args = []
         for arg in cmd_args:
             arg = str(arg)
             dangerous = [';', '|', '&', '$', '`', '>', '<', '\n', '\r']
             if any(c in arg for c in dangerous):
-                return f"Error: Invalid characters in argument"
+                return "Error: Invalid characters in argument"
             if len(arg) > 500:
-                return f"Error: Argument too long"
+                return "Error: Argument too long"
             safe_args.append(arg)
+        
         try:
             cmd = [sys.executable, str(agent_script)] + safe_args
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, shell=False)
             return result.stdout[:1000] if result.stdout else "Agent executed"
+        except subprocess.TimeoutExpired:
+            return "Error: Agent timeout"
         except Exception as e:
             return f"Error: {e}"
 
 def main():
     port = 8766
-    server = HTTPServer(('127.0.0.1', port), A2AHandler)
-    print(f"\n🦞 Clawpack A2A Server v2.0 - {len(AGENTS)} agents registered")
+    server = HTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
+    
+    print("\n" + "="*70)
+    print("🦞 CLAWPACK A2A SERVER - UNIFIED")
+    print("="*70)
     print(f"📍 http://127.0.0.1:{port}")
-    print("\n📋 Registered Agents:")
-    for name, info in AGENTS.items():
-        print(f"   ✅ {name:16} - {info['description']}")
+    print(f"\n✅ {len(AGENTS)} Agents Registered")
+    print("✅ Three-Tier Memory: ACTIVE")
+    print("✅ WebClaw Direct Integration: ACTIVE")
+    print("\nEndpoints:")
+    print("  GET  /health        - Server health + memory stats")
+    print("  GET  /v1/agents     - List all agents")
+    print("  GET  /memory/stats  - Detailed memory statistics")
+    print("  POST /v1/message/{agent} - Send task to agent")
     print("\nPress Ctrl+C to stop\n")
-    server.serve_forever()
+    print("="*70 + "\n")
+    
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print("\n\n📊 Final Memory Stats:")
+        print(f"   Working tokens: {a2a_memory.working.token_count}")
+        print(f"   Semantic facts: {len(a2a_memory.semantic.facts)}")
+        print(f"   Messages processed: {len(a2a_memory.working.messages)}")
+        print("\n👋 Server stopped")
 
 if __name__ == "__main__":
     main()

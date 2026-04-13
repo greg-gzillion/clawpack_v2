@@ -1,50 +1,28 @@
-﻿# Fix for line 17 - Replace dangerous regex with proper HTML parser
-
+﻿"""Content extraction utilities"""
+from typing import Callable, Optional
 import re
-from bs4 import BeautifulSoup
-from html import escape
-from typing import Optional
 
-class ContentParser:
-    """Safe HTML content parser"""
+def get_extractor(url: str) -> Optional[Callable]:
+    """Get appropriate content extractor for URL"""
+    # Simple extractor that works for most HTML
+    def default_extractor(content: str) -> str:
+        # Remove HTML tags
+        text = re.sub(r'<[^>]+>', ' ', content)
+        # Clean up whitespace
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
     
-    # REMOVE dangerous regex (line 17)
-    # BAD:  re.sub(r'<(?!\/?a(?=>|\s.*>))\/?.*?>', '', html)
-    
-    # REPLACE with BeautifulSoup (safe)
-    @staticmethod
-    def clean_html(html: str, allowed_tags: Optional[list] = None) -> str:
-        """Safely clean HTML using BeautifulSoup"""
-        if not html:
-            return ""
-        
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        # Default allowed tags
-        if allowed_tags is None:
-            allowed_tags = ['a', 'p', 'br', 'strong', 'em', 'ul', 'ol', 'li']
-        
-        # Remove script and style tags completely
-        for tag in soup(['script', 'style', 'iframe', 'object', 'embed']):
-            tag.decompose()
-        
-        # Only keep allowed tags
-        for tag in soup.find_all(True):
-            if tag.name not in allowed_tags:
-                tag.unwrap()  # Remove tag but keep content
-        
-        # Sanitize attributes
-        for tag in soup.find_all('a'):
-            href = tag.get('href', '')
-            # Only allow http/https links
-            if not href.startswith(('http://', 'https://', '/')):
-                tag['href'] = '#'
-            tag['rel'] = 'noopener noreferrer'
-        
-        return str(soup)
-    
-    @staticmethod
-    def extract_text(html: str) -> str:
-        """Safely extract plain text from HTML"""
-        soup = BeautifulSoup(html, 'html.parser')
-        return soup.get_text(separator=' ', strip=True)
+    return default_extractor
+
+def extract_content(content: str, content_type: str = 'html') -> str:
+    """Extract clean text from content"""
+    if 'html' in content_type.lower():
+        # Remove scripts and styles
+        content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
+        content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL | re.IGNORECASE)
+        # Remove HTML tags
+        text = re.sub(r'<[^>]+>', ' ', content)
+        # Clean whitespace
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
+    return content

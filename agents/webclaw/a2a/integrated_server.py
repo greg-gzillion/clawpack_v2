@@ -1,7 +1,8 @@
-"""A2A Protocol Server - Integrated with Clawpack agents (Security Hardened)"""
+﻿"""A2A Protocol Server - Integrated with Clawpack agents (Security Hardened)"""
 
 import json
 import sys
+from agent_handler import process_task
 import re
 from pathlib import Path
 from fastapi import FastAPI, HTTPException
@@ -187,18 +188,19 @@ async def _route_to_agent(agent_name: str, task: str, context: Dict = None) -> s
 def start_server(host: str = "127.0.0.1", port: int = 8765):
     """Start the A2A server"""
     import uvicorn
-    print(f"🚀 Starting Clawpack A2A Server on {host}:{port}")
-    print(f"📋 Agent Discovery: http://{host}:{port}/.well-known/agent.json")
-    print(f"💚 Health Check: http://{host}:{port}/health")
-    print(f"🤖 Available Agents: http://{host}:{port}/v1/agents")
+    print(f"ðŸš€ Starting Clawpack A2A Server on {host}:{port}")
+    print(f"ðŸ“‹ Agent Discovery: http://{host}:{port}/.well-known/agent.json")
+    print(f"ðŸ’š Health Check: http://{host}:{port}/health")
+    print(f"ðŸ¤– Available Agents: http://{host}:{port}/v1/agents")
     print("")
-    print("🔒 Security Features:")
-    print("   • Whitelist-based agent validation")
-    print("   • Path traversal protection")
-    print("   • Input length limits")
-    print("   • Command injection prevention")
+    print("ðŸ”’ Security Features:")
+    print("   â€¢ Whitelist-based agent validation")
+    print("   â€¢ Path traversal protection")
+    print("   â€¢ Input length limits")
+    print("   â€¢ Command injection prevention")
     print("")
     uvicorn.run(app, host=host, port=port)
 
 if __name__ == "__main__":
     start_server()
+
