@@ -1,0 +1,70 @@
+{
+  "ollama/gemma3:12b": {
+    "status": "failed",
+    "time": 30.0169734954834
+  },
+  "ollama/tinyllama:1.1b": {
+    "status": "working",
+    "time": 9.4283607006073
+  },
+  "ollama/qwen3-coder-liberated:latest": {
+    "status": "failed",
+    "time": 30.011139154434204
+  },
+  "ollama/qwen3-vl-liberated:latest": {
+    "status": "failed",
+    "time": 30.022079467773438
+  },
+  "ollama/deepseek-r1-liberated:latest": {
+    "status": "failed",
+    "time": 30.029637575149536
+  },
+  "ollama/gemma3-liberated:latest": {
+    "status": "working",
+    "time": 9.988828182220459
+  },
+  "ollama/deepseek-coder-liberated:latest": {
+    "status": "working",
+    "time": 26.715079307556152
+  },
+  "ollama/codellama-liberated:latest": {
+    "status": "working",
+    "time": 15.418701410293579
+  },
+  "ollama/codellama:7b": {
+    "status": "working",
+    "time": 1.8821659088134766
+  },
+  "ollama/qwen3-vl:30b": {
+    "status": "failed",
+    "time": 30.02045178413391
+  },
+  "ollama/qwen3-coder:30b": {
+    "status": "failed",
+    "time": 30.027200937271118
+  },
+  "ollama/deepseek-r1:8b": {
+    "status": "failed",
+    "time": 30.026333332061768
+  },
+  "ollama/gemma3:4b": {
+    "status": "working",
+    "time": 18.991304874420166
+  },
+  "ollama/gemma3:27b": {
+    "status": "failed",
+    "time": 30.016926765441895
+  },
+  "ollama/deepseek-coder:6.7b": {
+    "status": "working",
+    "time": 19.096390962600708
+  },
+  "ollama/gemma3:1b": {
+    "status": "working",
+    "time": 5.788074493408203
+  },
+  "groq": {
+    "status": "working",
+    "time": 0.602165699005127
+  }
+}

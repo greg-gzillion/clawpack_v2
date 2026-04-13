@@ -1,20 +1,20 @@
-﻿"""
-Display utilities for beautiful output
+"""
+Display utilities for beautiful output - pure ASCII version
 """
 from typing import List, Dict
 
 class Display:
-    """Handle beautiful console output"""
+    """Handle beautiful console output with ASCII only"""
     
     @staticmethod
-    def banner(title: str, icon: str = "⚖️"):
+    def banner(title: str, icon: str = "[LAW]"):
         """Print a banner"""
-        print("\n" + "█"*80)
-        print("█" + " "*78 + "█")
-        print(f"█{icon:^78}█")
-        print(f"█{title:^78}█")
-        print("█" + " "*78 + "█")
-        print("█"*80)
+        print("\n" + "="*80)
+        print("=" + " "*78 + "=")
+        print(f"={icon:^78}=")
+        print(f"={title:^78}=")
+        print("=" + " "*78 + "=")
+        print("="*80)
     
     @staticmethod
     def header(text: str, char: str = "="):
@@ -26,17 +26,17 @@ class Display:
     @staticmethod
     def categories(categories: List[str], cols: int = 5):
         """Display categories in columns"""
-        print("\n📚 CATEGORIES\n" + "-"*50)
+        print("\nCATEGORIES\n" + "-"*50)
         for i, cat in enumerate(categories):
             if i % cols == 0 and i > 0:
                 print()
-            print(f"  • {cat:<20}", end="")
+            print(f"  * {cat:<20}", end="")
         print()
     
     @staticmethod
     def commands(commands: List[tuple], cols: int = 3):
         """Display commands in columns"""
-        print("\n🎯 COMMANDS\n" + "-"*50)
+        print("\nCOMMANDS\n" + "-"*50)
         for i, (cmd, desc) in enumerate(commands):
             if i % cols == 0 and i > 0:
                 print()
@@ -47,7 +47,7 @@ class Display:
     def result(title: str, content: str, max_lines: int = 50):
         """Display a search result"""
         print(f"\n{'='*60}")
-        print(f"📄 {title}")
+        print(f"[RESULT] {title}")
         print('='*60)
         
         lines = content.split('\n')
@@ -59,14 +59,14 @@ class Display:
     
     @staticmethod
     def success(message: str):
-        print(f"✅ {message}")
+        print(f"[OK] {message}")
     
     @staticmethod
     def error(message: str):
-        print(f"❌ {message}")
+        print(f"[ERROR] {message}")
     
     @staticmethod
     def info(message: str):
-        print(f"ℹ️ {message}")
+        print(f"[INFO] {message}")
 
 display = Display()

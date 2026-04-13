@@ -1,5 +1,23 @@
 [
   {
+    "model": "qwen_coder_7b",
+    "source": "local",
+    "priority": 1,
+    "obliterated": true
+  },
+  {
+    "model": "smollm2_1.7b",
+    "source": "local",
+    "priority": 1,
+    "obliterated": true
+  },
+  {
+    "model": "phi2",
+    "source": "local",
+    "priority": 1,
+    "obliterated": true
+  },
+  {
     "source": "ollama",
     "model": "llama3.2:3b"
   },
