@@ -1,7 +1,19 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Mediclaw - Medical Information Agent"""
 import sys
 from pathlib import Path
+
+# A2A Collaboration Layer
+try:
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+    from agents.shared.a2a_client import A2AClient
+    a2a_client = A2AClient()
+except Exception as e:
+    a2a_client = None
+    print(f"⚠ A2A unavailable: {e}")
+
 
 def process_command(cmd: str) -> str:
     cmd = cmd.strip()
@@ -12,7 +24,7 @@ def process_command(cmd: str) -> str:
         return run(topic)
     elif cmd == "/help":
         return """
-🏥 MEDICLAW - Medical Information Agent
+ðŸ¥ MEDICLAW - Medical Information Agent
 
 Commands:
   /med <condition>   - Get medical information
@@ -29,7 +41,7 @@ def main():
         print(process_command(' '.join(sys.argv[1:])))
         return
     
-    print("\n🏥 MEDICLAW - Medical Information Agent")
+    print("\nðŸ¥ MEDICLAW - Medical Information Agent")
     print("Type /help for commands, /quit to exit")
     
     while True:
@@ -48,3 +60,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

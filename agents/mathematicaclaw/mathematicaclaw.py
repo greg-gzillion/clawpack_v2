@@ -1,8 +1,20 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """MathematicaClaw - Mathematics and Visualization"""
 
 import sys
 from pathlib import Path
+
+# A2A Collaboration Layer
+try:
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+    from agents.shared.a2a_client import A2AClient
+    a2a_client = A2AClient()
+except Exception as e:
+    a2a_client = None
+    print(f"⚠ A2A unavailable: {e}")
+
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
@@ -18,7 +30,7 @@ class MathematicaClawAgent:
             from agents.mathematicaclaw.ai_visualizer import ai_visualizer
             self.visualizer = ai_visualizer
         except Exception as e:
-            print(f"⚠️ Visualizer error: {e}", file=sys.stderr)
+            print(f"âš ï¸ Visualizer error: {e}", file=sys.stderr)
     
     def handle(self, cmd: str) -> str:
         cmd = cmd.strip()
@@ -62,3 +74,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

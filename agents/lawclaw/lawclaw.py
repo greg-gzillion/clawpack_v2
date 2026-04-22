@@ -10,6 +10,18 @@ sys.path.insert(0, str(PROJECT_ROOT))
 # Import command registry
 from commands import COMMAND_REGISTRY, get_command_help, load_all_commands
 
+# A2A Collaboration Layer
+try:
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+    from agents.shared.a2a_client import A2AClient
+    a2a_client = A2AClient()
+except Exception as e:
+    a2a_client = None
+    print(f"⚠ A2A unavailable: {e}")
+
+
 # Import utilities
 try:
     from cli.parser import parse_command
@@ -90,3 +102,4 @@ class LawClaw:
 if __name__ == "__main__":
     agent = LawClaw()
     agent.run()
+
