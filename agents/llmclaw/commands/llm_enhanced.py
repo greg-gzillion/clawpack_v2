@@ -64,28 +64,36 @@ def _ask_groq(prompt, model, timeout):
     api_key = _load_key("GROQ_API_KEY")
     if not api_key:
         return None
-    response = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {api_key}"},
-        json={"model": model, "messages": [{"role": "user", "content": prompt}]},
-        timeout=timeout
-    )
-    if response.status_code == 200:
-        return response.json()["choices"][0]["message"]["content"]
+    for attempt in range(3):
+        try:
+            response = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {api_key}"},
+                json={"model": model, "messages": [{"role": "user", "content": prompt}]},
+                timeout=timeout
+            )
+            if response.status_code == 200:
+                return response.json()["choices"][0]["message"]["content"]
+        except:
+            pass
     return None
 
 def _ask_openrouter(prompt, model, timeout):
     api_key = _load_key("OPENROUTER_API_KEY")
     if not api_key:
         return None
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers={"Authorization": f"Bearer {api_key}"},
-        json={"model": model, "messages": [{"role": "user", "content": prompt}]},
-        timeout=timeout
-    )
-    if response.status_code == 200:
-        return response.json()["choices"][0]["message"]["content"]
+    for attempt in range(2):
+        try:
+            response = requests.post(
+                "https://openrouter.ai/api/v1/chat/completions",
+                headers={"Authorization": f"Bearer {api_key}"},
+                json={"model": model, "messages": [{"role": "user", "content": prompt}]},
+                timeout=timeout
+            )
+            if response.status_code == 200:
+                return response.json()["choices"][0]["message"]["content"]
+        except:
+            pass
     return None
 
 def _ask_anthropic(prompt, model, timeout):
