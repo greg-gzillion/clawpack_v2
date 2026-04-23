@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Clawpack A2A Server - Unified with Memory, WebClaw, and 21 Agents"""
+"""CLAWPACK A2A SERVER with Memory, WebClaw, and 21 Agents"""
 import json
 import sys
 import subprocess
@@ -200,7 +200,7 @@ def main():
     server = ThreadingHTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
     
     print("\n" + "="*70)
-    print("?? CLAWPACK A2A SERVER - UNIFIED")
+    print("?? CLAWPACK A2A SERVER")
     print("="*70)
     print(f"?? http://127.0.0.1:{port}")
     print(f"\n? {len(AGENTS)} Agents Registered")

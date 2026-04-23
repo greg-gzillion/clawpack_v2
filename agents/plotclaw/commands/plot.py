@@ -32,7 +32,7 @@ def run(args):
         namespace = {"x": x, "np": np, "sin": np.sin, "cos": np.cos}
         
         expr_clean = expr.replace('^', '**')
-        y = eval(expr_clean, {"__builtins__": {}}, namespace)
+        import sympy as sp; x_sym = sp.Symbol("x"); y_sym = sp.sympify(expr_clean); y = sp.lambdify(x_sym, y_sym, "numpy")(x)
         
         plt.figure(figsize=(10, 6))
         plt.plot(x, y, linewidth=2, color='steelblue')
