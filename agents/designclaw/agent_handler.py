@@ -1,13 +1,17 @@
-﻿"""A2A Handler for DesignClaw - Creative Design Assistant"""
-import sys
+﻿"""A2A Handler for DesignClaw - Brand & Design Generator"""
+import sys, os
 from pathlib import Path
+from datetime import datetime
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+DESIGNCLAW_DIR = Path(__file__).parent
+PROJECT_ROOT = DESIGNCLAW_DIR.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+EXPORTS = PROJECT_ROOT / "exports"
+
 from shared.base_agent import BaseAgent
 
 class DesignClawAgent(BaseAgent):
-    def __init__(self):
-        super().__init__('designclaw')
+    def __init__(self): super().__init__('designclaw')
 
     def handle(self, task: str) -> dict:
         self.track_interaction()
@@ -18,30 +22,23 @@ class DesignClawAgent(BaseAgent):
         query = args if args else task
 
         try:
-            if cmd in ("/brand", "brand") and query:
-                result = self.ask_llm(f"Create a complete brand identity. Include: brand name ideas, color palette (hex codes), typography pairings, logo concept, brand voice, target audience. For: {query}")
-            elif cmd in ("/mood", "mood") and query:
-                result = self.ask_llm(f"Create a mood board concept. Describe: color mood, textures, imagery, typography, atmospheric description. For: {query}")
-            elif cmd in ("/colors", "colors") and query:
-                result = self.ask_llm(f"Create a color palette with hex codes. Include primary, secondary, accent, background colors. For: {query}")
-            elif cmd in ("/typography", "typography") and query:
-                result = self.ask_llm(f"Recommend typography pairings (heading + body fonts) with Google Fonts names. For: {query}")
-            elif cmd in ("/logo", "logo") and query:
-                result = self.ask_llm(f"Describe a logo concept. Include: symbol/icon, typography, colors, style, variations. For: {query}")
-            elif cmd in ("/slogan", "slogan") and query:
-                result = self.ask_llm(f"Generate 10 catchy slogan/tagline options. For: {query}")
-            elif cmd in ("/help",):
-                result = "DesignClaw - Creative Design Assistant\n  /brand <name> - Brand identity\n  /mood <aesthetic> - Mood board\n  /colors <context> - Color palette\n  /typography <style> - Font pairings\n  /logo <concept> - Logo design\n  /slogan <brand> - Taglines\n  /stats"
-            elif cmd in ("/stats",):
-                result = f"DesignClaw | Brand/Mood/Color/Typography | Interactions: {self.state.get('interactions', 0)}"
+            if cmd in ("/brand", "/mood", "/colors", "/logo", "/slogan") and query:
+                from agents.llmclaw.agent_handler import process_task as _llm
+                result = _llm(f"/llm Create {cmd.replace('/','')} design concept: {query}").get("result","")
+                filename = f"{cmd.replace('/','')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
+                html = f"<html><head><title>{cmd} - {query[:50]}</title><style>body{{font-family:Arial;max-width:800px;margin:40px auto;padding:20px;background:#1a1a2e;color:#eee}}h1{{color:#4a9eff}}pre{{background:#16213e;padding:15px;border-radius:8px}}</style></head><body><h1>{cmd}: {query[:60]}</h1><pre>{result}</pre></body></html>"
+                path = EXPORTS / filename
+                path.write_text(html, encoding='utf-8')
+                os.startfile(str(path))
+                result = f"Design saved: {filename}\nOpening..."
+            elif cmd in ("/help",): result = "DesignClaw - Design Generator\n  /brand /mood /colors /logo /slogan /stats"
+            elif cmd in ("/stats",): result = f"DesignClaw | Designs to exports/ | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self.ask_llm(f"Creative design assistant. Provide design concepts, colors, and ideas for: {query}")
+                from agents.llmclaw.agent_handler import process_task as _llm
+                result = _llm(f"/llm Design concept: {query}").get("result","")
 
             return {"status": "success", "result": str(result)}
-        except Exception as e:
-            return {"status": "error", "result": str(e)}
+        except Exception as e: return {"status": "error", "result": str(e)}
 
 _agent = DesignClawAgent()
-
-def process_task(task: str, agent: str = None):
-    return _agent.handle(task)
+def process_task(task: str, agent: str = None): return _agent.handle(task)

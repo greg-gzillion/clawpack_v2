@@ -1,9 +1,15 @@
-﻿"""A2A Handler for DocuClaw - Document Processing & Generation"""
-import sys
+﻿"""A2A Handler for DocuClaw - Document Generator"""
+import sys, os
 from pathlib import Path
+from datetime import datetime
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+DOCUCLAW_DIR = Path(__file__).parent
+PROJECT_ROOT = DOCUCLAW_DIR.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(DOCUCLAW_DIR))
+
 from shared.base_agent import BaseAgent
+EXPORTS = PROJECT_ROOT / "exports"
 
 class DocuClawAgent(BaseAgent):
     def __init__(self):
@@ -18,32 +24,29 @@ class DocuClawAgent(BaseAgent):
         query = args if args else task
 
         try:
-            if cmd in ("/create", "create") and query:
-                result = self.ask_llm(f"Create a professional document. Include title, sections, and content. Format in Markdown. Topic: {query}")
-            elif cmd in ("/letter", "letter") and query:
-                result = self.ask_llm(f"Write a professional business letter. Include date, addresses, subject, body, signature. For: {query}")
-            elif cmd in ("/report", "report") and query:
-                result = self.ask_llm(f"Write a formal report with executive summary, findings, conclusions. For: {query}")
-            elif cmd in ("/proposal", "proposal") and query:
-                result = self.ask_llm(f"Write a business proposal with problem statement, solution, timeline, budget. For: {query}")
-            elif cmd in ("/resume", "resume") and query:
-                result = self.ask_llm(f"Create a professional resume/CV in Markdown format. For: {query}")
-            elif cmd in ("/memo", "memo") and query:
-                result = self.ask_llm(f"Write a business memo. Include TO, FROM, DATE, SUBJECT, body. For: {query}")
-            elif cmd in ("/convert", "convert") and query:
-                result = f"[CONVERT] DocuClaw supports: CSV, DOCX, HTML, JSON, Markdown, ODT, PDF, RTF, Text, XML\nRequest: {query}"
+            if cmd in ("/create", "/letter", "/report", "/memo") and query:
+                from agents.llmclaw.agent_handler import process_task as _llm
+                result = _llm(f"/llm Create a professional {cmd.replace('/','')} in Markdown format: {query}").get("result","")
+                # Save to exports
+                filename = f"{cmd.replace('/','')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+                path = EXPORTS / filename
+                path.write_text(result, encoding='utf-8')
+                os.startfile(str(path))
+                result = f"Document saved: {filename}\nOpening...\n\n{result[:500]}"
             elif cmd in ("/help",):
-                result = "DocuClaw - Document Processor\n  /create <topic> - Create document\n  /letter <context> - Business letter\n  /report <topic> - Formal report\n  /proposal <topic> - Business proposal\n  /resume <details> - CV/Resume\n  /memo <content> - Business memo\n  /convert <format> - Convert documents\n  /stats"
+                result = "DocuClaw - Document Generator\n  /create /letter /report /memo /resume /stats"
             elif cmd in ("/stats",):
-                result = f"DocuClaw | Document Processing | 10 Import Formats | Interactions: {self.state.get('interactions', 0)}"
+                result = f"DocuClaw | Documents to exports/ | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self.ask_llm(f"Create a professional document in Markdown format for: {query}")
+                from agents.llmclaw.agent_handler import process_task as _llm
+                result = _llm(f"/llm Create document: {query}").get("result","")
+                filename = f"doc_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md"
+                (EXPORTS / filename).write_text(result, encoding='utf-8')
+                os.startfile(str(EXPORTS / filename))
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
 
 _agent = DocuClawAgent()
-
-def process_task(task: str, agent: str = None):
-    return _agent.handle(task)
+def process_task(task: str, agent: str = None): return _agent.handle(task)
