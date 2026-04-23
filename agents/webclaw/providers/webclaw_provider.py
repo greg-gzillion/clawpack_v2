@@ -27,7 +27,7 @@ class WebclawProvider:
         results = []
         seen_urls = set()
         
-        for term in terms[:5]:
+        for term in terms:
             cursor.execute("""
                 SELECT DISTINCT si.url, si.frequency
                 FROM search_index si
@@ -69,7 +69,7 @@ class WebclawProvider:
         results = []
         seen_urls = set()
         
-        for term in terms[:3]:
+        for term in terms:
             cursor.execute("""
                 SELECT DISTINCT si.url, wc.content, si.frequency
                 FROM search_index si
@@ -86,7 +86,7 @@ class WebclawProvider:
                     content = row[1] or ""
                     results.append({
                         'path': url,
-                        'snippet': content[:300],
+                        'snippet': content,
                         'frequency': row[2]
                     })
         
@@ -99,7 +99,7 @@ class WebclawProvider:
         for i, r in enumerate(results[:max_results], 1):
             output.append(f"{i}. {r['path']}")
             if r['snippet']:
-                output.append(f"   {r['snippet'][:150]}...")
+                output.append(f"   {r['snippet']}...")
             output.append("")
         
         return "\n".join(output)

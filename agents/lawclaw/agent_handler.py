@@ -46,7 +46,7 @@ def process_task(task: str, agent: str = None):
             
             if context:
                 prompt = f"Law Reference: {context} Question: {args}"
-                prompt = prompt.replace('\n', ' ').replace('"', "'")[:1000]
+                prompt = prompt.replace('\n', ' ').replace('"', "'")
             else:
                 prompt = f"Legal Question: {args}"
             
