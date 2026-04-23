@@ -3,11 +3,20 @@ message: "If you use Clawpack V2 in your research, please cite it as below."
 authors:
   - family-names: Frank
     given-names: Greg
-    orcid: ""
+    orcid: "https://orcid.org/0009-0001-9191-5556"
 title: "Clawpack V2 - Unified AI Agent Ecosystem with Cross-Learning Agents"
-version: 2.0.0
-doi: 
+version: 3.0.0
+doi: 10.5281/zenodo.19713157
 date-released: 2026-04-23
 url: "https://github.com/greg-gzillion/clawpack_v2"
-abstract: "20 specialized AI agents with shared memory, WebClaw SQLite index (1.5M terms), chronicle ledger, and multi-provider LLM routing."
+abstract: "20 specialized AI agents communicating via A2A protocol with shared three-tier memory, WebClaw SQLite knowledge index (1.5M terms, 20K files), chronicle ledger, and multi-provider LLM routing through Groq, Ollama, and OpenRouter."
+keywords:
+  - "ai-agents"
+  - "agent-to-agent"
+  - "knowledge-management"
+  - "cross-learning"
+  - "llm"
+  - "groq"
+  - "ollama"
+  - "chronicle-ledger"
 license: MIT
