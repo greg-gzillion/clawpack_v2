@@ -28,6 +28,13 @@ from agents.liberateclaw.agent_handler import process_task as liberateclaw_proce
 from agents.flowclaw.agent_handler import process_task as flowclaw_process
 from agents.designclaw.agent_handler import process_task as designclaw_process
 from agents.docuclaw.agent_handler import process_task as docuclaw_process
+from agents.TXclaw.agent_handler import process_task as txclaw_process
+from agents.rustypycraw.agent_handler import process_task as rustypycraw_process
+from agents.plotclaw.agent_handler import process_task as plotclaw_process
+from agents.fileclaw.agent_handler import process_task as fileclaw_process
+from agents.dreamclaw.agent_handler import process_task as dreamclaw_process
+from agents.drawclaw.agent_handler import process_task as drawclaw_process
+from agents.draftclaw.agent_handler import process_task as draftclaw_process
 
 # Initialize memory
 a2a_memory = get_memory("a2a_server")
@@ -170,6 +177,20 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return designclaw_process(task)
         elif agent_name == "docuclaw":
             return docuclaw_process(task)
+        elif agent_name == "txclaw":
+            return txclaw_process(task)
+        elif agent_name == "rustypycraw":
+            return rustypycraw_process(task)
+        elif agent_name == "plotclaw":
+            return plotclaw_process(task)
+        elif agent_name == "fileclaw":
+            return fileclaw_process(task)
+        elif agent_name == "dreamclaw":
+            return dreamclaw_process(task)
+        elif agent_name == "drawclaw":
+            return drawclaw_process(task)
+        elif agent_name == "draftclaw":
+            return draftclaw_process(task)
         
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
         if not agent_script.exists():
