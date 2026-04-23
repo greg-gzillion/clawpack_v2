@@ -4,7 +4,7 @@ import json
 import sys
 import subprocess
 from pathlib import Path
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 
 PROJECT_ROOT = Path(__file__).parent
@@ -79,41 +79,40 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
     
     def do_POST(self):
         path = urlparse(self.path).path
-        
+
         if path.startswith("/v1/message/"):
             agent_name = path.split("/")[-1]
             content_length = int(self.headers.get('Content-Length', 0))
             body = self.rfile.read(content_length)
             data = json.loads(body)
             task = data.get('task', '')
-            
-            # Store in working memory
+
             a2a_memory.working.add("user", f"[{agent_name}] {task}")
-            
+
             if agent_name in AGENTS:
                 result = self._execute_agent(agent_name, task)
                 
-                # Store result in working memory
-                a2a_memory.working.add("assistant", str(result.get("result", "")))
+                # Handle both dict and string responses
+                if isinstance(result, dict):
+                    result_text = result.get("result", str(result))
+                else:
+                    result_text = str(result)
                 
-                # Store in semantic memory
-                a2a_memory.semantic.add_fact(agent_name, task, result)
-                
-                # Compress if needed
+                a2a_memory.working.add("assistant", result_text)
+                a2a_memory.semantic.add_fact(agent_name, task, result_text[:200])
                 compressed = a2a_memory.working.compress()
                 
                 self._send_json({
                     "status": "success",
                     "agent": agent_name,
                     "task": task,
-                    "result": result.get("result", ""),
+                    "result": result_text,
                     "memory_tokens": a2a_memory.working.token_count
                 })
             else:
                 self._send_error(404, f"Agent '{agent_name}' not found")
         else:
             self._send_error(404, "Not found")
-    
     def _send_json(self, data, status=200):
         try:
             self.send_response(status)
@@ -156,7 +155,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         
         try:
             cmd = [sys.executable, str(agent_script)] + safe_args
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, shell=False, encoding="utf-8", errors="replace", cwd=str(PROJECT_ROOT))
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=300, shell=False, encoding="utf-8", errors="replace", cwd=str(PROJECT_ROOT))
             return result.stdout if result.stdout else "Agent executed"
         except subprocess.TimeoutExpired:
             return "Error: Agent timeout"
@@ -165,7 +164,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
 
 def main():
     port = 8766
-    server = HTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
+    server = ThreadingHTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
     
     print("\n" + "="*70)
     print("?? CLAWPACK A2A SERVER - UNIFIED")
