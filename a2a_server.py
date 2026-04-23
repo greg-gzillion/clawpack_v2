@@ -25,6 +25,7 @@ from agents.interpretclaw.agent_handler import process_task as interpretclaw_pro
 from agents.dataclaw.agent_handler import process_task as dataclaw_process
 from agents.langclaw.agent_handler import process_task as langclaw_process
 from agents.liberateclaw.agent_handler import process_task as liberateclaw_process
+from agents.flowclaw.agent_handler import process_task as flowclaw_process
 
 # Initialize memory
 a2a_memory = get_memory("a2a_server")
@@ -161,6 +162,8 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return langclaw_process(task)
         elif agent_name == "liberateclaw":
             return liberateclaw_process(task)
+        elif agent_name == "flowclaw":
+            return flowclaw_process(task)
         
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
         if not agent_script.exists():
