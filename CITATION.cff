@@ -1,0 +1,13 @@
+﻿cff-version: 1.2.0
+message: "If you use Clawpack V2 in your research, please cite it as below."
+authors:
+  - family-names: Frank
+    given-names: Greg
+    orcid: ""
+title: "Clawpack V2 - Unified AI Agent Ecosystem with Cross-Learning Agents"
+version: 2.0.0
+doi: 
+date-released: 2026-04-23
+url: "https://github.com/greg-gzillion/clawpack_v2"
+abstract: "20 specialized AI agents with shared memory, WebClaw SQLite index (1.5M terms), chronicle ledger, and multi-provider LLM routing."
+license: MIT
