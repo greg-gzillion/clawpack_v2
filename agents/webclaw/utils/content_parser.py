@@ -18,8 +18,8 @@ def extract_content(content: str, content_type: str = 'html') -> str:
     """Extract clean text from content"""
     if 'html' in content_type.lower():
         # Remove scripts and styles
-        content = re.sub(r'<script[^>]*>.*?</script>', '', content, flags=re.DOTALL | re.IGNORECASE)
-        content = re.sub(r'<style[^>]*>.*?</style>', '', content, flags=re.DOTALL | re.IGNORECASE)
+        content = re.sub(r'<script[\s>][^>]*>.*?</script[\s>]*>', '', content, flags=re.DOTALL | re.IGNORECASE)
+        content = re.sub(r'<style[\s>][^>]*>.*?</style[\s>]*>', '', content, flags=re.DOTALL | re.IGNORECASE)
         # Remove HTML tags
         text = re.sub(r'<[^>]+>', ' ', content)
         # Clean whitespace
