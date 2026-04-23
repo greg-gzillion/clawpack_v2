@@ -192,32 +192,8 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         elif agent_name == "draftclaw":
             return draftclaw_process(task)
         
-        agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
-        if not agent_script.exists():
-            return f"Agent script not found: {agent_script}"
-        
-        # Build command args
-        cmd_args = [task] if agent_name == "lawclaw" else AGENTS[agent_name]["cmd_prefix"] + [task]
-        
-        # Security validation
-        safe_args = []
-        for arg in cmd_args:
-            arg = str(arg)
-            dangerous = [';', '|', '&', '$', '`', '>', '<', '\n', '\r']
-            if any(c in arg for c in dangerous):
-                return "Error: Invalid characters in argument"
-            if len(arg) > 5000:
-                return "Error: Argument too long (max 50000 chars) (max 5000 chars) (max 50000 chars) (max 5000 chars)"
-            safe_args.append(arg)
-        
-        try:
-            cmd = [sys.executable, str(agent_script)] + safe_args
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=300, shell=False, encoding="utf-8", errors="replace", cwd=str(PROJECT_ROOT))
-            return result.stdout if result.stdout else "Agent executed"
-        except subprocess.TimeoutExpired:
-            return "Error: Agent timeout"
-        except Exception as e:
-            return f"Error: {e}"
+        # All agents have direct handlers - subprocess path removed
+        return f"Agent {agent_name} handler not configured"
 
 def main():
     port = 8766
