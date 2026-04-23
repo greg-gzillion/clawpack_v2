@@ -4,11 +4,10 @@ import os
 from pathlib import Path
 
 LLMCLAW_DIR = Path(__file__).parent
-os.chdir(str(LLMCLAW_DIR))
+sys.path.insert(0, str(LLMCLAW_DIR))
 sys.path.insert(0, str(LLMCLAW_DIR.parent.parent))
 
 def process_task(task: str, agent: str = None):
-    os.chdir(str(LLMCLAW_DIR))
     task = task.strip()
     parts = task.split(maxsplit=1)
     cmd = parts[0].lower() if parts else ""

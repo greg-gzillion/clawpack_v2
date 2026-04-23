@@ -1,23 +1,34 @@
 ﻿"""BaseAgent - All agents inherit from this"""
 import sys
 import json
-import subprocess
+import requests
 from pathlib import Path
 from datetime import datetime
 from typing import Any, Optional, Dict
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+PROJECT_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
 class BaseAgent:
     """Base class for all agents with shared capabilities"""
-    
+
     def __init__(self, name: str):
         self.name = name
         self.memory_file = Path("data/shared_memory.json")
-        self.webclaw_path = Path(__file__).parent.parent / "agents" / "webclaw" / "webclaw.py"
-        self.dataclaw_path = Path("agents/dataclaw/dataclaw.py")
         self.state = self._load_state()
-    
+        self.A2A = "http://127.0.0.1:8766"
+        
+        # Lazy-loaded providers
+        self._webclaw = None
+        self._llmclaw_available = True
+
+    @property
+    def webclaw(self):
+        if self._webclaw is None:
+            from agents.webclaw.providers.webclaw_provider import WebclawProvider
+            self._webclaw = WebclawProvider()
+        return self._webclaw
+
     def _load_state(self):
         if self.memory_file.exists():
             try:
@@ -26,7 +37,7 @@ class BaseAgent:
             except:
                 pass
         return {"interactions": 0, "successful": 0}
-    
+
     def _save_state(self):
         data = {}
         if self.memory_file.exists():
@@ -39,14 +50,67 @@ class BaseAgent:
         data["agent_states"][self.name] = self.state
         self.memory_file.parent.mkdir(exist_ok=True)
         self.memory_file.write_text(json.dumps(data, indent=2))
-    
+
     def learn(self, key: str, value: Any):
         self.state[key] = value
         self._save_state()
-    
+
     def recall(self, key: str):
         return self.state.get(key)
-    
+
+    # ---- WebClaw - SQLite index search ----
+    def search_web(self, query: str, max_results: int = 5) -> str:
+        """Search WebClaw's SQLite index (1.5M terms)"""
+        return self.webclaw.search_with_context(query, max_results)
+
+    def search_web_raw(self, query: str, max_results: int = 10) -> str:
+        """Search WebClaw without context snippets"""
+        return self.webclaw.search(query, max_results)
+
+    # ---- DataClaw - local references ----
+    def search_local(self, query: str) -> str:
+        """Search DataClaw local index"""
+        try:
+            from agents.dataclaw.modules.search.local_search import search_local
+            return search_local(query)
+        except:
+            return ""
+
+    # ---- LLMClaw via A2A ----
+    def ask_llm(self, prompt: str) -> str:
+        """Call LLMClaw through A2A"""
+        try:
+            r = requests.post(
+                f"{self.A2A}/v1/message/llmclaw",
+                json={"task": f"/llm {prompt}"},
+                timeout=60
+            )
+            if r.status_code == 200:
+                return r.json().get("result", "")
+        except:
+            pass
+        return "LLMClaw unavailable"
+
+    # ---- Chronicle ----
+    def search_chronicle(self, query: str, limit: int = 5) -> list:
+        """Search the chronicle ledger"""
+        try:
+            from agents.webclaw.core.chronicle_ledger import get_chronicle
+            chronicle = get_chronicle()
+            return chronicle.recover_by_context(query, limit)
+        except:
+            return []
+
+    def record_in_chronicle(self, url: str, context: str, source: str = None) -> None:
+        """Record a URL in the chronicle ledger"""
+        try:
+            from agents.webclaw.core.chronicle_ledger import get_chronicle
+            chronicle = get_chronicle()
+            chronicle.record_fetch(url=url, context=context, source=source or self.name)
+        except:
+            pass
+
+    # ---- Memory ----
     def learn_fact(self, fact: str):
         data = {}
         if self.memory_file.exists():
@@ -58,7 +122,7 @@ class BaseAgent:
             data["learned_facts"] = {}
         data["learned_facts"][fact] = {"source": self.name, "learned_at": str(datetime.now())}
         self.memory_file.write_text(json.dumps(data, indent=2))
-    
+
     def get_facts(self):
         if self.memory_file.exists():
             try:
@@ -66,75 +130,16 @@ class BaseAgent:
             except:
                 pass
         return {}
-    
-    def ask_webclaw(self, query: str) -> str:
-        if not self.webclaw_path.exists():
-            return f"[{self.name}] WebClaw not found"
-        try:
-            result = subprocess.run(
-                [sys.executable, str(self.webclaw_path), "search", query],
-                capture_output=True, text=True, timeout=10
-            )
-            return result.stdout.strip() or "No results"
-        except Exception as e:
-            return f"[{self.name}] WebClaw error: {e}"
-    
-    def ask_dataclaw(self, query: str) -> str:
-        if not self.dataclaw_path.exists():
-            return f"[{self.name}] Dataclaw not found"
-        try:
-            result = subprocess.run(
-                [sys.executable, str(self.dataclaw_path), query],
-                capture_output=True, text=True, timeout=10
-            )
-            return result.stdout.strip() or "No results"
-        except Exception as e:
-            return f"[{self.name}] Dataclaw error: {e}"
-    
+
     def track_interaction(self):
         self.state["interactions"] = self.state.get("interactions", 0) + 1
         self._save_state()
-    
+
     def get_stats(self):
         return {"name": self.name, "interactions": self.state.get("interactions", 0)}
-    
-    def handle(self, query: str) -> str:
+
+    # ---- Agent handler interface ----
+    def handle(self, task: str) -> dict:
+        """Override in subclass"""
         self.track_interaction()
-        return f"[{self.name}] Processing: {query}"
-    
-    def run_cli(self):
-        if len(sys.argv) > 1:
-            cmd = ' '.join(sys.argv[1:])
-            print(self.handle(cmd))
-        else:
-            print(f"{self.name} ready")
-
-
-
-    def search_chronicle(self, query: str, limit: int = 5) -> list:
-        """Search the chronicle ledger for relevant URLs"""
-        try:
-            import sys
-            from pathlib import Path
-            sys.path.insert(0, str(Path(__file__).parent.parent / "agents/webclaw"))
-            from core.chronicle_ledger import get_chronicle
-            chronicle = get_chronicle()
-            return chronicle.recover_by_context(query, limit)
-        except:
-            return []
-    
-    def record_in_chronicle(self, url: str, context: str, source: str = None) -> None:
-        """Record a URL in the chronicle ledger"""
-        try:
-            import sys
-            from pathlib import Path
-            sys.path.insert(0, str(Path(__file__).parent.parent / "agents/webclaw"))
-            from core.chronicle_ledger import get_chronicle
-            chronicle = get_chronicle()
-            chronicle.record_fetch(
-                url=url,
-                context=context,
-                source=source or self.name
-            )
-        except:
-            pass
+        return {"status": "error", "result": f"{self.name}: handle() not implemented"}

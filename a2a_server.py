@@ -15,6 +15,7 @@ from shared.memory import get_memory
 
 # Import WebClaw handler
 from agents.webclaw.agent_handler import process_task as webclaw_process
+from agents.llmclaw.agent_handler import process_task as llmclaw_process
 from agents.lawclaw.agent_handler import process_task as lawclaw_process
 from agents.mediclaw.agent_handler import process_task as mediclaw_process
 from agents.claw_coder.agent_handler import process_task as clawcoder_process
@@ -138,6 +139,8 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return lawclaw_process(task)
         elif agent_name == "webclaw":
             return webclaw_process(task)
+        elif agent_name == "llmclaw":
+            return llmclaw_process(task)
         elif agent_name == "mediclaw":
             return mediclaw_process(task)
         elif agent_name == "claw_coder":
