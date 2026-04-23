@@ -1,13 +1,31 @@
-﻿"""A2A Handler for FlowClaw - Diagram & Flowchart Generator"""
+﻿"""A2A Handler for FlowClaw - Diagram Generator with Viewer + Export"""
 import sys
 from pathlib import Path
+from datetime import datetime
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+FLOWCLAW_DIR = Path(__file__).parent
+PROJECT_ROOT = FLOWCLAW_DIR.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(FLOWCLAW_DIR))
+
 from shared.base_agent import BaseAgent
+from engine.diagram_engine import DiagramEngine
+from viewer.diagram_viewer import DiagramViewer
+from exporters.base_exporter import DocxExporter, PdfExporter
+
+# Adapter so engine can use BaseAgent.ask_llm
+class LLMAdapter:
+    def __init__(self, agent): self.agent = agent
+    def chat_sync(self, prompt, **kw): return self.agent.ask_llm(prompt)
 
 class FlowClawAgent(BaseAgent):
     def __init__(self):
         super().__init__('flowclaw')
+        self.engine = DiagramEngine()
+        self.viewer = DiagramViewer()
+        self.docx_exporter = DocxExporter()
+        self.pdf_exporter = PdfExporter()
+        self.llm = LLMAdapter(self)
 
     def handle(self, task: str) -> dict:
         self.track_interaction()
@@ -18,24 +36,28 @@ class FlowClawAgent(BaseAgent):
         query = args if args else task
 
         try:
-            if cmd in ("/flowchart", "flowchart") and query:
-                result = self.ask_llm(f"Generate a valid Mermaid flowchart TD diagram. Return ONLY Mermaid code:\n\n{query}")
-            elif cmd in ("/mindmap", "mindmap") and query:
-                result = self.ask_llm(f"Generate a valid Mermaid mindmap diagram. Return ONLY Mermaid code:\n\n{query}")
-            elif cmd in ("/sequence", "sequence") and query:
-                result = self.ask_llm(f"Generate a valid Mermaid sequenceDiagram. Return ONLY Mermaid code:\n\n{query}")
-            elif cmd in ("/gantt", "gantt") and query:
-                result = self.ask_llm(f"Generate a valid Mermaid gantt chart. Return ONLY Mermaid code:\n\n{query}")
-            elif cmd in ("/class", "class") and query:
-                result = self.ask_llm(f"Generate a valid Mermaid classDiagram. Return ONLY Mermaid code:\n\n{query}")
-            elif cmd in ("/architecture", "architecture") and query:
-                result = self.ask_llm(f"Generate a valid Mermaid architecture diagram. Return ONLY Mermaid code:\n\n{query}")
+            if cmd in ("/flowchart", "flowchart"): diagram_type = "flowchart"
+            elif cmd in ("/sequence", "sequence"): diagram_type = "sequence"
+            elif cmd in ("/architecture", "architecture"): diagram_type = "architecture"
+            else: diagram_type = "flowchart"
+
+            code = self.engine.generate_with_llm(diagram_type, query, self.llm)
+
+            if cmd in ("/view", "view"):
+                self.viewer.view_in_browser(code, query[:50])
+                result = f"Opened in browser.\n\n`mermaid\n{code}\n`"
+            elif cmd in ("/export", "export"):
+                output_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/flowclaw/exports")
+                output_dir.mkdir(exist_ok=True)
+                path = output_dir / f"diagram_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                self.docx_exporter.export(code, path, query[:50])
+                result = f"Exported to {path}.docx\n\n`mermaid\n{code}\n`"
             elif cmd in ("/help",):
-                result = "FlowClaw - Diagram Generator\n  /flowchart <desc>\n  /mindmap <desc>\n  /sequence <desc>\n  /gantt <desc>\n  /class <desc>\n  /architecture <desc>\n  /stats"
+                result = "FlowClaw - Diagrams\n  /flowchart /sequence /architecture /view /export /stats"
             elif cmd in ("/stats",):
-                result = f"FlowClaw | Mermaid Diagrams | Flowchart/Mindmap/Sequence/Gantt | Interactions: {self.state.get('interactions', 0)}"
+                result = f"FlowClaw | Engine+Viewer+Export | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self.ask_llm(f"Generate a Mermaid diagram for this. Return ONLY valid Mermaid code:\n\n{query}")
+                result = f"`mermaid\n{code}\n`"
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
