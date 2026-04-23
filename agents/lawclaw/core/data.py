@@ -15,8 +15,8 @@ def search_local(query, max_results=10):
                 urls = re.findall(r'https?://[^\s\)\]>]+', content)
                 results.append({
                     "file": md.name,
-                    "content": content[:500],
-                    "urls": urls[:3]
+                    "content": content,
+                    "urls": urls
                 })
                 if len(results) >= max_results:
                     break
@@ -34,7 +34,7 @@ def get_state_info(state):
     state_path = LAW_REFS / "jurisdictions" / state.upper()
     if state_path.exists():
         counties = [d.name for d in state_path.iterdir() if d.is_dir()]
-        return {"exists": True, "counties": counties[:30], "total": len(counties)}
+        return {"exists": True, "counties": counties, "total": len(counties)}
     return {"exists": False}
 
 def get_county_info(state, county):
@@ -55,6 +55,6 @@ def get_county_info(state, county):
     for cf in county_path.glob("*.md"):
         content = cf.read_text(encoding='utf-8', errors='ignore')
         title = content.split('\n')[0].replace('#', '').strip()
-        courts.append({"name": title, "content": content[:500]})
+        courts.append({"name": title, "content": content})
     
     return {"county": county_path.name, "courts": courts}

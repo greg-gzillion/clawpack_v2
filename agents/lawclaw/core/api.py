@@ -46,6 +46,6 @@ def fetch_url(url):
             import re
             text = re.sub(r'<[^>]+>', ' ', content)
             text = re.sub(r'\s+', ' ', text)
-            return text[:2000]
+            return text
     except Exception as e:
         return f"Error: {e}"

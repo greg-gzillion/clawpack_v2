@@ -24,7 +24,7 @@ class GoLanguage(BaseLanguage):
         """Analyze Go code"""
         prompt = f"Analyze this Go code:\n\n{code}"
         response = self._call_ai(prompt)
-        return {"issues": [], "suggestions": [response[:500]]}
+        return {"issues": [], "suggestions": [response]}
     
     def refactor(self, code: str, suggestion: str) -> str:
         """Refactor Go code"""

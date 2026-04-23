@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """FlowClaw - Complete Edition with All Features"""
 
 import sys
@@ -280,7 +280,7 @@ setTimeout(() => {{
             # Generic flowchart
             steps = [f"Step {i+1}" for i in range(4)]
             return f'''flowchart TD
-    A[Start: {description[:30]}]
+    A[Start: {description}]
     B[{steps[0]}]
     C{{Decision?}}
     D[{steps[1]}]
@@ -486,7 +486,7 @@ setTimeout(() => {{
             description = ' '.join(args) if args else "process flow"
             code = self.generate_with_ai(description)
             if code:
-                self.render(code, f"AI Generated: {description[:30]}")
+                self.render(code, f"AI Generated: {description}")
                 return "✅ AI-generated diagram opened in browser"
             return "❌ AI not available - using template"
         else:

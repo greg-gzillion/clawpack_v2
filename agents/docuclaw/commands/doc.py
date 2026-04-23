@@ -1,4 +1,4 @@
-def run(args):
+﻿def run(args):
     """Document references from chronicle"""
     import sys
     from pathlib import Path
@@ -7,5 +7,5 @@ def run(args):
     
     results = search_chronicle(args)
     if results:
-        return f"📄 DOCUMENT REFERENCES for '{args}':\n" + "\n".join([f"  • {c.url}" for c in results[:3]])
+        return f"📄 DOCUMENT REFERENCES for '{args}':\n" + "\n".join([f"  • {c.url}" for c in results])
     return f"Document: {args}\n(No references found)"

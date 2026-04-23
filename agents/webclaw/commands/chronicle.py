@@ -1,4 +1,4 @@
-"""Chronicle commands - URL context recovery and timeline"""
+﻿"""Chronicle commands - URL context recovery and timeline"""
 import sys
 from pathlib import Path
 
@@ -27,8 +27,8 @@ def run(args):
         if not timeline:
             return "No cards in ledger yet"
         output = ["📅 Timeline (most recent):"]
-        for card in timeline[:5]:
-            output.append(f"  • {card.url[:60]}... ({card.timestamp[:19]})")
+        for card in timeline:
+            output.append(f"  • {card.url}... ({card.timestamp})")
         return "\n".join(output)
     
     elif cmd == "search":

@@ -45,7 +45,7 @@ def share_command(args):
         print(f"\n📚 SHARED KNOWLEDGE: '{args}'\n")
         for agent, items in results.items():
             print(f"   🔗 From {agent}:")
-            for item in items[:2]:
+            for item in items:
                 print(f"      📖 {item['query'][:60]}...")
                 if 'response' in item:
                     print(f"         {item['response'][:150]}...")

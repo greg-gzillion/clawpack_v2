@@ -73,7 +73,7 @@ class FileClawCore:
 
 Filename: {path.name}
 Content preview:
-{content[:1000]}
+{content}
 
 Provide a concise analysis:
 1. What this file contains
@@ -100,7 +100,7 @@ Keep it brief and practical."""
         output_path = input_path.with_suffix(f'.{target_format}')
         
         try:
-            # CSV ↔ JSON
+            # CSV ? JSON
             if source_format == 'csv' and target_format == 'json':
                 import csv
                 with open(input_path, 'r') as f:
@@ -118,7 +118,7 @@ Keep it brief and practical."""
                         writer.writerows(data)
                     return {'success': True, 'output': str(output_path), 'rows': len(data)}
             
-            # Markdown → Text
+            # Markdown ? Text
             elif source_format == 'md' and target_format == 'txt':
                 output_path.write_text(input_path.read_text())
                 return {'success': True, 'output': str(output_path)}
@@ -138,7 +138,7 @@ Keep it brief and practical."""
         files = [f for f in dir_path.iterdir() if f.is_file()]
         results = []
         
-        for f in files[:20]:  # Limit to 20 files
+        for f in files:  # Limit to 20 files
             if operation == 'info':
                 info = self.analyze_file(str(f))
                 results.append({
@@ -244,24 +244,24 @@ class FileClawAgent(BaseAgent):
         
         result = self.core.analyze_file(parts[1])
         if 'error' in result:
-            return f"❌ {result['error']}"
+            return f"? {result['error']}"
         
         output = f"""
-╔══════════════════════════════════════════════════════════════════╗
-║  FILE ANALYSIS: {result['name']}
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�  FILE ANALYSIS: {result['name']}
++------------------------------------------------------------------+
 
-📋 BASIC INFO:
-   • Type: {result['type']}
-   • Size: {result['size_mb']} MB
-   • Modified: {result['modified'][:16]}
-   • Hash: {result['hash']}
+?? BASIC INFO:
+   � Type: {result['type']}
+   � Size: {result['size_mb']} MB
+   � Modified: {result['modified'][:16]}
+   � Hash: {result['hash']}
 
 """
         if 'ai_analysis' in result:
-            output += f"🤖 AI INSIGHTS:\n{result['ai_analysis'][:500]}\n"
+            output += f"?? AI INSIGHTS:\n{result['ai_analysis'][:500]}\n"
         
-        output += "\n💡 Use /convert to change format, /batch for multiple files"
+        output += "\n?? Use /convert to change format, /batch for multiple files"
         return output
     
     def _convert(self, cmd: str) -> str:
@@ -271,9 +271,9 @@ class FileClawAgent(BaseAgent):
         
         result = self.core.convert_file(parts[1], parts[2])
         if 'error' in result:
-            return f"❌ {result['error']}"
+            return f"? {result['error']}"
         
-        return f"✅ Converted successfully!\n📄 Output: {result['output']}\n📊 Rows: {result.get('rows', 'N/A')}"
+        return f"? Converted successfully!\n?? Output: {result['output']}\n?? Rows: {result.get('rows', 'N/A')}"
     
     def _batch(self, cmd: str) -> str:
         parts = cmd.split(maxsplit=2)
@@ -282,22 +282,22 @@ class FileClawAgent(BaseAgent):
         
         result = self.core.batch_process(parts[1], parts[2])
         if 'error' in result:
-            return f"❌ {result['error']}"
+            return f"? {result['error']}"
         
         output = f"""
-╔══════════════════════════════════════════════════════════════════╗
-║  BATCH PROCESSING: {Path(result['directory']).name}
-╚══════════════════════════════════════════════════════════════════╝
++------------------------------------------------------------------+
+�  BATCH PROCESSING: {Path(result['directory']).name}
++------------------------------------------------------------------+
 
-📁 Total files: {result['total_files']}
-🔧 Operation: {result['operation']}
-✅ Processed: {result['processed']}
+?? Total files: {result['total_files']}
+?? Operation: {result['operation']}
+? Processed: {result['processed']}
 
-{'─' * 50}
+{'-' * 50}
 """
         for r in result['results'][:10]:
             if isinstance(r, dict):
-                output += f"  • {r.get('name', 'unknown')} ({r.get('type', '?')}, {r.get('size', 0)} MB)\n"
+                output += f"  � {r.get('name', 'unknown')} ({r.get('type', '?')}, {r.get('size', 0)} MB)\n"
         
         return output
     
@@ -313,10 +313,10 @@ class FileClawAgent(BaseAgent):
         if not results:
             return f"No files found matching: {query}"
         
-        output = f"🔍 FOUND {len(results)} FILES:\n"
+        output = f"?? FOUND {len(results)} FILES:\n"
         for r in results:
             size_mb = r.get('size', 0) / (1024 * 1024)
-            output += f"  • {r['name']} ({size_mb:.2f} MB)\n"
+            output += f"  � {r['name']} ({size_mb:.2f} MB)\n"
             output += f"    {r['path'][:80]}\n"
         
         return output
@@ -328,10 +328,10 @@ class FileClawAgent(BaseAgent):
         
         result = self.core.analyze_file(parts[1])
         if 'error' in result:
-            return f"❌ {result['error']}"
+            return f"? {result['error']}"
         
         return f"""
-📄 {result['name']}
+?? {result['name']}
    Type: {result['type']}
    Size: {result['size_mb']} MB
    Modified: {result['modified'][:16]}
@@ -350,35 +350,35 @@ class FileClawAgent(BaseAgent):
             )
             if response.status_code == 200:
                 result = response.json()
-                return f"🤝 {target_agent.upper()} responded:
-{result.get('result', 'No result')[:500]}"
-            return f"❌ Agent {target_agent} not responding"
+                return f"?? {target_agent.upper()} responded:
+{result.get('result', 'No result')}"
+            return f"? Agent {target_agent} not responding"
         except Exception as e:
-            return f"❌ Collaboration error: {e}"
+            return f"? Collaboration error: {e}"
 
     def _help(self):
         return """
-╔══════════════════════════════════════════════════════════════════╗
-║  FILECLAW - Intelligent File Management Agent                    ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║  COMMANDS:                                                       ║
-║    /analyze <file>     - AI-powered file analysis               ║
-║    /convert <in> <out> - Convert between formats                ║
-║    /batch <dir> <op>   - Batch process directory                ║
-║    /find <query>       - Find files by name/type                ║
-║    /info <file>        - Quick file info                        ║
-║                                                                  ║
-║  SUPPORTED FORMATS: 50+ file types across 8 categories          ║
-║  AI INTEGRATION:    Uses LLM for deep file analysis             ║
-║                                                                  ║
-║  EXAMPLES:                                                      ║
-║    /analyze contract.pdf                                        ║
-║    /convert data.csv json                                       ║
-║    /batch ./docs analyze                                        ║
-║    /find type:image                                             ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝"""
++------------------------------------------------------------------+
+�  FILECLAW - Intelligent File Management Agent                    �
+�------------------------------------------------------------------�
+�                                                                  �
+�  COMMANDS:                                                       �
+�    /analyze <file>     - AI-powered file analysis               �
+�    /convert <in> <out> - Convert between formats                �
+�    /batch <dir> <op>   - Batch process directory                �
+�    /find <query>       - Find files by name/type                �
+�    /info <file>        - Quick file info                        �
+�                                                                  �
+�  SUPPORTED FORMATS: 50+ file types across 8 categories          �
+�  AI INTEGRATION:    Uses LLM for deep file analysis             �
+�                                                                  �
+�  EXAMPLES:                                                      �
+�    /analyze contract.pdf                                        �
+�    /convert data.csv json                                       �
+�    /batch ./docs analyze                                        �
+�    /find type:image                                             �
+�                                                                  �
++------------------------------------------------------------------+"""
 
 def main():
     agent = FileClawAgent()

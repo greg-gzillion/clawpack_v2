@@ -24,7 +24,7 @@ class drawclawCore:
         elif "meme" in query_lower:
             return self._meme(query)
         else:
-            return f"[drawclaw] Creating casual drawing: {query[:50]}..."
+            return f"[drawclaw] Creating casual drawing: {query}..."
     
     def _sketch(self, query: str) -> str:
         return f"✏️ Sketching: {query}"

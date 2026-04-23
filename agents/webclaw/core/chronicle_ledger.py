@@ -1,4 +1,4 @@
-"""Chronicle Ledger System - Immutable URL tracking with context preservation"""
+﻿"""Chronicle Ledger System - Immutable URL tracking with context preservation"""
 import json
 import hashlib
 from datetime import datetime
@@ -42,7 +42,7 @@ class ChronicleLedger:
         recovery_key = hashlib.md5(f"{url}{context}{source}".encode()).hexdigest()
         card = ChronicleCard(
             url=url,
-            context=context[:500],
+            context=context,
             source=source,
             timestamp=datetime.utcnow().isoformat(),
             recovery_key=recovery_key,

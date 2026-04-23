@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """TXClaw - Blockchain Development Assistant"""
 
 import sys
@@ -22,7 +22,7 @@ class TXClaw:
         elif "test" in cmd.lower():
             return "🧪 Running contract tests...\nAll tests passed!"
         else:
-            return f"TXClaw: Processing '{cmd[:100]}'\nCommands: deploy, contract, test"
+            return f"TXClaw: Processing '{cmd}'\nCommands: deploy, contract, test"
 
 def main():
     agent = TXClaw()

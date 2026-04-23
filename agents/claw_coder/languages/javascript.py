@@ -22,7 +22,7 @@ class JavascriptLanguage(BaseLanguage):
     def analyze(self, code: str) -> dict:
         prompt = f"Analyze this javascript code:\n\n{code}"
         response = self._call_ai(prompt)
-        return {"issues": [], "suggestions": [response[:500]]}
+        return {"issues": [], "suggestions": [response]}
     
     def refactor(self, code: str, suggestion: str) -> str:
         prompt = f"Refactor this javascript code: {suggestion}\n\nCode:\n{code}"

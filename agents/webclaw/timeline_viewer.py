@@ -18,7 +18,7 @@ class TimelineViewer:
         output += "|------|-------|--------|\n"
         
         for event in timeline:
-            output += f"| {event.get('date', 'Unknown')} | {event.get('event', '')[:50]} | {event.get('source', '')[:40]} |\n"
+            output += f"| {event.get('date', 'Unknown')} | {event.get('event', '')} | {event.get('source', '')} |\n"
         
         return output
     

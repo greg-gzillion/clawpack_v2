@@ -1,4 +1,4 @@
-def run(args):
+﻿def run(args):
     """Get language lesson from chronicle references"""
     if not args:
         return "Usage: /lesson <language> <topic>\nExample: /lesson spanish greetings"
@@ -21,14 +21,14 @@ def run(args):
     prompt = f"""Based on these language learning resources, create a brief lesson about {args}:
 
 Resources:
-{chr(10).join([f'- {r.url}' for r in results[:3]])}
+{chr(10).join([f'- {r.url}' for r in results])}
 
 Provide a helpful language lesson with examples."""
     
     response = llm.chat_sync(prompt)
     
     output = f"📚 LANGUAGE LESSON: {args.upper()}\n\n{response}\n\n📖 References:\n"
-    for r in results[:3]:
+    for r in results:
         output += f"   🔗 {r.url}\n"
     
     return output

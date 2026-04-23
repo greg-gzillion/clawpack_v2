@@ -82,7 +82,7 @@ class ContextCompactor:
         result = []
         for line in lines:
             if len(line) > 500:
-                result.append(line[:250] + "...[truncated]..." + line[-250:])
+                result.append(line + "...[truncated]..." + line[-250:])
             else:
                 result.append(line)
         return '\n'.join(result)
@@ -116,7 +116,7 @@ class ContextCompactor:
         lines = content.split('\n')
         if len(lines) > 100:
             return f"[Conversation summarized: {len(lines)} lines compressed]\n\n" + \
-                   '\n'.join(lines[:10]) + "\n...\n" + '\n'.join(lines[-10:])
+                   '\n'.join(lines) + "\n...\n" + '\n'.join(lines[-10:])
         return content
 
 # Global instance

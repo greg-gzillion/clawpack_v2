@@ -14,19 +14,19 @@ def run(args):
         # 1. Search WebClaw for relevant legal context
         web_resp = requests.post(
             f"{A2A}/v1/message/webclaw",
-            json={"task": f"/search legal analysis {args[:50]}", "agent": "lawclaw"},
+            json={"task": f"/search legal analysis {args}", "agent": "lawclaw"},
             timeout=10
         )
         
         context = ""
         if web_resp.status_code == 200:
-            context = web_resp.json().get("result", "")[:1000]
+            context = web_resp.json().get("result", "")
         
         # 2. Build analysis prompt
         prompt = f"""You are a legal expert. Analyze the following legal text:
 
 TEXT TO ANALYZE:
-{args[:2000]}
+{args}
 
 REFERENCE CONTEXT:
 {context if context else "No additional context available"}
@@ -48,7 +48,7 @@ Analysis:"""
         
         if llm_resp.status_code == 200:
             result = llm_resp.json().get("result", "No analysis available")
-            return f"\n{'='*60}\n?? LEGAL ANALYSIS\n{'='*60}\n\nText: {args[:100]}...\n\n{result}\n{'='*60}"
+            return f"\n{'='*60}\n?? LEGAL ANALYSIS\n{'='*60}\n\nText: {args}...\n\n{result}\n{'='*60}"
         else:
             return f"Error: LLM service returned {llm_resp.status_code}"
             

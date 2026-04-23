@@ -1,4 +1,4 @@
-"""Fork Agent - Cache sharing sub-agents (Chapter 9)"""
+﻿"""Fork Agent - Cache sharing sub-agents (Chapter 9)"""
 import sys
 import asyncio
 from pathlib import Path
@@ -31,7 +31,7 @@ class ForkAgent(BaseAgent):
     
     async def execute(self) -> str:
         """Execute the forked task"""
-        print(f"🔄 Fork agent executing: {self.task[:50]}...")
+        print(f"🔄 Fork agent executing: {self.task}...")
         
         prompt = f"""
 Task: {self.task}

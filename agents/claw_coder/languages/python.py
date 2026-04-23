@@ -29,7 +29,7 @@ Generate clean, well-documented Python code:
         """Analyze Python code"""
         prompt = f"Analyze this Python code and return issues and suggestions:\n\n{code}"
         response = self._call_ai(prompt)
-        return {"issues": [], "suggestions": [response[:500]]}
+        return {"issues": [], "suggestions": [response]}
     
     def refactor(self, code: str, suggestion: str) -> str:
         """Refactor Python code"""

@@ -1,4 +1,4 @@
-"""HTTP hook runner - webhook calls"""
+﻿"""HTTP hook runner - webhook calls"""
 from typing import Dict, Optional
 import aiohttp
 from ..hook_types import HookResult, HookContext
@@ -40,7 +40,7 @@ class HttpRunner:
                         return HookResult(
                             allowed=False,
                             block=True,
-                            reason=f"HTTP {response.status}: {text[:200]}",
+                            reason=f"HTTP {response.status}: {text}",
                         )
         except Exception as e:
             return HookResult(allowed=False, block=True, reason=str(e))

@@ -1,4 +1,4 @@
-"""Guarantee valid Mermaid syntax"""
+﻿"""Guarantee valid Mermaid syntax"""
 
 class SyntaxValidator:
     
@@ -7,7 +7,7 @@ class SyntaxValidator:
         """Create a guaranteed valid simple flowchart"""
         # Template-based approach - guaranteed valid
         return f"""graph TD
-    A[Start: {description[:30]}]
+    A[Start: {description}]
     B[Process Step 1]
     C{{Decision?}}
     D[Process Step 2]
@@ -27,7 +27,7 @@ class SyntaxValidator:
     participant System
     participant Database
     
-    User->>System: {description[:30]}
+    User->>System: {description}
     System->>Database: Query
     Database-->>System: Result
     System-->>User: Response"""

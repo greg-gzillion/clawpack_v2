@@ -49,7 +49,7 @@ Or use /liberate for basic Ollama liberation."""
             return f"""✅ Successfully obliterated: {model}
 
 Method: {method}
-Output: {result.stdout[:500]}
+Output: {result.stdout}
 
 The model has been liberated from refusal behaviors while preserving capabilities.
 

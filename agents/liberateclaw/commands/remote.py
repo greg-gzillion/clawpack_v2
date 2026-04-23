@@ -72,7 +72,7 @@ def remote_liberate(args: str) -> str:
         )
 
         if result.returncode == 0:
-            return f"✅ Remote liberation complete on {host}\n\n{result.stdout[:1000]}"
+            return f"✅ Remote liberation complete on {host}\n\n{result.stdout}"
         else:
             return f"❌ Remote liberation failed:\n{result.stderr}"
 

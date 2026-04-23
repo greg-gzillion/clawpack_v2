@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Webclaw - Fetches content from URLs with citations"""
 import sys
 import json
@@ -47,7 +47,7 @@ class Webclaw:
                 "success": True,
                 "url": url,
                 "title": title.strip(),
-                "content": text[:2000],  # First 2000 chars
+                "content": text,  # First 2000 chars
                 "citation": f"Source: {urlparse(url).netloc}\nTitle: {title}\nRetrieved: {response.headers.get('date', 'Unknown')}"
             }
         except Exception as e:

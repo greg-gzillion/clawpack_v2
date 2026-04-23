@@ -51,7 +51,7 @@ def run(args):
     try:
         from translator.core import TranslationEngine
         engine = TranslationEngine()
-        result = engine.translate(content[:2000], target_lang)  # First 2000 chars
+        result = engine.translate(content, target_lang)  # First 2000 chars
         if result and result.success:
             translated = result.translated_text
             print(f"✅ Using Interpretclaw engine: {result.engine_used}")
@@ -60,7 +60,7 @@ def run(args):
     
     # Fallback: mock translation with language tag
     if not translated:
-        translated = f"[{target_lang.upper()} Translation]\n\n{content[:1000]}..."
+        translated = f"[{target_lang.upper()} Translation]\n\n{content}..."
     
     # Save
     output_path = Path(file_path).stem + f"_{target_lang}.txt"

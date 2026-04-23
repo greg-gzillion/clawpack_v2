@@ -54,7 +54,7 @@ if ref_dir.exists():
         try:
             content = open(f, 'r', encoding='utf-8', errors='ignore').read()
             rel = str(f.relative_to(ref_dir))
-            c.execute('INSERT OR REPLACE INTO web_cache VALUES (?, ?, ?)', (rel, content[:50000], datetime.now().isoformat()))
+            c.execute('INSERT OR REPLACE INTO web_cache VALUES (?, ?, ?)', (rel, content, datetime.now().isoformat()))
             for word in set(w.strip().lower() for w in content.split() if 3 < len(w) < 20):
                 c.execute('INSERT OR REPLACE INTO search_index VALUES (?, ?, ?)', (word, rel, 1))
             count += 1
@@ -89,7 +89,7 @@ try:
     from agents.llmclaw.providers.stock import StockProvider
     llm = StockProvider()
     response = llm.query('Say hello')
-    print(f'✅ LLM Provider: {response[:50]}...')
+    print(f'✅ LLM Provider: {response}...')
 except Exception as e:
     print(f'⚠️ LLM not configured: {e}')
 

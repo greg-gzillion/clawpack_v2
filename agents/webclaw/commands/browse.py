@@ -21,7 +21,7 @@ def browse_command(args=None):
     print(f"📄 Files: {len(md_files)}\n")
     
     # Show first 20 files
-    for i, f in enumerate(md_files[:20], 1):
+    for i, f in enumerate(md_files, 1):
         rel_path = f.relative_to(category_path)
         print(f"  {i:2}. {rel_path}")
     

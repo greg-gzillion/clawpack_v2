@@ -1,4 +1,4 @@
-"""All supported diagram types"""
+﻿"""All supported diagram types"""
 from enum import Enum
 
 class DiagramType(Enum):
@@ -21,7 +21,7 @@ class DiagramGenerator:
     def get_template(diagram_type: str, description: str) -> str:
         templates = {
             'timeline': f"""timeline
-    title {description[:30]}
+    title {description}
     section Phase 1
         Planning : 2024-01-01 : 2024-01-15
         Design : 2024-01-16 : 2024-02-15
@@ -31,12 +31,12 @@ class DiagramGenerator:
     section Phase 3
         Deployment : 2024-05-16 : 2024-06-01
         Review : after Deployment""",
-            'pie': f"""pie title {description[:30]}
+            'pie': f"""pie title {description}
     "Completed" : 65
     "In Progress" : 25
     "Not Started" : 10""",
             'mindmap': f"""mindmap
-    root(({description[:20]}))
+    root(({description}))
         Main Topic 1
             Subtopic A
             Subtopic B
@@ -44,7 +44,7 @@ class DiagramGenerator:
             Subtopic C
             Subtopic D""",
             'user_journey': f"""journey
-    title {description[:30]}
+    title {description}
     section Research
         Visit website: 5: User
         Compare options: 3: User
@@ -56,7 +56,7 @@ class DiagramGenerator:
         Complete: 5: User""",
             'gitgraph': 'gitGraph\n    commit id: "Initial"\n    branch feature\n    checkout feature\n    commit id: "Development"\n    checkout main\n    merge feature\n    commit id: "Release v1.0"',
             'c4': f"""C4Context
-    title {description[:30]}
+    title {description}
     Person(user, "End User", "System user")
     System(system, "Main System", "Core application")
     Rel(user, system, "Uses")"""

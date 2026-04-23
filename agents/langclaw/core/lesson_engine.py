@@ -1,4 +1,4 @@
-"""Language Lesson Engine"""
+﻿"""Language Lesson Engine"""
 import sys
 from pathlib import Path
 
@@ -25,7 +25,7 @@ class LessonEngine:
     def get_lesson(self, topic: str, level: str = "beginner") -> str:
         ref_text = ""
         if self.chronicle_refs:
-            ref_text = "\n\n📚 References:\n" + "\n".join([f"   • {r.url}" for r in self.chronicle_refs[:3]])
+            ref_text = "\n\n📚 References:\n" + "\n".join([f"   • {r.url}" for r in self.chronicle_refs])
         
         prompt = f"Create a {level} lesson for {self.language} on {topic}. Include vocabulary, grammar, examples, and practice exercises.{ref_text}"
         return self.llm.chat_sync(prompt)

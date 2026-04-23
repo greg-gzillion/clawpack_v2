@@ -20,4 +20,4 @@ def run(args):
     footnote = f"\n\n[{ref}]: {text}\n"
     output = p.parent / f"{p.stem}_with_footnotes.md"
     output.write_text(content + footnote)
-    print(f"✅ Footnote added: [{ref}] {text[:50]}...")
+    print(f"✅ Footnote added: [{ref}] {text}...")

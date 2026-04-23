@@ -1,4 +1,4 @@
-def run(args):
+﻿def run(args):
     """Medical research using chronicle index"""
     if not args:
         return "Usage: /med <condition>\nExample: /med cardiology"
@@ -13,6 +13,6 @@ def run(args):
         return f"No medical info found for '{args}'\nTry: /chronicle search {args}"
     
     output = [f"🏥 MEDICAL: {args}\n"]
-    for card in results[:5]:
+    for card in results:
         output.append(f"🔗 {card.url}")
     return "\n".join(output)

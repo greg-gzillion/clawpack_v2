@@ -40,7 +40,7 @@ class URLFetcher:
             text = ' '.join(chunk for chunk in chunks if chunk)
             
             # Limit to first 2000 characters
-            result = text[:2000] + "..." if len(text) > 2000 else text
+            result = text + "..." if len(text) > 2000 else text
             
             self.cache[url] = (result, time.time())
             return result

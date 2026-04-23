@@ -182,7 +182,7 @@ async def _route_to_agent(agent_name: str, task: str, context: Dict = None) -> s
     safe_task = task.replace('"', '\\"').replace('$', '').replace('`', '')
     
     # Return a formatted response (in production, would call agent)
-    return f"[{agent_name}] Processing: {safe_task[:200]}"
+    return f"[{agent_name}] Processing: {safe_task}"
 
 # CLI integration
 def start_server(host: str = "127.0.0.1", port: int = 8765):

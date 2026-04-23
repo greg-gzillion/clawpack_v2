@@ -1,4 +1,4 @@
-"""Index court information in chronicle"""
+﻿"""Index court information in chronicle"""
 
 import sys
 from pathlib import Path
@@ -32,7 +32,7 @@ class ChronicleIndexer:
         try:
             self.ledger.record_fetch(
                 url=f"file://{source_path}",
-                context=f"Court: {jurisdiction} - {location}\n{content[:500]}",
+                context=f"Court: {jurisdiction} - {location}\n{content}",
                 source=f"lawclaw/jurisdictions/{jurisdiction}/{location}",
                 metadata={
                     'jurisdiction': jurisdiction,

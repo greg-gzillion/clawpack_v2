@@ -17,16 +17,16 @@ class ChronicleBridge:
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             self.webclaw = get_chronicle()
-            print("✅ Connected to WebClaw Chronicle", file=sys.stderr)
+            print("? Connected to WebClaw Chronicle", file=sys.stderr)
         except Exception as e:
-            print(f"⚠️ WebClaw not available: {e}", file=sys.stderr)
+            print(f"?? WebClaw not available: {e}", file=sys.stderr)
         
         try:
             from agents.dataclaw.modules.indexer.local_indexer import LocalIndexer
             self.dataclaw = LocalIndexer()
-            print("✅ Connected to DataClaw", file=sys.stderr)
+            print("? Connected to DataClaw", file=sys.stderr)
         except Exception as e:
-            print(f"⚠️ DataClaw not available: {e}", file=sys.stderr)
+            print(f"?? DataClaw not available: {e}", file=sys.stderr)
     
     def search(self, query, source="both", limit=10):
         results = []
@@ -50,7 +50,7 @@ class ChronicleBridge:
                     results.append({
                         'url': r.get('url', ''),
                         'source': 'dataclaw',
-                        'context': r.get('context', '')[:100]
+                        'context': r.get('context', '')
                     })
             except:
                 pass
@@ -77,5 +77,5 @@ if __name__ == "__main__":
     
     results = bridge.search("rust code", "both", 5)
     print(f"\nSearch results: {len(results)} found")
-    for r in results[:3]:
-        print(f"  • {r['url'][:60]}... ({r['source']})")
+    for r in results:
+        print(f"  � {r['url'][:60]}... ({r['source']})")

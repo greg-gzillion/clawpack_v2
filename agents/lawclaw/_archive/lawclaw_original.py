@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ï»¿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 lawclaw - Complete Judicial Research System
@@ -54,11 +54,11 @@ class lawclaw:
 
     def print_welcome(self):
         """Print the beautiful welcome banner with all categories"""
-        print("\n" + "¦"*80)
-        print("¦" + " "*78 + "¦")
-        print("¦" + " "*20 + "??  lawclaw - COMPLETE JUDICIAL RESEARCH  ??" + " "*20 + "¦")
-        print("¦" + " "*78 + "¦")
-        print("¦"*80)
+        print("\n" + "ï¿½"*80)
+        print("ï¿½" + " "*78 + "ï¿½")
+        print("ï¿½" + " "*20 + "??  lawclaw - COMPLETE JUDICIAL RESEARCH  ??" + " "*20 + "ï¿½")
+        print("ï¿½" + " "*78 + "ï¿½")
+        print("ï¿½"*80)
         print("\n" + "="*80)
         print("?? 50+ LEGAL CATEGORIES")
         print("="*80)
@@ -80,7 +80,7 @@ class lawclaw:
         for i, cat in enumerate(categories):
             if i % 5 == 0 and i > 0:
                 print()
-            print(f"  • {cat:<20}", end="")
+            print(f"  ï¿½ {cat:<20}", end="")
         print("\n" + "="*80)
         
         print("\n?? 100+ COMMANDS")
@@ -396,14 +396,14 @@ class lawclaw:
                 print('='*70)
                 content = r.read_text(encoding='utf-8', errors='ignore')
                 # Show first 1500 chars
-                print(content[:1500])
+                print(content)
                 if len(content) > 1500:
                     print("\n... (truncated, use /open to view full)")
         else:
             print("\n? No results found")
             print("\n?? Tips:")
-            print("  • Use /list to see available topics")
-            print("  • Try /llm for AI-powered research")
+            print("  ï¿½ Use /list to see available topics")
+            print("  ï¿½ Try /llm for AI-powered research")
 
     def handle_browse(self, state):
         """Browse state court system"""
@@ -492,7 +492,7 @@ class lawclaw:
                 print(f"?? {title}")
                 print('='*40)
                 # Show first 800 chars
-                print(content[:800])
+                print(content)
                 if len(content) > 800:
                     print("\n... (truncated)")
         else:

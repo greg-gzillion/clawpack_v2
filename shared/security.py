@@ -18,7 +18,7 @@ class InputSanitizer:
         # Remove dot segments
         filename = re.sub(r'\.\.', '_', filename)
         # Limit length
-        return filename[:255]
+        return filename
     
     @staticmethod
     def sanitize_sql_like(text: str) -> str:

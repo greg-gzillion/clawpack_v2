@@ -1,4 +1,4 @@
-﻿"""Translation Fetcher - Handles API calls and response parsing"""
+"""Translation Fetcher - Handles API calls and response parsing"""
 
 from typing import Optional, Dict, List
 from providers.webclaw_provider import WebclawLangProvider
@@ -30,4 +30,4 @@ class TranslationFetcher:
     
     def get_dictionary_urls(self, language_code: str) -> List[str]:
         urls = self.provider.extract_urls_from_references(language_code)
-        return urls.get("dictionaries", [])[:5]
+        return urls.get("dictionaries", [])

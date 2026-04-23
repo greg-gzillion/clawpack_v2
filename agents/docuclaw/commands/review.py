@@ -11,7 +11,7 @@ def run(args):
         # List available documents
         docs = list(Path(".").glob("*.txt")) + list(Path(".").glob("*.md")) + list(Path(".").glob("*.docx"))
         if docs:
-            return "📁 Available documents:\n" + "\n".join([f"  • {d.name}" for d in docs[:10]])
+            return "📁 Available documents:\n" + "\n".join([f"  • {d.name}" for d in docs])
         return "No documents found. Use /translate to create translations."
     
     file_path = args.strip()

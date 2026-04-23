@@ -1,4 +1,4 @@
-"""Programming Engine - Uses webclaw references and chronicle index"""
+﻿"""Programming Engine - Uses webclaw references and chronicle index"""
 import sys
 from pathlib import Path
 
@@ -35,7 +35,7 @@ class ProgrammingEngine:
                 content = md_file.read_text(encoding='utf-8', errors='ignore')
                 import re
                 urls = re.findall(r'https?://[^\s<>"\')\]]+', content)
-                for url in urls[:3]:
+                for url in urls:
                     refs.append({'url': url, 'source': f'local/{self.language}', 'type': 'doc'})
             print(f"📁 Found {len(refs)} local refs for {self.language}", file=sys.stderr)
         
@@ -57,7 +57,7 @@ class ProgrammingEngine:
         ref_text = ""
         if refs:
             ref_text = "\n\n## References & Best Practices\n"
-            for ref in refs[:5]:
+            for ref in refs:
                 ref_text += f"- {ref['url']} ({ref['source']})\n"
             ref_text += "\nUse these references to inform your solution.\n"
             print(f"📖 Including {len(refs)} references in prompt", file=sys.stderr)

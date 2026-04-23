@@ -20,7 +20,7 @@ class Config:
     
     @classmethod
     def show_status(cls):
-        print(f"API Key: {'✅ ' + cls.OPENROUTER_KEY[:20] + '...' if cls.OPENROUTER_KEY else '❌ Not found'}")
+        print(f"API Key: {'✅ ' + cls.OPENROUTER_KEY + '...' if cls.OPENROUTER_KEY else '❌ Not found'}")
         print(f"Webclaw: {'✅ ' + str(len(cls.get_specialties())) + ' specialties' if cls.WEBCLAW_PATH.exists() else '❌ Not found'}")
     
     @classmethod

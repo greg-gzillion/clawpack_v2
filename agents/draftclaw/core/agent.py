@@ -39,7 +39,7 @@ def process_command(cmd: str) -> str:
                 )
                 output = result.stdout.strip()
                 if output and "No URLs found" not in output:
-                    return f"[draftclaw] {output[:500]}"
+                    return f"[draftclaw] {output}"
         except:
             pass
         

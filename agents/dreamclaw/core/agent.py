@@ -93,7 +93,7 @@ class Dreamclaw:
             draw = ImageDraw.Draw(img)
             
             draw.rectangle([0, 0, 1024, 80], fill='#1a1a3a')
-            draw.text((512, 40), f"Dream: {original[:50]}", fill='#e94560', anchor='mm')
+            draw.text((512, 40), f"Dream: {original}", fill='#e94560', anchor='mm')
             
             y = 120
             words = prompt.split()

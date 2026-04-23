@@ -1,4 +1,4 @@
-"""search command - Search local legal references"""
+﻿"""search command - Search local legal references"""
 from pathlib import Path
 
 name = "/search"
@@ -39,7 +39,7 @@ def run(args):
             output.append(f"?? {r.name}")
             output.append('='*70)
             content = r.read_text(encoding='utf-8', errors='ignore')
-            output.append(content[:1500])
+            output.append(content)
             if len(content) > 1500:
                 output.append("\n... (truncated)")
     else:

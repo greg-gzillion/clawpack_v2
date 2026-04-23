@@ -7,7 +7,7 @@ class CoreCommands:
     def handle_sources(self):
         sources = self.agent.list_sources()
         print(f"\n📚 Sources ({len(sources)}):")
-        for i, s in enumerate(sources[:30], 1):
+        for i, s in enumerate(sources, 1):
             print(f"   {i}. {s}")
     
     def handle_stats(self):

@@ -33,7 +33,7 @@ class URLFetcher:
             
             text = content.get_text(separator='\n', strip=True)
             lines = [line.strip() for line in text.splitlines() if line.strip()]
-            text = '\n'.join(lines[:80])
+            text = '\n'.join(lines)
             
             return {
                 "success": True,

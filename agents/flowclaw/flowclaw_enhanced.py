@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """FlowClaw Enhanced - Main Agent with LLM Integration"""
 
 import sys
@@ -48,7 +48,7 @@ class FlowClawEnhanced:
     
     def view(self, diagram_type: str, description: str):
         result = self.generate(diagram_type, description)
-        AdvancedViewer.show(result['code'], f"{diagram_type}: {description[:40]}")
+        AdvancedViewer.show(result['code'], f"{diagram_type}: {description}")
         return result
     
     def template(self, name: str = None):

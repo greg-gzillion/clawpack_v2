@@ -106,7 +106,7 @@ UTILITIES:
         sources = self.agent.webclaw_sources()
         print(f"\n📚 Webclaw Sources ({len(sources)}):")
         if sources:
-            for i, s in enumerate(sources[:30], 1):
+            for i, s in enumerate(sources, 1):
                 print(f"   {i:3}. {s}")
         else:
             print("   No webclaw sources found.")

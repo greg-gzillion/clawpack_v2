@@ -36,7 +36,7 @@ if call is None:
 if call is None:
     print("⚠️ No LLM API found - using fallback mode")
     def call(prompt, model=None):
-        return f"[FALLBACK] TXclaw running without API.\nQuery: {prompt[:200]}..."
+        return f"[FALLBACK] TXclaw running without API.\nQuery: {prompt}..."
 
 from config.settings import DEFAULT_MODEL
 

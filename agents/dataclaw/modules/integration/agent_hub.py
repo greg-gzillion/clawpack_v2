@@ -1,4 +1,4 @@
-"""DataClaw Integration Hub - Connects to all clawpack agents"""
+﻿"""DataClaw Integration Hub - Connects to all clawpack agents"""
 
 import sys
 from pathlib import Path
@@ -56,7 +56,7 @@ class AgentHub:
             return None
         
         context = f"\n[DataClaw] Local references found for '{query}':\n"
-        for r in results[:5]:
+        for r in results:
             context += f"  • {r['name']} ({r['size_mb']} MB) - {r['path']}\n"
         
         return context
@@ -72,7 +72,7 @@ class AgentHub:
             return ""
         
         ref_text = f"\n\n## Local References (from DataClaw) for {agent_name}:\n"
-        for r in results[:3]:
+        for r in results:
             ref_text += f"- {r['name']} (local file)\n"
         
         return ref_text

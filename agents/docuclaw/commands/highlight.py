@@ -53,6 +53,6 @@ def run(args):
     highlighted = re.sub(r'(#.*?$)', f"{colors['comment']}\\1{colors['reset']}", highlighted, flags=re.MULTILINE)
     
     print(f"\n🎨 Syntax Highlighted: {p.name}\n")
-    print(highlighted[:5000])
+    print(highlighted)
     if len(highlighted) > 5000:
         print("\n... (truncated)")

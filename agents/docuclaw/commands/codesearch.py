@@ -34,7 +34,7 @@ def run(args):
     
     if matches:
         print(f"✅ Found {len(matches)} matches:\n")
-        for m in matches[:20]:
+        for m in matches:
             print(f"  📄 {m.relative_to(search_dir)}")
     else:
         print("❌ No matches found")

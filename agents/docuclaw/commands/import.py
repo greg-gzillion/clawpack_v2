@@ -56,7 +56,7 @@ def run(args):
     text = result.get('text', '')
     if text:
         print(f"\n--- Preview ---")
-        print(text[:500])
+        print(text)
         if len(text) > 500:
             print("\n... (truncated)")
     

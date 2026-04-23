@@ -1,4 +1,4 @@
-"""Modular diagram viewer with popup and save options"""
+﻿"""Modular diagram viewer with popup and save options"""
 import subprocess
 import tempfile
 import webbrowser
@@ -227,8 +227,8 @@ class DiagramViewer:
         print("\n" + "="*60)
         print("📊 DIAGRAM PREVIEW (Mermaid Format)")
         print("="*60)
-        print(mermaid_code[:1000])
+        print(mermaid_code)
         if len(mermaid_code) > 1000:
             print("\n... (diagram truncated, view in browser for full visualization)")
         print("="*60)
-        return mermaid_code[:500]
+        return mermaid_code

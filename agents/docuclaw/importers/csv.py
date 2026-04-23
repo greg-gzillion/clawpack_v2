@@ -22,7 +22,7 @@ class CSVImporter(BaseImporter):
                 "format": "csv",
                 "rows": len(rows),
                 "columns": len(rows[0]) if rows else 0,
-                "data": rows[:10]  # First 10 rows
+                "data": rows  # First 10 rows
             }
         except:
             return {"text": content, "format": "csv", "error": "Invalid CSV"}

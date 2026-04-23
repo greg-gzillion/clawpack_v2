@@ -29,7 +29,7 @@ def llm_command(question):
                     try:
                         content = md_file.read_text(encoding='utf-8', errors='ignore')
                         if question.lower() in content.lower():
-                            context += f"\n[Source: {category.name}/{md_file.name}]\n{content[:500]}\n"
+                            context += f"\n[Source: {category.name}/{md_file.name}]\n{content}\n"
                             if len(context) > 2000:
                                 break
                     except:

@@ -97,7 +97,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                 a2a_memory.working.add("assistant", str(result.get("result", "")))
                 
                 # Store in semantic memory
-                a2a_memory.semantic.add_fact(agent_name, task, result[:200])
+                a2a_memory.semantic.add_fact(agent_name, task, result)
                 
                 # Compress if needed
                 compressed = a2a_memory.working.compress()
@@ -106,7 +106,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                     "status": "success",
                     "agent": agent_name,
                     "task": task,
-                    "result": result.get("result", "")[:1000],
+                    "result": result.get("result", ""),
                     "memory_tokens": a2a_memory.working.token_count
                 })
             else:
@@ -157,7 +157,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         try:
             cmd = [sys.executable, str(agent_script)] + safe_args
             result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, shell=False, encoding="utf-8", errors="replace", cwd=str(PROJECT_ROOT))
-            return result.stdout[:1000] if result.stdout else "Agent executed"
+            return result.stdout if result.stdout else "Agent executed"
         except subprocess.TimeoutExpired:
             return "Error: Agent timeout"
         except Exception as e:

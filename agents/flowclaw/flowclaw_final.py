@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """FlowClaw - Finally Working!"""
 
 import sys
@@ -68,7 +68,7 @@ class FlowClawFinal:
 🌐 Mermaid Live should show your diagram
 
 Code:
-{code[:200]}...
+{code}...
 """
     
     def process(self, cmd, *args):

@@ -1,4 +1,4 @@
-"""ask command - AI law Q&A via LLMClaw"""
+﻿"""ask command - AI law Q&A via LLMClaw"""
 import requests
 import json
 
@@ -10,7 +10,7 @@ def run(args):
         return "Usage: /ask <question>"
     
     try:
-        print(f"\n? Asking: {args[:100]}...")
+        print(f"\n? Asking: {args}...")
         
         # SIMPLE - Just pass the question directly
         # Build a clean prompt

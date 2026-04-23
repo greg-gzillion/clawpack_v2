@@ -60,7 +60,7 @@ class BitmapIndex:
                         self.index[word] = []
                     self.index[word].append({
                         'path': path, 'display_name': display_name,
-                        'category': category, 'preview': content[:300]
+                        'category': category, 'preview': content
                     })
             except:
                 for word in display_name.lower().split():

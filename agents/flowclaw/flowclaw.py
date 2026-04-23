@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """FlowClaw - Reliable Diagram Generator"""
 
 import sys
@@ -185,7 +185,7 @@ class FlowClaw:
     
     def ai(self, description: str) -> str:
         code = self.llm.generate_diagram(description)
-        self.renderer.show(code, f"AI: {description[:40]}")
+        self.renderer.show(code, f"AI: {description}")
         filename = OUTPUT_DIR / f"ai_{datetime.now().strftime('%Y%m%d_%H%M%S')}.mmd"
         filename.write_text(code)
         return f"✅ AI diagram generated\n📁 Saved: {filename}"

@@ -1,4 +1,4 @@
-"""Mathematics commands with chronicle learning"""
+﻿"""Mathematics commands with chronicle learning"""
 
 import sys
 from pathlib import Path
@@ -41,7 +41,7 @@ def solve(problem):
     
     ref_text = ""
     if references:
-        ref_text = "\n\nReferences:\n" + "\n".join(f"- {r}" for r in references[:3])
+        ref_text = "\n\nReferences:\n" + "\n".join(f"- {r}" for r in references)
     
     prompt = f"Solve this math problem step by step: {cleaned}{ref_text}\n\nReturn ONLY the solution."
     
@@ -82,7 +82,7 @@ def explain(concept):
     
     ref_text = ""
     if references:
-        ref_text = "\n\nResources:\n" + "\n".join(f"- {r}" for r in references[:3])
+        ref_text = "\n\nResources:\n" + "\n".join(f"- {r}" for r in references)
     
     prompt = f"Explain this math concept clearly: {concept}{ref_text}\n\nReturn ONLY the explanation."
     

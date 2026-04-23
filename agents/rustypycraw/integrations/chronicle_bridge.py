@@ -1,4 +1,4 @@
-"""Bridge to connect rustypycraw with webclaw and dataclaw chronicle indexes"""
+﻿"""Bridge to connect rustypycraw with webclaw and dataclaw chronicle indexes"""
 
 import sys
 from pathlib import Path
@@ -83,7 +83,7 @@ class ChronicleBridge:
         try:
             self.webclaw_chronicle.record_fetch(
                 url=f"file://{file_path}",
-                context=f"Code: {Path(file_path).name}\n{content[:500]}",
+                context=f"Code: {Path(file_path).name}\n{content}",
                 source=f"rustypycraw/{language}",
                 metadata={
                     'language': language,
@@ -99,8 +99,8 @@ class ChronicleBridge:
     def get_code_context(self, code_snippet: str) -> List[Dict]:
         """Get relevant context from chronicle for code analysis"""
         # Search for similar code patterns
-        webclaw_results = self.search_webclaw(code_snippet[:100], 5)
-        dataclaw_results = self.search_dataclaw(code_snippet[:100], 5)
+        webclaw_results = self.search_webclaw(code_snippet, 5)
+        dataclaw_results = self.search_dataclaw(code_snippet, 5)
         
         return webclaw_results + dataclaw_results
     

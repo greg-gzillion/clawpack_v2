@@ -109,7 +109,7 @@ COMMANDS:
     def _show_sources(self):
         sources = self.agent.webclaw_sources()
         print(f"\n📚 Medical Sources ({len(sources)}):")
-        for i, s in enumerate(sources[:30], 1):
+        for i, s in enumerate(sources, 1):
             print(f"   {i:3}. {s}")
         if len(sources) > 30:
             print(f"   ... and {len(sources)-30} more")

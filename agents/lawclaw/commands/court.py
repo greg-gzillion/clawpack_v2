@@ -24,7 +24,7 @@ def run(args):
         context = ""
         if search_response.status_code == 200:
             data = search_response.json()
-            context = data.get("result", "")[:1000]
+            context = data.get("result", "")
 
         # 2. Build prompt
         prompt = f"""You are a legal assistant. Provide information about the court in {args}.

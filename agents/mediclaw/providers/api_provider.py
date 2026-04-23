@@ -27,7 +27,7 @@ class APIProvider:
             if response.status_code == 200:
                 return response.json()["choices"][0]["message"]["content"]
             else:
-                return f"❌ API Error (HTTP {response.status_code}): {response.text[:200]}"
+                return f"❌ API Error (HTTP {response.status_code}): {response.text}"
                 
         except requests.exceptions.Timeout:
             return "❌ API timeout - please try again"

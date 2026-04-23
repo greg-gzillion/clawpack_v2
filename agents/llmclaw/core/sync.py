@@ -71,7 +71,7 @@ def update_working_llms(model: str, source: str):
         })
     
     # Keep only top 10
-    current_llms = current_llms[:10]
+    current_llms = current_llms
     
     with open(WORKING_LLMS_FILE, 'w') as f:
         json.dump(current_llms, f, indent=2)

@@ -1,4 +1,4 @@
-"""Agent hook runner - multi-turn agent loop"""
+﻿"""Agent hook runner - multi-turn agent loop"""
 from typing import Dict, Optional
 from ..hook_types import HookResult, HookContext
 
@@ -14,5 +14,5 @@ class AgentRunner:
         # For now, simplified
         return HookResult(
             allowed=True,
-            additional_context=f"[Agent hook would process: {prompt[:100]}]",
+            additional_context=f"[Agent hook would process: {prompt}]",
         )

@@ -21,5 +21,5 @@ class RTFImporter(BaseImporter):
         return {
             "text": text.strip(),
             "format": "rtf",
-            "raw": content[:500]
+            "raw": content
         }

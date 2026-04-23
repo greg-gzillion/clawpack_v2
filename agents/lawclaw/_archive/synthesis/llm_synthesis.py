@@ -45,10 +45,10 @@ class LegalSynthesizer:
         return f"""You are a legal research assistant. Synthesize this information into a clear, accurate response.
 
 Query: {query}
-Context: {context[:200]}
+Context: {context}
 
 Source Content:
-{content[:1500]}
+{content}
 
 Provide a concise summary focusing on key legal information."""
     
@@ -88,7 +88,7 @@ Provide a concise summary focusing on key legal information."""
             return f"LLM unavailable. Question: {question}"
         
         prompt = f"""Context from legal database:
-{context[:1000]}
+{context}
 
 Question: {question}
 
@@ -102,18 +102,18 @@ Provide a helpful legal answer based on the context."""
     def analyze_legal_text(self, text: str) -> str:
         """Analyze legal text directly with LLM"""
         if not self.available:
-            return f"Legal text analysis (LLM unavailable):\n{text[:500]}..."
+            return f"Legal text analysis (LLM unavailable):\n{text}..."
         
         prompt = f"""Analyze this legal text. Extract: parties, legal issues, holdings, reasoning.
 
-Text: {text[:1500]}
+Text: {text}
 
 Provide structured analysis."""
         
         response = self._query_ollama(prompt)
         if response:
             return f"\nLegal Analysis:\n{'='*50}\n\n{response}"
-        return f"Analysis error for: {text[:200]}"
+        return f"Analysis error for: {text}"
     
     def is_available(self) -> bool:
         return self.available

@@ -56,5 +56,5 @@ class TTSEngine:
     def save_audio(self, text: str, filename: str, language: str = "en") -> Optional[Path]:
         """Save TTS to audio file (requires additional setup)"""
         # This would require external libraries like pyttsx3 or gTTS
-        print(f"Audio saving not yet implemented. Text: {text[:50]}...")
+        print(f"Audio saving not yet implemented. Text: {text}...")
         return None

@@ -57,7 +57,7 @@ def fetch_command(args=None):
         if extractor.is_legal_site(url):
             citations = extractor.extract_legal_citations(clean_text)
             if citations:
-                print(f"\n📖 Legal Citations Found: {', '.join(citations[:5])}")
+                print(f"\n📖 Legal Citations Found: {', '.join(citations)}")
         
         print("="*60)
         return
@@ -99,7 +99,7 @@ def fetch_command(args=None):
         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     ]
 
-    for i, ua in enumerate(user_agents[:2]):
+    for i, ua in enumerate(user_agents):
         try:
             print(f"\n  Attempt {i+1}...")
             response = requests.get(
@@ -142,13 +142,13 @@ def fetch_command(args=None):
                 links = extractor.extract_links(content, url)
                 if links:
                     print(f"\n🔗 Related Links ({len(links)}):")
-                    for link in links[:5]:
-                        print(f"  • {link[:80]}...")
+                    for link in links:
+                        print(f"  • {link}...")
                 
                 # Extract legal citations
                 citations = extractor.extract_legal_citations(clean_text)
                 if citations:
-                    print(f"\n📖 Legal Citations Found: {', '.join(citations[:5])}")
+                    print(f"\n📖 Legal Citations Found: {', '.join(citations)}")
             
             # PACER-specific extraction
             if is_pacer:

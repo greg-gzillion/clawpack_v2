@@ -1,4 +1,4 @@
-def run(args):
+﻿def run(args):
     """Look up vocabulary using chronicle references"""
     if not args:
         return "Usage: /vocab <language> <word>\nExample: /vocab spanish hola"
@@ -23,7 +23,7 @@ def run(args):
     
     if results:
         output += "\n\n🔗 References:\n"
-        for r in results[:2]:
+        for r in results:
             output += f"   {r.url}\n"
     
     return output

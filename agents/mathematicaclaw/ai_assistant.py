@@ -1,4 +1,4 @@
-"""MathematicaClaw AI Assistant with Chronicle Learning"""
+﻿"""MathematicaClaw AI Assistant with Chronicle Learning"""
 
 import sys
 from pathlib import Path
@@ -49,7 +49,7 @@ class MathematicaAIAssistant:
         all_results = []
         seen = set()
         
-        for term in search_terms[:5]:
+        for term in search_terms:
             try:
                 results = self.chronicle(term, 3)
                 for r in results:
@@ -64,7 +64,7 @@ class MathematicaAIAssistant:
             except:
                 pass
         
-        return all_results[:5]
+        return all_results
     
     def solve_problem(self, problem):
         """Solve mathematics problem using LLM with chronicle references"""
@@ -74,7 +74,7 @@ class MathematicaAIAssistant:
         ref_text = ""
         if references:
             ref_text = "\n\n## Reference Resources from Chronicle Index\n"
-            for i, ref in enumerate(references[:3], 1):
+            for i, ref in enumerate(references, 1):
                 ref_text += f"{i}. {ref['url']}\n"
         
         prompt = f"""Solve this mathematics problem: {problem}
@@ -110,7 +110,7 @@ Return ONLY the solution."""
         ref_text = ""
         if references:
             ref_text = "\n\n## Learning Resources from Chronicle\n"
-            for i, ref in enumerate(references[:3], 1):
+            for i, ref in enumerate(references, 1):
                 ref_text += f"{i}. {ref['url']}\n"
         
         prompt = f"""Explain this mathematical concept: {concept}
@@ -146,7 +146,7 @@ if __name__ == "__main__":
         print("\nSearching for mathematics resources...")
         results = ai.search_mathematics("calculus")
         print(f"Found {len(results)} references")
-        for r in results[:2]:
+        for r in results:
             print(f"  → {r['url'][:60]}...")
 # Press Ctrl+C to cancel the current command, then run this:
 
@@ -196,7 +196,7 @@ def solve(problem):
     
     ref_text = ""
     if references:
-        ref_text = "\n\nReferences from chronicle:\n" + "\n".join(f"- {r}" for r in references[:3])
+        ref_text = "\n\nReferences from chronicle:\n" + "\n".join(f"- {r}" for r in references)
     
     prompt = f"Solve this math problem step by step: {problem}{ref_text}\n\nReturn ONLY the solution."
     
@@ -223,7 +223,7 @@ def explain(concept):
     
     ref_text = ""
     if references:
-        ref_text = "\n\nResources:\n" + "\n".join(f"- {r}" for r in references[:3])
+        ref_text = "\n\nResources:\n" + "\n".join(f"- {r}" for r in references)
     
     prompt = f"Explain this math concept clearly: {concept}{ref_text}\n\nReturn ONLY the explanation."
     
@@ -340,7 +340,7 @@ def solve(problem):
     
     ref_text = ""
     if references:
-        ref_text = "\n\nReferences:\n" + "\n".join(f"- {r}" for r in references[:3])
+        ref_text = "\n\nReferences:\n" + "\n".join(f"- {r}" for r in references)
     
     prompt = f"Solve this math problem step by step: {problem}{ref_text}\n\nReturn ONLY the solution."
     
@@ -369,7 +369,7 @@ def explain(concept):
     
     ref_text = ""
     if references:
-        ref_text = "\n\nResources:\n" + "\n".join(f"- {r}" for r in references[:3])
+        ref_text = "\n\nResources:\n" + "\n".join(f"- {r}" for r in references)
     
     prompt = f"Explain this math concept clearly: {concept}{ref_text}\n\nReturn ONLY the explanation."
     

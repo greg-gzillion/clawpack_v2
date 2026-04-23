@@ -96,7 +96,7 @@ class ForkManager:
     async def fork(self, task: str, config: ForkConfig = None) -> ForkResult:
         """Fork a sub-agent for a specific task"""
         config = config or ForkConfig()
-        fork_id = f"fork_{uuid.uuid4().hex[:8]}"
+        fork_id = f"fork_{uuid.uuid4().hex}"
         
         start_time = datetime.now()
         
@@ -112,7 +112,7 @@ class ForkManager:
             result = ForkResult(
                 fork_id=fork_id,
                 status=ForkStatus.COMPLETED,
-                result=f"[Forked agent completed: {task[:50]}...]",
+                result=f"[Forked agent completed: {task}...]",
                 turns_used=3,
                 tokens_used=500,
                 cache_hit=cache_hit,

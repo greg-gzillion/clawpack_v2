@@ -39,7 +39,7 @@ class SharedMemory:
         ''', (query, response, category, self.agent_name, datetime.now().isoformat(), query))
         conn.commit()
         conn.close()
-        print(f"💾 Saved to shared memory: {query[:50]}...")
+        print(f"💾 Saved to shared memory: {query}...")
     
     def recall(self, query, max_results=5):
         """Recall from this agent's memory"""

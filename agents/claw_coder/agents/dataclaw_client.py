@@ -19,7 +19,7 @@ class DataClawClient:
             try:
                 content = md_file.read_text(encoding='utf-8', errors='ignore')
                 if query.lower() in content.lower():
-                    results.append(content[:500])
+                    results.append(content)
                     if len(results) >= 3:
                         break
             except:

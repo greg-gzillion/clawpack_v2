@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """DocuClaw - Clean Document Processor with Media Support"""
 
 import sys
@@ -128,7 +128,7 @@ class MediaHandler:
             'original': str(path),
             'rows': len(data),
             'columns': list(data[0].keys()) if data else [],
-            'data': data[:5]
+            'data': data
         }
     
     @staticmethod
@@ -144,7 +144,7 @@ class MediaHandler:
             'type': 'json',
             'original': str(path),
             'size': len(data) if isinstance(data, list) else 1,
-            'data': data[:5] if isinstance(data, list) else data
+            'data': data if isinstance(data, list) else data
         }
 
 # ============================================================================

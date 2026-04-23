@@ -45,11 +45,11 @@ class WebclawProvider:
                             "specialty": specialty_dir.name,
                             "file": md_file.name,
                             "content": content,
-                            "preview": '\n'.join(lines[:15]) + "\n..."
+                            "preview": '\n'.join(lines) + "\n..."
                         })
                 except:
                     continue
-        return results[:5]
+        return results
     
     def get_specialty(self, name: str) -> str:
         specialty_path = self.data_path / name

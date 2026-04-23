@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Index all court markdown files into chronicle"""
 
 import sys
@@ -52,7 +52,7 @@ def index_court_files():
             # Index the file
             chronicle.record_fetch(
                 url=f"file://{md_file.absolute()}",
-                context=context + content[:500],
+                context=context + content,
                 source=source,
                 metadata={
                     'county': county_name,

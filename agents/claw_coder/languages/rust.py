@@ -24,7 +24,7 @@ class RustLanguage(BaseLanguage):
         """Analyze Rust code"""
         prompt = f"Analyze this Rust code for issues:\n\n{code}"
         response = self._call_ai(prompt)
-        return {"issues": [], "suggestions": [response[:500]]}
+        return {"issues": [], "suggestions": [response]}
     
     def refactor(self, code: str, suggestion: str) -> str:
         """Refactor Rust code"""

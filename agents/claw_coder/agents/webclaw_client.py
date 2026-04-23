@@ -18,7 +18,7 @@ class WebClawClient:
                 'User-Agent': 'ClawCoder/1.0'
             })
             if response.status_code == 200:
-                return response.text[:2000]  # Limit size
+                return response.text  # Limit size
         except:
             pass
         return None

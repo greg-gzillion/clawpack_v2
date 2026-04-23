@@ -7,7 +7,7 @@ from datetime import datetime
 def format_tx_hash(tx_hash: str) -> str:
     """Format a transaction hash for display"""
     if len(tx_hash) > 20:
-        return f"{tx_hash[:10]}...{tx_hash[-8:]}"
+        return f"{tx_hash}...{tx_hash[-8:]}"
     return tx_hash
 
 def is_valid_tx_hash(tx_hash: str) -> bool:
