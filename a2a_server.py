@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Clawpack A2A Server - Unified with Memory, WebClaw, and 21 Agents"""
 import json
 import sys
@@ -20,7 +20,7 @@ from agents.webclaw.agent_handler import process_task as webclaw_process
 a2a_memory = get_memory("a2a_server")
 
 AGENTS = {
-    "llmclaw": {"script": "agents/llmclaw/llmclaw.py", "cmd_prefix": ["model"], "desc": "Model selection and management"},
+    "llmclaw": {"script": "agents/llmclaw/llmclaw.py", "cmd_prefix": ["/llm"], "desc": "Model selection and management"},
     "liberateclaw": {"script": "agents/liberateclaw/liberateclaw.py", "cmd_prefix": ["liberate"], "desc": "LLM Model Liberation"},
     "flowclaw": {"script": "agents/flowclaw/flowclaw.py", "cmd_prefix": ["diagram"], "desc": "AI-powered diagram generator"},
     "designclaw": {"script": "agents/designclaw/designclaw.py", "cmd_prefix": ["design"], "desc": "Graphic design and logos"},
@@ -114,11 +114,15 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             self._send_error(404, "Not found")
     
     def _send_json(self, data, status=200):
-        self.send_response(status)
-        self.send_header('Content-Type', 'application/json')
-        self.end_headers()
-        self.wfile.write(json.dumps(data).encode())
-    
+        try:
+            self.send_response(status)
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+            self.wfile.write(json.dumps(data).encode())
+        except (ConnectionAbortedError, ConnectionResetError, BrokenPipeError):
+            # Client disconnected - that's fine
+            pass
+
     def _send_error(self, code, message):
         self._send_json({"error": message}, code)
     
@@ -143,13 +147,13 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             dangerous = [';', '|', '&', '$', '`', '>', '<', '\n', '\r']
             if any(c in arg for c in dangerous):
                 return "Error: Invalid characters in argument"
-            if len(arg) > 500:
-                return "Error: Argument too long"
+            if len(arg) > 5000:
+                return "Error: Argument too long (max 50000 chars) (max 5000 chars) (max 50000 chars) (max 5000 chars)"
             safe_args.append(arg)
         
         try:
             cmd = [sys.executable, str(agent_script)] + safe_args
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, shell=False)
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=60, shell=False, encoding="utf-8", errors="replace", cwd=str(PROJECT_ROOT))
             return result.stdout[:1000] if result.stdout else "Agent executed"
         except subprocess.TimeoutExpired:
             return "Error: Agent timeout"
@@ -161,12 +165,12 @@ def main():
     server = HTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
     
     print("\n" + "="*70)
-    print("🦞 CLAWPACK A2A SERVER - UNIFIED")
+    print("?? CLAWPACK A2A SERVER - UNIFIED")
     print("="*70)
-    print(f"📍 http://127.0.0.1:{port}")
-    print(f"\n✅ {len(AGENTS)} Agents Registered")
-    print("✅ Three-Tier Memory: ACTIVE")
-    print("✅ WebClaw Direct Integration: ACTIVE")
+    print(f"?? http://127.0.0.1:{port}")
+    print(f"\n? {len(AGENTS)} Agents Registered")
+    print("? Three-Tier Memory: ACTIVE")
+    print("? WebClaw Direct Integration: ACTIVE")
     print("\nEndpoints:")
     print("  GET  /health        - Server health + memory stats")
     print("  GET  /v1/agents     - List all agents")
@@ -178,11 +182,21 @@ def main():
     try:
         server.serve_forever()
     except KeyboardInterrupt:
-        print("\n\n📊 Final Memory Stats:")
+        print("\n\n?? Final Memory Stats:")
         print(f"   Working tokens: {a2a_memory.working.token_count}")
         print(f"   Semantic facts: {len(a2a_memory.semantic.facts)}")
         print(f"   Messages processed: {len(a2a_memory.working.messages)}")
-        print("\n👋 Server stopped")
+        print("\n?? Server stopped")
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+

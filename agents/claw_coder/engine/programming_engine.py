@@ -74,7 +74,7 @@ Requirements:
 
 Output ONLY the {self.language} code:"""
         
-        code = self.llm.chat_sync(prompt, task_type="code")
+        code = self.llm.chat(prompt)
         
         if code.startswith("```"):
             lines = code.split("\n")
@@ -89,3 +89,5 @@ Output ONLY the {self.language} code:"""
             'references': refs,
             'model': 'Groq' if self.llm.groq_client else 'DeepSeek-Coder'
         }
+
+

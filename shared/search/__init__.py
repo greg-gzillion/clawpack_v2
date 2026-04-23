@@ -1,112 +1,105 @@
-﻿"""Bitmap search for WebClaw - Complete implementation"""
-import json
+﻿"""Bitmap search for WebClaw - Content indexing with disk persistence"""
+import re
 import time
+import pickle
 from pathlib import Path
 from typing import List, Dict, Tuple
 
 class SearchResult:
-    def __init__(self, path: str, display_name: str, score: float, category: str = "general"):
+    def __init__(self, path: str, display_name: str, score: float, category: str = "general", preview: str = ""):
         self.path = path
         self.display_name = display_name
         self.score = score
         self.category = category
+        self.preview = preview
 
 class BitmapIndex:
     def __init__(self, index_name: str):
         self.index_name = index_name
-        self.items = []  # List of (path, display_name, category)
-        self.index = {}  # Search index
+        self.items = []
+        self.index = {}
         self._built = False
         self._build_time_ms = 0
         self._total_items = 0
+        self._cache_file = Path(f"agents/webclaw/cache/{index_name}.pkl")
         
+        # Try loading from disk immediately
+        self._load_from_disk()
+
+    def _load_from_disk(self):
+        if self._cache_file.exists():
+            try:
+                with open(self._cache_file, 'rb') as f:
+                    cached = pickle.load(f)
+                    self.index = cached['index']
+                    self._total_items = cached['total_items']
+                    self._build_time_ms = cached['build_time_ms']
+                    self._built = True
+                    return True
+            except:
+                pass
+        return False
+
     def add_batch(self, items: List[Tuple[str, str, str]]):
-        """Add multiple items to the index"""
         self.items.extend(items)
-        
-    def build(self):
-        """Build the search index"""
+
+    def build(self, force: bool = False):
+        if not force and self._built:
+            return
+
         start_time = time.time()
+        self.index = {}
         
-        # Create search index from items
         for path, display_name, category in self.items:
-            # Index by display name words
-            words = display_name.lower().split()
-            for word in words:
-                if word not in self.index:
-                    self.index[word] = []
-                self.index[word].append({
-                    'path': path,
-                    'display_name': display_name,
-                    'category': category
-                })
-        
+            try:
+                content = Path(path).read_text(encoding='utf-8', errors='ignore')
+                text = (display_name + " " + content).lower()
+                words = set(re.findall(r'\b[a-z0-9]{3,}\b', text))
+                for word in words:
+                    if word not in self.index:
+                        self.index[word] = []
+                    self.index[word].append({
+                        'path': path, 'display_name': display_name,
+                        'category': category, 'preview': content[:300]
+                    })
+            except:
+                for word in display_name.lower().split():
+                    if word not in self.index:
+                        self.index[word] = []
+                    self.index[word].append({
+                        'path': path, 'display_name': display_name,
+                        'category': category, 'preview': ""
+                    })
+
         self._built = True
         self._total_items = len(self.items)
         self._build_time_ms = (time.time() - start_time) * 1000
-        
+        self._cache_file.parent.mkdir(exist_ok=True)
+        with open(self._cache_file, 'wb') as f:
+            pickle.dump({'index': self.index, 'total_items': self._total_items, 'build_time_ms': self._build_time_ms}, f)
+
     def search(self, query: str, max_results: int = 20) -> List[SearchResult]:
-        """Search the index and return results"""
         if not self._built:
             self.build()
-            
-        results = []
         query_words = query.lower().split()
-        
-        # Score items based on word matches
         scores = {}
         for word in query_words:
             if word in self.index:
                 for item in self.index[word]:
                     key = item['path']
-                    if key not in scores:
-                        scores[key] = {'item': item, 'score': 0}
-                    scores[key]['score'] += 1
-                    
-        # Sort by score and convert to SearchResult
-        sorted_items = sorted(scores.items(), key=lambda x: x[1]['score'], reverse=True)
-        
-        for path, data in sorted_items[:max_results]:
-            item = data['item']
-            # Calculate normalized score (0-1 range)
-            normalized_score = data['score'] / len(query_words) if query_words else 0
-            results.append(SearchResult(
-                path=path,
-                display_name=item['display_name'],
-                score=normalized_score,
-                category=item['category']
-            ))
-            
-        return results
-    
+                    scores[key] = scores.get(key, 0) + 1
+        sorted_items = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:max_results]
+        return [SearchResult(path=p, display_name="", score=s, category="") for p, s in sorted_items]
+
     def get_stats(self) -> dict:
-        """Return index statistics"""
         if not self._built:
             self.build()
-        return {
-            'total_items': self._total_items,
-            'build_time_ms': self._build_time_ms,
-            'index_name': self.index_name,
-            'unique_words': len(self.index)
-        }
+        return {'total_items': self._total_items, 'build_time_ms': self._build_time_ms, 'index_name': self.index_name, 'unique_words': len(self.index)}
 
 class FuzzyScorer:
     def __init__(self, query: str = ""):
         self.query = query.lower()
-        
     def score(self, text1: str, text2: str) -> float:
-        """Simple scoring - 1.0 if exact match, 0.0 otherwise"""
         return 1.0 if text1.lower() == text2.lower() else 0.0
-    
     def highlight_matches(self, text: str) -> str:
-        """Highlight query matches in text"""
-        if not self.query:
-            return text
-        # Simple highlighting with **
-        words = self.query.split()
-        result = text
-        for word in words:
-            import re
-            pattern = re.compile(re.escape(word), re.IGNORECASE)
-            result = pattern.sub(f"**{word}**", result)
-        return result
+        return text

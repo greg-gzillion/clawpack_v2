@@ -1,112 +1,143 @@
-[
+﻿[
   {
-    "model": "qwen_coder_7b",
-    "source": "local",
+    "model": "deepseek-coder-liberated",
+    "source": "ollama",
     "priority": 1,
-    "obliterated": true
+    "obliterated": true,
+    "size": "3.8 GB",
+    "status": "working"
   },
   {
-    "model": "smollm2_1.7b",
-    "source": "local",
+    "model": "codellama-liberated",
+    "source": "ollama",
     "priority": 1,
-    "obliterated": true
+    "obliterated": true,
+    "size": "3.8 GB",
+    "status": "working"
   },
   {
-    "model": "phi2",
-    "source": "local",
+    "model": "smollm2-liberated",
+    "source": "ollama",
     "priority": 1,
-    "obliterated": true
+    "obliterated": true,
+    "size": "3.4 GB",
+    "status": "working"
   },
   {
+    "model": "tinyllama-liberated",
     "source": "ollama",
-    "model": "llama3.2:3b"
+    "priority": 1,
+    "obliterated": true,
+    "size": "2.2 GB",
+    "status": "working"
   },
   {
+    "model": "gemma3-liberated",
     "source": "ollama",
-    "model": "codellama:7b"
+    "priority": 1,
+    "obliterated": true,
+    "size": "815 MB",
+    "status": "working"
   },
   {
+    "model": "hf.co/bartowski/Qwen2.5-Coder-7B-Instruct-GGUF:Q4_K_M",
     "source": "ollama",
-    "model": "qwen3-vl:30b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "4.7 GB",
+    "status": "working",
+    "note": "Quantized Qwen-Coder"
   },
   {
+    "model": "deepseek-coder:6.7b",
     "source": "ollama",
-    "model": "qwen3-coder:30b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "3.8 GB",
+    "status": "working"
   },
   {
+    "model": "codellama:7b",
     "source": "ollama",
-    "model": "deepseek-r1:8b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "3.8 GB",
+    "status": "working"
   },
   {
+    "model": "tinyllama:1.1b",
     "source": "ollama",
-    "model": "gemma3:4b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "637 MB",
+    "status": "working"
   },
   {
+    "model": "gemma3:1b",
     "source": "ollama",
-    "model": "gemma3:27b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "815 MB",
+    "status": "working"
   },
   {
+    "model": "gemma3:4b",
     "source": "ollama",
-    "model": "gemma3:12b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "3.3 GB",
+    "status": "working"
   },
   {
+    "model": "deepseek-r1:8b",
     "source": "ollama",
-    "model": "deepseek-coder:6.7b"
+    "priority": 2,
+    "obliterated": false,
+    "size": "5.2 GB",
+    "status": "working"
   },
   {
+    "model": "gemma3:12b",
     "source": "ollama",
-    "model": "gemma3:1b"
+    "priority": 3,
+    "obliterated": false,
+    "size": "8.1 GB",
+    "status": "working",
+    "note": "CPU offloaded"
   },
   {
-    "source": "openrouter",
-    "model": "google/gemma-4-26b-a4b-it:free"
+    "model": "gemma3:27b",
+    "source": "ollama",
+    "priority": 3,
+    "obliterated": false,
+    "size": "17 GB",
+    "status": "working",
+    "note": "CPU offloaded"
   },
   {
-    "source": "openrouter",
-    "model": "google/gemma-4-31b-it:free"
+    "model": "qwen3-coder:30b",
+    "source": "ollama",
+    "priority": 3,
+    "obliterated": false,
+    "size": "18 GB",
+    "status": "working",
+    "note": "CPU offloaded"
   },
   {
-    "source": "openrouter",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free"
+    "model": "qwen3-vl:30b",
+    "source": "ollama",
+    "priority": 3,
+    "obliterated": false,
+    "size": "19 GB",
+    "status": "working",
+    "note": "CPU offloaded, Vision capable"
   },
   {
-    "source": "openrouter",
-    "model": "minimax/minimax-m2.5:free"
-  },
-  {
-    "source": "openrouter",
-    "model": "arcee-ai/trinity-large-preview:free"
-  },
-  {
+    "model": "claude-3-haiku",
     "source": "anthropic",
-    "model": "claude-3-haiku"
-  },
-  {
-    "source": "ollama",
-    "model": "llama3.2-liberated"
-  },
-  {
-    "source": "ollama",
-    "model": "codellama-liberated"
-  },
-  {
-    "source": "ollama",
-    "model": "qwen3-vl-liberated"
-  },
-  {
-    "source": "ollama",
-    "model": "qwen3-coder-liberated"
-  },
-  {
-    "source": "ollama",
-    "model": "deepseek-r1-liberated"
-  },
-  {
-    "source": "ollama",
-    "model": "gemma3-liberated"
-  },
-  {
-    "source": "ollama",
-    "model": "deepseek-coder-liberated"
+    "priority": 4,
+    "obliterated": false,
+    "status": "working",
+    "note": "Cloud API"
   }
 ]
