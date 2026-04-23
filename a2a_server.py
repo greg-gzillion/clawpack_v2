@@ -19,6 +19,7 @@ from agents.lawclaw.agent_handler import process_task as lawclaw_process
 from agents.mediclaw.agent_handler import process_task as mediclaw_process
 from agents.claw_coder.agent_handler import process_task as clawcoder_process
 from agents.mathematicaclaw.agent_handler import process_task as mathclaw_process
+from agents.crustyclaw.agent_handler import process_task as crustyclaw_process
 
 # Initialize memory
 a2a_memory = get_memory("a2a_server")
@@ -143,6 +144,8 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return clawcoder_process(task)
         elif agent_name == "mathematicaclaw":
             return mathclaw_process(task)
+        elif agent_name == "crustyclaw":
+            return crustyclaw_process(task)
         
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
         if not agent_script.exists():
