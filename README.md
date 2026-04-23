@@ -301,10 +301,9 @@ If you use Clawpack V2 in your research, please cite:
   url          = {https://github.com/greg-gzillion/clawpack_v2},
   abstract     = {20 specialized AI agents with shared memory, WebClaw SQLite index (1.5M terms, 20K files), chronicle ledger, and multi-provider LLM routing}
 }
-DOI
-https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg)](https://doi.org/10.5281/zenodo.19713157)
 
-ORCID
-https://img.shields.io/badge/ORCID-0009--0001--9191--5556-a6ce39?logo=orcid
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--9191--5556-a6ce39?logo=orcid)](https://orcid.org/0009-0001-9191-5556)
+
 
 
