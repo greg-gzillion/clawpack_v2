@@ -1,50 +1,23 @@
-﻿"""WebClaw A2A Message Handler - REAL INDEXES ONLY"""
+﻿"""A2A Handler for WebClaw - Uses SQLite index"""
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+from agents.webclaw.providers.webclaw_provider import WebclawProvider
 
-def process_task(task: str) -> str:
-    """Process incoming A2A task using WebclawProvider index and Chronicle"""
-    if not task:
-        return "No task provided"
+provider = WebclawProvider()
 
+def process_task(task: str, agent: str = None):
+    """Process A2A search task"""
     task = task.strip()
-    if task.startswith('search '):
-        task = task[7:].strip()
-
+    
+    if task.startswith("search "):
+        query = task[7:].strip()
+    else:
+        query = task
+    
     try:
-        if task.startswith('/search') or not task.startswith('/'):
-            args = task.replace('/search', '').strip() if task.startswith('/search') else task
-
-            from providers.webclaw_provider import WebclawProvider
-            provider = WebclawProvider()
-            results = provider.search(args)
-
-            if results:
-                output = [f"Found {len(results)} results for '{args}':\n"]
-                for r in results[:10]:
-                    # Extract actual data from SearchResult object
-                    output.append(f"  • {r.display_name}")
-                    output.append(f"    Path: {r.path}")
-                    output.append(f"    Category: {r.category}\n")
-                return "\n".join(output)
-            return f"No results for: {args}"
-
-        elif task.startswith('/chronicle'):
-            args = task.replace('/chronicle', '').strip()
-            from commands.chronicle import run as chronicle_run
-            return chronicle_run(args) or "Chronicle query complete"
-
-        elif task.startswith('/stats'):
-            from providers.webclaw_provider import WebclawProvider
-            provider = WebclawProvider()
-            stats = provider.get_stats()
-            return f"WebClaw Index Stats:\n  Files: {stats.get('total_items', 'N/A')}\n  Words: {stats.get('unique_words', 'N/A')}"
-
-        else:
-            return f"Unknown command: {task}"
-
+        result = provider.search_with_context(query)
+        return {"status": "success", "result": result}
     except Exception as e:
-        import traceback
-        return f"Error: {str(e)}\n{traceback.format_exc()}"
+        return {"status": "error", "result": str(e)}

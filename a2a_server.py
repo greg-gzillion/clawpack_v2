@@ -15,6 +15,7 @@ from shared.memory import get_memory
 
 # Import WebClaw handler
 from agents.webclaw.agent_handler import process_task as webclaw_process
+from agents.lawclaw.agent_handler import process_task as lawclaw_process
 
 # Initialize memory
 a2a_memory = get_memory("a2a_server")
@@ -93,7 +94,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                 result = self._execute_agent(agent_name, task)
                 
                 # Store result in working memory
-                a2a_memory.working.add("assistant", result[:500])
+                a2a_memory.working.add("assistant", str(result.get("result", "")))
                 
                 # Store in semantic memory
                 a2a_memory.semantic.add_fact(agent_name, task, result[:200])
@@ -105,7 +106,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                     "status": "success",
                     "agent": agent_name,
                     "task": task,
-                    "result": result[:1000],
+                    "result": result.get("result", "")[:1000],
                     "memory_tokens": a2a_memory.working.token_count
                 })
             else:
@@ -130,7 +131,9 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         """Execute agent with proper routing"""
         
         # WebClaw uses direct import for performance
-        if agent_name == "webclaw":
+        if agent_name == "lawclaw":
+            return lawclaw_process(task)
+        elif agent_name == "webclaw":
             return webclaw_process(task)
         
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
@@ -190,6 +193,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
 
 
 

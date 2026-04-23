@@ -1,85 +1,106 @@
-﻿"""Webclaw Provider - Fast bitmap search for references"""
-
-import sys
+"""Webclaw Provider - Uses the 280 MB SQLite Chronicle Index"""
+import sqlite3
 from pathlib import Path
-from typing import List, Dict, Optional
-
-sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-from shared.search import BitmapIndex, FuzzyScorer, SearchResult
+from typing import List, Optional
 
 class WebclawProvider:
-    """Fast search across 300+ reference files using bitmap pre-filters"""
-
+    """Fast search using pre-built SQLite index (1.5M terms, 20K files)"""
+    
     def __init__(self):
+        self.cache_dir = Path(__file__).parent.parent / "cache"
+        self.db_path = self.cache_dir / "web_cache.db"
         self.references_path = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references")
-        self.index = BitmapIndex("webclaw_references")
-        # Check if index already exists on disk
-        self._indexed = self.index._built
-
-    def build_index(self) -> None:
-        """Build bitmap index of all reference files"""
-        if self._indexed:
-            return
-
-        print("   📚 Building reference index...")
-
-        if self.references_path.exists():
-            items = []
-            for md_file in self.references_path.rglob("*.md"):
-                parts = md_file.parts
-                category = parts[-2] if len(parts) > 1 else "general"
-                display_name = md_file.stem.replace('_', ' ').replace('-', ' ')
-                items.append((str(md_file), display_name, category))
-
-            self.index.add_batch(items)
-            self.index.build()
-            self._indexed = True
-
-            stats = self.index.get_stats()
-            print(f"   ✅ Indexed {stats['total_items']} files in {stats['build_time_ms']:.2f}ms")
-        else:
-            print(f"   ⚠️ References path not found: {self.references_path}")
-
-    def search(self, query: str, max_results: int = 20) -> List[SearchResult]:
-        self.build_index()
+    
+    def search(self, query: str, max_results: int = 20) -> str:
+        """Search the SQLite index for matching terms"""
         if not query:
-            return []
-        items = self.index.search(query, max_results)
+            return "No query provided"
+        
+        if not self.db_path.exists():
+            return f"Index not found at {self.db_path}"
+        
+        conn = sqlite3.connect(str(self.db_path))
+        cursor = conn.cursor()
+        
+        # Split into terms and search
+        terms = query.lower().split()
         results = []
-        for item in items:
-            results.append(SearchResult(
-                path=item.path,
-                display_name=item.display_name,
-                score=0,
-                category=item.category
-            ))
-        return results
+        seen_urls = set()
+        
+        for term in terms[:5]:
+            cursor.execute("""
+                SELECT DISTINCT si.url, si.frequency
+                FROM search_index si
+                WHERE si.term LIKE ?
+                ORDER BY si.frequency DESC
+                LIMIT ?
+            """, (f'%{term}%', max_results))
+            
+            for row in cursor.fetchall():
+                url = row[0]
+                if url not in seen_urls:
+                    seen_urls.add(url)
+                    results.append({
+                        'path': url,
+                        'frequency': row[1]
+                    })
+        
+        conn.close()
+        
+        if not results:
+            return f"No results found for '{query}'"
+        
+        # Format output
+        output = [f"Found {len(results)} results for '{query}':\n"]
+        for i, r in enumerate(results[:max_results], 1):
+            output.append(f"  {i}. Path: {r['path']}")
+        
+        return "\n".join(output)
+    
+    def search_with_context(self, query: str, max_results: int = 10) -> str:
+        """Search with content snippets"""
+        if not self.db_path.exists():
+            return "Index not found"
+        
+        conn = sqlite3.connect(str(self.db_path))
+        cursor = conn.cursor()
+        
+        terms = query.lower().split()
+        results = []
+        seen_urls = set()
+        
+        for term in terms[:3]:
+            cursor.execute("""
+                SELECT DISTINCT si.url, wc.content, si.frequency
+                FROM search_index si
+                LEFT JOIN web_cache wc ON si.url = wc.url
+                WHERE si.term LIKE ?
+                ORDER BY si.frequency DESC
+                LIMIT ?
+            """, (f'%{term}%', max_results))
+            
+            for row in cursor.fetchall():
+                url = row[0]
+                if url not in seen_urls:
+                    seen_urls.add(url)
+                    content = row[1] or ""
+                    results.append({
+                        'path': url,
+                        'snippet': content[:300],
+                        'frequency': row[2]
+                    })
+        
+        conn.close()
+        
+        if not results:
+            return f"No results for '{query}'"
+        
+        output = [f"Found {len(results)} results:\n"]
+        for i, r in enumerate(results[:max_results], 1):
+            output.append(f"{i}. {r['path']}")
+            if r['snippet']:
+                output.append(f"   {r['snippet'][:150]}...")
+            output.append("")
+        
+        return "\n".join(output)
 
-    def search_with_highlight(self, query: str) -> List[Dict]:
-        results = self.search(query)
-        scorer = FuzzyScorer(query)
-        output = []
-        for r in results:
-            output.append({
-                "path": r.path,
-                "display_name": r.display_name,
-                "highlighted": scorer.highlight_matches(r.display_name),
-                "category": r.category,
-                "score": r.score
-            })
-        return output
-
-    def get_reference_content(self, path: str, max_chars: int = 2000) -> Optional[str]:
-        try:
-            filepath = Path(path)
-            if filepath.exists():
-                content = filepath.read_text(encoding='utf-8')
-                return content[:max_chars]
-        except Exception as e:
-            print(f"   ⚠️ Error reading {path}: {e}")
-        return None
-
-    def get_stats(self) -> dict:
-        if not self._indexed:
-            self.build_index()
-        return self.index.get_stats()
