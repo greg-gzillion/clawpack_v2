@@ -1,28 +1,34 @@
 ﻿"""Mediclaw Configuration"""
-
 import os
 from pathlib import Path
 
-# Load API key from root .env
 ENV_PATH = Path("C:/Users/greg/dev/clawpack_v2/.env")
-API_KEY = None
 
-if ENV_PATH.exists():
-    with open(ENV_PATH, 'r') as f:
-        for line in f:
-            if line.startswith('OPENROUTER_API_KEY='):
-                API_KEY = line.split('=')[1].strip()
-                break
+def _load_key(prefix):
+    if ENV_PATH.exists():
+        with open(ENV_PATH, 'r') as f:
+            for line in f:
+                if line.startswith(prefix):
+                    return line.split('=', 1)[1].strip()
+    return None
 
 class Config:
-    OPENROUTER_KEY = API_KEY
+    OPENROUTER_KEY = _load_key('OPENROUTER_API_KEY=')
+    ANTHROPIC_KEY = _load_key('ANTHROPIC_API_KEY=')
+    GROQ_KEY = _load_key('GROQ_API_KEY=')
+    OLLAMA_URL = "http://localhost:11434"
+    OLLAMA_MODEL = "codellama:7b"
     WEBCLAW_PATH = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/mediclaw")
-    
+    DATA_PATH = WEBCLAW_PATH
+
     @classmethod
     def show_status(cls):
-        print(f"API Key: {'✅ ' + cls.OPENROUTER_KEY + '...' if cls.OPENROUTER_KEY else '❌ Not found'}")
-        print(f"Webclaw: {'✅ ' + str(len(cls.get_specialties())) + ' specialties' if cls.WEBCLAW_PATH.exists() else '❌ Not found'}")
-    
+        print(f"OpenRouter: {'Yes' if cls.OPENROUTER_KEY else 'No'}")
+        print(f"Anthropic: {'Yes' if cls.ANTHROPIC_KEY else 'No'}")
+        print(f"Groq: {'Yes' if cls.GROQ_KEY else 'No'}")
+        print(f"Ollama: {cls.OLLAMA_URL} | Model: {cls.OLLAMA_MODEL}")
+        print(f"Data: {'Yes' if cls.DATA_PATH.exists() else 'No'}")
+
     @classmethod
     def get_specialties(cls):
         if cls.WEBCLAW_PATH.exists():

@@ -16,6 +16,7 @@ from shared.memory import get_memory
 # Import WebClaw handler
 from agents.webclaw.agent_handler import process_task as webclaw_process
 from agents.lawclaw.agent_handler import process_task as lawclaw_process
+from agents.mediclaw.agent_handler import process_task as mediclaw_process
 
 # Initialize memory
 a2a_memory = get_memory("a2a_server")
@@ -134,6 +135,8 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return lawclaw_process(task)
         elif agent_name == "webclaw":
             return webclaw_process(task)
+        elif agent_name == "mediclaw":
+            return mediclaw_process(task)
         
         agent_script = PROJECT_ROOT / AGENTS[agent_name]["script"]
         if not agent_script.exists():
