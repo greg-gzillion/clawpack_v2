@@ -77,6 +77,23 @@ class BaseAgent:
             return ""
 
     # ---- LLMClaw via A2A ----
+    def ask_memory(self, query: str) -> str:
+        """Check if any agent already answered this"""
+        try:
+            r = requests.get(f"{self.A2A}/memory/stats", timeout=5)
+            if r.status_code == 200:
+                stats = r.json()
+                if stats.get("semantic_facts", 0) > 0:
+                    r2 = requests.post(f"{self.A2A}/v1/message/webclaw",
+                        json={"task": f"search {query}"}, timeout=10)
+                    if r2.status_code == 200:
+                        result = r2.json().get("result", "")
+                        if result and len(result) > 20:
+                            return "[Shared Knowledge]\n" + result[:1000]
+        except:
+            pass
+        return ""
+
     def ask_llm(self, prompt: str) -> str:
         """Call LLMClaw through A2A"""
         try:
@@ -143,3 +160,12 @@ class BaseAgent:
         """Override in subclass"""
         self.track_interaction()
         return {"status": "error", "result": f"{self.name}: handle() not implemented"}
+
+    def smart_ask(self, query: str, domain: str = "") -> str:
+        """Ask with shared memory first, then LLM"""
+        memory = self.ask_memory(query)
+        if memory:
+            prompt = "Context from shared knowledge: " + memory + "\n\nQuestion: " + query
+        else:
+            prompt = query
+        return self.ask_llm(prompt)
