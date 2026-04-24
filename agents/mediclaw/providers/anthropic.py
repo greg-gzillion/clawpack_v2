@@ -20,7 +20,7 @@ class AnthropicProvider(BaseProvider):
             response = requests.post(
                 "https://api.anthropic.com/v1/messages",
                 headers={"x-api-key": Config.ANTHROPIC_KEY, "anthropic-version": "2023-06-01", "Content-Type": "application/json"},
-                json={"model": "claude-3-haiku-20240307", "max_tokens": 2000, "messages": [{"role": "user", "content": prompt}]},
+                json={"model": "claude-haiku-4-5-20251001", "max_tokens": 2000, "messages": [{"role": "user", "content": prompt}]},
                 timeout=30
             )
             if response.status_code == 200:

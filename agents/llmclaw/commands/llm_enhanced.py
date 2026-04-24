@@ -97,7 +97,31 @@ def _ask_openrouter(prompt, model, timeout):
     return None
 
 def _ask_anthropic(prompt, model, timeout):
-    # Simplified - would need SDK
+    """Call Anthropic Claude API"""
+    api_key = _load_key("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+    try:
+        response = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "Content-Type": "application/json"
+            },
+            json={
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "max_tokens": 2000
+            },
+            timeout=timeout
+        )
+        if response.status_code == 200:
+            data = response.json()
+            return data["content"][0]["text"].strip()
+        print(f"[llmclaw] Anthropic {response.status_code}: {response.text[:100]}")
+    except Exception as e:
+        print(f"[llmclaw] Anthropic error: {e}")
     return None
 
 def _load_key(key_name):

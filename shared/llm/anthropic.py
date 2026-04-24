@@ -4,7 +4,7 @@ from pathlib import Path
 from .provider import LLMProvider
 
 class AnthropicProvider(LLMProvider):
-    def __init__(self, model: str = "claude-3-haiku-20240307"):
+    def __init__(self, model: str = "claude-haiku-4-5-20251001"):
         super().__init__("anthropic", model)
         self.key = self._load_key()
     
@@ -15,7 +15,7 @@ class AnthropicProvider(LLMProvider):
                 return line.split('=', 1)[1].strip().strip('"').strip("'")
         return ""
     
-    async def call(self, prompt: str, max_tokens: int = 200) -> str:
+    async def call(self, prompt: str, max_tokens: int = 2000) -> str:
         headers = {
             "x-api-key": self.key,
             "anthropic-version": "2023-06-01",
