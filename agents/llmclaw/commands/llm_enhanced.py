@@ -29,7 +29,7 @@ def run(prompt):
         try:
             if name == "groq":
                 result = _ask_groq(prompt, model, timeout)
-            elif name == "ollama":
+            elif name in ("ollama", "obliterated"):
                 result = _ask_ollama(prompt, model, timeout)
             elif name == "openrouter":
                 result = _ask_openrouter(prompt, model, timeout)
