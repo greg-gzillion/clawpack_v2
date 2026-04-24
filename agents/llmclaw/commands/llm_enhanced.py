@@ -53,7 +53,7 @@ def run(prompt):
 def _ask_ollama(prompt, model, timeout):
     response = requests.post(
         "http://localhost:11434/api/generate",
-        json={"model": model, "prompt": prompt, "stream": False},
+        json={"model": model, "prompt": prompt, "stream": False, "options": {"num_predict": 500}},
         timeout=timeout
     )
     if response.status_code == 200:
