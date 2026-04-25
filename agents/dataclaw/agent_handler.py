@@ -1,25 +1,54 @@
-﻿"""A2A Handler for DataClaw - Local Reference Manager"""
-import sys
+"""A2A Handler for DataClaw - Reference Manager + FileClaw Export"""
+import sys, json
 from pathlib import Path
+from datetime import datetime
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+EXPORTS = PROJECT_ROOT / "exports"
+sys.path.insert(0, str(PROJECT_ROOT))
 from shared.base_agent import BaseAgent
 
 class DataClawAgent(BaseAgent):
     def __init__(self):
-        super().__init__('dataclaw')
+        super().__init__("dataclaw")
 
-    def handle(self, task: str) -> dict:
+    def _export(self, fmt, data, query):
+        EXPORTS.mkdir(exist_ok=True)
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        name = query[:30].replace(" ", "_").replace(chr(92), "").replace("/", "")
+        fn = f"dataclaw_{name}_{ts}.{fmt}"
+        path = EXPORTS / fn
+        try:
+            if fmt == "json":
+                path.write_text(json.dumps(data, indent=2, default=str), encoding="utf-8")
+            elif fmt == "csv":
+                import csv
+                if isinstance(data, list) and data and isinstance(data[0], dict):
+                    with open(path, "w", newline="") as f:
+                        w = csv.DictWriter(f, fieldnames=data[0].keys()); w.writeheader(); w.writerows(data)
+                else:
+                    path.write_text(str(data), encoding="utf-8")
+            elif fmt == "md":
+                md = f"# DataClaw: {query}\n\n"
+                if isinstance(data, list):
+                    for i, item in enumerate(data[:50], 1): md += f"{i}. {item}\n"
+                else: md += str(data)
+                path.write_text(md, encoding="utf-8")
+            else:
+                path.write_text(str(data), encoding="utf-8")
+            return f"Exported: {fn}"
+        except Exception as e:
+            return f"Export error: {e}"
+
+    def handle(self, task):
         self.track_interaction()
         task = task.strip()
         parts = task.split(maxsplit=1)
         cmd = parts[0].lower() if parts else ""
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
-
         try:
             if cmd in ("/search", "search") and query:
-                # Search chronicle + local references
                 chronicle = self.search_chronicle(query, limit=5)
                 web = self.search_web(query, max_results=3)
                 result = f"Results for '{query}':\n"
@@ -28,25 +57,37 @@ class DataClawAgent(BaseAgent):
                 result += f"\n[WebClaw]\n{web[:500]}"
                 if not chronicle and not web.strip():
                     result = f"No results for '{query}'. Add references with /add."
+            elif cmd in ("/export",) and args:
+                parts2 = args.split(maxsplit=1)
+                fmt = parts2[0]
+                q = parts2[1] if len(parts2) > 1 else ""
+                chronicle = self.search_chronicle(q, limit=10) if q else []
+                web = self.search_web(q, max_results=5) if q else ""
+                data = {
+                    "query": q,
+                    "chronicle": [c.url if hasattr(c, 'url') else str(c) for c in chronicle],
+                    "webclaw": web,
+                    "timestamp": datetime.now().isoformat()
+                }
+                msg = self._export(fmt, data, q or "search")
+                result = f"{msg}\n\nExported in {fmt} format."
             elif cmd in ("/add", "add") and query:
                 self.learn_fact(f"dataclaw_ref: {query}")
-                result = f"Reference added: {query}\nLocal index will expand as you add documents."
+                result = f"Reference added: {query}\nUse /list to see all references."
             elif cmd in ("/list", "list"):
                 facts = self.get_facts()
-                refs = [k.replace('dataclaw_ref: ','') for k in facts if 'dataclaw_ref' in k]
-                result = f"Local References ({len(refs)}):\n" + "\n".join(f"  - {r}" for r in refs) if refs else "No local references yet. Use /add to add."
+                refs = [k.replace("dataclaw_ref: ","") for k in facts if "dataclaw_ref" in k]
+                result = f"Local References ({len(refs)}):\n" + "\n".join(f"  - {r}" for r in refs) if refs else "No local references yet. Use /add."
             elif cmd in ("/help",):
-                result = "DataClaw - Local Reference Manager\n  /search <query> - Search chronicle + WebClaw\n  /add <reference> - Add local reference\n  /list - List all local references\n  /stats"
+                result = "DataClaw - Reference Manager\n  /search <query> - Chronicle + WebClaw\n  /export <json|csv|md> <query> - Export results\n  /add /list /stats"
             elif cmd in ("/stats",):
-                result = f"DataClaw | Local Reference Manager | Chronicle + WebClaw | Interactions: {self.state.get('interactions', 0)}"
+                result = f"DataClaw | Chronicle + WebClaw | Export: json/csv/md | Interactions: {self.state.get('interactions', 0)}"
             else:
                 result = self.search_web(query, max_results=5) or f"Searching: {query}"
-
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
 
 _agent = DataClawAgent()
-
-def process_task(task: str, agent: str = None):
+def process_task(task, agent=None):
     return _agent.handle(task)
