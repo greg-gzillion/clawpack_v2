@@ -10,6 +10,7 @@ sys.path.insert(0, str(MATHCLAW_DIR))
 from shared.base_agent import BaseAgent
 
 # Import real command modules
+sys.path.insert(0, str(MATHCLAW_DIR))
 from commands.solve import run as solve_run
 from commands.algebra import solve as algebra_solve
 from commands.calculus import derivative as calc_derivative, integral as calc_integral
