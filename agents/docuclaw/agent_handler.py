@@ -1,12 +1,11 @@
 """A2A Handler for DocuClaw - Document Generator via FileClaw + WebClaw + LLMClaw"""
-import sys, os, requests
+import sys, os
 from pathlib import Path
 from datetime import datetime
 
 DOCUCLAW_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DOCUCLAW_DIR.parent.parent
 LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
-A2A_URL = "http://127.0.0.1:8766"
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DOCUCLAW_DIR))
 sys.path.insert(0, str(LLMCLAW_DIR))
@@ -18,6 +17,14 @@ from commands.llm_enhanced import run as llm_run
 class DocuClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("docuclaw")
+
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:800])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:800])
+        return "\n".join(parts)
 
     def _call_llm(self, prompt, context=""):
         if context:
@@ -56,10 +63,9 @@ class DocuClawAgent(BaseAgent):
             # Escape special chars for JSON-safe A2A transport
             content = self._to_table(content, fmt)
             safe_content = content.replace(chr(10), "\n").replace('"', '\"')
-            r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
-                json={"task": f"/export {fmt} {safe_content}"}, timeout=30)
-            if r.status_code == 200:
-                return r.json().get("result", f"Exported as {fmt}")
+            result = self.call_agent("fileclaw", f"/export {fmt} {safe_content}", timeout=30)
+            if result:
+                return result
         except:
             pass
         # Fallback: save directly
@@ -76,10 +82,9 @@ class DocuClawAgent(BaseAgent):
         """Delegate to FileClaw for all format imports"""
         try:
             safe_path = filepath.replace(chr(92), "/")
-            r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
-                json={"task": f"/import {safe_path}"}, timeout=30)
-            if r.status_code == 200:
-                return r.json().get("result", "")
+            result = self.call_agent("fileclaw", f"/import {safe_path}", timeout=30)
+            if result:
+                return result
         except:
             pass
         # Fallback: read directly
@@ -97,7 +102,7 @@ class DocuClawAgent(BaseAgent):
         query = args if args else task
         try:
             ctx = ""
-            try: ctx = self.search_web(query, max_results=3)
+            try: ctx = self._gather_context(query)
             except: pass
 
             # Document generation
@@ -130,10 +135,8 @@ class DocuClawAgent(BaseAgent):
                 text = parts2[1] if len(parts2) > 1 else ""
                 if text:
                     try:
-                        r = requests.post(f"{A2A_URL}/v1/message/interpretclaw",
-                            json={"task": f"/translate {text} to {lang}"}, timeout=60)
-                        if r.status_code == 200:
-                            result = r.json().get("result", "")
+                        result = self.call_agent("interpretclaw", f"/translate {text} to {lang}", timeout=60)
+                        if result:
                             translated = result.replace("Exported:", "").strip()
                             # Save translated version
                             fmt = "md"
