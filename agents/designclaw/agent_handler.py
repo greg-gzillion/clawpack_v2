@@ -12,6 +12,7 @@ sys.path.insert(0, str(DESIGNCLAW_DIR))
 sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared.security import InputSanitizer
 from commands.llm_enhanced import run as llm_run
 
 class DesignClawAgent(BaseAgent):
@@ -26,6 +27,7 @@ class DesignClawAgent(BaseAgent):
         EXPORTS.mkdir(exist_ok=True)
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = f"{name or 'design'}_{ts}.html"
+        fn = InputSanitizer.sanitize_filename(fn)
         path = EXPORTS / fn
         html = f"<html><head><meta charset='utf-8'><title>{name or 'Design'}</title><style>body{{font-family:Arial;max-width:800px;margin:40px auto;padding:20px;background:#1a1a2e;color:#eee}}h1{{color:#4a9eff}}pre{{background:#16213e;padding:15px;border-radius:8px;white-space:pre-wrap}}</style></head><body><h1>{name or 'DesignClaw Export'}</h1><pre>{content}</pre></body></html>"
         path.write_text(html, encoding="utf-8")

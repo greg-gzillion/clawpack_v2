@@ -12,6 +12,7 @@ sys.path.insert(0, str(DOCUCLAW_DIR))
 sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared.security import InputSanitizer
 from commands.llm_enhanced import run as llm_run
 
 class DocuClawAgent(BaseAgent):

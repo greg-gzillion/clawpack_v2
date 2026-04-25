@@ -7,6 +7,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 EXPORTS = PROJECT_ROOT / "exports"
 sys.path.insert(0, str(PROJECT_ROOT))
 from shared.base_agent import BaseAgent
+from shared.security import InputSanitizer
 
 class DataClawAgent(BaseAgent):
     def __init__(self):
@@ -17,6 +18,7 @@ class DataClawAgent(BaseAgent):
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         name = query[:30].replace(" ", "_").replace(chr(92), "").replace("/", "")
         fn = f"dataclaw_{name}_{ts}.{fmt}"
+        fn = InputSanitizer.sanitize_filename(fn)
         path = EXPORTS / fn
         try:
             if fmt == "json":

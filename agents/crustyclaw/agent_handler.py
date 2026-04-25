@@ -10,6 +10,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(CRUSTY_DIR))
 
 from shared.base_agent import BaseAgent
+from shared.security import InputSanitizer
 LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
 sys.path.insert(0, str(LLMCLAW_DIR))
 
@@ -29,6 +30,7 @@ class CrustyClawAgent(BaseAgent):
         name = task[:40].replace(" ", "_").replace(chr(92), "").replace("/", "")
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = f"{name}_{ts}.rs"
+        fn = InputSanitizer.sanitize_filename(fn)
         (EXPORTS / fn).write_text(code, encoding="utf-8")
         return fn
 

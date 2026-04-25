@@ -9,6 +9,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(CODER_DIR))
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "llmclaw"))
 from shared.base_agent import BaseAgent
+from shared.security import InputSanitizer
 from commands.llm_enhanced import run as llm_run
 
 LANG_EXT = {"python":".py","rust":".rs","go":".go","javascript":".js","typescript":".ts","java":".java","c":".c","cpp":".cpp","csharp":".cs","ruby":".rb","php":".php","swift":".swift","kotlin":".kt","scala":".scala","r":".r","julia":".jl","lua":".lua","perl":".pl","haskell":".hs","clojure":".clj","elixir":".ex","erlang":".erl","dart":".dart","bash":".sh","powershell":".ps1","sql":".sql","html":".html","css":".css","yaml":".yaml","json":".json","xml":".xml","assembly":".asm","fortran":".f90","cobol":".cbl","groovy":".groovy","nim":".nim","zig":".zig","matlab":".m","makefile":".mk"}
