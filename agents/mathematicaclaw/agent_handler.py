@@ -10,10 +10,22 @@ sys.path.insert(0, str(MATHCLAW_DIR))
 from shared.base_agent import BaseAgent
 
 # Import real command modules
-sys.path.insert(0, str(MATHCLAW_DIR))
-from commands.solve import run as solve_run
-from commands.algebra import solve as algebra_solve
-from commands.calculus import derivative as calc_derivative, integral as calc_integral
+import importlib.util
+
+def _load_mod(name):
+    path = MATHCLAW_DIR / "commands" / f"{name}.py"
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+_solve_mod = _load_mod("solve")
+_algebra_mod = _load_mod("algebra")
+_calculus_mod = _load_mod("calculus")
+solve_run = _solve_mod.run
+algebra_solve = _algebra_mod.solve
+calc_derivative = _calculus_mod.derivative
+calc_integral = _calculus_mod.integral
 
 class MathematicaClawAgent(BaseAgent):
     def __init__(self):

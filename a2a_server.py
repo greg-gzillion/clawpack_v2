@@ -28,7 +28,7 @@ from agents.liberateclaw.agent_handler import process_task as liberateclaw_proce
 from agents.flowclaw.agent_handler import process_task as flowclaw_process
 from agents.designclaw.agent_handler import process_task as designclaw_process
 from agents.docuclaw.agent_handler import process_task as docuclaw_process
-from agents.TXclaw.agent_handler import process_task as txclaw_process
+from agents.txclaw.agent_handler import process_task as txclaw_process
 from agents.rustypycraw.agent_handler import process_task as rustypycraw_process
 from agents.plotclaw.agent_handler import process_task as plotclaw_process
 from agents.fileclaw.agent_handler import process_task as fileclaw_process
