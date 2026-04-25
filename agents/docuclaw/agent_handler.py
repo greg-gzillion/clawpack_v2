@@ -24,6 +24,28 @@ class DocuClawAgent(BaseAgent):
         result = llm_run(prompt)
         return result if result and not result.startswith("Error:") else "Document generation failed"
 
+    def _to_table(self, content, fmt):
+        # Convert markdown content to tabular format for spreadsheet exports
+        if fmt in ("xlsx", "csv"):
+            lines = content.split(chr(10))
+            rows = [{"Section": "Content", "Text": content[:500]}]
+            # Try to parse markdown sections into rows
+            current_section = "Header"
+            current_text = ""
+            for line in lines:
+                if line.startswith("# "):
+                    if current_text.strip():
+                        rows.append({"Section": current_section, "Text": current_text.strip()[:200]})
+                    current_section = line.replace("# ", "").strip()
+                    current_text = ""
+                elif line.strip():
+                    current_text += line + " "
+            if current_text.strip():
+                rows.append({"Section": current_section, "Text": current_text.strip()[:200]})
+            import json
+            return json.dumps(rows)
+        return content
+
     def _fileclaw_export(self, fmt, content):
         """Delegate to FileClaw for all format exports"""
         try:
@@ -31,6 +53,7 @@ class DocuClawAgent(BaseAgent):
             if fmt == "pdf":
                 content = content.encode("latin-1", errors="replace").decode("latin-1")
             # Escape special chars for JSON-safe A2A transport
+            content = self._to_table(content, fmt)
             safe_content = content.replace(chr(10), "\n").replace('"', '\"')
             r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
                 json={"task": f"/export {fmt} {safe_content}"}, timeout=30)
@@ -99,6 +122,28 @@ class DocuClawAgent(BaseAgent):
                 else:
                     result = "Usage: /export <format> <content>"
 
+                        # Translate document via InterpretClaw
+            elif cmd == "/translate" and args:
+                parts2 = args.split(maxsplit=1)
+                lang = parts2[0]
+                text = parts2[1] if len(parts2) > 1 else ""
+                if text:
+                    try:
+                        r = requests.post(f"{A2A_URL}/v1/message/interpretclaw",
+                            json={"task": f"/translate {text} to {lang}"}, timeout=60)
+                        if r.status_code == 200:
+                            result = r.json().get("result", "")
+                            translated = result.replace("Exported:", "").strip()
+                            # Save translated version
+                            fmt = "md"
+                            fn = self._fileclaw_export(fmt, translated).replace("Exported: ", "")
+                            result = f"Translated to {lang}: {fn}\n\n{translated[:800]}"
+                        else:
+                            result = f"Translation failed: {r.status_code}"
+                    except Exception as e:
+                        result = f"Translation error: {e}"
+                else:
+                    result = "Usage: /translate <lang_code> <text>\nExample: /translate es Hello world"
             elif cmd == "/help":
                 result = "DocuClaw - Universal Document Generator via FileClaw\n\n  GENERATE + AUTO-SAVE:\n    /letter <topic> [format]\n    /report <topic> [format]\n    /memo <topic> [format]\n    /resume <topic> [format]\n    /proposal <topic> [format]\n    /create <topic> [format]\n\n  IMPORT (via FileClaw):\n    /import <filepath>\n\n  EXPORT (via FileClaw):\n    /export <format> <content>\n\n  SUPPORTED FORMATS (21):\n    Documents:  pdf, docx, rtf, md, html, txt\n    Office:     xlsx, pptx\n    Data:       json, csv, yaml, toml, xml, ini\n    Images:     png, jpg, bmp, gif, tiff, webp\n    Vector:     svg\n    Archive:    zip"
             elif cmd == "/stats":
