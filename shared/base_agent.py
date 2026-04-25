@@ -94,7 +94,7 @@ class BaseAgent:
             pass
         return ""
 
-    def call_agent(self, agent_name: str, task: str, timeout: int = 30) -> str:
+    def call_agent(self, agent_name: str, task: str, timeout: int = 120) -> str:
         try:
             r = requests.post(
                 f'{self.A2A}/v1/message/{agent_name}',

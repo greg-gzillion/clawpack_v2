@@ -63,7 +63,7 @@ class DocuClawAgent(BaseAgent):
             # Escape special chars for JSON-safe A2A transport
             content = self._to_table(content, fmt)
             safe_content = content.replace(chr(10), "\n").replace('"', '\"')
-            result = self.call_agent("fileclaw", f"/export {fmt} {safe_content}", timeout=30)
+            result = self.call_agent("fileclaw", f"/export {fmt} {safe_content}")
             if result:
                 return result
         except:
@@ -82,7 +82,7 @@ class DocuClawAgent(BaseAgent):
         """Delegate to FileClaw for all format imports"""
         try:
             safe_path = filepath.replace(chr(92), "/")
-            result = self.call_agent("fileclaw", f"/import {safe_path}", timeout=30)
+            result = self.call_agent("fileclaw", f"/import {safe_path}")
             if result:
                 return result
         except:
@@ -135,7 +135,7 @@ class DocuClawAgent(BaseAgent):
                 text = parts2[1] if len(parts2) > 1 else ""
                 if text:
                     try:
-                        result = self.call_agent("interpretclaw", f"/translate {text} to {lang}", timeout=60)
+                        result = self.call_agent("interpretclaw", f"/translate {text} to {lang}")
                         if result:
                             translated = result.replace("Exported:", "").strip()
                             # Save translated version
