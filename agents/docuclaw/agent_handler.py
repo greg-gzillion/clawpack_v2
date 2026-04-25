@@ -27,8 +27,13 @@ class DocuClawAgent(BaseAgent):
     def _fileclaw_export(self, fmt, content):
         """Delegate to FileClaw for all format exports"""
         try:
+            # Strip emojis and non-latin1 chars for PDF (fpdf limitation)
+            if fmt == "pdf":
+                content = content.encode("latin-1", errors="replace").decode("latin-1")
+            # Escape special chars for JSON-safe A2A transport
+            safe_content = content.replace(chr(10), "\n").replace('"', '\"')
             r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
-                json={"task": f"/export {fmt} {content}"}, timeout=30)
+                json={"task": f"/export {fmt} {safe_content}"}, timeout=30)
             if r.status_code == 200:
                 return r.json().get("result", f"Exported as {fmt}")
         except:
@@ -46,8 +51,9 @@ class DocuClawAgent(BaseAgent):
     def _fileclaw_import(self, filepath):
         """Delegate to FileClaw for all format imports"""
         try:
+            safe_path = filepath.replace(chr(92), "/")
             r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
-                json={"task": f"/import {filepath}"}, timeout=30)
+                json={"task": f"/import {safe_path}"}, timeout=30)
             if r.status_code == 200:
                 return r.json().get("result", "")
         except:
