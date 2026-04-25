@@ -9,6 +9,14 @@ class DrawClawAgent(BaseAgent):
     def __init__(self):
         super().__init__('drawclaw')
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search art reference {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:600])
+        return "\n".join(parts)
+
     def handle(self, task):
         self.track_interaction()
         task = task.strip()
@@ -18,7 +26,7 @@ class DrawClawAgent(BaseAgent):
         query = args if args else task
         try:
             ctx = ''
-            try: ctx = self.search_web(f'{query} art reference', max_results=3)
+            try: ctx = self._gather_context(query)
             except: pass
 
             if cmd == '/prompt' and query:
