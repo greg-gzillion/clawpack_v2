@@ -1,12 +1,12 @@
-"""A2A Handler for DocuClaw - Document Generator with Multi-Format Export"""
-import sys, os
+"""A2A Handler for DocuClaw - Document Generator via FileClaw + WebClaw + LLMClaw"""
+import sys, os, requests
 from pathlib import Path
 from datetime import datetime
 
 DOCUCLAW_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DOCUCLAW_DIR.parent.parent
 LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
-EXPORTS = PROJECT_ROOT / "exports"
+A2A_URL = "http://127.0.0.1:8766"
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DOCUCLAW_DIR))
 sys.path.insert(0, str(LLMCLAW_DIR))
@@ -24,33 +24,39 @@ class DocuClawAgent(BaseAgent):
         result = llm_run(prompt)
         return result if result and not result.startswith("Error:") else "Document generation failed"
 
-    def _save(self, content, fmt, name):
-        EXPORTS.mkdir(exist_ok=True)
-        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-        fn = f"{name or 'doc'}_{ts}.{fmt}"
-        path = EXPORTS / fn
+    def _fileclaw_export(self, fmt, content):
+        """Delegate to FileClaw for all format exports"""
         try:
-            if fmt == "pdf":
-                from fpdf import FPDF
-                pdf = FPDF(); pdf.add_page(); pdf.set_font("Arial", size=12)
-                for line in content.split(chr(10))[:200]: pdf.cell(200, 10, txt=line[:100], ln=True)
-                pdf.output(str(path))
-            elif fmt == "docx":
-                from docx import Document
-                doc = Document(); doc.add_heading(name or "Document", 0)
-                for line in content.split(chr(10))[:500]:
-                    if line.strip(): doc.add_paragraph(line[:500])
-                doc.save(str(path))
-            elif fmt == "html":
-                html = f"<html><head><meta charset='utf-8'><title>{name or 'Document'}</title><style>body{{font-family:Arial;max-width:800px;margin:40px auto;padding:20px}}pre{{background:#f5f5f5;padding:15px;border-radius:5px;white-space:pre-wrap}}</style></head><body><h1>{name or 'DocuClaw Export'}</h1><pre>{content}</pre></body></html>"
-                path.write_text(html, encoding="utf-8")
-            else:
-                path.write_text(content, encoding="utf-8")
-            os.startfile(str(path))
-            return fn
+            r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
+                json={"task": f"/export {fmt} {content}"}, timeout=30)
+            if r.status_code == 200:
+                return r.json().get("result", f"Exported as {fmt}")
         except:
-            path.write_text(content, encoding="utf-8")
-            return fn
+            pass
+        # Fallback: save directly
+        from pathlib import Path
+        p = PROJECT_ROOT / "exports"
+        p.mkdir(exist_ok=True)
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        fn = p / f"docuclaw_{ts}.{fmt}"
+        fn.write_text(content, encoding="utf-8")
+        os.startfile(str(fn))
+        return f"Saved locally: {fn.name}"
+
+    def _fileclaw_import(self, filepath):
+        """Delegate to FileClaw for all format imports"""
+        try:
+            r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
+                json={"task": f"/import {filepath}"}, timeout=30)
+            if r.status_code == 200:
+                return r.json().get("result", "")
+        except:
+            pass
+        # Fallback: read directly
+        try:
+            return Path(filepath).read_text(encoding="utf-8", errors="replace")
+        except:
+            return f"Cannot read: {filepath}"
 
     def handle(self, task):
         self.track_interaction()
@@ -64,29 +70,37 @@ class DocuClawAgent(BaseAgent):
             try: ctx = self.search_web(query, max_results=3)
             except: pass
 
+            # Document generation
             if cmd in ("/create", "/letter", "/report", "/memo", "/resume", "/proposal") and query:
                 doc_type = cmd.replace("/", "")
-                result = self._call_llm(f"Create a professional {doc_type} in Markdown format for: {query}", ctx)
-                fmt = args.split()[-1] if args.split()[-1] in ("pdf","docx","html","md","txt") else "md"
-                fn = self._save(result, fmt, doc_type)
-                result = f"Saved: {fn}\n\n{result[:800]}"
+                fmt = args.split()[-1] if args.split()[-1] in ("pdf","docx","html","md","txt","json","csv","yaml","xml","rtf","pptx","xlsx") else "md"
+                content = self._call_llm(f"Create a professional {doc_type} in Markdown format for: {query}", ctx)
+                export_result = self._fileclaw_export(fmt, content)
+                result = f"{export_result}\n\n{content[:600]}"
+
+            # Import any file via FileClaw
+            elif cmd == "/import" and args:
+                content = self._fileclaw_import(args)
+                result = f"Imported: {args}\n\n{content[:1000]}"
+
+            # Export content in any format via FileClaw
             elif cmd == "/export" and args:
                 parts2 = args.split(maxsplit=1)
                 fmt = parts2[0]
                 content = parts2[1] if len(parts2) > 1 else ""
                 if content:
-                    fn = self._save(content, fmt, "export")
-                    result = f"Exported: {fn}"
+                    result = self._fileclaw_export(fmt, content)
                 else:
-                    result = "Usage: /export <pdf|docx|html|md> <content>"
+                    result = "Usage: /export <format> <content>"
+
             elif cmd == "/help":
-                result = "DocuClaw - Document Generator\n  /create /letter /report /memo /resume /proposal <topic>\n  /export <pdf|docx|html|md> <content>\n  Auto-save: MD/PDF/DOCX/HTML"
+                result = "DocuClaw - Universal Document Generator via FileClaw\n\n  GENERATE + AUTO-SAVE:\n    /letter <topic> [format]\n    /report <topic> [format]\n    /memo <topic> [format]\n    /resume <topic> [format]\n    /proposal <topic> [format]\n    /create <topic> [format]\n\n  IMPORT (via FileClaw):\n    /import <filepath>\n\n  EXPORT (via FileClaw):\n    /export <format> <content>\n\n  SUPPORTED FORMATS (21):\n    Documents:  pdf, docx, rtf, md, html, txt\n    Office:     xlsx, pptx\n    Data:       json, csv, yaml, toml, xml, ini\n    Images:     png, jpg, bmp, gif, tiff, webp\n    Vector:     svg\n    Archive:    zip"
             elif cmd == "/stats":
-                result = f"DocuClaw | Multi-format | WebClaw | Interactions: {self.state.get('interactions', 0)}"
+                result = f"DocuClaw | FileClaw + WebClaw + LLMClaw | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self._call_llm(f"Create a document: {query}", ctx)
-                fn = self._save(result, "md", "document")
-                result = f"Saved: {fn}\n\n{result[:800]}"
+                content = self._call_llm(f"Create a document: {query}", ctx)
+                export_result = self._fileclaw_export("md", content)
+                result = f"{export_result}\n\n{content[:600]}"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
