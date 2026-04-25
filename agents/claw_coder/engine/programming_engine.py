@@ -6,12 +6,12 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from core.llm_manager import get_llm_manager
+# Using LLMClaw via handler
 
 class ProgrammingEngine:
     def __init__(self, language: str = "python"):
         self.language = language.lower()
-        self.llm = get_llm_manager()
+        pass
         self.refs_path = PROJECT_ROOT / "agents/webclaw/references/claw_coder"
         self.chronicle = None
         self._init_chronicle()
