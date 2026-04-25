@@ -247,7 +247,7 @@ class FileClawAgent(BaseAgent):
                 total = len(self.binary_importers) + len(self.text_formats)
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self.smart_ask(f"File management: {task}")
+                result = "FileClaw: Use /import, /export, /convert, or /help"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

@@ -52,17 +52,17 @@ class ClawCoderAgent(BaseAgent):
             except: pass
             if cmd in ("/code",) and query:
                 lang = _detect_lang(query)
-                result = llm_run("Write clean " + lang + " code. " + query)
+                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nWrite clean " + lang + " code. " + query)
                 fn = self._save_code(result, lang, query)
                 result = "Saved: " + fn + "\n\n" + result[:800]
             elif cmd in ("/explain",) and query:
-                result = llm_run("Explain this code: " + query)
+                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nExplain this code: " + query)
             elif cmd in ("/debug",) and query:
-                result = llm_run("Debug and fix: " + query)
+                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nDebug and fix: " + query)
             elif cmd in ("/review",) and query:
-                result = llm_run("Code review: " + query)
+                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nCode review: " + query)
             elif cmd in ("/tutorial",) and query:
-                result = llm_run("Tutorial on: " + query)
+                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nTutorial on: " + query)
             elif cmd in ("/find",) and query:
                 result = self.search_web(query, max_results=10)
             elif cmd == "/help":
@@ -70,7 +70,7 @@ class ClawCoderAgent(BaseAgent):
             elif cmd == "/stats":
                 result = "ClawCoder | 39 Languages | BaseAgent + LLMClaw + WebClaw | Interactions: " + str(self.state.get("interactions", 0))
             else:
-                result = llm_run("Programming: " + query)
+                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nProgramming: " + query)
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
