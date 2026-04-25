@@ -9,9 +9,15 @@ def run(args):
     if not args:
         return "Usage: /cargo <command>\nExample: /cargo build"
     
+    # Whitelist allowed cargo subcommands
+    allowed = {"build", "check", "test", "run", "clean", "doc", "fmt", "clippy", "bench", "update", "version", "help"}
+    parts = args.split()
+    if not parts or parts[0] not in allowed:
+        return f"Disallowed cargo command. Allowed: {sorted(allowed)}"
+
     try:
         result = subprocess.run(
-            ["cargo"] + args.split(),
+            ["cargo"] + parts,
             capture_output=True, text=True, timeout=60,
             cwd=str(Path.home() / "dev")
         )
