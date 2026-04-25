@@ -107,6 +107,56 @@ class BaseAgent:
             pass
         return ''
 
+    def _gather_all_context(self, query=""):
+        parts = []
+        agents = [
+            ("webclaw", f"search {query}"),
+            ("dataclaw", f"search {query}"),
+            ("fileclaw", f"context {query}"),
+            ("lawclaw", f"/ask {query}"),
+            ("mediclaw", f"/med {query}"),
+            ("txclaw", f"/search {query}"),
+            ("claw_coder", f"/explain {query}"),
+            ("crustyclaw", f"/explain {query}"),
+            ("interpretclaw", f"/detect {query}"),
+            ("flowclaw", f"/flowchart {query}"),
+            ("plotclaw", f"/plot {query}"),
+            ("mathematicaclaw", f"/solve {query}"),
+        ]
+        for name, task in agents:
+            try:
+                result = self.call_agent(name, task, timeout=10)
+                if result and len(result) > 20:
+                    parts.append(name + ": " + result[:400])
+            except:
+                pass
+        return " | ".join(parts) if parts else ""
+
+    def _gather_all_context(self, query=""):
+        parts = []
+        agents = [
+            ("webclaw", f"search {query}"),
+            ("dataclaw", f"search {query}"),
+            ("fileclaw", f"context {query}"),
+            ("lawclaw", f"/ask {query}"),
+            ("mediclaw", f"/med {query}"),
+            ("txclaw", f"/search {query}"),
+            ("claw_coder", f"/explain {query}"),
+            ("crustyclaw", f"/explain {query}"),
+            ("interpretclaw", f"/detect {query}"),
+            ("flowclaw", f"/flowchart {query}"),
+            ("plotclaw", f"/plot {query}"),
+            ("mathematicaclaw", f"/solve {query}"),
+        ]
+        for name, task in agents:
+            try:
+                result = self.call_agent(name, task, timeout=10)
+                if result and len(result) > 20:
+                    parts.append(name + ": " + result[:400])
+            except:
+                pass
+        return " | ".join(parts) if parts else ""
+
     def ask_llm(self, prompt: str) -> str:
         """Call LLMClaw through A2A"""
         try:
