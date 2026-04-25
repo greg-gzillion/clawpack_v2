@@ -6,6 +6,14 @@ from shared.base_agent import BaseAgent
 
 class DreamClawAgent(BaseAgent):
     def __init__(self): super().__init__('dreamclaw')
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search creative {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:600])
+        return "\n".join(parts)
+
     def handle(self, task: str) -> dict:
         self.track_interaction()
         task = task.strip()
@@ -14,7 +22,7 @@ class DreamClawAgent(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
         try:
-            ctx = self.search_web(f"art {query}", max_results=3)
+            ctx = self._gather_context(query)
             if cmd in ("/dream","dream") and query: result = self.ask_llm(f"Context: {ctx}\n\nAI image generation prompt with style, lighting, composition: {query}")
             elif cmd in ("/imagine","imagine") and query: result = self.ask_llm(f"Context: {ctx}\n\nCreative visual description for AI generation: {query}")
             elif cmd in ("/help",): result = "DreamClaw - AI Vision\n  /dream /imagine /style /stats"
