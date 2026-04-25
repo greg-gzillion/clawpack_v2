@@ -92,9 +92,9 @@ class LLMClawAgent(BaseAgent):
                 models = _get_working_llms()
                 std = [m for m in models if not m.get("obliterated")]
                 result = f"Standard models available: {len(std)}\n" + "\n".join(m["model"] for m in std)
-            elif cmd in ("/help",):
+            elif cmd in ("/help", "help"):
                 result = "LLMClaw - Model Manager with A2A Routing\n  /llm <prompt> - Run inference\n  /models - List all models\n  /use <name> - Switch model\n  /obliterated /normal /help /stats\n  Uses: WebClaw + DataClaw + LiberateClaw"
-            elif cmd in ("/stats",):
+            elif cmd in ("/stats", "stats"):
                 active = _get_active()
                 result = f"LLMClaw | Active: {active.get('model')} ({active.get('source')}) | Interactions: {self.state.get('interactions', 0)}"
             else:
