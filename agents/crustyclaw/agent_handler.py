@@ -1,18 +1,23 @@
-"""A2A Handler for CrustyClaw - Rust AI Shell with Auto-Save"""
-import sys
+"""A2A Handler for CrustyClaw - Rust AI with real commands + FileClaw"""
+import sys, os
 from pathlib import Path
 from datetime import datetime
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+CRUSTY_DIR = Path(__file__).resolve().parent
 EXPORTS = PROJECT_ROOT / "exports"
 sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(CRUSTY_DIR))
+
 from shared.base_agent import BaseAgent
+LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
+sys.path.insert(0, str(LLMCLAW_DIR))
 
 class CrustyClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("crustyclaw")
 
-    def _save_rust(self, code, task):
+    def _save_rs(self, code, task):
         EXPORTS.mkdir(exist_ok=True)
         if "```" in code:
             blocks = code.split("```")
@@ -35,20 +40,30 @@ class CrustyClawAgent(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
         try:
-            if cmd in ("/code", "/rust") and query:
-                result = self.ask_llm(f"Write clean Rust code with comments for: {query}")
-                fn = self._save_rust(result, query)
-                result = f"Saved: {fn}\n\n{result[:600]}"
+            # Use real command modules
+            if cmd in ("/rust", "/code") and query:
+                from agents.crustyclaw.commands.rust import run
+                result = run(query)
+                fn = self._save_rs(result, query)
+                result = f"Saved: {fn}\n\n{result[:800]}"
             elif cmd in ("/explain",) and query:
-                result = self.ask_llm(f"Explain this Rust concept clearly: {query}")
+                from agents.crustyclaw.commands.explain import run
+                result = run(query)
+            elif cmd in ("/cargo",) and query:
+                from agents.crustyclaw.commands.cargo import run
+                result = run(query)
             elif cmd in ("/fix", "/debug") and query:
                 result = self.ask_llm(f"Fix this Rust code, return fixed code only: {query}")
-                fn = self._save_rust(result, query)
-                result = f"Saved: {fn}\n\n{result[:600]}"
+                fn = self._save_rs(result, "fixed")
+                result = f"Saved: {fn}\n\n{result[:800]}"
+            elif cmd in ("/audit",) and query:
+                result = self.ask_llm(f"Security audit this Rust code. Check unsafe blocks, unwraps, input validation, dependencies:\n{query}")
+            elif cmd in ("/test",) and query:
+                result = self.ask_llm(f"Write Rust unit tests with #[cfg(test)]:\n{query}")
             elif cmd in ("/help",):
-                result = "CrustyClaw - Rust AI\n  /code <task> - Generate + auto-save .rs\n  /explain /fix /stats"
+                result = "CrustyClaw - Rust AI Assistant\n  /rust /code <task> - Generate Rust + auto-save .rs\n  /explain <concept> - WebClaw + LLM explanation\n  /cargo <cmd> - Run actual cargo commands\n  /fix <code> - Debug and fix Rust code\n  /audit <code> - Security audit\n  /test <code> - Generate unit tests"
             elif cmd in ("/stats",):
-                result = f"CrustyClaw | Rust | Auto-save .rs | Interactions: {self.state.get('interactions', 0)}"
+                result = f"CrustyClaw | Rust AI | WebClaw + LLMClaw + Cargo | Interactions: {self.state.get('interactions', 0)}"
             else:
                 result = self.ask_llm(f"Rust expert. Question: {query}")
             return {"status": "success", "result": str(result)}
