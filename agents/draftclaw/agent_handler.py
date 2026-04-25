@@ -1,12 +1,11 @@
 """A2A Handler for DraftClaw - Technical Blueprints with FileClaw Export"""
-import sys, os, requests
+import sys, os
 from pathlib import Path
 from datetime import datetime
 
 DRAFTCLAW_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DRAFTCLAW_DIR.parent.parent
 LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
-A2A_URL = "http://127.0.0.1:8766"
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DRAFTCLAW_DIR))
 sys.path.insert(0, str(LLMCLAW_DIR))
@@ -19,6 +18,14 @@ class DraftClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("draftclaw")
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search technical drawing {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:600])
+        return "\n".join(parts)
+
     def _call_llm(self, prompt, context=""):
         if context:
             prompt = "Reference context:\n" + context[:1500] + "\n\n" + prompt
@@ -28,10 +35,9 @@ class DraftClawAgent(BaseAgent):
     def _fileclaw_export(self, fmt, content):
         try:
             safe = content.replace(chr(10), "\n").replace('"', '\"')
-            r = requests.post(f"{A2A_URL}/v1/message/fileclaw",
-                json={"task": f"/export {fmt} {safe}"}, timeout=30)
-            if r.status_code == 200:
-                return r.json().get("result", f"Exported as {fmt}")
+            result = self.call_agent("fileclaw", f"/export {fmt} {safe}", timeout=30)
+            if result:
+                return result
         except: pass
         # Fallback
         p = PROJECT_ROOT / "exports"; p.mkdir(exist_ok=True)
@@ -50,7 +56,7 @@ class DraftClawAgent(BaseAgent):
         query = args if args else task
         try:
             ctx = ""
-            try: ctx = self.search_web(query, max_results=3)
+            try: ctx = self._gather_context(query)
             except: pass
 
             if cmd in ("/blueprint",) and query:
