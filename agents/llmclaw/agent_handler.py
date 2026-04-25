@@ -98,10 +98,7 @@ class LLMClawAgent(BaseAgent):
                 active = _get_active()
                 result = f"LLMClaw | Active: {active.get('model')} ({active.get('source')}) | Interactions: {self.state.get('interactions', 0)}"
             else:
-                ctx = self._gather_context(task)
-                if ctx:
-                    task = f"Context from A2A specialists:\n{ctx}\n\nTask: {task}"
-                result = self._run_llm(task)
+                result = "Unknown command. Type /help for available commands."
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
