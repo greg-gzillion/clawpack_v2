@@ -25,6 +25,14 @@ class FileClawAgent(BaseAgent):
             ".mpeg":self._read_media, ".mpg":self._read_media
         }
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search file format {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:600])
+        return "\n".join(parts)
+
     def _format_size(self, s):
         for u in ["B","KB","MB","GB"]:
             if s < 1024: return f"{s:.1f}{u}"

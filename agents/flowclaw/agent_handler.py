@@ -27,6 +27,27 @@ class FlowClawAgent(BaseAgent):
         self.pdf_exporter = PdfExporter()
         self.llm = LLMAdapter(self)
 
+    def _gather_context(self, query="", diagram_type="flowchart"):
+        """Gather domain-specific context from specialists based on diagram type"""
+        parts = []
+        # Always search web for Mermaid syntax and examples
+        web = self.call_agent("webclaw", f"search mermaid {diagram_type} diagram {query}", timeout=15)
+        if web: parts.append("[WebClaw Examples]: " + web[:800])
+        # Local data references
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw References]: " + data[:800])
+        # Domain-specific specialists
+        if any(w in query.lower() for w in ["blockchain", "smart contract", "tx.org", "cosmwasm"]):
+            tx = self.call_agent("txclaw", f"/contract {query}", timeout=15)
+            if tx: parts.append("[TXClaw Blockchain]: " + tx[:600])
+        if any(w in query.lower() for w in ["code", "architecture", "system", "api", "database"]):
+            coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
+            if coder: parts.append("[ClawCoder Architecture]: " + coder[:600])
+        if any(w in query.lower() for w in ["legal", "law", "contract", "compliance"]):
+            law = self.call_agent("lawclaw", f"/legal {query}", timeout=15)
+            if law: parts.append("[LawClaw Legal]: " + law[:600])
+        return "\n".join(parts)
+
     def handle(self, task: str) -> dict:
         self.track_interaction()
         task = task.strip()
@@ -41,19 +62,29 @@ class FlowClawAgent(BaseAgent):
             elif cmd in ("/architecture", "architecture"): diagram_type = "architecture"
             else: diagram_type = "flowchart"
 
-            code = self.engine.generate_with_llm(diagram_type, query, self.llm)
+            ctx = self._gather_context(query, diagram_type)
+            enhanced_query = f"Context from specialists:\n{ctx}\n\nTask: {query}" if ctx else query
+            code = self.engine.generate_with_llm(diagram_type, enhanced_query, self.llm)
 
             if cmd in ("/view", "view"):
                 self.viewer.view_in_browser(code, query[:50])
                 result = f"Opened in browser.\n\n`mermaid\n{code}\n`"
             elif cmd in ("/export", "export"):
-                output_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/flowclaw/exports")
-                output_dir.mkdir(exist_ok=True)
-                path = output_dir / f"diagram_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-                self.docx_exporter.export(code, path, query[:50])
-                result = f"Exported to {path}.docx\n\n`mermaid\n{code}\n`"
+                # Export via FileClaw for all formats (PNG, SVG, PDF, DOCX, MD)
+                parts2 = args.split(maxsplit=1) if args else ["md", query]
+                fmt = parts2[0] if parts2[0] in ("png","svg","pdf","docx","md","html") else "md"
+                export_result = self.call_agent("fileclaw", f"/export {fmt} Mermaid Diagram: {query}\n\n```mermaid\n{code}\n```", timeout=30)
+                if export_result:
+                    result = f"{export_result}\n\n`mermaid\n{code}\n`"
+                else:
+                    # Fallback to local docx export
+                    output_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/flowclaw/exports")
+                    output_dir.mkdir(exist_ok=True)
+                    path = output_dir / f"diagram_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                    self.docx_exporter.export(code, path, query[:50])
+                    result = f"Exported to {path}.docx\n\n`mermaid\n{code}\n`"
             elif cmd in ("/help",):
-                result = "FlowClaw - Diagrams\n  /flowchart /sequence /architecture /view /export /stats"
+                result = "FlowClaw - Diagrams with Specialists\n  /flowchart /sequence /architecture /view /export /stats\n  Uses: WebClaw + DataClaw + TXClaw + ClawCoder + LawClaw -> DiagramEngine -> FileClaw"
             elif cmd in ("/stats",):
                 result = f"FlowClaw | Engine+Viewer+Export | Interactions: {self.state.get('interactions', 0)}"
             else:
