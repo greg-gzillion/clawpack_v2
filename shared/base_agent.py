@@ -94,6 +94,19 @@ class BaseAgent:
             pass
         return ""
 
+    def call_agent(self, agent_name: str, task: str, timeout: int = 30) -> str:
+        try:
+            r = requests.post(
+                f'{self.A2A}/v1/message/{agent_name}',
+                json={'task': task},
+                timeout=timeout
+            )
+            if r.status_code == 200:
+                return r.json().get('result', '')
+        except:
+            pass
+        return ''
+
     def ask_llm(self, prompt: str) -> str:
         """Call LLMClaw through A2A"""
         try:
