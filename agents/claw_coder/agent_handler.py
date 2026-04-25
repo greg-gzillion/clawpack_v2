@@ -1,94 +1,80 @@
-"""A2A Handler for ClawCoder - Code Generation + Auto-Export via FileClaw"""
-import sys, os, requests
+"""A2A Handler for ClawCoder - 39 Languages Full Stack"""
+import sys, os
 from pathlib import Path
 from datetime import datetime
-
-CLAW_CODER_DIR = Path(__file__).resolve().parent
-PROJECT_ROOT = CLAW_CODER_DIR.parent.parent
+CODER_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = CODER_DIR.parent.parent
 EXPORTS = PROJECT_ROOT / "exports"
 sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(CODER_DIR))
+sys.path.insert(0, str(PROJECT_ROOT / "agents" / "llmclaw"))
+from shared.base_agent import BaseAgent
+from commands.llm_enhanced import run as llm_run
 
-from agents.llmclaw.agent_handler import process_task as _llm
-from agents.webclaw.providers.webclaw_provider import WebclawProvider
-webclaw = WebclawProvider()
-
-# Language to file extension (39 languages from claw_coder/languages/)
-LANG_EXT = {
-    "python": ".py", "rust": ".rs", "go": ".go", "javascript": ".js", "typescript": ".ts",
-    "java": ".java", "c": ".c", "c++": ".cpp", "cpp": ".cpp", "csharp": ".cs", "c#": ".cs",
-    "ruby": ".rb", "php": ".php", "swift": ".swift", "kotlin": ".kt", "scala": ".scala",
-    "r": ".r", "julia": ".jl", "lua": ".lua", "perl": ".pl", "haskell": ".hs",
-    "clojure": ".clj", "elixir": ".ex", "erlang": ".erl", "dart": ".dart",
-    "bash": ".sh", "batch": ".bat", "powershell": ".ps1", "sql": ".sql",
-    "html": ".html", "css": ".css", "yaml": ".yaml", "json": ".json", "xml": ".xml",
-    "assembly": ".asm", "fortran": ".f90", "cobol": ".cbl", "groovy": ".groovy",
-    "nim": ".nim", "zig": ".zig", "vhdl": ".vhd", "matlab": ".m", "objectivec": ".m",
-    "makefile": ".mk"
-}
+LANG_EXT = {"python":".py","rust":".rs","go":".go","javascript":".js","typescript":".ts","java":".java","c":".c","cpp":".cpp","csharp":".cs","ruby":".rb","php":".php","swift":".swift","kotlin":".kt","scala":".scala","r":".r","julia":".jl","lua":".lua","perl":".pl","haskell":".hs","clojure":".clj","elixir":".ex","erlang":".erl","dart":".dart","bash":".sh","powershell":".ps1","sql":".sql","html":".html","css":".css","yaml":".yaml","json":".json","xml":".xml","assembly":".asm","fortran":".f90","cobol":".cbl","groovy":".groovy","nim":".nim","zig":".zig","matlab":".m","makefile":".mk"}
 
 def _detect_lang(task):
     t = task.lower()
     for lang in sorted(LANG_EXT.keys(), key=len, reverse=True):
-        if lang in t:
-            return lang
-    return ""
+        if lang in t: return lang
+    return "python"
 
-def _save_code(code, lang, task):
-    """Save code to exports/ with correct extension via FileClaw"""
-    ext = LANG_EXT.get(lang, ".txt")
-    # Extract first block if markdown-wrapped
-    if "```" in code:
-        blocks = code.split("```")
-        for i, block in enumerate(blocks):
-            if i % 2 == 1:
-                block = block.split("\n", 1)[1] if "\n" in block else block
-                code = block
-                break
-    # Clean filename from task
-    name = task[:40].replace(" ", "_").replace("/", "").replace(chr(92), "")
-    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    fn = f"{name}_{ts}{ext}"
-    path = EXPORTS / fn
-    EXPORTS.mkdir(exist_ok=True)
-    path.write_text(code, encoding="utf-8")
-    return fn
+class ClawCoderAgent(BaseAgent):
+    def __init__(self):
+        super().__init__("claw_coder")
 
-def process_task(task, agent=None):
-    task = task.strip()
-    parts = task.split(maxsplit=1)
-    cmd = parts[0].lower() if parts else ""
-    args = parts[1] if len(parts) > 1 else ""
-    query = args if args else task
+    def _save_code(self, code, lang, task):
+        EXPORTS.mkdir(exist_ok=True)
+        if "\`\`\`" in code:
+            blocks = code.split("\`\`\`")
+            for i, block in enumerate(blocks):
+                if i % 2 == 1:
+                    block = block.split("\n", 1)[1] if "\n" in block else block
+                    code = block
+                    break
+        ext = LANG_EXT.get(lang, ".txt")
+        name = task[:40].replace(" ", "_").replace(chr(92), "").replace("/", "")
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+        fn = name + "_" + ts + ext
+        (EXPORTS / fn).write_text(code, encoding="utf-8")
+        return fn
 
-    try:
-        if cmd in ("/code", "code") and query:
-            ctx = webclaw.search_with_context(f"claw_coder {query}", max_results=3)
-            result = _llm(f"/llm Write clean, well-commented code. Return ONLY the code, no explanation. References: {ctx}\nTask: {query}").get("result","")
-            lang = _detect_lang(query)
-            if lang:
-                fn = _save_code(result, lang, query)
-                result = f"Saved: {fn}\n\n{result[:500]}"
+    def handle(self, task):
+        self.track_interaction()
+        task = task.strip()
+        parts = task.split(maxsplit=1)
+        cmd = parts[0].lower() if parts else ""
+        args = parts[1] if len(parts) > 1 else ""
+        query = args if args else task
+        try:
+            ctx = ""
+            try: ctx = self.search_web("programming " + query, max_results=3)
+            except: pass
+            if cmd in ("/code",) and query:
+                lang = _detect_lang(query)
+                result = llm_run("Write clean " + lang + " code. " + query)
+                fn = self._save_code(result, lang, query)
+                result = "Saved: " + fn + "\n\n" + result[:800]
+            elif cmd in ("/explain",) and query:
+                result = llm_run("Explain this code: " + query)
+            elif cmd in ("/debug",) and query:
+                result = llm_run("Debug and fix: " + query)
+            elif cmd in ("/review",) and query:
+                result = llm_run("Code review: " + query)
+            elif cmd in ("/tutorial",) and query:
+                result = llm_run("Tutorial on: " + query)
+            elif cmd in ("/find",) and query:
+                result = self.search_web(query, max_results=10)
+            elif cmd == "/help":
+                result = "ClawCoder - 39 Languages\n  /code <lang> <task> - Generate + auto-save\n  /explain /debug /review /tutorial /find\n  BaseAgent + LLMClaw + WebClaw"
+            elif cmd == "/stats":
+                result = "ClawCoder | 39 Languages | BaseAgent + LLMClaw + WebClaw | Interactions: " + str(self.state.get("interactions", 0))
             else:
-                result = f"[No language detected - code not saved]\n\n{result[:500]}"
-        elif cmd in ("/explain", "explain") and query:
-            ctx = webclaw.search_with_context(f"claw_coder {query}", max_results=3)
-            result = _llm(f"/llm Explain this code. References: {ctx}\nCode: {query}").get("result","")
-        elif cmd in ("/debug", "debug") and query:
-            result = _llm(f"/llm Debug and fix this code: {query}").get("result","")
-        elif cmd in ("/review", "review") and query:
-            result = _llm(f"/llm Code review: {query}").get("result","")
-        elif cmd in ("/tutorial", "tutorial") and query:
-            ctx = webclaw.search_with_context(f"claw_coder {query}", max_results=3)
-            result = _llm(f"/llm Tutorial. References: {ctx}\nTopic: {query}").get("result","")
-        elif cmd in ("/find", "find") and query:
-            result = webclaw.search_with_context(f"claw_coder {query}", max_results=10)
-        elif cmd in ("/help",):
-            result = "ClawCoder - 39 Languages\n  /code <lang> <task> - Generate + auto-save\n  /explain /debug /review /tutorial /find\n  Files saved to exports/ with correct extension"
-        elif cmd in ("/stats",):
-            result = f"ClawCoder | 39 Languages | 1,566 References | Auto-save to exports/"
-        else:
-            ctx = webclaw.search_with_context(f"claw_coder {query}", max_results=3)
-            result = _llm(f"/llm Context: {ctx}\nTask: {query}").get("result","")
-        return {"status": "success", "result": str(result)}
-    except Exception as e:
-        return {"status": "error", "result": str(e)}
+                result = llm_run("Programming: " + query)
+            return {"status": "success", "result": str(result)}
+        except Exception as e:
+            return {"status": "error", "result": str(e)}
+
+_agent = ClawCoderAgent()
+def process_task(task, agent=None):
+    return _agent.handle(task)
