@@ -1,7 +1,7 @@
 {
   "agent_states": {
-    "designclaw": {
-      "interactions": 4,
+    "draftclaw": {
+      "interactions": 1,
       "successful": 0
     }
   }

@@ -1,58 +1,58 @@
 {
   "agent_states": {
     "flowclaw": {
-      "interactions": 17
+      "interactions": 31
     },
     "fileclaw": {
-      "interactions": 129
+      "interactions": 143
     },
     "interpretclaw": {
-      "interactions": 10
+      "interactions": 24
     },
     "crustyclaw": {
-      "interactions": 17
+      "interactions": 31
     },
     "dataclaw": {
-      "interactions": 8
+      "interactions": 27
     },
     "designclaw": {
-      "interactions": 12
+      "interactions": 26
     },
     "docuclaw": {
-      "interactions": 66
+      "interactions": 80
     },
     "draftclaw": {
-      "interactions": 11
+      "interactions": 25
     },
     "drawclaw": {
-      "interactions": 13
+      "interactions": 27
     },
     "dreamclaw": {
-      "interactions": 7
+      "interactions": 21
     },
     "langclaw": {
-      "interactions": 8
+      "interactions": 22
     },
     "liberateclaw": {
-      "interactions": 10
+      "interactions": 24
     },
     "mediclaw": {
-      "interactions": 4
+      "interactions": 18
     },
     "plotclaw": {
-      "interactions": 8
+      "interactions": 22
     },
     "rustypycraw": {
-      "interactions": 6
+      "interactions": 20
     },
     "txclaw": {
-      "interactions": 19
+      "interactions": 33
     },
     "lawclaw": {
-      "interactions": 3
+      "interactions": 17
     },
     "claw_coder": {
-      "interactions": 26
+      "interactions": 40
     }
   }
 }
