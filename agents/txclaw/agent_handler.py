@@ -28,6 +28,16 @@ class TXClawA2AHandler(BaseAgent):
                 except:
                     pass
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search TX.org blockchain {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:600])
+        coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
+        if coder: parts.append("[ClawCoder]: " + coder[:600])
+        return "\n".join(parts)
+
     def _call(self, prompt: str) -> str:
         full_prompt = f"""IDENTITY: You are a TX.org blockchain expert. TX.org is a Cosmos SDK blockchain - NOT Thorchain, NOT any other chain. TX.org is its own independent Layer 1 blockchain built with Cosmos SDK and CosmWasm.
 
