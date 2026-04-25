@@ -13,6 +13,14 @@ class PlotClawAgent(BaseAgent):
     def __init__(self):
         super().__init__('plotclaw')
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search chart data {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + data[:600])
+        return "\n".join(parts)
+
     def handle(self, task: str) -> dict:
         self.track_interaction()
         task = task.strip()
