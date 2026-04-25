@@ -3,15 +3,25 @@ import sys, os
 from pathlib import Path
 from datetime import datetime
 
-DESIGNCLAW_DIR = Path(__file__).parent
+DESIGNCLAW_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DESIGNCLAW_DIR.parent.parent
+LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
 sys.path.insert(0, str(PROJECT_ROOT))
-EXPORTS = PROJECT_ROOT / "exports"
+sys.path.insert(0, str(DESIGNCLAW_DIR))
+sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from commands.llm_enhanced import run as llm_run
+
+EXPORTS = PROJECT_ROOT / "exports"
 
 class DesignClawAgent(BaseAgent):
-    def __init__(self): super().__init__('designclaw')
+    def __init__(self):
+        super().__init__('designclaw')
+
+    def _call_llm(self, prompt: str) -> str:
+        result = llm_run(prompt)
+        return result if result and "Error" not in result else "Design generation failed"
 
     def handle(self, task: str) -> dict:
         self.track_interaction()
@@ -19,26 +29,34 @@ class DesignClawAgent(BaseAgent):
         parts = task.split(maxsplit=1)
         cmd = parts[0].lower() if parts else ""
         args = parts[1] if len(parts) > 1 else ""
-        query = args if args else task
 
         try:
-            if cmd in ("/brand", "/mood", "/colors", "/logo", "/slogan") and query:
-                from agents.llmclaw.agent_handler import process_task as _llm
-                result = _llm(f"/llm Create {cmd.replace('/','')} design concept: {query}").get("result","")
-                filename = f"{cmd.replace('/','')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
-                html = f"<html><head><title>{cmd} - {query[:50]}</title><style>body{{font-family:Arial;max-width:800px;margin:40px auto;padding:20px;background:#1a1a2e;color:#eee}}h1{{color:#4a9eff}}pre{{background:#16213e;padding:15px;border-radius:8px}}</style></head><body><h1>{cmd}: {query[:60]}</h1><pre>{result}</pre></body></html>"
-                path = EXPORTS / filename
-                path.write_text(html, encoding='utf-8')
-                os.startfile(str(path))
-                result = f"Design saved: {filename}\nOpening..."
-            elif cmd in ("/help",): result = "DesignClaw - Design Generator\n  /brand /mood /colors /logo /slogan /stats"
-            elif cmd in ("/stats",): result = f"DesignClaw | Designs to exports/ | Interactions: {self.state.get('interactions', 0)}"
+            if cmd == "/brand" and args:
+                result = self._call_llm(f"Create a complete brand identity for: {args}. Include name, logo concept, colors, typography, brand voice.")
+                result = f"🎨 BRAND IDENTITY\n\n{result}"
+            elif cmd == "/mood" and args:
+                result = self._call_llm(f"Describe a mood board direction for: {args}. Include vibe, color story, texture, imagery style.")
+                result = f"🎭 MOOD BOARD\n\n{result}"
+            elif cmd == "/colors" and args:
+                result = self._call_llm(f"Create a color palette for: {args}. Provide 4-5 hex codes with names and usage notes.")
+                result = f"🎨 COLOR PALETTE\n\n{result}"
+            elif cmd == "/logo" and args:
+                result = self._call_llm(f"Design a logo concept for: {args}. Describe the symbol, wordmark, colors, and style.")
+                result = f"✨ LOGO CONCEPT\n\n{result}"
+            elif cmd == "/slogan" and args:
+                result = self._call_llm(f"Create brand copy for: {args}. Provide tagline, value proposition, and brand voice.")
+                result = f"✍️ BRAND COPY\n\n{result}"
+            elif cmd == "/help":
+                result = "DesignClaw - Brand & Design Agent\n  /brand /mood /colors /logo /slogan /stats"
+            elif cmd == "/stats":
+                result = f"DesignClaw | Brand & Design | Interactions: {self.state.get('interactions', 0)}"
             else:
-                from agents.llmclaw.agent_handler import process_task as _llm
-                result = _llm(f"/llm Design concept: {query}").get("result","")
+                result = self.smart_ask(f"Design advice: {task}")
 
             return {"status": "success", "result": str(result)}
-        except Exception as e: return {"status": "error", "result": str(e)}
+        except Exception as e:
+            return {"status": "error", "result": str(e)}
 
 _agent = DesignClawAgent()
-def process_task(task: str, agent: str = None): return _agent.handle(task)
+def process_task(task: str, agent: str = None):
+    return _agent.handle(task)
