@@ -19,6 +19,12 @@ class DesignClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("designclaw")
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search design {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:600])
+        return " | ".join(parts)
+
     def _call_llm(self, prompt):
         result = llm_run(prompt)
         return result if result and not result.startswith("Error:") else "Design generation failed"
@@ -41,23 +47,28 @@ class DesignClawAgent(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
         try:
             if cmd == "/brand" and args:
-                result = self._call_llm(f"Create a complete brand identity for: {args}. Include name, logo concept, colors, typography, brand voice.")
+                ctx = self._gather_context(args)
+                result = self._call_llm("Context: " + ctx + "\n\nCreate a complete brand identity for: " + args + ". Include name, logo concept, colors, typography, brand voice.")
                 fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? BRAND IDENTITY\n\n{result}"
             elif cmd == "/mood" and args:
-                result = self._call_llm(f"Describe a mood board direction for: {args}. Include vibe, color story, texture, imagery style.")
+                ctx = self._gather_context(args)
+                result = self._call_llm("Context: " + ctx + "\n\nDescribe a mood board direction for: " + args + ". Include vibe, color story, texture, imagery style.")
                 fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? MOOD BOARD\n\n{result}"
             elif cmd == "/colors" and args:
-                result = self._call_llm(f"Create a color palette for: {args}. Provide 4-5 hex codes with names and usage notes.")
+                ctx = self._gather_context(args)
+                result = self._call_llm("Context: " + ctx + "\n\nCreate a color palette for: " + args + ". Provide 4-5 hex codes with names and usage notes.")
                 fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? COLOR PALETTE\n\n{result}"
             elif cmd == "/logo" and args:
-                result = self._call_llm(f"Design a logo concept for: {args}. Describe the symbol, wordmark, colors, and style.")
+                ctx = self._gather_context(args)
+                result = self._call_llm("Context: " + ctx + "\n\nDesign a logo concept for: " + args + ". Describe the symbol, wordmark, colors, and style.")
                 fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n? LOGO CONCEPT\n\n{result}"
             elif cmd == "/slogan" and args:
-                result = self._call_llm(f"Create brand copy for: {args}. Provide tagline, value proposition, and brand voice.")
+                ctx = self._gather_context(args)
+                result = self._call_llm("Context: " + ctx + "\n\nCreate brand copy for: " + args + ". Provide tagline, value proposition, and brand voice.")
                 fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? BRAND COPY\n\n{result}"
             elif cmd == "/help":
