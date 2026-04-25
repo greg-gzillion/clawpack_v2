@@ -37,9 +37,9 @@ def process_task(task: str, agent: str = None):
         
         # 2. Search chronicle index and fetch content with citations
         try:
-            from core.chronicle_ledger import get_chronicle
+            from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
-            chronicle_results = chronicle.search(query, limit=3)
+            chronicle_results = chronicle.recover_by_context(query, limit=3)
             if chronicle_results:
                 result += "\n\n=== Web Results ==="
                 for c in chronicle_results:
