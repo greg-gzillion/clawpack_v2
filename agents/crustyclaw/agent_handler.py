@@ -18,6 +18,14 @@ class CrustyClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("crustyclaw")
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search rust {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:500])
+        tx = self.call_agent("txclaw", f"/contract {query}", timeout=15)
+        if tx: parts.append("[TXClaw]: " + tx[:500])
+        return " | ".join(parts)
+
     def _save_rs(self, code, task):
         EXPORTS.mkdir(exist_ok=True)
         if "```" in code:
@@ -55,19 +63,23 @@ class CrustyClawAgent(BaseAgent):
                 from agents.crustyclaw.commands.cargo import run
                 result = run(query)
             elif cmd in ("/fix", "/debug") and query:
-                result = self.ask_llm(f"Fix this Rust code, return fixed code only: {query}")
+                ctx = self._gather_context(query)
+                result = self.ask_llm("Context: " + ctx + "\n\nFix this Rust code, return fixed code only: {query}")
                 fn = self._save_rs(result, "fixed")
                 result = f"Saved: {fn}\n\n{result[:800]}"
             elif cmd in ("/audit",) and query:
-                result = self.ask_llm(f"Security audit this Rust code. Check unsafe blocks, unwraps, input validation, dependencies:\n{query}")
+                ctx = self._gather_context(query)
+                result = self.ask_llm("Context: " + ctx + "\n\nSecurity audit this Rust code. Check unsafe blocks, unwraps, input validation, dependencies:\n{query}")
             elif cmd in ("/test",) and query:
-                result = self.ask_llm(f"Write Rust unit tests with #[cfg(test)]:\n{query}")
+                ctx = self._gather_context(query)
+                result = self.ask_llm("Context: " + ctx + "\n\nWrite Rust unit tests with #[cfg(test)]:\n{query}")
             elif cmd in ("/help",):
                 result = "CrustyClaw - Rust AI Assistant\n  /rust /code <task> - Generate Rust + auto-save .rs\n  /explain <concept> - WebClaw + LLM explanation\n  /cargo <cmd> - Run actual cargo commands\n  /fix <code> - Debug and fix Rust code\n  /audit <code> - Security audit\n  /test <code> - Generate unit tests"
             elif cmd in ("/stats",):
                 result = f"CrustyClaw | Rust AI | WebClaw + LLMClaw + Cargo | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self.ask_llm(f"Rust expert. Question: {query}")
+                ctx = self._gather_context(query)
+                result = self.ask_llm("Context: " + ctx + "\n\nRust expert. Question: " + query)
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

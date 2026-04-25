@@ -13,6 +13,12 @@ class DataClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("dataclaw")
 
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + web[:800])
+        return "\n".join(parts)
+
     def _export(self, fmt, data, query):
         EXPORTS.mkdir(exist_ok=True)
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -52,7 +58,7 @@ class DataClawAgent(BaseAgent):
         try:
             if cmd in ("/search", "search") and query:
                 chronicle = self.search_chronicle(query, limit=5)
-                web = self.search_web(query, max_results=3)
+                web = self.call_agent("webclaw", f"search {query}", timeout=15)
                 result = f"Results for '{query}':\n"
                 if chronicle:
                     result += "\n[Chronicle]\n" + "\n".join(f"  - {c.url}" for c in chronicle)
@@ -64,7 +70,7 @@ class DataClawAgent(BaseAgent):
                 fmt = parts2[0]
                 q = parts2[1] if len(parts2) > 1 else ""
                 chronicle = self.search_chronicle(q, limit=10) if q else []
-                web = self.search_web(q, max_results=5) if q else ""
+                web = self.call_agent("webclaw", f"search {q}", timeout=15) if q else ""
                 data = {
                     "query": q,
                     "chronicle": [c.url if hasattr(c, 'url') else str(c) for c in chronicle],
@@ -85,7 +91,8 @@ class DataClawAgent(BaseAgent):
             elif cmd in ("/stats",):
                 result = f"DataClaw | Chronicle + WebClaw | Export: json/csv/md | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = self.search_web(query, max_results=5) or f"Searching: {query}"
+                ctx = self._gather_context(query)
+                result = ctx or f"Searching: {query}"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

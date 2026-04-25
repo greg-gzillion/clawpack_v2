@@ -24,6 +24,21 @@ class ClawCoderAgent(BaseAgent):
     def __init__(self):
         super().__init__("claw_coder")
 
+    def _gather_context(self, query, lang=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search programming {lang} {query}", timeout=15)
+        if web:
+            parts.append("[WebClaw]: " + web[:600])
+        if "rust" in (lang + query).lower():
+            rust = self.call_agent("crustyclaw", f"/audit {query}", timeout=15)
+            if rust:
+                parts.append("[CrustyClaw]: " + rust[:600])
+        if any(w in (lang + query).lower() for w in ["blockchain", "cosmwasm", "tx.org", "smart contract"]):
+            tx = self.call_agent("txclaw", f"/contract {query}", timeout=15)
+            if tx:
+                parts.append("[TXClaw]: " + tx[:600])
+        return " | ".join(parts) if parts else ""
+
     def _save_code(self, code, lang, task):
         EXPORTS.mkdir(exist_ok=True)
         if "\`\`\`" in code:
@@ -49,8 +64,15 @@ class ClawCoderAgent(BaseAgent):
         query = args if args else task
         try:
             ctx = ""
-            try: ctx = self.search_web("programming " + query, max_results=3)
-            except: pass
+            try:
+                a2a = self._gather_context(query, lang if "lang" in dir() else "")
+                ctx = a2a + " | "
+            except:
+                pass
+            try:
+                ctx += self.search_web("programming " + query, max_results=3) or ""
+            except:
+                pass
             if cmd in ("/code",) and query:
                 lang = _detect_lang(query)
                 result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nWrite clean " + lang + " code. " + query)
