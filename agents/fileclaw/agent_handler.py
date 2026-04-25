@@ -200,7 +200,7 @@ class FileClawAgent(BaseAgent):
                     result = self._export(cp[1], c, Path(cp[0]).stem)
                 else: result = "Usage: /convert <source> <target_format>"
             elif cmd == "/help":
-                result = "FileClaw - Universal File Handler\n\n  IMPORT:  PDF, DOCX, XLSX, PPTX, RTF, images, archives, media + " + str(len(self.text_formats)) + " text formats\n  EXPORT:  PDF, DOCX, PNG/JPG, ZIP, JSON, CSV, YAML, MD, HTML, TXT\n  CONVERT: Any import format to any export format"
+                result = "FileClaw - Universal File Handler\n\n  IMPORT:  PDF, DOCX, XLSX, PPTX, RTF, images, archives, media + " + str(len(self.text_formats)) + " text formats\n  EXPORT:  PDF, DOCX, XLSX, PPTX, PNG/JPG, ZIP, JSON, CSV, YAML, MD, HTML, TXT\n  CONVERT: Any import format to any export format"
             elif cmd == "/stats":
                 total = len(self.binary_importers) + len(self.text_formats)
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
