@@ -1,4 +1,4 @@
-"""A2A Handler for FileClaw - Universal File Import/Export for All Agents"""
+'''A2A Handler for FileClaw - Universal File Import/Export'''
 import sys, json, csv, zipfile
 from pathlib import Path
 from datetime import datetime
@@ -16,7 +16,7 @@ class FileClawAgent(BaseAgent):
             ".pdf":self._read_pdf, ".docx":self._read_docx, ".xlsx":self._read_xlsx,
             ".pptx":self._read_pptx, ".rtf":self._read_rtf,
             ".png":self._read_image, ".jpg":self._read_image, ".jpeg":self._read_image,
-            ".gif":self._read_image, ".bmp":self._read_image, ".webp":self._read_image, ".svg":self._read_image,
+            ".gif":self._read_image, ".bmp":self._read_image, ".webp":self._read_image, ".svg":self._read_image, ".tiff":self._read_image,
             ".zip":self._read_archive, ".tar":self._read_archive, ".gz":self._read_archive,
             ".mp3":self._read_media, ".mp4":self._read_media, ".wav":self._read_media,
             ".mkv":self._read_media, ".avi":self._read_media, ".mov":self._read_media,
@@ -29,7 +29,6 @@ class FileClawAgent(BaseAgent):
             s /= 1024
         return f"{s:.1f}TB"
 
-    # === READERS ===
     def _read_pdf(self, p):
         try:
             from pypdf import PdfReader
@@ -104,7 +103,6 @@ class FileClawAgent(BaseAgent):
     def _read_media(self, p):
         return f"MEDIA: {p.name}\n  Type: {p.suffix}\n  Size: {self._format_size(p.stat().st_size)}"
 
-    # === IMPORT ===
     def _import(self, fp):
         p = Path(fp)
         if not p.exists(): return f"Error: File not found: {fp}"
@@ -118,7 +116,6 @@ class FileClawAgent(BaseAgent):
         try: return f"UNKNOWN: {p.name}\n{p.read_text(encoding='utf-8', errors='replace')[:2000]}"
         except: return f"UNKNOWN BINARY: {p.name}\n  Type: {ext}\n  Size: {self._format_size(p.stat().st_size)}"
 
-    # === EXPORT ===
     def _export(self, fmt, content, name=""):
         EXPORTS.mkdir(exist_ok=True)
         fmt = fmt.lower().lstrip(".")
@@ -144,10 +141,40 @@ class FileClawAgent(BaseAgent):
                     d = json.loads(content) if isinstance(content, str) else content
                     with open(path, "w") as f: yaml.dump(d, f, default_flow_style=False)
                 except: path.write_text(content, encoding="utf-8")
+            elif fmt == "toml":
+                import toml
+                try:
+                    d = json.loads(content) if isinstance(content, str) else content
+                    with open(path, "w") as f: toml.dump(d, f)
+                except: path.write_text(content, encoding="utf-8")
+            elif fmt == "xml":
+                path.write_text("<?xml version="1.0" encoding="UTF-8"?>\n<export><![CDATA[" + content + "]]></export>", encoding="utf-8")
             elif fmt == "html":
                 if not content.strip().startswith("<"):
                     content = f"<html><head><meta charset='utf-8'><title>{name or 'Export'}</title><style>body{{font-family:Arial;max-width:800px;margin:40px auto}}pre{{background:#f5f5f5;padding:15px}}</style></head><body><pre>{content}</pre></body></html>"
                 path.write_text(content, encoding="utf-8")
+            elif fmt == "ini":
+                import configparser
+                c = configparser.ConfigParser()
+                try:
+                    d = json.loads(content) if isinstance(content, str) else content
+                    if isinstance(d, dict):
+                        for s, v in d.items():
+                            c[s] = v if isinstance(v, dict) else {"value": str(v)}
+                        with open(path, "w") as f: c.write(f)
+                except: path.write_text(content, encoding="utf-8")
+            elif fmt == "rtf":
+                rtf = "{\\rtf1\\ansi\\deff0 {\\fonttbl {\\f0 Arial;}}\\n\\f0\\fs24 "
+                rtf += content[:5000].replace(chr(10), "\\par ") + "}"
+                path.write_text(rtf, encoding="utf-8")
+            elif fmt == "svg":
+                svg = '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><rect width="100%" height="100%" fill="white"/>'
+                y = 20
+                for line in content.split(chr(10))[:30]:
+                    svg += '<text x="20" y="' + str(y) + '" font-family="Arial" font-size="14" fill="black">' + line[:100].replace("&","&amp;").replace("<","&lt;") + '</text>'
+                    y += 20
+                svg += '</svg>'
+                path.write_text(svg, encoding="utf-8")
             elif fmt == "pdf":
                 from fpdf import FPDF
                 pdf = FPDF(); pdf.add_page(); pdf.set_font("Arial", size=12)
@@ -159,7 +186,21 @@ class FileClawAgent(BaseAgent):
                 for line in content.split(chr(10))[:500]:
                     if line.strip(): doc.add_paragraph(line[:500])
                 doc.save(str(path))
-            elif fmt in ("png", "jpg", "jpeg"):
+            elif fmt == "xlsx":
+                import pandas as pd
+                try:
+                    d = json.loads(content) if isinstance(content, str) else content
+                    if isinstance(d, list): pd.DataFrame(d).to_excel(path, index=False)
+                    elif isinstance(d, dict): pd.DataFrame([d]).to_excel(path, index=False)
+                except: path.write_text(content, encoding="utf-8")
+            elif fmt == "pptx":
+                from pptx import Presentation
+                prs = Presentation()
+                slide = prs.slides.add_slide(prs.slide_layouts[1])
+                slide.shapes.title.text = name or "Export"
+                slide.placeholders[1].text = content[:2000]
+                prs.save(str(path))
+            elif fmt in ("png", "jpg", "jpeg", "bmp", "gif", "tiff", "webp"):
                 from PIL import Image, ImageDraw
                 img = Image.new("RGB", (800, 600), color="white")
                 draw = ImageDraw.Draw(img); y = 20
@@ -178,7 +219,6 @@ class FileClawAgent(BaseAgent):
         except Exception as e:
             return f"Export failed: {e}"
 
-    # === HANDLE ===
     def handle(self, task):
         self.track_interaction()
         task = task.strip()
@@ -200,7 +240,7 @@ class FileClawAgent(BaseAgent):
                     result = self._export(cp[1], c, Path(cp[0]).stem)
                 else: result = "Usage: /convert <source> <target_format>"
             elif cmd == "/help":
-                result = "FileClaw - Universal File Handler\n\n  IMPORT:  PDF, DOCX, XLSX, PPTX, RTF, images, archives, media + " + str(len(self.text_formats)) + " text formats\n  EXPORT:  PDF, DOCX, XLSX, PPTX, PNG/JPG, ZIP, JSON, CSV, YAML, MD, HTML, TXT\n  CONVERT: Any import format to any export format"
+                result = "FileClaw - Universal File Handler\n\n  IMPORT:  PDF, DOCX, XLSX, PPTX, RTF, images, archives, media + " + str(len(self.text_formats)) + " text formats\n  EXPORT:  PDF, DOCX, XLSX, PPTX, PNG/JPG/BMP/GIF/TIFF/WEBP, SVG, ZIP, JSON, CSV, YAML, TOML, XML, INI, RTF, MD, HTML, TXT\n  CONVERT: Any import format to any export format"
             elif cmd == "/stats":
                 total = len(self.binary_importers) + len(self.text_formats)
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
