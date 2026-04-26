@@ -1,4 +1,4 @@
-﻿"""A2A Handler for MedicLaw - Medical Agent with full inter-agent routing"""
+﻿"""A2A Handler for MedicLaw - delegates to core.agent.MediclawAgent"""
 import sys
 from pathlib import Path
 
@@ -7,34 +7,13 @@ PROJECT_ROOT = MEDICLAW_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(MEDICLAW_DIR))
 
-from agents.mediclaw.core.engine import MedicalEngine
+from core.agent import MediclawAgent
 from shared.base_agent import BaseAgent
 
-class MedicLawAgent(BaseAgent):
+class MedicLawHandler(BaseAgent):
     def __init__(self):
         super().__init__("mediclaw")
-        self.engine = MedicalEngine()
-
-    def _gather_context(self, query: str) -> str:
-        """Gather medical context from all specialists"""
-        parts = []
-        
-        # WebClaw for online medical references
-        web = self.call_agent("webclaw", f"search medical {query}", timeout=15)
-        if web:
-            parts.append(f"[WebClaw Online Medical Sources]:\n{web[:1000]}")
-        
-        # DataClaw for local medical references
-        local = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if local:
-            parts.append(f"[DataClaw Local References]:\n{local[:1000]}")
-        
-        # LawClaw for legal/regulatory context (FDA, medical law)
-        legal = self.call_agent("lawclaw", f"search medical regulation {query}", timeout=15)
-        if legal:
-            parts.append(f"[LawClaw Regulatory]:\n{legal[:800]}")
-        
-        return "\n\n".join(parts)
+        self.agent = MediclawAgent()
 
     def handle(self, task: str) -> dict:
         self.track_interaction()
@@ -44,39 +23,59 @@ class MedicLawAgent(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
 
         try:
-            if cmd in ("/diagnose", "/treatment", "/research", "/med") and args:
-                # Gather context from specialists first
-                context = self._gather_context(args)
-                
-                # Run medical engine with context
-                method = {"diagnose": self.engine.diagnose, "treatment": self.engine.treatment,
-                          "research": self.engine.research, "med": self.engine.research}.get(cmd[1:])
-                engine_result = method(args) if method else ""
-                
-                # Final synthesis via LLMClaw with all context
-                prompt = f"Medical query: {args}\n\nEngine analysis: {engine_result}\n\nSpecialist context:\n{context}"
-                result = self.ask_llm(prompt)
-                
-                # Auto-export to FileClaw
-                export = self.call_agent("fileclaw", f"/export md MedicLaw: {args}\n\n{result[:500]}")
-                if export:
-                    result = f"{export}\n\n{result}"
-                    
-            elif cmd == "/sources":
-                sources = self.engine.list_sources()
-                result = f"Medical Sources ({len(sources)}):\n" + "\n".join(f"  {i}. {s}" for i, s in enumerate(sources, 1))
-            elif cmd == "/help":
-                result = "MedicLaw - Medical Agent with specialists\n  /med /diagnose /treatment /research /sources /stats\n  Uses: WebClaw + DataClaw + LawClaw + MedicalEngine -> LLMClaw"
-            elif cmd == "/stats":
-                result = f"MedicLaw | Medical + Specialists | Interactions: {self.state.get('interactions', 0)}"
+            if cmd in ("/help", "help"):
+                result = """MedicLaw - Medical AI Agent
+  /research <topic>      - Medical research
+  /diagnose <symptoms>   - Differential diagnosis
+  /treatment <condition> - Treatment guidelines
+  /medications <drug>    - Drug information
+  /interactions <drugs>  - Drug interactions
+  /warnings <drug>       - FDA warnings
+  /pediatrics <issue>    - Pediatric care
+  /geriatrics <issue>    - Elderly care
+  /lab <test>            - Lab test interpretation
+  /icd <diagnosis>       - ICD-10 coding
+  /prevention <condition>- Prevention guidelines
+  /diet <condition>      - Dietary recommendations
+  /exercise <condition>  - Exercise guidance
+  /natural <condition>   - Natural remedies
+  /procedure <name>      - Procedure information
+  /prognosis <condition> - Disease prognosis
+  /referral <condition>  - Specialist referral
+  /emergency <symptom>   - Emergency triage
+  /sources               - List medical sources
+  /stats                 - Session statistics"""
+            elif cmd in ("/sources", "sources"):
+                result = f"Medical Sources ({len(self.agent.list_sources())}):\n" + "\n".join(f"  {i}. {s}" for i, s in enumerate(self.agent.list_sources(), 1))
+            elif cmd in ("/stats", "stats"):
+                result = f"MedicLaw | Queries: {len(self.agent.session['queries'])} | Sources: {len(self.agent.list_sources())} | Started: {self.agent.session['started']}"
+            elif cmd in ("/diagnose", "/treatment", "/research", "/med") and args:
+                method = {"diagnose": self.agent.diagnose, "treatment": self.agent.treatment, "research": self.agent.research, "med": self.agent.research}[cmd.lstrip("/")]
+                result = method(args)
+            elif cmd == "/medications" and args: result = self.agent.medications(args)
+            elif cmd == "/interactions" and args: result = self.agent.interactions(args)
+            elif cmd == "/warnings" and args: result = self.agent.warnings(args)
+            elif cmd == "/pediatrics" and args: result = self.agent.pediatrics(args)
+            elif cmd == "/geriatrics" and args: result = self.agent.geriatrics(args)
+            elif cmd == "/lab" and args: result = self.agent.lab_tests(args)
+            elif cmd == "/icd" and args: result = self.agent.coding(args)
+            elif cmd == "/prevention" and args: result = self.agent.prevention(args)
+            elif cmd == "/diet" and args: result = self.agent.diet(args)
+            elif cmd == "/exercise" and args: result = self.agent.exercise(args)
+            elif cmd == "/natural" and args: result = self.agent.natural(args)
+            elif cmd == "/procedure" and args: result = self.agent.procedure(args)
+            elif cmd == "/prognosis" and args: result = self.agent.prognosis(args)
+            elif cmd == "/referral" and args: result = self.agent.referral(args)
+            elif cmd == "/emergency" and args: result = self.agent.emergency(args)
+            elif args:
+                result = self.agent.research(args)
             else:
-                context = self._gather_context(task)
-                result = self.ask_llm(f"Medical information: {task}\n\nContext:\n{context}")
+                result = f"Usage: {cmd} <query>  |  Type /help for all commands"
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
 
-_agent = MedicLawAgent()
+_agent = MedicLawHandler()
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)
