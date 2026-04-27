@@ -20,7 +20,7 @@ class MediclawAgent:
             "queries": [],
         }
 
-    # ---- Engine delegates ----
+    # ---- Engine delegates (these use engine._call_llm which includes citations) ----
     def diagnose(self, symptoms: str) -> str:
         self.session["queries"].append(f"diagnose:{symptoms}")
         return self.engine.diagnose(symptoms)
@@ -46,9 +46,9 @@ class MediclawAgent:
             "sources": len(self.list_sources()),
         }
 
-    # ---- LLM-backed commands ----
+    # ---- LLM-backed commands with citations ----
     def _ask_medical(self, specialty: str, query: str) -> str:
-        prompt = f"You are a medical AI assistant specializing in {specialty}. Provide accurate, helpful information about: {query}. Include relevant medical context, standard practices, and any warnings or precautions. Note: this is informational, not medical advice."
+        prompt = f"You are a medical AI assistant specializing in {specialty}. Provide accurate, helpful information about: {query}. Include relevant medical context, standard practices, and any warnings or precautions.\n\nIMPORTANT: Cite authoritative medical sources (e.g., NIH, CDC, WHO, AHA/ACC, specialty college guidelines, UpToDate, peer-reviewed journals). Include specific guideline names and years where applicable. Note: this is informational, not medical advice."
         return llm_run(prompt)
 
     def medications(self, drug: str) -> str:

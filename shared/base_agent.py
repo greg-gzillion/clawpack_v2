@@ -155,6 +155,16 @@ class BaseAgent:
                     parts.append(name + ": " + result[:400])
             except:
                 pass
+        # Search chronicle index (35K URLs)
+        try:
+            chronicle_results = self.search_chronicle(query, limit=5)
+            if chronicle_results:
+                chronicle_ctx = " | ".join([c.url for c in chronicle_results[:5] if hasattr(c, "url")])
+                if chronicle_ctx:
+                    parts.append("chronicle: " + chronicle_ctx[:500])
+        except:
+            pass
+        
         return " | ".join(parts) if parts else ""
 
     def ask_llm(self, prompt: str) -> str:

@@ -1,4 +1,4 @@
-﻿"""Core Medical Engine - uses LLMClaw + WebClaw"""
+﻿"""Core Medical Engine - uses chronicle index + LLMClaw with citations"""
 import sys
 from pathlib import Path
 
@@ -12,27 +12,27 @@ from commands.llm_enhanced import run as llm_run
 
 class MedicalEngine:
     def __init__(self):
-        self._init_webclaw()
-
-    def _init_webclaw(self):
-        try:
-            from agents.webclaw.providers.webclaw_provider import WebclawProvider
-            self.webclaw = WebclawProvider()
-        except:
-            self.webclaw = None
+        pass
 
     def _search_context(self, query: str) -> str:
-        if self.webclaw:
-            try:
-                results = self.webclaw.search_with_context(f"medical {query}", max_results=5)
-                return str(results) if results else ""
-            except:
-                pass
+        """Search chronicle index for relevant medical context"""
+        try:
+            from agents.webclaw.core.chronicle_ledger import get_chronicle
+            chronicle = get_chronicle()
+            results = chronicle.recover_by_context(query, limit=5)
+            if results:
+                lines = []
+                for r in results:
+                    lines.append(f"Source: {r['url']}\nContext: {r['context'][:300]}")
+                return "\n\n".join(lines)
+        except:
+            pass
         return ""
 
     def _call_llm(self, prompt: str, context: str = "") -> str:
         if context:
-            prompt = f"Medical reference context:\n{context[:2000]}\n\n{prompt}"
+            prompt = f"Reference context from chronicle medical sources:\n{context[:2000]}\n\n{prompt}"
+        prompt += "\n\nIMPORTANT: Cite specific sources from the reference context above. Include URLs inline as [Source: url]. If using general medical knowledge, cite established guidelines (AHA/ACC, NIH, CDC, WHO)."
         return llm_run(prompt)
 
     def diagnose(self, symptoms: str) -> str:

@@ -20,7 +20,7 @@ def process_task(task: str, agent: str = None):
         try:
             result = webclaw.fetch_with_citation(url)
             if result.get("success"):
-                return {'status': 'success', 'result': result["citation"] + "\n\n" + result["content"][:3000]}
+                return {'status': 'success', 'result': result["citation"] + "\n\n" + result["content"]}
             return {'status': 'error', 'result': result.get("error", "fetch failed")}
         except Exception as e:
             return {'status': 'error', 'result': str(e)}
@@ -39,7 +39,7 @@ def process_task(task: str, agent: str = None):
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
-            chronicle_results = chronicle.recover_by_context(query, limit=3)
+            chronicle_results = chronicle.recover_by_context(query, limit=2000000)
             if chronicle_results:
                 result += "\n\n=== Web Results ==="
                 for c in chronicle_results:
@@ -47,7 +47,7 @@ def process_task(task: str, agent: str = None):
                     try:
                         cited = webclaw.fetch_with_citation(url)
                         if cited.get("success"):
-                            result += f"\n\n{cited['citation']}\n{cited['content'][:1500]}"
+                            result += f"\n\n{cited['citation']}\n{cited['content']}"
                         else:
                             result += f"\n\n{url} (fetch failed)"
                     except:
