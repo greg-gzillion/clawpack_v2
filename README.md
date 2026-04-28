@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 
-**20 agents · WebClaw SQLite index · Chronicle ledger · Three-tier memory · Multi-provider LLM**
+**21 agents · SQLite Chronicle (136K cards) · FTS5 Search · Multi-provider LLM · A2A Routing**
 
 ---
 
@@ -13,135 +13,86 @@
 
 | Agent | Purpose |
 |-------|---------|
-| **llmclaw** | Model selection & multi-provider LLM (Groq → Ollama → OpenRouter) |
-| **webclaw** | Knowledge base search · 280MB SQLite index · 1.5M terms · 20,212 files |
-| **lawclaw** | Law search · 16,827 reference files · Court systems |
-| **claw_coder** | Code generation · 38 languages · WebClaw enrichment |
-| **mediclaw** | Medical references · 66 specialties · 1,421 files |
-| **mathematicaclaw** | Math solver · sympy engine · Calculus, algebra, plotting |
-| **interpretclaw** | Translation · 39 languages · Language detection |
-| **langclaw** | Language teaching · TTS/STT · Lessons, practice, vocabulary |
-| **flowclaw** | Diagrams & flowcharts · Mermaid generation |
-| **designclaw** | Graphic design · Brand identity, mood boards, color palettes |
-| **docuclaw** | Document processing · 10 import/export formats · Templates |
-| **draftclaw** | Technical drawings · Blueprints, CAD, floorplans |
+| **llmclaw** | Model management & orchestration · 17 models · cloud + local |
+| **claw_coder** | 39-language code generator · compiler validation · code translation · project scaffolding |
+| **mathematicaclaw** | Math engine · SymPy · Plotly animations · step-by-step calculus · 17 commands |
+| **mediclaw** | Medical references · 66 specialties · chronicle-backed citations · 22 commands |
+| **lawclaw** | Law research · court systems · case law · chronicle search |
+| **webclaw** | Web search & indexing · SQLite index · chronicle ledger · URL fetching |
+| **dataclaw** | Local data search · file scanning · JSON/CSV search · chronicle integration |
+| **docuclaw** | Document generator · 21 format exports · templates · translation · combine/convert |
+| **fileclaw** | File handler · 52 formats (import/export/convert) · EPUB support |
+| **designclaw** | Brand & design · brand kits · color palettes · HTML generation |
+| **flowclaw** | Diagrams & flowcharts · Mermaid generation · browser viewer |
+| **crustyclaw** | Rust AI · compiler validation · cargo integration · standalone binary bridge |
+| **interpretclaw** | Translation · 39 languages · language detection |
+| **langclaw** | Language teaching · TTS/STT · lessons, practice, vocabulary |
+| **draftclaw** | Technical drawings · blueprints, CAD, floorplans |
 | **drawclaw** | Drawing & sketching |
-| **dreamclaw** | AI vision & image generation prompts |
-| **dataclaw** | Local reference manager · Chronicle search |
+| **dreamclaw** | AI vision & image generation |
+| **plotclaw** | Charts & graphs · bar, pie, line, scatter |
 | **liberateclaw** | Model obliteration · 5 obliterated models |
-| **plotclaw** | Charts & graphs · Bar, pie, line, scatter |
-| **fileclaw** | File analysis & organization |
-| **crustyclaw** | Rust AI assistant · Code compilation · Trauma guard |
 | **rustypycraw** | Code crawler & analyzer |
-| **txclaw** | Blockchain & smart contracts · TX.org |
+| **txclaw** | Blockchain & smart contracts |
 
 ---
 
 ## 🧠 LLM Models (17)
 
-### Obliterated (No Refusals)
-deepseek-coder-liberated · codellama-liberated · smollm2-liberated · 	inyllama-liberated · gemma3-liberated
+**Obliterated (No Refusals):** deepseek-coder-liberated · codellama-liberated · smollm2-liberated · tinyllama-liberated · gemma3-liberated
 
-### Standard
-Qwen2.5-Coder · deepseek-coder:6.7b · codellama:7b · deepseek-r1:8b · gemma3:4b · gemma3:1b · 	inyllama:1.1b
+**Standard:** Qwen2.5-Coder · deepseek-coder:6.7b · codellama:7b · deepseek-r1:8b · gemma3:4b · gemma3:1b · tinyllama:1.1b
 
-### Large (CPU)
-gemma3:12b · gemma3:27b · qwen3-coder:30b · qwen3-vl:30b
+**Large (Local):** gemma3:12b · gemma3:27b · qwen3-coder:30b · qwen3-vl:30b
 
-### Cloud
-claude-3-haiku (Anthropic)
+**Cloud:** claude-haiku-4-5-20251001 (Anthropic) · llama-3.1-8b-instant (Groq)
 
 ---
 
-## 📚 Knowledge Base
+## 📚 Chronicle Index
 
-**WebClaw SQLite Index:** 280MB · 1.5M search terms · 20,212 reference files
+**SQLite database** · 136,435 cards · FTS5 full-text search · 22,883 files indexed with full content
 
-| Category | Files |
-|----------|-------|
-| lawclaw | 16,827 |
-| claw_coder | 1,566 |
-| mediclaw | 1,421 |
-| langclaw | 259 |
-| interpretclaw | 38 |
-| docuclaw | 21 |
-| flowclaw | 20 |
-| mathematicaclaw | 17 |
-| txclaw | 15 |
+Every `.md` file in `agents/webclaw/references/` is indexed with title, content, and URLs. All agents search it via `BaseAgent.search_chronicle()`.
 
 ---
 
 ## 🔗 A2A Protocol
 
-**Server:** 2a_server.py · **Port:** 8766 · **ThreadingHTTPServer**
+**Server:** `a2a_server.py` · **Port:** 8766
 
-`ash
+```bash
 python a2a_server.py
 Endpoints:
-  GET  /health        - Server health + memory stats
-  GET  /v1/agents     - List all agents
-  GET  /memory/stats  - Detailed memory statistics
-  POST /v1/message/{agent} - Send task to agent
-Examples
-powershell
-# Legal research
-{
-    "task":  "/stats"
-} = @{task="/ask What is habeas corpus?"} | ConvertTo-Json
-Invoke-RestMethod -Uri "http://127.0.0.1:8766/v1/message/lawclaw" -Method POST -Body {
-    "task":  "/stats"
-}
 
-# Medical information
-{
-    "task":  "/stats"
-} = @{task="/med diabetes symptoms"} | ConvertTo-Json
-Invoke-RestMethod -Uri "http://127.0.0.1:8766/v1/message/mediclaw" -Method POST -Body {
-    "task":  "/stats"
-}
+GET /health — Server health + memory stats
 
-# Code generation
-{
-    "task":  "/stats"
-} = @{task="/code fibonacci in Rust"} | ConvertTo-Json
-Invoke-RestMethod -Uri "http://127.0.0.1:8766/v1/message/claw_coder" -Method POST -Body {
-    "task":  "/stats"
-}
+GET /v1/agents — List all agents
+
+GET /memory/stats — Detailed memory statistics
+
+POST /v1/message/{agent} — Send task to agent
+
 🏗️ Architecture
 text
 clawpack_v2/
 ├── a2a_server.py          # Central A2A server
 ├── shared/
 │   ├── base_agent.py       # Foundation class for all agents
-│   ├── llm/                # Multi-provider LLM (Groq, Anthropic, Ollama, OpenRouter)
-│   ├── memory/             # Three-tier (Working, Semantic, Procedural)
-│   ├── chronicle_helper.py # WebClaw chronicle integration
-│   ├── hooks/              # Agent, command, HTTP, prompt runners
-│   └── skills/             # Agent skill definitions
+│   ├── llm/                # Multi-provider LLM
+│   ├── memory/             # Three-tier memory
+│   └── hooks/              # Agent, command, HTTP, prompt runners
 ├── agents/                 # 21 specialized agents
-├── core/                   # System core (LLM manager, agent loader, fork)
-├── models/                 # LLM storage (obliterated + stock)
-└── docs/                   # Documentation
-Features
-Four-Tier Smart Routing — saves tokens on simple commands
-
-Task Decomposer — breaks complex tasks into sub-tasks
-
-Three-Tier Memory — working, semantic, procedural for all agents
-
-Adaptive Budget Controller — smart token management
-
-MCP Registry — install/manage MCP servers
-
-Chronicle Ledger — persistent URL tracking with context
-
-Cross-Learning — agents share knowledge via shared memory
-
+├── core/                   # System core
+├── models/                 # LLM storage
+├── data/                   # Chronicle database + shared memory
+└── exports/                # Generated files
 📚 Citation
 APA
 Frank, G. (2026). Clawpack V2 (Version 3.0.0) [Computer software]. https://doi.org/10.5281/zenodo.19713157
 
 BibTeX
+
 bibtex
 @software{frank_clawpack_v2_2026,
   author       = {Greg Frank},
