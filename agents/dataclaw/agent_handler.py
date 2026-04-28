@@ -11,6 +11,8 @@ sys.path.insert(0, str(DATACLAW_DIR))
 
 from shared.base_agent import BaseAgent
 
+SKIP_DIRS = {'node_modules', 'venv', '__pycache__', '.git', 'lib64'}
+
 class DataClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("dataclaw")
@@ -30,6 +32,8 @@ class DataClawAgent(BaseAgent):
             if not search_path.exists():
                 continue
             for file_path in search_path.rglob("*"):
+                if any(skip in str(file_path).lower() for skip in SKIP_DIRS):
+                    continue
                 if file_path.is_file() and file_path.suffix in ('.md', '.txt', '.py', '.json', '.csv', '.yaml', '.rs', '.go', '.js', '.html'):
                     try:
                         if query_lower in file_path.name.lower():
@@ -67,6 +71,8 @@ class DataClawAgent(BaseAgent):
             if not data_path.exists():
                 continue
             for file_path in data_path.rglob("*.json"):
+                if any(skip in str(file_path).lower() for skip in SKIP_DIRS):
+                    continue
                 try:
                     content = json.loads(file_path.read_text(encoding="utf-8"))
                     if isinstance(content, dict):
@@ -183,8 +189,10 @@ class DataClawAgent(BaseAgent):
                 total_files = 0
                 for sp in [PROJECT_ROOT / "docs", PROJECT_ROOT / "data", PROJECT_ROOT / "agents" / "webclaw" / "references"]:
                     if sp.exists():
-                        total_files += sum(1 for _ in sp.rglob("*") if _.is_file())
-                
+                        try:
+                            total_files += sum(1 for _ in sp.rglob("*") if _.is_file() and not any(skip in str(_).lower() for skip in SKIP_DIRS))
+                        except:
+                            pass
                 result = f"DataClaw | Local Search | {total_files:,} files indexed | Interactions: {self.state.get('interactions', 0)}"
 
             elif cmd in ("/help", "help"):

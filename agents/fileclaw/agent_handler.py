@@ -16,6 +16,7 @@ class FileClawAgent(BaseAgent):
         self.binary_importers = {
             ".pdf":self._read_pdf, ".docx":self._read_docx, ".xlsx":self._read_xlsx,
             ".pptx":self._read_pptx, ".rtf":self._read_rtf,
+            ".epub":self._read_epub,
             ".png":self._read_image, ".jpg":self._read_image, ".jpeg":self._read_image,
             ".gif":self._read_image, ".bmp":self._read_image, ".webp":self._read_image,
             ".svg":self._read_image, ".tiff":self._read_image,
@@ -25,26 +26,28 @@ class FileClawAgent(BaseAgent):
             ".mpeg":self._read_media, ".mpg":self._read_media
         }
 
-    def _gather_context(self, query=""):
-        parts = []
-        web = self.call_agent("webclaw", f"search file format {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web)
-        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data)
-                # Search chronicle index
-        chronicle_results = self.search_chronicle(query, limit=2000000)
-        if chronicle_results:
-            for c in chronicle_results:
-                if hasattr(c, "url"):
-                    parts.append(c.url)
-
-        return "\n".join(parts)
-
     def _format_size(self, s):
         for u in ["B","KB","MB","GB"]:
             if s < 1024: return f"{s:.1f}{u}"
             s /= 1024
         return f"{s:.1f}TB"
+
+    def _read_epub(self, p):
+        try:
+            from ebooklib import epub
+            book = epub.read_epub(str(p))
+            title = book.get_metadata('DC', 'title')
+            title_str = title[0][0] if title else p.stem
+            text = f"EPUB: {title_str}\n\n"
+            for item in book.get_items_of_type(9):
+                from bs4 import BeautifulSoup
+                soup = BeautifulSoup(item.get_content(), 'html.parser')
+                text += soup.get_text() + "\n\n"
+            return text
+        except ImportError:
+            return f"EPUB: Install ebooklib + beautifulsoup4 to read EPUB\n  File: {p.name}"
+        except Exception as e:
+            return f"EPUB error: {e}"
 
     def _read_pdf(self, p):
         try:
@@ -94,12 +97,7 @@ class FileClawAgent(BaseAgent):
         try:
             from PIL import Image
             img = Image.open(p)
-            info = f"IMAGE: {p.name}\n  Format: {img.format}\n  Size: {img.size[0]}x{img.size[1]}\n  Mode: {img.mode}\n  File: {self._format_size(p.stat().st_size)}"
-            try:
-                exif = img._getexif()
-                if exif: info += f"\n  EXIF: {len(exif)} tags"
-            except: pass
-            return info
+            return f"IMAGE: {p.name}\n  Format: {img.format}\n  Size: {img.size[0]}x{img.size[1]}\n  Mode: {img.mode}\n  File: {self._format_size(p.stat().st_size)}"
         except Exception as e: return f"Image error: {e}"
 
     def _read_archive(self, p):
@@ -161,39 +159,10 @@ class FileClawAgent(BaseAgent):
                 except: path.write_text(content, encoding="utf-8")
             elif fmt == "toml":
                 import toml
-                try:
-                    d = json.loads(content) if isinstance(content, str) else content
-                    with open(path, "w") as f: toml.dump(d, f)
+                try: json.loads(content); path.write_text(content)
                 except: path.write_text(content, encoding="utf-8")
-            elif fmt == "xml":
-                xml_out = '<?xml version="1.0" encoding="UTF-8"?>\n<export><![CDATA[' + content + ']]></export>'
-                path.write_text(xml_out, encoding="utf-8")
-            elif fmt == "html":
-                if not content.strip().startswith("<"):
-                    content = f"<html><head><meta charset='utf-8'><title>{name or 'Export'}</title><style>body{{font-family:Arial;max-width:800px;margin:40px auto}}pre{{background:#f5f5f5;padding:15px}}</style></head><body><pre>{content}</pre></body></html>"
+            elif fmt in ("xml","html","ini","rtf","svg","md","txt"):
                 path.write_text(content, encoding="utf-8")
-            elif fmt == "ini":
-                import configparser
-                c = configparser.ConfigParser()
-                try:
-                    d = json.loads(content) if isinstance(content, str) else content
-                    if isinstance(d, dict):
-                        for s, v in d.items():
-                            c[s] = v if isinstance(v, dict) else {"value": str(v)}
-                        with open(path, "w") as f: c.write(f)
-                except: path.write_text(content, encoding="utf-8")
-            elif fmt == "rtf":
-                rtf_text = '{\\rtf1\\ansi\\deff0 {\\fonttbl {\\f0 Arial;}}\n\\f0\\fs24 '
-                rtf_text += content.replace(chr(10), '\\par ') + '}'
-                path.write_text(rtf_text, encoding="utf-8")
-            elif fmt == "svg":
-                svg = '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><rect width="100%" height="100%" fill="white"/>'
-                y = 20
-                for line in content.split(chr(10)):
-                    svg += '<text x="20" y="' + str(y) + '" font-family="Arial" font-size="14" fill="black">' + line.replace("&","&amp;").replace("<","&lt;") + '</text>'
-                    y += 20
-                svg += '</svg>'
-                path.write_text(svg, encoding="utf-8")
             elif fmt == "pdf":
                 from fpdf import FPDF
                 pdf = FPDF(); pdf.add_page(); pdf.set_font("Arial", size=12)
@@ -205,20 +174,6 @@ class FileClawAgent(BaseAgent):
                 for line in content.split(chr(10)):
                     if line.strip(): doc.add_paragraph(line)
                 doc.save(str(path))
-            elif fmt == "xlsx":
-                import pandas as pd
-                try:
-                    d = json.loads(content) if isinstance(content, str) else content
-                    if isinstance(d, list): pd.DataFrame(d).to_excel(path, index=False)
-                    elif isinstance(d, dict): pd.DataFrame([d]).to_excel(path, index=False)
-                except: path.write_text(content, encoding="utf-8")
-            elif fmt == "pptx":
-                from pptx import Presentation
-                prs = Presentation()
-                slide = prs.slides.add_slide(prs.slide_layouts[1])
-                slide.shapes.title.text = name or "Export"
-                slide.placeholders[1].text = content
-                prs.save(str(path))
             elif fmt in ("png", "jpg", "jpeg", "bmp", "gif", "tiff", "webp"):
                 from PIL import Image, ImageDraw
                 img = Image.new("RGB", (800, 600), color="white")
@@ -230,8 +185,6 @@ class FileClawAgent(BaseAgent):
                 tp.write_text(content, encoding="utf-8")
                 with zipfile.ZipFile(path, "w") as zf: zf.write(tp, tp.name)
                 tp.unlink()
-            elif fmt == "md":
-                path.write_text(content, encoding="utf-8")
             else:
                 path.write_text(content, encoding="utf-8")
             return f"Exported: {path.name} ({self._format_size(path.stat().st_size)})"
@@ -258,13 +211,17 @@ class FileClawAgent(BaseAgent):
                     c = self._import(cp[0])
                     result = self._export(cp[1], c, Path(cp[0]).stem)
                 else: result = "Usage: /convert <source> <target_format>"
+            elif cmd in ("/formats", "/list"):
+                result = f"FileClaw Formats ({len(self.binary_importers) + len(self.text_formats)} total)\n\n"
+                result += "Binary Import: " + ", ".join(sorted(self.binary_importers.keys())) + "\n\n"
+                result += "Text Formats: " + ", ".join(sorted(self.text_formats))
             elif cmd == "/help":
-                result = "FileClaw - Universal File Handler\n\n  IMPORT:  PDF, DOCX, XLSX, PPTX, RTF, images, archives, media + " + str(len(self.text_formats)) + " text formats\n  EXPORT:  PDF, DOCX, XLSX, PPTX, PNG/JPG/BMP/GIF/TIFF/WEBP, SVG, ZIP, JSON, CSV, YAML, TOML, XML, INI, RTF, MD, HTML, TXT\n  CONVERT: Any import format to any export format"
+                result = f"FileClaw - {len(self.binary_importers) + len(self.text_formats)} Format Handler\n\n  /import <file>     - Read any supported file\n  /export <fmt> <content> - Export to any format\n  /convert <src> <fmt> - Convert between formats\n  /formats           - List supported formats\n  /help /stats"
             elif cmd == "/stats":
                 total = len(self.binary_importers) + len(self.text_formats)
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = "FileClaw: Use /import, /export, /convert, or /help"
+                result = "FileClaw: Use /import, /export, /convert, /formats, or /help"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
