@@ -21,14 +21,21 @@ class DraftClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search technical drawing {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:600])
+        if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data[:600])
+        if data: parts.append("[DataClaw]: " + data)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def _call_llm(self, prompt, context=""):
         if context:
-            prompt = "Reference context:\n" + context[:1500] + "\n\n" + prompt
+            prompt = "Reference context:\n" + context + "\n\n" + prompt
         result = llm_run(prompt)
         return result if result and not result.startswith("Error:") else "Blueprint generation failed"
 
@@ -64,13 +71,13 @@ class DraftClawAgent(BaseAgent):
                 result = run(query)
                 if result and "Error" not in str(result):
                     export = self._fileclaw_export("png", str(result))
-                    result = f"{export}\n\n{str(result)[:500]}"
+                    result = f"{export}\n\n{str(result)}"
             elif cmd in ("/draw", "/design") and query:
                 specs = self._call_llm(f"Generate technical drawing specifications with dimensions for: {query}. Include width, height, elements, layout.", ctx)
                 from agents.draftclaw.commands.blueprint import run
                 result = run(specs)
                 export = self._fileclaw_export("png", str(result))
-                result = f"{export}\n\n{specs[:500]}"
+                result = f"{export}\n\n{specs}"
             elif cmd == "/export" and args:
                 parts2 = args.split(maxsplit=1)
                 if len(parts2) == 2:
@@ -83,7 +90,7 @@ class DraftClawAgent(BaseAgent):
                 result = f"DraftClaw | PIL Blueprints | FileClaw + WebClaw + LLMClaw | Interactions: {self.state.get('interactions', 0)}"
             else:
                 specs = self._call_llm(f"Technical drawing specifications: {query}", ctx)
-                result = f"Specs generated. Use /blueprint to render.\n\n{specs[:800]}"
+                result = f"Specs generated. Use /blueprint to render.\n\n{specs}"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

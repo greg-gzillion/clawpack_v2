@@ -27,6 +27,13 @@ class RustyPyCrawAgent(BaseAgent):
         if rust: parts.append("[CrustyClaw]: " + rust[:600])
         coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
         if coder: parts.append("[ClawCoder]: " + coder[:600])
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=3)
+        if chronicle_results:
+            for c in chronicle_results[:3]:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def handle(self, task: str) -> dict:

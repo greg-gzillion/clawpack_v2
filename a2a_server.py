@@ -118,7 +118,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                     result_text = str(result)
                 
                 a2a_memory.working.add("assistant", result_text)
-                a2a_memory.semantic.add_fact(agent_name, task, result_text[:200])
+                a2a_memory.semantic.add_fact(agent_name, task, result_text)
                 compressed = a2a_memory.working.compress()
                 
                 self._send_json({

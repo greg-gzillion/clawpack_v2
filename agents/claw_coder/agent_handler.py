@@ -28,15 +28,22 @@ class ClawCoderAgent(BaseAgent):
         parts = []
         web = self.call_agent("webclaw", f"search programming {lang} {query}", timeout=15)
         if web:
-            parts.append("[WebClaw]: " + web[:600])
+            parts.append("[WebClaw]: " + web)
         if "rust" in (lang + query).lower():
             rust = self.call_agent("crustyclaw", f"/audit {query}", timeout=15)
             if rust:
-                parts.append("[CrustyClaw]: " + rust[:600])
+                parts.append("[CrustyClaw]: " + rust)
         if any(w in (lang + query).lower() for w in ["blockchain", "cosmwasm", "tx.org", "smart contract"]):
             tx = self.call_agent("txclaw", f"/contract {query}", timeout=15)
             if tx:
-                parts.append("[TXClaw]: " + tx[:600])
+                parts.append("[TXClaw]: " + tx)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return " | ".join(parts) if parts else ""
 
     def _save_code(self, code, lang, task):
@@ -49,7 +56,7 @@ class ClawCoderAgent(BaseAgent):
                     code = block
                     break
         ext = LANG_EXT.get(lang, ".txt")
-        name = task[:40].replace(" ", "_").replace(chr(92), "").replace("/", "")
+        name = task.replace(" ", "_").replace(chr(92), "").replace("/", "")
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = name + "_" + ts + ext
         (EXPORTS / fn).write_text(code, encoding="utf-8")
@@ -70,30 +77,30 @@ class ClawCoderAgent(BaseAgent):
             except:
                 pass
             try:
-                ctx += self.search_web("programming " + query, max_results=3) or ""
+                ctx += self.search_web("programming " + query, max_results=2000000) or ""
             except:
                 pass
             if cmd in ("/code",) and query:
                 lang = _detect_lang(query)
-                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nWrite clean " + lang + " code. " + query)
+                result = llm_run("Indexed References:\n" + ctx + "\n\nWrite clean " + lang + " code. " + query)
                 fn = self._save_code(result, lang, query)
-                result = "Saved: " + fn + "\n\n" + result[:800]
+                result = "Saved: " + fn + "\n\n" + result
             elif cmd in ("/explain",) and query:
-                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nExplain this code: " + query)
+                result = llm_run("Indexed References:\n" + ctx + "\n\nExplain this code: " + query)
             elif cmd in ("/debug",) and query:
-                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nDebug and fix: " + query)
+                result = llm_run("Indexed References:\n" + ctx + "\n\nDebug and fix: " + query)
             elif cmd in ("/review",) and query:
-                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nCode review: " + query)
+                result = llm_run("Indexed References:\n" + ctx + "\n\nCode review: " + query)
             elif cmd in ("/tutorial",) and query:
-                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nTutorial on: " + query)
+                result = llm_run("Indexed References:\n" + ctx + "\n\nTutorial on: " + query)
             elif cmd in ("/find",) and query:
-                result = self.search_web(query, max_results=10)
+                result = self.search_web(query, max_results=2000000)
             elif cmd == "/help":
                 result = "ClawCoder - 39 Languages\n  /code <lang> <task> - Generate + auto-save\n  /explain /debug /review /tutorial /find\n  BaseAgent + LLMClaw + WebClaw"
             elif cmd == "/stats":
                 result = "ClawCoder | 39 Languages | BaseAgent + LLMClaw + WebClaw | Interactions: " + str(self.state.get("interactions", 0))
             else:
-                result = llm_run("Indexed References:\n" + ctx[:2000] + "\n\nProgramming: " + query)
+                result = llm_run("Indexed References:\n" + ctx + "\n\nProgramming: " + query)
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

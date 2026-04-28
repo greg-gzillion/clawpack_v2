@@ -28,9 +28,16 @@ class FileClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search file format {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:600])
+        if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data[:600])
+        if data: parts.append("[DataClaw]: " + data)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def _format_size(self, s):
@@ -43,7 +50,7 @@ class FileClawAgent(BaseAgent):
         try:
             from pypdf import PdfReader
             r = PdfReader(str(p)); t = f"PDF: {p.name}, {len(r.pages)} pages\n\n"
-            for i, pg in enumerate(r.pages[:5]): t += f"--- Page {i+1} ---\n{pg.extract_text() or ''}\n"
+            for i, pg in enumerate(r.pages): t += f"--- Page {i+1} ---\n{pg.extract_text() or ''}\n"
             return t
         except Exception as e: return f"PDF error: {e}"
 
@@ -51,7 +58,7 @@ class FileClawAgent(BaseAgent):
         try:
             from docx import Document
             d = Document(str(p)); t = f"DOCX: {p.name}\n\n"
-            for para in d.paragraphs[:50]: t += para.text + "\n"
+            for para in d.paragraphs: t += para.text + "\n"
             return t
         except Exception as e: return f"DOCX error: {e}"
 
@@ -68,7 +75,7 @@ class FileClawAgent(BaseAgent):
         try:
             from pptx import Presentation
             prs = Presentation(str(p)); t = f"PPTX: {p.name}, {len(prs.slides)} slides\n\n"
-            for i, sl in enumerate(prs.slides[:10]):
+            for i, sl in enumerate(prs.slides):
                 t += f"--- Slide {i+1} ---\n"
                 for sh in sl.shapes:
                     if hasattr(sh, "text") and sh.text: t += sh.text + "\n"
@@ -80,7 +87,7 @@ class FileClawAgent(BaseAgent):
             import re
             c = p.read_text(encoding="utf-8", errors="replace")
             c = re.sub(r"\\[a-z]+\d*", "", c)
-            return f"RTF: {p.name}\n\n{c[:2000]}"
+            return f"RTF: {p.name}\n\n{c}"
         except Exception as e: return f"RTF error: {e}"
 
     def _read_image(self, p):
@@ -100,12 +107,12 @@ class FileClawAgent(BaseAgent):
             t = f"ARCHIVE: {p.name}\n  Size: {self._format_size(p.stat().st_size)}\n\nContents:\n"
             if p.suffix == ".zip":
                 with zipfile.ZipFile(p) as zf:
-                    for info in zf.infolist()[:50]:
+                    for info in zf.infolist():
                         t += f"  {'[D]' if info.is_dir() else '[F]'} {info.filename} ({self._format_size(info.file_size)})\n"
             else:
                 import tarfile
                 with tarfile.open(p) as tf:
-                    for m in tf.getmembers()[:50]:
+                    for m in tf.getmembers():
                         t += f"  {'[D]' if m.isdir() else '[F]'} {m.name} ({self._format_size(m.size)})\n"
             return t
         except Exception as e: return f"Archive error: {e}"
@@ -121,9 +128,9 @@ class FileClawAgent(BaseAgent):
         if ext in self.text_formats:
             try:
                 c = p.read_text(encoding="utf-8", errors="replace")
-                return f"FILE: {p.name}\n  Size: {self._format_size(p.stat().st_size)}\n\n{c[:5000]}"
+                return f"FILE: {p.name}\n  Size: {self._format_size(p.stat().st_size)}\n\n{c}"
             except: return f"Read error: {p.name}"
-        try: return f"UNKNOWN: {p.name}\n{p.read_text(encoding='utf-8', errors='replace')[:2000]}"
+        try: return f"UNKNOWN: {p.name}\n{p.read_text(encoding='utf-8', errors='replace')}"
         except: return f"UNKNOWN BINARY: {p.name}\n  Type: {ext}\n  Size: {self._format_size(p.stat().st_size)}"
 
     def _export(self, fmt, content, name=""):
@@ -177,26 +184,26 @@ class FileClawAgent(BaseAgent):
                 except: path.write_text(content, encoding="utf-8")
             elif fmt == "rtf":
                 rtf_text = '{\\rtf1\\ansi\\deff0 {\\fonttbl {\\f0 Arial;}}\n\\f0\\fs24 '
-                rtf_text += content[:5000].replace(chr(10), '\\par ') + '}'
+                rtf_text += content.replace(chr(10), '\\par ') + '}'
                 path.write_text(rtf_text, encoding="utf-8")
             elif fmt == "svg":
                 svg = '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600"><rect width="100%" height="100%" fill="white"/>'
                 y = 20
-                for line in content.split(chr(10))[:30]:
-                    svg += '<text x="20" y="' + str(y) + '" font-family="Arial" font-size="14" fill="black">' + line[:100].replace("&","&amp;").replace("<","&lt;") + '</text>'
+                for line in content.split(chr(10)):
+                    svg += '<text x="20" y="' + str(y) + '" font-family="Arial" font-size="14" fill="black">' + line.replace("&","&amp;").replace("<","&lt;") + '</text>'
                     y += 20
                 svg += '</svg>'
                 path.write_text(svg, encoding="utf-8")
             elif fmt == "pdf":
                 from fpdf import FPDF
                 pdf = FPDF(); pdf.add_page(); pdf.set_font("Arial", size=12)
-                for line in content.split(chr(10))[:200]: pdf.cell(200, 10, txt=line[:100], ln=True)
+                for line in content.split(chr(10)): pdf.cell(200, 10, txt=line, ln=True)
                 pdf.output(str(path))
             elif fmt == "docx":
                 from docx import Document
                 doc = Document(); doc.add_heading(name or "Export", 0)
-                for line in content.split(chr(10))[:500]:
-                    if line.strip(): doc.add_paragraph(line[:500])
+                for line in content.split(chr(10)):
+                    if line.strip(): doc.add_paragraph(line)
                 doc.save(str(path))
             elif fmt == "xlsx":
                 import pandas as pd
@@ -210,13 +217,13 @@ class FileClawAgent(BaseAgent):
                 prs = Presentation()
                 slide = prs.slides.add_slide(prs.slide_layouts[1])
                 slide.shapes.title.text = name or "Export"
-                slide.placeholders[1].text = content[:2000]
+                slide.placeholders[1].text = content
                 prs.save(str(path))
             elif fmt in ("png", "jpg", "jpeg", "bmp", "gif", "tiff", "webp"):
                 from PIL import Image, ImageDraw
                 img = Image.new("RGB", (800, 600), color="white")
                 draw = ImageDraw.Draw(img); y = 20
-                for line in content.split(chr(10))[:30]: draw.text((20, y), line[:100], fill="black"); y += 20
+                for line in content.split(chr(10)): draw.text((20, y), line, fill="black"); y += 20
                 img.save(str(path))
             elif fmt == "zip":
                 tp = EXPORTS / f"{name or 'export'}_{ts}.txt"

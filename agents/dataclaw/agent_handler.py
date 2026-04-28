@@ -16,13 +16,13 @@ class DataClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:800])
+        if web: parts.append("[WebClaw]: " + web)
         return "\n".join(parts)
 
     def _export(self, fmt, data, query):
         EXPORTS.mkdir(exist_ok=True)
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-        name = query[:30].replace(" ", "_").replace(chr(92), "").replace("/", "")
+        name = query.replace(" ", "_").replace(chr(92), "").replace("/", "")
         fn = f"dataclaw_{name}_{ts}.{fmt}"
         fn = InputSanitizer.sanitize_filename(fn)
         path = EXPORTS / fn
@@ -39,7 +39,7 @@ class DataClawAgent(BaseAgent):
             elif fmt == "md":
                 md = f"# DataClaw: {query}\n\n"
                 if isinstance(data, list):
-                    for i, item in enumerate(data[:50], 1): md += f"{i}. {item}\n"
+                    for i, item in enumerate(data, 1): md += f"{i}. {item}\n"
                 else: md += str(data)
                 path.write_text(md, encoding="utf-8")
             else:
@@ -57,19 +57,19 @@ class DataClawAgent(BaseAgent):
         query = args if args else task
         try:
             if cmd in ("/search", "search") and query:
-                chronicle = self.search_chronicle(query, limit=5)
+                chronicle = self.search_chronicle(query, limit=2000000)
                 web = self.call_agent("webclaw", f"search {query}", timeout=15)
                 result = f"Results for '{query}':\n"
                 if chronicle:
                     result += "\n[Chronicle]\n" + "\n".join(f"  - {c.url}" for c in chronicle)
-                result += f"\n[WebClaw]\n{web[:500]}"
+                result += f"\n[WebClaw]\n{web}"
                 if not chronicle and not web.strip():
                     result = f"No results for '{query}'. Add references with /add."
             elif cmd in ("/export",) and args:
                 parts2 = args.split(maxsplit=1)
                 fmt = parts2[0]
                 q = parts2[1] if len(parts2) > 1 else ""
-                chronicle = self.search_chronicle(q, limit=10) if q else []
+                chronicle = self.search_chronicle(q, limit=2000000) if q else []
                 web = self.call_agent("webclaw", f"search {q}", timeout=15) if q else ""
                 data = {
                     "query": q,

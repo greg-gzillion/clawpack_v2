@@ -22,7 +22,14 @@ class DesignClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search design {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:600])
+        if web: parts.append("[WebClaw]: " + web)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return " | ".join(parts)
 
     def _call_llm(self, prompt):
@@ -49,27 +56,27 @@ class DesignClawAgent(BaseAgent):
             if cmd == "/brand" and args:
                 ctx = self._gather_context(args)
                 result = self._call_llm("Context: " + ctx + "\n\nCreate a complete brand identity for: " + args + ". Include name, logo concept, colors, typography, brand voice.")
-                fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
+                fn = self._save_html(result, args.replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? BRAND IDENTITY\n\n{result}"
             elif cmd == "/mood" and args:
                 ctx = self._gather_context(args)
                 result = self._call_llm("Context: " + ctx + "\n\nDescribe a mood board direction for: " + args + ". Include vibe, color story, texture, imagery style.")
-                fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
+                fn = self._save_html(result, args.replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? MOOD BOARD\n\n{result}"
             elif cmd == "/colors" and args:
                 ctx = self._gather_context(args)
                 result = self._call_llm("Context: " + ctx + "\n\nCreate a color palette for: " + args + ". Provide 4-5 hex codes with names and usage notes.")
-                fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
+                fn = self._save_html(result, args.replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? COLOR PALETTE\n\n{result}"
             elif cmd == "/logo" and args:
                 ctx = self._gather_context(args)
                 result = self._call_llm("Context: " + ctx + "\n\nDesign a logo concept for: " + args + ". Describe the symbol, wordmark, colors, and style.")
-                fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
+                fn = self._save_html(result, args.replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n? LOGO CONCEPT\n\n{result}"
             elif cmd == "/slogan" and args:
                 ctx = self._gather_context(args)
                 result = self._call_llm("Context: " + ctx + "\n\nCreate brand copy for: " + args + ". Provide tagline, value proposition, and brand voice.")
-                fn = self._save_html(result, args[:40].replace("/","").replace(" ","_"))
+                fn = self._save_html(result, args.replace("/","").replace(" ","_"))
                 result = f"Saved: {fn}\n\n?? BRAND COPY\n\n{result}"
             elif cmd == "/help":
                 result = "DesignClaw - Brand & Design\n  /brand /mood /colors /logo /slogan /stats\n  All results auto-saved to exports/ as HTML"

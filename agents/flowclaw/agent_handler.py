@@ -32,20 +32,27 @@ class FlowClawAgent(BaseAgent):
         parts = []
         # Always search web for Mermaid syntax and examples
         web = self.call_agent("webclaw", f"search mermaid {diagram_type} diagram {query}", timeout=15)
-        if web: parts.append("[WebClaw Examples]: " + web[:800])
+        if web: parts.append("[WebClaw Examples]: " + web)
         # Local data references
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw References]: " + data[:800])
+        if data: parts.append("[DataClaw References]: " + data)
         # Domain-specific specialists
         if any(w in query.lower() for w in ["blockchain", "smart contract", "tx.org", "cosmwasm"]):
             tx = self.call_agent("txclaw", f"/contract {query}", timeout=15)
-            if tx: parts.append("[TXClaw Blockchain]: " + tx[:600])
+            if tx: parts.append("[TXClaw Blockchain]: " + tx)
         if any(w in query.lower() for w in ["code", "architecture", "system", "api", "database"]):
             coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
-            if coder: parts.append("[ClawCoder Architecture]: " + coder[:600])
+            if coder: parts.append("[ClawCoder Architecture]: " + coder)
         if any(w in query.lower() for w in ["legal", "law", "contract", "compliance"]):
             law = self.call_agent("lawclaw", f"/legal {query}", timeout=15)
-            if law: parts.append("[LawClaw Legal]: " + law[:600])
+            if law: parts.append("[LawClaw Legal]: " + law)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def handle(self, task: str) -> dict:
@@ -67,7 +74,7 @@ class FlowClawAgent(BaseAgent):
             code = self.engine.generate_with_llm(diagram_type, enhanced_query, self.llm)
 
             if cmd in ("/view", "view"):
-                self.viewer.view_in_browser(code, query[:50])
+                self.viewer.view_in_browser(code, query)
                 result = f"Opened in browser.\n\n`mermaid\n{code}\n`"
             elif cmd in ("/export", "export"):
                 # Export via FileClaw for all formats (PNG, SVG, PDF, DOCX, MD)
@@ -81,7 +88,7 @@ class FlowClawAgent(BaseAgent):
                     output_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/flowclaw/exports")
                     output_dir.mkdir(exist_ok=True)
                     path = output_dir / f"diagram_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-                    self.docx_exporter.export(code, path, query[:50])
+                    self.docx_exporter.export(code, path, query)
                     result = f"Exported to {path}.docx\n\n`mermaid\n{code}\n`"
             elif cmd in ("/help",):
                 result = "FlowClaw - Diagrams with Specialists\n  /flowchart /sequence /architecture /view /export /stats\n  Uses: WebClaw + DataClaw + TXClaw + ClawCoder + LawClaw -> DiagramEngine -> FileClaw"

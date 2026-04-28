@@ -21,34 +21,41 @@ class TXClawA2AHandler(BaseAgent):
     def _load_references(self):
         self.refs_context = ""
         if self.refs_dir.exists():
-            md_files = list(self.refs_dir.rglob("*.md"))[:10]
+            md_files = list(self.refs_dir.rglob("*.md"))
             for f in md_files:
                 try:
-                    self.refs_context += f"\n--- {f.name} ---\n{f.read_text(encoding='utf-8')[:800]}"
+                    self.refs_context += f"\n--- {f.name} ---\n{f.read_text(encoding='utf-8')}"
                 except:
                     pass
 
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search TX.org blockchain {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:600])
+        if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data[:600])
+        if data: parts.append("[DataClaw]: " + data)
         coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
-        if coder: parts.append("[ClawCoder]: " + coder[:600])
+        if coder: parts.append("[ClawCoder]: " + coder)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def _call(self, prompt: str) -> str:
         full_prompt = f"""IDENTITY: You are a TX.org blockchain expert. TX.org is a Cosmos SDK blockchain - NOT Thorchain, NOT any other chain. TX.org is its own independent Layer 1 blockchain built with Cosmos SDK and CosmWasm.
 
 REFERENCE KNOWLEDGE:
-{self.refs_context[:2000]}
+{self.refs_context}
 
 QUERY: {prompt}
 
 IMPORTANT: Only reference TX.org blockchain. If you don't know, say "I don't have specific data on that for TX.org" rather than guessing or referencing other chains."""
         result = llm_run(full_prompt)
-        self.session["queries"].append(prompt[:80])
+        self.session["queries"].append(prompt)
         return result if result and "Error" not in result else "Error: No response from LLMClaw"
 
     def handle(self, task: str) -> dict:

@@ -21,9 +21,16 @@ class CrustyClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search rust {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:500])
+        if web: parts.append("[WebClaw]: " + web)
         tx = self.call_agent("txclaw", f"/contract {query}", timeout=15)
-        if tx: parts.append("[TXClaw]: " + tx[:500])
+        if tx: parts.append("[TXClaw]: " + tx)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return " | ".join(parts)
 
     def _save_rs(self, code, task):
@@ -35,7 +42,7 @@ class CrustyClawAgent(BaseAgent):
                     block = block.split("\n", 1)[1] if "\n" in block else block
                     code = block
                     break
-        name = task[:40].replace(" ", "_").replace(chr(92), "").replace("/", "")
+        name = task.replace(" ", "_").replace(chr(92), "").replace("/", "")
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = f"{name}_{ts}.rs"
         fn = InputSanitizer.sanitize_filename(fn)
@@ -55,7 +62,7 @@ class CrustyClawAgent(BaseAgent):
                 from agents.crustyclaw.commands.rust import run
                 result = run(query)
                 fn = self._save_rs(result, query)
-                result = f"Saved: {fn}\n\n{result[:800]}"
+                result = f"Saved: {fn}\n\n{result}"
             elif cmd in ("/explain",) and query:
                 from agents.crustyclaw.commands.explain import run
                 result = run(query)
@@ -66,7 +73,7 @@ class CrustyClawAgent(BaseAgent):
                 ctx = self._gather_context(query)
                 result = self.ask_llm("Context: " + ctx + "\n\nFix this Rust code, return fixed code only: {query}")
                 fn = self._save_rs(result, "fixed")
-                result = f"Saved: {fn}\n\n{result[:800]}"
+                result = f"Saved: {fn}\n\n{result}"
             elif cmd in ("/audit",) and query:
                 ctx = self._gather_context(query)
                 result = self.ask_llm("Context: " + ctx + "\n\nSecurity audit this Rust code. Check unsafe blocks, unwraps, input validation, dependencies:\n{query}")

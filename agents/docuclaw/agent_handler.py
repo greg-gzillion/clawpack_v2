@@ -21,14 +21,21 @@ class DocuClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:800])
+        if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data[:800])
+        if data: parts.append("[DataClaw]: " + data)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def _call_llm(self, prompt, context=""):
         if context:
-            prompt = "Reference context:\n" + context[:1500] + "\n\n" + prompt
+            prompt = "Reference context:\n" + context + "\n\n" + prompt
         result = llm_run(prompt)
         return result if result and not result.startswith("Error:") else "Document generation failed"
 
@@ -36,20 +43,20 @@ class DocuClawAgent(BaseAgent):
         # Convert markdown content to tabular format for spreadsheet exports
         if fmt in ("xlsx", "csv"):
             lines = content.split(chr(10))
-            rows = [{"Section": "Content", "Text": content[:500]}]
+            rows = [{"Section": "Content", "Text": content}]
             # Try to parse markdown sections into rows
             current_section = "Header"
             current_text = ""
             for line in lines:
                 if line.startswith("# "):
                     if current_text.strip():
-                        rows.append({"Section": current_section, "Text": current_text.strip()[:200]})
+                        rows.append({"Section": current_section, "Text": current_text.strip()})
                     current_section = line.replace("# ", "").strip()
                     current_text = ""
                 elif line.strip():
                     current_text += line + " "
             if current_text.strip():
-                rows.append({"Section": current_section, "Text": current_text.strip()[:200]})
+                rows.append({"Section": current_section, "Text": current_text.strip()})
             import json
             return json.dumps(rows)
         return content
@@ -111,12 +118,12 @@ class DocuClawAgent(BaseAgent):
                 fmt = args.split()[-1] if args.split()[-1] in ("pdf","docx","html","md","txt","json","csv","yaml","xml","rtf","pptx","xlsx") else "md"
                 content = self._call_llm(f"Create a professional {doc_type} in Markdown format for: {query}", ctx)
                 export_result = self._fileclaw_export(fmt, content)
-                result = f"{export_result}\n\n{content[:600]}"
+                result = f"{export_result}\n\n{content}"
 
             # Import any file via FileClaw
             elif cmd == "/import" and args:
                 content = self._fileclaw_import(args)
-                result = f"Imported: {args}\n\n{content[:1000]}"
+                result = f"Imported: {args}\n\n{content}"
 
             # Export content in any format via FileClaw
             elif cmd == "/export" and args:
@@ -141,7 +148,7 @@ class DocuClawAgent(BaseAgent):
                             # Save translated version
                             fmt = "md"
                             fn = self._fileclaw_export(fmt, translated).replace("Exported: ", "")
-                            result = f"Translated to {lang}: {fn}\n\n{translated[:800]}"
+                            result = f"Translated to {lang}: {fn}\n\n{translated}"
                         else:
                             result = f"Translation failed: {r.status_code}"
                     except Exception as e:
@@ -155,7 +162,7 @@ class DocuClawAgent(BaseAgent):
             else:
                 content = self._call_llm(f"Create a document: {query}", ctx)
                 export_result = self._fileclaw_export("md", content)
-                result = f"{export_result}\n\n{content[:600]}"
+                result = f"{export_result}\n\n{content}"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

@@ -12,9 +12,16 @@ class LangClawAgent(BaseAgent):
     def _gather_context(self, query=""):
         parts = []
         web = self.call_agent("webclaw", f"search language learning {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web[:600])
+        if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data[:600])
+        if data: parts.append("[DataClaw]: " + data)
+                # Search chronicle index
+        chronicle_results = self.search_chronicle(query, limit=2000000)
+        if chronicle_results:
+            for c in chronicle_results:
+                if hasattr(c, "url"):
+                    parts.append(c.url)
+
         return "\n".join(parts)
 
     def handle(self, task: str) -> dict:
