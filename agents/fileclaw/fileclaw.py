@@ -68,7 +68,7 @@ class FileClawCore:
         # Deep analysis with AI
         if self.llm and file_type in ['document', 'code', 'data']:
             try:
-                content = path.read_text(encoding='utf-8', errors='ignore')[:2000]
+                content = path.read_text(encoding='utf-8', errors='ignore')
                 prompt = f"""Analyze this {file_type} file:
 
 Filename: {path.name}
@@ -208,7 +208,7 @@ Keep it brief and practical."""
         """Calculate file hash"""
         try:
             with open(path, 'rb') as f:
-                return hashlib.md5(f.read(1024*1024)).hexdigest()[:16]
+                return hashlib.md5(f.read(1024*1024)).hexdigest()
         except:
             return 'N/A'
 
@@ -248,18 +248,18 @@ class FileClawAgent(BaseAgent):
         
         output = f"""
 +------------------------------------------------------------------+
-¦  FILE ANALYSIS: {result['name']}
+Â¦  FILE ANALYSIS: {result['name']}
 +------------------------------------------------------------------+
 
 ?? BASIC INFO:
-   • Type: {result['type']}
-   • Size: {result['size_mb']} MB
-   • Modified: {result['modified'][:16]}
-   • Hash: {result['hash']}
+   Â• Type: {result['type']}
+   Â• Size: {result['size_mb']} MB
+   Â• Modified: {result['modified']}
+   Â• Hash: {result['hash']}
 
 """
         if 'ai_analysis' in result:
-            output += f"?? AI INSIGHTS:\n{result['ai_analysis'][:500]}\n"
+            output += f"?? AI INSIGHTS:\n{result['ai_analysis']}\n"
         
         output += "\n?? Use /convert to change format, /batch for multiple files"
         return output
@@ -286,7 +286,7 @@ class FileClawAgent(BaseAgent):
         
         output = f"""
 +------------------------------------------------------------------+
-¦  BATCH PROCESSING: {Path(result['directory']).name}
+Â¦  BATCH PROCESSING: {Path(result['directory']).name}
 +------------------------------------------------------------------+
 
 ?? Total files: {result['total_files']}
@@ -295,9 +295,9 @@ class FileClawAgent(BaseAgent):
 
 {'-' * 50}
 """
-        for r in result['results'][:10]:
+        for r in result['results']:
             if isinstance(r, dict):
-                output += f"  • {r.get('name', 'unknown')} ({r.get('type', '?')}, {r.get('size', 0)} MB)\n"
+                output += f"  Â• {r.get('name', 'unknown')} ({r.get('type', '?')}, {r.get('size', 0)} MB)\n"
         
         return output
     
@@ -316,8 +316,8 @@ class FileClawAgent(BaseAgent):
         output = f"?? FOUND {len(results)} FILES:\n"
         for r in results:
             size_mb = r.get('size', 0) / (1024 * 1024)
-            output += f"  • {r['name']} ({size_mb:.2f} MB)\n"
-            output += f"    {r['path'][:80]}\n"
+            output += f"  Â• {r['name']} ({size_mb:.2f} MB)\n"
+            output += f"    {r['path']}\n"
         
         return output
     
@@ -334,7 +334,7 @@ class FileClawAgent(BaseAgent):
 ?? {result['name']}
    Type: {result['type']}
    Size: {result['size_mb']} MB
-   Modified: {result['modified'][:16]}
+   Modified: {result['modified']}
    Path: {result['path']}
 """
     
@@ -359,25 +359,25 @@ class FileClawAgent(BaseAgent):
     def _help(self):
         return """
 +------------------------------------------------------------------+
-¦  FILECLAW - Intelligent File Management Agent                    ¦
-¦------------------------------------------------------------------¦
-¦                                                                  ¦
-¦  COMMANDS:                                                       ¦
-¦    /analyze <file>     - AI-powered file analysis               ¦
-¦    /convert <in> <out> - Convert between formats                ¦
-¦    /batch <dir> <op>   - Batch process directory                ¦
-¦    /find <query>       - Find files by name/type                ¦
-¦    /info <file>        - Quick file info                        ¦
-¦                                                                  ¦
-¦  SUPPORTED FORMATS: 50+ file types across 8 categories          ¦
-¦  AI INTEGRATION:    Uses LLM for deep file analysis             ¦
-¦                                                                  ¦
-¦  EXAMPLES:                                                      ¦
-¦    /analyze contract.pdf                                        ¦
-¦    /convert data.csv json                                       ¦
-¦    /batch ./docs analyze                                        ¦
-¦    /find type:image                                             ¦
-¦                                                                  ¦
+Â¦  FILECLAW - Intelligent File Management Agent                    Â¦
+Â¦------------------------------------------------------------------Â¦
+Â¦                                                                  Â¦
+Â¦  COMMANDS:                                                       Â¦
+Â¦    /analyze <file>     - AI-powered file analysis               Â¦
+Â¦    /convert <in> <out> - Convert between formats                Â¦
+Â¦    /batch <dir> <op>   - Batch process directory                Â¦
+Â¦    /find <query>       - Find files by name/type                Â¦
+Â¦    /info <file>        - Quick file info                        Â¦
+Â¦                                                                  Â¦
+Â¦  SUPPORTED FORMATS: 50+ file types across 8 categories          Â¦
+Â¦  AI INTEGRATION:    Uses LLM for deep file analysis             Â¦
+Â¦                                                                  Â¦
+Â¦  EXAMPLES:                                                      Â¦
+Â¦    /analyze contract.pdf                                        Â¦
+Â¦    /convert data.csv json                                       Â¦
+Â¦    /batch ./docs analyze                                        Â¦
+Â¦    /find type:image                                             Â¦
+Â¦                                                                  Â¦
 +------------------------------------------------------------------+"""
 
 def main():

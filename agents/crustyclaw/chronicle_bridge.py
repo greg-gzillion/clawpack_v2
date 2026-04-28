@@ -28,7 +28,7 @@ class ChronicleBridge:
         except Exception as e:
             print(f"?? DataClaw not available: {e}", file=sys.stderr)
     
-    def search(self, query, source="both", limit=10):
+    def search(self, query, source="both", limit=2000000):
         results = []
         if source in ["webclaw", "both"] and self.webclaw:
             try:
@@ -38,7 +38,7 @@ class ChronicleBridge:
                     results.append({
                         'url': getattr(r, 'url', str(r)),
                         'source': 'webclaw',
-                        'context': getattr(r, 'context', '')[:100]
+                        'context': getattr(r, 'context', '')
                     })
             except:
                 pass
@@ -78,4 +78,4 @@ if __name__ == "__main__":
     results = bridge.search("rust code", "both", 5)
     print(f"\nSearch results: {len(results)} found")
     for r in results:
-        print(f"  • {r['url'][:60]}... ({r['source']})")
+        print(f"  Â• {r['url']}... ({r['source']})")

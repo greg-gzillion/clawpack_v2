@@ -165,9 +165,9 @@ class MediaImporter:
             if item.get('type') == 'image':
                 doc_content += f"\n\n## Image: {Path(item['original']).stem}\n\n{item['markdown']}\n"
             elif item.get('type') == 'chart' and item.get('data'):
-                doc_content += f"\n\n## Chart: {Path(item['original']).stem}\n\n```json\n{str(item['data'][:3])}\n```\n"
+                doc_content += f"\n\n## Chart: {Path(item['original']).stem}\n\n```json\n{str(item['data'])}\n```\n"
             elif item.get('type') == 'graph':
-                doc_content += f"\n\n## Graph: {Path(item['original']).stem}\n\n```{item['format'].lower()}\n{item['content'][:500]}\n```\n"
+                doc_content += f"\n\n## Graph: {Path(item['original']).stem}\n\n```{item['format'].lower()}\n{item['content']}\n```\n"
         
         return doc_content
 
