@@ -59,11 +59,11 @@ class BaseAgent:
         return self.state.get(key)
 
     # ---- WebClaw - SQLite index search ----
-    def search_web(self, query: str, max_results: int = 5) -> str:
+    def search_web(self, query: str, max_results: int = 10) -> str:
         """Search WebClaw's SQLite index (1.5M terms)"""
         return self.webclaw.search_with_context(query, max_results)
 
-    def search_web_raw(self, query: str, max_results: int = 10) -> str:
+    def search_web_raw(self, query: str, max_results: int = 20) -> str:
         """Search WebClaw without context snippets"""
         return self.webclaw.search(query, max_results)
 
@@ -89,12 +89,13 @@ class BaseAgent:
                     if r2.status_code == 200:
                         result = r2.json().get("result", "")
                         if result and len(result) > 20:
-                            return "[Shared Knowledge]\n" + result[:1000]
+                            return "[Shared Knowledge]\n" + result
         except:
             pass
         return ""
 
     def call_agent(self, agent_name: str, task: str, timeout: int = 120) -> str:
+        """Call another agent through A2A. Returns full response with no truncation."""
         try:
             r = requests.post(
                 f'{self.A2A}/v1/message/{agent_name}',
@@ -108,6 +109,7 @@ class BaseAgent:
         return ''
 
     def _gather_all_context(self, query=""):
+        """Gather context from all specialists. No truncation."""
         parts = []
         agents = [
             ("webclaw", f"search {query}"),
@@ -127,53 +129,59 @@ class BaseAgent:
             try:
                 result = self.call_agent(name, task, timeout=10)
                 if result and len(result) > 20:
-                    parts.append(name + ": " + result[:400])
+                    parts.append(f"[{name}]: {result}")
             except:
                 pass
-        return " | ".join(parts) if parts else ""
-
-    def _gather_all_context(self, query=""):
-        parts = []
-        agents = [
-            ("webclaw", f"search {query}"),
-            ("dataclaw", f"search {query}"),
-            ("fileclaw", f"context {query}"),
-            ("lawclaw", f"/ask {query}"),
-            ("mediclaw", f"/med {query}"),
-            ("txclaw", f"/search {query}"),
-            ("claw_coder", f"/explain {query}"),
-            ("crustyclaw", f"/explain {query}"),
-            ("interpretclaw", f"/detect {query}"),
-            ("flowclaw", f"/flowchart {query}"),
-            ("plotclaw", f"/plot {query}"),
-            ("mathematicaclaw", f"/solve {query}"),
-        ]
-        for name, task in agents:
-            try:
-                result = self.call_agent(name, task, timeout=10)
-                if result and len(result) > 20:
-                    parts.append(name + ": " + result[:400])
-            except:
-                pass
-        # Search chronicle index (35K URLs)
+        
+        # Search chronicle index - no truncation
         try:
-            chronicle_results = self.search_chronicle(query, limit=5)
+            chronicle_results = self.search_chronicle(query, limit=10)
             if chronicle_results:
-                chronicle_ctx = " | ".join([c.url for c in chronicle_results[:5] if hasattr(c, "url")])
-                if chronicle_ctx:
-                    parts.append("chronicle: " + chronicle_ctx[:500])
+                ctx_parts = []
+                for c in chronicle_results:
+                    if isinstance(c, dict):
+                        ctx = c.get('context', '') or c.get('url', '')
+                    elif hasattr(c, 'context'):
+                        ctx = getattr(c, 'context', '')
+                    else:
+                        ctx = str(c)
+                    if ctx:
+                        ctx_parts.append(ctx)
+                if ctx_parts:
+                    parts.append("[chronicle]: " + " | ".join(ctx_parts))
         except:
             pass
         
-        return " | ".join(parts) if parts else ""
+        return "\n\n".join(parts) if parts else ""
 
     def ask_llm(self, prompt: str) -> str:
-        """Call LLMClaw through A2A"""
+        """Call LLMClaw with full chronicle context. No truncation, no limits."""
         try:
+            # Search chronicle for ALL relevant context - no limit on results or content
+            context = ""
+            chronicle_results = self.search_chronicle(prompt, limit=10)
+            if chronicle_results:
+                lines = []
+                for c in chronicle_results:
+                    if isinstance(c, dict):
+                        ctx = c.get('context', '') or c.get('url', '')
+                    elif hasattr(c, 'context'):
+                        ctx = getattr(c, 'context', '')
+                    else:
+                        ctx = str(c)
+                    if ctx:
+                        lines.append(ctx)
+                if lines:
+                    context = "\n---\n".join(lines)
+            
+            full_prompt = prompt
+            if context:
+                full_prompt = f"CONTEXT (use this data to answer):\n{context}\n\nQUERY: {prompt}\n\nAnswer the query directly using all relevant data from the context above. Include names, addresses, phone numbers, descriptions, and any other details found in the context."
+            
             r = requests.post(
                 f"{self.A2A}/v1/message/llmclaw",
-                json={"task": f"/llm {prompt}"},
-                timeout=60
+                json={"task": f"/llm {full_prompt}"},
+                timeout=120
             )
             if r.status_code == 200:
                 return r.json().get("result", "")
@@ -182,14 +190,18 @@ class BaseAgent:
         return "LLMClaw unavailable"
 
     # ---- Chronicle ----
-    def search_chronicle(self, query: str, limit: int = 5) -> list:
-        """Search the chronicle ledger"""
+    def search_chronicle(self, query: str, limit: int = 10) -> list:
+        """Search the chronicle ledger. Filters by agent's domain."""
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
-            return chronicle.recover_by_context(query, limit)
+            return chronicle.recover_by_context(query, limit, source_filter=self.name)
         except:
-            return []
+            # Fallback if source_filter not supported yet
+            try:
+                return chronicle.recover_by_context(query, limit)
+            except:
+                return []
 
     def record_in_chronicle(self, url: str, context: str, source: str = None) -> None:
         """Record a URL in the chronicle ledger"""

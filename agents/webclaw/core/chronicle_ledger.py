@@ -38,25 +38,49 @@ class ChronicleLedger:
                 return c.lastrowid
             except: return 0
 
-    def recover_by_context(self, query, limit=5):
+    def recover_by_context(self, query: str, limit: int = 5, source_filter: str = None) -> List[Dict]:
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
+            # Try FTS first with source filter
             try:
-                rows = conn.execute('SELECT c.* FROM chronicle c JOIN chronicle_fts f ON c.id=f.rowid WHERE chronicle_fts MATCH ? ORDER BY rank LIMIT ?', (query, limit)).fetchall()
-                if rows: return [dict(r) for r in rows]
-            except: pass
-            like = f'%{query}%'
-            rows = conn.execute('SELECT * FROM chronicle WHERE context LIKE ? OR url LIKE ? OR source LIKE ? ORDER BY id DESC LIMIT ?', (like, like, like, limit)).fetchall()
+                if source_filter:
+                    rows = conn.execute("""
+                        SELECT c.* FROM chronicle c
+                        JOIN chronicle_fts f ON c.id = f.rowid
+                        WHERE chronicle_fts MATCH ? AND c.source LIKE ?
+                        ORDER BY rank
+                        LIMIT ?
+                    """, (query, f"%{source_filter}%", limit)).fetchall()
+                else:
+                    rows = conn.execute("""
+                        SELECT c.* FROM chronicle c
+                        JOIN chronicle_fts f ON c.id = f.rowid
+                        WHERE chronicle_fts MATCH ?
+                        ORDER BY rank
+                        LIMIT ?
+                    """, (query, limit)).fetchall()
+                if rows:
+                    return [dict(r) for r in rows]
+            except:
+                pass
+            # Fallback LIKE search with source filter
+            like = f"%{query}%"
+            if source_filter:
+                rows = conn.execute("""
+                    SELECT * FROM chronicle
+                    WHERE (context LIKE ? OR url LIKE ? OR source LIKE ?)
+                    AND source LIKE ?
+                    ORDER BY id DESC
+                    LIMIT ?
+                """, (like, like, like, f"%{source_filter}%", limit)).fetchall()
+            else:
+                rows = conn.execute("""
+                    SELECT * FROM chronicle
+                    WHERE context LIKE ? OR url LIKE ? OR source LIKE ?
+                    ORDER BY id DESC
+                    LIMIT ?
+                """, (like, like, like, limit)).fetchall()
             return [dict(r) for r in rows]
-
-    def get_stats(self):
-        with sqlite3.connect(str(self.db_path)) as conn:
-            total = conn.execute('SELECT COUNT(*) FROM chronicle').fetchone()[0]
-            unique = conn.execute('SELECT COUNT(DISTINCT url) FROM chronicle').fetchone()[0]
-            sources = {}
-            for row in conn.execute('SELECT source, COUNT(*) as cnt FROM chronicle GROUP BY source'):
-                sources[row[0]] = row[1]
-            return {'total_cards': total, 'unique_urls': unique, 'sources': sources, 'db_path': str(self.db_path)}
 
 _chronicle = None
 def get_chronicle():

@@ -1,5 +1,6 @@
-﻿"""A2A Handler for LawClaw - Law Research Agent with full inter-agent routing"""
+﻿"""A2A Handler for LawClaw - Law Research Agent with A2A + chronicle"""
 import sys
+import webbrowser
 from pathlib import Path
 
 LAWCLAW_DIR = Path(__file__).resolve().parent
@@ -13,27 +14,6 @@ class LawClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("lawclaw")
 
-    def _gather_law_context(self, query: str) -> str:
-        """Gather law research context from all relevant specialists"""
-        parts = []
-        
-        # WebClaw for case law, statutes, online legal sources
-        web = self.call_agent("webclaw", f"search law {query}", timeout=15)
-        if web:
-            parts.append(f"[WebClaw Law Sources]:\n{web[:1000]}")
-        
-        # DataClaw for local legal references
-        local = self.call_agent("dataclaw", f"search law {query}", timeout=15)
-        if local:
-            parts.append(f"[DataClaw Local References]:\n{local[:1000]}")
-        
-        # DraftClaw for document drafting assistance
-        draft = self.call_agent("draftclaw", f"context {query}", timeout=10)
-        if draft:
-            parts.append(f"[DraftClaw Templates]:\n{draft[:500]}")
-        
-        return "\n\n".join(parts)
-
     def handle(self, task: str) -> dict:
         self.track_interaction()
         task = task.strip()
@@ -41,30 +21,38 @@ class LawClawAgent(BaseAgent):
         cmd = parts[0].lower() if parts else ""
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
-
         try:
-            if cmd in ("/ask", "/case", "/statute", "/contract") and query:
-                context = self._gather_law_context(query)
-                result = self.ask_llm(f"Law research for: {query}\n\nResearch context:\n{context}")
-                
-                # Export via FileClaw
-                export = self.call_agent("fileclaw", f"/export md LawClaw Analysis: {query}\n\n{result[:500]}")
-                if export:
-                    result = f"{export}\n\n{result}"
-                    
-            elif cmd == "/draft" and query:
-                # Delegate to DraftClaw for document drafting
-                draft_result = self.call_agent("draftclaw", f"/draft {query}", timeout=30)
-                result = draft_result if draft_result else self.ask_llm(f"Draft law document: {query}")
-                
-            elif cmd == "/help":
-                result = "LawClaw - Law Research Agent with specialists\n  /ask /case /statute /contract /draft /help /stats\n  Uses: WebClaw + DataClaw + DraftClaw -> LLMClaw -> FileClaw"
+            if cmd in ("/help", "help"):
+                result = "LawClaw - /ask /case /statute /contract /court /open /draft /help /stats"
             elif cmd == "/stats":
-                result = f"LawClaw | Law Research | Interactions: {self.state.get('interactions', 0)}"
+                result = f"LawClaw | Interactions: {self.state.get('interactions', 0)}"
+            elif cmd == "/court" and query:
+                result = self.ask_llm(query)
+                results = self.search_chronicle(query, limit=5)
+                for c in results:
+                    u = c.get('url') if isinstance(c, dict) else None
+                    if u and isinstance(u, str) and u.startswith('http'):
+                        webbrowser.open(u, new=2)
+                        result = f"[Opened: {u}]\n\n{result}"
+                        break
+            elif cmd == "/open" and query:
+                results = self.search_chronicle(query, limit=5)
+                for c in results:
+                    u = c.get('url') if isinstance(c, dict) else None
+                    if u and isinstance(u, str) and u.startswith('http'):
+                        webbrowser.open(u, new=2)
+                        result = f"Opened: {u}"
+                        break
+                else:
+                    result = f"No URL for: {query}"
+            elif cmd in ("/ask", "/case", "/statute", "/contract") and query:
+                result = self.ask_llm(query)
+            elif cmd == "/draft" and query:
+                result = self.call_agent("draftclaw", f"/draft {query}", timeout=30)
+            elif query:
+                result = self.ask_llm(query)
             else:
-                context = self._gather_law_context(query)
-                result = self.ask_llm(f"Law research: {query}\n\nContext:\n{context}")
-
+                result = "Type /help for commands"
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}

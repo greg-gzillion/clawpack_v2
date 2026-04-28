@@ -19,11 +19,11 @@ class MedicalEngine:
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
-            results = chronicle.recover_by_context(query, limit=5)
+            results = chronicle.recover_by_context(query, limit=100)
             if results:
                 lines = []
                 for r in results:
-                    lines.append(f"Source: {r['url']}\nContext: {r['context'][:300]}")
+                    lines.append(f"Source: {r['url']}\nContext: {r['context'][:50000]}")
                 return "\n\n".join(lines)
         except:
             pass
