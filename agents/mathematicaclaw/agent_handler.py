@@ -91,7 +91,8 @@ class MathematicaClawAgent(BaseAgent):
             elif cmd in ("/matrix", "matrix") and query:
                 try:
                     import sympy as sp
-                    mat = sp.Matrix(eval(query))
+                    import ast
+                    mat = sp.Matrix(ast.literal_eval(query))
                     det = mat.det()
                     rref = mat.rref()[0]
                     eigenvalues = mat.eigenvals()
