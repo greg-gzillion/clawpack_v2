@@ -1,50 +1,63 @@
-"""A2A Handler for DocuClaw - Document Generator via FileClaw + WebClaw + LLMClaw"""
+"""A2A Handler for DocuClaw - Document Generator with A2A routing"""
 import sys, os
 from pathlib import Path
 from datetime import datetime
 
 DOCUCLAW_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = DOCUCLAW_DIR.parent.parent
-LLMCLAW_DIR = PROJECT_ROOT / "agents" / "llmclaw"
+EXPORTS = PROJECT_ROOT / "exports"
+TEMPLATES_DIR = DOCUCLAW_DIR / "templates"
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DOCUCLAW_DIR))
-sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
-from shared.security import InputSanitizer
-from commands.llm_enhanced import run as llm_run
 
 class DocuClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("docuclaw")
 
-    def _gather_context(self, query=""):
-        parts = []
-        web = self.call_agent("webclaw", f"search {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web)
-        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data)
-                # Search chronicle index
-        chronicle_results = self.search_chronicle(query, limit=2000000)
-        if chronicle_results:
-            for c in chronicle_results:
-                if hasattr(c, "url"):
-                    parts.append(c.url)
+    def _list_exports(self, filter_ext=None):
+        """List exported files, newest first."""
+        if not EXPORTS.exists():
+            return "No exports found."
+        files = sorted(EXPORTS.iterdir(), key=lambda f: f.stat().st_mtime, reverse=True)
+        if filter_ext:
+            files = [f for f in files if f.suffix == f".{filter_ext}"]
+        if not files:
+            return "No exports found."
+        lines = []
+        for f in files[:20]:
+            size = f.stat().st_size
+            ts = datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
+            lines.append(f"  {f.name} ({size:,} bytes) - {ts}")
+        return "\n".join(lines)
 
-        return "\n".join(parts)
-
-    def _call_llm(self, prompt, context=""):
-        if context:
-            prompt = "Reference context:\n" + context + "\n\n" + prompt
-        result = llm_run(prompt)
-        return result if result and not result.startswith("Error:") else "Document generation failed"
+    def _list_templates(self, category=None):
+        """List available templates."""
+        if not TEMPLATES_DIR.exists():
+            return "No templates found."
+        categories = {}
+        for d in TEMPLATES_DIR.iterdir():
+            if d.is_dir():
+                files = list(d.glob("*"))
+                if files:
+                    categories[d.name] = [f.stem.replace("_", " ").title() for f in files]
+        
+        if category and category in categories:
+            return f"Templates: {category}\n" + "\n".join(f"  - {t}" for t in categories[category])
+        
+        result = ["Available Template Categories:"]
+        for cat, temps in sorted(categories.items()):
+            result.append(f"\n  {cat}/ ({len(temps)} templates)")
+            for t in temps[:5]:
+                result.append(f"    - {t}")
+        return "\n".join(result)
 
     def _to_table(self, content, fmt):
-        # Convert markdown content to tabular format for spreadsheet exports
+        """Convert markdown content to tabular format for spreadsheet exports"""
         if fmt in ("xlsx", "csv"):
-            lines = content.split(chr(10))
+            lines = content.split('\n')
             rows = [{"Section": "Content", "Text": content}]
-            # Try to parse markdown sections into rows
             current_section = "Header"
             current_text = ""
             for line in lines:
@@ -64,41 +77,34 @@ class DocuClawAgent(BaseAgent):
     def _fileclaw_export(self, fmt, content):
         """Delegate to FileClaw for all format exports"""
         try:
-            # Strip emojis and non-latin1 chars for PDF (fpdf limitation)
             if fmt == "pdf":
                 content = content.encode("latin-1", errors="replace").decode("latin-1")
-            # Escape special chars for JSON-safe A2A transport
             content = self._to_table(content, fmt)
-            safe_content = content.replace(chr(10), "\n").replace('"', '\"')
+            safe_content = content.replace('\n', '\\n').replace('"', '\\"')
             result = self.call_agent("fileclaw", f"/export {fmt} {safe_content}")
             if result:
                 return result
         except:
             pass
-        # Fallback: save directly
-        from pathlib import Path
-        p = PROJECT_ROOT / "exports"
-        p.mkdir(exist_ok=True)
+        EXPORTS.mkdir(exist_ok=True)
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-        fn = p / f"docuclaw_{ts}.{fmt}"
+        fn = EXPORTS / f"docuclaw_{ts}.{fmt}"
         fn.write_text(content, encoding="utf-8")
-        os.startfile(str(fn))
         return f"Saved locally: {fn.name}"
 
     def _fileclaw_import(self, filepath):
-        """Delegate to FileClaw for all format imports"""
+        """Import file via FileClaw or read directly"""
         try:
-            safe_path = filepath.replace(chr(92), "/")
+            safe_path = filepath.replace("\\", "/")
             result = self.call_agent("fileclaw", f"/import {safe_path}")
             if result:
                 return result
         except:
             pass
-        # Fallback: read directly
         try:
             return Path(filepath).read_text(encoding="utf-8", errors="replace")
         except:
-            return f"Cannot read: {filepath}"
+            return None
 
     def handle(self, task):
         self.track_interaction()
@@ -107,25 +113,56 @@ class DocuClawAgent(BaseAgent):
         cmd = parts[0].lower() if parts else ""
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
-        try:
-            ctx = ""
-            try: ctx = self._gather_context(query)
-            except: pass
 
+        try:
             # Document generation
             if cmd in ("/create", "/letter", "/report", "/memo", "/resume", "/proposal") and query:
                 doc_type = cmd.replace("/", "")
-                fmt = args.split()[-1] if args.split()[-1] in ("pdf","docx","html","md","txt","json","csv","yaml","xml","rtf","pptx","xlsx") else "md"
-                content = self._call_llm(f"Create a professional {doc_type} in Markdown format for: {query}", ctx)
+                parts2 = query.rsplit(" ", 1)
+                fmt = parts2[-1] if len(parts2) > 1 and parts2[-1] in (
+                    "pdf","docx","html","md","txt","json","csv","yaml","xml","rtf","pptx","xlsx"
+                ) else "md"
+                if fmt == parts2[-1] and len(parts2) > 1:
+                    query = parts2[0]
+                
+                content = self.ask_llm(
+                    f"Create a professional {doc_type} in Markdown format. Include proper formatting, headings, and structure.\n\nTopic: {query}"
+                )
                 export_result = self._fileclaw_export(fmt, content)
                 result = f"{export_result}\n\n{content}"
 
-            # Import any file via FileClaw
+            # List exports
+            elif cmd in ("/exports", "/list") and args:
+                result = self._list_exports(args)
+            elif cmd in ("/exports", "/list"):
+                result = self._list_exports()
+
+            # List templates
+            elif cmd in ("/templates", "/template"):
+                category = args if args else None
+                result = self._list_templates(category)
+
+            # Use a template
+            elif cmd == "/usetemplate" and args:
+                parts2 = args.split(maxsplit=1)
+                cat = parts2[0]
+                name = parts2[1] if len(parts2) > 1 else ""
+                template_path = TEMPLATES_DIR / cat / f"{name}.md" if name else None
+                if template_path and template_path.exists():
+                    content = template_path.read_text(encoding="utf-8")
+                    result = f"Template loaded: {cat}/{name}\n\n{content}"
+                else:
+                    result = f"Template not found: {cat}/{name}\n\n" + self._list_templates(cat)
+
+            # Import file
             elif cmd == "/import" and args:
                 content = self._fileclaw_import(args)
-                result = f"Imported: {args}\n\n{content}"
+                if content:
+                    result = f"Imported: {args}\n\n{content}"
+                else:
+                    result = f"File not found: {args}\n\nTry /list to see available files"
 
-            # Export content in any format via FileClaw
+            # Export content
             elif cmd == "/export" and args:
                 parts2 = args.split(maxsplit=1)
                 fmt = parts2[0]
@@ -133,36 +170,81 @@ class DocuClawAgent(BaseAgent):
                 if content:
                     result = self._fileclaw_export(fmt, content)
                 else:
-                    result = "Usage: /export <format> <content>"
+                    result = "Usage: /export pdf <content>"
 
-                        # Translate document via InterpretClaw
+            # Convert file between formats
+            elif cmd == "/convert" and args:
+                parts2 = args.split(maxsplit=2)
+                if len(parts2) >= 2:
+                    target_fmt = parts2[0]
+                    filepath = parts2[1]
+                    content = self._fileclaw_import(filepath)
+                    if content:
+                        export_result = self._fileclaw_export(target_fmt, content)
+                        result = f"Converted {filepath} to {target_fmt}:\n{export_result}"
+                    else:
+                        result = f"Cannot read: {filepath}"
+                else:
+                    result = "Usage: /convert pdf README.md"
+
+            # Combine multiple files
+            elif cmd == "/combine" and args:
+                files = args.split()
+                combined = []
+                for f in files:
+                    content = self._fileclaw_import(f)
+                    if content:
+                        combined.append(f"---\n## From: {f}\n\n{content}")
+                    else:
+                        combined.append(f"---\n## From: {f}\n\n[Could not read file]")
+                
+                full_content = "\n\n".join(combined)
+                export_result = self._fileclaw_export("md", full_content)
+                result = f"Combined {len(files)} files:\n{export_result}\n\n{full_content[:1000]}..."
+
+            # Translate via InterpretClaw
             elif cmd == "/translate" and args:
                 parts2 = args.split(maxsplit=1)
                 lang = parts2[0]
                 text = parts2[1] if len(parts2) > 1 else ""
                 if text:
-                    try:
-                        result = self.call_agent("interpretclaw", f"/translate {text} to {lang}")
-                        if result:
-                            translated = result.replace("Exported:", "").strip()
-                            # Save translated version
-                            fmt = "md"
-                            fn = self._fileclaw_export(fmt, translated).replace("Exported: ", "")
-                            result = f"Translated to {lang}: {fn}\n\n{translated}"
-                        else:
-                            result = f"Translation failed: {r.status_code}"
-                    except Exception as e:
-                        result = f"Translation error: {e}"
+                    translated = self.call_agent("interpretclaw", f"/translate {text} to {lang}")
+                    if translated:
+                        clean = translated.replace("Exported:", "").strip()
+                        export_fn = self._fileclaw_export("md", clean)
+                        result = f"Translated to {lang}: {export_fn}\n\n{clean}"
+                    else:
+                        result = "Translation failed"
                 else:
-                    result = "Usage: /translate <lang_code> <text>\nExample: /translate es Hello world"
+                    result = "Usage: /translate fr <text>"
+
+            # Help
             elif cmd == "/help":
-                result = "DocuClaw - Universal Document Generator via FileClaw\n\n  GENERATE + AUTO-SAVE:\n    /letter <topic> [format]\n    /report <topic> [format]\n    /memo <topic> [format]\n    /resume <topic> [format]\n    /proposal <topic> [format]\n    /create <topic> [format]\n\n  IMPORT (via FileClaw):\n    /import <filepath>\n\n  EXPORT (via FileClaw):\n    /export <format> <content>\n\n  SUPPORTED FORMATS (21):\n    Documents:  pdf, docx, rtf, md, html, txt\n    Office:     xlsx, pptx\n    Data:       json, csv, yaml, toml, xml, ini\n    Images:     png, jpg, bmp, gif, tiff, webp\n    Vector:     svg\n    Archive:    zip"
+                result = """DocuClaw - Universal Document Generator
+  CREATE:     /create /letter /report /memo /resume /proposal
+  IMPORT:     /import <filepath>
+  EXPORT:     /export <format> <content>
+  CONVERT:    /convert <format> <filepath>
+  COMBINE:    /combine <file1> <file2> ...
+  TRANSLATE:  /translate <lang> <text>
+  TEMPLATES:  /templates [category]  |  /usetemplate <cat> <name>
+  LIST:       /list [format]
+
+  Formats (21): pdf, docx, rtf, md, html, txt, xlsx, pptx,
+                json, csv, yaml, toml, xml, ini,
+                png, jpg, bmp, gif, tiff, webp, svg, zip"""
+
             elif cmd == "/stats":
-                result = f"DocuClaw | FileClaw + WebClaw + LLMClaw | Interactions: {self.state.get('interactions', 0)}"
-            else:
-                content = self._call_llm(f"Create a document: {query}", ctx)
+                result = f"DocuClaw | 21 Formats | FileClaw + InterpretClaw | Interactions: {self.state.get('interactions', 0)}"
+
+            # Fallback: any text becomes a document
+            elif query:
+                content = self.ask_llm(f"Create a well-formatted Markdown document:\n\n{query}")
                 export_result = self._fileclaw_export("md", content)
                 result = f"{export_result}\n\n{content}"
+            else:
+                result = "Type /help for commands"
+
             return {"status": "success", "result": str(result)}
         except Exception as e:
             return {"status": "error", "result": str(e)}
