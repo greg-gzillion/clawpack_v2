@@ -1,5 +1,5 @@
-﻿name: Constitutional Enforcement
-#
+name: Constitutional Enforcement
+
 on:
   pull_request:
     branches: [main]
@@ -11,13 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-            - name: Install dependencies
-        run: pip install requests aiohttp
+      
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          
+      
+      - name: Install dependencies
+        run: pip install requests aiohttp
       
       - name: Forbidden Import Scan
         run: |
@@ -51,7 +52,8 @@ jobs:
                   for p, m in SECRETS:
                       if re.search(p, c):
                           violations.append(f'{f}: {m}')
-              except: pass
+              except Exception as e:
+                  violations.append(f'{f}: scan failure - {str(e)}')
           if violations:
               for v in violations: print(v)
               sys.exit(1)
