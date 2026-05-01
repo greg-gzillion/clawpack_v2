@@ -21,6 +21,7 @@ def _load_mod(name):
 _solve_mod = _load_mod("solve")
 _algebra_mod = _load_mod("algebra")
 _calculus_mod = _load_mod("calculus")
+from handlers.calculus import proof as _proof_func
 _plot_mod = _load_mod("plot")
 _animate_mod = _load_mod("animate")
 _arithmetic_mod = _load_mod("arithmetic")
@@ -61,6 +62,9 @@ class MathematicaClawAgent(BaseAgent):
                 result = _calculus_mod.integral(query)
             elif cmd in ("/limit", "limit") and query:
                 result = _calculus_mod.limit(query)
+            elif cmd in ("/proof", "proof") and query:
+                from handlers.calculus import proof
+                result = proof(query)
             
             # ---- Systems & Matrices ----
             elif cmd in ("/system", "system") and query:
