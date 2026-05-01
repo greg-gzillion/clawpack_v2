@@ -1,7 +1,4 @@
-"""Build and display various types of graphs"""
-import matplotlib
-matplotlib.use("Agg")
-import os
+﻿"""Build and display various types of graphs"""
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import Tuple
@@ -24,13 +21,11 @@ class GraphBuilder:
             ax.set_title(f'Polar Plot: r = {expression}')
             ax.grid(True)
             
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
-            return f"✅ Polar plot displayed"
+            return f"Γ£à Polar plot displayed"
         except Exception as e:
-            return f"❌ Error: {str(e)}"
+            return f"Γ¥î Error: {str(e)}"
     
     @staticmethod
     def parametric_plot(x_expr: str, y_expr: str, t_range: Tuple[float, float] = (0, 2*np.pi)):
@@ -48,13 +43,11 @@ os.startfile("exports/temp_plot.png")
             plt.grid(True, alpha=0.3)
             plt.axis('equal')
             
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
-            return f"✅ Parametric plot displayed"
+            return f"Γ£à Parametric plot displayed"
         except Exception as e:
-            return f"❌ Error: {str(e)}"
+            return f"Γ¥î Error: {str(e)}"
     
     @staticmethod
     def contour_plot(expression: str, x_range: Tuple[float, float] = (-5, 5),
@@ -76,13 +69,11 @@ os.startfile("exports/temp_plot.png")
             plt.title(f'Contour Plot: {expression}')
             plt.grid(True, alpha=0.3)
             
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
-            return f"✅ Contour plot displayed"
+            return f"Γ£à Contour plot displayed"
         except Exception as e:
-            return f"❌ Error: {str(e)}"
+            return f"Γ¥î Error: {str(e)}"
     
     @staticmethod
     def histogram(data: list, bins: int = 30, title: str = "Histogram"):
@@ -95,10 +86,8 @@ os.startfile("exports/temp_plot.png")
             plt.title(title)
             plt.grid(True, alpha=0.3)
             
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
-            return f"✅ Histogram displayed"
+            return f"Γ£à Histogram displayed"
         except Exception as e:
-            return f"❌ Error: {str(e)}"
+            return f"Γ¥î Error: {str(e)}"

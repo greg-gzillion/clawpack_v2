@@ -1,6 +1,4 @@
-"""Handles mathematical plotting with pop-up windows"""
-import matplotlib
-matplotlib.use("Agg")
+﻿"""Handles mathematical plotting with pop-up windows"""
 import matplotlib.pyplot as plt
 import numpy as np
 import sympy as sp
@@ -62,15 +60,13 @@ class Plotter:
             plt.xlim(x_range[0], x_range[1])
             
             # Show the plot in a pop-up window
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
             
-            return f"✅ Plot of '{expression}' displayed"
+            return f"Γ£à Plot of '{expression}' displayed"
             
         except Exception as e:
-            return f"❌ Plot error: {str(e)}"
+            return f"Γ¥î Plot error: {str(e)}"
     
     @staticmethod
     def plot_multiple(expressions: list, x_range: Tuple[float, float] = (-10, 10),
@@ -104,15 +100,13 @@ os.startfile("exports/temp_plot.png")
             plt.axvline(x=0, color='k', linewidth=0.5)
             plt.xlim(x_range[0], x_range[1])
             
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
             
-            return f"✅ Displayed {len(expressions)} plots"
+            return f"Γ£à Displayed {len(expressions)} plots"
             
         except Exception as e:
-            return f"❌ Error: {str(e)}"
+            return f"Γ¥î Error: {str(e)}"
     
     @staticmethod
     def plot_with_points(expression: str, points: list, 
@@ -145,12 +139,10 @@ os.startfile("exports/temp_plot.png")
             plt.title(f'{expression} with highlighted points', fontsize=14, fontweight='bold')
             plt.legend(loc='best')
             
-            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
-plt.close()
-os.startfile("exports/temp_plot.png")
+            plt.show(block=True)
             plt.close()
             
-            return f"✅ Plot with {len(points)} points displayed"
+            return f"Γ£à Plot with {len(points)} points displayed"
             
         except Exception as e:
-            return f"❌ Error: {str(e)}"
+            return f"Γ¥î Error: {str(e)}"
