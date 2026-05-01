@@ -49,7 +49,8 @@ jobs:
                   for p, m in SECRETS:
                       if re.search(p, c):
                           violations.append(f'{f}: {m}')
-              except: pass
+              except Exception as e:
+              violations.append(f"{f}: scan failure - {str(e)}")
           if violations:
               for v in violations: print(v)
               sys.exit(1)
