@@ -24,6 +24,7 @@ def run(prompt):
         try:
             if name == "groq": result = _ask_groq(prompt, model, timeout)
             elif name == "ollama": result = _ask_ollama(prompt, model, timeout)
+            elif name == "direct_model": result = _ask_direct(prompt, model, timeout)
             elif name == "openrouter": result = _ask_openrouter(prompt, model, timeout)
             elif name == "anthropic": result = _ask_anthropic(prompt, model, timeout)
             else: continue
@@ -36,6 +37,15 @@ def run(prompt):
             print(f"[llmclaw] {name} error: {str(e)[:50]}")
             continue
     return "Error: All providers failed"
+
+def _ask_direct(prompt, model, timeout):
+    """Use direct model provider for obliterated models."""
+    try:
+        from shared.llm.providers.direct_model import generate
+        return generate(prompt, model, max_tokens=512)
+    except Exception as e:
+        print(f"[llmclaw] Direct model error: {e}")
+        return None
 
 def _ask_ollama(prompt, model, timeout):
     response = requests.post("http://localhost:11434/api/generate", json={"model": model, "prompt": prompt, "stream": False}, timeout=timeout)
