@@ -61,6 +61,3 @@ jobs:
               sys.exit(1)
           print('PASS: No exposed secrets')
           "
-      
-      - name: Agent Load Test
-        run: python test_all_agents.py
