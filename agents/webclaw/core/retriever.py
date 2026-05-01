@@ -14,19 +14,7 @@ from collections import Counter
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 DB_PATH = PROJECT_ROOT / "data" / "chronicle.db"
 
-SOURCE_WEIGHTS = {
-    "law.cornell.edu": 1.0, "supremecourt.gov": 1.0, "justice.gov": 1.0,
-    "nih.gov": 0.95, "cdc.gov": 0.95, "who.int": 0.95,
-    "arxiv.org": 0.9, "github.com": 0.8, "wikipedia.org": 0.75,
-    "stackoverflow.com": 0.7, "medium.com": 0.5, "reddit.com": 0.3,
-    "DEFAULT": 0.6,
-}
-
-def get_source_weight(url: str) -> float:
-    for domain, weight in SOURCE_WEIGHTS.items():
-        if domain in url:
-            return weight
-    return SOURCE_WEIGHTS["DEFAULT"]
+from shared.source_registry import get_trust as get_source_weight
 
 class BM25:
     def __init__(self, k1=1.5, b=0.75):
