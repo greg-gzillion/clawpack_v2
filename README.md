@@ -21,6 +21,13 @@ Every agent inherits these through shared/. No agent works alone.
 | **Imperial Documents** | shared/files/ | File format conversion. 52 extensions, 8 categories. Batch operations. |
 | **DocuClaw API** | shared/docuclaw_api.py | Document creation for all agents. Any agent → DocuClaw for documents. |
 | **Agent Registry** | shared/registry.py | 14 agents registered. Capability map. Delegation routing. |
+| **Truth Resolver** | shared/truth_resolver.py | Epistemic constitution. web_verified > chronicle > memory > inference. |
+| **Source Registry** | shared/source_registry.py | 40+ trusted sources. 4 tiers. Domain-specific overrides. |
+| **Execution Policy** | shared/execution_policy.py | Hard boundaries. Delete blocked. Shell blocked. Force push blocked. |
+| **Guarded Executor** | shared/guarded_executor.py | Only legal path for dangerous operations. Checks policy + logs to ledger. |
+| **Decision Ledger** | shared/decision_ledger.py | Tamper-evident hash chain. Cryptographically verifiable audit trail. |
+| **Import Scanner** | shared/import_scanner.py | Detects subprocess, os.system, shell=True bypass attempts. |
+| **Memory Guard** | shared/memory_guard.py | Inference never persists. Confidence must exceed 0.75 threshold. |
 
 ## 🤖 Agents (21)
 
