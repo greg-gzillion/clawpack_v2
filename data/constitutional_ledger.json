@@ -1,0 +1,18 @@
+{
+  "genesis": "9dd53bf603052ac79f7f4c1b848adc8c65600406ab151324f0ae5afda3a809b6",
+  "entries": [
+    {
+      "timestamp": "2026-05-01T06:40:16.429697+00:00",
+      "agent": "test",
+      "action": "ALLOW_DELETE",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Explicitly blocked",
+      "context": {
+        "path": "/tmp/test.txt"
+      },
+      "hash": "a3556ee30a2f2385"
+    }
+  ],
+  "version": "v1.0"
+}
