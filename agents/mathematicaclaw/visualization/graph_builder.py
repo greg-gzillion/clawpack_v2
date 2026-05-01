@@ -24,7 +24,7 @@ class GraphBuilder:
             ax.set_title(f'Polar Plot: r = {expression}')
             ax.grid(True)
             
-            path = "exports/temp_plot.png"
+            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
@@ -48,7 +48,7 @@ class GraphBuilder:
             plt.grid(True, alpha=0.3)
             plt.axis('equal')
             
-            path = "exports/temp_plot.png"
+            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
@@ -76,7 +76,7 @@ class GraphBuilder:
             plt.title(f'Contour Plot: {expression}')
             plt.grid(True, alpha=0.3)
             
-            path = "exports/temp_plot.png"
+            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
@@ -95,7 +95,7 @@ class GraphBuilder:
             plt.title(title)
             plt.grid(True, alpha=0.3)
             
-            path = "exports/temp_plot.png"
+            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
