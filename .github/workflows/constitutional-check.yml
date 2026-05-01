@@ -1,0 +1,71 @@
+﻿name: Constitutional Enforcement
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  constitutional-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Forbidden Import Scan
+        run: |
+          python -c "
+          import sys
+          sys.path.insert(0, '.')
+          from shared.import_scanner import scan_all_agents
+          r = scan_all_agents()
+          if not r['compliant']:
+              print(f'VIOLATIONS FOUND: {r[\"count\"]}')
+              for v in r['violations'][:20]:
+                  print(f'  {v[\"file\"]}:{v[\"line\"]} - {v[\"pattern\"]}')
+              sys.exit(1)
+          print(f'PASS: {r[\"count\"]} violations classified')
+          "
+      
+      - name: Secret Scan
+        run: |
+          python -c "
+          import sys, re
+          from pathlib import Path
+          SECRETS = [
+              (r'gsk_[A-Za-z0-9]{30,}', 'Groq API key'),
+              (r'sk-[A-Za-z0-9]{30,}', 'OpenAI API key'),
+          ]
+          violations = []
+          for f in Path('.').rglob('*.py'):
+              if '.git' in str(f): continue
+              try:
+                  c = f.read_text()
+                  for p, m in SECRETS:
+                      if re.search(p, c):
+                          violations.append(f'{f}: {m}')
+              except: pass
+          if violations:
+              for v in violations: print(v)
+              sys.exit(1)
+          print('PASS: No exposed secrets')
+          "
+      
+      - name: Ledger Integrity
+        run: |
+          python -c "
+          from shared.decision_ledger import DecisionLedger
+          r = DecisionLedger().verify_integrity()
+          if not r['valid']:
+              print(f'LEDGER TAMPERED: {r[\"message\"]}')
+              sys.exit(1)
+          print(f'PASS: Ledger chain intact ({r[\"entries\"]} entries)')
+          "
+      
+      - name: Agent Load Test
+        run: python test_all_agents.py
