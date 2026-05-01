@@ -1,6 +1,6 @@
 """Build and display various types of graphs"""
 import matplotlib
-matplotlib.use("wxagg")
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import Tuple
@@ -23,7 +23,9 @@ class GraphBuilder:
             ax.set_title(f'Polar Plot: r = {expression}')
             ax.grid(True)
             
-            plt.show(block=True)
+            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
+plt.close()
+os.startfile("exports/temp_plot.png")
             plt.close()
             return f"✅ Polar plot displayed"
         except Exception as e:
@@ -45,7 +47,9 @@ class GraphBuilder:
             plt.grid(True, alpha=0.3)
             plt.axis('equal')
             
-            plt.show(block=True)
+            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
+plt.close()
+os.startfile("exports/temp_plot.png")
             plt.close()
             return f"✅ Parametric plot displayed"
         except Exception as e:
@@ -71,7 +75,9 @@ class GraphBuilder:
             plt.title(f'Contour Plot: {expression}')
             plt.grid(True, alpha=0.3)
             
-            plt.show(block=True)
+            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
+plt.close()
+os.startfile("exports/temp_plot.png")
             plt.close()
             return f"✅ Contour plot displayed"
         except Exception as e:
@@ -88,7 +94,9 @@ class GraphBuilder:
             plt.title(title)
             plt.grid(True, alpha=0.3)
             
-            plt.show(block=True)
+            plt.savefig("exports/temp_plot.png", dpi=150, bbox_inches="tight")
+plt.close()
+os.startfile("exports/temp_plot.png")
             plt.close()
             return f"✅ Histogram displayed"
         except Exception as e:
