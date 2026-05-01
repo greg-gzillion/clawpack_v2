@@ -20,7 +20,19 @@ def run(args):
         parts = line.split()
         if parts: ollama_names.append(parts[0])
 
-    def make_priority_one(provider_name, model_name, ptype, note=""):
+        # Auto-append :latest for Ollama models missing a tag
+    if args in ollama_names:
+        pass  # exact match already
+    elif args + ":latest" in ollama_names:
+        args = args + ":latest"
+    elif any(m.startswith(args + ":") for m in ollama_names):
+        # Find the matching model with any tag
+        for m in ollama_names:
+            if m.startswith(args + ":"):
+                args = m
+                break
+
+def make_priority_one(provider_name, model_name, ptype, note=""):
         config["model"] = model_name
         config["source"] = provider_name
         pconfig = {"model": model_name, "priority": 1, "timeout": 60, "type": ptype}
