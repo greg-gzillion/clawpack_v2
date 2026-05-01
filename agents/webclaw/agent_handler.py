@@ -6,7 +6,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 sys.path.insert(0, str(Path(__file__).parent))
 
 from webclaw import Webclaw
-from providers.webclaw_provider import WebclawProvider
+from agents.webclaw.providers.webclaw_provider import WebclawProvider
 
 webclaw = Webclaw()
 provider = WebclawProvider()

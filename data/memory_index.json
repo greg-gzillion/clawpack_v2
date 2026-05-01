@@ -1,0 +1,45 @@
+{
+  "facts": [
+    {
+      "key": "fourth amendment exclusionary rule",
+      "value": "The exclusionary rule prohibits government use of evidence obtained in violation of the Fourth Amendment. Established in Mapp v. Ohio (1961).",
+      "agent": "lawclaw",
+      "source": "legal_research",
+      "timestamp": "2026-05-01T04:08:55.668250+00:00",
+      "hash": "376f2b489d266f87",
+      "recall_count": 1,
+      "last_recalled": "2026-05-01T04:08:55.669762+00:00"
+    },
+    {
+      "key": "habeas corpus",
+      "value": "Habeas corpus is a legal challenge to detention, a writ used to challenge unlawful imprisonment.",
+      "agent": "lawclaw",
+      "source": "legal_research",
+      "timestamp": "2026-05-01T04:08:55.669762+00:00",
+      "hash": "c6181d38af228de6",
+      "recall_count": 0,
+      "last_recalled": null
+    }
+  ],
+  "index": {
+    "fourth": [
+      "376f2b489d266f87"
+    ],
+    "amendment": [
+      "376f2b489d266f87"
+    ],
+    "exclusionary": [
+      "376f2b489d266f87"
+    ],
+    "rule": [
+      "376f2b489d266f87"
+    ],
+    "habeas": [
+      "c6181d38af228de6"
+    ],
+    "corpus": [
+      "c6181d38af228de6"
+    ]
+  },
+  "updated_at": "2026-05-01T04:08:55.669762+00:00"
+}

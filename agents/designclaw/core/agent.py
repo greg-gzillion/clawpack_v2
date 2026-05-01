@@ -7,7 +7,7 @@ root_path = Path(__file__).parent.parent.parent.parent
 if str(root_path) not in sys.path:
     sys.path.insert(0, str(root_path))
 
-from core.llm_manager import LLMManager
+from shared.llm import LLMManager
 
 class designclawCore:
     """Creative design assistant with AI"""

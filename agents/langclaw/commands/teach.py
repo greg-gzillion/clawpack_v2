@@ -10,7 +10,7 @@ def run(args):
     project_root = Path(__file__).parent.parent.parent.parent
     sys.path.insert(0, str(project_root))
     
-    from core.llm_manager import LLMManager
+    from shared.llm import LLMManager
     llm = LLMManager()
     
     prompt = f"""You are an interactive language teacher for {language}. 

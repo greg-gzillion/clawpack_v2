@@ -1,0 +1,16 @@
+{
+  "usage": {
+    "mathematicaclaw": 0.002
+  },
+  "global_budget": 50.0,
+  "agent_budgets": {
+    "claw_coder": 15.0,
+    "lawclaw": 10.0,
+    "mediclaw": 10.0,
+    "txclaw": 10.0,
+    "webclaw": 5.0,
+    "llmclaw": 25.0,
+    "default": 5.0
+  },
+  "updated_at": "2026-05-01T02:29:07.119557+00:00"
+}

@@ -57,7 +57,7 @@ Examples:
     elif cmd == "/quit":
         return "QUIT"
     else:
-        from core.llm_manager import LLMManager
+        from shared.llm import LLMManager
         llm = LLMManager()
         return llm.chat_sync(f"As a language teacher, answer: {cmd}")
 

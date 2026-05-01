@@ -16,7 +16,7 @@ class MathematicaAIAssistant:
     
     def _init_llm(self):
         try:
-            from core.llm_manager import get_llm_manager
+            from shared.llm import get_llm_client
             self.llm = get_llm_manager()
             if self.llm:
                 print("✅ LLM Connected", file=sys.stderr)
@@ -175,7 +175,7 @@ def get_chronicle():
 
 def get_llm():
     try:
-        from core.llm_manager import get_llm_manager
+        from shared.llm import get_llm_client
         return get_llm_manager()
     except:
         return None
@@ -319,7 +319,7 @@ def get_chronicle():
 
 def get_llm():
     try:
-        from core.llm_manager import get_llm_manager
+        from shared.llm import get_llm_client
         return get_llm_manager()
     except Exception as e:
         return None

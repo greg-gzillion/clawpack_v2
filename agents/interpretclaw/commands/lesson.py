@@ -10,7 +10,7 @@
     sys.path.insert(0, str(project_root))
     
     from shared.chronicle_helper import search_chronicle
-    from core.llm_manager import LLMManager
+    from shared.llm import LLMManager
     
     results = search_chronicle(args, 5)
     

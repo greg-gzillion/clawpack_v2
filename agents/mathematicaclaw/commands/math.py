@@ -15,7 +15,7 @@ def get_chronicle():
 
 def get_llm():
     try:
-        from core.llm_manager import get_llm_manager
+        from shared.llm import get_llm_client
         return get_llm_manager()
     except:
         return None

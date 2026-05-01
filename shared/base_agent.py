@@ -20,6 +20,7 @@ class BaseAgent:
         
         # Lazy-loaded providers
         self._webclaw = None
+        self._unified_memory = None  # Lazy-init unified shared memory
         self._llmclaw_available = True
 
     @property
@@ -28,6 +29,15 @@ class BaseAgent:
             from agents.webclaw.providers.webclaw_provider import WebclawProvider
             self._webclaw = WebclawProvider()
         return self._webclaw
+
+
+    @property
+    def memory(self):
+        """Unified shared memory for all agents — lazy-init singleton."""
+        if self._unified_memory is None:
+            from shared.memory.unified_memory import get_memory
+            self._unified_memory = get_memory()
+        return self._unified_memory
 
     def _load_state(self):
         if self.memory_file.exists():
@@ -214,24 +224,13 @@ class BaseAgent:
 
     # ---- Memory ----
     def learn_fact(self, fact: str):
-        data = {}
-        if self.memory_file.exists():
-            try:
-                data = json.loads(self.memory_file.read_text())
-            except:
-                pass
-        if "learned_facts" not in data:
-            data["learned_facts"] = {}
-        data["learned_facts"][fact] = {"source": self.name, "learned_at": str(datetime.now())}
-        self.memory_file.write_text(json.dumps(data, indent=2))
+        """Learn a fact into UNIFIED shared memory — all agents benefit."""
+        self.memory.learn(self.name, fact[:80], fact, source='agent_learned')
 
     def get_facts(self):
-        if self.memory_file.exists():
-            try:
-                return json.loads(self.memory_file.read_text()).get("learned_facts", {})
-            except:
-                pass
-        return {}
+        """Get facts from unified memory — cross-agent knowledge."""
+        results = self.memory.recall('', limit=50)
+        return {r['key']: r['value'] for r in results if r.get('agent') == self.name}
 
     def track_interaction(self):
         self.state["interactions"] = self.state.get("interactions", 0) + 1

@@ -19,7 +19,7 @@ def run(args):
     sys.path.insert(0, str(project_root))
     
     # Import LLM the same way lawclaw does
-    from core.llm_manager import LLMManager
+    from shared.llm import LLMManager
     llm = LLMManager()
     
     # Create prompt for translation

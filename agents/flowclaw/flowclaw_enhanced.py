@@ -17,7 +17,7 @@ class LLMIntegrator:
     def __init__(self):
         self.llm = None
         try:
-            from core.llm_manager import get_llm_manager
+            from shared.llm import get_llm_client
             self.llm = get_llm_manager()
         except:
             pass
