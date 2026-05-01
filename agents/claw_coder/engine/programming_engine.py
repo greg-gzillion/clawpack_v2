@@ -1,4 +1,8 @@
-﻿"""Programming Engine - Uses webclaw references and chronicle index"""
+﻿"""Programming Engine - Uses webclaw references and chronicle index
+   
+   CONSTITUTIONAL UPDATE: All LLM calls now route through shared/llm/client.py
+   The sovereign gateway. No direct provider access.
+"""
 import sys
 from pathlib import Path
 
@@ -6,14 +10,13 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-# Using LLMClaw via handler
 
 class ProgrammingEngine:
     def __init__(self, language: str = "python"):
         self.language = language.lower()
-        pass
         self.refs_path = PROJECT_ROOT / "agents/webclaw/references/claw_coder"
         self.chronicle = None
+        self._llm_client = None  # Sovereign gateway - initialized on first use
         self._init_chronicle()
     
     def _init_chronicle(self):
@@ -24,6 +27,15 @@ class ProgrammingEngine:
         except Exception as e:
             print(f"⚠️ Chronicle error: {e}", file=sys.stderr)
             self.chronicle = None
+    
+    @property
+    @property
+    def llm(self):
+        """THE SOVEREIGN GATEWAY - All model access passes through here."""
+        if self._llm_client is None:
+            from shared.llm import get_llm_client  # Public constitution, not internal path
+            self._llm_client = get_llm_client()
+        return self._llm_client
     
     def get_references(self, task: str) -> list:
         refs = []
@@ -74,7 +86,22 @@ Requirements:
 
 Output ONLY the {self.language} code:"""
         
-        code = self.llm.chat(prompt)
+        # THE SOVEREIGN GATEWAY
+        # Sovereignty failures are constitutional events, not silent bugs.
+        try:
+            response = self.llm.call_sync(
+                prompt=prompt,
+                agent="claw_coder",
+                capability="code_generation"
+            )
+        except Exception as e:
+            raise RuntimeError(
+                f"SOVEREIGN GATEWAY FAILURE in claw_coder: The throne is unreachable. "
+                f"No model access is possible without constitutional authority. "
+                f"Underlying error: {e}"
+            ) from e
+        
+        code = response.content
         
         if code.startswith("```"):
             lines = code.split("\n")
@@ -87,7 +114,9 @@ Output ONLY the {self.language} code:"""
             'task': task,
             'code': code.strip(),
             'references': refs,
-            'model': 'Groq' if self.llm.groq_client else 'DeepSeek-Coder'
+            'model': response.model,
+            'provider': response.provider.value,
+            'tokens': response.tokens_used,
+            'cost': response.cost,
+            'audit_hash': response.request_hash,
         }
-
-

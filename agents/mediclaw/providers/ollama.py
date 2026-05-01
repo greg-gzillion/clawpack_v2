@@ -1,33 +1,38 @@
-﻿"""Ollama Local Provider"""
+﻿"""DEPRECATED — Ollama provider for MedicLaw.
 
-import requests
-from .base import BaseProvider
-from config.settings import Config
+   CONSTITUTIONAL VIOLATION: This file maintained independent model access.
+   All calls now route through shared/llm/client.py — the sovereign gateway.
+   
+   This file exists only for backward compatibility during transition.
+   DO NOT import this directly. Use ProviderRegistry or shared.llm directly.
+"""
+import warnings
 
-class OllamaProvider(BaseProvider):
-    @property
-    def name(self) -> str:
-        return "Ollama"
+warnings.warn(
+    "mediclaw/providers/ollama.py is DEPRECATED. "
+    "All model access must route through shared/llm/client.py. "
+    "This file will be removed.",
+    DeprecationWarning,
+    stacklevel=2
+)
+
+# Delegate to sovereign gateway
+from shared.llm.client import get_llm_client
+
+class OllamaProvider:
+    """ADAPTER ONLY — Delegates to sovereign gateway."""
     
-    def is_available(self) -> bool:
-        try:
-            r = requests.get(f"{Config.OLLAMA_URL}/api/tags", timeout=2)
-            return r.status_code == 200
-        except:
-            return False
+    def __init__(self):
+        self._client = get_llm_client()
+        self.name = "ollama"
     
-    def generate(self, prompt: str) -> str:
-        if not self.is_available():
-            return None
-        
-        try:
-            response = requests.post(
-                f"{Config.OLLAMA_URL}/api/generate",
-                json={"model": Config.OLLAMA_MODEL, "prompt": prompt, "stream": False},
-                timeout=120
-            )
-            if response.status_code == 200:
-                return response.json().get("response")
-        except Exception as e:
-            print(f"   Ollama error: {e}")
-        return None
+    def is_available(self):
+        return True  # Sovereign handles actual availability
+    
+    def generate(self, prompt):
+        response = self._client.call_sync(
+            prompt=prompt,
+            agent="mediclaw",
+            capability="medical_analysis",
+        )
+        return response.content

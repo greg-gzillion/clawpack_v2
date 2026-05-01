@@ -1,30 +1,36 @@
-"""LLM-powered law case search"""
+"""LLM-powered law case search
+
+   CONSTITUTIONAL UPDATE: All model access now routes through shared/llm/client.py
+   The sovereign gateway. No direct provider access. No invisible legal queries.
+   
+   Every case law search is now audited, budgeted, and governed.
+"""
 
 import sys
 from pathlib import Path
 
-# Find the actual project root (clawpack_v2)
 _current = Path(__file__).resolve()
-_project_root = _current.parent.parent.parent.parent  # agents/lawclaw/law_search -> clawpack_v2
+_project_root = _current.parent.parent.parent.parent
 sys.path.insert(0, str(_project_root))
+
 
 class LLMLawSearcher:
     def __init__(self):
-        self.llm = None
+        self._llm = None          # Sovereign gateway - initialized on first use
         self.chronicle = None
-        self._init_llm()
         self._init_chronicle()
     
-    def _init_llm(self):
-        try:
-            from core.llm_manager import get_llm_manager
-            self.llm = get_llm_manager()
-            if self.llm and hasattr(self.llm, 'groq_client') and self.llm.groq_client:
-                print("✅ LLM (Groq) connected", file=sys.stderr)
-            else:
-                print("⚠️ LLM not available", file=sys.stderr)
-        except Exception as e:
-            print(f"⚠️ LLM error: {e}", file=sys.stderr)
+    @property
+    def llm(self):
+        """THE SOVEREIGN GATEWAY — All model access passes through here.
+        
+        No agent may speak to a model directly.
+        Every legal query is audited, budgeted, and governed.
+        """
+        if self._llm is None:
+            from shared.llm import get_llm_client
+            self._llm = get_llm_client()
+        return self._llm
     
     def _init_chronicle(self):
         try:
@@ -35,10 +41,25 @@ class LLMLawSearcher:
             print(f"⚠️ Chronicle error: {e}", file=sys.stderr)
     
     def search_case_law(self, query: str) -> str:
-        """Use LLM to search and analyze case law"""
+        """Use governed LLM access to search and analyze case law.
         
-        if not self.llm:
-            return f"⚠️ LLM not available. Please check GROQ_API_KEY in .env\n\nTry: https://scholar.google.com/scholar?q={query.replace(' ', '+')}"
+        Every query is:
+        - Routed through the sovereign gateway
+        - Logged to Chronicle with full audit metadata
+        - Subject to budget enforcement
+        - Controlled by llmclaw /use for model selection
+        """
+        
+        try:
+            available = self.llm.list_models()
+        except Exception:
+            available = []
+        
+        if not available:
+            return (
+                f"⚠️ Sovereign gateway reports no models available.\n\n"
+                f"Try: https://scholar.google.com/scholar?q={query.replace(' ', '+')}"
+            )
         
         prompt = f"""You are a legal research assistant. Analyze case law about: {query}
 
@@ -51,9 +72,24 @@ Provide:
 Be concise and accurate."""
         
         try:
-            response = self.llm.chat_sync(prompt, task_type="legal")
-            return f"⚖️ CASE LAW: {query}\n\n{response}"
+            response = self.llm.call_sync(
+                prompt=prompt,
+                agent="lawclaw",
+                capability="legal_research",
+            )
+            return (
+                f"⚖️ CASE LAW: {query}\n"
+                f"   Model: {response.model} | Provider: {response.provider.value}\n"
+                f"   Tokens: {response.tokens_used} | Cost: ${response.cost:.6f}\n"
+                f"   Audit: {response.request_hash}\n\n"
+                f"{response.content}"
+            )
         except Exception as e:
-            return f"LLM error: {e}"
+            raise RuntimeError(
+                f"SOVEREIGN GATEWAY FAILURE in lawclaw/llm_searcher: "
+                f"The throne is unreachable. No legal research is possible "
+                f"without constitutional authority. Underlying error: {e}"
+            ) from e
+
 
 llm_searcher = LLMLawSearcher()

@@ -1,58 +1,64 @@
 {
   "agent_states": {
-    "flowclaw": {
-      "interactions": 31
-    },
     "fileclaw": {
-      "interactions": 143
-    },
-    "interpretclaw": {
-      "interactions": 24
-    },
-    "crustyclaw": {
-      "interactions": 31
-    },
-    "dataclaw": {
-      "interactions": 27
-    },
-    "designclaw": {
-      "interactions": 26
-    },
-    "docuclaw": {
-      "interactions": 80
-    },
-    "draftclaw": {
-      "interactions": 25
-    },
-    "drawclaw": {
-      "interactions": 27
-    },
-    "dreamclaw": {
-      "interactions": 21
-    },
-    "langclaw": {
-      "interactions": 22
-    },
-    "liberateclaw": {
-      "interactions": 24
+      "interactions": 132
     },
     "mediclaw": {
+      "interactions": 29
+    },
+    "txclaw": {
+      "interactions": 20
+    },
+    "claw_coder": {
+      "interactions": 38
+    },
+    "lawclaw": {
+      "interactions": 12
+    },
+    "crustyclaw": {
+      "interactions": 24
+    },
+    "interpretclaw": {
+      "interactions": 8
+    },
+    "flowclaw": {
+      "interactions": 21
+    },
+    "draftclaw": {
       "interactions": 18
     },
     "plotclaw": {
-      "interactions": 22
+      "interactions": 6
     },
-    "rustypycraw": {
-      "interactions": 20
+    "designclaw": {
+      "interactions": 15
     },
-    "txclaw": {
+    "docuclaw": {
+      "interactions": 71
+    },
+    "dataclaw": {
+      "interactions": 36
+    },
+    "drawclaw": {
       "interactions": 33
     },
-    "lawclaw": {
-      "interactions": 17
+    "dreamclaw": {
+      "interactions": 7
     },
-    "claw_coder": {
-      "interactions": 40
+    "langclaw": {
+      "interactions": 6
+    },
+    "liberateclaw": {
+      "interactions": 13
+    },
+    "rustypycraw": {
+      "interactions": 4
+    },
+    "llmclaw": {
+      "interactions": 45
+    },
+    "mathematicaclaw": {
+      "interactions": 16
     }
   }
 }

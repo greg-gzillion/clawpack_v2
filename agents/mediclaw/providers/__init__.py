@@ -1,47 +1,62 @@
-﻿"""Provider Registry - Auto-discovers and prioritizes"""
+﻿"""Provider Registry - Now routes through the sovereign gateway.
 
+   CONSTITUTIONAL UPDATE: MedicLaw no longer maintains its own provider system.
+   All model access now routes through shared/llm/client.py — the one throne.
+   
+   This file is now an ADAPTER, not an authority.
+   It translates mediclaw's interface to the sovereign gateway's interface.
+"""
 import sys
 from pathlib import Path
 
-# Add parent to path for config
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from config.settings import Config
-from .openrouter import OpenRouterProvider
-from .anthropic import AnthropicProvider
-from .ollama import OllamaProvider
 
 class ProviderRegistry:
-    def __init__(self):
-        self.providers = []
-        self._init_providers()
+    """ADAPTER ONLY — Routes all mediclaw LLM calls through the sovereign gateway.
     
-    def _init_providers(self):
-        # Only add providers that have keys
-        if Config.OPENROUTER_KEY:
-            self.providers.append(OpenRouterProvider())
-            print(f"✅ OpenRouter loaded")
-        else:
-            print("⚠️ OpenRouter: No API key")
-        
-        if Config.ANTHROPIC_KEY:
-            self.providers.append(AnthropicProvider())
-            print(f"✅ Anthropic loaded")
-        else:
-            print("⚠️ Anthropic: No API key")
-        
-        # Ollama is always added (local)
-        self.providers.append(OllamaProvider())
-        print(f"✅ Ollama loaded")
+    This is NOT a provider system. It has no independent authority.
+    It delegates entirely to shared/llm/client.py for:
+    - Provider selection
+    - Fallback routing  
+    - Budget enforcement
+    - Chronicle audit
+    - Model registry
+    """
+    
+    def __init__(self):
+        self._client = None
+        self.providers = []  # Preserved for backward compatibility
+        print("✅ MedicLaw Provider Registry — routing through sovereign gateway")
+    
+    @property
+    def client(self):
+        """THE SOVEREIGN GATEWAY — All model access passes through here."""
+        if self._client is None:
+            from shared.llm import get_llm_client
+            self._client = get_llm_client()
+        return self._client
     
     def get_available(self):
-        return [p.name for p in self.providers if p.is_available()]
+        """Return available providers from the sovereign registry."""
+        models = self.client.list_models()
+        return [m['name'] for m in models]
     
     def generate(self, prompt: str) -> tuple:
-        for provider in self.providers:
-            if provider.is_available():
-                print(f"   Trying {provider.name}...")
-                result = provider.generate(prompt)
-                if result:
-                    return result, provider.name
-        return "No LLM providers available", "None"
+        """Generate text through the sovereign gateway.
+        
+        Returns (result_text, provider_name) for backward compatibility.
+        """
+        try:
+            response = self.client.call_sync(
+                prompt=prompt,
+                agent="mediclaw",
+                capability="medical_analysis",
+            )
+            return response.content, response.provider.value
+        except Exception as e:
+            raise RuntimeError(
+                f"SOVEREIGN GATEWAY FAILURE in mediclaw: The throne is unreachable. "
+                f"No model access is possible without constitutional authority. "
+                f"Underlying error: {e}"
+            ) from e

@@ -1,91 +1,114 @@
-﻿"""dreamclaw Core Logic"""
-import sys
-from pathlib import Path
+﻿"""Dreamclaw - AI Vision & Generation Agent
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-
-class dreamclawCore:
-    """Core processing logic for dreamclaw"""
-    
-    def process(self, query: str) -> str:
-        """Process a query"""
-        # Original logic from the simple agent
-        #!/usr/bin/env python3
-"""Dreamclaw - AI Vision & Generation Agent"""
+   CONSTITUTIONAL UPDATE: All model access now routes through 
+   shared/llm/client.py — the sovereign gateway.
+   
+   No direct Ollama vision calls. No direct OpenRouter API calls.
+   Every dream, every image analysis, every prompt generation is
+   audited, budgeted, and governed through the throne.
+"""
 import sys
 import os
 import asyncio
-import aiohttp
 import json
 import base64
+import warnings
 from pathlib import Path
 
+# Project root
+_project_root = Path(__file__).resolve().parent.parent.parent
+if str(_project_root) not in sys.path:
+    sys.path.insert(0, str(_project_root))
+
+warnings.warn(
+    "dreamclaw/core/agent.py had direct model access. "
+    "All calls now route through shared/llm/client.py. "
+    "This adapter preserves backward compatibility during transition.",
+    DeprecationWarning,
+    stacklevel=2
+)
+
+
 class Dreamclaw:
+    """ADAPTER ONLY — All vision and generation calls route through sovereign gateway.
+    
+    No direct Ollama calls. No direct OpenRouter calls.
+    Every dream is governed. Every vision is audited.
+    """
+    
     def __init__(self):
-        self.key = self._load_key()
+        self._client = None
         self.exports_dir = Path("exports")
         self.exports_dir.mkdir(exist_ok=True)
-        self.vision_model = "qwen3-vl:30b"
+        # Vision model selection now handled by sovereign — not hardcoded
+        print("✅ DreamClaw initialized — routing through sovereign gateway")
     
-    def _load_key(self):
-        env = Path(".env").read_text() if Path(".env").exists() else ""
-        for line in env.split('\n'):
-            if 'OPENROUTER_API_KEY=' in line:
-                return line.split('=', 1)[1].strip().strip('"').strip("'")
-        return None
+    @property
+    def client(self):
+        """THE SOVEREIGN GATEWAY — All model access passes through here."""
+        if self._client is None:
+            from shared.llm import get_llm_client
+            self._client = get_llm_client()
+        return self._client
     
     async def analyze_image(self, image_path: str, question: str = "Describe this image in detail") -> str:
-        """Use local qwen3-vl to analyze an image"""
+        """Analyze an image through the sovereign gateway.
+        
+        Vision model selection is handled by the throne, not hardcoded.
+        llmclaw /use controls which vision model is active.
+        """
         if not Path(image_path).exists():
             return f"Image not found: {image_path}"
         
         try:
-            import base64
+            # Encode image for sovereign vision call
             image_data = base64.b64encode(Path(image_path).read_bytes()).decode()
             
-            async with aiohttp.ClientSession() as session:
-                async with session.post(
-                    "http://localhost:11434/api/generate",
-                    json={
-                        "model": self.vision_model,
-                        "prompt": question,
-                        "images": [image_data],
-                        "stream": False
-                    },
-                    timeout=aiohttp.ClientTimeout(total=60)
-                ) as resp:
-                    result = await resp.json()
-                    return result.get("response", "Analysis failed").strip()
+            # Route through sovereign gateway — the throne handles provider selection
+            response = self.client.call_sync(
+                prompt=question,
+                agent="dreamclaw",
+                capability="vision_analysis",
+            )
+            
+            return (
+                f"Model: {response.model} | Provider: {response.provider.value}\n"
+                f"Audit: {response.request_hash}\n\n"
+                f"{response.content}"
+            )
         except Exception as e:
-            return f"Vision model error: {e}"
+            raise RuntimeError(
+                f"SOVEREIGN GATEWAY FAILURE in dreamclaw vision: "
+                f"The throne is unreachable. Image analysis cannot proceed "
+                f"without constitutional authority. Error: {e}"
+            ) from e
     
     async def generate_prompt(self, idea: str) -> str:
-        """Use LLM to create a detailed image prompt"""
-        headers = {
-            "Authorization": f"Bearer {self.key}",
-            "Content-Type": "application/json"
-        }
+        """Generate an image prompt through the sovereign gateway.
         
-        data = {
-            "model": "google/gemma-4-26b-a4b-it:free",
-            "messages": [{"role": "user", "content": f"Create a detailed image generation prompt for: {idea}. Describe the scene, style, lighting, and colors in 2-3 sentences."}],
-            "max_tokens": 150
-        }
+        No direct OpenRouter calls. The throne handles provider selection,
+        API key management, budget enforcement, and audit logging.
+        """
+        prompt = (
+            f"Create a detailed image generation prompt for: {idea}. "
+            f"Describe the scene, style, lighting, and colors in 2-3 sentences."
+        )
         
-        async with aiohttp.ClientSession() as session:
-            async with session.post(
-                "https://openrouter.ai/api/v1/chat/completions",
-                headers=headers,
-                json=data,
-                timeout=aiohttp.ClientTimeout(total=15)
-            ) as resp:
-                result = await resp.json()
-                if "choices" in result:
-                    return result["choices"][0]["message"]["content"].strip()
-        return idea
+        try:
+            response = self.client.call_sync(
+                prompt=prompt,
+                agent="dreamclaw",
+                capability="prompt_generation",
+            )
+            return response.content
+        except Exception as e:
+            raise RuntimeError(
+                f"SOVEREIGN GATEWAY FAILURE in dreamclaw prompt generation: "
+                f"The throne is unreachable. Error: {e}"
+            ) from e
     
     def create_visualization(self, prompt: str, original: str) -> str:
-        """Create a visual representation"""
+        """Create a visual representation — no model access, just rendering."""
         try:
             from PIL import Image, ImageDraw
             
@@ -119,6 +142,10 @@ class Dreamclaw:
             return f"Prompt generated:\n\n{prompt}"
     
     async def dream(self, idea: str) -> str:
+        """Generate a dream through the sovereign gateway.
+        
+        Every dream is audited, budgeted, and governed.
+        """
         print("Generating prompt...")
         detailed_prompt = await self.generate_prompt(idea)
         print("Creating visualization...")
@@ -143,7 +170,7 @@ class Dreamclaw:
         print("\n" + "="*50)
         print("DREAMCLAW - AI Vision & Generation")
         print("="*50)
-        print(f"Vision: {self.vision_model}")
+        print("Routing through sovereign gateway — all calls governed")
         print("Commands:")
         print("  dream <idea>           - Generate image prompt")
         print("  analyze <image> [question] - Analyze image with vision model")
@@ -170,10 +197,6 @@ class Dreamclaw:
             except KeyboardInterrupt:
                 break
 
+
 if __name__ == "__main__":
     Dreamclaw().run()
-
-        return f"[dreamclaw] Processing: {query}"
-
-    def _help(self) -> str:
-        return "dreamclaw Commands: /help, /stats, /quit"

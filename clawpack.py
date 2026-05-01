@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Clawpack V2 - AI Agent Ecosystem with LLM Model Selection"""
 
 import os
@@ -69,7 +69,8 @@ def show_agents():
         {"num": 17, "name": "draftclaw",       "emoji": "",  "desc": "Technical Drawings"},
         {"num": 18, "name": "crustyclaw",      "emoji": "",  "desc": "Rust AI Assistant"},
         {"num": 19, "name": "rustypycraw",     "emoji": "",  "desc": "Code Crawler"},
-        {"num": 20, "name": "llmclaw",         "emoji": "",  "desc": "LLM Model Manager"},
+        {"num": 20, "name": "drawclaw",        "emoji": "",  "desc": "AI Drawing & Prompts"},
+        {"num": 21, "name": "llmclaw",         "emoji": "",  "desc": "LLM Model Manager"},
     ]
     
     print("")
@@ -141,7 +142,7 @@ def main():
         banner()
         show_agents()
         
-        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-20), 'm' for model, or 'q' to quit: {RESET}").strip()
+        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), 'm' for model, or 'q' to quit: {RESET}").strip()
         
         if choice.lower() == 'q':
             clear()
@@ -159,7 +160,8 @@ def main():
                 5: "liberateclaw", 6: "txclaw", 7: "interpretclaw", 8: "langclaw",
                 9: "claw_coder", 10: "dataclaw", 11: "webclaw", 12: "fileclaw",
                 13: "plotclaw", 14: "mediclaw", 15: "dreamclaw", 16: "designclaw",
-                17: "draftclaw", 18: "crustyclaw", 19: "rustypycraw", 20: "llmclaw"
+                17: "draftclaw", 18: "crustyclaw", 19: "rustypycraw",  20: "drawclaw",
+                21: "llmclaw"
             }
             
             if num in agents_map:
