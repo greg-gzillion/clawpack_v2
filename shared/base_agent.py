@@ -292,7 +292,9 @@ class BaseAgent:
         
         try:
             if hasattr(self, "memory"):
-                self.memory.learn_from_interaction(self.name, query, response)
+                from shared.memory_guard import should_persist
+                if should_persist(resolved.get("source_type", "inference"), resolved.get("confidence", 0)):
+                    self.memory.learn_from_interaction(self.name, query, response)
         except Exception:
             pass
         
