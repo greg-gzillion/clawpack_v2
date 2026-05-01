@@ -49,6 +49,10 @@ class LiberateClawAgent(BaseAgent):
                 result += "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in obliterated)
                 result += f"\n\n📦 STANDARD MODELS ({len(standard)}):\n"
                 result += "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in standard)
+            elif cmd in ("/obliterated", "obliterated"):
+                models = self._get_models()
+                lib = [m for m in models if m.get('obliterated')]
+                result = f"OBLITERATED MODELS ({len(lib)}):\n" + "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in lib) + "\n\nUse /use <model> to switch" if lib else "No obliterated models. Use /obliterate <model>"
             elif cmd in ("/liberated", "liberated"):
                 models = self._get_models()
                 lib = [m for m in models if m.get('obliterated')]
