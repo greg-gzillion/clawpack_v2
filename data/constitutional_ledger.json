@@ -1,18 +1,1 @@
-{
-  "genesis": "9dd53bf603052ac79f7f4c1b848adc8c65600406ab151324f0ae5afda3a809b6",
-  "entries": [
-    {
-      "timestamp": "2026-05-01T06:40:16.429697+00:00",
-      "agent": "test",
-      "action": "ALLOW_DELETE",
-      "allowed": false,
-      "level": "ApprovalLevel.BLOCKED",
-      "reason": "Explicitly blocked",
-      "context": {
-        "path": "/tmp/test.txt"
-      },
-      "hash": "a3556ee30a2f2385"
-    }
-  ],
-  "version": "v1.0"
-}
+{"genesis": "5f28b5b6410b5c0b6b1ad4968f6cb81f76f380b7ffd268b5fcafe7b62a89c6da", "entries": [{"timestamp": "2026-05-01T16:21:59.424346+00:00", "agent": "test", "query": "chain test", "resolved_source": "x", "source_type": "web_verified", "confidence": 0.1, "conflicts": 0, "policy_checks": [], "status": "unknown", "previous_hash": "5f28b5b6410b5c0b6b1ad4968f6cb81f76f380b7ffd268b5fcafe7b62a89c6da", "hash": "09c1aecc0e0bcdcb"}], "version": "v1.0"}

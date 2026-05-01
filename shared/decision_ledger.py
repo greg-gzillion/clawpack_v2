@@ -131,6 +131,24 @@ class DecisionLedger:
             return []
         ledger = json.loads(self.ledger_path.read_text())
         return ledger.get("entries", [])[-limit:]
+    def verify_integrity(self):
+        """Verify the entire ledger chain has not been tampered with."""
+        if not self.ledger_path.exists():
+            return {"valid": True, "entries": 0, "message": "Empty ledger"}
+        import json as _json, hashlib as _hashlib
+        ledger = _json.loads(self.ledger_path.read_text())
+        entries = ledger.get("entries", [])
+        expected = ledger.get("genesis", "")
+        for i, entry in enumerate(entries):
+            if entry.get("previous_hash") != expected:
+                return {"valid": False, "entry": i, "message": "Chain broken at entry " + str(i)}
+            recalc = _hashlib.sha256(_json.dumps({k: v for k, v in entry.items() if k != "hash"}, sort_keys=True).encode()).hexdigest()[:16]
+            if recalc != entry.get("hash"):
+                return {"valid": False, "entry": i, "message": "Hash mismatch at entry " + str(i)}
+            expected = entry.get("hash", "")
+        return {"valid": True, "entries": len(entries), "message": "Chain intact"}
+
+
 
 
 _ledger: Optional[DecisionLedger] = None
@@ -172,5 +190,23 @@ def get_ledger() -> DecisionLedger:
             expected = entry.get("hash", "")
         
         return {"valid": True, "entries": len(entries), "message": "Chain intact"}
+
+
+    def verify_integrity(self):
+        if not self.ledger_path.exists():
+            return {"valid": True, "entries": 0, "message": "Empty ledger"}
+        import json, hashlib
+        ledger = json.loads(self.ledger_path.read_text())
+        entries = ledger.get("entries", [])
+        expected = ledger.get("genesis", "")
+        for i, entry in enumerate(entries):
+            if entry.get("previous_hash") != expected:
+                return {"valid": False, "entry": i, "message": "Chain broken at entry " + str(i)}
+            recalc = hashlib.sha256(json.dumps({k: v for k, v in entry.items() if k != "hash"}, sort_keys=True).encode()).hexdigest()[:16]
+            if recalc != entry.get("hash"):
+                return {"valid": False, "entry": i, "message": "Hash mismatch at entry " + str(i)}
+            expected = entry.get("hash", "")
+        return {"valid": True, "entries": len(entries), "message": "Chain intact"}
+
 
 __all__ = ["DecisionLedger", "get_ledger"]
