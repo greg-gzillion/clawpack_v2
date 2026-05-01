@@ -1,6 +1,7 @@
 """Build and display various types of graphs"""
 import matplotlib
 matplotlib.use("Agg")
+import os
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import Tuple
