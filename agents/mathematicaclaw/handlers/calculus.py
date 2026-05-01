@@ -37,7 +37,7 @@ def proof(statement=None):
         client = get_llm_client()
         prompt = f"Prove this mathematical statement rigorously: {statement}"
         response = client.call_sync(prompt=prompt, agent='mathematicaclaw', capability='math_proof')
-        return f"PROOF: {statement}
+        return "PROOF: " + statement + chr(10)*2 + response.content
 
 {response.content}"
     except Exception as e:
