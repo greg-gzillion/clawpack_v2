@@ -1,6 +1,6 @@
 """Handles mathematical plotting with pop-up windows"""
 import matplotlib
-matplotlib.use("TkAgg")
+matplotlib.use("wxagg")
 import matplotlib.pyplot as plt
 import numpy as np
 import sympy as sp
