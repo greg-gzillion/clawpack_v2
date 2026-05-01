@@ -46,7 +46,7 @@ class LLMClient:
     
     async def call(self, prompt, agent='unknown', model=None, provider=None, max_tokens=4096, temperature=0.7, task_id=None):
         if model is None:
-            model = self.registry.get_active_model()
+            model = self.registry.get_active_model()  # Fresh read from file
         resolved_model, _ = self.registry.resolve_model(model)
         if model is None:
             model = resolved_model
@@ -105,7 +105,9 @@ class LLMClient:
         return self.registry.set_active_model(name)
     
     def get_active_model(self):
-        return self.registry.get_active_model()
+        # Always read fresh from file so llmclaw /use takes effect immediately
+        active = self.registry.get_active_model()
+        return active
 
 async def generate(prompt, agent='unknown', model=None, provider=None, max_tokens=4096, temperature=0.7):
     return await get_llm_client().call(prompt, agent, model, provider, max_tokens, temperature)

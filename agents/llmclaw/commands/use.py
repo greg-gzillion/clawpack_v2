@@ -31,6 +31,13 @@ def run(args):
                 providers[p]["priority"] = 2
         config["providers"] = providers
         json.dump(config, open(models_dir / "active_model.json", "w"), indent=2)
+        # Also update the in-memory sovereign gateway singleton
+        try:
+            from shared.llm.client import get_llm_client
+            client = get_llm_client()
+            client.registry.set_active_model(model_name)
+        except Exception:
+            pass
 
     # 1. Anthropic
     if args in ["claude-haiku-4-5-20251001", "claude-sonnet-4-20250514", "claude-opus-4-20250514"]:
