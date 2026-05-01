@@ -5,101 +5,92 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 
-**21 agents · SQLite Chronicle (136K cards) · FTS5 Search · Multi-provider LLM · A2A Routing**
+**21 agents · 6 shared ministries · Sovereign LLM governance · Chronicle audit (35K+) · A2A routing**
 
 ---
+
+## 🏛️ Shared Ministries
+
+Every agent inherits these through shared/. No agent works alone.
+
+| Ministry | Path | Purpose |
+|----------|------|---------|
+| **Sovereign Gateway** | shared/llm/ | All model access. Budget, audit, fallback. 4 providers, 25 models. |
+| **Judiciary** | shared/enforcement/ | 19 forbidden patterns. Pre/post execution gates. Recursion guard. |
+| **Unified Memory** | shared/memory/ | Chronicle-backed. Cross-agent recall. Auto-extraction from interactions. |
+| **Imperial Documents** | shared/files/ | File format conversion. 52 extensions, 8 categories. Batch operations. |
+| **DocuClaw API** | shared/docuclaw_api.py | Document creation for all agents. Any agent → DocuClaw for documents. |
+| **Agent Registry** | shared/registry.py | 14 agents registered. Capability map. Delegation routing. |
 
 ## 🤖 Agents (21)
 
-| Agent | Purpose |
-|-------|---------|
-| **llmclaw** | Model management & orchestration · 17 models · cloud + local |
-| **claw_coder** | 39-language code generator · compiler validation · code translation · project scaffolding |
-| **mathematicaclaw** | Math engine · SymPy · Plotly animations · step-by-step calculus · 17 commands |
-| **mediclaw** | Medical references · 66 specialties · chronicle-backed citations · 22 commands |
-| **lawclaw** | Law research · court systems · case law · chronicle search |
-| **webclaw** | Web search & indexing · SQLite index · chronicle ledger · URL fetching |
-| **dataclaw** | Local data search · file scanning · JSON/CSV search · chronicle integration |
-| **docuclaw** | Document generator · 21 format exports · templates · translation · combine/convert |
-| **fileclaw** | File handler · 52 formats (import/export/convert) · EPUB support |
-| **designclaw** | Brand & design · brand kits · color palettes · HTML generation |
-| **flowclaw** | Diagrams & flowcharts · Mermaid generation · browser viewer |
-| **crustyclaw** | Rust AI · compiler validation · cargo integration · standalone binary bridge |
-| **interpretclaw** | Translation · 39 languages · language detection |
-| **langclaw** | Language teaching · TTS/STT · lessons, practice, vocabulary |
-| **draftclaw** | Technical drawings · blueprints, CAD, floorplans |
-| **drawclaw** | Drawing & sketching |
-| **dreamclaw** | AI vision & image generation |
-| **plotclaw** | Charts & graphs · bar, pie, line, scatter |
-| **liberateclaw** | Model obliteration · 5 obliterated models |
-| **rustypycraw** | Code crawler & analyzer |
-| **txclaw** | Blockchain & smart contracts |
+| Agent | Domain | Delegates To |
+|-------|--------|-------------|
+| **llmclaw** | Model management & orchestration | Sovereign gateway |
+| **claw_coder** | 39-language code generation | DocuClaw, FileClaw, WebClaw |
+| **mathematicaclaw** | Math engine · SymPy · Plotly | DocuClaw (math papers), PlotClaw |
+| **mediclaw** | Medical analysis · 66 specialties | DocuClaw (reports), WebClaw |
+| **lawclaw** | Law research & analysis | DocuClaw (contracts/briefs), WebClaw |
+| **webclaw** | Web search & indexing | Chronicle |
+| **dataclaw** | Data search & analysis | FileClaw |
+| **docuclaw** | Document creation for ALL agents | FileClaw (format conversion) |
+| **fileclaw** | File operations · 52 formats | DocuClaw (documents) |
+| **drawclaw** | Visual art & illustration | DocuClaw |
+| **plotclaw** | Charts, graphs, data viz | DocuClaw |
+| **flowclaw** | Diagrams & flowcharts | DocuClaw |
+| **designclaw** | Brand & design | DocuClaw |
+| **draftclaw** | Technical drawings | DocuClaw |
+| **dreamclaw** | AI vision & generation | Sovereign gateway |
+| **interpretclaw** | Translation · 39 languages | WebClaw |
+| **langclaw** | Language teaching | WebClaw |
+| **crustyclaw** | Rust AI & compiler | ClawCoder |
+| **liberateclaw** | Model obliteration | Sovereign gateway |
+| **rustypycraw** | Code crawler & analyzer | FileClaw |
+| **txclaw** | Blockchain & smart contracts | DocuClaw, FileClaw |
 
 ---
 
-## 🧠 LLM Models (17)
+## 🧠 LLM Models (25 via sovereign gateway)
 
-**Obliterated (No Refusals):** deepseek-coder-liberated · codellama-liberated · smollm2-liberated · tinyllama-liberated · gemma3-liberated
+**4 providers:** Ollama (local) · Groq · OpenRouter · Anthropic
 
-**Standard:** Qwen2.5-Coder · deepseek-coder:6.7b · codellama:7b · deepseek-r1:8b · gemma3:4b · gemma3:1b · tinyllama:1.1b
+**Obliterated:** deepseek-coder-liberated · codellama-liberated · smollm2-liberated · tinyllama-liberated · gemma3-liberated
 
-**Large (Local):** gemma3:12b · gemma3:27b · qwen3-coder:30b · qwen3-vl:30b
-
-**Cloud:** claude-haiku-4-5-20251001 (Anthropic) · llama-3.1-8b-instant (Groq)
+**Active:** qwen3-coder:30b (controlled by llmclaw /use system-wide)
 
 ---
 
-## 📚 Chronicle Index
+## 🏗️ Architecture
 
-**SQLite database** · 136,435 cards · FTS5 full-text search · 22,883 files indexed with full content
+clawpack_v2/
+├── a2a_server.py # Central A2A server (port 8766)
+├── shared/ # UNIVERSAL MINISTRIES
+│ ├── llm/ # Sovereign Gateway (12 files)
+│ ├── enforcement/ # Judiciary (7 files, 19 patterns)
+│ ├── memory/ # Unified Knowledge
+│ ├── files/ # Imperial Documents (52 formats)
+│ ├── docuclaw_api.py # Document creation for all agents
+│ ├── registry.py # Agent capability map & delegation
+│ └── base_agent.py # Foundation class for all 21 agents
+├── agents/ # 21 specialized agents
+├── core/ # System core (adapters only)
+├── models/ # LLM storage
+├── data/ # Chronicle + budget + memory index
+└── exports/ # Generated files
 
-Every `.md` file in `agents/webclaw/references/` is indexed with title, content, and URLs. All agents search it via `BaseAgent.search_chronicle()`.
-
----
+text
 
 ## 🔗 A2A Protocol
 
-**Server:** `a2a_server.py` · **Port:** 8766
+**Server:** 2a_server.py · **Port:** 8766
 
-```bash
+`ash
 python a2a_server.py
-Endpoints:
+Endpoints: GET /health · GET /v1/agents · GET /memory/stats · POST /v1/message/{agent}
 
-GET /health — Server health + memory stats
+⚖️ Constitutional Law
+No agent may speak to a model directly.
 
-GET /v1/agents — List all agents
+All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
 
-GET /memory/stats — Detailed memory statistics
-
-POST /v1/message/{agent} — Send task to agent
-
-🏗️ Architecture
-text
-clawpack_v2/
-├── a2a_server.py          # Central A2A server
-├── shared/
-│   ├── base_agent.py       # Foundation class for all agents
-│   ├── llm/                # Multi-provider LLM
-│   ├── memory/             # Three-tier memory
-│   └── hooks/              # Agent, command, HTTP, prompt runners
-├── agents/                 # 21 specialized agents
-├── core/                   # System core
-├── models/                 # LLM storage
-├── data/                   # Chronicle database + shared memory
-└── exports/                # Generated files
-📚 Citation
-APA
-Frank, G. (2026). Clawpack V2 (Version 3.0.0) [Computer software]. https://doi.org/10.5281/zenodo.19713157
-
-BibTeX
-
-bibtex
-@software{frank_clawpack_v2_2026,
-  author       = {Greg Frank},
-  title        = {Clawpack V2},
-  version      = {3.0.0},
-  year         = {2026},
-  doi          = {10.5281/zenodo.19713157},
-  url          = {https://github.com/greg-gzillion/clawpack_v2}
-}
 MIT License · greg-gzillion
