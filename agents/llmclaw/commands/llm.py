@@ -8,14 +8,34 @@ from pathlib import Path
 MODELS_DIR = Path("C:/Users/greg/dev/clawpack_v2/models")
 
 def run(prompt):
-    """Route through sovereign gateway — the ONLY legal path to model access."""
+    """Try multiple providers in priority order"""
+    config_path = MODELS_DIR / "active_model.json"
     try:
-        from shared.llm import get_llm_client
-        client = get_llm_client()
-        response = client.call_sync(prompt=prompt, agent="llmclaw")
-        return response.content
-    except Exception as e:
-        return f"Error: {str(e)}"
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+    except:
+        return "Error: Could not load provider config"
+    providers = config.get("providers", {})
+    sorted_providers = sorted(providers.items(), key=lambda x: x[1].get("priority", 99))
+    for name, provider_config in sorted_providers:
+        model = provider_config.get("model")
+        timeout = provider_config.get("timeout", 30)
+        print(f"[llmclaw] Trying {name}: {model}...")
+        try:
+            if name == "groq": result = _ask_groq(prompt, model, timeout)
+            elif name == "ollama": result = _ask_ollama(prompt, model, timeout)
+            elif name == "openrouter": result = _ask_openrouter(prompt, model, timeout)
+            elif name == "anthropic": result = _ask_anthropic(prompt, model, timeout)
+            else: continue
+            if result and not result.startswith("Error"):
+                print(f"[llmclaw] Success with {name}")
+                return result
+            else:
+                print(f"[llmclaw] {name} failed, trying next...")
+        except Exception as e:
+            print(f"[llmclaw] {name} error: {str(e)[:50]}")
+            continue
+    return "Error: All providers failed"
 
 def _ask_ollama(prompt, model, timeout):
     response = requests.post("http://localhost:11434/api/generate", json={"model": model, "prompt": prompt, "stream": False}, timeout=timeout)
