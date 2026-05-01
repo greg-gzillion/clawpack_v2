@@ -246,10 +246,54 @@ class BaseAgent:
         return {"status": "error", "result": f"{self.name}: handle() not implemented"}
 
     def smart_ask(self, query: str, domain: str = "") -> str:
-        """Ask with shared memory first, then LLM"""
-        memory = self.ask_memory(query)
-        if memory:
-            prompt = "Context from shared knowledge: " + memory + "\n\nQuestion: " + query
+        """Constitutional ask: Retrieval -> Truth -> Policy -> LLM.
+        
+        Every agent query passes through:
+        1. WebClaw Retriever (BM25 + source confidence)
+        2. Truth Resolver (web_verified > chronicle > memory > inference)
+        3. Execution Policy (permission check)
+        4. LLM inference (lowest trust tier, grounded by verified sources)
+        """
+        retriever_results = []
+        try:
+            from agents.webclaw.core.retriever import search as retriever_search
+            retrieved = retriever_search(query, top_k=5)
+            retriever_results = retrieved.get("results", [])
+        except Exception:
+            pass
+        
+        memory_results = self.memory.recall(query, limit=3) if hasattr(self, "memory") else []
+        llm_response = self.ask_llm(query)
+        
+        from shared.truth_resolver import merge_with_retriever
+        resolved = merge_with_retriever(
+            retriever_results=retriever_results,
+            memory_results=memory_results,
+            llm_inference=llm_response,
+            llm_confidence=0.5,
+        )
+        
+        from shared.execution_policy import ExecutionPolicy
+        from shared.decision_ledger import get_ledger
+        policy_check = ExecutionPolicy.check("ALLOW_HTTP_REQUEST")
+        if not policy_check["allowed"]:
+            return f"Execution blocked: {policy_check["reason"]}"
+        
+        if resolved["status"] == "conflict_detected":
+            response = llm_response + "\n\n[TRUTH CONFLICT DETECTED] Resolved to: " + str(resolved.get("source_type","")) + " (" + str(resolved.get("source","")) + ")"
+        elif resolved["source_type"] == "web_verified" and resolved.get("confidence", 0) > 0.5:
+            grounding = "\n\n[GROUND TRUTH - " + str(resolved.get("source","")) + "]\n" + str(resolved.get("resolved",""))
+            prompt = "Using the verified information below, answer: " + query + grounding
+            response = self.ask_llm(prompt)
+        elif resolved["source_type"] == "inference":
+            response = llm_response + "\n\n[CONFIDENCE: UNCERTAIN - No authoritative source verified]"
         else:
-            prompt = query
-        return self.ask_llm(prompt)
+            response = llm_response
+        
+        try:
+            if hasattr(self, "memory"):
+                self.memory.learn_from_interaction(self.name, query, response)
+        except Exception:
+            pass
+        
+        return response
