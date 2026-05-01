@@ -1,4 +1,6 @@
 """Build and display various types of graphs"""
+import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import numpy as np
 from typing import Tuple
