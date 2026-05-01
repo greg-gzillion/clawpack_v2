@@ -102,7 +102,7 @@ def launch_agent(agent_name):
             
             print(f"{YELLOW}Thinking...{RESET}", end="\r")
             r = requests.post(f"http://127.0.0.1:8766/v1/message/{agent_name}",
-                            json={"task": task}, timeout=60)
+                            json={"task": task}, timeout=300)
             if r.status_code == 200:
                 data = r.json()
                 result = data.get("result", "No response")
