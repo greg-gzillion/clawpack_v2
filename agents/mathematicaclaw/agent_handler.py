@@ -21,7 +21,7 @@ def _load_mod(name):
 _solve_mod = _load_mod("solve")
 _algebra_mod = _load_mod("algebra")
 _calculus_mod = _load_mod("calculus")
-# proof loaded dynamically
+from handlers.calculus import derivative, integral, limit_func, proof
 _plot_mod = _load_mod("plot")
 _animate_mod = _load_mod("animate")
 _arithmetic_mod = _load_mod("arithmetic")

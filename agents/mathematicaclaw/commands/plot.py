@@ -1,4 +1,4 @@
-def run(args):
+﻿def run(args):
     """Plot a mathematical function and open in browser"""
     if not args:
         return "Usage: /plot x**2"

@@ -60,7 +60,10 @@ class Plotter:
             plt.xlim(x_range[0], x_range[1])
             
             # Show the plot in a pop-up window
-            plt.show(block=True)
+            path = "exports/temp_plot.png"
+            plt.savefig(path, dpi=150, bbox_inches="tight")
+            plt.close()
+            os.startfile(path)
             plt.close()
             
             return f"Γ£à Plot of '{expression}' displayed"
@@ -100,7 +103,10 @@ class Plotter:
             plt.axvline(x=0, color='k', linewidth=0.5)
             plt.xlim(x_range[0], x_range[1])
             
-            plt.show(block=True)
+            path = "exports/temp_plot.png"
+            plt.savefig(path, dpi=150, bbox_inches="tight")
+            plt.close()
+            os.startfile(path)
             plt.close()
             
             return f"Γ£à Displayed {len(expressions)} plots"
@@ -139,7 +145,10 @@ class Plotter:
             plt.title(f'{expression} with highlighted points', fontsize=14, fontweight='bold')
             plt.legend(loc='best')
             
-            plt.show(block=True)
+            path = "exports/temp_plot.png"
+            plt.savefig(path, dpi=150, bbox_inches="tight")
+            plt.close()
+            os.startfile(path)
             plt.close()
             
             return f"Γ£à Plot with {len(points)} points displayed"
