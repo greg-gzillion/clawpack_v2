@@ -45,11 +45,16 @@ class DecisionLedger:
             "policy_checks": decision.get("policy_checks", []),
             "status": decision.get("status", "unknown"),
         }
+        ledger = json.loads(self.ledger_path.read_text())
+        if ledger["entries"]:
+            entry["previous_hash"] = ledger["entries"][-1].get("hash", ledger["genesis"])
+        else:
+            entry["previous_hash"] = ledger["genesis"]
+        
         entry["hash"] = hashlib.sha256(
             json.dumps(entry, sort_keys=True).encode()
         ).hexdigest()[:16]
 
-        ledger = json.loads(self.ledger_path.read_text())
         ledger["entries"].append(entry)
         self.ledger_path.write_text(json.dumps(ledger, indent=2))
         return entry["hash"]
@@ -66,11 +71,16 @@ class DecisionLedger:
             "reason": policy_result.get("reason", ""),
             "context": context or {},
         }
+        ledger = json.loads(self.ledger_path.read_text())
+        if ledger["entries"]:
+            entry["previous_hash"] = ledger["entries"][-1].get("hash", ledger["genesis"])
+        else:
+            entry["previous_hash"] = ledger["genesis"]
+        
         entry["hash"] = hashlib.sha256(
             json.dumps(entry, sort_keys=True).encode()
         ).hexdigest()[:16]
 
-        ledger = json.loads(self.ledger_path.read_text())
         ledger["entries"].append(entry)
         self.ledger_path.write_text(json.dumps(ledger, indent=2))
         return entry["hash"]
@@ -131,5 +141,36 @@ def get_ledger() -> DecisionLedger:
         _ledger = DecisionLedger()
     return _ledger
 
+
+
+    def verify_integrity(self) -> Dict:
+        """Verify the entire ledger chain has not been tampered with."""
+        if not self.ledger_path.exists():
+            return {"valid": True, "entries": 0, "message": "Empty ledger"}
+        ledger = json.loads(self.ledger_path.read_text())
+        entries = ledger.get("entries", [])
+        expected = ledger.get("genesis", "")
+        
+        for i, entry in enumerate(entries):
+            if entry.get("previous_hash") != expected:
+                return {
+                    "valid": False,
+                    "entry": i,
+                    "expected": expected[:16],
+                    "found": entry.get("previous_hash", "missing")[:16],
+                    "message": f"Chain broken at entry {i}"
+                }
+            recalc = hashlib.sha256(
+                json.dumps({k: v for k, v in entry.items() if k != "hash"}, sort_keys=True).encode()
+            ).hexdigest()[:16]
+            if recalc != entry.get("hash"):
+                return {
+                    "valid": False,
+                    "entry": i,
+                    "message": f"Hash mismatch at entry {i}"
+                }
+            expected = entry.get("hash", "")
+        
+        return {"valid": True, "entries": len(entries), "message": "Chain intact"}
 
 __all__ = ["DecisionLedger", "get_ledger"]
