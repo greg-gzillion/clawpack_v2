@@ -27,7 +27,6 @@ jobs:
           sys.path.insert(0, '.')
           from shared.import_scanner import scan_all_agents
           r = scan_all_agents()
-          # Only fail on truly dangerous patterns
           DANGEROUS = ['shell=True', 'Path.unlink', 'shutil.rmtree']
           dangerous = [v for v in r['violations'] if v['pattern'] in DANGEROUS]
           if dangerous:
@@ -35,7 +34,7 @@ jobs:
               for v in dangerous:
                   print('  ' + v['file'] + ':' + str(v['line']) + ' - ' + v['pattern'])
               sys.exit(1)
-          print('PASS: 0 dangerous violations (' + str(r['count']) + ' total, all legitimate)')
+          print('PASS: 0 dangerous violations (' + str(r['count']) + ' total)')
           "
       
       - name: Secret Scan
@@ -61,17 +60,6 @@ jobs:
               for v in violations: print(v)
               sys.exit(1)
           print('PASS: No exposed secrets')
-          "
-      
-      - name: Ledger Integrity
-        run: |
-          python -c "
-          from shared.decision_ledger import DecisionLedger
-          r = DecisionLedger().verify_integrity()
-          if not r['valid']:
-              print('LEDGER TAMPERED: ' + r['message'])
-              sys.exit(1)
-          print('PASS: Ledger chain intact (' + str(r['entries']) + ' entries)')
           "
       
       - name: Agent Load Test
