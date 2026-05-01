@@ -121,6 +121,19 @@ class MathematicaClawAgent(BaseAgent):
                 result = _plot_mod.run(query)
             elif cmd in ("/animate", "animate") and query:
                 result = _animate_mod.run(query)
+            elif cmd in ("/polar", "polar") and query:
+                from visualization.graph_builder import GraphBuilder
+                result = GraphBuilder.polar_plot(query)
+            elif cmd in ("/parametric", "parametric") and query:
+                from visualization.graph_builder import GraphBuilder
+                parts = query.split(',')
+                if len(parts) >= 2:
+                    result = GraphBuilder.parametric_plot(parts[0].strip(), parts[1].strip())
+                else:
+                    result = "Usage: /parametric x_expr, y_expr"
+            elif cmd in ("/contour", "contour") and query:
+                from visualization.graph_builder import GraphBuilder
+                result = GraphBuilder.contour_plot(query)
             
             # ---- Explanation & LLM ----
             elif cmd in ("/explain", "explain") and query:
