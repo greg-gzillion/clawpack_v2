@@ -38,13 +38,13 @@ class PlotClawAgent(BaseAgent):
 
         try:
             if cmd in ("/bar", "bar") and query:
-                from commands.bar import run
+                from agents.plotclaw.commands.bar import run
                 result = run(query)
             elif cmd in ("/pie", "pie") and query:
-                from commands.pie import run
+                from agents.plotclaw.commands.pie import run
                 result = run(query)
             elif cmd in ("/plot", "plot") and query:
-                from commands.plot import run
+                from agents.plotclaw.commands.plot import run
                 result = run(query)
             elif cmd in ("/help",):
                 result = "PlotClaw - Real Charts (matplotlib)\n  /bar 10,20,15,30,25\n  /pie 15,25,35,25\n  /plot sin(x)\n  /stats"
