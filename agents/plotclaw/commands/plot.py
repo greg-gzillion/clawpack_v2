@@ -1,4 +1,4 @@
-"""Plot command - Mathematical function plotting"""
+"""Plot command - sympy-only mathematical function plotting"""
 import os
 from pathlib import Path
 name = "plot"
@@ -20,15 +20,19 @@ def parse_flags(args):
 
 def run(args):
     if not args:
-        return "Usage: /plot <expr> [--range min,max] [--legend] [--title Title] [--xlabel X] [--ylabel Y] [--annotate text,x,y] [--logx] [--logy] [--theme dark] [--format svg|pdf|png] [--save-only]\nExample: /plot sin(x),cos(x) --range -6.28,6.28 --legend\n/plot exp(x) --range 0.1,5 --logy"
+        return "Usage: /plot <expr> [--range min,max] [--legend] [--title Title] [--logx] [--logy] [--theme dark] [--format svg|pdf|png] [--save-only]\nExample: /plot sin(x),cos(x) --range -6.28,6.28 --legend"
+
     try:
         import matplotlib; matplotlib.use("Agg")
         import matplotlib.pyplot as plt
         import numpy as np
+        import sympy as sp
+
         clean_args, flags = parse_flags(args)
         parts = clean_args.split()
         expr_part = parts[0] if parts else clean_args
         range_part = parts[1] if len(parts) > 1 and not parts[1].startswith("--") else None
+
         x_min, x_max = -10, 10
         if range_part:
             rc = range_part.strip("[]()")
@@ -39,70 +43,61 @@ def run(args):
             r = flags["range"].strip("[]()")
             try: x_min, x_max = map(float, r.split(","))
             except: pass
-        # For log scale, ensure x_min > 0
         if flags.get("logx") and x_min <= 0:
             x_min = 0.01
         if flags.get("logy") and x_min <= 0:
             x_min = 0.01
-        
+
         plt.style.use("dark_background" if flags.get("theme")=="dark" else "default")
         fig, ax = plt.subplots(figsize=(10, 6))
-        
-        # Use more points for log scales (log spacing)
-        use_log_spacing = flags.get("logx") or flags.get("logy")
-        if use_log_spacing:
+
+        use_log = flags.get("logx") or flags.get("logy")
+        if use_log:
             x = np.logspace(np.log10(max(x_min, 0.01)), np.log10(max(x_max, 0.1)), 2000)
         else:
             x = np.linspace(x_min, x_max, 2000)
-        
+
         expressions = [e.strip() for e in expr_part.split(",")]
         colors = ["steelblue", "coral", "seagreen", "goldenrod", "purple", "cyan"]
-        
+
         for i, expr in enumerate(expressions):
             expr_clean = expr.replace("^", "**")
-            try:
-                # Try sympy first
-                import sympy as sp
-                x_sym = sp.Symbol("x")
-                y_sym = sp.sympify(expr_clean)
-                y = sp.lambdify(x_sym, y_sym, "numpy")(x)
-            except:
-                # Fallback: eval with numpy namespace
-                ns = {"x": x, "np": np, "sin": np.sin, "cos": np.cos, "tan": np.tan, "exp": np.exp, "log": np.log, "log10": np.log10, "sqrt": np.sqrt, "pi": np.pi, "abs": np.abs, "e": np.e}
-                y = eval(expr_clean, {"__builtins__": {}}, ns)
-            
+            x_sym = sp.Symbol("x")
+            y_sym = sp.sympify(expr_clean)
+            y = sp.lambdify(x_sym, y_sym, "numpy")(x)
             ax.plot(x, y, linewidth=2, color=colors[i%len(colors)], label=expr)
-        
+
         if flags.get("legend") or len(expressions) > 1:
             ax.legend(fontsize=10)
-        
+
         annotate = flags.get("annotate", "")
         if annotate:
             pa = annotate.split(",")
             if len(pa) >= 3:
-                ax.annotate(pa[0], xy=(float(pa[1]), float(pa[2])), xytext=(float(pa[1])+0.5, float(pa[2])+0.5), arrowprops=dict(arrowstyle="->", color="red"), fontsize=10, color="red")
-        
-        if flags.get("logx"):
-            ax.set_xscale("log")
-        if flags.get("logy"):
-            ax.set_yscale("log")
-        
+                ax.annotate(pa[0], xy=(float(pa[1]), float(pa[2])),
+                           xytext=(float(pa[1])+0.5, float(pa[2])+0.5),
+                           arrowprops=dict(arrowstyle="->", color="red"), fontsize=10, color="red")
+
+        if flags.get("logx"): ax.set_xscale("log")
+        if flags.get("logy"): ax.set_yscale("log")
+
         ax.set_title(flags.get("title", f"Plot: {expr_part}"), fontsize=14, fontweight="bold")
         ax.set_xlabel(flags.get("xlabel", "x"), fontsize=11)
         ax.set_ylabel(flags.get("ylabel", "f(x)"), fontsize=11)
         ax.grid(True, alpha=0.3)
         ax.axhline(y=0, color="gray", linewidth=0.5)
         ax.axvline(x=0, color="gray", linewidth=0.5)
-        
-        fmt = flags.get("format", "png").lower().strip(".")
+
+        fmt = str(flags.get("format", "png")).lower().strip(".")
         ed = Path(__file__).parent.parent / "exports"; ed.mkdir(exist_ok=True)
         path = ed / f"plot_{hash(expr_part)%100000}.{fmt}"
-        plt.savefig(str(path), dpi=150, bbox_inches="tight")
+        plt.savefig(str(path), dpi=int(flags.get("dpi", 150)), bbox_inches="tight")
         plt.close()
         if os.path.exists(str(path)):
             if not flags.get("save-only"): os.startfile(str(path))
             return f"[OK] Plot -> {path}"
         return "[FAIL] Could not save"
+
     except ImportError:
         return "[FAIL] matplotlib/numpy/sympy not installed"
     except Exception as e:

@@ -50,21 +50,25 @@ class PlotClawAgent(BaseAgent):
                 if filepath.endswith(".csv"):
                     headers, rows, col_data = read_csv(filepath, col)
                     if col_data and isinstance(col_data, list) and len(col_data) > 0:
-                        # Got numeric column - route to appropriate chart
                         labels = [str(r[0])[:20] for r in rows] if rows else [f"Row {i+1}" for i in range(len(col_data))]
-                        from agents.plotclaw.commands.bar import run as bar_run
-                        # Build label:value pairs
-                        pairs = []
-                        for i in range(min(len(labels), len(col_data))):
-                            pairs.append(f"{labels[i]}:{col_data[i]}")
-                        chart_args = ",".join(pairs[:30])
-                        if chart_type == "pie":
+                        # Structured routing: no string assembly
+                        chart_spec = {
+                            "type": chart_type if chart_type in ("bar", "pie") else "bar",
+                            "labels": labels[:30],
+                            "values": col_data[:30],
+                            "flags": {}
+                        }
+                        if chart_spec["type"] == "pie":
                             from agents.plotclaw.commands.pie import run as pie_run
-                            result = pie_run(chart_args)
+                            # Build label:value string for pie (its expected format)
+                            args_str = ",".join(f"{l}:{v}" for l, v in zip(chart_spec["labels"], chart_spec["values"]))
+                            result = pie_run(args_str)
                         else:
-                            result = bar_run(chart_args)
+                            from agents.plotclaw.commands.bar import run as bar_run
+                            args_str = ",".join(f"{l}:{v}" for l, v in zip(chart_spec["labels"], chart_spec["values"]))
+                            result = bar_run(args_str)
                     elif isinstance(col_data, str):
-                        result = col_data  # Error message
+                        result = col_data
                     else:
                         result = f"CSV loaded: {len(rows)} rows, headers: {headers}\nUse /csv {filepath} <column> <bar|pie>"
                 elif filepath.endswith(".json"):
