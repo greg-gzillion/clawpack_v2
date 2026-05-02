@@ -49,17 +49,24 @@ class PlotClawAgent(BaseAgent):
                 
                 if filepath.endswith(".csv"):
                     headers, rows, col_data = read_csv(filepath, col)
-                    if col_data and isinstance(col_data, list):
-                        # Got numeric column - route to bar chart
+                    if col_data and isinstance(col_data, list) and len(col_data) > 0:
+                        # Got numeric column - route to appropriate chart
                         labels = [str(r[0])[:20] for r in rows] if rows else [f"Row {i+1}" for i in range(len(col_data))]
                         from agents.plotclaw.commands.bar import run as bar_run
-                        label_str = ",".join(labels[:20])
-                        val_str = ",".join(str(v) for v in col_data[:20])
-                        result = bar_run(f"{label_str}:{val_str} {''.join(f' --{k} {v}' if v!=True else f' --{k}' for k,v in self._extra_flags.items()) if hasattr(self,'_extra_flags') else ''}")
+                        # Build label:value pairs
+                        pairs = []
+                        for i in range(min(len(labels), len(col_data))):
+                            pairs.append(f"{labels[i]}:{col_data[i]}")
+                        chart_args = ",".join(pairs[:30])
+                        if chart_type == "pie":
+                            from agents.plotclaw.commands.pie import run as pie_run
+                            result = pie_run(chart_args)
+                        else:
+                            result = bar_run(chart_args)
                     elif isinstance(col_data, str):
                         result = col_data  # Error message
                     else:
-                        result = f"CSV loaded: {len(rows)} rows, headers: {headers}\nUse /csv {filepath} <column> <chart_type>"
+                        result = f"CSV loaded: {len(rows)} rows, headers: {headers}\nUse /csv {filepath} <column> <bar|pie>"
                 elif filepath.endswith(".json"):
                     data, err = read_json(filepath)
                     if err:
