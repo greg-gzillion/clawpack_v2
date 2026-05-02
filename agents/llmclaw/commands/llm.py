@@ -31,6 +31,10 @@ def run(prompt, task_type=None):
     providers = config.get("providers", {})
     sorted_providers = sorted(providers.items(), key=lambda x: x[1].get("priority", 99))
         # If router specified a provider, prioritize it
+    # Override: code tasks always use cloud models, not obliterated
+    if preferred == "direct_model" and task_type in ("code_generation", "code_drafting"):
+        preferred = "anthropic"
+        print(f"[llmclaw] Override: code task -> anthropic instead of direct_model")
     if preferred and preferred in providers:
         provider_config = providers[preferred]
         model = provider_config.get("model")
