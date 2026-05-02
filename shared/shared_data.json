@@ -18,5 +18,9 @@
   "dataclaw_latest": {
     "query": "constitution",
     "results_count": 10
+  },
+  "designclaw_latest": {
+    "command": "/kit",
+    "query": "modern coffee shop"
   }
 }

@@ -10,13 +10,13 @@
       "interactions": 20
     },
     "claw_coder": {
-      "interactions": 55
+      "interactions": 62
     },
     "lawclaw": {
       "interactions": 25
     },
     "crustyclaw": {
-      "interactions": 27
+      "interactions": 38
     },
     "interpretclaw": {
       "interactions": 18
@@ -28,16 +28,16 @@
       "interactions": 18
     },
     "plotclaw": {
-      "interactions": 44
+      "interactions": 47
     },
     "designclaw": {
-      "interactions": 15
+      "interactions": 17
     },
     "docuclaw": {
       "interactions": 68
     },
     "dataclaw": {
-      "interactions": 36
+      "interactions": 41
     },
     "drawclaw": {
       "interactions": 33
@@ -55,7 +55,7 @@
       "interactions": 4
     },
     "llmclaw": {
-      "interactions": 84
+      "interactions": 83
     },
     "mathematicaclaw": {
       "interactions": 16
