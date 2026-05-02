@@ -70,7 +70,7 @@ def _ask_direct(prompt, model, timeout):
     """Use direct model provider for obliterated models."""
     try:
         from shared.llm.providers.direct_model import generate
-        return generate(prompt, model, max_tokens=512)
+        return generate(prompt, model, max_tokens=128)
     except Exception as e:
         print(f"[llmclaw] Direct model error: {e}")
         return None
