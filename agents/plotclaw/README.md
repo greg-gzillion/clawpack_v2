@@ -1,6 +1,6 @@
 ﻿# PlotClaw — Charting Agent
 
-13 chart types with CSV import, shared memory I/O, and cross-agent delegation.
+13 chart types. CSV import. Shared memory. Cross-agent delegation.
 Built on matplotlib + numpy + sympy + scipy.
 
 ## Quick Start
@@ -11,58 +11,42 @@ Built on matplotlib + numpy + sympy + scipy.
 /scatter 1,2,3,4,5 2,4,6,8,10 --trendline
 /hist 1,2,2,3,3,3,4,4,4,4,5,5,5,5,5 --bins 5
 /box 1,2,3,4,5 2,3,4,5,6 3,4,5,6,7 --labels A,B,C
-/heatmap 1,2,3;4,5,6;7,8,9 --labels A,B,C --ylabels X,Y,Z --cmap magma --annotate
+/heatmap 1,2,3;4,5,6;7,8,9 --cmap magma --annotate
 /polar sin(2*theta) --range 0,6.28
 /surface sin(sqrt(x**2+y**2)) --range -5,5 --cmap magma
-/compare A:45,30,25 B:35,40,25 --title Q1vsQ2
+/compare A:45,30,25 B:35,40,25
 /animate sin(x+t) --range -5,5 --frames 30 --fps 10
 /stats 1,2,2,3,3,3,4,4,4,4,5,5,5,5,5
 /dashboard bar:sales:45,30,15 pie:market:40,30,20,10 line:growth:1,2,4,8,16
 
-## Data Import
+## Agent Contract
 
-Place CSV files in agents/plotclaw/data/ or project exports/.
+PlotClaw accepts both CLI strings (human) and structured dicts (agent).
+The canonical payload contract is defined in [SPEC.md](SPEC.md).
 
-/data                                    # List available CSV/JSON files
-/csv sales.csv revenue bar               # Bar chart from CSV column
-/csv sales.csv profit pie                # Pie chart from CSV column
+`python
+# Agent-to-agent call
+result = call_agent("plotclaw", {
+    "type": "bar",
+    "series": [{"label": "Sales", "values": [45, 30, 25]}],
+    "flags": {"theme": "dark", "mean": True}
+})
+Data & Delegation
+/data # List CSV/JSON files
+/csv sales.csv revenue bar # Chart from CSV
+/shared read # Read shared memory
+/shared write key:value # Write shared memory
+/delegate interpretclaw <task> # Delegate to other agents
 
-CSV format:
-month,revenue,costs,profit
-Jan,45,30,15
-Feb,52,28,24
-
-## Shared Memory & Delegation
-
-/shared read                             # Read all shared data
-/shared write key:value                  # Write for other agents
-/delegate interpretclaw translate hello to Spanish
-/delegate docuclaw create analysis report
-
-## Universal Flags
-
---theme dark        Dark mode
---ylim 0,100        Y-axis range
---figsize 12,8      Figure dimensions
---dpi 200           Resolution
---fontsize 12       Base font size
---cmap magma        Color map (viridis, magma, plasma, inferno, coolwarm)
---format svg        Export format (png, svg, pdf)
---save-only         Save without opening
---title My Chart    Custom title
---labels A,B,C      Custom labels
---colors red,blue   Custom colors
-
-## Architecture
-
+Architecture
 plotclaw/
-  agent_handler.py    A2A routing, delegation, shared I/O
-  data_io.py          CSV/JSON import, shared memory
-  flags.py            Universal flag parser
-  commands/           13 chart type modules
-  data/               CSV/JSON files
-  exports/            Generated charts
+schema.py Constitutional payload spec + validator
+SPEC.md Frozen payload contract v1.0
+agent_handler.py A2A routing, delegation, shared I/O
+data_io.py CSV/JSON import, shared memory
+commands/ 13 chart type modules (v5 dual interface)
+data/ CSV/JSON files
+exports/ Generated charts (PNG/SVG/PDF/GIF)
 
-## Dependencies
-
+Dependencies
 pip install matplotlib numpy sympy scipy pillow
