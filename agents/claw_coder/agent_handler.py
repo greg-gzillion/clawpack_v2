@@ -156,7 +156,10 @@ class ClawCoderAgent(BaseAgent):
                     project_ctx = scanner.full_context(query, lang)
                 rust_audit = ""
                 if lang=="rust":
-                    rust_audit = self.call_agent("crustyclaw", f"/audit {query}", timeout=15) or ""
+                    try:
+                        rust_audit = self.call_agent("crustyclaw", f"/audit {query}", timeout=10) or ""
+                    except:
+                        pass  # CrustyClaw optional
 
                 prompt = f"Write clean {lang} {version} code. Return only the code with brief comments.\n\nTask: {query}"
                 if refs: prompt = f"Reference material for {lang}:\n{refs[:3000]}\n\n{prompt}"
