@@ -80,9 +80,9 @@ class DraftClawAgent(BaseAgent):
             if cmd in ("/permit","/compliance") and query:
                 import re, datetime
                 jurisdiction = "default"
-                jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s]+?)(?:\s|$)', query.lower())
+                jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
                 if jur_match:
-                    jurisdiction = jur_match.group(1).strip()
+                    jurisdiction = jur_match.group(1).strip().rstrip(",").strip()
                 
                 code_refs = {
                     "default": "IBC 2021, IRC 2021, NEC 2023",
