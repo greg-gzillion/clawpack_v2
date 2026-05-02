@@ -7,7 +7,7 @@
   },
   "claw_coder_latest": {
     "command": "/code",
-    "query": "python fastapi endpoint with pydantic validation",
-    "result": "Saved: python_fastapi_endpoint_with_pydantic_validation_20260501_223501.py | Validated: Syntax OK\n\n```python\nfrom pydantic import BaseModel, ValidationError\nfrom fastapi import FastAPI, HTTPException\n\napp = FastAPI()\n\nclass User(BaseModel):\n    name: str\n    email: str\n\n@app.post(\"/users/\")\ndef create_user(user: User):\n    # Validate user input\n    try:\n        # Validate user input\n        if not user.name or not user.email:\n            raise ValidationError(\"Name and email are required\")\n     "
+    "query": "python async web scraper with aiohttp and beautifulsoup, save results to JSON",
+    "result": "Saved: python_async_web_scraper_with_aiohttp_and_beautifu_20260502_000415.py | Validated: Syntax OK\n\n```python\nimport asyncio\nimport json\nfrom typing import Any\nfrom pathlib import Path\n\nimport aiohttp\nfrom bs4 import BeautifulSoup\n\n\nclass AsyncWebScraper:\n    \"\"\"Async web scraper using aiohttp and BeautifulSoup.\"\"\"\n\n    def __init__(self, output_file: str = \"results.json\", max_concurrent: int = 5):\n        \"\"\"Initialize scraper with output file and concurrency limit.\"\"\"\n        self.output_file"
   }
 }

@@ -37,7 +37,7 @@ from agents.drawclaw.agent_handler import process_task as drawclaw_process
 from agents.draftclaw.agent_handler import process_task as draftclaw_process
 
 # Initialize memory
-a2a_memory = get_memory()
+a2a_memory = get_memory('a2a_server')
 
 AGENTS = {
     "llmclaw": {"script": "agents/llmclaw/llmclaw.py", "cmd_prefix": ["/llm"], "desc": "Model selection and management"},
@@ -75,7 +75,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         if path == "/health":
             self._send_json({
                 "status": "healthy",
-                "agents": len(AGENT_HANDLERS),
+                "agents": len(AGENTS),
                 "memory": {
                     "working_tokens": a2a_memory.working.token_count,
                     "semantic_facts": len(a2a_memory.semantic.facts),
@@ -108,7 +108,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
 
             a2a_memory.working.add("user", f"[{agent_name}] {task}")
 
-            if agent_name in AGENT_HANDLERS:
+            if agent_name in AGENTS:
                 result = self._execute_agent(agent_name, task)
                 
                 # Handle both dict and string responses
@@ -203,7 +203,7 @@ def main():
     print("?? CLAWPACK A2A SERVER")
     print("="*70)
     print(f"?? http://127.0.0.1:{port}")
-    print(f"\n? {len(AGENT_HANDLERS)} Agents Registered")
+    print(f"\n? {len(AGENTS)} Agents Registered")
     print("? Three-Tier Memory: ACTIVE")
     print("? WebClaw Direct Integration: ACTIVE")
     print("\nEndpoints:")
