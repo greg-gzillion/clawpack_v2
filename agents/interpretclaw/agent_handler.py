@@ -37,8 +37,10 @@ class InterpretClawAgent(BaseAgent):
                 result = self.ask_llm(f"Translate. Return ONLY the translation: {query}")
             elif cmd in ("/detect", "detect") and query:
                 result = self.ask_llm(f"Detect language of this text. Reply with language name only: {query}")
-            elif cmd in ("/languages", "/langs") and query:
-                result = self.ask_llm(f"List these languages with their language codes. Format: code - name\n{query}")
+            elif cmd in ("/languages", "/langs"):
+                import sys; sys.path.insert(0, str(Path(__file__).resolve().parent))
+                from commands.languages import run as langs_run
+                result = langs_run("")
             elif cmd in ("/speak", "speak") and query:
                 result = f"[TTS] {query} (TTS requires espeak or system TTS)"
             elif cmd in ("/listen", "listen"):
