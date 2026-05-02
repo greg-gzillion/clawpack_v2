@@ -128,14 +128,14 @@ class DraftClawAgent(BaseAgent):
                     jurisdiction = jur_match.group(1).strip().rstrip(",").strip()
                 
                 geo_assumptions = {
-                    "default": {"frost_depth": "36 in", "ground_snow": "30 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf"},
-                    "denver": {"frost_depth": "36 in", "ground_snow": "40 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf"},
-                    "denver colorado": {"frost_depth": "36 in", "ground_snow": "40 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf"},
-                    "miami": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "180 mph", "seismic": "SDC A", "exposure": "C", "soil_bearing": "2,500 psf"},
-                    "miami florida": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "180 mph", "seismic": "SDC A", "exposure": "C", "soil_bearing": "2,500 psf"},
-                    "phoenix": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "105 mph", "seismic": "SDC B", "exposure": "C", "soil_bearing": "2,000 psf"},
-                    "chicago": {"frost_depth": "42 in", "ground_snow": "25 psf", "wind_speed": "115 mph", "seismic": "SDC A", "exposure": "B", "soil_bearing": "3,500 psf"},
-                    "california": {"frost_depth": "12 in", "ground_snow": "0 psf", "wind_speed": "110 mph", "seismic": "SDC D", "exposure": "C", "soil_bearing": "2,500 psf"},
+                    "default": {"frost_depth": "36 in", "ground_snow": "30 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf (assumed - geotech report required)"},
+                    "denver": {"frost_depth": "36 in", "ground_snow": "40 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf (assumed - geotech report required)"},
+                    "denver colorado": {"frost_depth": "36 in", "ground_snow": "40 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf (assumed - geotech report required)"},
+                    "miami": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "180 mph", "seismic": "SDC A", "exposure": "C", "soil_bearing": "2,500 psf (assumed - geotech report required)"},
+                    "miami florida": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "180 mph", "seismic": "SDC A", "exposure": "C", "soil_bearing": "2,500 psf (assumed - geotech report required)"},
+                    "phoenix": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "105 mph", "seismic": "SDC B", "exposure": "C", "soil_bearing": "2,000 psf (assumed - geotech report required)"},
+                    "chicago": {"frost_depth": "42 in", "ground_snow": "25 psf", "wind_speed": "115 mph", "seismic": "SDC A", "exposure": "B", "soil_bearing": "3,500 psf (assumed - geotech report required)"},
+                    "california": {"frost_depth": "12 in", "ground_snow": "0 psf", "wind_speed": "110 mph", "seismic": "SDC D", "exposure": "C", "soil_bearing": "2,500 psf (assumed - geotech report required)"},
                 }
                 geo = geo_assumptions.get(jurisdiction, geo_assumptions["default"])
                 nl = chr(10)
