@@ -36,10 +36,15 @@ def run(args):
                 values.append(float(p))
         if not labels:
             labels = [f"Item {i+1}" for i in range(len(values))]
-        if flags.get("labels"):
+        # Flag labels override
+        if flags.get("labels") and isinstance(flags["labels"], str):
             labels = [l.strip() for l in flags["labels"].split(",")]
-        explode_vals = [float(e.strip()) for e in flags["explode"].split(",")] if flags.get("explode") else [0]*len(values)
-        is_donut = bool(flags.get("donut"))
+        # Explode
+        if flags.get("explode") and isinstance(flags["explode"], str):
+            explode_vals = [float(e.strip()) for e in flags["explode"].split(",")]
+        else:
+            explode_vals = [0] * len(values)
+        is_donut = flags.get("donut") == True
         plt.style.use("dark_background" if flags.get("theme")=="dark" else "default")
         fig, ax = plt.subplots(figsize=(8, 8))
         colors = plt.cm.Set3(range(len(values)))

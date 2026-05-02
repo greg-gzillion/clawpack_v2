@@ -20,7 +20,7 @@ def parse_flags(args):
 
 def run(args):
     if not args:
-        return "Usage: /plot <expr> [--range min,max] [--legend] [--title Title] [--xlabel X] [--ylabel Y] [--annotate text,x,y] [--theme dark] [--format svg|pdf|png] [--save-only]\nExample: /plot sin(x),cos(x) --range -6.28,6.28 --legend --annotate intersection,0.78,0.7"
+        return "Usage: /plot <expr> [--range min,max] [--legend] [--title Title] [--xlabel X] [--ylabel Y] [--annotate text,x,y] [--logx] [--logy] [--theme dark] [--format svg|pdf|png] [--save-only]\nExample: /plot sin(x),cos(x) --range -6.28,6.28 --legend --annotate intersection,0.78,0.7\n/plot exp(x) --range 0,5 --logy"
     try:
         import matplotlib; matplotlib.use("Agg")
         import matplotlib.pyplot as plt
@@ -62,6 +62,11 @@ def run(args):
             pa = annotate.split(",")
             if len(pa) >= 3:
                 ax.annotate(pa[0], xy=(float(pa[1]), float(pa[2])), xytext=(float(pa[1])+0.5, float(pa[2])+0.5), arrowprops=dict(arrowstyle="->", color="red"), fontsize=10, color="red")
+        # Log scale
+        if flags.get("logx"):
+            ax.set_xscale("log")
+        if flags.get("logy"):
+            ax.set_yscale("log")
         ax.set_title(flags.get("title", f"Plot: {expr_part}"), fontsize=14, fontweight="bold")
         ax.set_xlabel(flags.get("xlabel", "x"), fontsize=11)
         ax.set_ylabel(flags.get("ylabel", "f(x)"), fontsize=11)
