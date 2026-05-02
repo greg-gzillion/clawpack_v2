@@ -81,6 +81,14 @@ AGENT_REGISTRY: Dict[str, Dict] = {
         "icon": "🔄",
         "capabilities": ["create_flowchart", "create_mindmap", "create_diagram", "create_sequence"],
     },
+    "langclaw": {
+        "domain": "Language Teaching & Learning",
+        "icon": "🗣",
+        "capabilities": [
+            "teach_language", "language_lesson", "practice_exercises",
+            "vocabulary", "conversation_practice", "pronunciation",
+        ],
+    },
     "interpretclaw": {
         "domain": "Translation & Interpretation",
         "icon": "🌍",
@@ -113,6 +121,8 @@ DOMAIN_SHORTCUTS = {
     "flowchart": "flowclaw", "diagram": "flowclaw", "mindmap": "flowclaw",
     "translate": "interpretclaw", "language": "interpretclaw",
     "model": "llmclaw", "orchestrate": "llmclaw",
+    "language": "langclaw", "lesson": "langclaw", "teach": "langclaw",
+    "translate": "interpretclaw", "detect_lang": "interpretclaw",
 }
 
 def get_all_agents() -> List[str]:
@@ -160,6 +170,22 @@ def delegate(calling_agent: str, capability: str, **kwargs) -> Dict:
                 return {"status": "success", "results": find_files(kwargs.get("query", ""))}
             else:
                 return analyze_file(kwargs.get("input_path", ""), use_ai=True)
+        elif target == "langclaw":
+            return {
+                "status": "delegated",
+                "to_agent": "langclaw",
+                "domain": "Language Teaching",
+                "capability": capability,
+                "note": "Task routed to langclaw for language teaching. Use /lesson, /practice, /vocab.",
+            }
+        elif target == "interpretclaw":
+            return {
+                "status": "delegated",
+                "to_agent": "interpretclaw", 
+                "domain": "Translation & Interpretation",
+                "capability": capability,
+                "note": "Task routed to interpretclaw for translation. Use /translate, /detect.",
+            }
         elif target == "webclaw":
             from shared.memory.unified_memory import get_memory
             memory = get_memory()
