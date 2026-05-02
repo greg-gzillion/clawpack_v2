@@ -60,14 +60,15 @@ def generate(prompt: str, model_name: str, max_tokens: int = 128) -> str:
     
     model, tokenizer = _loaded_models[model_name]
     
-    # Format prompt properly for instruction-tuned models
-    if hasattr(tokenizer, 'apply_chat_template'):
-        messages = [{"role": "user", "content": prompt}]
-        formatted = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    # Direct prompt formatting - base models don't need chat templates
+    # Just wrap in a simple instruction format if it looks like a request
+    if any(kw in prompt.lower() for kw in ['write', 'generate', 'create', 'code', 'function', 'class']):
+        formatted = prompt  # Direct prompt for code generation
     else:
         formatted = prompt
     inputs = tokenizer(formatted, return_tensors="pt").to(model.device)
-        import torch
+    
+    import torch
     with torch.inference_mode():
         outputs = model.generate(
             **inputs,
@@ -77,13 +78,16 @@ def generate(prompt: str, model_name: str, max_tokens: int = 128) -> str:
             eos_token_id=tokenizer.eos_token_id,
             use_cache=True,
         )
-        # Decode and strip the input prompt from output
-    full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    # Remove the prompt from the response if it's echoed back
+    
+    # Decode with proper spacing
+    full_output = tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+    # Strip only the prompt portion
     if full_output.startswith(prompt):
         full_output = full_output[len(prompt):].strip()
     elif formatted != prompt and full_output.startswith(formatted):
         full_output = full_output[len(formatted):].strip()
+    # Clean up: replace the Ċ character that should be newlines
+    full_output = full_output.replace('Ċ', '
+').replace('Ġ', ' ')
     return full_output
-
 __all__ = ['list_models', 'get_model_info', 'generate', 'OBLITERATED_MODELS']
