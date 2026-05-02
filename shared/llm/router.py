@@ -23,6 +23,8 @@ LOCAL_TASK_TYPES = {
 
 # Task types that should use cloud models
 CLOUD_TASK_TYPES = {
+    "code_generation",
+    "code_drafting",
     "orchestration",
     "planning",
     "agent_routing",
@@ -32,6 +34,8 @@ CLOUD_TASK_TYPES = {
     "translation",
     "law_analysis",
     "medical_analysis",
+    "raw_generation",
+    "direct_inference",
 }
 
 def route(capability: str = None, task_type: str = None) -> str:
@@ -41,14 +45,17 @@ def route(capability: str = None, task_type: str = None) -> str:
     """
     if task_type in LOCAL_TASK_TYPES:
         return "direct_model"
+    if task_type in ("code_generation", "code_drafting"):
+        return "anthropic"
     if task_type in CLOUD_TASK_TYPES:
         return "anthropic"
     # Default: use priority-based fallback
     return None
 
 PROVIDER_PRIORITY = {
-    "orchestration": ["anthropic", "groq", "direct_model"],
-    "generation": ["direct_model", "anthropic", "groq"],
+    "code_generation": ["anthropic", "groq"],
+    "orchestration": ["anthropic", "groq"],
+    "private": ["direct_model"],
     "default": ["anthropic", "groq", "direct_model"],
 }
 
