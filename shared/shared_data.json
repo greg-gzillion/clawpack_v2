@@ -7,7 +7,12 @@
   },
   "claw_coder_latest": {
     "command": "/code",
-    "query": "assembly x86_64 simple TCP server socket that listens on port 8080 and echoes back received data",
-    "result": "Saved: assembly_x86_64_simple_TCP_server_socket_that_list_20260502_000656.asm | Validation: No validator for assembly\n\n```asm\n; x86_64 Linux TCP Echo Server (Port 8080)\n; Requires: nasm, ld, gcc for linking\n\nsection .data\n    port equ 8080\n    backlog equ 5\n    buf_size equ 4096\n    \n    ; Socket constants (sys/socket.h)\n    AF_INET equ 2\n    SOCK_STREAM equ 1\n    IPPROTO_TCP equ 6\n    SOL_SOCKET equ 1\n    SO_REUSEADDR equ 2\n    \n    ; System call numbers\n    SYS_SOCKET equ 41\n    SYS_BIND equ 4"
+    "query": "zig compile-time JSON parser that generates struct types from a schema string at comptime",
+    "result": "Saved: zig_compile-time_JSON_parser_that_generates_struct_20260502_002546.json | Validation: No validator for json\n\n```json\n{\n  \"language\": \"zig\",\n  \"task\": \"compile-time JSON parser that generates struct types from a schema string\",\n  \"files\": [\n    {\n      \"name\": \"json_schema_parser.zig\",\n      \"content\": \"const std = @import(\\\"std\\\");\\nconst builtin = @import(\\\"builtin\\\");\\n\\n// JSON value types\\npub const JsonType = enum {\\n    string,\\n    number,\\n    boolean,\\n    object,\\n    array,\\n  "
+  },
+  "crustyclaw_latest": {
+    "command": "/rust",
+    "query": "async TCP server with tokio",
+    "result": "Saved: async_TCP_server_with_tokio_20260502_081859.rs | Validated: error[E0601]: `main` function not found in crate `async_TCP_server_with_tokio_20260502_081859`\n  |\n  = note: consider adding a `main` function to `C:\\Users\\greg\\dev\\clawpack_v2\\exports\\async_TCP_serve\n\n```rust\nuse tokio::io::{AsyncReadExt, AsyncWriteExt};\nuse tokio::net::TcpListener;\nuse std::error::Error;\n\n#[tokio::main]\nasync fn main() -> Result<(), Box<dyn Error>> {\n    let listener = TcpListener::bind(\"127.0.0.1:8080\").await?"
   }
 }
