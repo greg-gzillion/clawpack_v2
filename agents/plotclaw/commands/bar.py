@@ -168,14 +168,14 @@ def run(args):
     """Accept string (CLI) or dict (A2A contract)."""
     try:
         if isinstance(args, str):
-            from schema import validate
+            from agents.plotclaw.schema import validate
             payload = cli_to_payload(args)
             validated = validate(payload)
             if not validated["valid"]:
                 return f"[FAIL] Schema validation: {validated['error']}"
             return execute(validated["payload"])
         elif isinstance(args, dict):
-            from schema import validate
+            from agents.plotclaw.schema import validate
             validated = validate(args)
             if not validated["valid"]:
                 return f"[FAIL] Schema validation: {validated['error']}"

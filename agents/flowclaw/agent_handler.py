@@ -10,9 +10,9 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(FLOWCLAW_DIR))
 
 from shared.base_agent import BaseAgent
-from engine.diagram_engine import DiagramEngine
-from viewer.diagram_viewer import DiagramViewer
-from exporters.base_exporter import DocxExporter, PdfExporter, HtmlExporter, MarkdownExporter, JsonExporter
+from agents.flowclaw.engine.diagram_engine import DiagramEngine
+from agents.flowclaw.viewer.diagram_viewer import DiagramViewer
+from agents.flowclaw.exporters.base_exporter import DocxExporter, PdfExporter, HtmlExporter, MarkdownExporter, JsonExporter
 
 class LLMAdapter:
     def __init__(self, agent):
@@ -48,7 +48,7 @@ class FlowClawAgent(BaseAgent):
         self.track_interaction()
 
         if isinstance(task, dict):
-            from schema import validate
+            from agents.flowclaw.schema import validate
             validated = validate(task)
             if not validated["valid"]:
                 return {"status": "error", "result": f"Schema: {validated['error']}"}
@@ -68,7 +68,7 @@ class FlowClawAgent(BaseAgent):
                 return {"status": "success", "result": f"FlowClaw v5 | Interactions: {self.state.get('interactions', 0)}"}
 
             if cmd == "/shared" and args:
-                from data_io import read_shared, write_shared
+                from agents.flowclaw.data_io import read_shared, write_shared
                 parts2 = args.split(maxsplit=1)
                 action = parts2[0]
                 if action == "read":
@@ -95,7 +95,7 @@ class FlowClawAgent(BaseAgent):
                 return {"status": "success", "result": str(result)}
 
             if cmd == "/exports":
-                from data_io import list_exports
+                from agents.flowclaw.data_io import list_exports
                 return {"status": "success", "result": "Exports:\n" + list_exports()}
 
             # Diagram generation - opens browser by default
@@ -124,7 +124,7 @@ class FlowClawAgent(BaseAgent):
                 except Exception as e:
                     result = f"`mermaid\n{code}\n`"
 
-            from data_io import write_shared
+            from agents.flowclaw.data_io import write_shared
             write_shared("flowclaw_latest", {"type": diagram_type, "query": query, "code": code})
 
             return {"status": "success", "result": str(result)}

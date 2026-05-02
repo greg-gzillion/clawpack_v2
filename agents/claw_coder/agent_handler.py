@@ -11,6 +11,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(CODER_DIR))
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "llmclaw"))
 from shared.base_agent import BaseAgent
+from agents.claw_coder.engine.code_generator import CodeGenerator, _detect_lang, LANG_EXT, LANG_VERSION, _extract_code
 import importlib.util
 
 def _load_mod(name):
@@ -39,6 +40,7 @@ def _detect_lang(task):
 class ClawCoderAgent(BaseAgent):
     def __init__(self):
         super().__init__("claw_coder")
+        self.code_gen = CodeGenerator(self.ask_llm)
 
     def _validate_code(self, filepath, lang):
         try:
@@ -93,7 +95,7 @@ class ClawCoderAgent(BaseAgent):
 
         # Dict payload (agent-to-agent)
         if isinstance(task, dict):
-            from schema import validate
+            from agents.claw_coder.schema import validate
             validated = validate(task)
             if not validated["valid"]:
                 return {"status":"error","result":f"Schema: {validated['error']}"}
@@ -117,7 +119,7 @@ class ClawCoderAgent(BaseAgent):
 
             # Shared memory
             if cmd=="/shared" and args:
-                from data_io import read_shared, write_shared
+                from agents.claw_coder.data_io import read_shared, write_shared
                 parts2 = args.split(maxsplit=1)
                 action = parts2[0]
                 if action=="read":
@@ -229,7 +231,7 @@ class ClawCoderAgent(BaseAgent):
                 result = "Type /help for commands"
 
             # Auto-publish to shared memory
-            from data_io import write_shared
+            from agents.claw_coder.data_io import write_shared
             write_shared("claw_coder_latest", {"command": cmd, "query": query, "result": str(result)[:500]})
 
             return {"status":"success","result":str(result)}
