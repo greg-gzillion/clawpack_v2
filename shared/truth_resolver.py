@@ -79,6 +79,11 @@ def classify_source(url_or_origin: str) -> str:
         "law.cornell.edu", "supremecourt.gov", "justice.gov",
         "nih.gov", "cdc.gov", "who.int", "arxiv.org",
         "github.com", "wikipedia.org",
+        # Economic & market intelligence
+        "iea.org", "worldbank.org", "imf.org", "oecd.org", "un.org",
+        "bls.gov", "bea.gov", "fred.stlouisfed.org", "federalreserve.gov",
+        "sec.gov", "eia.gov", "epa.gov", "ftc.gov", "census.gov",
+        "irs.gov", "treasury.gov",
     ]
     for domain in web_domains:
         if domain in url_or_origin:
