@@ -223,6 +223,21 @@ class DiagramViewer:
         return temp_file.name
     
     @staticmethod
+    def _build_html(mermaid_code: str, title: str = "FlowClaw Diagram") -> str:
+        """Build HTML string without opening browser (for subprocess use)."""
+        safe_code = mermaid_code.replace('<', '&lt;').replace('>', '&gt;')
+        return f"""<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>{title}</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>body{{font-family:Arial;margin:20px;background:#f0f2f5}}
+.container{{max-width:1000px;margin:0 auto;background:white;border-radius:12px;padding:20px}}
+h1{{color:#667eea}}.mermaid{{text-align:center;background:white;padding:20px}}</style>
+</head><body><div class="container"><h1>{title}</h1>
+<div class="mermaid">{mermaid_code}</div></div>
+<script>mermaid.initialize({{startOnLoad:true,securityLevel:'loose'}});</script>
+</body></html>"""
+
+    @staticmethod
     def view_in_terminal(mermaid_code: str) -> str:
         """ASCII preview in terminal (simple)"""
         print("\n" + "="*60)

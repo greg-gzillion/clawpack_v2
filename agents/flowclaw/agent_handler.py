@@ -114,7 +114,12 @@ class FlowClawAgent(BaseAgent):
                 result = f"{er}\n\n`mermaid\n{code}\n`" if er else f"`mermaid\n{code}\n`"
             else:
                 try:
-                    self.viewer.view_in_browser(code, query)
+                    import subprocess, tempfile
+                    html = self.viewer._build_html(code, query)
+                    tmp = tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8')
+                    tmp.write(html)
+                    tmp.close()
+                    subprocess.Popen(['cmd', '/c', 'start', '', tmp.name], shell=True)
                     result = f"Opened in browser.\n\n`mermaid\n{code}\n`"
                 except Exception as e:
                     result = f"`mermaid\n{code}\n`"
@@ -144,7 +149,12 @@ class FlowClawAgent(BaseAgent):
 
             if not flags.get("export_format"):
                 try:
-                    self.viewer.view_in_browser(code, flags.get("title", query))
+                    import subprocess, tempfile
+                    html = self.viewer._build_html(code, flags.get("title", query))
+                    tmp = tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8')
+                    tmp.write(html)
+                    tmp.close()
+                    subprocess.Popen(['cmd', '/c', 'start', '', tmp.name], shell=True)
                 except:
                     pass
 
