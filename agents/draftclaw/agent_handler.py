@@ -47,7 +47,7 @@ class DraftClawAgent(BaseAgent):
 
         try:
             if cmd in ("/help",):
-                result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
+                result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /structural <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}
             if cmd in ("/stats",): return {"status":"success","result":f"DraftClaw v5 | Blueprints+CAD+Circuits | Interactions: {self.state.get('interactions',0)}"}
 
@@ -118,6 +118,35 @@ class DraftClawAgent(BaseAgent):
                 geo_text = nl + nl + "## Jurisdiction-Specific Design Assumptions" + nl + "- **Ground Snow Load:** " + geo["ground_snow"] + " (per ASCE 7 Chapter 7)" + nl + "- **Frost Depth:** " + geo["frost_depth"] + " (per IBC Section 1809.5)" + nl + "- **Design Wind Speed:** " + geo["wind_speed"] + " (per ASCE 7 Chapter 26)" + nl + "- **Seismic Design Category:** " + geo["seismic"] + " (per ASCE 7 Chapter 11)" + nl + "- **Exposure Category:** " + geo["exposure"] + " (per ASCE 7 Section 26.7)" + nl + "- **Concrete Slab Design:** Per ACI 360R (Slabs-on-Ground) for warehouse/industrial loading; ACI 318 for structural concrete" + nl + "- **Occupancy Classification:** S-1 (Storage, Moderate Hazard) per IBC Section 311" + nl + "- **Construction Type:** Type IIB (Non-combustible, unprotected) per IBC Chapter 6, Table 601" + nl + "- **Loading Dock Safety:** Per OSHA 1910.176 (Materials Handling) including dock edge protection, vehicle restraint systems, and forklift circulation separation" + nl + nl + "Include these assumptions in the permit package."
                 result = self.ask_llm(prompt)
                 result += f"\n\n---\n## Permit Package Control\n| Field | Value |\n|-------|-------|\n| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |\n| **Jurisdiction** | {jurisdiction.title()} |\n| **Governing Codes** | {codes} |\n| **Agent** | DraftClaw v5 Constitutional |\n| **Disclaimer** | For preliminary submittal only. Verify with local AHJ. Requires PE/SE stamp. |\n\n*NOT FOR CONSTRUCTION - FOR PERMIT PREPARATION REFERENCE ONLY*"
+
+            elif cmd in ("/structural","/engineering") and query:
+                import re, datetime
+                # Extract jurisdiction
+                jurisdiction = "default"
+                jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
+                if jur_match:
+                    jurisdiction = jur_match.group(1).strip().rstrip(",").strip()
+                
+                geo_assumptions = {
+                    "default": {"frost_depth": "36 in", "ground_snow": "30 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf"},
+                    "denver": {"frost_depth": "36 in", "ground_snow": "40 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf"},
+                    "denver colorado": {"frost_depth": "36 in", "ground_snow": "40 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B", "soil_bearing": "3,000 psf"},
+                    "miami": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "180 mph", "seismic": "SDC A", "exposure": "C", "soil_bearing": "2,500 psf"},
+                    "miami florida": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "180 mph", "seismic": "SDC A", "exposure": "C", "soil_bearing": "2,500 psf"},
+                    "phoenix": {"frost_depth": "0 in", "ground_snow": "0 psf", "wind_speed": "105 mph", "seismic": "SDC B", "exposure": "C", "soil_bearing": "2,000 psf"},
+                    "chicago": {"frost_depth": "42 in", "ground_snow": "25 psf", "wind_speed": "115 mph", "seismic": "SDC A", "exposure": "B", "soil_bearing": "3,500 psf"},
+                    "california": {"frost_depth": "12 in", "ground_snow": "0 psf", "wind_speed": "110 mph", "seismic": "SDC D", "exposure": "C", "soil_bearing": "2,500 psf"},
+                }
+                geo = geo_assumptions.get(jurisdiction, geo_assumptions["default"])
+                nl = chr(10)
+                
+                prompt = f"Generate a PE/SE stamp-ready structural engineering package for: {query}{nl}{nl}Jurisdiction: {jurisdiction.title()}{nl}{nl}Include detailed calculations and schedules for:{nl}1. Foundation Design: footing sizes, depths (frost depth: {geo['frost_depth']}), soil bearing ({geo['soil_bearing']}), anchor bolt schedule per ACI 318{nl}2. Column Schedule: sizes, spacing, base plates, axial loads per AISC 360. Material: ASTM A992 Grade 50{nl}3. Beam/Rafter Schedule: member sizes, moment capacity, deflection checks per AISC 360. Span tables for roof framing{nl}4. Lateral System: wind bracing design for {geo['wind_speed']}, seismic per {geo['seismic']} (ASCE 7 Ch 11-12), exposure {geo['exposure']}{nl}5. Roof Framing: joist spacing, deck gauge, live load 20 psf, ground snow {geo['ground_snow']}, drift per ASCE 7 Ch 7{nl}6. Slab-on-Grade: thickness, reinforcement, joint spacing per ACI 360R for industrial/forklift loading{nl}7. Connection Details: beam-to-column, column-to-footing, brace connections. Bolted per AISC 360 Ch J{nl}8. Load Combinations per ASCE 7 Section 2.3 (LRFD){nl}9. Deflection Criteria: L/240 live load, L/180 total load{nl}{nl}Format as construction-ready schedules. Cite specific code sections. Include WARNING: Requires review and stamp by licensed PE/SE."
+                
+                if refs:
+                    prompt = f"Reference codes and standards:{nl}{refs[:3000]}{nl}{nl}{prompt}"
+                
+                result = self.ask_llm(prompt)
+                result += f"{nl}{nl}---{nl}## Structural Package Control{nl}| Field | Value |{nl}|-------|-------|{nl}| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |{nl}| **Jurisdiction** | {jurisdiction.title()} |{nl}| **Design Basis** | Frost: {geo['frost_depth']} | Snow: {geo['ground_snow']} | Wind: {geo['wind_speed']} | Seismic: {geo['seismic']} | Soil: {geo['soil_bearing']} |{nl}| **Agent** | DraftClaw v5 Structural Engine |{nl}| **WARNING** | REQUIRES REVIEW AND STAMP BY LICENSED PROFESSIONAL ENGINEER (PE) OR STRUCTURAL ENGINEER (SE) PRIOR TO CONSTRUCTION |{nl}{nl}*NOT FOR CONSTRUCTION - FOR PRELIMINARY DESIGN REFERENCE ONLY*"
 
             elif cmd in ("/blueprint","/floorplan") and query:
                 prompt = f"Generate detailed architectural blueprint specifications with dimensions, room layouts, wall placements, door/window locations, and structural notes. Include code references where applicable.\n\nProject: {query}"
