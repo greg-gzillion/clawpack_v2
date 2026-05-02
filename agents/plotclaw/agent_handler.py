@@ -1,4 +1,4 @@
-﻿"""A2A Handler for PlotClaw - Chart Generator with matplotlib"""
+"""A2A Handler for PlotClaw - Chart Generator with matplotlib"""
 import sys
 from pathlib import Path
 
@@ -7,6 +7,7 @@ PROJECT_ROOT = PLOTCLAW_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(PLOTCLAW_DIR))
 
+import json
 from shared.base_agent import BaseAgent
 
 class PlotClawAgent(BaseAgent):
@@ -51,7 +52,7 @@ class PlotClawAgent(BaseAgent):
                     if col_data and isinstance(col_data, list):
                         # Got numeric column - route to bar chart
                         labels = [str(r[0])[:20] for r in rows] if rows else [f"Row {i+1}" for i in range(len(col_data))]
-                        from commands.bar import run as bar_run
+                        from agents.plotclaw.commands.bar import run as bar_run
                         label_str = ",".join(labels[:20])
                         val_str = ",".join(str(v) for v in col_data[:20])
                         result = bar_run(f"{label_str}:{val_str} {''.join(f' --{k} {v}' if v!=True else f' --{k}' for k,v in self._extra_flags.items()) if hasattr(self,'_extra_flags') else ''}")
@@ -69,7 +70,7 @@ class PlotClawAgent(BaseAgent):
                     result = f"Unknown format. Use .csv or .json files.\nAvailable: {list_data_dir()}"
             
             # --- List data files ---
-            elif cmd in ("/data", "/files") and not query:
+            elif cmd in ("/data", "/files"):
                 from data_io import list_data_dir
                 result = "Available data files:\n" + "\n".join(f"  {f}" for f in list_data_dir())
             
@@ -100,43 +101,43 @@ class PlotClawAgent(BaseAgent):
             
             # --- Chart commands (all support universal flags) ---
             elif cmd in ("/bar", "bar") and query:
-                from commands.bar import run
+                from agents.plotclaw.commands.bar import run
                 result = run(query)
             elif cmd in ("/pie", "pie") and query:
-                from commands.pie import run
+                from agents.plotclaw.commands.pie import run
                 result = run(query)
             elif cmd in ("/plot", "plot") and query:
-                from commands.plot import run
+                from agents.plotclaw.commands.plot import run
                 result = run(query)
             elif cmd in ("/scatter", "scatter") and query:
-                from commands.scatter import run
+                from agents.plotclaw.commands.scatter import run
                 result = run(query)
             elif cmd in ("/hist", "hist") and query:
-                from commands.hist import run
+                from agents.plotclaw.commands.hist import run
                 result = run(query)
             elif cmd in ("/box", "box") and query:
-                from commands.box import run
+                from agents.plotclaw.commands.box import run
                 result = run(query)
             elif cmd in ("/heatmap", "heatmap") and query:
-                from commands.heatmap import run
+                from agents.plotclaw.commands.heatmap import run
                 result = run(query)
             elif cmd in ("/polar", "polar") and query:
-                from commands.polar import run
+                from agents.plotclaw.commands.polar import run
                 result = run(query)
             elif cmd in ("/surface", "surface") and query:
-                from commands.surface import run
+                from agents.plotclaw.commands.surface import run
                 result = run(query)
             elif cmd in ("/compare", "compare") and query:
-                from commands.compare import run
+                from agents.plotclaw.commands.compare import run
                 result = run(query)
             elif cmd in ("/animate", "animate") and query:
-                from commands.animate import run
+                from agents.plotclaw.commands.animate import run
                 result = run(query)
             elif cmd in ("/stats", "stats") and query:
-                from commands.stats import run
+                from agents.plotclaw.commands.stats import run
                 result = run(query)
             elif cmd in ("/dashboard", "dashboard") and query:
-                from commands.dashboard import run
+                from agents.plotclaw.commands.dashboard import run
                 result = run(query)
             
             # --- Delegate to other agents ---
