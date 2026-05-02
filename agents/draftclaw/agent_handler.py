@@ -47,7 +47,7 @@ class DraftClawAgent(BaseAgent):
 
         try:
             if cmd in ("/help",):
-                result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
+                result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}
             if cmd in ("/stats",): return {"status":"success","result":f"DraftClaw v5 | Blueprints+CAD+Circuits | Interactions: {self.state.get('interactions',0)}"}
 
@@ -77,7 +77,33 @@ class DraftClawAgent(BaseAgent):
             # Gather references for better specs
             refs = search_references(query, self.call_agent) if query else ""
 
-            if cmd in ("/blueprint","/floorplan") and query:
+            if cmd in ("/permit","/compliance") and query:
+                import re, datetime
+                jurisdiction = "default"
+                jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s]+?)(?:\s|$)', query.lower())
+                if jur_match:
+                    jurisdiction = jur_match.group(1).strip()
+                
+                code_refs = {
+                    "default": "IBC 2021, IRC 2021, NEC 2023",
+                    "california": "CBC 2022 (Title 24), CRC 2022, CEC 2022",
+                    "florida": "FBC 2020 (HVHZ where applicable), IRC 2020",
+                    "texas": "IBC 2021 (TDLR amendments), IRC 2021",
+                    "new york": "IBC 2021 (NYS amendments), NYC Building Code where applicable",
+                    "colorado": "IBC 2021 (state adopted, local amendments may apply)",
+                    "denver": "2022 Denver Building Code (IBC 2021 + Denver amendments)",
+                    "miami": "FBC 2020 with HVHZ provisions, Miami-Dade County amendments",
+                    "phoenix": "IBC 2018 (Arizona adopted), Phoenix amendments",
+                    "chicago": "Chicago Building Code (Title 14B), not IBC-based",
+                }
+                codes = code_refs.get(jurisdiction, code_refs["default"])
+                
+                prompt = f"Generate a permit application compliance package for: {query}\n\nInclude:\n1. Jurisdiction: {jurisdiction.title()}\n2. Applicable Codes: {codes}\n3. Occupancy classification per IBC Chapter 3\n4. Construction type per IBC Chapter 6\n5. Fire separation requirements per IBC Chapter 7\n6. Egress calculations per IBC Chapter 10\n7. Accessibility requirements per ADA 2010 Standards\n8. Permit submission checklist\n9. Required stamped drawings list\n10. AHJ review notes\n\nCite specific code sections. Note that local amendments may apply."
+                if refs: prompt = f"Reference codes:\n{refs[:3000]}\n\n{prompt}"
+                result = self.ask_llm(prompt)
+                result += f"\n\n---\n## Permit Package Control\n| Field | Value |\n|-------|-------|\n| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |\n| **Jurisdiction** | {jurisdiction.title()} |\n| **Governing Codes** | {codes} |\n| **Agent** | DraftClaw v5 Constitutional |\n| **Disclaimer** | For preliminary submittal only. Verify with local AHJ. Requires PE/SE stamp. |\n\n*NOT FOR CONSTRUCTION - FOR PERMIT PREPARATION REFERENCE ONLY*"
+
+            elif cmd in ("/blueprint","/floorplan") and query:
                 prompt = f"Generate detailed architectural blueprint specifications with dimensions, room layouts, wall placements, door/window locations, and structural notes. Include code references where applicable.\n\nProject: {query}"
                 if refs: prompt = f"Reference material from building codes and standards:\n{refs[:3000]}\n\n{prompt}"
                 result = self.ask_llm(prompt)
