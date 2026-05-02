@@ -8,8 +8,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(RUSTYPYCRAW_DIR))
 
 from shared.base_agent import BaseAgent
-from modules.scanner.code_scanner import CodeScanner
-from modules.analyzer.code_analyzer import CodeAnalyzer
+from agents.rustypycraw.modules.scanner.code_scanner import CodeScanner
+from agents.rustypycraw.modules.analyzer.code_analyzer import CodeAnalyzer
 
 class RustyPyCrawAgent(BaseAgent):
     def __init__(self):

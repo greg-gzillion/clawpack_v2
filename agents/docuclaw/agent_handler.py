@@ -12,6 +12,7 @@ sys.path.insert(0, str(DOCUCLAW_DIR))
 
 from shared.base_agent import BaseAgent
 from modules.viewer import view_document
+from modules.validator import validate_claims, generate_trust_footer
 
 class DocuClawAgent(BaseAgent):
     def __init__(self):
@@ -127,8 +128,11 @@ class DocuClawAgent(BaseAgent):
                     query = parts2[0]
                 
                 content = self.ask_llm(
-                    f"Create a professional {doc_type} in Markdown format. Include proper formatting, headings, and structure.\n\nTopic: {query}"
+                    f"Create a professional {doc_type} in Markdown format. Include proper formatting, headings, and structure. Include specific sources, URLs, and citations where possible.\n\nTopic: {query}"
                 )
+                validation = validate_claims(content)
+                if validation["claim_count"] > 0:
+                    content += generate_trust_footer(validation)
                 export_result = self._fileclaw_export(fmt, content)
                 result = f"{export_result}\n\n{content}"
 

@@ -1,11 +1,10 @@
-"""DocuClaw Source Validator v3.2 - Assertion-level epistemic adjudication.
+"""DocuClaw Source Validator v3.3 - Canonical claim normalization + epistemic adjudication.
 
-v3.2: Assertion-level claim splitting with sentence and contrast-marker
-detection. URL proximity binding prevents false authority inheritance.
-Numeric value extraction enables quantitative conflict comparison.
+v3.3: Canonical claim normalization recognizes semantically identical claims
+expressed in different phrasing. URL proximity binding prevents false
+authority inheritance. Numeric extraction enables quantitative comparison.
 
-Integrates shared/truth_resolver.py and shared/source_registry.py
-to provide trust-weighted claim validation with source authority mapping.
+Integrates shared/truth_resolver.py and shared/source_registry.py.
 """
 import sys, re
 from pathlib import Path
@@ -23,16 +22,25 @@ CLAIM_INDICATORS = [
 ]
 
 SEMANTIC_CATEGORIES = {
-    "market_size": ["market", "valued", "size", "worth", "billion", "million", "trillion"],
-    "growth_rate": ["growth", "CAGR", "increase", "rate", "percent", "%"],
+    "market_size": ["market", "valued", "size", "worth", "billion", "million", "trillion", "sector"],
+    "growth_rate": ["growth", "CAGR", "increase", "rate", "percent", "%", "growing"],
     "revenue": ["revenue", "sales", "income", "earnings"],
     "employment": ["jobs", "employed", "workforce", "labor", "workers"],
     "cost": ["cost", "price", "expense", "spending", "investment"],
     "regulation": ["compliance", "regulatory", "law", "statute", "amendment", "rule"],
 }
 
+# Canonical form templates for normalizing claims
+CANONICAL_FORMS = {
+    "market_size": "market_size:{numeric}",
+    "growth_rate": "growth_rate:{numeric}%",
+    "revenue": "revenue:{numeric}",
+    "employment": "employment:{numeric}",
+    "cost": "cost:{numeric}",
+}
+
 def _categorize_claim(text):
-    """Map a claim to a semantic category for conflict grouping."""
+    """Map a claim to a semantic category."""
     text_lower = text.lower()
     for category, keywords in SEMANTIC_CATEGORIES.items():
         if any(kw in text_lower for kw in keywords):
@@ -56,10 +64,31 @@ def _extract_numeric(text):
             pass
     return None
 
+def _format_numeric(val):
+    """Format a numeric value back to human-readable form for canonical keys."""
+    if val is None:
+        return "unknown"
+    if val >= 1e12:
+        return str(round(val / 1e12, 1)) + "T"
+    elif val >= 1e9:
+        return str(round(val / 1e9, 1)) + "B"
+    elif val >= 1e6:
+        return str(round(val / 1e6, 1)) + "M"
+    else:
+        return str(round(val, 1))
+
+def _canonical_form(category, numeric_value):
+    """Generate a canonical key for a claim, normalizing different phrasings."""
+    if category == "other" or numeric_value is None:
+        return None
+    template = CANONICAL_FORMS.get(category, "{category}:{numeric}")
+    return template.replace("{category}", category).replace("{numeric}", _format_numeric(numeric_value))
+
 def validate_claims(content, domain=None):
     """Scan, adjudicate, and detect conflicts in document claims.
 
-    Returns dict with claims, trust_summary, conflicts, source_map.
+    v3.3: Canonical claim normalization groups semantically identical claims
+    expressed in different phrasing. URL proximity binding. Numeric comparison.
     """
     text_lines = content.split(chr(10))
     claims = []
@@ -70,7 +99,7 @@ def validate_claims(content, domain=None):
         if len(line) < 20:
             continue
 
-        # Split line into assertions at sentence boundaries and contrast markers
+        # Split into assertions at sentence boundaries and contrast markers
         parts = re.split(
             r"(?<=[.!?])\s*(?=[A-Z])|\s*(?:However|however|But|but|Although|although|while|Whereas|whereas)\s+",
             line
@@ -87,7 +116,7 @@ def validate_claims(content, domain=None):
                 if w.startswith("http"):
                     assertion_urls.append(w.strip(".,;:()[]{}"))
 
-            # URL proximity: only inherit URLs if assertion explicitly names a source
+            # URL proximity: only inherit if assertion names a source
             if not assertion_urls:
                 attr_match = re.search(
                     r"(?:according to|per|reported by|study by|data from|citing|pursuant to)\s+(\S+)",
@@ -100,12 +129,11 @@ def validate_claims(content, domain=None):
                             if w.startswith("http") and ref_name in w.lower():
                                 assertion_urls.append(w.strip(".,;:()[]{}"))
 
-            # Check if assertion contains claim indicators
             has_indicator = any(ind in assertion.lower() for ind in CLAIM_INDICATORS)
             if not has_indicator and not assertion_urls:
                 continue
 
-            # Adjudicate each URL
+            # Adjudicate URLs
             source_scores = []
             best_source_type = "inference"
             best_priority = 0
@@ -132,6 +160,7 @@ def validate_claims(content, domain=None):
             )
             category = _categorize_claim(assertion)
             numeric_value = _extract_numeric(assertion)
+            canonical = _canonical_form(category, numeric_value)
 
             claims.append({
                 "line": i + 1,
@@ -143,23 +172,26 @@ def validate_claims(content, domain=None):
                 "avg_trust_score": round(avg_source_score, 2),
                 "category": category,
                 "numeric_value": numeric_value,
+                "canonical_form": canonical,
             })
 
-    # Semantic conflict detection with numeric comparison
+    # Canonical conflict detection
     conflicts = []
     if len(claims) >= 2:
-        category_groups = {}
+        # Group by canonical form first, then by category
+        canonical_groups = {}
         for claim in claims:
-            cat = claim.get("category", "other")
-            if cat not in category_groups:
-                category_groups[cat] = []
-            category_groups[cat].append(claim)
+            cf = claim.get("canonical_form")
+            key = cf if cf else claim.get("category", "other")
+            if key not in canonical_groups:
+                canonical_groups[key] = []
+            canonical_groups[key].append(claim)
 
-        for cat, group in category_groups.items():
-            if cat == "other" or len(group) < 2:
+        for key, group in canonical_groups.items():
+            if len(group) < 2:
                 continue
 
-            # Check for numeric conflicts (values differ by >20%)
+            # Check for numeric conflicts
             has_numeric_conflict = False
             nums = [c.get("numeric_value") for c in group if c.get("numeric_value") is not None]
             if len(nums) >= 2:
@@ -178,7 +210,7 @@ def validate_claims(content, domain=None):
             resolved = resolve_truth(candidates)
             if resolved["status"] == "conflict_detected" or has_numeric_conflict:
                 conflicts.append({
-                    "category": cat,
+                    "canonical_key": key,
                     "claims": group,
                     "resolution": resolved,
                     "numeric_conflict": has_numeric_conflict,
@@ -216,7 +248,7 @@ def validate_claims(content, domain=None):
                 recommendation = "EPISTEMIC CONFLICT DETECTED. No authoritative sources present to resolve disagreement. Independent verification required."
         elif has_authoritative:
             level, confidence = "verified", 0.90
-            recommendation = "Authoritative primary sources cited. High epistemic confidence. Document is grounded in verified institutional knowledge."
+            recommendation = "Authoritative primary sources cited. High epistemic confidence. Document grounded in verified institutional knowledge."
         elif has_verified:
             level, confidence = "verified", 0.80
             recommendation = "Verified secondary sources cited. Moderate-to-high confidence. Key claims are source-backed."
@@ -250,7 +282,7 @@ def validate_claims(content, domain=None):
     }
 
 def generate_trust_footer(validation_result):
-    """Generate a constitutional trust footer with source authority mapping."""
+    """Generate a constitutional trust footer with canonical conflict details."""
     ts = validation_result["trust_summary"]
     sm = validation_result.get("source_map", {})
     conflicts = validation_result.get("conflicts", [])
@@ -270,7 +302,7 @@ def generate_trust_footer(validation_result):
         footer += nl + "### Epistemic Conflicts" + nl
         for conflict in conflicts:
             res = conflict["resolution"]
-            footer += "- **Category:** " + conflict.get("category", "") + nl
+            footer += "- **Canonical Key:** " + str(conflict.get("canonical_key", "")) + nl
             footer += "  - Resolved: " + str(res.get("resolved", ""))[:120] + nl
             footer += "  - Source: " + str(res.get("source", "")) + nl
             footer += "  - Numeric Conflict: " + str(conflict.get("numeric_conflict", False)) + nl
@@ -284,7 +316,7 @@ def generate_trust_footer(validation_result):
             footer += "| " + short_url + " | " + str(info["score"]) + " | " + info.get("tier", "") + " | " + info.get("source_type", "") + " |" + nl
 
     footer += nl + ts["recommendation"] + nl
-    footer += nl + "*DocuClaw Constitutional Engine v3.2 | Truth: web_verified > chronicle > memory > inference*" + nl
+    footer += nl + "*DocuClaw Constitutional Engine v3.3 | Truth: web_verified > chronicle > memory > inference*" + nl
     return footer
 
 __all__ = ["validate_claims", "generate_trust_footer"]
