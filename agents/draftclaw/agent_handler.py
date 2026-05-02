@@ -118,7 +118,8 @@ class DraftClawAgent(BaseAgent):
                     "dallas":           {"frost": "12 in", "snow": "5 psf",  "wind": "115 mph (Vult)", "seismic": "SDC A", "exposure": "C", "soil": "2,500 psf (geotech req)", "wind_governs": False, "snow_governs": False},
                     "atlanta":          {"frost": "12 in", "snow": "10 psf", "wind": "115 mph (Vult)", "seismic": "SDC B", "exposure": "B", "soil": "3,000 psf (geotech req)", "wind_governs": False, "snow_governs": False},
                     "boston":           {"frost": "42 in", "snow": "40 psf", "wind": "125 mph (Vult)", "seismic": "SDC B", "exposure": "B", "soil": "3,000 psf (geotech req)", "wind_governs": False, "snow_governs": True},
-                }geo = geo_assumptions.get(jurisdiction, geo_assumptions["default"])
+                }
+                geo = geo_assumptions.get(jurisdiction, geo_assumptions["default"])
                 
                 prompt = f"Generate a permit application compliance package for: {query}\n\nInclude:\n1. Jurisdiction: {jurisdiction.title()}\n2. Applicable Codes: {codes}\n3. Occupancy classification per IBC Chapter 3\n4. Construction type per IBC Chapter 6\n5. Fire separation requirements per IBC Chapter 7\n6. Egress calculations per IBC Chapter 10\n7. Accessibility requirements per ADA 2010 Standards\n8. Permit submission checklist\n9. Required stamped drawings list\n10. AHJ review notes\n\nCite specific code sections. Note that local amendments may apply."
                 if refs: prompt = f"Reference codes:\n{refs[:3000]}\n\n{prompt}"
