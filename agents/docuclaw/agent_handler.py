@@ -182,6 +182,7 @@ class DocuClawAgent(BaseAgent):
                     content = self._fileclaw_import(filepath)
                     if content:
                         export_result = self._fileclaw_export(target_fmt, content)
+                        view_document(content, title=f"Converted: {Path(filepath).name}")
                         result = f"Converted {filepath} to {target_fmt}:\n{export_result}"
                     else:
                         result = f"Cannot read: {filepath}"
