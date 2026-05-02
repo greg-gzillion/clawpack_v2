@@ -1,5 +1,5 @@
 """A2A Handler for DocuClaw - Document Generator with A2A routing"""
-import sys, os
+import sys, os, json
 from pathlib import Path
 from datetime import datetime
 
@@ -117,6 +117,33 @@ class DocuClawAgent(BaseAgent):
         query = args if args else task
 
         try:
+            # Constitutional commands
+            if cmd in ("/help",):
+                result = "DocuClaw v5 - Constitutional Document Agent\n  CREATE: /create /letter /report /memo /resume /proposal\n  IMPORT: /import <file>  EXPORT: /export <fmt> <content>\n  CONVERT: /convert <fmt> <file>  COMBINE: /combine <files>\n  TRANSLATE: /translate <lang> <text>  TEMPLATES: /templates\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
+                return {"status":"success","result":result}
+            if cmd in ("/stats",): return {"status":"success","result":f"DocuClaw v5 | 21 Formats | Interactions: {self.state.get('interactions',0)}"}
+            if cmd=="/shared" and args:
+                from data_io import read_shared, write_shared
+                parts2 = args.split(maxsplit=1); action = parts2[0]
+                if action=="read":
+                    key = parts2[1] if len(parts2)>1 else None
+                    data, err = read_shared(key)
+                    result = json.dumps(data, indent=2, default=str)[:2000] if not err else err
+                elif action=="write" and len(parts2)>1:
+                    kv = parts2[1].split(":",1)
+                    result = write_shared(kv[0], kv[1]) if len(kv)==2 else "Usage: /shared write key:value"
+                else: result = "Usage: /shared read [key] | /shared write key:value"
+                return {"status":"success","result":str(result)}
+            if cmd=="/delegate" and args:
+                parts2 = args.split(maxsplit=1); target = parts2[0]
+                task_text = parts2[1] if len(parts2)>1 else ""
+                known = ["plotclaw","flowclaw","claw_coder","crustyclaw","dataclaw","designclaw","interpretclaw","webclaw","lawclaw","mathematicaclaw","langclaw","fileclaw","txclaw","mediclaw","liberateclaw"]
+                if target in known:
+                    result = self.call_agent(target, task_text)
+                    result = str(result) if result else f"Agent {target} returned no response"
+                else: result = f"Unknown: {target}"
+                return {"status":"success","result":str(result)}
+
             # Document generation
             if cmd in ("/create", "/letter", "/report", "/memo", "/resume", "/proposal") and query:
                 doc_type = cmd.replace("/", "")
@@ -135,6 +162,8 @@ class DocuClawAgent(BaseAgent):
                     content += generate_trust_footer(validation)
                 view_document(content, title=doc_type)
                 export_result = self._fileclaw_export(fmt, content)
+                from data_io import write_shared
+                write_shared("docuclaw_latest", {"command": cmd, "doc_type": doc_type, "query": query, "claims": validation["claim_count"], "trust": validation["trust_summary"]["level"], "confidence": validation["trust_summary"]["confidence"]})
                 result = f"{export_result}\n\n{content}"
 
             # List exports
