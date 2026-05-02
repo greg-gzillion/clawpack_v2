@@ -22,5 +22,9 @@
   "designclaw_latest": {
     "command": "/kit",
     "query": "modern coffee shop"
+  },
+  "docuclaw_latest": {
+    "command": "/list",
+    "query": "/list"
   }
 }
