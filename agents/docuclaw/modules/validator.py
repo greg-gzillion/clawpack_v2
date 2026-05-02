@@ -1,15 +1,13 @@
-"""DocuClaw Source Validator v2 - Constitutional truth adjudication.
+"""DocuClaw Source Validator v3 - Conflict-aware constitutional truth adjudication.
 
-Integrates shared/truth_resolver.py and shared/source_registry.py
-to provide trust-weighted claim validation with source authority mapping.
-
-v2: Trust scores now drive confidence. Sources are adjudicated, not just detected.
+v3: URL-level source classification, trust-weighted confidence,
+epistemic conflict detection via truth_resolver.resolve_truth().
 """
 import sys
 from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
-from shared.truth_resolver import classify_source, TRUTH_PRIORITY
+from shared.truth_resolver import classify_source, resolve_truth, TRUTH_PRIORITY
 from shared.source_registry import get_trust, classify_trust
 
 CLAIM_INDICATORS = [
@@ -21,12 +19,13 @@ CLAIM_INDICATORS = [
 ]
 
 def validate_claims(content, domain=None):
-    """Scan document for claims, adjudicate sources, compute trust-weighted confidence.
+    """Scan, adjudicate, and detect conflicts in document claims.
     
-    Returns:
-        claims: list of detected claims with trust scores
-        trust_summary: overall trust assessment with weighted confidence
-        source_map: authority mapping of all sources
+    v3 features:
+    - URL-level source classification (not line-level)
+    - Trust-weighted confidence from source_registry
+    - Epistemic conflict detection via truth_resolver
+    - Source authority map with per-source trust scores
     """
     lines = content.split(chr(10))
     claims = []
@@ -42,28 +41,69 @@ def validate_claims(content, domain=None):
                     if w.startswith("http"):
                         urls.append(w.strip(".,;:()[]{}"))
                 
-                # Adjudicate each source
+                # URL-level classification: classify each URL, use strongest
                 source_scores = []
+                best_source_type = "inference"
+                best_priority = 0
                 for url in urls:
                     score = get_trust(url, domain)
                     tier = classify_trust(score)
-                    source_scores.append({"url": url, "score": score, "tier": tier})
-                    source_map[url] = {"score": score, "tier": tier}
+                    url_type = classify_source(url)
+                    url_priority = TRUTH_PRIORITY.get(url_type, 0)
+                    source_scores.append({"url": url, "score": score, "tier": tier, "source_type": url_type})
+                    source_map[url] = {"score": score, "tier": tier, "source_type": url_type}
                     all_scores.append(score)
+                    if url_priority > best_priority:
+                        best_source_type = url_type
+                        best_priority = url_priority
                 
-                source_type = classify_source(line)
-                avg_source_score = sum(s["score"] for s in source_scores) / len(source_scores) if source_scores else 0.3
+                # Fallback: classify the line if no URLs found
+                if not urls:
+                    best_source_type = classify_source(line)
+                
+                avg_source_score = sum(s["score"] for s in source_scores) / len(source_scores) if source_scores else 0.0
                 
                 claims.append({
                     "line": i + 1,
                     "text": line.strip()[:200],
-                    "source_type": source_type,
-                    "priority": TRUTH_PRIORITY.get(source_type, 0),
+                    "source_type": best_source_type,
+                    "priority": best_priority,
                     "sources": source_scores,
                     "has_source": len(urls) > 0,
                     "avg_trust_score": round(avg_source_score, 2),
                 })
                 break
+    
+    # Conflict detection via truth_resolver
+    conflicts = []
+    if len(claims) >= 2:
+        # Group claims that make similar assertions (same numeric patterns)
+        import re
+        numeric_claims = {}
+        for claim in claims:
+            numbers = re.findall(r"[\d,.]+\s*(?:billion|million|trillion|%|percent)", claim["text"].lower())
+            if numbers:
+                key = str(sorted(numbers))
+                if key not in numeric_claims:
+                    numeric_claims[key] = []
+                numeric_claims[key].append(claim)
+        
+        for key, group in numeric_claims.items():
+            if len(group) >= 2:
+                candidates = []
+                for claim in group:
+                    candidates.append({
+                        "value": claim["text"][:100],
+                        "source_type": claim["source_type"],
+                        "confidence": claim["avg_trust_score"] if claim["avg_trust_score"] > 0 else 0.3,
+                        "source": claim["sources"][0]["url"] if claim["sources"] else "text",
+                    })
+                resolved = resolve_truth(candidates)
+                if resolved["status"] == "conflict_detected":
+                    conflicts.append({
+                        "claims": group,
+                        "resolution": resolved,
+                    })
     
     # Trust-weighted confidence adjudication
     if not claims:
@@ -72,15 +112,18 @@ def validate_claims(content, domain=None):
             "tier": "inference",
             "confidence": 0.3,
             "avg_source_trust": 0.0,
+            "conflicts_detected": 0,
             "recommendation": "WARNING: No verifiable sources or claims detected. Document is LLM-generated content with no epistemic grounding.",
         }
     else:
         avg_trust = sum(all_scores) / len(all_scores) if all_scores else 0.0
         has_authoritative = any(s.get("tier") == "authoritative" for c in claims for s in c.get("sources", []))
-        has_verified = any(s.get("tier") in ("authoritative", "verified") for c in claims for s in c.get("sources", []))
         has_any_source = any(c["has_source"] for c in claims)
         
-        if avg_trust >= 0.90:
+        if conflicts:
+            level, confidence = "conflict", 0.50
+            recommendation = "EPISTEMIC CONFLICT DETECTED: Multiple sources disagree. Higher-trust sources have been prioritized per Truth Resolver hierarchy."
+        elif avg_trust >= 0.90:
             level, confidence, recommendation = "verified", 0.95, "Multiple authoritative primary sources cited. High epistemic confidence."
         elif avg_trust >= 0.70:
             level, confidence, recommendation = "verified", 0.80, "Verified secondary sources cited. Moderate-to-high confidence."
@@ -96,21 +139,24 @@ def validate_claims(content, domain=None):
             "confidence": confidence,
             "avg_source_trust": round(avg_trust, 2),
             "has_authoritative": has_authoritative,
-            "has_verified": has_verified,
+            "has_verified": any(s.get("tier") in ("authoritative", "verified") for c in claims for s in c.get("sources", [])),
+            "conflicts_detected": len(conflicts),
             "recommendation": recommendation,
         }
     
     return {
         "claims": claims,
         "claim_count": len(claims),
+        "conflicts": conflicts,
+        "conflict_count": len(conflicts),
         "trust_summary": trust_summary,
         "source_map": source_map,
     }
 
 def generate_trust_footer(validation_result):
-    """Generate a constitutional trust footer with source adjudication details."""
     ts = validation_result["trust_summary"]
     sm = validation_result.get("source_map", {})
+    conflicts = validation_result.get("conflicts", [])
     nl = chr(10)
     footer = nl + "---" + nl
     footer += "## Constitutional Source Validation" + nl + nl
@@ -120,20 +166,29 @@ def generate_trust_footer(validation_result):
     footer += "| **Confidence** | " + str(int(ts["confidence"]*100)) + "% |" + nl
     footer += "| **Avg Source Trust** | " + str(ts.get("avg_source_trust", 0)) + " |" + nl
     footer += "| **Claims Analyzed** | " + str(validation_result["claim_count"]) + " |" + nl
+    footer += "| **Conflicts Detected** | " + str(ts.get("conflicts_detected", 0)) + " |" + nl
     footer += "| **Authoritative Sources** | " + ("Yes" if ts.get("has_authoritative") else "No") + " |" + nl
+    
+    if conflicts:
+        footer += nl + "### Epistemic Conflicts" + nl + nl
+        for conflict in conflicts:
+            res = conflict["resolution"]
+            footer += "- **Resolved:** " + str(res.get("resolved", ""))[:100] + nl
+            footer += "  - Source: " + str(res.get("source", "")) + nl
+            footer += "  - Confidence: " + str(int(res.get("confidence", 0)*100)) + "%" + nl
+            footer += "  - Status: " + res.get("status", "") + nl
     
     if sm:
         footer += nl + "### Source Authority Map" + nl + nl
-        footer += "| Source | Trust Score | Tier |" + nl
-        footer += "|--------|-------------|------|" + nl
+        footer += "| Source | Trust | Tier | Classification |" + nl
+        footer += "|--------|-------|------|----------------|" + nl
         for url, info in list(sm.items())[:10]:
-            short_url = url[:60] + "..." if len(url) > 60 else url
-            footer += "| " + short_url + " | " + str(info["score"]) + " | " + info["tier"] + " |" + nl
+            short_url = url[:50] + "..." if len(url) > 50 else url
+            footer += "| " + short_url + " | " + str(info["score"]) + " | " + info.get("tier", "") + " | " + info.get("source_type", "") + " |" + nl
     
     footer += nl + ts["recommendation"] + nl
-    footer += nl + "*Validated by DocuClaw Constitutional Engine v2.0*" + nl
+    footer += nl + "*Validated by DocuClaw Constitutional Engine v3.0*" + nl
     footer += "*Truth: web_verified > chronicle > memory > inference*" + nl
-    footer += "*Source Trust: shared/source_registry.py*" + nl
     return footer
 
 __all__ = ["validate_claims", "generate_trust_footer"]

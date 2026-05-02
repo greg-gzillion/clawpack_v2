@@ -47,6 +47,24 @@ TRUST_REGISTRY: Dict[str, float] = {
     "facebook.com": 0.15,
     "tiktok.com": 0.10,
     
+    # === TIER 1.5: Economic & Market Intelligence (0.95 - 0.90) ===
+    "iea.org": 0.95,
+    "worldbank.org": 0.95,
+    "imf.org": 0.95,
+    "oecd.org": 0.95,
+    "un.org": 0.90,
+    "bls.gov": 1.0,
+    "bea.gov": 1.0,
+    "fred.stlouisfed.org": 0.95,
+    "federalreserve.gov": 1.0,
+    "sec.gov": 1.0,
+    "eia.gov": 0.95,
+    "epa.gov": 0.95,
+    "ftc.gov": 1.0,
+    "census.gov": 1.0,
+    "irs.gov": 1.0,
+    "treasury.gov": 1.0,
+
     # === DEFAULT ===
     "DEFAULT": 0.50,
 }
