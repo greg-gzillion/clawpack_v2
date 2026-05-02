@@ -75,6 +75,8 @@ TRUST_REGISTRY: Dict[str, float] = {
     "eur-lex.europa.eu": 1.0,
     "aicpa.org": 0.90,
     "sap.com": 0.80,
+    "purdue.edu": 0.85,
+    "apa.org": 0.85,
 
     # === DEFAULT ===
     "DEFAULT": 0.50,

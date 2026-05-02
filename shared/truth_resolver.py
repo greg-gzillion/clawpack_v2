@@ -82,6 +82,7 @@ def classify_source(url_or_origin: str) -> str:
         "nist.gov", "iso.org", "cisecurity.org", "isaca.org",
         "owasp.org", "gdpr-info.eu", "cvedetails.com", "first.org",
         "eur-lex.europa.eu", "hhs.gov", "aicpa.org",
+        "purdue.edu", "apa.org", "mit.edu", "stanford.edu", "harvard.edu",
         # Economic & market intelligence
         "iea.org", "worldbank.org", "imf.org", "oecd.org", "un.org",
         "bls.gov", "bea.gov", "fred.stlouisfed.org", "federalreserve.gov",
