@@ -1,4 +1,4 @@
-﻿"""BaseAgent - All agents inherit from this"""
+"""BaseAgent - All agents inherit from this"""
 import sys
 import json
 import requests
@@ -195,6 +195,81 @@ class BaseAgent:
             )
             if r.status_code == 200:
                 return r.json().get("result", "")
+        except:
+            pass
+        return "LLMClaw unavailable"
+
+    def ask_llm_smart(self, prompt: str, task_type: str = None, agent_name: str = None) -> str:
+        """Intelligent routing through the LLM Router.
+
+        Uses shared/llm/router.py to determine provider based on task_type.
+        Cloud models (Anthropic) for orchestration, planning, complex reasoning.
+        Obliterated local models for code generation, private tasks, unrestricted content.
+        """
+        from shared.llm.router import route as router_route, CLOUD_TASK_TYPES, LOCAL_TASK_TYPES
+
+        name = agent_name or self.name
+        detected_type = task_type
+
+        # Auto-detect task type from prompt content if not specified
+        if not detected_type:
+            prompt_lower = prompt.lower()
+            if any(kw in prompt_lower for kw in ["code", "function", "class", "def ", "write a", "generate", "implement"]):
+                detected_type = "code_generation"
+            elif any(kw in prompt_lower for kw in ["plan", "orchestrate", "design", "architect", "strategy", "analyze"]):
+                detected_type = "orchestration"
+            elif any(kw in prompt_lower for kw in ["summarize", "summary", "explain", "translate"]):
+                detected_type = "summarization"
+            elif any(kw in prompt_lower for kw in ["private", "sensitive", "confidential", "secret"]):
+                detected_type = "private_reasoning"
+
+        # Route through the constitutional router
+        provider = router_route(task_type=detected_type)
+        route_hint = ""
+        if provider == "direct_model":
+            route_hint = " [ROUTE: obliterated local model]"
+        elif provider == "anthropic":
+            route_hint = " [ROUTE: cloud model]"
+
+        # Call with context
+        context = ""
+        try:
+            chronicle_results = self.search_chronicle(prompt, limit=5)
+            if chronicle_results:
+                lines = []
+                for c in chronicle_results:
+                    if isinstance(c, dict):
+                        ctx = c.get("context", "") or c.get("url", "")
+                    elif hasattr(c, "context"):
+                        ctx = getattr(c, "context", "")
+                    else:
+                        ctx = str(c)
+                    if ctx:
+                        lines.append(ctx)
+                if lines:
+                    context = "\n---\n".join(lines)
+        except:
+            pass
+
+        full_prompt = prompt
+        if context:
+            full_prompt = f"CONTEXT:\n{context}\n\nQUERY: {prompt}"
+
+        # Add routing prefix so LLMClaw can optimize model selection
+        if detected_type:
+            full_prompt = f"[TASK:{detected_type}] {full_prompt}"
+
+        try:
+            r = requests.post(
+                f"{self.A2A}/v1/message/llmclaw",
+                json={"task": f"/llm {full_prompt}"},
+                timeout=600
+            )
+            if r.status_code == 200:
+                result = r.json().get("result", "")
+                if route_hint:
+                    result = f"{result}\n\n{route_hint}"
+                return result
         except:
             pass
         return "LLMClaw unavailable"

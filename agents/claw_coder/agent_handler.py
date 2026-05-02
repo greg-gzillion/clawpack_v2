@@ -40,7 +40,7 @@ def _detect_lang(task):
 class ClawCoderAgent(BaseAgent):
     def __init__(self):
         super().__init__("claw_coder")
-        self.code_gen = CodeGenerator(lambda p: self.ask_llm(f"[CODE_GEN] {p}"))
+        self.code_gen = CodeGenerator(lambda p: self.ask_llm_smart(p, task_type="code_generation", agent_name="claw_coder"))
 
     def _enrich_context(self, query, lang):
         """Gather WebClaw + DataClaw context for code generation."""
@@ -209,12 +209,12 @@ class ClawCoderAgent(BaseAgent):
                 result = self.ask_llm(prompt)
 
             elif cmd in ("/review",) and query:
-                result = self.ask_llm(f"Do a thorough code review: {query}")
+                result = self.ask_llm_smart(f"Do a thorough code review: {query}", task_type="verification")
 
             elif cmd in ("/tutorial",) and query:
                 lang = _detect_lang(query)
                 version = LANG_VERSION.get(lang, "latest")
-                result = self.ask_llm(f"Create a beginner-friendly {lang} {version} tutorial: {query}")
+                result = self.ask_llm_smart(f"Create a beginner-friendly {lang} {version} tutorial: {query}", task_type="summarization")
 
             elif cmd in ("/run","run") and query:
                 if _run_mod: result = _run_mod.run(query)
@@ -239,7 +239,7 @@ class ClawCoderAgent(BaseAgent):
                 else: result = "Translate command not available"
 
             elif query:
-                result = self.ask_llm(query)
+                result = self.ask_llm_smart(query)
             else:
                 result = "Type /help for commands"
 
@@ -287,7 +287,7 @@ class ClawCoderAgent(BaseAgent):
             elif cmd_type=="tutorial":
                 result = self.ask_llm(f"Create tutorial: {query}")
             else:
-                result = self.ask_llm(query)
+                result = self.ask_llm_smart(query)
 
             return {"status":"success","result":str(result)}
         except Exception as e:
