@@ -75,7 +75,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         if path == "/health":
             self._send_json({
                 "status": "healthy",
-                "agents": len(AGENT_HANDLERS),
+                "agents": len(AGENT_REGISTRY),
                 "memory": {
                     "working_tokens": a2a_memory.working.token_count,
                     "semantic_facts": len(a2a_memory.semantic.facts),
@@ -83,7 +83,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                 }
             })
         elif path == "/v1/agents":
-            agents_list = [{"name": k, "description": v["desc"]} for k, v in AGENT_DESCRIPTIONS.items()]
+            agents_list = [{"name": k, "description": v["desc"]} for k, v in ((k, v["desc"]) for k, v in AGENT_REGISTRY.items())]
             self._send_json({"agents": agents_list})
         elif path == "/memory/stats":
             self._send_json({
@@ -108,7 +108,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
 
             a2a_memory.working.add("user", f"[{agent_name}] {task}")
 
-            if agent_name in AGENT_HANDLERS:
+            if agent_name in AGENT_REGISTRY:
                 result = self._execute_agent(agent_name, task)
                 
                 # Handle both dict and string responses
@@ -203,7 +203,7 @@ def main():
     print("?? CLAWPACK A2A SERVER")
     print("="*70)
     print(f"?? http://127.0.0.1:{port}")
-    print(f"\n? {len(AGENT_HANDLERS)} Agents Registered")
+    print(f"\n? {len(AGENT_REGISTRY)} Agents Registered")
     print("? Three-Tier Memory: ACTIVE")
     print("? WebClaw Direct Integration: ACTIVE")
     print("\nEndpoints:")
