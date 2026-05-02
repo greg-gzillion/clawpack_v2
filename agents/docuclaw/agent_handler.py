@@ -179,7 +179,13 @@ class DocuClawAgent(BaseAgent):
                 if len(parts2) >= 2:
                     target_fmt = parts2[0]
                     filepath = parts2[1]
-                    content = self._fileclaw_import(filepath)
+                    p = PROJECT_ROOT / "exports" / filepath
+                    if not p.exists():
+                        p = Path(filepath)
+                    if p.exists():
+                        content = p.read_text(encoding="utf-8", errors="replace")
+                    else:
+                        content = None
                     if content:
                         export_result = self._fileclaw_export(target_fmt, content)
                         view_document(content, title=f"Converted: {Path(filepath).name}")
