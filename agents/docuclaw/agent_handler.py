@@ -133,6 +133,7 @@ class DocuClawAgent(BaseAgent):
                 validation = validate_claims(content)
                 if validation["claim_count"] > 0:
                     content += generate_trust_footer(validation)
+                view_document(content, title=doc_type)
                 export_result = self._fileclaw_export(fmt, content)
                 result = f"{export_result}\n\n{content}"
 
@@ -163,6 +164,7 @@ class DocuClawAgent(BaseAgent):
             elif cmd == "/import" and args:
                 content = self._fileclaw_import(args)
                 if content:
+                    view_document(content, title=f"Imported: {args}")
                     result = f"Imported: {args}\n\n{content}"
                 else:
                     result = f"File not found: {args}\n\nTry /list to see available files"
@@ -212,6 +214,7 @@ class DocuClawAgent(BaseAgent):
                 
                 full_content = "\n\n".join(combined)
                 export_result = self._fileclaw_export("md", full_content)
+                view_document(full_content, title="Combined Document")
                 result = f"Combined {len(files)} files:\n{export_result}\n\n{full_content[:1000]}..."
 
             # Translate via InterpretClaw
