@@ -91,15 +91,30 @@ class DraftClawAgent(BaseAgent):
                     "texas": "IBC 2021 (TDLR amendments), IRC 2021",
                     "new york": "IBC 2021 (NYS amendments), NYC Building Code where applicable",
                     "colorado": "IBC 2021 (state adopted, local amendments may apply)",
-                    "denver": "2022 Denver Building Code (IBC 2021 + Denver amendments)",
+                    "denver": "2022 Denver Building Code (IBC 2021 + Denver amendments) - Authority: Denver Community Planning and Development (CPD)",
                     "miami": "FBC 2020 with HVHZ provisions, Miami-Dade County amendments",
                     "phoenix": "IBC 2018 (Arizona adopted), Phoenix amendments",
                     "chicago": "Chicago Building Code (Title 14B), not IBC-based",
                 }
                 codes = code_refs.get(jurisdiction, code_refs["default"])
                 
+                # Geo-aware design assumptions per jurisdiction
+                geo_assumptions = {
+                    "default": {"frost_depth": "36 inches", "ground_snow": "30 psf", "wind_speed": "115 mph", "seismic": "SDC B", "exposure": "B"},
+                    "denver": {"frost_depth": "36 inches", "ground_snow": "40 psf", "wind_speed": "115 mph (ultimate)", "seismic": "SDC B", "exposure": "B"},
+                    "denver colorado": {"frost_depth": "36 inches", "ground_snow": "40 psf", "wind_speed": "115 mph (ultimate)", "seismic": "SDC B", "exposure": "B"},
+                    "miami": {"frost_depth": "0 inches", "ground_snow": "0 psf", "wind_speed": "180 mph (HVHZ)", "seismic": "SDC A", "exposure": "C"},
+                    "phoenix": {"frost_depth": "0 inches", "ground_snow": "0 psf", "wind_speed": "105 mph", "seismic": "SDC B", "exposure": "C"},
+                    "chicago": {"frost_depth": "42 inches", "ground_snow": "25 psf", "wind_speed": "115 mph", "seismic": "SDC A", "exposure": "B"},
+                    "new york": {"frost_depth": "42 inches", "ground_snow": "30 psf", "wind_speed": "120 mph", "seismic": "SDC B", "exposure": "B"},
+                    "california": {"frost_depth": "12 inches", "ground_snow": "0 psf", "wind_speed": "110 mph", "seismic": "SDC D", "exposure": "C"},
+                }
+                geo = geo_assumptions.get(jurisdiction, geo_assumptions["default"])
+                
                 prompt = f"Generate a permit application compliance package for: {query}\n\nInclude:\n1. Jurisdiction: {jurisdiction.title()}\n2. Applicable Codes: {codes}\n3. Occupancy classification per IBC Chapter 3\n4. Construction type per IBC Chapter 6\n5. Fire separation requirements per IBC Chapter 7\n6. Egress calculations per IBC Chapter 10\n7. Accessibility requirements per ADA 2010 Standards\n8. Permit submission checklist\n9. Required stamped drawings list\n10. AHJ review notes\n\nCite specific code sections. Note that local amendments may apply."
                 if refs: prompt = f"Reference codes:\n{refs[:3000]}\n\n{prompt}"
+                # Inject geo-aware design assumptions
+                geo_text = nl + nl + "## Jurisdiction-Specific Design Assumptions" + nl + "- **Ground Snow Load:** " + geo["ground_snow"] + " (per ASCE 7 Chapter 7)" + nl + "- **Frost Depth:** " + geo["frost_depth"] + " (per IBC Section 1809.5)" + nl + "- **Design Wind Speed:** " + geo["wind_speed"] + " (per ASCE 7 Chapter 26)" + nl + "- **Seismic Design Category:** " + geo["seismic"] + " (per ASCE 7 Chapter 11)" + nl + "- **Exposure Category:** " + geo["exposure"] + " (per ASCE 7 Section 26.7)" + nl + "- **Concrete Slab Design:** Per ACI 360R (Slabs-on-Ground) for warehouse/industrial loading; ACI 318 for structural concrete" + nl + "- **Occupancy Classification:** S-1 (Storage, Moderate Hazard) per IBC Section 311" + nl + "- **Construction Type:** Type IIB (Non-combustible, unprotected) per IBC Chapter 6, Table 601" + nl + "- **Loading Dock Safety:** Per OSHA 1910.176 (Materials Handling) including dock edge protection, vehicle restraint systems, and forklift circulation separation" + nl + nl + "Include these assumptions in the permit package."
                 result = self.ask_llm(prompt)
                 result += f"\n\n---\n## Permit Package Control\n| Field | Value |\n|-------|-------|\n| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |\n| **Jurisdiction** | {jurisdiction.title()} |\n| **Governing Codes** | {codes} |\n| **Agent** | DraftClaw v5 Constitutional |\n| **Disclaimer** | For preliminary submittal only. Verify with local AHJ. Requires PE/SE stamp. |\n\n*NOT FOR CONSTRUCTION - FOR PERMIT PREPARATION REFERENCE ONLY*"
 
