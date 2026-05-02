@@ -256,12 +256,11 @@ class BaseAgent:
             full_prompt = f"CONTEXT:\n{context}\n\nQUERY: {prompt}"
 
         # Add routing prefix so LLMClaw can optimize model selection
-        if detected_type:
-            # Force cloud provider for code tasks
         provider_override = ""
         if detected_type in ("code_generation", "code_drafting"):
             provider_override = "/use anthropic "
-        full_prompt = f"{provider_override}[TASK:{detected_type}] {full_prompt}"
+        task_prefix = f"[TASK:{detected_type}] " if detected_type else ""
+        full_prompt = f"{provider_override}{task_prefix}{full_prompt}"
 
         try:
             r = requests.post(
