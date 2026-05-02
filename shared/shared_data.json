@@ -7,7 +7,7 @@
   },
   "claw_coder_latest": {
     "command": "/code",
-    "query": "rust async TCP echo server with tokio",
-    "result": "Saved: rust_async_TCP_echo_server_with_tokio_20260501_222222.rs | Validation: error[E0601]: `main` function not found in crate `rust_async_TCP_echo_server_with_tokio_20260501_222222`\n  |\n  = note: consider adding a `main` function to `C:\\Users\\greg\\dev\\clawpack_v2\\exports\\rust_async_TCP_echo_server_with_tokio_20260501_222222.rs`\n\nerror: aborting due to 1 previous error\n\nFor more information about this error, try `rustc --explain E0601`.\n\n\n```rust\nuse tokio::io::{AsyncReadExt, AsyncWriteExt};\nuse"
+    "query": "python fastapi endpoint with pydantic validation",
+    "result": "Saved: python_fastapi_endpoint_with_pydantic_validation_20260501_223501.py | Validated: Syntax OK\n\n```python\nfrom pydantic import BaseModel, ValidationError\nfrom fastapi import FastAPI, HTTPException\n\napp = FastAPI()\n\nclass User(BaseModel):\n    name: str\n    email: str\n\n@app.post(\"/users/\")\ndef create_user(user: User):\n    # Validate user input\n    try:\n        # Validate user input\n        if not user.name or not user.email:\n            raise ValidationError(\"Name and email are required\")\n     "
   }
 }
