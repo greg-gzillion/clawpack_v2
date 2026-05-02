@@ -79,6 +79,9 @@ def classify_source(url_or_origin: str) -> str:
         "law.cornell.edu", "supremecourt.gov", "justice.gov",
         "nih.gov", "cdc.gov", "who.int", "arxiv.org",
         "github.com", "wikipedia.org",
+        "nist.gov", "iso.org", "cisecurity.org", "isaca.org",
+        "owasp.org", "gdpr-info.eu", "cvedetails.com", "first.org",
+        "eur-lex.europa.eu", "hhs.gov", "aicpa.org",
         # Economic & market intelligence
         "iea.org", "worldbank.org", "imf.org", "oecd.org", "un.org",
         "bls.gov", "bea.gov", "fred.stlouisfed.org", "federalreserve.gov",

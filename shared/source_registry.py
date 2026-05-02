@@ -64,6 +64,17 @@ TRUST_REGISTRY: Dict[str, float] = {
     "census.gov": 1.0,
     "irs.gov": 1.0,
     "treasury.gov": 1.0,
+    "nist.gov": 1.0,
+    "cisecurity.org": 0.95,
+    "isaca.org": 0.90,
+    "iso.org": 0.95,
+    "owasp.org": 0.90,
+    "gdpr-info.eu": 0.95,
+    "cvedetails.com": 0.85,
+    "first.org": 0.95,
+    "eur-lex.europa.eu": 1.0,
+    "aicpa.org": 0.90,
+    "sap.com": 0.80,
 
     # === DEFAULT ===
     "DEFAULT": 0.50,

@@ -113,8 +113,8 @@ def validate_claims(content, domain=None):
             # Extract URLs from THIS assertion only (proximity binding)
             assertion_urls = []
             for w in assertion.split():
-                if w.startswith("http"):
-                    assertion_urls.append(w.strip(".,;:()[]{}"))
+                if w.startswith("http") or w.startswith("(http"):
+                    assertion_urls.append(w.strip(".,;:()[]{}").lstrip("("))
 
             # URL proximity: only inherit if assertion names a source
             if not assertion_urls:
@@ -127,7 +127,7 @@ def validate_claims(content, domain=None):
                     if ref_name:
                         for w in line.split():
                             if w.startswith("http") and ref_name in w.lower():
-                                assertion_urls.append(w.strip(".,;:()[]{}"))
+                                assertion_urls.append(w.strip(".,;:()[]{}").lstrip("("))
 
             has_indicator = any(ind in assertion.lower() for ind in CLAIM_INDICATORS)
             if not has_indicator and not assertion_urls:
