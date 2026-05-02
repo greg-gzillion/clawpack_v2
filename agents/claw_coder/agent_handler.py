@@ -40,7 +40,20 @@ def _detect_lang(task):
 class ClawCoderAgent(BaseAgent):
     def __init__(self):
         super().__init__("claw_coder")
-        self.code_gen = CodeGenerator(self.ask_llm)
+        self.code_gen = CodeGenerator(lambda p: self.ask_llm(f"[CODE_GEN] {p}"))
+
+    def _enrich_context(self, query, lang):
+        """Gather WebClaw + DataClaw context for code generation."""
+        parts = []
+        try:
+            web = self.call_agent("webclaw", f"search {lang} {query} code example", timeout=8)
+            if web: parts.append(str(web)[:1000])
+        except: pass
+        try:
+            data = self.call_agent("dataclaw", f"search {lang} {query}", timeout=8)
+            if data: parts.append(str(data)[:1000])
+        except: pass
+        return "\n".join(parts) if parts else ""
 
     def _validate_code(self, filepath, lang):
         try:

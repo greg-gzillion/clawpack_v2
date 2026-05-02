@@ -86,7 +86,7 @@ class CodeGenerator:
         self.llm = llm_callable
         self.max_repair_attempts = 3
     
-    def generate(self, language: str, query: str, context: str = "", validate: bool = True, save: bool = True) -> dict:
+    def generate(self, language: str, query: str, context: str = "", validate: bool = True, save: bool = True, enrichment_callable=None) -> dict:
         """Generate code with optional self-repair.
         
         Returns: {
@@ -102,9 +102,19 @@ class CodeGenerator:
         lang = language or _detect_lang(query)
         version = LANG_VERSION.get(lang, "latest")
         
+        # Enrich with WebClaw/DataClaw context if available
+        enriched_context = context
+        if enrichment_callable and not context:
+            try:
+                enriched = enrichment_callable(query, lang)
+                if enriched:
+                    enriched_context = enriched
+            except:
+                pass
+        
         prompt = f"Write clean {lang} {version} code. Return only the code with brief comments.\n\nTask: {query}"
-        if context:
-            prompt = f"Reference:\n{context[:3000]}\n\n{prompt}"
+        if enriched_context:
+            prompt = f"Reference:\n{str(enriched_context)[:3000]}\n\n{prompt}"
         
         result = self.llm(prompt)
         code = _extract_code(result)
