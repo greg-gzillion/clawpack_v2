@@ -11,6 +11,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DOCUCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from modules.viewer import view_document
 
 class DocuClawAgent(BaseAgent):
     def __init__(self):
@@ -129,7 +130,7 @@ class DocuClawAgent(BaseAgent):
                     f"Create a professional {doc_type} in Markdown format. Include proper formatting, headings, and structure.\n\nTopic: {query}"
                 )
                 export_result = self._fileclaw_export(fmt, content)
-                self._view_document(content, title=doc_type)
+                view_document(content, title=doc_type)
                 result = f"{export_result}\n\n{content}"
 
             # List exports
@@ -242,7 +243,6 @@ class DocuClawAgent(BaseAgent):
             elif query:
                 content = self.ask_llm(f"Create a well-formatted Markdown document:\n\n{query}")
                 export_result = self._fileclaw_export("md", content)
-                self._view_document(content)
                 result = f"{export_result}\n\n{content}"
             else:
                 result = "Type /help for commands"
