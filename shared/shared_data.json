@@ -24,7 +24,7 @@
     "query": "modern coffee shop"
   },
   "docuclaw_latest": {
-    "command": "/list",
-    "query": "/list"
+    "command": "/convert",
+    "query": "pdf export_20260502_084453.md"
   }
 }
