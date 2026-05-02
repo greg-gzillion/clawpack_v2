@@ -130,7 +130,6 @@ class DocuClawAgent(BaseAgent):
                     f"Create a professional {doc_type} in Markdown format. Include proper formatting, headings, and structure.\n\nTopic: {query}"
                 )
                 export_result = self._fileclaw_export(fmt, content)
-                view_document(content, title=doc_type)
                 result = f"{export_result}\n\n{content}"
 
             # List exports
@@ -214,6 +213,7 @@ class DocuClawAgent(BaseAgent):
                     if translated:
                         clean = translated.replace("Exported:", "").strip()
                         export_fn = self._fileclaw_export("md", clean)
+                        view_document(clean, title=f"Translation - {lang}")
                         result = f"Translated to {lang}: {export_fn}\n\n{clean}"
                     else:
                         result = "Translation failed"
