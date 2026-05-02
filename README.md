@@ -28,6 +28,7 @@ Every agent inherits these through shared/. No agent works alone.
 | **Decision Ledger** | shared/decision_ledger.py | Tamper-evident hash chain. Cryptographically verifiable audit trail. |
 | **Import Scanner** | shared/import_scanner.py | Detects subprocess, os.system, shell=True bypass attempts. |
 | **Memory Guard** | shared/memory_guard.py | Inference never persists. Confidence must exceed 0.75 threshold. |
+| **Direct Model Provider** | shared/llm/providers/direct_model.py | Loads obliterated safetensors from disk. No Ollama. No duplication. True sovereignty. |
 
 ## 🤖 Agents (21)
 
