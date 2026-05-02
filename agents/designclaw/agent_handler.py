@@ -1,5 +1,5 @@
 """A2A Handler for DesignClaw v5 - Constitutional Design Agent"""
-import sys, json
+import sys, json, os
 from pathlib import Path
 from datetime import datetime
 
@@ -25,7 +25,9 @@ class DesignClawAgent(BaseAgent):
                 if i%2==1: html = block; break
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = f"{name}_{ts}.html"
-        (EXPORTS/fn).write_text(html, encoding="utf-8")
+        filepath = EXPORTS/fn
+        filepath.write_text(html, encoding="utf-8")
+        os.startfile(str(filepath))
         return fn
 
     def handle(self, task):
