@@ -1,42 +1,45 @@
-# Denver County Building Codes - Colorado
-## AHJ: Denver Community Planning and Development
+﻿# Denver Building Code
+## Denver Community Planning and Development | City and County of Denver
 ## Address: 201 W. Colfax Ave., Dept 205, Denver, CO 80202
-## Phone: (720) 865-2710
-## URL: https://www.denvergov.org/CPD
-## Verify URL in browser - government sites may block automated requests
+## Phone: (720) 865-2710 | URL: https://www.denvergov.org/CPD
+## Code: 2022 Denver Building Code (IBC 2021 + Denver amendments)
 
-## Colorado Building Codes
-| Code | Edition |
-|------|---------|
-| Building | IBC 2021 (Colorado Building Code) |
-| Residential | IRC 2021 |
-| Electrical | NEC 2023 (Colorado Electrical Code) |
-| Plumbing | IPC 2021 |
-| Mechanical | IMC 2021 |
-| Fire | IFC 2021 |
-| Energy | IECC 2021 + CO requirements |
-| Radon | CRS 25-23-108 (mandatory mitigation) |
+## Denver-Specific Code Editions
+| Code | Edition | Notes |
+|------|---------|-------|
+| Building | 2022 DBC | IBC 2021 + Denver amendments |
+| Residential | 2022 DRC | IRC 2021 + Denver amendments |
+| Electrical | NEC 2023 | Denver amendments |
+| Plumbing | IPC 2021 | Denver amendments |
+| Mechanical | IMC 2021 | Denver amendments |
+| Fire | 2022 DFC | IFC 2021 + Denver amendments |
+| Energy | Denver Green Code | Above IECC 2021 |
+| Accessibility | ADA 2010 + Denver | |
 
-## Design Criteria - Verify with AHJ
-| Item | Front Range | Mountains | Western Slope |
-|------|------------|-----------|---------------|
-| Frost Depth | 36 in | 36-60+ in | 24-36 in |
-| Snow Load | 30-40 psf | 50-300+ psf | 20-30 psf |
-| Wind Speed | 115 mph Vult | 120-150 mph | 100-115 mph |
-| Seismic | SDC B | SDC B-C | SDC A-B |
+## Denver Design Criteria
+| Item | Value | Code Reference |
+|------|-------|---------------|
+| Frost Depth | 36 in minimum | DBC 1809.5 |
+| Ground Snow Load | 40 psf | DBC 1608 / ASCE 7 |
+| Wind Speed | 115 mph Vult | DBC 1609 |
+| Seismic | SDC B | DBC 1613 |
+| Exposure | B | DBC 1609 |
+| Soil Bearing | 3,000 psf (geotech req) | DBC 1806 |
 
-## Local Permit Authority
-**Denver Community Planning and Development**
-Address: 201 W. Colfax Ave., Dept 205, Denver, CO 80202
+## Key Denver Amendments
+- Denver Green Code: Mandatory above IECC 2021
+- Radon mitigation: Required per CRS 25-23-108
+- Electronic permit submittal via e-permits
+- WUI requirements in designated areas
+
+## Permit Office
+Denver Community Planning and Development
+Wellington Webb Municipal Building
+201 W. Colfax Ave., Denver, CO 80202
 Phone: (720) 865-2710
 URL: https://www.denvergov.org/CPD
 
-## County Notes
-City and county consolidated. 2022 Denver Building Code (IBC 2021 + amendments). Denver Green Code.
-
 ## State Resources
-- CO Division of Housing: https://cdola.colorado.gov/ | Phone: (303) 864-7810
-- CO Building Codes: https://cdola.colorado.gov/building-codes
-- CO WUI (Wildfire): https://dfpc.colorado.gov/wui
+- CO Division of Housing: https://cdola.colorado.gov/
+- CO WUI: https://dfpc.colorado.gov/wui
 - CO Radon: https://cdphe.colorado.gov/radon
-- CO Energy Office: https://energyoffice.colorado.gov/
