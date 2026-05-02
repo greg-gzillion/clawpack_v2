@@ -37,7 +37,7 @@ from agents.drawclaw.agent_handler import process_task as drawclaw_process
 from agents.draftclaw.agent_handler import process_task as draftclaw_process
 
 # Initialize memory
-a2a_memory = get_memory()
+a2a_memory = get_memory('a2a_server')
 
 AGENTS = {
     "llmclaw": {"script": "agents/llmclaw/llmclaw.py", "cmd_prefix": ["/llm"], "desc": "Model selection and management"},
