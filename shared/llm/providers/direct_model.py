@@ -79,15 +79,14 @@ def generate(prompt: str, model_name: str, max_tokens: int = 128) -> str:
             use_cache=True,
         )
     
-    # Decode with proper spacing
+    # Decode with proper spacing and character cleanup
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
-    # Strip only the prompt portion
+    # Strip the input prompt from output
     if full_output.startswith(prompt):
         full_output = full_output[len(prompt):].strip()
     elif formatted != prompt and full_output.startswith(formatted):
         full_output = full_output[len(formatted):].strip()
-    # Clean up: replace the Ċ character that should be newlines
-    full_output = full_output.replace('Ċ', '
-').replace('Ġ', ' ')
+    full_output = full_output.replace(chr(288)+chr(138), chr(10)).replace(chr(288)+chr(160), chr(32))
+    full_output = full_output.replace(chr(288)+chr(138), chr(10)).replace(chr(288)+chr(160), chr(32))
     return full_output
 __all__ = ['list_models', 'get_model_info', 'generate', 'OBLITERATED_MODELS']
