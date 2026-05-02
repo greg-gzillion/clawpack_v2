@@ -100,37 +100,39 @@ class FlowClawAgent(BaseAgent):
                 result = "Exported diagrams:\n" + list_exports()
                 return {"status": "success", "result": str(result)}
 
-            # Diagram generation
-            if cmd in ("/flowchart", "flowchart"): diagram_type = "flowchart"
-            elif cmd in ("/sequence", "sequence"): diagram_type = "sequence"
-            elif cmd in ("/architecture", "architecture"): diagram_type = "architecture"
-            elif cmd in ("/mindmap", "mindmap"): diagram_type = "mindmap"
-            else: diagram_type = "flowchart"
-
-            ctx = self._gather_context(query, diagram_type)
-            code = self._generate_diagram(diagram_type, query, ctx)
-
-            if cmd in ("/view", "view"):
-                self.viewer.view_in_browser(code, query)
-                result = f"Opened in browser.\n\n`mermaid\n{code}\n`"
-            elif cmd in ("/export", "export"):
-                parts2 = args.split(maxsplit=1) if args else ["md", query]
-                fmt = parts2[0] if parts2[0] in ("png","svg","pdf","docx","md","html") else "md"
-                export_result = self.call_agent("fileclaw", f"/export {fmt} Mermaid: {query}\n\n`mermaid\n{code}\n`", timeout=30)
-                if export_result:
-                    result = f"{export_result}\n\n`mermaid\n{code}\n`"
-                else:
-                    output_dir = FLOWCLAW_DIR / "exports"
-                    output_dir.mkdir(exist_ok=True)
-                    path = output_dir / f"diagram_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-                    self.docx_exporter.export(code, path, query)
-                    result = f"Exported to {path}.docx\n\n`mermaid\n{code}\n`"
-            elif cmd in ("/help",):
+            # Help and stats BEFORE diagram generation (no LLM needed)
+            if cmd in ("/help",):
                 result = "FlowClaw v5 - Constitutional Diagram Agent\n  DIAGRAMS:  /flowchart /sequence /architecture /mindmap\n  VIEW:      /view <query>\n  EXPORT:    /export <fmt> <query>  (png, svg, pdf, docx, md, html)\n  SHARED:    /shared read [key]  |  /shared write key:value\n  DELEGATE:  /delegate <agent> <task>\n  FILES:     /exports\n  /stats"
             elif cmd in ("/stats",):
                 result = f"FlowClaw v5 | Engine+Viewer+Export+Delegate | Interactions: {self.state.get('interactions', 0)}"
             else:
-                result = f"`mermaid\n{code}\n`"
+                # Diagram generation
+                if cmd in ("/flowchart", "flowchart"): diagram_type = "flowchart"
+                elif cmd in ("/sequence", "sequence"): diagram_type = "sequence"
+                elif cmd in ("/architecture", "architecture"): diagram_type = "architecture"
+                elif cmd in ("/mindmap", "mindmap"): diagram_type = "mindmap"
+                else: diagram_type = "flowchart"
+
+                ctx = self._gather_context(query, diagram_type)
+                code = self._generate_diagram(diagram_type, query, ctx)
+
+                if cmd in ("/view", "view"):
+                    self.viewer.view_in_browser(code, query)
+                    result = f"Opened in browser.\n\n`mermaid\n{code}\n`"
+                elif cmd in ("/export", "export"):
+                    parts2 = args.split(maxsplit=1) if args else ["md", query]
+                    fmt = parts2[0] if parts2[0] in ("png","svg","pdf","docx","md","html") else "md"
+                    export_result = self.call_agent("fileclaw", f"/export {fmt} Mermaid: {query}\n\n`mermaid\n{code}\n`", timeout=30)
+                    if export_result:
+                        result = f"{export_result}\n\n`mermaid\n{code}\n`"
+                    else:
+                        output_dir = FLOWCLAW_DIR / "exports"
+                        output_dir.mkdir(exist_ok=True)
+                        path = output_dir / f"diagram_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+                        self.docx_exporter.export(code, path, query)
+                        result = f"Exported to {path}.docx\n\n`mermaid\n{code}\n`"
+                else:
+                    result = f"`mermaid\n{code}\n`"
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
