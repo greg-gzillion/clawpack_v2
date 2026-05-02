@@ -191,7 +191,7 @@ class BaseAgent:
             r = requests.post(
                 f"{self.A2A}/v1/message/llmclaw",
                 json={"task": f"/llm {full_prompt}"},
-                timeout=120
+                timeout=600
             )
             if r.status_code == 200:
                 return r.json().get("result", "")
