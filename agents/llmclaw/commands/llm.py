@@ -5,10 +5,23 @@ import os
 import time
 from pathlib import Path
 
+from shared.llm.router import route
+
 MODELS_DIR = Path("C:/Users/greg/dev/clawpack_v2/models")
 
-def run(prompt):
-    """Try multiple providers in priority order"""
+def run(prompt, task_type=None):
+    """Try multiple providers in priority order with intelligent routing."""
+    # Detect task type from prompt if not specified
+    if not task_type:
+        if any(kw in prompt.lower() for kw in ["code", "function", "script", "program", "write a"]):
+            task_type = "code_generation"
+        elif any(kw in prompt.lower() for kw in ["plan", "orchestrate", "design", "architect"]):
+            task_type = "planning"
+    
+    # Get routed provider
+    preferred = route(task_type=task_type)
+    if preferred:
+        print(f"[llmclaw] Router selected: {preferred} for task_type={task_type}")
     config_path = MODELS_DIR / "active_model.json"
     try:
         with open(config_path, 'r') as f:
@@ -17,6 +30,21 @@ def run(prompt):
         return "Error: Could not load provider config"
     providers = config.get("providers", {})
     sorted_providers = sorted(providers.items(), key=lambda x: x[1].get("priority", 99))
+        # If router specified a provider, prioritize it
+    if preferred and preferred in providers:
+        provider_config = providers[preferred]
+        model = provider_config.get("model")
+        timeout = provider_config.get("timeout", 30)
+        print(f"[llmclaw] Trying routed {preferred}: {model}...")
+        result = None
+        if preferred == "direct_model": result = _ask_direct(prompt, model, timeout)
+        elif preferred == "groq": result = _ask_groq(prompt, model, timeout)
+        elif preferred == "ollama": result = _ask_ollama(prompt, model, timeout)
+        elif preferred == "openrouter": result = _ask_openrouter(prompt, model, timeout)
+        elif preferred == "anthropic": result = _ask_anthropic(prompt, model, timeout)
+        if result and not result.startswith("Error"):
+            return result
+    
     for name, provider_config in sorted_providers:
         model = provider_config.get("model")
         timeout = provider_config.get("timeout", 30)
