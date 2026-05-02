@@ -25,30 +25,50 @@ def run(args):
         import matplotlib; matplotlib.use("Agg")
         import matplotlib.pyplot as plt
         clean_args, flags = parse_flags(args)
-        parts = clean_args.split(",")
+        parts = [p.strip() for p in clean_args.split(",") if p.strip()]
         values, labels = [], []
         for p in parts:
-            p = p.strip()
             if ":" in p:
                 l, v = p.split(":", 1)
-                labels.append(l.strip()); values.append(float(v.strip()))
+                labels.append(l.strip())
+                values.append(float(v.strip()))
             else:
-                values.append(float(p))
+                try:
+                    values.append(float(p))
+                except:
+                    pass
+        if not values:
+            return "[FAIL] No valid numeric values found"
         if not labels:
+            labels = [f"Item {i+1}" for i in range(len(values))]
+        # Ensure labels and values match
+        if len(labels) != len(values):
             labels = [f"Item {i+1}" for i in range(len(values))]
         # Flag labels override
         if flags.get("labels") and isinstance(flags["labels"], str):
-            labels = [l.strip() for l in flags["labels"].split(",")]
+            fl = [l.strip() for l in flags["labels"].split(",")]
+            if len(fl) == len(values):
+                labels = fl
         # Explode
         if flags.get("explode") and isinstance(flags["explode"], str):
             explode_vals = [float(e.strip()) for e in flags["explode"].split(",")]
+            if len(explode_vals) != len(values):
+                explode_vals = [0] * len(values)
         else:
             explode_vals = [0] * len(values)
         is_donut = flags.get("donut") == True
         plt.style.use("dark_background" if flags.get("theme")=="dark" else "default")
         fig, ax = plt.subplots(figsize=(8, 8))
         colors = plt.cm.Set3(range(len(values)))
-        wedges, texts, autotexts = ax.pie(values, labels=labels, colors=colors, autopct="%1.1f%%", startangle=90, explode=explode_vals, pctdistance=0.75 if is_donut else 0.6)
+        wedges, texts, autotexts = ax.pie(
+            values,
+            labels=labels,
+            colors=colors,
+            autopct="%1.1f%%",
+            startangle=90,
+            explode=explode_vals,
+            pctdistance=0.75 if is_donut else 0.6
+        )
         if is_donut:
             fc = "#1e1e1e" if flags.get("theme")=="dark" else "white"
             centre_circle = plt.Circle((0, 0), 0.50, fc=fc, edgecolor="none")
