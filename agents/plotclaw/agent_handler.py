@@ -46,8 +46,17 @@ class PlotClawAgent(BaseAgent):
             elif cmd in ("/plot", "plot") and query:
                 from agents.plotclaw.commands.plot import run
                 result = run(query)
+            elif cmd in ("/scatter", "scatter") and query:
+                from agents.plotclaw.commands.scatter import run
+                result = run(query)
+            elif cmd in ("/hist", "hist") and query:
+                from agents.plotclaw.commands.hist import run
+                result = run(query)
+            elif cmd in ("/dashboard", "dashboard") and query:
+                from agents.plotclaw.commands.dashboard import run
+                result = run(query)
             elif cmd in ("/help",):
-                result = "PlotClaw - Real Charts (matplotlib)\n  /bar 10,20,15,30,25\n  /pie 15,25,35,25\n  /plot sin(x)\n  /stats"
+                result = "PlotClaw - Professional Charts\n  /bar 10,20,15,30,25 [--labels A,B --colors red,blue --mean --std]\n  /pie 15,25,35,25 [--explode 0,0.1,0 --donut]\n  /plot sin(x),cos(x) [--range -pi,pi --legend --annotate peak,1.57,1]\n  /scatter 1,2,3 4,5,6 [--trendline]\n  /hist 1,2,2,3,3,3,4,4,5 [--bins 10]\n  /dashboard bar:sales:10,20,30 pie:market:40,30,20,10\n  --theme dark --format svg --save-only\n  /stats"
             elif cmd in ("/stats",):
                 result = f"PlotClaw | matplotlib charts | Bar/Pie/Plot | Exports to PNG | Interactions: {self.state.get('interactions', 0)}"
             else:
