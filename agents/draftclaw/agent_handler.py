@@ -78,11 +78,18 @@ class DraftClawAgent(BaseAgent):
             refs = search_references(query, self.call_agent) if query else ""
 
             if cmd in ("/blueprint","/floorplan") and query:
-                from agents.draftclaw.commands.blueprint import run
-                result = run(query)
-                if result and "Error" not in str(result):
-                    export = self._fileclaw_export("png", str(result))
-                    result = f"{export}\n\n{str(result)}"
+                prompt = f"Generate detailed architectural blueprint specifications with dimensions, room layouts, wall placements, door/window locations, and structural notes. Include code references where applicable.\n\nProject: {query}"
+                if refs: prompt = f"Reference material from building codes and standards:\n{refs[:3000]}\n\n{prompt}"
+                result = self.ask_llm(prompt)
+                # Also generate a PIL rendering as visual supplement
+                try:
+                    from agents.draftclaw.commands.blueprint import run
+                    pil_result = run(query)
+                    if pil_result and "Error" not in str(pil_result):
+                        export = self._fileclaw_export("png", str(pil_result))
+                        result = f"{export}\n\n{result}"
+                except:
+                    pass
 
             elif cmd in ("/cad","/schematic") and query:
                 prompt = f"Generate a technical schematic with precise measurements, component layout, and connection points. Format as ASCII art diagram.\n\nSpecs: {query}"
