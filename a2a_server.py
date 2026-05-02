@@ -39,30 +39,6 @@ from agents.draftclaw.agent_handler import process_task as draftclaw_process
 # Initialize memory
 a2a_memory = get_memory('a2a_server')
 
-AGENTS = {
-    "llmclaw": {"script": "agents/llmclaw/llmclaw.py", "cmd_prefix": ["/llm"], "desc": "Model selection and management"},
-    "liberateclaw": {"script": "agents/liberateclaw/liberateclaw.py", "cmd_prefix": ["liberate"], "desc": "LLM Model Liberation"},
-    "flowclaw": {"script": "agents/flowclaw/flowclaw.py", "cmd_prefix": ["diagram"], "desc": "AI-powered diagram generator"},
-    "designclaw": {"script": "agents/designclaw/designclaw.py", "cmd_prefix": ["design"], "desc": "Graphic design and logos"},
-    "draftclaw": {"script": "agents/draftclaw/draftclaw.py", "cmd_prefix": ["draft"], "desc": "Technical drawings and blueprints"},
-    "drawclaw": {"script": "agents/drawclaw/drawclaw.py", "cmd_prefix": ["draw"], "desc": "Drawing and sketching"},
-    "dreamclaw": {"script": "agents/dreamclaw/dreamclaw.py", "cmd_prefix": ["dream"], "desc": "AI vision and generation"},
-    "plotclaw": {"script": "agents/plotclaw/plotclaw.py", "cmd_prefix": ["plot"], "desc": "Charts and graphs"},
-    "docuclaw": {"script": "agents/docuclaw/docuclaw.py", "cmd_prefix": ["doc"], "desc": "AI-powered document processor"},
-    "dataclaw": {"script": "agents/dataclaw/dataclaw.py", "cmd_prefix": ["search"], "desc": "Data analysis and local references"},
-    "webclaw": {"script": "agents/webclaw/webclaw.py", "cmd_prefix": ["search"], "desc": "Web search and indexing"},
-    "mathematicaclaw": {"script": "agents/mathematicaclaw/mathematicaclaw.py", "cmd_prefix": ["math"], "desc": "AI-powered mathematics solver"},
-    "fileclaw": {"script": "agents/fileclaw/fileclaw.py", "cmd_prefix": ["file"], "desc": "File analysis and organization"},
-    "interpretclaw": {"script": "agents/interpretclaw/interpretclaw.py", "cmd_prefix": ["translate"], "desc": "Translation and interpretation"},
-    "langclaw": {"script": "agents/langclaw/langclaw.py", "cmd_prefix": ["learn"], "desc": "Language teacher"},
-    "lawclaw": {"script": "agents/lawclaw/lawclaw.py", "cmd_prefix": ["search"], "desc": "Legal research assistant"},
-    "mediclaw": {"script": "agents/mediclaw/mediclaw.py", "cmd_prefix": ["diagnose"], "desc": "Medical references and diagnosis"},
-    "txclaw": {"script": "agents/txclaw/txclaw.py", "cmd_prefix": ["tx"], "desc": "Blockchain and smart contract developer"},
-    "claw_coder": {"script": "agents/claw_coder/claw_coder.py", "cmd_prefix": ["code"], "desc": "Code generation (38 languages)"},
-    "rustypycraw": {"script": "agents/rustypycraw/rustypycraw.py", "cmd_prefix": ["crawl"], "desc": "Code crawler and analyzer"},
-    "crustyclaw": {"script": "agents/crustyclaw/crustyclaw.py", "cmd_prefix": ["rust"], "desc": "Rust AI Assistant"},
-}
-
 class UnifiedA2AHandler(BaseHTTPRequestHandler):
     """Unified A2A Handler - Memory + WebClaw + All Agents"""
     
