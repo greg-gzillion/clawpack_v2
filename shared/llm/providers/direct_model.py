@@ -67,7 +67,16 @@ def generate(prompt: str, model_name: str, max_tokens: int = 128) -> str:
     else:
         formatted = prompt
     inputs = tokenizer(formatted, return_tensors="pt").to(model.device)
-    outputs = model.generate(**inputs, max_new_tokens=max_tokens, do_sample=False, temperature=0.2, pad_token_id=tokenizer.eos_token_id)
+        import torch
+    with torch.inference_mode():
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=max_tokens,
+            do_sample=False,
+            pad_token_id=tokenizer.eos_token_id,
+            eos_token_id=tokenizer.eos_token_id,
+            use_cache=True,
+        )
         # Decode and strip the input prompt from output
     full_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
     # Remove the prompt from the response if it's echoed back
