@@ -43,20 +43,27 @@ class DraftClawAgent(BaseAgent):
             jur_names = [' '.join(words[-3:]), ' '.join(words[-2:]), words[-1]] if len(words) > 1 else [query]
         
         # Try each candidate name
+        best_result = None
+        best_confidence = -1
         for name in jur_names:
             if len(name) < 3:
                 continue
             results = lookup_jurisdiction(name)
             if results:
                 jur = results[0]
-                criteria = extract_design_criteria(jur['content'])
-                contact = extract_contact(jur['content'])
-                return {
-                    'name': jur['jurisdiction'],
-                    'confidence': jur['confidence'],
-                    'criteria': criteria,
-                    'contact': contact
-                }
+                if jur['confidence'] > best_confidence:
+                    best_confidence = jur['confidence']
+                    best_result = jur
+        
+        if best_result:
+            criteria = extract_design_criteria(best_result['content'])
+            contact = extract_contact(best_result['content'])
+            return {
+                'name': best_result['jurisdiction'],
+                'confidence': best_result['confidence'],
+                'criteria': criteria,
+                'contact': contact
+            }
         
         # Fallback: try the raw query itself
         results = lookup_jurisdiction(query)
