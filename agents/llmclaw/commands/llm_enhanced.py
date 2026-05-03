@@ -3,8 +3,11 @@ import json
 import requests
 import os
 from pathlib import Path
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 
-MODELS_DIR = Path("str(PROJECT_ROOT)/models")
+
+MODELS_DIR = PROJECT_ROOT / "models"
 
 def run(prompt):
     """Try multiple providers in priority order"""

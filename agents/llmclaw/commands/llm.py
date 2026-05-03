@@ -6,8 +6,11 @@ import time
 from pathlib import Path
 
 from shared.llm.router import route
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
 
-MODELS_DIR = Path("str(PROJECT_ROOT)/models")
+
+MODELS_DIR = PROJECT_ROOT / "models"
 
 def run(prompt, task_type=None):
     """Try multiple providers in priority order with intelligent routing."""
@@ -84,41 +87,28 @@ def _ask_ollama(prompt, model, timeout):
     if response.status_code == 200: return response.json().get("response", "")
     return None
 
-def _ask_groq(prompt, model, timeout):
-    api_key = _load_key("GROQ_API_KEY")
-    if not api_key: return None
-    for attempt in range(3):
-        try:
-            response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers={"Authorization": f"Bearer {api_key}"}, json={"model": model, "messages": [{"role": "user", "content": prompt}]}, timeout=timeout)
-            if response.status_code == 200: return response.json()["choices"][0]["message"]["content"]
-        except: pass
-    return None
-
-def _ask_openrouter(prompt, model, timeout):
-    api_key = _load_key("OPENROUTER_API_KEY")
-    if not api_key: return None
-    for attempt in range(2):
-        try:
-            response = requests.post("https://openrouter.ai/api/v1/chat/completions", headers={"Authorization": f"Bearer {api_key}"}, json={"model": model, "messages": [{"role": "user", "content": prompt}]}, timeout=timeout)
-            if response.status_code == 200: return response.json()["choices"][0]["message"]["content"]
-        except: pass
-    return None
-
-def _ask_anthropic(prompt, model, timeout):
-    api_key = _load_key("ANTHROPIC_API_KEY")
-    if not api_key: return None
-    for attempt in range(3):
-        try:
-            response = requests.post("https://api.anthropic.com/v1/messages", headers={"x-api-key": api_key, "anthropic-version": "2023-06-01", "content-type": "application/json"}, json={"model": model, "max_tokens": 4096, "messages": [{"role": "user", "content": prompt}]}, timeout=timeout)
-            if response.status_code == 200: return response.json()["content"][0]["text"]
-            elif response.status_code == 429: time.sleep(2 ** attempt)
-        except: pass
-    return None
-
-def _load_key(key_name):
-    env_path = Path("str(PROJECT_ROOT)/.env")
-    if env_path.exists():
-        with open(env_path) as f:
-            for line in f:
-                if line.startswith(f"{key_name}="): return line.split("=", 1)[1].strip()
-    return os.environ.get(key_name)
+def run(prompt, task_type=None):
+    """Constitutional: ALL model access routes through shared/llm/client.py"""
+    import asyncio
+    from shared.llm.config import load_config
+    from shared.llm.client import get_llm_client
+    
+    if not task_type:
+        if any(kw in prompt.lower() for kw in ["code", "function", "script", "program", "write a"]):
+            task_type = "code_generation"
+    
+    config = load_config()
+    model = config.get("model", "anthropic")
+    provider = config.get("source", "groq")
+    
+    print(f"[llmclaw] Sovereign Gateway: {provider}/{model}")
+    try:
+        client = get_llm_client()
+        result = asyncio.run(client.call(
+            prompt=prompt, agent='llmclaw', model=model,
+            provider=provider, max_tokens=4096, temperature=0.7
+        ))
+        return result.content if result else "Error: No response from Gateway"
+    except Exception as e:
+        print(f"[llmclaw] Gateway error: {e}")
+        return f"Error: {str(e)[:200]}"
