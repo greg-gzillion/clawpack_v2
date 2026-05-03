@@ -32,7 +32,7 @@
     "confidence": 0.5
   },
   "draftclaw_latest": {
-    "command": "structural",
+    "command": "/structural",
     "query": "warehouse 100x200 with 30ft clear height phoenix arizona"
   }
 }

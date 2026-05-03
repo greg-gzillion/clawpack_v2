@@ -1,6 +1,7 @@
 ﻿# DraftClaw Shared Jurisdiction Engine
 # Core module: lookup_jurisdiction, score_confidence, classify_occupancy, extract_design_criteria
 # Used by ALL review agents to prevent duplication
+# UPDATED v2: Searches city subdirectories for design criteria, not just county-level
 
 import re
 from pathlib import Path
@@ -23,39 +24,68 @@ OCCUPANCY_CLASSES = {
 
 
 def lookup_jurisdiction(query: str) -> List[Dict]:
-    """Search for a jurisdiction by county or city name. Returns list of matching dicts with content and confidence."""
+    """Search for a jurisdiction by city or county name. 
+    Searches BOTH county-level and city-level building_code.md files.
+    City-level files contain the actual design criteria (frost, snow, wind, seismic)."""
     query_lower = query.lower().strip()
     results = []
+    
     for state_dir in sorted(JURISDICTION_BASE.iterdir()):
-        if state_dir.is_dir() and len(state_dir.name) == 2 and state_dir.name.isalpha():
-            for county_dir in state_dir.iterdir():
-                if county_dir.is_dir() and county_dir.name not in ('state', '__pycache__'):
-                    bc_file = county_dir / 'building_code.md'
-                    if bc_file.exists():
-                        county_name = county_dir.name.replace('_', ' ').lower()
-                        state_abbr = state_dir.name.upper()
-                        if query_lower in county_name or query_lower in f'{county_name} {state_abbr.lower()}':
-                            content = bc_file.read_text(encoding='utf-8')
-                            results.append({
-                                'jurisdiction': f'{county_dir.name.replace("_", " ")}, {state_abbr}',
-                                'path': str(bc_file.relative_to(JURISDICTION_BASE)),
-                                'content': content,
-                                'confidence': _score_confidence(content)
-                            })
+        if not state_dir.is_dir() or len(state_dir.name) != 2 or not state_dir.name.isalpha():
+            continue
+        state_abbr = state_dir.name.upper()
+        
+        for county_dir in state_dir.iterdir():
+            if not county_dir.is_dir() or county_dir.name in ('state', '__pycache__'):
+                continue
+            county_name = county_dir.name.replace('_', ' ').lower()
+            
+            # --- CITY-LEVEL SEARCH (primary — contains design criteria) ---
+            for city_dir in county_dir.iterdir():
+                if not city_dir.is_dir():
+                    continue
+                city_bc = city_dir / 'building_code.md'
+                if city_bc.exists():
+                    city_name = city_dir.name.replace('_', ' ').lower()
+                    if query_lower in city_name or query_lower in f'{city_name} {state_abbr.lower()}':
+                        content = city_bc.read_text(encoding='utf-8')
+                        results.append({
+                            'jurisdiction': f'{city_dir.name.replace("_", " ")}, {state_abbr}',
+                            'county': county_name,
+                            'path': str(city_bc.relative_to(JURISDICTION_BASE)),
+                            'content': content,
+                            'confidence': _score_confidence(content),
+                            'source': 'city'
+                        })
+            
+            # --- COUNTY-LEVEL SEARCH (fallback if city not found) ---
+            bc_file = county_dir / 'building_code.md'
+            if bc_file.exists() and (query_lower in county_name or query_lower in f'{county_name} {state_abbr.lower()}'):
+                content = bc_file.read_text(encoding='utf-8')
+                results.append({
+                    'jurisdiction': f'{county_dir.name.replace("_", " ")}, {state_abbr}',
+                    'county': None,
+                    'path': str(bc_file.relative_to(JURISDICTION_BASE)),
+                    'content': content,
+                    'confidence': _score_confidence(content),
+                    'source': 'county'
+                })
+    
     return results
 
 
 def _score_confidence(content: str) -> int:
     """Score a jurisdiction's data confidence from 0-100."""
-    score = 0
-    if 'verified May 2026' in content: score += 30
-    elif 'site live - browser access' in content: score += 15
-    if re.search(r'\(\d{3}\)\s*\d{3}-\d{4}', content): score += 20
-    if 'County Seat:' in content or 'Parish Seat:' in content: score += 15
-    if 'IBC' in content or 'IRC' in content: score += 15
-    if 'Frost:' in content or 'Snow:' in content or 'Wind:' in content: score += 10
-    if re.search(r'\d+\s+[A-Z]', content): score += 10
-    return score
+    score = 30  # Base score for having a file
+    if re.search(r'\(\d{3}\)\s*\d{3}-\d{4}', content): score += 15
+    if '## AHJ:' in content: score += 10
+    if '## URL:' in content: score += 10
+    if '## County:' in content or '## Parish:' in content: score += 10
+    if '## Wind:' in content: score += 10
+    if '## Frost:' in content: score += 5
+    if '## Snow:' in content: score += 5
+    if '## Seismic:' in content: score += 5
+    return min(score, 100)
 
 
 def classify_occupancy(project_description: str) -> Dict:
@@ -71,10 +101,16 @@ def classify_occupancy(project_description: str) -> Dict:
 def extract_design_criteria(content: str) -> Dict:
     """Extract frost_depth, snow_load, wind_speed, seismic from jurisdiction file content."""
     criteria = {}
-    patterns = {'frost_depth': r'Frost[:\s]+(\d+[-\d]*\s*in)', 'snow_load': r'Snow[:\s]+(\d+[-\d]*\s*psf)', 'wind_speed': r'Wind[:\s]+(\d+[-\d]*\s*mph)', 'seismic': r'Seismic[:\s]+(SDC\s*[A-D])'}
+    patterns = {
+        'frost_depth': r'Frost[:\s]+(\d+[-\d]*\s*in)',
+        'snow_load': r'Snow[:\s]+(\d+[-\d]*\s*psf)',
+        'wind_speed': r'Wind[:\s]+(\d+[-\d]*\s*mph)',
+        'seismic': r'Seismic[:\s]+(SDC\s*[A-D][A-D]?)'
+    }
     for key, pattern in patterns.items():
         match = re.search(pattern, content)
-        if match: criteria[key] = match.group(1)
+        if match:
+            criteria[key] = match.group(1).strip()
     return criteria
 
 
@@ -82,7 +118,9 @@ def extract_contact(content: str) -> Dict:
     """Extract phone and URL from jurisdiction file content."""
     contact = {}
     phone = re.search(r'(\(\d{3}\)\s*\d{3}-\d{4})', content)
-    url = re.search(r'(https://[^\s\)]+)', content)
+    url = re.search(r'(https?://[^\s\)]+)', content)
+    ahj = re.search(r'## AHJ:\s*(.+)', content)
     if phone: contact['phone'] = phone.group(1)
     if url: contact['url'] = url.group(1)
+    if ahj: contact['ahj'] = ahj.group(1).strip()
     return contact

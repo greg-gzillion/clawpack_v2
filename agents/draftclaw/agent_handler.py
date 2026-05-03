@@ -28,37 +28,40 @@ class DraftClawAgent(BaseAgent):
         fn.write_text(content, encoding="utf-8")
         return f"Saved: {fn.name}"
 
-    def _resolve_jurisdiction(self, query):
-        """Extract jurisdiction from query and look up design criteria."""
+﻿    def _resolve_jurisdiction(self, query):
+        """Extract jurisdiction from query and look up design criteria.
+        ALL criteria MUST come from webclaw/references/draftclaw/jurisdictions/us/
+        No hardcoded fallback values permitted."""
         from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact
-        
-        # Try patterns: "in X", "for X", "at X", or last 2-3 words as jurisdiction
+
+        # Extract city/state name from query
         jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
         jur_names = []
         if jur_match:
             full = jur_match.group(1).strip().rstrip(",").strip()
-            # Try full name, then individual words, then pairs
             words = full.split()
             jur_names = [full] + words + [' '.join(words[i:i+2]) for i in range(len(words)-1)]
         else:
-            # No preposition - try last 2-3 words as jurisdiction
             words = query.lower().split()
-            # Remove common structural terms
             skip = {'warehouse','building','structural','permit','commercial','retail','industrial','office'}
             words = [w for w in words if w not in skip]
             if len(words) >= 2:
                 jur_names = [' '.join(words[-3:]), ' '.join(words[-2:]), words[-1]]
-        
-        # Try each candidate, prioritizing higher confidence
+
+        # Try each candidate, prioritizing city-level matches
         best = None
         for name in jur_names:
-            if len(name) < 3: continue
+            if len(name) < 3:
+                continue
             results = lookup_jurisdiction(name)
-            if results:
-                for jur in results:
-                    if best is None or jur['confidence'] > best['confidence']:
-                        best = jur
-        
+            for jur in results:
+                effective_conf = jur['confidence']
+                if jur.get('source') == 'city':
+                    effective_conf += 20
+                if best is None or effective_conf > best['confidence']:
+                    jur['confidence'] = effective_conf
+                    best = jur
+
         if best:
             criteria = extract_design_criteria(best['content'])
             contact = extract_contact(best['content'])
@@ -66,16 +69,20 @@ class DraftClawAgent(BaseAgent):
                 'name': best['jurisdiction'],
                 'confidence': best['confidence'],
                 'criteria': criteria,
-                'contact': contact
+                'contact': contact,
+                'source': best.get('source', 'unknown')
             }
-        
-        # Absolute fallback
+
+        # NO FALLBACK - all criteria must come from webclaw/references/
         return {
-            'name': 'default (verify with AHJ)',
+            'name': 'UNRESOLVED',
             'confidence': 0,
-            'criteria': {'frost_depth': '36 in', 'snow_load': '30 psf', 'wind_speed': '115 mph', 'seismic': 'SDC B'},
-            'contact': {}
+            'criteria': {},
+            'contact': {},
+            'source': 'none',
+            'error': 'No building code reference found. Try: /lookup <city state>'
         }
+
     def _geo_text(self, jur_data):
         """Build jurisdiction-specific design assumptions text from looked-up data."""
         c = jur_data['criteria']
