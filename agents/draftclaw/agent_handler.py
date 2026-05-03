@@ -192,6 +192,15 @@ class DraftClawAgent(BaseAgent):
                 result += f"\n\n---\n## Permit Package Control\n| Field | Value |\n|-------|-------|\n| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |\n| **Jurisdiction** | {jur_data['name']} |\n| **Governing Codes** | {codes} |\n| **Agent** | DraftClaw v5 Constitutional |\n| **Disclaimer** | For preliminary submittal only. Verify with local AHJ. Requires PE/SE stamp. |\n\n*NOT FOR CONSTRUCTION*"
 
             elif cmd in ("/structural","/engineering") and query:
+                
+                # REFUSE if jurisdiction unresolved
+                if jur_data.get("name") == "UNRESOLVED" or jur_data.get("error"):
+                    result = "**ERROR: Jurisdiction not found.**\n\n"
+                    result += "No building code reference matched your query.\n"
+                    result += "Try: /lookup CITY STATE to find a jurisdiction.\n\n"
+                    result += f"Query: {query}\n"
+                    return result
+                
                 jur_data = self._resolve_jurisdiction(query)
                 c = jur_data['criteria']
                 nl = chr(10)
