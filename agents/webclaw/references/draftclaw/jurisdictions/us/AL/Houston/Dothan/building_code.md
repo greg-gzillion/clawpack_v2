@@ -4,6 +4,5 @@
 ## Phone: (334) 615-3100
 ## URL: https://www.dothan.org/
 ## County: Houston County
-## State Code: IBC 2015 (Alabama Building Code)
-## Frost: 4 in | Snow: 5 psf | Wind: 120 mph | Seismic: SDC A
+## State Code: IBC 2015 | Frost: 4 in | Snow: 5 psf | Wind: 120 mph | Seismic: SDC A-B
 ## State: AL Building Commission: https://www.building.alabama.gov/
