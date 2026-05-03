@@ -2,7 +2,7 @@
 import os
 from pathlib import Path
 
-ENV_PATH = Path("C:/Users/greg/dev/clawpack_v2/.env")
+ENV_PATH = Path("str(PROJECT_ROOT)/.env")
 
 def _load_key(prefix):
     if ENV_PATH.exists():
@@ -18,7 +18,7 @@ class Config:
     GROQ_KEY = _load_key('GROQ_API_KEY=')
     OLLAMA_URL = "http://localhost:11434"
     OLLAMA_MODEL = "codellama:7b"
-    WEBCLAW_PATH = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/mediclaw")
+    WEBCLAW_PATH = Path("str(PROJECT_ROOT)/agents/webclaw/references/mediclaw")
     DATA_PATH = WEBCLAW_PATH
 
     @classmethod

@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-MODELS_DIR = Path("C:/Users/greg/dev/clawpack_v2/models")
+MODELS_DIR = Path("str(PROJECT_ROOT)/models")
 
 # Keywords that suggest we should use obliterated models
 OBLITERATED_KEYWORDS = [

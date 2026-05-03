@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from shared.base_agent import BaseAgent
 
-MODELS_FILE = Path("C:/Users/greg/dev/clawpack_v2/models/working_llms.json")
+MODELS_FILE = Path("str(PROJECT_ROOT)/models/working_llms.json")
 
 class LiberateClawAgent(BaseAgent):
     def __init__(self):

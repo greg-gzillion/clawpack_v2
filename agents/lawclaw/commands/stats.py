@@ -6,7 +6,7 @@ from pathlib import Path
 name = "/stats"
 
 def run(args):
-    LEGAL_REFS = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/lawclaw")
+    LEGAL_REFS = Path("str(PROJECT_ROOT)/agents/webclaw/references/lawclaw")
     
     output = []
     output.append("\n" + "="*50)

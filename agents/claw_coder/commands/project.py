@@ -11,7 +11,7 @@ def run(args):
     from pathlib import Path
     from agent_handler import _agent
 
-    PROJECT_ROOT = Path("C:/Users/greg/dev/clawpack_v2")
+    PROJECT_ROOT = Path("str(PROJECT_ROOT)")
     EXPORTS = PROJECT_ROOT / "exports" / name
 
     prompt = f"""Create a complete {lang} project using {framework}.

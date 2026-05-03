@@ -8,7 +8,7 @@ def run(args):
         return "??? Usage: /browse [state code] (e.g., TX, CA, NY)"
     
     state = args.strip().upper()
-    LEGAL_REFS = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/lawclaw")
+    LEGAL_REFS = Path("str(PROJECT_ROOT)/agents/webclaw/references/lawclaw")
     state_path = LEGAL_REFS / "jurisdictions" / state
     
     if not state_path.exists():

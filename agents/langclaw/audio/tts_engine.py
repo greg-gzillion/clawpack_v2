@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 class TTSEngine:
     def __init__(self):
-        self.cache_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/langclaw/tts_cache")
+        self.cache_dir = Path("str(PROJECT_ROOT)/agents/langclaw/tts_cache")
         self.cache_dir.mkdir(exist_ok=True)
         self.voices = {
             "es": "es-ES-Standard-A",

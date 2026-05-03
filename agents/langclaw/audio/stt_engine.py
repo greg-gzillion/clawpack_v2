@@ -100,7 +100,7 @@ class STTEngine:
             import wave
             import json
             
-            model_path = Path("C:/Users/greg/dev/clawpack_v2/agents/langclaw/models/vosk-model-small-en-us-0.15")
+            model_path = Path("str(PROJECT_ROOT)/agents/langclaw/models/vosk-model-small-en-us-0.15")
             
             if not model_path.exists():
                 print("   ⚠️ Vosk model not found")

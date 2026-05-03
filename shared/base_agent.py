@@ -44,8 +44,8 @@ class BaseAgent:
             try:
                 data = json.loads(self.memory_file.read_text())
                 return data.get("agent_states", {}).get(self.name, {})
-            except:
-                pass
+            except Exception as e:
+                self._log_error("memory_load", str(e))
         return {"interactions": 0, "successful": 0}
 
     def _save_state(self):
@@ -53,8 +53,8 @@ class BaseAgent:
         if self.memory_file.exists():
             try:
                 data = json.loads(self.memory_file.read_text())
-            except:
-                pass
+            except Exception as e:
+                self._log_error("memory_init", str(e))
         if "agent_states" not in data:
             data["agent_states"] = {}
         data["agent_states"][self.name] = self.state
@@ -83,7 +83,8 @@ class BaseAgent:
         try:
             from agents.dataclaw.modules.search.local_search import search_local
             return search_local(query)
-        except:
+        except Exception as e:
+            self._log_error("local_search", str(e))
             return ""
 
     # ---- LLMClaw via A2A ----
@@ -100,8 +101,8 @@ class BaseAgent:
                         result = r2.json().get("result", "")
                         if result and len(result) > 20:
                             return "[Shared Knowledge]\n" + result
-        except:
-            pass
+        except Exception as e:
+            self._log_error("shared_knowledge", str(e))
         return ""
 
     def call_agent(self, agent_name: str, task: str, timeout: int = 120) -> str:
@@ -114,8 +115,8 @@ class BaseAgent:
             )
             if r.status_code == 200:
                 return r.json().get('result', '')
-        except:
-            pass
+        except Exception as e:
+            self._log_error("http_request", str(e))
         return ''
 
     def _gather_all_context(self, query=""):
@@ -195,8 +196,8 @@ class BaseAgent:
             )
             if r.status_code == 200:
                 return r.json().get("result", "")
-        except:
-            pass
+        except Exception as e:
+            self._log_error("llmclaw_call", str(e))
         return "LLMClaw unavailable"
 
     def ask_llm_smart(self, prompt: str, task_type: str = None, agent_name: str = None) -> str:
@@ -248,8 +249,8 @@ class BaseAgent:
                         lines.append(ctx)
                 if lines:
                     context = "\n---\n".join(lines)
-        except:
-            pass
+        except Exception as e:
+            self._log_error("context_extract", str(e))
 
         full_prompt = prompt
         if context:
@@ -273,8 +274,8 @@ class BaseAgent:
                 if route_hint:
                     result = f"{result}\n\n{route_hint}"
                 return result
-        except:
-            pass
+        except Exception as e:
+            self._log_error("llm_route", str(e))
         return "LLMClaw unavailable"
 
     # ---- Chronicle ----
@@ -284,11 +285,13 @@ class BaseAgent:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
             return chronicle.recover_by_context(query, limit, source_filter=self.name)
-        except:
+        except Exception as e:
+            self._log_error("chronicle_recover", str(e))
             # Fallback if source_filter not supported yet
             try:
                 return chronicle.recover_by_context(query, limit)
-            except:
+            except Exception as e:
+                self._log_error("chronicle_recover_fallback", str(e))
                 return []
 
     def record_in_chronicle(self, url: str, context: str, source: str = None) -> None:
@@ -297,8 +300,8 @@ class BaseAgent:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
             chronicle.record_fetch(url=url, context=context, source=source or self.name)
-        except:
-            pass
+        except Exception as e:
+            self._log_error("chronicle_record", str(e))
 
     # ---- Memory ----
     def learn_fact(self, fact: str):

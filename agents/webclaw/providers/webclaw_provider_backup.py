@@ -11,7 +11,7 @@ class WebclawProvider:
     """Fast search across 300+ reference files using bitmap pre-filters"""
 
     def __init__(self):
-        self.references_path = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references")
+        self.references_path = Path("str(PROJECT_ROOT)/agents/webclaw/references")
         self.index = BitmapIndex("webclaw_references")
         # Check if index already exists on disk
         self._indexed = self.index._built

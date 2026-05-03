@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 
 name = "/llm"
-MODELS_DIR = Path("C:/Users/greg/dev/clawpack_v2/models")
+MODELS_DIR = Path("str(PROJECT_ROOT)/models")
 
 def run(prompt):
     if not prompt:
@@ -75,7 +75,7 @@ def _ask_openrouter(prompt, model):
     return f"OpenRouter error: {response.status_code}"
 
 def _load_key(key_name):
-    env_path = Path("C:/Users/greg/dev/clawpack_v2/.env")
+    env_path = Path("str(PROJECT_ROOT)/.env")
     if env_path.exists():
         with open(env_path) as f:
             for line in f:

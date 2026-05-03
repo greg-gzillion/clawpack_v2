@@ -3,7 +3,7 @@
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).parent.parent.parent
-WEBCLAW_PATH = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/langclaw/languages")
+WEBCLAW_PATH = Path("str(PROJECT_ROOT)/agents/webclaw/references/langclaw/languages")
 
 # Language code mappings
 LANGUAGE_NAMES = {

@@ -7,7 +7,7 @@ from audio.tts.player import AudioPlayer
 
 class TTSEngine:
     def __init__(self):
-        self.cache_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/langclaw/tts_cache")
+        self.cache_dir = Path("str(PROJECT_ROOT)/agents/langclaw/tts_cache")
         self.google = GoogleTTSProvider(self.cache_dir)
         self.system = SystemTTSProvider()
         self.player = AudioPlayer()

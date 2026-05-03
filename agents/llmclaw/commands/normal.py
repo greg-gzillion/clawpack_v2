@@ -5,7 +5,7 @@ def run(args):
     import json
     from pathlib import Path
     
-    models_dir = Path("C:/Users/greg/dev/clawpack_v2/models")
+    models_dir = Path("str(PROJECT_ROOT)/models")
     registry = json.load(open(models_dir / "stock/ollama_registry.json"))
     
     output = ["\n📁 NORMAL MODELS (Ollama)\n" + "="*50]

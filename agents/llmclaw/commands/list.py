@@ -6,7 +6,7 @@ def run(args):
     import json
     from pathlib import Path
     
-    models_dir = Path("C:/Users/greg/dev/clawpack_v2/models")
+    models_dir = Path("str(PROJECT_ROOT)/models")
     config = json.load(open(models_dir / "active_model.json"))
     
     lines = []

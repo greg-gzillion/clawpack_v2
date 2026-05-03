@@ -15,7 +15,7 @@ class TXClawA2AHandler(BaseAgent):
     def __init__(self):
         super().__init__('txclaw')
         self.session = {"queries": []}
-        self.refs_dir = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/txclaw")
+        self.refs_dir = Path("str(PROJECT_ROOT)/agents/webclaw/references/txclaw")
         self._load_references()
 
     def _load_references(self):

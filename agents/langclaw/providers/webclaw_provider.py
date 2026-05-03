@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 class WebclawLangProvider:
     def __init__(self):
-        self.refs_path = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/langclaw")
+        self.refs_path = Path("str(PROJECT_ROOT)/agents/webclaw/references/langclaw")
         self.timeout = 10
         self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
     

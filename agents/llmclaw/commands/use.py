@@ -9,7 +9,7 @@ def run(args):
     if not args:
         return "Usage: /use <model_name>"
 
-    models_dir = Path("C:/Users/greg/dev/clawpack_v2/models")
+    models_dir = Path("str(PROJECT_ROOT)/models")
     config = json.load(open(models_dir / "active_model.json"))
     providers = config.get("providers", {})
 

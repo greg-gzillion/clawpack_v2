@@ -18,7 +18,7 @@ class WebclawAgent(BaseAgent):
         super().__init__("Webclaw", project_root)
         
         # Load all references
-        references_path = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references")
+        references_path = Path("str(PROJECT_ROOT)/agents/webclaw/references")
         self.load_references(references_path)
     
     def _register_tools(self):

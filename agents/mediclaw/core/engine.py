@@ -57,7 +57,7 @@ class MedicalEngine:
         )
 
     def list_sources(self) -> list:
-        path = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/mediclaw")
+        path = Path("str(PROJECT_ROOT)/agents/webclaw/references/mediclaw")
         if path.exists():
             return sorted([d.name for d in path.iterdir() if d.is_dir()])
         return []

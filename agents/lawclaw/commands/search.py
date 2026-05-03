@@ -7,7 +7,7 @@ def run(args):
     if not args:
         return "?? Usage: /search [case name, citation, or keyword]"
     
-    LEGAL_REFS = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/lawclaw")
+    LEGAL_REFS = Path("str(PROJECT_ROOT)/agents/webclaw/references/lawclaw")
     
     output = []
     output.append(f"\n?? SEARCHING: {args}")

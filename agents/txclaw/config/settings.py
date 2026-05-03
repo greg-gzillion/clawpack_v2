@@ -5,7 +5,7 @@ import os
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 ENV_PATH = ROOT_DIR / ".env"
-WEBCLAW_PATH = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/txclaw")
+WEBCLAW_PATH = Path("str(PROJECT_ROOT)/agents/webclaw/references/txclaw")
 
 # API configuration
 DEFAULT_MODEL = "openrouter/gpt-3.5-turbo"

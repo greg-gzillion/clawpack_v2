@@ -14,7 +14,7 @@ class designclawCore:
     
     def __init__(self):
         self.llm = LLMManager()
-        self.exports_dir = Path("C:/Users/greg/dev/clawpack_v2/exports/designclaw")
+        self.exports_dir = Path("str(PROJECT_ROOT)/exports/designclaw")
         self.exports_dir.mkdir(parents=True, exist_ok=True)
     
     def process(self, query: str) -> str:

@@ -11,7 +11,7 @@ def run(args):
     target = parts[1] if len(parts) > 1 else ""
 
     # Use absolute path to project root
-    PROJECT_ROOT = Path("C:/Users/greg/dev/clawpack_v2")
+    PROJECT_ROOT = Path("str(PROJECT_ROOT)")
     EXPORTS = PROJECT_ROOT / "exports"
 
     if not target:

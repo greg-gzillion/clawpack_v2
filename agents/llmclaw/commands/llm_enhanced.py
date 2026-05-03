@@ -4,7 +4,7 @@ import requests
 import os
 from pathlib import Path
 
-MODELS_DIR = Path("C:/Users/greg/dev/clawpack_v2/models")
+MODELS_DIR = Path("str(PROJECT_ROOT)/models")
 
 def run(prompt):
     """Try multiple providers in priority order"""
@@ -125,7 +125,7 @@ def _ask_anthropic(prompt, model, timeout):
     return None
 
 def _load_key(key_name):
-    env_path = Path("C:/Users/greg/dev/clawpack_v2/.env")
+    env_path = Path("str(PROJECT_ROOT)/.env")
     if env_path.exists():
         with open(env_path) as f:
             for line in f:

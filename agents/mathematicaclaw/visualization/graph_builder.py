@@ -1,3 +1,5 @@
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 """Build and display various types of graphs"""
 import matplotlib
 matplotlib.use("Agg")
@@ -24,7 +26,7 @@ class GraphBuilder:
             ax.set_title(f'Polar Plot: r = {expression}')
             ax.grid(True)
             
-            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
+            path = "str(PROJECT_ROOT)/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
@@ -48,7 +50,7 @@ class GraphBuilder:
             plt.grid(True, alpha=0.3)
             plt.axis('equal')
             
-            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
+            path = "str(PROJECT_ROOT)/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
@@ -76,7 +78,7 @@ class GraphBuilder:
             plt.title(f'Contour Plot: {expression}')
             plt.grid(True, alpha=0.3)
             
-            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
+            path = "str(PROJECT_ROOT)/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)
@@ -95,7 +97,7 @@ class GraphBuilder:
             plt.title(title)
             plt.grid(True, alpha=0.3)
             
-            path = "C:/Users/greg/dev/clawpack_v2/exports/temp_plot.png"
+            path = "str(PROJECT_ROOT)/exports/temp_plot.png"
             plt.savefig(path, dpi=150, bbox_inches="tight")
             plt.close()
             os.startfile(path)

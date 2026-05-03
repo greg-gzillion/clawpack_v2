@@ -9,7 +9,7 @@ class WebclawProvider:
     def __init__(self):
         self.cache_dir = Path(__file__).parent.parent / "cache"
         self.db_path = self.cache_dir / "web_cache.db"
-        self.references_path = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references")
+        self.references_path = Path("str(PROJECT_ROOT)/agents/webclaw/references")
     
     def search(self, query: str, max_results: int = 20) -> str:
         """Search the SQLite index for matching terms"""
