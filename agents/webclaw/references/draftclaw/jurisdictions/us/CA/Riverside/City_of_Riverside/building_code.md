@@ -6,5 +6,4 @@
 ## County: Riverside County
 ## State Code: CBC 2022 (Title 24)
 ## Frost: 0 in | Snow: 0 psf | Wind: 110 mph | Seismic: SDC D
-## Notes: Inland Empire. CBC 2022.
 ## State: CA Building Standards: https://www.dgs.ca.gov/BSC

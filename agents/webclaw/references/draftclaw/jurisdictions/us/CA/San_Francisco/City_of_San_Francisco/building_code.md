@@ -6,5 +6,4 @@
 ## County: San Francisco County
 ## State Code: CBC 2022 (Title 24)
 ## Frost: 0 in | Snow: 0 psf | Wind: 105 mph | Seismic: SDC E
-## Notes: City-County consolidated. Soft-story retrofit. CBC 2022.
 ## State: CA Building Standards: https://www.dgs.ca.gov/BSC

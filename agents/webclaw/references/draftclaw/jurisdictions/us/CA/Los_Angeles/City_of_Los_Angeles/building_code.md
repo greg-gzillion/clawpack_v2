@@ -6,5 +6,4 @@
 ## County: Los Angeles County
 ## State Code: CBC 2022 (Title 24)
 ## Frost: 0 in | Snow: 0 psf | Wind: 100 mph | Seismic: SDC D
-## Notes: Largest city in CA. CBC 2022 (Title 24).
 ## State: CA Building Standards: https://www.dgs.ca.gov/BSC
