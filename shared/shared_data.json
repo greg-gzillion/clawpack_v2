@@ -16,7 +16,7 @@
     "result": "# Rust Constitution? \ud83e\udd80\n\nI think there might be some confusion here! In Rust, there's no concept called a \"constitution.\"\n\nDid you mean one of these?\n\n## 1. **Struct Constitution/Layout**\nHow structs are organized in memory:\n```rust\n#[repr(C)]\nstruct Data {\n    a: u32,\n    b: u8,\n    c: u64,\n}\n```\n\n## 2. **Trait Bounds/Constraints**\nDefining what types must satisfy:\n```rust\nfn print_it<T: std::fmt::Debug>(val: T) {\n    println!(\"{:?}\", val);\n}\n```\n\n## 3. **Generic Constraints**\n```rust\nstruct Con"
   },
   "dataclaw_latest": {
-    "query": "warehouse 100x200 with loading docks denver colorado",
+    "query": "warehouse 100x200 denver colorado",
     "results_count": 0
   },
   "designclaw_latest": {
@@ -32,7 +32,7 @@
     "confidence": 0.5
   },
   "draftclaw_latest": {
-    "command": "/permit",
-    "query": "warehouse 100x200 with loading docks denver colorado"
+    "command": "/structural",
+    "query": "warehouse 100x200 miami florida"
   }
 }
