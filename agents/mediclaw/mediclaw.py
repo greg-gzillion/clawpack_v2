@@ -8,7 +8,7 @@ try:
     import sys
     from pathlib import Path
     sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-    from agents.shared.a2a_client import A2AClient
+    from shared.a2a_client import A2AClient
     a2a_client = A2AClient()
 except Exception as e:
     a2a_client = None

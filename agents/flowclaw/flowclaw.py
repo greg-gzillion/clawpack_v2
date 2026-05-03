@@ -301,7 +301,7 @@ if __name__ == "__main__":
 
     def smart_view(self, description):
         """Use smart routing for diagram generation"""
-        from agents.shared.router import smart_router
+        from shared.smart_router import smart_router
         result = smart_router.route(description)
         if result.tier.value < 3:
             print(f"🎯 Fast path: {result.handler}")
