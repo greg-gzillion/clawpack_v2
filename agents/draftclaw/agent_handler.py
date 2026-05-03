@@ -28,7 +28,7 @@ class DraftClawAgent(BaseAgent):
         fn.write_text(content, encoding="utf-8")
         return f"Saved: {fn.name}"
 
-﻿    def _resolve_jurisdiction(self, query):
+    def _resolve_jurisdiction(self, query):
         """Extract jurisdiction from query and look up design criteria.
         ALL criteria MUST come from webclaw/references/draftclaw/jurisdictions/us/
         No hardcoded fallback values permitted."""
