@@ -1,32 +1,23 @@
-# Mobile County Building Codes - Alabama
-## AHJ: Mobile County Building Inspection
-## Phone: (251) 574-3505 | URL: https://www.mobilecountyal.gov/
+# Mobile Building Codes - Alabama
+## AHJ: City of Mobile Building Dept
+## Address: 205 Government St, Mobile, AL 36602
+## Phone: (251) 208-7000
+## URL: https://www.cityofmobile.org/
 
-## State Codes (Alabama Building Commission)
-| Code | Edition |
-|------|---------|
-| Building | IBC 2015 |
-| Residential | IRC 2015 |
-| Electrical | NEC 2014 |
-| Plumbing | IPC 2015 |
-| Mechanical | IMC 2015 |
-| Fire | IFC 2015 |
-| Energy | IECC 2015 |
+## Jurisdiction
+- **County:** Mobile County
+- **State Code:** IBC 2015 (Alabama Building Code)
 
-## Design Criteria (Verify Locally)
-| Item | North AL | Central AL | South AL |
-|------|----------|-----------|----------|
-| Frost Depth | 12 in | 8 in | 4 in |
-| Snow Load | 5 psf | 5 psf | 5 psf |
-| Wind Speed | 115 mph | 120 mph | 130 mph |
-| Seismic | SDC A-B | SDC A | SDC A |
+## Design Criteria
+| Item | Value |
+|------|-------|
+| Frost Depth | 4 in |
+| Ground Snow Load | 5 psf |
+| Wind Speed | 130 mph |
+| Seismic Design | SDC A |
 
-## Local Authority
-Mobile County Building Inspection
-Phone: (251) 574-3505
-URL: https://www.mobilecountyal.gov/
-Notes: Coastal county. Hurricane wind zone. Mobile Bay area.
+## Notes
+Gulf Coast. Hurricane wind zone. IBC 2015.
 
 ## State Resources
-Alabama Building Commission: https://www.building.alabama.gov/
-Alabama Dept of Revenue: https://revenue.alabama.gov/
+- AL Building Commission: https://www.building.alabama.gov/

@@ -1,32 +1,23 @@
-# Madison County Building Codes - Alabama
-## AHJ: Madison County Building Department
-## Phone: (256) 532-3690 | URL: https://www.madisoncountyal.gov/
+# Madison Building Codes - Alabama
+## AHJ: City of Madison Building Dept
+## Address: 100 Hughes Rd, Madison, AL 35758
+## Phone: (256) 772-5600
+## URL: https://www.madisonal.gov/
 
-## State Codes (Alabama Building Commission)
-| Code | Edition |
-|------|---------|
-| Building | IBC 2015 |
-| Residential | IRC 2015 |
-| Electrical | NEC 2014 |
-| Plumbing | IPC 2015 |
-| Mechanical | IMC 2015 |
-| Fire | IFC 2015 |
-| Energy | IECC 2015 |
+## Jurisdiction
+- **County:** Madison County
+- **State Code:** IBC 2015 (Alabama Building Code)
 
-## Design Criteria (Verify Locally)
-| Item | North AL | Central AL | South AL |
-|------|----------|-----------|----------|
-| Frost Depth | 12 in | 8 in | 4 in |
-| Snow Load | 5 psf | 5 psf | 5 psf |
-| Wind Speed | 115 mph | 120 mph | 130 mph |
-| Seismic | SDC A-B | SDC A | SDC A |
+## Design Criteria
+| Item | Value |
+|------|-------|
+| Frost Depth | 12 in |
+| Ground Snow Load | 5 psf |
+| Wind Speed | 115 mph |
+| Seismic Design | SDC A |
 
-## Local Authority
-Madison County Building Department
-Phone: (256) 532-3690
-URL: https://www.madisoncountyal.gov/
-Notes: Huntsville area. Fastest growing county in AL.
+## Notes
+Huntsville metro. Fast growing. IBC 2015.
 
 ## State Resources
-Alabama Building Commission: https://www.building.alabama.gov/
-Alabama Dept of Revenue: https://revenue.alabama.gov/
+- AL Building Commission: https://www.building.alabama.gov/

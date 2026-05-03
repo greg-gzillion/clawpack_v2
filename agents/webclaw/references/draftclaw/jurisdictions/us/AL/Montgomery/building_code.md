@@ -1,32 +1,23 @@
-# Montgomery County Building Codes - Alabama
-## AHJ: City of Montgomery Building Department
-## Phone: (334) 625-2175 | URL: https://www.montgomeryal.gov/
+# Montgomery Building Codes - Alabama
+## AHJ: City of Montgomery Building Dept
+## Address: 103 N Perry St, Montgomery, AL 36104
+## Phone: (334) 625-2175
+## URL: https://www.montgomeryal.gov/
 
-## State Codes (Alabama Building Commission)
-| Code | Edition |
-|------|---------|
-| Building | IBC 2015 |
-| Residential | IRC 2015 |
-| Electrical | NEC 2014 |
-| Plumbing | IPC 2015 |
-| Mechanical | IMC 2015 |
-| Fire | IFC 2015 |
-| Energy | IECC 2015 |
+## Jurisdiction
+- **County:** Montgomery County
+- **State Code:** IBC 2015 (Alabama Building Code)
 
-## Design Criteria (Verify Locally)
-| Item | North AL | Central AL | South AL |
-|------|----------|-----------|----------|
-| Frost Depth | 12 in | 8 in | 4 in |
-| Snow Load | 5 psf | 5 psf | 5 psf |
-| Wind Speed | 115 mph | 120 mph | 130 mph |
-| Seismic | SDC A-B | SDC A | SDC A |
+## Design Criteria
+| Item | Value |
+|------|-------|
+| Frost Depth | 8 in |
+| Ground Snow Load | 5 psf |
+| Wind Speed | 120 mph |
+| Seismic Design | SDC A |
 
-## Local Authority
-City of Montgomery Building Department
-Phone: (334) 625-2175
-URL: https://www.montgomeryal.gov/
-Notes: State capital. City handles permits.
+## Notes
+State capital. IBC 2015.
 
 ## State Resources
-Alabama Building Commission: https://www.building.alabama.gov/
-Alabama Dept of Revenue: https://revenue.alabama.gov/
+- AL Building Commission: https://www.building.alabama.gov/

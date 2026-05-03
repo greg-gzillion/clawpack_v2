@@ -22,6 +22,115 @@ OCCUPANCY_CLASSES = {
 }
 
 
+
+# City-to-County mapping for major US cities
+CITY_TO_COUNTY = {
+    "phoenix": "maricopa",
+    "chicago": "cook",
+    "new york": "new york",
+    "los angeles": "los angeles",
+    "houston": "harris",
+    "dallas": "dallas",
+    "san antonio": "bexar",
+    "san diego": "san diego",
+    "austin": "travis",
+    "san jose": "santa clara",
+    "fort worth": "tarrant",
+    "jacksonville": "duval",
+    "columbus": "franklin",
+    "charlotte": "mecklenburg",
+    "indianapolis": "marion",
+    "san francisco": "san francisco",
+    "seattle": "king",
+    "boston": "suffolk",
+    "nashville": "davidson",
+    "portland": "multnomah",
+    "oklahoma city": "oklahoma",
+    "las vegas": "clark",
+    "baltimore": "baltimore city",
+    "louisville": "jefferson",
+    "milwaukee": "milwaukee",
+    "albuquerque": "bernalillo",
+    "tucson": "pima",
+    "fresno": "fresno",
+    "sacramento": "sacramento",
+    "mesa": "maricopa",
+    "atlanta": "fulton",
+    "omaha": "douglas",
+    "colorado springs": "el paso",
+    "raleigh": "wake",
+    "long beach": "los angeles",
+    "virginia beach": "virginia beach",
+    "detroit": "wayne",
+    "memphis": "shelby",
+    "washington dc": "district of columbia",
+    "orlando": "orange",
+    "tampa": "hillsborough",
+    "cleveland": "cuyahoga",
+    "pittsburgh": "allegheny",
+    "cincinnati": "hamilton",
+    "anchorage": "anchorage",
+    "honolulu": "honolulu",
+    "boise": "ada",
+    "des moines": "polk",
+    "wichita": "sedgwick",
+    "fort lauderdale": "broward",
+    "st petersburg": "pinellas",
+    "lubbock": "lubbock",
+    "el paso": "el paso",
+    "reno": "washoe",
+    "spokane": "spokane",
+}
+
+CITY_TO_COUNTY = {
+    "albuquerque": "bernalillo",
+    "anchorage": "anchorage",
+    "atlanta": "fulton",
+    "austin": "travis",
+    "baltimore": "baltimore",
+    "boise": "ada",
+    "boston": "suffolk",
+    "charlotte": "mecklenburg",
+    "chicago": "cook",
+    "cincinnati": "hamilton",
+    "cleveland": "cuyahoga",
+    "colorado springs": "el paso",
+    "columbus": "franklin",
+    "dallas": "dallas",
+    "detroit": "wayne",
+    "el paso": "el paso",
+    "fort worth": "tarrant",
+    "fresno": "fresno",
+    "honolulu": "honolulu",
+    "houston": "harris",
+    "indianapolis": "marion",
+    "jacksonville": "duval",
+    "las vegas": "clark",
+    "long beach": "los angeles",
+    "louisville": "jefferson",
+    "lubbock": "lubbock",
+    "memphis": "shelby",
+    "mesa": "maricopa",
+    "milwaukee": "milwaukee",
+    "nashville": "davidson",
+    "oklahoma city": "oklahoma",
+    "omaha": "douglas",
+    "orlando": "orange",
+    "phoenix": "maricopa",
+    "pittsburgh": "allegheny",
+    "portland": "multnomah",
+    "raleigh": "wake",
+    "reno": "washoe",
+    "sacramento": "sacramento",
+    "san antonio": "bexar",
+    "seattle": "king",
+    "spokane": "spokane",
+    "tampa": "hillsborough",
+    "tucson": "pima",
+    "virginia beach": "virginia beach",
+    "washington dc": "district of columbia",
+}
+
 def lookup_jurisdiction(query: str) -> List[Dict]:
     """Search for a jurisdiction by county or city name. Returns list of matching dicts with content and confidence."""
     query_lower = query.lower().strip()
@@ -34,7 +143,11 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
                     if bc_file.exists():
                         county_name = county_dir.name.replace('_', ' ').lower()
                         state_abbr = state_dir.name.upper()
-                        if query_lower in county_name or query_lower in f'{county_name} {state_abbr.lower()}':
+                        # Check county name, or city-to-county mapping
+            mapped_county = CITY_TO_COUNTY.get(query_lower, '')
+            if (query_lower in county_name or 
+                query_lower in f'{county_name} {state_abbr.lower()}' or
+                (mapped_county and mapped_county in county_name)):
                             content = bc_file.read_text(encoding='utf-8')
                             results.append({
                                 'jurisdiction': f'{county_dir.name.replace("_", " ")}, {state_abbr}',

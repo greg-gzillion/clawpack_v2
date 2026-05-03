@@ -29,63 +29,53 @@ class DraftClawAgent(BaseAgent):
         return f"Saved: {fn.name}"
 
     def _resolve_jurisdiction(self, query):
-        """Extract jurisdiction from query and look up design criteria.
-        Tries full name match, then individual words, then falls back to defaults."""
-        # Try to find jurisdiction name in query
+        """Extract jurisdiction from query and look up design criteria."""
+        from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact
+        
+        # Try patterns: "in X", "for X", "at X", or last 2-3 words as jurisdiction
         jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
         jur_names = []
         if jur_match:
             full = jur_match.group(1).strip().rstrip(",").strip()
-            jur_names = [full] + full.split()
+            # Try full name, then individual words, then pairs
+            words = full.split()
+            jur_names = [full] + words + [' '.join(words[i:i+2]) for i in range(len(words)-1)]
         else:
-            # Try extracting last words as potential jurisdiction
-            words = query.split()
-            jur_names = [' '.join(words[-3:]), ' '.join(words[-2:]), words[-1]] if len(words) > 1 else [query]
+            # No preposition - try last 2-3 words as jurisdiction
+            words = query.lower().split()
+            # Remove common structural terms
+            skip = {'warehouse','building','structural','permit','commercial','retail','industrial','office'}
+            words = [w for w in words if w not in skip]
+            if len(words) >= 2:
+                jur_names = [' '.join(words[-3:]), ' '.join(words[-2:]), words[-1]]
         
-        # Try each candidate name
-        best_result = None
-        best_confidence = -1
+        # Try each candidate, prioritizing higher confidence
+        best = None
         for name in jur_names:
-            if len(name) < 3:
-                continue
+            if len(name) < 3: continue
             results = lookup_jurisdiction(name)
             if results:
-                jur = results[0]
-                if jur['confidence'] > best_confidence:
-                    best_confidence = jur['confidence']
-                    best_result = jur
+                for jur in results:
+                    if best is None or jur['confidence'] > best['confidence']:
+                        best = jur
         
-        if best_result:
-            criteria = extract_design_criteria(best_result['content'])
-            contact = extract_contact(best_result['content'])
+        if best:
+            criteria = extract_design_criteria(best['content'])
+            contact = extract_contact(best['content'])
             return {
-                'name': best_result['jurisdiction'],
-                'confidence': best_result['confidence'],
+                'name': best['jurisdiction'],
+                'confidence': best['confidence'],
                 'criteria': criteria,
                 'contact': contact
             }
         
-        # Fallback: try the raw query itself
-        results = lookup_jurisdiction(query)
-        if results:
-            jur = results[0]
-            criteria = extract_design_criteria(jur['content'])
-            contact = extract_contact(jur['content'])
-            return {
-                'name': jur['jurisdiction'],
-                'confidence': jur['confidence'],
-                'criteria': criteria,
-                'contact': contact
-            }
-        
-        # Absolute fallback: default values
+        # Absolute fallback
         return {
             'name': 'default (verify with AHJ)',
             'confidence': 0,
             'criteria': {'frost_depth': '36 in', 'snow_load': '30 psf', 'wind_speed': '115 mph', 'seismic': 'SDC B'},
             'contact': {}
         }
-
     def _geo_text(self, jur_data):
         """Build jurisdiction-specific design assumptions text from looked-up data."""
         c = jur_data['criteria']
