@@ -70,7 +70,27 @@ AGENT_REGISTRY: Dict[str, Dict] = {
         "domain": "Data Processing & Analysis",
         "icon": "📊",
         "capabilities": ["process_data", "analyze_dataset", "search_data", "index_data", "export_data"],
+    }
+
+    "draftclaw": {
+        "domain": "Technical Drawing, Permit Review & Jurisdiction Intelligence",
+        "icon": "📐",
+        "capabilities": [
+            "jurisdiction_lookup",
+            "permit_review",
+            "commercial_plan_check",
+            "occupancy_classification",
+            "ahj_contact_resolution",
+            "design_criteria_extraction",
+            "code_compliance_check",
+            "audit_jurisdictions",
+            "score_confidence",
+        ],
+        "templates": {
+            "docuclaw": ["proposal", "letter", "permit_packet"],
+        },
     },
+,
     "txclaw": {
         "domain": "Transaction & Deployment",
         "icon": "💎",
