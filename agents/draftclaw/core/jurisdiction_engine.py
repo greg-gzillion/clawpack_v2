@@ -9,6 +9,21 @@ from typing import Dict, List
 
 JURISDICTION_BASE = Path(r'C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\draftclaw\jurisdictions\us')
 
+STATE_NAMES = {
+    'alabama': 'AL', 'alaska': 'AK', 'arizona': 'AZ', 'arkansas': 'AR', 'california': 'CA',
+    'colorado': 'CO', 'connecticut': 'CT', 'delaware': 'DE', 'florida': 'FL', 'georgia': 'GA',
+    'hawaii': 'HI', 'idaho': 'ID', 'illinois': 'IL', 'indiana': 'IN', 'iowa': 'IA',
+    'kansas': 'KS', 'kentucky': 'KY', 'louisiana': 'LA', 'maine': 'ME', 'maryland': 'MD',
+    'massachusetts': 'MA', 'michigan': 'MI', 'minnesota': 'MN', 'mississippi': 'MS', 'missouri': 'MO',
+    'montana': 'MT', 'nebraska': 'NE', 'nevada': 'NV', 'new hampshire': 'NH', 'new jersey': 'NJ',
+    'new mexico': 'NM', 'new york': 'NY', 'north carolina': 'NC', 'north dakota': 'ND', 'ohio': 'OH',
+    'oklahoma': 'OK', 'oregon': 'OR', 'pennsylvania': 'PA', 'rhode island': 'RI',
+    'south carolina': 'SC', 'south dakota': 'SD', 'tennessee': 'TN', 'texas': 'TX',
+    'utah': 'UT', 'vermont': 'VT', 'virginia': 'VA', 'washington': 'WA', 'west virginia': 'WV',
+    'wisconsin': 'WI', 'wyoming': 'WY', 'district of columbia': 'DC', 'dc': 'DC',
+    'puerto rico': 'PR', 'guam': 'GU', 'virgin islands': 'VI', 'american samoa': 'AS',
+}
+
 OCCUPANCY_CLASSES = {
     'assembly': {'group': 'A', 'subtypes': ['A-1', 'A-2', 'A-3', 'A-4', 'A-5'], 'desc': 'Assembly', 'triggers': ['theater', 'church', 'restaurant', 'bar', 'stadium', 'arena', 'auditorium', 'gym', 'banquet', 'nightclub', 'conference']},
     'business': {'group': 'B', 'subtypes': ['B'], 'desc': 'Business', 'triggers': ['office', 'bank', 'clinic', 'professional', 'medical office', 'courthouse', 'town hall']},
@@ -29,6 +44,18 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
     City-level files contain the actual design criteria (frost, snow, wind, seismic)."""
     query_lower = query.lower().strip()
     results = []
+
+    # Also search for individual words and state name resolution
+    query_words = query_lower.split()
+    # Resolve state names to abbreviations
+    resolved_states = []
+    for word in query_words:
+        if word in STATE_NAMES:
+            resolved_states.append(STATE_NAMES[word].lower())
+    # Also check multi-word state names
+    for state_name, abbr in STATE_NAMES.items():
+        if state_name in query_lower:
+            resolved_states.append(abbr.lower())
     
     for state_dir in sorted(JURISDICTION_BASE.iterdir()):
         if not state_dir.is_dir() or len(state_dir.name) != 2 or not state_dir.name.isalpha():
@@ -47,7 +74,14 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
                 city_bc = city_dir / 'building_code.md'
                 if city_bc.exists():
                     city_name = city_dir.name.replace('_', ' ').lower()
-                    if query_lower in city_name or query_lower in f'{city_name} {state_abbr.lower()}':
+                    # Match: full query in city name, or any query word in city name
+                    city_match = query_lower in city_name
+                    if not city_match:
+                        for qw in query_words:
+                            if qw in city_name and len(qw) >= 3:
+                                city_match = True
+                                break
+                    if city_match:
                         content = city_bc.read_text(encoding='utf-8')
                         results.append({
                             'jurisdiction': f'{city_dir.name.replace("_", " ")}, {state_abbr}',
