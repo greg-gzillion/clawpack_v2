@@ -33,7 +33,11 @@ class A2AClient:
                 method="POST",
             )
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+                data = resp.read().decode("utf-8")
+                try:
+                    return json.loads(data)
+                except json.JSONDecodeError:
+                    return {"status": "error", "result": f"Invalid JSON from A2A server: {data[:200]}"}
         except urllib.error.URLError as e:
             return {"status": "error", "result": f"A2A server unreachable: {e.reason}"}
         except Exception as e:
@@ -47,7 +51,11 @@ class A2AClient:
                 headers={"User-Agent": "ClawPack-A2A-Client/1.0"},
             )
             with urllib.request.urlopen(req, timeout=5) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+                data = resp.read().decode("utf-8")
+                try:
+                    return json.loads(data)
+                except json.JSONDecodeError:
+                    return {"status": "error", "result": f"Invalid JSON from A2A server: {data[:200]}"}
         except Exception as e:
             return {"status": "unhealthy", "error": str(e)}
 
@@ -59,7 +67,11 @@ class A2AClient:
                 headers={"User-Agent": "ClawPack-A2A-Client/1.0"},
             )
             with urllib.request.urlopen(req, timeout=5) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+                data = resp.read().decode("utf-8")
+                try:
+                    return json.loads(data)
+                except json.JSONDecodeError:
+                    return {"status": "error", "result": f"Invalid JSON from A2A server: {data[:200]}"}
         except Exception as e:
             return {"status": "error", "result": str(e)}
 

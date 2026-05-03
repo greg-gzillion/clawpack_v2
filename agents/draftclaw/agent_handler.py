@@ -10,7 +10,7 @@ sys.path.insert(0, str(DRAFTCLAW_DIR))
 
 from shared.base_agent import BaseAgent
 from references import search_references
-from core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact, classify_occupancy
+from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact, classify_occupancy
 
 class DraftClawAgent(BaseAgent):
     def __init__(self):
@@ -29,12 +29,24 @@ class DraftClawAgent(BaseAgent):
         return f"Saved: {fn.name}"
 
     def _resolve_jurisdiction(self, query):
-        """Extract jurisdiction from query and look up design criteria."""
+        """Extract jurisdiction from query and look up design criteria.
+        Tries full name match, then individual words, then falls back to defaults."""
         # Try to find jurisdiction name in query
         jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
+        jur_names = []
         if jur_match:
-            jur_name = jur_match.group(1).strip().rstrip(",").strip()
-            results = lookup_jurisdiction(jur_name)
+            full = jur_match.group(1).strip().rstrip(",").strip()
+            jur_names = [full] + full.split()
+        else:
+            # Try extracting last words as potential jurisdiction
+            words = query.split()
+            jur_names = [' '.join(words[-3:]), ' '.join(words[-2:]), words[-1]] if len(words) > 1 else [query]
+        
+        # Try each candidate name
+        for name in jur_names:
+            if len(name) < 3:
+                continue
+            results = lookup_jurisdiction(name)
             if results:
                 jur = results[0]
                 criteria = extract_design_criteria(jur['content'])
@@ -45,7 +57,21 @@ class DraftClawAgent(BaseAgent):
                     'criteria': criteria,
                     'contact': contact
                 }
-        # Fallback: default values
+        
+        # Fallback: try the raw query itself
+        results = lookup_jurisdiction(query)
+        if results:
+            jur = results[0]
+            criteria = extract_design_criteria(jur['content'])
+            contact = extract_contact(jur['content'])
+            return {
+                'name': jur['jurisdiction'],
+                'confidence': jur['confidence'],
+                'criteria': criteria,
+                'contact': contact
+            }
+        
+        # Absolute fallback: default values
         return {
             'name': 'default (verify with AHJ)',
             'confidence': 0,
