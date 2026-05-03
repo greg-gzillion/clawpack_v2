@@ -5,7 +5,7 @@ import re
 import json
 from pathlib import Path
 from typing import Dict, List, Optional
-from review_agent_v2 import lookup_jurisdiction, classify_occupancy
+from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, classify_occupancy, extract_design_criteria, extract_contact
 
 # Commercial structure type thresholds and requirements
 COMMERCIAL_STRUCTURE_TYPES = {
