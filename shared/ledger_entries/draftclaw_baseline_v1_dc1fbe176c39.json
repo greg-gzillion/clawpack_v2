@@ -1,0 +1,54 @@
+{
+  "event": "draftclaw_jurisdiction_baseline_v1",
+  "event_type": "constitutional_baseline",
+  "agent": "draftclaw",
+  "scope": "50 states, 3,143 counties, 3,190 total directories",
+  "components": {
+    "jurisdiction_database": {
+      "path": "agents/webclaw/references/draftclaw/jurisdictions/us/",
+      "files": 3143,
+      "coverage": "98%"
+    },
+    "audit_engine": {
+      "path": "agents/draftclaw/core/audit_jurisdictions.py",
+      "status": "operational",
+      "last_run": "2026-05-03T07:04:06.748154+00:00"
+    },
+    "confidence_scoring": {
+      "path": "agents/draftclaw/core/score_jurisdictions.py",
+      "high_confidence": 310,
+      "medium_confidence": 2441,
+      "low_confidence": 392
+    },
+    "review_engine": {
+      "path": "agents/draftclaw/review_agent.py",
+      "v2_path": "agents/draftclaw/review_agent_v2.py",
+      "commercial_path": "agents/draftclaw/review_commercial.py"
+    },
+    "jurisdiction_engine": {
+      "path": "agents/draftclaw/core/jurisdiction_engine.py",
+      "exports": [
+        "lookup_jurisdiction",
+        "classify_occupancy",
+        "extract_design_criteria",
+        "extract_contact"
+      ]
+    }
+  },
+  "constitutional_status": "registered",
+  "registry_entry": "shared/registry.py",
+  "capabilities_registered": 9,
+  "git_tag": "draftclaw-jurisdiction-v1",
+  "timestamp": "2026-05-03T07:04:06.748154+00:00",
+  "constitutional_rules_satisfied": [
+    "Rule 2",
+    "Rule 4",
+    "Rule 7",
+    "Rule 8"
+  ],
+  "constitutional_rules_pending": [
+    "Rule 3 (Chronicle)",
+    "Rule 6 (Full Ledger)"
+  ],
+  "ledger_hash": "dc1fbe176c399722935aad0d4754a10841c6a0c0de1eff18a18c63b2c5f20672"
+}
