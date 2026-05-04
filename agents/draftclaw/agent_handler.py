@@ -16,6 +16,23 @@ class DraftClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("draftclaw")
 
+
+    def _filter_fake_engineering(self, text):
+        """Replace inference-tier structural values with DESIGN REQUIRED placeholders."""
+        import re
+        patterns = [
+            (r'(\d{1,2})"?\s*[xX]\s*(\d{1,2})"?\s*(?:column|beam|footing|member|base\s*plate|rafter)', r'[DESIGN REQUIRED]'),
+            (r'W(\d{1,2})[xX](\d{2,3})', r'[DESIGN REQUIRED - W-section]'),
+            (r'(\d{2,4})\s*kip[sS]?[-\s]*(?:ft|feet)?', r'[DESIGN REQUIRED - load]'),
+            (r'(\d{3,5})\s*psf', r'[DESIGN REQUIRED - capacity]'),
+            (r'#\s*(\d{1,2})\s*(?:rebar|bar|@)', r'[DESIGN REQUIRED - rebar]'),
+            (r'(\d{1,2})"?\s*(?:thick|slab|concrete)', r'[DESIGN REQUIRED - thickness]'),
+        ]
+        for pattern, replacement in patterns:
+            text = re.sub(r'(?<!DESIGN REQUIRED - )' + pattern, replacement, text, flags=re.IGNORECASE)
+        return text
+
+
     def _fileclaw_export(self, fmt, content):
         try:
             safe = content.replace(chr(10), '\\n').replace('"', '\\"')
@@ -172,6 +189,14 @@ class DraftClawAgent(BaseAgent):
             if cmd in ("/permit","/compliance") and query:
                 jur_data = self._resolve_jurisdiction(query)
                 
+                # REFUSE if jurisdiction unresolved
+                if jur_data.get("name") == "UNRESOLVED" or jur_data.get("error"):
+                    result = "**ERROR: Jurisdiction not found.**\n\n"
+                    result += "No building code reference matched your query.\n"
+                    result += "Try: /lookup CITY STATE to find a jurisdiction.\n\n"
+                    result += f"Query: {query}\n"
+                    return {"status":"error","result":result}
+                
                 code_refs = {
                     "default": "IBC 2021, IRC 2021, NEC 2023",
                     "california": "CBC 2022 (Title 24), CRC 2022, CEC 2022",
@@ -188,10 +213,11 @@ class DraftClawAgent(BaseAgent):
                 prompt = f"Generate a permit application compliance package for: {query}\n\nInclude:\n1. Jurisdiction: {jur_data['name']}\n2. Applicable Codes: {codes}\n3. Occupancy classification per IBC Chapter 3\n4. Construction type per IBC Chapter 6\n5. Fire separation requirements per IBC Chapter 7\n6. Egress calculations per IBC Chapter 10\n7. Accessibility requirements per ADA 2010\n8. Permit submission checklist\n9. Required stamped drawings list\n10. AHJ review notes\n\nCite specific code sections."
                 if refs: prompt = f"Reference codes:\n{refs[:3000]}\n\n{prompt}"
                 
-                result = self.ask_llm(prompt)
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
                 result += f"\n\n---\n## Permit Package Control\n| Field | Value |\n|-------|-------|\n| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |\n| **Jurisdiction** | {jur_data['name']} |\n| **Governing Codes** | {codes} |\n| **Agent** | DraftClaw v5 Constitutional |\n| **Disclaimer** | For preliminary submittal only. Verify with local AHJ. Requires PE/SE stamp. |\n\n*NOT FOR CONSTRUCTION*"
 
             elif cmd in ("/structural","/engineering") and query:
+                jur_data = self._resolve_jurisdiction(query)
                 
                 # REFUSE if jurisdiction unresolved
                 if jur_data.get("name") == "UNRESOLVED" or jur_data.get("error"):
@@ -199,9 +225,8 @@ class DraftClawAgent(BaseAgent):
                     result += "No building code reference matched your query.\n"
                     result += "Try: /lookup CITY STATE to find a jurisdiction.\n\n"
                     result += f"Query: {query}\n"
-                    return result
+                    return {"status":"error","result":result}
                 
-                jur_data = self._resolve_jurisdiction(query)
                 c = jur_data['criteria']
                 nl = chr(10)
                 
@@ -209,13 +234,13 @@ class DraftClawAgent(BaseAgent):
                 
                 if refs: prompt = f"Reference codes:{nl}{refs[:3000]}{nl}{nl}{prompt}"
                 
-                result = self.ask_llm(prompt)
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
                 result += f"{nl}{nl}---{nl}## Structural Package Control{nl}| Field | Value |{nl}|-------|-------|{nl}| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |{nl}| **Jurisdiction** | {jur_data['name']} |{nl}| **Design Criteria** | Frost: {c.get('frost_depth','N/A')} | Snow: {c.get('snow_load','N/A')} | Wind: {c.get('wind_speed','N/A')} | Seismic: {c.get('seismic','N/A')} |{nl}| **WARNING** | REQUIRES PE/SE STAMP PRIOR TO CONSTRUCTION |{nl}{nl}*NOT FOR CONSTRUCTION*"
 
             elif cmd in ("/blueprint","/floorplan") and query:
                 prompt = f"Generate detailed architectural blueprint specifications with dimensions, room layouts, wall placements, door/window locations, and structural notes.\n\nProject: {query}"
                 if refs: prompt = f"Reference material:\n{refs[:3000]}\n\n{prompt}"
-                result = self.ask_llm(prompt)
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
                 try:
                     from agents.draftclaw.commands.blueprint import run
                     pil_result = run(query)
@@ -227,17 +252,17 @@ class DraftClawAgent(BaseAgent):
             elif cmd in ("/cad","/schematic") and query:
                 prompt = f"Generate a technical schematic with precise measurements, component layout, and connection points. Format as ASCII art diagram.\n\nSpecs: {query}"
                 if refs: prompt = f"Reference material:\n{refs[:2000]}\n\n{prompt}"
-                result = self.ask_llm(prompt)
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
 
             elif cmd in ("/circuit","/wiring") and query:
                 prompt = f"Create a circuit/wiring diagram with components labeled, connections shown, and specifications listed. Use ASCII art.\n\nDesign: {query}"
                 if refs: prompt = f"Reference material:\n{refs[:2000]}\n\n{prompt}"
-                result = self.ask_llm(prompt)
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
 
             elif cmd in ("/specs","/specifications") and query:
                 prompt = f"Generate detailed technical specifications with dimensions, materials, tolerances, and assembly notes.\n\nProject: {query}"
                 if refs: prompt = f"Reference material:\n{refs[:2000]}\n\n{prompt}"
-                result = self.ask_llm(prompt)
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
 
             elif cmd=="/export" and args:
                 parts2 = args.split(maxsplit=1)

@@ -25,7 +25,7 @@
       "interactions": 31
     },
     "draftclaw": {
-      "interactions": 64
+      "interactions": 75
     },
     "plotclaw": {
       "interactions": 50
@@ -37,7 +37,7 @@
       "interactions": 111
     },
     "dataclaw": {
-      "interactions": 65
+      "interactions": 77
     },
     "drawclaw": {
       "interactions": 33
@@ -55,7 +55,7 @@
       "interactions": 4
     },
     "llmclaw": {
-      "interactions": 128
+      "interactions": 136
     },
     "mathematicaclaw": {
       "interactions": 16

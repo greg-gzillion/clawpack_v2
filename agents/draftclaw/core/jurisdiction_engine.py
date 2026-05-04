@@ -77,6 +77,11 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
                     # Match: full query in city name, or any query word in city name
                     city_match = query_lower in city_name
                     if not city_match:
+                        for word in query_lower.split():
+                            if len(word) >= 3 and word in city_name:
+                                city_match = True
+                                break
+                    if not city_match:
                         for qw in query_words:
                             if qw in city_name and len(qw) >= 3:
                                 city_match = True
