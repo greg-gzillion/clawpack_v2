@@ -123,7 +123,7 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
         
         # Boost: exact city name match
         if city_name == query_upper or query_lower == city_name.lower():
-            r['confidence'] = r.get('confidence', 50) + 15
+            r['confidence'] = r.get('confidence', 50) + 50
         
         # Boost: state abbreviation matches query
         if query_state and query_state in jur:
