@@ -113,7 +113,7 @@ def run(args):
         
         # Draw based on building type
         if building_type == 'warehouse':
-            _draw_warehouse(draw, bx, by, px_l, px_w, width_ft, length_ft, features, font_label, font_small)
+            _draw_warehouse(draw, bx, by, px_l, px_w, width_ft, length_ft, features, font_label, font_small, scale)
         elif building_type == 'office':
             _draw_office(draw, bx, by, px_l, px_w, font_label, font_small)
         else:
@@ -164,7 +164,7 @@ def run(args):
     except Exception as e:
         return f"Error: {e}"
 
-def _draw_warehouse(draw, bx, by, px_l, px_w, w_ft, l_ft, features, font_label, font_small):
+def _draw_warehouse(draw, bx, by, px_l, px_w, w_ft, l_ft, features, font_label, font_small, scale):
     """Draw warehouse layout with column grid, loading docks, and optional office"""
     # Column grid
     cols_x = max(3, l_ft // 25)
