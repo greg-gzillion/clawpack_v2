@@ -102,3 +102,20 @@ No agent may speak to a model directly.
 All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
 
 MIT License · greg-gzillion
+
+## 📊 Data Licensing Notice (Effective May 4, 2026)
+
+All jurisdictional data, court records, building codes, and design resources
+in this repository are licensed under **CC BY 4.0**.
+See [LICENSE-DATA](LICENSE-DATA) for full terms.
+
+Clones prior to v3.1.0-data-license were under MIT only.
+Current and future use requires attribution.
+
+Suggested attribution:
+Data sourced from Clawpack V2 Jurisdictional Dataset
+(github.com/greg-gzillion/clawpack_v2), used under CC BY 4.0.
+
+text
+
+DOI: 10.5281/zenodo.19713157 (latest version via Zenodo)
