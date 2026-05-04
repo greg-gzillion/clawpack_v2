@@ -74,6 +74,36 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         
         # Data API
+        if path == "/v1/data/version":
+            self._send_json({
+                "dataset": "Clawpack V2 Jurisdictional Dataset",
+                "version": "3.1.0",
+                "license": "CC BY 4.0",
+                "doi": "10.5281/zenodo.19713157",
+                "coverage": "50 states + DC + territories + tribal nations",
+                "total_entries": 4744,
+                "categories": ["building_codes", "courts", "design_resources"]
+            })
+            return
+        
+        if path.startswith("/v1/data/"):
+            # Log data API access
+            import datetime
+            log_entry = {
+                "timestamp": datetime.datetime.now().isoformat(),
+                "endpoint": path,
+                "ip": self.client_address[0],
+                "user_agent": self.headers.get("User-Agent", "unknown")
+            }
+            try:
+                import json as json_module
+                log_file = PROJECT_ROOT / "data" / "api_access.log"
+                log_file.parent.mkdir(exist_ok=True)
+                with open(log_file, "a", encoding="utf-8") as lf:
+                    lf.write(json_module.dumps(log_entry) + "\n")
+            except:
+                pass
+        
         if path.startswith("/v1/data/building-codes"):
             qs = urlparse(self.path).query
             params = dict(p.split("=") for p in qs.split("&") if "=" in p) if qs else {}
