@@ -17,6 +17,12 @@ class DraftClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("draftclaw")
 
+    def _log_error(self, context, error):
+        """Safe error logger."""
+        try:
+            print(f"[draftclaw] {context}: {error}", flush=True)
+        except:
+            pass
 
     def _filter_fake_engineering(self, text):
         """Replace inference-tier structural values with DESIGN REQUIRED placeholders."""

@@ -104,6 +104,41 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
     except Exception:
         return _filesystem_lookup(query)
     
+    # Smart ranking:
+    # 1. Exact city name match beats partial match
+    # 2. Query contains state abbreviation -> boost matching state
+    # 3. Higher confidence first
+    query_upper = query_lower.upper()
+    
+    # Extract state from query
+    query_state = None
+    for word in query_upper.split():
+        if word in STATE_NAMES.values():
+            query_state = word
+            break
+    
+    for r in results:
+        jur = r.get('jurisdiction', '')
+        city_name = jur.split(',')[0].strip().upper() if ',' in jur else ''
+        
+        # Boost: exact city name match
+        if city_name == query_upper or query_lower == city_name.lower():
+            r['confidence'] = r.get('confidence', 50) + 15
+        
+        # Boost: state abbreviation matches query
+        if query_state and query_state in jur:
+            r['confidence'] = r.get('confidence', 50) + 25
+    
+    # Sort: city source first, then by confidence descending
+    results.sort(key=lambda r: (
+        0 if r.get('source') == 'city' else 1,
+        -(r.get('confidence', 0))
+    ))
+    
+    # Clamp confidence to 100
+    for r in results:
+        r['confidence'] = min(100, r['confidence'])
+    
     return results
 
 
