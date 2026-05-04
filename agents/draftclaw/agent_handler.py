@@ -117,7 +117,8 @@ class DraftClawAgent(BaseAgent):
         if jur_data['contact'].get('phone'):
             lines.append(f"- **AHJ Phone:** {jur_data['contact']['phone']}")
         if jur_data['contact'].get('url'):
-            lines.append(f"- **AHJ URL:** {jur_data['contact']['url']}")
+            ahj_url = jur_data['contact']['url']
+            lines.append(f"- **AHJ URL:** [{ahj_url}]({ahj_url})")
         return nl + nl + nl.join(lines) + nl
 
     def handle(self, task):
@@ -173,11 +174,23 @@ class DraftClawAgent(BaseAgent):
                     jur = results[0]
                     criteria = extract_design_criteria(jur['content'])
                     contact = extract_contact(jur['content'])
+                    ahj_name = contact.get('ahj', 'Verify with AHJ')
+                    ahj_phone = contact.get('phone', 'N/A')
+                    ahj_url = contact.get('url', '')
+                    ahj_addr = contact.get('address', '')
+                    url_link = f'[{ahj_url}]({ahj_url})' if ahj_url else 'N/A'
                     lines = [
                         f"## Jurisdiction: {jur['jurisdiction']}",
                         f"**Confidence:** {jur['confidence']}%",
-                        f"**Design Criteria:** {json.dumps(criteria, indent=2)}",
-                        f"**AHJ Contact:** {json.dumps(contact, indent=2)}",
+                        f"**AHJ:** {ahj_name}",
+                        f"**Phone:** {ahj_phone}",
+                        f"**URL:** {url_link}",
+                        f"**Address:** {ahj_addr}",
+                        f"**Design Criteria:**",
+                        f"- Frost Depth: {criteria.get('frost_depth', 'N/A')}",
+                        f"- Snow Load: {criteria.get('snow_load', 'N/A')}",
+                        f"- Wind Speed: {criteria.get('wind_speed', 'N/A')}",
+                        f"- Seismic: {criteria.get('seismic', 'N/A')}",
                     ]
                     result = chr(10).join(lines)
                 else:

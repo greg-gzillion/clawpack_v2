@@ -1,7 +1,7 @@
 {
   "agent_states": {
     "fileclaw": {
-      "interactions": 146
+      "interactions": 145
     },
     "mediclaw": {
       "interactions": 29
@@ -25,7 +25,7 @@
       "interactions": 31
     },
     "draftclaw": {
-      "interactions": 76
+      "interactions": 74
     },
     "plotclaw": {
       "interactions": 50
@@ -37,7 +37,7 @@
       "interactions": 111
     },
     "dataclaw": {
-      "interactions": 76
+      "interactions": 71
     },
     "drawclaw": {
       "interactions": 33
@@ -55,7 +55,7 @@
       "interactions": 4
     },
     "llmclaw": {
-      "interactions": 136
+      "interactions": 131
     },
     "mathematicaclaw": {
       "interactions": 16
