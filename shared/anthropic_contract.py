@@ -3,8 +3,8 @@ from typing import TypedDict, Literal, List, Optional
 
 class DesignCriterion(TypedDict, total=False):
     value: Optional[str]
-    source: Literal["chronicle", "web_verified"]
-    status: Literal["VERIFIED", "DESIGN_REQUIRED", "UNKNOWN"]
+    source: Optional[Literal["chronicle", "web_verified"]]  # Only these two are constitutionally valid. null = inference.
+    status: Literal["VERIFIED", "DESIGN_REQUIRED", "UNKNOWN", "INFERRED"]
 
 class JurisdictionInput(TypedDict):
     name: str

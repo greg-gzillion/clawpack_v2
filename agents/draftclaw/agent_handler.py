@@ -141,15 +141,25 @@ class DraftClawAgent(BaseAgent):
         }
 
     def _build_structural_payload(self, jur_data, query):
-        """Build constitutional structured payload for LLM."""
+        """Build constitutional structured payload with governance logic."""
         c = jur_data.get('criteria', {})
+        
+        # Derive governing load from chronicle criteria
+        governance = self._derive_governance(c)
+        
         return {
-            "task": "Generate structural engineering CONCEPTUAL PACKAGE",
-            "project": query,
-            "jurisdiction": {
-                "name": jur_data.get('name', 'UNKNOWN'),
-                "source": jur_data.get('source', 'chronicle'),
-                "confidence": jur_data.get('confidence', 0),
+            "meta": {
+                "agent": "draftclaw",
+                "version": "5.0",
+                "truth_tier": "chronicle",
+                "status": "CONCEPTUAL — NOT FOR CONSTRUCTION"
+            },
+            "inputs": {
+                "project": {"value": query, "source": "user_input", "status": "VERIFIED"},
+                "jurisdiction": {
+                    "name": {"value": jur_data.get('name', 'UNKNOWN'), "source": "chronicle", "status": "VERIFIED"},
+                    "confidence": {"value": str(jur_data.get('confidence', 0)) + "%", "source": "chronicle", "status": "VERIFIED"}
+                },
                 "design_criteria": {
                     "frost_depth": {"value": c.get('frost_depth'), "source": "chronicle", "status": "VERIFIED"},
                     "snow_load": {"value": c.get('snow_load'), "source": "chronicle", "status": "VERIFIED"},
@@ -157,19 +167,62 @@ class DraftClawAgent(BaseAgent):
                     "seismic": {"value": c.get('seismic'), "source": "chronicle", "status": "VERIFIED"}
                 },
                 "ahj": {
-                    "name": jur_data.get('contact', {}).get('ahj'),
-                    "phone": jur_data.get('contact', {}).get('phone'),
-                    "url": jur_data.get('contact', {}).get('url')
+                    "name": {"value": jur_data.get('contact', {}).get('ahj'), "source": "chronicle", "status": "VERIFIED"},
+                    "phone": {"value": jur_data.get('contact', {}).get('phone'), "source": "chronicle", "status": "VERIFIED"},
+                    "url": {"value": jur_data.get('contact', {}).get('url'), "source": "chronicle", "status": "VERIFIED"}
                 }
             },
+            "derived": {
+                "design_governance": governance
+            },
+            "design": {
+                "structural_system": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
+                "foundation": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
+                "lateral_system": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
+                "roof_framing": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
+                "slab": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
+                "connections": {"value": None, "source": None, "status": "DESIGN_REQUIRED"}
+            },
+            "warnings": [
+                "Geotechnical report required for foundation design",
+                "Structural member sizing requires engineering analysis",
+                "Wind load calculations not yet performed — delegate to Mathematicaclaw",
+                "This is a CONCEPTUAL package — NOT FOR CONSTRUCTION"
+            ],
             "rules": [
-                "You are a structural engineering ORCHESTRATOR, not a designer",
-                "NEVER output numerical values for: dimensions, sizes, thicknesses, loads, capacities, spacings, or material specs",
-                "If a value is not in the VERIFIED design criteria above, output null",
-                "Every output field must be an object with: value (null or string), source (string), status (VERIFIED or DESIGN_REQUIRED)",
-                "Return ONLY valid JSON — no markdown, no narrative, no code blocks, no backticks"
+                "Only chronicle and web_verified are valid sources",
+                "All other values must have source: null and status: DESIGN_REQUIRED or INFERRED",
+                "Never fabricate numerical values",
+                "Return ONLY valid JSON — no markdown, no narrative, no code blocks"
             ]
         }
+
+    def _derive_governance(self, criteria):
+        """Derive governing load and delegation from chronicle criteria."""
+        governance = {"status": "INFERRED", "source": "derived_from_chronicle"}
+        
+        wind_str = criteria.get('wind_speed', '0 mph')
+        try:
+            wind_speed = int(wind_str.split()[0])
+        except:
+            wind_speed = 0
+        
+        if wind_speed >= 170:
+            governance["governing_load"] = {"value": "wind", "reason": f"{wind_speed} mph exceeds 170 mph threshold — lateral system critical"}
+            governance["recommended_system"] = {"value": "Lateral force-resisting system required (braced frame or moment frame)"}
+            governance["delegations"] = [
+                {"target": "mathematicaclaw", "task": "MWFRS wind load calculations per ASCE 7 Ch 27"},
+                {"target": "flowclaw", "task": "Lateral load path diagram"}
+            ]
+        elif wind_speed >= 140:
+            governance["governing_load"] = {"value": "wind", "reason": f"{wind_speed} mph — wind likely governs"}
+            governance["delegations"] = [
+                {"target": "mathematicaclaw", "task": "Wind load calculations per ASCE 7"}
+            ]
+        else:
+            governance["governing_load"] = {"value": "gravity/wind", "reason": "Wind speed below 140 mph — gravity may govern"}
+        
+        return governance
 
     def _geo_text(self, jur_data):
         """Build jurisdiction-specific design assumptions text from looked-up data."""
