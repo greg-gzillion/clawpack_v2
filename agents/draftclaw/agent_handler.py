@@ -254,8 +254,8 @@ class DraftClawAgent(BaseAgent):
                     db = sqlite3.connect(db_path)
                     pct = chr(37)
                     entry = db.execute(
-                        "SELECT id, context, update_count, original_hash FROM chronicle WHERE url LIKE ? AND json_extract(metadata, '$.level') = 'city'",
-                        (pct + jurisdiction_id + pct,)
+                        "SELECT id, context, update_count, original_hash FROM chronicle WHERE (url LIKE ? OR json_extract(metadata, '$.city') LIKE ?) AND json_extract(metadata, '$.level') = 'city'",
+                        (pct + jurisdiction_id + pct, pct + jurisdiction_id + pct)
                     ).fetchone()
                     
                     if not entry:
