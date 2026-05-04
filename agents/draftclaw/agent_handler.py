@@ -1,5 +1,5 @@
 """A2A Handler for DraftClaw v5 - Constitutional Technical Drawing Agent"""
-import sys, os, json, re, datetime
+import sys, os, json, re, datetime, webbrowser
 from pathlib import Path
 
 DRAFTCLAW_DIR = Path(__file__).resolve().parent
@@ -193,6 +193,12 @@ class DraftClawAgent(BaseAgent):
                         f"- Seismic: {criteria.get('seismic', 'N/A')}",
                     ]
                     result = chr(10).join(lines)
+                    # Auto-open AHJ website in browser
+                    if contact.get('url'):
+                        try:
+                            webbrowser.open(contact['url'])
+                        except:
+                            pass
                 else:
                     result = f"No jurisdiction found for: {query}"
                 return {"status":"success","result":result}
@@ -248,6 +254,12 @@ class DraftClawAgent(BaseAgent):
                 if refs: prompt = f"Reference codes:{nl}{refs[:3000]}{nl}{nl}{prompt}"
                 
                 result = self._filter_fake_engineering(self.ask_llm(prompt))
+                # Auto-open AHJ website if URL found
+                if jur_data.get('contact', {}).get('url'):
+                    try:
+                        webbrowser.open(jur_data['contact']['url'])
+                    except:
+                        pass
                 result += f"{nl}{nl}---{nl}## Structural Package Control{nl}| Field | Value |{nl}|-------|-------|{nl}| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |{nl}| **Jurisdiction** | {jur_data['name']} |{nl}| **Design Criteria** | Frost: {c.get('frost_depth','N/A')} | Snow: {c.get('snow_load','N/A')} | Wind: {c.get('wind_speed','N/A')} | Seismic: {c.get('seismic','N/A')} |{nl}| **WARNING** | REQUIRES PE/SE STAMP PRIOR TO CONSTRUCTION |{nl}{nl}*NOT FOR CONSTRUCTION*"
 
             elif cmd in ("/blueprint","/floorplan") and query:
