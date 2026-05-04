@@ -9,6 +9,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DRAFTCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared.truth_resolver import merge_with_retriever
 from references import search_references
 from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact, classify_occupancy
 
@@ -60,7 +61,8 @@ class DraftClawAgent(BaseAgent):
             safe = content.replace(chr(10), '\\n').replace('"', '\\"')
             result = self.call_agent("fileclaw", f"/export {fmt} {safe}", timeout=30)
             if result: return result
-        except: pass
+        except Exception as e:
+                    self.log(f"Silent exception caught: {e}")
         EXPORTS.mkdir(exist_ok=True)
         ts = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = EXPORTS / f"draftclaw_{ts}.{fmt}"
@@ -107,13 +109,20 @@ class DraftClawAgent(BaseAgent):
         if best:
             criteria = extract_design_criteria(best['content'])
             contact = extract_contact(best['content'])
-            return {
+            result = {
                 'name': best['jurisdiction'],
                 'confidence': best['confidence'],
                 'criteria': criteria,
                 'contact': contact,
                 'source': best.get('source', 'unknown')
             }
+            # Constitutional: run through truth resolver (Article V)
+            try:
+                from shared.truth_resolver import merge_with_retriever
+                result = merge_with_retriever(result, source='chronicle')
+            except:
+                pass
+            return result
 
         # NO FALLBACK - all criteria must come from webclaw/references/
         return {
@@ -313,7 +322,8 @@ class DraftClawAgent(BaseAgent):
                     if pil_result and "Error" not in str(pil_result):
                         export = self._fileclaw_export("png", str(pil_result))
                         result = f"{export}\n\n{result}"
-                except: pass
+                except Exception as e:
+                    result += f" [Blueprint visual: {str(e)[:80]}]"
 
             elif cmd in ("/cad","/schematic") and query:
                 prompt = f"Generate a technical schematic with precise measurements, component layout, and connection points. Format as ASCII art diagram.\n\nSpecs: {query}"
@@ -340,8 +350,14 @@ class DraftClawAgent(BaseAgent):
             else:
                 result = "Type /help for commands"
 
+            # Only persist command metadata, not LLM output (Article VI)
             from data_io import write_shared
-            write_shared("draftclaw_latest", {"command":cmd,"query":query})
+            write_shared("draftclaw_latest", {
+                "command": cmd,
+                "query": query,
+                "timestamp": datetime.datetime.now().isoformat(),
+                "source": "draftclaw"
+            })
 
             return {"status":"success","result":str(result)}
         except Exception as e:
