@@ -1,0 +1,24 @@
+# Morgan County Building Codes - Illinois
+## County Seat: Jacksonville
+## AHJ: Morgan Co Building Official
+## Address: 300 W State St,Jacksonville,IL 62650
+## Phone: (217)479-4610
+## URL: https://www.morgancountyil.gov/
+
+## Illinois State Building Code
+IBC 2018 + IL | IRC 2018 | NEC 2008 + IL | IPC 2018 | IMC 2018 | IFC 2018 | IECC 2018 + IL
+
+## Design Criteria (Verify with AHJ)
+Frost: 30-48 in | Snow: 15-35 psf | Wind: 115 mph | Seismic: SDC A-C | Climate: 4A-5A
+
+## Local Permit Authority
+**Morgan Co Building Official**
+Phone: (217)479-4610
+Address: 300 W State St,Jacksonville,IL 62650
+Website: https://www.morgancountyil.gov/
+
+## County Notes
+West IL.Illinois College.
+
+## State Resources
+IDFPR: (217) 782-8556 | https://www.idfpr.com/

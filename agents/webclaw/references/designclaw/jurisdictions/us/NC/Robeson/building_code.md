@@ -1,0 +1,13 @@
+# Robeson County - North Carolina
+## County Seat: Lumberton
+## Phone: (910)671-3000
+## URL: https://www.co.robeson.nc.us/ (verified)
+
+## NC Building Code
+IBC 2018+NC | IRC 2018+NC | NEC 2017+NC | IPC 2018+NC | IMC 2018 | IFC 2018+NC
+
+## Design Criteria
+Frost: 12-24 in | Snow: 5-35 psf (mtns) | Wind: 110-140 mph (coast) | Seismic: SDC A-C
+
+## State Resources
+NC OSFM: (919) 661-5880 | https://www.ncosfm.gov/
