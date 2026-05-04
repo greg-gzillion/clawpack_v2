@@ -211,8 +211,27 @@ class DraftClawAgent(BaseAgent):
             if cmd in ("/lookup","/jurisdiction") and query:
                 results = lookup_jurisdiction(query)
                 # Sort: city matches first, then by confidence
+                # Filter by state if query specifies one
+                import re
+                state_match = re.search(r'([A-Z]{2})', query.upper())
+                if state_match:
+                    st = state_match.group(1)
+                    results = [r for r in results if st in r.get('jurisdiction', '')]
+                
+                # Separate city and county results
                 city_results = [r for r in results if r.get('source') == 'city']
                 county_results = [r for r in results if r.get('source') != 'city']
+                
+                # Ambiguity check: multiple city exact matches with no state
+                exact_matches = [r for r in city_results if r.get('confidence', 0) >= 95]
+                if len(exact_matches) > 1 and not state_match:
+                    lines = ["## Multiple jurisdictions found:", ""]
+                    for i, m in enumerate(exact_matches[:5]):
+                        lines.append(f"{i+1}. {m['jurisdiction']} (confidence: {m['confidence']}%)")
+                    lines.append("")
+                    lines.append("Please specify state: /lookup city, ST")
+                    return {"status":"ambiguous","result": chr(10).join(lines)}
+                
                 results = city_results + county_results
                 if results:
                     jur = results[0]
