@@ -463,6 +463,16 @@ class DraftClawAgent(BaseAgent):
             elif cmd in ("/structural","/engineering") and query:
                 jur_data = self._resolve_jurisdiction(query)
                 
+                # Gather intelligent context from WebClaw
+                webclaw_context = ""
+                if jur_data.get('name') != 'UNRESOLVED':
+                    try:
+                        web = self.call_agent("webclaw", f"search building code requirements {jur_data['name']} {query}", timeout=8)
+                        if web:
+                            webclaw_context = str(web)[:2000]
+                    except:
+                        pass
+                
                 # REFUSE if jurisdiction unresolved
                 if jur_data.get("name") == "UNRESOLVED" or jur_data.get("error"):
                     result = "**ERROR: Jurisdiction not found.**\n\n"
@@ -475,6 +485,8 @@ class DraftClawAgent(BaseAgent):
                 nl = chr(10)
                 
                 payload = self._build_structural_payload(jur_data, query)
+                if webclaw_context:
+                    payload["references"] = {"source": "webclaw", "content": webclaw_context}
                 prompt = json.dumps(payload)
                 
                 if refs:
