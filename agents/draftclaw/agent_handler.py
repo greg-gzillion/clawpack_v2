@@ -222,11 +222,10 @@ class DraftClawAgent(BaseAgent):
                 city_results = [r for r in results if r.get('source') == 'city']
                 county_results = [r for r in results if r.get('source') != 'city']
                 
-                # Ambiguity check: multiple city exact matches with no state
-                exact_matches = [r for r in city_results if r.get('confidence', 0) >= 95]
-                if len(exact_matches) > 1 and not state_match:
+                # Ambiguity check: multiple city matches with no state
+                if len(city_results) > 1 and not state_match:
                     lines = ["## Multiple jurisdictions found:", ""]
-                    for i, m in enumerate(exact_matches[:5]):
+                    for i, m in enumerate(city_results[:5]):
                         lines.append(f"{i+1}. {m['jurisdiction']} (confidence: {m['confidence']}%)")
                     lines.append("")
                     lines.append("Please specify state: /lookup city, ST")
