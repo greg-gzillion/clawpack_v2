@@ -55,6 +55,24 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
             if state_name in query_lower and abbr.lower() not in search_terms:
                 search_terms.append(abbr.lower())
         
+        # FIRST: exact city name match
+        for term in search_terms:
+            rows = db.execute(
+                "SELECT url, context, metadata FROM chronicle WHERE json_extract(metadata, '$.level') = 'city' AND json_extract(metadata, '$.city') = ? LIMIT 5",
+                (term,)
+            ).fetchall()
+            for row in rows:
+                meta = json.loads(row['metadata']) if isinstance(row['metadata'], str) else row['metadata']
+                jur_name = meta.get('city', '') + ', ' + meta.get('state', '')
+                results.append({
+                    'jurisdiction': jur_name.strip(', '),
+                    'path': row['url'],
+                    'content': row['context'],
+                    'confidence': 100,
+                    'source': 'city'
+                })
+        
+        # SECOND: fuzzy LIKE search
         for term in search_terms:
             like_term = f'%{term}%'
             rows = db.execute(
