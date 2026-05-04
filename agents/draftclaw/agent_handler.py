@@ -44,6 +44,17 @@ class DraftClawAgent(BaseAgent):
                 pass
 
 
+
+    def _open_ahj_url(self, jur_data):
+        """Auto-open AHJ website if URL is available"""
+        url = jur_data.get('contact', {}).get('url')
+        if url:
+            try:
+                webbrowser.open(url)
+            except:
+                pass
+
+
     def _fileclaw_export(self, fmt, content):
         try:
             safe = content.replace(chr(10), '\\n').replace('"', '\\"')
