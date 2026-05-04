@@ -1,7 +1,7 @@
 {
   "usage": {
     "mathematicaclaw": 0.002,
-    "llmclaw": 0.09500000000000007
+    "llmclaw": 0.09600000000000007
   },
   "global_budget": 50.0,
   "agent_budgets": {
@@ -13,5 +13,5 @@
     "llmclaw": 25.0,
     "default": 5.0
   },
-  "updated_at": "2026-05-04T05:40:07.212310+00:00"
+  "updated_at": "2026-05-04T05:42:42.480105+00:00"
 }

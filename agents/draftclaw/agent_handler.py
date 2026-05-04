@@ -163,10 +163,11 @@ class DraftClawAgent(BaseAgent):
                 }
             },
             "rules": [
-                "DO NOT fabricate structural member sizes, dimensions, or capacities",
-                "Mark all engineering-dependent items as status: DESIGN_REQUIRED with value: null",
-                "Include source attribution for all design criteria values",
-                "Return ONLY valid JSON - no markdown, no narrative"
+                "You are a structural engineering ORCHESTRATOR, not a designer",
+                "NEVER output numerical values for: dimensions, sizes, thicknesses, loads, capacities, spacings, or material specs",
+                "If a value is not in the VERIFIED design criteria above, output null",
+                "Every output field must be an object with: value (null or string), source (string), status (VERIFIED or DESIGN_REQUIRED)",
+                "Return ONLY valid JSON — no markdown, no narrative, no code blocks, no backticks"
             ]
         }
 
