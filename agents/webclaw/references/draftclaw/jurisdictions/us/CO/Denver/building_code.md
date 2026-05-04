@@ -1,7 +1,7 @@
 ﻿# Denver Building Code
 ## Denver Community Planning and Development | City and County of Denver
 ## Address: 201 W. Colfax Ave., Dept 205, Denver, CO 80202
-## Phone: (720) 865-2710 | URL: https://www.denvergov.org/Home
+## Phone: (720) 865-2710 | URL: https://www.denvergov.org/Home/Home
 ## Code: 2022 Denver Building Code (IBC 2021 + Denver amendments)
 
 ## Denver-Specific Code Editions
@@ -37,7 +37,7 @@ Denver Community Planning and Development
 Wellington Webb Municipal Building
 201 W. Colfax Ave., Denver, CO 80202
 Phone: (720) 865-2710
-URL: https://www.denvergov.org/Home
+URL: https://www.denvergov.org/Home/Home
 
 ## State Resources
 - CO Division of Housing: https://cdola.colorado.gov/
