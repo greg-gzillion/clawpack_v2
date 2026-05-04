@@ -214,15 +214,6 @@ class DraftClawAgent(BaseAgent):
                 city_results = [r for r in results if r.get('source') == 'city']
                 county_results = [r for r in results if r.get('source') != 'city']
                 results = city_results + county_results
-                # Boost results matching state in query
-                import re
-                state_match = re.search(r'\b([A-Z]{2})\b', query.upper())
-                if state_match:
-                    st = state_match.group(1)
-                    for r in results:
-                        if st in r.get('jurisdiction', ''):
-                            r['confidence'] = r.get('confidence', 50) + 30
-                    results.sort(key=lambda r: -r.get('confidence', 0))
                 if results:
                     jur = results[0]
                     criteria = extract_design_criteria(jur['content'])
@@ -296,8 +287,8 @@ class DraftClawAgent(BaseAgent):
                         new_lines.append("## " + field + ": " + new_value)
                     new_context = chr(10).join(new_lines)
                     
-                    from datetime import datetime, timezone
-                    now = datetime.now(timezone.utc).isoformat()
+                    from datetime import datetime as dt_module, timezone
+                    now = dt_module.now(timezone.utc).isoformat()
                     update_count = (update_count or 0) + 1
                     
                     db.execute(
