@@ -207,31 +207,40 @@ class DraftClawAgent(BaseAgent):
                 else: result = f"Unknown: {target}"
                 return {"status":"success","result":str(result)}
 
-            # /lookup command - search jurisdiction database
+             # /lookup command - search jurisdiction database
             if cmd in ("/lookup","/jurisdiction") and query:
                 results = lookup_jurisdiction(query)
-                # Sort: city matches first, then by confidence
+                
                 # Filter by state if query specifies one
                 import re
-                state_match = re.search(r'([A-Z]{2})', query.upper())
+                state_match = re.search(r'(?<![A-Z])([A-Z]{2})(?![A-Z])', query.upper())
                 if state_match:
                     st = state_match.group(1)
                     results = [r for r in results if st in r.get('jurisdiction', '')]
                 
-                # Separate city and county results
                 city_results = [r for r in results if r.get('source') == 'city']
                 county_results = [r for r in results if r.get('source') != 'city']
                 
-                # Ambiguity check: multiple city matches with no state
-                if len(city_results) > 1 and not state_match:
+                # If state specified, take best city match immediately
+                if state_match and city_results:
+                    # Put matching city first
+                    city_part = query.lower().split(',')[0].strip()
+                    for i, r in enumerate(city_results):
+                        if city_part in r.get('jurisdiction', '').lower():
+                            city_results.insert(0, city_results.pop(i))
+                            break
+                    results = city_results[:1]
+                elif len(city_results) > 1 and not state_match:
+                    # Ambiguity: multiple cities, no state
                     lines = ["## Multiple jurisdictions found:", ""]
                     for i, m in enumerate(city_results[:5]):
                         lines.append(f"{i+1}. {m['jurisdiction']} (confidence: {m['confidence']}%)")
                     lines.append("")
-                    lines.append("Please specify state: /lookup city, ST")
+                    lines.append("Specify state: /lookup city, ST")
                     return {"status":"ambiguous","result": chr(10).join(lines)}
+                else:
+                    results = city_results + county_results
                 
-                results = city_results + county_results
                 if results:
                     jur = results[0]
                     criteria = extract_design_criteria(jur['content'])
