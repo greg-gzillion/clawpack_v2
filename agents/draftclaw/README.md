@@ -1,51 +1,40 @@
-# DraftClaw
+﻿# DraftClaw v5 — Constitutional Technical Drawing Agent
 
-Technical drawings, blueprints, CAD schematics, and circuit diagrams with PIL image generation.
+Jurisdiction-aware building permits, structural packages, and blueprints. 
+Powered by Chronicle database (4,744 jurisdiction entries across 50 states + territories).
 
 ## Commands
 
 | Command | Description |
 |---------|-------------|
-| `/blueprint <specs>` | Generate PIL blueprint image + auto-save PNG |
-| `/floorplan <rooms>` | Same as /blueprint |
-| `/cad <specs>` | Generate CAD/schematic with measurements (ASCII) |
-| `/schematic <specs>` | Same as /cad |
-| `/circuit <design>` | Circuit/wiring diagram with component specs |
-| `/wiring <design>` | Same as /circuit |
-| `/specs <project>` | Technical specifications with dimensions and tolerances |
-| `/export <fmt> <content>` | Export via FileClaw (21 formats) |
-| `/help` | Show commands |
-| `/stats` | Show statistics |
+| /lookup <city> | Search jurisdiction database, auto-open AHJ website |
+| /structural <project> <location> | Conceptual structural package with real design criteria |
+| /permit <project> <location> | Permit compliance package with jurisdiction codes |
+| /blueprint <specs> | Dynamic PIL blueprint image + auto-save PNG |
+| /correct <city> <field> <value> | Community edit (3 confirmations = consensus) |
+| /cad <specs> | CAD/schematic with measurements (ASCII) |
+| /circuit <design> | Circuit/wiring diagram with component specs |
+| /specs <project> | Technical specifications with dimensions |
+| /help | Show commands |
 
 ## Quick Start
-/blueprint apartment layout 30x40 with kitchen bedroom bathroom
-/cad mechanical gear assembly with 4 gears
-/circuit LED strip controller with Arduino
-/specs conference table with cable management
+
+/lookup phoenix
+/structural warehouse 100x200 with 30ft clear height miami florida
+/permit office building chicago
+/blueprint warehouse 100x200 with loading docks and office
+/correct Phoenix Phone (602) 555-1234
 
 text
 
-## Output
+## Features
 
-- **Blueprints**: PNG images generated with PIL, saved to `exports/`
-- **CAD Schematics**: ASCII diagrams with measurements, material specs, assembly notes
-- **Circuits**: ASCII diagrams with component specifications, current budgets, connection tables
-- **Specifications**: Professional-grade technical documents with tolerances, standards, assembly instructions
+- **Chronicle-powered**: All 4,744 jurisdiction entries indexed in SQLite with FTS
+- **Community editable**: /correct writes to chronicle, 3 confirmations = consensus
+- **Constitutional**: Truth resolver, memory guard, no silent exceptions
+- **Real design criteria**: Frost depth, snow load, wind speed, seismic from source data
+- **Conceptual only**: No fabricated engineering values — marked [DESIGN REQUIRED]
+- **Auto-browser**: Opens AHJ website on /lookup, /structural, /permit, /blueprint
 
-## File Structure
-agents/draftclaw/
-├── agent_handler.py # A2A handler
-├── commands/
-│ └── blueprint.py # PIL blueprint generation
-├── core/ # Core engine
-├── exports/ # Generated blueprints
-└── providers/ # External services
-
-text
-
-## A2A Integration
-
-```python
-self.call_agent("draftclaw", "/blueprint office floorplan 40x60")
-self.call_agent("draftclaw", "/cad mechanical gear assembly")
-self.call_agent("draftclaw", "/circuit Arduino LED controller")
+## Data Flow
+User Query → DraftClaw → Chronicle (SQLite) → Truth Resolver → LLM (Sovereign Gateway) → Output
