@@ -174,7 +174,7 @@ class DraftClawAgent(BaseAgent):
 
         try:
             if cmd in ("/help",):
-                result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /structural <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  /lookup <jurisdiction> - Search jurisdiction database\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
+                result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /structural <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  /lookup <jurisdiction> - Search jurisdiction database\n  /correct <id> <field> <value> - Community edit (3 confirmations = consensus)\n  /correct <id> <field> <value> - Community edit (3 confirmations = consensus)\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}
             if cmd in ("/stats",): return {"status":"success","result":f"DraftClaw v5 | Blueprints+CAD+Circuits | Interactions: {self.state.get('interactions',0)}"}
 
@@ -239,6 +239,124 @@ class DraftClawAgent(BaseAgent):
                             pass
                 else:
                     result = f"No jurisdiction found for: {query}"
+                return {"status":"success","result":result}
+
+            # /correct command - community editing of jurisdiction data
+            if cmd == "/correct" and args:
+                parts2 = args.split(maxsplit=2)
+                if len(parts2) >= 2:
+                    import sqlite3, hashlib
+                    jurisdiction_id = parts2[0]
+                    field = parts2[1]
+                    new_value = parts2[2] if len(parts2) > 2 else ""
+                    
+                    db_path = "C:/Users/greg/dev/clawpack_v2/data/chronicle.db"
+                    db = sqlite3.connect(db_path)
+                    entry = db.execute(
+                        "SELECT id, context, update_count, original_hash FROM chronicle WHERE url LIKE ? AND json_extract(metadata, '$.level') = 'city'",
+                        (chr(37) + jurisdiction_id + chr(37),)
+                    ).fetchone()
+                    
+                    if not entry:
+                        db.close()
+                        return {"status":"error","result":"Jurisdiction not found: " + jurisdiction_id + " - Use /lookup to find the correct ID."}
+                    
+                    entry_id, current_context, update_count, original_hash = entry
+                    
+                    if not original_hash:
+                        original_hash = hashlib.sha256(current_context.encode()).hexdigest()
+                    
+                    field_pattern = "## " + re.escape(field) + r":\s*[^
+]*"
+                    if re.search(field_pattern, current_context):
+                        new_context = re.sub(field_pattern, "## " + field + ": " + new_value, current_context)
+                    else:
+                        new_context = current_context + "\n## " + field + ": " + new_value
+                    
+                    from datetime import datetime, timezone
+                    now = datetime.now(timezone.utc).isoformat()
+                    update_count = (update_count or 0) + 1
+                    
+                    db.execute(
+                        "UPDATE chronicle SET context=?, update_count=?, updated_by='user', timestamp=?, original_hash=COALESCE(original_hash,?) WHERE id=?",
+                        (new_context, update_count, now, original_hash, entry_id)
+                    )
+                    db.execute(
+                        "UPDATE chronicle_fts SET context=? WHERE url=(SELECT url FROM chronicle WHERE id=?)",
+                        (new_context, entry_id)
+                    )
+                    db.commit()
+                    
+                    if update_count >= 3:
+                        db.execute("UPDATE chronicle SET verified_by='consensus', verified_at=? WHERE id=?", (now, entry_id))
+                        db.commit()
+                        consensus = " | Consensus reached"
+                    else:
+                        consensus = " | " + str(3 - update_count) + " more confirmations needed"
+                    
+                    db.close()
+                    result = "Updated: " + field + " = " + new_value + " - Jurisdiction: " + jurisdiction_id + " - Edit count: " + str(update_count) + consensus + " - Original preserved (hash: " + original_hash[:12] + "...)"
+                else:
+                    result = "Usage: /correct <jurisdiction_id> <field> <new_value>"
+                return {"status":"success","result":result}
+
+            # /correct command - community editing of jurisdiction data
+            if cmd == "/correct" and args:
+                parts2 = args.split(maxsplit=2)
+                if len(parts2) >= 2:
+                    import sqlite3, hashlib
+                    jurisdiction_id = parts2[0]
+                    field = parts2[1]
+                    new_value = parts2[2] if len(parts2) > 2 else ""
+                    
+                    db_path = "C:/Users/greg/dev/clawpack_v2/data/chronicle.db"
+                    db = sqlite3.connect(db_path)
+                    entry = db.execute(
+                        "SELECT id, context, update_count, original_hash FROM chronicle WHERE url LIKE ? AND json_extract(metadata, '$.level') = 'city'",
+                        (chr(37) + jurisdiction_id + chr(37),)
+                    ).fetchone()
+                    
+                    if not entry:
+                        db.close()
+                        return {"status":"error","result":"Jurisdiction not found: " + jurisdiction_id + " - Use /lookup to find the correct ID."}
+                    
+                    entry_id, current_context, update_count, original_hash = entry
+                    
+                    if not original_hash:
+                        original_hash = hashlib.sha256(current_context.encode()).hexdigest()
+                    
+                    field_pattern = "## " + re.escape(field) + r":\s*[^
+]*"
+                    if re.search(field_pattern, current_context):
+                        new_context = re.sub(field_pattern, "## " + field + ": " + new_value, current_context)
+                    else:
+                        new_context = current_context + "\n## " + field + ": " + new_value
+                    
+                    from datetime import datetime, timezone
+                    now = datetime.now(timezone.utc).isoformat()
+                    update_count = (update_count or 0) + 1
+                    
+                    db.execute(
+                        "UPDATE chronicle SET context=?, update_count=?, updated_by='user', timestamp=?, original_hash=COALESCE(original_hash,?) WHERE id=?",
+                        (new_context, update_count, now, original_hash, entry_id)
+                    )
+                    db.execute(
+                        "UPDATE chronicle_fts SET context=? WHERE url=(SELECT url FROM chronicle WHERE id=?)",
+                        (new_context, entry_id)
+                    )
+                    db.commit()
+                    
+                    if update_count >= 3:
+                        db.execute("UPDATE chronicle SET verified_by='consensus', verified_at=? WHERE id=?", (now, entry_id))
+                        db.commit()
+                        consensus = " | Consensus reached"
+                    else:
+                        consensus = " | " + str(3 - update_count) + " more confirmations needed"
+                    
+                    db.close()
+                    result = "Updated: " + field + " = " + new_value + " - Jurisdiction: " + jurisdiction_id + " - Edit count: " + str(update_count) + consensus + " - Original preserved (hash: " + original_hash[:12] + "...)"
+                else:
+                    result = "Usage: /correct <jurisdiction_id> <field> <new_value>"
                 return {"status":"success","result":result}
 
             refs = search_references(query, self.call_agent) if query else ""
