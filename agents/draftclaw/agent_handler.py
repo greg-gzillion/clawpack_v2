@@ -140,6 +140,36 @@ class DraftClawAgent(BaseAgent):
             'error': 'No building code reference found. Try: /lookup <city state>'
         }
 
+    def _build_structural_payload(self, jur_data, query):
+        """Build constitutional structured payload for LLM."""
+        c = jur_data.get('criteria', {})
+        return {
+            "task": "Generate structural engineering CONCEPTUAL PACKAGE",
+            "project": query,
+            "jurisdiction": {
+                "name": jur_data.get('name', 'UNKNOWN'),
+                "source": jur_data.get('source', 'chronicle'),
+                "confidence": jur_data.get('confidence', 0),
+                "design_criteria": {
+                    "frost_depth": {"value": c.get('frost_depth'), "source": "chronicle", "status": "VERIFIED"},
+                    "snow_load": {"value": c.get('snow_load'), "source": "chronicle", "status": "VERIFIED"},
+                    "wind_speed": {"value": c.get('wind_speed'), "source": "chronicle", "status": "VERIFIED"},
+                    "seismic": {"value": c.get('seismic'), "source": "chronicle", "status": "VERIFIED"}
+                },
+                "ahj": {
+                    "name": jur_data.get('contact', {}).get('ahj'),
+                    "phone": jur_data.get('contact', {}).get('phone'),
+                    "url": jur_data.get('contact', {}).get('url')
+                }
+            },
+            "rules": [
+                "DO NOT fabricate structural member sizes, dimensions, or capacities",
+                "Mark all engineering-dependent items as status: DESIGN_REQUIRED with value: null",
+                "Include source attribution for all design criteria values",
+                "Return ONLY valid JSON - no markdown, no narrative"
+            ]
+        }
+
     def _geo_text(self, jur_data):
         """Build jurisdiction-specific design assumptions text from looked-up data."""
         c = jur_data['criteria']
