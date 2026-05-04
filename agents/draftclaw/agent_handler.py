@@ -480,7 +480,20 @@ class DraftClawAgent(BaseAgent):
                 if refs:
                     prompt = json.dumps({"references": refs[:3000], **payload})
                 
-                result = self._filter_fake_engineering(self.ask_llm(prompt))
+                raw = self.ask_llm(prompt)
+                try:
+                    from shared.anthropic_contract import validate_response
+                    data = validate_response(str(raw))
+                    result = json.dumps(data, indent=2)
+                except ValueError as e:
+                    # Retry once with stricter prompt
+                    strict_prompt = json.dumps({**json.loads(prompt), "execution_mode": "STRICT_JSON_COMPILER", "failure_condition": "ANY non-JSON output is invalid"})
+                    raw = self.ask_llm(strict_prompt)
+                    try:
+                        data = validate_response(str(raw))
+                        result = json.dumps(data, indent=2)
+                    except ValueError:
+                        result = f"**CONSTITUTIONAL REJECTION:** {e}\n\nResponse violated output schema."
                 # Auto-open AHJ website if URL found
                 if jur_data.get('contact', {}).get('url'):
                     try:

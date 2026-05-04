@@ -1,3 +1,4 @@
+import json
 """Constitutional Anthropic Contract — enforced structured I/O per Article V & XI"""
 from typing import TypedDict, Literal, List, Optional
 
