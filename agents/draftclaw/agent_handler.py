@@ -9,6 +9,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DRAFTCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared.registry import delegate as registry_delegate
+from shared.chronicle_helper import search_chronicle
 from shared.truth_resolver import merge_with_retriever
 from references import search_references
 from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact, classify_occupancy
@@ -103,7 +105,17 @@ class DraftClawAgent(BaseAgent):
         for name in jur_names:
             if len(name) < 3:
                 continue
+            # First try registry delegation for intelligent lookup
             results = lookup_jurisdiction(name)
+            # Augment with chronicle intelligence if available
+            if results:
+                try:
+                    intel = search_chronicle(f"building code {name}")
+                    if intel:
+                        for r in results:
+                            r['intel'] = str(intel)[:500]
+                except:
+                    pass
             for jur in results:
                 effective_conf = jur['confidence']
                 if jur.get('source') == 'city':
@@ -179,6 +191,18 @@ class DraftClawAgent(BaseAgent):
         query = args if args else task
 
         try:
+            # Smart routing for complex commands
+            if cmd in ("/structural","/engineering","/permit","/compliance") and query:
+                try:
+                    from shared.smart_router import SmartRouter
+                    route = SmartRouter().route(f"{cmd} {query}")
+                    if route and route.agent != "draftclaw":
+                        result = self.call_agent(route.agent, f"{cmd} {query}")
+                        if result:
+                            return {"status":"success","result":str(result)}
+                except:
+                    pass
+            
             if cmd in ("/help",):
                 result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /structural <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  /lookup <jurisdiction> - Search jurisdiction database\n  /correct <id> <field> <value> - Community edit (3 confirmations = consensus)\n  /correct <id> <field> <value> - Community edit (3 confirmations = consensus)\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}
@@ -272,6 +296,11 @@ class DraftClawAgent(BaseAgent):
                             pass
                 else:
                     result = f"No jurisdiction found for: {query}"
+                # Store successful lookup in shared memory for cross-agent learning
+                try:
+                    self.learn(f"jurisdiction:{query}", result[:500])
+                except:
+                    pass
                 return {"status":"success","result":result}
 
             # /correct command - community editing of jurisdiction data
