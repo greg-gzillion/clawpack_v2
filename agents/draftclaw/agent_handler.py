@@ -258,6 +258,13 @@ class DraftClawAgent(BaseAgent):
                         codes = code_refs[key]
                         break
 
+                # Auto-open AHJ website
+                if jur_data.get('contact', {}).get('url'):
+                    try:
+                        webbrowser.open(jur_data['contact']['url'])
+                    except:
+                        pass
+                
                 prompt = f"Generate a permit application compliance package for: {query}\n\nInclude:\n1. Jurisdiction: {jur_data['name']}\n2. Applicable Codes: {codes}\n3. Occupancy classification per IBC Chapter 3\n4. Construction type per IBC Chapter 6\n5. Fire separation requirements per IBC Chapter 7\n6. Egress calculations per IBC Chapter 10\n7. Accessibility requirements per ADA 2010\n8. Permit submission checklist\n9. Required stamped drawings list\n10. AHJ review notes\n\nCite specific code sections."
                 if refs: prompt = f"Reference codes:\n{refs[:3000]}\n\n{prompt}"
                 
