@@ -60,10 +60,13 @@ class DraftClawAgent(BaseAgent):
             jur_names = [full] + words + [' '.join(words[i:i+2]) for i in range(len(words)-1)]
         else:
             words = query.lower().split()
-            skip = {'warehouse','building','structural','permit','commercial','retail','industrial','office'}
+            skip = {'warehouse','building','structural','permit','commercial','retail','industrial','office','with','and','for','the'}
             words = [w for w in words if w not in skip]
             if len(words) >= 2:
                 jur_names = [' '.join(words[-3:]), ' '.join(words[-2:]), words[-1]]
+            elif len(words) == 1:
+                # Single word query - just use it directly
+                jur_names = [words[0]]
 
         # Try each candidate, prioritizing city-level matches
         best = None
@@ -170,6 +173,10 @@ class DraftClawAgent(BaseAgent):
             # /lookup command - search jurisdiction database
             if cmd in ("/lookup","/jurisdiction") and query:
                 results = lookup_jurisdiction(query)
+                # Sort: city matches first, then by confidence
+                city_results = [r for r in results if r.get('source') == 'city']
+                county_results = [r for r in results if r.get('source') != 'city']
+                results = city_results + county_results
                 if results:
                     jur = results[0]
                     criteria = extract_design_criteria(jur['content'])

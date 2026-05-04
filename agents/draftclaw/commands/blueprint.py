@@ -1,136 +1,253 @@
-"""Blueprint command - Create architectural floor plans"""
-import os
+"""Blueprint command - Generate architectural floor plans from query specifications"""
+import os, re
 from pathlib import Path
 
 name = "blueprint"
-description = "Create architectural floor plan"
+description = "Generate architectural floor plan from query specifications"
+
+def parse_dimensions(args):
+    """Extract dimensions like '100x200' or '100ft x 200ft'"""
+    dims = re.findall(r'(\d+)\s*[xX]\s*(\d+)', args)
+    if dims:
+        return int(dims[0][0]), int(dims[0][1])
+    dims = re.findall(r'(\d+)\s*ft', args)
+    if len(dims) >= 2:
+        return int(dims[0]), int(dims[1])
+    return None, None
+
+def detect_type(args):
+    """Determine building type from keywords"""
+    args_lower = args.lower()
+    if any(kw in args_lower for kw in ['warehouse','storage','distribution','industrial','logistics']):
+        return 'warehouse'
+    if any(kw in args_lower for kw in ['office','commercial','business','coworking']):
+        return 'office'
+    if any(kw in args_lower for kw in ['retail','store','shop','restaurant','cafe']):
+        return 'retail'
+    if any(kw in args_lower for kw in ['house','home','apartment','residential','condo','living']):
+        return 'residential'
+    if any(kw in args_lower for kw in ['garage','parking','auto','vehicle']):
+        return 'garage'
+    if any(kw in args_lower for kw in ['manufacturing','factory','plant','production']):
+        return 'manufacturing'
+    return 'general'
+
+def detect_features(args):
+    """Detect requested features like loading docks, offices, etc."""
+    features = []
+    args_lower = args.lower()
+    if any(kw in args_lower for kw in ['loading dock','dock','truck','shipping']):
+        features.append('loading_docks')
+    if any(kw in args_lower for kw in ['office','admin','administration']):
+        features.append('office_area')
+    if any(kw in args_lower for kw in ['restroom','bathroom','toilet']):
+        features.append('restrooms')
+    if any(kw in args_lower for kw in ['break room','kitchenette','lunch']):
+        features.append('break_room')
+    if any(kw in args_lower for kw in ['mezzanine','upper','second level']):
+        features.append('mezzanine')
+    if any(kw in args_lower for kw in ['crane','bridge crane','overhead']):
+        features.append('crane')
+    if any(kw in args_lower for kw in ['clear height','clear span']):
+        height = re.findall(r'(\d+)\s*ft\s*clear', args_lower)
+        if height:
+            features.append(f'clear_height_{height[0]}ft')
+    return features
 
 def run(args):
     if not args:
-        return "Usage: /blueprint <specs>\nExample: /blueprint living room 12x15 with sofa TV dining"
+        return "Usage: /blueprint <specs>\nExample: /blueprint warehouse 100x200 with loading docks and office"
 
     try:
         from PIL import Image, ImageDraw, ImageFont
         
-        parts = args.split()
-        label = args
+        width_ft, length_ft = parse_dimensions(args)
+        building_type = detect_type(args)
+        features = detect_features(args)
+        label = args[:80]
         
-        # Try to find a font
+        if not width_ft:
+            width_ft, length_ft = 60, 80
+        
+        # Try to find fonts
         try:
-            font_title = ImageFont.truetype("arial.ttf", 16)
-            font_label = ImageFont.truetype("arial.ttf", 12)
-            font_small = ImageFont.truetype("arial.ttf", 10)
+            font_title = ImageFont.truetype("arial.ttf", 14)
+            font_label = ImageFont.truetype("arial.ttf", 11)
+            font_small = ImageFont.truetype("arial.ttf", 9)
         except:
             font_title = ImageFont.load_default()
             font_label = ImageFont.load_default()
             font_small = ImageFont.load_default()
-
-        # Canvas
-        width, height = 1000, 700
-        img = Image.new('RGB', (width, height), color='#f5f0e8')
-        draw = ImageDraw.Draw(img)
-
-        # === TITLE BLOCK (top) ===
-        draw.rectangle([0, 0, width, 70], fill='#1a3a5c')
-        draw.text((20, 10), "DRAFTCLAW ARCHITECTURAL", fill='#ffffff', font=font_title)
-        draw.text((20, 35), label[:80], fill='#7ab8ff', font=font_label)
-        draw.text((width-200, 10), f"Scale: 1/4 in = 1 ft", fill='#7ab8ff', font=font_small)
-        draw.text((width-200, 35), "Date: 2026-04-24", fill='#7ab8ff', font=font_small)
-
-        # === GRID ===
-        for x in range(0, width, 40):
-            draw.line([(x, 70), (x, height)], fill='#e8e0d5', width=1)
-        for y in range(70, height, 40):
-            draw.line([(0, y), (width, y)], fill='#e8e0d5', width=1)
-
-        # === OUTER WALLS ===
+        
+        # Scale: fit building in canvas
+        canvas_w, canvas_h = 1200, 800
         margin = 60
-        draw.rectangle([margin, 100, width-margin, height-margin], outline='#2d2d2d', width=4)
-
-        # === LIVING ROOM (left side) ===
-        lx, ly, lw, lh = margin+5, 105, 500, 400
-        draw.rectangle([lx, ly, lx+lw, ly+lh], outline='#555555', width=2)
-        draw.text((lx+10, ly+10), "LIVING ROOM", fill='#1a3a5c', font=font_label)
-        draw.text((lx+10, ly+30), "15'-0\" x 20 ft", fill='#666666', font=font_small)
+        scale_x = (canvas_w - 2*margin) / length_ft
+        scale_y = (canvas_h - 2*margin - 150) / width_ft
+        scale = min(scale_x, scale_y)
         
-        # Sofa
-        draw.rectangle([lx+40, ly+lh-80, lx+200, ly+lh-30], fill='#8B7355', outline='#5a4a35', width=2)
-        draw.text((lx+70, ly+lh-65), "SOFA", fill='#ffffff', font=font_small)
+        px_w = int(width_ft * scale)
+        px_l = int(length_ft * scale)
         
-        # Coffee table
-        draw.rectangle([lx+80, ly+lh-150, lx+160, ly+lh-120], fill='#A0522D', outline='#6b3410', width=1)
-        draw.text((lx+85, ly+lh-140), "TABLE", fill='#ffffff', font=font_small)
+        img = Image.new('RGB', (canvas_w, canvas_h), color='#fafaf5')
+        draw = ImageDraw.Draw(img)
         
-        # TV
-        draw.line([(lx+lw-20, ly+100), (lx+lw-20, ly+250)], fill='#333333', width=6)
-        draw.text((lx+lw-60, ly+160), "TV", fill='#333333', font=font_small)
-
-        # === DINING ROOM (right side) ===
-        dx, dy, dw, dh = lx+lw+20, 105, width-margin-lx-lw-25, 250
-        draw.rectangle([dx, dy, dx+dw, dy+dh], outline='#555555', width=2)
-        draw.text((dx+10, dy+10), "DINING ROOM", fill='#1a3a5c', font=font_label)
-        draw.text((dx+10, dy+30), "10'-0\" x 12 ft", fill='#666666', font=font_small)
+        # Title block
+        draw.rectangle([0, 0, canvas_w, 55], fill='#1a2744')
+        draw.text((15, 8), "DRAFTCLAW ARCHITECTURAL BLUEPRINT", fill='#ffffff', font=font_title)
+        draw.text((15, 30), f"Type: {building_type.upper()} | {label}", fill='#7ab8ff', font=font_label)
+        scale_text = f"Scale: 1\" = {int(length_ft * 12 / (canvas_w - 2*margin))}'"
+        draw.text((canvas_w-280, 10), scale_text, fill='#7ab8ff', font=font_small)
+        draw.text((canvas_w-280, 30), "NOT FOR CONSTRUCTION", fill='#ff6b6b', font=font_small)
         
-        # Dining table
-        draw.rectangle([dx+30, dy+dh-100, dx+dw-30, dy+dh-40], fill='#8B6914', outline='#5a4410', width=2)
-        draw.text((dx+50, dy+dh-80), "DINING TABLE", fill='#ffffff', font=font_small)
+        # Grid
+        grid_spacing = 30
+        for x in range(0, canvas_w, grid_spacing):
+            draw.line([(x, 55), (x, canvas_h-30)], fill='#e8e4dc', width=1)
+        for y in range(55, canvas_h-30, grid_spacing):
+            draw.line([(0, y), (canvas_w, y)], fill='#e8e4dc', width=1)
         
-        # Chairs (small squares around table)
-        for cx in [dx+15, dx+dw-55]:
-            for cy in [dy+dh-130, dy+dh-20]:
-                draw.rectangle([cx, cy, cx+30, cy+20], fill='#A0826D', outline='#705040', width=1)
-
-        # === KITCHEN (right side bottom) ===
-        kx, ky, kw, kh = dx, dy+dh+20, dw, height-margin-dy-dh-25
-        draw.rectangle([kx, ky, kx+kw, ky+kh], outline='#555555', width=2)
-        draw.text((kx+10, ky+10), "KITCHEN", fill='#1a3a5c', font=font_label)
+        # Building outline
+        bx, by = margin, 80
+        draw.rectangle([bx, by, bx+px_l, by+px_w], outline='#2d2d2d', width=3, fill='#f0ede6')
         
-        # Counter
-        draw.rectangle([kx+10, ky+50, kx+kw-10, ky+80], fill='#C0C0C0', outline='#888888', width=2)
-        draw.text((kx+30, ky+58), "COUNTER / CABINETS", fill='#333333', font=font_small)
+        # Draw based on building type
+        if building_type == 'warehouse':
+            _draw_warehouse(draw, bx, by, px_l, px_w, width_ft, length_ft, features, font_label, font_small)
+        elif building_type == 'office':
+            _draw_office(draw, bx, by, px_l, px_w, font_label, font_small)
+        else:
+            _draw_generic(draw, bx, by, px_l, px_w, font_label, font_small)
         
-        # Stove
-        draw.rectangle([kx+100, ky+90, kx+160, ky+120], fill='#444444', outline='#222222', width=2)
-        draw.text((kx+105, ky+98), "STOVE", fill='#ffffff', font=font_small)
+        # Dimension lines
+        dim_y = by + px_w + 20
+        draw.line([(bx, dim_y), (bx+px_l, dim_y)], fill='#cc3333', width=1)
+        draw.line([(bx, dim_y-5), (bx, dim_y+5)], fill='#cc3333', width=1)
+        draw.line([(bx+px_l, dim_y-5), (bx+px_l, dim_y+5)], fill='#cc3333', width=1)
+        draw.text((bx + px_l//2 - 30, dim_y+3), f"{length_ft} ft", fill='#cc3333', font=font_small)
         
-        # Sink
-        draw.rectangle([kx+200, ky+90, kx+260, ky+120], fill='#87CEEB', outline='#5a8aab', width=2)
-        draw.text((kx+210, ky+98), "SINK", fill='#333333', font=font_small)
-
-        # === DOORS (arc indicators) ===
-        # Living room door
-        draw.arc([lx-15, ly+150, lx+25, ly+190], start=0, end=90, fill='#666666', width=3)
-        # Dining door
-        draw.arc([dx-15, dy+80, dx+25, dy+120], start=0, end=90, fill='#666666', width=3)
-
-        # === DIMENSION LINES ===
-        dim_y = ly+lh+15
-        draw.line([(lx, dim_y), (lx+lw, dim_y)], fill='#cc3333', width=1)
-        draw.line([(lx, dim_y-10), (lx, dim_y+10)], fill='#cc3333', width=1)
-        draw.line([(lx+lw, dim_y-10), (lx+lw, dim_y+10)], fill='#cc3333', width=1)
-        draw.text((lx+lw//2-30, dim_y+5), "20 ft", fill='#cc3333', font=font_small)
-
-        # === BOTTOM TITLE BLOCK ===
-        draw.rectangle([0, height-40, width, height], fill='#1a3a5c')
-        draw.text((20, height-30), "DRAFTCLAW V2 | Architectural Blueprint | NOT FOR CONSTRUCTION", fill='#7ab8ff', font=font_small)
-
-        # === COMPASS ROSE (bottom right) ===
-        cx, cy = width-60, height-80
-        draw.text((cx-15, cy-35), "N", fill='#cc3333', font=font_label)
-        draw.line([(cx, cy-30), (cx, cy+10)], fill='#cc3333', width=3)
-        draw.line([(cx-15, cy-10), (cx+15, cy-10)], fill='#333333', width=1)
-        draw.polygon([(cx, cy-30), (cx-8, cy-15), (cx+8, cy-15)], fill='#cc3333')
-
+        dim_x = bx - 20
+        draw.line([(dim_x, by), (dim_x, by+px_w)], fill='#cc3333', width=1)
+        draw.line([(dim_x-5, by), (dim_x+5, by)], fill='#cc3333', width=1)
+        draw.line([(dim_x-5, by+px_w), (dim_x+5, by+px_w)], fill='#cc3333', width=1)
+        draw.text((dim_x-50, by + px_w//2 - 8), f"{width_ft} ft", fill='#cc3333', font=font_small)
+        
+        # Features list
+        feature_y = by + px_w + 50
+        draw.text((bx, feature_y), "Features:", fill='#1a2744', font=font_label)
+        if features:
+            for i, feat in enumerate(features):
+                draw.text((bx+10, feature_y+18+i*16), f"- {feat.replace('_',' ').title()}", fill='#555555', font=font_small)
+        else:
+            draw.text((bx+10, feature_y+18), "- Open floor plan", fill='#555555', font=font_small)
+        
+        # Bottom bar
+        draw.rectangle([0, canvas_h-30, canvas_w, canvas_h], fill='#1a2744')
+        draw.text((15, canvas_h-22), "DRAFTCLAW V2 | Reference-Based Blueprint | Verify with AHJ", fill='#7ab8ff', font=font_small)
+        
+        # North arrow
+        nx, ny = canvas_w-50, canvas_h-70
+        draw.text((nx-10, ny-28), "N", fill='#cc3333', font=font_label)
+        draw.line([(nx, ny-25), (nx, ny+5)], fill='#cc3333', width=3)
+        draw.polygon([(nx, ny-25), (nx-6, ny-12), (nx+6, ny-12)], fill='#cc3333')
+        
         # Save
-        agent_dir = Path(__file__).parent.parent
-        exports_dir = agent_dir / "exports"
+        exports_dir = Path(__file__).parent.parent / "exports"
         exports_dir.mkdir(exist_ok=True)
         path = exports_dir / f"blueprint_{abs(hash(args))%100000}.png"
         img.save(str(path))
         os.startfile(str(path))
         return f"Architectural blueprint created: {label}\nSaved: {path.name}\nOpening..."
-
+    
     except ImportError:
         return "PIL not installed. Run: pip install pillow"
     except Exception as e:
         return f"Error: {e}"
+
+def _draw_warehouse(draw, bx, by, px_l, px_w, w_ft, l_ft, features, font_label, font_small):
+    """Draw warehouse layout with column grid, loading docks, and optional office"""
+    # Column grid
+    cols_x = max(3, l_ft // 25)
+    cols_y = max(2, w_ft // 25)
+    spacing_x = px_l / (cols_x)
+    spacing_y = px_w / (cols_y)
+    
+    for cx in range(1, cols_x):
+        for cy in range(1, cols_y):
+            x = bx + int(cx * spacing_x)
+            y = by + int(cy * spacing_y)
+            # Column symbol (small filled square)
+            col_size = max(4, min(8, px_l // 40))
+            draw.rectangle([x-col_size, y-col_size, x+col_size, y+col_size], fill='#2d2d2d')
+    
+    # Column grid lines (dashed)
+    for cx in range(1, cols_x):
+        x = bx + int(cx * spacing_x)
+        for cy in range(0, cols_y):
+            y1 = by + int(cy * spacing_y)
+            y2 = by + int(min(cy+1, cols_y) * spacing_y)
+            draw.line([(x, y1), (x, y2)], fill='#999999', width=1)
+    
+    for cy in range(1, cols_y):
+        y = by + int(cy * spacing_y)
+        draw.line([(bx, y), (bx+px_l, y)], fill='#999999', width=1)
+    
+    # Column labels
+    for cx in range(cols_x):
+        x = bx + int((cx + 0.5) * spacing_x)
+        draw.text((x-15, by-20), f"A{cx+1}", fill='#1a2744', font=font_small)
+    for cy in range(cols_y):
+        y = by + int((cy + 0.5) * spacing_y)
+        draw.text((bx-30, y-6), f"B{cy+1}", fill='#1a2744', font=font_small)
+    
+    # Loading docks (if specified or for warehouses)
+    if 'loading_docks' in features or True:  # Warehouses always get docks
+        dock_count = min(4, max(1, l_ft // 40))
+        dock_w = px_l // (dock_count + 2)
+        for d in range(dock_count):
+            dx = bx + int((d + 1.5) * dock_w)
+            dy = by + px_w - 15
+            draw.rectangle([dx-10, dy, dx+10, dy+15], outline='#333333', width=2, fill='#cccccc')
+            draw.text((dx-8, dy+2), f"D{d+1}", fill='#555555', font=font_small)
+        draw.text((bx+5, by+px_w-12), "LOADING DOCKS", fill='#1a2744', font=font_small)
+    
+    # Office area (if specified)
+    if 'office_area' in features:
+        off_w = max(px_l // 5, 80)
+        draw.rectangle([bx+px_l-off_w, by, bx+px_l, by+60], outline='#555555', width=2)
+        draw.text((bx+px_l-off_w+8, by+5), "OFFICE", fill='#1a2744', font=font_label)
+        draw.text((bx+px_l-off_w+8, by+22), f'{int(off_w/scale)}x20', fill='#666666', font=font_small)
+        
+        draw.rectangle([bx+px_l-off_w, by+65, bx+px_l, by+110], outline='#555555', width=2)
+        draw.text((bx+px_l-off_w+8, by+70), "RESTROOM", fill='#1a2744', font=font_label)
+    
+    # Clear height callout
+    if any('clear_height' in f for f in features):
+        for f in features:
+            if 'clear_height' in f:
+                height = f.split('_')[2]
+                draw.text((bx+px_l//2-40, by+px_w//2-8), f"CLEAR HEIGHT: {height}", fill='#1a2744', font=font_label)
+                break
+    
+    # Warehouse label
+    draw.text((bx+10, by+10), "WAREHOUSE FLOOR", fill='#1a2744', font=font_label)
+    draw.text((bx+10, by+26), f"{w_ft}' x {l_ft}'", fill='#666666', font=font_small)
+
+def _draw_office(draw, bx, by, px_l, px_w, font_label, font_small):
+    """Draw basic office layout"""
+    draw.text((bx+10, by+10), "OFFICE LAYOUT", fill='#1a2744', font=font_label)
+    # Open workspace
+    draw.rectangle([bx+5, by+5, bx+px_l//2, by+px_w-5], outline='#999999', width=1)
+    draw.text((bx+20, by+px_w//2), "OPEN OFFICE", fill='#888888', font=font_small)
+    # Private offices
+    off_w = px_l // 4
+    for i in range(3):
+        draw.rectangle([bx+px_l//2+5, by+5+i*60, bx+px_l-5, by+55+i*60], outline='#999999', width=1)
+        draw.text((bx+px_l//2+15, by+20+i*60), f"OFFICE {i+1}", fill='#555555', font=font_small)
+
+def _draw_generic(draw, bx, by, px_l, px_w, font_label, font_small):
+    """Draw generic building outline"""
+    w = int(px_w * 0.4)
+    h = int(px_l * 0.4)
+    draw.rectangle([bx+px_l//2-h//2, by+px_w//2-w//2, bx+px_l//2+h//2, by+px_w//2+w//2], outline='#999999', width=1)
+    draw.text((bx+px_l//2-30, by+px_w//2-6), "BUILDING", fill='#888888', font=font_small)
