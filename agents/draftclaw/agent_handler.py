@@ -140,90 +140,6 @@ class DraftClawAgent(BaseAgent):
             'error': 'No building code reference found. Try: /lookup <city state>'
         }
 
-    def _build_structural_payload(self, jur_data, query):
-        """Build constitutional structured payload with governance logic."""
-        c = jur_data.get('criteria', {})
-        
-        # Derive governing load from chronicle criteria
-        governance = self._derive_governance(c)
-        
-        return {
-            "meta": {
-                "agent": "draftclaw",
-                "version": "5.0",
-                "truth_tier": "chronicle",
-                "status": "CONCEPTUAL — NOT FOR CONSTRUCTION"
-            },
-            "inputs": {
-                "project": {"value": query, "source": "user_input", "status": "VERIFIED"},
-                "jurisdiction": {
-                    "name": {"value": jur_data.get('name', 'UNKNOWN'), "source": "chronicle", "status": "VERIFIED"},
-                    "confidence": {"value": str(jur_data.get('confidence', 0)) + "%", "source": "chronicle", "status": "VERIFIED"}
-                },
-                "design_criteria": {
-                    "frost_depth": {"value": c.get('frost_depth'), "source": "chronicle", "status": "VERIFIED"},
-                    "snow_load": {"value": c.get('snow_load'), "source": "chronicle", "status": "VERIFIED"},
-                    "wind_speed": {"value": c.get('wind_speed'), "source": "chronicle", "status": "VERIFIED"},
-                    "seismic": {"value": c.get('seismic'), "source": "chronicle", "status": "VERIFIED"}
-                },
-                "ahj": {
-                    "name": {"value": jur_data.get('contact', {}).get('ahj'), "source": "chronicle", "status": "VERIFIED"},
-                    "phone": {"value": jur_data.get('contact', {}).get('phone'), "source": "chronicle", "status": "VERIFIED"},
-                    "url": {"value": jur_data.get('contact', {}).get('url'), "source": "chronicle", "status": "VERIFIED"}
-                }
-            },
-            "derived": {
-                "design_governance": governance
-            },
-            "design": {
-                "structural_system": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
-                "foundation": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
-                "lateral_system": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
-                "roof_framing": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
-                "slab": {"value": None, "source": None, "status": "DESIGN_REQUIRED"},
-                "connections": {"value": None, "source": None, "status": "DESIGN_REQUIRED"}
-            },
-            "warnings": [
-                "Geotechnical report required for foundation design",
-                "Structural member sizing requires engineering analysis",
-                "Wind load calculations not yet performed — delegate to Mathematicaclaw",
-                "This is a CONCEPTUAL package — NOT FOR CONSTRUCTION"
-            ],
-            "rules": [
-                "Only chronicle and web_verified are valid sources",
-                "All other values must have source: null and status: DESIGN_REQUIRED or INFERRED",
-                "Never fabricate numerical values",
-                "Return ONLY valid JSON — no markdown, no narrative, no code blocks"
-            ]
-        }
-
-    def _derive_governance(self, criteria):
-        """Derive governing load and delegation from chronicle criteria."""
-        governance = {"status": "INFERRED", "source": "derived_from_chronicle"}
-        
-        wind_str = criteria.get('wind_speed', '0 mph')
-        try:
-            wind_speed = int(wind_str.split()[0])
-        except:
-            wind_speed = 0
-        
-        if wind_speed >= 170:
-            governance["governing_load"] = {"value": "wind", "reason": f"{wind_speed} mph exceeds 170 mph threshold — lateral system critical"}
-            governance["recommended_system"] = {"value": "Lateral force-resisting system required (braced frame or moment frame)"}
-            governance["delegations"] = [
-                {"target": "mathematicaclaw", "task": "MWFRS wind load calculations per ASCE 7 Ch 27"},
-                {"target": "flowclaw", "task": "Lateral load path diagram"}
-            ]
-        elif wind_speed >= 140:
-            governance["governing_load"] = {"value": "wind", "reason": f"{wind_speed} mph — wind likely governs"}
-            governance["delegations"] = [
-                {"target": "mathematicaclaw", "task": "Wind load calculations per ASCE 7"}
-            ]
-        else:
-            governance["governing_load"] = {"value": "gravity/wind", "reason": "Wind speed below 140 mph — gravity may govern"}
-        
-        return governance
-
     def _geo_text(self, jur_data):
         """Build jurisdiction-specific design assumptions text from looked-up data."""
         c = jur_data['criteria']
@@ -463,15 +379,12 @@ class DraftClawAgent(BaseAgent):
             elif cmd in ("/structural","/engineering") and query:
                 jur_data = self._resolve_jurisdiction(query)
                 
-                # Gather intelligent context from WebClaw
-                webclaw_context = ""
-                if jur_data.get('name') != 'UNRESOLVED':
-                    try:
-                        web = self.call_agent("webclaw", f"search building code requirements {jur_data['name']} {query}", timeout=8)
-                        if web:
-                            webclaw_context = str(web)[:2000]
-                    except:
-                        pass
+                # Get WebClaw intelligence
+                web_ctx = ""
+                try:
+                    w = self.call_agent("webclaw", f"search building codes {jur_data.get('name','')} {query}", timeout=8)
+                    if w: web_ctx = str(w)[:2000]
+                except: pass
                 
                 # REFUSE if jurisdiction unresolved
                 if jur_data.get("name") == "UNRESOLVED" or jur_data.get("error"):
@@ -484,28 +397,17 @@ class DraftClawAgent(BaseAgent):
                 c = jur_data['criteria']
                 nl = chr(10)
                 
-                payload = self._build_structural_payload(jur_data, query)
-                if webclaw_context:
-                    payload["references"] = {"source": "webclaw", "content": webclaw_context}
-                prompt = json.dumps(payload)
+                prompt = f"Generate a structural engineering CONCEPTUAL PACKAGE for: {query}{nl}{nl}Jurisdiction: {jur_data['name']}{nl}Source: Chronicle (building_code.md){nl}{nl}## LOCKED DESIGN CRITERIA (Chronicle - DO NOT CHANGE){nl}- Frost Depth: {c.get('frost_depth','VERIFY')}{nl}- Ground Snow Load: {c.get('snow_load','VERIFY')}{nl}- Design Wind Speed: {c.get('wind_speed','VERIFY')}{nl}- Seismic Design Category: {c.get('seismic','VERIFY')}{nl}{nl}## STRUCTURAL SYSTEM DESCRIPTION (Conceptual Only){nl}Describe the appropriate structural system for this project. DO NOT specify member sizes, dimensions, or capacities.{nl}{nl}## REQUIRED DELEGATIONS (For Actual Design){nl}This package must be completed by:{nl}- Mathematicaclaw: load combinations per ASCE 7, tributary areas, frame analysis{nl}- Dataclaw: material selection, section properties{nl}- Licensed PE/SE: final review and stamp{nl}{nl}## RULES{nl}- DO NOT generate any numerical structural values (sizes, loads, capacities){nl}- DO NOT specify member sections (W-shapes, HSS, etc.){nl}- DO NOT design connections, footings, or reinforcement{nl}- Mark all design-dependent items as [ANALYSIS REQUIRED]{nl}- This is a CONCEPTUAL package only - NOT FOR CONSTRUCTION"
                 
+                extra = ""
+                if web_ctx:
+                    extra += chr(10) + web_ctx + chr(10)
                 if refs:
-                    prompt = json.dumps({"references": refs[:3000], **payload})
+                    extra += chr(10) + refs[:1500] + chr(10)
+                if extra:
+                    prompt = extra + chr(10) + prompt
                 
-                raw = self.ask_llm(prompt)
-                try:
-                    from shared.anthropic_contract import validate_response
-                    data = validate_response(str(raw))
-                    result = json.dumps(data, indent=2)
-                except ValueError as e:
-                    # Retry once with stricter prompt
-                    strict_prompt = json.dumps({**json.loads(prompt), "execution_mode": "STRICT_JSON_COMPILER", "failure_condition": "ANY non-JSON output is invalid"})
-                    raw = self.ask_llm(strict_prompt)
-                    try:
-                        data = validate_response(str(raw))
-                        result = json.dumps(data, indent=2)
-                    except ValueError:
-                        result = f"**CONSTITUTIONAL REJECTION:** {e}\n\nResponse violated output schema."
+                result = self._filter_fake_engineering(self.ask_llm(prompt))
                 # Auto-open AHJ website if URL found
                 if jur_data.get('contact', {}).get('url'):
                     try:
