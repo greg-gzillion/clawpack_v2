@@ -1,12 +1,12 @@
 ﻿# DraftClaw Shared Jurisdiction Engine
 # Core module: lookup_jurisdiction, score_confidence, classify_occupancy, extract_design_criteria
-# Used by ALL review agents to prevent duplication
-# UPDATED v2: Searches city subdirectories for design criteria, not just county-level
+# v3: Chronicle-powered. Queries chronicle.db instead of filesystem walk.
 
-import re
+import re, json, sqlite3
 from pathlib import Path
 from typing import Dict, List
 
+CHRONICLE_DB = Path(r"C:/Users/greg/dev/clawpack_v2/data/chronicle.db")
 JURISDICTION_BASE = Path(r'C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\draftclaw\jurisdictions\us')
 
 STATE_NAMES = {
@@ -20,8 +20,7 @@ STATE_NAMES = {
     'oklahoma': 'OK', 'oregon': 'OR', 'pennsylvania': 'PA', 'rhode island': 'RI',
     'south carolina': 'SC', 'south dakota': 'SD', 'tennessee': 'TN', 'texas': 'TX',
     'utah': 'UT', 'vermont': 'VT', 'virginia': 'VA', 'washington': 'WA', 'west virginia': 'WV',
-    'wisconsin': 'WI', 'wyoming': 'WY', 'district of columbia': 'DC', 'dc': 'DC',
-    'puerto rico': 'PR', 'guam': 'GU', 'virgin islands': 'VI', 'american samoa': 'AS',
+    'wisconsin': 'WI', 'wyoming': 'WY',
 }
 
 OCCUPANCY_CLASSES = {
@@ -39,91 +38,116 @@ OCCUPANCY_CLASSES = {
 
 
 def lookup_jurisdiction(query: str) -> List[Dict]:
-    """Search for a jurisdiction by city or county name. 
-    Searches BOTH county-level and city-level building_code.md files.
-    City-level files contain the actual design criteria (frost, snow, wind, seismic)."""
+    """Search chronicle database for jurisdiction by city or county name.
+    Falls back to filesystem walk if chronicle is unavailable."""
     query_lower = query.lower().strip()
     results = []
-
-    # Also search for individual words and state name resolution
-    query_words = query_lower.split()
-    # Resolve state names to abbreviations
-    resolved_states = []
-    for word in query_words:
-        if word in STATE_NAMES:
-            resolved_states.append(STATE_NAMES[word].lower())
-    # Also check multi-word state names
-    for state_name, abbr in STATE_NAMES.items():
-        if state_name in query_lower:
-            resolved_states.append(abbr.lower())
     
+    try:
+        db = sqlite3.connect(str(CHRONICLE_DB))
+        db.row_factory = sqlite3.Row
+        
+        search_terms = [query_lower]
+        for word in query_lower.split():
+            if len(word) >= 3 and word not in search_terms:
+                search_terms.append(word)
+        for state_name, abbr in STATE_NAMES.items():
+            if state_name in query_lower and abbr.lower() not in search_terms:
+                search_terms.append(abbr.lower())
+        
+        for term in search_terms:
+            like_term = f'%{term}%'
+            rows = db.execute(
+                """SELECT url, context, metadata FROM chronicle 
+                   WHERE json_extract(metadata, '$.level') = 'city' 
+                   AND (json_extract(metadata, '$.city') LIKE ? 
+                        OR json_extract(metadata, '$.state') LIKE ? 
+                        OR json_extract(metadata, '$.county') LIKE ?)
+                   LIMIT 15""",
+                (like_term, like_term, like_term)
+            ).fetchall()
+            
+            for row in rows:
+                meta = json.loads(row['metadata']) if isinstance(row['metadata'], str) else row['metadata']
+                jur_name = f"{meta.get('city', '')}, {meta.get('state', '')}"
+                results.append({
+                    'jurisdiction': jur_name.strip(', '),
+                    'path': row['url'],
+                    'content': row['context'],
+                    'confidence': _score_confidence(row['context']),
+                    'source': 'city'
+                })
+        
+        if not results:
+            for term in search_terms:
+                like_term = f'%{term}%'
+                rows = db.execute(
+                    """SELECT url, context, metadata FROM chronicle 
+                       WHERE json_extract(metadata, '$.level') = 'county' 
+                       AND (json_extract(metadata, '$.county') LIKE ? 
+                            OR json_extract(metadata, '$.state') LIKE ?)
+                       LIMIT 10""",
+                    (like_term, like_term)
+                ).fetchall()
+                for row in rows:
+                    meta = json.loads(row['metadata']) if isinstance(row['metadata'], str) else row['metadata']
+                    jur_name = f"{meta.get('county', '')}, {meta.get('state', '')}"
+                    results.append({
+                        'jurisdiction': jur_name.strip(', '),
+                        'path': row['url'],
+                        'content': row['context'],
+                        'confidence': _score_confidence(row['context']),
+                        'source': 'county'
+                    })
+        
+        db.close()
+    except Exception:
+        return _filesystem_lookup(query)
+    
+    return results
+
+
+def _filesystem_lookup(query: str) -> List[Dict]:
+    """Fallback: walk filesystem if chronicle is unavailable."""
+    query_lower = query.lower().strip()
+    results = []
     for state_dir in sorted(JURISDICTION_BASE.iterdir()):
         if not state_dir.is_dir() or len(state_dir.name) != 2 or not state_dir.name.isalpha():
             continue
         state_abbr = state_dir.name.upper()
-        
         for county_dir in state_dir.iterdir():
             if not county_dir.is_dir() or county_dir.name in ('state', '__pycache__'):
                 continue
-            county_name = county_dir.name.replace('_', ' ').lower()
-            
-            # --- CITY-LEVEL SEARCH (primary — contains design criteria) ---
             for city_dir in county_dir.iterdir():
                 if not city_dir.is_dir():
                     continue
                 city_bc = city_dir / 'building_code.md'
                 if city_bc.exists():
                     city_name = city_dir.name.replace('_', ' ').lower()
-                    # Match: full query in city name, or any query word in city name
-                    city_match = query_lower in city_name
-                    if not city_match:
-                        for word in query_lower.split():
-                            if len(word) >= 3 and word in city_name:
-                                city_match = True
-                                break
-                    if not city_match:
-                        for qw in query_words:
-                            if qw in city_name and len(qw) >= 3:
-                                city_match = True
-                                break
-                    if city_match:
+                    if query_lower in city_name:
                         content = city_bc.read_text(encoding='utf-8')
                         results.append({
                             'jurisdiction': f'{city_dir.name.replace("_", " ")}, {state_abbr}',
-                            'county': county_name,
-                            'path': str(city_bc.relative_to(JURISDICTION_BASE)),
+                            'path': str(city_bc),
                             'content': content,
                             'confidence': _score_confidence(content),
                             'source': 'city'
                         })
-            
-            # --- COUNTY-LEVEL SEARCH (fallback if city not found) ---
-            bc_file = county_dir / 'building_code.md'
-            if bc_file.exists() and (query_lower in county_name or query_lower in f'{county_name} {state_abbr.lower()}'):
-                content = bc_file.read_text(encoding='utf-8')
-                results.append({
-                    'jurisdiction': f'{county_dir.name.replace("_", " ")}, {state_abbr}',
-                    'county': None,
-                    'path': str(bc_file.relative_to(JURISDICTION_BASE)),
-                    'content': content,
-                    'confidence': _score_confidence(content),
-                    'source': 'county'
-                })
-    
     return results
 
 
 def _score_confidence(content: str) -> int:
-    """Score a jurisdiction's data confidence from 0-100."""
-    score = 30  # Base score for having a file
-    if re.search(r'\(\d{3}\)\s*\d{3}-\d{4}', content): score += 15
+    """Score a jurisdiction data confidence from 0-100."""
+    score = 30
     if '## AHJ:' in content: score += 10
     if '## URL:' in content: score += 10
-    if '## County:' in content or '## Parish:' in content: score += 10
+    if '## Phone:' in content: score += 15
     if '## Wind:' in content: score += 10
     if '## Frost:' in content: score += 5
     if '## Snow:' in content: score += 5
     if '## Seismic:' in content: score += 5
+    if '## County:' in content or '## Parish:' in content: score += 5
+    if 'verified_by' in content: score += 10
     return min(score, 100)
 
 
@@ -154,12 +178,14 @@ def extract_design_criteria(content: str) -> Dict:
 
 
 def extract_contact(content: str) -> Dict:
-    """Extract phone and URL from jurisdiction file content."""
+    """Extract phone, URL, AHJ, address from jurisdiction file content."""
     contact = {}
     phone = re.search(r'(\(\d{3}\)\s*\d{3}-\d{4})', content)
     url = re.search(r'(https?://[^\s\)]+)', content)
     ahj = re.search(r'## AHJ:\s*(.+)', content)
+    addr = re.search(r'## Address:\s*(.+)', content)
     if phone: contact['phone'] = phone.group(1)
     if url: contact['url'] = url.group(1)
     if ahj: contact['ahj'] = ahj.group(1).strip()
+    if addr: contact['address'] = addr.group(1).strip()
     return contact
