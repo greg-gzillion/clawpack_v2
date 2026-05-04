@@ -420,9 +420,11 @@ class DraftClawAgent(BaseAgent):
                 c = jur_data['criteria']
                 nl = chr(10)
                 
-                prompt = f"Generate a structural engineering CONCEPTUAL PACKAGE for: {query}{nl}{nl}Jurisdiction: {jur_data['name']}{nl}Source: Chronicle (building_code.md){nl}{nl}## LOCKED DESIGN CRITERIA (Chronicle - DO NOT CHANGE){nl}- Frost Depth: {c.get('frost_depth','VERIFY')}{nl}- Ground Snow Load: {c.get('snow_load','VERIFY')}{nl}- Design Wind Speed: {c.get('wind_speed','VERIFY')}{nl}- Seismic Design Category: {c.get('seismic','VERIFY')}{nl}{nl}## STRUCTURAL SYSTEM DESCRIPTION (Conceptual Only){nl}Describe the appropriate structural system for this project. DO NOT specify member sizes, dimensions, or capacities.{nl}{nl}## REQUIRED DELEGATIONS (For Actual Design){nl}This package must be completed by:{nl}- Mathematicaclaw: load combinations per ASCE 7, tributary areas, frame analysis{nl}- Dataclaw: material selection, section properties{nl}- Licensed PE/SE: final review and stamp{nl}{nl}## RULES{nl}- DO NOT generate any numerical structural values (sizes, loads, capacities){nl}- DO NOT specify member sections (W-shapes, HSS, etc.){nl}- DO NOT design connections, footings, or reinforcement{nl}- Mark all design-dependent items as [ANALYSIS REQUIRED]{nl}- This is a CONCEPTUAL package only - NOT FOR CONSTRUCTION"
+                payload = self._build_structural_payload(jur_data, query)
+                prompt = json.dumps(payload)
                 
-                if refs: prompt = f"Reference codes:{nl}{refs[:3000]}{nl}{nl}{prompt}"
+                if refs:
+                    prompt = json.dumps({"references": refs[:3000], **payload})
                 
                 result = self._filter_fake_engineering(self.ask_llm(prompt))
                 # Auto-open AHJ website if URL found
