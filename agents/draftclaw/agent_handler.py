@@ -79,11 +79,11 @@ class DraftClawAgent(BaseAgent):
         jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
         jur_names = []
         if jur_match:
-            full = jur_match.group(1).strip().rstrip(",").strip()
+            full = jur_match.group(1).strip().rstrip(",").strip().replace(",", " ")
             words = full.split()
             jur_names = [full] + words + [' '.join(words[i:i+2]) for i in range(len(words)-1)]
         else:
-            words = query.lower().split()
+            words = query.lower().replace(",", " ").split()
             skip = {'warehouse','building','structural','permit','commercial','retail','industrial','office','with','and','for','the'}
             words = [w for w in words if w not in skip]
             if len(words) >= 2:
@@ -208,6 +208,15 @@ class DraftClawAgent(BaseAgent):
                 city_results = [r for r in results if r.get('source') == 'city']
                 county_results = [r for r in results if r.get('source') != 'city']
                 results = city_results + county_results
+                # Boost results matching state in query
+                import re
+                state_match = re.search(r'\b([A-Z]{2})\b', query.upper())
+                if state_match:
+                    st = state_match.group(1)
+                    for r in results:
+                        if st in r.get('jurisdiction', ''):
+                            r['confidence'] = r.get('confidence', 50) + 30
+                    results.sort(key=lambda r: -r.get('confidence', 0))
                 if results:
                     jur = results[0]
                     criteria = extract_design_criteria(jur['content'])

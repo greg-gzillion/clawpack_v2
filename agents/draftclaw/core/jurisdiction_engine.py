@@ -40,7 +40,7 @@ OCCUPANCY_CLASSES = {
 def lookup_jurisdiction(query: str) -> List[Dict]:
     """Search chronicle database for jurisdiction by city or county name.
     Falls back to filesystem walk if chronicle is unavailable."""
-    query_lower = query.lower().strip()
+    query_lower = query.lower().replace(",", " ").strip()
     results = []
     
     try:
@@ -109,7 +109,7 @@ def lookup_jurisdiction(query: str) -> List[Dict]:
 
 def _filesystem_lookup(query: str) -> List[Dict]:
     """Fallback: walk filesystem if chronicle is unavailable."""
-    query_lower = query.lower().strip()
+    query_lower = query.lower().replace(",", " ").strip()
     results = []
     for state_dir in sorted(JURISDICTION_BASE.iterdir()):
         if not state_dir.is_dir() or len(state_dir.name) != 2 or not state_dir.name.isalpha():
