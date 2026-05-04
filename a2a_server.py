@@ -12,6 +12,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 # Import memory system
 from shared.memory import get_memory
+from data.data_api import query_building_codes, query_design_resources, data_response
 
 # Import WebClaw handler
 from agents.webclaw.agent_handler import process_task as webclaw_process
@@ -72,6 +73,27 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         path = urlparse(self.path).path
         
+        # Data API
+        if path.startswith("/v1/data/building-codes"):
+            qs = urlparse(self.path).query
+            params = dict(p.split("=") for p in qs.split("&") if "=" in p) if qs else {}
+            results = query_building_codes(
+                state=params.get("state"),
+                city=params.get("city"),
+                county=params.get("county")
+            )
+            self._send_json(data_response(results, params))
+            return
+        elif path.startswith("/v1/data/design-resources"):
+            qs = urlparse(self.path).query
+            params = dict(p.split("=") for p in qs.split("&") if "=" in p) if qs else {}
+            results = query_design_resources(
+                state=params.get("state"),
+                city=params.get("city")
+            )
+            self._send_json(data_response(results, params))
+            return
+
         if path == "/health":
             self._send_json({
                 "status": "healthy",
