@@ -33,6 +33,17 @@ class DraftClawAgent(BaseAgent):
         return text
 
 
+
+    def _open_ahj_url(self, jur_data):
+        """Auto-open AHJ website if URL is available"""
+        url = jur_data.get('contact', {}).get('url')
+        if url:
+            try:
+                webbrowser.open(url)
+            except:
+                pass
+
+
     def _fileclaw_export(self, fmt, content):
         try:
             safe = content.replace(chr(10), '\\n').replace('"', '\\"')
@@ -270,6 +281,11 @@ class DraftClawAgent(BaseAgent):
                 result += f"{nl}{nl}---{nl}## Structural Package Control{nl}| Field | Value |{nl}|-------|-------|{nl}| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |{nl}| **Jurisdiction** | {jur_data['name']} |{nl}| **Design Criteria** | Frost: {c.get('frost_depth','N/A')} | Snow: {c.get('snow_load','N/A')} | Wind: {c.get('wind_speed','N/A')} | Seismic: {c.get('seismic','N/A')} |{nl}| **WARNING** | REQUIRES PE/SE STAMP PRIOR TO CONSTRUCTION |{nl}{nl}*NOT FOR CONSTRUCTION*"
 
             elif cmd in ("/blueprint","/floorplan") and query:
+                # Resolve jurisdiction if location mentioned in query
+                jur_data = self._resolve_jurisdiction(query)
+                if jur_data.get('name') != 'UNRESOLVED':
+                    self._open_ahj_url(jur_data)
+                
                 prompt = f"Generate detailed architectural blueprint specifications with dimensions, room layouts, wall placements, door/window locations, and structural notes.\n\nProject: {query}"
                 if refs: prompt = f"Reference material:\n{refs[:3000]}\n\n{prompt}"
                 result = self._filter_fake_engineering(self.ask_llm(prompt))
