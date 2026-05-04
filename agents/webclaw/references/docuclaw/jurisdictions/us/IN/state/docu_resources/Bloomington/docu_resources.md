@@ -1,13 +1,14 @@
 # Bloomington Documentation Resources
 
 ## Government
-- City and county government offices
-- State agencies
+- City of Bloomington — https://www.bloomington.in.gov/
+- Monroe County Government — https://www.co.monroe.in.us/
 
 ## Libraries
-- Public library system
-- University libraries
+- Monroe County Public Library — https://www.mcpl.info/
+- IU Libraries — https://www.libraries.indiana.edu/
 
 ## Research
-- University research guides
-- State archives and historical societies
+- IU ScholarWorks — https://www.scholarworks.iu.edu/
+- IU Digital Collections — https://www.digitalcollections.iu.edu/
+- Indiana University Archives — https://www.archives.iu.edu/
