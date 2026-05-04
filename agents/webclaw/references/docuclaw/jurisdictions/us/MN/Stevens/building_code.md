@@ -1,0 +1,23 @@
+# Stevens County - Minnesota
+## County Seat: Morris
+## AHJ: Stevens Co Building Official
+## Address: 400 Colorado Ave,Morris,MN 56267
+## Phone: (320)589-7420
+## URL: https://www.co.stevens.mn.us/ (verified May 2026)
+
+## Minnesota Building Code
+IBC 2018 + MN | IRC 2018 + MN | NEC 2020 + MN | IPC 2018 + MN | IMC 2018 | IFC 2018 + MN Fire Code | IECC 2018 + MN
+
+## Design Criteria
+Frost: 42-72 in (north deeper) | Snow: 35-70 psf | Wind: 110-120 mph | Seismic: SDC A | Climate: 6A-7
+
+## Local Permit Authority
+**Stevens Co Building Official**
+Phone: (320)589-7420
+Address: 400 Colorado Ave,Morris,MN 56267
+
+## County Notes
+Western MN.UMN Morris.Pomme de Terre River.
+
+## State Resources
+MN DLI Building Codes: (651) 284-5005 | https://www.dli.mn.gov/
