@@ -131,6 +131,94 @@
 - Westchester Medical Center â€” Valhalla â€” Level I Trauma â€” https://www.westchestermedicalcenter.org/
 - Maimonides Medical Center â€” Brooklyn â€” https://www.maimonidesmed.org/
 
+## Additional Universities & Colleges with Health Programs
+- Stony Brook University — Health Sciences Center — https://www.stonybrook.edu/healthsciences/
+- Binghamton University — Decker College of Nursing and Health Sciences — https://www.binghamton.edu/nursing/
+- SUNY Cortland — Health Sciences — https://www2.cortland.edu/
+- SUNY Fredonia — Health Sciences — https://www.fredonia.edu/
+- SUNY Geneseo — Health Sciences — https://www.geneseo.edu/
+- SUNY New Paltz — Health Sciences — https://www.newpaltz.edu/
+- SUNY Oneonta — Health Sciences — https://www.sunyononta.edu/
+- SUNY Oswego — Health Sciences — https://www.oswego.edu/
+- SUNY Plattsburgh — Nursing, Health Sciences — https://www.plattsburgh.edu/
+- SUNY Potsdam — Health Sciences — https://www.potsdam.edu/
+- SUNY College of Environmental Science and Forestry — Environmental Health — https://www.esf.edu/
+- CUNY Hunter College — Nursing, Health Sciences — https://www.hunter.cuny.edu/
+- CUNY Lehman College — Nursing, Health Sciences — https://www.lehman.edu/
+- CUNY College of Staten Island — Nursing — https://www.csi.cuny.edu/
+- CUNY Medgar Evers College — Nursing — https://www.mec.cuny.edu/
+- CUNY Bronx Community College — Nursing (ADN) — https://www.bcc.cuny.edu/nursing/
+- Syracuse University — Health Sciences — https://www.syracuse.edu/
+- Cornell University — College of Human Ecology — Health Sciences — https://www.human.cornell.edu/
+- Ithaca College — Health Sciences, PT, OT, SLP — https://www.ithaca.edu/
+- Nazareth University — Nursing, PT, SLP — Rochester — https://www.naz.edu/
+- St. Bonaventure University — Health Sciences — https://www.sbu.edu/
+- Niagara University — Nursing — https://www.niagara.edu/nursing/
+- Canisius University — Health Sciences — Buffalo — https://www.canisius.edu/
+- Alfred University — Health Sciences — https://www.alfred.edu/
+- Houghton University — Health Sciences — https://www.houghton.edu/
+- Keuka College — Nursing — https://www.keuka.edu/nursing/
+- Elmira College — Nursing — https://www.elmira.edu/nursing/
+- Russell Sage College — Nursing, OT, PT — Troy — https://www.sage.edu/
+- Mercy University — Nursing, PA, OT, PT — https://www.mercy.edu/
+- Mount Saint Mary College — Nursing — Newburgh — https://www.msmc.edu/nursing/
+- College of Mount Saint Vincent — Nursing — Bronx — https://www.mountsaintvincent.edu/nursing/
+- St. Joseph’s University New York — Nursing — https://www.sjny.edu/nursing/
+- Wagner College — Nursing, PA — Staten Island — https://www.wagner.edu/
+- Hartwick College — Nursing — Oneonta — https://www.hartwick.edu/nursing/
+- Utica University — Nursing, PT, OT — https://www.utica.edu/
+- Clarkson University — PA, PT, OT — Potsdam — https://www.clarkson.edu/
+- Excelsior University — Nursing — Albany — https://www.excelsior.edu/nursing/
+
+## Additional Tribal Health Facilities
+- Cayuga Nation Health Department — Seneca Falls — https://www.cayuganation.com/
+- Unkechaug Indian Nation Health — Mastic — https://www.poospatucksmoke.com/
+
+## Additional Military Medical Facilities
+- US Military Academy West Point — Keller Army Community Hospital — https://www.keller.amedd.army.mil/
+- Fort Drum — Guthrie Ambulatory Health Care Clinic — https://www.drum.amedd.army.mil/
+- Fort Drum — MEDDAC — https://www.drum.amedd.army.mil/
+- Fort Hamilton — Army Health Clinic — Brooklyn — https://www.hamilton.amedd.army.mil/
+- US Coast Guard Sector New York — Staten Island — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Sector Buffalo — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Sector Long Island Sound — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Station Montauk — https://www.atlanticarea.uscg.mil/
+- New York Air National Guard — 105th Medical Group — Newburgh — https://www.105aw.ang.af.mil/
+- New York Air National Guard — 106th Medical Group — Westhampton Beach — https://www.106rqw.ang.af.mil/
+- New York Air National Guard — 107th Medical Group — Niagara Falls — https://www.niagarafalls.afrc.af.mil/
+- New York Air National Guard — 109th Medical Group — Scotia — https://www.109aw.ang.af.mil/
+- New York Air National Guard — 174th Medical Group — Syracuse — https://www.hancockfield.ang.af.mil/
+- New York Army National Guard Medical Detachment — Latham — https://www.ny.ng.mil/
+- Naval Support Activity Saratoga Springs — Medical — https://www.cnic.navy.mil/
+
+## Additional Rural Hospitals
+- Auburn Community Hospital — https://www.auburnhospital.org/
+- Canton-Potsdam Hospital — https://www.cphospital.org/
+- Cayuga Medical Center — Ithaca — https://www.cayugamedicalcenter.org/
+- Clifton Springs Hospital — https://www.rochesterregional.org/
+- Columbia Memorial Health — Hudson — https://www.columbiamemorialhealth.org/
+- Cortland Regional Medical Center (Guthrie) — https://www.guthrie.org/
+- Garnet Health Medical Center — Middletown — https://www.garnethealth.org/
+- Geneva General Hospital — https://www.flhealth.org/
+- Glens Falls Hospital — https://www.glensfallshospital.org/
+- Massena Hospital — https://www.massenahospital.org/
+- Mount St. Mary’s Hospital — Lewiston — https://www.chsbuffalo.org/
+- Newark-Wayne Community Hospital — https://www.rochesterregional.org/
+- Northern Dutchess Hospital — Rhinebeck — https://www.nuvancehealth.org/
+- Oneida Health — https://www.oneidahealth.org/
+- Oswego Health — https://www.oswegohealth.org/
+- Rome Health — https://www.romehealth.org/
+- Samaritan Medical Center — Watertown — https://www.samaritanhealth.com/
+- St. Elizabeth Medical Center — Utica — https://www.mvhealthsystem.org/
+- St. Luke’s Cornwall Hospital — Newburgh — https://www.montefiorehealthsystem.org/
+- St. Mary’s Healthcare — Amsterdam — https://www.smha.org/
+- United Health Services — Binghamton/Johnson City — https://www.nyuhs.org/
+- University of Vermont Health Network — CVPH (Plattsburgh) — https://www.cvph.org/
+- UPMC Chautauqua — Jamestown — https://www.upmcchautauqua.org/
+- Vassar Brothers Medical Center — Poughkeepsie — https://www.nuvancehealth.org/
+- Wynn Hospital (Mohawk Valley Health System) — Utica — https://www.mvhealthsystem.org/
+- Wyoming County Community Health System — Warsaw — https://www.wcchs.net/
+
 ## State Health Agencies
 - New York State Department of Health â€” https://www.health.ny.gov/
 - New York State Education Department â€” Office of the Professions (Medicine) â€” https://www.op.nysed.gov/
