@@ -3,6 +3,7 @@
 ## Studios & Workshops
 - Mount Sequoyah Center — https://www.mountsequoyah.org/
 - Fayetteville Underground — https://www.fayettevilleunderground.com/
+- Crystal Bridges Studio Programs — https://www.crystalbridges.org/
 
 ## Art Supply
 - Hobby Lobby — https://www.hobbylobby.com/
