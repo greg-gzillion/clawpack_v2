@@ -79,6 +79,65 @@
 - Northeastern Nevada Regional Hospital â€” Elko â€” https://www.nnrhospital.com/
 - Banner Churchill Community Hospital â€” Fallon â€” https://www.bannerhealth.com/
 
+
+## Additional Rural Hospitals (Complete)
+- Battle Mountain General Hospital — https://www.battlemountainhospital.org/
+- Grover C. Dils Medical Center — Caliente — https://www.gcdmc.org/
+- Humboldt General Hospital — Winnemucca — https://www.hghospital.org/
+- Mt. Grant General Hospital — Hawthorne — https://www.mtgrantgenhospital.org/
+- Pershing General Hospital — Lovelock — https://www.pershinghospital.com/
+- South Lyon Medical Center — Yerington — https://www.southlyonmedicalcenter.org/
+- William Bee Ririe Hospital — Ely — https://www.wbrhely.org/
+
+## Additional Educational Programs
+- College of Southern Nevada — Health Sciences (all programs) — https://www.csn.edu/health
+  - Dental Hygiene — https://www.csn.edu/dental-hygiene
+  - Medical Assisting — https://www.csn.edu/medical-assisting
+  - Physical Therapist Assistant — https://www.csn.edu/pta
+  - Radiation Therapy — https://www.csn.edu/radiation-therapy
+  - Surgical Technology — https://www.csn.edu/surgical-technology
+  - Diagnostic Medical Sonography — https://www.csn.edu/sonography
+- Truckee Meadows Community College — Health Sciences — https://www.tmcc.edu/health
+  - Dental Assisting — https://www.tmcc.edu/dental-assisting
+  - Paramedic — https://www.tmcc.edu/paramedic
+  - Radiologic Technology — https://www.tmcc.edu/radiology
+- Great Basin College — Health Sciences — https://www.gbcnv.edu/
+  - Paramedic — https://www.gbcnv.edu/paramedic
+- Western Nevada College — Health Sciences — https://www.wnc.edu/
+- Nevada State University — Health Sciences — https://www.nevadastate.edu/
+  - Radiography — https://www.nevadastate.edu/radiography
+  - Medical Laboratory Science — https://www.nevadastate.edu/mlab
+
+## Tribal Health (Complete)
+- Reno-Sparks Indian Colony Tribal Health Center — Reno — https://www.rsic.org/
+- Pyramid Lake Paiute Tribe Health Clinic — Nixon — https://www.plpt.nsn.us/
+- Walker River Paiute Tribe Health Center — Schurz — https://www.wrpt.us/
+- Duck Valley Shoshone-Paiute Health Clinic — Owyhee — https://www.ihs.gov/phoenix/
+- Fallon Paiute-Shoshone Tribe Health Center — Fallon — https://www.fpst.org/
+- Yerington Paiute Tribe Health Clinic — Yerington — https://www.yeringtonpaiute.us/
+- Moapa Band of Paiutes Health Clinic — Moapa — https://www.moapabandofpaiutes.com/
+- Las Vegas Paiute Tribe Health — Las Vegas — https://www.lvpaiute.com/
+- Washoe Tribe of Nevada and California Health — Gardnerville — https://www.washoetribe.us/
+- Ely Shoshone Tribe Health — Ely — https://www.elyshoshonetribe-nsn.gov/
+- Elko Band Council Health — Elko — https://www.elkoband.org/
+- Fort McDermitt Paiute-Shoshone Health — McDermitt — https://www.ihs.gov/phoenix/
+- Goshute Tribe Health — Ibapah — https://www.ihs.gov/phoenix/
+- Summit Lake Paiute Tribe Health — https://www.summitlaketribe.org/
+- Winnemucca Indian Colony Health — https://www.winnemuccacolony.com/
+- Lovelock Paiute Tribe Health — https://www.lovelockpaiutetribe-nsn.gov/
+
+## Military Medical Facilities (Complete)
+- Nellis Air Force Base — Mike O’Callaghan Military Medical Center — Las Vegas — https://www.nellis.af.mil/
+- Nellis AFB — 99th Medical Group — https://www.nellis.af.mil/
+- Creech Air Force Base — Medical Clinic — Indian Springs — https://www.creech.af.mil/
+- Naval Air Station Fallon — Medical Clinic — https://www.cnic.navy.mil/fallon
+- Nevada Air National Guard — 152nd Medical Group — Reno — https://www.152aw.ang.af.mil/
+- Nevada Army National Guard Medical Detachment — Carson City — https://www.nv.ng.mil/
+- US Coast Guard Sector San Francisco (serves Lake Tahoe) — https://www.atlanticarea.uscg.mil/
+- Hawthorne Army Depot — Medical Clinic — https://www.jmc.army.mil/hawthorne
+- Tonopah Test Range — Medical — https://www.sandia.gov/tonopah/
+
+
 ## State Health Agencies
 - Nevada Department of Health and Human Services â€” https://www.dhhs.nv.gov/
 - Nevada State Board of Medical Examiners â€” https://www.medboard.nv.gov/
