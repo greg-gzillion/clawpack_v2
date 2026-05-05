@@ -1,37 +1,40 @@
 # Northwest Arctic Borough — Local Law Resources
 
 ## Law Enforcement
-- Kotzebue Police Department — (907) 442-3351 — https://www.kotzebuepolice.org/
+- Kotzebue Police Department — 258 3rd Ave, Kotzebue, AK 99752 — (907) 442-3351 — https://www.kotzebuepolice.org/
 - Alaska State Troopers — Kotzebue Post — (907) 442-3222 — https://www.dps.alaska.gov/
-- Alaska Wildlife Troopers — Kotzebue — (907) 442-3222
-- VPSOs — Ambler, Buckland, Deering, Kiana, Kivalina, Kobuk, Noatak, Noorvik, Selawik, Shungnak
+- Alaska Wildlife Troopers — Kotzebue — https://www.dps.alaska.gov/AWT/
+- Village Public Safety Officers (VPSOs) — Ambler, Buckland, Deering, Kiana, Kivalina, Kobuk, Noatak, Noorvik, Selawik, Shungnak
 
 ## Courts
-- Kotzebue Courthouse — 605 3rd Ave — (907) 442-3200 — https://public.courts.alaska.gov/
+- Kotzebue Courthouse — 605 3rd Ave, Kotzebue, AK 99752 — (907) 442-3202 — https://public.courts.alaska.gov/
+- District Court, Superior Court
 
 ## Fish & Game
 - ADF&G Kotzebue Office — (907) 442-3420 — https://www.adfg.alaska.gov/
-- Subsistence: caribou (Western Arctic herd), moose, sheefish, salmon, whitefish
-- Marine mammal subsistence: beluga, seal
-- Major caribou hunting enforcement area
+- Subsistence priority — caribou (Western Arctic herd), moose, sheefish, salmon, waterfowl
+- Marine mammal subsistence — beluga whale, seal
+- Kobuk River, Noatak River, Selawik River — major subsistence fisheries
 
-## Tribal Law
+## Tribal Courts & Native Law
+- Maniilaq Association — Kotzebue — https://www.maniilaq.org/
 - NANA Regional Corporation Legal — Kotzebue — https://www.nana.com/
-- Maniilaq Association — https://www.maniilaq.org/
-- Native Village of Kotzebue IRA — https://www.kotzebueira.org/
-- Northwest Arctic Borough — tribal relations
+- Northwest Arctic Borough Tribal Courts — active in most villages through IRA councils
+- Village tribal councils: Ambler, Buckland, Deering, Kiana, Kivalina, Kobuk, Noatak, Noorvik, Selawik, Shungnak
 
 ## Legal Aid
-- Alaska Legal Services — statewide — (907) 272-9431
-- Alaska Public Defender — Kotzebue — (907) 442-2500
-- Maniilaq Counseling — (907) 442-7640
+- Alaska Legal Services Corporation — statewide — (907) 272-9431
+- Alaska Public Defender — Kotzebue Office — (907) 442-2500 — https://www.alaskapublicdefender.org/
+- Maniilaq Counseling & Recovery — (907) 442-7340
 
-## Military
-- Alaska National Guard — Kotzebue Armory — https://www.ak.ng.mil/
+## Military & Coast Guard
+- No active-duty military bases in Northwest Arctic Borough
+- USCG seasonal presence — Kotzebue — https://www.atlanticarea.uscg.mil/
 
 ## Municipal
 - Northwest Arctic Borough Attorney — (907) 442-2500 — https://www.nwabor.org/
-- City of Kotzebue — https://www.kotzebue.org/
+- City of Kotzebue Attorney — (907) 442-3401 — https://www.kotzebue.org/
 
 ## Corrections
-- Served by Nome Anvil Mountain Correctional Center
+- Kotzebue Regional Jail (temporary holding) — (907) 442-3222
+- Closest DOC facility: Anvil Mountain Correctional Center — Nome — (907) 443-5300

@@ -2,33 +2,40 @@
 
 ## Law Enforcement
 - Alaska State Troopers — Glennallen Post — (907) 822-3263 — https://www.dps.alaska.gov/
-- Alaska Wildlife Troopers — Glennallen
-- Village Public Safety Officers — rural communities
+- Alaska Wildlife Troopers — Glennallen — (907) 822-3263 — https://www.dps.alaska.gov/AWT/
+- No municipal police departments — State Troopers provide all law enforcement
 
 ## Courts
-- Glennallen Courthouse — (907) 822-3402 — https://public.courts.alaska.gov/
+- Glennallen Courthouse — (907) 822-3260 — https://public.courts.alaska.gov/
+- District Court with magistrate judge
 
 ## Fish & Game
-- ADF&G Glennallen Office — (907) 822-3309 — https://www.adfg.alaska.gov/
-- Copper River salmon fishery — subsistence priority
-- Moose, caribou hunting — major enforcement area
-- Wrangell-St. Elias National Park — NPS enforcement
+- ADF&G Glennallen Office — (907) 822-3461 — https://www.adfg.alaska.gov/
+- Copper River — world-class salmon (sockeye and king), subsistence dipnet fishery
+- Moose, caribou (Nelchina herd — very popular hunting area), dall sheep, brown bear, black bear
+- Extensive hunting management — Tier II subsistence hunt areas
+- Wrangell-St. Elias National Park — NPS — https://www.nps.gov/wrst/
+- Sport fishing — Gulkana River, Klutina River, Tonsina River, Tiekel River
 
 ## Tribal Law
-- Ahtna Inc. Legal — Glennallen — https://www.ahtna-inc.com/
+- Ahtna Inc. Legal — Glennallen — https://www.ahtna.com/
+- Cheesh'na Tribal Council (Chistochina)
+- Gulkana Village Council
+- Mentasta Traditional Council
 - Copper River Native Association — https://www.crnative.org/
-- Cheesh’na Tribal Council (Chistochina) — https://www.ahtna-inc.com/
-- Gulkana Village Council — https://www.ahtna-inc.com/
-- Mentasta Traditional Council — https://www.ahtna-inc.com/
 
 ## Legal Aid
-- Alaska Legal Services — statewide — (907) 272-9431
-- Alaska Public Defender — served by Palmer — (907) 746-4540
+- Alaska Legal Services — Fairbanks — (907) 452-5181
+- Alaska Public Defender — Fairbanks — (907) 456-4710
+
+## Military
+- No active-duty military bases
 
 ## Municipal
 - Unorganized borough — no borough government
-- City of Glennallen — https://www.glennallen.net/
-- City of Kenny Lake (unincorporated)
+- No incorporated cities within the census area — Glennallen, Kenny Lake, Copper Center are unincorporated communities
+- Ahtna Inc. provides many community services
 
 ## Corrections
-- Served by Palmer Probation — (907) 745-4273
+- No holding facility in census area — nearest: Palmer Correctional Center — (907) 745-5092
+- Fairbanks Correctional Center — (907) 451-5101

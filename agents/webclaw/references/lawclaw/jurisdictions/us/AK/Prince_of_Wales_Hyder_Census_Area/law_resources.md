@@ -1,37 +1,51 @@
 # Prince of Wales-Hyder Census Area — Local Law Resources
 
 ## Law Enforcement
-- Craig Police Department — (907) 826-3330 — https://www.craigak.com/
-- Alaska State Troopers — Klawock Post — (907) 755-2232 — https://www.dps.alaska.gov/
-- Alaska Wildlife Troopers — POW Island
-- VPSOs — Coffman Cove, Hydaburg, Kasaan, Thorne Bay
+- Craig Police Department — 500 3rd St, Craig, AK 99921 — (907) 826-3330 — https://www.craigak.com/police
+- Alaska State Troopers — Craig Post — (907) 826-3350 — https://www.dps.alaska.gov/
+- Alaska State Troopers — Klawock Post — (907) 755-2224 — https://www.dps.alaska.gov/
+- Alaska Wildlife Troopers — Southeast — (907) 465-4000
+- Village Public Safety Officers — Kasaan, Hydaburg, Thorne Bay
 
 ## Courts
-- Prince of Wales Courthouse — Craig — (907) 826-3300 — https://public.courts.alaska.gov/
+- Prince of Wales Courthouse (Craig) — (907) 826-3306 — https://public.courts.alaska.gov/
+- District Court, Superior Court (traveling judge from Ketchikan)
 
 ## Fish & Game
 - ADF&G Craig Office — (907) 826-2561 — https://www.adfg.alaska.gov/
-- Commercial fishing: salmon, halibut, crab, geoduck, sea cucumber
-- Tongass National Forest — USFS enforcement
+- Major commercial fisheries: salmon (all 5 species), halibut, crab, shrimp, geoduck, sea cucumber
+- Subsistence hunting and fishing priority — deer, moose, bear, salmon
+- Sport fishing: steelhead, salmon, halibut, trout
+- Tongass National Forest — USFS — https://www.fs.usda.gov/tongass/
+- Prince of Wales Island — extensive USFS logging roads — hunting access
+- Klawock Lake, Thorne River, Harris River — sport fishing
+- Hyder — salmon viewing (Fish Creek), bear viewing
 
 ## Tribal Law
-- Craig Tribal Association — https://www.craigtribe.org/
+- Organized Village of Kasaan — https://www.kasaan-nsn.gov/
 - Hydaburg Cooperative Association — https://www.hydaburg-nsn.gov/
-- Organized Village of Kasaan — https://www.kasaan.org/
+- Craig Tribal Association — https://www.craigtribe.org/
 - Klawock Cooperative Association — https://www.klawock-nsn.gov/
-- Sealaska Corporation — regional — https://www.sealaska.com/
+- Central Council of Tlingit & Haida — https://www.ccthita.org/
+- Sealaska Corporation Legal — https://www.sealaska.com/
 
 ## Legal Aid
-- Alaska Legal Services — statewide — (907) 272-9431
-- Alaska Public Defender — served by Juneau — (907) 465-2200
+- Alaska Legal Services — Juneau Office — (907) 586-6425
+- Alaska Public Defender — Ketchikan/Juneau — (907) 465-2200
+
+## Military & Coast Guard
+- USCG Station Ketchikan — serves Prince of Wales waters
 
 ## Municipal
 - City of Craig — https://www.craigak.com/
-- City of Klawock — https://www.cityofklawock.com/
-- City of Coffman Cove — https://www.coffmancove.org/
-- City of Thorne Bay — https://www.thornebay-ak.gov/
-- City of Hydaburg — https://www.hydaburg-nsn.gov/
-- Hyder — unincorporated
+- City of Klawock
+- City of Thorne Bay
+- City of Hydaburg
+- City of Kasaan
+- City of Coffman Cove
+- Community of Hyder — unincorporated, accessible only from Canada (Stewart, BC)
+- Unorganized borough — no county-level government
 
 ## Corrections
-- Served by Ketchikan Correctional Center — (907) 225-3375
+- Nearest DOC facility: Ketchikan Correctional Center — (907) 225-3375
+- Holding facilities in Craig

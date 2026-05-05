@@ -1,42 +1,44 @@
 # North Slope Borough — Local Law Resources
 
 ## Law Enforcement
-- North Slope Borough Police Department — Utqiagvik — (907) 852-6111 — https://www.north-slope.org/
+- North Slope Borough Police Department — 1078 Kiogak St, Utqiagvik, AK 99723 — (907) 852-6111 — https://www.north-slope.org/departments/police-department/
 - Alaska State Troopers — Utqiagvik Post — (907) 852-6100 — https://www.dps.alaska.gov/
-- Alaska Wildlife Troopers — Utqiagvik — (907) 852-6100
-- Village Public Safety Officers — Anaktuvuk Pass, Atqasuk, Kaktovik, Nuiqsut, Point Hope, Point Lay, Wainwright
+- Alaska Wildlife Troopers — Utqiagvik — (907) 852-6100 — https://www.dps.alaska.gov/AWT/
+- Village Public Safety Officers (VPSOs) — Anaktuvuk Pass, Atqasuk, Kaktovik, Nuiqsut, Point Hope, Point Lay, Wainwright
 
 ## Courts
-- Utqiagvik Courthouse — 1250 Agvik St — (907) 852-4800 — https://public.courts.alaska.gov/
-- District Court, Superior Court
+- Utqiagvik Courthouse — 1250 Agvik St, Utqiagvik, AK 99723 — (907) 852-4800 — https://public.courts.alaska.gov/
+- District Court, Superior Court, Family Court
 
 ## Fish & Game
 - ADF&G Utqiagvik Office — (907) 852-3466 — https://www.adfg.alaska.gov/
-- Marine mammal subsistence hunting: bowhead whale, walrus, seal, beluga — co-managed with Alaska Eskimo Whaling Commission
-- Caribou (Western Arctic, Teshekpuk, Central Arctic herds), polar bear, muskox
-- NOAA Fisheries enforcement — marine mammals
+- Subsistence hunting priority — bowhead whale, beluga, walrus, seal, polar bear, caribou, waterfowl
+- Marine mammal co-management — Alaska Eskimo Whaling Commission (AEWC)
+- Federal subsistence regulations — USFWS, NOAA enforcement
 
-## Tribal Law
-- Arctic Slope Regional Corporation (ASRC) Legal — Utqiagvik — https://www.asrc.com/
-- Arctic Slope Native Association — https://www.arcticslope.org/
-- Inupiat Community of the Arctic Slope — https://www.inupiatgov.org/
-- Native Village of Barrow Tribal Court — https://www.utqiagvik.us/
-- Alaska Eskimo Whaling Commission — https://www.aewc-alaska.org/
+## Tribal Courts & Native Law
+- Arctic Slope Native Association (ASNA) — https://www.arcticslope.org/
+- Arctic Slope Regional Corporation Legal — 3900 C St, Anchorage — https://www.asrc.com/
+- Inupiat Community of the Arctic Slope (ICAS) — https://www.inupiatgov.org/
+- Ukpeagvik Inupiat Corporation (UIC) — https://www.uicalaska.com/
+- Village IRA councils: Utqiagvik, Anaktuvuk Pass, Atqasuk, Kaktovik, Nuiqsut, Point Hope, Point Lay, Wainwright
 
 ## Legal Aid
-- Alaska Legal Services — statewide — (907) 272-9431
-- Alaska Public Defender — served by Fairbanks — (907) 456-4710
-- NSB Health Department — behavioral health/legal advocacy
+- Alaska Legal Services Corporation — statewide — (907) 272-9431 — https://www.alsc-law.org/
+- Alaska Public Defender — Fairbanks (serves North Slope) — (907) 456-4710 — https://www.alaskapublicdefender.org/
+- Arctic Women in Crisis — (907) 852-0261
+- North Slope Borough Health & Social Services — https://www.north-slope.org/
 
-## Military
-- US Coast Guard (nearest: Kodiak, no NSB base)
-- Alaska National Guard — Barrow Armory — https://www.ak.ng.mil/
+## Military & Coast Guard
+- No active-duty military bases in North Slope Borough
+- USCG Station Barrow (seasonal) — https://www.atlanticarea.uscg.mil/
+- Alaska National Guard — Utqiagvik Armory — https://www.ak.ng.mil/
 
 ## Municipal
 - North Slope Borough Attorney — 1274 Agvik St, Utqiagvik — (907) 852-2611 — https://www.north-slope.org/
-- NSB Code — https://www.north-slope.org/
-- NSB Search and Rescue — (907) 852-2828
+- North Slope Borough Code — https://www.north-slope.org/
+- City of Utqiagvik — https://www.utqiagvik.us/
 
-## Subsistence
-- Federal Subsistence Board — Arctic region
-- Bureau of Land Management — National Petroleum Reserve-Alaska (NPR-A) enforcement
+## Corrections
+- North Slope Borough pretrial services — Utqiagvik — (907) 852-6111
+- Closest DOC facility: Fairbanks Correctional Center — (907) 451-5101

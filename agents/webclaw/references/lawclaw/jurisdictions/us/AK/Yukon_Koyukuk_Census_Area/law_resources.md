@@ -2,48 +2,59 @@
 
 ## Law Enforcement
 - Alaska State Troopers — Galena Post — (907) 656-1333 — https://www.dps.alaska.gov/
-- Alaska State Troopers — served by Fairbanks for eastern areas — (907) 451-5100
-- VPSOs — Allakaket, Anvik, Arctic Village, Beaver, Bettles, Birch Creek, Central, Chalkyitsik, Circle, Evansville, Fort Yukon, Galena, Grayling, Holy Cross, Hughes, Huslia, Kaltag, Koyukuk, Lake Minchumina, Manley Hot Springs, McGrath, Minto, Nenana, Nikolai, Nulato, Rampart, Ruby, Shageluk, Stevens Village, Takotna, Tanana, Venetie
+- Alaska State Troopers — Fairbanks (serves rural villages) — (907) 451-5100
+- Alaska Wildlife Troopers — Galena — https://www.dps.alaska.gov/AWT/
+- Village Public Safety Officers — numerous villages throughout the Yukon and Koyukuk river systems
+- Fort Yukon has limited law enforcement presence
 
 ## Courts
-- Galena Courthouse — served by Fairbanks — (907) 452-9241 — https://public.courts.alaska.gov/
-- Fort Yukon — served by Fairbanks
-- Nenana — served by Fairbanks
+- Galena Courthouse — (907) 656-1366 — https://public.courts.alaska.gov/
+- Fort Yukon Courthouse — (907) 662-2515 — https://public.courts.alaska.gov/
+- District Court — magistrate judges in most locations
 
 ## Fish & Game
 - ADF&G Galena Office — (907) 656-1340 — https://www.adfg.alaska.gov/
-- ADF&G McGrath Office — (907) 524-3323
-- Yukon River subsistence salmon fishery — major priority
-- Moose, caribou, bear, waterfowl subsistence
-- Yukon-Charley Rivers National Preserve — NPS
-- Nowitna National Wildlife Refuge — USFWS
-- Koyukuk National Wildlife Refuge — USFWS
+- Yukon River salmon fishery — major subsistence and commercial fishery
+- Moose, caribou (Western Arctic, Galena Mountain herds), black bear, grizzly bear
+- Subsistence hunting and fishing priority throughout census area
+- Federal subsistence management — Yukon Flats NWR, Koyukuk NWR, Innoko NWR, Nowitna NWR
+- Sheefish, whitefish, pike, burbot, grayling — important subsistence species
 
 ## Tribal Law
-- Tanana Chiefs Conference Legal — Fairbanks — https://www.tananachiefs.org/
-- Doyon Limited Legal — https://www.doyon.com/
-- Gwich’in Steering Committee — Fort Yukon area
-- Council of Athabascan Tribal Governments (CATG) — Fort Yukon — https://www.catg.org/
-- Galena Village Council (Louden Tribal Council) — https://www.galenaalaska.com/
-- Koyukuk Tribal Council
-- Nulato Tribal Council
-- Ruby Tribal Council
-- Tanana Tribal Council
+- Galena Village Council (Louden Tribe) — Koyukon Athabascan
+- Fort Yukon Tribal Council (Gwich'in) — https://www.tananachiefs.org/
+- Venetie Village Council (Gwich'in) — https://www.venetie-nsn.gov/
+- Arctic Village Council (Gwich'in) — https://www.tananachiefs.org/
+- Tanana Tribal Council (Koyukon)
+- Huslia Tribal Council (Koyukon)
+- Hughes Tribal Council (Koyukon)
+- Allakaket Tribal Council (Koyukon)
+- Ruby Tribal Council (Koyukon)
+- Nulato Tribal Council (Koyukon)
+- Kaltag Tribal Council (Koyukon)
+- Grayling Tribal Council (Holikachuk)
+- Holy Cross Tribal Council
+- Tanana Chiefs Conference — regional support — https://www.tananachiefs.org/
+- Doyon Limited Legal — Fairbanks — https://www.doyon.com/
 
 ## Legal Aid
-- Alaska Legal Services — statewide — (907) 272-9431
-- Alaska Public Defender — served by Fairbanks — (907) 456-4710
+- Alaska Legal Services — Fairbanks Office — (907) 452-5181
+- Alaska Public Defender — Fairbanks — (907) 456-4710
+- Tanana Chiefs Conference Legal Services — (907) 452-8251
 
 ## Military
-- Fort Yukon Air Force Station (historic, now inactive)
-- Alaska National Guard — Galena Armory — https://www.ak.ng.mil/
+- No active-duty military bases
+- Galena Air Force Station (formerly active, now minimal presence)
 
 ## Municipal
-- Unorganized census area — no borough
+- Unorganized borough — no borough government
 - City of Galena — https://www.galenaalaska.com/
 - City of Fort Yukon — https://www.fortyukon.org/
-- City of McGrath — https://www.mcgrathalaska.net/
-- City of Nenana — https://www.cityofnenana.com/
+- City of Tanana
+- City of Huslia
+- Numerous unincorporated villages
 
 ## Corrections
-- Served by Fairbanks Correctional Center — (907) 451-5101
+- Yukon-Kuskokwim Correctional Center (Bethel) — nearest major facility — (907) 543-5100
+- Fairbanks Correctional Center — (907) 451-5101
+- Limited holding facilities in Galena, Fort Yukon
