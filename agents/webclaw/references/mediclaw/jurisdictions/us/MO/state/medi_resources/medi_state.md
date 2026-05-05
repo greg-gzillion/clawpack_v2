@@ -99,6 +99,22 @@
 - Logan University â€” Chiropractic â€” Chesterfield â€” https://www.logan.edu/
 - Cleveland University-Kansas City â€” Chiropractic â€” Overland Park, KS (serves KC metro) â€” https://www.cleveland.edu/
 
+## Additional University Health Programs
+- Lindenwood University — Public Health — St. Charles — https://www.lindenwood.edu/
+- Drury University — Health Sciences — Springfield — https://www.drury.edu/
+- Evangel University — Health Sciences — Springfield — https://www.evangel.edu/
+- Fontbonne University — Health Sciences — St. Louis — https://www.fontbonne.edu/
+- Park University — Health Sciences — Parkville — https://www.park.edu/health-sciences/
+- Columbia College — Nursing (RN-BSN) — Columbia — https://www.ccis.edu/nursing
+- Culver-Stockton College — Health Sciences — Canton — https://www.culver.edu/
+- Westminster College — Health Sciences — Fulton — https://www.wcmo.edu/
+- Missouri Valley College — Health Sciences — Marshall — https://www.moval.edu/
+- William Woods University — Health Sciences — Fulton — https://www.williamwoods.edu/
+- St. Louis Community College — Health Sciences — https://www.stlcc.edu/
+- Metropolitan Community College — Health Sciences — Kansas City — https://www.mcckc.edu/
+- State Technical College of Missouri — Health Sciences — Linn — https://www.statetechmo.edu/
+- Ozarks Technical Community College — Health Sciences — Springfield — https://www.otc.edu/
+
 ## Major Hospital Systems
 - BJC HealthCare â€” 15 hospitals â€” St. Louis â€” https://www.bjc.org/
 - Mercy â€” 30+ hospitals â€” statewide â€” https://www.mercy.net/
