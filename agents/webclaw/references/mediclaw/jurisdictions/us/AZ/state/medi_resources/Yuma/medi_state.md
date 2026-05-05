@@ -1,11 +1,7 @@
 # Yuma Medical Resources
 
-## Hospitals
-- Yuma Regional Medical Center — 2400 S Ave A, Yuma, AZ 85364 — https://www.yumaregional.org/ — (928) 344-2000 — 406 beds
+## Nursing Schools
+- Arizona Western College — Nursing (ADN) — https://www.azwestern.edu/nursing
 
-## Emergency
-- Yuma Regional Medical Center ER — (928) 344-2000 — 24/7
-
-## Tribal Health
-- Quechan Indian Tribe Health — https://www.quechantribe.com/
-- Cocopah Indian Tribe Health — https://www.cocopah.com/
+## Major Hospitals
+- Yuma Regional Medical Center — 2400 S Ave A, Yuma, AZ 85364 — (928) 344-2000
