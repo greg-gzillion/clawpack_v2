@@ -53,6 +53,25 @@
 - DinÃ© College (serves NM Navajo Nation) â€” Health Sciences â€” https://www.dinecollege.edu/
 - Institute of American Indian Arts (IAIA) â€” Health Sciences â€” Santa Fe â€” https://www.iaia.edu/
 
+## Additional University Health Programs
+- New Mexico Highlands University — Health Sciences, Nursing — Las Vegas — https://www.nmhu.edu/
+- New Mexico Institute of Mining and Technology (New Mexico Tech) — Biomedical Sciences — Socorro — https://www.nmt.edu/
+- St. John’s College — Pre-Health — Santa Fe — https://www.sjc.edu/
+- University of the Southwest — Health Sciences — Hobbs — https://www.usw.edu/
+- Navajo Technical University — Health Sciences, Nursing — Crownpoint — https://www.navajotech.edu/
+- Eastern New Mexico University-Roswell — Health Sciences — https://www.roswell.enmu.edu/
+- Eastern New Mexico University-Ruidoso — Health Sciences — https://www.ruidoso.enmu.edu/
+- New Mexico State University-Alamogordo — Health Sciences — https://www.alamogordo.nmsu.edu/
+- New Mexico State University-Carlsbad — Health Sciences — https://www.carlsbad.nmsu.edu/
+- New Mexico State University-Grants — Health Sciences — https://www.grants.nmsu.edu/
+
+## Additional Tribal Colleges
+- Navajo Technical University — Nursing — Crownpoint — https://www.navajotech.edu/
+- Southwestern Indian Polytechnic Institute — Health Sciences, Pre-Nursing — Albuquerque — https://www.sipi.edu/
+- Diné College — Health Sciences — Crownpoint/Shiprock (serves NM Navajo) — https://www.dinecollege.edu/
+- Institute of American Indian Arts — Health & Wellness — Santa Fe — https://www.iaia.edu/
+- Haskell Indian Nations University (serves NM students) — Health Sciences — https://www.haskell.edu/
+
 ## Major Hospital Systems
 - University of New Mexico Hospital â€” Albuquerque â€” Level I Trauma â€” https://www.unmhealth.org/
 - Presbyterian Healthcare Services â€” Albuquerque/statewide â€” https://www.phs.org/
