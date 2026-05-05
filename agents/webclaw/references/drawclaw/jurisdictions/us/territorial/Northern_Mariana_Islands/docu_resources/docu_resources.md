@@ -1,13 +1,14 @@
 # Northern Mariana Islands Documentation Resources
 
 ## Government
-- Government of Northern Mariana Islands — https://www.mp.gov/
-- Northern Mariana Islands Legislature — https://www.mp.gov/
-- Northern Mariana Islands Court System — https://www.mp.gov/
+- CNMI Government — https://www.gov.mp/
+- CNMI Legislature — https://www.cnmileg.gov/
+- CNMI Judiciary — https://www.justice.gov.mp/
 
 ## Libraries
-- Northern Mariana Islands Public Library — https://www.mp.gov/
-- University Libraries
+- Joeten-Kiyu Public Library — https://www.cnmilibrary.org/
+- NMC Library — https://www.marianas.edu/
 
 ## Research
-- Northern Mariana Islands Archives
+- CNMI Museum of History and Culture — https://www.nmihcouncil.org/
+- CNMI Historic Preservation Office — https://www.hpo.gov.mp/

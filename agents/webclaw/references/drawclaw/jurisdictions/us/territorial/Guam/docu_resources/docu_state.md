@@ -1,18 +1,16 @@
 # Guam Writing & Documentation Resources
 
 ## University Writing Programs
-- University of Guam System
-- Community College Writing Programs
+- University of Guam — Division of English & Applied Linguistics — https://www.uog.edu/class/english/
+- Guam Community College — English/Communications — https://www.guamcc.edu/
+- Pacific Islands University — Writing Program — https://www.piu.edu/
 
 ## Government
-- Guam Legislature — https://www.gu.gov/
-- Guam Supreme Court — https://www.gu.gov/
+- Guam Legislature — https://www.guamlegislature.gov/
+- Supreme Court of Guam — https://www.guamsupremecourt.com/
+- Government of Guam — https://www.guam.gov/
 
 ## Libraries & Research
-- Guam Public Library System — https://www.gu.gov/
-- University Libraries
-- Guam State Archives
-
-## Research & Writing Centers
-- Guam Humanities Council
-- Guam Arts Council
+- Guam Public Library System — https://www.gpls.guam.gov/
+- University of Guam Robert F. Kennedy Library — https://www.uog.edu/library/
+- Guam Museum Library — https://www.guammuseum.org/

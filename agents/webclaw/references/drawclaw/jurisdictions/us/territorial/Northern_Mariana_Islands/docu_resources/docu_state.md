@@ -1,18 +1,15 @@
 # Northern Mariana Islands Writing & Documentation Resources
 
 ## University Writing Programs
-- University of Northern Mariana Islands System
-- Community College Writing Programs
+- Northern Marianas College — English Department — https://www.marianas.edu/
+- NMC Writing Center — https://www.marianas.edu/
 
 ## Government
-- Northern Mariana Islands Legislature — https://www.mp.gov/
-- Northern Mariana Islands Supreme Court — https://www.mp.gov/
+- CNMI Legislature — https://www.cnmileg.gov/
+- CNMI Supreme Court — https://www.justice.gov.mp/
+- Government of the CNMI — https://www.gov.mp/
 
 ## Libraries & Research
-- Northern Mariana Islands Public Library System — https://www.mp.gov/
-- University Libraries
-- Northern Mariana Islands State Archives
-
-## Research & Writing Centers
-- Northern Mariana Islands Humanities Council
-- Northern Mariana Islands Arts Council
+- Joeten-Kiyu Public Library — https://www.cnmilibrary.org/
+- NMC Library — https://www.marianas.edu/
+- CNMI Archives — https://www.gov.mp/

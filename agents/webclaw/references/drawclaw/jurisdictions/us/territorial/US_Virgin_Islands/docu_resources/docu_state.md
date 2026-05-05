@@ -1,18 +1,16 @@
 # U.S. Virgin Islands Writing & Documentation Resources
 
 ## University Writing Programs
-- University of U.S. Virgin Islands System
-- Community College Writing Programs
+- University of the Virgin Islands — English Department — https://www.uvi.edu/academics/liberal-arts-social-sciences/english/
+- UVI St. Croix Campus — Writing Program — https://www.uvi.edu/
+- UVI St. Thomas Campus — Writing Program — https://www.uvi.edu/
 
 ## Government
-- U.S. Virgin Islands Legislature — https://www.vi.gov/
-- U.S. Virgin Islands Supreme Court — https://www.vi.gov/
+- Legislature of the Virgin Islands — https://www.legvi.org/
+- Supreme Court of the Virgin Islands — https://www.visupremecourt.org/
+- Government of the U.S. Virgin Islands — https://www.vi.gov/
 
 ## Libraries & Research
-- U.S. Virgin Islands Public Library System — https://www.vi.gov/
-- University Libraries
-- U.S. Virgin Islands State Archives
-
-## Research & Writing Centers
-- U.S. Virgin Islands Humanities Council
-- U.S. Virgin Islands Arts Council
+- Virgin Islands Public Library System — https://www.vi.gov/
+- UVI Libraries — https://www.uvi.edu/library/
+- Virgin Islands State Archives — https://www.vi.gov/
