@@ -163,6 +163,155 @@
 - FirstHealth of the Carolinas â€” Pinehurst â€” https://www.firsthealth.org/
 - HCA Healthcare NC â€” multiple â€” https://www.hcahealthcare.com/
 
+## Additional University Health Programs
+- Barton College — Nursing — Wilson — https://www.barton.edu/nursing/
+- University of Mount Olive — Nursing — https://www.umo.edu/nursing/
+- Gardner-Webb University — Nursing, PA — Boiling Springs — https://www.gardner-webb.edu/
+- Lenoir-Rhyne University — Nursing, PA, OT — Hickory — https://www.lr.edu/
+- Wingate University — PA, Pharmacy, PT — https://www.wingate.edu/
+- Elon University — PA, PT — https://www.elon.edu/
+- High Point University — PA, Pharmacy, PT — https://www.highpoint.edu/
+- Pfeiffer University — PA — https://www.pfeiffer.edu/pa/
+- Campbell University — DO, PA, Pharmacy, Nursing, PT — https://www.campbell.edu/
+- Methodist University — PA, Nursing, PT — https://www.methodist.edu/
+- Cabarrus College of Health Sciences — OT, Nursing — Concord — https://www.cabarruscollege.edu/
+
+## Military Medical Facilities (Complete)
+- Fort Liberty (Fort Bragg) — Womack Army Medical Center — Fayetteville — https://www.womack.amedd.army.mil/
+- Fort Liberty — Joel Health and Dental Clinic — https://www.womack.amedd.army.mil/
+- Fort Liberty — Robinson Health Clinic — https://www.womack.amedd.army.mil/
+- Fort Liberty — Clark Health Clinic — https://www.womack.amedd.army.mil/
+- Camp Lejeune — Naval Medical Center Camp Lejeune — Jacksonville — https://www.med.navy.mil/
+- Camp Lejeune — Camp Johnson Medical Clinic — https://www.med.navy.mil/
+- Camp Lejeune — Courthouse Bay Medical — https://www.med.navy.mil/
+- Marine Corps Air Station Cherry Point — Naval Health Clinic Cherry Point — https://www.cherrypoint.marines.mil/
+- Marine Corps Air Station New River — Medical Clinic — https://www.newriver.marines.mil/
+- Seymour Johnson Air Force Base — 4th Medical Group — Goldsboro — https://www.seymourjohnson.af.mil/
+- Coast Guard Sector North Carolina — Fort Macon/Elizabeth City — https://www.atlanticarea.uscg.mil/
+- Coast Guard Air Station Elizabeth City — Medical — https://www.atlanticarea.uscg.mil/
+- Coast Guard Base Elizabeth City — Medical — https://www.atlanticarea.uscg.mil/
+- North Carolina Army National Guard Medical Detachment — Raleigh — https://www.nc.ng.mil/
+- NC Air National Guard — 145th Medical Group — Charlotte — https://www.145aw.ang.af.mil/
+
+## VA Community Clinics (Complete)
+- Asheville VA Medical Center — https://www.va.gov/asheville-health-care/
+- Charlotte VA Clinic — https://www.va.gov/salisbury-health-care/
+- Durham VA Medical Center — https://www.va.gov/durham-health-care/
+- Fayetteville VA Medical Center — https://www.va.gov/fayetteville-health-care/
+- Goldsboro VA Clinic — https://www.va.gov/durham-health-care/
+- Greenville VA Clinic — https://www.va.gov/durham-health-care/
+- Hamlet VA Clinic — https://www.va.gov/fayetteville-health-care/
+- Hickory VA Clinic — https://www.va.gov/salisbury-health-care/
+- Jacksonville VA Clinic — https://www.va.gov/fayetteville-health-care/
+- Kernersville VA Clinic — https://www.va.gov/salisbury-health-care/
+- Morehead City VA Clinic — https://www.va.gov/durham-health-care/
+- Raleigh VA Clinic — https://www.va.gov/durham-health-care/
+- Robeson County VA Clinic — Pembroke — https://www.va.gov/fayetteville-health-care/
+- Salisbury VA Medical Center — https://www.va.gov/salisbury-health-care/
+- Supply VA Clinic — https://www.va.gov/fayetteville-health-care/
+- Wilmington VA Clinic — https://www.va.gov/fayetteville-health-care/
+- Winston-Salem VA Clinic — https://www.va.gov/salisbury-health-care/
+
+## Tribal Health (Complete)
+- Eastern Band of Cherokee Indians — Cherokee Indian Hospital — Cherokee — https://www.cherokeehospital.org/
+- Cherokee Tribal Health Pharmacy — https://www.cherokeehospital.org/
+- Snowbird Clinic (Cherokee) — Robbinsville — https://www.cherokeehospital.org/
+- Lumbee Tribe of North Carolina — Health Services — Pembroke — https://www.lumbeetribe.com/
+- Coharie Tribe — Health Services — Clinton — https://www.coharietribe.org/
+- Haliwa-Saponi Tribe — Health Services — Hollister — https://www.haliwa-saponi.org/
+- Waccamaw Siouan Tribe — Health Services — https://www.waccamaw-siouan.org/
+- Occaneechi Band of the Saponi Nation — Health Services — https://www.obsn.org/
+- Meherrin Tribe — Health Services — https://www.meherrin.org/
+
+## State Psychiatric Hospitals
+- Broughton Hospital — Morganton — https://www.ncdhhs.gov/
+- Central Regional Hospital — Butner — https://www.ncdhhs.gov/
+- Cherry Hospital — Goldsboro — https://www.ncdhhs.gov/
+- Julian F. Keith Alcohol and Drug Abuse Treatment Center — Black Mountain — https://www.ncdhhs.gov/
+- Walter B. Jones Alcohol and Drug Abuse Treatment Center — Greenville — https://www.ncdhhs.gov/
+- R.J. Blackley Alcohol and Drug Abuse Treatment Center — Butner — https://www.ncdhhs.gov/
+
+## Rural & Critical Access Hospitals
+- Alamance Regional Medical Center (Cone) — Burlington — https://www.conehealth.com/
+- Alleghany Health (Atrium) — Sparta — https://www.atriumhealth.org/
+- Angel Medical Center (Mission/HCA) — Franklin — https://www.missionhealth.org/
+- Ashe Memorial Hospital — Jefferson — https://www.ashememorial.org/
+- Atrium Health Anson — Wadesboro — https://www.atriumhealth.org/
+- Atrium Health Kings Mountain — https://www.atriumhealth.org/
+- Atrium Health Lincoln — Lincolnton — https://www.atriumhealth.org/
+- Atrium Health Stanly — Albemarle — https://www.atriumhealth.org/
+- Betsy Johnson Hospital (Harnett Health) — Dunn — https://www.capefearvalley.com/
+- Blue Ridge Regional Hospital (Mission/HCA) — Spruce Pine — https://www.missionhealth.org/
+- Caldwell Memorial Hospital (UNC) — Lenoir — https://www.unchealthcare.org/
+- Cape Fear Valley Bladen County Hospital — Elizabethtown — https://www.capefearvalley.com/
+- Cape Fear Valley Hoke Hospital — Raeford — https://www.capefearvalley.com/
+- CarolinaEast Medical Center — New Bern — https://www.carolinaeasthealth.org/
+- CaroMont Regional Medical Center — Gastonia — https://www.caromonthealth.org/
+- Carteret Health Care — Morehead City — https://www.carterethealth.org/
+- Catawba Valley Medical Center — Hickory — https://www.catawbavalleymedical.org/
+- Central Harnett Hospital — Lillington — https://www.centralharnetthospital.org/
+- Charles A. Cannon Jr. Memorial Hospital — Linville — https://www.apprhs.org/
+- Chatham Hospital (UNC) — Siler City — https://www.unchealthcare.org/
+- Cherokee Indian Hospital — Cherokee — https://www.cherokeehospital.org/
+- Columbus Regional Healthcare System — Whiteville — https://www.crhealthcare.org/
+- Davis Regional Medical Center — Statesville — https://www.davisregional.com/
+- Dosher Memorial Hospital — Southport — https://www.dosher.org/
+- ECU Health Bertie — Windsor — https://www.ecuhealth.org/
+- ECU Health Chowan — Edenton — https://www.ecuhealth.org/
+- ECU Health Duplin — Kenansville — https://www.ecuhealth.org/
+- ECU Health Edgecombe — Tarboro — https://www.ecuhealth.org/
+- ECU Health North — Roanoke Rapids — https://www.ecuhealth.org/
+- ECU Health Roanoke-Chowan — Ahoskie — https://www.ecuhealth.org/
+- FirstHealth Moore Regional Hospital — Pinehurst — https://www.firsthealth.org/
+- FirstHealth Montgomery Memorial — Troy — https://www.firsthealth.org/
+- FirstHealth Richmond Memorial — Rockingham — https://www.firsthealth.org/
+- Frye Regional Medical Center — Hickory — https://www.fryemedctr.com/
+- Granville Medical Center — Oxford — https://www.ghshospital.org/
+- Halifax Regional Medical Center (ECU) — Roanoke Rapids — https://www.ecuhealth.org/
+- Harris Regional Hospital — Sylva — https://www.mylifepoint.org/
+- Haywood Regional Medical Center — Clyde — https://www.mountainmedical.com/
+- Hugh Chatham Memorial Hospital — Elkin — https://www.hughchatham.org/
+- Iredell Memorial Hospital — Statesville — https://www.iredellhealth.org/
+- Johnston Health (UNC) — Smithfield — https://www.unchealthcare.org/
+- Lake Norman Regional Medical Center — Mooresville — https://www.lakenormanregional.com/
+- Lexington Medical Center (Atrium) — https://www.atriumhealth.org/
+- LifePoint Hospitals — multiple — https://www.lifepointhealth.net/
+- Margaret R. Pardee Memorial Hospital — Hendersonville — https://www.pardeehospital.org/
+- Maria Parham Health (Duke) — Henderson — https://www.mariaparham.com/
+- McDowell Hospital (Mission/HCA) — Marion — https://www.missionhealth.org/
+- Northern Regional Hospital — Mount Airy — https://www.northernhospital.com/
+- Novant Health Brunswick Medical Center — https://www.novanthealth.org/
+- Novant Health Mint Hill — https://www.novanthealth.org/
+- Novant Health Rowan — Salisbury — https://www.novanthealth.org/
+- Onslow Memorial Hospital — Jacksonville — https://www.onslow.org/
+- Outer Banks Hospital — Nags Head — https://www.theouterbankshospital.org/
+- Pardee UNC Health — Hendersonville — https://www.pardeehospital.org/
+- Person Memorial Hospital (Duke) — Roxboro — https://www.personmemorial.com/
+- Randolph Health — Asheboro — https://www.randolphhealth.org/
+- Rutherford Regional Health System — Rutherfordton — https://www.mylifepoint.org/
+- Sampson Regional Medical Center — Clinton — https://www.sampsonrmc.org/
+- Scotland Memorial Hospital — Laurinburg — https://www.scotlandhealth.org/
+- Sentara Albemarle Medical Center — Elizabeth City — https://www.sentara.com/
+- Swain Community Hospital — Bryson City — https://www.mylifepoint.org/
+- Transylvania Regional Hospital (Mission/HCA) — Brevard — https://www.missionhealth.org/
+- UNC Health Blue Ridge — Morganton — https://www.unchealthcare.org/
+- UNC Health Lenoir — Kinston — https://www.unchealthcare.org/
+- UNC Health Nash — Rocky Mount — https://www.unchealthcare.org/
+- UNC Health Pardee — Hendersonville — https://www.pardeehospital.org/
+- UNC Health Rockingham — Eden — https://www.unchealthcare.org/
+- UNC Health Southeastern — Lumberton — https://www.unchealthcare.org/
+- UNC Health Wayne — Goldsboro — https://www.unchealthcare.org/
+- UNC Johnston — Smithfield — https://www.unchealthcare.org/
+- Vidant (ECU Health) — all eastern NC — https://www.ecuhealth.org/
+- Wake Forest Baptist Health Davie — Mocksville — https://www.wakehealth.edu/
+- Wake Forest Baptist Health Lexington — https://www.wakehealth.edu/
+- Wake Forest Baptist Health Wilkes — North Wilkesboro — https://www.wakehealth.edu/
+- Washington Regional Medical Center — Plymouth — https://www.ecumed.org/
+- Watauga Medical Center (Appalachian Regional) — Boone — https://www.apprhs.org/
+- Wayne Memorial Hospital — Goldsboro — https://www.unchealthcare.org/
+- Wilkes Medical Center (Atrium) — North Wilkesboro — https://www.atriumhealth.org/
+- Wilson Medical Center — Wilson — https://www.wilsonmedical.com/
+
 ## State Health Agencies
 - North Carolina Department of Health and Human Services â€” https://www.ncdhhs.gov/
 - North Carolina Medical Board â€” https://www.ncmedboard.org/
