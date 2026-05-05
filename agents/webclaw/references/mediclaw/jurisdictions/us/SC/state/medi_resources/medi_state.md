@@ -89,6 +89,80 @@
 - MUSC Shawn Jenkins Childrenâ€™s Hospital â€” Charleston â€” https://www.musckids.org/
 - Prisma Health Childrenâ€™s Hospital â€” Columbia â€” https://www.prismahealthchildrens.org/
 
+## Additional University Health Programs
+- Coastal Carolina University — Health Sciences, Nursing — Conway — https://www.coastal.edu/health/
+- Coastal Carolina University — Public Health — https://www.coastal.edu/health/publichealth/
+- Winthrop University — Health Sciences — Rock Hill — https://www.winthrop.edu/health/
+- Winthrop University — Athletic Training — https://www.winthrop.edu/at/
+- Winthrop University — Nutrition — https://www.winthrop.edu/nutrition/
+- South Carolina State University — Speech Pathology and Audiology — Orangeburg — https://www.scsu.edu/spa/
+- The Citadel — Health Sciences — Charleston — https://www.citadel.edu/health/
+
+## US Coast Guard Facilities (Complete)
+- US Coast Guard Sector Charleston — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Station Charleston — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Station Georgetown — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Station Tybee (GA, serves SC border waters) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Air Station Savannah (GA, serves SC) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Sector North Carolina (serves SC/NC border waters) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Station Oak Island (NC, serves SC border) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Cutter James (Charleston) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Cutter Hamilton (Charleston) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Cutter Yellowfin (Charleston) — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Eurocopter HH-65 Dolphin Air Facility — Charleston — https://www.atlanticarea.uscg.mil/
+
+## Military Medical Facilities (Complete)
+- Fort Jackson — Moncrief Army Health Clinic — Columbia — https://www.jackson.amedd.army.mil/
+- Fort Jackson — Troop Medical Clinics (multiple) — https://www.jackson.amedd.army.mil/
+- Joint Base Charleston — 628th Medical Group — https://www.jbcharleston.jb.mil/
+- Joint Base Charleston — Naval Health Clinic Charleston — https://www.jbcharleston.jb.mil/
+- Marine Corps Recruit Depot Parris Island — Medical Clinic — https://www.mcrdpi.marines.mil/
+- Marine Corps Recruit Depot Parris Island — Dental Clinic — https://www.mcrdpi.marines.mil/
+- Marine Corps Air Station Beaufort — Medical Clinic — https://www.beaufort.marines.mil/
+- Marine Corps Air Station Beaufort — Dental Clinic — https://www.beaufort.marines.mil/
+- Naval Hospital Beaufort — https://www.med.navy.mil/beaufort
+- Shaw Air Force Base — 20th Medical Group — Sumter — https://www.shaw.af.mil/
+- South Carolina Air National Guard — 169th Fighter Wing Medical Group — McEntire JNGB — https://www.169fw.ang.af.mil/
+- South Carolina Army National Guard Medical Detachment — Columbia — https://www.scguard.ng.mil/
+- McEntire Joint National Guard Base — Medical — Eastover — https://www.169fw.ang.af.mil/
+- Savannah River Site — Medical (DOE) — Aiken — https://www.srs.gov/
+- US Army Corps of Engineers Charleston District Medical — https://www.sac.usace.army.mil/
+
+## Additional Rural & Community Hospitals
+- AnMed Health Women’s and Children’s — Anderson — https://www.anmed.org/
+- Coastal Carolina Hospital (HCA) — Hardeeville — https://www.tridenthealthsystem.com/
+- Hilton Head Hospital (HCA) — https://www.hiltonheadregional.com/
+- Piedmont Medical Center — Rock Hill — https://www.piedmontmedicalcenter.com/
+- Piedmont Medical Center — Fort Mill (developing) — https://www.piedmontmedicalcenter.com/
+- Prisma Health Baptist Easley — https://www.prismahealth.org/
+- Prisma Health Baptist Parkridge — Columbia — https://www.prismahealth.org/
+- Prisma Health North Greenville Hospital — Travelers Rest — https://www.prismahealth.org/
+- Prisma Health Oconee Memorial — Seneca — https://www.prismahealth.org/
+- Prisma Health Tuomey — Sumter — https://www.prismahealth.org/
+- Roper St. Francis Berkeley Hospital — Summerville — https://www.rsfh.com/
+- Roper St. Francis Mount Pleasant Hospital — https://www.rsfh.com/
+- Spartanburg Rehabilitation Institute — https://www.spartanburgrehab.com/
+- St. Francis Cancer Center — Greenville — https://www.bonsecours.com/
+- Sumter East Health & Rehabilitation — https://www.sumtereast.com/
+- The Regional Medical Center of Orangeburg and Calhoun — https://www.trmc.org/
+- Vibra Hospital of Charleston — https://www.vibrahealthcare.com/
+- Waccamaw Community Hospital (Tidelands) — Murrells Inlet — https://www.tidelandshealth.org/
+
+## VA Community Clinics (Complete)
+- Anderson VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+- Beaufort VA Clinic — https://www.va.gov/charleston-health-care/
+- Charleston VA Medical Center — https://www.va.gov/charleston-health-care/
+- Columbia VA Medical Center — https://www.va.gov/columbia-south-carolina-health-care/
+- Florence VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+- Goose Creek VA Clinic — https://www.va.gov/charleston-health-care/
+- Greenville VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+- Myrtle Beach VA Clinic — https://www.va.gov/charleston-health-care/
+- North Charleston VA Clinic — https://www.va.gov/charleston-health-care/
+- Orangeburg VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+- Rock Hill VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+- Spartanburg VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+- Sumter VA Clinic — https://www.va.gov/columbia-south-carolina-health-care/
+
 ## State Health Agencies
 - South Carolina Department of Health and Environmental Control (DHEC) â€” https://www.scdhec.gov/
 - South Carolina Board of Medical Examiners â€” https://www.llr.sc.gov/med/
