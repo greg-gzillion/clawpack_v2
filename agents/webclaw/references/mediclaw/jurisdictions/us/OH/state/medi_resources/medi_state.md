@@ -98,6 +98,97 @@
 - MetroHealth System â€” Cleveland â€” Level I Trauma â€” https://www.metrohealth.org/
 - University Hospitals Rainbow Babies & Childrenâ€™s â€” https://www.uhhospitals.org/rainbow
 
+## Additional Universities & Colleges with Health Programs
+- University of Findlay — Nursing, PA, Pharmacy, PT, OT — https://www.findlay.edu/
+- Ohio Northern University — Nursing, Pharmacy — https://www.onu.edu/
+- Cedarville University — Nursing, Pharmacy — https://www.cedarville.edu/
+- Walsh University — Nursing, PT, OT — North Canton — https://www.walsh.edu/
+- Ashland University — Nursing — https://www.ashland.edu/nursing/
+- Franciscan University of Steubenville — Nursing — https://www.franciscan.edu/
+- Marietta College — PA Program — https://www.marietta.edu/pa/
+- Mount Union University — PA, Nursing, PT — Alliance — https://www.mountunion.edu/
+- Baldwin Wallace University — PA, Health Sciences — Berea — https://www.bw.edu/
+- Lake Erie College — PA Program — Painesville — https://www.lec.edu/pa/
+- Youngstown State University — Nursing, Health Sciences — https://www.ysu.edu/
+- Shawnee State University — Nursing, OT, PT — Portsmouth — https://www.shawnee.edu/
+- Ohio University — Nursing, PT, Public Health — Athens — https://www.ohio.edu/
+- Cleveland State University — Nursing, OT, PT, SLP — https://www.csuohio.edu/
+- University of Akron — Nursing, SLP, Health Sciences — https://www.uakron.edu/
+- Kent State University — Nursing, Podiatry, SLP, Health Sciences — https://www.kent.edu/
+- Bowling Green State University — Nursing, SLP, Health Sciences — https://www.bgsu.edu/
+- Miami University — Nursing, SLP, Health Sciences — Oxford — https://www.miamioh.edu/
+- University of Dayton — PA, Health Sciences — https://www.udayton.edu/
+- Xavier University — Nursing, OT, Health Sciences — Cincinnati — https://www.xavier.edu/
+- University of Mount Union — PA, PT, Nursing — https://www.mountunion.edu/
+- Wilmington College — Health Sciences — https://www.wilmington.edu/
+- Muskingum University — Health Sciences — New Concord — https://www.muskingum.edu/
+- Heidelberg University — Health Sciences — Tiffin — https://www.heidelberg.edu/
+- Capital University — Nursing — Columbus — https://www.capital.edu/nursing/
+- Otterbein University — Nursing — Westerville — https://www.otterbein.edu/nursing/
+- Ohio Dominican University — PA — Columbus — https://www.ohiodominican.edu/
+- Tiffin University — Health Sciences — https://www.tiffin.edu/
+- Bluffton University — Health Sciences — https://www.bluffton.edu/
+- Defiance College — Health Sciences — https://www.defiance.edu/
+- John Carroll University — Health Sciences — University Heights — https://www.jcu.edu/
+- Malone University — Nursing — Canton — https://www.malone.edu/nursing/
+- Mount Vernon Nazarene University — Nursing — https://www.mvnu.edu/nursing/
+- Notre Dame College — Nursing — South Euclid — https://www.notredamecollege.edu/nursing/
+- University of Rio Grande — Nursing — https://www.rio.edu/nursing/
+- Ursuline College — Nursing — Pepper Pike — https://www.ursuline.edu/nursing/
+
+## Additional Rural & Community Hospitals
+- Adena Greenfield Medical Center — https://www.adena.org/
+- Adena Pike Medical Center — Waverly — https://www.adena.org/
+- Barnesville Hospital — https://www.barnesvillehospital.com/
+- Bellevue Hospital — https://www.bellevuehospital.com/
+- Bucyrus Community Hospital (Avita) — https://www.avitahealth.org/
+- Community Hospitals and Wellness Centers — Bryan — https://www.chwchospital.org/
+- Euclid Hospital (Cleveland Clinic) — https://www.clevelandclinic.org/
+- Fayette County Memorial Hospital — Washington Court House — https://www.fcmh.org/
+- Firelands Regional Medical Center — Sandusky — https://www.firelands.com/
+- Fulton County Health Center — Wauseon — https://www.fultoncountyhealthcenter.org/
+- Galion Community Hospital (Avita) — https://www.avitahealth.org/
+- Harrison Community Hospital — Cadiz — https://www.harrisoncommunityhospital.com/
+- Henry County Hospital — Napoleon — https://www.henrycountyhospital.org/
+- Highland District Hospital — Hillsboro — https://www.hdh.org/
+- Hocking Valley Community Hospital — Logan — https://www.hvch.org/
+- Institute for Orthopaedic Surgery — Lima — https://www.orthoIos.com/
+- Kettering Health Greene Memorial — Xenia — https://www.ketteringhealth.org/
+- Kettering Health Soin Medical Center — Beavercreek — https://www.ketteringhealth.org/
+- Kettering Health Troy — https://www.ketteringhealth.org/
+- Magruder Hospital — Port Clinton — https://www.magruderhospital.com/
+- Marymount Hospital (Cleveland Clinic) — Garfield Heights — https://www.clevelandclinic.org/
+- McCullough-Hyde Memorial Hospital — Oxford — https://www.trihealth.com/
+- Medina Hospital (Cleveland Clinic) — https://www.clevelandclinic.org/
+- Memorial Hospital — Fremont — https://www.promedica.org/
+- Mercy Health — Clermont Hospital — Batavia — https://www.mercy.com/
+- Mercy Health — Lorain Hospital — https://www.mercy.com/
+- Mercy Health — Urbana Hospital — https://www.mercy.com/
+- OhioHealth Dublin Methodist Hospital — https://www.ohiohealth.com/
+- OhioHealth Hardin Memorial Hospital — Kenton — https://www.ohiohealth.com/
+- OhioHealth Van Wert Hospital — https://www.ohiohealth.com/
+- Parkview Health (serves NW Ohio) — Bryan/Archbold — https://www.parkview.com/
+- Paulding County Hospital — https://www.pauldingcountyhospital.com/
+- ProMedica Bay Park Hospital — Oregon — https://www.promedica.org/
+- ProMedica Defiance Regional Hospital — https://www.promedica.org/
+- ProMedica Fostoria Community Hospital — https://www.promedica.org/
+- ProMedica Monroe Regional Hospital — https://www.promedica.org/
+- Southwest General Health Center — Middleburg Heights — https://www.swgeneral.com/
+- St. Elizabeth Boardman Hospital (Mercy Health) — https://www.mercy.com/
+- St. Elizabeth Youngstown Hospital (Mercy Health) — https://www.mercy.com/
+- St. Joseph Warren Hospital (Mercy Health) — https://www.mercy.com/
+- Summa Health System — Barberton Campus — https://www.summahealth.org/
+- Summa Health System — Wadsworth-Rittman — https://www.summahealth.org/
+- UH Elyria Medical Center — https://www.uhhospitals.org/
+- UH Geauga Medical Center — Chardon — https://www.uhhospitals.org/
+- UH Geneva Medical Center — https://www.uhhospitals.org/
+- UH Parma Medical Center — https://www.uhhospitals.org/
+- UH Portage Medical Center — Ravenna — https://www.uhhospitals.org/
+- UH Samaritan Medical Center — Ashland — https://www.uhhospitals.org/
+- University Hospitals Conneaut Medical Center — https://www.uhhospitals.org/
+- Wood County Hospital — Bowling Green — https://www.woodcountyhospital.org/
+- Wyandot Memorial Hospital — Upper Sandusky — https://www.wyandotmemorial.org/
+
 ## State Health Agencies
 - Ohio Department of Health â€” https://www.odh.ohio.gov/
 - State Medical Board of Ohio â€” https://www.med.ohio.gov/
