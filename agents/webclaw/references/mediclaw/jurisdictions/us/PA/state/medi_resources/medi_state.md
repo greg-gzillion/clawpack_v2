@@ -148,6 +148,71 @@
 - Magee-Womens Hospital of UPMC â€” https://www.upmc.com/
 - Hospital of the University of Pennsylvania (HUP) â€” https://www.pennmedicine.org/
 
+## Military Medical Facilities (Complete)
+- Carlisle Barracks — Army Medical Clinic — https://www.carlisle.army.mil/
+- Letterkenny Army Depot — Medical Clinic — Chambersburg — https://www.letterkenny.army.mil/
+- Tobyhanna Army Depot — Medical Clinic — https://www.tobyhanna.army.mil/
+- New Cumberland Army Depot — Medical — https://www.dla.mil/
+- Naval Support Activity Mechanicsburg — Medical — https://www.navsup.navy.mil/mechanicsburg
+- Naval Support Activity Philadelphia — Medical — https://www.cnic.navy.mil/
+- Pennsylvania Air National Guard — 111th Medical Group — Horsham/Willow Grove — https://www.111attackwing.ang.af.mil/
+- Pennsylvania Air National Guard — 171st Medical Group — Pittsburgh — https://www.171arw.ang.af.mil/
+- Pennsylvania Air National Guard — 193rd Medical Group — Middletown — https://www.193sow.ang.af.mil/
+- Pennsylvania Army National Guard Medical Detachment — Fort Indiantown Gap — https://www.pa.ng.mil/
+- Fort Indiantown Gap — Medical Clinic — https://www.pa.ng.mil/
+- US Coast Guard Sector Delaware Bay — Philadelphia — https://www.atlanticarea.uscg.mil/
+- US Coast Guard Marine Safety Unit Pittsburgh — https://www.atlanticarea.uscg.mil/
+
+## Amish & Plain Community Healthcare
+- The Amish and Old Order Mennonite communities in Pennsylvania (Lancaster, Chester, York, Mifflin, and surrounding counties) have unique healthcare needs and practices.
+- Plain Community Health Clinics:
+  - Parochial Medical Center — Lancaster County — https://www.parochialmedicalcenter.org/
+  - Amish Health Center — Lancaster — serves Plain community
+  - Georgetown University Amish Research Clinic — Lancaster
+  - Central Pennsylvania Clinic for Special Children — Strasburg — https://www.clinicforspecialchildren.org/
+  - The Clinic for Special Children — Strasburg/Belleville — https://www.clinicforspecialchildren.org/
+  - DDC Clinic for Special Needs Children — Middlefield (serves OH/PA Plain communities) — https://www.ddcclinic.org/
+  - WellSpan Health Plain Community Outreach — https://www.wellspan.org/
+  - Penn Medicine Lancaster General Health Plain Community Services — https://www.lancastergeneralhealth.org/
+  - Community Health Clinic — New Wilmington — Amish/Mennonite services
+  - New Holland Family Health Center — serves Plain community — https://www.wellspan.org/
+  - Welsh Mountain Health Center — New Holland — Plain community services
+
+## Tribal Health (Pennsylvania has no federally recognized reservations)
+- Pennsylvania has no federally recognized tribes with reservation-based health facilities.
+- Urban Indian health services available through:
+  - Philadelphia Community Health Centers serving Native populations
+  - Council of Three Rivers American Indian Center — Pittsburgh — https://www.cotraic.org/
+  - Lenape Nation of Pennsylvania — https://www.lenape-nation.org/
+
+## Additional Rural Hospitals
+- Barnes-Kasson Hospital — Susquehanna — https://www.barnes-kasson.org/
+- Berwick Hospital Center — https://www.berwickhospital.com/
+- Bucktail Medical Center — Renovo — https://www.bucktailmedicalcenter.com/
+- Clarion Hospital (Independence Health) — https://www.clarionhospital.org/
+- Endless Mountains Health Systems — Montrose — https://www.endlessmontainshealth.org/
+- Geisinger Jersey Shore Hospital — https://www.geisinger.org/
+- Geisinger Muncy — https://www.geisinger.org/
+- Guthrie Towanda Memorial Hospital — https://www.guthrie.org/
+- Guthrie Troy Community Hospital — https://www.guthrie.org/
+- Jefferson County Medical Center (Penn Highlands) — https://www.phhealthcare.org/
+- Lehigh Valley Hospital-Schuylkill — Pottsville — https://www.lvhn.org/
+- Meadville Medical Center — https://www.mmchs.org/
+- Mid-Valley Hospital — Peckville — https://www.midvalleyhospital.org/
+- Muncy Valley Hospital (UPMC) — https://www.upmc.com/
+- Penn Highlands Brookville — https://www.phhealthcare.org/
+- Penn Highlands Clearfield — https://www.phhealthcare.org/
+- Penn Highlands Elk — St. Marys — https://www.phhealthcare.org/
+- Penn Highlands Huntingdon — https://www.phhealthcare.org/
+- Penn Highlands Tyrone — https://www.phhealthcare.org/
+- Tyler Memorial Hospital — Tunkhannock — https://www.geisinger.org/
+- UPMC Cole — Coudersport — https://www.upmc.com/
+- UPMC Lock Haven — https://www.upmc.com/
+- UPMC Muncy — https://www.upmc.com/
+- UPMC Wellsboro — https://www.upmc.com/
+- Warren General Hospital — https://www.wgh.org/
+- Wayne Memorial Hospital — Honesdale — https://www.wmh.org/
+
 ## State Health Agencies
 - Pennsylvania Department of Health â€” https://www.health.pa.gov/
 - Pennsylvania State Board of Medicine â€” https://www.dos.pa.gov/medicine
