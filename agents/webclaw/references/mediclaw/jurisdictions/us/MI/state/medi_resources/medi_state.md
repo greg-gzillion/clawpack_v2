@@ -134,6 +134,140 @@
 - Mary Free Bed Rehabilitation â€” Grand Rapids â€” https://www.maryfreebed.com/
 - Pine Rest Christian Mental Health â€” Grand Rapids â€” https://www.pinerest.org/
 
+## Rural & Critical Access Hospitals
+
+### Upper Peninsula
+- Aspirus Iron River Hospital — https://www.aspirus.org/
+- Aspirus Ontonagon Hospital — https://www.aspirus.org/
+- Aspirus Keweenaw Hospital — Laurium — https://www.aspirus.org/
+- Baraga County Memorial Hospital — L’Anse — https://www.bcmh.org/
+- Chippewa County War Memorial Hospital — Sault Ste. Marie — https://www.warmemorialhospital.org/
+- Dickinson County Healthcare System — Iron Mountain — https://www.dchs.org/
+- Helen Newberry Joy Hospital — Newberry — https://www.hnjh.org/
+- Mackinac Straits Health System — St. Ignace — https://www.mackinacstraitshealth.org/
+- OSF St. Francis Hospital — Escanaba — https://www.osfhealthcare.org/
+- Schoolcraft Memorial Hospital — Manistique — https://www.scmhosp.org/
+
+### Northern Lower Peninsula
+- Alpena (MyMichigan Medical Center) — https://www.mymichigan.org/
+- Charlevoix Hospital (Munson) — https://www.munsonhealthcare.org/
+- Grayling Hospital (Munson) — https://www.munsonhealthcare.org/
+- Cadillac Hospital (Munson) — https://www.munsonhealthcare.org/
+- Kalkaska Memorial Health Center — https://www.munsonhealthcare.org/
+- Manistee Hospital (Munson) — https://www.munsonhealthcare.org/
+- McLaren Northern Michigan — Petoskey — https://www.mclaren.org/
+- Munson Healthcare Otsego Memorial — Gaylord — https://www.munsonhealthcare.org/
+- Otsego Memorial Hospital — Gaylord — https://www.munsonhealthcare.org/
+- Paul Oliver Memorial Hospital — Frankfort — https://www.munsonhealthcare.org/
+- War Memorial Hospital (MyMichigan) — Sault Ste. Marie — https://www.mymichigan.org/
+- West Branch (MyMichigan Medical Center) — https://www.mymichigan.org/
+
+### West Michigan
+- Allegan General Hospital — https://www.aghosp.org/
+- Borgess Lee Memorial Hospital — Dowagiac — https://www.ascension.org/
+- Bronson LakeView Hospital — Paw Paw — https://www.bronsonhealth.com/
+- Bronson South Haven Hospital — https://www.bronsonhealth.com/
+- Corewell Health Gerber Hospital — Fremont — https://www.corewellhealth.org/
+- Corewell Health Greenville Hospital — https://www.corewellhealth.org/
+- Corewell Health Ludington Hospital — https://www.corewellhealth.org/
+- Corewell Health Pennock Hospital — Hastings — https://www.corewellhealth.org/
+- Corewell Health Reed City Hospital — https://www.corewellhealth.org/
+- Corewell Health Zeeland Hospital — https://www.corewellhealth.org/
+- Eaton Rapids Medical Center — https://www.ermchealth.org/
+- Holland Community Hospital (Corewell) — https://www.corewellhealth.org/
+- McLaren Thumb Region — Bad Axe — https://www.mclaren.org/
+- Memorial Healthcare — Owosso — https://www.memorialhealthcare.org/
+- Mercy Health Lakeshore Campus — Shelby — https://www.trinityhealthmichigan.org/
+- North Ottawa Community Health — Grand Haven — https://www.noch.org/
+- Spectrum Health Big Rapids Hospital — https://www.corewellhealth.org/
+- Spectrum Health United Hospital — Greenville — https://www.corewellhealth.org/
+- Three Rivers Health (Corewell) — https://www.corewellhealth.org/
+- University of Michigan Health-West — Wyoming — https://www.uofmhealthwest.org/
+
+### Mid-Michigan
+- Ascension Standish Hospital — https://www.ascension.org/
+- Hillsdale Hospital — https://www.hillsdalehospital.com/
+- McKenzie Health System — Sandusky — https://www.mckenziehealth.org/
+- McLaren Bay Region — Bay City — https://www.mclaren.org/
+- McLaren Caro Region — https://www.mclaren.org/
+- McLaren Central Michigan — Mount Pleasant — https://www.mclaren.org/
+- McLaren Lapeer Region — https://www.mclaren.org/
+- McLaren Thumb Region — Bad Axe — https://www.mclaren.org/
+- MidMichigan Medical Center — Alpena — https://www.midmichigan.org/
+- MidMichigan Medical Center — Clare — https://www.midmichigan.org/
+- MidMichigan Medical Center — Gladwin — https://www.midmichigan.org/
+- MidMichigan Medical Center — Gratiot (Alma) — https://www.midmichigan.org/
+- MidMichigan Medical Center — Midland — https://www.midmichigan.org/
+- MidMichigan Medical Center — Mt. Pleasant — https://www.midmichigan.org/
+- MidMichigan Medical Center — West Branch — https://www.midmichigan.org/
+- MyMichigan Medical Center — Alma — https://www.mymichigan.org/
+- MyMichigan Medical Center — Clare — https://www.mymichigan.org/
+- MyMichigan Medical Center — Gladwin — https://www.mymichigan.org/
+- MyMichigan Medical Center — Midland — https://www.mymichigan.org/
+- MyMichigan Medical Center — Mt. Pleasant — https://www.mymichigan.org/
+- Scheurer Health — Pigeon — https://www.scheurer.org/
+- Sparrow Carson Hospital — Carson City — https://www.sparrow.org/
+- Sparrow Clinton Hospital — St. Johns — https://www.sparrow.org/
+- Sparrow Eaton Hospital — Charlotte — https://www.sparrow.org/
+- Sparrow Ionia Hospital — https://www.sparrow.org/
+
+### Southeast Michigan
+- Ascension Providence Rochester Hospital — https://www.ascension.org/
+- Chelsea Hospital (Trinity/U-M JV) — https://www.trinityhealthmichigan.org/
+- Garden City Hospital (Prime) — https://www.gchosp.org/
+- Henry Ford Allegiance Health — Jackson — https://www.henryford.com/
+- Henry Ford Jackson Hospital — https://www.henryford.com/
+- Lake Huron Medical Center — Port Huron — https://www.mylakehuron.com/
+- McLaren Macomb — Mount Clemens — https://www.mclaren.org/
+- McLaren Oakland — Pontiac — https://www.mclaren.org/
+- McLaren Port Huron — https://www.mclaren.org/
+- Promedica Charles and Virginia Hickman Hospital — Adrian — https://www.promedica.org/
+- St. Joseph Mercy Chelsea — https://www.trinityhealthmichigan.org/
+- Trinity Health Livonia — https://www.trinityhealthmichigan.org/
+- Trinity Health Oakland (Pontiac) — https://www.trinityhealthmichigan.org/
+
+### South Central
+- Ascension Borgess Lee Hospital — Dowagiac — https://www.ascension.org/
+- Bronson Battle Creek Hospital — https://www.bronsonhealth.com/
+- Community Health Center of Branch County — Coldwater — https://www.chcbc.com/
+- Corewell Health Niles Hospital — https://www.corewellhealth.org/
+- Corewell Health Watervliet Hospital — https://www.corewellhealth.org/
+- Hayes Green Beach Memorial Hospital — Charlotte — https://www.hgbhealth.com/
+- Oaklawn Hospital — Marshall — https://www.oaklawnhospital.org/
+- ProMedica Coldwater Regional Hospital — https://www.promedica.org/
+- Sparrow Eaton Hospital — Charlotte — https://www.sparrow.org/
+- Sturgis Hospital — https://www.sturgishospital.com/
+- Three Rivers Health — https://www.corewellhealth.org/
+
+## VA Community Clinics (Complete Listing)
+- Ann Arbor VA Community Clinic — https://www.va.gov/ann-arbor-health-care/
+- Bad Axe VA Clinic — https://www.va.gov/saginaw-health-care/
+- Benton Harbor VA Clinic — https://www.va.gov/battle-creek-health-care/
+- Cadillac VA Clinic — https://www.va.gov/saginaw-health-care/
+- Cheboygan VA Clinic — https://www.va.gov/saginaw-health-care/
+- Clare VA Clinic — https://www.va.gov/saginaw-health-care/
+- David VA Clinic (Detroit) — https://www.va.gov/detroit-health-care/
+- Escanaba VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Flint VA Clinic — https://www.va.gov/detroit-health-care/
+- Gaylord VA Clinic — https://www.va.gov/saginaw-health-care/
+- Gladstone VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Grand Rapids VA Clinic — https://www.va.gov/battle-creek-health-care/
+- Grayling VA Clinic — https://www.va.gov/saginaw-health-care/
+- Hancock VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Ironwood VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Jackson VA Clinic — https://www.va.gov/ann-arbor-health-care/
+- Lansing VA Clinic — https://www.va.gov/battle-creek-health-care/
+- Mackinaw City VA Clinic — https://www.va.gov/saginaw-health-care/
+- Manistique VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Menominee VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Muskegon VA Clinic — https://www.va.gov/battle-creek-health-care/
+- Oscoda VA Clinic — https://www.va.gov/saginaw-health-care/
+- Pontiac VA Clinic — https://www.va.gov/detroit-health-care/
+- Sault Ste. Marie VA Clinic — https://www.va.gov/iron-mountain-health-care/
+- Traverse City VA Clinic — https://www.va.gov/saginaw-health-care/
+- Wyoming VA Clinic (Grand Rapids area) — https://www.va.gov/battle-creek-health-care/
+- Yale VA Clinic — https://www.va.gov/detroit-health-care/
+
 ## State Health Agencies
 - Michigan Department of Health and Human Services â€” https://www.michigan.gov/mdhhs
 - Michigan Board of Medicine â€” https://www.michigan.gov/lara/bureau-of-professional-licensing
