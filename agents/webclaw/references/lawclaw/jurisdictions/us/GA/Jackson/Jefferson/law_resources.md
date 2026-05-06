@@ -1,12 +1,14 @@
 # Jefferson — Local Law Resources
+## City Website
+- https://www.jacksoncountygov.com/
 ## Law Enforcement
-- Jefferson Police Department
-- Jackson County Sheriff
+- Jefferson PD — 1010 Washington St — (706) 367-5231
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Jefferson Municipal Court
+- Jefferson Municipal Court — (706) 367-5231
+- **Court Website**: https://www.jacksoncountygov.com/
 ## Building Permits
-- Jefferson Building Department
+- Jefferson Building Department — https://www.jacksoncountygov.com/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

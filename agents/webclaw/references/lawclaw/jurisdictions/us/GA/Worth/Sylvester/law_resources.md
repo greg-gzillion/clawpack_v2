@@ -1,12 +1,14 @@
 # Sylvester — Local Law Resources
+## City Website
+- https://cityofsylvester.com/
 ## Law Enforcement
-- Sylvester Police Department
-- Worth County Sheriff
+- Sylvester PD — 102 S Isabella St — (229) 776-8500
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Sylvester Municipal Court
+- Sylvester Municipal Court — 102 S Main St — (229) 776-8500
+- **Court Website**: https://cityofsylvester.com/municipal-court
 ## Building Permits
-- Sylvester Building Department
+- Sylvester Building Department — https://cityofsylvester.com/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

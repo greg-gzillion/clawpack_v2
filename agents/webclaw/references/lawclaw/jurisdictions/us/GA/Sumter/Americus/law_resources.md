@@ -1,12 +1,14 @@
 # Americus — Local Law Resources
+## City Website
+- https://www.americusga.gov/
 ## Law Enforcement
-- Americus Police Department
-- Sumter County Sheriff
+- Americus PD — 119 S Lee St — (229) 924-6722
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Americus Municipal Court
+- Americus Municipal Court — 119 S Lee St — (229) 924-3677 — M-F 8-5
+- **Court Website**: https://www.americuscourt.com/
 ## Building Permits
-- Americus Building Department
+- Americus Building Department — https://www.americusga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

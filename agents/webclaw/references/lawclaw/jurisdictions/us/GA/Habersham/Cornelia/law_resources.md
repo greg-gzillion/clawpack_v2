@@ -1,12 +1,14 @@
 # Cornelia — Local Law Resources
+## City Website
+- https://www.corneliageorgia.org/
 ## Law Enforcement
-- Cornelia Police Department
-- Habersham County Sheriff
+- Cornelia PD — (706) 778-8585
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Cornelia Municipal Court
+- Cornelia Municipal Court — 181 Larkin St — (706) 778-4314 — M-F 8-5
+- **Court Website**: https://www.corneliageorgia.org/municipal-court
 ## Building Permits
-- Cornelia Building Department
+- Cornelia Building Department — https://www.corneliageorgia.org/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # LaGrange — Local Law Resources
+## City Website
+- https://www.troupcountyga.gov/
 ## Law Enforcement
-- LaGrange Police Department
-- Troup County Sheriff
+- LaGrange PD — 100 W Haralson St — (706) 883-2603
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- LaGrange Municipal Court
+- Troup County Solicitor — 100 Ridley Ave Ste 2600 — (706) 883-1726
+- **Court Website**: https://www.troupcountyga.gov/
 ## Building Permits
-- LaGrange Building Department
+- LaGrange Building Department — https://www.troupcountyga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

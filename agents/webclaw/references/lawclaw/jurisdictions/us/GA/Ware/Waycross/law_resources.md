@@ -1,12 +1,14 @@
 # Waycross — Local Law Resources
+## City Website
+- https://www.waycrossga.gov/
 ## Law Enforcement
-- Waycross Police Department
-- Ware County Sheriff
+- Waycross PD — 201 Williams St — (912) 287-2565
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Waycross Municipal Court
+- Waycross Municipal Court — 512 Oak St — (912) 287-2921 — M-F 8-5
+- **Court Website**: https://www.waycrossga.gov/police-department.php
 ## Building Permits
-- Waycross Building Department
+- Waycross Building Department — https://www.waycrossga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

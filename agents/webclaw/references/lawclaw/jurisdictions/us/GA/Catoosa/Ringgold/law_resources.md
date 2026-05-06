@@ -1,12 +1,14 @@
 # Ringgold — Local Law Resources
+## City Website
+- https://www.cityofringgoldga.gov/
 ## Law Enforcement
-- Ringgold Police Department
-- Catoosa County Sheriff
+- Ringgold PD — (706) 935-3066
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Ringgold Municipal Court
+- Ringgold Municipal Court — 1st & 3rd Mon 4:30pm — (706) 935-3061
+- **Court Website**: https://www.cityofringgoldga.gov/MunicipalCourt.aspx
 ## Building Permits
-- Ringgold Building Department
+- Ringgold Building Department — https://www.cityofringgoldga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

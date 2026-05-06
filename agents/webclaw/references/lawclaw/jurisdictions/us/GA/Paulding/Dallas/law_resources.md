@@ -1,12 +1,14 @@
 # Dallas — Local Law Resources
+## City Website
+- https://www.dallasga.gov/
 ## Law Enforcement
-- Dallas Police Department
-- Paulding County Sheriff
+- Dallas PD — (770) 443-8110
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Dallas Municipal Court
+- Dallas Municipal Court — 120 Main St — (770) 443-8110 x3 — M-F 8-5
+- **Court Website**: https://www.dallasga.gov/courtsvcs
 ## Building Permits
-- Dallas Building Department
+- Dallas Building Department — https://www.dallasga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

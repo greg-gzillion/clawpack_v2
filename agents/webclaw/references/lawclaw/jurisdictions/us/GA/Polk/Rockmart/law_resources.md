@@ -1,12 +1,14 @@
 # Rockmart — Local Law Resources
+## City Website
+- https://www.rockmart-ga.gov/
 ## Law Enforcement
-- Rockmart Police Department
-- Polk County Sheriff
+- Rockmart PD — 316 N Piedmont Ave — (770) 684-6558 — M-F 8:30-5
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Rockmart Municipal Court
+- Rockmart Municipal Court — 316 N Piedmont Ave Bldg 200 — (770) 684-2352
+- **Court Website**: https://www.rockmart-ga.gov/
 ## Building Permits
-- Rockmart Building Department
+- Rockmart Building Department — https://www.rockmart-ga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

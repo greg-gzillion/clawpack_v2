@@ -1,12 +1,14 @@
 # Douglas — Local Law Resources
+## City Website
+- https://www.cityofdouglasga.gov/
 ## Law Enforcement
-- Douglas Police Department
-- Coffee County Sheriff
+- Douglas PD — 225 W Bryan St — (912) 260-3600
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Douglas Municipal Court
+- Douglas Municipal Court — Coffee County Law Enforcement Center — (912) 260-3614 — Monthly
+- **Court Website**: https://www.cityofdouglasga.gov/
 ## Building Permits
-- Douglas Building Department
+- Douglas Building Department — https://www.cityofdouglasga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

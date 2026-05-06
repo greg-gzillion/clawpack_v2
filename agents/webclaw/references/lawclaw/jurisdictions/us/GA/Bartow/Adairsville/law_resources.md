@@ -1,12 +1,14 @@
 # Adairsville — Local Law Resources
+## City Website
+- https://www.adairsvillega.net/
 ## Law Enforcement
-- Adairsville Police Department
-- Bartow County Sheriff
+- Adairsville PD — 100 Public Square — (770) 773-7778
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Adairsville Municipal Court
+- Adairsville Municipal Court — 116 Public Square — (770) 773-3451 — M-F 8-5
+- **Court Website**: https://www.adairsvillega.net/government/municipal_court/
 ## Building Permits
-- Adairsville Building Department
+- Adairsville Building Department — https://www.adairsvillega.net/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

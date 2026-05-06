@@ -1,12 +1,14 @@
 # Dublin — Local Law Resources
+## City Website
+- https://www.cityofdublin.org/
 ## Law Enforcement
-- Dublin Police Department
-- Laurens County Sheriff
+- Dublin PD — 346 S Jefferson St — (478) 277-5023
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Dublin Municipal Court
+- Dublin Municipal Court — (478) 277-5088
+- **Court Website**: https://www.cityofdublin.org/
 ## Building Permits
-- Dublin Building Department
+- Dublin Building Department — https://www.cityofdublin.org/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

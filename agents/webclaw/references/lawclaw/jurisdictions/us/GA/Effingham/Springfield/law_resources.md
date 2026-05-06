@@ -1,12 +1,14 @@
 # Springfield — Local Law Resources
+## City Website
+- https://www.springfieldga.org/
 ## Law Enforcement
-- Springfield Police Department
-- Effingham County Sheriff
+- Springfield PD — (912) 754-3061
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Springfield Municipal Court
+- Springfield Municipal Court — (912) 754-3061 — Clerk: Darlene Seagroves
+- **Court Website**: https://www.springfieldga.org/
 ## Building Permits
-- Springfield Building Department
+- Springfield Building Department — https://www.springfieldga.org/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

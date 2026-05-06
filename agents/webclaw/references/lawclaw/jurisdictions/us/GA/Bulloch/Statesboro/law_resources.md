@@ -1,12 +1,14 @@
 # Statesboro — Local Law Resources
+## City Website
+- https://www.statesboroga.gov/
 ## Law Enforcement
-- Statesboro Police Department
-- Bulloch County Sheriff
+- Statesboro PD — 25 W Grady St — (912) 764-9911
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Statesboro Municipal Court
+- Statesboro Municipal Court — 22 W Grady St — (912) 764-7574 — M-F 8-5
+- **Court Website**: https://www.statesboroga.gov/municipal-court
 ## Building Permits
-- Statesboro Building Department
+- Statesboro Building Department — https://www.statesboroga.gov/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations

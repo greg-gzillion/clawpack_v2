@@ -1,12 +1,14 @@
 # Cairo — Local Law Resources
+## City Website
+- https://www.syrupcity.net/
 ## Law Enforcement
-- Cairo Police Department
-- Grady County Sheriff
+- Cairo PD — 4 S Broad St — (229) 378-3096
 - Georgia State Patrol — https://www.dps.georgia.gov/
 ## Courts
-- Cairo Municipal Court
+- Cairo Municipal Court — 119 N Broad St — (229) 377-1722
+- **Court Website**: https://www.syrupcity.net/
 ## Building Permits
-- Cairo Building Department
+- Cairo Building Department — https://www.syrupcity.net/
 ## Hunting Regulations
 - GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
 ## Fishing Regulations
