@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Leesburg — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.leesburgflorida.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Leesburg PD — 201 W Main St — (352) 728-3222
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Lake County Clerk
+- **Court Website**: https://www.lakeclerk.org/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Leesburg Building Department — https://www.leesburgflorida.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Lake County Jail

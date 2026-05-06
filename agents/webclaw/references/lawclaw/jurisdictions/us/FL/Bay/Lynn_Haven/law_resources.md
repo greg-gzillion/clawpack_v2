@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Lynn Haven — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.cityoflynnhaven.com/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Lynn Haven PD — 1412 Pennsylvania Ave — (850) 265-4111
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Bay County Clerk — 224 W 5th St, Panama City — (850) 784-6200 — M-F 8-5
+- **Court Website**: https://www.bayclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Lynn Haven Building Department — https://www.cityoflynnhaven.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Bay County Jail

@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Fort Myers — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.fortmyers.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Fort Myers PD — 2210 Widman Way — (239) 321-7700
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Lee County Clerk — 2075 Dr MLK Jr Blvd — (239) 533-5000 — M-F 8:30-4:45
+- **Court Website**: https://www.leeclerk.org/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Fort Myers Building Department — https://www.fortmyers.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Lee County Jail

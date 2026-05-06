@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Jupiter — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.jupiter.fl.us/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Jupiter PD — 210 Military Trail — (561) 746-6201
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Palm Beach County Clerk — 1515 Military Trail, Jupiter — (561) 355-2996 — M-F 8-5
+- **Court Website**: https://www.pbclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Jupiter Building Department — https://www.jupiter.fl.us/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Palm Beach County Jail

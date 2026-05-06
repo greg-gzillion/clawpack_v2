@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Lady Lake — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.ladylake.org/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Lake County Sheriff — 1101 US Hwy 441 — (352) 343-2101
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Lake County Clerk — 315 W Main St, Tavares — (352) 343-9400 — M-F 8-5
+- **Court Website**: https://www.lakeclerk.org/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Lady Lake Building Department — https://www.ladylake.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Lake County Jail

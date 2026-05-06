@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Haines City — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://hainescity.com/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Haines City PD — 35400 Hwy 27 — (863) 421-3636
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Polk County Clerk
+- **Court Website**: https://www.polkclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Haines City Building Department — https://hainescity.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Polk County Jail

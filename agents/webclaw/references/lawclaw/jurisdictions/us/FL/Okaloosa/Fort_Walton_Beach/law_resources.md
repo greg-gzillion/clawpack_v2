@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Fort Walton Beach — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.fwb.org/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Fort Walton Beach PD — 7 Hollywood Blvd NE — (850) 833-9533
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Okaloosa County Clerk — 122 Miracle Strip Pkwy SW — (850) 651-7300
+- **Court Website**: https://www.okaloosacountyclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Fort Walton Beach Building Department — https://www.fwb.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Okaloosa County Jail

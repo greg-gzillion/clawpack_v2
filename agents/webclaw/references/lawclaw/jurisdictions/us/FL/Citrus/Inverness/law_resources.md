@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Inverness — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://inverness.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Citrus County Sheriff serves Inverness — (352) 746-5400
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Citrus County Clerk — 1 Courthouse Plaza — (352) 746-5450 — M-F 8-5
+- **Court Website**: https://www.circuit8.org/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Inverness Building Department — https://inverness.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Citrus County Jail

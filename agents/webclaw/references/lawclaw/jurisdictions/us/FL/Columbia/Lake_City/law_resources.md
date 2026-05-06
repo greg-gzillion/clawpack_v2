@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Lake City — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.lcfla.com/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Columbia County Sheriff
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Lake Country Municipal Court — M-F 8-4:30, Court Fri 8am
+- **Court Website**: https://www.lcmunict.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Lake City Building Department — https://www.lcfla.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Columbia County Jail

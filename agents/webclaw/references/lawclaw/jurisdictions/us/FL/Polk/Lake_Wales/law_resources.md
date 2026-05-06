@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Lake Wales — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.lakewalesfl.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Lake Wales PD — (863) 678-4223
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Polk County Clerk — (863) 678-4002 (traffic)
+- **Court Website**: https://www.polkclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Lake Wales Building Department — https://www.lakewalesfl.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Polk County Jail

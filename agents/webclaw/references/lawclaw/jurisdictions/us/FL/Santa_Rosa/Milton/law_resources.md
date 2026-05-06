@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Milton — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.miltonfl.org/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Milton PD
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Santa Rosa County Clerk
+- **Court Website**: https://www.santarosaclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Milton Building Department — https://www.miltonfl.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Santa Rosa County Jail

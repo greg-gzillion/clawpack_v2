@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Jacksonville Beach — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.jacksonvillebeach.org/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Jacksonville Beach PD — 101 Penman Rd S — (904) 247-6343
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Duval County Clerk — 501 W Adams St, Jacksonville — (904) 630-1800 — M-F 8-5
+- **Court Website**: https://www.duvalclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Jacksonville Beach Building Department — https://www.jacksonvillebeach.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Duval County Jail

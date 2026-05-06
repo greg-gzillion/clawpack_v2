@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Lehigh Acres — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.leegov.com/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Lee County Sheriff — (239) 477-1000 — M-F 8-5
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Lee County Clerk — 2075 Dr MLK Jr Blvd, Fort Myers — (239) 533-5000
+- **Court Website**: https://www.leeclerk.org/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Lehigh Acres Building Department — https://www.leegov.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Lee County Jail

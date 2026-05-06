@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Fort Pierce — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.cityoffortpierce.com/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Fort Pierce PD
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- St. Lucie County Clerk — 201 S Indian River Dr — (772) 462-6900 — M-F 8-5
+- **Court Website**: https://www.stlucieclerk.gov/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Fort Pierce Building Department — https://www.cityoffortpierce.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- St. Lucie County Jail

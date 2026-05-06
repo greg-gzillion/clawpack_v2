@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Key West — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.cityofkeywest-fl.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Key West PD — 1604 N Roosevelt Blvd — (305) 292-3423
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Monroe County Clerk — 500 Whitehead St — (305) 295-3130 — M-F 8:30-5
+- **Court Website**: https://www.monroecountyfl.gov/clerk
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Key West Building Department — https://www.cityofkeywest-fl.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Monroe County Jail

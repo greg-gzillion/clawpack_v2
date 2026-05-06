@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Margate — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.margatefl.com/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Margate PD — 7701 NW 63rd St — (954) 935-5412
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Broward County Clerk — (954) 831-6565
+- **Court Website**: https://www.browardclerk.org/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Margate Building Department — https://www.margatefl.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Broward County Jail

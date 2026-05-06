@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Greenacres — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://greenacresfl.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- PBSO serves Greenacres — (561) 688-3400
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Palm Beach County Clerk — 301 N Olive Ave, West Palm Beach — (561) 355-2996 — M-F 8-5
+- **Court Website**: https://www.pbclerk.com/
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Greenacres Building Department — https://greenacresfl.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Palm Beach County Jail

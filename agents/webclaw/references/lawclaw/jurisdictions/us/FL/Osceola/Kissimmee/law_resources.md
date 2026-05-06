@@ -1,14 +1,14 @@
-# Melbourne — Local Law Resources
+# Kissimmee — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.kissimmee.gov/
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
+- Kissimmee PD — 211 E Dakin Ave — (407) 518-2200
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Osceola County Clerk — 2 Courthouse Sq — (407) 742-8555 — M-F 8-5
+- **Court Website**: https://www.osceolacountyfl.net/clerk
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
+- Kissimmee Building Department — https://www.kissimmee.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Osceola County Jail
