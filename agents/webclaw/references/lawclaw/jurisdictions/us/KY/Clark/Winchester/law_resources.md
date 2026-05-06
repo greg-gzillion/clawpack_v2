@@ -1,12 +1,14 @@
 # Winchester — Local Law Resources
+## City Website
+- https://www.winchesterky.com/
 ## Law Enforcement
-- Winchester Police Department
-- Clark County Sheriff
+- Winchester PD — 16 S Maple St — (859) 745-7400
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Winchester Municipal Court
+- Clark District Court — 17 Cleveland Ave — (859) 737-7141
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Winchester Building Department
+- Winchester Building Department — https://www.winchesterky.com/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

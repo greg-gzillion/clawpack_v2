@@ -1,12 +1,14 @@
 # Mayfield — Local Law Resources
+## City Website
+- https://www.gravesky.com/
 ## Law Enforcement
-- Mayfield Police Department
-- Graves County Sheriff
+- Mayfield PD — 211 E Broadway St — (270) 251-6220
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Mayfield Municipal Court
+- Graves District Court — 20 N Main St — (270) 251-6230
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Mayfield Building Department
+- Mayfield Building Department — https://www.gravesky.com/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Mount Washington — Local Law Resources
+## City Website
+- https://www.mtwashingtonky.org/
 ## Law Enforcement
-- Mount Washington Police Department
-- Bullitt County Sheriff
+- Mount Washington PD — 180 Landis Ln — (502) 538-8143
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Mount Washington Municipal Court
+- Bullitt District Court — 300 S Buckman St, Shepherdsville — (502) 543-2514
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Mount Washington Building Department
+- Mount Washington Building Department — https://www.mtwashingtonky.org/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

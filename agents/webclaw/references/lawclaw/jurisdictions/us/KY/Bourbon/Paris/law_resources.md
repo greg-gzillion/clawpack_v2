@@ -1,12 +1,14 @@
 # Paris — Local Law Resources
+## City Website
+- https://www.cityofparis-ky.com/
 ## Law Enforcement
-- Paris Police Department
-- Bourbon County Sheriff
+- Paris PD — 525 High St — (859) 987-2100
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Paris Municipal Court
+- Bourbon District Court — 301 Main St — (859) 987-2142
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Paris Building Department
+- Paris Building Department — https://www.cityofparis-ky.com/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

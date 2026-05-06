@@ -1,12 +1,14 @@
 # Murray — Local Law Resources
+## City Website
+- https://www.murrayky.gov/
 ## Law Enforcement
-- Murray Police Department
-- Calloway County Sheriff
+- Murray PD — 407 Popular St — (270) 753-1621
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Murray Municipal Court
+- Calloway District Court — 312 N 4th St — (270) 753-2714
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Murray Building Department
+- Murray Building Department — https://www.murrayky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

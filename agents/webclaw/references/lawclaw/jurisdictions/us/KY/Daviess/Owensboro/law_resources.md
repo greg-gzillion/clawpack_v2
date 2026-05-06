@@ -1,14 +1,14 @@
-# Middlesboro — Local Law Resources
+# Owensboro — Local Law Resources
 ## City Website
-- https://www.cityofmiddlesboro.com/
+- https://www.owensboro.org/
 ## Law Enforcement
-- Middlesboro PD — 150 20th St — (606) 248-2020
+- Owensboro PD — 222 E 9th St — (270) 687-8888
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Bell District Court — 101 W Park Ave, Pineville — (606) 337-9900
+- Daviess District Court — 100 E 2nd St — (270) 687-7205
 - **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Middlesboro Building Department — https://www.cityofmiddlesboro.com/
+- Owensboro Building Department — https://www.owensboro.org/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Kentucky Legal Aid — https://www.klaid.org/
 ## Corrections
-- Bell County Jail
+- Daviess County Jail

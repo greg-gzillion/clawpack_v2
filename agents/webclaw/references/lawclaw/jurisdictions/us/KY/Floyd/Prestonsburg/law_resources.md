@@ -1,12 +1,14 @@
 # Prestonsburg — Local Law Resources
+## City Website
+- https://prestonsburgcity.org/
 ## Law Enforcement
-- Prestonsburg Police Department
-- Floyd County Sheriff
+- Prestonsburg PD — 200 N Lake Dr — (606) 886-1010
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Prestonsburg Municipal Court
+- Floyd District Court — 127 S Lake Dr — (606) 889-1672
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Prestonsburg Building Department
+- Prestonsburg Building Department — https://prestonsburgcity.org/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

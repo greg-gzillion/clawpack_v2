@@ -1,12 +1,14 @@
 # Shelbyville — Local Law Resources
+## City Website
+- https://www.shelbyvilletown.com/
 ## Law Enforcement
-- Shelbyville Police Department
-- Shelby County Sheriff
+- Shelbyville PD — 110 N Main St — (502) 633-1515
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Shelbyville Municipal Court
+- Shelby District Court — 110 N Main St — (502) 633-1505
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Shelbyville Building Department
+- Shelbyville Building Department — https://www.shelbyvilletown.com/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

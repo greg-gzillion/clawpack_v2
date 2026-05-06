@@ -1,12 +1,14 @@
 # Nicholasville — Local Law Resources
+## City Website
+- https://www.nicholasville.org/
 ## Law Enforcement
-- Nicholasville Police Department
-- Jessamine County Sheriff
+- Nicholasville PD — 201 W Main St — (859) 885-2515
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Nicholasville Municipal Court
+- Jessamine District Court — 200 N Main St — (859) 885-8100
+- **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Nicholasville Building Department
+- Nicholasville Building Department — https://www.nicholasville.org/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations

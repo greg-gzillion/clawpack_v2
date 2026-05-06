@@ -1,14 +1,14 @@
-# Middlesboro — Local Law Resources
+# Richmond — Local Law Resources
 ## City Website
-- https://www.cityofmiddlesboro.com/
+- https://www.richmond-ky.gov/
 ## Law Enforcement
-- Middlesboro PD — 150 20th St — (606) 248-2020
+- Richmond PD — 201 E Main St — (859) 623-1400
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Bell District Court — 101 W Park Ave, Pineville — (606) 337-9900
+- Madison District Court — 101 E Main St — (859) 623-1450
 - **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Middlesboro Building Department — https://www.cityofmiddlesboro.com/
+- Richmond Building Department — https://www.richmond-ky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Kentucky Legal Aid — https://www.klaid.org/
 ## Corrections
-- Bell County Jail
+- Madison County Jail

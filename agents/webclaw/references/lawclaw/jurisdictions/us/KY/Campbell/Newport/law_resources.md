@@ -1,14 +1,14 @@
-# Middlesboro — Local Law Resources
+# Newport — Local Law Resources
 ## City Website
-- https://www.cityofmiddlesboro.com/
+- https://www.newportky.gov/
 ## Law Enforcement
-- Middlesboro PD — 150 20th St — (606) 248-2020
+- Newport PD — 998 Monmouth St — (859) 292-3622
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Bell District Court — 101 W Park Ave, Pineville — (606) 337-9900
+- Campbell District Court — 400 York St — (859) 292-6305
 - **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Middlesboro Building Department — https://www.cityofmiddlesboro.com/
+- Newport Building Department — https://www.newportky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Kentucky Legal Aid — https://www.klaid.org/
 ## Corrections
-- Bell County Jail
+- Campbell County Jail

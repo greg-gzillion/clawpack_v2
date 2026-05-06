@@ -1,14 +1,14 @@
-# Middlesboro — Local Law Resources
+# Paducah — Local Law Resources
 ## City Website
-- https://www.cityofmiddlesboro.com/
+- https://www.paducahky.gov/
 ## Law Enforcement
-- Middlesboro PD — 150 20th St — (606) 248-2020
+- Paducah PD — 1400 Broadway St — (270) 444-8550
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
-- Bell District Court — 101 W Park Ave, Pineville — (606) 337-9900
+- McCracken District Court — 300 Clarence Gaines St — (270) 444-4700
 - **Court Website**: https://www.courts.ky.gov/
 ## Building Permits
-- Middlesboro Building Department — https://www.cityofmiddlesboro.com/
+- Paducah Building Department — https://www.paducahky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Kentucky Legal Aid — https://www.klaid.org/
 ## Corrections
-- Bell County Jail
+- McCracken County Jail
