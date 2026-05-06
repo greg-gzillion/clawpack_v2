@@ -1,12 +1,14 @@
 # Conway — Local Law Resources
+## City Website
+- https://www.conwayarkansas.org/
 ## Law Enforcement
-- Conway Police Department
+- Conway Police Dept — (501) 450-6120
 - Faulkner County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Conway Municipal Court
+- Faulkner County District Court — Conway Division — (501) 450-6112
 ## Building Permits
-- Conway Building Department
+- Conway Building Department — https://www.conwayarkansas.org/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

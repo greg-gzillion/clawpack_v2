@@ -1,9 +1,5 @@
 # Conway Municipal Court
 ## Court Information
-- **Court Name**: Conway Municipal Court
-- **County**: Faulkner County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Conway city website for phone, address, and hours
+- Faulkner County District Court — Conway Division — (501) 450-6112
+## City Website
+- https://www.conwayarkansas.org/

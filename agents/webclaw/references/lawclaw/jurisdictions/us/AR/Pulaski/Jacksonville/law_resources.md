@@ -1,12 +1,14 @@
 # Jacksonville — Local Law Resources
+## City Website
+- https://www.cityofjacksonville.net/
 ## Law Enforcement
-- Jacksonville Police Department
+- Jacksonville Police Dept — 1412 W Main St — (501) 982-3341
 - Pulaski County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Jacksonville Municipal Court
+- Jacksonville District Court — 1400 W Main St — (501) 982-3345
 ## Building Permits
-- Jacksonville Building Department
+- Jacksonville Building Department — https://www.cityofjacksonville.net/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

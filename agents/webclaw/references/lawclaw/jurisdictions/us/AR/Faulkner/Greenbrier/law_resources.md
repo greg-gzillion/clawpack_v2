@@ -1,12 +1,14 @@
 # Greenbrier — Local Law Resources
+## City Website
+- https://www.cityofgreenbrierar.com/
 ## Law Enforcement
-- Greenbrier Police Department
+- Greenbrier Police Dept — (501) 679-3105
 - Faulkner County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Greenbrier Municipal Court
+- Faulkner County District Court — Greenbrier Division — (501) 679-0538
 ## Building Permits
-- Greenbrier Building Department
+- Greenbrier Building Department — https://www.cityofgreenbrierar.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

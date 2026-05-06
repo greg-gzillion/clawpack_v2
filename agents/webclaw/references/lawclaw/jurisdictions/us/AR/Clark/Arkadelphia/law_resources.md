@@ -1,12 +1,14 @@
 # Arkadelphia — Local Law Resources
+## City Website
+- https://www.arkadelphia.org/
 ## Law Enforcement
-- Arkadelphia Police Department
+- Arkadelphia Police Dept — (870) 246-2241
 - Clark County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Arkadelphia Municipal Court
+- Contact city hall
 ## Building Permits
-- Arkadelphia Building Department
+- Arkadelphia Building Department — https://www.arkadelphia.org/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

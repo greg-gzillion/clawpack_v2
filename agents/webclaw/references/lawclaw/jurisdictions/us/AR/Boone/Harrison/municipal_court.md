@@ -1,9 +1,5 @@
 # Harrison Municipal Court
 ## Court Information
-- **Court Name**: Harrison Municipal Court
-- **County**: Boone County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Harrison city website for phone, address, and hours
+- Boone County District Court — 201 N Main St — (870) 741-2788
+## City Website
+- https://www.harrisonar.gov/

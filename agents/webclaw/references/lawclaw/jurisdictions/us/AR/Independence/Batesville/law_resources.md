@@ -1,12 +1,14 @@
 # Batesville — Local Law Resources
+## City Website
+- https://www.batesville.net/
 ## Law Enforcement
-- Batesville Police Department
+- Batesville Police Dept — 500 E Main St — (870) 569-8111
 - Independence County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Batesville Municipal Court
+- Independence County District Court
 ## Building Permits
-- Batesville Building Department
+- Batesville Building Department — https://www.batesville.net/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

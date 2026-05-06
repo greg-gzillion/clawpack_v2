@@ -1,9 +1,5 @@
 # Mountain Home Municipal Court
 ## Court Information
-- **Court Name**: Mountain Home Municipal Court
-- **County**: Baxter County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Mountain Home city website for phone, address, and hours
+- Baxter County District Court — 301 E 6th St — (870) 425-3140
+## City Website
+- https://www.cityofmountainhome.com/

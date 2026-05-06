@@ -1,12 +1,14 @@
 # Monticello — Local Law Resources
+## City Website
+- https://www.monticelloar.com/
 ## Law Enforcement
-- Monticello Police Department
+- Monticello Police Dept — (870) 367-3411
 - Drew County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Monticello Municipal Court
+- Drew County District Court
 ## Building Permits
-- Monticello Building Department
+- Monticello Building Department — https://www.monticelloar.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

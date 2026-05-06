@@ -1,9 +1,5 @@
 # Sherwood Municipal Court
 ## Court Information
-- **Court Name**: Sherwood Municipal Court
-- **County**: Pulaski County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Sherwood city website for phone, address, and hours
+- Sherwood Municipal Court — 2303 E Lee Ave — (501) 835-1425
+## City Website
+- https://www.sherwoodar.gov/

@@ -1,9 +1,5 @@
 # Rogers Municipal Court
 ## Court Information
-- **Court Name**: Rogers Municipal Court
-- **County**: Benton County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Rogers city website for phone, address, and hours
+- Rogers District Court — 1901 S Dixieland — (479) 621-1132
+## City Website
+- https://www.rogersar.gov/

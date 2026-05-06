@@ -1,12 +1,14 @@
 # Paragould — Local Law Resources
+## City Website
+- https://www.cityofparagould.com/
 ## Law Enforcement
-- Paragould Police Department
+- Paragould Police Dept — (870) 239-1500
 - Greene County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Paragould Municipal Court
+- Paragould District Court — 320 W Court St — (870) 239-6300
 ## Building Permits
-- Paragould Building Department
+- Paragould Building Department — https://www.cityofparagould.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

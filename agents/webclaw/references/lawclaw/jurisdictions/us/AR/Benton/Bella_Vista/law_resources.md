@@ -1,12 +1,14 @@
 # Bella Vista — Local Law Resources
+## City Website
+- https://www.bellavistaar.gov/
 ## Law Enforcement
-- Bella Vista Police Department
+- Bella Vista Police Dept — 101 Town Center — (479) 876-1255
 - Benton County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Bella Vista Municipal Court
+- Bella Vista District Court — 2483 Forest Hills Blvd — (479) 876-1255
 ## Building Permits
-- Bella Vista Building Department
+- Bella Vista Building Department — https://www.bellavistaar.gov/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

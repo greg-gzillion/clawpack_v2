@@ -1,9 +1,5 @@
 # Jonesboro Municipal Court
 ## Court Information
-- **Court Name**: Jonesboro Municipal Court
-- **County**: Craighead County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Jonesboro city website for phone, address, and hours
+- Jonesboro Municipal Court — 303 S Church St — (870) 933-3576
+## City Website
+- https://www.jonesboro.org/

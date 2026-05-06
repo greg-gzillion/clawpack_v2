@@ -1,12 +1,14 @@
 # Bentonville — Local Law Resources
+## City Website
+- https://www.bentonvillear.com/
 ## Law Enforcement
-- Bentonville Police Department
+- Bentonville Police Dept — 908 SE 14th St — (479) 271-3170
 - Benton County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Bentonville Municipal Court
+- Bentonville District Court — 2706 S Walton Blvd — (479) 271-3120
 ## Building Permits
-- Bentonville Building Department
+- Bentonville Building Department — https://www.bentonvillear.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

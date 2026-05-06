@@ -1,12 +1,14 @@
 # Texarkana — Local Law Resources
+## City Website
+- https://www.texarkanaarkansas.gov/
 ## Law Enforcement
-- Texarkana Police Department
+- Texarkana Arkansas Police Dept — (870) 774-1511
 - Miller County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Texarkana Municipal Court
+- Miller County District Court
 ## Building Permits
-- Texarkana Building Department
+- Texarkana Building Department — https://www.texarkanaarkansas.gov/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

@@ -1,9 +1,5 @@
 # Bryant Municipal Court
 ## Court Information
-- **Court Name**: Bryant Municipal Court
-- **County**: Saline County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Bryant city website for phone, address, and hours
+- Bryant Municipal Court — 208 SW 3rd St — (501) 943-0440
+## City Website
+- https://www.cityofbryant.com/

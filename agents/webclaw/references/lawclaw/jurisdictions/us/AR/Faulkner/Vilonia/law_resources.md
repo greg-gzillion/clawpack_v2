@@ -1,12 +1,14 @@
 # Vilonia — Local Law Resources
+## City Website
+- https://www.cityofvilonia.net/
 ## Law Enforcement
-- Vilonia Police Department
+- Vilonia Police Dept — (501) 796-8170
 - Faulkner County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Vilonia Municipal Court
+- Faulkner County District Court — Vilonia Division — (501) 796-2534
 ## Building Permits
-- Vilonia Building Department
+- Vilonia Building Department — https://www.cityofvilonia.net/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

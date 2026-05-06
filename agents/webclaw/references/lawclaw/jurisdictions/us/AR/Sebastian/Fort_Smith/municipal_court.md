@@ -1,9 +1,5 @@
 # Fort Smith Municipal Court
 ## Court Information
-- **Court Name**: Fort Smith Municipal Court
-- **County**: Sebastian County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Fort Smith city website for phone, address, and hours
+- Sebastian County District Court — City Division — 901 S B St — (479) 782-8245
+## City Website
+- https://www.fortsmithar.gov/

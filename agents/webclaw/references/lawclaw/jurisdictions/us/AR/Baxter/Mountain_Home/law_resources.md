@@ -1,12 +1,14 @@
 # Mountain Home — Local Law Resources
+## City Website
+- https://www.cityofmountainhome.com/
 ## Law Enforcement
-- Mountain Home Police Department
+- Mountain Home Police Dept — 650 S Street — (870) 425-6336
 - Baxter County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Mountain Home Municipal Court
+- Baxter County District Court — 301 E 6th St — (870) 425-3140
 ## Building Permits
-- Mountain Home Building Department
+- Mountain Home Building Department — https://www.cityofmountainhome.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

@@ -1,9 +1,5 @@
 # Jacksonville Municipal Court
 ## Court Information
-- **Court Name**: Jacksonville Municipal Court
-- **County**: Pulaski County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Jacksonville city website for phone, address, and hours
+- Jacksonville District Court — 1400 W Main St — (501) 982-3345
+## City Website
+- https://www.cityofjacksonville.net/

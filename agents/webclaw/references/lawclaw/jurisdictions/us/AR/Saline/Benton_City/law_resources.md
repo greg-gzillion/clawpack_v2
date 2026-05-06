@@ -1,12 +1,14 @@
 # Benton City — Local Law Resources
+## City Website
+- https://www.bentonar.org/
 ## Law Enforcement
-- Benton City Police Department
+- Benton Police Dept — 114 S East St — (501) 776-5948
 - Saline County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Benton City Municipal Court
+- Saline County District Court — 200 N Main St — (501) 303-5670
 ## Building Permits
-- Benton City Building Department
+- Benton City Building Department — https://www.bentonar.org/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

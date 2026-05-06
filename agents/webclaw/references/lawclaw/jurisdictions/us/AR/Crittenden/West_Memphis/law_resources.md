@@ -1,12 +1,14 @@
 # West Memphis — Local Law Resources
+## City Website
+- https://www.westmemphischamber.com/
 ## Law Enforcement
-- West Memphis Police Department
+- West Memphis Police Dept — (870) 735-1210
 - Crittenden County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- West Memphis Municipal Court
+- Crittenden County District Court
 ## Building Permits
-- West Memphis Building Department
+- West Memphis Building Department — https://www.westmemphischamber.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

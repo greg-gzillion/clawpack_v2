@@ -1,9 +1,5 @@
 # Vilonia Municipal Court
 ## Court Information
-- **Court Name**: Vilonia Municipal Court
-- **County**: Faulkner County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Vilonia city website for phone, address, and hours
+- Faulkner County District Court — Vilonia Division — (501) 796-2534
+## City Website
+- https://www.cityofvilonia.net/

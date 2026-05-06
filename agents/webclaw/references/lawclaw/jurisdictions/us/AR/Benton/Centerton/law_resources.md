@@ -1,12 +1,14 @@
 # Centerton — Local Law Resources
+## City Website
+- https://www.centertonar.us/
 ## Law Enforcement
-- Centerton Police Department
+- Centerton Police Dept — 220 Municipal Dr — (479) 795-4431
 - Benton County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Centerton Municipal Court
+- Centerton District Court — 220 Municipal Dr — (479) 795-4431
 ## Building Permits
-- Centerton Building Department
+- Centerton Building Department — https://www.centertonar.us/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

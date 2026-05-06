@@ -1,9 +1,5 @@
 # Hot Springs Municipal Court
 ## Court Information
-- **Court Name**: Hot Springs Municipal Court
-- **County**: Garland County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Hot Springs city website for phone, address, and hours
+- Garland County District Court — (501) 321-6765
+## City Website
+- https://www.hotspringsar.gov/

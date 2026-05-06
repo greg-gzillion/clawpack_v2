@@ -1,9 +1,5 @@
 # Farmington Municipal Court
 ## Court Information
-- **Court Name**: Farmington Municipal Court
-- **County**: Washington County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Farmington city website for phone, address, and hours
+- Farmington District Court — (479) 267-3865
+## City Website
+- https://www.cityoffarmington-ar.gov/

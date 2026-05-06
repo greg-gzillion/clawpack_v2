@@ -1,9 +1,5 @@
 # Bella Vista Municipal Court
 ## Court Information
-- **Court Name**: Bella Vista Municipal Court
-- **County**: Benton County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Bella Vista city website for phone, address, and hours
+- Bella Vista District Court — 2483 Forest Hills Blvd — (479) 876-1255
+## City Website
+- https://www.bellavistaar.gov/

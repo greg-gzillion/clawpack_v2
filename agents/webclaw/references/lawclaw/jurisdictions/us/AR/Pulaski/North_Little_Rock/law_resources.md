@@ -1,12 +1,14 @@
 # North Little Rock — Local Law Resources
+## City Website
+- https://www.northlittlerock.org/
 ## Law Enforcement
-- North Little Rock Police Department
+- North Little Rock Police Dept — 1 Justice Center Dr — (501) 771-7100
 - Pulaski County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- North Little Rock Municipal Court
+- North Little Rock District Court — 1 Justice Center Dr — (501) 771-7120
 ## Building Permits
-- North Little Rock Building Department
+- North Little Rock Building Department — https://www.northlittlerock.org/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

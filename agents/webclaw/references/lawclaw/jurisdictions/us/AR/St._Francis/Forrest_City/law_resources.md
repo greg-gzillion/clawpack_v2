@@ -1,12 +1,14 @@
 # Forrest City — Local Law Resources
+## City Website
+- https://www.cityofforrestcityar.com/
 ## Law Enforcement
-- Forrest City Police Department
+- Forrest City Police Dept — (870) 633-3434
 - St._Francis County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Forrest City Municipal Court
+- St. Francis County District Court — 615 E Cross St — (870) 261-1410
 ## Building Permits
-- Forrest City Building Department
+- Forrest City Building Department — https://www.cityofforrestcityar.com/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

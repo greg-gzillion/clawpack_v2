@@ -1,9 +1,5 @@
 # El Dorado Municipal Court
 ## Court Information
-- **Court Name**: El Dorado Municipal Court
-- **County**: Union County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See El Dorado city website for phone, address, and hours
+- Union County District Court — 250 American Road — (870) 864-1950
+## City Website
+- https://www.goeldorado.com/

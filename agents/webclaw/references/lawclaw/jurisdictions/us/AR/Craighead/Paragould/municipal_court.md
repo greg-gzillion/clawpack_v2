@@ -1,9 +1,5 @@
 # Paragould Municipal Court
 ## Court Information
-- **Court Name**: Paragould Municipal Court
-- **County**: Craighead County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Paragould city website for phone, address, and hours
+- Paragould Municipal Court — 100 W Court Square — (870) 239-1521
+## City Website
+- https://www.paragould.com/

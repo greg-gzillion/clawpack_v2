@@ -1,9 +1,5 @@
 # Fayetteville Municipal Court
 ## Court Information
-- **Court Name**: Fayetteville Municipal Court
-- **County**: Washington County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Fayetteville city website for phone, address, and hours
+- Fayetteville District Court — 176 S Church Ave — (479) 587-3590
+## City Website
+- https://www.fayetteville-ar.gov/

@@ -1,9 +1,5 @@
 # Centerton Municipal Court
 ## Court Information
-- **Court Name**: Centerton Municipal Court
-- **County**: Benton County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Centerton city website for phone, address, and hours
+- Centerton District Court — 220 Municipal Dr — (479) 795-4431
+## City Website
+- https://www.centertonar.us/

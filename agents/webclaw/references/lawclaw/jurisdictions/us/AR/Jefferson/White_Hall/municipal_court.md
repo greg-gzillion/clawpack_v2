@@ -1,9 +1,5 @@
 # White Hall Municipal Court
 ## Court Information
-- **Court Name**: White Hall Municipal Court
-- **County**: Jefferson County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See White Hall city website for phone, address, and hours
+- White Hall City Court — 101 Parkway Dr — (870) 247-1420
+## City Website
+- https://www.whitehallar.org/

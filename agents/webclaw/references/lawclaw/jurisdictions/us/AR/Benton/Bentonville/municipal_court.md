@@ -1,9 +1,5 @@
 # Bentonville Municipal Court
 ## Court Information
-- **Court Name**: Bentonville Municipal Court
-- **County**: Benton County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Bentonville city website for phone, address, and hours
+- Bentonville District Court — 2706 S Walton Blvd — (479) 271-3120
+## City Website
+- https://www.bentonvillear.com/

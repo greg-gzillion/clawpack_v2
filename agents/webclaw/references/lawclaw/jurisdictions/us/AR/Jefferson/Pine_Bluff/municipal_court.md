@@ -1,9 +1,5 @@
 # Pine Bluff Municipal Court
 ## Court Information
-- **Court Name**: Pine Bluff Municipal Court
-- **County**: Jefferson County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Pine Bluff city website for phone, address, and hours
+- District Court of Pine Bluff — 223 E 3rd Ave — (870) 850-7584
+## City Website
+- https://www.cityofpinebluff-ar.gov/

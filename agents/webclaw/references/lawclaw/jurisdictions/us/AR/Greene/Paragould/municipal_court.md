@@ -1,9 +1,5 @@
 # Paragould Municipal Court
 ## Court Information
-- **Court Name**: Paragould Municipal Court
-- **County**: Greene County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Paragould city website for phone, address, and hours
+- Paragould District Court — 320 W Court St — (870) 239-6300
+## City Website
+- https://www.cityofparagould.com/

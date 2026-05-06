@@ -1,12 +1,14 @@
 # Blytheville — Local Law Resources
+## City Website
+- https://www.blytheville.net/
 ## Law Enforcement
-- Blytheville Police Department
+- Blytheville Police Dept — (870) 763-2222
 - Mississippi County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Blytheville Municipal Court
+- Mississippi County District Court
 ## Building Permits
-- Blytheville Building Department
+- Blytheville Building Department — https://www.blytheville.net/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations

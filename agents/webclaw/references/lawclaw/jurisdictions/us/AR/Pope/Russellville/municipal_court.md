@@ -1,9 +1,5 @@
 # Russellville Municipal Court
 ## Court Information
-- **Court Name**: Russellville Municipal Court
-- **County**: Pope County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Russellville city website for phone, address, and hours
+- Russellville Municipal Court — 102 S Main St — (479) 968-5570
+## City Website
+- https://www.russellvillearkansas.org/

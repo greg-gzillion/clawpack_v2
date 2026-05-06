@@ -1,12 +1,14 @@
 # Searcy — Local Law Resources
+## City Website
+- https://www.cityofsearcy.org/
 ## Law Enforcement
-- Searcy Police Department
+- Searcy Police Dept — 101 N Gum St — (501) 268-3531
 - White County Sheriff
 - Arkansas State Police — https://www.dps.arkansas.gov/
 ## Courts
-- Searcy Municipal Court
+- Searcy District Court — (501) 268-7622
 ## Building Permits
-- Searcy Building Department
+- Searcy Building Department — https://www.cityofsearcy.org/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Fishing Regulations
