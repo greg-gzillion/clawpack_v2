@@ -2,13 +2,13 @@
 ## Universities
 - Middle Georgia State University — https://www.mga.edu/
 ## Law Enforcement
-- Houston Sheriff — https://www.houstoncountyga.gov/sheriff/
+- Houston Sheriff 
 - Warner Robins Police — https://www.wrpolice.org/
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
-- Houston Superior Court — https://www.houstoncountyga.gov/courts/
+- Houston Superior Court 
 ## County Attorney / Defender
-- Houston DA — https://www.houstoncountyga.gov/da/
+- Houston DA 
 - Houston Public Defender
 ## Military
 - Robins AFB Legal — https://www.robins.af.mil/About-Us/Legal-Office/
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Houston County Jail — https://www.houstoncountyga.gov/sheriff/detention-center
+- Houston County Jail 
 ## Municipal Codes
 - Warner Robins — https://www.warner-robins.org/

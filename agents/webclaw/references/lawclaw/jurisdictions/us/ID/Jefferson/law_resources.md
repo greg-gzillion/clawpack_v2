@@ -1,6 +1,6 @@
 # Jefferson County — Local Law Resources
 ## Law Enforcement
-- Jefferson County Sheriff — https://www.jeffersoncountyidaho.gov/sheriff
+- Jefferson County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Jefferson County District Court

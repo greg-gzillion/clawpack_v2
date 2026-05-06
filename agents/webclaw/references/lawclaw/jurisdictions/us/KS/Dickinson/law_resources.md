@@ -1,6 +1,6 @@
 # Dickinson County — Local Law Resources
 ## Law Enforcement
-- Dickinson County Sheriff — https://www.dickinsoncountyks.gov/sheriff
+- Dickinson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Dickinson County District Court

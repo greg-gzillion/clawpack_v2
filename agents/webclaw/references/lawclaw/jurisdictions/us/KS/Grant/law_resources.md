@@ -1,6 +1,6 @@
 # Grant County — Local Law Resources
 ## Law Enforcement
-- Grant County Sheriff — https://www.grantcountyks.gov/sheriff
+- Grant County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Grant County District Court

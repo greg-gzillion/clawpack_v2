@@ -1,6 +1,6 @@
 # Contra Costa County — Local Law Resources
 ## Law Enforcement
-- Contra Costa Sheriff — https://www.cocosheriff.org/
+- Contra Costa Sheriff 
 - Richmond Police — https://www.ci.richmond.ca.us/140/Police-Department
 - Concord Police — https://www.cityofconcord.org/184/Police
 - CHP Golden Gate Division — https://www.chp.ca.gov/find-an-office/golden-gate-division
@@ -23,7 +23,7 @@
 ## Legal Aid
 - Bay Area Legal Aid — https://www.baylegal.org/
 ## Corrections
-- Martinez Detention Facility — https://www.cocosheriff.org/detention/
+- Martinez Detention Facility 
 ## Municipal
 - Richmond Code — https://www.ci.richmond.ca.us/
 - Concord Code — https://www.cityofconcord.org/

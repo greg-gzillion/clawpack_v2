@@ -1,6 +1,6 @@
 # Camas County — Local Law Resources
 ## Law Enforcement
-- Camas County Sheriff — https://www.camascountyidaho.gov/sheriff
+- Camas County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Camas County District Court

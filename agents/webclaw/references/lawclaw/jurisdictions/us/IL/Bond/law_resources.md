@@ -1,6 +1,6 @@
 # Bond County — Local Law Resources
 ## Law Enforcement
-- Bond County Sheriff — https://www.bondcountyil.gov/sheriff
+- Bond County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Bond County Circuit Court

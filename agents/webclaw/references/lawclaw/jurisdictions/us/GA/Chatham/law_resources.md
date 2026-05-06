@@ -4,7 +4,7 @@
 - Armstrong State University (Georgia Southern) — https://www.georgiasouthern.edu/
 - Savannah College of Art & Design — https://www.scad.edu/
 ## Law Enforcement
-- Chatham Sheriff — https://www.chathamsheriff.org/
+- Chatham Sheriff 
 - Savannah Police — https://www.savannahpd.org/
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -27,6 +27,6 @@
 ## Legal Aid
 - Savannah Legal Aid — https://www.georgialegalaid.org/
 ## Corrections
-- Chatham County Jail — https://www.chathamsheriff.org/jail
+- Chatham County Jail 
 ## Municipal Codes
 - Savannah — https://www.savannahga.gov/

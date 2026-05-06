@@ -1,6 +1,6 @@
 # Smith County — Local Law Resources
 ## Law Enforcement
-- Smith County Sheriff — https://www.smithcountyks.gov/sheriff
+- Smith County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Smith County District Court

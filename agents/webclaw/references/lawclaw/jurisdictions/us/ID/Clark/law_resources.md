@@ -1,6 +1,6 @@
 # Clark County — Local Law Resources
 ## Law Enforcement
-- Clark County Sheriff — https://www.clarkcountyidaho.gov/sheriff
+- Clark County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Clark County District Court

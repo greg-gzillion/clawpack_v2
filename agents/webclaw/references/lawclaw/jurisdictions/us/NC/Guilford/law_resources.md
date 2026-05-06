@@ -6,7 +6,7 @@
 - Guilford College — https://www.guilford.edu/
 - High Point University — https://www.highpoint.edu/
 ## Law Enforcement
-- Guilford County Sheriff — https://www.guilfordcountysheriff.com/
+- Guilford County Sheriff 
 - Greensboro Police — https://www.greensboro-nc.gov/departments/police
 - North Carolina State Highway Patrol — https://www.ncdps.gov/our-organization/law-enforcement/state-highway-patrol
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Legal Aid of North Carolina — https://www.legalaidnc.org/
 ## Corrections
-- Guilford County Jail — https://www.guilfordcountysheriff.com/detention/
+- Guilford County Jail 
 ## Municipal Codes
 - Greensboro — https://www.greensboro-nc.gov/

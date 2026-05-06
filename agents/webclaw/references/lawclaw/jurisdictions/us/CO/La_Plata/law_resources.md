@@ -1,6 +1,6 @@
 # La Plata County — Local Law Resources
 ## Law Enforcement
-- La Plata Sheriff — https://www.laplatasheriff.org/
+- La Plata Sheriff 
 - Durango Police — https://www.durangogov.org/163/Police
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- La Plata County Jail — https://www.laplatasheriff.org/jail
+- La Plata County Jail 
 ## Municipal
 - Durango Code — https://www.durangogov.org/

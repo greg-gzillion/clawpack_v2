@@ -1,6 +1,6 @@
 # Jackson County — Local Law Resources
 ## Law Enforcement
-- Jackson County Sheriff — https://www.jacksoncountyks.gov/sheriff
+- Jackson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Jackson County District Court

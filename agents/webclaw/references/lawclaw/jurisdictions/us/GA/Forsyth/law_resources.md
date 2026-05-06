@@ -2,7 +2,7 @@
 ## Universities
 - University of North Georgia (nearby) — https://www.ung.edu/
 ## Law Enforcement
-- Forsyth Sheriff — https://www.forsythsheriff.org/
+- Forsyth Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Forsyth Superior Court — https://www.forsythco.com/Departments-Offices/Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Forsyth County Jail — https://www.forsythsheriff.org/detention-center
+- Forsyth County Jail 
 ## Municipal Codes
 - Cumming — https://www.cityofcumming.net/

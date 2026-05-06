@@ -4,7 +4,7 @@
 - University of Dayton — https://www.udayton.edu/
 - Wright State University — https://www.wright.edu/
 ## Law Enforcement
-- Montgomery County Sheriff — https://www.mcohiosheriff.org/
+- Montgomery County Sheriff 
 - Dayton Police — https://www.daytonohio.gov/123/Police
 - Ohio State Highway Patrol — https://www.statepatrol.ohio.gov/
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Legal Aid of Western Ohio — https://www.lawolaw.org/
 ## Corrections
-- Montgomery County Jail — https://www.mcohiosheriff.org/jail
+- Montgomery County Jail 
 ## Municipal Codes
 - Dayton — https://www.daytonohio.gov/

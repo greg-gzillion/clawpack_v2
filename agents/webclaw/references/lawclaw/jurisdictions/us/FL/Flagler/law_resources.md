@@ -2,7 +2,7 @@
 ## Universities
 - Daytona State College — https://www.daytonastate.edu/
 ## Law Enforcement
-- Flagler Sheriff — https://www.flaglersheriff.com/
+- Flagler Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Flagler Circuit Court — https://www.circuit7.org/
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Community Legal Services of Mid-Florida — https://www.clsmf.org/
 ## Corrections
-- Flagler County Jail — https://www.flaglersheriff.com/corrections/
+- Flagler County Jail 
 ## Municipal Codes
 - Palm Coast — https://www.palmcoast.gov/

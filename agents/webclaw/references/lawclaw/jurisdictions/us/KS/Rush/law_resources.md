@@ -1,6 +1,6 @@
 # Rush County — Local Law Resources
 ## Law Enforcement
-- Rush County Sheriff — https://www.rushcountyks.gov/sheriff
+- Rush County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Rush County District Court

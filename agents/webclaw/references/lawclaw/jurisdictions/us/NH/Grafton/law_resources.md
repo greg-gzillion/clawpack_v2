@@ -3,7 +3,7 @@
 - Dartmouth College — https://www.dartmouth.edu/
 - Plymouth State University — https://www.plymouth.edu/
 ## Law Enforcement
-- Grafton County Sheriff — https://www.graftoncountynh.gov/sheriff
+- Grafton County Sheriff 
 - Lebanon Police — https://www.lebanonnh.gov/183/Police
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts

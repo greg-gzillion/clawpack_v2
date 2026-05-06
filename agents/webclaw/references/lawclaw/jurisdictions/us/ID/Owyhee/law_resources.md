@@ -1,6 +1,6 @@
 # Owyhee County — Local Law Resources
 ## Law Enforcement
-- Owyhee County Sheriff — https://www.owyheecountyidaho.gov/sheriff
+- Owyhee County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Owyhee County District Court

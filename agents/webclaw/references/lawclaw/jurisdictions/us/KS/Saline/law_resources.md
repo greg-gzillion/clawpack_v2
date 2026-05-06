@@ -3,7 +3,7 @@
 - Kansas Wesleyan University — https://www.kwu.edu/
 - Kansas State University Polytechnic — https://www.salina.k-state.edu/
 ## Law Enforcement
-- Saline County Sheriff — https://www.salinecountyks.gov/sheriff/
+- Saline County Sheriff 
 - Salina Police — https://www.salinapolice.org/
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Kansas Legal Services — https://www.kansaslegalservices.org/
 ## Corrections
-- Saline County Jail — https://www.salinecountyks.gov/sheriff/jail/
+- Saline County Jail 
 ## Municipal Codes
 - Salina — https://www.salina-ks.gov/

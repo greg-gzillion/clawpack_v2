@@ -1,6 +1,6 @@
 # Rice County — Local Law Resources
 ## Law Enforcement
-- Rice County Sheriff — https://www.ricecountyks.gov/sheriff
+- Rice County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Rice County District Court

@@ -1,6 +1,6 @@
 # Fresno County — Local Law Resources
 ## Law Enforcement
-- Fresno Sheriff — https://www.fresnosheriff.org/
+- Fresno Sheriff 
 - Fresno Police — https://www.fresno.gov/police/
 - Clovis Police — https://www.cityofclovis.com/police/
 - CHP Central Division — https://www.chp.ca.gov/find-an-office/central-division
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Central California Legal Services — https://www.centralcallegal.org/
 ## Corrections
-- Fresno County Jail — https://www.fresnosheriff.org/units/courts-jails.html
+- Fresno County Jail 
 ## Municipal
 - Fresno Code — https://www.fresno.gov/
 - Clovis Code — https://www.cityofclovis.com/

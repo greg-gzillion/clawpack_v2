@@ -1,6 +1,6 @@
 # Belknap County — Local Law Resources
 ## Law Enforcement
-- Belknap County Sheriff — https://www.belknapcountysheriff.org/
+- Belknap County Sheriff 
 - Laconia Police — https://www.laconianh.gov/170/Police-Department
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
@@ -18,6 +18,6 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Belknap County Department of Corrections — https://www.belknapcountysheriff.org/corrections
+- Belknap County Department of Corrections 
 ## Municipal Codes
 - Laconia — https://www.laconianh.gov/

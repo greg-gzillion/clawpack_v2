@@ -3,7 +3,7 @@
 - Florida Institute of Technology — https://www.fit.edu/
 - Eastern Florida State College — https://www.easternflorida.edu/
 ## Law Enforcement
-- Brevard Sheriff — https://www.brevardsheriff.com/
+- Brevard Sheriff 
 - Melbourne Police — https://www.melbourneflorida.org/departments/police-department
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -28,7 +28,7 @@
 ## Legal Aid
 - Community Legal Services of Mid-Florida — https://www.clsmf.org/
 ## Corrections
-- Brevard County Jail — https://www.brevardsheriff.com/home/corrections/
+- Brevard County Jail 
 ## Municipal Codes
 - Melbourne — https://www.melbourneflorida.org/
 - Palm Bay — https://www.palmbayflorida.org/

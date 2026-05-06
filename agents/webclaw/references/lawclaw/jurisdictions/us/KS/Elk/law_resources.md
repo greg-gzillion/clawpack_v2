@@ -1,6 +1,6 @@
 # Elk County — Local Law Resources
 ## Law Enforcement
-- Elk County Sheriff — https://www.elkcountyks.gov/sheriff
+- Elk County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Elk County District Court

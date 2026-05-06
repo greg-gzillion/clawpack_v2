@@ -3,13 +3,13 @@
 - University of Providence — https://www.uprovidence.edu/
 - Montana State University Great Falls — https://www.msugf.edu/
 ## Law Enforcement
-- Cascade County Sheriff — https://www.cascadecountymt.gov/sheriff/
+- Cascade County Sheriff 
 - Great Falls Police — https://www.greatfallsmt.net/police
 - Montana Highway Patrol — https://www.dojmt.gov/highwaypatrol/
 ## Courts
-- Cascade County District Court — https://www.cascadecountymt.gov/courts/
+- Cascade County District Court 
 ## County Attorney / Defender
-- Cascade County Attorney — https://www.cascadecountymt.gov/attorney/
+- Cascade County Attorney 
 - Montana Public Defender — https://www.publicdefender.mt.gov/
 ## Military
 - Malmstrom AFB Legal — https://www.malmstrom.af.mil/About-Us/Legal-Office/
@@ -25,6 +25,6 @@
 ## Legal Aid
 - Montana Legal Services — https://www.montanalegalservices.org/
 ## Corrections
-- Cascade County Detention Center — https://www.cascadecountymt.gov/sheriff/detention/
+- Cascade County Detention Center 
 ## Municipal Codes
 - Great Falls — https://www.greatfallsmt.net/

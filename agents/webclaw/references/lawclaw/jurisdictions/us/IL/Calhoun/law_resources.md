@@ -1,6 +1,6 @@
 # Calhoun County — Local Law Resources
 ## Law Enforcement
-- Calhoun County Sheriff — https://www.calhouncountyil.gov/sheriff
+- Calhoun County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Calhoun County Circuit Court

@@ -1,6 +1,6 @@
 # Lemhi County — Local Law Resources
 ## Law Enforcement
-- Lemhi County Sheriff — https://www.lemhicountyidaho.gov/sheriff
+- Lemhi County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Lemhi County District Court

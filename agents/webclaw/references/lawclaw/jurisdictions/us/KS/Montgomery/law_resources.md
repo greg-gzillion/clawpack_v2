@@ -1,6 +1,6 @@
 # Montgomery County — Local Law Resources
 ## Law Enforcement
-- Montgomery County Sheriff — https://www.montgomerycountyks.gov/sheriff
+- Montgomery County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Montgomery County District Court

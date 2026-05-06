@@ -1,6 +1,6 @@
 # Gray County — Local Law Resources
 ## Law Enforcement
-- Gray County Sheriff — https://www.graycountyks.gov/sheriff
+- Gray County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Gray County District Court

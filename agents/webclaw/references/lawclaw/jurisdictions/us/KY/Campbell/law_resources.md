@@ -1,6 +1,6 @@
 # Campbell County — Local Law Resources
 ## Law Enforcement
-- Campbell County Sheriff — https://www.campbellcountyky.gov/sheriff/
+- Campbell County Sheriff 
 - Newport Police — https://www.newportky.gov/police/
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts

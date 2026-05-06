@@ -1,6 +1,6 @@
 # Geary County — Local Law Resources
 ## Law Enforcement
-- Geary County Sheriff — https://www.gearycountyks.gov/sheriff
+- Geary County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Geary County District Court

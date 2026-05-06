@@ -2,7 +2,7 @@
 ## Universities
 - William Paterson University — https://www.wpunj.edu/
 ## Law Enforcement
-- Passaic County Sheriff — https://www.pcsheriff.org/
+- Passaic County Sheriff 
 - Paterson Police — https://www.patersonpd.com/
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Passaic County Jail — https://www.pcsheriff.org/jail
+- Passaic County Jail 
 ## Municipal Codes
 - Paterson — https://www.patersonnj.gov/

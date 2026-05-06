@@ -9,10 +9,10 @@
 - IU Police — https://protect.iu.edu/police-safety/police-department/index.html
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Monroe County Circuit Court — https://www.monroecountyin.gov/courts/
+- Monroe County Circuit Court 
 ## County Attorney / Defender
-- Monroe County Prosecutor — https://www.monroecountyin.gov/prosecutor/
-- Monroe County Public Defender — https://www.monroecountyin.gov/public-defender/
+- Monroe County Prosecutor 
+- Monroe County Public Defender 
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting-and-trapping/
 - Hoosier National Forest — https://www.fs.usda.gov/hoosier/

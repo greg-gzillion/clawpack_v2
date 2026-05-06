@@ -1,6 +1,6 @@
 # Power County — Local Law Resources
 ## Law Enforcement
-- Power County Sheriff — https://www.powercountyidaho.gov/sheriff
+- Power County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Power County District Court

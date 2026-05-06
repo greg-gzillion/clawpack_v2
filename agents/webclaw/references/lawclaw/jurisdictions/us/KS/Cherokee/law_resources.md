@@ -1,6 +1,6 @@
 # Cherokee County — Local Law Resources
 ## Law Enforcement
-- Cherokee County Sheriff — https://www.cherokeecountyks.gov/sheriff
+- Cherokee County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Cherokee County District Court

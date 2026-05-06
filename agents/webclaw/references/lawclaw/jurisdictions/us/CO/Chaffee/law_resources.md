@@ -1,6 +1,6 @@
 # Chaffee County — Local Law Resources
 ## Law Enforcement
-- Chaffee Sheriff — https://www.chaffeesheriff.org/
+- Chaffee Sheriff 
 - Salida Police — https://www.cityofsalida.com/police
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Chaffee County Jail — https://www.chaffeesheriff.org/detentions
+- Chaffee County Jail 
 ## Municipal
 - Salida Code — https://www.cityofsalida.com/

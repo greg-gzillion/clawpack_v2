@@ -3,7 +3,7 @@
 - Kentucky Wesleyan College — https://www.kwc.edu/
 - Brescia University — https://www.brescia.edu/
 ## Law Enforcement
-- Daviess County Sheriff — https://www.daviesskysheriff.org/
+- Daviess County Sheriff 
 - Owensboro Police — https://www.owensboro.org/police/
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Daviess County Detention Center — https://www.daviesskysheriff.org/detention-center/
+- Daviess County Detention Center 
 ## Municipal Codes
 - Owensboro — https://www.owensboro.org/

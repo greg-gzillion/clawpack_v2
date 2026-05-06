@@ -4,7 +4,7 @@
 - Purdue University Northwest — https://www.pnw.edu/
 - Valparaiso University — https://www.valpo.edu/
 ## Law Enforcement
-- Lake County Sheriff — https://www.lakecountysheriff.com/
+- Lake County Sheriff 
 - Gary Police — https://www.gary.gov/police/
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
@@ -23,7 +23,7 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Lake County Jail — https://www.lakecountysheriff.com/corrections/
+- Lake County Jail 
 ## Municipal Codes
 - Gary — https://www.gary.gov/
 - Hammond — https://www.gohammond.com/

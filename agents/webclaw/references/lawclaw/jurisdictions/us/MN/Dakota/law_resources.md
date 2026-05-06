@@ -1,6 +1,6 @@
 # Dakota County — Local Law Resources
 ## Law Enforcement
-- Dakota County Sheriff — https://www.dakotacountysheriff.org/
+- Dakota County Sheriff 
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
 - Dakota County District Court — https://www.mncourts.gov/Find-Courts/Dakota.aspx
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Southern Minnesota Regional Legal Services — https://www.smrls.org/
 ## Corrections
-- Dakota County Jail — https://www.dakotacountysheriff.org/jail/
+- Dakota County Jail 
 ## Municipal Codes
 - Hastings — https://www.hastingsmn.gov/

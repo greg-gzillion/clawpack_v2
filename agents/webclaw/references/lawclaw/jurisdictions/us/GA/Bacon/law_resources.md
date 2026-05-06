@@ -1,6 +1,6 @@
 # Bacon County — Local Law Resources
 ## Law Enforcement
-- Bacon Sheriff — https://www.baconcountyga.gov/sheriff/
+- Bacon Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Bacon Superior Court

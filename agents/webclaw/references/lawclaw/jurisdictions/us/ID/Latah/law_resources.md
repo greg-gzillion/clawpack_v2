@@ -4,13 +4,13 @@
   - UI Law Clinics — https://www.uidaho.edu/law/academics/clinics
 - University of Idaho — https://www.uidaho.edu/
 ## Law Enforcement
-- Latah County Sheriff — https://www.latahcountyid.gov/sheriff/
+- Latah County Sheriff 
 - Moscow Police — https://www.ci.moscow.id.us/199/Police-Department
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Latah County District Court — https://www.latah.id.courts.gov/
 ## County Attorney / Defender
-- Latah County Prosecutor — https://www.latahcountyid.gov/prosecutor/
+- Latah County Prosecutor 
 - Idaho Public Defense Commission — https://pdc.idaho.gov/
 ## Hunting Regulations
 - IDFG Hunting Regulations — https://idfg.idaho.gov/hunt/rules
@@ -26,6 +26,6 @@
 ## Legal Aid
 - Idaho Legal Aid Services — https://www.idaholegalaid.org/
 ## Corrections
-- Latah County Jail — https://www.latahcountyid.gov/sheriff/jail/
+- Latah County Jail 
 ## Municipal Codes
 - Moscow — https://www.ci.moscow.id.us/

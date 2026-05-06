@@ -1,6 +1,6 @@
 # Osborne County — Local Law Resources
 ## Law Enforcement
-- Osborne County Sheriff — https://www.osbornecountyks.gov/sheriff
+- Osborne County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Osborne County District Court

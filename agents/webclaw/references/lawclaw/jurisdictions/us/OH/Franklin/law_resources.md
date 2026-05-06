@@ -12,7 +12,7 @@
 - Franklin County Court of Common Pleas — https://www.fccourts.org/
 - U.S. District Court Southern District of Ohio — https://www.ohsd.uscourts.gov/
 ## County Attorney / Defender
-- Franklin County Prosecutor — https://www.franklincountyohio.gov/prosecutor
+- Franklin County Prosecutor 
 - Franklin County Public Defender — https://www.franklincountyohio.gov/publicdefender
 ## Military
 - Defense Supply Center Columbus — https://www.dla.mil/

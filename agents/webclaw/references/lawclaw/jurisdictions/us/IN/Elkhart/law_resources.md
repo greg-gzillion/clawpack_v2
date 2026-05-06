@@ -2,7 +2,7 @@
 ## Universities
 - Goshen College — https://www.goshen.edu/
 ## Law Enforcement
-- Elkhart County Sheriff — https://www.elkhartcountysheriff.com/
+- Elkhart County Sheriff 
 - Elkhart Police — https://www.elkhartpolice.org/
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Elkhart County Jail — https://www.elkhartcountysheriff.com/corrections/
+- Elkhart County Jail 
 ## Municipal Codes
 - Elkhart — https://www.elkhartindiana.org/
 - Goshen — https://www.goshenindiana.org/

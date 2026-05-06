@@ -1,6 +1,6 @@
 # Sheridan County — Local Law Resources
 ## Law Enforcement
-- Sheridan County Sheriff — https://www.sheridancountyks.gov/sheriff
+- Sheridan County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Sheridan County District Court

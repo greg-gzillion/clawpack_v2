@@ -1,6 +1,6 @@
 # San Luis Obispo County — Local Law Resources
 ## Law Enforcement
-- San Luis Obispo Sheriff — https://www.slosheriff.org/
+- San Luis Obispo Sheriff 
 - San Luis Obispo Police — https://www.slocity.org/government/departments/police
 - CHP Coastal Division — https://www.chp.ca.gov/find-an-office/coastal-division
 ## Courts
@@ -21,7 +21,7 @@
 ## Legal Aid
 - California Rural Legal Assistance — https://www.crla.org/
 ## Corrections
-- SLO County Jail — https://www.slosheriff.org/custody-division
+- SLO County Jail 
 ## Municipal
 - San Luis Obispo Code — https://www.slocity.org/
 - Paso Robles Code — https://www.prcity.com/

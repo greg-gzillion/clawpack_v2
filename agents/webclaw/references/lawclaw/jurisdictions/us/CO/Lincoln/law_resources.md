@@ -1,6 +1,6 @@
 # Lincoln County — Local Law Resources
 ## Law Enforcement
-- Lincoln Sheriff — https://www.lincolncountyco.gov/sheriff
+- Lincoln Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Lincoln District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=18

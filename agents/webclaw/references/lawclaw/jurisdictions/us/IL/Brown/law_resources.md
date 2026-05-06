@@ -1,6 +1,6 @@
 # Brown County — Local Law Resources
 ## Law Enforcement
-- Brown County Sheriff — https://www.browncountyil.gov/sheriff
+- Brown County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Brown County Circuit Court

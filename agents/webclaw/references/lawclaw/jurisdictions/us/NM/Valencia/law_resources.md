@@ -1,6 +1,6 @@
 # Valencia County — Local Law Resources
 ## Law Enforcement
-- Valencia County Sheriff — https://www.valenciasheriff.com/
+- Valencia County Sheriff 
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
 - Valencia County District Court — https://www.nmcourts.gov/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - New Mexico Legal Aid — https://www.newmexicolegalaid.org/
 ## Corrections
-- Valencia County Detention Center — https://www.valenciasheriff.com/detention
+- Valencia County Detention Center 
 ## Municipal Codes
 - Los Lunas — https://www.loslunasnm.gov/

@@ -3,11 +3,11 @@
 - University of Southern Mississippi — https://www.usm.edu/
 - William Carey University — https://www.wmcarey.edu/
 ## Law Enforcement
-- Forrest County Sheriff — https://www.forrestcountyms.gov/sheriff
+- Forrest County Sheriff 
 - Hattiesburg Police — https://www.hattiesburgms.com/police/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Forrest County Circuit Court — https://www.forrestcountyms.gov/courts
+- Forrest County Circuit Court 
 ## County Attorney / Defender
 - Forrest County District Attorney
 - Mississippi Public Defender — https://www.opd.ms.gov/
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Forrest County Jail — https://www.forrestcountyms.gov/sheriff/detention
+- Forrest County Jail 
 ## Municipal Codes
 - Hattiesburg — https://www.hattiesburgms.com/

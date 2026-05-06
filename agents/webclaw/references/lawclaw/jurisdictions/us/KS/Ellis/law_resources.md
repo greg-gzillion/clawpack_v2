@@ -1,6 +1,6 @@
 # Ellis County — Local Law Resources
 ## Law Enforcement
-- Ellis County Sheriff — https://www.elliscountyks.gov/sheriff
+- Ellis County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Ellis County District Court

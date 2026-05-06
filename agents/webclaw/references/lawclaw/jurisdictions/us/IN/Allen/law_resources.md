@@ -3,7 +3,7 @@
 - Purdue University Fort Wayne — https://www.pfw.edu/
 - Indiana Tech — https://www.indianatech.edu/
 ## Law Enforcement
-- Allen County Sheriff — https://www.allencountysheriff.org/
+- Allen County Sheriff 
 - Fort Wayne Police — https://www.fortwaynepolice.org/
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Allen County Jail — https://www.allencountysheriff.org/corrections/
+- Allen County Jail 
 ## Municipal Codes
 - Fort Wayne — https://www.cityoffortwayne.org/

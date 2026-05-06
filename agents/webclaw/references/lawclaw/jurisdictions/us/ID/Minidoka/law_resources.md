@@ -1,6 +1,6 @@
 # Minidoka County — Local Law Resources
 ## Law Enforcement
-- Minidoka County Sheriff — https://www.minidokacountyidaho.gov/sheriff
+- Minidoka County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Minidoka County District Court

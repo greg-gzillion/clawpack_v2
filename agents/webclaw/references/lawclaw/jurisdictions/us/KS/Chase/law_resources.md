@@ -1,6 +1,6 @@
 # Chase County — Local Law Resources
 ## Law Enforcement
-- Chase County Sheriff — https://www.chasecountyks.gov/sheriff
+- Chase County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Chase County District Court

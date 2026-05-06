@@ -1,6 +1,6 @@
 # San Francisco County — Local Law Resources
 ## Law Enforcement
-- SF Sheriff — https://www.sfsheriff.com/
+- SF Sheriff 
 - SF Police — https://www.sanfranciscopolice.org/
 - CHP Golden Gate Division — https://www.chp.ca.gov/find-an-office/golden-gate-division
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Bay Area Legal Aid — https://www.baylegal.org/
 ## Corrections
-- SF County Jails — https://www.sfsheriff.com/jails
+- SF County Jails 
 ## Municipal
 - SF Code — https://codelibrary.amlegal.com/codes/san_francisco/

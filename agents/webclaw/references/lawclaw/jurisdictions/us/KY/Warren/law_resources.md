@@ -2,7 +2,7 @@
 ## Universities
 - Western Kentucky University — https://www.wku.edu/
 ## Law Enforcement
-- Warren County Sheriff — https://www.warrencountysheriff.org/
+- Warren County Sheriff 
 - Bowling Green Police — https://www.bgky.org/police
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Warren County Regional Jail — https://www.warrencountysheriff.org/jail/
+- Warren County Regional Jail 
 ## Municipal Codes
 - Bowling Green — https://www.bgky.org/

@@ -1,6 +1,6 @@
 # Adams County — Local Law Resources
 ## Law Enforcement
-- Adams County Sheriff — https://www.adamscountyidaho.gov/sheriff
+- Adams County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Adams County District Court

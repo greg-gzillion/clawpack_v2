@@ -3,7 +3,7 @@
 - Rutgers Law School — Camden — https://law.rutgers.edu/
 - Rutgers University-Camden — https://www.camden.rutgers.edu/
 ## Law Enforcement
-- Camden County Sheriff — https://www.camdencountysheriff.org/
+- Camden County Sheriff 
 - Camden County Police — https://www.camdencountypolice.com/
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Camden County Correctional Facility — https://www.camdencountysheriff.org/corrections
+- Camden County Correctional Facility 
 ## Municipal Codes
 - Camden — https://www.ci.camden.nj.us/

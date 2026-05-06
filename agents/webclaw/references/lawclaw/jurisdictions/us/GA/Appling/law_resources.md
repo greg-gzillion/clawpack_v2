@@ -1,6 +1,6 @@
 # Appling County — Local Law Resources
 ## Law Enforcement
-- Appling Sheriff — https://www.applingcountyga.gov/sheriff/
+- Appling Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Appling Superior Court

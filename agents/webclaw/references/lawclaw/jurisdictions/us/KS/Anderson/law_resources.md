@@ -1,6 +1,6 @@
 # Anderson County — Local Law Resources
 ## Law Enforcement
-- Anderson County Sheriff — https://www.andersoncountyks.gov/sheriff
+- Anderson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Anderson County District Court

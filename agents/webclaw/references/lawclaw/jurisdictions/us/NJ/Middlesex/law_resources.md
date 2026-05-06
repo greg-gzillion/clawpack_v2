@@ -3,7 +3,7 @@
 - Rutgers Law School — New Brunswick (adjacent) — https://law.rutgers.edu/
 - Rutgers University-New Brunswick — https://www.rutgers.edu/
 ## Law Enforcement
-- Middlesex County Sheriff — https://www.middlesexcountynj.gov/sheriff
+- Middlesex County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Middlesex County Superior Court — https://www.njcourts.gov/
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Middlesex County Correctional Center — https://www.middlesexcountynj.gov/sheriff/corrections
+- Middlesex County Correctional Center 
 ## Municipal Codes
 - New Brunswick — https://www.cityofnewbrunswick.org/
 - Edison — https://www.edisonnj.org/

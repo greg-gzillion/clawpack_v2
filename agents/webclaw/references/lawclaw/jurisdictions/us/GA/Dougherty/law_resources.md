@@ -2,7 +2,7 @@
 ## Universities
 - Albany State University — https://www.asurams.edu/
 ## Law Enforcement
-- Dougherty Sheriff — https://www.doughertysheriff.com/
+- Dougherty Sheriff 
 - Albany Police — https://www.albanyga.gov/departments/police
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Dougherty County Jail — https://www.doughertysheriff.com/jail
+- Dougherty County Jail 
 ## Municipal Codes
 - Albany — https://www.albanyga.gov/

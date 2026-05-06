@@ -1,6 +1,6 @@
 # Coles County — Local Law Resources
 ## Law Enforcement
-- Coles County Sheriff — https://www.colescountyil.gov/sheriff
+- Coles County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Coles County Circuit Court

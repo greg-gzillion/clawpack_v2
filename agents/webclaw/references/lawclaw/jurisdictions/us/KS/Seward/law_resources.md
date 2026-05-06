@@ -1,6 +1,6 @@
 # Seward County — Local Law Resources
 ## Law Enforcement
-- Seward County Sheriff — https://www.sewardcountyks.gov/sheriff
+- Seward County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Seward County District Court

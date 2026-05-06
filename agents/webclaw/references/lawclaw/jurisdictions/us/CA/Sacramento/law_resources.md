@@ -1,6 +1,6 @@
 # Sacramento County — Local Law Resources
 ## Law Enforcement
-- Sacramento Sheriff — https://www.sacsheriff.com/
+- Sacramento Sheriff 
 - Sacramento Police — https://www.sacpd.org/
 - CHP Valley Division — https://www.chp.ca.gov/find-an-office/valley-division
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections
-- Sacramento County Jails — https://www.sacsheriff.com/pages/division_main_jail.php
+- Sacramento County Jails 
 ## Municipal
 - Sacramento Code — https://library.municode.com/ca/sacramento/

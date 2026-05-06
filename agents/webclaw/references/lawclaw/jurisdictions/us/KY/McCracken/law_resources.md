@@ -1,6 +1,6 @@
 # McCracken County — Local Law Resources
 ## Law Enforcement
-- McCracken County Sheriff — https://www.mccrackencountysheriff.com/
+- McCracken County Sheriff 
 - Paducah Police — https://www.paducahky.gov/police/
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
@@ -17,6 +17,6 @@
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- McCracken County Regional Jail — https://www.mccrackencountysheriff.com/detention-center/
+- McCracken County Regional Jail 
 ## Municipal Codes
 - Paducah — https://www.paducahky.gov/

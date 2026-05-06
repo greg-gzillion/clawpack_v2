@@ -1,6 +1,6 @@
 # Boone County — Local Law Resources
 ## Law Enforcement
-- Boone County Sheriff — https://www.boonecountyil.gov/sheriff
+- Boone County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Boone County Circuit Court

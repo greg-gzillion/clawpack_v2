@@ -2,7 +2,7 @@
 ## Universities
 - Pasco-Hernando State College — https://www.phsc.edu/
 ## Law Enforcement
-- Hernando Sheriff — https://www.hernandosheriff.org/
+- Hernando Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Hernando Circuit Court — https://www.circuit5.org/
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Bay Area Legal Services — https://www.bals.org/
 ## Corrections
-- Hernando County Jail — https://www.hernandosheriff.org/corrections/
+- Hernando County Jail 
 ## Municipal Codes
 - Brooksville — https://www.cityofbrooksville.us/

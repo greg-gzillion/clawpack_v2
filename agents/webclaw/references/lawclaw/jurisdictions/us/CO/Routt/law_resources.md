@@ -1,6 +1,6 @@
 # Routt County — Local Law Resources
 ## Law Enforcement
-- Routt Sheriff — https://www.routtcountysheriff.com/
+- Routt Sheriff 
 - Steamboat Springs Police — https://www.steamboatsprings.net/162/Police
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Routt County Jail — https://www.routtcountysheriff.com/jail
+- Routt County Jail 
 ## Municipal
 - Steamboat Springs Code — https://www.steamboatsprings.net/

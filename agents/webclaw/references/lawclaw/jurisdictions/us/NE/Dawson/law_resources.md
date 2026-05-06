@@ -1,12 +1,12 @@
 # Dawson County — Local Law Resources
 ## Law Enforcement
-- Dawson County Sheriff — https://www.dawsoncountyne.gov/sheriff/
+- Dawson County Sheriff 
 - Lexington Police — https://www.ci.lexington.ne.us/police/
 - Nebraska State Patrol — https://www.statepatrol.nebraska.gov/
 ## Courts
-- Dawson County District Court — https://www.dawsoncountyne.gov/courts/
+- Dawson County District Court 
 ## County Attorney / Defender
-- Dawson County Attorney — https://www.dawsoncountyne.gov/attorney/
+- Dawson County Attorney 
 - Nebraska Public Defender — https://www.nebraskapublicdefender.com/
 ## Hunting Regulations
 - NE Hunting Regulations — https://www.outdoornebraska.gov/hunting/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Aid of Nebraska — https://www.legalaidofnebraska.org/
 ## Corrections
-- Dawson County Jail — https://www.dawsoncountyne.gov/sheriff/jail/
+- Dawson County Jail 
 ## Municipal Codes
 - Lexington — https://www.ci.lexington.ne.us/

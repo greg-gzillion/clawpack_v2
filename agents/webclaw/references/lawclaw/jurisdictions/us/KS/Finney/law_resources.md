@@ -1,6 +1,6 @@
 # Finney County — Local Law Resources
 ## Law Enforcement
-- Finney County Sheriff — https://www.finneycountyks.gov/sheriff
+- Finney County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Finney County District Court

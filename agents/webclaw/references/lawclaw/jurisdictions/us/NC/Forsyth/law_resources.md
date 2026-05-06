@@ -4,7 +4,7 @@
 - Wake Forest University School of Law — https://law.wfu.edu/
 - Winston-Salem State University — https://www.wssu.edu/
 ## Law Enforcement
-- Forsyth County Sheriff — https://www.fcsheriff.com/
+- Forsyth County Sheriff 
 - Winston-Salem Police — https://www.cityofws.org/166/Police-Department
 - North Carolina State Highway Patrol — https://www.ncdps.gov/our-organization/law-enforcement/state-highway-patrol
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Legal Aid of North Carolina — https://www.legalaidnc.org/
 ## Corrections
-- Forsyth County Jail — https://www.fcsheriff.com/detention/
+- Forsyth County Jail 
 ## Municipal Codes
 - Winston-Salem — https://www.cityofws.org/

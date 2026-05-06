@@ -2,10 +2,10 @@
 ## Universities
 - Miami University — https://www.miamioh.edu/
 ## Law Enforcement
-- Butler County Sheriff — https://www.butlersheriff.org/
+- Butler County Sheriff 
 - Ohio State Highway Patrol — https://www.statepatrol.ohio.gov/
 ## Courts
-- Butler County Court of Common Pleas — https://www.butlercountyohio.org/courts
+- Butler County Court of Common Pleas 
 ## County Attorney / Defender
 - Butler County Prosecutor — https://www.butlercountyprosecutor.org/
 - Butler County Public Defender — https://www.butlercountypublicdefender.org/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Aid of Western Ohio — https://www.lawolaw.org/
 ## Corrections
-- Butler County Jail — https://www.butlersheriff.org/corrections
+- Butler County Jail 
 ## Municipal Codes
 - Hamilton — https://www.hamilton-oh.gov/

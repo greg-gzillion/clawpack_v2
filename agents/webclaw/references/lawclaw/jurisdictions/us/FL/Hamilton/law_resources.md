@@ -1,6 +1,6 @@
 # Hamilton County — Local Law Resources
 ## Law Enforcement
-- Hamilton Sheriff — https://www.hamiltonsheriff.com/
+- Hamilton Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Hamilton Circuit Court — https://www.jud3.flcourts.org/

@@ -3,7 +3,7 @@
 - New Jersey City University — https://www.njcu.edu/
 - Stevens Institute of Technology — https://www.stevens.edu/
 ## Law Enforcement
-- Hudson County Sheriff — https://www.hudsoncountysheriff.com/
+- Hudson County Sheriff 
 - Jersey City Police — https://www.jerseycitynj.gov/cityhall/public_safety/police
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Hudson County Correctional Center — https://www.hudsoncountysheriff.com/corrections
+- Hudson County Correctional Center 
 ## Municipal Codes
 - Jersey City — https://www.jerseycitynj.gov/
 - Hoboken — https://www.hobokennj.gov/

@@ -1,6 +1,6 @@
 # Pawnee County — Local Law Resources
 ## Law Enforcement
-- Pawnee County Sheriff — https://www.pawneecountyks.gov/sheriff
+- Pawnee County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Pawnee County District Court

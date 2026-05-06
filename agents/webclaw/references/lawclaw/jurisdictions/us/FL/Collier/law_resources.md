@@ -3,7 +3,7 @@
 - Ave Maria University — https://www.avemaria.edu/
 - Florida Gulf Coast University (adjacent) — https://www.fgcu.edu/
 ## Law Enforcement
-- Collier Sheriff — https://www.colliersheriff.org/
+- Collier Sheriff 
 - Naples Police — https://www.naplesgov.com/police
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -26,6 +26,6 @@
 ## Legal Aid
 - Legal Aid Service of Collier County — https://www.legalaid.org/collier
 ## Corrections
-- Collier County Jail — https://www.colliersheriff.org/corrections/
+- Collier County Jail 
 ## Municipal Codes
 - Naples — https://www.naplesgov.com/

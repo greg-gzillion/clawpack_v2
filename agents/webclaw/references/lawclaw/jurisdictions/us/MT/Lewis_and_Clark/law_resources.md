@@ -2,14 +2,14 @@
 ## Universities
 - Carroll College — https://www.carroll.edu/
 ## Law Enforcement
-- Lewis and Clark County Sheriff — https://www.lcsheriff.org/
+- Lewis and Clark County Sheriff 
 - Helena Police — https://www.helenamt.gov/departments/police-department
 - Montana Highway Patrol — https://www.dojmt.gov/highwaypatrol/
 ## Courts
-- Lewis and Clark County District Court — https://www.lewisandclarkcountymt.gov/courts/
+- Lewis and Clark County District Court 
 - Montana Supreme Court — Helena — https://www.courts.mt.gov/
 ## County Attorney / Defender
-- Lewis and Clark County Attorney — https://www.lewisandclarkcountymt.gov/attorney/
+- Lewis and Clark County Attorney 
 - Montana Public Defender — https://www.publicdefender.mt.gov/
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunt/regulations
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Montana Legal Services — https://www.montanalegalservices.org/
 ## Corrections
-- Lewis and Clark County Detention Center — https://www.lcsheriff.org/detention/
+- Lewis and Clark County Detention Center 
 ## Municipal Codes
 - Helena — https://www.helenamt.gov/

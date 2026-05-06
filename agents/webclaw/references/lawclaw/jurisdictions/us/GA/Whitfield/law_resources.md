@@ -2,13 +2,13 @@
 ## Universities
 - Dalton State College — https://www.daltonstate.edu/
 ## Law Enforcement
-- Whitfield Sheriff — https://www.whitfieldcountyga.com/sheriff/
+- Whitfield Sheriff 
 - Dalton Police — https://www.cityofdalton-ga.gov/police/
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
-- Whitfield Superior Court — https://www.whitfieldcountyga.com/courts/
+- Whitfield Superior Court 
 ## County Attorney / Defender
-- Whitfield DA — https://www.whitfieldcountyga.com/da/
+- Whitfield DA 
 - Whitfield Public Defender
 ## Hunting Regulations
 - GA Hunting Regulations — https://georgiawildlife.com/hunting/regulations
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Whitfield County Jail — https://www.whitfieldcountyga.com/sheriff/jail
+- Whitfield County Jail 
 ## Municipal Codes
 - Dalton — https://www.cityofdalton-ga.gov/

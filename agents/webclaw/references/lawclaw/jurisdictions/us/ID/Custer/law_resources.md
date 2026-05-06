@@ -1,6 +1,6 @@
 # Custer County — Local Law Resources
 ## Law Enforcement
-- Custer County Sheriff — https://www.custercountyidaho.gov/sheriff
+- Custer County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Custer County District Court

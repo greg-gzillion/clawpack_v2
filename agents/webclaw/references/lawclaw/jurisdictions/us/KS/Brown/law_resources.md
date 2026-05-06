@@ -1,6 +1,6 @@
 # Brown County — Local Law Resources
 ## Law Enforcement
-- Brown County Sheriff — https://www.browncountyks.gov/sheriff
+- Brown County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Brown County District Court

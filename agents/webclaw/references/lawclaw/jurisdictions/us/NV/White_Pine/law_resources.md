@@ -1,6 +1,6 @@
 # White Pine County — Local Law Resources
 ## Law Enforcement
-- White Pine County Sheriff — https://www.whitepinesheriff.org/
+- White Pine County Sheriff 
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
 - White Pine County District Court — https://www.whitepinecountycourts.com/
@@ -19,7 +19,7 @@
 ## Legal Aid
 - Nevada Legal Services — https://www.nevadalegalservices.org/
 ## Corrections
-- White Pine County Jail — https://www.whitepinesheriff.org/jail
+- White Pine County Jail 
 - Ely State Prison — https://www.doc.nv.gov/
 ## Municipal Codes
 - Ely — https://www.elynevada.net/

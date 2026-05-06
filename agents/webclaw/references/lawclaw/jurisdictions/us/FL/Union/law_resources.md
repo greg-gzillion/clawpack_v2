@@ -1,6 +1,6 @@
 # Union County — Local Law Resources
 ## Law Enforcement
-- Union Sheriff — https://www.unionsheriff.org/
+- Union Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Union Circuit Court — https://www.jud8.flcourts.org/

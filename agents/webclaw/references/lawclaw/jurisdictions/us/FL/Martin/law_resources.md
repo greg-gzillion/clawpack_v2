@@ -2,7 +2,7 @@
 ## Universities
 - Indian River State College — https://www.irsc.edu/
 ## Law Enforcement
-- Martin Sheriff — https://www.martinsheriff.org/
+- Martin Sheriff 
 - Stuart Police — https://www.stuartpolice.org/
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -25,6 +25,6 @@
 ## Legal Aid
 - Florida Rural Legal Services — https://www.frls.org/
 ## Corrections
-- Martin County Jail — https://www.martinsheriff.org/corrections/
+- Martin County Jail 
 ## Municipal Codes
 - Stuart — https://www.cityofstuart.us/

@@ -1,6 +1,6 @@
 # Teton County — Local Law Resources
 ## Law Enforcement
-- Teton County Sheriff — https://www.tetoncountyidaho.gov/sheriff
+- Teton County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Teton County District Court

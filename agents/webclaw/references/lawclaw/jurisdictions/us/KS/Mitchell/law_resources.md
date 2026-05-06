@@ -1,6 +1,6 @@
 # Mitchell County — Local Law Resources
 ## Law Enforcement
-- Mitchell County Sheriff — https://www.mitchellcountyks.gov/sheriff
+- Mitchell County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Mitchell County District Court

@@ -1,6 +1,6 @@
 # Barber County — Local Law Resources
 ## Law Enforcement
-- Barber County Sheriff — https://www.barbercountyks.gov/sheriff
+- Barber County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Barber County District Court

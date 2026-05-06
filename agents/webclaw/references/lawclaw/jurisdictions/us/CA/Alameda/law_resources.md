@@ -1,6 +1,6 @@
 # Alameda County — Local Law Resources
 ## Law Enforcement
-- Alameda County Sheriff — https://www.alamedacountysheriff.org/
+- Alameda County Sheriff 
 - Oakland Police — https://www.oaklandca.gov/departments/police
 - Berkeley Police — https://www.cityofberkeley.info/police/
 - Fremont Police — https://www.fremontpolice.gov/
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Bay Area Legal Aid — https://www.baylegal.org/
 ## Corrections
-- Santa Rita Jail — https://www.alamedacountysheriff.org/detention-and-corrections
+- Santa Rita Jail 
 ## Municipal
 - Oakland Code — https://library.municode.com/ca/oakland/
 - Berkeley Code — https://www.codepublishing.com/CA/Berkeley/

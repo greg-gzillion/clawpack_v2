@@ -1,6 +1,6 @@
 # Carver County — Local Law Resources
 ## Law Enforcement
-- Carver County Sheriff — https://www.carvercountysheriff.org/
+- Carver County Sheriff 
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
 - Carver County District Court — https://www.mncourts.gov/Find-Courts/Carver.aspx
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Mid-Minnesota Legal Aid — https://www.mylegalaid.org/
 ## Corrections
-- Carver County Jail — https://www.carvercountysheriff.org/jail/
+- Carver County Jail 
 ## Municipal Codes
 - Chaska — https://www.chaskamn.gov/

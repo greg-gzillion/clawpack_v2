@@ -5,7 +5,7 @@
 - Saint Anselm College — https://www.anselm.edu/
 - Rivier University — https://www.rivier.edu/
 ## Law Enforcement
-- Hillsborough County Sheriff — https://www.hcsheriff.org/
+- Hillsborough County Sheriff 
 - Manchester Police — https://www.manchesternh.gov/Departments/Police
 - Nashua Police — https://www.nashuapd.com/
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
@@ -24,7 +24,7 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Hillsborough County Department of Corrections — https://www.hcsheriff.org/corrections
+- Hillsborough County Department of Corrections 
 ## Municipal Codes
 - Manchester — https://www.manchesternh.gov/
 - Nashua — https://www.nashuanh.gov/

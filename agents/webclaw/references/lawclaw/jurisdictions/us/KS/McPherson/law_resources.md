@@ -1,6 +1,6 @@
 # McPherson County — Local Law Resources
 ## Law Enforcement
-- McPherson County Sheriff — https://www.mcphersoncountyks.gov/sheriff
+- McPherson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - McPherson County District Court

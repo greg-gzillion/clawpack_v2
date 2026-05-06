@@ -1,6 +1,6 @@
 # Cheyenne County — Local Law Resources
 ## Law Enforcement
-- Cheyenne County Sheriff — https://www.cheyennecountyks.gov/sheriff
+- Cheyenne County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Cheyenne County District Court

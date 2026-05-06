@@ -4,7 +4,7 @@
 - Southeastern University — https://www.seu.edu/
 - Polk State College — https://www.polk.edu/
 ## Law Enforcement
-- Polk Sheriff — https://www.polksheriff.org/
+- Polk Sheriff 
 - Lakeland Police — https://www.lakelandgov.net/departments/police/
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Florida Rural Legal Services — https://www.frls.org/
 ## Corrections
-- Polk County Jail — https://www.polksheriff.org/corrections/
+- Polk County Jail 
 ## Municipal Codes
 - Lakeland — https://www.lakelandgov.net/
 - Winter Haven — https://www.mywinterhaven.com/

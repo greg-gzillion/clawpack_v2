@@ -1,6 +1,6 @@
 # Wichita County — Local Law Resources
 ## Law Enforcement
-- Wichita County Sheriff — https://www.wichitacountyks.gov/sheriff
+- Wichita County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Wichita County District Court

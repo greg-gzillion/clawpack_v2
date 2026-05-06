@@ -2,7 +2,7 @@
 ## Universities
 - North Florida College — https://www.nfc.edu/
 ## Law Enforcement
-- Suwannee Sheriff — https://www.suwanneesheriff.com/
+- Suwannee Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Suwannee Circuit Court — https://www.jud3.flcourts.org/
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Three Rivers Legal Services — https://www.trls.org/
 ## Corrections
-- Suwannee County Jail — https://www.suwanneesheriff.com/corrections/
+- Suwannee County Jail 
 - Suwannee Correctional Institution — https://www.fdc.myflorida.com/ci/209.html
 ## Municipal Codes
 - Live Oak — https://www.cityofliveoak.org/

@@ -1,6 +1,6 @@
 # Baker County — Local Law Resources
 ## Law Enforcement
-- Baker Sheriff — https://www.bakercountyga.gov/sheriff/
+- Baker Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Baker Superior Court

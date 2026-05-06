@@ -1,6 +1,6 @@
 # Crawford County — Local Law Resources
 ## Law Enforcement
-- Crawford County Sheriff — https://www.crawfordcountyks.gov/sheriff
+- Crawford County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Crawford County District Court

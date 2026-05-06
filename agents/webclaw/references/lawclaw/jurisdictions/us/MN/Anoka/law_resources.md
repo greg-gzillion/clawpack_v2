@@ -2,7 +2,7 @@
 ## Universities
 - Anoka-Ramsey Community College — https://www.anokaramsey.edu/
 ## Law Enforcement
-- Anoka County Sheriff — https://www.anokacountysheriff.org/
+- Anoka County Sheriff 
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
 - Anoka County District Court — https://www.mncourts.gov/Find-Courts/Anoka.aspx
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Mid-Minnesota Legal Aid — https://www.mylegalaid.org/
 ## Corrections
-- Anoka County Jail — https://www.anokacountysheriff.org/jail/
+- Anoka County Jail 
 ## Municipal Codes
 - Anoka — https://www.anokaminnesota.com/

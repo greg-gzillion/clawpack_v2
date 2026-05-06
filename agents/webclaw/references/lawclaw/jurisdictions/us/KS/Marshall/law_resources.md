@@ -1,6 +1,6 @@
 # Marshall County — Local Law Resources
 ## Law Enforcement
-- Marshall County Sheriff — https://www.marshallcountyks.gov/sheriff
+- Marshall County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Marshall County District Court

@@ -2,7 +2,7 @@
 ## Universities
 - New Mexico State University Alamogordo — https://www.alamogordo.nmsu.edu/
 ## Law Enforcement
-- Otero County Sheriff — https://www.oterocountysheriff.org/
+- Otero County Sheriff 
 - Alamogordo Police — https://www.ci.alamogordo.nm.us/174/Police-Department
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - New Mexico Legal Aid — https://www.newmexicolegalaid.org/
 ## Corrections
-- Otero County Detention Center — https://www.oterocountysheriff.org/detention
+- Otero County Detention Center 
 ## Municipal Codes
 - Alamogordo — https://www.ci.alamogordo.nm.us/

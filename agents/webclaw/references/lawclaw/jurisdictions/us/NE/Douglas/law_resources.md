@@ -5,7 +5,7 @@
 - Creighton University — https://www.creighton.edu/
 - University of Nebraska Omaha — https://www.unomaha.edu/
 ## Law Enforcement
-- Douglas County Sheriff — https://www.douglascountysheriff.org/
+- Douglas County Sheriff 
 - Omaha Police — https://www.opd.ci.omaha.ne.us/
 - Nebraska State Patrol — https://www.statepatrol.nebraska.gov/
 ## Courts
@@ -26,6 +26,6 @@
 ## Legal Aid
 - Legal Aid of Nebraska — https://www.legalaidofnebraska.org/
 ## Corrections
-- Douglas County Correctional Center — https://www.douglascountysheriff.org/corrections/
+- Douglas County Correctional Center 
 ## Municipal Codes
 - Omaha — https://www.cityofomaha.org/

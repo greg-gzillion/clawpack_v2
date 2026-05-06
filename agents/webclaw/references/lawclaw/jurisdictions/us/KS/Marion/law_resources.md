@@ -1,6 +1,6 @@
 # Marion County — Local Law Resources
 ## Law Enforcement
-- Marion County Sheriff — https://www.marioncountyks.gov/sheriff
+- Marion County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Marion County District Court

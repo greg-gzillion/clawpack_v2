@@ -1,6 +1,6 @@
 # Morgan County — Local Law Resources
 ## Law Enforcement
-- Morgan Sheriff — https://www.morgansheriff.net/
+- Morgan Sheriff 
 - Fort Morgan Police — https://www.cityoffortmorgan.com/164/Police-Department
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Morgan County Jail — https://www.morgansheriff.net/jail
+- Morgan County Jail 
 ## Municipal
 - Fort Morgan Code — https://www.cityoffortmorgan.com/

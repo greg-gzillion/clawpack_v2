@@ -3,7 +3,7 @@
 - University of Mississippi School of Law — https://law.olemiss.edu/
 - University of Mississippi (Ole Miss) — https://www.olemiss.edu/
 ## Law Enforcement
-- Lafayette County Sheriff — https://www.lafayettesheriff.net/
+- Lafayette County Sheriff 
 - Oxford Police — https://www.oxfordpolice.net/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Lafayette County Jail — https://www.lafayettesheriff.net/detention/
+- Lafayette County Jail 
 ## Municipal Codes
 - Oxford — https://www.oxfordms.net/

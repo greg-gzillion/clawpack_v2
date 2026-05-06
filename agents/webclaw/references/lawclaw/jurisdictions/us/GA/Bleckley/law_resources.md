@@ -1,6 +1,6 @@
 # Bleckley County — Local Law Resources
 ## Law Enforcement
-- Bleckley Sheriff — https://www.bleckleycountyga.gov/sheriff/
+- Bleckley Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Bleckley Superior Court

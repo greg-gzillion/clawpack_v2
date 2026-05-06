@@ -3,7 +3,7 @@
 - University of Akron School of Law — https://www.uakron.edu/law/
 - University of Akron — https://www.uakron.edu/
 ## Law Enforcement
-- Summit County Sheriff — https://www.summitcountysheriff.org/
+- Summit County Sheriff 
 - Akron Police — https://www.akronohio.gov/police
 - Ohio State Highway Patrol — https://www.statepatrol.ohio.gov/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Community Legal Aid — https://www.communitylegalaid.org/
 ## Corrections
-- Summit County Jail — https://www.summitcountysheriff.org/jail
+- Summit County Jail 
 ## Municipal Codes
 - Akron — https://www.akronohio.gov/

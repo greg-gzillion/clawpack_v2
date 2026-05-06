@@ -23,7 +23,7 @@
 - MCAS Yuma Legal — https://www.mcasyuma.marines.mil/
 - Yuma Proving Ground — https://www.yuma.army.mil/
 ## Corrections
-- Yuma County Detention — https://www.yumacountysheriff.org/detention.html
+- Yuma County Detention 
 - AZ State Prison Yuma — https://corrections.az.gov/location-prisons/aspc-yuma
 ## Municipal
 - Yuma — https://www.yumaaz.gov/

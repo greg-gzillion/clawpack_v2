@@ -1,6 +1,6 @@
 # Fremont County — Local Law Resources
 ## Law Enforcement
-- Fremont County Sheriff — https://www.fremontcountyidaho.gov/sheriff
+- Fremont County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Fremont County District Court

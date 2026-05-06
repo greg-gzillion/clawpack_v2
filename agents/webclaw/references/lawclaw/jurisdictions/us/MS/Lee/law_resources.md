@@ -2,11 +2,11 @@
 ## Universities
 - Itawamba Community College — https://www.iccms.edu/
 ## Law Enforcement
-- Lee County Sheriff — https://www.leecountyms.gov/sheriff
+- Lee County Sheriff 
 - Tupelo Police — https://www.tupeloms.gov/police/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Lee County Circuit Court — https://www.leecountyms.gov/courts
+- Lee County Circuit Court 
 ## County Attorney / Defender
 - Lee County District Attorney
 - Mississippi Public Defender — https://www.opd.ms.gov/
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Lee County Jail — https://www.leecountyms.gov/sheriff/detention
+- Lee County Jail 
 ## Municipal Codes
 - Tupelo — https://www.tupeloms.gov/

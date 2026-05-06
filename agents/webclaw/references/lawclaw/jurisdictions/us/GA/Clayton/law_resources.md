@@ -2,7 +2,7 @@
 ## Universities
 - Clayton State University — https://www.clayton.edu/
 ## Law Enforcement
-- Clayton Sheriff — https://www.claytonsheriff.com/
+- Clayton Sheriff 
 - Clayton Police — https://www.claytoncountyga.gov/government/police-department
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Atlanta Legal Aid Society — https://www.atlantalegalaid.org/
 ## Corrections
-- Clayton County Jail — https://www.claytonsheriff.com/jail
+- Clayton County Jail 
 ## Municipal Codes
 - Jonesboro — https://www.jonesboroga.com/

@@ -1,6 +1,6 @@
 # Russell County — Local Law Resources
 ## Law Enforcement
-- Russell County Sheriff — https://www.russellcountyks.gov/sheriff
+- Russell County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Russell County District Court

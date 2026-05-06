@@ -1,11 +1,11 @@
 # Humboldt County — Local Law Resources
 ## Law Enforcement
-- Humboldt County Sheriff — https://www.humboldtcountynv.gov/sheriff/
+- Humboldt County Sheriff 
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
-- Humboldt County District Court — https://www.humboldtcountynv.gov/courts/
+- Humboldt County District Court 
 ## County Attorney / Defender
-- Humboldt County District Attorney — https://www.humboldtcountynv.gov/da/
+- Humboldt County District Attorney 
 - Nevada State Public Defender — https://www.nvpublicdefender.org/
 ## Tribal Law
 - Fort McDermitt Paiute-Shoshone Tribe
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Nevada Legal Services — https://www.nevadalegalservices.org/
 ## Corrections
-- Humboldt County Detention Center — https://www.humboldtcountynv.gov/sheriff/jail/
+- Humboldt County Detention Center 
 ## Municipal Codes
 - Winnemucca — https://www.winnemucca.city/

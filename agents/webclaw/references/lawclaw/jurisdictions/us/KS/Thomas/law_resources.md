@@ -1,6 +1,6 @@
 # Thomas County — Local Law Resources
 ## Law Enforcement
-- Thomas County Sheriff — https://www.thomascountyks.gov/sheriff
+- Thomas County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Thomas County District Court

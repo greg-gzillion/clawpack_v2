@@ -2,7 +2,7 @@
 ## Universities
 - Valencia College — https://www.valenciacollege.edu/
 ## Law Enforcement
-- Osceola Sheriff — https://www.osceolasheriff.org/
+- Osceola Sheriff 
 - Kissimmee Police — https://www.kissimmee.gov/departments/police-department
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Community Legal Services of Mid-Florida — https://www.clsmf.org/
 ## Corrections
-- Osceola County Jail — https://www.osceolasheriff.org/corrections/
+- Osceola County Jail 
 ## Municipal Codes
 - Kissimmee — https://www.kissimmee.gov/

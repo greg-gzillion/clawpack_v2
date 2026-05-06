@@ -1,6 +1,6 @@
 # Woodson County — Local Law Resources
 ## Law Enforcement
-- Woodson County Sheriff — https://www.woodsoncountyks.gov/sheriff
+- Woodson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Woodson County District Court

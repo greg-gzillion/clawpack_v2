@@ -2,13 +2,13 @@
 ## Universities
 - Northeast Community College — https://www.northeast.edu/
 ## Law Enforcement
-- Madison County Sheriff — https://www.madisoncountysheriff.org/
+- Madison County Sheriff 
 - Norfolk Police — https://www.norfolkne.gov/government/departments/police-division/
 - Nebraska State Patrol — https://www.statepatrol.nebraska.gov/
 ## Courts
-- Madison County District Court — https://www.madisoncountyne.gov/courts/
+- Madison County District Court 
 ## County Attorney / Defender
-- Madison County Attorney — https://www.madisoncountyne.gov/attorney/
+- Madison County Attorney 
 - Nebraska Public Defender — https://www.nebraskapublicdefender.com/
 ## Hunting Regulations
 - NE Hunting Regulations — https://www.outdoornebraska.gov/hunting/
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Legal Aid of Nebraska — https://www.legalaidofnebraska.org/
 ## Corrections
-- Madison County Jail — https://www.madisoncountysheriff.org/jail/
+- Madison County Jail 
 ## Municipal Codes
 - Norfolk — https://www.norfolkne.gov/

@@ -1,6 +1,6 @@
 # Santa Barbara County — Local Law Resources
 ## Law Enforcement
-- Santa Barbara Sheriff — https://www.sbsheriff.org/
+- Santa Barbara Sheriff 
 - Santa Barbara Police — https://www.santabarbaraca.gov/gov/depts/police/
 - Santa Maria Police — https://www.cityofsantamaria.org/services/departments/police
 - CHP Coastal Division — https://www.chp.ca.gov/find-an-office/coastal-division
@@ -24,7 +24,7 @@
 ## Legal Aid
 - Legal Aid Foundation of Santa Barbara — https://www.lafsbc.org/
 ## Corrections
-- Santa Barbara County Jail — https://www.sbsheriff.org/custody-operations/
+- Santa Barbara County Jail 
 ## Municipal
 - Santa Barbara Code — https://www.santabarbaraca.gov/
 - Santa Maria Code — https://www.cityofsantamaria.org/

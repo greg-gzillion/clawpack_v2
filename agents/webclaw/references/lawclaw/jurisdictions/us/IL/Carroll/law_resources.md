@@ -1,6 +1,6 @@
 # Carroll County — Local Law Resources
 ## Law Enforcement
-- Carroll County Sheriff — https://www.carrollcountyil.gov/sheriff
+- Carroll County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Carroll County Circuit Court

@@ -1,6 +1,6 @@
 # Cumberland County — Local Law Resources
 ## Law Enforcement
-- Cumberland County Sheriff — https://www.cumberlandcountyil.gov/sheriff
+- Cumberland County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Cumberland County Circuit Court

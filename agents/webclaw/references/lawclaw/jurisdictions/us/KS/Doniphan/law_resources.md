@@ -1,6 +1,6 @@
 # Doniphan County — Local Law Resources
 ## Law Enforcement
-- Doniphan County Sheriff — https://www.doniphancountyks.gov/sheriff
+- Doniphan County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Doniphan County District Court

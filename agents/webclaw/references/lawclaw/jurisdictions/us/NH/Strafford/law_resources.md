@@ -2,7 +2,7 @@
 ## Universities
 - University of New Hampshire — Durham (partial) — https://www.unh.edu/
 ## Law Enforcement
-- Strafford County Sheriff — https://www.straffordcountysheriff.org/
+- Strafford County Sheriff 
 - Dover Police — https://www.dover.nh.gov/government/city-operations/police/
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Strafford County Department of Corrections — https://www.straffordcountysheriff.org/corrections
+- Strafford County Department of Corrections 
 ## Municipal Codes
 - Dover — https://www.dover.nh.gov/

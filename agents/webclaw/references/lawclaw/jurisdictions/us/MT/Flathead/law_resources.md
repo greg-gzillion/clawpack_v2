@@ -2,7 +2,7 @@
 ## Universities
 - Flathead Valley Community College — https://www.fvcc.edu/
 ## Law Enforcement
-- Flathead County Sheriff — https://www.flatheadcountysheriff.org/
+- Flathead County Sheriff 
 - Kalispell Police — https://www.kalispell.com/205/Police-Department
 - Montana Highway Patrol — https://www.dojmt.gov/highwaypatrol/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Montana Legal Services — https://www.montanalegalservices.org/
 ## Corrections
-- Flathead County Detention Center — https://www.flatheadcountysheriff.org/detention/
+- Flathead County Detention Center 
 ## Municipal Codes
 - Kalispell — https://www.kalispell.com/

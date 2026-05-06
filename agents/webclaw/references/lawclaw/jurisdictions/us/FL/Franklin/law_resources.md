@@ -1,6 +1,6 @@
 # Franklin County — Local Law Resources
 ## Law Enforcement
-- Franklin Sheriff — https://www.franklinsheriff.com/
+- Franklin Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Franklin Circuit Court — https://www.jud2.flcourts.org/

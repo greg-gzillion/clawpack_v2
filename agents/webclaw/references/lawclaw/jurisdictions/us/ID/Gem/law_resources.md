@@ -1,6 +1,6 @@
 # Gem County — Local Law Resources
 ## Law Enforcement
-- Gem County Sheriff — https://www.gemcountyidaho.gov/sheriff
+- Gem County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Gem County District Court

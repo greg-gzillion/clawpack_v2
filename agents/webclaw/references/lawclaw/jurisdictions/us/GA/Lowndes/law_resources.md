@@ -2,7 +2,7 @@
 ## Universities
 - Valdosta State University — https://www.valdosta.edu/
 ## Law Enforcement
-- Lowndes Sheriff — https://www.lowndessheriff.com/
+- Lowndes Sheriff 
 - Valdosta Police — https://www.valdostacity.com/departments/police-department
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Lowndes County Jail — https://www.lowndessheriff.com/corrections
+- Lowndes County Jail 
 ## Municipal Codes
 - Valdosta — https://www.valdostacity.com/

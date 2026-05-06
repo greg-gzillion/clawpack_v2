@@ -1,6 +1,6 @@
 # Morton County — Local Law Resources
 ## Law Enforcement
-- Morton County Sheriff — https://www.mortoncountyks.gov/sheriff
+- Morton County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Morton County District Court

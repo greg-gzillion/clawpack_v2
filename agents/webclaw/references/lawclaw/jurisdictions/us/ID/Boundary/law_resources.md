@@ -1,6 +1,6 @@
 # Boundary County — Local Law Resources
 ## Law Enforcement
-- Boundary County Sheriff — https://www.boundarycountyidaho.gov/sheriff
+- Boundary County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Boundary County District Court

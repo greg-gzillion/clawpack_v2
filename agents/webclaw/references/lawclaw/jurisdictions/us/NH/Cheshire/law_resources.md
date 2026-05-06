@@ -2,7 +2,7 @@
 ## Universities
 - Keene State College — https://www.keene.edu/
 ## Law Enforcement
-- Cheshire County Sheriff — https://www.cheshirecountysheriff.org/
+- Cheshire County Sheriff 
 - Keene Police — https://www.keenepolice.com/
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Cheshire County Department of Corrections — https://www.cheshirecountysheriff.org/corrections
+- Cheshire County Department of Corrections 
 ## Municipal Codes
 - Keene — https://www.keenenh.gov/

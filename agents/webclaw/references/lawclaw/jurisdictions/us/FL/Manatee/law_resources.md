@@ -3,7 +3,7 @@
 - none in county (nearest: New College, USF Sarasota)
 - State College of Florida — https://www.scf.edu/
 ## Law Enforcement
-- Manatee Sheriff — https://www.manateesheriff.com/
+- Manatee Sheriff 
 - Bradenton Police — https://www.bradentonpd.com/
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -25,6 +25,6 @@
 ## Legal Aid
 - Legal Aid of Manasota — https://www.legalaidofmanasota.org/
 ## Corrections
-- Manatee County Jail — https://www.manateesheriff.com/corrections/
+- Manatee County Jail 
 ## Municipal Codes
 - Bradenton — https://www.cityofbradenton.com/

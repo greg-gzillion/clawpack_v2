@@ -1,6 +1,6 @@
 # Gove County — Local Law Resources
 ## Law Enforcement
-- Gove County Sheriff — https://www.govecountyks.gov/sheriff
+- Gove County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Gove County District Court

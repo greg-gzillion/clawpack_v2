@@ -1,6 +1,6 @@
 # Adams County — Local Law Resources
 ## Law Enforcement
-- Adams County Sheriff — https://www.adamscountyil.gov/sheriff
+- Adams County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Adams County Circuit Court

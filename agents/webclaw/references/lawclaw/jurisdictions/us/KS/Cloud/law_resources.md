@@ -1,6 +1,6 @@
 # Cloud County — Local Law Resources
 ## Law Enforcement
-- Cloud County Sheriff — https://www.cloudcountyks.gov/sheriff
+- Cloud County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Cloud County District Court

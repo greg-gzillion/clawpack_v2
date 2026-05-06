@@ -1,6 +1,6 @@
 # Del Norte County — Local Law Resources
 ## Law Enforcement
-- Del Norte Sheriff — https://www.delnortecountysheriff.org/
+- Del Norte Sheriff 
 - Crescent City Police — https://www.crescentcity.org/departments/police-department
 - CHP Northern Division — https://www.chp.ca.gov/find-an-office/northern-division
 ## Courts
@@ -20,7 +20,7 @@
 - Deer zones B2, B3 — https://wildlife.ca.gov/Hunting/Deer
 - Roosevelt elk — https://wildlife.ca.gov/Hunting/Elk
 ## Corrections
-- Del Norte County Jail — https://www.delnortecountysheriff.org/corrections
+- Del Norte County Jail 
 - Pelican Bay State Prison (CDCR) — https://www.cdcr.ca.gov/facility-locator/pbsp/
 ## Municipal
 - Crescent City Code — https://www.crescentcity.org/

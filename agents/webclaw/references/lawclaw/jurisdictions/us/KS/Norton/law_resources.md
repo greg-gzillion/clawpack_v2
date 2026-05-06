@@ -1,6 +1,6 @@
 # Norton County — Local Law Resources
 ## Law Enforcement
-- Norton County Sheriff — https://www.nortoncountyks.gov/sheriff
+- Norton County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Norton County District Court

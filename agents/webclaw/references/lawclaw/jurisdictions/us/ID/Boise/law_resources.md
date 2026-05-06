@@ -1,6 +1,6 @@
 # Boise County — Local Law Resources
 ## Law Enforcement
-- Boise County Sheriff — https://www.boisecountyidaho.gov/sheriff
+- Boise County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Boise County District Court

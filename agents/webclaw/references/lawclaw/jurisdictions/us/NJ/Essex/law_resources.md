@@ -6,7 +6,7 @@
 - New Jersey Institute of Technology — https://www.njit.edu/
 - Seton Hall University — https://www.shu.edu/
 ## Law Enforcement
-- Essex County Sheriff — https://www.essexsheriff.com/
+- Essex County Sheriff 
 - Newark Police — https://www.newarkpublicsafety.org/
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
@@ -25,6 +25,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Essex County Correctional Facility — https://www.essexsheriff.com/corrections
+- Essex County Correctional Facility 
 ## Municipal Codes
 - Newark — https://www.newarknj.gov/

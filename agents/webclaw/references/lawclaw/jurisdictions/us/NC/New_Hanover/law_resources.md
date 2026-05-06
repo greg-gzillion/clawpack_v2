@@ -2,7 +2,7 @@
 ## Universities
 - University of North Carolina at Wilmington — https://www.uncw.edu/
 ## Law Enforcement
-- New Hanover County Sheriff — https://www.newhanoversheriff.com/
+- New Hanover County Sheriff 
 - Wilmington Police — https://www.wilmingtonnc.gov/departments/police
 - North Carolina State Highway Patrol — https://www.ncdps.gov/our-organization/law-enforcement/state-highway-patrol
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Legal Aid of North Carolina — https://www.legalaidnc.org/
 ## Corrections
-- New Hanover County Jail — https://www.newhanoversheriff.com/detention/
+- New Hanover County Jail 
 ## Municipal Codes
 - Wilmington — https://www.wilmingtonnc.gov/

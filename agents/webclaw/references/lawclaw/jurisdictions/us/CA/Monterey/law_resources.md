@@ -1,6 +1,6 @@
 # Monterey County — Local Law Resources
 ## Law Enforcement
-- Monterey Sheriff — https://www.montereysheriff.org/
+- Monterey Sheriff 
 - Salinas Police — https://www.cityofsalinas.org/our-city-services/police
 - Monterey Police — https://www.monterey.org/city_hall/police/
 - CHP Coastal Division — https://www.chp.ca.gov/find-an-office/coastal-division
@@ -26,7 +26,7 @@
 ## Legal Aid
 - California Rural Legal Assistance — https://www.crla.org/
 ## Corrections
-- Monterey County Jail — https://www.montereysheriff.org/corrections.html
+- Monterey County Jail 
 ## Municipal
 - Salinas Code — https://www.cityofsalinas.org/
 - Monterey Code — https://www.monterey.org/

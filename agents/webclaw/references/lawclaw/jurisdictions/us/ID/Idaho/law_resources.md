@@ -1,6 +1,6 @@
 # Idaho County — Local Law Resources
 ## Law Enforcement
-- Idaho County Sheriff — https://www.idahocountyidaho.gov/sheriff
+- Idaho County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Idaho County District Court

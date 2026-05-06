@@ -1,6 +1,6 @@
 # Allen County — Local Law Resources
 ## Law Enforcement
-- Allen County Sheriff — https://www.allencountyks.gov/sheriff
+- Allen County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Allen County District Court

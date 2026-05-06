@@ -1,6 +1,6 @@
 # Ford County — Local Law Resources
 ## Law Enforcement
-- Ford County Sheriff — https://www.fordcountyks.gov/sheriff
+- Ford County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Ford County District Court

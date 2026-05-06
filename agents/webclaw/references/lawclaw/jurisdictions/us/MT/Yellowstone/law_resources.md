@@ -3,13 +3,13 @@
 - Montana State University Billings — https://www.msubillings.edu/
 - Rocky Mountain College — https://www.rocky.edu/
 ## Law Enforcement
-- Yellowstone County Sheriff — https://www.yellowstonecountymt.gov/sheriff/
+- Yellowstone County Sheriff 
 - Billings Police — https://www.billingsmt.gov/147/Police-Department
 - Montana Highway Patrol — https://www.dojmt.gov/highwaypatrol/
 ## Courts
-- Yellowstone County District Court — https://www.yellowstonecountymt.gov/courts/
+- Yellowstone County District Court 
 ## County Attorney / Defender
-- Yellowstone County Attorney — https://www.yellowstonecountymt.gov/attorney/
+- Yellowstone County Attorney 
 - Montana Public Defender — https://www.publicdefender.mt.gov/
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunt/regulations
@@ -22,7 +22,7 @@
 ## Legal Aid
 - Montana Legal Services — https://www.montanalegalservices.org/
 ## Corrections
-- Yellowstone County Detention Facility — https://www.yellowstonecountymt.gov/sheriff/detention/
+- Yellowstone County Detention Facility 
 - Montana Women's Prison — https://www.cor.mt.gov/
 ## Municipal Codes
 - Billings — https://www.billingsmt.gov/

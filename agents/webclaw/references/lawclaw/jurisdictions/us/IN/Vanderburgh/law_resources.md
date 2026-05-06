@@ -3,7 +3,7 @@
 - University of Evansville — https://www.evansville.edu/
 - University of Southern Indiana — https://www.usi.edu/
 ## Law Enforcement
-- Vanderburgh County Sheriff — https://www.vanderburghsheriff.org/
+- Vanderburgh County Sheriff 
 - Evansville Police — https://www.evansvillegov.org/city/department/index.php?structureid=31
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Vanderburgh County Jail — https://www.vanderburghsheriff.org/jail/
+- Vanderburgh County Jail 
 ## Municipal Codes
 - Evansville — https://www.evansvillegov.org/

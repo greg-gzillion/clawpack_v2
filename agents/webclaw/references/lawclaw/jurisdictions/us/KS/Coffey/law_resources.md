@@ -1,6 +1,6 @@
 # Coffey County — Local Law Resources
 ## Law Enforcement
-- Coffey County Sheriff — https://www.coffeycountyks.gov/sheriff
+- Coffey County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Coffey County District Court

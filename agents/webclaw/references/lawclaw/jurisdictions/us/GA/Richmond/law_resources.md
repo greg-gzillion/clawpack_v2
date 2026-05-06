@@ -3,14 +3,14 @@
 - Augusta University — https://www.augusta.edu/
 - Paine College — https://www.paine.edu/
 ## Law Enforcement
-- Richmond Sheriff — https://www.richmondcountysheriff.org/
+- Richmond Sheriff 
 - Augusta Police — https://www.augustaga.gov/police
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
-- Richmond Superior Court — https://www.richmondcountyga.gov/courts
+- Richmond Superior Court 
 ## County Attorney / Defender
-- Richmond DA — https://www.richmondcountyga.gov/da
-- Richmond Public Defender — https://www.richmondcountyga.gov/public-defender
+- Richmond DA 
+- Richmond Public Defender 
 ## Military
 - Fort Eisenhower (Gordon) Legal — https://www.eisenhower.army.mil/
 ## Hunting Regulations
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Richmond County Jail — https://www.richmondcountysheriff.org/jail
+- Richmond County Jail 
 ## Municipal Codes
 - Augusta — https://www.augustaga.gov/

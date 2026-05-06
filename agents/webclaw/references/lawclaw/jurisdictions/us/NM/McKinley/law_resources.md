@@ -2,7 +2,7 @@
 ## Universities
 - University of New Mexico Gallup — https://www.gallup.unm.edu/
 ## Law Enforcement
-- McKinley County Sheriff — https://www.mckinleycountysheriff.org/
+- McKinley County Sheriff 
 - Gallup Police — https://www.gallupnm.gov/174/Police-Department
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - New Mexico Legal Aid — https://www.newmexicolegalaid.org/
 ## Corrections
-- McKinley County Adult Detention Center — https://www.mckinleycountysheriff.org/detention
+- McKinley County Adult Detention Center 
 ## Municipal Codes
 - Gallup — https://www.gallupnm.gov/

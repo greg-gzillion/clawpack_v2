@@ -4,7 +4,7 @@
   - UIowa Law Clinics — https://law.uiowa.edu/academics/clinics
 - University of Iowa — https://www.uiowa.edu/
 ## Law Enforcement
-- Johnson County Sheriff — https://www.johnsoncountyiowa.gov/sheriff
+- Johnson County Sheriff 
 - Iowa City Police — https://www.icgov.org/government/departments-and-divisions/police-department
 - University of Iowa Police — https://police.uiowa.edu/
 - Iowa State Patrol — https://dps.iowa.gov/
@@ -26,7 +26,7 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Johnson County Jail — https://www.johnsoncountyiowa.gov/sheriff/jail
+- Johnson County Jail 
 ## Municipal Codes
 - Iowa City — https://www.icgov.org/
 - Coralville — https://www.coralville.org/

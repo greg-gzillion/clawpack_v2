@@ -1,6 +1,6 @@
 # Douglas County — Local Law Resources
 ## Law Enforcement
-- Douglas Sheriff — https://www.dcsheriff.net/
+- Douglas Sheriff 
 - Castle Rock Police — https://www.crgov.com/2084/Police-Department
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -19,7 +19,7 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Douglas County Jail — https://www.dcsheriff.net/jail/
+- Douglas County Jail 
 ## Municipal
 - Castle Rock Code — https://www.crgov.com/
 - Highlands Ranch — https://www.highlandsranch.org/

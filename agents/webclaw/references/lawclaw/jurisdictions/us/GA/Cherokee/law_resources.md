@@ -1,11 +1,11 @@
 # Cherokee County — Local Law Resources
 ## Law Enforcement
-- Cherokee Sheriff — https://www.cherokeecountyga.gov/sheriff/
+- Cherokee Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
-- Cherokee Superior Court — https://www.cherokeecountyga.gov/courts/
+- Cherokee Superior Court 
 ## County Attorney / Defender
-- Cherokee DA — https://www.cherokeecountyga.gov/da/
+- Cherokee DA 
 - Cherokee Public Defender
 ## Hunting Regulations
 - GA Hunting Regulations — https://georgiawildlife.com/hunting/regulations
@@ -17,6 +17,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Cherokee County Jail — https://www.cherokeecountyga.gov/sheriff/detention-center
+- Cherokee County Jail 
 ## Municipal Codes
 - Canton — https://www.cantonga.gov/

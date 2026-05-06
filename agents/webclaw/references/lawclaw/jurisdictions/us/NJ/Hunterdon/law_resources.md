@@ -1,6 +1,6 @@
 # Hunterdon County — Local Law Resources
 ## Law Enforcement
-- Hunterdon County Sheriff — https://www.hunterdoncountysheriff.org/
+- Hunterdon County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Hunterdon County Superior Court — https://www.njcourts.gov/
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Hunterdon County Jail — https://www.hunterdoncountysheriff.org/jail
+- Hunterdon County Jail 
 ## Municipal Codes
 - Flemington — https://www.historicflemington.com/

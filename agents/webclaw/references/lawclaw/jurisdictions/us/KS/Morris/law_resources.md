@@ -1,6 +1,6 @@
 # Morris County — Local Law Resources
 ## Law Enforcement
-- Morris County Sheriff — https://www.morriscountyks.gov/sheriff
+- Morris County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Morris County District Court

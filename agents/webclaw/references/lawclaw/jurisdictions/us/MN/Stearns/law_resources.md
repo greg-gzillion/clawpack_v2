@@ -3,7 +3,7 @@
 - St. Cloud State University — https://www.stcloudstate.edu/
 - College of St. Benedict / St. John's University — https://www.csbsju.edu/
 ## Law Enforcement
-- Stearns County Sheriff — https://www.stearnscountysheriff.org/
+- Stearns County Sheriff 
 - St. Cloud Police — https://www.ci.stcloud.mn.us/157/Police
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Mid-Minnesota Legal Aid — https://www.mylegalaid.org/
 ## Corrections
-- Stearns County Jail — https://www.stearnscountysheriff.org/jail/
+- Stearns County Jail 
 ## Municipal Codes
 - St. Cloud — https://www.ci.stcloud.mn.us/

@@ -1,6 +1,6 @@
 # Kingman County — Local Law Resources
 ## Law Enforcement
-- Kingman County Sheriff — https://www.kingmancountyks.gov/sheriff
+- Kingman County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Kingman County District Court

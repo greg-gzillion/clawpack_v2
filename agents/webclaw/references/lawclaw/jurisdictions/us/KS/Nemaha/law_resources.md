@@ -1,6 +1,6 @@
 # Nemaha County — Local Law Resources
 ## Law Enforcement
-- Nemaha County Sheriff — https://www.nemahacountyks.gov/sheriff
+- Nemaha County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Nemaha County District Court

@@ -1,6 +1,6 @@
 # Ventura County — Local Law Resources
 ## Law Enforcement
-- Ventura Sheriff — https://www.venturasheriff.org/
+- Ventura Sheriff 
 - Oxnard Police — https://www.oxnardpd.org/
 - Ventura Police — https://www.cityofventura.ca.gov/189/Police
 - CHP Coastal Division — https://www.chp.ca.gov/find-an-office/coastal-division
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Ventura County Legal Services — https://www.vclegalaid.org/
 ## Corrections
-- Ventura County Jails — https://www.venturasheriff.org/detention/
+- Ventura County Jails 
 ## Municipal
 - Oxnard Code — https://www.oxnard.org/
 - Ventura Code — https://www.cityofventura.ca.gov/

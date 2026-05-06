@@ -1,6 +1,6 @@
 # Pembina County — Local Law Resources
 ## Law Enforcement
-- Pembina County Sheriff — https://www.pembinacountynd.gov/sheriff/
+- Pembina County Sheriff 
 - North Dakota Highway Patrol — https://www.dot.nd.gov/divisions/highwaypatrol/
 ## Courts
 - Pembina County District Court — https://www.ndcourts.gov/

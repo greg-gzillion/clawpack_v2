@@ -2,7 +2,7 @@
 ## Universities
 - University of Louisiana at Monroe — https://www.ulm.edu/
 ## Law Enforcement
-- Ouachita Parish Sheriff — https://www.opsheriff.org/
+- Ouachita Parish Sheriff 
 - Monroe Police — https://www.monroela.us/police/
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Acadiana Legal Services — https://www.la-law.org/
 ## Corrections
-- Ouachita Correctional Center — https://www.opsheriff.org/
+- Ouachita Correctional Center 
 ## Municipal Codes
 - Monroe — https://www.monroela.us/

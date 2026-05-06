@@ -1,6 +1,6 @@
 # Gilchrist County — Local Law Resources
 ## Law Enforcement
-- Gilchrist Sheriff — https://www.gilchristsheriff.org/
+- Gilchrist Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Gilchrist Circuit Court — https://www.jud8.flcourts.org/

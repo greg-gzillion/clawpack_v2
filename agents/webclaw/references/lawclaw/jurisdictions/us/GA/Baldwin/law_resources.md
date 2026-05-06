@@ -1,6 +1,6 @@
 # Baldwin County — Local Law Resources
 ## Law Enforcement
-- Baldwin Sheriff — https://www.baldwincountyga.gov/sheriff/
+- Baldwin Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Baldwin Superior Court

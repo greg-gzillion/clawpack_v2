@@ -1,6 +1,6 @@
 # Gadsden County — Local Law Resources
 ## Law Enforcement
-- Gadsden Sheriff — https://www.gadsdensheriff.org/
+- Gadsden Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Gadsden Circuit Court — https://www.jud2.flcourts.org/

@@ -1,6 +1,6 @@
 # Linn County — Local Law Resources
 ## Law Enforcement
-- Linn County Sheriff — https://www.linncountyks.gov/sheriff
+- Linn County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Linn County District Court

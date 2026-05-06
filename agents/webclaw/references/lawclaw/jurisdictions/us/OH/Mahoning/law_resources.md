@@ -2,7 +2,7 @@
 ## Universities
 - Youngstown State University — https://www.ysu.edu/
 ## Law Enforcement
-- Mahoning County Sheriff — https://www.mahoningsheriff.org/
+- Mahoning County Sheriff 
 - Youngstown Police — https://www.youngstownohio.gov/police
 - Ohio State Highway Patrol — https://www.statepatrol.ohio.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Community Legal Aid — https://www.communitylegalaid.org/
 ## Corrections
-- Mahoning County Jail — https://www.mahoningsheriff.org/corrections
+- Mahoning County Jail 
 ## Municipal Codes
 - Youngstown — https://www.youngstownohio.gov/

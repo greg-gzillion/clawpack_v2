@@ -4,7 +4,7 @@
 - Briar Cliff University — https://www.briarcliff.edu/
 - Western Iowa Tech Community College — https://www.witcc.edu/
 ## Law Enforcement
-- Woodbury County Sheriff — https://www.woodburycountyiowa.gov/sheriff/
+- Woodbury County Sheriff 
 - Sioux City Police — https://www.sioux-city.org/government/departments-f-m/police
 - Iowa State Patrol — https://dps.iowa.gov/
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Woodbury County Jail — https://www.woodburycountyiowa.gov/sheriff/jail/
+- Woodbury County Jail 
 ## Municipal Codes
 - Sioux City — https://www.sioux-city.org/

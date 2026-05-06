@@ -1,6 +1,6 @@
 # Wilson County — Local Law Resources
 ## Law Enforcement
-- Wilson County Sheriff — https://www.wilsoncountyks.gov/sheriff
+- Wilson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Wilson County District Court

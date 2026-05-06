@@ -1,6 +1,6 @@
 # Sandoval County — Local Law Resources
 ## Law Enforcement
-- Sandoval County Sheriff — https://www.sandovalcountynm.gov/sheriff/
+- Sandoval County Sheriff 
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
 - Sandoval County District Court — https://www.nmcourts.gov/

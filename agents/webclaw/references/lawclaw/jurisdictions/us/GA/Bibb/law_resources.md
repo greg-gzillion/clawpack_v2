@@ -4,7 +4,7 @@
 - Mercer University — https://www.mercer.edu/
 - Middle Georgia State University — https://www.mga.edu/
 ## Law Enforcement
-- Bibb Sheriff — https://www.bibbsheriff.org/
+- Bibb Sheriff 
 - Macon Police — https://www.maconbibb.us/police/
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Bibb County Jail — https://www.bibbsheriff.org/jail
+- Bibb County Jail 
 ## Municipal Codes
 - Macon — https://www.maconbibb.us/

@@ -3,7 +3,7 @@
 - University of Maine — https://www.umaine.edu/
 - Husson University — https://www.husson.edu/
 ## Law Enforcement
-- Penobscot County Sheriff — https://www.penobscotsheriff.org/
+- Penobscot County Sheriff 
 - Bangor Police — https://www.bangormaine.gov/police
 - Maine State Police — https://www.maine.gov/dps/msp/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Maine Equal Justice — https://www.mejp.org/
 ## Corrections
-- Penobscot County Jail — https://www.penobscotsheriff.org/jail/
+- Penobscot County Jail 
 ## Municipal Codes
 - Bangor — https://www.bangormaine.gov/

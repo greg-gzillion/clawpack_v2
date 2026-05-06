@@ -13,7 +13,7 @@
 - DePaul University — https://www.depaul.edu/
 - Illinois Institute of Technology — https://www.iit.edu/
 ## Law Enforcement
-- Cook County Sheriff — https://www.cookcountysheriff.org/
+- Cook County Sheriff 
 - Chicago Police — https://www.chicagopolice.org/
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
@@ -34,6 +34,6 @@
 ## Legal Aid
 - Legal Aid Chicago — https://www.legalaidchicago.org/
 ## Corrections
-- Cook County Jail — https://www.cookcountysheriff.org/departments/cook-county-department-of-corrections/
+- Cook County Jail 
 ## Municipal Codes
 - Chicago — https://www.chicago.gov/

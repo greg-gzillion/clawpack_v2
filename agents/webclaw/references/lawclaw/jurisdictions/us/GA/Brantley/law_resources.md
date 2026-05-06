@@ -1,6 +1,6 @@
 # Brantley County — Local Law Resources
 ## Law Enforcement
-- Brantley Sheriff — https://www.brantleycountyga.gov/sheriff/
+- Brantley Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Brantley Superior Court

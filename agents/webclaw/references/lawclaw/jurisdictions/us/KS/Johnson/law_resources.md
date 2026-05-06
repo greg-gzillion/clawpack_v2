@@ -4,7 +4,7 @@
 - Johnson County Community College — https://www.jccc.edu/
 - MidAmerica Nazarene University — https://www.mnu.edu/
 ## Law Enforcement
-- Johnson County Sheriff — https://www.jocosheriff.org/
+- Johnson County Sheriff 
 - Overland Park Police — https://www.opkansas.org/city-government/police-department/
 - Olathe Police — https://www.olatheks.gov/government/departments/police
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Kansas Legal Services — https://www.kansaslegalservices.org/
 ## Corrections
-- Johnson County Jail — https://www.jocosheriff.org/corrections
+- Johnson County Jail 
 ## Municipal Codes
 - Overland Park — https://www.opkansas.org/
 - Olathe — https://www.olatheks.gov/

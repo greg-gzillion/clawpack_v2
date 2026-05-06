@@ -1,6 +1,6 @@
 # Mineral County — Local Law Resources
 ## Law Enforcement
-- Mineral Sheriff — https://www.mineralcountycolorado.com/sheriff
+- Mineral Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Mineral District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=12

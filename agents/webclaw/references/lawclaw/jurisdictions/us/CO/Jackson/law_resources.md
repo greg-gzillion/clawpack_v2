@@ -1,6 +1,6 @@
 # Jackson County — Local Law Resources
 ## Law Enforcement
-- Jackson Sheriff — https://www.jacksoncountyco.gov/sheriff
+- Jackson Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Jackson District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=14

@@ -3,7 +3,7 @@
 - Fairleigh Dickinson University (Metropolitan) — https://www.fdu.edu/
 - Ramapo College — https://www.ramapo.edu/
 ## Law Enforcement
-- Bergen County Sheriff — https://www.bergensheriff.org/
+- Bergen County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Bergen County Superior Court — https://www.njcourts.gov/
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Bergen County Jail — https://www.bergensheriff.org/jail
+- Bergen County Jail 
 ## Municipal Codes
 - Hackensack — https://www.hackensack.org/
 - Fort Lee — https://www.fortleenj.org/

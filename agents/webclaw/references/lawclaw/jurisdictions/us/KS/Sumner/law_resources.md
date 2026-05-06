@@ -1,6 +1,6 @@
 # Sumner County — Local Law Resources
 ## Law Enforcement
-- Sumner County Sheriff — https://www.sumnercountyks.gov/sheriff
+- Sumner County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Sumner County District Court

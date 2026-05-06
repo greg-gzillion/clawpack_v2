@@ -1,6 +1,6 @@
 # Carroll County — Local Law Resources
 ## Law Enforcement
-- Carroll County Sheriff — https://www.carrollcountysheriff.org/
+- Carroll County Sheriff 
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
 - Carroll County Superior Court — https://www.courts.nh.gov/
@@ -18,6 +18,6 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Carroll County Department of Corrections — https://www.carrollcountysheriff.org/corrections
+- Carroll County Department of Corrections 
 ## Municipal Codes
 - Ossipee — see county website

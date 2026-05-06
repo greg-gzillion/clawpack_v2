@@ -1,6 +1,6 @@
 # Alexander County — Local Law Resources
 ## Law Enforcement
-- Alexander County Sheriff — https://www.alexandercountyil.gov/sheriff
+- Alexander County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Alexander County Circuit Court

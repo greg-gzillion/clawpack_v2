@@ -3,7 +3,7 @@
 - New College of Florida — https://www.ncf.edu/
 - Ringling College of Art & Design — https://www.ringling.edu/
 ## Law Enforcement
-- Sarasota Sheriff — https://www.sarasotasheriff.org/
+- Sarasota Sheriff 
 - Sarasota Police — https://www.sarasotapd.org/
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -24,7 +24,7 @@
 ## Legal Aid
 - Legal Aid of Manasota — https://www.legalaidofmanasota.org/
 ## Corrections
-- Sarasota County Jail — https://www.sarasotasheriff.org/corrections/
+- Sarasota County Jail 
 ## Municipal Codes
 - Sarasota — https://www.sarasotafl.gov/
 - Venice — https://www.venicegov.com/

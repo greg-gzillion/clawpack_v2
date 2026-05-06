@@ -5,7 +5,7 @@
 - Bellarmine University — https://www.bellarmine.edu/
 - Spalding University — https://www.spalding.edu/
 ## Law Enforcement
-- Jefferson County Sheriff — https://www.jeffersonsheriff.org/
+- Jefferson County Sheriff 
 - Louisville Metro Police — https://www.louisville-police.org/
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts

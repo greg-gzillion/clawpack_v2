@@ -1,6 +1,6 @@
 # Greenwood County — Local Law Resources
 ## Law Enforcement
-- Greenwood County Sheriff — https://www.greenwoodcountyks.gov/sheriff
+- Greenwood County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Greenwood County District Court

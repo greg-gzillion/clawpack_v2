@@ -1,6 +1,6 @@
 # Gilpin County — Local Law Resources
 ## Law Enforcement
-- Gilpin Sheriff — https://www.gilpincountysheriff.com/
+- Gilpin Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Gilpin District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=1

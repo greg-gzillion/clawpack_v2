@@ -1,6 +1,6 @@
 # San Miguel County — Local Law Resources
 ## Law Enforcement
-- San Miguel Sheriff — https://www.sanmiguelsheriff.org/
+- San Miguel Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - San Miguel District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=7

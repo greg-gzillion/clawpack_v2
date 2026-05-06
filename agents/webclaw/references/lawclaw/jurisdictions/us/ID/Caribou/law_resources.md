@@ -1,6 +1,6 @@
 # Caribou County — Local Law Resources
 ## Law Enforcement
-- Caribou County Sheriff — https://www.cariboucountyidaho.gov/sheriff
+- Caribou County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Caribou County District Court

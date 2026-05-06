@@ -1,6 +1,6 @@
 # Ness County — Local Law Resources
 ## Law Enforcement
-- Ness County Sheriff — https://www.nesscountyks.gov/sheriff
+- Ness County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Ness County District Court

@@ -3,7 +3,7 @@
 - Georgia Gwinnett College — https://www.ggc.edu/
 - Gwinnett Technical College — https://www.gwinnetttech.edu/
 ## Law Enforcement
-- Gwinnett Sheriff — https://www.gwinnettcountysheriff.org/
+- Gwinnett Sheriff 
 - Gwinnett Police — https://www.gwinnettcounty.com/web/gwinnett/departments/police
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Atlanta Legal Aid Society — https://www.atlantalegalaid.org/
 ## Corrections
-- Gwinnett County Jail — https://www.gwinnettcountysheriff.org/jail
+- Gwinnett County Jail 
 ## Municipal Codes
 - Lawrenceville — https://www.lawrencevillega.org/
 - Duluth — https://www.duluthga.net/

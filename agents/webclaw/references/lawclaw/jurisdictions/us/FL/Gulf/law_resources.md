@@ -1,6 +1,6 @@
 # Gulf County — Local Law Resources
 ## Law Enforcement
-- Gulf Sheriff — https://www.gulfsheriff.com/
+- Gulf Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Gulf Circuit Court — https://www.jud14.flcourts.org/

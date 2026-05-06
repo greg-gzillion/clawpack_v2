@@ -1,6 +1,6 @@
 # San Mateo County — Local Law Resources
 ## Law Enforcement
-- San Mateo Sheriff — https://www.smcsheriff.com/
+- San Mateo Sheriff 
 - Daly City Police — https://www.dalycity.org/departments/police/
 - Redwood City Police — https://www.redwoodcity.org/departments/police-department
 - CHP Golden Gate Division — https://www.chp.ca.gov/find-an-office/golden-gate-division
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Legal Aid Society of San Mateo County — https://www.legalaidsmc.org/
 ## Corrections
-- Maguire Correctional Facility — https://www.smcsheriff.com/correctional-facilities
+- Maguire Correctional Facility 
 ## Municipal
 - Daly City Code — https://www.dalycity.org/
 - Redwood City Code — https://www.redwoodcity.org/

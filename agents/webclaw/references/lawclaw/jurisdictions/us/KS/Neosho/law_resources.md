@@ -1,6 +1,6 @@
 # Neosho County — Local Law Resources
 ## Law Enforcement
-- Neosho County Sheriff — https://www.neoshocountyks.gov/sheriff
+- Neosho County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Neosho County District Court

@@ -5,7 +5,7 @@
 - North Carolina Central University School of Law — https://law.nccu.edu/
 - North Carolina Central University — https://www.nccu.edu/
 ## Law Enforcement
-- Durham County Sheriff — https://www.durhamsheriff.com/
+- Durham County Sheriff 
 - Durham Police — https://www.durhamnc.gov/176/Police-Department
 - North Carolina State Highway Patrol — https://www.ncdps.gov/our-organization/law-enforcement/state-highway-patrol
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Legal Aid of North Carolina — https://www.legalaidnc.org/
 ## Corrections
-- Durham County Detention Center — https://www.durhamsheriff.com/detention/
+- Durham County Detention Center 
 ## Municipal Codes
 - Durham — https://www.durhamnc.gov/

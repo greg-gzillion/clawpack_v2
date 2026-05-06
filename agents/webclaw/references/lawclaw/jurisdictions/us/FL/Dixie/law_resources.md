@@ -1,6 +1,6 @@
 # Dixie County — Local Law Resources
 ## Law Enforcement
-- Dixie Sheriff — https://www.dixiecountysheriff.com/
+- Dixie Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Dixie Circuit Court — https://www.jud3.flcourts.org/

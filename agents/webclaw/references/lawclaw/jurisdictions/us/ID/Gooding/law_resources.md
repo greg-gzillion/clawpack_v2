@@ -1,6 +1,6 @@
 # Gooding County — Local Law Resources
 ## Law Enforcement
-- Gooding County Sheriff — https://www.goodingcountyidaho.gov/sheriff
+- Gooding County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Gooding County District Court

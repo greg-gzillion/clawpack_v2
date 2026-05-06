@@ -2,7 +2,7 @@
 ## Universities
 - Dickinson State University — https://www.dickinsonstate.edu/
 ## Law Enforcement
-- Stark County Sheriff — https://www.starkcountynd.gov/sheriff/
+- Stark County Sheriff 
 - Dickinson Police — https://www.dickinsongov.com/police/
 - North Dakota Highway Patrol — https://www.dot.nd.gov/divisions/highwaypatrol/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Legal Services of North Dakota — https://www.legalassist.org/
 ## Corrections
-- Stark County Jail — https://www.starkcountynd.gov/sheriff/jail/
+- Stark County Jail 
 ## Municipal Codes
 - Dickinson — https://www.dickinsongov.com/

@@ -1,6 +1,6 @@
 # Labette County — Local Law Resources
 ## Law Enforcement
-- Labette County Sheriff — https://www.labettecountyks.gov/sheriff
+- Labette County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Labette County District Court

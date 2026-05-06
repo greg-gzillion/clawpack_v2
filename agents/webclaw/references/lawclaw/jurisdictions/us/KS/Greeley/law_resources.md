@@ -1,6 +1,6 @@
 # Greeley County — Local Law Resources
 ## Law Enforcement
-- Greeley County Sheriff — https://www.greeleycountyks.gov/sheriff
+- Greeley County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Greeley County District Court

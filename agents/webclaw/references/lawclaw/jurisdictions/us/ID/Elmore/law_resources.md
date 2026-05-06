@@ -1,6 +1,6 @@
 # Elmore County — Local Law Resources
 ## Law Enforcement
-- Elmore County Sheriff — https://www.elmorecountyidaho.gov/sheriff
+- Elmore County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Elmore County District Court

@@ -1,6 +1,6 @@
 # Jerome County — Local Law Resources
 ## Law Enforcement
-- Jerome County Sheriff — https://www.jeromecountyidaho.gov/sheriff
+- Jerome County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Jerome County District Court

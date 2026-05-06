@@ -1,6 +1,6 @@
 # Clinton County — Local Law Resources
 ## Law Enforcement
-- Clinton County Sheriff — https://www.clintoncountyil.gov/sheriff
+- Clinton County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Clinton County Circuit Court

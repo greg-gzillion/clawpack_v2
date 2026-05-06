@@ -1,6 +1,6 @@
 # Butte County — Local Law Resources
 ## Law Enforcement
-- Butte County Sheriff — https://www.buttecountyidaho.gov/sheriff
+- Butte County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Butte County District Court

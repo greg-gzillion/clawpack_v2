@@ -1,6 +1,6 @@
 # Logan County — Local Law Resources
 ## Law Enforcement
-- Logan County Sheriff — https://www.logancountyks.gov/sheriff
+- Logan County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Logan County District Court

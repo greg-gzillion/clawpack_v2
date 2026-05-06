@@ -29,7 +29,7 @@
 ## Legal Aid
 - DNA People's Legal Services — Flagstaff — https://www.dnalegalservices.org/
 ## Corrections
-- Coconino County Detention — https://www.coconinosheriff.org/detention-facility/
+- Coconino County Detention 
 ## Municipal
 - Flagstaff — https://www.flagstaff.az.gov/
 - Page — https://www.cityofpage.org/

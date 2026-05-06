@@ -3,13 +3,13 @@
 - University of Idaho — Idaho Falls campus — https://www.uidaho.edu/idaho-falls
 - College of Eastern Idaho — https://www.cei.edu/
 ## Law Enforcement
-- Bonneville County Sheriff — https://www.bonnevillecountyidaho.gov/sheriff
+- Bonneville County Sheriff 
 - Idaho Falls Police — https://www.idahofallsidaho.gov/198/Police-Department
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Bonneville County District Court — https://www.bonneville.id.courts.gov/
 ## County Attorney / Defender
-- Bonneville County Prosecutor — https://www.bonnevillecountyidaho.gov/prosecutor
+- Bonneville County Prosecutor 
 - Idaho Public Defense Commission — https://pdc.idaho.gov/
 ## Hunting Regulations
 - IDFG Hunting Regulations — https://idfg.idaho.gov/hunt/rules
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Idaho Legal Aid Services — https://www.idaholegalaid.org/
 ## Corrections
-- Bonneville County Jail — https://www.bonnevillecountyidaho.gov/sheriff/jail
+- Bonneville County Jail 
 ## Municipal Codes
 - Idaho Falls — https://www.idahofallsidaho.gov/

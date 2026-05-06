@@ -4,7 +4,7 @@
 - University of Kentucky — https://www.uky.edu/
 - Transylvania University — https://www.transy.edu/
 ## Law Enforcement
-- Fayette County Sheriff — https://www.fayettesheriff.com/
+- Fayette County Sheriff 
 - Lexington Police — https://www.lexingtonky.gov/police
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts

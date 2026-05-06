@@ -1,6 +1,6 @@
 # Washington County — Local Law Resources
 ## Law Enforcement
-- Washington County Sheriff — https://www.washingtoncountyidaho.gov/sheriff
+- Washington County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Washington County District Court

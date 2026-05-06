@@ -1,6 +1,6 @@
 # Ottawa County — Local Law Resources
 ## Law Enforcement
-- Ottawa County Sheriff — https://www.ottawacountyks.gov/sheriff
+- Ottawa County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Ottawa County District Court

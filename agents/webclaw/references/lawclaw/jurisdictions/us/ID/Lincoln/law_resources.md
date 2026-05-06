@@ -1,6 +1,6 @@
 # Lincoln County — Local Law Resources
 ## Law Enforcement
-- Lincoln County Sheriff — https://www.lincolncountyidaho.gov/sheriff
+- Lincoln County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Lincoln County District Court

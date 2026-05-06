@@ -4,7 +4,7 @@
   - KU Law Clinics — https://law.ku.edu/academics/clinics
 - University of Kansas — https://www.ku.edu/
 ## Law Enforcement
-- Douglas County Sheriff — https://www.dgcosheriff.org/
+- Douglas County Sheriff 
 - Lawrence Police — https://www.lawrenceks.org/police/
 - KU Police — https://publicsafety.ku.edu/
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Kansas Legal Services — https://www.kansaslegalservices.org/
 ## Corrections
-- Douglas County Jail — https://www.dgcosheriff.org/corrections/
+- Douglas County Jail 
 ## Municipal Codes
 - Lawrence — https://www.lawrenceks.org/

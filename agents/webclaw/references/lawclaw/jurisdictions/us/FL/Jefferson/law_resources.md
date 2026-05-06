@@ -1,6 +1,6 @@
 # Jefferson County — Local Law Resources
 ## Law Enforcement
-- Jefferson Sheriff — https://www.jeffersoncountyfl.gov/sheriff
+- Jefferson Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Jefferson Circuit Court — https://www.jud2.flcourts.org/

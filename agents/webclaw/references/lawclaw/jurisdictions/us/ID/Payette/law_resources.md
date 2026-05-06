@@ -1,6 +1,6 @@
 # Payette County — Local Law Resources
 ## Law Enforcement
-- Payette County Sheriff — https://www.payettecountyidaho.gov/sheriff
+- Payette County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Payette County District Court

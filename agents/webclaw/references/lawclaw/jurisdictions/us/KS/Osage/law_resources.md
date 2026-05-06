@@ -1,6 +1,6 @@
 # Osage County — Local Law Resources
 ## Law Enforcement
-- Osage County Sheriff — https://www.osagecountyks.gov/sheriff
+- Osage County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Osage County District Court

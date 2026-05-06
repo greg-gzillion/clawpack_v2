@@ -4,7 +4,7 @@
 - Mount Mercy University — https://www.mtmercy.edu/
 - Kirkwood Community College — https://www.kirkwood.edu/
 ## Law Enforcement
-- Linn County Sheriff — https://www.linnsheriff.org/
+- Linn County Sheriff 
 - Cedar Rapids Police — https://www.cedar-rapids.org/police/
 - Iowa State Patrol — https://dps.iowa.gov/
 ## Courts
@@ -24,7 +24,7 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Linn County Jail — https://www.linnsheriff.org/corrections/
+- Linn County Jail 
 - Anamosa State Penitentiary — https://doc.iowa.gov/anamosa-state-penitentiary
 ## Municipal Codes
 - Cedar Rapids — https://www.cedar-rapids.org/

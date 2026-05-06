@@ -3,7 +3,7 @@
 - Pensacola State College — https://www.pensacolastate.edu/
 - University of West Florida (adjacent) — https://www.uwf.edu/
 ## Law Enforcement
-- Santa Rosa Sheriff — https://www.santarosasheriff.org/
+- Santa Rosa Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Santa Rosa Circuit Court — https://www.firstjudicialcircuit.org/
@@ -26,6 +26,6 @@
 ## Legal Aid
 - Legal Services of North Florida — https://www.lsnf.org/
 ## Corrections
-- Santa Rosa County Jail — https://www.santarosasheriff.org/corrections/
+- Santa Rosa County Jail 
 ## Municipal Codes
 - Milton — https://www.miltonfl.org/

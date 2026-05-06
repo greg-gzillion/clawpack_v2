@@ -1,6 +1,6 @@
 # DeKalb County — Local Law Resources
 ## Law Enforcement
-- DeKalb County Sheriff — https://www.dekalbcountyil.gov/sheriff
+- DeKalb County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - DeKalb County Circuit Court

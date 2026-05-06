@@ -1,6 +1,6 @@
 # Clay County — Local Law Resources
 ## Law Enforcement
-- Clay County Sheriff — https://www.claycountyks.gov/sheriff
+- Clay County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Clay County District Court

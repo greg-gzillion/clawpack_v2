@@ -2,7 +2,7 @@
 ## Universities
 - Rutgers University-New Brunswick (adjacent) — https://www.rutgers.edu/
 ## Law Enforcement
-- Somerset County Sheriff — https://www.somersetsheriff.org/
+- Somerset County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Somerset County Superior Court — https://www.njcourts.gov/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Somerset County Jail — https://www.somersetsheriff.org/jail
+- Somerset County Jail 
 ## Municipal Codes
 - Somerville — https://www.somervillenj.org/

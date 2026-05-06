@@ -1,6 +1,6 @@
 # DeSoto County — Local Law Resources
 ## Law Enforcement
-- DeSoto County Sheriff — https://www.desotocountysheriff.org/
+- DeSoto County Sheriff 
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
 - DeSoto County Circuit Court — https://www.desotocountycourts.org/
@@ -17,7 +17,7 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- DeSoto County Jail — https://www.desotocountysheriff.org/detention/
+- DeSoto County Jail 
 ## Municipal Codes
 - Hernando — https://www.cityofhernando.org/
 - Southaven — https://www.southaven.org/

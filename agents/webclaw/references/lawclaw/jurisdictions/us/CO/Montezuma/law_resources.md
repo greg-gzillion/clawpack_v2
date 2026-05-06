@@ -1,6 +1,6 @@
 # Montezuma County — Local Law Resources
 ## Law Enforcement
-- Montezuma Sheriff — https://www.montezumasheriff.org/
+- Montezuma Sheriff 
 - Cortez Police — https://www.cortezco.gov/149/Police-Department
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Montezuma County Jail — https://www.montezumasheriff.org/detentions
+- Montezuma County Jail 
 ## Municipal
 - Cortez Code — https://www.cortezco.gov/

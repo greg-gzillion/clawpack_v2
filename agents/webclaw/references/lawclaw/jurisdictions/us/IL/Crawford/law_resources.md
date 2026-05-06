@@ -1,6 +1,6 @@
 # Crawford County — Local Law Resources
 ## Law Enforcement
-- Crawford County Sheriff — https://www.crawfordcountyil.gov/sheriff
+- Crawford County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Crawford County Circuit Court

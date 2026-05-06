@@ -3,7 +3,7 @@
 - Louisiana State University Shreveport — https://www.lsus.edu/
 - Centenary College of Louisiana — https://www.centenary.edu/
 ## Law Enforcement
-- Caddo Parish Sheriff — https://www.caddosheriff.org/
+- Caddo Parish Sheriff 
 - Shreveport Police — https://www.shreveportla.gov/186/Police
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Acadiana Legal Services — https://www.la-law.org/
 ## Corrections
-- Caddo Correctional Center — https://www.caddosheriff.org/
+- Caddo Correctional Center 
 ## Municipal Codes
 - Shreveport — https://www.shreveportla.gov/

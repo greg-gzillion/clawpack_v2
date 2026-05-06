@@ -2,11 +2,11 @@
 ## Universities
 - Mississippi State University — https://www.msstate.edu/
 ## Law Enforcement
-- Oktibbeha County Sheriff — https://www.oktibbehacountysheriff.org/
+- Oktibbeha County Sheriff 
 - Starkville Police — https://www.cityofstarkville.org/156/Police-Department
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Oktibbeha County Circuit Court — https://www.oktibbehacountyms.org/courts
+- Oktibbeha County Circuit Court 
 ## County Attorney / Defender
 - Oktibbeha County District Attorney
 - Mississippi Public Defender — https://www.opd.ms.gov/
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Oktibbeha County Jail — https://www.oktibbehacountysheriff.org/detention/
+- Oktibbeha County Jail 
 ## Municipal Codes
 - Starkville — https://www.cityofstarkville.org/

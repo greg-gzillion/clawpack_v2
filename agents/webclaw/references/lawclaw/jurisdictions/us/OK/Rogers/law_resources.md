@@ -1,6 +1,6 @@
 # Rogers County — Local Law Resources
 ## Law Enforcement
-- Rogers County Sheriff — https://www.rogerscountysheriff.org/
+- Rogers County Sheriff 
 - Oklahoma Highway Patrol — https://www.oklahoma.gov/dps/ohp.html
 ## Courts
 - Rogers County District Court — https://www.oscn.net/
@@ -16,6 +16,6 @@
 ## Legal Aid
 - Legal Aid Services of Oklahoma — https://www.legalaidok.org/
 ## Corrections
-- Rogers County Jail — https://www.rogerscountysheriff.org/jail
+- Rogers County Jail 
 ## Municipal Codes
 - Claremore — https://www.claremore.com/

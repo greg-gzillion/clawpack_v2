@@ -1,6 +1,6 @@
 # Barrow County — Local Law Resources
 ## Law Enforcement
-- Barrow Sheriff — https://www.barrowcountyga.gov/sheriff/
+- Barrow Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Barrow Superior Court

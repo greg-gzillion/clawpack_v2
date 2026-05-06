@@ -3,7 +3,7 @@
 - University of Montana Blewett School of Law — https://www.umt.edu/law/
 - University of Montana — https://www.umt.edu/
 ## Law Enforcement
-- Missoula County Sheriff — https://www.missoulacountysheriff.org/
+- Missoula County Sheriff 
 - Missoula Police — https://www.ci.missoula.mt.us/157/Police-Department
 - Montana Highway Patrol — https://www.dojmt.gov/highwaypatrol/
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Montana Legal Services — https://www.montanalegalservices.org/
 ## Corrections
-- Missoula County Detention Facility — https://www.missoulacountysheriff.org/detention/
+- Missoula County Detention Facility 
 ## Municipal Codes
 - Missoula — https://www.ci.missoula.mt.us/

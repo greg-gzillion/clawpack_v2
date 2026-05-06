@@ -1,6 +1,6 @@
 # Pueblo County — Local Law Resources
 ## Law Enforcement
-- Pueblo Sheriff — https://www.pueblosheriff.org/
+- Pueblo Sheriff 
 - Pueblo Police — https://www.pueblo.us/169/Police-Department
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Pueblo County Jail — https://www.pueblosheriff.org/jail
+- Pueblo County Jail 
 ## Municipal
 - Pueblo Code — https://www.pueblo.us/

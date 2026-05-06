@@ -1,6 +1,6 @@
 # Miami County — Local Law Resources
 ## Law Enforcement
-- Miami County Sheriff — https://www.miamicountyks.gov/sheriff
+- Miami County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Miami County District Court

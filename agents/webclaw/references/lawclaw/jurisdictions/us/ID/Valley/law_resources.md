@@ -1,12 +1,12 @@
 # Valley County — Local Law Resources
 ## Law Enforcement
-- Valley County Sheriff — https://www.valleycountyidaho.com/sheriff/
+- Valley County Sheriff 
 - McCall Police — https://www.mccall.id.us/departments/police-department
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Valley County District Court — https://www.valley.id.courts.gov/
 ## County Attorney / Defender
-- Valley County Prosecutor — https://www.valleycountyidaho.com/prosecutor/
+- Valley County Prosecutor 
 - Idaho Public Defense Commission — https://pdc.idaho.gov/
 ## Hunting Regulations
 - IDFG Hunting Regulations — https://idfg.idaho.gov/hunt/rules
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Idaho Legal Aid Services — https://www.idaholegalaid.org/
 ## Corrections
-- Valley County Jail — https://www.valleycountyidaho.com/sheriff/jail/
+- Valley County Jail 
 ## Municipal Codes
 - McCall — https://www.mccall.id.us/

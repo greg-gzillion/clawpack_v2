@@ -1,6 +1,6 @@
 # Highlands County — Local Law Resources
 ## Law Enforcement
-- Highlands Sheriff — https://www.highlandssheriff.org/
+- Highlands Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Highlands Circuit Court — https://www.jud10.flcourts.org/

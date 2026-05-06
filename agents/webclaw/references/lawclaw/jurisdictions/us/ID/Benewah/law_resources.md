@@ -1,6 +1,6 @@
 # Benewah County — Local Law Resources
 ## Law Enforcement
-- Benewah County Sheriff — https://www.benewahcountyidaho.gov/sheriff
+- Benewah County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Benewah County District Court

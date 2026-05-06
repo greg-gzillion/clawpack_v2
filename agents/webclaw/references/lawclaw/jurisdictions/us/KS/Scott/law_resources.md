@@ -1,6 +1,6 @@
 # Scott County — Local Law Resources
 ## Law Enforcement
-- Scott County Sheriff — https://www.scottcountyks.gov/sheriff
+- Scott County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Scott County District Court

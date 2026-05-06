@@ -1,6 +1,6 @@
 # Bourbon County — Local Law Resources
 ## Law Enforcement
-- Bourbon County Sheriff — https://www.bourboncountyks.gov/sheriff
+- Bourbon County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Bourbon County District Court

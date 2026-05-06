@@ -2,7 +2,7 @@
 ## Universities
 - Lewis-Clark State College — https://www.lcsc.edu/
 ## Law Enforcement
-- Nez Perce County Sheriff — https://www.nezpercesheriff.org/
+- Nez Perce County Sheriff 
 - Lewiston Police — https://www.cityoflewiston.org/170/Police
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Idaho Legal Aid Services — https://www.idaholegalaid.org/
 ## Corrections
-- Nez Perce County Jail — https://www.nezpercesheriff.org/jail
+- Nez Perce County Jail 
 - Idaho Correctional Institution Orofino — https://www.idoc.idaho.gov/locations/ici-o
 ## Municipal Codes
 - Lewiston — https://www.cityoflewiston.org/

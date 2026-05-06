@@ -3,7 +3,7 @@
 - University of New Hampshire School of Law — Concord — https://law.unh.edu/
   - UNH Law Clinics — https://law.unh.edu/academics/clinics
 ## Law Enforcement
-- Merrimack County Sheriff — https://www.merrimackcountysheriff.org/
+- Merrimack County Sheriff 
 - Concord Police — https://www.concordnh.gov/195/Police
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
@@ -22,7 +22,7 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Merrimack County Department of Corrections — https://www.merrimackcountysheriff.org/corrections
+- Merrimack County Department of Corrections 
 - New Hampshire State Prison for Men — https://www.nh.gov/doc/facilities/nhspm.html
 ## Municipal Codes
 - Concord — https://www.concordnh.gov/

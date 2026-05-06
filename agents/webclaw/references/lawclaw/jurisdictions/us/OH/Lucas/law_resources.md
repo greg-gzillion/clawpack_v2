@@ -3,7 +3,7 @@
 - University of Toledo College of Law — https://www.utoledo.edu/law/
 - University of Toledo — https://www.utoledo.edu/
 ## Law Enforcement
-- Lucas County Sheriff — https://www.lucascountysheriff.org/
+- Lucas County Sheriff 
 - Toledo Police — https://www.toledo.oh.gov/departments/police
 - Ohio State Highway Patrol — https://www.statepatrol.ohio.gov/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Legal Aid of Western Ohio — https://www.lawolaw.org/
 ## Corrections
-- Lucas County Corrections Center — https://www.lucascountysheriff.org/corrections
+- Lucas County Corrections Center 
 ## Municipal Codes
 - Toledo — https://www.toledo.oh.gov/

@@ -1,6 +1,6 @@
 # Edwards County — Local Law Resources
 ## Law Enforcement
-- Edwards County Sheriff — https://www.edwardscountyks.gov/sheriff
+- Edwards County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Edwards County District Court

@@ -1,6 +1,6 @@
 # Henry County — Local Law Resources
 ## Law Enforcement
-- Henry Sheriff — https://www.henrycountysheriff.net/
+- Henry Sheriff 
 - Henry Police — https://www.co.henry.ga.us/Departments/Police
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -16,6 +16,6 @@
 ## Legal Aid
 - Atlanta Legal Aid Society — https://www.atlantalegalaid.org/
 ## Corrections
-- Henry County Jail — https://www.henrycountysheriff.net/jail
+- Henry County Jail 
 ## Municipal Codes
 - McDonough — https://www.mcdonoughga.org/

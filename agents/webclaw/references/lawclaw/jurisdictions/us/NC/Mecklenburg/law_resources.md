@@ -5,7 +5,7 @@
 - Queens University of Charlotte — https://www.queens.edu/
 - Johnson C. Smith University — https://www.jcsu.edu/
 ## Law Enforcement
-- Mecklenburg County Sheriff — https://www.mecksheriff.com/
+- Mecklenburg County Sheriff 
 - Charlotte-Mecklenburg Police — https://www.cmpd.org/
 - North Carolina State Highway Patrol — https://www.ncdps.gov/our-organization/law-enforcement/state-highway-patrol
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Legal Aid of North Carolina — https://www.legalaidnc.org/
 ## Corrections
-- Mecklenburg County Jail — https://www.mecksheriff.com/detention/
+- Mecklenburg County Jail 
 ## Municipal Codes
 - Charlotte — https://www.charlottenc.gov/

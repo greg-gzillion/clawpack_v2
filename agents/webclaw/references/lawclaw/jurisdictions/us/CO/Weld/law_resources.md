@@ -1,6 +1,6 @@
 # Weld County — Local Law Resources
 ## Law Enforcement
-- Weld Sheriff — https://www.weldsheriff.com/
+- Weld Sheriff 
 - Greeley Police — https://www.greeleypd.com/
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Weld County Jail — https://www.weldsheriff.com/jail
+- Weld County Jail 
 ## Municipal
 - Greeley Code — https://www.greeleygov.com/

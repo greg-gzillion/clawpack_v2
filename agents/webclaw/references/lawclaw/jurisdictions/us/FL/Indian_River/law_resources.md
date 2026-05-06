@@ -2,7 +2,7 @@
 ## Universities
 - Indian River State College — https://www.irsc.edu/
 ## Law Enforcement
-- Indian River Sheriff — https://www.ircsheriff.org/
+- Indian River Sheriff 
 - Vero Beach Police — https://www.vbpd.org/
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Florida Rural Legal Services — https://www.frls.org/
 ## Corrections
-- Indian River County Jail — https://www.ircsheriff.org/corrections/
+- Indian River County Jail 
 ## Municipal Codes
 - Vero Beach — https://www.covb.org/

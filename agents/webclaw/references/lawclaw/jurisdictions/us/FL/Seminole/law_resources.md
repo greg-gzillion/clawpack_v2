@@ -3,7 +3,7 @@
 - University of Central Florida (adjacent) — https://www.ucf.edu/
 - Seminole State College — https://www.seminolestate.edu/
 ## Law Enforcement
-- Seminole Sheriff — https://www.seminolesheriff.org/
+- Seminole Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Seminole Circuit Court — https://www.flcourts18.org/
@@ -22,7 +22,7 @@
 ## Legal Aid
 - Community Legal Services of Mid-Florida — https://www.clsmf.org/
 ## Corrections
-- Seminole County Jail — https://www.seminolesheriff.org/corrections/
+- Seminole County Jail 
 ## Municipal Codes
 - Sanford — https://www.sanfordfl.gov/
 - Altamonte Springs — https://www.altamonte.org/

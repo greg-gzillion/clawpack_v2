@@ -1,6 +1,6 @@
 # Washington County — Local Law Resources
 ## Law Enforcement
-- Washington County Sheriff — https://www.washingtoncountyks.gov/sheriff
+- Washington County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Washington County District Court

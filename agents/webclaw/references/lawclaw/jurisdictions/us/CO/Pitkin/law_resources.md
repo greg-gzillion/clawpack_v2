@@ -1,6 +1,6 @@
 # Pitkin County — Local Law Resources
 ## Law Enforcement
-- Pitkin Sheriff — https://www.pitkinsheriff.com/
+- Pitkin Sheriff 
 - Aspen Police — https://www.aspen.gov/149/Police-Department
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Pitkin County Jail — https://www.pitkinsheriff.com/169/Jail
+- Pitkin County Jail 
 ## Municipal
 - Aspen Code — https://www.aspen.gov/

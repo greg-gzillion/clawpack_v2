@@ -1,6 +1,6 @@
 # Pratt County — Local Law Resources
 ## Law Enforcement
-- Pratt County Sheriff — https://www.prattcountyks.gov/sheriff
+- Pratt County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Pratt County District Court

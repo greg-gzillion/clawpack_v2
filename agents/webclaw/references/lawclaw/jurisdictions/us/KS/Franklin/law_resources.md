@@ -1,6 +1,6 @@
 # Franklin County — Local Law Resources
 ## Law Enforcement
-- Franklin County Sheriff — https://www.franklincountyks.gov/sheriff
+- Franklin County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Franklin County District Court

@@ -1,6 +1,6 @@
 # Bingham County — Local Law Resources
 ## Law Enforcement
-- Bingham County Sheriff — https://www.binghamcountyidaho.gov/sheriff
+- Bingham County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Bingham County District Court

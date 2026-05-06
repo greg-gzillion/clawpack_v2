@@ -7,7 +7,7 @@
 - Brandeis University — https://www.brandeis.edu/
 - Bentley University — https://www.bentley.edu/
 ## Law Enforcement
-- Middlesex County Sheriff — https://www.middlesexsheriff.org/
+- Middlesex County Sheriff 
 - Cambridge Police — https://www.cambridgema.gov/police
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -30,7 +30,7 @@
 ## Legal Aid
 - Greater Boston Legal Services — https://www.gbls.org/
 ## Corrections
-- Middlesex County Jail — https://www.middlesexsheriff.org/
+- Middlesex County Jail 
 ## Municipal Codes
 - Cambridge — https://www.cambridgema.gov/
 - Lowell — https://www.lowellma.gov/

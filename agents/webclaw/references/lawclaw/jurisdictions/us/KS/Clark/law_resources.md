@@ -1,6 +1,6 @@
 # Clark County — Local Law Resources
 ## Law Enforcement
-- Clark County Sheriff — https://www.clarkcountyks.gov/sheriff
+- Clark County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Clark County District Court

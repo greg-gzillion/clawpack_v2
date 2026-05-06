@@ -1,6 +1,6 @@
 # Washington County — Local Law Resources
 ## Law Enforcement
-- Washington County Sheriff — https://www.washingtoncountysheriff.org/
+- Washington County Sheriff 
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
 - Washington County District Court — https://www.mncourts.gov/Find-Courts/Washington.aspx
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Southern Minnesota Regional Legal Services — https://www.smrls.org/
 ## Corrections
-- Washington County Jail — https://www.washingtoncountysheriff.org/jail/
+- Washington County Jail 
 ## Municipal Codes
 - Stillwater — https://www.stillwatermn.gov/

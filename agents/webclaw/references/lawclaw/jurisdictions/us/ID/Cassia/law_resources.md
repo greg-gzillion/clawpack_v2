@@ -1,6 +1,6 @@
 # Cassia County — Local Law Resources
 ## Law Enforcement
-- Cassia County Sheriff — https://www.cassiacountyidaho.gov/sheriff
+- Cassia County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Cassia County District Court

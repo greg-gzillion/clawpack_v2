@@ -1,6 +1,6 @@
 # Boone County — Local Law Resources
 ## Law Enforcement
-- Boone County Sheriff — https://www.boonecountykysheriff.com/
+- Boone County Sheriff 
 - Florence Police — https://www.florence-ky.gov/police/
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
@@ -16,6 +16,6 @@
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Boone County Jail — https://www.boonecountykysheriff.com/jail/
+- Boone County Jail 
 ## Municipal Codes
 - Florence — https://www.florence-ky.gov/

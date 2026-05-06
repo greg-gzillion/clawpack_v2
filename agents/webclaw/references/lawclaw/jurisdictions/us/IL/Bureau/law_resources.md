@@ -1,6 +1,6 @@
 # Bureau County — Local Law Resources
 ## Law Enforcement
-- Bureau County Sheriff — https://www.bureaucountyil.gov/sheriff
+- Bureau County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Bureau County Circuit Court

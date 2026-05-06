@@ -6,7 +6,7 @@
 - Mount Holyoke College — https://www.mtholyoke.edu/
 - Hampshire College — https://www.hampshire.edu/
 ## Law Enforcement
-- Hampshire County Sheriff — https://www.hampshiresheriff.net/
+- Hampshire County Sheriff 
 - Northampton Police — https://www.northamptonma.gov/214/Police-Department
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -24,7 +24,7 @@
 ## Legal Aid
 - Community Legal Aid — https://www.communitylegal.org/
 ## Corrections
-- Hampshire County Jail — https://www.hampshiresheriff.net/
+- Hampshire County Jail 
 ## Municipal Codes
 - Northampton — https://www.northamptonma.gov/
 - Amherst — https://www.amherstma.gov/

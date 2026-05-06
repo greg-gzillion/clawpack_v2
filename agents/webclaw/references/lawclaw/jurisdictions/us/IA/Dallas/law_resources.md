@@ -2,7 +2,7 @@
 ## Universities
 - none in county (nearest: Drake, DMACC)
 ## Law Enforcement
-- Dallas County Sheriff — https://www.dallascountyiowa.gov/sheriff
+- Dallas County Sheriff 
 - Iowa State Patrol — https://dps.iowa.gov/
 ## Courts
 - Dallas County District Court — https://www.iowacourts.gov/
@@ -19,7 +19,7 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Dallas County Jail — https://www.dallascountyiowa.gov/sheriff/jail
+- Dallas County Jail 
 ## Municipal Codes
 - Adel — https://www.adeliowa.org/
 - Waukee — https://www.waukee.org/

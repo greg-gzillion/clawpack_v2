@@ -1,6 +1,6 @@
 # Phillips County — Local Law Resources
 ## Law Enforcement
-- Phillips County Sheriff — https://www.phillipscountyks.gov/sheriff
+- Phillips County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Phillips County District Court

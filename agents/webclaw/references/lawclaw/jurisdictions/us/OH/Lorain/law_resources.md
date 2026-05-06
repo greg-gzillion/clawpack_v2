@@ -2,7 +2,7 @@
 ## Universities
 - Oberlin College — https://www.oberlin.edu/
 ## Law Enforcement
-- Lorain County Sheriff — https://www.loraincountysheriff.com/
+- Lorain County Sheriff 
 - Ohio State Highway Patrol — https://www.statepatrol.ohio.gov/
 ## Courts
 - Lorain County Court of Common Pleas — https://www.loraincountycourts.org/
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Legal Aid Society of Cleveland — https://www.lasclev.org/
 ## Corrections
-- Lorain County Jail — https://www.loraincountysheriff.com/corrections
+- Lorain County Jail 
 ## Municipal Codes
 - Elyria — https://www.cityofelyria.org/

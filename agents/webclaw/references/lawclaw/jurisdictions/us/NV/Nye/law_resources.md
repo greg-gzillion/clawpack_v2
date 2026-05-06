@@ -1,6 +1,6 @@
 # Nye County — Local Law Resources
 ## Law Enforcement
-- Nye County Sheriff — https://www.nyecountysheriff.org/
+- Nye County Sheriff 
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
 - Nye County District Court — https://www.nyecountycourts.net/
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Nevada Legal Services — https://www.nevadalegalservices.org/
 ## Corrections
-- Nye County Detention Center — https://www.nyecountysheriff.org/detention
+- Nye County Detention Center 
 ## Municipal Codes
 - Tonopah — https://www.tonopahnevada.com/

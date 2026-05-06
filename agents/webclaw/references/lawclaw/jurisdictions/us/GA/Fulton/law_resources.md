@@ -9,7 +9,7 @@
 - Spelman College — https://www.spelman.edu/
 - Clark Atlanta University — https://www.cau.edu/
 ## Law Enforcement
-- Fulton Sheriff — https://www.fultonsheriff.org/
+- Fulton Sheriff 
 - Atlanta Police — https://www.atlantapd.org/
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -30,7 +30,7 @@
 - Atlanta Legal Aid Society — https://www.atlantalegalaid.org/
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Fulton County Jail — https://www.fultonsheriff.org/jail
+- Fulton County Jail 
 ## Municipal Codes
 - Atlanta — https://www.atlantaga.gov/
 - Sandy Springs — https://www.sandyspringsga.gov/

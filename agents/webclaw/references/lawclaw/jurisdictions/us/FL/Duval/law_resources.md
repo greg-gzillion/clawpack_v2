@@ -4,7 +4,7 @@
 - Jacksonville University — https://www.ju.edu/
 - University of North Florida — https://www.unf.edu/
 ## Law Enforcement
-- Jacksonville Sheriff — https://www.jaxsheriff.org/
+- Jacksonville Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Duval Circuit Court — https://www.jud4.org/
@@ -27,6 +27,6 @@
 ## Legal Aid
 - Jacksonville Area Legal Aid — https://www.jaxlegalaid.org/
 ## Corrections
-- Duval County Jail — https://www.jaxsheriff.org/Departments/Department-of-Corrections.aspx
+- Duval County Jail 
 ## Municipal Codes
 - Jacksonville — https://www.coj.net/

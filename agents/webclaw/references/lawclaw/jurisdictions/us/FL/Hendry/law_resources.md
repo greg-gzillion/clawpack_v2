@@ -1,6 +1,6 @@
 # Hendry County — Local Law Resources
 ## Law Enforcement
-- Hendry Sheriff — https://www.hendrysheriff.org/
+- Hendry Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Hendry Circuit Court — https://www.jud20.flcourts.org/

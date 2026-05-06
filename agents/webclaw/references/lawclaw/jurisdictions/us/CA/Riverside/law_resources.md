@@ -1,6 +1,6 @@
 # Riverside County — Local Law Resources
 ## Law Enforcement
-- Riverside Sheriff — https://www.riversidesheriff.org/
+- Riverside Sheriff 
 - Riverside Police — https://www.riversideca.gov/police/
 - Palm Springs Police — https://www.palmspringsca.gov/government/departments/police
 - CHP Inland Division — https://www.chp.ca.gov/find-an-office/inland-division
@@ -27,7 +27,7 @@
 ## Legal Aid
 - Inland Counties Legal Services — https://www.inlandlegal.org/
 ## Corrections
-- Riverside County Jails — https://www.riversidesheriff.org/corrections
+- Riverside County Jails 
 ## Municipal
 - Riverside Code — https://www.riversideca.gov/
 - Palm Springs Code — https://www.palmspringsca.gov/

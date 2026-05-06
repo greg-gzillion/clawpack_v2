@@ -1,6 +1,6 @@
 # Pottawatomie County — Local Law Resources
 ## Law Enforcement
-- Pottawatomie County Sheriff — https://www.pottawatomiecountyks.gov/sheriff
+- Pottawatomie County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Pottawatomie County District Court

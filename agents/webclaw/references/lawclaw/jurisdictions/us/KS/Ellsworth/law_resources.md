@@ -1,6 +1,6 @@
 # Ellsworth County — Local Law Resources
 ## Law Enforcement
-- Ellsworth County Sheriff — https://www.ellsworthcountyks.gov/sheriff
+- Ellsworth County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Ellsworth County District Court

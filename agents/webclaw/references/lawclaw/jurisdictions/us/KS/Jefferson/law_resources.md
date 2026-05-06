@@ -1,6 +1,6 @@
 # Jefferson County — Local Law Resources
 ## Law Enforcement
-- Jefferson County Sheriff — https://www.jeffersoncountyks.gov/sheriff
+- Jefferson County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Jefferson County District Court

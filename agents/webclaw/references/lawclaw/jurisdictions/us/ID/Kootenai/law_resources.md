@@ -2,7 +2,7 @@
 ## Universities
 - North Idaho College — https://www.nic.edu/
 ## Law Enforcement
-- Kootenai County Sheriff — https://www.kcsheriff.com/
+- Kootenai County Sheriff 
 - Coeur d'Alene Police — https://www.cdaid.org/police
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
@@ -24,7 +24,7 @@
 ## Legal Aid
 - Idaho Legal Aid Services — https://www.idaholegalaid.org/
 ## Corrections
-- Kootenai County Jail — https://www.kcsheriff.com/jail
+- Kootenai County Jail 
 ## Municipal Codes
 - Coeur d'Alene — https://www.cdaid.org/
 - Post Falls — https://www.postfalls.gov/

@@ -1,6 +1,6 @@
 # Calhoun County — Local Law Resources
 ## Law Enforcement
-- Calhoun Sheriff — https://www.calhouncountyga.gov/sheriff/
+- Calhoun Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Calhoun Superior Court

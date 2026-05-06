@@ -1,6 +1,6 @@
 # Butts County — Local Law Resources
 ## Law Enforcement
-- Butts Sheriff — https://www.buttscountyga.gov/sheriff/
+- Butts Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Butts Superior Court

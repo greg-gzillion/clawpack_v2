@@ -1,6 +1,6 @@
 # Douglas County — Local Law Resources
 ## Law Enforcement
-- Douglas County Sheriff — https://www.douglascountysheriff.org/
+- Douglas County Sheriff 
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
 - Douglas County District Court — https://www.douglascountynv.gov/government/departments/courts
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Nevada Legal Services — https://www.nevadalegalservices.org/
 ## Corrections
-- Douglas County Jail — https://www.douglascountysheriff.org/jail
+- Douglas County Jail 
 ## Municipal Codes
 - Minden — https://www.townofminden.com/

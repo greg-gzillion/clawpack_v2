@@ -1,6 +1,6 @@
 # Barton County — Local Law Resources
 ## Law Enforcement
-- Barton County Sheriff — https://www.bartoncountyks.gov/sheriff
+- Barton County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Barton County District Court

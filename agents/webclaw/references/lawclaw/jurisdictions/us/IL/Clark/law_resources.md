@@ -1,6 +1,6 @@
 # Clark County — Local Law Resources
 ## Law Enforcement
-- Clark County Sheriff — https://www.clarkcountyil.gov/sheriff
+- Clark County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Clark County Circuit Court

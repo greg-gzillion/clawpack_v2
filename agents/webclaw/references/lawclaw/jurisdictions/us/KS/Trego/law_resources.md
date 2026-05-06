@@ -1,6 +1,6 @@
 # Trego County — Local Law Resources
 ## Law Enforcement
-- Trego County Sheriff — https://www.tregocountyks.gov/sheriff
+- Trego County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Trego County District Court

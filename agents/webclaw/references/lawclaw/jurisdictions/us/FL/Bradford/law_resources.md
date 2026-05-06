@@ -1,6 +1,6 @@
 # Bradford County — Local Law Resources
 ## Law Enforcement
-- Bradford Sheriff — https://www.bradfordsheriff.org/
+- Bradford Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Bradford Circuit Court — https://www.jud8.flcourts.org/

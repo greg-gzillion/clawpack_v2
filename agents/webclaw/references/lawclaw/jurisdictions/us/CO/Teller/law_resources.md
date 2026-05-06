@@ -1,6 +1,6 @@
 # Teller County — Local Law Resources
 ## Law Enforcement
-- Teller Sheriff — https://www.tellersheriff.com/
+- Teller Sheriff 
 - Woodland Park Police — https://www.city-woodlandpark.org/departments/police_department
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Teller County Jail — https://www.tellersheriff.com/jail
+- Teller County Jail 
 ## Municipal
 - Woodland Park Code — https://www.city-woodlandpark.org/

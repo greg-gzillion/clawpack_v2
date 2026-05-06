@@ -1,6 +1,6 @@
 # Marin County — Local Law Resources
 ## Law Enforcement
-- Marin Sheriff — https://www.marinsheriff.org/
+- Marin Sheriff 
 - San Rafael Police — https://www.cityofsanrafael.org/departments/police/
 - CHP Golden Gate Division — https://www.chp.ca.gov/find-an-office/golden-gate-division
 ## Courts
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Legal Aid of Marin — https://www.legalaidmarin.org/
 ## Corrections
-- Marin County Jail — https://www.marinsheriff.org/divisions/custody-services
+- Marin County Jail 
 ## Municipal
 - San Rafael Code — https://www.cityofsanrafael.org/
 - Novato Code — https://www.novato.org/

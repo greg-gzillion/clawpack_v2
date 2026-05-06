@@ -1,6 +1,6 @@
 # Rankin County — Local Law Resources
 ## Law Enforcement
-- Rankin County Sheriff — https://www.rankincountysheriff.org/
+- Rankin County Sheriff 
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
 - Rankin County Circuit Court — https://www.rankincounty.org/courts
@@ -16,7 +16,7 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Rankin County Jail — https://www.rankincountysheriff.org/detention/
+- Rankin County Jail 
 - Central Mississippi Correctional Facility — https://www.mdoc.ms.gov/
 ## Municipal Codes
 - Brandon — https://www.brandonms.org/

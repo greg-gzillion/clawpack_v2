@@ -1,6 +1,6 @@
 # San Joaquin County — Local Law Resources
 ## Law Enforcement
-- San Joaquin Sheriff — https://www.sjsheriff.org/
+- San Joaquin Sheriff 
 - Stockton Police — https://www.stocktonca.gov/departments/police_department/
 - CHP Valley Division — https://www.chp.ca.gov/find-an-office/valley-division
 ## Courts
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections
-- San Joaquin County Jail — https://www.sjsheriff.org/corrections/
+- San Joaquin County Jail 
 ## Municipal
 - Stockton Code — https://www.stocktonca.gov/
 - Lodi Code — https://www.lodi.gov/

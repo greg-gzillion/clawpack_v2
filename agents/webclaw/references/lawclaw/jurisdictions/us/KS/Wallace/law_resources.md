@@ -1,6 +1,6 @@
 # Wallace County — Local Law Resources
 ## Law Enforcement
-- Wallace County Sheriff — https://www.wallacecountyks.gov/sheriff
+- Wallace County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Wallace County District Court

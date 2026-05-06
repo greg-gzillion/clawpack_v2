@@ -1,6 +1,6 @@
 # Burke County — Local Law Resources
 ## Law Enforcement
-- Burke Sheriff — https://www.burkecountyga.gov/sheriff/
+- Burke Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Burke Superior Court

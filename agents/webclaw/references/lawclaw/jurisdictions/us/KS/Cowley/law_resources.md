@@ -1,6 +1,6 @@
 # Cowley County — Local Law Resources
 ## Law Enforcement
-- Cowley County Sheriff — https://www.cowleycountyks.gov/sheriff
+- Cowley County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Cowley County District Court

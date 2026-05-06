@@ -3,7 +3,7 @@
 - Fayetteville State University — https://www.uncfsu.edu/
 - Methodist University — https://www.methodist.edu/
 ## Law Enforcement
-- Cumberland County Sheriff — https://www.cumberlandcountync.gov/sheriff
+- Cumberland County Sheriff 
 - Fayetteville Police — https://www.fayettevillenc.gov/city-services/police
 - North Carolina State Highway Patrol — https://www.ncdps.gov/our-organization/law-enforcement/state-highway-patrol
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Legal Aid of North Carolina — https://www.legalaidnc.org/
 ## Corrections
-- Cumberland County Detention Center — https://www.cumberlandcountync.gov/sheriff/detention
+- Cumberland County Detention Center 
 ## Municipal Codes
 - Fayetteville — https://www.fayettevillenc.gov/

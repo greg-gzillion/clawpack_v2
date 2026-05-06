@@ -1,6 +1,6 @@
 # Madison County — Local Law Resources
 ## Law Enforcement
-- Madison Sheriff — https://www.madisonsheriff.com/
+- Madison Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Madison Circuit Court — https://www.jud3.flcourts.org/

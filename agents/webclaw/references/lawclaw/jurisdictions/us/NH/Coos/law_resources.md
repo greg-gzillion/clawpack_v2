@@ -1,6 +1,6 @@
 # Coos County — Local Law Resources
 ## Law Enforcement
-- Coos County Sheriff — https://www.cooscountysheriff.org/
+- Coos County Sheriff 
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
 - Coos County Superior Court — https://www.courts.nh.gov/
@@ -20,7 +20,7 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Coos County Department of Corrections — https://www.cooscountysheriff.org/corrections
+- Coos County Department of Corrections 
 - Northern New Hampshire Correctional Facility — https://www.nh.gov/doc/facilities/ncf.html
 ## Municipal Codes
 - Lancaster — see county website

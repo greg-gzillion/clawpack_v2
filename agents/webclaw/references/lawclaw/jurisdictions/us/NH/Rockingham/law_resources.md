@@ -2,7 +2,7 @@
 ## Universities
 - University of New Hampshire — Durham — https://www.unh.edu/
 ## Law Enforcement
-- Rockingham County Sheriff — https://www.rockinghamcountysheriff.org/
+- Rockingham County Sheriff 
 - Portsmouth Police — https://www.cityofportsmouth.com/police
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
@@ -25,7 +25,7 @@
 ## Legal Aid
 - New Hampshire Legal Assistance — https://www.nhla.org/
 ## Corrections
-- Rockingham County Jail — https://www.rockinghamcountysheriff.org/corrections
+- Rockingham County Jail 
 ## Municipal Codes
 - Portsmouth — https://www.cityofportsmouth.com/
 - Derry — https://www.derrynh.org/

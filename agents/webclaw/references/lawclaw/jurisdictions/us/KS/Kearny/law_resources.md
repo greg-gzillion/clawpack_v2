@@ -1,6 +1,6 @@
 # Kearny County — Local Law Resources
 ## Law Enforcement
-- Kearny County Sheriff — https://www.kearnycountyks.gov/sheriff
+- Kearny County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Kearny County District Court

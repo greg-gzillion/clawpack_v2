@@ -1,6 +1,6 @@
 # Lafayette County — Local Law Resources
 ## Law Enforcement
-- Lafayette Sheriff — https://www.lafayettesheriff.org/
+- Lafayette Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Lafayette Circuit Court — https://www.jud3.flcourts.org/

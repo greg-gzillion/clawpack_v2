@@ -3,13 +3,13 @@
 - Berry College — https://www.berry.edu/
 - Georgia Highlands College — https://www.highlands.edu/
 ## Law Enforcement
-- Floyd Sheriff — https://www.floydsheriff.com/
+- Floyd Sheriff 
 - Rome Police — https://www.romefloyd.com/departments/police-department
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
-- Floyd Superior Court — https://www.floydcountyga.gov/courts/
+- Floyd Superior Court 
 ## County Attorney / Defender
-- Floyd DA — https://www.floydcountyga.gov/da/
+- Floyd DA 
 - Floyd Public Defender
 ## Hunting Regulations
 - GA Hunting Regulations — https://georgiawildlife.com/hunting/regulations
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Floyd County Jail — https://www.floydsheriff.com/jail
+- Floyd County Jail 
 ## Municipal Codes
 - Rome — https://www.romefloyd.com/

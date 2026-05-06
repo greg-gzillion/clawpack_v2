@@ -2,7 +2,7 @@
 ## Universities
 - University of Southern Mississippi Gulf Coast — https://www.usm.edu/gulf-coast/
 ## Law Enforcement
-- Harrison County Sheriff — https://www.harrisoncountysheriff.com/
+- Harrison County Sheriff 
 - Gulfport Police — https://www.gulfport-ms.gov/police/
 - Biloxi Police — https://www.biloxi.ms.us/departments/police/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
@@ -27,7 +27,7 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Harrison County Jail — https://www.harrisoncountysheriff.com/detention/
+- Harrison County Jail 
 ## Municipal Codes
 - Gulfport — https://www.gulfport-ms.gov/
 - Biloxi — https://www.biloxi.ms.us/

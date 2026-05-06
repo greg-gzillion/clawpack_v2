@@ -1,6 +1,6 @@
 # Jewell County — Local Law Resources
 ## Law Enforcement
-- Jewell County Sheriff — https://www.jewellcountyks.gov/sheriff
+- Jewell County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Jewell County District Court

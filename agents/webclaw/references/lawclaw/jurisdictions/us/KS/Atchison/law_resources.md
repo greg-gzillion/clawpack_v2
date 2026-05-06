@@ -1,6 +1,6 @@
 # Atchison County — Local Law Resources
 ## Law Enforcement
-- Atchison County Sheriff — https://www.atchisoncountyks.gov/sheriff
+- Atchison County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Atchison County District Court

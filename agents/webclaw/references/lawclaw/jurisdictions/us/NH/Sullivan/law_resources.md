@@ -1,6 +1,6 @@
 # Sullivan County — Local Law Resources
 ## Law Enforcement
-- Sullivan County Sheriff — https://www.sullivancountynh.gov/sheriff
+- Sullivan County Sheriff 
 - New Hampshire State Police — https://www.nh.gov/safety/divisions/nhsp/
 ## Courts
 - Sullivan County Superior Court — https://www.courts.nh.gov/

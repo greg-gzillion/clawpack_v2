@@ -1,6 +1,6 @@
 # Brooks County — Local Law Resources
 ## Law Enforcement
-- Brooks Sheriff — https://www.brookscountyga.gov/sheriff/
+- Brooks Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Brooks Superior Court

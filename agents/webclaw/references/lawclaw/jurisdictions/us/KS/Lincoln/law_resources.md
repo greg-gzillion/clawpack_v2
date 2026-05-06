@@ -1,6 +1,6 @@
 # Lincoln County — Local Law Resources
 ## Law Enforcement
-- Lincoln County Sheriff — https://www.lincolncountyks.gov/sheriff
+- Lincoln County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Lincoln County District Court

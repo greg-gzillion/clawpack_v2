@@ -2,7 +2,7 @@
 ## Universities
 - University of Louisiana at Lafayette — https://www.louisiana.edu/
 ## Law Enforcement
-- Lafayette Parish Sheriff — https://www.lafayettesheriff.com/
+- Lafayette Parish Sheriff 
 - Lafayette Police — https://www.lafayettela.gov/police/
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Acadiana Legal Services — https://www.la-law.org/
 ## Corrections
-- Lafayette Parish Correctional Center — https://www.lafayettesheriff.com/
+- Lafayette Parish Correctional Center 
 ## Municipal Codes
 - Lafayette — https://www.lafayettela.gov/

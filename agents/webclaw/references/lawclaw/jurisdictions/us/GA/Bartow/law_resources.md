@@ -1,6 +1,6 @@
 # Bartow County — Local Law Resources
 ## Law Enforcement
-- Bartow Sheriff — https://www.bartowcountyga.gov/sheriff/
+- Bartow Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Bartow Superior Court

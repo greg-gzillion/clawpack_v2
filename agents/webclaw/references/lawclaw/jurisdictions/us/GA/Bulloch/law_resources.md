@@ -1,6 +1,6 @@
 # Bulloch County — Local Law Resources
 ## Law Enforcement
-- Bulloch Sheriff — https://www.bullochcountyga.gov/sheriff/
+- Bulloch Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Bulloch Superior Court

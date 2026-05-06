@@ -4,7 +4,7 @@
 - The College of New Jersey — https://www.tcnj.edu/
 - Rider University — https://www.rider.edu/
 ## Law Enforcement
-- Mercer County Sheriff — https://www.mercercountysheriff.org/
+- Mercer County Sheriff 
 - Trenton Police — https://www.trentonpolice.net/
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Mercer County Correction Center — https://www.mercercountysheriff.org/corrections
+- Mercer County Correction Center 
 ## Municipal Codes
 - Trenton — https://www.trentonnj.org/

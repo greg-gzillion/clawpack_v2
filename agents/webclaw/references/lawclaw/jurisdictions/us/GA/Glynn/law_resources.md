@@ -2,7 +2,7 @@
 ## Universities
 - College of Coastal Georgia — https://www.ccga.edu/
 ## Law Enforcement
-- Glynn Sheriff — https://www.glynncountysheriff.org/
+- Glynn Sheriff 
 - Glynn County Police — https://www.glynncounty.org/27/Police
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Georgia Legal Services Program — https://www.glsp.org/
 ## Corrections
-- Glynn County Jail — https://www.glynncountysheriff.org/detentions/
+- Glynn County Jail 
 ## Municipal Codes
 - Brunswick — https://www.brunswickga.org/

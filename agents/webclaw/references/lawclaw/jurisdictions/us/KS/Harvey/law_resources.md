@@ -1,6 +1,6 @@
 # Harvey County — Local Law Resources
 ## Law Enforcement
-- Harvey County Sheriff — https://www.harveycountyks.gov/sheriff
+- Harvey County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Harvey County District Court

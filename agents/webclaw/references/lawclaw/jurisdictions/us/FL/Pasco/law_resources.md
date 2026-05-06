@@ -3,7 +3,7 @@
 - Saint Leo University — https://www.saintleo.edu/
 - Pasco-Hernando State College — https://www.phsc.edu/
 ## Law Enforcement
-- Pasco Sheriff — https://www.pascosheriff.com/
+- Pasco Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Pasco Circuit Court — https://www.jud6.org/
@@ -23,7 +23,7 @@
 ## Legal Aid
 - Bay Area Legal Services — https://www.bals.org/
 ## Corrections
-- Pasco County Jail — https://www.pascosheriff.com/corrections/
+- Pasco County Jail 
 ## Municipal Codes
 - New Port Richey — https://www.cityofnewportrichey.org/
 - Dade City — https://www.dadecityfl.com/

@@ -1,6 +1,6 @@
 # Ramsey County — Local Law Resources
 ## Law Enforcement
-- Ramsey County Sheriff — https://www.ramseycountynd.gov/sheriff/
+- Ramsey County Sheriff 
 - Devils Lake Police — https://www.devilslakend.com/police/
 - North Dakota Highway Patrol — https://www.dot.nd.gov/divisions/highwaypatrol/
 ## Courts
@@ -18,7 +18,7 @@
 ## Legal Aid
 - Legal Services of North Dakota — https://www.legalassist.org/
 ## Corrections
-- Ramsey County Jail — https://www.ramseycountynd.gov/sheriff/jail/
+- Ramsey County Jail 
 - Lake Region Correctional Center
 ## Municipal Codes
 - Devils Lake — https://www.devilslakend.com/

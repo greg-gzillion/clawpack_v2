@@ -1,6 +1,6 @@
 # Scott County — Local Law Resources
 ## Law Enforcement
-- Scott County Sheriff — https://www.scottcountymn.gov/sheriff/
+- Scott County Sheriff 
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
 - Scott County District Court — https://www.mncourts.gov/Find-Courts/Scott.aspx
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Southern Minnesota Regional Legal Services — https://www.smrls.org/
 ## Corrections
-- Scott County Jail — https://www.scottcountymn.gov/sheriff/jail/
+- Scott County Jail 
 ## Municipal Codes
 - Shakopee — https://www.shakopeemn.gov/

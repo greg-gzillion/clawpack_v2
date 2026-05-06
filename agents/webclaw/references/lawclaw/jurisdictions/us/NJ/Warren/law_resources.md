@@ -1,6 +1,6 @@
 # Warren County — Local Law Resources
 ## Law Enforcement
-- Warren County Sheriff — https://www.warrencountysheriff.org/
+- Warren County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Warren County Superior Court — https://www.njcourts.gov/
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Warren County Correctional Center — https://www.warrencountysheriff.org/corrections
+- Warren County Correctional Center 
 ## Municipal Codes
 - Belvidere — https://www.belviderenj.com/

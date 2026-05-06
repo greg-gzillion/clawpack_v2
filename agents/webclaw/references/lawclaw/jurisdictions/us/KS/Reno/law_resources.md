@@ -2,13 +2,13 @@
 ## Universities
 - Hutchinson Community College — https://www.hutchcc.edu/
 ## Law Enforcement
-- Reno County Sheriff — https://www.renoleosheriff.org/
+- Reno County Sheriff 
 - Hutchinson Police — https://www.hutchgov.com/173/Police
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Reno County District Court — https://www.renocountycourts.org/
 ## County Attorney / Defender
-- Reno County District Attorney — https://www.renocountyks.gov/da/
+- Reno County District Attorney 
 - Kansas Public Defender — https://www.sbids.org/
 ## Hunting Regulations
 - KS Hunting Regulations — https://ksoutdoors.com/Hunting/Hunting-Regulations
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Kansas Legal Services — https://www.kansaslegalservices.org/
 ## Corrections
-- Reno County Jail — https://www.renoleosheriff.org/corrections/
+- Reno County Jail 
 - Hutchinson Correctional Facility — https://www.doc.ks.gov/facilities/hcf
 ## Municipal Codes
 - Hutchinson — https://www.hutchgov.com/

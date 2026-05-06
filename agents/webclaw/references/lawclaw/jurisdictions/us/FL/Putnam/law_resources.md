@@ -2,7 +2,7 @@
 ## Universities
 - St. Johns River State College — https://www.sjrstate.edu/
 ## Law Enforcement
-- Putnam Sheriff — https://www.putnamsheriff.org/
+- Putnam Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Putnam Circuit Court — https://www.circuit7.org/
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Community Legal Services of Mid-Florida — https://www.clsmf.org/
 ## Corrections
-- Putnam County Jail — https://www.putnamsheriff.org/corrections/
+- Putnam County Jail 
 ## Municipal Codes
 - Palatka — https://www.palatka-fl.gov/

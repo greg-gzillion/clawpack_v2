@@ -1,6 +1,6 @@
 # Lincoln County — Local Law Resources
 ## Law Enforcement
-- Lincoln County Sheriff — https://www.lincolncountysheriff.net/
+- Lincoln County Sheriff 
 - North Platte Police — https://www.ci.north-platte.ne.us/police/
 - Nebraska State Patrol — https://www.statepatrol.nebraska.gov/
 ## Courts
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Aid of Nebraska — https://www.legalaidofnebraska.org/
 ## Corrections
-- Lincoln County Detention Center — https://www.lincolncountysheriff.net/jail/
+- Lincoln County Detention Center 
 ## Municipal Codes
 - North Platte — https://www.ci.north-platte.ne.us/

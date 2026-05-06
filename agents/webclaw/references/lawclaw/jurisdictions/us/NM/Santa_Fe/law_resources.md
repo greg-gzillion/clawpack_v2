@@ -3,7 +3,7 @@
 - St. John's College — https://www.sjc.edu/
 - Santa Fe Community College — https://www.sfcc.edu/
 ## Law Enforcement
-- Santa Fe County Sheriff — https://www.santafecountysheriff.org/
+- Santa Fe County Sheriff 
 - Santa Fe Police — https://www.santafenm.gov/police
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - New Mexico Legal Aid — https://www.newmexicolegalaid.org/
 ## Corrections
-- Santa Fe County Adult Detention Facility — https://www.santafecountysheriff.org/detention
+- Santa Fe County Adult Detention Facility 
 ## Municipal Codes
 - Santa Fe — https://www.santafenm.gov/

@@ -1,6 +1,6 @@
 # Hamilton County — Local Law Resources
 ## Law Enforcement
-- Hamilton County Sheriff — https://www.hamiltoncountyks.gov/sheriff
+- Hamilton County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Hamilton County District Court

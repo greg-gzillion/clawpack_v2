@@ -1,6 +1,6 @@
 # Taos County — Local Law Resources
 ## Law Enforcement
-- Taos County Sheriff — https://www.taoscountysheriff.org/
+- Taos County Sheriff 
 - Taos Police — https://www.taosgov.com/police/
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - New Mexico Legal Aid — https://www.newmexicolegalaid.org/
 ## Corrections
-- Taos County Adult Detention Center — https://www.taoscountysheriff.org/detention
+- Taos County Adult Detention Center 
 ## Municipal Codes
 - Taos — https://www.taosgov.com/

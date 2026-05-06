@@ -1,6 +1,6 @@
 # Cape May County — Local Law Resources
 ## Law Enforcement
-- Cape May County Sheriff — https://www.cmcsheriff.org/
+- Cape May County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Cape May County Superior Court — https://www.njcourts.gov/
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Cape May County Correctional Center — https://www.cmcsheriff.org/corrections
+- Cape May County Correctional Center 
 ## Municipal Codes
 - Cape May — https://www.capemaycity.com/
 - Wildwood — https://www.wildwoodnj.org/

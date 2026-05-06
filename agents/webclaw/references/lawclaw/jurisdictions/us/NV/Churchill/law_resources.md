@@ -1,11 +1,11 @@
 # Churchill County — Local Law Resources
 ## Law Enforcement
-- Churchill County Sheriff — https://www.churchillcountynv.gov/sheriff/
+- Churchill County Sheriff 
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
-- Churchill County District Court — https://www.churchillcountynv.gov/courts/
+- Churchill County District Court 
 ## County Attorney / Defender
-- Churchill County District Attorney — https://www.churchillcountynv.gov/da/
+- Churchill County District Attorney 
 - Nevada State Public Defender — https://www.nvpublicdefender.org/
 ## Military
 - NAS Fallon Legal — https://www.cnic.navy.mil/regions/cnrsw/installations/nas_fallon.html
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Nevada Legal Services — https://www.nevadalegalservices.org/
 ## Corrections
-- Churchill County Jail — https://www.churchillcountynv.gov/sheriff/jail/
+- Churchill County Jail 
 ## Municipal Codes
 - Fallon — https://www.fallonnevada.gov/

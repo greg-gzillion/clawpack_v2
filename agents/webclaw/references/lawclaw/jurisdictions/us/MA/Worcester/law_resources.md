@@ -5,7 +5,7 @@
 - Clark University — https://www.clarku.edu/
 - Worcester State University — https://www.worcester.edu/
 ## Law Enforcement
-- Worcester County Sheriff — https://www.worcestercountysheriff.com/
+- Worcester County Sheriff 
 - Worcester Police — https://www.worcesterma.gov/police
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Community Legal Aid — https://www.communitylegal.org/
 ## Corrections
-- Worcester County Jail — https://www.worcestercountysheriff.com/
+- Worcester County Jail 
 ## Municipal Codes
 - Worcester — https://www.worcesterma.gov/

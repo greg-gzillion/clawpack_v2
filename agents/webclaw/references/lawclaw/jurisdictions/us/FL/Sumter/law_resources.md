@@ -2,7 +2,7 @@
 ## Universities
 - Lake-Sumter State College — https://www.lssc.edu/
 ## Law Enforcement
-- Sumter Sheriff — https://www.sumtercountysheriff.org/
+- Sumter Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Sumter Circuit Court — https://www.circuit5.org/
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Community Legal Services of Mid-Florida — https://www.clsmf.org/
 ## Corrections
-- Sumter County Jail — https://www.sumtercountysheriff.org/corrections/
+- Sumter County Jail 
 - Federal Correctional Complex Coleman — https://www.bop.gov/locations/institutions/com/
 ## Municipal Codes
 - Bushnell — https://www.cityofbushnellfl.com/

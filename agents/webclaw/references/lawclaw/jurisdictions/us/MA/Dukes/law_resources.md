@@ -1,6 +1,6 @@
 # Dukes County — Local Law Resources
 ## Law Enforcement
-- Dukes County Sheriff — https://www.dukescountysheriff.org/
+- Dukes County Sheriff 
 - Edgartown Police — https://www.edgartownpd.org/
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - South Coastal Counties Legal Services — https://www.sccls.org/
 ## Corrections
-- Dukes County Jail — https://www.dukescountysheriff.org/
+- Dukes County Jail 
 ## Municipal Codes
 - Edgartown — https://www.edgartown-ma.us/

@@ -2,7 +2,7 @@
 ## Universities
 - Florida Gateway College — https://www.fgc.edu/
 ## Law Enforcement
-- Columbia Sheriff — https://www.columbiasheriff.org/
+- Columbia Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Columbia Circuit Court — https://www.jud3.flcourts.org/
@@ -22,7 +22,7 @@
 ## Legal Aid
 - Three Rivers Legal Services — https://www.trls.org/
 ## Corrections
-- Columbia County Jail — https://www.columbiasheriff.org/corrections/
+- Columbia County Jail 
 - Columbia Correctional Institution — https://www.fdc.myflorida.com/ci/205.html
 ## Municipal Codes
 - Lake City — https://www.lakecityfl.gov/

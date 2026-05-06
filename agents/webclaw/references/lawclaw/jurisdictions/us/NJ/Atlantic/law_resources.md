@@ -2,7 +2,7 @@
 ## Universities
 - Stockton University — https://www.stockton.edu/
 ## Law Enforcement
-- Atlantic County Sheriff — https://www.atlanticcountysheriff.org/
+- Atlantic County Sheriff 
 - Atlantic City Police — https://www.acpolice.org/
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Atlantic County Jail — https://www.atlanticcountysheriff.org/jail
+- Atlantic County Jail 
 ## Municipal Codes
 - Atlantic City — https://www.acnj.gov/

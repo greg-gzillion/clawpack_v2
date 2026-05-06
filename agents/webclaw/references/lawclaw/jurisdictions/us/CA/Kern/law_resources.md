@@ -1,6 +1,6 @@
 # Kern County — Local Law Resources
 ## Law Enforcement
-- Kern County Sheriff — https://www.kernsheriff.org/
+- Kern County Sheriff 
 - Bakersfield Police — https://www.bakersfieldcity.us/200/Police
 - CHP Central Division — https://www.chp.ca.gov/find-an-office/central-division
 ## Courts
@@ -26,6 +26,6 @@
 ## Legal Aid
 - Greater Bakersfield Legal Assistance — https://www.gbla.org/
 ## Corrections
-- Kern County Jails — https://www.kernsheriff.org/jails
+- Kern County Jails 
 ## Municipal
 - Bakersfield Code — https://www.bakersfieldcity.us/

@@ -4,7 +4,7 @@
   - UF Law Clinics — https://www.law.ufl.edu/areas-of-study/clinics
 - UF — https://www.ufl.edu/
 ## Law Enforcement
-- Alachua Sheriff — https://www.alachuasheriff.org/
+- Alachua Sheriff 
 - Gainesville Police — https://www.gainesvillefl.gov/Police
 - UF Police — https://police.ufl.edu/
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
@@ -27,6 +27,6 @@
 ## Legal Aid
 - Three Rivers Legal Services — https://www.trls.org/
 ## Corrections
-- Alachua County Jail — https://www.alachuasheriff.org/jail.html
+- Alachua County Jail 
 ## Municipal Codes
 - Gainesville — https://www.gainesvillefl.gov/

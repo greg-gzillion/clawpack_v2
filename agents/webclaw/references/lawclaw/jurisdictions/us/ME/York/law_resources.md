@@ -2,13 +2,13 @@
 ## Universities
 - University of New England — https://www.une.edu/
 ## Law Enforcement
-- York County Sheriff — https://www.yorkcountymaine.gov/sheriff
+- York County Sheriff 
 - Biddeford Police — https://www.biddefordmaine.org/154/Police-Department
 - Maine State Police — https://www.maine.gov/dps/msp/
 ## Courts
 - York County Superior Court — https://www.courts.maine.gov/courts/superior/
 ## County Attorney / Defender
-- York County District Attorney — https://www.yorkcountymaine.gov/da
+- York County District Attorney 
 - Maine Commission on Indigent Legal Services — https://www.maine.gov/mcils/
 ## Hunting Regulations
 - ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/hunting-laws-rules/index.html
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Maine Equal Justice — https://www.mejp.org/
 ## Corrections
-- York County Jail — https://www.yorkcountymaine.gov/sheriff/jail
+- York County Jail 
 ## Municipal Codes
 - Biddeford — https://www.biddefordmaine.org/

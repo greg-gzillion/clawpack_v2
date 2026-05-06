@@ -1,6 +1,6 @@
 # Graham County — Local Law Resources
 ## Law Enforcement
-- Graham County Sheriff — https://www.grahamcountyks.gov/sheriff
+- Graham County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Graham County District Court

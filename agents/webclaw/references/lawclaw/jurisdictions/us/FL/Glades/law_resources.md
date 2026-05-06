@@ -1,6 +1,6 @@
 # Glades County — Local Law Resources
 ## Law Enforcement
-- Glades Sheriff — https://www.gladescountysheriff.org/
+- Glades Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Glades Circuit Court — https://www.jud20.flcourts.org/

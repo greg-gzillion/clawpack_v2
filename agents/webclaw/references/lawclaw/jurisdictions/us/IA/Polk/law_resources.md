@@ -6,13 +6,13 @@
 - Grand View University — https://www.grandview.edu/
 - Des Moines Area Community College — https://www.dmacc.edu/
 ## Law Enforcement
-- Polk County Sheriff — https://www.polkcountyiowa.gov/sheriff/
+- Polk County Sheriff 
 - Des Moines Police — https://www.dsm.city/departments/police/
 - Iowa State Patrol — https://dps.iowa.gov/
 ## Courts
 - Polk County District Court — https://www.iowacourts.gov/
 ## County Attorney / Defender
-- Polk County Attorney — https://www.polkcountyiowa.gov/attorney/
+- Polk County Attorney 
 - Iowa Public Defender — https://spd.iowa.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
@@ -28,7 +28,7 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Polk County Jail — https://www.polkcountyiowa.gov/sheriff/corrections/
+- Polk County Jail 
 ## Municipal Codes
 - Des Moines — https://www.dsm.city/
 - West Des Moines — https://www.wdm.iowa.gov/

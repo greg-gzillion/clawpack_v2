@@ -1,6 +1,6 @@
 # Ouray County — Local Law Resources
 ## Law Enforcement
-- Ouray Sheriff — https://www.ouraycountyco.gov/sheriff
+- Ouray Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Ouray District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=7

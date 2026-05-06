@@ -1,6 +1,6 @@
 # Kiowa County — Local Law Resources
 ## Law Enforcement
-- Kiowa County Sheriff — https://www.kiowacountyks.gov/sheriff
+- Kiowa County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Kiowa County District Court

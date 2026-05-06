@@ -1,6 +1,6 @@
 # Christian County — Local Law Resources
 ## Law Enforcement
-- Christian County Sheriff — https://www.christiancountyil.gov/sheriff
+- Christian County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Christian County Circuit Court

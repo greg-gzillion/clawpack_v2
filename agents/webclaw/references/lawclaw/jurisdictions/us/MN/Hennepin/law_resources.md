@@ -5,7 +5,7 @@
 - Augsburg University — https://www.augsburg.edu/
 - Hamline University (adjacent) — https://www.hamline.edu/
 ## Law Enforcement
-- Hennepin County Sheriff — https://www.hennepinsheriff.org/
+- Hennepin County Sheriff 
 - Minneapolis Police — https://www.minneapolismn.gov/police/
 - Minnesota State Patrol — https://dps.mn.gov/divisions/msp/
 ## Courts
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Mid-Minnesota Legal Aid — https://www.mylegalaid.org/
 ## Corrections
-- Hennepin County Jail — https://www.hennepinsheriff.org/jail
+- Hennepin County Jail 
 ## Municipal Codes
 - Minneapolis — https://www.minneapolismn.gov/

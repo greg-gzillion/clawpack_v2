@@ -1,6 +1,6 @@
 # Decatur County — Local Law Resources
 ## Law Enforcement
-- Decatur County Sheriff — https://www.decaturcountyks.gov/sheriff
+- Decatur County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Decatur County District Court

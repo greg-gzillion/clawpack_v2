@@ -4,7 +4,7 @@
 - Wellesley College — https://www.wellesley.edu/
 - Babson College — https://www.babson.edu/
 ## Law Enforcement
-- Norfolk County Sheriff — https://www.norfolksheriff.org/
+- Norfolk County Sheriff 
 - Quincy Police — https://www.quincyma.gov/government/departments/police_department
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -23,7 +23,7 @@
 ## Legal Aid
 - Greater Boston Legal Services — https://www.gbls.org/
 ## Corrections
-- Norfolk County Correctional Center — https://www.norfolksheriff.org/
+- Norfolk County Correctional Center 
 ## Municipal Codes
 - Quincy — https://www.quincyma.gov/
 - Brookline — https://www.brooklinema.gov/

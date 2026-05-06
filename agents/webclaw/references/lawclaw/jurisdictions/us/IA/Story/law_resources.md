@@ -2,7 +2,7 @@
 ## Universities
 - Iowa State University — https://www.iastate.edu/
 ## Law Enforcement
-- Story County Sheriff — https://www.storycountyiowa.gov/sheriff
+- Story County Sheriff 
 - Ames Police — https://www.cityofames.org/government/departments-divisions-i-z/police
 - ISU Police — https://www.police.iastate.edu/
 - Iowa State Patrol — https://dps.iowa.gov/
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Story County Jail — https://www.storycountyiowa.gov/sheriff/jail
+- Story County Jail 
 ## Municipal Codes
 - Ames — https://www.cityofames.org/

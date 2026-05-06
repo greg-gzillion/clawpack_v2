@@ -1,6 +1,6 @@
 # Atkinson County — Local Law Resources
 ## Law Enforcement
-- Atkinson Sheriff — https://www.atkinsoncountyga.gov/sheriff/
+- Atkinson Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Atkinson Superior Court

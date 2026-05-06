@@ -1,6 +1,6 @@
 # Salem County — Local Law Resources
 ## Law Enforcement
-- Salem County Sheriff — https://www.salemcountysheriff.org/
+- Salem County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Salem County Superior Court — https://www.njcourts.gov/
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Salem County Correctional Facility — https://www.salemcountysheriff.org/corrections
+- Salem County Correctional Facility 
 ## Municipal Codes
 - Salem — https://www.cityofsalemnj.gov/

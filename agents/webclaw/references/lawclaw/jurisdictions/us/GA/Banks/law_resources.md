@@ -1,6 +1,6 @@
 # Banks County — Local Law Resources
 ## Law Enforcement
-- Banks Sheriff — https://www.bankscountyga.gov/sheriff/
+- Banks Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Banks Superior Court

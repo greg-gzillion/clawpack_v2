@@ -1,6 +1,6 @@
 # Meade County — Local Law Resources
 ## Law Enforcement
-- Meade County Sheriff — https://www.meadecountyks.gov/sheriff
+- Meade County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Meade County District Court

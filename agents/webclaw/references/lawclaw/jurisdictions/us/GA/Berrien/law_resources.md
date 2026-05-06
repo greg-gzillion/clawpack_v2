@@ -1,6 +1,6 @@
 # Berrien County — Local Law Resources
 ## Law Enforcement
-- Berrien Sheriff — https://www.berriencountyga.gov/sheriff/
+- Berrien Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Berrien Superior Court

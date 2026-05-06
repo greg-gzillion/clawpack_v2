@@ -1,6 +1,6 @@
 # Republic County — Local Law Resources
 ## Law Enforcement
-- Republic County Sheriff — https://www.republiccountyks.gov/sheriff
+- Republic County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Republic County District Court

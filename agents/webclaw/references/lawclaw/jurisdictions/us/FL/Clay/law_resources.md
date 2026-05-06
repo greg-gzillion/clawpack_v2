@@ -2,7 +2,7 @@
 ## Universities
 - St. Johns River State College — https://www.sjrstate.edu/
 ## Law Enforcement
-- Clay Sheriff — https://www.claysheriff.com/
+- Clay Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Clay Circuit Court — https://www.jud4.org/
@@ -23,6 +23,6 @@
 ## Legal Aid
 - Jacksonville Area Legal Aid — https://www.jaxlegalaid.org/
 ## Corrections
-- Clay County Jail — https://www.claysheriff.com/corrections/
+- Clay County Jail 
 ## Municipal Codes
 - Green Cove Springs — https://www.greencovesprings.com/

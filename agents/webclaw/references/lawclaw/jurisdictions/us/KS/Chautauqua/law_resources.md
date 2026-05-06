@@ -1,6 +1,6 @@
 # Chautauqua County — Local Law Resources
 ## Law Enforcement
-- Chautauqua County Sheriff — https://www.chautauquacountyks.gov/sheriff
+- Chautauqua County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Chautauqua County District Court

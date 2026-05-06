@@ -1,6 +1,6 @@
 # Stevens County — Local Law Resources
 ## Law Enforcement
-- Stevens County Sheriff — https://www.stevenscountyks.gov/sheriff
+- Stevens County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Stevens County District Court

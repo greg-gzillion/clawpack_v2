@@ -1,6 +1,6 @@
 # Sherman County — Local Law Resources
 ## Law Enforcement
-- Sherman County Sheriff — https://www.shermancountyks.gov/sheriff
+- Sherman County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Sherman County District Court

@@ -2,7 +2,7 @@
 ## Universities
 - Rowan University — https://www.rowan.edu/
 ## Law Enforcement
-- Gloucester County Sheriff — https://www.gloucestercountysheriff.org/
+- Gloucester County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Gloucester County Superior Court — https://www.njcourts.gov/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Gloucester County Jail — https://www.gloucestercountysheriff.org/jail
+- Gloucester County Jail 
 ## Municipal Codes
 - Woodbury — https://www.woodbury.nj.us/

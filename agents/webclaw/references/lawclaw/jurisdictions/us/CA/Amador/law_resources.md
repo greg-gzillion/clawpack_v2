@@ -1,6 +1,6 @@
 # Amador County — Local Law Resources
 ## Law Enforcement
-- Amador Sheriff — https://www.amadorsheriff.org/
+- Amador Sheriff 
 - CHP Valley Division — https://www.chp.ca.gov/find-an-office/valley-division
 ## Courts
 - Amador Superior Court — https://www.amador.courts.ca.gov/
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections
-- Amador County Jail — https://www.amadorsheriff.org/corrections/
+- Amador County Jail 
 - Mule Creek State Prison (CDCR) — https://www.cdcr.ca.gov/facility-locator/mcsp/
 ## Municipal
 - Jackson Code — https://www.ci.jackson.ca.us/

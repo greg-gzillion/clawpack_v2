@@ -1,6 +1,6 @@
 # Hodgeman County — Local Law Resources
 ## Law Enforcement
-- Hodgeman County Sheriff — https://www.hodgemancountyks.gov/sheriff
+- Hodgeman County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Hodgeman County District Court

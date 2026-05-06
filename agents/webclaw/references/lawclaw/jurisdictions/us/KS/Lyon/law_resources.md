@@ -1,6 +1,6 @@
 # Lyon County — Local Law Resources
 ## Law Enforcement
-- Lyon County Sheriff — https://www.lyoncountyks.gov/sheriff
+- Lyon County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Lyon County District Court

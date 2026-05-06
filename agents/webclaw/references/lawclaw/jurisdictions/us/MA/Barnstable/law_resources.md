@@ -1,6 +1,6 @@
 # Barnstable County — Local Law Resources
 ## Law Enforcement
-- Barnstable County Sheriff — https://www.bsheriff.net/
+- Barnstable County Sheriff 
 - Barnstable Police — https://www.barnstablepolice.com/
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -23,6 +23,6 @@
 ## Legal Aid
 - South Coastal Counties Legal Services — https://www.sccls.org/
 ## Corrections
-- Barnstable County Correctional Facility — https://www.bsheriff.net/
+- Barnstable County Correctional Facility 
 ## Municipal Codes
 - Barnstable — https://www.townofbarnstable.us/

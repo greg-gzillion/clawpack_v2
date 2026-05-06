@@ -1,6 +1,6 @@
 # Rooks County — Local Law Resources
 ## Law Enforcement
-- Rooks County Sheriff — https://www.rookscountyks.gov/sheriff
+- Rooks County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Rooks County District Court

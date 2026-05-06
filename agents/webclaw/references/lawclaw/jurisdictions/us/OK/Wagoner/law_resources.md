@@ -1,6 +1,6 @@
 # Wagoner County — Local Law Resources
 ## Law Enforcement
-- Wagoner County Sheriff — https://www.wagonersheriff.org/
+- Wagoner County Sheriff 
 - Oklahoma Highway Patrol — https://www.oklahoma.gov/dps/ohp.html
 ## Courts
 - Wagoner County District Court — https://www.oscn.net/
@@ -16,6 +16,6 @@
 ## Legal Aid
 - Legal Aid Services of Oklahoma — https://www.legalaidok.org/
 ## Corrections
-- Wagoner County Jail — https://www.wagonersheriff.org/jail
+- Wagoner County Jail 
 ## Municipal Codes
 - Wagoner — https://www.wagonerok.org/

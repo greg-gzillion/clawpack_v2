@@ -2,7 +2,7 @@
 ## Universities
 - Kean University — https://www.kean.edu/
 ## Law Enforcement
-- Union County Sheriff — https://www.unioncountysheriff.org/
+- Union County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Union County Superior Court — https://www.njcourts.gov/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Union County Jail — https://www.unioncountysheriff.org/jail
+- Union County Jail 
 ## Municipal Codes
 - Elizabeth — https://www.elizabethnj.org/

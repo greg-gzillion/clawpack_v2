@@ -1,6 +1,6 @@
 # Madison County — Local Law Resources
 ## Law Enforcement
-- Madison County Sheriff — https://www.madisoncountyidaho.gov/sheriff
+- Madison County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Madison County District Court

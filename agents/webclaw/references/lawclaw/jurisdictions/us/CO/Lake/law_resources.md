@@ -1,6 +1,6 @@
 # Lake County — Local Law Resources
 ## Law Enforcement
-- Lake Sheriff — https://www.lakecountyco.com/sheriff
+- Lake Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Lake District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=5

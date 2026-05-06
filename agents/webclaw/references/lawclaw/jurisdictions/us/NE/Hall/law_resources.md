@@ -1,12 +1,12 @@
 # Hall County — Local Law Resources
 ## Law Enforcement
-- Hall County Sheriff — https://www.hallcountyne.gov/sheriff/
+- Hall County Sheriff 
 - Grand Island Police — https://www.grand-island.com/241/Police-Department
 - Nebraska State Patrol — https://www.statepatrol.nebraska.gov/
 ## Courts
-- Hall County District Court — https://www.hallcountyne.gov/courts/
+- Hall County District Court 
 ## County Attorney / Defender
-- Hall County Attorney — https://www.hallcountyne.gov/attorney/
+- Hall County Attorney 
 - Nebraska Public Defender — https://www.nebraskapublicdefender.com/
 ## Hunting Regulations
 - NE Hunting Regulations — https://www.outdoornebraska.gov/hunting/
@@ -19,6 +19,6 @@
 ## Legal Aid
 - Legal Aid of Nebraska — https://www.legalaidofnebraska.org/
 ## Corrections
-- Hall County Jail — https://www.hallcountyne.gov/sheriff/jail/
+- Hall County Jail 
 ## Municipal Codes
 - Grand Island — https://www.grand-island.com/

@@ -1,6 +1,6 @@
 # Taylor County — Local Law Resources
 ## Law Enforcement
-- Taylor Sheriff — https://www.taylorsheriff.org/
+- Taylor Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Taylor Circuit Court — https://www.jud3.flcourts.org/

@@ -1,6 +1,6 @@
 # Stanton County — Local Law Resources
 ## Law Enforcement
-- Stanton County Sheriff — https://www.stantoncountyks.gov/sheriff
+- Stanton County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Stanton County District Court

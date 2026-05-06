@@ -1,6 +1,6 @@
 # Stafford County — Local Law Resources
 ## Law Enforcement
-- Stafford County Sheriff — https://www.staffordcountyks.gov/sheriff
+- Stafford County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Stafford County District Court

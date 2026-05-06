@@ -1,6 +1,6 @@
 # Shoshone County — Local Law Resources
 ## Law Enforcement
-- Shoshone County Sheriff — https://www.shoshonecountyidaho.gov/sheriff
+- Shoshone County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Shoshone County District Court

@@ -1,6 +1,6 @@
 # Harper County — Local Law Resources
 ## Law Enforcement
-- Harper County Sheriff — https://www.harpercountyks.gov/sheriff
+- Harper County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Harper County District Court

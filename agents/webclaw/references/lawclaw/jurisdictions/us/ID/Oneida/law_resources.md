@@ -1,6 +1,6 @@
 # Oneida County — Local Law Resources
 ## Law Enforcement
-- Oneida County Sheriff — https://www.oneidacountyidaho.gov/sheriff
+- Oneida County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Oneida County District Court

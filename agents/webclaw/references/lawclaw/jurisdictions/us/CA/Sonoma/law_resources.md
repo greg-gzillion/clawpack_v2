@@ -1,6 +1,6 @@
 # Sonoma County — Local Law Resources
 ## Law Enforcement
-- Sonoma Sheriff — https://www.sonomasheriff.org/
+- Sonoma Sheriff 
 - Santa Rosa Police — https://www.srcity.org/201/Police
 - Petaluma Police — https://cityofpetaluma.org/police/
 - CHP Golden Gate Division — https://www.chp.ca.gov/find-an-office/golden-gate-division
@@ -22,7 +22,7 @@
 ## Legal Aid
 - Legal Aid of Sonoma County — https://www.legalaidsc.org/
 ## Corrections
-- Sonoma County Jails — https://www.sonomasheriff.org/detention/
+- Sonoma County Jails 
 ## Municipal
 - Santa Rosa Code — https://www.srcity.org/
 - Petaluma Code — https://cityofpetaluma.org/

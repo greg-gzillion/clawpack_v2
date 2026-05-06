@@ -1,6 +1,6 @@
 # Clay County — Local Law Resources
 ## Law Enforcement
-- Clay County Sheriff — https://www.claycountyil.gov/sheriff
+- Clay County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Clay County Circuit Court

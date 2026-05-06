@@ -2,7 +2,7 @@
 ## Universities
 - University of Nevada Reno — https://www.unr.edu/
 ## Law Enforcement
-- Washoe County Sheriff — https://www.washoesheriff.com/
+- Washoe County Sheriff 
 - Reno Police — https://www.reno.gov/government/departments/police-department
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
@@ -21,7 +21,7 @@
 ## Legal Aid
 - Legal Aid Center of Southern Nevada — https://www.lacsn.org/
 ## Corrections
-- Washoe County Detention Facility — https://www.washoesheriff.com/jail
+- Washoe County Detention Facility 
 ## Municipal Codes
 - Reno — https://www.reno.gov/
 - Sparks — https://www.cityofsparks.us/

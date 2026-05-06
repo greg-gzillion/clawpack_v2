@@ -1,6 +1,6 @@
 # Bryan County — Local Law Resources
 ## Law Enforcement
-- Bryan Sheriff — https://www.bryancountyga.gov/sheriff/
+- Bryan Sheriff 
 - Georgia State Patrol — https://dps.georgia.gov/
 ## Courts
 - Bryan Superior Court

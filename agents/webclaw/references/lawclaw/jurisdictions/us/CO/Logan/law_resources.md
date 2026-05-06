@@ -1,6 +1,6 @@
 # Logan County — Local Law Resources
 ## Law Enforcement
-- Logan Sheriff — https://www.logancosheriff.com/
+- Logan Sheriff 
 - Sterling Police — https://www.sterlingcolo.com/police
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
@@ -18,7 +18,7 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Logan County Jail — https://www.logancosheriff.com/jail
+- Logan County Jail 
 - Sterling Correctional Facility (CDOC) — https://www.cdoc.colorado.gov/facilities/sterling
 ## Municipal
 - Sterling Code — https://www.sterlingcolo.com/

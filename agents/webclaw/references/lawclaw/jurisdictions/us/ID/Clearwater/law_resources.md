@@ -1,6 +1,6 @@
 # Clearwater County — Local Law Resources
 ## Law Enforcement
-- Clearwater County Sheriff — https://www.clearwatercountyidaho.gov/sheriff
+- Clearwater County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Clearwater County District Court

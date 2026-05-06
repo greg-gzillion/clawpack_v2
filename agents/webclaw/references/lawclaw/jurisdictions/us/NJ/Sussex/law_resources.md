@@ -1,6 +1,6 @@
 # Sussex County — Local Law Resources
 ## Law Enforcement
-- Sussex County Sheriff — https://www.sussexcountysheriff.org/
+- Sussex County Sheriff 
 - New Jersey State Police — https://www.njsp.org/
 ## Courts
 - Sussex County Superior Court — https://www.njcourts.gov/
@@ -18,6 +18,6 @@
 ## Legal Aid
 - Legal Services of New Jersey — https://www.lsnj.org/
 ## Corrections
-- Sussex County Jail — https://www.sussexcountysheriff.org/jail
+- Sussex County Jail 
 ## Municipal Codes
 - Newton — https://www.newtontownhall.com/

@@ -1,6 +1,6 @@
 # Adams County — Local Law Resources
 ## Law Enforcement
-- Adams Sheriff — https://www.adamssheriff.org/
+- Adams Sheriff 
 - Thornton Police — https://www.thorntonco.gov/government/police
 - Westminster Police — https://www.westminsterco.gov/police
 - Colorado State Patrol — https://www.csp.colorado.gov/
@@ -20,7 +20,7 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Adams County Jail — https://www.adamssheriff.org/jail
+- Adams County Jail 
 ## Municipal
 - Thornton Code — https://www.thorntonco.gov/
 - Westminster Code — https://www.westminsterco.gov/

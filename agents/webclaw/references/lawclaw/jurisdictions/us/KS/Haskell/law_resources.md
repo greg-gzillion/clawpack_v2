@@ -1,6 +1,6 @@
 # Haskell County — Local Law Resources
 ## Law Enforcement
-- Haskell County Sheriff — https://www.haskellcountyks.gov/sheriff
+- Haskell County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Haskell County District Court

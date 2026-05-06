@@ -1,6 +1,6 @@
 # Lane County — Local Law Resources
 ## Law Enforcement
-- Lane County Sheriff — https://www.lanecountyks.gov/sheriff
+- Lane County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Lane County District Court

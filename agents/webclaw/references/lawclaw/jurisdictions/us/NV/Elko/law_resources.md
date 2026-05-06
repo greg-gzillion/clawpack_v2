@@ -1,6 +1,6 @@
 # Elko County — Local Law Resources
 ## Law Enforcement
-- Elko County Sheriff — https://www.elkocountysheriff.org/
+- Elko County Sheriff 
 - Elko Police — https://www.elkocity.com/173/Police-Department
 - Nevada State Police — https://www.nsp.dps.nv.gov/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - Nevada Legal Services — https://www.nevadalegalservices.org/
 ## Corrections
-- Elko County Jail — https://www.elkocountysheriff.org/jail
+- Elko County Jail 
 ## Municipal Codes
 - Elko — https://www.elkocity.com/

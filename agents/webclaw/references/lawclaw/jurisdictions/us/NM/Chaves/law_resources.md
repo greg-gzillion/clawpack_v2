@@ -2,7 +2,7 @@
 ## Universities
 - Eastern New Mexico University-Roswell — https://www.roswell.enmu.edu/
 ## Law Enforcement
-- Chaves County Sheriff — https://www.chavescountysheriff.org/
+- Chaves County Sheriff 
 - Roswell Police — https://www.roswell-nm.gov/192/Police-Department
 - New Mexico State Police — https://www.nmsp.dps.nm.gov/
 ## Courts
@@ -21,6 +21,6 @@
 ## Legal Aid
 - New Mexico Legal Aid — https://www.newmexicolegalaid.org/
 ## Corrections
-- Chaves County Detention Center — https://www.chavescountysheriff.org/detention
+- Chaves County Detention Center 
 ## Municipal Codes
 - Roswell — https://www.roswell-nm.gov/

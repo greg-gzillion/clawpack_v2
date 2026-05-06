@@ -1,6 +1,6 @@
 # Comanche County — Local Law Resources
 ## Law Enforcement
-- Comanche County Sheriff — https://www.comanchecountyks.gov/sheriff
+- Comanche County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Comanche County District Court

@@ -4,7 +4,7 @@
 - Calvin University — https://www.calvin.edu/
 - Aquinas College — https://www.aquinas.edu/
 ## Law Enforcement
-- Kent County Sheriff — https://www.kentcountysheriff.org/
+- Kent County Sheriff 
 - Grand Rapids Police — https://www.grandrapidsmi.gov/Government/Departments/Police-Department
 - Michigan State Police — https://www.michigan.gov/msp
 ## Courts
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Legal Aid of Western Michigan — https://www.lawm.org/
 ## Corrections
-- Kent County Jail — https://www.kentcountysheriff.org/corrections/
+- Kent County Jail 
 ## Municipal Codes
 - Grand Rapids — https://www.grandrapidsmi.gov/

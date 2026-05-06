@@ -1,6 +1,6 @@
 # Mendocino County — Local Law Resources
 ## Law Enforcement
-- Mendocino Sheriff — https://www.mendocinosheriff.org/
+- Mendocino Sheriff 
 - Ukiah Police — https://www.cityofukiah.com/police/
 - CHP Northern Division — https://www.chp.ca.gov/find-an-office/northern-division
 ## Courts
@@ -20,6 +20,6 @@
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections
-- Mendocino County Jail — https://www.mendocinosheriff.org/corrections/
+- Mendocino County Jail 
 ## Municipal
 - Ukiah Code — https://www.cityofukiah.com/

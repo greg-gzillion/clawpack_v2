@@ -1,6 +1,6 @@
 # Cass County — Local Law Resources
 ## Law Enforcement
-- Cass County Sheriff — https://www.casscountyil.gov/sheriff
+- Cass County Sheriff 
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
 - Cass County Circuit Court

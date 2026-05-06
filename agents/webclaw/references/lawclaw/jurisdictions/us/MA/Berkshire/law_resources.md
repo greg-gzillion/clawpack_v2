@@ -3,7 +3,7 @@
 - Williams College — https://www.williams.edu/
 - Massachusetts College of Liberal Arts — https://www.mcla.edu/
 ## Law Enforcement
-- Berkshire County Sheriff — https://www.berkshiresheriff.org/
+- Berkshire County Sheriff 
 - Pittsfield Police — https://www.cityofpittsfield.org/police/
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
@@ -22,6 +22,6 @@
 ## Legal Aid
 - Community Legal Aid — https://www.communitylegal.org/
 ## Corrections
-- Berkshire County Jail — https://www.berkshiresheriff.org/
+- Berkshire County Jail 
 ## Municipal Codes
 - Pittsfield — https://www.cityofpittsfield.org/

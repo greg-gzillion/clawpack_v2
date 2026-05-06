@@ -3,7 +3,7 @@
 - St. Ambrose University — https://www.sau.edu/
 - Palmer College of Chiropractic — https://www.palmer.edu/
 ## Law Enforcement
-- Scott County Sheriff — https://www.scottcountyiowa.gov/sheriff
+- Scott County Sheriff 
 - Davenport Police — https://www.davenportiowa.com/government/departments/police
 - Iowa State Patrol — https://dps.iowa.gov/
 ## Courts
@@ -25,7 +25,7 @@
 ## Legal Aid
 - Iowa Legal Aid — https://www.iowalegalaid.org/
 ## Corrections
-- Scott County Jail — https://www.scottcountyiowa.gov/sheriff/jail
+- Scott County Jail 
 ## Municipal Codes
 - Davenport — https://www.davenportiowa.com/
 - Bettendorf — https://www.bettendorf.org/

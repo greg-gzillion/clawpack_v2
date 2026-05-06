@@ -1,6 +1,6 @@
 # Wabaunsee County — Local Law Resources
 ## Law Enforcement
-- Wabaunsee County Sheriff — https://www.wabaunseecountyks.gov/sheriff
+- Wabaunsee County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Wabaunsee County District Court

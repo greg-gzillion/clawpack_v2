@@ -1,6 +1,6 @@
 # Moffat County — Local Law Resources
 ## Law Enforcement
-- Moffat Sheriff — https://www.moffatcountysheriff.com/
+- Moffat Sheriff 
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
 - Moffat District Court — https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=14

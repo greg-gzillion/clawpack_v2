@@ -1,6 +1,6 @@
 # Lewis County — Local Law Resources
 ## Law Enforcement
-- Lewis County Sheriff — https://www.lewiscountyidaho.gov/sheriff
+- Lewis County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Lewis County District Court

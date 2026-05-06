@@ -1,6 +1,6 @@
 # Bonner County — Local Law Resources
 ## Law Enforcement
-- Bonner County Sheriff — https://www.bonnercountyidaho.gov/sheriff
+- Bonner County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Bonner County District Court

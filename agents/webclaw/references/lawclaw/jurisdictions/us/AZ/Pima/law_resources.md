@@ -28,7 +28,7 @@
 ## Legal Aid
 - Southern Arizona Legal Aid — https://www.sazlegalaid.org/
 ## Corrections
-- Pima County Jail — https://www.pimasheriff.org/detention/
+- Pima County Jail 
 ## Municipal
 - Tucson — https://www.tucsonaz.gov/
 - Oro Valley — https://www.orovalleyaz.gov/

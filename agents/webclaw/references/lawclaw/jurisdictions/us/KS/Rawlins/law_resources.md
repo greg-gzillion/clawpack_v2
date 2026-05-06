@@ -1,6 +1,6 @@
 # Rawlins County — Local Law Resources
 ## Law Enforcement
-- Rawlins County Sheriff — https://www.rawlinscountyks.gov/sheriff
+- Rawlins County Sheriff 
 - Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
 ## Courts
 - Rawlins County District Court

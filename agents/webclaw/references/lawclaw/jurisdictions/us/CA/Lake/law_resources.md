@@ -1,6 +1,6 @@
 # Lake County — Local Law Resources
 ## Law Enforcement
-- Lake Sheriff — https://www.lakesheriff.com/
+- Lake Sheriff 
 - Lakeport Police — https://www.cityoflakeport.com/departments/police_department/
 - CHP Northern Division — https://www.chp.ca.gov/find-an-office/northern-division
 ## Courts
@@ -19,7 +19,7 @@
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections
-- Lake County Jail — https://www.lakesheriff.com/corrections/
+- Lake County Jail 
 ## Municipal
 - Lakeport Code — https://www.cityoflakeport.com/
 - Clearlake Code — https://www.clearlake.ca.us/

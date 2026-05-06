@@ -1,6 +1,6 @@
 # Canadian County — Local Law Resources
 ## Law Enforcement
-- Canadian County Sheriff — https://www.canadiancountysheriff.org/
+- Canadian County Sheriff 
 - Oklahoma Highway Patrol — https://www.oklahoma.gov/dps/ohp.html
 ## Courts
 - Canadian County District Court — https://www.oscn.net/
@@ -16,6 +16,6 @@
 ## Legal Aid
 - Legal Aid Services of Oklahoma — https://www.legalaidok.org/
 ## Corrections
-- Canadian County Jail — https://www.canadiancountysheriff.org/jail
+- Canadian County Jail 
 ## Municipal Codes
 - El Reno — https://www.elrenook.gov/

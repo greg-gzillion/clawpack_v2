@@ -1,6 +1,6 @@
 # Okeechobee County — Local Law Resources
 ## Law Enforcement
-- Okeechobee Sheriff — https://www.okeechobeesheriff.org/
+- Okeechobee Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - Okeechobee Circuit Court — https://www.jud19.flcourts.org/

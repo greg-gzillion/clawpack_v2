@@ -5,14 +5,14 @@
 - Belhaven University — https://www.belhaven.edu/
 - Millsaps College — https://www.millsaps.edu/
 ## Law Enforcement
-- Hinds County Sheriff — https://www.hindscountyms.gov/sheriff
+- Hinds County Sheriff 
 - Jackson Police — https://www.jacksonms.gov/departments/police-department/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Hinds County Circuit Court — https://www.hindscountyms.gov/courts
+- Hinds County Circuit Court 
 - Mississippi Supreme Court — Jackson — https://www.courts.ms.gov/
 ## County Attorney / Defender
-- Hinds County District Attorney — https://www.hindscountyms.gov/da
+- Hinds County District Attorney 
 - Mississippi Public Defender — https://www.opd.ms.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
@@ -24,6 +24,6 @@
 ## Legal Aid
 - Mississippi Center for Legal Services — https://www.mslegalservices.org/
 ## Corrections
-- Hinds County Detention Center — https://www.hindscountyms.gov/sheriff/detention
+- Hinds County Detention Center 
 ## Municipal Codes
 - Jackson — https://www.jacksonms.gov/

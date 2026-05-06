@@ -1,6 +1,6 @@
 # Franklin County — Local Law Resources
 ## Law Enforcement
-- Franklin County Sheriff — https://www.franklincountyidaho.gov/sheriff
+- Franklin County Sheriff 
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
 - Franklin County District Court

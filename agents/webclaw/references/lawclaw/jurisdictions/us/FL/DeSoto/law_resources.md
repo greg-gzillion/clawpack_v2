@@ -1,6 +1,6 @@
 # DeSoto County — Local Law Resources
 ## Law Enforcement
-- DeSoto Sheriff — https://www.desotosheriff.org/
+- DeSoto Sheriff 
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
 - DeSoto Circuit Court — https://www.jud12.flcourts.org/

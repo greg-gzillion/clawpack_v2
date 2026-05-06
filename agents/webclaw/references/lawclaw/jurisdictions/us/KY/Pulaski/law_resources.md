@@ -1,6 +1,6 @@
 # Pulaski County — Local Law Resources
 ## Law Enforcement
-- Pulaski County Sheriff — https://www.pulaskisheriff.com/
+- Pulaski County Sheriff 
 - Somerset Police — https://www.cityofsomerset.com/police/
 - Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
 ## Courts
@@ -17,6 +17,6 @@
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Pulaski County Detention Center — https://www.pulaskisheriff.com/detention-center/
+- Pulaski County Detention Center 
 ## Municipal Codes
 - Somerset — https://www.cityofsomerset.com/

@@ -1,6 +1,6 @@
 # Santa Cruz County — Local Law Resources
 ## Law Enforcement
-- Santa Cruz Sheriff — https://www.scsheriff.com/
+- Santa Cruz Sheriff 
 - Santa Cruz Police — https://www.cityofsantacruz.com/government/city-departments/police
 - Watsonville Police — https://www.cityofwatsonville.org/180/Police-Department
 - CHP Coastal Division — https://www.chp.ca.gov/find-an-office/coastal-division
@@ -21,7 +21,7 @@
 ## Legal Aid
 - California Rural Legal Assistance — https://www.crla.org/
 ## Corrections
-- Santa Cruz County Jails — https://www.scsheriff.com/Home/Corrections.aspx
+- Santa Cruz County Jails 
 ## Municipal
 - Santa Cruz Code — https://www.cityofsantacruz.com/
 - Watsonville Code — https://www.cityofwatsonville.org/
