@@ -21,6 +21,17 @@
 ## Tribal Fish & Game
 - Navajo Nation Fish & Wildlife — https://www.nndfw.org/
 - White Mountain Apache Game & Fish — https://wmatoutdoors.org/
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Big Lake - trout
+- Crescent Lake - trout
+- Greer Lakes - trout
+- Lyman Lake State Park - https://azstateparks.com/lyman-lake/
+- Petrified Forest National Park - https://www.nps.gov/pefo/
+
 ## Legal Aid
 - DNA People's Legal Services — https://www.dnalegalservices.org/
 ## Corrections

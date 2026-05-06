@@ -26,6 +26,19 @@
 - Navajo Nation Fish & Wildlife — https://www.nndfw.org/
 - Hopi Tribe Game & Fish — https://www.hopi-nsn.gov/tribal-programs/natural-resources/
 - Havasupai Tribe — https://www.havasupaireservations.com/
+## Universities
+- Northern Arizona University - https://www.nau.edu/
+
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Lake Mary - trout, walleye
+- Mormon Lake - bass
+- Lake Powell - bass, striper - https://www.nps.gov/glca/
+- Grand Canyon National Park - https://www.nps.gov/grca/
+
 ## Legal Aid
 - DNA People's Legal Services — Flagstaff — https://www.dnalegalservices.org/
 ## Corrections

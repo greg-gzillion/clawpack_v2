@@ -25,6 +25,21 @@
 - Pascua Yaqui Tribe — https://www.pascuayaqui-nsn.gov/
 ## Military
 - Davis-Monthan AFB Legal — https://www.dm.af.mil/About-Us/Legal-Office/
+## Universities
+- University of Arizona James E. Rogers College of Law - https://www.law.arizona.edu/
+- University of Arizona - https://www.arizona.edu/
+
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Patagonia Lake - bass - https://azstateparks.com/patagonia-lake/
+- Pena Blanca Lake - bass
+- Parker Canyon Lake - bass
+- Coronado National Forest
+- Saguaro National Park - https://www.nps.gov/sagu/
+
 ## Legal Aid
 - Southern Arizona Legal Aid — https://www.sazlegalaid.org/
 ## Corrections

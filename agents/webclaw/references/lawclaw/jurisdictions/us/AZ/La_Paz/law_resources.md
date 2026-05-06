@@ -19,6 +19,15 @@
 - Bill Williams River NWR — https://www.fws.gov/refuge/bill-williams-river/
 ## Tribal Fish & Game
 - Colorado River Indian Tribes — https://www.crit-nsn.gov/critfishandgame/
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Colorado River - bass, catfish
+- Alamo Lake - bass - https://azstateparks.com/alamo-lake/
+- Havasu NWR - https://www.fws.gov/refuge/havasu/
+
 ## Legal Aid
 - Southern Arizona Legal Aid — https://www.sazlegalaid.org/
 ## Municipal

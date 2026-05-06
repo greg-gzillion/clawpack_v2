@@ -16,6 +16,16 @@
 - Pena Blanca Lake — https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80600
 - Parker Canyon Lake — https://www.fs.usda.gov/recarea/coronado/recarea/?recid=80632
 - Tumacácori NHP — https://www.nps.gov/tuma/
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Patagonia Lake - bass
+- Pena Blanca Lake - bass
+- Parker Canyon Lake - bass
+- Coronado National Forest
+
 ## Legal Aid
 - Southern Arizona Legal Aid — https://www.sazlegalaid.org/
 ## Municipal

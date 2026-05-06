@@ -31,6 +31,22 @@
 - Fort McDowell Yavapai Nation
 ## Military
 - Luke AFB Legal — https://www.luke.af.mil/About-Us/Legal-Office/
+## Universities
+- Arizona State University Sandra Day O'Connor College of Law - https://www.law.asu.edu/
+- Arizona State University - https://www.asu.edu/
+- Grand Canyon University - https://www.gcu.edu/
+- University of Arizona College of Law (Phoenix campus) - https://www.law.arizona.edu/
+
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Lake Pleasant - bass, striper
+- Saguaro Lake - bass, trout
+- Salt River - trout
+- Tonto National Forest - https://www.fs.usda.gov/tonto/
+
 ## Legal Aid
 - Community Legal Services of AZ — https://www.clsaz.org/
 ## Corrections

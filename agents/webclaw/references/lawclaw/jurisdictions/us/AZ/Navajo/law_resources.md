@@ -22,6 +22,16 @@
 - Navajo Nation Fish & Wildlife — https://www.nndfw.org/
 - White Mountain Apache Game & Fish — https://wmatoutdoors.org/
 - Hopi Tribe Game & Fish — https://www.hopi-nsn.gov/tribal-programs/natural-resources/
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Fool Hollow Lake - bass - https://azstateparks.com/fool-hollow/
+- Show Low Lake - trout
+- Rainbow Lake - trout
+- Petrified Forest National Park
+
 ## Legal Aid
 - DNA People's Legal Services — https://www.dnalegalservices.org/
 ## Corrections

@@ -19,6 +19,15 @@
 - Fort Bowie National Historic Site — https://www.nps.gov/fobo/
 ## Military
 - Fort Huachuca Legal — https://www.huachuca.army.mil/pages/unit/osja/
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Parker Canyon Lake - bass
+- San Pedro Riparian NCA - bass
+- Coronado National Forest - https://www.fs.usda.gov/coronado/
+
 ## Legal Aid
 - Southern Arizona Legal Aid — https://www.sazlegalaid.org/
 ## Corrections

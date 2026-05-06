@@ -16,6 +16,15 @@
 - Apache Lake — https://www.fs.usda.gov/recarea/tonto/recarea/?recid=35335
 - Tonto National Monument — https://www.nps.gov/tont/
 - Canyon Creek Hatchery — https://www.azgfd.com/fishing/fish-hatcheries/
+## Hunting Regulations
+- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+
+## Fishing Regulations
+- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- Roosevelt Lake - bass, crappie
+- Apache Lake - bass
+- Tonto National Forest - https://www.fs.usda.gov/tonto/
+
 ## Legal Aid
 - Southern Arizona Legal Aid — https://www.sazlegalaid.org/
 ## Corrections
