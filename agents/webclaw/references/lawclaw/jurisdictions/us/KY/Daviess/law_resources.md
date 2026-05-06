@@ -10,16 +10,15 @@
 - Daviess County Circuit Court — https://www.daviesscountyclerk.com/
 ## County Attorney / Defender
 - Daviess County Attorney — https://www.daviessky.org/county-attorney/
-- Kentucky Public Defender — https://www.dpa.ky.gov/
+- Department of Public Advocacy — https://www.dpa.ky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://fw.ky.gov/Hunt/Pages/default.aspx
 ## Fishing Regulations
 - KY Fishing Regulations — https://fw.ky.gov/Fish/Pages/default.aspx
-- Ohio River — bass, walleye, catfish
-- Panther Creek Park Lake — bass
+- Ohio River
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Daviess County Jail — https://www.daviesskysheriff.org/detention-center/
+- Daviess County Detention Center — https://www.daviesskysheriff.org/detention-center/
 ## Municipal Codes
 - Owensboro — https://www.owensboro.org/

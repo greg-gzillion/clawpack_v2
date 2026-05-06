@@ -9,18 +9,16 @@
 - Warren County Circuit Court — https://www.warrencountyclerk.com/
 ## County Attorney / Defender
 - Warren County Attorney — https://www.warrencountyattorney.com/
-- Kentucky Public Defender — https://www.dpa.ky.gov/
+- Department of Public Advocacy — https://www.dpa.ky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://fw.ky.gov/Hunt/Pages/default.aspx
-- Shanty Hollow Lake — hunting areas
 ## Fishing Regulations
 - KY Fishing Regulations — https://fw.ky.gov/Fish/Pages/default.aspx
-- Barren River — bass, catfish
-- Drakes Creek — bass
-- Shanty Hollow Lake — bass
+- Barren River Lake — https://www.lrl.usace.army.mil/Missions/Recreation/Barren-River-Lake/
+- Shanty Hollow Lake — https://www.wku.edu/
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Warren County Jail — https://www.warrencountysheriff.org/jail/
+- Warren County Regional Jail — https://www.warrencountysheriff.org/jail/
 ## Municipal Codes
 - Bowling Green — https://www.bgky.org/

@@ -1,6 +1,6 @@
 # Kenton County — Local Law Resources
 ## Law Schools & Universities
-- Northern Kentucky University Salmon P. Chase College of Law — https://www.chase.nku.edu/
+- Northern Kentucky University Chase College of Law — https://www.chase.nku.edu/
 - Northern Kentucky University — https://www.nku.edu/
 - Thomas More University — https://www.thomasmore.edu/
 ## Law Enforcement
@@ -11,17 +11,16 @@
 - Kenton County Circuit Court — https://www.kentoncounty.org/courts
 ## County Attorney / Defender
 - Kenton County Attorney — https://www.kentoncounty.org/county-attorney
-- Kentucky Public Defender — https://www.dpa.ky.gov/
+- Department of Public Advocacy — https://www.dpa.ky.gov/
 ## Hunting Regulations
 - KY Hunting Regulations — https://fw.ky.gov/Hunt/Pages/default.aspx
 ## Fishing Regulations
 - KY Fishing Regulations — https://fw.ky.gov/Fish/Pages/default.aspx
-- Ohio River — bass, walleye, catfish
-- Licking River — bass
-- Doe Run Lake — bass, trout
+- Ohio River
+- Doe Run Lake — https://www.kentoncounty.org/parks
 ## Legal Aid
 - Legal Aid of the Bluegrass — https://www.lablaw.org/
 ## Corrections
-- Kenton County Jail — https://www.kentoncounty.org/detention-center
+- Kenton County Detention Center — https://www.kentoncounty.org/detention-center
 ## Municipal Codes
 - Covington — https://www.covingtonky.gov/
