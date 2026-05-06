@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Palatine — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.palatine.il.us/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Palatine PD — 595 N Hicks Rd — (847) 359-9000
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- Cook County Circuit Court — Rolling Meadows — (847) 818-3000
+- **Court Website**: https://www.cookcountycourt.org/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Palatine Building Department — https://www.palatine.il.us/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- Cook County Jail

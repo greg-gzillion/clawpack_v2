@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Peoria City — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.cityofpeoria.org/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Peoria PD — (309) 679-6000
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- 10th Judicial Circuit Court — 324 NE Perry Ave — (309) 672-6000
+- **Court Website**: https://www.peoriacounty.org/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Peoria City Building Department — https://www.cityofpeoria.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- Peoria County Jail

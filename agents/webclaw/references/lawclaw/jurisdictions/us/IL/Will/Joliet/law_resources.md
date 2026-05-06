@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Joliet — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.joliet.gov/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Joliet PD — (815) 726-2491
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- Will County Circuit Court — 14 W Jefferson St — (815) 727-7300
+- **Court Website**: https://www.willcountycourts.com/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Joliet Building Department — https://www.joliet.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- Will County Jail

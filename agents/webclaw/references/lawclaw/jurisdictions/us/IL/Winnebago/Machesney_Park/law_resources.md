@@ -1,12 +1,14 @@
 # Machesney Park — Local Law Resources
+## City Website
+- https://machesneypark.org/
 ## Law Enforcement
-- Machesney Park Police Department
-- Winnebago County Sheriff
+- Winnebago County Sheriff — 300 Roosevelt Rd — (815) 877-5519
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Machesney Park Municipal Court
+- Winnebago County Circuit Court — Rockford — (815) 319-6200
+- **Court Website**: https://www.winnebagocircuitclerk.org/
 ## Building Permits
-- Machesney Park Building Department
+- Machesney Park Building Department — https://machesneypark.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations

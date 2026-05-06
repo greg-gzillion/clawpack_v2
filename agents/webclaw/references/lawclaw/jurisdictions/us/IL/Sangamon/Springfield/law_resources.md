@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Springfield — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.springfield.il.us/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Springfield PD — (217) 753-3100
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- Springfield Municipal Court — 625 N Benton Ave
+- **Court Website**: https://www.springfield.il.us/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Springfield Building Department — https://www.springfield.il.us/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- Sangamon County Jail

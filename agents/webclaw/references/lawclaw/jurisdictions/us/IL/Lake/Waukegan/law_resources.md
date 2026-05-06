@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Waukegan — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.waukeganil.gov/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Waukegan PD — (847) 599-2608
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- Lake County Circuit Court — 18 N County St — (847) 377-2000
+- **Court Website**: https://www.lakecountycourtofficial.org/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Waukegan Building Department — https://www.waukeganil.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- Lake County Jail

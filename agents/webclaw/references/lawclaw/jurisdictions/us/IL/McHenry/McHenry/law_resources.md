@@ -1,12 +1,14 @@
 # McHenry — Local Law Resources
+## City Website
+- https://cityofmchenry.org/
 ## Law Enforcement
-- McHenry Police Department
-- McHenry County Sheriff
+- McHenry PD — 1525 W Elm St — (815) 363-2200
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- McHenry Municipal Court
+- Administrative Hearing Officer — (815) 363-2200
+- **Court Website**: https://cityofmchenry.org/
 ## Building Permits
-- McHenry Building Department
+- McHenry Building Department — https://cityofmchenry.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations

@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Rockford — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.rockfordil.gov/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Rockford PD — (815) 968-8400
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- Winnebago County Circuit Court — 400 W State St — (815) 319-6200
+- **Court Website**: https://www.winnebagocircuitclerk.org/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Rockford Building Department — https://www.rockfordil.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- Winnebago County Jail

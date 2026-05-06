@@ -1,12 +1,14 @@
 # Ottawa — Local Law Resources
+## City Website
+- https://cityofottawa.org/
 ## Law Enforcement
-- Ottawa Police Department
-- LaSalle County Sheriff
+- Ottawa PD — 301 W Madison St — (815) 431-8721
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Ottawa Municipal Court
+- Administrative Hearing — 3rd Wed monthly 1pm
+- **Court Website**: https://cityofottawa.org/
 ## Building Permits
-- Ottawa Building Department
+- Ottawa Building Department — https://cityofottawa.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations

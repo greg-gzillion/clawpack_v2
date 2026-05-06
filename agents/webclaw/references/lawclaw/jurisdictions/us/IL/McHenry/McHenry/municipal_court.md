@@ -1,3 +1,6 @@
 # McHenry Municipal Court
 ## Court Information
-- McHenry Municipal Court
+- Administrative Hearing Officer — (815) 363-2200
+- **Court Website**: https://cityofmchenry.org/
+## City Website
+- https://cityofmchenry.org/

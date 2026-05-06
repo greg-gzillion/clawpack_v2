@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Wheaton — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.cityofwheaton.com/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Wheaton PD — (630) 260-2000
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- DuPage County Circuit Court — 505 N County Farm Rd — (630) 407-6000
+- **Court Website**: https://www.dupageco.org/courts/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Wheaton Building Department — https://www.cityofwheaton.com/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- DuPage County Jail

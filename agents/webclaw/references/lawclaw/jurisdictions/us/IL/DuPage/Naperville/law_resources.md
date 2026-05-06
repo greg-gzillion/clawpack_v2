@@ -1,14 +1,14 @@
-# Rock Island — Local Law Resources
+# Naperville — Local Law Resources
 ## City Website
-- https://www.ci.rock-island.il.us/
+- https://www.naperville.il.us/
 ## Law Enforcement
-- Rock Island PD — (309) 793-6300
+- Naperville PD — 1350 Aurora Ave — (630) 420-6666
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Rock Island County Circuit Court — 101 19th St — (309) 786-2254
-- **Court Website**: https://www.rockislandcounty.org/
+- DuPage County Circuit Court — Wheaton — (630) 407-6000
+- **Court Website**: https://www.dupageco.org/courts/
 ## Building Permits
-- Rock Island Building Department — https://www.ci.rock-island.il.us/
+- Naperville Building Department — https://www.naperville.il.us/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Rock Island County Jail
+- DuPage County Jail

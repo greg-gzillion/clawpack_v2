@@ -1,12 +1,14 @@
 # Quincy — Local Law Resources
+## City Website
+- https://www.quincyil.gov/
 ## Law Enforcement
-- Quincy Police Department
-- Adams County Sheriff
+- Quincy PD — 110 S 8th St — (217) 223-3231
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Quincy Municipal Court
+- Adams County Circuit Court — 521 Vermont St — (217) 277-2209
+- **Court Website**: https://www.co.adams.il.us/
 ## Building Permits
-- Quincy Building Department
+- Quincy Building Department — https://www.quincyil.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
