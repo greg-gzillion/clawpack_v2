@@ -1,0 +1,21 @@
+# Alexander County — Local Law Resources
+## Law Enforcement
+- Alexander County Sheriff — https://www.alexandercountyil.gov/sheriff
+- Illinois State Police — https://www.isp.state.il.us/
+## Courts
+- Alexander County Circuit Court
+## County Attorney / Defender
+- County State's Attorney
+- County Public Defender
+## Hunting Regulations
+- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/pages/default.aspx
+## Fishing Regulations
+- IL Fishing Regulations — https://www.ifishillinois.org/
+- Mississippi River — bass, catfish
+- Ohio River — bass, catfish
+## Legal Aid
+- Prairie State Legal Services — https://www.pslegal.org/
+## Corrections
+- Alexander County Jail
+## Municipal Codes
+- Cairo — see city website
