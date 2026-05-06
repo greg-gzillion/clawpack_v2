@@ -1,9 +1,5 @@
 # Santa Barbara City Municipal Court
 ## Court Information
-- **Court Name**: Santa Barbara City Municipal Court
-- **County**: Santa Barbara
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Santa Barbara City website
+- Santa Barbara County Superior Court — 118 E Figueroa St — (805) 568-3959
+## City Website
+- https://www.santabarbaraca.gov/

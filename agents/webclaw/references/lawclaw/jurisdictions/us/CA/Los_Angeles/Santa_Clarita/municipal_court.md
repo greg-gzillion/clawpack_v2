@@ -1,9 +1,5 @@
 # Santa Clarita Municipal Court
 ## Court Information
-- **Court Name**: Santa Clarita Municipal Court
-- **County**: Los Angeles
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Santa Clarita website
+- LA County Superior Court — Santa Clarita Courthouse — 23747 W Valencia Blvd — (661) 253-7301
+## City Website
+- https://www.santaclarita.com/

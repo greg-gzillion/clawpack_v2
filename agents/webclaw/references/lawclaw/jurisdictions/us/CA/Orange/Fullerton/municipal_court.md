@@ -1,9 +1,5 @@
 # Fullerton Municipal Court
 ## Court Information
-- **Court Name**: Fullerton Municipal Court
-- **County**: Orange
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Fullerton website
+- Orange County Superior Court — North Justice Center — 1275 N Berkeley Ave, Fullerton — (657) 622-5600
+## City Website
+- https://www.cityoffullerton.com/

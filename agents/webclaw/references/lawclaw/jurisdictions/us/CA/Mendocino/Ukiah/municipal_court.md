@@ -1,9 +1,5 @@
 # Ukiah Municipal Court
 ## Court Information
-- **Court Name**: Ukiah Municipal Court
-- **County**: Mendocino
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Ukiah website
+- Mendocino County Superior Court — www.mendocino.courts.ca.gov
+## City Website
+- https://www.ukiah.ca.us/

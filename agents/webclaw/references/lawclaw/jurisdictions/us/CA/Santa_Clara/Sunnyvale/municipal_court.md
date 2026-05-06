@@ -1,9 +1,5 @@
 # Sunnyvale Municipal Court
 ## Court Information
-- **Court Name**: Sunnyvale Municipal Court
-- **County**: Santa Clara
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Sunnyvale website
+- Santa Clara County Superior Court — Sunnyvale Courthouse — 605 W El Camino Real — (408) 481-3500
+## City Website
+- https://www.sunnyvale.ca.gov/

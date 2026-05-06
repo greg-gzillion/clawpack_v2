@@ -1,9 +1,5 @@
 # Corona Municipal Court
 ## Court Information
-- **Court Name**: Corona Municipal Court
-- **County**: Riverside
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Corona website
+- Riverside County Superior Court — www.riverside.courts.ca.gov
+## City Website
+- https://www.coronaca.gov/

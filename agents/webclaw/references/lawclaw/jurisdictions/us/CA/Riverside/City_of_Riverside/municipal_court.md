@@ -1,9 +1,5 @@
 # City of Riverside Municipal Court
 ## Court Information
-- **Court Name**: City of Riverside Municipal Court
-- **County**: Riverside
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See City of Riverside website
+- Riverside County Superior Court — www.riverside.courts.ca.gov
+## City Website
+- https://www.riversideca.gov/

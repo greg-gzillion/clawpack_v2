@@ -1,17 +1,19 @@
 # Palmdale — Local Law Resources
+## City Website
+- https://www.cityofpalmdaleca.gov/
 ## Law Enforcement
-- Palmdale Police Department
-- Los Angeles Sheriff
+- LA County Sheriff — Palmdale Station — (661) 272-2400
+- Los Angeles County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- Palmdale Municipal Court
+- Los Angeles County Superior Court — www.lacourt.org
 ## Building Permits
-- Palmdale Building Department
+- Palmdale Building Department — https://www.cityofpalmdaleca.gov/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Los Angeles Jail
+- Los Angeles County Jail

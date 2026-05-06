@@ -1,9 +1,5 @@
 # San Rafael Municipal Court
 ## Court Information
-- **Court Name**: San Rafael Municipal Court
-- **County**: Marin
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See San Rafael website
+- Marin County Superior Court — 10 Avenue of the Flags — (415) 499-7500
+## City Website
+- https://www.cityofsanrafael.org/

@@ -1,9 +1,5 @@
 # Chico Municipal Court
 ## Court Information
-- **Court Name**: Chico Municipal Court
-- **County**: Butte
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Chico website
+- Butte County Superior Court — (530) 532-7002
+## City Website
+- https://www.chicoca.gov/

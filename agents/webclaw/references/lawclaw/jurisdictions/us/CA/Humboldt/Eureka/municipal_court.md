@@ -1,9 +1,5 @@
 # Eureka Municipal Court
 ## Court Information
-- **Court Name**: Eureka Municipal Court
-- **County**: Humboldt
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Eureka website
+- Humboldt County Superior Court — 825 5th St — (707) 269-1270
+## City Website
+- https://www.cityofeureka.org/

@@ -1,9 +1,5 @@
 # Pasadena Municipal Court
 ## Court Information
-- **Court Name**: Pasadena Municipal Court
-- **County**: Los Angeles
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Pasadena website
+- LA County Superior Court — Pasadena Courthouse — 300 E Walnut St — (626) 396-3300
+## City Website
+- https://www.cityofpasadena.net/

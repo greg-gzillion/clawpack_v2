@@ -1,9 +1,5 @@
 # Elk Grove Municipal Court
 ## Court Information
-- **Court Name**: Elk Grove Municipal Court
-- **County**: Sacramento
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Elk Grove website
+- Sacramento County Superior Court — www.saccourt.org
+## City Website
+- https://www.elkgrove.org/

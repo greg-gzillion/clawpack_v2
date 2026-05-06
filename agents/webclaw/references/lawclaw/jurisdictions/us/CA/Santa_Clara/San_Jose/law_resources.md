@@ -1,17 +1,19 @@
 # San Jose — Local Law Resources
+## City Website
+- https://www.sanjoseca.gov/
 ## Law Enforcement
-- San Jose Police Department
-- Santa Clara Sheriff
+- San Jose Police Dept — 201 W Mission St — (408) 277-8900
+- Santa Clara County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- San Jose Municipal Court
+- Santa Clara County Superior Court — www.santaclara.courts.ca.gov
 ## Building Permits
-- San Jose Building Department
+- San Jose Building Department — https://www.sanjoseca.gov/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Santa Clara Jail
+- Santa Clara County Jail

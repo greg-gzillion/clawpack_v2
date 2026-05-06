@@ -1,9 +1,5 @@
 # Santa Cruz City Municipal Court
 ## Court Information
-- **Court Name**: Santa Cruz City Municipal Court
-- **County**: Santa Cruz
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Santa Cruz City website
+- Santa Cruz County Superior Court — 701 Ocean St — (831) 454-2500
+## City Website
+- https://www.cityofsantacruz.com/

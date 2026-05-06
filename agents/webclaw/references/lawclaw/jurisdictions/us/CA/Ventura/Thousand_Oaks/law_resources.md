@@ -1,17 +1,19 @@
 # Thousand Oaks — Local Law Resources
+## City Website
+- https://www.toaks.org/
 ## Law Enforcement
-- Thousand Oaks Police Department
-- Ventura Sheriff
+- Thousand Oaks Police Dept — (805) 494-8200
+- Ventura County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- Thousand Oaks Municipal Court
+- Ventura County Superior Court — Thousand Oaks Courthouse — www.venturacourt.org
 ## Building Permits
-- Thousand Oaks Building Department
+- Thousand Oaks Building Department — https://www.toaks.org/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Ventura Jail
+- Ventura County Jail

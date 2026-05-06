@@ -1,9 +1,5 @@
 # Vallejo Municipal Court
 ## Court Information
-- **Court Name**: Vallejo Municipal Court
-- **County**: Solano
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Vallejo website
+- Solano County Superior Court — Solano Justice Center — 321 Tuolumne St — (707) 784-7000
+## City Website
+- https://www.cityofvallejo.net/

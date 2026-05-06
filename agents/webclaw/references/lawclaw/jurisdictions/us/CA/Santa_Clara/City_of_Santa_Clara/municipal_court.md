@@ -1,9 +1,5 @@
 # City of Santa Clara Municipal Court
 ## Court Information
-- **Court Name**: City of Santa Clara Municipal Court
-- **County**: Santa Clara
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See City of Santa Clara website
+- Santa Clara County Superior Court — www.santaclara.courts.ca.gov
+## City Website
+- https://www.santaclaraca.gov/

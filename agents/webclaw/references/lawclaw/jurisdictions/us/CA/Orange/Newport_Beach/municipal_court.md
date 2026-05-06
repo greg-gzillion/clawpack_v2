@@ -1,9 +1,5 @@
 # Newport Beach Municipal Court
 ## Court Information
-- **Court Name**: Newport Beach Municipal Court
-- **County**: Orange
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Newport Beach website
+- Orange County Superior Court — Harbor Justice Center — 4601 Jamboree Rd — (657) 622-5400
+## City Website
+- https://www.newportbeachca.gov/

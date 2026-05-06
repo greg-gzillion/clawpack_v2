@@ -1,9 +1,5 @@
 # Santa Rosa Municipal Court
 ## Court Information
-- **Court Name**: Santa Rosa Municipal Court
-- **County**: Sonoma
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Santa Rosa website
+- Sonoma County Superior Court — 600 Administration Dr — (707) 565-1100
+## City Website
+- https://www.srcity.org/

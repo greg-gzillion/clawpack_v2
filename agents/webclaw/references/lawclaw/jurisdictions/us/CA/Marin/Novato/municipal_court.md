@@ -1,9 +1,5 @@
 # Novato Municipal Court
 ## Court Information
-- **Court Name**: Novato Municipal Court
-- **County**: Marin
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Novato website
+- Marin County Superior Court — www.marin.courts.ca.gov
+## City Website
+- https://www.novato.gov/

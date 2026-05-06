@@ -1,9 +1,5 @@
 # Escondido Municipal Court
 ## Court Information
-- **Court Name**: Escondido Municipal Court
-- **County**: San Diego
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Escondido website
+- San Diego County Superior Court — www.sdcourt.ca.gov
+## City Website
+- https://www.escondido.org/

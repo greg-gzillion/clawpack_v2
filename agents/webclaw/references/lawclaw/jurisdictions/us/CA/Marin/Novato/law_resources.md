@@ -1,17 +1,19 @@
 # Novato — Local Law Resources
+## City Website
+- https://www.novato.gov/
 ## Law Enforcement
-- Novato Police Department
-- Marin Sheriff
+- Novato Police Dept — (415) 897-4361
+- Marin County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- Novato Municipal Court
+- Marin County Superior Court — www.marin.courts.ca.gov
 ## Building Permits
-- Novato Building Department
+- Novato Building Department — https://www.novato.gov/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Marin Jail
+- Marin County Jail

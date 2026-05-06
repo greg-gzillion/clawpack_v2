@@ -1,9 +1,5 @@
 # Santa Maria Municipal Court
 ## Court Information
-- **Court Name**: Santa Maria Municipal Court
-- **County**: Santa Barbara
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Santa Maria website
+- Santa Barbara County Superior Court — Santa Maria Branch — 312 E Cook St — (805) 614-6414
+## City Website
+- https://www.cityofsantamaria.org/

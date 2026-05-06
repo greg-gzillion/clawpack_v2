@@ -1,9 +1,5 @@
 # El Cajon Municipal Court
 ## Court Information
-- **Court Name**: El Cajon Municipal Court
-- **County**: San Diego
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See El Cajon website
+- San Diego County Superior Court — www.sdcourt.ca.gov
+## City Website
+- https://www.elcajon.gov/

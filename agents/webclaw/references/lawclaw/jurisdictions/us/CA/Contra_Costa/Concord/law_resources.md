@@ -1,17 +1,19 @@
 # Concord — Local Law Resources
+## City Website
+- https://www.cityofconcord.org/
 ## Law Enforcement
-- Concord Police Department
-- Contra Costa Sheriff
+- Concord Police Dept — (925) 671-3131
+- Contra Costa County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- Concord Municipal Court
+- Contra Costa County Superior Court — www.cc-courts.org
 ## Building Permits
-- Concord Building Department
+- Concord Building Department — https://www.cityofconcord.org/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Contra Costa Jail
+- Contra Costa County Jail

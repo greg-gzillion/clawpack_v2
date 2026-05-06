@@ -1,9 +1,5 @@
 # Modesto Municipal Court
 ## Court Information
-- **Court Name**: Modesto Municipal Court
-- **County**: Stanislaus
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Modesto website
+- Stanislaus County Superior Court — 800 11th St — (209) 525-5500
+## City Website
+- https://www.modestogov.com/

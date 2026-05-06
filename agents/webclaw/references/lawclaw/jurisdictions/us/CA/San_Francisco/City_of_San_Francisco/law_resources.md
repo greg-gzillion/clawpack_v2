@@ -1,17 +1,19 @@
 # City of San Francisco — Local Law Resources
+## City Website
+- https://www.sfgov.org/
 ## Law Enforcement
-- City of San Francisco Police Department
-- San Francisco Sheriff
+- SFPD — 1245 3rd St — (415) 553-0123
+- San Francisco County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- City of San Francisco Municipal Court
+- San Francisco County Superior Court — www.sfsuperiorcourt.org
 ## Building Permits
-- City of San Francisco Building Department
+- City of San Francisco Building Department — https://www.sfgov.org/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- San Francisco Jail
+- San Francisco County Jail

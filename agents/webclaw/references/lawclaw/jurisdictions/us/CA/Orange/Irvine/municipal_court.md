@@ -1,9 +1,5 @@
 # Irvine Municipal Court
 ## Court Information
-- **Court Name**: Irvine Municipal Court
-- **County**: Orange
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Irvine website
+- Orange County Superior Court — Harbor Justice Center — 4601 Jamboree Rd, Newport Beach — (657) 622-5400
+## City Website
+- https://www.cityofirvine.org/

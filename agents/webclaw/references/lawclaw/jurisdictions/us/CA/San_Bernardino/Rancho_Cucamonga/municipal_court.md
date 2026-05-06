@@ -1,9 +1,5 @@
 # Rancho Cucamonga Municipal Court
 ## Court Information
-- **Court Name**: Rancho Cucamonga Municipal Court
-- **County**: San Bernardino
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Rancho Cucamonga website
+- San Bernardino County Superior Court — Rancho Cucamonga Courthouse — 8300 Haven Ave — (909) 350-9764
+## City Website
+- https://www.cityofrc.us/

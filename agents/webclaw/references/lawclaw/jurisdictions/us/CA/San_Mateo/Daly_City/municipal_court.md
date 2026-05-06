@@ -1,9 +1,5 @@
 # Daly City Municipal Court
 ## Court Information
-- **Court Name**: Daly City Municipal Court
-- **County**: San Mateo
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Daly City website
+- San Mateo County Superior Court — www.sanmateocourt.org
+## City Website
+- https://www.dalycity.org/

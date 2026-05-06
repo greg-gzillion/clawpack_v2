@@ -1,9 +1,5 @@
 # El Dorado Hills Municipal Court
 ## Court Information
-- **Court Name**: El Dorado Hills Municipal Court
-- **County**: El Dorado
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See El Dorado Hills website
+- El Dorado County Superior Court — eldorado.courts.ca.gov
+## City Website
+- https://www.edcgov.us/

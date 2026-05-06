@@ -1,17 +1,19 @@
 # Redwood City — Local Law Resources
+## City Website
+- https://www.redwoodcity.org/
 ## Law Enforcement
-- Redwood City Police Department
-- San Mateo Sheriff
+- Redwood City Police Dept — (650) 780-7100
+- San Mateo County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- Redwood City Municipal Court
+- San Mateo County Superior Court — 400 County Center — (650) 363-4300
 ## Building Permits
-- Redwood City Building Department
+- Redwood City Building Department — https://www.redwoodcity.org/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- San Mateo Jail
+- San Mateo County Jail

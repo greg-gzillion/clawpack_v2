@@ -1,9 +1,5 @@
 # Pomona Municipal Court
 ## Court Information
-- **Court Name**: Pomona Municipal Court
-- **County**: Los Angeles
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Pomona website
+- LA County Superior Court — Pomona Courthouse — 300 E Mission Blvd — (909) 620-3020
+## City Website
+- https://www.pomonaca.gov/

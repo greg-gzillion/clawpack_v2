@@ -1,17 +1,19 @@
 # City of San Diego — Local Law Resources
+## City Website
+- https://www.sandiego.gov/
 ## Law Enforcement
-- City of San Diego Police Department
-- San Diego Sheriff
+- San Diego Police Dept — (619) 531-2000
+- San Diego County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- City of San Diego Municipal Court
+- San Diego County Superior Court — www.sdcourt.ca.gov
 ## Building Permits
-- City of San Diego Building Department
+- City of San Diego Building Department — https://www.sandiego.gov/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- San Diego Jail
+- San Diego County Jail

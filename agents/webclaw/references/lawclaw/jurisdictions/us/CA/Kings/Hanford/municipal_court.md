@@ -1,9 +1,5 @@
 # Hanford Municipal Court
 ## Court Information
-- **Court Name**: Hanford Municipal Court
-- **County**: Kings
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Hanford website
+- Kings County Superior Court — www.kings.courts.ca.gov
+## City Website
+- https://www.cityofhanfordca.com/

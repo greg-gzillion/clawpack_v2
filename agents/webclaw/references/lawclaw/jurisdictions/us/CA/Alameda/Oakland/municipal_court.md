@@ -1,9 +1,5 @@
 # Oakland Municipal Court
 ## Court Information
-- **Court Name**: Oakland Municipal Court
-- **County**: Alameda
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Oakland website
+- Alameda County Superior Court — www.alameda.courts.ca.gov
+## City Website
+- https://www.oaklandca.gov/

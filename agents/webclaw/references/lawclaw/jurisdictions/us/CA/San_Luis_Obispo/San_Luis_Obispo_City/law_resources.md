@@ -1,17 +1,19 @@
 # San Luis Obispo City — Local Law Resources
+## City Website
+- https://www.slocity.org/
 ## Law Enforcement
-- San Luis Obispo City Police Department
-- San Luis Obispo Sheriff
+- SLO Police Dept — (805) 781-7317
+- San Luis Obispo County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- San Luis Obispo City Municipal Court
+- SLO County Superior Court — 1050 Monterey St — (805) 706-3600
 ## Building Permits
-- San Luis Obispo City Building Department
+- San Luis Obispo City Building Department — https://www.slocity.org/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- San Luis Obispo Jail
+- San Luis Obispo County Jail

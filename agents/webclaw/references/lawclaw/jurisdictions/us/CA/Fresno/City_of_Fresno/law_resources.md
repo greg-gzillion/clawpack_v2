@@ -1,17 +1,19 @@
 # City of Fresno — Local Law Resources
+## City Website
+- https://www.fresno.gov/
 ## Law Enforcement
-- City of Fresno Police Department
-- Fresno Sheriff
+- Fresno Police Dept — (559) 621-7011
+- Fresno County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- City of Fresno Municipal Court
+- Fresno County Superior Court — fresnocountyca.gov/courts
 ## Building Permits
-- City of Fresno Building Department
+- City of Fresno Building Department — https://www.fresno.gov/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Fresno Jail
+- Fresno County Jail

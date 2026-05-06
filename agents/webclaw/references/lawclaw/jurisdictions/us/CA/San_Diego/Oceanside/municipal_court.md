@@ -1,9 +1,5 @@
 # Oceanside Municipal Court
 ## Court Information
-- **Court Name**: Oceanside Municipal Court
-- **County**: San Diego
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Oceanside website
+- San Diego County Superior Court — North County Branch — www.sdcourt.ca.gov
+## City Website
+- https://www.ci.oceanside.ca.us/

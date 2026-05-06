@@ -1,9 +1,5 @@
 # Stockton Municipal Court
 ## Court Information
-- **Court Name**: Stockton Municipal Court
-- **County**: San Joaquin
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Stockton website
+- San Joaquin County Superior Court — 180 E Weber Ave — (209) 465-3400
+## City Website
+- https://www.stocktonca.gov/

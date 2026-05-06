@@ -1,9 +1,5 @@
 # Long Beach Municipal Court
 ## Court Information
-- **Court Name**: Long Beach Municipal Court
-- **County**: Los Angeles
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Long Beach website
+- Los Angeles County Superior Court — www.lacourt.org
+## City Website
+- https://www.longbeach.gov/

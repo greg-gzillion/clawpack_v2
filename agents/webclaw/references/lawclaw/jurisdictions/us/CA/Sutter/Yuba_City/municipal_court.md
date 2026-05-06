@@ -1,9 +1,5 @@
 # Yuba City Municipal Court
 ## Court Information
-- **Court Name**: Yuba City Municipal Court
-- **County**: Sutter
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Yuba City website
+- Sutter County Superior Court — 1175 Civic Center Blvd — (530) 822-7500
+## City Website
+- https://www.yubacity.gov/

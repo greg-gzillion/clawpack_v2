@@ -1,9 +1,5 @@
 # Roseville Municipal Court
 ## Court Information
-- **Court Name**: Roseville Municipal Court
-- **County**: Placer
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Roseville website
+- Placer County Superior Court — www.placer.courts.ca.gov
+## City Website
+- https://www.roseville.ca.gov/

@@ -1,17 +1,19 @@
 # Lancaster — Local Law Resources
+## City Website
+- https://www.cityoflancasterca.org/
 ## Law Enforcement
-- Lancaster Police Department
-- Los Angeles Sheriff
+- Lancaster Police Dept — (661) 723-6063
+- Los Angeles County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- Lancaster Municipal Court
+- Los Angeles County Superior Court — www.lacourt.org
 ## Building Permits
-- Lancaster Building Department
+- Lancaster Building Department — https://www.cityoflancasterca.org/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Los Angeles Jail
+- Los Angeles County Jail

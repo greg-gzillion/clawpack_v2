@@ -1,9 +1,5 @@
 # Salinas Municipal Court
 ## Court Information
-- **Court Name**: Salinas Municipal Court
-- **County**: Monterey
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Salinas website
+- Monterey County Superior Court — 240 Church St — (831) 775-5400
+## City Website
+- https://www.salinas.org/

@@ -1,17 +1,19 @@
 # City of Riverside — Local Law Resources
+## City Website
+- https://www.riversideca.gov/
 ## Law Enforcement
-- City of Riverside Police Department
-- Riverside Sheriff
+- Riverside Police Dept — (951) 354-2007
+- Riverside County Sheriff
 - California Highway Patrol — https://www.chp.ca.gov/
 ## Courts
-- City of Riverside Municipal Court
+- Riverside County Superior Court — www.riverside.courts.ca.gov
 ## Building Permits
-- City of Riverside Building Department
+- City of Riverside Building Department — https://www.riversideca.gov/
 ## Hunting Regulations
 - CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
 ## Fishing Regulations
 - CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
 ## Legal Aid
-- See California legal aid resources
+- California Legal Aid — https://www.lawhelpca.org/
 ## Corrections
-- Riverside Jail
+- Riverside County Jail

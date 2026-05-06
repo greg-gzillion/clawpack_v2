@@ -1,9 +1,5 @@
 # Madera City Municipal Court
 ## Court Information
-- **Court Name**: Madera City Municipal Court
-- **County**: Madera
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Madera City website
+- Madera County Superior Court — 200 S G St — (559) 416-5599
+## City Website
+- https://www.madera.gov/
