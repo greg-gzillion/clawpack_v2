@@ -1,12 +1,14 @@
 # Emmett — Local Law Resources
+## City Website
+- https://gemcountyid.org/
 ## Law Enforcement
-- Emmett Police Department
-- Gem County Sheriff
+- Gem County Sheriff — (208) 365-2211
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Emmett Municipal Court
+- Gem County Magistrate Court — 110 S 1st Ave — (208) 365-2200
+- **Court Website**: https://gemcountyid.org/
 ## Building Permits
-- Emmett Building Department
+- Emmett Building Department — https://gemcountyid.org/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

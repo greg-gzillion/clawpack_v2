@@ -1,12 +1,14 @@
 # Jerome — Local Law Resources
+## City Website
+- https://www.jeromeidaho.org/
 ## Law Enforcement
-- Jerome Police Department
-- Jerome County Sheriff
+- Jerome PD — (208) 324-4328
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Jerome Municipal Court
+- Jerome County Magistrate Court — 2151 S Tiger Dr — (208) 595-3300
+- **Court Website**: https://www.jeromecountyid.us/
 ## Building Permits
-- Jerome Building Department
+- Jerome Building Department — https://www.jeromeidaho.org/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

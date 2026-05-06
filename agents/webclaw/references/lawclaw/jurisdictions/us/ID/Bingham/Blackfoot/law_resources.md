@@ -1,12 +1,14 @@
 # Blackfoot — Local Law Resources
+## City Website
+- https://blackfoot.gov/
 ## Law Enforcement
-- Blackfoot Police Department
-- Bingham County Sheriff
+- Blackfoot PD — (208) 785-1234
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Blackfoot Municipal Court
+- Bingham County Magistrate Court — (208) 782-3122
+- **Court Website**: https://www.binghamidaho.org/
 ## Building Permits
-- Blackfoot Building Department
+- Blackfoot Building Department — https://blackfoot.gov/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Rigby — Local Law Resources
+## City Website
+- https://cityofrigby.gov/
 ## Law Enforcement
-- Rigby Police Department
-- Jefferson County Sheriff
+- Rigby PD — (208) 745-1951
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Rigby Municipal Court
+- Jefferson County Magistrate Court — 100 E 2nd St — (208) 745-8241
+- **Court Website**: https://www.co.jefferson.id.us/
 ## Building Permits
-- Rigby Building Department
+- Rigby Building Department — https://cityofrigby.gov/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

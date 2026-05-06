@@ -1,12 +1,14 @@
 # McCall — Local Law Resources
+## City Website
+- https://www.mccall.id.us/
 ## Law Enforcement
-- McCall Police Department
-- Valley County Sheriff
+- McCall PD — (208) 634-7144
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- McCall Municipal Court
+- Valley County Court Clerk — 219 N Main St, Cascade — (208) 382-7178
+- **Court Website**: https://www.co.valley.id.us/
 ## Building Permits
-- McCall Building Department
+- McCall Building Department — https://www.mccall.id.us/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

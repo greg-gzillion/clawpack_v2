@@ -1,0 +1,829 @@
+https://www.unalaska.gov/
+
+
+https://www.muni.org/pages/default.aspx
+
+https://www.cityofbethel.org/
+
+
+valdezak.gov
+
+Fairbanks.gov
+
+Juneau.gov 
+
+cityofhomer-ak.gov
+
+www.kenai.city
+
+cityofseward.us
+
+
+Ketchikan.gov
+
+
+city.kodiak.ak.us
+
+
+Alaska Cities Needing Verified URLs:
+
+#	City	Borough	Needs
+1	Anchorage	Anchorage_Municipality	city site, police, municipal court
+2	Bethel	Bethel_Census_Area	city site, police, municipal court
+3	Fairbanks	Fairbanks_North_Star_Borough	city site, police, municipal court
+4	Homer	Kenai_Peninsula_Borough	city site, police, municipal court
+5	Juneau	Juneau_City_and_Borough	city site, police, municipal court
+6	Kenai	Kenai_Peninsula_Borough	city site, police, municipal court
+7	Ketchikan	Ketchikan_Gateway_Borough	city site, police, municipal court
+8	Kodiak	Kodiak_Island_Borough	city site, police, municipal court
+9	Nome	Nome_Census_Area	city site, police, municipal court
+10	Palmer	Matanuska_Susitna_Borough	city site, police, municipal court
+11	Seward	Kenai_Peninsula_Borough	city site, police, municipal court
+12	Sitka	Sitka_City_and_Borough	city site, police, municipal court
+13	Unalaska	Aleutians_West_Census_Area	city site, police, municipal court
+14	Valdez	Chugach_Census_Area	city site, police, municipal court
+15	Wasilla	Matanuska_Susitna_Borough	city site, police, municipal court
+When you research each one, give me the format:
+
+text
+City: Anchorage
+Website: https://www.muni.org/
+Police: https://www.anchoragepolice.com/
+Court: https://www.muni.org/departments/municipal-attorney/pages/municipal-court.aspx
+I'll write them directly into the law_resources.md files with verified URLs only.
+
+
+Research needed for each Alabama city:
+
+City website (URL)
+
+Police department (URL or phone)
+
+Municipal court (URL or note that county court handles it)
+
+#	City	County	Info Needed
+1	Prattville	Autauga	city site, police, municipal court
+2	Daphne	Baldwin	city site, police, municipal court
+3	Fairhope	Baldwin	city site, police, municipal court
+4	Foley	Baldwin	city site, police, municipal court
+5	Gulf Shores	Baldwin	city site, police, municipal court
+6	Eufaula	Barbour	city site, police, municipal court
+7	Greenville	Butler	city site, police, municipal court
+8	Anniston	Calhoun	city site, police, municipal court
+9	Oxford	Calhoun	city site, police, municipal court
+10	Valley	Chambers	city site, police, municipal court
+11	Centre	Cherokee	city site, police, municipal court
+12	Clanton	Chilton	city site, police, municipal court
+13	Jackson	Clarke	city site, police, municipal court
+14	Enterprise	Coffee	city site, police, municipal court
+15	Muscle Shoals	Colbert	city site, police, municipal court
+16	Andalusia	Covington	city site, police, municipal court
+17	Opp	Covington	city site, police, municipal court
+18	Cullman	Cullman	city site, police, municipal court
+19	Ozark	Dale	city site, police, municipal court
+20	Selma	Dallas	city site, police, municipal court
+21	Fort Payne	DeKalb	city site, police, municipal court
+22	Millbrook	Elmore	city site, police, municipal court
+23	Wetumpka	Elmore	city site, police, municipal court
+24	Atmore	Escambia	city site, police, municipal court
+25	Brewton	Escambia	city site, police, municipal court
+26	Gadsden	Etowah	city site, police, municipal court
+27	Russellville	Franklin	city site, police, municipal court
+28	Geneva	Geneva	city site, police, municipal court
+29	Dothan	Houston	city site, police, municipal court
+30	Scottsboro	Jackson	city site, police, municipal court
+31	Bessemer	Jefferson	city site, police, municipal court
+32	Birmingham	Jefferson	city site, police, municipal court
+33	Center Point	Jefferson	city site, police, municipal court
+34	Homewood	Jefferson	city site, police, municipal court
+35	Hoover	Jefferson	city site, police, municipal court
+36	Mountain Brook	Jefferson	city site, police, municipal court
+37	Vestavia Hills	Jefferson	city site, police, municipal court
+38	Florence	Lauderdale	city site, police, municipal court
+39	Moulton	Lawrence	city site, police, municipal court
+40	Auburn	Lee	city site, police, municipal court
+41	Opelika	Lee	city site, police, municipal court
+42	Athens	Limestone	city site, police, municipal court
+43	Huntsville	Madison	city site, police, municipal court
+44	Hamilton	Marion	city site, police, municipal court
+45	Albertville	Marshall	city site, police, municipal court
+46	Guntersville	Marshall	city site, police, municipal court
+47	Prichard	Mobile	city site, police, municipal court
+48	Saraland	Mobile	city site, police, municipal court
+49	Monroeville	Monroe	city site, police, municipal court
+50	Montgomery	Montgomery	city site, police, municipal court
+51	Decatur	Morgan	city site, police, municipal court
+52	Hartselle	Morgan	city site, police, municipal court
+53	Troy	Pike	city site, police, municipal court
+54	Roanoke	Randolph	city site, police, municipal court
+55	Phenix City	Russell	city site, police, municipal court
+56	Alabaster	Shelby	city site, police, municipal court
+57	Helena	Shelby	city site, police, municipal court
+58	Pelham	Shelby	city site, police, municipal court
+59	Pell City	St. Clair	city site, police, municipal court
+60	Childersburg	Talladega	city site, police, municipal court
+61	Sylacauga	Talladega	city site, police, municipal court
+62	Talladega	Talladega	city site, police, municipal court
+63	Alexander City	Tallapoosa	city site, police, municipal court
+64	Northport	Tuscaloosa	city site, police, municipal court
+65	Jasper	Walker	city site, police, municipal court
+66	Haleyville	Winston	city site, police, municipal court
+
+
+
+
+Here's the Arkansas research list formatted for you:
+
+#	City	County	Needs
+1	Mountain Home	Baxter	city site, police, municipal court
+2	Bella Vista	Benton	city site, police, municipal court
+3	Bentonville	Benton	city site, police, municipal court
+4	Centerton	Benton	city site, police, municipal court
+5	Rogers	Benton	city site, police, municipal court
+6	Harrison	Boone	city site, police, municipal court
+7	Arkadelphia	Clark	city site, police, municipal court
+8	Magnolia	Columbia	city site, police, municipal court
+9	Jonesboro	Craighead	city site, police, municipal court
+10	Paragould (Craighead)	Craighead	city site, police, municipal court
+11	Alma	Crawford	city site, police, municipal court
+12	West Memphis	Crittenden	city site, police, municipal court
+13	Monticello	Drew	city site, police, municipal court
+14	Conway	Faulkner	city site, police, municipal court
+15	Greenbrier	Faulkner	city site, police, municipal court
+16	Vilonia	Faulkner	city site, police, municipal court
+17	Hot Springs	Garland	city site, police, municipal court
+18	Hot Springs Village	Garland	city site, police, municipal court
+19	Paragould (Greene)	Greene	city site, police, municipal court
+20	Batesville	Independence	city site, police, municipal court
+21	Pine Bluff	Jefferson	city site, police, municipal court
+22	White Hall	Jefferson	city site, police, municipal court
+23	Cabot	Lonoke	city site, police, municipal court
+24	Texarkana	Miller	city site, police, municipal court
+25	Blytheville	Mississippi	city site, police, municipal court
+26	Camden	Ouachita	city site, police, municipal court
+27	Russellville	Pope	city site, police, municipal court
+28	Jacksonville	Pulaski	city site, police, municipal court
+29	Little Rock	Pulaski	city site, police, municipal court
+30	North Little Rock	Pulaski	city site, police, municipal court
+31	Sherwood	Pulaski	city site, police, municipal court
+32	Benton	Saline	city site, police, municipal court
+33	Bryant	Saline	city site, police, municipal court
+34	Fort Smith	Sebastian	city site, police, municipal court
+35	Greenwood	Sebastian	city site, police, municipal court
+36	Van Buren	Sebastian	city site, police, municipal court
+37	Forrest City	St. Francis	city site, police, municipal court
+38	El Dorado	Union	city site, police, municipal court
+39	Farmington	Washington	city site, police, municipal court
+40	Fayetteville	Washington	city site, police, municipal court
+41	Springdale	Washington	city site, police, municipal court
+42	Searcy	White	city site, police, municipal court
+
+
+
+Format for each city:
+
+#	City	County	Needs
+1	Eagar	Apache	city site, police, municipal court
+2	Sierra Vista	Cochise	city site, police, municipal court
+3	Flagstaff	Coconino	city site, police, municipal court
+4	Sedona	Coconino	city site, police, municipal court
+5	Avondale	Maricopa	city site, police, municipal court
+6	Buckeye	Maricopa	city site, police, municipal court
+7	Casa Grande	Maricopa	city site, police, municipal court
+8	Chandler	Maricopa	city site, police, municipal court
+9	Gilbert	Maricopa	city site, police, municipal court
+10	Glendale	Maricopa	city site, police, municipal court
+11	Goodyear	Maricopa	city site, police, municipal court
+12	Maricopa	Maricopa	city site, police, municipal court
+13	Mesa	Maricopa	city site, police, municipal court
+14	Peoria	Maricopa	city site, police, municipal court
+15	Phoenix	Maricopa	city site, police, municipal court
+16	Queen Creek	Maricopa	city site, police, municipal court
+17	Scottsdale	Maricopa	city site, police, municipal court
+18	Surprise	Maricopa	city site, police, municipal court
+19	Tempe	Maricopa	city site, police, municipal court
+20	Bullhead City	Mohave	city site, police, municipal court
+21	Kingman	Mohave	city site, police, municipal court
+22	Lake Havasu City	Mohave	city site, police, municipal court
+23	Show Low	Navajo	city site, police, municipal court
+24	Marana	Pima	city site, police, municipal court
+25	Oro Valley	Pima	city site, police, municipal court
+26	Sahuarita	Pima	city site, police, municipal court
+27	Tucson	Pima	city site, police, municipal court
+28	Apache Junction	Pinal	city site, police, municipal court
+29	Florence	Pinal	city site, police, municipal court
+30	Camp Verde	Yavapai	city site, police, municipal court
+31	Prescott	Yavapai	city site, police, municipal court
+32	Prescott Valley	Yavapai	city site, police, municipal court
+
+
+
+85 California cities. Formatted for research:
+
+#	City	County	Needs
+1	Berkeley	Alameda	city site, police, municipal court
+2	Fremont	Alameda	city site, police, municipal court
+3	Hayward	Alameda	city site, police, municipal court
+4	Oakland	Alameda	city site, police, municipal court
+5	Chico	Butte	city site, police, municipal court
+6	Concord	Contra Costa	city site, police, municipal court
+7	Richmond	Contra Costa	city site, police, municipal court
+8	El Dorado Hills	El Dorado	city site, police, municipal court
+9	Fresno	Fresno	city site, police, municipal court
+10	Clovis	Fresno	city site, police, municipal court
+11	Eureka	Humboldt	city site, police, municipal court
+12	El Centro	Imperial	city site, police, municipal court
+13	Bakersfield	Kern	city site, police, municipal court
+14	Hanford	Kings	city site, police, municipal court
+15	Los Angeles	Los Angeles	city site, police, municipal court
+16	Glendale	Los Angeles	city site, police, municipal court
+17	Lancaster	Los Angeles	city site, police, municipal court
+18	Long Beach	Los Angeles	city site, police, municipal court
+19	Palmdale	Los Angeles	city site, police, municipal court
+20	Pasadena	Los Angeles	city site, police, municipal court
+21	Pomona	Los Angeles	city site, police, municipal court
+22	Santa Clarita	Los Angeles	city site, police, municipal court
+23	Torrance	Los Angeles	city site, police, municipal court
+24	Madera	Madera	city site, police, municipal court
+25	Novato	Marin	city site, police, municipal court
+26	San Rafael	Marin	city site, police, municipal court
+27	Ukiah	Mendocino	city site, police, municipal court
+28	Merced	Merced	city site, police, municipal court
+29	Monterey	Monterey	city site, police, municipal court
+30	Salinas	Monterey	city site, police, municipal court
+31	Napa	Napa	city site, police, municipal court
+32	Grass Valley	Nevada	city site, police, municipal court
+33	Anaheim	Orange	city site, police, municipal court
+34	Orange	Orange	city site, police, municipal court
+35	Costa Mesa	Orange	city site, police, municipal court
+36	Fullerton	Orange	city site, police, municipal court
+37	Garden Grove	Orange	city site, police, municipal court
+38	Huntington Beach	Orange	city site, police, municipal court
+39	Irvine	Orange	city site, police, municipal court
+40	Newport Beach	Orange	city site, police, municipal court
+41	Santa Ana	Orange	city site, police, municipal court
+42	Roseville	Placer	city site, police, municipal court
+43	Riverside	Riverside	city site, police, municipal court
+44	Corona	Riverside	city site, police, municipal court
+45	Sacramento	Sacramento	city site, police, municipal court
+46	Elk Grove	Sacramento	city site, police, municipal court
+47	Roseville	Sacramento	city site, police, municipal court
+48	Santa Barbara	Santa Barbara	city site, police, municipal court
+49	Santa Maria	Santa Barbara	city site, police, municipal court
+50	Santa Clara	Santa Clara	city site, police, municipal court
+51	Mountain View	Santa Clara	city site, police, municipal court
+52	Palo Alto	Santa Clara	city site, police, municipal court
+53	San Jose	Santa Clara	city site, police, municipal court
+54	Sunnyvale	Santa Clara	city site, police, municipal court
+55	Santa Cruz	Santa Cruz	city site, police, municipal court
+56	Hollister	San Benito	city site, police, municipal court
+57	Ontario	San Bernardino	city site, police, municipal court
+58	Rancho Cucamonga	San Bernardino	city site, police, municipal court
+59	Carlsbad	San Diego	city site, police, municipal court
+60	Chula Vista	San Diego	city site, police, municipal court
+61	San Diego	San Diego	city site, police, municipal court
+62	El Cajon	San Diego	city site, police, municipal court
+63	Escondido	San Diego	city site, police, municipal court
+64	Oceanside	San Diego	city site, police, municipal court
+65	San Francisco	San Francisco	city site, police, municipal court
+66	Stockton	San Joaquin	city site, police, municipal court
+67	San Luis Obispo	San Luis Obispo	city site, police, municipal court
+68	Daly City	San Mateo	city site, police, municipal court
+69	Redwood City	San Mateo	city site, police, municipal court
+70	San Mateo	San Mateo	city site, police, municipal court
+71	South San Francisco	San Mateo	city site, police, municipal court
+72	Redding	Shasta	city site, police, municipal court
+73	Fairfield	Solano	city site, police, municipal court
+74	Vacaville	Solano	city site, police, municipal court
+75	Vallejo	Solano	city site, police, municipal court
+76	Petaluma	Sonoma	city site, police, municipal court
+77	Santa Rosa	Sonoma	city site, police, municipal court
+78	Modesto	Stanislaus	city site, police, municipal court
+79	Yuba City	Sutter	city site, police, municipal court
+80	Visalia	Tulare	city site, police, municipal court
+81	Oxnard	Ventura	city site, police, municipal court
+82	Thousand Oaks	Ventura	city site, police, municipal court
+83	Davis	Yolo	city site, police, municipal court
+84	Woodland	Yolo	city site, police, municipal court
+85	Marysville	Yuba	city site, police, municipal court
+
+
+#	City	County	Needs
+1	Commerce City	Adams	city site, police, municipal court
+2	Northglenn	Adams	city site, police, municipal court
+3	Thornton	Adams	city site, police, municipal court
+4	Westminster	Adams	city site, police, municipal court
+5	Aurora	Arapahoe	city site, police, municipal court
+6	Centennial	Arapahoe	city site, police, municipal court
+7	Englewood	Arapahoe	city site, police, municipal court
+8	Littleton	Arapahoe	city site, police, municipal court
+9	Lafayette	Boulder	city site, police, municipal court
+10	Longmont	Boulder	city site, police, municipal court
+11	Louisville	Boulder	city site, police, municipal court
+12	Broomfield	Broomfield	city site, police, municipal court
+13	Delta	Delta	city site, police, municipal court
+14	Denver	Denver	city site, police, municipal court
+15	Castle Rock	Douglas	city site, police, municipal court
+16	Highlands Ranch	Douglas	city site, police, municipal court
+17	Lone Tree	Douglas	city site, police, municipal court
+18	Parker	Douglas	city site, police, municipal court
+19	Edwards	Eagle	city site, police, municipal court
+20	Colorado Springs	El Paso	city site, police, municipal court
+21	Fountain	El Paso	city site, police, municipal court
+22	Monument	El Paso	city site, police, municipal court
+23	Canon City	Fremont	city site, police, municipal court
+24	Glenwood Springs	Garfield	city site, police, municipal court
+25	Rifle	Garfield	city site, police, municipal court
+26	Arvada	Jefferson	city site, police, municipal court
+27	Golden	Jefferson	city site, police, municipal court
+28	Lakewood	Jefferson	city site, police, municipal court
+29	Wheat Ridge	Jefferson	city site, police, municipal court
+30	Loveland	Larimer	city site, police, municipal court
+31	Windsor	Larimer	city site, police, municipal court
+32	Durango	La Plata	city site, police, municipal court
+33	Fruita	Mesa	city site, police, municipal court
+34	Cortez	Montezuma	city site, police, municipal court
+35	Montrose	Montrose	city site, police, municipal court
+36	Fort Morgan	Morgan	city site, police, municipal court
+37	Pueblo West	Pueblo	city site, police, municipal court
+38	Steamboat Springs	Routt	city site, police, municipal court
+39	Frisco	Summit	city site, police, municipal court
+40	Silverthorne	Summit	city site, police, municipal court
+41	Evans	Weld	city site, police, municipal court
+42	Windsor	Weld	city site, police, municipal court
+        
+
+
+#	City	County	Needs
+1	Bridgeport	Fairfield	city site, police, municipal court
+2	Stamford	Fairfield	city site, police, municipal court
+3	Hartford	Hartford	city site, police, municipal court
+4	New Haven	New Haven	city site, police, municipal court
+5	Waterbury	New Haven	city site, police, municipal court
+6	Norwich	New London	city site, police, municipal court
+
+
+
+
+#	City	County	Needs
+1	Dover	Kent	city site, police, municipal court
+2	Newark	New Castle	city site, police, municipal court
+3	Wilmington	New Castle	city site, police, municipal court
+4	Georgetown	Sussex	city site, police, municipal court
+
+
+fl
+#	City	County	Needs
+1	Jacksonville	Duval	city site, police (address/phone), municipal court (address/phone/hours)
+2	Miami	Miami-Dade	city site, police, municipal court
+3	Tampa	Hillsborough	city site, police, municipal court
+4	Orlando	Orange	city site, police, municipal court
+5	St. Petersburg	Pinellas	city site, police, municipal court
+6	Hialeah	Miami-Dade	city site, police, municipal court
+7	Port St. Lucie	St. Lucie	city site, police, municipal court
+8	Cape Coral	Lee	city site, police, municipal court
+9	Tallahassee	Leon	city site, police, municipal court
+10	Fort Lauderdale	Broward	city site, police, municipal court
+11	Pembroke Pines	Broward	city site, police, municipal court
+12	Hollywood	Broward	city site, police, municipal court
+13	Gainesville	Alachua	city site, police, municipal court
+14	Miramar	Broward	city site, police, municipal court
+15	Coral Springs	Broward	city site, police, municipal court
+16	Clearwater	Pinellas	city site, police, municipal court
+17	Palm Bay	Brevard	city site, police, municipal court
+18	West Palm Beach	Palm Beach	city site, police, municipal court
+19	Lakeland	Polk	city site, police, municipal court
+20	Pompano Beach	Broward	city site, police, municipal court
+21	Davie	Broward	city site, police, municipal court
+22	Miami Beach	Miami-Dade	city site, police, municipal court
+23	Deltona	Volusia	city site, police, municipal court
+24	Plantation	Broward	city site, police, municipal court
+25	Sunrise	Broward	city site, police, municipal court
+26	Boca Raton	Palm Beach	city site, police, municipal court
+27	Deerfield Beach	Broward	city site, police, municipal court
+28	Melbourne	Brevard	city site, police, municipal court
+29	Largo	Pinellas	city site, police, municipal court
+30	Homestead	Miami-Dade	city site, police, municipal court
+exact websites, and other details, hrs, addresses, phone #s etc.
+
+#	City	County	Needs
+1	Apopka	Orange	city site, police (address/phone), municipal court (address/phone/hours/URL)
+2	Atlantic Beach	Duval	city site, police, municipal court
+3	Auburndale	Polk	city site, police, municipal court
+4	Aventura	Miami-Dade	city site, police, municipal court
+5	Bartow	Polk	city site, police, municipal court
+6	Bonita Springs	Lee	city site, police, municipal court
+7	Boynton Beach	Palm Beach	city site, police, municipal court
+8	Bradenton	Manatee	city site, police, municipal court
+9	Brandon	Hillsborough	city site, police, municipal court
+10	Callaway	Bay	city site, police, municipal court
+11	Casselberry	Seminole	city site, police, municipal court
+12	Clermont	Lake	city site, police, municipal court
+13	Cocoa	Brevard	city site, police, municipal court
+14	Coconut Creek	Broward	city site, police, municipal court
+15	Cooper City	Broward	city site, police, municipal court
+16	Coral Gables	Miami-Dade	city site, police, municipal court
+17	Crestview	Okaloosa	city site, police, municipal court
+18	Cutler Bay	Miami-Dade	city site, police, municipal court
+19	Dania Beach	Broward	city site, police, municipal court
+20	Daytona Beach	Volusia	city site, police, municipal court
+21	DeLand	Volusia	city site, police, municipal court
+22	Deerfield Beach	Broward	city site, police, municipal court
+23	DeFuniak Springs	Walton	city site, police, municipal court
+24	Delray Beach	Palm Beach	city site, police, municipal court
+25	Doral	Miami-Dade	city site, police, municipal court
+26	Dunedin	Pinellas	city site, police, municipal court
+27	Eagle Lake	Polk	— skip, under 5,000
+28	Edgewater	Volusia	city site, police, municipal court
+29	Eustis	Lake	city site, police, municipal court
+30	Fernandina Beach	Nassau	city site, police, municipal court
+
+
+exact websites, and other details, hrs, addresses, phone #s etc.
+
+#	City	County	Needs
+1	Fort Myers	Lee	city site, police, municipal court
+2	Fort Pierce	St. Lucie	city site, police, municipal court
+3	Fort Walton Beach	Okaloosa	city site, police, municipal court
+4	Greenacres	Palm Beach	city site, police, municipal court
+5	Green Cove Springs	Clay	city site, police, municipal court
+6	Haines City	Polk	city site, police, municipal court
+7	Hallandale Beach	Broward	city site, police, municipal court
+8	Hialeah Gardens	Miami-Dade	city site, police, municipal court
+9	Holly Hill	Volusia	city site, police, municipal court
+10	Inverness	Citrus	city site, police, municipal court
+11	Jacksonville Beach	Duval	city site, police, municipal court
+12	Jupiter	Palm Beach	city site, police, municipal court
+13	Key West	Monroe	city site, police, municipal court
+14	Kissimmee	Osceola	city site, police, municipal court
+15	Lady Lake	Lake	city site, police, municipal court
+16	Lake City	Columbia	city site, police, municipal court
+17	Lake Mary	Seminole	city site, police, municipal court
+18	Lake Wales	Polk	city site, police, municipal court
+19	Lake Worth Beach	Palm Beach	city site, police, municipal court
+20	Lauderhill	Broward	city site, police, municipal court
+21	Leesburg	Lake	city site, police, municipal court
+22	Lehigh Acres	Lee	city site, police, municipal court
+23	Longwood	Seminole	city site, police, municipal court
+24	Lynn Haven	Bay	city site, police, municipal court
+25	Maitland	Orange	city site, police, municipal court
+26	Margate	Broward	city site, police, municipal court
+27	Melbourne	Brevard	city site, police, municipal court
+28	Miami Lakes	Miami-Dade	city site, police, municipal court
+29	Miami Springs	Miami-Dade	city site, police, municipal court
+30	Milton	Santa Rosa	city site, police, municipal court
+
+
+Florida batch 4 — next 30 cities (5,000+):
+
+#	City	County	Needs
+1	Minneola	Lake	— skip, under 5,000
+2	Mount Dora	Lake	city site, police, municipal court
+3	Naples	Collier	city site, police, municipal court
+4	Neptune Beach	Duval	city site, police, municipal court
+5	New Port Richey	Pasco	city site, police, municipal court
+6	New Smyrna Beach	Volusia	city site, police, municipal court
+7	Niceville	Okaloosa	city site, police, municipal court
+8	North Miami	Miami-Dade	city site, police, municipal court
+9	North Miami Beach	Miami-Dade	city site, police, municipal court
+10	North Palm Beach	Palm Beach	city site, police, municipal court
+11	North Port	Sarasota	city site, police, municipal court
+12	Oakland Park	Broward	city site, police, municipal court
+13	Ocala	Marion	city site, police, municipal court
+14	Ocoee	Orange	city site, police, municipal court
+15	Oldsmar	Pinellas	city site, police, municipal court
+16	Orange City	Volusia	city site, police, municipal court
+17	Orange Park	Clay	city site, police, municipal court
+18	Orlando	Orange	city site, police, municipal court
+19	Ormond Beach	Volusia	city site, police, municipal court
+20	Oviedo	Seminole	city site, police, municipal court
+21	Palatka	Putnam	city site, police, municipal court
+22	Palm Bay	Brevard	city site, police, municipal court
+23	Palm Beach Gardens	Palm Beach	city site, police, municipal court
+24	Palm Coast	Flagler	city site, police, municipal court
+25	Palm Springs	Palm Beach	city site, police, municipal court
+26	Palmetto	Manatee	city site, police, municipal court
+27	Panama City	Bay	city site, police, municipal court
+28	Parkland	Broward	city site, police, municipal court
+29	Pembroke Park	Broward	city site, police, municipal court
+30	Pensacola	Escambia	city site, police, municipal court
+
+FLORIDA BATCH 5 — REMAINING 5,000+ CITIES
+
+FLORIDA BATCH 5 — REMAINING 5,000+ CITIES
+
+#	City	County	Needs
+1	Altamonte Springs	Seminole	city site, police, municipal court
+2	Avon Park	Highlands	city site, police, municipal court
+3	Brooksville	Hernando	city site, police, municipal court
+4	Dade City	Pasco	city site, police, municipal court
+5	Destin	Okaloosa	city site, police, municipal court
+6	Groveland	Lake	city site, police, municipal court
+7	Marco Island	Collier	city site, police, municipal court
+8	Palmetto Bay	Miami-Dade	city site, police, municipal court
+9	Plant City	Hillsborough	city site, police, municipal court
+10	Port Charlotte	Charlotte	city site, police, municipal court
+11	Port Orange	Volusia	city site, police, municipal court
+12	Punta Gorda	Charlotte	city site, police, municipal court
+13	Riviera Beach	Palm Beach	city site, police, municipal court
+14	Royal Palm Beach	Palm Beach	city site, police, municipal court
+15	Sanford	Seminole	city site, police, municipal court
+16	Sarasota	Sarasota	city site, police, municipal court
+17	Sebastian	Indian River	city site, police, municipal court
+18	Sebring	Highlands	city site, police, municipal court
+19	Seminole	Pinellas	city site, police, municipal court
+20	St. Augustine	St. Johns	city site, police, municipal court
+21	St. Cloud	Osceola	city site, police, municipal court
+22	Stuart	Martin	city site, police, municipal court
+23	Tamarac	Broward	city site, police, municipal court
+24	Tarpon Springs	Pinellas	city site, police, municipal court
+25	Tavares	Lake	city site, police, municipal court
+26	Temple Terrace	Hillsborough	city site, police, municipal court
+27	The Villages	Marion	city site, police, municipal court
+28	Titusville	Brevard	city site, police, municipal court
+29	Venice	Sarasota	city site, police, municipal court
+30	Vero Beach	Indian River	city site, police, municipal court
+31	Wellington	Palm Beach	city site, police, municipal court
+32	Weston	Broward	city site, police, municipal court
+33	Winter Garden	Orange	city site, police, municipal court
+34	Winter Haven	Polk	city site, police, municipal court
+35	Winter Park	Orange	city site, police, municipal court
+36	Winter Springs	Seminole	city site, police, municipal court
+37	Zephyrhills	Pasco	city site, police, municipal court
+
+
+
+GA
+
+GEORGIA — 5,000+ CITIES RESEARCH LIST
+
+#	City	County	Needs
+1	Acworth	Cobb	city site, police, municipal court
+2	Albany	Dougherty	city site, police, municipal court
+3	Alpharetta	Fulton	city site, police, municipal court
+4	Athens	Clarke	city site, police, municipal court
+5	Atlanta	Fulton	city site, police, municipal court
+6	Augusta	Richmond	city site, police, municipal court
+7	Brookhaven	DeKalb	city site, police, municipal court
+8	Carrollton	Carroll	city site, police, municipal court
+9	Chamblee	DeKalb	city site, police, municipal court
+10	College Park	Clayton	city site, police, municipal court
+11	Columbus	Muscogee	city site, police, municipal court
+12	Cumming	Forsyth	city site, police, municipal court
+13	Dalton	Whitfield	city site, police, municipal court
+14	Decatur	DeKalb	city site, police, municipal court
+15	Douglasville	Douglas	city site, police, municipal court
+16	Duluth	Gwinnett	city site, police, municipal court
+17	Dunwoody	DeKalb	city site, police, municipal court
+18	East Point	Fulton	city site, police, municipal court
+19	Fayetteville	Fayette	city site, police, municipal court
+20	Forest Park	Clayton	city site, police, municipal court
+21	Gainesville	Hall	city site, police, municipal court
+22	Johns Creek	Fulton	city site, police, municipal court
+23	Kennesaw	Cobb	city site, police, municipal court
+24	Lawrenceville	Gwinnett	city site, police, municipal court
+25	Macon	Bibb	city site, police, municipal court
+26	Marietta	Cobb	city site, police, municipal court
+27	McDonough	Henry	city site, police, municipal court
+28	Milton	Fulton	city site, police, municipal court
+29	Newnan	Coweta	city site, police, municipal court
+30	Norcross	Gwinnett	city site, police, municipal court
+31	Peachtree City	Fayette	city site, police, municipal court
+32	Peachtree Corners	Gwinnett	city site, police, municipal court
+33	Pooler	Chatham	city site, police, municipal court
+34	Powder Springs	Cobb	city site, police, municipal court
+35	Riverdale	Clayton	city site, police, municipal court
+36	Rome	Floyd	city site, police, municipal court
+37	Roswell	Fulton	city site, police, municipal court
+38	Sandy Springs	Fulton	city site, police, municipal court
+39	Savannah	Chatham	city site, police, municipal court
+40	Smyrna	Cobb	city site, police, municipal court
+41	Snellville	Gwinnett	city site, police, municipal court
+42	Stockbridge	Henry	city site, police, municipal court
+43	Stone Mountain	DeKalb	city site, police, municipal court
+44	Sugar Hill	Gwinnett	city site, police, municipal court
+45	Suwanee	Gwinnett	city site, police, municipal court
+46	Tucker	DeKalb	city site, police, municipal court
+47	Union City	Fulton	city site, police, municipal court
+48	Valdosta	Lowndes	city site, police, municipal court
+49	Warner Robins	Bibb	city site, police, municipal court
+50	Woodstock	Cherokee	city site, police, municipal court
+
+
+
+
+#	City	County	Needs
+1	Adairsville	Bartow	city site, police, municipal court
+2	Americus	Sumter	city site, police, municipal court
+3	Blairsville	Union	city site, police, municipal court
+4	Brunswick	Glynn	city site, police, municipal court
+5	Cairo	Grady	city site, police, municipal court
+6	Calhoun	Gordon	city site, police, municipal court
+7	Cartersville	Bartow	city site, police, municipal court
+8	Cedartown	Polk	city site, police, municipal court
+9	Chatsworth	Murray	city site, police, municipal court
+10	Cleveland	White	city site, police, municipal court
+11	Commerce	Jackson	city site, police, municipal court
+12	Conyers	Rockdale	city site, police, municipal court
+13	Cornelia	Habersham	city site, police, municipal court
+14	Covington	Newton	city site, police, municipal court
+15	Dahlonega	Lumpkin	city site, police, municipal court
+16	Dallas	Paulding	city site, police, municipal court
+17	Douglas	Coffee	city site, police, municipal court
+18	Dublin	Laurens	city site, police, municipal court
+19	Fort Oglethorpe	Catoosa	city site, police, municipal court
+20	Griffin	Spalding	city site, police, municipal court
+21	Hinesville	Liberty	city site, police, municipal court
+22	Hiram	Paulding	city site, police, municipal court
+23	Jefferson	Jackson	city site, police, municipal court
+24	Jesup	Wayne	city site, police, municipal court
+25	Kingsland	Camden	city site, police, municipal court
+26	Lafayette	Walker	city site, police, municipal court
+27	LaGrange	Troup	city site, police, municipal court
+28	Lyons	Toombs	city site, police, municipal court
+29	Milledgeville	Baldwin	city site, police, municipal court
+30	Monroe	Walton	city site, police, municipal court
+31	Moultrie	Colquitt	city site, police, municipal court
+32	Rincon	Effingham	city site, police, municipal court
+33	Ringgold	Catoosa	city site, police, municipal court
+34	Rockmart	Polk	city site, police, municipal court
+35	Springfield	Effingham	city site, police, municipal court
+36	St. Marys	Camden	city site, police, municipal court
+37	Statesboro	Bulloch	city site, police, municipal court
+38	Sylvester	Worth	city site, police, municipal court
+39	Thomasville	Thomas	city site, police, municipal court
+40	Tifton	Tift	city site, police, municipal court
+41	Toccoa	Stephens	city site, police, municipal court
+42	Vidalia	Toombs	city site, police, municipal court
+43	Waycross	Ware	city site, police, municipal court
+
+
+exact websites, and other details, hrs, addresses, phone #s etc.
+
+HI
+
+
+#	City	County	Needs
+
+1	Hilo	Hawaii	city site, police, municipal court
+2	Kailua Kona	Hawaii	city site, police, municipal court
+3	Honolulu	Honolulu	city site, police, municipal court
+4	Lihue	Kauai	city site, police, municipal court
+5	Kahului	Maui	city site, police, municipal court
+6	Kihei	Maui	city site, police, municipal court
+7	Lahaina	Maui	city site, police, municipal court
+7 cities. Research them and I'll write them in one batch. Hawaii is all county-level policing (no municipal PDs), so the court info will tie to the state judiciary system.
+
+
+IA 
+
+
+
+#	City	County	Needs
+1	Ames	Story	city site, police, municipal court
+2	Ankeny	Polk	city site, police, municipal court
+3	Bettendorf	Scott	city site, police, municipal court
+4	Cedar Falls	Black Hawk	city site, police, municipal court
+5	Cedar Rapids	Linn	city site, police, municipal court
+6	Clinton	Clinton	city site, police, municipal court
+7	Council Bluffs	Pottawattamie	city site, police, municipal court
+8	Davenport	Scott	city site, police, municipal court
+9	Des Moines	Polk	city site, police, municipal court
+10	Dubuque	Dubuque	city site, police, municipal court
+11	Indianola	Warren	city site, police, municipal court
+12	Iowa City	Johnson	city site, police, municipal court
+13	Marion	Linn	city site, police, municipal court
+14	Marshalltown	Marshall	city site, police, municipal court
+15	Mason City	Cerro Gordo	city site, police, municipal court
+16	Sioux City	Woodbury	city site, police, municipal court
+17	Urbandale	Polk	city site, police, municipal court
+18	Waterloo	Black Hawk	city site, police, municipal court
+19	Waukee	Dallas	city site, police, municipal court
+20	West Des Moines	Polk	city site, police, municipal court
+
+
+
+
+IOWA BATCH 2 — REMAINING 5,000+ CITIES
+
+#	City	County	Needs
+
+
+1	Algona	Kossuth	city site, police, municipal court
+2	Atlantic	Cass	city site, police, municipal court
+3	Boone	Boone	city site, police, municipal court
+4	Burlington	Des Moines	city site, police, municipal court
+5	Carroll	Carroll	city site, police, municipal court
+6	Charles City	Floyd	city site, police, municipal court
+7	Clarinda	Page	city site, police, municipal court
+8	Clarion	Wright	city site, police, municipal court
+9	Cresco	Howard	city site, police, municipal court
+10	Creston	Union	city site, police, municipal court
+11	Decorah	Winneshiek	city site, police, municipal court
+12	Denison	Crawford	city site, police, municipal court
+13	Eldora	Hardin	city site, police, municipal court
+14	Estherville	Emmet	city site, police, municipal court
+15	Forest City	Winnebago	city site, police, municipal court
+16	Fort Dodge	Webster	city site, police, municipal court
+17	Fort Madison	Lee	city site, police, municipal court
+18	Glenwood	Mills	city site, police, municipal court
+19	Grinnell	Poweshiek	city site, police, municipal court
+20	Harlan	Shelby	city site, police, municipal court
+21	Humboldt	Humboldt	city site, police, municipal court
+22	Independence	Buchanan	city site, police, municipal court
+23	Jefferson	Greene	city site, police, municipal court
+24	Keokuk	Lee	city site, police, municipal court
+25	Knoxville	Marion	city site, police, municipal court
+26	Le Mars	Plymouth	city site, police, municipal court
+27	Manchester	Delaware	city site, police, municipal court
+28	Maquoketa	Jackson	city site, police, municipal court
+29	Missouri Valley	Harrison	city site, police, municipal court
+30	Mount Pleasant	Henry	city site, police, municipal court
+
+
+IOWA BATCH 3 — FINAL 25 CITIES
+
+#	City	County	Needs
+
+1	Muscatine	Muscatine	city site, police, municipal court
+2	Newton	Jasper	city site, police, municipal court
+3	Northwood	Worth	city site, police, municipal court
+4	Oelwein	Fayette	city site, police, municipal court
+5	Orange City	Sioux	city site, police, municipal court
+6	Osage	Mitchell	city site, police, municipal court
+7	Oskaloosa	Mahaska	city site, police, municipal court
+8	Ottumwa	Wapello	city site, police, municipal court
+9	Pella	Marion	city site, police, municipal court
+10	Red Oak	Montgomery	city site, police, municipal court
+11	Rock Rapids	Lyon	city site, police, municipal court
+12	Sac City	Sac	city site, police, municipal court
+13	Sheldon	O'Brien	city site, police, municipal court
+14	Sioux Center	Sioux	city site, police, municipal court
+15	Spencer	Clay	city site, police, municipal court
+16	Spirit Lake	Dickinson	city site, police, municipal court
+17	Storm Lake	Buena Vista	city site, police, municipal court
+18	Toledo	Tama	city site, police, municipal court
+19	Vinton	Benton	city site, police, municipal court
+20	Washington	Washington	city site, police, municipal court
+21	Waverly	Bremer	city site, police, municipal court
+22	Webster City	Hamilton	city site, police, municipal court
+23	West Union	Fayette	city site, police, municipal court
+24	Winterset	Madison	city site, police, municipal court
+25	Grundy Center	Grundy	city site, police, municipal court
+
+ID
+
+IDAHO BATCH 1 — EXISTING CITY FOLDERS (17)
+
+#	City	County	Needs
+
+1	Boise	Ada	city site, police, municipal court
+2	Eagle	Ada	city site, police, municipal court
+3	Kuna	Ada	city site, police, municipal court
+4	Meridian	Ada	city site, police, municipal court
+5	Pocatello	Bannock	city site, police, municipal court
+6	Blackfoot	Bingham	city site, police, municipal court
+7	Hailey	Blaine	city site, police, municipal court
+8	Idaho Falls	Bonneville	city site, police, municipal court
+9	Caldwell	Canyon	city site, police, municipal court
+10	Nampa	Canyon	city site, police, municipal court
+11	Coeur d'Alene	Kootenai	city site, police, municipal court
+12	Post Falls	Kootenai	city site, police, municipal court
+13	Rexburg	Madison	city site, police, municipal court
+14	Lewiston	Nez Perce	city site, police, municipal court
+15	Twin Falls	Twin Falls	city site, police, municipal court
+
+IDAHO BATCH 2 — NEWLY CREATED FOLDERS (26)
+
+#	City	County	Needs
+
+16	Ammon	Bonneville	city site, police, municipal court
+17	Jerome	Jerome	city site, police, municipal court
+18	Rupert	Minidoka	city site, police, municipal court
+19	Burley	Cassia	city site, police, municipal court
+20	Rigby	Jefferson	city site, police, municipal court
+21	Mountain Home	Elmore	city site, police, municipal court
+22	Moscow	Latah	city site, police, municipal court
+23	Payette	Payette	city site, police, municipal court
+24	Bonners Ferry	Boundary	city site, police, municipal court
+25	Gooding	Gooding	city site, police, municipal court
+26	Kellogg	Shoshone	city site, police, municipal court
+27	Emmett	Gem	city site, police, municipal court
+28	Saint Anthony	Fremont	city site, police, municipal court
+29	Weiser	Washington	city site, police, municipal court
+30	McCall	Valley	city site, police, municipal court
+31	Salmon	Lemhi	city site, police, municipal court
+32	Orofino	Clearwater	city site, police, municipal court
+33	Soda Springs	Caribou	city site, police, municipal court
+34	Montpelier	Bear Lake	city site, police, municipal court
+35	Preston	Franklin	city site, police, municipal court
+36	American Falls	Power	city site, police, municipal court
+37	Homedale	Owyhee	city site, police, municipal court
+38	Star	Ada	city site, police, municipal court
+39	Garden City	Ada	city site, police, municipal court
+
+
+
+
+
+

@@ -1,12 +1,14 @@
 # Soda Springs — Local Law Resources
+## City Website
+- https://www.cariboucounty.us/
 ## Law Enforcement
-- Soda Springs Police Department
-- Caribou County Sheriff
+- Soda Springs PD — 159 E 2nd S — (208) 547-3213
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Soda Springs Municipal Court
+- Caribou County Magistrate Court — 159 S Main St — (208) 547-2561
+- **Court Website**: https://www.cariboucounty.us/
 ## Building Permits
-- Soda Springs Building Department
+- Soda Springs Building Department — https://www.cariboucounty.us/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

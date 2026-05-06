@@ -1,12 +1,14 @@
 # Bonners Ferry — Local Law Resources
+## City Website
+- https://bonnersferry.id.gov/
 ## Law Enforcement
-- Bonners Ferry Police Department
-- Boundary County Sheriff
+- Bonners Ferry PD — (208) 267-2412
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Bonners Ferry Municipal Court
+- Boundary County Magistrate Court — 6452 Kootenai St — (208) 267-3151
+- **Court Website**: https://www.boundarycountyid.org/
 ## Building Permits
-- Bonners Ferry Building Department
+- Bonners Ferry Building Department — https://bonnersferry.id.gov/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

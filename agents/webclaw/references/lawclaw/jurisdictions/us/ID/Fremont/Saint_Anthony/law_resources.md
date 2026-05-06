@@ -1,12 +1,14 @@
 # Saint Anthony — Local Law Resources
+## City Website
+- https://www.fremontcountyid.gov/
 ## Law Enforcement
-- Saint Anthony Police Department
-- Fremont County Sheriff
+- Fremont County Sheriff — 151 W 1st North St — (208) 624-7401
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Saint Anthony Municipal Court
+- Fremont County Magistrate Court — (208) 624-7200
+- **Court Website**: https://www.fremontcountyid.gov/
 ## Building Permits
-- Saint Anthony Building Department
+- Saint Anthony Building Department — https://www.fremontcountyid.gov/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations

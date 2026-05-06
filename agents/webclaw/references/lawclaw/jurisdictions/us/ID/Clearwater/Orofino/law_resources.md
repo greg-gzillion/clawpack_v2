@@ -1,12 +1,14 @@
 # Orofino — Local Law Resources
+## City Website
+- https://cityoforofino.org/
 ## Law Enforcement
-- Orofino Police Department
-- Clearwater County Sheriff
+- Orofino PD — (208) 476-5551
 - Idaho State Police — https://www.isp.idaho.gov/
 ## Courts
-- Orofino Municipal Court
+- Clearwater County Magistrate Court — 217 1st St — (208) 476-5551
+- **Court Website**: https://www.clearwatercounty.org/
 ## Building Permits
-- Orofino Building Department
+- Orofino Building Department — https://cityoforofino.org/
 ## Hunting Regulations
 - ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
 ## Fishing Regulations
