@@ -1,17 +1,19 @@
-# Prescott - Local Law Resources
+# Prescott — Local Law Resources
+## City Website
+- https://www.prescott-az.gov/
 ## Law Enforcement
-- Prescott Police Department
+- Prescott Police Dept — 222 S Marina St — (928) 777-1900
 - Yavapai County Sheriff
-- Arizona Department of Public Safety - https://www.azdps.gov/
+- Arizona Department of Public Safety — https://www.azdps.gov/
 ## Courts
-- Prescott Municipal Court
+- Prescott Consolidated Justice/City Court — 120 S Cortez St — (928) 771-3300
 ## Building Permits
-- Prescott Building Department
+- Prescott Building Department — https://www.prescott-az.gov/
 ## Hunting Regulations
-- AZ Hunting Regulations - https://www.azgfd.com/hunting/regulations/
+- AZ Hunting Regulations — https://www.azgfd.com/hunting/regulations/
 ## Fishing Regulations
-- AZ Fishing Regulations - https://www.azgfd.com/fishing/regulations/
+- AZ Fishing Regulations — https://www.azgfd.com/fishing/regulations/
 ## Legal Aid
-- Community Legal Services of Arizona - https://www.clsaz.org/
+- Community Legal Services of Arizona — https://www.clsaz.org/
 ## Corrections
 - Yavapai County Jail
