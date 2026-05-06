@@ -1,14 +1,14 @@
-# Charleston — Local Law Resources
+# Aurora — Local Law Resources
 ## City Website
-- https://www.colesco.illinois.gov/
+- https://www.cityofaurora.org/
 ## Law Enforcement
-- Charleston PD — 614 6th St — (217) 348-5221
+- Aurora PD — 154 W Galena Blvd — (630) 256-5425
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Coles County Circuit Court — 651 Jackson Ave — (217) 348-0516
-- **Court Website**: https://www.colesco.illinois.gov/
+- Kane County Circuit Court — Aurora Branch — 25 S Broadway — (331) 210-4900
+- **Court Website**: https://www.kanecourtsofficial.org/
 ## Building Permits
-- Charleston Building Department — https://www.colesco.illinois.gov/
+- Aurora Building Department — https://www.cityofaurora.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Coles County Jail
+- Kane County Jail

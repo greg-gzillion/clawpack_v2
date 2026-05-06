@@ -1,12 +1,14 @@
 # East Peoria — Local Law Resources
+## City Website
+- https://www.eastpeoria.org/
 ## Law Enforcement
-- East Peoria Police Department
-- Tazewell County Sheriff
+- East Peoria PD — (309) 699-7124
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- East Peoria Municipal Court
+- Tazewell County Circuit Court — 101 W Water St, Pekin — (309) 347-6100
+- **Court Website**: https://www.tazewell.com/
 ## Building Permits
-- East Peoria Building Department
+- East Peoria Building Department — https://www.eastpeoria.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations

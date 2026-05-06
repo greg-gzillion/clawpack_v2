@@ -1,3 +1,6 @@
 # Eureka Municipal Court
 ## Court Information
-- Eureka Municipal Court
+- Woodford County Circuit Court — 111 W Court St — (309) 467-2375
+- **Court Website**: https://www.woodfordcountyil.gov/
+## City Website
+- https://www.eurekaillinois.net/

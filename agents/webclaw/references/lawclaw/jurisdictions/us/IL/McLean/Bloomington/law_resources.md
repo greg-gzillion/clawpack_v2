@@ -1,14 +1,14 @@
-# Charleston — Local Law Resources
+# Bloomington — Local Law Resources
 ## City Website
-- https://www.colesco.illinois.gov/
+- https://www.bloomingtonil.gov/
 ## Law Enforcement
-- Charleston PD — 614 6th St — (217) 348-5221
+- Bloomington PD — 115 E Washington St — (309) 434-2509
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Coles County Circuit Court — 651 Jackson Ave — (217) 348-0516
-- **Court Website**: https://www.colesco.illinois.gov/
+- McLean County Circuit Court — 104 W Front St — (309) 888-5301
+- **Court Website**: https://www.mcleancountyil.gov/
 ## Building Permits
-- Charleston Building Department — https://www.colesco.illinois.gov/
+- Bloomington Building Department — https://www.bloomingtonil.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Coles County Jail
+- McLean County Jail

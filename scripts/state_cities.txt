@@ -823,6 +823,40 @@ IDAHO BATCH 2 — NEWLY CREATED FOLDERS (26)
 39	Garden City	Ada	city site, police, municipal court
 
 
+IL 
+
+Now the full Illinois research list — 60 cities total. Here's the first batch:
+
+ILLINOIS — RESEARCH LIST (60 cities)
+
+#	City	County	Needs
+1	Algonquin	McHenry	city site, police, municipal court
+2	Alton	Madison	city site, police, municipal court
+3	Arlington Heights	Cook	city site, police, municipal court
+4	Aurora	Kane	city site, police, municipal court
+5	Belleville	St. Clair	city site, police, municipal court
+6	Bloomington	McLean	city site, police, municipal court
+7	Bolingbrook	DuPage	city site, police, municipal court
+8	Carbondale	Jackson	city site, police, municipal court
+9	Champaign	Champaign	city site, police, municipal court
+10	Charleston	Coles	city site, police, municipal court
+11	Chicago	Cook	city site, police, municipal court
+12	Collinsville	Madison	city site, police, municipal court
+13	Crystal Lake	McHenry	city site, police, municipal court
+14	Danville	Vermilion	city site, police, municipal court
+15	Decatur	Macon	city site, police, municipal court
+16	DeKalb	DeKalb	city site, police, municipal court
+17	Downers Grove	DuPage	city site, police, municipal court
+18	East Peoria	Tazewell	city site, police, municipal court
+19	East St. Louis	St. Clair	city site, police, municipal court
+20	Edwardsville	Madison	city site, police, municipal court
+21	Elgin	Cook	city site, police, municipal court
+22	Eureka	Woodford	city site, police, municipal court
+23	Evanston	Cook	city site, police, municipal court
+24	Freeport	Stephenson	city site, police, municipal court
+25	Galesburg	Knox	city site, police, municipal court
+
+
 
 
 

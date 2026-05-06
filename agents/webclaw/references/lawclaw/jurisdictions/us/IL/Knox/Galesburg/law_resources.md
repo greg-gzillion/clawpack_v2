@@ -1,12 +1,14 @@
 # Galesburg — Local Law Resources
+## City Website
+- https://www.ci.galesburg.il.us/
 ## Law Enforcement
-- Galesburg Police Department
-- Knox County Sheriff
+- Galesburg PD — 150 S Broad St — (309) 343-9151
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Galesburg Municipal Court
+- Knox County Circuit Court — Traffic Division — 200 S Cherry St — (309) 343-3121
+- **Court Website**: https://www.knoxcountyil.gov/
 ## Building Permits
-- Galesburg Building Department
+- Galesburg Building Department — https://www.ci.galesburg.il.us/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations

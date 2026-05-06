@@ -1,14 +1,14 @@
-# Charleston — Local Law Resources
+# Arlington Heights — Local Law Resources
 ## City Website
-- https://www.colesco.illinois.gov/
+- https://www.arlingtonheights.net/
 ## Law Enforcement
-- Charleston PD — 614 6th St — (217) 348-5221
+- Arlington Heights PD — 33 S Arlington Heights Rd — (847) 368-5300
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Coles County Circuit Court — 651 Jackson Ave — (217) 348-0516
-- **Court Website**: https://www.colesco.illinois.gov/
+- Cook County Circuit Court — Rolling Meadows — (312) 603-5000
+- **Court Website**: https://www.cookcountycourt.org/
 ## Building Permits
-- Charleston Building Department — https://www.colesco.illinois.gov/
+- Arlington Heights Building Department — https://www.arlingtonheights.net/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Coles County Jail
+- Cook County Jail

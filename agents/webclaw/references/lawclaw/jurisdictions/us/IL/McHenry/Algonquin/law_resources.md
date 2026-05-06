@@ -1,12 +1,14 @@
 # Algonquin — Local Law Resources
+## City Website
+- https://www.algonquin.org/
 ## Law Enforcement
-- Algonquin Police Department
-- McHenry County Sheriff
+- Algonquin PD — 2200 Harnish Dr — (847) 658-4531
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Algonquin Municipal Court
+- McHenry County Circuit Clerk — Branch Office — (815) 334-2100
+- **Court Website**: https://www.mchenrycountyil.gov/
 ## Building Permits
-- Algonquin Building Department
+- Algonquin Building Department — https://www.algonquin.org/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations

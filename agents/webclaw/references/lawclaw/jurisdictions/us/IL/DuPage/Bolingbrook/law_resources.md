@@ -1,14 +1,14 @@
-# Charleston — Local Law Resources
+# Bolingbrook — Local Law Resources
 ## City Website
-- https://www.colesco.illinois.gov/
+- https://www.bolingbrook.gov/
 ## Law Enforcement
-- Charleston PD — 614 6th St — (217) 348-5221
+- Bolingbrook PD — (630) 226-8600
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Coles County Circuit Court — 651 Jackson Ave — (217) 348-0516
-- **Court Website**: https://www.colesco.illinois.gov/
+- Will County Circuit Court — Bolingbrook Branch — (815) 727-8592
+- **Court Website**: https://www.willcountycourts.com/
 ## Building Permits
-- Charleston Building Department — https://www.colesco.illinois.gov/
+- Bolingbrook Building Department — https://www.bolingbrook.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Coles County Jail
+- DuPage County Jail

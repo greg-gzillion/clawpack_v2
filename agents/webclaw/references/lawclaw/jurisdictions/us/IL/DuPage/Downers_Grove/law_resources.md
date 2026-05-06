@@ -1,14 +1,14 @@
-# Charleston — Local Law Resources
+# Downers Grove — Local Law Resources
 ## City Website
-- https://www.colesco.illinois.gov/
+- https://www.downers.us/
 ## Law Enforcement
-- Charleston PD — 614 6th St — (217) 348-5221
+- Downers Grove PD — (630) 434-5600
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Coles County Circuit Court — 651 Jackson Ave — (217) 348-0516
-- **Court Website**: https://www.colesco.illinois.gov/
+- DuPage County Circuit Court — 501 N County Farm Rd, Wheaton — (630) 407-6000
+- **Court Website**: https://www.dupageco.org/courts/
 ## Building Permits
-- Charleston Building Department — https://www.colesco.illinois.gov/
+- Downers Grove Building Department — https://www.downers.us/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Coles County Jail
+- DuPage County Jail

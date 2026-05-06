@@ -1,14 +1,14 @@
-# Charleston — Local Law Resources
+# Elgin — Local Law Resources
 ## City Website
-- https://www.colesco.illinois.gov/
+- https://elginil.gov/
 ## Law Enforcement
-- Charleston PD — 614 6th St — (217) 348-5221
+- Elgin PD — 151 Douglas Ave — (847) 289-2700
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Coles County Circuit Court — 651 Jackson Ave — (217) 348-0516
-- **Court Website**: https://www.colesco.illinois.gov/
+- Administrative Adjudication — 1st & 3rd Fri 9am — (847) 289-2664
+- **Court Website**: https://elginil.gov/
 ## Building Permits
-- Charleston Building Department — https://www.colesco.illinois.gov/
+- Elgin Building Department — https://elginil.gov/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Illinois Legal Aid — https://www.illinoislegalaid.org/
 ## Corrections
-- Coles County Jail
+- Cook County Jail

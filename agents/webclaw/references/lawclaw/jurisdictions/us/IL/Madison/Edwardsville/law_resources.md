@@ -1,12 +1,14 @@
 # Edwardsville — Local Law Resources
+## City Website
+- https://www.cityofedwardsville.com/
 ## Law Enforcement
-- Edwardsville Police Department
-- Madison County Sheriff
+- Edwardsville PD — (618) 656-2131
 - Illinois State Police — https://www.isp.state.il.us/
 ## Courts
-- Edwardsville Municipal Court
+- Edwardsville Municipal Court — 4 PM every other Thu — (618) 656-2131
+- **Court Website**: https://www.cityofedwardsville.com/municipal-court
 ## Building Permits
-- Edwardsville Building Department
+- Edwardsville Building Department — https://www.cityofedwardsville.com/
 ## Hunting Regulations
 - IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
 ## Fishing Regulations
