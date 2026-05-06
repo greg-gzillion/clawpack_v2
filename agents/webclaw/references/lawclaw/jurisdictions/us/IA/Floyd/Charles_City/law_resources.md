@@ -1,12 +1,14 @@
 # Charles City — Local Law Resources
+## City Website
+- https://www.charlescityiowa.com/
 ## Law Enforcement
-- Charles City Police Department
-- Floyd County Sheriff
+- Charles City PD — (641) 228-3366
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Charles City Municipal Court
+- Floyd County Clerk — 101 S Main St Ste 501 — (641) 257-6217
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Charles City Building Department
+- Charles City Building Department — https://www.charlescityiowa.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

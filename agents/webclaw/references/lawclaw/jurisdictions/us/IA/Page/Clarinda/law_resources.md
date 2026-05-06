@@ -1,12 +1,14 @@
 # Clarinda — Local Law Resources
+## City Website
+- https://www.cityofclarinda.com/
 ## Law Enforcement
-- Clarinda Police Department
-- Page County Sheriff
+- Clarinda PD — (712) 542-2194
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Clarinda Municipal Court
+- Page County Clerk — 112 E Main St — (712) 542-5134
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Clarinda Building Department
+- Clarinda Building Department — https://www.cityofclarinda.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

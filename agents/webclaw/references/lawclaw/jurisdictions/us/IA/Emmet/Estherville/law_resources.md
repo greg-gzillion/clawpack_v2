@@ -1,12 +1,14 @@
 # Estherville — Local Law Resources
+## City Website
+- https://www.esthervilleiowa.com/
 ## Law Enforcement
-- Estherville Police Department
-- Emmet County Sheriff
+- Estherville PD — 114 N 6th St — (712) 362-3515
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Estherville Municipal Court
+- Emmet County Clerk — 609 1st Ave N — (712) 362-3325
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Estherville Building Department
+- Estherville Building Department — https://www.esthervilleiowa.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

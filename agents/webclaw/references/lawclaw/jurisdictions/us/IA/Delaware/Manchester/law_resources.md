@@ -1,12 +1,14 @@
 # Manchester — Local Law Resources
+## City Website
+- https://manchestertwp.com/
 ## Law Enforcement
-- Manchester Police Department
-- Delaware County Sheriff
+- Manchester PD — 200 Highlands Blvd Dr — (563) 927-3245
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Manchester Municipal Court
+- Delaware County Clerk — 200 Central Ave — (563) 927-3245
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Manchester Building Department
+- Manchester Building Department — https://manchestertwp.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

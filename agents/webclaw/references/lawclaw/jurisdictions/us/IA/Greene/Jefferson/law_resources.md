@@ -1,12 +1,14 @@
 # Jefferson — Local Law Resources
+## City Website
+- https://cityofjeffersoniowa.org/
 ## Law Enforcement
-- Jefferson Police Department
-- Greene County Sheriff
+- Jefferson PD — 1005 E Lincoln Way — (515) 386-2136
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Jefferson Municipal Court
+- Greene County Clerk — 114 N Main St — (515) 386-2126
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Jefferson Building Department
+- Jefferson Building Department — https://cityofjeffersoniowa.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

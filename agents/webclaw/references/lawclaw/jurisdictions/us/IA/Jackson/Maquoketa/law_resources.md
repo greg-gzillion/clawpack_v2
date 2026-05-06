@@ -1,12 +1,14 @@
 # Maquoketa — Local Law Resources
+## City Website
+- https://www.maquoketaia.com/
 ## Law Enforcement
-- Maquoketa Police Department
-- Jackson County Sheriff
+- Maquoketa PD — 102 S Niagara St — (563) 652-2468
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Maquoketa Municipal Court
+- Jackson County Clerk — 201 W Platt St — (563) 652-3214
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Maquoketa Building Department
+- Maquoketa Building Department — https://www.maquoketaia.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

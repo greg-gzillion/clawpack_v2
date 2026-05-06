@@ -1,12 +1,14 @@
 # Humboldt — Local Law Resources
+## City Website
+- https://humboldtnews.com/
 ## Law Enforcement
-- Humboldt Police Department
-- Humboldt County Sheriff
+- Humboldt PD — 430 Sumner Ave — (515) 332-2514
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Humboldt Municipal Court
+- Humboldt County Clerk — 430 Sumner Ave — (515) 332-2514
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Humboldt Building Department
+- Humboldt Building Department — https://humboldtnews.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Independence — Local Law Resources
+## City Website
+- https://www.buchanancounty.iowa.gov/
 ## Law Enforcement
-- Independence Police Department
-- Buchanan County Sheriff
+- Independence PD — (319) 334-2246
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Independence Municipal Court
+- Buchanan County Clerk — 210 5th Ave NE — (319) 334-2246
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Independence Building Department
+- Independence Building Department — https://www.buchanancounty.iowa.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

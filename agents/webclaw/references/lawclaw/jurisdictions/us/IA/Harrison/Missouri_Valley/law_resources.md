@@ -1,12 +1,14 @@
 # Missouri Valley — Local Law Resources
+## City Website
+- https://cityofmissourivalley.com/
 ## Law Enforcement
-- Missouri Valley Police Department
-- Harrison County Sheriff
+- Missouri Valley PD — 223 E Erie St — (712) 642-2736
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Missouri Valley Municipal Court
+- Harrison County Clerk — 223 E Erie St — (712) 642-2736
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Missouri Valley Building Department
+- Missouri Valley Building Department — https://cityofmissourivalley.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

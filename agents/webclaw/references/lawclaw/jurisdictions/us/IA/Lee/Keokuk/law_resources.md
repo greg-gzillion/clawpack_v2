@@ -1,12 +1,14 @@
 # Keokuk — Local Law Resources
+## City Website
+- https://www.cityofkeokuk.org/
 ## Law Enforcement
-- Keokuk Police Department
-- Lee County Sheriff
+- Keokuk PD — 1222 Johnson St — (319) 524-1642
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Keokuk Municipal Court
+- Lee County District Court (South) — 25 N 7th St — (319) 524-2433
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Keokuk Building Department
+- Keokuk Building Department — https://www.cityofkeokuk.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

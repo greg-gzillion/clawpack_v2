@@ -1,12 +1,14 @@
 # Carroll — Local Law Resources
+## City Website
+- https://www.cityofcarroll.com/
 ## Law Enforcement
-- Carroll Police Department
-- Carroll County Sheriff
+- Carroll PD — 112 E 5th St — (712) 792-3536
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Carroll Municipal Court
+- Carroll County Clerk — (712) 792-1515
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Carroll Building Department
+- Carroll Building Department — https://www.cityofcarroll.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

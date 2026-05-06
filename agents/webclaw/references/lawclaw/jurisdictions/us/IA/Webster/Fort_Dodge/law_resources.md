@@ -1,12 +1,14 @@
 # Fort Dodge — Local Law Resources
+## City Website
+- https://www.fortdodgeiowa.org/
 ## Law Enforcement
-- Fort Dodge Police Department
-- Webster County Sheriff
+- Fort Dodge PD — 702 1st Ave S — (515) 573-1426
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Fort Dodge Municipal Court
+- Webster County Clerk — 701 Central Ave — (515) 576-4550
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Fort Dodge Building Department
+- Fort Dodge Building Department — https://www.fortdodgeiowa.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

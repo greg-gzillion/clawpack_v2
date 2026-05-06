@@ -1,12 +1,14 @@
 # Denison — Local Law Resources
+## City Website
+- https://denisonia.com/
 ## Law Enforcement
-- Denison Police Department
-- Crawford County Sheriff
+- Denison PD — 1202 Broadway — (712) 263-3354
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Denison Municipal Court
+- Crawford County Clerk — (712) 263-3643
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Denison Building Department
+- Denison Building Department — https://denisonia.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

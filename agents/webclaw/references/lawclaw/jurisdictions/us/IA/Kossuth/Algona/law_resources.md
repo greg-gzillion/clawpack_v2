@@ -1,12 +1,14 @@
 # Algona — Local Law Resources
+## City Website
+- https://kossuthcountyarrests.org/
 ## Law Enforcement
-- Algona Police Department
-- Kossuth County Sheriff
+- Algona PD — 112 West Call St — (515) 295-3515
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Algona Municipal Court
+- Kossuth County Circuit Clerk — (515) 295-3514
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Algona Building Department
+- Algona Building Department — https://kossuthcountyarrests.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

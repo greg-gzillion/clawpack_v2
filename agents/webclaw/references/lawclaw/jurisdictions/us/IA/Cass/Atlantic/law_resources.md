@@ -1,12 +1,14 @@
 # Atlantic — Local Law Resources
+## City Website
+- https://www.casscountyia.gov/
 ## Law Enforcement
-- Atlantic Police Department
-- Cass County Sheriff
+- Cass County Sheriff — (712) 243-2206
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Atlantic Municipal Court
+- Cass County Clerk — (712) 243-2105
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Atlantic Building Department
+- Atlantic Building Department — https://www.casscountyia.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Eldora — Local Law Resources
+## City Website
+- https://www.eldoraiowa.com/
 ## Law Enforcement
-- Eldora Police Department
-- Hardin County Sheriff
+- Eldora PD — 1442 Washington St — (641) 939-3333
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Eldora Municipal Court
+- Hardin County Clerk — 1215 Edgington Ave — (641) 858-2328
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Eldora Building Department
+- Eldora Building Department — https://www.eldoraiowa.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

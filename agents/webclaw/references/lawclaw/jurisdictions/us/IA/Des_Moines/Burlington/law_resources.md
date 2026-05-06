@@ -1,12 +1,14 @@
 # Burlington — Local Law Resources
+## City Website
+- https://desmoinescounty.iowa.gov/
 ## Law Enforcement
-- Burlington Police Department
-- Des Moines County Sheriff
+- Burlington PD — 424 N 3rd St — (319) 753-8366
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Burlington Municipal Court
+- Des Moines County Clerk — (319) 753-8232
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Burlington Building Department
+- Burlington Building Department — https://desmoinescounty.iowa.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

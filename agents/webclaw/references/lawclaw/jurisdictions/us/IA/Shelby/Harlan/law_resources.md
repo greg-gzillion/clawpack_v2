@@ -1,12 +1,14 @@
 # Harlan — Local Law Resources
+## City Website
+- https://www.cityofharlan.com/
 ## Law Enforcement
-- Harlan Police Department
-- Shelby County Sheriff
+- Shelby County Sheriff — (712) 755-3831
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Harlan Municipal Court
+- Shelby County Clerk — 612 Court St — (712) 755-3733
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Harlan Building Department
+- Harlan Building Department — https://www.cityofharlan.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

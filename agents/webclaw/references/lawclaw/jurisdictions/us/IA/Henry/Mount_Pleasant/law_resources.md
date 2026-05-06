@@ -1,12 +1,14 @@
 # Mount Pleasant — Local Law Resources
+## City Website
+- https://cityofmountpleasantiowa.org/
 ## Law Enforcement
-- Mount Pleasant Police Department
-- Henry County Sheriff
+- Mount Pleasant PD — 102 S 1st St — (319) 385-3511
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Mount Pleasant Municipal Court
+- Henry County Clerk — 102 S 1st St — (319) 385-2632
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Mount Pleasant Building Department
+- Mount Pleasant Building Department — https://cityofmountpleasantiowa.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations
