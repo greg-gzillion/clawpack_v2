@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Niceville — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://cityofniceville.org/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Niceville PD — 212 Partin Dr N — (850) 729-4030
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Okaloosa County Clerk — (850) 651-7300 — M-F 8-5
+- **Court Website**: https://www.okaloosacountyclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Niceville Building Department — https://cityofniceville.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Okaloosa County Jail

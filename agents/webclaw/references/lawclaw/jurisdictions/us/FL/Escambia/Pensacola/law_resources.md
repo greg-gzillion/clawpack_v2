@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Pensacola — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.cityofpensacola.com/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Pensacola PD — 210 E Government St — (850) 436-5100
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Escambia County Clerk — (850) 595-4100 — M-F 8-5
+- **Court Website**: https://www.esccourts.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Pensacola Building Department — https://www.cityofpensacola.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Escambia County Jail

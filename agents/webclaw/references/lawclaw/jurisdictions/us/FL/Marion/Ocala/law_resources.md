@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Ocala — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.ocalafl.gov/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Ocala PD — 402 S Pine Ave — (352) 369-7000
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Marion County Clerk — (352) 671-7300 — M-F 8-5
+- **Court Website**: https://www.marionclerk.org/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Ocala Building Department — https://www.ocalafl.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Marion County Jail

@@ -2,11 +2,10 @@
 ## City Website
 - https://www.orlando.gov/
 ## Law Enforcement
-- Orlando PD — 1250 W South St — (321) 235-5300
-- Orange County Sheriff
+- Orlando PD — (407) 246-2468
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Orange County Clerk — 425 N Orange Ave — (407) 836-5400 — M-F 8-5
+- Orange County Clerk
 - **Court Website**: https://www.myorangeclerk.com/
 ## Building Permits
 - Orlando Building Department — https://www.orlando.gov/

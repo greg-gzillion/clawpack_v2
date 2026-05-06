@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Palm Coast — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.palmcoast.gov/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Flagler County Sheriff serves Palm Coast — (386) 446-5555
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Flagler County — 7th Judicial Circuit — (386) 314-4200 — M-F 8-5
+- **Court Website**: https://www.flcourts7.org/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Palm Coast Building Department — https://www.palmcoast.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Flagler County Jail

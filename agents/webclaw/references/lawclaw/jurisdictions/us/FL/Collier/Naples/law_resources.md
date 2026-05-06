@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Naples — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.naplesgov.com/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Naples PD — (239) 252-2111
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Collier County Clerk — 3315 Tamiami Trail E — (239) 252-2646 — M-F 8-5
+- **Court Website**: https://www.collierclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Naples Building Department — https://www.naplesgov.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Collier County Jail

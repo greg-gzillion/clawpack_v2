@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# New Port Richey — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.nprflorida.org/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- New Port Richey PD — 6739 Adams St — (727) 841-4550
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Pasco County Clerk — 37910 Grand Marais Rd W, Land O Lakes — (813) 995-8000 — M-F 8-5
+- **Court Website**: https://www.pascoclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- New Port Richey Building Department — https://www.nprflorida.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Pasco County Jail

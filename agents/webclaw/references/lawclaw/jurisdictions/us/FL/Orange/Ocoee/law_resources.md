@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Ocoee — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.ocoee.org/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Ocoee PD — (407) 905-3160
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Orange County Clerk — (407) 836-4000
+- **Court Website**: https://www.myorangeclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Ocoee Building Department — https://www.ocoee.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Orange County Jail

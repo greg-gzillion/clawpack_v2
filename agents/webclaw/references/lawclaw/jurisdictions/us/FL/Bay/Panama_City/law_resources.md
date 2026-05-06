@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Panama City — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.pcgov.org/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Panama City PD — 1412 E 7th St — (850) 872-3131
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Bay County Clerk — (850) 784-6200 — M-F 8-5
+- **Court Website**: https://www.bayclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Panama City Building Department — https://www.pcgov.org/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Bay County Jail

@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Palm Beach Gardens — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.pbgfl.com/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Palm Beach Gardens PD — 10500 N Military Trl — (561) 799-4433
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- North County Courthouse — (561) 355-2996
+- **Court Website**: https://www.mypalmbeachclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Palm Beach Gardens Building Department — https://www.pbgfl.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Palm Beach County Jail

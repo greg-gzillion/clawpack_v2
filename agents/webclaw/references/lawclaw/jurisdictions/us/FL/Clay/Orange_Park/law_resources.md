@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Orange Park — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.townoforangepark.com/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Orange Park PD — 2025 Smith St — (904) 269-5050
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Clay County Clerk — 825 N Orange Ave, Green Cove Springs — (904) 284-4200
+- **Court Website**: https://www.clayclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Orange Park Building Department — https://www.townoforangepark.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Clay County Jail

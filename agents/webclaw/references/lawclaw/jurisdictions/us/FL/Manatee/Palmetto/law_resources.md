@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Palmetto — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.cityofpalmetto.com/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- Palmetto PD — 515 10th St W — (941) 721-6451
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Manatee County Clerk — (941) 748-8200 — M-F 8-5
+- **Court Website**: https://www.manateeclerk.com/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Palmetto Building Department — https://www.cityofpalmetto.com/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Manatee County Jail

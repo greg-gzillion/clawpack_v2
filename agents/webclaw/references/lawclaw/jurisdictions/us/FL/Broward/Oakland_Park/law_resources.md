@@ -1,14 +1,14 @@
-# Palm Bay — Local Law Resources
+# Oakland Park — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.oaklandparkfl.gov/
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
+- BSO Oakland Park — (954) 202-3131
 - Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Broward County Clerk — (954) 831-6565
+- **Court Website**: https://www.browardclerk.org/
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
+- Oakland Park Building Department — https://www.oaklandparkfl.gov/
 ## Hunting Regulations
 - FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Florida Legal Aid — https://www.floridalegal.org/
 ## Corrections
-- Brevard County Jail
+- Broward County Jail
