@@ -15,6 +15,8 @@
 - Lake Hamilton — fishing, boating, recreation
 - Lake Catherine State Park — https://www.arkansasstateparks.com/parks/lake-catherine-state-park
 - Ouachita National Forest — https://www.fs.usda.gov/ouachita/
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Hot Springs Office — (501) 321-1130 — https://www.legalaidar.org/
 ## Corrections

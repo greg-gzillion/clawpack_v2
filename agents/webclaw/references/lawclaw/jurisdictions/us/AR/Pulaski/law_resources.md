@@ -16,6 +16,11 @@
 - Two Rivers Park — Little Rock
 - Arkansas River Trail — biking, fishing access
 - Burns Park — North Little Rock — https://www.nlr.ar.gov/parks/
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Universities
+- University of Arkansas at Little Rock — https://www.ualr.edu/
+- UA Little Rock Bowen School of Law — https://www.ualr.edu/law/
 ## Legal Aid
 - Center for Arkansas Legal Services — Little Rock — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — (501) 376-3423

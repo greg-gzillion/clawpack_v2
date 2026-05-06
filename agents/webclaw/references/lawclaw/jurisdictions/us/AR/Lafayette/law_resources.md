@@ -10,6 +10,12 @@
 ## Fish & Game / Parks
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Lake Erling, Red River
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations — https://www.agfc.com/fishing/
+- Lake Erling — bass
+- Red River — catfish
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — https://www.legalaidar.org/

@@ -11,6 +11,8 @@
 - Mississippi River — fishing, boating
 - St. Francis National Forest — USFS — https://www.fs.usda.gov/ouachita/
 - Helena River Park — Mississippi River access
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

@@ -11,6 +11,10 @@
 - Holland Bottoms WMA — hunting
 - Bayou Meto WMA — duck hunting
 - Cabot Aquatic Park — https://www.cabotar.gov/
+## Fishing Regulations
+- AR Fishing Regulations — https://www.agfc.com/fishing/
+- Holland Bottoms WMA — duck hunting
+- Bayou Meto WMA — https://www.agfc.com/hunting/wma/bayou-meto/
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423
 ## Corrections

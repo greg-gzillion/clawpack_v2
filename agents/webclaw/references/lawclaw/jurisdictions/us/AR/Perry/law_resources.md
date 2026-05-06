@@ -11,6 +11,8 @@
 - Harris Brake Lake — fishing
 - Ouachita National Forest — https://www.fs.usda.gov/ouachita/
 - Fourche LaFave River — fishing
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423
 ## Corrections

@@ -12,6 +12,8 @@
 - Norfork Lake — fishing, boating — USACE
 - White River — world-class trout fishing
 - Buffalo National River — NPS — https://www.nps.gov/buff/
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

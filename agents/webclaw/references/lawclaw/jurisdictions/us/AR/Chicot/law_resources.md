@@ -10,6 +10,12 @@
 ## Fish & Game / Parks
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Lake Chicot State Park - largest oxbow lake in NA
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations — https://www.agfc.com/fishing/
+- Lake Chicot — bass, crappie — https://www.arkansasstateparks.com/parks/lake-chicot-state-park
+- Mississippi River — catfish
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — https://www.legalaidar.org/

@@ -11,6 +11,8 @@
 - White River — excellent trout fishing
 - Greers Ferry Lake — USACE
 - Batesville Community Park & River Access
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

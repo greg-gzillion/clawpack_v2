@@ -13,6 +13,8 @@
 - Ozark National Forest — https://www.fs.usda.gov/ouachita/
 - Arkansas River — fishing, boating
 - Mulberry River — canoeing, fishing
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Fort Smith — (479) 785-5211
 ## Corrections

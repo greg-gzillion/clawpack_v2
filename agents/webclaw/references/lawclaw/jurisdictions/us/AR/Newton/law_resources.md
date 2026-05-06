@@ -12,6 +12,12 @@
 - Ozark National Forest — https://www.fs.usda.gov/ouachita/
 - Lost Valley State Park — hiking, recreation
 - Richland Creek Wilderness Area
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations — https://www.agfc.com/fishing/
+- Buffalo National River — https://www.nps.gov/buff/
+- Ozark National Forest — https://www.fs.usda.gov/ouachita/
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

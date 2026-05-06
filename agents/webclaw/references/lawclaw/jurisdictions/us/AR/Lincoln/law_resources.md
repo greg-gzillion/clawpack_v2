@@ -10,6 +10,8 @@
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Cane Creek State Park — https://www.arkansasstateparks.com/parks/cane-creek-state-park
 - Bayou Bartholomew — fishing, canoeing
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

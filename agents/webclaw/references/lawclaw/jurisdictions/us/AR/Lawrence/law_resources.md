@@ -10,6 +10,8 @@
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Lake Charles State Park — https://www.arkansasstateparks.com/parks/lake-charles-state-park
 - Black River — fishing
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

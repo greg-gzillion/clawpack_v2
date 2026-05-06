@@ -10,6 +10,8 @@
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Jenkins Ferry State Park — https://www.arkansasstateparks.com/parks/jenkins-ferry-state-park
 - Saline River — fishing, canoeing
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423
 ## Corrections

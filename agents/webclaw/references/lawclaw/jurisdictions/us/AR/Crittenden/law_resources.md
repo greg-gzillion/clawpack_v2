@@ -11,6 +11,8 @@
 - Wapanocca National Wildlife Refuge — USFWS — https://www.fws.gov/refuge/wapanocca/
 - Mississippi River — fishing, boating
 - Horseshoe Lake — fishing
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

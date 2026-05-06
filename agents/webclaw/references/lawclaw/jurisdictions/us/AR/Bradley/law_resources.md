@@ -10,6 +10,8 @@
 ## Fish & Game / Parks
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Saline River fishing, Bradley County Park
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — https://www.legalaidar.org/

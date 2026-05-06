@@ -14,6 +14,11 @@
 - Beaverfork Lake — fishing, recreation
 - Cadron Settlement Park — USACE
 - Woolly Hollow State Park — https://www.arkansasstateparks.com/parks/woolly-hollow-state-park
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Universities
+- University of Central Arkansas — https://www.uca.edu/
+- Hendrix College — https://www.hendrix.edu/
 ## Legal Aid
 - Legal Aid of Arkansas — Conway Office — (501) 329-0190 — https://www.legalaidar.org/
 ## Corrections

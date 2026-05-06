@@ -13,6 +13,10 @@
 - Ozark National Forest — https://www.fs.usda.gov/ouachita/
 - Mount Nebo State Park — https://www.arkansasstateparks.com/parks/mount-nebo-state-park
 - Holla Bend National Wildlife Refuge — USFWS
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Universities
+- Arkansas Tech University — https://www.atu.edu/
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

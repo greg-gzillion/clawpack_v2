@@ -10,6 +10,15 @@
 ## Fish & Game / Parks
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - DeGray Lake Resort State Park, Ouachita River
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations — https://www.agfc.com/fishing/
+- DeGray Lake — bass, crappie — https://www.arkansasstateparks.com/parks/degray-lake-resort-state-park
+- Ouachita River — bass
+## Universities
+- Ouachita Baptist University — https://www.obu.edu/
+- Henderson State University — https://www.hsu.edu/
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — https://www.legalaidar.org/

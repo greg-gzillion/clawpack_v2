@@ -10,6 +10,12 @@
 ## Fish & Game / Parks
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Moro Bay SP nearby
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations — https://www.agfc.com/fishing/
+- Moro Bay State Park — bass
+- Ouachita River — bass
 ## Legal Aid
 - Center for Arkansas Legal Services — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — https://www.legalaidar.org/

@@ -11,6 +11,8 @@
 - Felsenthal National Wildlife Refuge — USFWS — https://www.fws.gov/refuge/felsenthal/
 - Ouachita River — fishing, boating
 - Moro Bay State Park — https://www.arkansasstateparks.com/parks/moro-bay-state-park
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

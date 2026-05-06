@@ -13,6 +13,8 @@
 - Mount Magazine State Park — highest point in AR — https://www.arkansasstateparks.com/parks/mount-magazine-state-park
 - Ozark National Forest — https://www.fs.usda.gov/ouachita/
 - Blue Mountain Lake — fishing — USACE
+## Hunting Regulations
+- AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Legal Aid
 - Legal Aid of Arkansas — Fort Smith — (479) 785-5211
 ## Corrections
