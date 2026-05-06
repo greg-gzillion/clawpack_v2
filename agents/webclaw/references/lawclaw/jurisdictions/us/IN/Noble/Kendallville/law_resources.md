@@ -1,12 +1,14 @@
 # Kendallville — Local Law Resources
+## City Website
+- https://www.kendallville.org/
 ## Law Enforcement
-- Kendallville Police Department
-- Noble County Sheriff
+- Kendallville PD — (260) 347-3744
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Kendallville Municipal Court
+- Noble Circuit Court — 210 S Main St — (260) 347-3744
+- **Court Website**: https://www.noblecountyin.gov/
 ## Building Permits
-- Kendallville Building Department
+- Kendallville Building Department — https://www.kendallville.org/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

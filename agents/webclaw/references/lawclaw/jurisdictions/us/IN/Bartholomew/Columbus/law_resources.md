@@ -1,12 +1,14 @@
 # Columbus — Local Law Resources
+## City Website
+- https://www.columbus.in.gov/
 ## Law Enforcement
-- Columbus Police Department
-- Bartholomew County Sheriff
+- Columbus PD — (812) 376-2500
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Columbus Municipal Court
+- Bartholomew Circuit Court — 225 3rd St — (812) 376-2515
+- **Court Website**: https://www.bartholomewcounty.in.gov/
 ## Building Permits
-- Columbus Building Department
+- Columbus Building Department — https://www.columbus.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

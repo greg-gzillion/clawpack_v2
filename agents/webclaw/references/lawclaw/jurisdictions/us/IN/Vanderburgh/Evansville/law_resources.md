@@ -1,14 +1,14 @@
-# Jeffersonville — Local Law Resources
+# Evansville — Local Law Resources
 ## City Website
-- https://www.ci.jeffersonville.in.us/
+- https://www.evansville.in.gov/
 ## Law Enforcement
-- Jeffersonville PD — (812) 285-6521
+- Evansville PD — (812) 435-6666
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Clark Circuit Court — 501 E Court Ave — (812) 285-6521
-- **Court Website**: https://www.clarkcounty.in.gov/
+- Vanderburgh Misdemeanor & Traffic Court — MLK Blvd Room S215 — (812) 435-5160
+- **Court Website**: https://www.evansville.in.gov/
 ## Building Permits
-- Jeffersonville Building Department — https://www.ci.jeffersonville.in.us/
+- Evansville Building Department — https://www.evansville.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Clark County Jail
+- Vanderburgh County Jail

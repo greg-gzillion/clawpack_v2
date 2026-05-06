@@ -1,14 +1,14 @@
-# Jeffersonville — Local Law Resources
+# Fishers — Local Law Resources
 ## City Website
-- https://www.ci.jeffersonville.in.us/
+- https://www.fishers.in.gov/
 ## Law Enforcement
-- Jeffersonville PD — (812) 285-6521
+- Fishers PD — (317) 595-3130
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Clark Circuit Court — 501 E Court Ave — (812) 285-6521
-- **Court Website**: https://www.clarkcounty.in.gov/
+- Fishers City Court — 3 Municipal Dr — (317) 595-3130
+- **Court Website**: https://fishersin.gov/city-court
 ## Building Permits
-- Jeffersonville Building Department — https://www.ci.jeffersonville.in.us/
+- Fishers Building Department — https://www.fishers.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Clark County Jail
+- Hamilton County Jail

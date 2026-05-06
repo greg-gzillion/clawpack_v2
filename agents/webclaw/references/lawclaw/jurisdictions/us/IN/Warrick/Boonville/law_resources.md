@@ -1,12 +1,14 @@
 # Boonville — Local Law Resources
+## City Website
+- https://boonville.in.gov/
 ## Law Enforcement
-- Boonville Police Department
-- Warrick County Sheriff
+- Boonville PD — (812) 897-6542
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Boonville Municipal Court
+- Warrick Circuit Court — 100 W State Road 62 — (812) 897-6180
+- **Court Website**: https://www.warrickcounty.gov/
 ## Building Permits
-- Boonville Building Department
+- Boonville Building Department — https://boonville.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

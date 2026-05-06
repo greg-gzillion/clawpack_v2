@@ -1,12 +1,14 @@
 # East Chicago — Local Law Resources
+## City Website
+- https://www.eastchicago.com/
 ## Law Enforcement
-- East Chicago Police Department
-- Lake County Sheriff
+- East Chicago PD — (219) 391-8485
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- East Chicago Municipal Court
+- East Chicago City Court — (219) 391-8489
+- **Court Website**: https://www.eastchicago.com/
 ## Building Permits
-- East Chicago Building Department
+- East Chicago Building Department — https://www.eastchicago.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Anderson — Local Law Resources
+## City Website
+- https://www.cityofanderson.com/
 ## Law Enforcement
-- Anderson Police Department
-- Madison County Sheriff
+- Anderson PD — 1034 Main St — (765) 648-6100
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Anderson Municipal Court
+- Anderson City Court — 1034 Main St — (765) 648-6078
+- **Court Website**: https://www.cityofanderson.com/1113/City-Court
 ## Building Permits
-- Anderson Building Department
+- Anderson Building Department — https://www.cityofanderson.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

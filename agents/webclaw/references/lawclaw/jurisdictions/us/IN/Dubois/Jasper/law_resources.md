@@ -1,12 +1,14 @@
 # Jasper — Local Law Resources
+## City Website
+- https://www.cityofjasper.com/
 ## Law Enforcement
-- Jasper Police Department
-- Dubois County Sheriff
+- Jasper PD — (812) 482-6126
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Jasper Municipal Court
+- Dubois Circuit Court — 110 E 3rd St — (812) 482-5615
+- **Court Website**: https://www.duboiscountycourts.com/
 ## Building Permits
-- Jasper Building Department
+- Jasper Building Department — https://www.cityofjasper.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

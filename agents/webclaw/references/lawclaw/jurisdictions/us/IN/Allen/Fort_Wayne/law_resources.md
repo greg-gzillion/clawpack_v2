@@ -1,14 +1,14 @@
-# Jeffersonville — Local Law Resources
+# Fort Wayne — Local Law Resources
 ## City Website
-- https://www.ci.jeffersonville.in.us/
+- https://www.fortwayne.in.gov/
 ## Law Enforcement
-- Jeffersonville PD — (812) 285-6521
+- Fort Wayne PD — (260) 427-6125
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Clark Circuit Court — 501 E Court Ave — (812) 285-6521
-- **Court Website**: https://www.clarkcounty.in.gov/
+- Allen County Courts — 715 S Calhoun St — (260) 449-7181
+- **Court Website**: https://www.allencounty.us/
 ## Building Permits
-- Jeffersonville Building Department — https://www.ci.jeffersonville.in.us/
+- Fort Wayne Building Department — https://www.fortwayne.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Clark County Jail
+- Allen County Jail

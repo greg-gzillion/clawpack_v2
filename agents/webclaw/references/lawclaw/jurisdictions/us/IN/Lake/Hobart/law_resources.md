@@ -1,12 +1,14 @@
 # Hobart — Local Law Resources
+## City Website
+- https://www.cityofhobart.org/
 ## Law Enforcement
-- Hobart Police Department
-- Lake County Sheriff
+- Hobart PD — (219) 942-1125
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Hobart Municipal Court
+- Hobart City Court — 705 E 4th St — (219) 942-8218
+- **Court Website**: https://www.cityofhobart.org/
 ## Building Permits
-- Hobart Building Department
+- Hobart Building Department — https://www.cityofhobart.org/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

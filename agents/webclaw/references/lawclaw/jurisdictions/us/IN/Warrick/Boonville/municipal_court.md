@@ -1,3 +1,6 @@
 # Boonville Municipal Court
 ## Court Information
-- Boonville Municipal Court
+- Warrick Circuit Court — 100 W State Road 62 — (812) 897-6180
+- **Court Website**: https://www.warrickcounty.gov/
+## City Website
+- https://boonville.in.gov/

@@ -1,14 +1,14 @@
-# Jeffersonville — Local Law Resources
+# Lafayette — Local Law Resources
 ## City Website
-- https://www.ci.jeffersonville.in.us/
+- https://www.lafayette.in.gov/
 ## Law Enforcement
-- Jeffersonville PD — (812) 285-6521
+- Lafayette PD — (765) 807-1021
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Clark Circuit Court — 501 E Court Ave — (812) 285-6521
-- **Court Website**: https://www.clarkcounty.in.gov/
+- Tippecanoe County Circuit Court — 101 N 3rd St — (765) 423-9326
+- **Court Website**: https://www.tippecanoe.in.gov/
 ## Building Permits
-- Jeffersonville Building Department — https://www.ci.jeffersonville.in.us/
+- Lafayette Building Department — https://www.lafayette.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Clark County Jail
+- Tippecanoe County Jail

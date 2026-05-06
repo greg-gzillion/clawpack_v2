@@ -1,12 +1,14 @@
 # Clarksville — Local Law Resources
+## City Website
+- https://www.clarksville-in.gov/
 ## Law Enforcement
-- Clarksville Police Department
-- Clark County Sheriff
+- Clarksville PD — (812) 285-3313
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Clarksville Municipal Court
+- Clark Circuit Court — 501 E Court Ave, Jeffersonville — (812) 285-6225
+- **Court Website**: https://www.clarkcounty.in.gov/
 ## Building Permits
-- Clarksville Building Department
+- Clarksville Building Department — https://www.clarksville-in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

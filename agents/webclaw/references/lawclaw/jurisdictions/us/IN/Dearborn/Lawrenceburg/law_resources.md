@@ -1,12 +1,14 @@
 # Lawrenceburg — Local Law Resources
+## City Website
+- https://thinklawrenceburg.com/
 ## Law Enforcement
-- Lawrenceburg Police Department
-- Dearborn County Sheriff
+- Lawrenceburg PD — 233 W Gaines St — (812) 537-3151
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Lawrenceburg Municipal Court
+- Lawrenceburg City Court — (812) 537-3151
+- **Court Website**: https://thinklawrenceburg.com/city-court
 ## Building Permits
-- Lawrenceburg Building Department
+- Lawrenceburg Building Department — https://thinklawrenceburg.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

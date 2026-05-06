@@ -1,14 +1,14 @@
-# Jeffersonville — Local Law Resources
+# Elkhart City — Local Law Resources
 ## City Website
-- https://www.ci.jeffersonville.in.us/
+- https://www.cityofelkhart.com/
 ## Law Enforcement
-- Jeffersonville PD — (812) 285-6521
+- Elkhart PD — (574) 295-7070
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Clark Circuit Court — 501 E Court Ave — (812) 285-6521
-- **Court Website**: https://www.clarkcounty.in.gov/
+- Elkhart City Court — (574) 295-7070
+- **Court Website**: https://www.cityofelkhart.com/
 ## Building Permits
-- Jeffersonville Building Department — https://www.ci.jeffersonville.in.us/
+- Elkhart City Building Department — https://www.cityofelkhart.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Clark County Jail
+- Elkhart County Jail
