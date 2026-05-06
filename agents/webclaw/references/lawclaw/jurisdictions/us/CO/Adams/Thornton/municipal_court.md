@@ -1,9 +1,5 @@
 # Thornton Municipal Court
 ## Court Information
-- **Court Name**: Thornton Municipal Court
-- **County**: Adams
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Thornton website
+- Thornton Municipal Court — 9551 Civic Center Dr — (720) 977-5400
+## City Website
+- https://www.cityofthornton.net/

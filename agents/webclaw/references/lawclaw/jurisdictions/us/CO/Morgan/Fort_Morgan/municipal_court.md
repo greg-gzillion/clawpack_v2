@@ -1,9 +1,5 @@
 # Fort Morgan Municipal Court
 ## Court Information
-- **Court Name**: Fort Morgan Municipal Court
-- **County**: Morgan
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Fort Morgan website
+- Fort Morgan Municipal Court — 901 E Beaver Ave — (970) 542-3950
+## City Website
+- https://www.cityoffortmorgan.com/

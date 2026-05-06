@@ -1,9 +1,5 @@
 # Littleton Municipal Court
 ## Court Information
-- **Court Name**: Littleton Municipal Court
-- **County**: Arapahoe
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Littleton website
+- Littleton Municipal Court — 2565 W Berry Ave — (303) 795-3650
+## City Website
+- https://www.littletoncolorado.gov/

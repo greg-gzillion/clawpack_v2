@@ -1,9 +1,5 @@
 # Westminster Municipal Court
 ## Court Information
-- **Court Name**: Westminster Municipal Court
-- **County**: Adams
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Westminster website
+- Westminster Municipal Court — 3030 Turnpike Dr — (303) 658-2450
+## City Website
+- https://www.westminsterco.gov/

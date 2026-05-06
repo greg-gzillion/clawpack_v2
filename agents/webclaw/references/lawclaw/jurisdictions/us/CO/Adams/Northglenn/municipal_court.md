@@ -1,9 +1,5 @@
 # Northglenn Municipal Court
 ## Court Information
-- **Court Name**: Northglenn Municipal Court
-- **County**: Adams
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Northglenn website
+- Northglenn Municipal Court — 50 W Community Center Dr — (303) 450-8897
+## City Website
+- https://www.northglenn.org/

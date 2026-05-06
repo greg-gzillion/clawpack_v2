@@ -1,9 +1,5 @@
 # Louisville Municipal Court
 ## Court Information
-- **Court Name**: Louisville Municipal Court
-- **County**: Boulder
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Louisville website
+- Louisville Municipal Court — 749 Main St — (303) 335-4652
+## City Website
+- https://www.louisvilleco.gov/

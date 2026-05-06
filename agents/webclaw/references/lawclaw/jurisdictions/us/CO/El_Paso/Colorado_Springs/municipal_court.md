@@ -1,9 +1,5 @@
 # Colorado Springs Municipal Court
 ## Court Information
-- **Court Name**: Colorado Springs Municipal Court
-- **County**: El Paso
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Colorado Springs website
+- Colorado Springs Municipal Court — 224 E Kiowa St — (719) 385-6765
+## City Website
+- https://www.cos.gov/

@@ -1,12 +1,14 @@
 # Canon City — Local Law Resources
+## City Website
+- https://www.canoncity.org/
 ## Law Enforcement
-- Canon City Police Department
-- Fremont Sheriff
+- Canon City PD — 161 Justice Center Rd — (719) 276-5600
+- Fremont County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Canon City Municipal Court
+- Canon City Municipal Court — 161 Justice Center Rd — (719) 276-5601
 ## Building Permits
-- Canon City Building Department
+- Canon City Building Department — https://www.canoncity.org/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Fremont Jail
+- Fremont County Jail

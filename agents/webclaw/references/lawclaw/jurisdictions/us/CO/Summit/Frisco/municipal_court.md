@@ -1,9 +1,5 @@
 # Frisco Municipal Court
 ## Court Information
-- **Court Name**: Frisco Municipal Court
-- **County**: Summit
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Frisco website
+- Frisco Municipal Court — 1 East Main St — (970) 668-5276
+## City Website
+- https://www.friscogov.com/

@@ -1,9 +1,5 @@
 # Glenwood Springs Municipal Court
 ## Court Information
-- **Court Name**: Glenwood Springs Municipal Court
-- **County**: Garfield
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Glenwood Springs website
+- Glenwood Springs Municipal Court — 101 W 8th St — (970) 384-6530
+## City Website
+- https://www.glenwoodspringsco.gov/

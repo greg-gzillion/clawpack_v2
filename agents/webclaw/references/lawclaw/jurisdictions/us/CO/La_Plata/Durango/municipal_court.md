@@ -1,9 +1,5 @@
 # Durango Municipal Court
 ## Court Information
-- **Court Name**: Durango Municipal Court
-- **County**: La Plata
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Durango website
+- Durango Municipal Court — 949 E 2nd Ave — (970) 375-5020
+## City Website
+- https://www.durangoco.gov/

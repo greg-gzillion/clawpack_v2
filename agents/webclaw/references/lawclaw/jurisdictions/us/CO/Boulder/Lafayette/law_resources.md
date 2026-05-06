@@ -1,12 +1,14 @@
 # Lafayette — Local Law Resources
+## City Website
+- https://www.lafayetteco.gov/
 ## Law Enforcement
-- Lafayette Police Department
-- Boulder Sheriff
+- Lafayette PD — 800 W South Boulder Rd — (303) 665-8751
+- Boulder County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Lafayette Municipal Court
+- Lafayette Municipal Court — (303) 665-8751
 ## Building Permits
-- Lafayette Building Department
+- Lafayette Building Department — https://www.lafayetteco.gov/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Boulder Jail
+- Boulder County Jail

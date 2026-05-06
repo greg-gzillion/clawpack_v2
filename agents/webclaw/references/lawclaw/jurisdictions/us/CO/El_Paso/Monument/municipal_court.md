@@ -1,9 +1,5 @@
 # Monument Municipal Court
 ## Court Information
-- **Court Name**: Monument Municipal Court
-- **County**: El Paso
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Monument website
+- Monument Municipal Court — 645 Beacon Lite Rd — (719) 481-3253 ext 1602
+## City Website
+- https://www.townofmonument.org/

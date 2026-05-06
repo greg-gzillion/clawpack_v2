@@ -1,9 +1,5 @@
 # Loveland Municipal Court
 ## Court Information
-- **Court Name**: Loveland Municipal Court
-- **County**: Larimer
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Loveland website
+- Loveland Municipal Court — 4900 Rocky Mountain Ave — (970) 962-2222
+## City Website
+- https://www.lovelandcolorado.gov/

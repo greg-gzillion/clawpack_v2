@@ -1,9 +1,5 @@
 # Lakewood Municipal Court
 ## Court Information
-- **Court Name**: Lakewood Municipal Court
-- **County**: Jefferson
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Lakewood website
+- Lakewood Municipal Court — 480 S Allison Pkwy — (303) 987-7120
+## City Website
+- https://www.lakewood.org/

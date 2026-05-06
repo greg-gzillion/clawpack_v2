@@ -1,12 +1,14 @@
 # Thornton — Local Law Resources
+## City Website
+- https://www.cityofthornton.net/
 ## Law Enforcement
-- Thornton Police Department
-- Adams Sheriff
+- Thornton PD — 9551 Civic Center Dr — (720) 977-5124
+- Adams County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Thornton Municipal Court
+- Thornton Municipal Court — 9551 Civic Center Dr — (720) 977-5400
 ## Building Permits
-- Thornton Building Department
+- Thornton Building Department — https://www.cityofthornton.net/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Adams Jail
+- Adams County Jail

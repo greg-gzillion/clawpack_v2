@@ -1,9 +1,5 @@
 # Highlands Ranch Municipal Court
 ## Court Information
-- **Court Name**: Highlands Ranch Municipal Court
-- **County**: Douglas
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Highlands Ranch website
+- Douglas County Court — 4000 Justice Way, Castle Rock — (720) 437-6200
+## City Website
+- https://www.douglas.co.us/

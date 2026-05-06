@@ -1,9 +1,5 @@
 # Centennial Municipal Court
 ## Court Information
-- **Court Name**: Centennial Municipal Court
-- **County**: Arapahoe
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Centennial website
+- Centennial Municipal Court — 13133 E Arapahoe Rd — (303) 754-3380
+## City Website
+- https://www.centennialco.gov/

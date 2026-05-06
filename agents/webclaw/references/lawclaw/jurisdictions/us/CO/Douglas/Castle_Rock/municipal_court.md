@@ -1,9 +1,5 @@
 # Castle Rock Municipal Court
 ## Court Information
-- **Court Name**: Castle Rock Municipal Court
-- **County**: Douglas
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Castle Rock website
+- Castle Rock Municipal Court — 100 Perry St — (303) 663-6150
+## City Website
+- https://www.ccronline.org/

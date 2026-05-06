@@ -1,9 +1,5 @@
 # Steamboat Springs Municipal Court
 ## Court Information
-- **Court Name**: Steamboat Springs Municipal Court
-- **County**: Routt
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Steamboat Springs website
+- Steamboat Springs Municipal Court — 124 10th St — (970) 871-8277
+## City Website
+- https://www.steamboatsprings.net/

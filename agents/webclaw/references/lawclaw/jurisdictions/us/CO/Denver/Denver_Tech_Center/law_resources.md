@@ -1,12 +1,14 @@
 # Denver Tech Center — Local Law Resources
+## City Website
+- https://www.denvergov.org/
 ## Law Enforcement
-- Denver Tech Center Police Department
-- Denver Sheriff
+- Denver PD
+- Denver County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Denver Tech Center Municipal Court
+- Denver County Court
 ## Building Permits
-- Denver Tech Center Building Department
+- Denver Tech Center Building Department — https://www.denvergov.org/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Denver Jail
+- Denver County Jail

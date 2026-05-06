@@ -1,12 +1,14 @@
 # Edwards — Local Law Resources
+## City Website
+- https://www.eaglecounty.us/
 ## Law Enforcement
-- Edwards Police Department
-- Eagle Sheriff
+- Eagle County Sheriff — (970) 328-8700
+- Eagle County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Edwards Municipal Court
+- Eagle County Court — 500 Broadway, Eagle — (970) 328-5555
 ## Building Permits
-- Edwards Building Department
+- Edwards Building Department — https://www.eaglecounty.us/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Eagle Jail
+- Eagle County Jail

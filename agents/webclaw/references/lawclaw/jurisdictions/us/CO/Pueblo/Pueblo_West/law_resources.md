@@ -1,12 +1,14 @@
 # Pueblo West — Local Law Resources
+## City Website
+- https://www.pueblowest.org/
 ## Law Enforcement
-- Pueblo West Police Department
-- Pueblo Sheriff
+- Pueblo County Sheriff — 320 E Joe Martinez Blvd — (719) 583-4730
+- Pueblo County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Pueblo West Municipal Court
+- Pueblo Municipal Court — 200 S Main St, Pueblo — (719) 562-3810
 ## Building Permits
-- Pueblo West Building Department
+- Pueblo West Building Department — https://www.pueblowest.org/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Pueblo Jail
+- Pueblo County Jail

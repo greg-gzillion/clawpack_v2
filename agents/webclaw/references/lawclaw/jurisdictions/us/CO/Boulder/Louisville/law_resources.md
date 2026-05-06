@@ -1,12 +1,14 @@
 # Louisville — Local Law Resources
+## City Website
+- https://www.louisvilleco.gov/
 ## Law Enforcement
-- Louisville Police Department
-- Boulder Sheriff
+- Louisville PD — 749 Main St — (303) 335-4911
+- Boulder County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Louisville Municipal Court
+- Louisville Municipal Court — 749 Main St — (303) 335-4652
 ## Building Permits
-- Louisville Building Department
+- Louisville Building Department — https://www.louisvilleco.gov/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Boulder Jail
+- Boulder County Jail

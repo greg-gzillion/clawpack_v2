@@ -1,12 +1,14 @@
 # Fort Morgan — Local Law Resources
+## City Website
+- https://www.cityoffortmorgan.com/
 ## Law Enforcement
-- Fort Morgan Police Department
-- Morgan Sheriff
+- Fort Morgan PD — 901 E Beaver Ave — (970) 542-3900
+- Morgan County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Fort Morgan Municipal Court
+- Fort Morgan Municipal Court — 901 E Beaver Ave — (970) 542-3950
 ## Building Permits
-- Fort Morgan Building Department
+- Fort Morgan Building Department — https://www.cityoffortmorgan.com/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Morgan Jail
+- Morgan County Jail

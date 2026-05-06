@@ -1,9 +1,5 @@
 # Rifle Municipal Court
 ## Court Information
-- **Court Name**: Rifle Municipal Court
-- **County**: Garfield
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Rifle website
+- Rifle Municipal Court — 201 E 18th St — (970) 665-6420
+## City Website
+- https://www.rifleco.org/

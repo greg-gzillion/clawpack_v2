@@ -1,9 +1,5 @@
 # Edwards Municipal Court
 ## Court Information
-- **Court Name**: Edwards Municipal Court
-- **County**: Eagle
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Edwards website
+- Eagle County Court — 500 Broadway, Eagle — (970) 328-5555
+## City Website
+- https://www.eaglecounty.us/

@@ -1,9 +1,5 @@
 # City of Denver Municipal Court
 ## Court Information
-- **Court Name**: City of Denver Municipal Court
-- **County**: Denver
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See City of Denver website
+- Denver County Court — 520 W Colfax Ave — (720) 865-8200
+## City Website
+- https://www.denvergov.org/

@@ -1,9 +1,5 @@
 # Montrose City Municipal Court
 ## Court Information
-- **Court Name**: Montrose City Municipal Court
-- **County**: Montrose
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Montrose City website
+- Montrose Municipal Court — 107 S Cascade Ave — (970) 240-1428
+## City Website
+- https://www.cityofmontrose.org/

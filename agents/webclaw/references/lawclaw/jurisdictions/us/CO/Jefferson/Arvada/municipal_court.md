@@ -1,9 +1,5 @@
 # Arvada Municipal Court
 ## Court Information
-- **Court Name**: Arvada Municipal Court
-- **County**: Jefferson
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Arvada website
+- Arvada Municipal Court — 8101 Ralston Rd — (720) 898-7150
+## City Website
+- https://www.arvadaco.gov/

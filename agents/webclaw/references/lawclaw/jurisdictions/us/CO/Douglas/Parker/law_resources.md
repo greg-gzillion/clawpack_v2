@@ -1,12 +1,14 @@
 # Parker — Local Law Resources
+## City Website
+- https://www.parkeronline.org/
 ## Law Enforcement
-- Parker Police Department
-- Douglas Sheriff
+- Parker PD — 20115 E Mainplaza Dr — (303) 841-4500
+- Douglas County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Parker Municipal Court
+- Parker Municipal Court — 20115 E Mainplaza Dr — (303) 841-4550
 ## Building Permits
-- Parker Building Department
+- Parker Building Department — https://www.parkeronline.org/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Douglas Jail
+- Douglas County Jail

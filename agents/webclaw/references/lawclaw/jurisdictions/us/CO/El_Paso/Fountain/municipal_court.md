@@ -1,9 +1,5 @@
 # Fountain Municipal Court
 ## Court Information
-- **Court Name**: Fountain Municipal Court
-- **County**: El Paso
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Fountain website
+- Fountain Municipal Court — 116 S Main St — (719) 382-5561
+## City Website
+- https://www.fountaincolorado.org/

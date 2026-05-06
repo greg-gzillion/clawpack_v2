@@ -1,12 +1,14 @@
 # Evans — Local Law Resources
+## City Website
+- https://www.evansco.us/
 ## Law Enforcement
-- Evans Police Department
-- Weld Sheriff
+- Evans PD — 3155 Otero St — (970) 673-3511
+- Weld County Sheriff
 - Colorado State Patrol — https://www.csp.colorado.gov/
 ## Courts
-- Evans Municipal Court
+- Evans Municipal Court — 3155 Otero St — (970) 673-3540
 ## Building Permits
-- Evans Building Department
+- Evans Building Department — https://www.evansco.us/
 ## Hunting Regulations
 - CO Hunting Regulations — https://www.cpw.state.co.us/hunting
 ## Fishing Regulations
@@ -14,4 +16,4 @@
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
-- Weld Jail
+- Weld County Jail

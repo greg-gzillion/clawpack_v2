@@ -1,9 +1,5 @@
 # Broomfield City Municipal Court
 ## Court Information
-- **Court Name**: Broomfield City Municipal Court
-- **County**: Broomfield
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Broomfield City website
+- 17th Judicial District Court — 17 DesCombes Dr — (720) 887-2165
+## City Website
+- https://www.broomfield.org/

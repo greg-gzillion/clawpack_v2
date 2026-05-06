@@ -1,9 +1,5 @@
 # Wheat Ridge Municipal Court
 ## Court Information
-- **Court Name**: Wheat Ridge Municipal Court
-- **County**: Jefferson
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Wheat Ridge website
+- Wheat Ridge Municipal Court — 7447 W 29th Ave — (303) 299-2915
+## City Website
+- https://www.wheatridgeco.gov/

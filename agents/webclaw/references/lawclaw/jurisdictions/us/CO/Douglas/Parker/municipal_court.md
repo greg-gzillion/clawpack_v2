@@ -1,9 +1,5 @@
 # Parker Municipal Court
 ## Court Information
-- **Court Name**: Parker Municipal Court
-- **County**: Douglas
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Parker website
+- Parker Municipal Court — 20115 E Mainplaza Dr — (303) 841-4550
+## City Website
+- https://www.parkeronline.org/

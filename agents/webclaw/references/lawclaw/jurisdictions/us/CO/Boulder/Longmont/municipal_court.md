@@ -1,9 +1,5 @@
 # Longmont Municipal Court
 ## Court Information
-- **Court Name**: Longmont Municipal Court
-- **County**: Boulder
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Longmont website
+- Longmont Municipal Court — 350 Kimbark St — (303) 651-8525
+## City Website
+- https://www.longmontcolorado.gov/

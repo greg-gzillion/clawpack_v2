@@ -1,9 +1,5 @@
 # Windsor Municipal Court
 ## Court Information
-- **Court Name**: Windsor Municipal Court
-- **County**: Weld
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Windsor website
+- Windsor Municipal Court — 301 Walnut St — (970) 674-6413
+## City Website
+- https://www.windsorgov.com/

@@ -1,9 +1,5 @@
 # Fruita Municipal Court
 ## Court Information
-- **Court Name**: Fruita Municipal Court
-- **County**: Mesa
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Fruita website
+- Fruita Municipal Court — 325 E Aspen Ave — (970) 858-8041
+## City Website
+- https://www.fruita.org/
