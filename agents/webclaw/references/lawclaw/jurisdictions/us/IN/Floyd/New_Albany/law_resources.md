@@ -1,12 +1,14 @@
 # New Albany — Local Law Resources
+## City Website
+- https://cityofnewalbany.com/
 ## Law Enforcement
-- New Albany Police Department
-- Floyd County Sheriff
+- New Albany PD — (812) 542-1111
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- New Albany Municipal Court
+- Floyd County Municipal Court — 100 E Spring St — (812) 542-1245
+- **Court Website**: https://cityofnewalbany.com/
 ## Building Permits
-- New Albany Building Department
+- New Albany Building Department — https://cityofnewalbany.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

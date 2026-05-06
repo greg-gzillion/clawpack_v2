@@ -1,3 +1,6 @@
 # Scottsburg Municipal Court
 ## Court Information
-- Scottsburg Municipal Court
+- Scott County Circuit Court — 1 E McClain Ave — (812) 752-8425
+- **Court Website**: https://www.scottcounty.in.gov/
+## City Website
+- https://www.scottcounty.in.gov/

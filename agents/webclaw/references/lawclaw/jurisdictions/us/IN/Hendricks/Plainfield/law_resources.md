@@ -1,12 +1,14 @@
 # Plainfield — Local Law Resources
+## City Website
+- https://www.townofplainfield.org/
 ## Law Enforcement
-- Plainfield Police Department
-- Hendricks County Sheriff
+- Hendricks County Sheriff — (317) 745-9258
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Plainfield Municipal Court
+- Hendricks County Court — 300 S Washington St, Danville — (317) 745-9258
+- **Court Website**: https://www.hendrickscountyin.gov/
 ## Building Permits
-- Plainfield Building Department
+- Plainfield Building Department — https://www.townofplainfield.org/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

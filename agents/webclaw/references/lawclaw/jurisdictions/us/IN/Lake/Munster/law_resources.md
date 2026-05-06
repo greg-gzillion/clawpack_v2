@@ -1,12 +1,14 @@
 # Munster — Local Law Resources
+## City Website
+- https://www.munster.org/
 ## Law Enforcement
-- Munster Police Department
-- Lake County Sheriff
+- Munster PD — (219) 836-6630
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Munster Municipal Court
+- Lake County Court — 2293 N Main St, Crown Point — (219) 755-3621
+- **Court Website**: https://www.lakecountyin.org/
 ## Building Permits
-- Munster Building Department
+- Munster Building Department — https://www.munster.org/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

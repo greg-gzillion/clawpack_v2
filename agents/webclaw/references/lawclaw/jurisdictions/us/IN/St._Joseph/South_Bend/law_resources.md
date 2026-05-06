@@ -1,14 +1,14 @@
-# Warsaw — Local Law Resources
+# South Bend — Local Law Resources
 ## City Website
-- https://www.kosciusko.in.gov/
+- https://www.southbendin.gov/
 ## Law Enforcement
-- Warsaw PD — (574) 267-4444
+- South Bend PD — (574) 235-9200
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Kosciusko County Circuit Court — 121 N Lake St — (574) 267-4444
-- **Court Website**: https://www.kosciusko.in.gov/
+- St. Joseph Superior Court 4 — 101 S Main St — (574) 235-7455
+- **Court Website**: https://www.sjcindiana.gov/
 ## Building Permits
-- Warsaw Building Department — https://www.kosciusko.in.gov/
+- South Bend Building Department — https://www.southbendin.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Kosciusko County Jail
+- St. Joseph County Jail

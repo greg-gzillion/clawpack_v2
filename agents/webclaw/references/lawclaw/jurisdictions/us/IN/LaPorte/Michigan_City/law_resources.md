@@ -1,14 +1,14 @@
-# Warsaw — Local Law Resources
+# Michigan City — Local Law Resources
 ## City Website
-- https://www.kosciusko.in.gov/
+- https://www.gpwmi.us/
 ## Law Enforcement
-- Warsaw PD — (574) 267-4444
+- Michigan City PD — (219) 874-5611
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Kosciusko County Circuit Court — 121 N Lake St — (574) 267-4444
-- **Court Website**: https://www.kosciusko.in.gov/
+- LaPorte County Superior Court 4 — 300 Washington St — (219) 874-5611
+- **Court Website**: https://www.laportecounty.org/
 ## Building Permits
-- Warsaw Building Department — https://www.kosciusko.in.gov/
+- Michigan City Building Department — https://www.gpwmi.us/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Kosciusko County Jail
+- LaPorte County Jail

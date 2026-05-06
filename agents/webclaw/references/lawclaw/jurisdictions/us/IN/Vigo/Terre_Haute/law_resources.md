@@ -1,14 +1,14 @@
-# Warsaw — Local Law Resources
+# Terre Haute — Local Law Resources
 ## City Website
-- https://www.kosciusko.in.gov/
+- https://www.terrehaute.in.gov/
 ## Law Enforcement
-- Warsaw PD — (574) 267-4444
+- Terre Haute PD — (812) 244-2100
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Kosciusko County Circuit Court — 121 N Lake St — (574) 267-4444
-- **Court Website**: https://www.kosciusko.in.gov/
+- Vigo County Superior Court 1 — 101 N 3rd St — (812) 258-4400
+- **Court Website**: https://www.vigocounty.in.gov/
 ## Building Permits
-- Warsaw Building Department — https://www.kosciusko.in.gov/
+- Terre Haute Building Department — https://www.terrehaute.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Kosciusko County Jail
+- Vigo County Jail

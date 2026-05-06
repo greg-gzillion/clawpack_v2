@@ -1,14 +1,14 @@
-# Warsaw — Local Law Resources
+# Valparaiso — Local Law Resources
 ## City Website
-- https://www.kosciusko.in.gov/
+- https://www.ci.valparaiso.in.us/
 ## Law Enforcement
-- Warsaw PD — (574) 267-4444
+- Valparaiso PD — 355 S Washington St — (219) 462-2135
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Kosciusko County Circuit Court — 121 N Lake St — (574) 267-4444
-- **Court Website**: https://www.kosciusko.in.gov/
+- Porter County Courts — 16 E Lincolnway — (219) 465-3435
+- **Court Website**: https://www.portercountygov.com/
 ## Building Permits
-- Warsaw Building Department — https://www.kosciusko.in.gov/
+- Valparaiso Building Department — https://www.ci.valparaiso.in.us/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Indiana Legal Services — https://www.indianalegalservices.org/
 ## Corrections
-- Kosciusko County Jail
+- Porter County Jail

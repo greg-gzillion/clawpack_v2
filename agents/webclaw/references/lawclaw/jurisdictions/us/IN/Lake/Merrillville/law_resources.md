@@ -1,12 +1,14 @@
 # Merrillville — Local Law Resources
+## City Website
+- https://www.merrillville.in.gov/
 ## Law Enforcement
-- Merrillville Police Department
-- Lake County Sheriff
+- Merrillville PD — (219) 769-3531
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Merrillville Municipal Court
+- Merrillville Town Court — 7820 Broadway — (219) 756-6185
+- **Court Website**: https://www.merrillville.in.gov/
 ## Building Permits
-- Merrillville Building Department
+- Merrillville Building Department — https://www.merrillville.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Portage — Local Law Resources
+## City Website
+- https://www.portercountygov.com/
 ## Law Enforcement
-- Portage Police Department
-- Porter County Sheriff
+- Portage PD — 6260 Central Ave — (219) 762-3122
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Portage Municipal Court
+- Porter County Courts — Valparaiso — (219) 465-3721
+- **Court Website**: https://www.portercountygov.com/
 ## Building Permits
-- Portage Building Department
+- Portage Building Department — https://www.portercountygov.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

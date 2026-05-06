@@ -1,12 +1,14 @@
 # Muncie — Local Law Resources
+## City Website
+- https://www.muncie.in.gov/
 ## Law Enforcement
-- Muncie Police Department
-- Delaware County Sheriff
+- Muncie PD — (765) 747-4822
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Muncie Municipal Court
+- Muncie City Court — 300 N High St — (765) 747-4703
+- **Court Website**: https://www.muncie.in.gov/
 ## Building Permits
-- Muncie Building Department
+- Muncie Building Department — https://www.muncie.in.gov/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Plymouth — Local Law Resources
+## City Website
+- https://www.cityofplymouth.com/
 ## Law Enforcement
-- Plymouth Police Department
-- Marshall County Sheriff
+- Plymouth PD — (574) 936-2111
 - Indiana State Police — https://www.in.gov/isp/
 ## Courts
-- Plymouth Municipal Court
+- Marshall Circuit Court — 101 S Center St — (574) 936-2111
+- **Court Website**: https://www.marshallcountyin.gov/
 ## Building Permits
-- Plymouth Building Department
+- Plymouth Building Department — https://www.cityofplymouth.com/
 ## Hunting Regulations
 - IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
 ## Fishing Regulations
