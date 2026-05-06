@@ -1,3 +1,6 @@
 # Norwood District Court
 ## Court Information
-- Norwood District Court
+- Dedham District Court — 631 High St — (781) 329-4777
+- **Court Website**: https://www.mass.gov/courts/
+## City Website
+- https://www.norwoodma.gov/

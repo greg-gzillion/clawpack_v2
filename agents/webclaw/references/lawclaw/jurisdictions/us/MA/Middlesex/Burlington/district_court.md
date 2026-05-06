@@ -1,3 +1,6 @@
 # Burlington District Court
 ## Court Information
-- Burlington District Court
+- Woburn District Court — 30 Pleasant St — (781) 897-8725
+- **Court Website**: https://www.mass.gov/courts/
+## City Website
+- https://www.burlingtonma.gov/

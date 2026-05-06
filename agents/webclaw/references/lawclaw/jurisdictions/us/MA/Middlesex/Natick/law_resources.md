@@ -1,12 +1,14 @@
 # Natick — Local Law Resources
+## City Website
+- https://www.natickma.gov/
 ## Law Enforcement
-- Natick Police Department
-- Middlesex County Sheriff
+- Natick PD — 13 E Central St — (508) 647-6400
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Natick District Court
+- Framingham District Court — 600 Concord St — (508) 875-7461
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Natick Building Department
+- Natick Building Department — https://www.natickma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

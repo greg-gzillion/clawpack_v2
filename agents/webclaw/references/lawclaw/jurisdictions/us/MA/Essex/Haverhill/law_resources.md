@@ -1,12 +1,14 @@
 # Haverhill — Local Law Resources
+## City Website
+- https://www.haverhillma.gov/
 ## Law Enforcement
-- Haverhill Police Department
-- Essex County Sheriff
+- Haverhill PD — 4 Summer St — (978) 373-1500
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Haverhill District Court
+- Haverhill District Court — 50 Winter St — (978) 373-2750
+- **Court Website**: https://www.mass.gov/courts/court-locations/haverhill-district-court
 ## Building Permits
-- Haverhill Building Department
+- Haverhill Building Department — https://www.haverhillma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

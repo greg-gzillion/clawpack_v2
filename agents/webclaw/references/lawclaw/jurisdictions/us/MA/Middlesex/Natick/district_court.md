@@ -1,3 +1,6 @@
 # Natick District Court
 ## Court Information
-- Natick District Court
+- Framingham District Court — 600 Concord St — (508) 875-7461
+- **Court Website**: https://www.mass.gov/courts/
+## City Website
+- https://www.natickma.gov/

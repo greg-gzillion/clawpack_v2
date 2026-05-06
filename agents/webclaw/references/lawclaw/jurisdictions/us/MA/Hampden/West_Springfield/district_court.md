@@ -1,3 +1,6 @@
 # West Springfield District Court
 ## Court Information
-- West Springfield District Court
+- Springfield District Court — 175 State St — (413) 747-4841
+- **Court Website**: https://www.mass.gov/courts/
+## City Website
+- https://www.westspringfieldma.gov/

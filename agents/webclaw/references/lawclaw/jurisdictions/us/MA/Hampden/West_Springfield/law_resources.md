@@ -1,12 +1,14 @@
 # West Springfield — Local Law Resources
+## City Website
+- https://www.westspringfieldma.gov/
 ## Law Enforcement
-- West Springfield Police Department
-- Hampden County Sheriff
+- West Springfield PD — 176 Main St — (413) 736-1421
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- West Springfield District Court
+- Springfield District Court — 175 State St — (413) 747-4841
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- West Springfield Building Department
+- West Springfield Building Department — https://www.westspringfieldma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

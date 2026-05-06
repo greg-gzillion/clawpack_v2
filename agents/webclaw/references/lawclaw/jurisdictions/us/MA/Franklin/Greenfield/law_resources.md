@@ -1,12 +1,14 @@
 # Greenfield — Local Law Resources
+## City Website
+- https://greenfield-ma.gov/
 ## Law Enforcement
-- Greenfield Police Department
-- Franklin County Sheriff
+- Greenfield PD
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
 - Greenfield District Court
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Greenfield Building Department
+- Greenfield Building Department — https://greenfield-ma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

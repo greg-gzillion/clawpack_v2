@@ -1,12 +1,14 @@
 # Wakefield — Local Law Resources
+## City Website
+- https://www.wakefieldma.gov/
 ## Law Enforcement
-- Wakefield Police Department
-- Middlesex County Sheriff
+- Wakefield PD — 1 Union St — (781) 245-1212
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Wakefield District Court
+- Malden District Court — 89 Summer St, Malden — (781) 322-7500
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Wakefield Building Department
+- Wakefield Building Department — https://www.wakefieldma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

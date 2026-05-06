@@ -1,3 +1,6 @@
 # Longmeadow District Court
 ## Court Information
-- Longmeadow District Court
+- Springfield District Court — 175 State St — (413) 747-4841
+- **Court Website**: https://www.mass.gov/courts/
+## City Website
+- https://www.longmeadowma.gov/

@@ -1,12 +1,14 @@
 # Watertown — Local Law Resources
+## City Website
+- https://www.watertown-ma.gov/
 ## Law Enforcement
-- Watertown Police Department
-- Middlesex County Sheriff
+- Watertown PD — 552 Main St — (617) 972-6500
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Watertown District Court
+- Waltham District Court — 38 Linden St, Waltham — (781) 894-4500
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Watertown Building Department
+- Watertown Building Department — https://www.watertown-ma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

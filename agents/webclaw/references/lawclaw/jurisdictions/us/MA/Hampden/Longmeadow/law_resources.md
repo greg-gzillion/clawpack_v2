@@ -1,12 +1,14 @@
 # Longmeadow — Local Law Resources
+## City Website
+- https://www.longmeadowma.gov/
 ## Law Enforcement
-- Longmeadow Police Department
-- Hampden County Sheriff
+- Longmeadow PD — 361 Williams St — (413) 221-1300
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Longmeadow District Court
+- Springfield District Court — 175 State St — (413) 747-4841
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Longmeadow Building Department
+- Longmeadow Building Department — https://www.longmeadowma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

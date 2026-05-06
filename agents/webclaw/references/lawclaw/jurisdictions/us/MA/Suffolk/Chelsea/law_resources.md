@@ -1,12 +1,14 @@
 # Chelsea — Local Law Resources
+## City Website
+- https://www.cityofchelsea.org/
 ## Law Enforcement
-- Chelsea Police Department
-- Suffolk County Sheriff
+- Chelsea PD — 119 Park St — (617) 466-4100
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Chelsea District Court
+- Chelsea District Court — 120 Broadway — (617) 660-9200
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Chelsea Building Department
+- Chelsea Building Department — https://www.cityofchelsea.org/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

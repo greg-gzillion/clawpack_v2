@@ -1,12 +1,14 @@
 # South Hadley — Local Law Resources
+## City Website
+- https://www.southhadley.org/
 ## Law Enforcement
-- South Hadley Police Department
-- Hampshire County Sheriff
+- South Hadley PD — 41 Bridge St — (413) 538-8231
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- South Hadley District Court
+- Eastern Hampshire District Court — Belchertown — (413) 323-0550
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- South Hadley Building Department
+- South Hadley Building Department — https://www.southhadley.org/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

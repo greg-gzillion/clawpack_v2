@@ -1,12 +1,14 @@
 # Winthrop — Local Law Resources
+## City Website
+- https://www.winthropma.gov/
 ## Law Enforcement
-- Winthrop Police Department
-- Suffolk County Sheriff
+- Winthrop PD — 445 Main St — (617) 846-1000
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Winthrop District Court
+- Boston Municipal Court — East Boston Division — (617) 534-5400
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Winthrop Building Department
+- Winthrop Building Department — https://www.winthropma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

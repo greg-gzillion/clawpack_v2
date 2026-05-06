@@ -1,12 +1,14 @@
 # Billerica — Local Law Resources
+## City Website
+- https://www.billerica.gov/
 ## Law Enforcement
-- Billerica Police Department
-- Middlesex County Sheriff
+- Billerica PD — 6 Good St — (978) 671-0950
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Billerica District Court
+- Lowell District Court — 41 Hurd St — (978) 937-2486
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Billerica Building Department
+- Billerica Building Department — https://www.billerica.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

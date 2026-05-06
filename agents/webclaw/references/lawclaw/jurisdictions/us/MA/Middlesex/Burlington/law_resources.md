@@ -1,12 +1,14 @@
 # Burlington — Local Law Resources
+## City Website
+- https://www.burlingtonma.gov/
 ## Law Enforcement
-- Burlington Police Department
-- Middlesex County Sheriff
+- Burlington PD — 19 Contant Dr — (781) 270-1400
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Burlington District Court
+- Woburn District Court — 30 Pleasant St — (781) 897-8725
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Burlington Building Department
+- Burlington Building Department — https://www.burlingtonma.gov/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

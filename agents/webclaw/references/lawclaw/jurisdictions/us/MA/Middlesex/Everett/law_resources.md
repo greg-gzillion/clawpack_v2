@@ -1,12 +1,14 @@
 # Everett — Local Law Resources
+## City Website
+- https://cityofeverett.com/
 ## Law Enforcement
-- Everett Police Department
-- Middlesex County Sheriff
+- Everett PD — 484 Broadway — (617) 394-2270
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Everett District Court
+- Chelsea District Court — 120 Broadway, Chelsea — (617) 660-9200
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Everett Building Department
+- Everett Building Department — https://cityofeverett.com/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations

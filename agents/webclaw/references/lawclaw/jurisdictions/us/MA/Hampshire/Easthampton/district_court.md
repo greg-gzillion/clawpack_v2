@@ -1,3 +1,6 @@
 # Easthampton District Court
 ## Court Information
-- Easthampton District Court
+- Northampton District Court — 234 Main St — (413) 587-1500
+- **Court Website**: https://www.mass.gov/courts/
+## City Website
+- https://www.easthamptonma.gov/

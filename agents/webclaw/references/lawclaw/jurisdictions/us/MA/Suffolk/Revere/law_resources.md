@@ -1,12 +1,14 @@
 # Revere — Local Law Resources
+## City Website
+- https://www.revere.org/
 ## Law Enforcement
-- Revere Police Department
-- Suffolk County Sheriff
+- Revere PD — 400 Revere Beach Pkwy — (781) 284-1212
 - Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
 ## Courts
-- Revere District Court
+- Chelsea District Court — 120 Broadway, Chelsea — (617) 660-9200
+- **Court Website**: https://www.mass.gov/courts/
 ## Building Permits
-- Revere Building Department
+- Revere Building Department — https://www.revere.org/
 ## Hunting Regulations
 - MA Hunting Regulations — https://www.mass.gov/hunting-regulations
 ## Fishing Regulations
