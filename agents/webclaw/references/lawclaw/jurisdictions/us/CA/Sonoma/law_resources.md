@@ -19,6 +19,9 @@
 - Pacific Ocean surf/pier fishing
 - Deer zones A1, B5 — https://wildlife.ca.gov/Hunting/Deer
 - Sonoma Coast State Park — https://www.parks.ca.gov/?page_id=451
+
+## Universities
+- Sonoma State University — https://www.sonoma.edu/
 ## Legal Aid
 - Legal Aid of Sonoma County — https://www.legalaidsc.org/
 ## Corrections

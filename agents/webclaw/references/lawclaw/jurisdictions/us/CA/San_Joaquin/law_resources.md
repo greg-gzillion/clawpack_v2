@@ -17,6 +17,9 @@
 - New Hogan Lake — bass, striper — https://www.spk.usace.army.mil/Locations/Sacramento-District-Parks/New-Hogan-Lake/
 - Mokelumne River — salmon, steelhead, trout
 - Deer zones D4, D5 — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- University of the Pacific — https://www.pacific.edu/
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections

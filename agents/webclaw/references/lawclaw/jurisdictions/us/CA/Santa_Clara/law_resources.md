@@ -20,6 +20,12 @@
 - Lexington Reservoir — trout, bass — https://www.sccgov.org/sites/parks/parkfinder/Pages/Lexington.aspx
 - San Francisco Bay — halibut, striper, sturgeon
 - Deer zone A1 — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- Santa Clara University School of Law — https://law.scu.edu/
+- Stanford Law School — https://law.stanford.edu/
+- Stanford University — https://www.stanford.edu/
+- San Jose State University — https://www.sjsu.edu/
 ## Legal Aid
 - Bay Area Legal Aid — https://www.baylegal.org/
 ## Corrections

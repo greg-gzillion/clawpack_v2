@@ -20,6 +20,11 @@
 - Delta — striper, sturgeon, black bass — https://wildlife.ca.gov/Fishing/Delta
 - Deer zones D4, D5 — https://wildlife.ca.gov/Hunting/Deer
 - Sacramento NWR — waterfowl — https://www.fws.gov/refuge/sacramento/
+
+## Universities
+- University of the Pacific McGeorge School of Law — https://www.mcgeorge.edu/
+- California State University Sacramento — https://www.csus.edu/
+- UC Davis School of Law (adjacent) — https://law.ucdavis.edu/
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections

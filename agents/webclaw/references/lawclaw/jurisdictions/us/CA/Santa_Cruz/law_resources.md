@@ -18,6 +18,9 @@
 - San Lorenzo River — steelhead
 - Pacific Ocean — surf/pier fishing — salmon, rockfish, halibut
 - Deer zone A — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- UC Santa Cruz — https://www.ucsc.edu/
 ## Legal Aid
 - California Rural Legal Assistance — https://www.crla.org/
 ## Corrections

@@ -19,6 +19,9 @@
 - Pacific Ocean sportfishing — salmon, rockfish, tuna
 - Deer zones B2, B3, B6 — https://wildlife.ca.gov/Hunting/Deer
 - Roosevelt elk — https://wildlife.ca.gov/Hunting/Elk
+
+## Universities
+- Cal Poly Humboldt — https://www.humboldt.edu/
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections

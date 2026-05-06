@@ -20,6 +20,9 @@
 - Deer zones C3, C4, D3 — https://wildlife.ca.gov/Hunting/Deer
 - Gray Lodge WMA — waterfowl — https://wildlife.ca.gov/Lands/Places-to-Visit/Gray-Lodge-WA
 - Oroville WMA — waterfowl — https://wildlife.ca.gov/Lands/Places-to-Visit/Oroville-WA
+
+## Universities
+- California State University Chico — https://www.csuchico.edu/
 ## Legal Aid
 - Legal Services of Northern California — https://www.lsnc.net/
 ## Corrections

@@ -22,6 +22,9 @@
 - Deer zone A1 — https://wildlife.ca.gov/Hunting/Deer
 ## Military
 - Naval Base Ventura County Legal — https://www.cnic.navy.mil/regions/cnrsw/installations/nb_ventura_county.html
+
+## Universities
+- California State University Channel Islands — https://www.csuci.edu/
 ## Legal Aid
 - Ventura County Legal Services — https://www.vclegalaid.org/
 ## Corrections

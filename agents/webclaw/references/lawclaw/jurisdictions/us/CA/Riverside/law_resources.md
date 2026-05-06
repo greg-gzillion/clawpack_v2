@@ -24,6 +24,9 @@
 - Coachella Valley dove/quail hunting
 ## Military
 - March ARB Legal — https://www.march.afrc.af.mil/
+
+## Universities
+- University of California Riverside — https://www.ucr.edu/
 ## Legal Aid
 - Inland Counties Legal Services — https://www.inlandlegal.org/
 ## Corrections

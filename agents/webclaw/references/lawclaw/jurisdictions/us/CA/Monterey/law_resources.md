@@ -23,6 +23,9 @@
 ## Military
 - Presidio of Monterey Legal — https://www.dodmou.com/TBS/pom/
 - Naval Postgraduate School — https://www.nps.edu/
+
+## Universities
+- California State University Monterey Bay — https://www.csumb.edu/
 ## Legal Aid
 - California Rural Legal Assistance — https://www.crla.org/
 ## Corrections

@@ -18,6 +18,9 @@
 - Santa Margarita Lake — bass, trout — https://www.slocountyparks.com/santa-margarita-lake
 - Pacific Ocean — Morro Bay, Pismo Beach, Avila Beach — surf/pier fishing
 - Deer zones A, G13 — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- Cal Poly San Luis Obispo — https://www.calpoly.edu/
 ## Legal Aid
 - California Rural Legal Assistance — https://www.crla.org/
 ## Corrections

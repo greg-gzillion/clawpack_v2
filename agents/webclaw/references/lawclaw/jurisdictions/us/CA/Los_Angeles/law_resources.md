@@ -24,6 +24,18 @@
 - Santa Fe Dam — https://reservations.lacounty.gov/
 - Pacific Coast surf/pier fishing
 - Deer zones D11, D13, D15 — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- UCLA School of Law — https://law.ucla.edu/
+- USC Gould School of Law — https://www.gould.usc.edu/
+- Loyola Law School — https://www.lls.edu/
+- Pepperdine Caruso School of Law — https://law.pepperdine.edu/
+- Southwestern Law School — https://www.swlaw.edu/
+- UCLA — https://www.ucla.edu/
+- USC — https://www.usc.edu/
+- Cal State LA — https://www.calstatela.edu/
+- Cal State Northridge — https://www.csun.edu/
+- Cal State Long Beach — https://www.csulb.edu/
 ## Legal Aid
 - Legal Aid Foundation of LA — https://lafla.org/
 - Neighborhood Legal Services — https://www.nlsla.org/

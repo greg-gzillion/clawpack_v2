@@ -22,6 +22,9 @@
 - Kings River — trout
 - Deer zones D6, D7, D8 — https://wildlife.ca.gov/Hunting/Deer
 - Mendota WMA — waterfowl — https://wildlife.ca.gov/Lands/Places-to-Visit/Mendota-WA
+
+## Universities
+- California State University Fresno — https://www.fresnostate.edu/
 ## Legal Aid
 - Central California Legal Services — https://www.centralcallegal.org/
 ## Corrections

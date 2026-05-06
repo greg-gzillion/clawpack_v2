@@ -29,6 +29,12 @@
 - MCAS Miramar Legal — https://www.miramar.marines.mil/
 - Naval Base San Diego Legal — https://sandiego.navylifesw.com/legal
 - Camp Pendleton Legal — https://www.pendleton.marines.mil/Staff-Agencies/Legal/
+
+## Universities
+- University of San Diego School of Law — https://www.sandiego.edu/law/
+- California Western School of Law — https://www.cwsl.edu/
+- UC San Diego — https://www.ucsd.edu/
+- San Diego State University — https://www.sdsu.edu/
 ## Legal Aid
 - Legal Aid Society of San Diego — https://www.lassd.org/
 ## Corrections

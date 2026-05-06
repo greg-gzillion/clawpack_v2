@@ -26,6 +26,9 @@
 - Desert bighorn sheep — https://wildlife.ca.gov/Hunting/Bighorn-Sheep
 ## Military
 - Fort Irwin Legal — https://www.irwin.army.mil/
+
+## Universities
+- California State University San Bernardino — https://www.csusb.edu/
 ## Legal Aid
 - Inland Counties Legal Services — https://www.inlandlegal.org/
 ## Corrections

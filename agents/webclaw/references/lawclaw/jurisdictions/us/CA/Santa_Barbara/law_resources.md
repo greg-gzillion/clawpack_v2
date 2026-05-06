@@ -21,6 +21,9 @@
 - Deer zone A — https://wildlife.ca.gov/Hunting/Deer
 ## Military
 - Vandenberg Space Force Base Legal — https://www.vandenberg.spaceforce.mil/
+
+## Universities
+- UC Santa Barbara — https://www.ucsb.edu/
 ## Legal Aid
 - Legal Aid Foundation of Santa Barbara — https://www.lafsbc.org/
 ## Corrections

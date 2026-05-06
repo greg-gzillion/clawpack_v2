@@ -17,6 +17,9 @@
 - Turlock Lake — bass, trout — https://www.parks.ca.gov/?page_id=557
 - San Joaquin River — salmon, striper
 - Deer zones D5, D6 — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- California State University Stanislaus — https://www.csustan.edu/
 ## Legal Aid
 - Central California Legal Services — https://www.centralcallegal.org/
 ## Corrections

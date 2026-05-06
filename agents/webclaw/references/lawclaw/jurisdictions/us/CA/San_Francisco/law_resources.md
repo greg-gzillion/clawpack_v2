@@ -21,6 +21,12 @@
 - No hunting within city limits
 ## Military
 - Coast Guard Island Alameda — https://www.atlanticarea.uscg.mil/
+
+## Universities
+- UC Law San Francisco (formerly UC Hastings) — https://www.uclawsf.edu/
+- University of San Francisco School of Law — https://www.usfca.edu/law/
+- Golden Gate University School of Law — https://law.ggu.edu/
+- San Francisco State University — https://www.sfsu.edu/
 ## Legal Aid
 - Bay Area Legal Aid — https://www.baylegal.org/
 ## Corrections

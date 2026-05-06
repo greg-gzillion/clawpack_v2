@@ -23,6 +23,9 @@
 ## Military
 - Edwards AFB Legal — https://www.edwards.af.mil/
 - China Lake NAWS Legal — https://www.navair.navy.mil/nawcwd/
+
+## Universities
+- California State University Bakersfield — https://www.csub.edu/
 ## Legal Aid
 - Greater Bakersfield Legal Assistance — https://www.gbla.org/
 ## Corrections

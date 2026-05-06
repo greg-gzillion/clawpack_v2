@@ -18,6 +18,12 @@
 - Upper Newport Bay — https://wildlife.ca.gov/lands/places-to-visit/upper-newport-bay-er
 - Santa Ana River Lakes — https://www.santaana-riverlakes.com/
 - Pacific Ocean pier/surf fishing — Huntington Beach, Newport, Laguna, San Clemente
+
+## Universities
+- University of California Irvine School of Law — https://law.uci.edu/
+- UC Irvine — https://www.uci.edu/
+- Chapman University Fowler School of Law — https://www.chapman.edu/law/
+- Cal State Fullerton — https://www.fullerton.edu/
 ## Legal Aid
 - Legal Aid Society of Orange County — https://www.legal-aid.com/
 ## Corrections

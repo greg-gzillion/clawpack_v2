@@ -22,6 +22,11 @@
 - San Francisco Bay — halibut, striper, sturgeon — https://wildlife.ca.gov/Fishing/Ocean
 - Pacific Ocean — Alameda, Berkeley piers — surf fishing
 - Deer zone A1 — https://wildlife.ca.gov/Hunting/Deer
+
+## Universities
+- University of California Berkeley School of Law — https://www.law.berkeley.edu/
+- UC Berkeley — https://www.berkeley.edu/
+- California State University East Bay — https://www.csueastbay.edu/
 ## Legal Aid
 - Bay Area Legal Aid — https://www.baylegal.org/
 ## Corrections
