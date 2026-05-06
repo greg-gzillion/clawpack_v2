@@ -13,6 +13,11 @@
 - Crystal digging at Crater of Diamonds area nearby
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Ouachita National Forest - https://www.fs.usda.gov/ouachita/
+- Lake Ouachita - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — Hot Springs Office — (501) 321-1130
 ## Corrections

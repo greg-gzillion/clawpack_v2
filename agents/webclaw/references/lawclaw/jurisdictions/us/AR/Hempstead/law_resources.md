@@ -12,6 +12,10 @@
 - Bois d'Arc Lake — fishing
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Historic Washington State Park - https://www.arkansasstateparks.com/parks/historic-washington-state-park
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

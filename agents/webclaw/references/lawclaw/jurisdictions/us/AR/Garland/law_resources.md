@@ -17,6 +17,12 @@
 - Ouachita National Forest — https://www.fs.usda.gov/ouachita/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Lake Ouachita - bass, crappie
+- Lake Hamilton - bass
+- Hot Springs National Park - https://www.nps.gov/hosp/
+
 ## Legal Aid
 - Legal Aid of Arkansas — Hot Springs Office — (501) 321-1130 — https://www.legalaidar.org/
 ## Corrections

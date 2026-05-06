@@ -14,6 +14,12 @@
 - Buffalo National River — NPS — https://www.nps.gov/buff/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Bull Shoals Lake - bass, trout
+- Norfork Lake - bass
+- White River - trout
+
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

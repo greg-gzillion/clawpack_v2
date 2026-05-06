@@ -21,6 +21,11 @@
 ## Universities
 - University of Arkansas at Little Rock — https://www.ualr.edu/
 - UA Little Rock Bowen School of Law — https://www.ualr.edu/law/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Arkansas River - bass
+- Pinnacle Mountain State Park - https://www.arkansasstateparks.com/parks/pinnacle-mountain-state-park
+
 ## Legal Aid
 - Center for Arkansas Legal Services — Little Rock — (501) 376-3423 — https://www.arkansaslegal.org/
 - Legal Aid of Arkansas — (501) 376-3423

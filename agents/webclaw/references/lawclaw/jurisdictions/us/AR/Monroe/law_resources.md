@@ -13,6 +13,11 @@
 - Cache River NWR — USFWS — https://www.fws.gov/refuge/cache-river/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- White River - bass
+- Cache River NWR - https://www.fws.gov/refuge/cache-river/
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

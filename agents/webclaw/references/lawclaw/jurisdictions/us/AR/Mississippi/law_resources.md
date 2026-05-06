@@ -12,6 +12,14 @@
 - Big Lake National Wildlife Refuge — USFWS — https://www.fws.gov/refuge/big-lake/
 - Mississippi River — fishing, boating
 - Big Lake WMA — duck hunting
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Big Lake NWR - https://www.fws.gov/refuge/big-lake/
+- Mississippi River - catfish
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

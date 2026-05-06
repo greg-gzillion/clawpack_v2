@@ -18,6 +18,15 @@
 - White River access — fishing
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Universities
+- University of Arkansas School of Law - https://law.uark.edu/
+- University of Arkansas - https://www.uark.edu/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Beaver Lake - bass, crappie
+- Devil's Den State Park - https://www.arkansasstateparks.com/parks/devils-den-state-park
+
 ## Legal Aid
 - Legal Aid of Arkansas — Fayetteville Office — (479) 442-0600 — https://www.legalaidar.org/
 ## Corrections

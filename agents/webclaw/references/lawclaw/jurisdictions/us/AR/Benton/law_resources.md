@@ -17,6 +17,11 @@
 - Crystal Bridges trails — Bentonville
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Beaver Lake - bass, crappie
+- Hobbs State Park - https://www.arkansasstateparks.com/parks/hobbs-state-park-conservation-area
+
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

@@ -14,6 +14,11 @@
 - Cossatot River — canoeing, fishing
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Queen Wilhelmina State Park - https://www.arkansasstateparks.com/parks/queen-wilhelmina-state-park
+- Ouachita National Forest
+
 ## Legal Aid
 - Legal Aid of Arkansas — Fort Smith — (479) 785-5211
 ## Corrections

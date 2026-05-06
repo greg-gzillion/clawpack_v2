@@ -11,6 +11,14 @@
 - Cache River NWR — USFWS — https://www.fws.gov/refuge/cache-river/
 - White River — fishing, boating
 - Hurricane Lake WMA — duck hunting
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Cache River NWR - https://www.fws.gov/refuge/cache-river/
+- White River - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

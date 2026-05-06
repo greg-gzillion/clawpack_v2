@@ -13,6 +13,11 @@
 - Ozark National Forest — https://www.fs.usda.gov/ouachita/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Lake Fort Smith State Park - https://www.arkansasstateparks.com/parks/lake-fort-smith-state-park
+- Arkansas River - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — Fort Smith Office — (479) 785-5211
 ## Corrections

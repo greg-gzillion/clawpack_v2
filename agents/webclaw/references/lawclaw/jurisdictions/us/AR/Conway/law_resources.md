@@ -13,6 +13,11 @@
 - Lake Overcup — fishing
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Petit Jean State Park - https://www.arkansasstateparks.com/parks/petit-jean-state-park
+- Arkansas River - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — (501) 329-0190
 ## Corrections

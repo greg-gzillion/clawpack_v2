@@ -12,6 +12,15 @@
 - Blanchard Springs Caverns — USFS
 - White River — trout fishing
 - Sylamore WMA — hunting
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Ozark National Forest - https://www.fs.usda.gov/ouachita/
+- White River - trout
+- Blanchard Springs Caverns
+
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

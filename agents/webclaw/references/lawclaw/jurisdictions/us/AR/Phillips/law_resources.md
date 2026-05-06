@@ -13,6 +13,11 @@
 - Helena River Park — Mississippi River access
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Mississippi River - catfish
+- St. Francis National Forest
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

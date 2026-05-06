@@ -12,6 +12,10 @@
 - Lake Columbia — fishing
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Logoly State Park - bass
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

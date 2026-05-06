@@ -11,6 +11,14 @@
 - Current River — fishing, canoeing
 - Black River — fishing
 - Dave Donaldson Black River WMA — hunting
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Current River - trout
+- Black River - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

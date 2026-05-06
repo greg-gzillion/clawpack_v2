@@ -12,6 +12,11 @@
 - Ouachita River — fishing, boating
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- White Oak Lake State Park - bass
+- Ouachita River - bass
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

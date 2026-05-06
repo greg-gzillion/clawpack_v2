@@ -13,6 +13,11 @@
 - DeGray Lake — USACE
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Lake Catherine State Park - https://www.arkansasstateparks.com/parks/lake-catherine-state-park
+- Ouachita River - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — Hot Springs Office — (501) 321-1130
 ## Corrections

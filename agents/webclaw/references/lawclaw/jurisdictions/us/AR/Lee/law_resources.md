@@ -13,6 +13,11 @@
 - Mississippi River — fishing, boating
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Bear Creek Lake - bass
+- St. Francis National Forest - https://www.fs.usda.gov/ouachita/
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

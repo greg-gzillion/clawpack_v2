@@ -13,6 +13,11 @@
 - Moro Bay State Park — https://www.arkansasstateparks.com/parks/moro-bay-state-park
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Felsenthal NWR - https://www.fws.gov/refuge/felsenthal/
+- Ouachita River - bass
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

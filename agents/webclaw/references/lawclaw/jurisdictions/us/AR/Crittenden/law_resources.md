@@ -13,6 +13,11 @@
 - Horseshoe Lake — fishing
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Mississippi River - catfish
+- Wapanocca NWR - https://www.fws.gov/refuge/wapanocca/
+
 ## Legal Aid
 - Legal Aid of Arkansas — Jonesboro Office — (870) 972-9224
 ## Corrections

@@ -19,6 +19,11 @@
 ## Universities
 - University of Central Arkansas — https://www.uca.edu/
 - Hendrix College — https://www.hendrix.edu/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Lake Conway - bass, crappie
+- Woolly Hollow State Park - https://www.arkansasstateparks.com/parks/woolly-hollow-state-park
+
 ## Legal Aid
 - Legal Aid of Arkansas — Conway Office — (501) 329-0190 — https://www.legalaidar.org/
 ## Corrections

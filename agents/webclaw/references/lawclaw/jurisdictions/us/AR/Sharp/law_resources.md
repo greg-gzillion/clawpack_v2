@@ -13,6 +13,14 @@
 - Spring River — fishing, canoeing
 - Strawberry River — fishing
 - Harold Alexander WMA — hunting
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Spring River - trout
+- Strawberry River - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

@@ -13,6 +13,11 @@
 - White Cliffs Natural Area
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Millwood Lake - bass
+- Red River - catfish
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

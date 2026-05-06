@@ -13,6 +13,11 @@
 - Riverside Park — Searcy
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Little Red River - trout
+- Greers Ferry Lake - bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — (870) 972-9224
 ## Corrections

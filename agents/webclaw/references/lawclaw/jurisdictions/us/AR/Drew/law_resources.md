@@ -10,6 +10,13 @@
 - Arkansas Game and Fish Commission — https://www.agfc.com/
 - Lake Monticello — fishing
 - Seven Devils WMA — hunting
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Lake Monticello - bass
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections

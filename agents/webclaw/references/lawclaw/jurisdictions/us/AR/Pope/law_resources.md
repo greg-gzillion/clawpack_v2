@@ -17,6 +17,12 @@
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Universities
 - Arkansas Tech University — https://www.atu.edu/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Lake Dardanelle - bass, crappie
+- Arkansas River - bass
+- Holla Bend NWR - https://www.fws.gov/refuge/holla-bend/
+
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

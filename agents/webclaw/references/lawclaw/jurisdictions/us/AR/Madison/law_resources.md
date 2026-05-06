@@ -13,6 +13,11 @@
 - Withrow Springs State Park — https://www.arkansasstateparks.com/parks/withrow-springs-state-park
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Ozark National Forest - https://www.fs.usda.gov/ouachita/
+- Kings River - smallmouth bass
+
 ## Legal Aid
 - Legal Aid of Arkansas — (479) 442-0600
 ## Corrections

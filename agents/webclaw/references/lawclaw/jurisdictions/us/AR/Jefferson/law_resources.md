@@ -19,6 +19,11 @@
 - AR Hunting Regulations — https://www.agfc.com/hunting/
 ## Universities
 - University of Arkansas at Pine Bluff — https://www.uapb.edu/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Arkansas River - bass
+- Cane Creek State Park - https://www.arkansasstateparks.com/parks/cane-creek-state-park
+
 ## Legal Aid
 - Center for Arkansas Legal Services — Pine Bluff Office — (870) 536-9006 — https://www.arkansaslegal.org/
 ## Corrections

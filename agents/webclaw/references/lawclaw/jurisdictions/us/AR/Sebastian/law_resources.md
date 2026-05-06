@@ -19,6 +19,11 @@
 - Fort Chaffee Joint Maneuver Training Center — https://www.chaffee.army.mil/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Arkansas River - bass
+- Fort Smith National Historic Site - https://www.nps.gov/fosm/
+
 ## Legal Aid
 - Legal Aid of Arkansas — Fort Smith Office — (479) 785-5211 — https://www.legalaidar.org/
 ## Corrections

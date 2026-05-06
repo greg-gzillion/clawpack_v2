@@ -13,6 +13,10 @@
 - Ozark National Forest — https://www.fs.usda.gov/ouachita/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Greers Ferry Lake - bass, crappie
+
 ## Legal Aid
 - Legal Aid of Arkansas — Conway Office — (501) 329-0190
 ## Corrections

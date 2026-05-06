@@ -14,6 +14,11 @@
 - Heber Springs Parks — https://www.hebersprings.gov/
 ## Hunting Regulations
 - AR Hunting Regulations — https://www.agfc.com/hunting/
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- Greers Ferry Lake - bass, crappie
+- Little Red River - trout
+
 ## Legal Aid
 - Legal Aid of Arkansas — (501) 329-0190
 ## Corrections

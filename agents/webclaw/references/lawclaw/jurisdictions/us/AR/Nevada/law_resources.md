@@ -13,6 +13,13 @@
 ## Fishing Regulations
 - AR Fishing Regulations — https://www.agfc.com/fishing/
 - White Oak Lake State Park — https://www.arkansasstateparks.com/parks/white-oak-lake-state-park
+## Hunting Regulations
+- AR Hunting Regulations - https://www.agfc.com/hunting/
+
+## Fishing Regulations
+- AR Fishing Regulations - https://www.agfc.com/fishing/
+- White Oak Lake State Park - https://www.arkansasstateparks.com/parks/white-oak-lake-state-park
+
 ## Legal Aid
 - Center for Arkansas Legal Services — (870) 536-9006
 ## Corrections
