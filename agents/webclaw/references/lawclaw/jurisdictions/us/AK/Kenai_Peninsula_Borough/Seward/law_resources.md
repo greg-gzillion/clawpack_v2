@@ -1,12 +1,11 @@
 # Seward — Local Law Resources
 ## Law Enforcement
-- Seward Police Department
+- Seward Police Department — (907) 224-3338
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Seward Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Alaska Court System — nearest in Kenai/Soldotna
 ## Building Permits
-- Seward Building Department
+- Seward Building Department — https://www.cityofseward.us/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

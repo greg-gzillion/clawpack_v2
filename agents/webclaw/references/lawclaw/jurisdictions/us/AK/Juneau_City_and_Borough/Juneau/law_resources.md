@@ -1,12 +1,11 @@
 # Juneau — Local Law Resources
 ## Law Enforcement
-- Juneau Police Department
+- Juneau Police Department — https://www.juneau.org/juneau-police-department
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Juneau Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Juneau District Court — 123 W 4th St — https://www.courts.alaska.gov/
 ## Building Permits
-- Juneau Building Department
+- Juneau Building Department — https://www.juneau.org/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

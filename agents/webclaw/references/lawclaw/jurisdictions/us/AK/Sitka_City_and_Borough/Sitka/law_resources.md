@@ -1,12 +1,11 @@
 # Sitka — Local Law Resources
 ## Law Enforcement
-- Sitka Police Department
+- Sitka Police Department — https://www.cityofsitka.com/police
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Sitka Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Sitka District Court — 304 Lake St — https://www.courts.alaska.gov/
 ## Building Permits
-- Sitka Building Department
+- Sitka Building Department — https://www.cityofsitka.com/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

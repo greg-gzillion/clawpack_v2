@@ -1,9 +1,4 @@
 # Bethel Municipal Court
 ## Court Information
-- **Court Name**: Bethel Municipal Court
-- **Borough**: Bethel Census Area
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Bethel city website for phone, address, and hours
+- **Court**: Bethel District Court — 204 Chief Eddie Hoffman Hwy — https://www.courts.alaska.gov/
+- **City Website**: https://www.cityofbethel.org/

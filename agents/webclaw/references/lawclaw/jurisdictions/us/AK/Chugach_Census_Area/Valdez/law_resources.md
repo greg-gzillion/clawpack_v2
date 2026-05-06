@@ -1,12 +1,11 @@
 # Valdez — Local Law Resources
 ## Law Enforcement
-- Valdez Police Department
+- Valdez Police Department — https://www.valdezak.gov/police/
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Valdez Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Alaska Court System — nearest in Anchorage
 ## Building Permits
-- Valdez Building Department
+- Valdez Building Department — https://www.valdezak.gov/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

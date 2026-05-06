@@ -1,9 +1,4 @@
 # Homer Municipal Court
 ## Court Information
-- **Court Name**: Homer Municipal Court
-- **Borough**: Kenai Peninsula Borough
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Homer city website for phone, address, and hours
+- **Court**: Alaska Court System — nearest in Kenai/Soldotna
+- **City Website**: https://www.cityofhomer-ak.gov/

@@ -1,12 +1,11 @@
 # Homer — Local Law Resources
 ## Law Enforcement
-- Homer Police Department
+- Homer Police Department — https://www.cityofhomer-ak.gov/police
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Homer Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Alaska Court System — nearest in Kenai/Soldotna
 ## Building Permits
-- Homer Building Department
+- Homer Building Department — https://www.cityofhomer-ak.gov/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

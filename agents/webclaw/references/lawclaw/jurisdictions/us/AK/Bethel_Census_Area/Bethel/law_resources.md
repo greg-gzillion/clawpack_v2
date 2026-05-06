@@ -1,12 +1,11 @@
 # Bethel — Local Law Resources
 ## Law Enforcement
-- Bethel Police Department
+- Bethel Police Department — 220 Chief Eddie Hoffman Hwy — (907) 543-2047
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Bethel Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Bethel District Court — 204 Chief Eddie Hoffman Hwy — https://www.courts.alaska.gov/
 ## Building Permits
-- Bethel Building Department
+- Bethel Building Department — https://www.cityofbethel.org/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

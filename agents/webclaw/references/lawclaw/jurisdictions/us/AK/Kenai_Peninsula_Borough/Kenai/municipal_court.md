@@ -1,9 +1,4 @@
 # Kenai Municipal Court
 ## Court Information
-- **Court Name**: Kenai Municipal Court
-- **Borough**: Kenai Peninsula Borough
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Kenai city website for phone, address, and hours
+- **Court**: Kenai District Court — 125 Trading Bay Dr — https://www.courts.alaska.gov/
+- **City Website**: https://www.kenai.city/

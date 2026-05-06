@@ -1,12 +1,11 @@
 # Palmer — Local Law Resources
 ## Law Enforcement
-- Palmer Police Department
+- Palmer Police Department — https://www.cityofpalmer.org/police
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Palmer Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Palmer District Court — 1800 S Bragaw St — https://www.courts.alaska.gov/
 ## Building Permits
-- Palmer Building Department
+- Palmer Building Department — https://www.cityofpalmer.org/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

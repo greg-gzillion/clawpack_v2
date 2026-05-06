@@ -1,9 +1,4 @@
 # Sitka Municipal Court
 ## Court Information
-- **Court Name**: Sitka Municipal Court
-- **Borough**: Sitka City and Borough
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Sitka city website for phone, address, and hours
+- **Court**: Sitka District Court — 304 Lake St — https://www.courts.alaska.gov/
+- **City Website**: https://www.cityofsitka.com/

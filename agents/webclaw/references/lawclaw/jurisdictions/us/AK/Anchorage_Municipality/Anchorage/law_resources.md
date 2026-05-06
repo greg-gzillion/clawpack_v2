@@ -1,12 +1,11 @@
 # Anchorage — Local Law Resources
 ## Law Enforcement
-- Anchorage Police Department
+- https://www.anchoragepolice.com/
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Anchorage Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Anchorage District Court — 825 W 4th Ave — https://www.courts.alaska.gov/
 ## Building Permits
-- Anchorage Building Department
+- Anchorage Building Department — https://www.muni.org/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

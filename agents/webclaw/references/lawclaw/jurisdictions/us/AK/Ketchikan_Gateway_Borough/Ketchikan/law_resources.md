@@ -1,12 +1,11 @@
 # Ketchikan — Local Law Resources
 ## Law Enforcement
-- Ketchikan Police Department
+- Ketchikan Police Department — https://www.ktn-ak.us/police
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Ketchikan Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Ketchikan Trial Court — 415 Main St — https://www.courts.alaska.gov/
 ## Building Permits
-- Ketchikan Building Department
+- Ketchikan Building Department — https://www.ktn-ak.us/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

@@ -1,12 +1,11 @@
 # Fairbanks — Local Law Resources
 ## Law Enforcement
-- Fairbanks Police Department
+- Fairbanks Police Department — https://www.fairbanksalaska.us/police
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Fairbanks Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Fairbanks District Court — 101 Lacey St — https://www.courts.alaska.gov/
 ## Building Permits
-- Fairbanks Building Department
+- Fairbanks Building Department — https://www.fairbanksalaska.us/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations

@@ -1,9 +1,4 @@
 # Anchorage Municipal Court
 ## Court Information
-- **Court Name**: Anchorage Municipal Court
-- **Borough**: Anchorage Municipality
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Anchorage city website for phone, address, and hours
+- **Court**: Anchorage District Court — 825 W 4th Ave — https://www.courts.alaska.gov/
+- **City Website**: https://www.muni.org/

@@ -1,9 +1,4 @@
 # Unalaska Municipal Court
 ## Court Information
-- **Court Name**: Unalaska Municipal Court
-- **Borough**: Aleutians West Census Area
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Unalaska city website for phone, address, and hours
+- **Court**: Alaska Court System — Unalaska District Court — https://www.courts.alaska.gov/
+- **City Website**: https://www.unalaska.gov/

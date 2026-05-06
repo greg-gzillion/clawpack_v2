@@ -1,12 +1,11 @@
 # Kodiak — Local Law Resources
 ## Law Enforcement
-- Kodiak Police Department
+- Kodiak Police Department — https://www.city.kodiak.ak.us/police
 - Alaska State Troopers — https://www.dps.alaska.gov/
 ## Courts
-- Kodiak Municipal Court
-- Alaska Court System — https://www.public.courts.alaska.gov/
+- Kodiak Court — 204 Mission Rd — https://www.courts.alaska.gov/
 ## Building Permits
-- Kodiak Building Department
+- Kodiak Building Department — https://www.city.kodiak.ak.us/
 ## Hunting Regulations
 - AK Hunting Regulations — https://www.adfg.alaska.gov/index.cfm?adfg=hunting.main
 ## Fishing Regulations
