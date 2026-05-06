@@ -20,17 +20,26 @@
 - Joint Base Pearl Harbor-Hickam Legal — https://www.jbphh.navy.mil/
 - Schofield Barracks Legal — https://www.garrison.hawaii.army.mil/
 - Marine Corps Base Hawaii Legal — https://www.mcbhawaii.marines.mil/
-- Tripler Army Medical Center — https://www.tamc.amedd.army.mil/
 ## Hunting Regulations
 - HI Hunting Regulations — https://dlnr.hawaii.gov/recreation/hunting/
-- Oahu hunting areas — feral pig, goat, deer — https://dlnr.hawaii.gov/recreation/hunting/oahu/
-- Kuaokala Forest Reserve — https://dlnr.hawaii.gov/forestry/
-## Fishing Regulations
-- HI Fishing Regulations — https://dlnr.hawaii.gov/dar/fishing/fishing-regulations/
-- Pacific Ocean — mahi, tuna (ahi), marlin, wahoo (ono), snapper (uku)
-- Oahu shoreline fishing — papio, ulua, oio
-- Pearl Harbor — limited access fishing
-- Lake Wilson — bass, catfish — https://dlnr.hawaii.gov/dar/fishing/freshwater-fishing/
+- Oahu public hunting areas — https://dlnr.hawaii.gov/recreation/hunting/oahu/
+- Feral pig, feral goat, feral cattle — year-round
+- Axis deer — Kuaokala, Makua — seasonal — https://dlnr.hawaii.gov/recreation/hunting/oahu/oahu-game-mammal-hunting/
+- Game birds: ring-necked pheasant, green pheasant, francolin, Japanese quail, spotted dove, barred dove, wild turkey — seasonal — https://dlnr.hawaii.gov/recreation/hunting/oahu/oahu-game-bird-hunting/
+- Kuaokala Forest Reserve, Makua Keaau Forest Reserve, Ewa Forest Reserve
+- James Campbell NWR — limited hunting — https://www.fws.gov/refuge/james-campbell/
+## Inland/Freshwater Fishing Regulations
+- HI Freshwater Fishing — https://dlnr.hawaii.gov/dar/fishing/freshwater-fishing/
+- Lake Wilson (Wahiawa Reservoir) — largemouth bass, channel catfish, tilapia, oscar — https://dlnr.hawaii.gov/dar/fishing/freshwater-fishing/lake-wilson/
+- Nuuanu Reservoir — trout (seasonal stocking), catfish
+- Freshwater license required — https://dlnr.hawaii.gov/dar/fishing/freshwater-fishing/
+## Saltwater/Ocean Fishing Regulations
+- HI Saltwater Fishing Regulations — https://dlnr.hawaii.gov/dar/fishing/fishing-regulations/
+- Shoreline fishing (no license required): ulua (giant trevally), papio (juvenile trevally), oio (bonefish), kaku (barracuda), moana (goatfish), weke
+- Spearfishing regulations — https://dlnr.hawaii.gov/dar/fishing/spearfishing/
+- Mahi (dolphinfish), ahi (yellowfin tuna), aku (skipjack tuna), ono (wahoo), nairagi (striped marlin), kajiki (blue marlin), uku (snapper), opakapaka (pink snapper), hapuupuu (grouper)
+- Bottomfish restricted fishing areas — https://dlnr.hawaii.gov/dar/fishing/bottomfish/
+- Honolulu Fish Auction — https://www.honolulufishauction.com/
 ## Legal Aid
 - Legal Aid Society of Hawaii — https://www.legalaidhawaii.org/
 ## Corrections

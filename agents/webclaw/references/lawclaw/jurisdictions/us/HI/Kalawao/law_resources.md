@@ -12,10 +12,15 @@
 - Hawaii Public Defender — https://dps.hawaii.gov/administration/public-defender/
 ## Hunting Regulations
 - HI Hunting Regulations — https://dlnr.hawaii.gov/recreation/hunting/
-- Kalaupapa National Historical Park — no hunting — https://www.nps.gov/kala/
-## Fishing Regulations
-- HI Fishing Regulations — https://dlnr.hawaii.gov/dar/fishing/fishing-regulations/
-- Molokai shoreline fishing — limited to park boundaries
+- Kalaupapa National Historical Park — no hunting allowed — https://www.nps.gov/kala/
+- Nearest: Molokai public hunting areas (Maui County) — https://dlnr.hawaii.gov/recreation/hunting/maui-nui/
+## Inland/Freshwater Fishing Regulations
+- HI Freshwater Fishing — https://dlnr.hawaii.gov/dar/fishing/freshwater-fishing/
+- No inland fishing within Kalawao County boundaries
+## Saltwater/Ocean Fishing Regulations
+- HI Saltwater Fishing Regulations — https://dlnr.hawaii.gov/dar/fishing/fishing-regulations/
+- Shoreline fishing: limited to park boundaries and permitted areas
+- Molokai north shore — ulua, papio
 ## Legal Aid
 - Legal Aid Society of Hawaii — https://www.legalaidhawaii.org/
 ## Corrections
