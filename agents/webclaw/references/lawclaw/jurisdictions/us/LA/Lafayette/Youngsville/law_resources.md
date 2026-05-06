@@ -1,12 +1,14 @@
 # Youngsville — Local Law Resources
+## City Website
+- https://www.youngsville.us/
 ## Law Enforcement
-- Youngsville Police Department
-- Lafayette Parish Sheriff
+- Youngsville PD — 311 Lafayette St — (337) 856-5931
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Youngsville City Court
+- Youngsville City Court — 305 Iberia St — (337) 856-4181
+- **Court Website**: https://youngsvillela.municipalonlinepayments.com/
 ## Building Permits
-- Youngsville Building Department
+- Youngsville Building Department — https://www.youngsville.us/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

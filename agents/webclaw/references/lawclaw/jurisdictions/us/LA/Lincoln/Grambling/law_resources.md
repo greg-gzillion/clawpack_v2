@@ -1,12 +1,14 @@
 # Grambling — Local Law Resources
+## City Website
+- https://www.gramblingla.com/
 ## Law Enforcement
-- Grambling Police Department
-- Lincoln Parish Sheriff
+- Grambling PD — (318) 247-3771
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Grambling City Court
+- Lincoln Parish Clerk — Ruston — (318) 251-5130
+- **Court Website**: https://www.gramblingla.com/
 ## Building Permits
-- Grambling Building Department
+- Grambling Building Department — https://www.gramblingla.com/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

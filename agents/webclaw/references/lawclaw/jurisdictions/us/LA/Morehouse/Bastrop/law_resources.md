@@ -1,12 +1,14 @@
 # Bastrop — Local Law Resources
+## City Website
+- https://www.cityofbastrop.org/
 ## Law Enforcement
-- Bastrop Police Department
-- Morehouse Parish Sheriff
+- Bastrop PD — (318) 283-0257
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Bastrop City Court
+- Bastrop City Court — 202 E Jefferson Ave — (318) 283-0257
+- **Court Website**: https://bastropcitycourt.com/
 ## Building Permits
-- Bastrop Building Department
+- Bastrop Building Department — https://www.cityofbastrop.org/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

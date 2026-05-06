@@ -1,12 +1,14 @@
 # Minden — Local Law Resources
+## City Website
+- https://mindenla.org/
 ## Law Enforcement
-- Minden Police Department
-- Webster Parish Sheriff
+- Minden PD — (318) 377-1212
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Minden City Court
+- Minden City Court — (318) 377-4308
+- **Court Website**: https://mindenla.org/city-court/
 ## Building Permits
-- Minden Building Department
+- Minden Building Department — https://mindenla.org/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

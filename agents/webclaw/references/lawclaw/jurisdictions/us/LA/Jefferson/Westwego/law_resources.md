@@ -1,12 +1,14 @@
 # Westwego — Local Law Resources
+## City Website
+- https://www.westwego.org/
 ## Law Enforcement
-- Westwego Police Department
-- Jefferson Parish Sheriff
+- Westwego PD — (504) 341-5428
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Westwego City Court
+- Jefferson Parish City Courts — Metairie — (504) 364-7884
+- **Court Website**: https://www.westwego.org/
 ## Building Permits
-- Westwego Building Department
+- Westwego Building Department — https://www.westwego.org/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

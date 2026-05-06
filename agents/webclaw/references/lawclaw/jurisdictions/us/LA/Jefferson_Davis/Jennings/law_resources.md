@@ -1,12 +1,14 @@
 # Jennings — Local Law Resources
+## City Website
+- https://www.jenningsla.com/
 ## Law Enforcement
-- Jennings Police Department
-- Jefferson Davis Parish Sheriff
+- Jennings PD — (337) 824-2355
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Jennings City Court
+- Jefferson Davis Parish Clerk — (337) 824-2355
+- **Court Website**: https://www.jenningsla.com/
 ## Building Permits
-- Jennings Building Department
+- Jennings Building Department — https://www.jenningsla.com/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

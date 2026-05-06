@@ -1,12 +1,14 @@
 # Lutcher — Local Law Resources
+## City Website
+- https://sabinesheriff.com/
 ## Law Enforcement
-- Lutcher Police Department
-- St. James Parish Sheriff
+- Lutcher PD — 2122 West Main St — (225) 869-4163
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Lutcher City Court
+- St. James Parish Clerk — Convent — (225) 562-3551
+- **Court Website**: https://sabinesheriff.com/
 ## Building Permits
-- Lutcher Building Department
+- Lutcher Building Department — https://sabinesheriff.com/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

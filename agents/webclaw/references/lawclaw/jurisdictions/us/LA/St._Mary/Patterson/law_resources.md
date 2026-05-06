@@ -1,12 +1,14 @@
 # Patterson — Local Law Resources
+## City Website
+- https://www.cityofpatterson.com/
 ## Law Enforcement
-- Patterson Police Department
-- St. Mary Parish Sheriff
+- Patterson PD — (985) 395-3232
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Patterson City Court
+- St. Mary Parish Clerk — Morgan City — (985) 384-2718
+- **Court Website**: https://www.cityofpatterson.com/
 ## Building Permits
-- Patterson Building Department
+- Patterson Building Department — https://www.cityofpatterson.com/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

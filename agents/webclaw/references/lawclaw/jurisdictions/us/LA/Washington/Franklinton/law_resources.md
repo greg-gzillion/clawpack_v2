@@ -1,12 +1,14 @@
 # Franklinton — Local Law Resources
+## City Website
+- https://www.washingtonparish.com/
 ## Law Enforcement
-- Franklinton Police Department
-- Washington Parish Sheriff
+- Washington Parish Sheriff — 409 11th Ave — (985) 839-4474
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Franklinton City Court
+- Washington Parish Clerk — 908 Washington St — (985) 839-4663
+- **Court Website**: https://www.washingtonparish.com/
 ## Building Permits
-- Franklinton Building Department
+- Franklinton Building Department — https://www.washingtonparish.com/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

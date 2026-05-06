@@ -1,12 +1,14 @@
 # Carencro — Local Law Resources
+## City Website
+- https://www.cityofcarencro.com/
 ## Law Enforcement
-- Carencro Police Department
-- Lafayette Parish Sheriff
+- Carencro PD — (337) 896-2225
 - Louisiana State Police — https://www.lsp.org/
 ## Courts
-- Carencro City Court
+- Lafayette Parish Justice of the Peace — (337) 896-2225
+- **Court Website**: https://www.cityofcarencro.com/
 ## Building Permits
-- Carencro Building Department
+- Carencro Building Department — https://www.cityofcarencro.com/
 ## Hunting Regulations
 - LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
 ## Fishing Regulations

@@ -1,3 +1,6 @@
 # Harahan City Court
 ## Court Information
-- Harahan City Court
+- Jefferson Parish First Parish Court — Metairie — (504) 364-7884
+- **Court Website**: https://www.harahan.org/
+## City Website
+- https://www.harahan.org/
