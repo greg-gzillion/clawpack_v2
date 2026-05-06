@@ -830,6 +830,7 @@ Now the full Illinois research list — 60 cities total. Here's the first batch:
 ILLINOIS — RESEARCH LIST (60 cities)
 
 #	City	County	Needs
+
 1	Algonquin	McHenry	city site, police, municipal court
 2	Alton	Madison	city site, police, municipal court
 3	Arlington Heights	Cook	city site, police, municipal court
@@ -856,8 +857,137 @@ ILLINOIS — RESEARCH LIST (60 cities)
 24	Freeport	Stephenson	city site, police, municipal court
 25	Galesburg	Knox	city site, police, municipal court
 
+ILLINOIS BATCH 2 — REMAINING 35 CITIES
+
+#	City	County	Needs
+
+1	Granite City	Madison	city site, police, municipal court
+2	Joliet	Will	city site, police, municipal court
+3	Kankakee	Kankakee	city site, police, municipal court
+4	La Salle	LaSalle	city site, police, municipal court
+5	Loves Park	Winnebago	city site, police, municipal court
+6	Machesney Park	Winnebago	city site, police, municipal court
+7	Marion	Williamson	city site, police, municipal court
+8	McHenry	McHenry	city site, police, municipal court
+9	Moline	Rock Island	city site, police, municipal court
+10	Morton	Tazewell	city site, police, municipal court
+11	Naperville	DuPage	city site, police, municipal court
+12	O'Fallon	St. Clair	city site, police, municipal court
+13	Orland Park	Cook	city site, police, municipal court
+14	Oswego	Kendall	city site, police, municipal court
+15	Ottawa	LaSalle	city site, police, municipal court
+16	Palatine	Cook	city site, police, municipal court
+17	Pekin	Tazewell	city site, police, municipal court
+18	Peoria	Peoria	city site, police, municipal court
+19	Peru	LaSalle	city site, police, municipal court
+20	Quincy	Adams	city site, police, municipal court
+21	Rock Island	Rock Island	city site, police, municipal court
+22	Rockford	Winnebago	city site, police, municipal court
+23	Schaumburg	Cook	city site, police, municipal court
+24	Springfield	Sangamon	city site, police, municipal court
+25	Sterling	Whiteside	city site, police, municipal court
+26	Urbana	Champaign	city site, police, municipal court
+27	Washington	Tazewell	city site, police, municipal court
+28	Waukegan	Lake	city site, police, municipal court
+29	Wheaton	DuPage	city site, police, municipal court
+30	Woodstock	McHenry	city site, police, municipal court
 
 
+IN
+Now the full Indiana research list — 56 cities:
+
+#	City	County	Needs
 
 
+1	Anderson	Madison	city site, police, municipal court
+2	Angola	Steuben	city site, police, municipal court
+3	Bloomington	Monroe	city site, police, municipal court
+4	Boonville	Warrick	city site, police, municipal court
+5	Brownsburg	Hendricks	city site, police, municipal court
+6	Carmel	Hamilton	city site, police, municipal court
+7	Clarksville	Clark	city site, police, municipal court
+8	Columbus	Bartholomew	city site, police, municipal court
+9	Crown Point	Lake	city site, police, municipal court
+10	East Chicago	Lake	city site, police, municipal court
+11	Elkhart	Elkhart	city site, police, municipal court
+12	Evansville	Vanderburgh	city site, police, municipal court
+13	Fishers	Hamilton	city site, police, municipal court
+14	Fort Wayne	Allen	city site, police, municipal court
+15	Franklin	Johnson	city site, police, municipal court
+16	Gary	Lake	city site, police, municipal court
+17	Goshen	Elkhart	city site, police, municipal court
+18	Greenfield	Hancock	city site, police, municipal court
+19	Greenwood	Johnson	city site, police, municipal court
+20	Hammond	Lake	city site, police, municipal court
+21	Hobart	Lake	city site, police, municipal court
+22	Indianapolis	Marion	city site, police, municipal court
+23	Jasper	Dubois	city site, police, municipal court
+24	Jeffersonville	Clark	city site, police, municipal court
+25	Kendallville	Noble	city site, police, municipal court
+26	Kokomo	Howard	city site, police, municipal court
+27	Lafayette	Tippecanoe	city site, police, municipal court
+28	La Porte	LaPorte	city site, police, municipal court
+29	Lawrenceburg	Dearborn	city site, police, municipal court
+30	Marion	Grant	city site, police, municipal court
 
+INDIANA BATCH 2 — REMAINING 26 CITIES
+
+#	City	County	Needs
+
+
+1	Merrillville	Lake	city site, police, municipal court
+2	Michigan City	LaPorte	city site, police, municipal court
+3	Muncie	Delaware	city site, police, municipal court
+4	Munster	Lake	city site, police, municipal court
+5	New Albany	Floyd	city site, police, municipal court
+6	New Haven	Allen	city site, police, municipal court
+7	Plainfield	Hendricks	city site, police, municipal court
+8	Plymouth	Marshall	city site, police, municipal court
+9	Portage	Porter	city site, police, municipal court
+10	Richmond	Wayne	city site, police, municipal court
+11	Salem	Washington	city site, police, municipal court
+12	Schererville	Lake	city site, police, municipal court
+13	Scottsburg	Scott	city site, police, municipal court
+14	Shelbyville	Shelby	city site, police, municipal court
+15	South Bend	St. Joseph	city site, police, municipal court
+16	Terre Haute	Vigo	city site, police, municipal court
+17	Valparaiso	Porter	city site, police, municipal court
+18	Wabash	Wabash	city site, police, municipal court
+19	Warsaw	Kosciusko	city site, police, municipal court
+20	LaGrange	LaGrange	city site, police, municipal court
+21	Martinsville	Morgan	city site, police, municipal court
+
+KS
+
+Kansas research list — 33 cities total, quick batch:
+
+#	City	County	Needs
+
+
+1	Bonner Springs	Wyandotte	city site, police, municipal court
+2	Derby	Sedgwick	city site, police, municipal court
+3	Dodge City	Ford	city site, police, municipal court
+4	Edwardsville	Wyandotte	city site, police, municipal court
+5	El Dorado	Butler	city site, police, municipal court
+6	Emporia	Lyon	city site, police, municipal court
+7	Eudora	Douglas	city site, police, municipal court
+8	Garden City	Finney	city site, police, municipal court
+9	Hays	Ellis	city site, police, municipal court
+10	Hutchinson	Reno	city site, police, municipal court
+11	Independence	Montgomery	city site, police, municipal court
+12	Junction City	Geary	city site, police, municipal court
+13	Kansas City	Wyandotte	city site, police, municipal court
+14	Lawrence	Douglas	city site, police, municipal court
+15	Leavenworth	Leavenworth	city site, police, municipal court
+16	Lenexa	Johnson	city site, police, municipal court
+17	Liberal	Seward	city site, police, municipal court
+18	Manhattan	Riley	city site, police, municipal court
+19	McPherson	McPherson	city site, police, municipal court
+20	Newton	Harvey	city site, police, municipal court
+21	Olathe	Johnson	city site, police, municipal court
+22	Overland Park	Johnson	city site, police, municipal court
+23	Pittsburg	Crawford	city site, police, municipal court
+24	Salina	Saline	city site, police, municipal court
+25	Shawnee	Johnson	city site, police, municipal court
+26	Topeka	Shawnee	city site, police, municipal court
+27	Wichita	Sedgwick	city site, police, municipal court
