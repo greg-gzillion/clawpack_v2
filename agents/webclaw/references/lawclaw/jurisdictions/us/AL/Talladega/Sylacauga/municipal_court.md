@@ -1,11 +1,5 @@
 # Sylacauga Municipal Court
 ## Court Information
-- **Court Name**: Sylacauga Municipal Court
-- **County**: Talladega County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Sylacauga city website for phone, address, and hours
+- Sylacauga Municipal Court — 301 N Broadway Ave — (256) 401-2521
+## City Website
+- https://www.cityofsylacauga.net/

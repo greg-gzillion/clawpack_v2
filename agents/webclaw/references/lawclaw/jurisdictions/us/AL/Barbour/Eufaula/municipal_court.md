@@ -1,11 +1,5 @@
 # Eufaula Municipal Court
 ## Court Information
-- **Court Name**: Eufaula Municipal Court
-- **County**: Barbour County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Eufaula city website for phone, address, and hours
+- Eufaula Municipal Court — 545 E Barbour St — (334) 687-1235
+## City Website
+- https://www.eufaulaalabama.com/

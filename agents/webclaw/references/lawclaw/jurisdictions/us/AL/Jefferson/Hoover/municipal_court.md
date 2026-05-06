@@ -1,11 +1,5 @@
 # Hoover Municipal Court
 ## Court Information
-- **Court Name**: Hoover Municipal Court
-- **County**: Jefferson County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Hoover city website for phone, address, and hours
+- Hoover Municipal Court — 100 Municipal Dr — (205) 444-7526
+## City Website
+- https://www.hooveralabama.gov/

@@ -1,13 +1,14 @@
 # Saraland — Local Law Resources
+## City Website
+- https://www.cityofsaraland.com/
 ## Law Enforcement
-- Saraland Police Department
+- Saraland Police Department — (251) 655-1881
 - Mobile County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Saraland Municipal Court
-- Mobile County Circuit Court
+- Saraland Municipal Court — (251) 655-1881
 ## Building Permits
-- Saraland Building Department
+- Saraland Building Department — https://www.cityofsaraland.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

@@ -1,13 +1,14 @@
 # Center Point — Local Law Resources
+## City Website
+- https://www.centerpointal.org/
 ## Law Enforcement
-- Center Point Police Department
+- Jefferson County Sheriff's Office serves Center Point
 - Jefferson County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Center Point Municipal Court
-- Jefferson County Circuit Court
+- Jefferson County courts handle municipal cases
 ## Building Permits
-- Center Point Building Department
+- Center Point Building Department — https://www.centerpointal.org/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

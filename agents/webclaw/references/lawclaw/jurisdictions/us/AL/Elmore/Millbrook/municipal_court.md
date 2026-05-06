@@ -1,11 +1,5 @@
 # Millbrook Municipal Court
 ## Court Information
-- **Court Name**: Millbrook Municipal Court
-- **County**: Elmore County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Millbrook city website for phone, address, and hours
+- Millbrook Municipal Court — 3900 Grandview Rd — (334) 285-6428
+## City Website
+- https://www.cityofmillbrook.org/

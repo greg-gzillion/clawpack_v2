@@ -1,13 +1,14 @@
 # Jasper City — Local Law Resources
+## City Website
+- https://www.jaspercity.com/
 ## Law Enforcement
-- Jasper City Police Department
+- Jasper Police Department — (205) 221-4244
 - Walker County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Jasper City Municipal Court
-- Walker County Circuit Court
+- Jasper Municipal Court — 400 19th St W — (205) 221-4254
 ## Building Permits
-- Jasper City Building Department
+- Jasper City Building Department — https://www.jaspercity.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

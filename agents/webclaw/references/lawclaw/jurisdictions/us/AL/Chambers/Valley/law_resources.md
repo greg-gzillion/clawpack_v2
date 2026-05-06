@@ -1,13 +1,14 @@
 # Valley — Local Law Resources
+## City Website
+- https://www.cityofvalley.com/
 ## Law Enforcement
-- Valley Police Department
+- Valley Police Department — 500 College St — (334) 765-4411
 - Chambers County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Valley Municipal Court
-- Chambers County Circuit Court
+- Valley Municipal Court — 500 College St — (334) 765-4422
 ## Building Permits
-- Valley Building Department
+- Valley Building Department — https://www.cityofvalley.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

@@ -1,13 +1,14 @@
 # Moulton — Local Law Resources
+## City Website
+- https://www.cityofmoulton.org/
 ## Law Enforcement
-- Moulton Police Department
+- Moulton Police Department — (256) 381-3341
 - Lawrence County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Moulton Municipal Court
-- Lawrence County Circuit Court
+- Contact city hall
 ## Building Permits
-- Moulton Building Department
+- Moulton Building Department — https://www.cityofmoulton.org/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

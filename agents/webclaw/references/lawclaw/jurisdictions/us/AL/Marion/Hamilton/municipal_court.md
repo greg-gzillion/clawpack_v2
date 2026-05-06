@@ -1,11 +1,5 @@
 # Hamilton Municipal Court
 ## Court Information
-- **Court Name**: Hamilton Municipal Court
-- **County**: Marion County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Hamilton city website for phone, address, and hours
+- Hamilton Municipal Court — (205) 921-9027
+## City Website
+- https://www.hamiltoncityal.org/

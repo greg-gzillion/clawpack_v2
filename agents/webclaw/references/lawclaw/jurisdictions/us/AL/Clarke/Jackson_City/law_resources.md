@@ -1,13 +1,14 @@
 # Jackson City — Local Law Resources
+## City Website
+- https://www.cityofjacksonal.com/
 ## Law Enforcement
-- Jackson City Police Department
+- Jackson Police Department — 350 Commerce St — (251) 246-4484
 - Clarke County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Jackson City Municipal Court
-- Clarke County Circuit Court
+- Clarke County Circuit/District Courts handle municipal cases
 ## Building Permits
-- Jackson City Building Department
+- Jackson City Building Department — https://www.cityofjacksonal.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

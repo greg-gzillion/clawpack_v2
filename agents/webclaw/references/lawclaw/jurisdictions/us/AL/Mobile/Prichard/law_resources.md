@@ -1,13 +1,14 @@
 # Prichard — Local Law Resources
+## City Website
+- https://www.prichardalabama.com/
 ## Law Enforcement
-- Prichard Police Department
+- Prichard Police Department — (251) 452-2211
 - Mobile County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Prichard Municipal Court
-- Mobile County Circuit Court
+- Mobile County courts handle municipal cases
 ## Building Permits
-- Prichard Building Department
+- Prichard Building Department — https://www.prichardalabama.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

@@ -1,13 +1,14 @@
 # Troy — Local Law Resources
+## City Website
+- https://www.troyal.gov/
 ## Law Enforcement
-- Troy Police Department
+- Troy Police Department — 300 E Elm St — (334) 566-4248
 - Pike County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Troy Municipal Court
-- Pike County Circuit Court
+- Troy Municipal Court — 300 E Elm St — (334) 566-4248
 ## Building Permits
-- Troy Building Department
+- Troy Building Department — https://www.troyal.gov/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

@@ -1,11 +1,5 @@
 # Athens Municipal Court
 ## Court Information
-- **Court Name**: Athens Municipal Court
-- **County**: Limestone County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Athens city website for phone, address, and hours
+- Athens Municipal Court — 951 E Hobbs St — (256) 233-8733
+## City Website
+- https://www.athensalabama.us/

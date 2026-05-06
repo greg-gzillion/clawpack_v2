@@ -1,11 +1,5 @@
 # Decatur Municipal Court
 ## Court Information
-- **Court Name**: Decatur Municipal Court
-- **County**: Morgan County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Decatur city website for phone, address, and hours
+- Decatur Municipal Court — (256) 341-7950
+## City Website
+- https://www.decatural.com/

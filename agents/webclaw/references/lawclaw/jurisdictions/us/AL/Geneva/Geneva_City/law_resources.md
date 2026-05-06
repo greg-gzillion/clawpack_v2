@@ -1,13 +1,14 @@
 # Geneva City — Local Law Resources
+## City Website
+- https://www.cityofgeneva.com/
 ## Law Enforcement
-- Geneva City Police Department
+- Geneva Police Department — (334) 634-2111
 - Geneva County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Geneva City Municipal Court
-- Geneva County Circuit Court
+- Contact city hall
 ## Building Permits
-- Geneva City Building Department
+- Geneva City Building Department — https://www.cityofgeneva.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

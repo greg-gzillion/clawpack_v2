@@ -1,11 +1,5 @@
 # Northport Municipal Court
 ## Court Information
-- **Court Name**: Northport Municipal Court
-- **County**: Tuscaloosa County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Northport city website for phone, address, and hours
+- Northport Municipal Court — 3721 26th Ave — (205) 339-8132
+## City Website
+- https://www.northportal.gov/

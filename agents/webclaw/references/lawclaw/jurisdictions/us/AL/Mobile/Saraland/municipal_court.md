@@ -1,11 +1,5 @@
 # Saraland Municipal Court
 ## Court Information
-- **Court Name**: Saraland Municipal Court
-- **County**: Mobile County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Saraland city website for phone, address, and hours
+- Saraland Municipal Court — (251) 655-1881
+## City Website
+- https://www.cityofsaraland.com/

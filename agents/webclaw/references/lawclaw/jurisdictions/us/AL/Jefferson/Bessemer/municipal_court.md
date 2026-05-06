@@ -1,11 +1,5 @@
 # Bessemer Municipal Court
 ## Court Information
-- **Court Name**: Bessemer Municipal Court
-- **County**: Jefferson County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Bessemer city website for phone, address, and hours
+- Bessemer Municipal Court — 23 15th St N — (205) 426-8602
+## City Website
+- https://www.bessemeral.org/

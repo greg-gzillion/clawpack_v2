@@ -1,13 +1,14 @@
 # Cullman City — Local Law Resources
+## City Website
+- https://www.cullman.com/
 ## Law Enforcement
-- Cullman City Police Department
+- Cullman Police Department — 101 3rd Ave NW — (256) 737-5454
 - Cullman County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Cullman City Municipal Court
-- Cullman County Circuit Court
+- Cullman Municipal Court — (256) 737-5440
 ## Building Permits
-- Cullman City Building Department
+- Cullman City Building Department — https://www.cullman.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

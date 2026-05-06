@@ -1,11 +1,5 @@
 # Foley Municipal Court
 ## Court Information
-- **Court Name**: Foley Municipal Court
-- **County**: Baldwin County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Foley city website for phone, address, and hours
+- Foley Municipal Court — 200 E Section Ave — (251) 952-4086
+## City Website
+- https://www.cityoffoley.org/

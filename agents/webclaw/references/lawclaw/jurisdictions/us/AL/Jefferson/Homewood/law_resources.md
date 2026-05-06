@@ -1,13 +1,14 @@
 # Homewood — Local Law Resources
+## City Website
+- https://www.homewoodal.com/
 ## Law Enforcement
-- Homewood Police Department
+- Homewood Police Department — (205) 803-1300
 - Jefferson County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Homewood Municipal Court
-- Jefferson County Circuit Court
+- Homewood Municipal Court — (205) 803-1360
 ## Building Permits
-- Homewood Building Department
+- Homewood Building Department — https://www.homewoodal.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

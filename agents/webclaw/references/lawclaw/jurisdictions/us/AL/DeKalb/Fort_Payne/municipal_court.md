@@ -1,11 +1,5 @@
 # Fort Payne Municipal Court
 ## Court Information
-- **Court Name**: Fort Payne Municipal Court
-- **County**: DeKalb County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Fort Payne city website for phone, address, and hours
+- Fort Payne Municipal Court — 100 Alabama Ave NW — (256) 845-6728
+## City Website
+- https://www.fortpayne.org/

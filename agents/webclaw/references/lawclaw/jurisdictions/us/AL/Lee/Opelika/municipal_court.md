@@ -1,11 +1,5 @@
 # Opelika Municipal Court
 ## Court Information
-- **Court Name**: Opelika Municipal Court
-- **County**: Lee County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Opelika city website for phone, address, and hours
+- Opelika Municipal Court — (334) 705-5140
+## City Website
+- https://www.cityofopelika.com/

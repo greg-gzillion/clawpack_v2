@@ -1,11 +1,5 @@
 # Florence Municipal Court
 ## Court Information
-- **Court Name**: Florence Municipal Court
-- **County**: Lauderdale County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Florence city website for phone, address, and hours
+- Florence Municipal Court — 110 W College St — (256) 760-6625
+## City Website
+- https://www.florenceal.org/

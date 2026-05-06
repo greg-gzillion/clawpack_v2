@@ -1,13 +1,14 @@
 # Brewton — Local Law Resources
+## City Website
+- https://www.cityofbrewton.org/
 ## Law Enforcement
-- Brewton Police Department
+- Brewton Police Department — 1010A Douglas Ave — (251) 867-3212
 - Escambia County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Brewton Municipal Court
-- Escambia County Circuit Court
+- Brewton Municipal Court — (251) 809-1760
 ## Building Permits
-- Brewton Building Department
+- Brewton Building Department — https://www.cityofbrewton.org/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

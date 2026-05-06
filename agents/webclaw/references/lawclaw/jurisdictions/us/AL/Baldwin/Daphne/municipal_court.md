@@ -1,11 +1,5 @@
 # Daphne Municipal Court
 ## Court Information
-- **Court Name**: Daphne Municipal Court
-- **County**: Baldwin County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Daphne city website for phone, address, and hours
+- Daphne Municipal Court — (251) 621-2824
+## City Website
+- https://www.daphneal.com/

@@ -1,11 +1,5 @@
 # Guntersville Municipal Court
 ## Court Information
-- **Court Name**: Guntersville Municipal Court
-- **County**: Marshall County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Guntersville city website for phone, address, and hours
+- Guntersville Municipal Court — 325 Gunter Ave — (256) 571-7579
+## City Website
+- https://www.guntersvilleal.org/

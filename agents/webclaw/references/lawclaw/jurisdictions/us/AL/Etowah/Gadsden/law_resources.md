@@ -1,13 +1,14 @@
 # Gadsden — Local Law Resources
+## City Website
+- https://www.cityofgadsden.com/
 ## Law Enforcement
-- Gadsden Police Department
+- Gadsden Police Department — 90 Broad St — (256) 549-4500
 - Etowah County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Gadsden Municipal Court
-- Etowah County Circuit Court
+- Gadsden Municipal Court — 1511 Campbell Ave — (256) 549-4500
 ## Building Permits
-- Gadsden Building Department
+- Gadsden Building Department — https://www.cityofgadsden.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

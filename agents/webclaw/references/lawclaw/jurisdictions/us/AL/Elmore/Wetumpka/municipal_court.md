@@ -1,11 +1,5 @@
 # Wetumpka Municipal Court
 ## Court Information
-- **Court Name**: Wetumpka Municipal Court
-- **County**: Elmore County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Wetumpka city website for phone, address, and hours
+- Wetumpka Municipal Court — 212 S Main St — (334) 567-1305
+## City Website
+- https://www.wetumpkaal.gov/

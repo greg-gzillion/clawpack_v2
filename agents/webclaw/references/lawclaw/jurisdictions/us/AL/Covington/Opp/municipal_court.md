@@ -1,11 +1,5 @@
 # Opp Municipal Court
 ## Court Information
-- **Court Name**: Opp Municipal Court
-- **County**: Covington County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Opp city website for phone, address, and hours
+- Opp Municipal Court — (334) 493-4572
+## City Website
+- https://www.cityofopp.com/

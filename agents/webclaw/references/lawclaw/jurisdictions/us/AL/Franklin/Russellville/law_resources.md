@@ -1,13 +1,14 @@
 # Russellville — Local Law Resources
+## City Website
+- https://www.russellvillealabama.org/
 ## Law Enforcement
-- Russellville Police Department
+- Russellville Police Department — (256) 331-5751
 - Franklin County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Russellville Municipal Court
-- Franklin County Circuit Court
+- Contact city hall — (256) 331-5502
 ## Building Permits
-- Russellville Building Department
+- Russellville Building Department — https://www.russellvillealabama.org/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

@@ -1,13 +1,14 @@
 # Talladega City — Local Law Resources
+## City Website
+- https://www.talladega.com/
 ## Law Enforcement
-- Talladega City Police Department
+- Talladega Police Department — 203 W South St — (256) 362-4163
 - Talladega County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Talladega City Municipal Court
-- Talladega County Circuit Court
+- Talladega Municipal Court — 255 W South St — (256) 362-8236
 ## Building Permits
-- Talladega City Building Department
+- Talladega City Building Department — https://www.talladega.com/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

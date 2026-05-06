@@ -1,11 +1,5 @@
 # Auburn Municipal Court
 ## Court Information
-- **Court Name**: Auburn Municipal Court
-- **County**: Lee County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Auburn city website for phone, address, and hours
+- Auburn Municipal Court — 141 N Ross St — (334) 501-3180
+## City Website
+- https://www.auburnal.gov/

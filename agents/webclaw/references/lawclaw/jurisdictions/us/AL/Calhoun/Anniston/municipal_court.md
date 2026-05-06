@@ -1,11 +1,5 @@
 # Anniston Municipal Court
 ## Court Information
-- **Court Name**: Anniston Municipal Court
-- **County**: Calhoun County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Anniston city website for phone, address, and hours
+- Anniston Municipal Court — 1300 Civic Center Dr — (256) 231-1431
+## City Website
+- https://www.annistonal.gov/

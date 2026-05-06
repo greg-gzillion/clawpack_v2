@@ -1,11 +1,5 @@
 # Gadsden Municipal Court
 ## Court Information
-- **Court Name**: Gadsden Municipal Court
-- **County**: Etowah County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Gadsden city website for phone, address, and hours
+- Gadsden Municipal Court — 1511 Campbell Ave — (256) 549-4500
+## City Website
+- https://www.cityofgadsden.com/

@@ -1,11 +1,5 @@
 # Fairhope Municipal Court
 ## Court Information
-- **Court Name**: Fairhope Municipal Court
-- **County**: Baldwin County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Fairhope city website for phone, address, and hours
+- Fairhope Municipal Court — 107 N Section St — (251) 279-6237
+## City Website
+- https://www.fairhopeal.gov/

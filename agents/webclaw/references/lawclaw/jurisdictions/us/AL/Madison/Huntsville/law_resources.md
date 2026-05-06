@@ -1,13 +1,14 @@
 # Huntsville — Local Law Resources
+## City Website
+- https://www.huntsvilleal.gov/
 ## Law Enforcement
-- Huntsville Police Department
+- Huntsville Police Department — (256) 427-7100
 - Madison County Sheriff
 - Alabama Law Enforcement Agency — https://www.alea.gov/
 ## Courts
-- Huntsville Municipal Court
-- Madison County Circuit Court
+- Huntsville Municipal Court — 815 Wheeler Ave — (256) 427-7810
 ## Building Permits
-- Huntsville Building Department
+- Huntsville Building Department — https://www.huntsvilleal.gov/
 ## Hunting Regulations
 - AL Hunting Regulations — https://www.outdooralabama.com/hunting
 ## Fishing Regulations

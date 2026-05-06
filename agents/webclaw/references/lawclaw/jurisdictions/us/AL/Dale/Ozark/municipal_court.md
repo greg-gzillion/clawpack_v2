@@ -1,11 +1,5 @@
 # Ozark Municipal Court
 ## Court Information
-- **Court Name**: Ozark Municipal Court
-- **County**: Dale County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Ozark city website for phone, address, and hours
+- Ozark Municipal Court — (334) 733-8900
+## City Website
+- https://www.cityofozark.org/

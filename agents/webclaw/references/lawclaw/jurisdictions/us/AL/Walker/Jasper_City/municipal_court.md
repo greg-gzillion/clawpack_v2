@@ -1,11 +1,5 @@
 # Jasper City Municipal Court
 ## Court Information
-- **Court Name**: Jasper City Municipal Court
-- **County**: Walker County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Jasper City city website for phone, address, and hours
+- Jasper Municipal Court — 400 19th St W — (205) 221-4254
+## City Website
+- https://www.jaspercity.com/

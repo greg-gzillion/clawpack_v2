@@ -1,11 +1,5 @@
 # Oxford Municipal Court
 ## Court Information
-- **Court Name**: Oxford Municipal Court
-- **County**: Calhoun County
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-- Misdemeanors
-- Preliminary hearings
-## Contact
-- See Oxford city website for phone, address, and hours
+- Oxford Municipal Court — 701 Big Canoe Pkwy — (256) 208-2140
+## City Website
+- https://www.oxfordal.org/
