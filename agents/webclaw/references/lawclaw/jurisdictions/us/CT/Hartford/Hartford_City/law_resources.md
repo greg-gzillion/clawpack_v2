@@ -1,13 +1,14 @@
 # Hartford City — Local Law Resources
+## City Website
+- https://www.hartford.gov/
 ## Law Enforcement
-- Hartford City Police Department
+- Hartford PD — 860 Main St — (860) 759-7100
 - Hartford County Sheriff
 - Connecticut State Police — https://www.ct.gov/despp/cwp/view.asp?q=502796
 ## Courts
-- Hartford City Municipal Court
-- Connecticut Judicial Branch — https://www.jud.ct.gov/
+- Hartford Judicial District Superior Court — 1551 Main St — (860) 240-3300
 ## Building Permits
-- Hartford City Building Department
+- Hartford City Building Department — https://www.hartford.gov/
 ## Hunting Regulations
 - CT Hunting Regulations — https://www.ct.gov/deep/cwp/view.asp?a=2700&q=323418
 ## Fishing Regulations

@@ -1,9 +1,5 @@
 # Norwich Municipal Court
 ## Court Information
-- **Court Name**: Norwich Municipal Court
-- **County**: New_London
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Norwich website
+- Norwich GA21 Superior Court — 1 Courthouse Square — (860) 886-3571
+## City Website
+- https://www.norwichct.org/

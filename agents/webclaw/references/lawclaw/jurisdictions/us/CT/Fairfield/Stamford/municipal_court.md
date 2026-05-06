@@ -1,9 +1,5 @@
 # Stamford Municipal Court
 ## Court Information
-- **Court Name**: Stamford Municipal Court
-- **County**: Fairfield
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Stamford website
+- Stamford GA1 Superior Court — 123 Hoyt St — (203) 965-5208
+## City Website
+- https://www.stamfordct.gov/

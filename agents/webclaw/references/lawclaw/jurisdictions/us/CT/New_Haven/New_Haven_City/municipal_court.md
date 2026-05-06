@@ -1,9 +1,5 @@
 # New Haven City Municipal Court
 ## Court Information
-- **Court Name**: New Haven City Municipal Court
-- **County**: New_Haven
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See New Haven City website
+- New Haven GA23 Superior Court — 121 Elm St — (203) 789-7458
+## City Website
+- https://www.newhavenct.gov/

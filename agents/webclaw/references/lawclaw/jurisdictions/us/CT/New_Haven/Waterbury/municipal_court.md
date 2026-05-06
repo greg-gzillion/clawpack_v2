@@ -1,9 +1,5 @@
 # Waterbury Municipal Court
 ## Court Information
-- **Court Name**: Waterbury Municipal Court
-- **County**: New_Haven
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Waterbury website
+- Waterbury Judicial District GA4 — 400 Grand St — (203) 236-8170
+## City Website
+- https://www.waterburyct.org/

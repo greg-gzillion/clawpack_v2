@@ -1,13 +1,14 @@
 # Norwich — Local Law Resources
+## City Website
+- https://www.norwichct.org/
 ## Law Enforcement
-- Norwich Police Department
+- Norwich PD — 70 Thames St — (860) 886-5561
 - New_London County Sheriff
 - Connecticut State Police — https://www.ct.gov/despp/cwp/view.asp?q=502796
 ## Courts
-- Norwich Municipal Court
-- Connecticut Judicial Branch — https://www.jud.ct.gov/
+- Norwich GA21 Superior Court — 1 Courthouse Square — (860) 886-3571
 ## Building Permits
-- Norwich Building Department
+- Norwich Building Department — https://www.norwichct.org/
 ## Hunting Regulations
 - CT Hunting Regulations — https://www.ct.gov/deep/cwp/view.asp?a=2700&q=323418
 ## Fishing Regulations

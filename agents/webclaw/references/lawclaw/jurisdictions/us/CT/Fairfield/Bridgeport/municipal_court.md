@@ -1,9 +1,5 @@
 # Bridgeport Municipal Court
 ## Court Information
-- **Court Name**: Bridgeport Municipal Court
-- **County**: Fairfield
-## Jurisdiction
-- Municipal ordinance violations
-- Traffic violations
-## Contact
-- See Bridgeport website
+- Fairfield Judicial District Superior Court — 1061 Main St — (203) 579-6501
+## City Website
+- https://www.bridgeportct.gov/
