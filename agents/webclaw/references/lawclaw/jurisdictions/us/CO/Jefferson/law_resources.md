@@ -17,6 +17,9 @@
 - Chatfield State Park — bass, trout — https://cpw.state.co.us/placestogo/parks/Chatfield
 - Bear Creek Lake Park — trout, bass
 - Deer, elk — GMUs 38, 39, 46, 47
+
+## Universities
+- Colorado School of Mines — https://www.mines.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

@@ -20,6 +20,9 @@
 - Bantam Lake — bass, trout
 - Lake Waramaug — trout, bass
 - Farmington River — trout — https://portal.ct.gov/DEEP/Fishing/Farmington-River
+
+## Universities
+- No universities in Litchfield County. Nearest: Yale Law (New Haven), UConn Law (Hartford)
 ## Legal Aid
 - Connecticut Legal Services — https://www.ctlegal.org/
 ## Corrections

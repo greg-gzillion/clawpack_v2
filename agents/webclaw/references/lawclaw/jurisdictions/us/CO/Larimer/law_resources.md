@@ -18,6 +18,9 @@
 - Carter Lake — trout, bass — https://www.larimer.gov/naturalresources/parks/carter-lake
 - Cache la Poudre River — trout — https://www.fs.usda.gov/recarea/arp/recarea/?recid=32020
 - Deer, elk — GMUs 8, 9, 19, 20, 191
+
+## Universities
+- Colorado State University — https://www.colostate.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

@@ -17,6 +17,10 @@
 - Boulder Reservoir — bass, trout — https://www.bouldercolorado.gov/locations/boulder-reservoir
 - Brainard Lake — trout
 - Deer, elk — GMUs 19, 20, 29
+
+## Universities
+- University of Colorado Boulder Law School — https://law.colorado.edu/
+- University of Colorado Boulder — https://www.colorado.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

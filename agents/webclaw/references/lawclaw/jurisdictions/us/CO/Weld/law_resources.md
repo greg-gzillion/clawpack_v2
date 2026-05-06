@@ -16,6 +16,9 @@
 - Boyd Lake State Park — bass, trout — https://cpw.state.co.us/placestogo/parks/BoydLake
 - Cache la Poudre River — trout
 - Deer, pronghorn, pheasant — GMUs 87, 88, 89, 95
+
+## Universities
+- University of Northern Colorado — https://www.unco.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

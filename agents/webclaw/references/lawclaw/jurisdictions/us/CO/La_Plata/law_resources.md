@@ -17,6 +17,9 @@
 - Vallecito Reservoir — trout, pike — https://cpw.state.co.us/placestogo/parks/Vallecito
 - Animas River — trout — https://cpw.state.co.us/fishing/animas-river
 - Deer, elk — GMUs 74, 75, 751, 77, 78, 771
+
+## Universities
+- Fort Lewis College — https://www.fortlewis.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

@@ -17,6 +17,11 @@
 - Cherry Creek Reservoir — bass, trout, walleye — https://cpw.state.co.us/placestogo/parks/CherryCreek
 - Urban fishing program
 - Deer, elk, pronghorn — limited hunting near metro
+
+## Universities
+- University of Denver Sturm College of Law — https://www.law.du.edu/
+- University of Denver — https://www.du.edu/
+- Metropolitan State University of Denver — https://www.msudenver.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

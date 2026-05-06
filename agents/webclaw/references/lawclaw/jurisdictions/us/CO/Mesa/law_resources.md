@@ -17,6 +17,9 @@
 - Highline Lake State Park — bass, trout — https://cpw.state.co.us/placestogo/parks/HighlineLake
 - Colorado River — trout, bass — https://cpw.state.co.us/fishing/colorado-river
 - Deer, elk — GMUs 21, 30, 31, 32, 40, 41, 42, 421
+
+## Universities
+- Colorado Mesa University — https://www.coloradomesa.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

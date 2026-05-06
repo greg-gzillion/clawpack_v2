@@ -16,6 +16,9 @@
 - Lake Pueblo State Park — bass, trout, walleye — https://cpw.state.co.us/placestogo/parks/LakePueblo
 - Arkansas River — trout — https://cpw.state.co.us/placestogo/parks/ArkansasHeadwaters
 - Deer, elk, pronghorn — GMUs 84, 85, 128, 691
+
+## Universities
+- Colorado State University Pueblo — https://www.csupueblo.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

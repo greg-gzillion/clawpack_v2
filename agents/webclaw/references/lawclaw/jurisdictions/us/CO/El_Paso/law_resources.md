@@ -22,6 +22,10 @@
 - Fort Carson Legal — https://www.carson.army.mil/
 - Peterson SFB Legal — https://www.peterson.spaceforce.mil/
 - USAF Academy Legal — https://www.usafa.edu/
+
+## Universities
+- University of Colorado Colorado Springs — https://www.uccs.edu/
+- United States Air Force Academy — https://www.usafa.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections

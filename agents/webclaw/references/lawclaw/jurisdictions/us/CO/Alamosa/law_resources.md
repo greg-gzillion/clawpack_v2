@@ -16,6 +16,9 @@
 - San Luis Lakes State Park — trout — https://cpw.state.co.us/placestogo/parks/SanLuis
 - Rio Grande River — trout, pike
 - Deer, elk — GMUs 68, 79, 80, 81, 82, 83
+
+## Universities
+- Adams State University — https://www.adams.edu/
 ## Legal Aid
 - Colorado Legal Services — https://www.coloradolegalservices.org/
 ## Corrections
