@@ -991,3 +991,185 @@ Kansas research list — 33 cities total, quick batch:
 25	Shawnee	Johnson	city site, police, municipal court
 26	Topeka	Shawnee	city site, police, municipal court
 27	Wichita	Sedgwick	city site, police, municipal court
+
+Kentucky — compact research list. 48 cities total (12 existing + 36 new). Here's the first batch of all 48:
+
+#	City	County	Needs
+
+
+1	Ashland	Boyd	city site, police, municipal court
+2	Bardstown	Nelson	city site, police, municipal court
+3	Berea	Madison	city site, police, municipal court
+4	Bowling Green	Warren	city site, police, municipal court
+5	Campbellsville	Taylor	city site, police, municipal court
+6	Covington	Kenton	city site, police, municipal court
+7	Danville	Boyle	city site, police, municipal court
+8	Edgewood	Kenton	city site, police, municipal court
+9	Elizabethtown	Hardin	city site, police, municipal court
+10	Erlanger	Kenton	city site, police, municipal court
+11	Florence	Boone	city site, police, municipal court
+12	Fort Thomas	Campbell	city site, police, municipal court
+13	Frankfort	Franklin	city site, police, municipal court
+14	Georgetown	Scott	city site, police, municipal court
+15	Glasgow	Barren	city site, police, municipal court
+16	Henderson	Henderson	city site, police, municipal court
+17	Hopkinsville	Christian	city site, police, municipal court
+18	Independence	Kenton	city site, police, municipal court
+19	Jeffersontown	Jefferson	city site, police, municipal court
+20	Lexington	Fayette	city site, police, municipal court
+21	London	Laurel	city site, police, municipal court
+22	Louisville	Jefferson	city site, police, municipal court
+23	Lyndon	Jefferson	city site, police, municipal court
+24	Madisonville	Hopkins	city site, police, municipal court
+
+
+KENTUCKY BATCH 2 — REMAINING 24 CITIES
+
+#	City	County	Needs
+
+
+1	Mayfield	Graves	city site, police, municipal court
+2	Middlesboro	Bell	city site, police, municipal court
+3	Mount Sterling	Montgomery	city site, police, municipal court
+4	Mount Washington	Bullitt	city site, police, municipal court
+5	Murray	Calloway	city site, police, municipal court
+6	Newport	Campbell	city site, police, municipal court
+7	Nicholasville	Jessamine	city site, police, municipal court
+8	Oak Grove	Christian	city site, police, municipal court
+9	Owensboro	Daviess	city site, police, municipal court
+10	Paducah	McCracken	city site, police, municipal court
+11	Paris	Bourbon	city site, police, municipal court
+12	Pikeville	Pike	city site, police, municipal court
+13	Prestonsburg	Floyd	city site, police, municipal court
+14	Radcliff	Hardin	city site, police, municipal court
+15	Richmond	Madison	city site, police, municipal court
+16	Shepherdsville	Bullitt	city site, police, municipal court
+17	Shelbyville	Shelby	city site, police, municipal court
+18	Shively	Jefferson	city site, police, municipal court
+19	Somerset	Pulaski	city site, police, municipal court
+20	St. Matthews	Jefferson	city site, police, municipal court
+21	Winchester	Clark	city site, police, municipal court
+
+
+LA
+52 new city folders. Louisiana research list — 77 cities total. Big batch. Here's the first 25:
+
+#	City	Parish	Needs
+
+1	Alexandria	Rapides	city site, police, municipal court
+2	Baton Rouge	East Baton Rouge	city site, police, municipal court
+3	Bossier City	Bossier	city site, police, municipal court
+4	Broussard	Lafayette	city site, police, municipal court
+5	Chalmette	St. Bernard	city site, police, municipal court
+6	Covington	St. Tammany	city site, police, municipal court
+7	Crowley	Acadia	city site, police, municipal court
+8	Denham Springs	Livingston	city site, police, municipal court
+9	DeRidder	Beauregard	city site, police, municipal court
+10	Gonzales	Ascension	city site, police, municipal court
+11	Gretna	Jefferson	city site, police, municipal court
+12	Hammond	Tangipahoa	city site, police, municipal court
+13	Houma	Terrebonne	city site, police, municipal court
+14	Kenner	Jefferson	city site, police, municipal court
+15	Lafayette	Lafayette	city site, police, municipal court
+16	Lake Charles	Calcasieu	city site, police, municipal court
+17	LaPlace	St. John the Baptist	city site, police, municipal court
+18	Mandeville	St. Tammany	city site, police, municipal court
+19	Metairie	Jefferson	city site, police, municipal court
+20	Monroe	Ouachita	city site, police, municipal court
+21	Morgan City	St. Mary	city site, police, municipal court
+22	Natchitoches	Natchitoches	city site, police, municipal court
+23	New Iberia	Iberia	city site, police, municipal court
+24	New Orleans	Orleans	city site, police, municipal court
+25	Opelousas	St. Landry	city site, police, municipal court
+
+LOUISIANA BATCH 2 — REMAINING 52 CITIES
+
+#	City	Parish	Needs
+
+1	Abbeville	Vermilion	city site, police, city court
+2	Algiers	Orleans	city site, police, city court
+3	Amite City	Tangipahoa	city site, police, city court
+4	Bastrop	Morehouse	city site, police, city court
+5	Belle Chasse	Plaquemines	city site, police, city court
+6	Bogalusa	Washington	city site, police, city court
+7	Breaux Bridge	St. Martin	city site, police, city court
+8	Carencro	Lafayette	city site, police, city court
+9	Destrehan	St. Charles	city site, police, city court
+10	Eunice	St. Landry	city site, police, city court
+11	Fort Johnson	Vernon	city site, police, city court
+12	Franklin	St. Mary	city site, police, city court
+13	Franklinton	Washington	city site, police, city court
+14	Grambling	Lincoln	city site, police, city court
+15	Gray	Terrebonne	city site, police, city court
+16	Harahan	Jefferson	city site, police, city court
+17	Jennings	Jefferson Davis	city site, police, city court
+18	Leesville	Vernon	city site, police, city court
+19	Lockport	Lafourche	city site, police, city court
+20	Luling	St. Charles	city site, police, city court
+21	Lutcher	St. James	city site, police, city court
+22	Marksville	Avoyelles	city site, police, city court
+23	Minden	Webster	city site, police, city court
+24	Oakdale	Allen	city site, police, city court
+25	Patterson	St. Mary	city site, police, city court
+26	Pineville	Rapides	city site, police, city court
+27	Plaquemine	Iberville	city site, police, city court
+28	Ponchatoula	Tangipahoa	city site, police, city court
+29	Prairieville	Ascension	city site, police, city court
+30	Reserve	St. John the Baptist	city site, police, city court
+31	Ruston	Lincoln	city site, police, city court
+32	Slidell	St. Tammany	city site, police, city court
+33	Sulphur	Calcasieu	city site, police, city court
+34	Thibodaux	Lafourche	city site, police, city court
+35	Ville Platte	Evangeline	city site, police, city court
+36	Walker	Livingston	city site, police, city court
+37	West Monroe	Ouachita	city site, police, city court
+38	Westwego	Jefferson	city site, police, city court
+39	Youngsville	Lafayette	city site, police, city court
+40	Zachary	East Baton Rouge	city site, police, city court
+
+
+MA
+
+
+#	City	County	Needs
+
+1	Amherst	Hampshire	city site, police, municipal court
+2	Barnstable	Barnstable	city site, police, municipal court
+3	Beverly	Essex	city site, police, municipal court
+4	Boston	Suffolk	city site, police, municipal court
+5	Braintree	Norfolk	city site, police, municipal court
+6	Brockton	Plymouth	city site, police, municipal court
+7	Brookline	Norfolk	city site, police, municipal court
+8	Cambridge	Middlesex	city site, police, municipal court
+9	Chicopee	Hampden	city site, police, municipal court
+10	Fall River	Bristol	city site, police, municipal court
+11	Fitchburg	Worcester	city site, police, municipal court
+12	Framingham	Middlesex	city site, police, municipal court
+13	Holyoke	Hampden	city site, police, municipal court
+14	Lawrence	Essex	city site, police, municipal court
+15	Leominster	Worcester	city site, police, municipal court
+16	Lowell	Middlesex	city site, police, municipal court
+17	Lynn	Essex	city site, police, municipal court
+18	Malden	Middlesex	city site, police, municipal court
+19	Medford	Middlesex	city site, police, municipal court
+20	New Bedford	Bristol	city site, police, municipal court
+21	Newton	Middlesex	city site, police, municipal court
+22	Peabody	Essex	city site, police, municipal court
+23	Pittsfield	Berkshire	city site, police, municipal court
+24	Plymouth	Plymouth	city site, police, municipal court
+25	Quincy	Norfolk	city site, police, municipal court
+26	Salem	Essex	city site, police, municipal court
+27	Somerville	Middlesex	city site, police, municipal court
+28	Springfield	Hampden	city site, police, municipal court
+29	Taunton	Bristol	city site, police, municipal court
+30	Waltham	Middlesex	city site, police, municipal court
+31	Weymouth	Norfolk	city site, police, municipal court
+32	Worcester	Worcester	city site, police, municipal court 
+
+
+
+
+
+
+
+
