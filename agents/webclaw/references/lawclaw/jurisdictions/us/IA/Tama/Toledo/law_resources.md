@@ -1,12 +1,14 @@
 # Toledo — Local Law Resources
+## City Website
+- https://www.toledoia.com/
 ## Law Enforcement
-- Toledo Police Department
-- Tama County Sheriff
+- Toledo PD — 201 1st Ave NE — (641) 484-3013
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Toledo Municipal Court
+- Tama County District Court — 119 2nd St — (641) 484-2184
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Toledo Building Department
+- Toledo Building Department — https://www.toledoia.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Oelwein — Local Law Resources
+## City Website
+- https://www.oelwein.org/
 ## Law Enforcement
-- Oelwein Police Department
-- Fayette County Sheriff
+- Oelwein PD — 20 2nd Ave SW — (319) 283-4311
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Oelwein Municipal Court
+- Fayette County District Court — 100 S Main St, West Union — (563) 422-5694
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Oelwein Building Department
+- Oelwein Building Department — https://www.oelwein.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

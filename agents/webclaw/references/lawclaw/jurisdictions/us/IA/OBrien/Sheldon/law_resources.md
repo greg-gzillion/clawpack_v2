@@ -1,12 +1,14 @@
 # Sheldon — Local Law Resources
+## City Website
+- https://www.sheldoniowa.com/
 ## Law Enforcement
-- Sheldon Police Department
-- OBrien County Sheriff
+- Sheldon PD — 416 9th St — (712) 324-2525
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Sheldon Municipal Court
+- O'Brien County District Court — 416 9th St — (712) 324-2525
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Sheldon Building Department
+- Sheldon Building Department — https://www.sheldoniowa.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

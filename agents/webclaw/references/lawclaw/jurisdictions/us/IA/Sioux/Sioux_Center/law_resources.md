@@ -1,12 +1,14 @@
 # Sioux Center — Local Law Resources
+## City Website
+- https://www.siouxcenter.org/
 ## Law Enforcement
-- Sioux Center Police Department
-- Sioux County Sheriff
+- Sioux Center PD — 500 7th St NE — (712) 737-2111
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Sioux Center Municipal Court
+- Sioux County District Court — Orange City — (712) 737-2286
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Sioux Center Building Department
+- Sioux Center Building Department — https://www.siouxcenter.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

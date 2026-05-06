@@ -1,12 +1,14 @@
 # Northwood — Local Law Resources
+## City Website
+- http://www.co.worth.ia.us/
 ## Law Enforcement
-- Northwood Police Department
-- Worth County Sheriff
+- Northwood PD — 1000 Central Ave — (641) 324-2280
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Northwood Municipal Court
+- Worth County District Court — 1000 Central Ave — (641) 324-2316
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Northwood Building Department
+- Northwood Building Department — http://www.co.worth.ia.us/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

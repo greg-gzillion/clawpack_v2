@@ -1,12 +1,14 @@
 # Grundy Center — Local Law Resources
+## City Website
+- https://grundycenter.com/
 ## Law Enforcement
-- Grundy Center Police Department
-- Grundy County Sheriff
+- Grundy Center PD — 703 F Ave — (319) 825-6118
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Grundy Center Municipal Court
+- Grundy County Clerk — 706 G Ave — (319) 824-5229
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Grundy Center Building Department
+- Grundy Center Building Department — https://grundycenter.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

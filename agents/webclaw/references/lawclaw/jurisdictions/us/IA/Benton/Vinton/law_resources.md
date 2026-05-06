@@ -1,12 +1,14 @@
 # Vinton — Local Law Resources
+## City Website
+- http://www.vintoniowa.net/
 ## Law Enforcement
-- Vinton Police Department
-- Benton County Sheriff
+- Vinton PD — 310 A Ave — (319) 472-2755
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Vinton Municipal Court
+- Benton County District Court — 102 S 1st St — (319) 472-2632
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Vinton Building Department
+- Vinton Building Department — http://www.vintoniowa.net/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

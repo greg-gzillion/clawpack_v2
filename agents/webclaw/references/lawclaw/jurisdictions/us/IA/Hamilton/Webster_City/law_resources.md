@@ -1,12 +1,14 @@
 # Webster City — Local Law Resources
+## City Website
+- https://www.hamiltoncounty.iowa.gov/
 ## Law Enforcement
-- Webster City Police Department
-- Hamilton County Sheriff
+- Hamilton County Sheriff — (515) 832-9500
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Webster City Municipal Court
+- Hamilton County District Court — 2300 Superior St — (515) 832-9600
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Webster City Building Department
+- Webster City Building Department — https://www.hamiltoncounty.iowa.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

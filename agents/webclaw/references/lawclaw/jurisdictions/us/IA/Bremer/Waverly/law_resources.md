@@ -1,12 +1,14 @@
 # Waverly — Local Law Resources
+## City Website
+- https://www.waverlyia.com/
 ## Law Enforcement
-- Waverly Police Department
-- Bremer County Sheriff
+- Waverly PD — 111 4th St NE — (319) 352-5400
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Waverly Municipal Court
+- Bremer County Clerk — 415 E Bremer Ave — (319) 352-5661
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Waverly Building Department
+- Waverly Building Department — https://www.waverlyia.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

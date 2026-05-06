@@ -1,12 +1,14 @@
 # Muscatine — Local Law Resources
+## City Website
+- https://www.muscatineiowa.gov/
 ## Law Enforcement
-- Muscatine Police Department
-- Muscatine County Sheriff
+- Muscatine PD — 312 East 5th St — (563) 263-9922
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Muscatine Municipal Court
+- Muscatine County District Court — 401 E 3rd St — (563) 263-6511
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Muscatine Building Department
+- Muscatine Building Department — https://www.muscatineiowa.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

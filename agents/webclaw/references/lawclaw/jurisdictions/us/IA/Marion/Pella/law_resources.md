@@ -1,12 +1,14 @@
 # Pella — Local Law Resources
+## City Website
+- https://www.cityofpella.com/
 ## Law Enforcement
-- Pella Police Department
-- Marion County Sheriff
+- Pella PD — 614 Main St — (641) 628-2246
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Pella Municipal Court
+- Marion County District Court — 214 E Main St, Knoxville — (641) 828-2207
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Pella Building Department
+- Pella Building Department — https://www.cityofpella.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

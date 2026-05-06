@@ -1,12 +1,14 @@
 # Red Oak — Local Law Resources
+## City Website
+- https://city.redoakiowa.com/
 ## Law Enforcement
-- Red Oak Police Department
-- Montgomery County Sheriff
+- Red Oak PD — 601 N 6th St — (712) 623-6500
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Red Oak Municipal Court
+- Montgomery County District Court — 100 N Main St — (712) 623-6514
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Red Oak Building Department
+- Red Oak Building Department — https://city.redoakiowa.com/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

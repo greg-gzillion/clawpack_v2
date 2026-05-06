@@ -1,12 +1,14 @@
 # Rock Rapids — Local Law Resources
+## City Website
+- https://lyoncounty.iowa.gov/
 ## Law Enforcement
-- Rock Rapids Police Department
-- Lyon County Sheriff
+- Lyon County Sheriff — (712) 472-8300
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Rock Rapids Municipal Court
+- Lyon County District Court — 206 S 2nd Ave — (712) 472-8300
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Rock Rapids Building Department
+- Rock Rapids Building Department — https://lyoncounty.iowa.gov/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations

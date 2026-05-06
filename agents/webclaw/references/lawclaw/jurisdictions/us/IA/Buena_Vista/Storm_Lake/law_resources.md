@@ -1,12 +1,14 @@
 # Storm Lake — Local Law Resources
+## City Website
+- https://www.stormlake.org/
 ## Law Enforcement
-- Storm Lake Police Department
-- Buena Vista County Sheriff
+- Storm Lake PD — 401 E Milwaukee Ave — (712) 732-8010
 - Iowa State Patrol — https://www.dps.iowa.gov/
 ## Courts
-- Storm Lake Municipal Court
+- Buena Vista County District Court — 215 E 5th St — (712) 749-2546
+- **Court Website**: https://www.iowacourts.gov/
 ## Building Permits
-- Storm Lake Building Department
+- Storm Lake Building Department — https://www.stormlake.org/
 ## Hunting Regulations
 - IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
 ## Fishing Regulations
