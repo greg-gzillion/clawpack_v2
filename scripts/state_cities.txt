@@ -2169,6 +2169,294 @@ Webster
 Marshfield — city site, police, circuit court
 
 
+Barton
+
+Lamar — city site, police, circuit court
+
+Bates
+
+Butler — city site, police, circuit court
+
+Benton
+
+Warsaw — city site, police, circuit court
+
+Cooper
+
+Boonville — city site, police, circuit court
+
+Dallas
+
+Buffalo — city site, police, circuit court
+
+Dent
+
+Salem — city site, police, circuit court
+
+Grundy
+
+Trenton — city site, police, circuit court
+
+Livingston
+
+Chillicothe — city site, police, circuit court
+
+Macon
+
+Macon — city site, police, circuit court
+
+Madison
+
+Fredericktown — city site, police, circuit court
+
+Mississippi
+
+Charleston — city site, police, circuit court
+
+Morgan
+
+Versailles — city site, police, circuit court
+
+New Madrid
+
+New Madrid — city site, police, circuit court
+
+Portageville — city site, police, circuit court
+
+Pemiscot
+
+Caruthersville — city site, police, circuit court
+
+Perry
+
+Perryville — city site, police, circuit court
+
+Pike
+
+Bowling Green — city site, police, circuit court
+
+Louisiana — city site, police, circuit court
+
+Ray
+
+Richmond — city site, police, circuit court
+
+Ste. Genevieve
+
+Ste. Genevieve — city site, police, circuit court
+
+Stoddard
+
+Dexter — city site, police, circuit court
+
+Stone
+
+Kimberling City — city site, police, circuit court
+
+Reeds Spring — city site, police, circuit court
+
+St. Clair
+
+Osceola — city site, police, circuit court
+
+St. Francois
+
+Bismarck — city site, police, circuit court
+
+Washington
+
+Potosi — city site, police, circuit court
+
+
+Mississippi has 19 cities across 16 counties. Here's the full research list:
+
+City County Needs
+1 Bay St. Louis Hancock city site, police, circuit court
+2 Biloxi Harrison city site, police, circuit court
+3 Columbus Lowndes city site, police, circuit court
+4 Greenville Washington city site, police, circuit court
+5 Gulfport Harrison city site, police, circuit court
+6 Hattiesburg Forrest city site, police, circuit court
+7 Jackson Hinds city site, police, circuit court
+8 Laurel Jones city site, police, circuit court
+9 Madison Madison city site, police, circuit court
+10 Meridian Lauderdale city site, police, circuit court
+11 Olive Branch DeSoto city site, police, circuit court
+12 Oxford Lafayette city site, police, circuit court
+13 Pascagoula Jackson city site, police, circuit court
+14 Pearl Rankin city site, police, circuit court
+15 Southaven DeSoto city site, police, circuit court
+16 Starkville Oktibbeha city site, police, circuit court
+17 Tupelo Lee city site, police, circuit court
+18 Vicksburg Warren city site, police, circuit court
+
+Adams
+
+Natchez — city site, police, circuit court
+
+Alcorn
+
+Corinth — city site, police, circuit court
+
+Bolivar
+
+Cleveland — city site, police, circuit court
+
+Chickasaw
+
+Houston — city site, police, circuit court
+
+Claiborne
+
+Port Gibson — city site, police, circuit court
+
+Clay
+
+West Point — city site, police, circuit court
+
+Coahoma
+
+Clarksdale — city site, police, circuit court
+
+Copiah
+
+Hazlehurst — city site, police, circuit court
+
+Crystal Springs — city site, police, circuit court
+
+Covington
+
+Collins — city site, police, circuit court
+
+George
+
+Lucedale — city site, police, circuit court
+
+Grenada
+
+Grenada — city site, police, circuit court
+
+Itawamba
+
+Fulton — city site, police, circuit court
+
+Jackson
+
+Ocean Springs — city site, police, circuit court
+
+Gautier — city site, police, circuit court
+
+Moss Point — city site, police, circuit court
+
+Jasper
+
+Bay Springs — city site, police, circuit court
+
+Lamar
+
+Purvis — city site, police, circuit court
+
+Lumberton — city site, police, circuit court
+
+Lawrence
+
+Monticello — city site, police, circuit court
+
+Leake
+
+Carthage — city site, police, circuit court
+
+Leflore
+
+Greenwood — city site, police, circuit court
+
+Lincoln
+
+Brookhaven — city site, police, circuit court
+
+Marshall
+
+Holly Springs — city site, police, circuit court
+
+Monroe
+
+Amory — city site, police, circuit court
+
+Aberdeen — city site, police, circuit court
+
+Neshoba
+
+Philadelphia — city site, police, circuit court
+
+Newton
+
+Newton — city site, police, circuit court
+
+Union — city site, police, circuit court
+
+Panola
+
+Batesville — city site, police, circuit court
+
+Pearl River
+
+Picayune — city site, police, circuit court
+
+Poplarville — city site, police, circuit court
+
+Pike
+
+McComb — city site, police, circuit court
+
+Pontotoc
+
+Pontotoc — city site, police, circuit court
+
+Prentiss
+
+Booneville — city site, police, circuit court
+
+Scott
+
+Forest — city site, police, circuit court
+
+Morton — city site, police, circuit court
+
+Simpson
+
+Magee — city site, police, circuit court
+
+Sunflower
+
+Indianola — city site, police, circuit court
+
+Tate
+
+Senatobia — city site, police, circuit court
+
+Tippah
+
+Ripley — city site, police, circuit court
+
+Tunica
+
+Tunica — city site, police, circuit court
+
+Union
+
+New Albany — city site, police, circuit court
+
+Wayne
+
+Waynesboro — city site, police, circuit court
+
+Winston
+
+Louisville — city site, police, circuit court
+
+Yazoo
+
+Yazoo City — city site, police, circuit court
 
 
 

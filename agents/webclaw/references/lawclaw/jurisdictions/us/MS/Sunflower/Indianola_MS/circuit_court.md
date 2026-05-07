@@ -1,3 +1,6 @@
 # Indianola MS Circuit Court
 ## Court Information
-- Indianola MS Circuit Court
+- Sunflower County Circuit Court — 200 Main St — (662) 887-1252
+- **Court Website**: https://www.sunflowercountymississippi.org/
+## City Website
+- https://www.cityofindianola.com/

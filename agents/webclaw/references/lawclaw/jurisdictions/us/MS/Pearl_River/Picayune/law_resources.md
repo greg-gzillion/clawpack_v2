@@ -1,11 +1,14 @@
 # Picayune — Local Law Resources
+## City Website
+- https://www.cityofpicayune.com/
 ## Law Enforcement
-- Picayune Police Department
+- Picayune PD — 203 Goodyear Blvd — (601) 798-9773
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Pearl River County Circuit Court — Poplarville — (601) 403-2300
+- **Court Website**: https://www.co.pearl.ms.us/
 ## Building Permits
-- Picayune Building Department
+- Picayune Building Department — https://www.cityofpicayune.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

@@ -1,11 +1,14 @@
 # Brookhaven — Local Law Resources
+## City Website
+- https://www.brookhavenms.com/
 ## Law Enforcement
-- Brookhaven Police Department
+- Brookhaven PD — 440 US 51 — (601) 833-2424
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Lincoln County Circuit Court — 301 S 1st St — (601) 833-2515
+- **Court Website**: https://www.co.lincoln.ms.us/
 ## Building Permits
-- Brookhaven Building Department
+- Brookhaven Building Department — https://www.brookhavenms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

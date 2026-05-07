@@ -1,11 +1,14 @@
 # Senatobia — Local Law Resources
+## City Website
+- https://www.tatecountygov.com/
 ## Law Enforcement
-- Senatobia Police Department
+- Senatobia PD — 201 Ward St — (662) 562-5211
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Tate County Circuit Court — 201 Ward St — (662) 562-5211
+- **Court Website**: https://www.tatecountygov.com/
 ## Building Permits
-- Senatobia Building Department
+- Senatobia Building Department — https://www.tatecountygov.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

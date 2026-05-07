@@ -1,11 +1,14 @@
 # McComb — Local Law Resources
+## City Website
+- https://www.cityofmccomb.com/
 ## Law Enforcement
-- McComb Police Department
+- McComb PD — 501 Beech St — (601) 684-3023
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Pike County Circuit Court — Magnolia — (601) 783-2581
+- **Court Website**: https://pikecountyms.net/
 ## Building Permits
-- McComb Building Department
+- McComb Building Department — https://www.cityofmccomb.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

@@ -1,3 +1,6 @@
 # Crystal Springs Circuit Court
 ## Court Information
-- Crystal Springs Circuit Court
+- Copiah County Circuit Court — Hazlehurst — (601) 894-1241
+- **Court Website**: https://www.copiahms.com/
+## City Website
+- https://www.crystalspringsms.com/

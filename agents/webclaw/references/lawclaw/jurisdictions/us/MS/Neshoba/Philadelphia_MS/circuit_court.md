@@ -1,3 +1,6 @@
 # Philadelphia MS Circuit Court
 ## Court Information
-- Philadelphia MS Circuit Court
+- Neshoba County Circuit Court — 401 E Beacon St #110 — (601) 656-4781
+- **Court Website**: https://www.neshobacounty.net/
+## City Website
+- https://www.neshobacounty.net/

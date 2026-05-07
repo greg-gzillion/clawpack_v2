@@ -1,3 +1,6 @@
 # Gautier Circuit Court
 ## Court Information
-- Gautier Circuit Court
+- Jackson County Circuit Court — Pascagoula — (228) 769-3040
+- **Court Website**: https://www.co.jackson.ms.us/
+## City Website
+- https://www.gautier.us/

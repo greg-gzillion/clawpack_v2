@@ -1,11 +1,14 @@
 # Fulton MS — Local Law Resources
+## City Website
+- https://itawamba.gov/
 ## Law Enforcement
-- Fulton MS Police Department
+- Itawamba County Sheriff — 201 W Main St — (662) 862-3421
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Itawamba County Circuit Court — 201 W Main St — (662) 862-3511
+- **Court Website**: https://itawamba.gov/
 ## Building Permits
-- Fulton MS Building Department
+- Fulton MS Building Department — https://itawamba.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

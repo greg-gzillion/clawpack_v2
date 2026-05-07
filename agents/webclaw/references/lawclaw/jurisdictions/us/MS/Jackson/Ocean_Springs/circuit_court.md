@@ -1,3 +1,6 @@
 # Ocean Springs Circuit Court
 ## Court Information
-- Ocean Springs Circuit Court
+- Jackson County Circuit Court — Pascagoula — (228) 769-3040
+- **Court Website**: https://www.co.jackson.ms.us/
+## City Website
+- https://oceansprings-ms.gov/

@@ -1,11 +1,14 @@
 # Clarksdale — Local Law Resources
+## City Website
+- https://www.clarksdalems.com/
 ## Law Enforcement
-- Clarksdale Police Department
+- Clarksdale PD — 180 W Sunflower Rd — (662) 624-6363
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Coahoma County Circuit Court — 180 W Sunflower Rd — (662) 624-6363
+- **Court Website**: https://www.co.coahoma.ms.us/
 ## Building Permits
-- Clarksdale Building Department
+- Clarksdale Building Department — https://www.clarksdalems.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

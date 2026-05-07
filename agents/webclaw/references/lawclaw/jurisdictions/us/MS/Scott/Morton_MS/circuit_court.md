@@ -1,3 +1,6 @@
 # Morton MS Circuit Court
 ## Court Information
-- Morton MS Circuit Court
+- Scott County Circuit Court — Forest — (601) 948-3181
+- **Court Website**: https://www.scottcountymississippi.org/
+## City Website
+- https://www.mortonms.com/

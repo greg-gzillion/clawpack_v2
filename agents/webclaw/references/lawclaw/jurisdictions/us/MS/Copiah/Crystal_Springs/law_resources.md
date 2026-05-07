@@ -1,11 +1,14 @@
 # Crystal Springs — Local Law Resources
+## City Website
+- https://www.crystalspringsms.com/
 ## Law Enforcement
-- Crystal Springs Police Department
+- Crystal Springs PD — 100 E Broadway St — (601) 935-1241
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Copiah County Circuit Court — Hazlehurst — (601) 894-1241
+- **Court Website**: https://www.copiahms.com/
 ## Building Permits
-- Crystal Springs Building Department
+- Crystal Springs Building Department — https://www.crystalspringsms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

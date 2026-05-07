@@ -1,11 +1,14 @@
 # Carthage MS — Local Law Resources
+## City Website
+- https://www.leakecounty.net/
 ## Law Enforcement
-- Carthage MS Police Department
+- Carthage PD — 200 W Main St — (601) 298-2257
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Leake County Circuit Court — Court Sq — (601) 298-9003
+- **Court Website**: https://www.leakecounty.net/
 ## Building Permits
-- Carthage MS Building Department
+- Carthage MS Building Department — https://www.leakecounty.net/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

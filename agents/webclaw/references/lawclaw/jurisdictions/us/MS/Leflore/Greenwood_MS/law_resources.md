@@ -1,11 +1,14 @@
 # Greenwood MS — Local Law Resources
+## City Website
+- https://www.cityofgreenwood.net/
 ## Law Enforcement
-- Greenwood MS Police Department
+- Greenwood PD — 500 Howard St — (662) 455-1100
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Leflore County Circuit Court — 500 Howard St — (662) 455-1100
+- **Court Website**: https://www.co.leflore.ms.us/
 ## Building Permits
-- Greenwood MS Building Department
+- Greenwood MS Building Department — https://www.cityofgreenwood.net/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

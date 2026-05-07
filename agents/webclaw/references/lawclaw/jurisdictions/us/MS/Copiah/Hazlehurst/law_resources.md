@@ -1,11 +1,14 @@
 # Hazlehurst — Local Law Resources
+## City Website
+- https://www.hazlehurstms.com/
 ## Law Enforcement
-- Hazlehurst Police Department
+- Hazlehurst PD — 100 W Pine St — (601) 894-1241
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Mississippi Circuit Court
+- Copiah County Circuit Court — 100 Caldwell Dr — (601) 894-1241
+- **Court Website**: https://www.copiahms.com/
 ## Building Permits
-- Hazlehurst Building Department
+- Hazlehurst Building Department — https://www.hazlehurstms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations
