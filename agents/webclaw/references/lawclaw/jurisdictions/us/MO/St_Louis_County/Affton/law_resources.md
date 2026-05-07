@@ -1,11 +1,15 @@
 # Affton — Local Law Resources
+## City Website
+- 
 ## Law Enforcement
-- Affton Police Department
+- St. Louis County PD (Affton-Southwest Precinct) — 9928 Gravois Rd — (314) 638-5550
+- **Police Website**: https://www.stlouiscountypolice.com/precincts/affton-southwest/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- St. Louis County Municipal Division (no standalone municipal court)
+- **Court Website**: https://www.courts.mo.gov/
 ## Building Permits
-- Affton Building Department
+- Affton Building Department — 
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

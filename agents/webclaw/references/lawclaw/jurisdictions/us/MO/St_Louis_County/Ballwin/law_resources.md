@@ -1,14 +1,15 @@
 # Ballwin — Local Law Resources
 ## City Website
-- https://www.ballwinmo.org/
+- https://www.ballwin.mo.us/
 ## Law Enforcement
-- Ballwin PD — 1 Government Ctr — (636) 227-9468
+- Ballwin PD — 302 Kehrs Mill Rd — (636) 227-9000
+- **Police Website**: https://www.ballwin.mo.us/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Ballwin Municipal Court — 1 Government Ctr — (636) 227-9468
-- **Court Website**: https://www.ballwinmo.org/court
+- Ballwin Municipal Court — 1 Government Center — (636) 227-9468
+- **Court Website**: https://www.ballwin.mo.us/court
 ## Building Permits
-- Ballwin Building Department — https://www.ballwinmo.org/
+- Ballwin Building Department — https://www.ballwin.mo.us/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

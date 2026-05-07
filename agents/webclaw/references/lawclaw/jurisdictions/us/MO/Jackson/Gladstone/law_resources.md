@@ -1,11 +1,15 @@
 # Gladstone — Local Law Resources
+## City Website
+- https://www.gladstone.mo.us/
 ## Law Enforcement
-- Gladstone Police Department
+- Gladstone PD — 7010 N Holmes St — (816) 436-2200
+- **Police Website**: https://www.gladstone.mo.us/Police/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Gladstone Municipal Court — 7010 N Holmes St — (816) 423-4119
+- **Court Website**: https://www.gladstone.mo.us/MunicipalCourt/
 ## Building Permits
-- Gladstone Building Department
+- Gladstone Building Department — https://www.gladstone.mo.us/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

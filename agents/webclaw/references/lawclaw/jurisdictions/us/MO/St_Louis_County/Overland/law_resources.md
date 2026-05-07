@@ -2,10 +2,11 @@
 ## City Website
 - https://www.overlandmo.org/
 ## Law Enforcement
-- Overland PD — 2410 Goodale Ave — (314) 429-3939
+- Overland PD — 9155 St. Charles Rock Rd — (314) 428-1221
+- **Police Website**: https://www.overlandmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Overland Municipal Court — 2410 Goodale Ave — (314) 429-3939
+- Overland Municipal Court — 9155 St. Charles Rock Rd — (314) 428-6811
 - **Court Website**: https://www.overlandmo.org/court
 ## Building Permits
 - Overland Building Department — https://www.overlandmo.org/

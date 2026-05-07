@@ -1,11 +1,15 @@
 # Lemay — Local Law Resources
+## City Website
+- 
 ## Law Enforcement
-- Lemay Police Department
+- St. Louis County PD (South County Precinct) — 4544 Lemay Ferry Rd — (314) 615-2677
+- **Police Website**: https://www.stlouiscountypolice.com/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- St. Louis County Municipal Court (South Division) — 4544 Lemay Ferry Rd — (314) 615-8760
+- **Court Website**: https://www.courts.mo.gov/
 ## Building Permits
-- Lemay Building Department
+- Lemay Building Department — 
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

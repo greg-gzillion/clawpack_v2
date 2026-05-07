@@ -1,14 +1,15 @@
 # Mehlville — Local Law Resources
 ## City Website
-- https://www.stlouiscountymo.gov/
+- 
 ## Law Enforcement
-- St. Louis County PD — (314) 615-8811
+- St. Louis County PD — (314) 615-2677
+- **Police Website**: https://www.stlouiscountypolice.com/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 21st Judicial Circuit Court — Clayton — (314) 615-8027
-- **Court Website**: https://www.circuit21.org/
+- St. Louis County Municipal Division (no standalone municipal court)
+- **Court Website**: https://www.courts.mo.gov/
 ## Building Permits
-- Mehlville Building Department — https://www.stlouiscountymo.gov/
+- Mehlville Building Department — 
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

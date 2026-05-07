@@ -2,10 +2,11 @@
 ## City Website
 - https://www.hazelwoodmo.org/
 ## Law Enforcement
-- Hazelwood PD — 415 Elm Grove Ln — (314) 831-3545
+- Hazelwood PD — 415 Elm Grove Ln — (314) 838-5000
+- **Police Website**: https://www.hazelwoodmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Hazelwood Municipal Court — 415 Elm Grove Ln — (314) 831-3545
+- Hazelwood Municipal Court — 415 Elm Grove Ln — (314) 839-2212
 - **Court Website**: https://www.hazelwoodmo.org/court
 ## Building Permits
 - Hazelwood Building Department — https://www.hazelwoodmo.org/

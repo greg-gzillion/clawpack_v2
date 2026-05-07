@@ -2,10 +2,11 @@
 ## City Website
 - https://www.webstergrovesmo.gov/
 ## Law Enforcement
-- Webster Groves PD — 4 E Lockwood Ave — (314) 961-1233
+- Webster Groves PD — 4 E Lockwood Ave — (314) 963-5402
+- **Police Website**: https://www.webstergrovesmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Webster Groves Municipal Court — 4 E Lockwood Ave — (314) 961-1233
+- Webster Groves Municipal Court — 4 E Lockwood Ave — (314) 963-5416
 - **Court Website**: https://www.webstergrovesmo.gov/court
 ## Building Permits
 - Webster Groves Building Department — https://www.webstergrovesmo.gov/

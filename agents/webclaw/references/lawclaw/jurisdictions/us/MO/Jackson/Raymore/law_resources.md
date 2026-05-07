@@ -1,11 +1,15 @@
 # Raymore — Local Law Resources
+## City Website
+- https://www.raymore.com/
 ## Law Enforcement
-- Raymore Police Department
+- Raymore PD — 100 Municipal Circle — (816) 331-0530
+- **Police Website**: https://www.raymore.com/government/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Raymore Municipal Court — 100 Municipal Circle — (816) 331-1712
+- **Court Website**: https://www.raymore.com/government/city-departments/municipal-court
 ## Building Permits
-- Raymore Building Department
+- Raymore Building Department — https://www.raymore.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
