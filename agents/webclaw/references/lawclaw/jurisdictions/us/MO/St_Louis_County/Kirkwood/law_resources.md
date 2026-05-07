@@ -2,11 +2,12 @@
 ## City Website
 - https://www.kirkwoodmo.org/
 ## Law Enforcement
-- Kirkwood PD — 131 W Madison Ave — (314) 822-5840
+- Kirkwood PD — 111 S Geyer Rd — (314) 822-5000
+- **Police Website**: https://www.kirkwoodmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 21st Judicial Circuit Court — Clayton — (314) 615-8027
-- **Court Website**: https://www.circuit21.org/
+- Kirkwood Municipal Court — 111 S Geyer Rd — (314) 822-5000
+- **Court Website**: https://www.kirkwoodmo.org/court
 ## Building Permits
 - Kirkwood Building Department — https://www.kirkwoodmo.org/
 ## Hunting Regulations

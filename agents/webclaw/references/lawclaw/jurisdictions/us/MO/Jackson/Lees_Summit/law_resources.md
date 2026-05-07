@@ -1,14 +1,15 @@
 # Lees Summit — Local Law Resources
 ## City Website
-- https://www.lesummit.org/
+- https://cityofls.net/
 ## Law Enforcement
-- Lee's Summit PD — 111 SE Douglas St — (816) 969-1800
+- Lee's Summit PD — 10 NE Tudor Rd — (816) 969-1700
+- **Police Website**: https://cityofls.net/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 16th Judicial Circuit Court — Kansas City — (816) 881-4500
-- **Court Website**: https://www.16thcircuit.org/
+- Lee's Summit Municipal Court — 10 NE Tudor Rd — (816) 969-1150
+- **Court Website**: https://cityofls.net/court
 ## Building Permits
-- Lees Summit Building Department — https://www.lesummit.org/
+- Lees Summit Building Department — https://cityofls.net/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

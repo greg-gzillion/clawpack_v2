@@ -2,11 +2,12 @@
 ## City Website
 - https://www.joplinmo.org/
 ## Law Enforcement
-- Joplin PD — 303 E 3rd St — (417) 624-0820
+- Joplin PD — 303 E 3rd St — (417) 623-3131
+- **Police Website**: https://www.joplinmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 29th Judicial Circuit Court — 601 N Pearl Ave — (417) 625-4310
-- **Court Website**: https://jaspercountycourts.org/
+- Joplin Municipal Court — 303 E 3rd St — (417) 624-0820
+- **Court Website**: https://www.joplinmo.org/
 ## Building Permits
 - Joplin Building Department — https://www.joplinmo.org/
 ## Hunting Regulations

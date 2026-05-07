@@ -2,11 +2,12 @@
 ## City Website
 - https://www.kcmo.gov/
 ## Law Enforcement
-- Kansas City PD — 1211 Oak St — (816) 513-5300
+- Kansas City PD — 1125 Locust St — (816) 234-5111
+- **Police Website**: https://kcpolice.org/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 16th Judicial Circuit Court — 1315 Locust St — (816) 881-4500
-- **Court Website**: https://www.16thcircuit.org/
+- Kansas City Municipal Court — 1101 Locust St — (816) 513-2700
+- **Court Website**: https://www.kcmo.gov/
 ## Building Permits
 - Kansas City MO Building Department — https://www.kcmo.gov/
 ## Hunting Regulations

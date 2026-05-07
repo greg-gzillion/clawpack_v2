@@ -3,10 +3,11 @@
 - https://www.claytonmo.gov/
 ## Law Enforcement
 - Clayton PD — 10 S Brentwood Blvd — (314) 290-8400
+- **Police Website**: https://www.claytonmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
 - Clayton Municipal Court — 10 S Brentwood Blvd — (314) 290-8400
-- **Court Website**: https://www.claytonmo.gov/municipal-court
+- **Court Website**: https://www.claytonmo.gov/court
 ## Building Permits
 - Clayton Building Department — https://www.claytonmo.gov/
 ## Hunting Regulations

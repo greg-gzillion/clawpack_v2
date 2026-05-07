@@ -1,14 +1,15 @@
 # Ozark — Local Law Resources
 ## City Website
-- https://www.ozarkmo.org/
+- https://www.ozarkmissouri.com/
 ## Law Enforcement
-- Ozark PD — 100 S 4th Ave — (417) 581-2121
+- Ozark PD — 203 E Brick St — (417) 582-5171
+- **Police Website**: https://www.ozarkmissouri.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 30th Judicial Circuit Court — 300 E Trafficway St — (417) 581-2121
-- **Court Website**: https://www.christiancountymo.org/circuit_court
+- Ozark Municipal Court — 110 W Elm St — (417) 582-5160
+- **Court Website**: https://www.ozarkmissouri.com/municipal-court
 ## Building Permits
-- Ozark Building Department — https://www.ozarkmo.org/
+- Ozark Building Department — https://www.ozarkmissouri.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

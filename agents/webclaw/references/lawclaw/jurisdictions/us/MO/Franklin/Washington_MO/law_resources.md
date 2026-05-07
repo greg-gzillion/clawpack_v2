@@ -2,11 +2,12 @@
 ## City Website
 - https://www.washingtonmo.org/
 ## Law Enforcement
-- Washington PD — 100 E Washington Ave — (636) 239-2400
+- Washington PD — 200 E Washington St — (636) 239-4100
+- **Police Website**: https://www.washingtonmo.org/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 20th Judicial Circuit Court — 100 E Washington Ave — (636) 239-2400
-- **Court Website**: https://www.franklincountycourts.org/
+- Franklin County Circuit Court (20th Judicial) — Municipal abolished 2017
+- **Court Website**: https://www.washingtonmo.org/
 ## Building Permits
 - Washington MO Building Department — https://www.washingtonmo.org/
 ## Hunting Regulations

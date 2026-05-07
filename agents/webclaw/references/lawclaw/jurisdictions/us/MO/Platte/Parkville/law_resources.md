@@ -1,14 +1,15 @@
 # Parkville — Local Law Resources
 ## City Website
-- https://www.parkvillemo.org/
+- https://parkvillemo.gov/
 ## Law Enforcement
-- Platte County Sheriff — (816) 858-3300
+- Parkville PD — 8880 Clark Ave — (816) 741-4454
+- **Police Website**: https://parkvillemo.gov/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 16th Judicial Circuit Court — Platte City — (816) 858-3300
-- **Court Website**: https://www.circuit16.org/
+- Parkville Municipal Court — 8880 Clark Ave — (816) 741-1332
+- **Court Website**: https://parkvillemo.gov/
 ## Building Permits
-- Parkville Building Department — https://www.parkvillemo.org/
+- Parkville Building Department — https://parkvillemo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

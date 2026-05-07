@@ -1,14 +1,15 @@
 # Liberty — Local Law Resources
 ## City Website
-- https://libertymissouri.gov/
+- https://www.libertymissouri.gov/
 ## Law Enforcement
-- Liberty PD — 101 E Kansas St — (816) 439-4701
+- Liberty PD — 101 E Kansas St — (816) 439-4444
+- **Police Website**: https://www.libertymissouri.gov/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 7th Judicial Circuit Court — 11 S Water St — (816) 407-3600
-- **Court Website**: https://www.circuit7.org/
+- Liberty Municipal Court — 101 E Kansas St — (816) 439-4430
+- **Court Website**: https://www.libertymissouri.gov/municipal-court
 ## Building Permits
-- Liberty Building Department — https://libertymissouri.gov/
+- Liberty Building Department — https://www.libertymissouri.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

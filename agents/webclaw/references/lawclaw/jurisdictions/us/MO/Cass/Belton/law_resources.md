@@ -2,11 +2,12 @@
 ## City Website
 - https://www.belton.org/
 ## Law Enforcement
-- Belton PD — 111 W Franklin St — (816) 322-7277
+- Belton PD — 7001 E 163rd St — (816) 331-5522
+- **Police Website**: https://www.belton.org/Government/Departments/Police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Belton Municipal Division — 111 W Franklin St — (816) 322-7277
-- **Court Website**: https://www.belton.org/court
+- Belton Municipal Court — 7001 E 163rd St — (816) 331-2798
+- **Court Website**: https://www.belton.org/Government/Departments/Municipal-Division-Court
 ## Building Permits
 - Belton Building Department — https://www.belton.org/
 ## Hunting Regulations

@@ -3,10 +3,11 @@
 - https://www.stpetersmo.net/
 ## Law Enforcement
 - St. Peters PD — 1020 Grand Teton Dr — (636) 278-2222
+- **Police Website**: https://www.stpetersmo.net/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- St. Peters Municipal Court — 1020 Grand Teton Dr — (636) 278-2222
-- **Court Website**: https://www.stpetersmo.net/court
+- St. Peters Municipal Court — 1020 Grand Teton Dr — (636) 477-6600 ext. 3280
+- **Court Website**: https://www.stpetersmo.net/municipal-court
 ## Building Permits
 - St Peters Building Department — https://www.stpetersmo.net/
 ## Hunting Regulations

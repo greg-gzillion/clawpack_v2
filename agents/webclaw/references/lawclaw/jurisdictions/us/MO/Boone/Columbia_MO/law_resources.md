@@ -2,11 +2,12 @@
 ## City Website
 - https://www.como.gov/
 ## Law Enforcement
-- Columbia PD — 701 E Broadway — (573) 874-7211
+- Columbia PD — 1005 E Broadway — (573) 874-7000
+- **Police Website**: https://www.como.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Columbia Municipal Court — 600 E Broadway Ste 200 — (573) 874-7230
-- **Court Website**: https://www.como.gov/municipal-court
+- Columbia Municipal Court — 600 E Broadway #200 — (573) 874-7230
+- **Court Website**: https://www.como.gov/court
 ## Building Permits
 - Columbia MO Building Department — https://www.como.gov/
 ## Hunting Regulations

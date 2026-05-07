@@ -2,11 +2,12 @@
 ## City Website
 - https://www.jeffersoncitymo.gov/
 ## Law Enforcement
-- Jefferson City PD — 315 E High St — (573) 751-4545
+- Jefferson City PD — 401 Monroe St — (573) 634-6400
+- **Police Website**: https://www.jeffersoncitymo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Cole County Circuit Court — 105 E High St — (573) 751-2221
-- **Court Website**: https://colecounty.org/circuit-court
+- Jefferson City Municipal Court — 427 Monroe St — (573) 634-6316
+- **Court Website**: https://www.jeffersoncitymo.gov/court
 ## Building Permits
 - Jefferson City Building Department — https://www.jeffersoncitymo.gov/
 ## Hunting Regulations

@@ -2,11 +2,12 @@
 ## City Website
 - https://www.bluespringsgov.com/
 ## Law Enforcement
-- Blue Springs PD — 1100 SW Smith St — (816) 228-0151
+- Blue Springs PD — 1100 SW Smith St — (816) 228-0150
+- **Police Website**: https://www.bluespringsgov.com/341/Police-Department
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 16th Judicial Circuit Court — Independence — (816) 325-8150
-- **Court Website**: https://www.16thcircuit.org/
+- Blue Springs Municipal Court — 1100 SW Smith St — (816) 228-0175
+- **Court Website**: https://www.bluespringsgov.com/349/Municipal-Court
 ## Building Permits
 - Blue Springs Building Department — https://www.bluespringsgov.com/
 ## Hunting Regulations

@@ -2,10 +2,11 @@
 ## City Website
 - https://www.springfieldmo.gov/
 ## Law Enforcement
-- Springfield PD — 625 N Boonville Ave — (417) 864-1911
+- Springfield PD — 321 E Chestnut Expy — (417) 864-1810
+- **Police Website**: https://www.springfieldmo.gov/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Springfield Municipal Court — 625 N Benton Ave — (417) 864-1360
+- Springfield Municipal Court — 625 N Benton Ave — (417) 864-1890
 - **Court Website**: https://www.springfieldmo.gov/municipal-court
 ## Building Permits
 - Springfield MO Building Department — https://www.springfieldmo.gov/

@@ -1889,578 +1889,736 @@ Missouri has 28 cities across 16 counties. Here's the full research list:
 
 City County Needs
 
-1 Arnold Jefferson city site, police, circuit court
-2 Belton Cass city site, police, circuit court
-3 Blue Springs Jackson city site, police, circuit court
-4 Cape Girardeau Cape Girardeau city site, police, circuit court
-5 Chesterfield St. Louis County city site, police, circuit court
-6 Clayton St. Louis County city site, police, circuit court
-7 Columbia Boone city site, police, circuit court
-8 Florissant St. Louis County city site, police, circuit court
-9 Independence Jackson city site, police, circuit court
-10 Jefferson City Cole city site, police, circuit court
-11 Joplin Jasper city site, police, circuit court
-12 Kansas City Jackson city site, police, circuit court
-13 Kirkwood St. Louis County city site, police, circuit court
-14 Lee's Summit Jackson city site, police, circuit court
-15 Liberty Clay city site, police, circuit court
-16 O'Fallon St. Charles city site, police, circuit court
-17 Ozark Christian city site, police, circuit court
-18 Parkville Platte city site, police, circuit court
-19 Springfield Greene city site, police, circuit court
-20 St. Charles St. Charles city site, police, circuit court
-21 St. Joseph Buchanan city site, police, circuit court
-22 St. Louis St. Louis City city site, police, circuit court
-23 St. Peters St. Charles city site, police, circuit court
-24 University City St. Louis County city site, police, circuit court
-25 Washington Franklin city site, police, circuit court
+1 Arnold Jefferson city site, police, municipal court
+2 Belton Cass city site, police, municipal court
+3 Blue Springs Jackson city site, police, municipal court
+4 Cape Girardeau Cape Girardeau city site, police, municipal court
+5 Chesterfield St. Louis County city site, police, municipal court
+6 Clayton St. Louis County city site, police, municipal court
+
+7 Columbia Boone city site, police, municipal court
+8 Florissant St. Louis County city site, police, municipal court
+9 Independence Jackson city site, police, municipal court
+10 Jefferson City Cole city site, police, municipal court
+11 Joplin Jasper city site, police, municipal court
+12 Kansas City Jackson city site, police, municipal court
+13 Kirkwood St. Louis County city site, police, municipal court
+
+14 Lee's Summit Jackson city site, police, municipal court
+15 Liberty Clay city site, police, municipal court
+16 O'Fallon St. Charles city site, police, municipal court
+17 Ozark Christian city site, police, municipal court
+18 Parkville Platte city site, police, municipal court
+19 Springfield Greene city site, police, municipal court
+
+20 St. Charles St. Charles city site, police, municipal court
+21 St. Joseph Buchanan city site, police, municipal court
+22 St. Louis St. Louis City city site, police, municipal court
+23 St. Peters St. Charles city site, police, municipal court
+24 University City St. Louis County city site, police, municipal court
+25 Washington Franklin city site, police, municipal court
 
 
 Adair
 
-Kirksville — city site, police, circuit court
+Kirksville — city site, police, municipal court
 
 Audrain
 
-Mexico — city site, police, circuit court
+Mexico — city site, police, municipal court
 
 Barry
 
-Monett — city site, police, circuit court
+Monett — city site, police, municipal court
 
-Cassville — city site, police, circuit court
+Cassville — city site, police, municipal court
 
 Butler
 
-Poplar Bluff — city site, police, circuit court
+Poplar Bluff — city site, police, municipal court
 
 Callaway
 
-Fulton — city site, police, circuit court
+Fulton — city site, police, municipal court
 
-Holts Summit — city site, police, circuit court
+Holts Summit — city site, police, municipal court
 
 Camden
 
-Camdenton — city site, police, circuit court
+Camdenton — city site, police, municipal court
 
-Osage Beach — city site, police, circuit court
+Osage Beach — city site, police, municipal court
 
-Lake Ozark — city site, police, circuit court
+Lake Ozark — city site, police, municipal court
 
 Crawford
 
-Sullivan — city site, police, circuit court
+Sullivan — city site, police, municipal court
 
-Cuba — city site, police, circuit court
+Cuba — city site, police, municipal court
 
 Dunklin
 
-Kennett — city site, police, circuit court
+Kennett — city site, police, municipal court
 
 Franklin
 
-Union — city site, police, circuit court
+Union — city site, police, municipal court
 
-Pacific — city site, police, circuit court
+Pacific — city site, police, municipal court
 
-St. Clair — city site, police, circuit court
+St. Clair — city site, police, municipal court
 
 Gasconade
 
-Owensville — city site, police, circuit court
+Owensville — city site, police, municipal court
 
-Hermann — city site, police, circuit court
+Hermann — city site, police, municipal court
 
 Greene
 
-Republic — city site, police, circuit court
+Republic — city site, police, municipal court
 
-Battlefield — city site, police, circuit court
+Battlefield — city site, police, municipal court
 
-Willard — city site, police, circuit court
+Willard — city site, police, municipal court
 
-Strafford — city site, police, circuit court
+Strafford — city site, police, municipal court
 
 Henry
 
-Clinton — city site, police, circuit court
+Clinton — city site, police, municipal court
 
 Howell
 
-West Plains — city site, police, circuit court
+West Plains — city site, police, municipal court
 
 Jackson
 
-Raytown — city site, police, circuit court
+Raytown — city site, police, municipal court
 
-Grandview — city site, police, circuit court
+Grandview — city site, police, municipal court
 
-Gladstone — city site, police, circuit court
+Gladstone — city site, police, municipal court
 
-Raymore — city site, police, circuit court
+Raymore — city site, police, municipal court
 
 Jasper
 
-Carthage — city site, police, circuit court
+Carthage — city site, police, municipal court
 
-Webb City — city site, police, circuit court
+Webb City — city site, police, municipal court
 
-Neosho — city site, police, circuit court
+Neosho — city site, police, municipal court
 
 Jefferson
 
-Festus — city site, police, circuit court
+Festus — city site, police, municipal court
 
-De Soto — city site, police, circuit court
+De Soto — city site, police, municipal court
 
-Pevely — city site, police, circuit court
+Pevely — city site, police, municipal court
 
-Crystal City — city site, police, circuit court
+Crystal City — city site, police, municipal court
 
 Johnson
 
-Warrensburg — city site, police, circuit court
+Warrensburg — city site, police, municipal court
 
 Laclede
 
-Lebanon — city site, police, circuit court
+Lebanon — city site, police, municipal court
 
 Lafayette
 
-Odessa — city site, police, circuit court
+Odessa — city site, police, municipal court
 
-Higginsville — city site, police, circuit court
+Higginsville — city site, police, municipal court
 
-Lexington — city site, police, circuit court
+Lexington — city site, police, municipal court
 
 Lawrence
 
-Monett — city site, police, circuit court
+Monett — city site, police, municipal court
 
-Aurora — city site, police, circuit court
+Aurora — city site, police, municipal court
 
-Mount Vernon — city site, police, circuit court
+Mount Vernon — city site, police, municipal court
 
 Lincoln
 
-Troy — city site, police, circuit court
+Troy — city site, police, municipal court
 
 Marion
 
-Hannibal — city site, police, circuit court
+Hannibal — city site, police, municipal court
 
-Palmyra — city site, police, circuit court
+Palmyra — city site, police, municipal court
 
 Miller
 
-Eldon — city site, police, circuit court
+Eldon — city site, police, municipal court
 
 Newton
 
-Neosho — city site, police, circuit court
+Neosho — city site, police, municipal court
 
 Nodaway
 
-Maryville — city site, police, circuit court
+Maryville — city site, police, municipal court
 
 Pettis
 
-Sedalia — city site, police, circuit court
+Sedalia — city site, police, municipal court
 
 Phelps
 
-Rolla — city site, police, circuit court
+Rolla — city site, police, municipal court
 
 Polk
 
-Bolivar — city site, police, circuit court
+Bolivar — city site, police, municipal court
 
 Pulaski
 
-Waynesville — city site, police, circuit court
+Waynesville — city site, police, municipal court
 
-St. Robert — city site, police, circuit court
+St. Robert — city site, police, municipal court
 
 Randolph
 
-Moberly — city site, police, circuit court
+Moberly — city site, police, municipal court
 
 Saline
 
-Marshall — city site, police, circuit court
+Marshall — city site, police, municipal court
 
 Scott
 
-Sikeston — city site, police, circuit court
+Sikeston — city site, police, municipal court
 
-Scott City — city site, police, circuit court
+Scott City — city site, police, municipal court
 
 St. Francois
 
-Farmington — city site, police, circuit court
+Farmington — city site, police, municipal court
 
-Park Hills — city site, police, circuit court
+Park Hills — city site, police, municipal court
 
-Bonne Terre — city site, police, circuit court
+Bonne Terre — city site, police, municipal court
 
-Desloge — city site, police, circuit court
+Desloge — city site, police, municipal court
 
-Leadington — city site, police, circuit court
+Leadington — city site, police, municipal court
 
 St. Louis County
 
-Ballwin — city site, police, circuit court
+Ballwin — city site, police, municipal court
 
-Creve Coeur — city site, police, circuit court
+Creve Coeur — city site, police, municipal court
 
-Hazelwood — city site, police, circuit court
+Hazelwood — city site, police, municipal court
 
-Manchester — city site, police, circuit court
+Manchester — city site, police, municipal court
 
-Maryland Heights — city site, police, circuit court
+Maryland Heights — city site, police, municipal court
 
-Mehlville — city site, police, circuit court
+Mehlville — city site, police, municipal court
 
-Wildwood — city site, police, circuit court
+Wildwood — city site, police, municipal court
 
-Oakville — city site, police, circuit court
+Oakville — city site, police, municipal court
 
-Webster Groves — city site, police, circuit court
+Webster Groves — city site, police, municipal court
 
-Bridgeton — city site, police, circuit court
+Bridgeton — city site, police, municipal court
 
-Ferguson — city site, police, circuit court
+Ferguson — city site, police, municipal court
 
-Overland — city site, police, circuit court
+Overland — city site, police, municipal court
 
-Jennings — city site, police, circuit court
+Jennings — city site, police, municipal court
 
-St. Ann — city site, police, circuit court
+St. Ann — city site, police, municipal court
 
-Affton — city site, police, circuit court
+Affton — city site, police, municipal court
 
-Concord — city site, police, circuit court
+Concord — city site, police, municipal court
 
-Lemay — city site, police, circuit court
+Lemay — city site, police, municipal court
 
 Taney
 
-Branson — city site, police, circuit court
+Branson — city site, police, municipal court
 
-Hollister — city site, police, circuit court
+Hollister — city site, police, municipal court
 
 Texas
 
-Houston — city site, police, circuit court
+Houston — city site, police, municipal court
 
 Vernon
 
-Nevada — city site, police, circuit court
+Nevada — city site, police, municipal court
 
 Warren
 
-Warrenton — city site, police, circuit court
+Warrenton — city site, police, municipal court
 
-Wright City — city site, police, circuit court
+Wright City — city site, police, municipal court
 
 Webster
 
-Marshfield — city site, police, circuit court
+Marshfield — city site, police, municipal court
 
 
 Barton
 
-Lamar — city site, police, circuit court
+Lamar — city site, police, municipal court
 
 Bates
 
-Butler — city site, police, circuit court
+Butler — city site, police, municipal court
 
 Benton
 
-Warsaw — city site, police, circuit court
+Warsaw — city site, police, municipal court
 
 Cooper
 
-Boonville — city site, police, circuit court
+Boonville — city site, police, municipal court
 
 Dallas
 
-Buffalo — city site, police, circuit court
+Buffalo — city site, police, municipal court
 
 Dent
 
-Salem — city site, police, circuit court
+Salem — city site, police, municipal court
 
 Grundy
 
-Trenton — city site, police, circuit court
+Trenton — city site, police, municipal court
 
 Livingston
 
-Chillicothe — city site, police, circuit court
+Chillicothe — city site, police, municipal court
 
 Macon
 
-Macon — city site, police, circuit court
+Macon — city site, police, municipal court
 
 Madison
 
-Fredericktown — city site, police, circuit court
+Fredericktown — city site, police, municipal court
 
 Mississippi
 
-Charleston — city site, police, circuit court
+Charleston — city site, police, municipal court
 
 Morgan
 
-Versailles — city site, police, circuit court
+Versailles — city site, police, municipal court
 
 New Madrid
 
-New Madrid — city site, police, circuit court
+New Madrid — city site, police, municipal court
 
-Portageville — city site, police, circuit court
+Portageville — city site, police, municipal court
 
 Pemiscot
 
-Caruthersville — city site, police, circuit court
+Caruthersville — city site, police, municipal court
 
 Perry
 
-Perryville — city site, police, circuit court
+Perryville — city site, police, municipal court
 
 Pike
 
-Bowling Green — city site, police, circuit court
+Bowling Green — city site, police, municipal court
 
-Louisiana — city site, police, circuit court
+Louisiana — city site, police, municipal court
 
 Ray
 
-Richmond — city site, police, circuit court
+Richmond — city site, police, municipal court
 
 Ste. Genevieve
 
-Ste. Genevieve — city site, police, circuit court
+Ste. Genevieve — city site, police, municipal court
 
 Stoddard
 
-Dexter — city site, police, circuit court
+Dexter — city site, police, municipal court
 
 Stone
 
-Kimberling City — city site, police, circuit court
+Kimberling City — city site, police, municipal court
 
-Reeds Spring — city site, police, circuit court
+Reeds Spring — city site, police, municipal court
 
 St. Clair
 
-Osceola — city site, police, circuit court
+Osceola — city site, police, municipal court
 
 St. Francois
 
-Bismarck — city site, police, circuit court
+Bismarck — city site, police, municipal court
 
 Washington
 
-Potosi — city site, police, circuit court
+Potosi — city site, police, municipal court
 
 
 Mississippi has 19 cities across 16 counties. Here's the full research list:
 
 City County Needs
-1 Bay St. Louis Hancock city site, police, circuit court
-2 Biloxi Harrison city site, police, circuit court
-3 Columbus Lowndes city site, police, circuit court
-4 Greenville Washington city site, police, circuit court
-5 Gulfport Harrison city site, police, circuit court
-6 Hattiesburg Forrest city site, police, circuit court
-7 Jackson Hinds city site, police, circuit court
-8 Laurel Jones city site, police, circuit court
-9 Madison Madison city site, police, circuit court
-10 Meridian Lauderdale city site, police, circuit court
-11 Olive Branch DeSoto city site, police, circuit court
-12 Oxford Lafayette city site, police, circuit court
-13 Pascagoula Jackson city site, police, circuit court
-14 Pearl Rankin city site, police, circuit court
-15 Southaven DeSoto city site, police, circuit court
-16 Starkville Oktibbeha city site, police, circuit court
-17 Tupelo Lee city site, police, circuit court
-18 Vicksburg Warren city site, police, circuit court
+1 Bay St. Louis Hancock city site, police, municipal court
+2 Biloxi Harrison city site, police, municipal court
+3 Columbus Lowndes city site, police, municipal court
+4 Greenville Washington city site, police, municipal court
+5 Gulfport Harrison city site, police, municipal court
+6 Hattiesburg Forrest city site, police, municipal court
+7 Jackson Hinds city site, police, municipal court
+8 Laurel Jones city site, police, municipal court
+9 Madison Madison city site, police, municipal court
+10 Meridian Lauderdale city site, police, municipal court
+11 Olive Branch DeSoto city site, police, municipal court
+12 Oxford Lafayette city site, police, municipal court
+13 Pascagoula Jackson city site, police, municipal court
+14 Pearl Rankin city site, police, municipal court
+15 Southaven DeSoto city site, police, municipal court
+16 Starkville Oktibbeha city site, police, municipal court
+17 Tupelo Lee city site, police, municipal court
+18 Vicksburg Warren city site, police, municipal court
 
 Adams
 
-Natchez — city site, police, circuit court
+Natchez — city site, police, municipal court
 
 Alcorn
 
-Corinth — city site, police, circuit court
+Corinth — city site, police, municipal court
 
 Bolivar
 
-Cleveland — city site, police, circuit court
+Cleveland — city site, police, municipal court
 
 Chickasaw
 
-Houston — city site, police, circuit court
+Houston — city site, police, municipal court
 
 Claiborne
 
-Port Gibson — city site, police, circuit court
+Port Gibson — city site, police, municipal court
 
 Clay
 
-West Point — city site, police, circuit court
+West Point — city site, police, municipal court
 
 Coahoma
 
-Clarksdale — city site, police, circuit court
+Clarksdale — city site, police, municipal court
+
+
+
+
 
 Copiah
 
-Hazlehurst — city site, police, circuit court
+Hazlehurst — city site, police, municipal court
 
-Crystal Springs — city site, police, circuit court
+Crystal Springs — city site, police, municipal court
 
 Covington
 
-Collins — city site, police, circuit court
+Collins — city site, police, municipal court
 
 George
 
-Lucedale — city site, police, circuit court
+Lucedale — city site, police, municipal court
 
 Grenada
 
-Grenada — city site, police, circuit court
+Grenada — city site, police, municipal court
+
+
+
+
+
 
 Itawamba
 
-Fulton — city site, police, circuit court
+Fulton — city site, police, 
+
+Copiah
+
+Hazlehurst — city site, police, municipal court
+
+Crystal Springs — city site, police, municipal court
+
+Covington
+
+Collins — city site, police, municipal court
+
+George
+
+Lucedale — city site, police, municipal court
+
+Grenada
+
+Grenada — city site, police, municipal court
+ court
 
 Jackson
 
-Ocean Springs — city site, police, circuit court
+Ocean Springs — city site, police, municipal court
 
-Gautier — city site, police, circuit court
+Gautier — city site, police, municipal court
 
-Moss Point — city site, police, circuit court
+Moss Point — city site, police, municipal court
 
 Jasper
 
-Bay Springs — city site, police, circuit court
+Bay Springs — city site, police, municipal court
 
 Lamar
 
-Purvis — city site, police, circuit court
+Purvis — city site, police, municipal court
 
-Lumberton — city site, police, circuit court
+Lumberton — city site, police, municipal court
 
 Lawrence
 
-Monticello — city site, police, circuit court
+Monticello — city site, police, municipal court
 
 Leake
 
-Carthage — city site, police, circuit court
+Carthage — city site, police, municipal court
 
 Leflore
 
-Greenwood — city site, police, circuit court
+Greenwood — city site, police, municipal court
 
 Lincoln
 
-Brookhaven — city site, police, circuit court
+Brookhaven — city site, police, municipal court
 
 Marshall
 
-Holly Springs — city site, police, circuit court
+Holly Springs — city site, police, municipal court
 
 Monroe
 
-Amory — city site, police, circuit court
+Amory — city site, police, municipal court
 
-Aberdeen — city site, police, circuit court
+Aberdeen — city site, police, municipal court
 
 Neshoba
 
-Philadelphia — city site, police, circuit court
+Philadelphia — city site, police, municipal court
 
 Newton
 
-Newton — city site, police, circuit court
+Newton — city site, police, municipal court
 
-Union — city site, police, circuit court
+Union — city site, police, municipal court
 
 Panola
 
-Batesville — city site, police, circuit court
+Batesville — city site, police, municipal court
 
 Pearl River
 
-Picayune — city site, police, circuit court
+Picayune — city site, police, municipal court
 
-Poplarville — city site, police, circuit court
+Poplarville — city site, police, municipal court
 
 Pike
 
-McComb — city site, police, circuit court
+McComb — city site, police, municipal court
 
 Pontotoc
 
-Pontotoc — city site, police, circuit court
+Pontotoc — city site, police, municipal court
 
 Prentiss
 
-Booneville — city site, police, circuit court
+Booneville — city site, police, municipal court
 
 Scott
 
-Forest — city site, police, circuit court
+Forest — city site, police, municipal court
 
-Morton — city site, police, circuit court
+Morton — city site, police, municipal court
 
 Simpson
 
-Magee — city site, police, circuit court
+Magee — city site, police, municipal court
 
 Sunflower
 
-Indianola — city site, police, circuit court
+Indianola — city site, police, municipal court
 
 Tate
 
-Senatobia — city site, police, circuit court
+Senatobia — city site, police, municipal court
 
 Tippah
 
-Ripley — city site, police, circuit court
+Ripley — city site, police, municipal court
 
 Tunica
 
-Tunica — city site, police, circuit court
+Tunica — city site, police, municipal court
 
 Union
 
-New Albany — city site, police, circuit court
+New Albany — city site, police, municipal court
 
 Wayne
 
-Waynesboro — city site, police, circuit court
+Waynesboro — city site, police, municipal court
 
 Winston
 
-Louisville — city site, police, circuit court
+Louisville — city site, police, municipal court
 
 Yazoo
 
-Yazoo City — city site, police, circuit court
+Yazoo City — city site, police, municipal court
 
 
+Montana has 10 cities across 8 counties. Here's the full research list:
+
+City County Needs
+
+1 Belgrade Gallatin city site, police, district court
+2 Billings Yellowstone city site, police, district court
+3 Bozeman Gallatin city site, police, district court
+4 Butte Silver Bow city site, police, district court
+5 Great Falls Cascade city site, police, district court
+6 Hamilton Ravalli city site, police, district court
+7 Helena Lewis and Clark city site, police, district court
+8 Kalispell Flathead city site, police, district court
+9 Laurel Yellowstone city site, police, district court
+10 Missoula Missoula city site, police, district court
 
 
+Here's the research list for the 12 new cities:
 
+Beaverhead
+
+Dillon — city site, police, municipal	
+
+Custer
+
+Miles City — city site, police, municipal
+
+Dawson
+
+Glendive — city site, police, municipal
+
+Deer Lodge
+
+Anaconda — city site, police, municipal
+
+Fergus
+
+Lewistown — city site, police, municipal
+
+Flathead
+
+Whitefish — city site, police, municipal
+
+Columbia Falls — city site, police, municipal
+
+Hill
+
+Havre — city site, police, municipal 
+
+Lake
+
+Polson — city site, police, municipal
+
+Lincoln
+
+Libby — city site, police, municipal
+
+Park
+
+Livingston — city site, police, municipal
+
+Richland
+
+Sidney — city site, police,municipal court
+
+
+Big Horn
+
+Hardin — city site, police, municipal court
+
+Carbon
+
+Red Lodge — city site, police, municipal court
+
+Glacier
+
+Cut Bank — city site, police, municipal court
+
+Lake
+
+Ronan — city site, police, municipal court
+
+Phillips
+
+Malta — city site, police, municipal court
+
+Pondera
+
+Conrad — city site, police, municipal court
+
+Ravalli
+
+Stevensville — city site, police, municipal court
+
+Roosevelt
+
+Wolf Point — city site, police, municipal court
+
+Sanders
+
+Thompson Falls — city site, police, municipal court
+
+Stillwater
+
+Columbus — city site, police, municipal court
+
+Sweet Grass
+
+Big Timber — city site, police, municipal court
+
+Teton
+
+Choteau — city site, police, municipal court
+
+Toole
+
+Shelby — city site, police, municipal court
+
+Valley
+
+Glasgow — city site, police, municipal court
+
+Butte city site, police, municipal court
+
+Shelby city site, police, municipal court
+
+Glasgow city site, police, municipal court
+
+Cutbank  city site, police, municipal court
+
+Red lodge city site, police, municipal court
 
 

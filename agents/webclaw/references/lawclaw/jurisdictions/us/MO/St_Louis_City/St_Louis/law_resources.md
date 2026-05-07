@@ -2,11 +2,12 @@
 ## City Website
 - https://www.stlouis-mo.gov/
 ## Law Enforcement
-- St. Louis PD — 1200 Market St — (314) 612-5677
+- St. Louis Metropolitan PD — 1200 Clark Ave — (314) 444-5600
+- **Police Website**: https://www.slmpd.org/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 22nd Judicial Circuit Court — 10 N Tucker Blvd — (314) 622-4433
-- **Court Website**: https://www.circuit22.org/
+- St. Louis Municipal Court — 1200 Market St — (314) 612-6000
+- **Court Website**: https://www.stlouis-mo.gov/municipal-courts
 ## Building Permits
 - St Louis Building Department — https://www.stlouis-mo.gov/
 ## Hunting Regulations

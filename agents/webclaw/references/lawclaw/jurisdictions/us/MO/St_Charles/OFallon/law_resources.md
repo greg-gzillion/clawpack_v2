@@ -3,10 +3,11 @@
 - https://www.ofallon.mo.us/
 ## Law Enforcement
 - O'Fallon PD — 1019 Bryan Rd — (636) 240-3200
+- **Police Website**: https://www.ofallon.mo.us/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 11th Judicial Circuit Court — 100 N Main St — (636) 240-3200
-- **Court Website**: https://www.stccmo.org/circuit_court
+- O'Fallon Municipal Court — 1019 Bryan Rd Ste 2 — (636) 240-8766
+- **Court Website**: https://www.ofallon.mo.us/municipal-court
 ## Building Permits
 - OFallon Building Department — https://www.ofallon.mo.us/
 ## Hunting Regulations

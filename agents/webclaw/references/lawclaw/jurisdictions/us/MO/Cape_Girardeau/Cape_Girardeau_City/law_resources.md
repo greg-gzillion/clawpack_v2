@@ -2,11 +2,12 @@
 ## City Website
 - https://www.cityofcapegirardeau.org/
 ## Law Enforcement
-- Cape Girardeau PD — 2530 Maria Louise Ln — (573) 335-6621
+- Cape Girardeau PD — 401 Independence St — (573) 335-6621
+- **Police Website**: https://www.cityofcapegirardeau.org/departments/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Cape Girardeau County Circuit Court — Jackson — (573) 335-8253
-- **Court Website**: https://www.capecounty.us/
+- Cape Girardeau Municipal Court — 401 Independence St — (573) 339-6323
+- **Court Website**: https://www.cityofcapegirardeau.org/departments/municipal-court
 ## Building Permits
 - Cape Girardeau City Building Department — https://www.cityofcapegirardeau.org/
 ## Hunting Regulations

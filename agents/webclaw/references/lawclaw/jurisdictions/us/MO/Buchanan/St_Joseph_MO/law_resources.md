@@ -1,14 +1,15 @@
 # St Joseph MO — Local Law Resources
 ## City Website
-- https://www.stjoemo.org/
+- https://www.stjosephmo.gov/
 ## Law Enforcement
-- St. Joseph PD — 501 Faraon St — (816) 236-8845
+- St. Joseph PD — 411 Jules St — (816) 271-4702
+- **Police Website**: https://www.stjosephmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- 5th Judicial Circuit Court — 411 Jules St — (816) 271-1462
-- **Court Website**: https://www.buchanancounty.org/circuit_court
+- St. Joseph Municipal Court — 411 Jules St — (816) 271-4686
+- **Court Website**: https://www.stjosephmo.gov/municipal-court
 ## Building Permits
-- St Joseph MO Building Department — https://www.stjoemo.org/
+- St Joseph MO Building Department — https://www.stjosephmo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

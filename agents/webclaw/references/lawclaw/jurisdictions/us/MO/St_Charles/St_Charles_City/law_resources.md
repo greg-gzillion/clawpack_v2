@@ -3,10 +3,11 @@
 - https://www.stcharlescitymo.gov/
 ## Law Enforcement
 - St. Charles PD — 1781 Zumbehl Rd — (636) 949-3378
+- **Police Website**: https://www.stcharlescitymo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
 - St. Charles Municipal Court — 1781 Zumbehl Rd — (636) 949-3378
-- **Court Website**: https://www.stcharlescitymo.gov/court
+- **Court Website**: https://www.stcharlescitymo.gov/municipal-courts
 ## Building Permits
 - St Charles City Building Department — https://www.stcharlescitymo.gov/
 ## Hunting Regulations
