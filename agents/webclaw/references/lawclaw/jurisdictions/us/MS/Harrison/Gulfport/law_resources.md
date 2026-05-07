@@ -1,14 +1,15 @@
 # Gulfport — Local Law Resources
 ## City Website
-- https://www.gulfportms.com/
+- https://www.gulfport-ms.gov/
 ## Law Enforcement
-- Gulfport PD — 2218 15th St — (228) 864-5555
+- Gulfport PD — 2218 15th St — (228) 868-5711
+- **Police Website**: https://www.gulfport-ms.gov/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Harrison County Circuit Court — Gulfport — (228) 872-8000
-- **Court Website**: https://www.harrisoncountycourt.com/
+- Gulfport Municipal Court — 2218 15th St — (228) 868-5855
+- **Court Website**: https://www.gulfport-ms.gov/court
 ## Building Permits
-- Gulfport Building Department — https://www.gulfportms.com/
+- Gulfport Building Department — https://www.gulfport-ms.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

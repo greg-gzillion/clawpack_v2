@@ -2,11 +2,12 @@
 ## City Website
 - https://www.jacksonms.gov/
 ## Law Enforcement
-- Jackson PD — 100 W Capitol St — (601) 960-1125
+- Jackson PD — 200 W Capitol St — (601) 960-1111
+- **Police Website**: https://www.jacksonms.gov/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Hinds County Circuit Court — 407 E Pascagoula St — (601) 968-6150
-- **Court Website**: https://hindscountyms.com/
+- Jackson Municipal Court — 200 E Capitol St — (601) 960-1550
+- **Court Website**: https://www.jacksonms.gov/court
 ## Building Permits
 - Jackson MS Building Department — https://www.jacksonms.gov/
 ## Hunting Regulations

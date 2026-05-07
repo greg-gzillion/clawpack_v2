@@ -1,14 +1,15 @@
 # Greenville MS — Local Law Resources
 ## City Website
-- https://greenvillems.org/
+- https://www.greenvillems.org/
 ## Law Enforcement
-- Greenville PD — 903 Alexander St — (662) 378-1521
+- Greenville PD — 302 Main St — (662) 378-1540
+- **Police Website**: https://www.greenvillems.org/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Washington County Circuit Court — 900 Washington Ave #2 — (662) 378-2747
-- **Court Website**: https://www.washingtoncounty.ms/courts
+- Greenville Municipal Court — 302 Main St PO Box 1313 — (662) 378-1530
+- **Court Website**: https://www.greenvillems.org/municipal-court
 ## Building Permits
-- Greenville MS Building Department — https://greenvillems.org/
+- Greenville MS Building Department — https://www.greenvillems.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

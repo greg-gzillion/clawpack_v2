@@ -3,10 +3,11 @@
 - https://www.southaven.org/
 ## Law Enforcement
 - Southaven PD — 8691 Northwest Dr — (662) 393-8652
+- **Police Website**: https://southavenpolice.org/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- DeSoto County Circuit Court — Hernando — (662) 449-8000
-- **Court Website**: https://desotocountyms.gov/
+- Southaven Municipal Court — 8889 Northwest Dr — (662) 393-7042
+- **Court Website**: https://www.southaven.org/court
 ## Building Permits
 - Southaven Building Department — https://www.southaven.org/
 ## Hunting Regulations

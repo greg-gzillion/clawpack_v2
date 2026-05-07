@@ -2,11 +2,12 @@
 ## City Website
 - https://www.thecityofcolumbusms.org/
 ## Law Enforcement
-- Columbus PD — 1501 Main St — (662) 244-3500
+- Columbus PD — 1501 Main St — (662) 244-3510
+- **Police Website**: https://www.thecityofcolumbusms.org/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Lowndes County Circuit Court — 505 2nd Ave N — (662) 329-5900
-- **Court Website**: https://www.lowndescountycourt.com/
+- Columbus Municipal Court — 1501 Main St — (662) 244-3500 ext. 3
+- **Court Website**: https://www.thecityofcolumbusms.org/court-division
 ## Building Permits
 - Columbus MS Building Department — https://www.thecityofcolumbusms.org/
 ## Hunting Regulations

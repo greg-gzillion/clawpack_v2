@@ -2,11 +2,12 @@
 ## City Website
 - https://www.baystlouis.ms.gov/
 ## Law Enforcement
-- Bay St. Louis PD — 543 Main St — (228) 467-9222
+- Bay St. Louis PD — 688 Hwy 90 — (228) 466-9068
+- **Police Website**: https://www.baystlouis.ms.gov/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Hancock County Circuit Court — 152 Main St — (228) 467-5404
-- **Court Website**: https://www.hancockcountymississippi.org/
+- Bay St. Louis Municipal Court — PO Box 2550 — (228) 466-9068
+- **Court Website**: https://www.baystlouis.ms.gov/
 ## Building Permits
 - Bay St Louis Building Department — https://www.baystlouis.ms.gov/
 ## Hunting Regulations

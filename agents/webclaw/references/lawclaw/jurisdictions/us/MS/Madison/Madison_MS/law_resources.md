@@ -1,14 +1,15 @@
 # Madison MS — Local Law Resources
 ## City Website
-- https://www.mymadisonms.com/
+- https://www.madisonthecity.com/
 ## Law Enforcement
-- Madison PD — 200 S Wall St — (601) 853-2311
+- Madison PD — 2001 Main St — (601) 856-6111
+- **Police Website**: https://www.madisonthecity.com/departments/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Madison County Circuit Court — 200 S Wall St — (601) 853-2300
-- **Court Website**: https://www.mymadisonms.com/
+- Madison Municipal Court — 2001 Main St — (601) 707-1412
+- **Court Website**: https://www.madisonthecity.com/government/court
 ## Building Permits
-- Madison MS Building Department — https://www.mymadisonms.com/
+- Madison MS Building Department — https://www.madisonthecity.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

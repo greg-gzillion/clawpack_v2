@@ -1,14 +1,15 @@
 # Olive Branch — Local Law Resources
 ## City Website
-- https://www.obms.us/
+- https://www.cityofolivebranch.org/
 ## Law Enforcement
-- Olive Branch PD — 7750 Byhalia Rd — (662) 892-9500
+- Olive Branch PD — 6900 Highland St — (662) 892-9500
+- **Police Website**: https://www.cityofolivebranch.org/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- DeSoto County Circuit Court — Hernando — (662) 449-8000
-- **Court Website**: https://desotocountyms.gov/
+- Olive Branch Municipal Court — 6900 Highland St — (662) 892-9500
+- **Court Website**: https://www.cityofolivebranch.org/
 ## Building Permits
-- Olive Branch Building Department — https://www.obms.us/
+- Olive Branch Building Department — https://www.cityofolivebranch.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

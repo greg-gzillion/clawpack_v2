@@ -2,11 +2,12 @@
 ## City Website
 - https://www.hattiesburgms.com/
 ## Law Enforcement
-- Hattiesburg PD — 2001 Hardy St — (601) 545-4160
+- Hattiesburg PD — 701 James St — (601) 544-7900
+- **Police Website**: https://www.hattiesburgms.com/hpd
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Forrest County Circuit Court — 630 Main St — (601) 582-3213
-- **Court Website**: https://forrestcountyms.us/
+- Hattiesburg Municipal Court — 701 James St PO Box 1898 — (601) 545-4933
+- **Court Website**: https://www.hattiesburgms.com/court
 ## Building Permits
 - Hattiesburg Building Department — https://www.hattiesburgms.com/
 ## Hunting Regulations

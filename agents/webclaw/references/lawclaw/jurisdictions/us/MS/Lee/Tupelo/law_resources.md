@@ -2,11 +2,12 @@
 ## City Website
 - https://www.tupeloms.gov/
 ## Law Enforcement
-- Tupelo PD — 316 Court St — (662) 841-6516
+- Tupelo PD — 400 N Front St — (662) 841-6491
+- **Police Website**: https://www.tupeloms.gov/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Lee County Circuit Court — 200 W Jefferson St — (662) 432-2360
-- **Court Website**: https://leecountycircuitclerk.com/
+- Tupelo Municipal Court — 316 Court St — (662) 841-6516
+- **Court Website**: https://www.tupeloms.gov/court
 ## Building Permits
 - Tupelo Building Department — https://www.tupeloms.gov/
 ## Hunting Regulations

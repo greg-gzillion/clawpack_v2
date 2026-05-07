@@ -1,14 +1,15 @@
 # Pearl — Local Law Resources
 ## City Website
-- https://www.pearlms.com/
+- https://www.cityofpearl.com/
 ## Law Enforcement
-- Pearl PD — 2422 Old Brandon Rd — (601) 939-2500
+- Pearl PD — 2561 Old Brandon Rd — (601) 932-3579
+- **Police Website**: https://www.cityofpearl.com/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Rankin County Circuit Court — Brandon — (601) 825-5000
-- **Court Website**: https://www.rankincountyms.com/
+- Pearl Municipal Court — 2561 Old Brandon Rd — (601) 932-3581
+- **Court Website**: https://www.cityofpearl.com/municipal-court
 ## Building Permits
-- Pearl Building Department — https://www.pearlms.com/
+- Pearl Building Department — https://www.cityofpearl.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

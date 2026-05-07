@@ -2,11 +2,12 @@
 ## City Website
 - https://www.pascagoula.com/
 ## Law Enforcement
-- Pascagoula PD — 10000 Creole Rd — (228) 762-5112
+- Pascagoula PD — 611 Live Oak Ave — (228) 762-0458
+- **Police Website**: https://www.pascagoula.com/police
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Jackson County Circuit Court — 3104 Magnolia St — (228) 769-3040
-- **Court Website**: https://www.co.jackson.ms.us/
+- Pascagoula Municipal Court — 611 Live Oak Ave — (228) 762-0458
+- **Court Website**: https://www.pascagoula.com/
 ## Building Permits
 - Pascagoula Building Department — https://www.pascagoula.com/
 ## Hunting Regulations
