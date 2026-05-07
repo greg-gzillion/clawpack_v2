@@ -1,12 +1,14 @@
 # Windham — Local Law Resources
+## City Website
+- https://www.windhammaine.us/
 ## Law Enforcement
-- Windham Police Department
-- Cumberland County Sheriff
+- Windham PD — 375 Gray Rd — (207) 892-1919
 - Maine State Police — https://www.maine.gov/dps/msp/
 ## Courts
-- Maine District Court
+- Portland District Court — (207) 822-4200
+- **Court Website**: https://www.courts.maine.gov/
 ## Building Permits
-- Windham Building Department
+- Windham Building Department — https://www.windhammaine.us/
 ## Hunting Regulations
 - ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
 ## Fishing Regulations

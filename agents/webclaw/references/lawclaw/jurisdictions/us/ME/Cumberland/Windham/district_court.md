@@ -1,3 +1,6 @@
 # Windham District Court
 ## Court Information
-- Windham District Court
+- Portland District Court — (207) 822-4200
+- **Court Website**: https://www.courts.maine.gov/
+## City Website
+- https://www.windhammaine.us/
