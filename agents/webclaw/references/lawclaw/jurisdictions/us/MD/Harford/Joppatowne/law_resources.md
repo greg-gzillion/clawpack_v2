@@ -1,12 +1,14 @@
 # Joppatowne — Local Law Resources
+## City Website
+- https://www.harfordcountymd.gov/
 ## Law Enforcement
-- Joppatowne Police Department
-- Harford County Sheriff
+- Harford County Sheriff — Edgewood — (410) 836-4545
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Harford County District Court
+- Harford District Court — Bel Air — (410) 836-4545
+- **Court Website**: https://www.mdcourts.gov/district/directories/harford
 ## Building Permits
-- Joppatowne Building Department
+- Joppatowne Building Department — https://www.harfordcountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

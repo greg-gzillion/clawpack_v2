@@ -1,12 +1,14 @@
 # Largo — Local Law Resources
+## City Website
+- https://www.princegeorgescountymd.gov/
 ## Law Enforcement
-- Largo Police Department
-- Prince Georges County Sheriff
+- PG County PD — Bowie — (301) 352-1200
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Prince Georges County District Court
+- PG District Court — Hyattsville — (301) 298-4200
+- **Court Website**: https://www.mdcourts.gov/district/directories/prince-georges
 ## Building Permits
-- Largo Building Department
+- Largo Building Department — https://www.princegeorgescountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Fort Washington — Local Law Resources
+## City Website
+- https://www.princegeorgescountymd.gov/
 ## Law Enforcement
-- Fort Washington Police Department
-- Prince Georges County Sheriff
+- PG County PD — 11108 Fort Washington Rd — (301) 292-5300
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Prince Georges County District Court
+- PG District Court — Upper Marlboro — (301) 627-7700
+- **Court Website**: https://www.mdcourts.gov/district/directories/prince-georges
 ## Building Permits
-- Fort Washington Building Department
+- Fort Washington Building Department — https://www.princegeorgescountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

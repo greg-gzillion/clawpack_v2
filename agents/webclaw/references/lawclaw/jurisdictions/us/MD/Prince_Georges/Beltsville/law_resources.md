@@ -1,12 +1,14 @@
 # Beltsville — Local Law Resources
+## City Website
+- https://www.princegeorgescountymd.gov/
 ## Law Enforcement
-- Beltsville Police Department
-- Prince Georges County Sheriff
+- PG County PD — 4321 Sellman Rd — (301) 352-1200
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Prince Georges County District Court
+- PG District Court — Hyattsville — (301) 298-4200
+- **Court Website**: https://www.mdcourts.gov/district/directories/prince-georges
 ## Building Permits
-- Beltsville Building Department
+- Beltsville Building Department — https://www.princegeorgescountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

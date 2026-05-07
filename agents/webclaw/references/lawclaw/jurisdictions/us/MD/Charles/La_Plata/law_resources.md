@@ -1,12 +1,14 @@
 # La Plata — Local Law Resources
+## City Website
+- https://www.charlescountymd.gov/
 ## Law Enforcement
-- La Plata Police Department
-- Charles County Sheriff
+- Charles County Sheriff — (301) 645-4800
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Charles County District Court
+- Charles District Court — 11 Washington Ave — (301) 884-4750
+- **Court Website**: https://www.mdcourts.gov/district/directories/charles
 ## Building Permits
-- La Plata Building Department
+- La Plata Building Department — https://www.charlescountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

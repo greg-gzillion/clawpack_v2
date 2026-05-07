@@ -1,12 +1,14 @@
 # Aspen Hill — Local Law Resources
+## City Website
+- https://www.montgomerycountymd.gov/
 ## Law Enforcement
-- Aspen Hill Police Department
-- Montgomery County Sheriff
+- Montgomery County PD — Wheaton — (240) 773-5500
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Montgomery County District Court
+- Montgomery District Court — Rockville — (301) 563-8800
+- **Court Website**: https://www.mdcourts.gov/district/directories/montgomery
 ## Building Permits
-- Aspen Hill Building Department
+- Aspen Hill Building Department — https://www.montgomerycountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

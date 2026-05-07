@@ -1,12 +1,14 @@
 # Eldersburg — Local Law Resources
+## City Website
+- https://www.carrollcountymd.gov/
 ## Law Enforcement
-- Eldersburg Police Department
-- Carroll County Sheriff
+- Carroll County Sheriff — Westminster — (410) 386-2121
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Carroll County District Court
+- Carroll District Court — 101 N Court St — (410) 386-2200
+- **Court Website**: https://www.mdcourts.gov/district/directories/carroll
 ## Building Permits
-- Eldersburg Building Department
+- Eldersburg Building Department — https://www.carrollcountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

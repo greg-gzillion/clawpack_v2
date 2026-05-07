@@ -1,14 +1,14 @@
-# Lexington Park — Local Law Resources
+# California — Local Law Resources
 ## City Website
 - https://www.stmarysmd.com/
 ## Law Enforcement
-- St. Mary's County Sheriff — (301) 475-4200
+- St. Mary's County Sheriff — 23150 Three Notch Rd — (301) 475-4200
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- St. Mary's District Court — Leonardtown — (301) 880-2700
+- St. Mary's District Court — Leonardtown — (301) 475-4388
 - **Court Website**: https://www.mdcourts.gov/district/directories/stmarys
 ## Building Permits
-- Lexington Park Building Department — https://www.stmarysmd.com/
+- California Building Department — https://www.stmarysmd.com/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

@@ -1,12 +1,14 @@
 # Potomac — Local Law Resources
+## City Website
+- https://www.montgomerycountymd.gov/
 ## Law Enforcement
-- Potomac Police Department
-- Montgomery County Sheriff
+- Montgomery County PD — Bethesda — (240) 773-6500
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Montgomery County District Court
+- Montgomery District Court — Rockville — (301) 563-8800
+- **Court Website**: https://www.mdcourts.gov/district/directories/montgomery
 ## Building Permits
-- Potomac Building Department
+- Potomac Building Department — https://www.montgomerycountymd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

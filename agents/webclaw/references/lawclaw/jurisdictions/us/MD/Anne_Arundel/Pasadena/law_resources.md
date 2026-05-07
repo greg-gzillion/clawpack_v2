@@ -1,12 +1,14 @@
 # Pasadena — Local Law Resources
+## City Website
+- https://www.aacounty.org/
 ## Law Enforcement
-- Pasadena Police Department
-- Anne Arundel County Sheriff
+- Anne Arundel County PD — 204 Pasadena Rd — (410) 222-6145
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Anne Arundel County District Court
+- Anne Arundel District Court — Glen Burnie — (410) 412-7103
+- **Court Website**: https://www.mdcourts.gov/district/directories/anne-arundel
 ## Building Permits
-- Pasadena Building Department
+- Pasadena Building Department — https://www.aacounty.org/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations
