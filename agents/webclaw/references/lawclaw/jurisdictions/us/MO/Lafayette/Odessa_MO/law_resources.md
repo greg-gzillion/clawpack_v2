@@ -1,14 +1,15 @@
 # Odessa MO — Local Law Resources
 ## City Website
-- https://www.odessamo.org/
+- https://www.cityofodessamo.com/
 ## Law Enforcement
-- Odessa PD — 101 N 2nd St — (816) 633-7575
+- Odessa PD — 310 S 1st St — (816) 633-7575
+- **Police Website**: https://www.cityofodessamo.com/Police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Lafayette County Circuit Court — Lexington — (660) 259-6101
-- **Court Website**: https://www.circuit20.org/
+- Odessa Municipal Court — 601 W Main St — (816) 230-5577 ext. 1
+- **Court Website**: https://www.cityofodessamo.com/MunicipalCourt
 ## Building Permits
-- Odessa MO Building Department — https://www.odessamo.org/
+- Odessa MO Building Department — https://www.cityofodessamo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,14 +1,15 @@
 # Maryville — Local Law Resources
 ## City Website
-- https://www.maryvillemo.com/
+- https://www.maryvillegov.com/
 ## Law Enforcement
-- Maryville PD — 201 S Main St — (660) 582-2281
+- Maryville PD — 415 N Market St — (660) 562-3525
+- **Police Website**: https://www.maryvillegov.com/police-administration.html
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Nodaway County Circuit Court — 201 S Main St — (660) 582-2281
-- **Court Website**: https://www.nodawaycounty.org/
+- Maryville Municipal Court — 415 N Market St — (660) 562-3525
+- **Court Website**: https://maryvillemo.municipalone.com/
 ## Building Permits
-- Maryville Building Department — https://www.maryvillemo.com/
+- Maryville Building Department — https://www.maryvillegov.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,14 +1,15 @@
 # Pevely — Local Law Resources
 ## City Website
-- https://www.pevelymo.org/
+- https://www.cityofpevelymo.gov/
 ## Law Enforcement
 - Pevely PD — 401 Main St — (636) 475-3355
+- **Police Website**: https://www.cityofpevelymo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Jefferson County Circuit Court — Hillsboro — (636) 797-5443
-- **Court Website**: https://www.circuit21.org/
+- Pevely Municipal Court — 401 Main St — (636) 475-3355
+- **Court Website**: https://www.cityofpevelymo.gov/municipal-court
 ## Building Permits
-- Pevely Building Department — https://www.pevelymo.org/
+- Pevely Building Department — https://www.cityofpevelymo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

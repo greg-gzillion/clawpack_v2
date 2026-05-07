@@ -2,11 +2,12 @@
 ## City Website
 - https://www.sikeston.org/
 ## Law Enforcement
-- Sikeston PD — 100 W Malone St — (573) 475-9155
+- Sikeston PD — 131 N New Madrid St — (573) 475-3705
+- **Police Website**: https://www.sikeston.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Scott County Circuit Court — 101 W Jackson St — (573) 475-9155
-- **Court Website**: https://www.scottcountymo.org/
+- Sikeston Municipal Court — 105 E Center St — (573) 475-3705
+- **Court Website**: https://www.sikeston.org/municipal_court
 ## Building Permits
 - Sikeston Building Department — https://www.sikeston.org/
 ## Hunting Regulations

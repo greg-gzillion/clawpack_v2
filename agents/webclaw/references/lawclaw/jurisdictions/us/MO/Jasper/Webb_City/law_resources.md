@@ -1,14 +1,15 @@
 # Webb City — Local Law Resources
 ## City Website
-- https://www.webbcitymo.com/
+- https://webbcitymo.org/
 ## Law Enforcement
-- Webb City PD — 510 J St — (417) 673-2455
+- Webb City PD — 101 W Main St — (417) 673-1081
+- **Police Website**: https://webbcitymo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Jasper County Circuit Court — Carthage — (417) 625-4310
-- **Court Website**: https://www.circuit29.org/
+- Webb City Municipal Court — 200 S Main St — (417) 673-4000
+- **Court Website**: https://webbcitymo.org/municipal-court
 ## Building Permits
-- Webb City Building Department — https://www.webbcitymo.com/
+- Webb City Building Department — https://webbcitymo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

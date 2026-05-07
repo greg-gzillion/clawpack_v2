@@ -3,10 +3,11 @@
 - https://www.warrensburg-mo.com/
 ## Law Enforcement
 - Warrensburg PD — 102 S Holden St — (660) 747-9132
+- **Police Website**: https://www.warrensburg-mo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Johnson County Circuit Court — 101 W Market St — (660) 422-7413
-- **Court Website**: https://www.circuit39.org/
+- Warrensburg Municipal Court — 102 S Holden St — (660) 747-9132
+- **Court Website**: https://www.warrensburg-mo.com/
 ## Building Permits
 - Warrensburg Building Department — https://www.warrensburg-mo.com/
 ## Hunting Regulations

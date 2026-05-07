@@ -1,14 +1,15 @@
 # Rolla — Local Law Resources
 ## City Website
-- https://www.rollacity.org/
+- https://www.rollacity.gov/
 ## Law Enforcement
-- Rolla PD — 901 N Elm St — (573) 364-8590
+- Rolla PD — 901 N Elm St — (573) 458-6000
+- **Police Website**: https://www.rollacity.org/police.html
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Phelps County Circuit Court — 200 N Main St — (573) 458-6210
-- **Court Website**: https://www.phelpscounty.org/
+- Rolla Municipal Court — 901 N Elm St Ste 2 — (573) 364-8590
+- **Court Website**: https://www.rollacity.gov/departments/municipal_court
 ## Building Permits
-- Rolla Building Department — https://www.rollacity.org/
+- Rolla Building Department — https://www.rollacity.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

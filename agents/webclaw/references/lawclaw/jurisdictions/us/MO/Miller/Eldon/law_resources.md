@@ -2,11 +2,12 @@
 ## City Website
 - https://www.eldonmo.com/
 ## Law Enforcement
-- Eldon PD — 101 N Main St — (573) 396-2222
+- Eldon PD — 200 E Washington St — (573) 392-3531
+- **Police Website**: https://www.eldonmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Miller County Circuit Court — 101 N Main St — (573) 396-2222
-- **Court Website**: https://www.millercountymo.org/
+- Eldon Municipal Court — 200 E Washington St — (573) 392-5113
+- **Court Website**: https://www.eldonmo.com/municipal-court
 ## Building Permits
 - Eldon Building Department — https://www.eldonmo.com/
 ## Hunting Regulations

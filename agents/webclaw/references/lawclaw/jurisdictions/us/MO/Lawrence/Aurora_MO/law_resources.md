@@ -1,14 +1,15 @@
 # Aurora MO — Local Law Resources
 ## City Website
-- https://www.auroramissouri.com/
+- https://www.auroragov.org/
 ## Law Enforcement
-- Aurora PD — 2 W Pleasant St — (417) 678-5121
+- Aurora PD — 14999 E Alameda Pkwy — (417) 678-5454
+- **Police Website**: https://www.auroragov.org/residents/public_safety/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Lawrence County Circuit Court — Mt. Vernon — (417) 466-2471
-- **Court Website**: https://www.circuit39.org/
+- Aurora Municipal Court — 14999 E Alameda Pkwy — (417) 678-6444
+- **Court Website**: https://www.auroragov.org/residents/public_safety/courts___detention
 ## Building Permits
-- Aurora MO Building Department — https://www.auroramissouri.com/
+- Aurora MO Building Department — https://www.auroragov.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,14 +1,15 @@
 # De Soto — Local Law Resources
 ## City Website
-- https://www.desotomo.com/
+- https://desotomo.com/
 ## Law Enforcement
-- De Soto PD — 17 Boyd St — (636) 586-8891
+- Jefferson County Sheriff — (636) 483-4400
+- **Police Website**: https://www.jeffco-mo.org/sheriff
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Jefferson County Circuit Court — Hillsboro — (636) 797-5443
-- **Court Website**: https://www.circuit21.org/
+- Jefferson County Associate Circuit Court (municipal dissolved 2020) — Hillsboro — (913) 586-5290
+- **Court Website**: https://desotomo.com/municipal-court
 ## Building Permits
-- De Soto Building Department — https://www.desotomo.com/
+- De Soto Building Department — https://desotomo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

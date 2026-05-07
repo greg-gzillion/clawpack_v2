@@ -2,11 +2,12 @@
 ## City Website
 - https://marshall-mo.com/
 ## Law Enforcement
-- Marshall PD — 5 E Eastwood — (660) 886-3665
+- Marshall PD — 301 S Main St — (660) 886-3665
+- **Police Website**: https://marshall-mo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Saline County Circuit Court — 211 E Broadway — (660) 886-3665
-- **Court Website**: https://marshall-mo.com/court
+- Marshall Municipal Court — 19 E Arrow St — (660) 886-3665
+- **Court Website**: https://marshall-mo.com/municipal-court
 ## Building Permits
 - Marshall MO Building Department — https://marshall-mo.com/
 ## Hunting Regulations

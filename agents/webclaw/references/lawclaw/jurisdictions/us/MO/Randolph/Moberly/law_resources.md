@@ -1,14 +1,15 @@
 # Moberly — Local Law Resources
 ## City Website
-- https://www.moberly.org/
+- https://www.cityofmoberly.com/
 ## Law Enforcement
-- Moberly PD — 200 W Reed St — (660) 263-4100
+- Moberly PD — 204 N Clark St — (660) 263-0346
+- **Police Website**: https://www.cityofmoberly.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Randolph County Circuit Court — 1501 Main St — (660) 263-4100
-- **Court Website**: https://www.randolphcountymo.com/
+- Moberly Municipal Court — 300 N Clark St — (660) 263-3914
+- **Court Website**: https://www.cityofmoberly.com/municipal-court
 ## Building Permits
-- Moberly Building Department — https://www.moberly.org/
+- Moberly Building Department — https://www.cityofmoberly.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

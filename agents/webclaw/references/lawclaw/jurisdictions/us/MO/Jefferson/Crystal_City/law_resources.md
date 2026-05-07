@@ -1,14 +1,15 @@
 # Crystal City — Local Law Resources
 ## City Website
-- https://www.crystalcitymo.org/
+- https://crystalcitymo.org/
 ## Law Enforcement
-- Crystal City PD — 130 Mississippi Ave — (636) 937-4601
+- Crystal City PD — 130 Mississippi Ave — (636) 937-4614
+- **Police Website**: https://crystalcitymo.org/police.html
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Jefferson County Circuit Court — Hillsboro — (636) 797-5443
-- **Court Website**: https://www.circuit21.org/
+- Crystal City Municipal Court — 130 Mississippi Ave — (636) 937-4604
+- **Court Website**: https://crystalcitymo.org/departments/municipal-court.html
 ## Building Permits
-- Crystal City Building Department — https://www.crystalcitymo.org/
+- Crystal City Building Department — https://crystalcitymo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

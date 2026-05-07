@@ -1,14 +1,15 @@
 # Hannibal — Local Law Resources
 ## City Website
-- https://www.hannibalmo.org/
+- https://www.hannibal-mo.gov/
 ## Law Enforcement
-- Hannibal PD — 800 Broadway — (573) 221-0154
+- Hannibal PD — 320 Broadway — (573) 221-9200
+- **Police Website**: https://www.hannibal-mo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Marion County Circuit Court — 800 Broadway — (573) 221-0154
-- **Court Website**: https://www.marioncountymo.org/
+- Hannibal Municipal Court — 320 Broadway — (573) 221-9210
+- **Court Website**: https://www.hannibal-mo.gov/municipal-court
 ## Building Permits
-- Hannibal Building Department — https://www.hannibalmo.org/
+- Hannibal Building Department — https://www.hannibal-mo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

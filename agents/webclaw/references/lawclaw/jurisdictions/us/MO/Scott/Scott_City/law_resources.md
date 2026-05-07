@@ -1,14 +1,15 @@
 # Scott City — Local Law Resources
 ## City Website
-- https://www.scottcity.org/
+- https://scottcitymo.com/
 ## Law Enforcement
-- Scott City PD — 100 E Broadway — (573) 475-3553
+- Scott City PD — 618 Main St — (573) 264-2006
+- **Police Website**: https://scottcitymo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Scott County Circuit Court — Sikeston — (573) 475-9155
-- **Court Website**: https://www.scottcountymo.org/
+- Scott City Municipal Court — 618 Main St — (573) 264-2006
+- **Court Website**: https://scottcitymo.com/municipal-court
 ## Building Permits
-- Scott City Building Department — https://www.scottcity.org/
+- Scott City Building Department — https://scottcitymo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

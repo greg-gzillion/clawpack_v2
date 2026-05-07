@@ -1,14 +1,15 @@
 # Palmyra MO — Local Law Resources
 ## City Website
-- https://www.palmyramo.com/
+- https://www.palmyramo.gov/
 ## Law Enforcement
-- Palmyra PD — 201 N Main St — (573) 735-3151
+- Palmyra PD — 301 S Main St — (573) 769-5540
+- **Police Website**: https://www.palmyramo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Marion County Circuit Court — Hannibal — (573) 221-0154
-- **Court Website**: https://www.marioncountymo.org/
+- Marion County Associate Circuit Court — 900 Broadway — (573) 769-2549
+- **Court Website**: https://www.courts.mo.gov/
 ## Building Permits
-- Palmyra MO Building Department — https://www.palmyramo.com/
+- Palmyra MO Building Department — https://www.palmyramo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

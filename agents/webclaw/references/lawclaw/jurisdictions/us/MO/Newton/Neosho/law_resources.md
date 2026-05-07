@@ -1,14 +1,15 @@
 # Neosho — Local Law Resources
 ## City Website
-- https://www.neoshomo.com/
+- https://www.neoshomo.gov/
 ## Law Enforcement
-- Neosho PD — 100 E Westwood Ave — (417) 451-8000
+- Neosho PD — 201 N College St — (417) 451-8012
+- **Police Website**: https://www.neoshomo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Newton County Circuit Court — 100 E Westwood Ave — (417) 451-8000
-- **Court Website**: https://www.circuit29.org/
+- Neosho Municipal Court — 203 E Main St — (417) 451-8007
+- **Court Website**: https://www.neoshomo.gov/municipal-court
 ## Building Permits
-- Neosho Building Department — https://www.neoshomo.com/
+- Neosho Building Department — https://www.neoshomo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

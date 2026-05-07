@@ -1,14 +1,15 @@
 # Park Hills — Local Law Resources
 ## City Website
-- https://www.parkhillsmo.org/
+- https://parkhillsmo.com/
 ## Law Enforcement
-- Park Hills PD — 1201 E Hwy 32 — (573) 438-2281
+- Park Hills PD — 1101 S Main St — (573) 431-2770
+- **Police Website**: https://parkhillsmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- St. Francois County Circuit Court — Farmington — (573) 535-2500
-- **Court Website**: https://www.stfrancoiscountymo.gov/
+- St. Francois County Circuit Court — Farmington — (573) 756-3623
+- **Court Website**: https://www.courts.mo.gov/
 ## Building Permits
-- Park Hills Building Department — https://www.parkhillsmo.org/
+- Park Hills Building Department — https://parkhillsmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

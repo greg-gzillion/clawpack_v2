@@ -1,14 +1,15 @@
 # Leadington — Local Law Resources
 ## City Website
-- https://www.leadingtonmo.org/
+- https://leadingtonmo.com/
 ## Law Enforcement
-- Leadington PD — 200 W Main St — (573) 535-2281
+- Leadington PD — 515 W Pine St — (573) 546-3244
+- **Police Website**: https://leadingtonmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- St. Francois County Circuit Court — Farmington — (573) 535-2500
-- **Court Website**: https://www.stfrancoiscountymo.gov/
+- St. Francois County Circuit Court — Farmington — (573) 756-3623
+- **Court Website**: https://www.courts.mo.gov/
 ## Building Permits
-- Leadington Building Department — https://www.leadingtonmo.org/
+- Leadington Building Department — https://leadingtonmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

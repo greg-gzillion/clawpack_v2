@@ -2,11 +2,12 @@
 ## City Website
 - https://www.waynesvillemo.org/
 ## Law Enforcement
-- Waynesville PD — 100 Tremont Center — (573) 774-6158
+- Waynesville PD — 301 Historic Route 66 — (573) 774-4755
+- **Police Website**: https://www.waynesvillepd.org/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Pulaski County Circuit Court — 301 Historic Route 66 E — (573) 774-4755
-- **Court Website**: https://pulaskicountymopa.com/
+- Waynesville Municipal Court — 100 Tremont Center — (573) 774-6158
+- **Court Website**: https://www.waynesvillemo.org/page/municipal-court
 ## Building Permits
 - Waynesville Building Department — https://www.waynesvillemo.org/
 ## Hunting Regulations
