@@ -1,11 +1,14 @@
 # Bolivar MO — Local Law Resources
+## City Website
+- https://www.bolivar.mo.us/
 ## Law Enforcement
-- Bolivar MO Police Department
+- Bolivar PD — 345 S Main Ave — (417) 328-5823
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Polk County Circuit Court — 102 E Broadway St — (417) 326-4912
+- **Court Website**: https://polkcountymo.gov/circuit-clerk/
 ## Building Permits
-- Bolivar MO Building Department
+- Bolivar MO Building Department — https://www.bolivar.mo.us/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,3 +1,6 @@
 # De Soto Circuit Court
 ## Court Information
-- De Soto Circuit Court
+- Jefferson County Circuit Court — Hillsboro — (636) 797-5443
+- **Court Website**: https://www.circuit21.org/
+## City Website
+- https://www.desotomo.com/

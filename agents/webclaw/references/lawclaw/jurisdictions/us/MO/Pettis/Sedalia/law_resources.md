@@ -1,11 +1,14 @@
 # Sedalia — Local Law Resources
+## City Website
+- https://www.sedalia.org/
 ## Law Enforcement
-- Sedalia Police Department
+- Sedalia PD — 200 W 1st St — (660) 826-4400
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Pettis County Circuit Court — 200 W 1st St — (660) 826-4400
+- **Court Website**: https://www.circuit39.org/
 ## Building Permits
-- Sedalia Building Department
+- Sedalia Building Department — https://www.sedalia.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

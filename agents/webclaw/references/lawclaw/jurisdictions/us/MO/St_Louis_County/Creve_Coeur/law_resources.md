@@ -1,11 +1,14 @@
 # Creve Coeur — Local Law Resources
+## City Website
+- https://www.crevecoeurmo.org/
 ## Law Enforcement
-- Creve Coeur Police Department
+- Creve Coeur PD — 300 N New Ballas Rd — (314) 432-8844
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Creve Coeur Municipal Court — 300 N New Ballas Rd — (314) 432-8844
+- **Court Website**: https://www.crevecoeurmo.org/court
 ## Building Permits
-- Creve Coeur Building Department
+- Creve Coeur Building Department — https://www.crevecoeurmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

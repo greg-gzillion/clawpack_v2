@@ -1,11 +1,14 @@
 # Troy MO — Local Law Resources
+## City Website
+- https://www.troymo.org/
 ## Law Enforcement
-- Troy MO Police Department
+- Troy PD — 100 N 2nd St — (636) 462-5252
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Lincoln County Circuit Court — 100 N 2nd St — (636) 462-5252
+- **Court Website**: https://www.lincolncountymo.org/
 ## Building Permits
-- Troy MO Building Department
+- Troy MO Building Department — https://www.troymo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

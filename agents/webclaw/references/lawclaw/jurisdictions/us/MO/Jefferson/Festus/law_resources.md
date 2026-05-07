@@ -1,11 +1,14 @@
 # Festus — Local Law Resources
+## City Website
+- https://www.festusmo.org/
 ## Law Enforcement
-- Festus Police Department
+- Festus PD — 711 W Main St — (636) 937-3646
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Jefferson County Circuit Court — Hillsboro — (636) 797-5443
+- **Court Website**: https://www.circuit21.org/
 ## Building Permits
-- Festus Building Department
+- Festus Building Department — https://www.festusmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,11 +1,14 @@
 # Mount Vernon MO — Local Law Resources
+## City Website
+- https://www.mtvernon-cityhall.org/
 ## Law Enforcement
-- Mount Vernon MO Police Department
+- Mt. Vernon PD — 319 E Dallas St — (417) 466-2122
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Lawrence County Circuit Court — 240 N Main St — (417) 466-2471
+- **Court Website**: https://www.circuit39.org/
 ## Building Permits
-- Mount Vernon MO Building Department
+- Mount Vernon MO Building Department — https://www.mtvernon-cityhall.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

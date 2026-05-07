@@ -1,11 +1,14 @@
 # Ferguson — Local Law Resources
+## City Website
+- https://www.fergusonmo.org/
 ## Law Enforcement
-- Ferguson Police Department
+- Ferguson PD — 110 Church St — (314) 524-5264
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Ferguson Municipal Court — 110 Church St — (314) 524-5264
+- **Court Website**: https://www.fergusonmo.org/court
 ## Building Permits
-- Ferguson Building Department
+- Ferguson Building Department — https://www.fergusonmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

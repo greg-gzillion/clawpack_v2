@@ -1,11 +1,14 @@
 # Maryland Heights — Local Law Resources
+## City Website
+- https://www.mdhmo.org/
 ## Law Enforcement
-- Maryland Heights Police Department
+- Maryland Heights PD — 11911 Dorsett Rd — (314) 291-6100
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Maryland Heights Municipal Court — 11911 Dorsett Rd — (314) 291-6100
+- **Court Website**: https://www.mdhmo.org/court
 ## Building Permits
-- Maryland Heights Building Department
+- Maryland Heights Building Department — https://www.mdhmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

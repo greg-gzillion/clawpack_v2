@@ -1,11 +1,14 @@
 # Bonne Terre — Local Law Resources
+## City Website
+- https://www.bonneterre.org/
 ## Law Enforcement
-- Bonne Terre Police Department
+- Bonne Terre PD — 201 E 1st St — (573) 358-2261
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- St. Francois County Circuit Court — Farmington — (573) 535-2500
+- **Court Website**: https://www.stfrancoiscountymo.gov/
 ## Building Permits
-- Bonne Terre Building Department
+- Bonne Terre Building Department — https://www.bonneterre.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

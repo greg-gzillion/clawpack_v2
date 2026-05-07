@@ -1,11 +1,14 @@
 # Marshfield — Local Law Resources
+## City Website
+- https://www.marshfieldmo.org/
 ## Law Enforcement
-- Marshfield Police Department
+- Marshfield PD — 100 S 5th St — (417) 859-2222
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Webster County Circuit Court — 845 E 4th St — (417) 859-2222
+- **Court Website**: https://www.webstercountymo.org/
 ## Building Permits
-- Marshfield Building Department
+- Marshfield Building Department — https://www.marshfieldmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

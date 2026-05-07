@@ -1,11 +1,14 @@
 # Carthage — Local Law Resources
+## City Website
+- https://www.carthagemo.com/
 ## Law Enforcement
-- Carthage Police Department
+- Carthage PD — 200 S 1st St — (417) 358-2151
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Jasper County Circuit Court — 200 S 1st St — (417) 625-4310
+- **Court Website**: https://www.circuit29.org/
 ## Building Permits
-- Carthage Building Department
+- Carthage Building Department — https://www.carthagemo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,11 +1,14 @@
 # Manchester MO — Local Law Resources
+## City Website
+- https://www.manchestermo.com/
 ## Law Enforcement
-- Manchester MO Police Department
+- Manchester PD — 200 Highlands Blvd Dr — (636) 207-2832
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Manchester Municipal Court — 200 Highlands Blvd Dr — (636) 207-2832
+- **Court Website**: https://www.manchestermo.com/court
 ## Building Permits
-- Manchester MO Building Department
+- Manchester MO Building Department — https://www.manchestermo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

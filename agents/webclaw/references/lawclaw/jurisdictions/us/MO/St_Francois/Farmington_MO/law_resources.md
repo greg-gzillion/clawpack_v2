@@ -1,11 +1,14 @@
 # Farmington MO — Local Law Resources
+## City Website
+- https://www.farmingtonmo.org/
 ## Law Enforcement
-- Farmington MO Police Department
+- Farmington PD — 100 S Main St — (573) 535-2500
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- St. Francois County Circuit Court — 100 S Main St — (573) 535-2500
+- **Court Website**: https://www.stfrancoiscountymo.gov/
 ## Building Permits
-- Farmington MO Building Department
+- Farmington MO Building Department — https://www.farmingtonmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

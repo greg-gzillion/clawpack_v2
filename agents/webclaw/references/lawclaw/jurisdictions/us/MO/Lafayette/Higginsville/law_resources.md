@@ -1,11 +1,14 @@
 # Higginsville — Local Law Resources
+## City Website
+- https://www.higginsvillemo.com/
 ## Law Enforcement
-- Higginsville Police Department
+- Higginsville PD — 1922 N Main St — (660) 584-2106
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Lafayette County Circuit Court — Lexington — (660) 259-6101
+- **Court Website**: https://www.circuit20.org/
 ## Building Permits
-- Higginsville Building Department
+- Higginsville Building Department — https://www.higginsvillemo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

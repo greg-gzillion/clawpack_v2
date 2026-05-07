@@ -1,11 +1,14 @@
 # Warrenton — Local Law Resources
+## City Website
+- https://cityofwarrenton.hosted.civiclive.com/
 ## Law Enforcement
-- Warrenton Police Department
+- Warrenton PD — 200 W Booneslick Rd — (636) 456-3535
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Warrenton Municipal Court — 200 W Booneslick Rd — (636) 456-3535
+- **Court Website**: https://cityofwarrenton.hosted.civiclive.com/
 ## Building Permits
-- Warrenton Building Department
+- Warrenton Building Department — https://cityofwarrenton.hosted.civiclive.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

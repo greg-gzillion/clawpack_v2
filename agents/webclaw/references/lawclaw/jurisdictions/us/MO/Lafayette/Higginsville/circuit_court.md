@@ -1,3 +1,6 @@
 # Higginsville Circuit Court
 ## Court Information
-- Higginsville Circuit Court
+- Lafayette County Circuit Court — Lexington — (660) 259-6101
+- **Court Website**: https://www.circuit20.org/
+## City Website
+- https://www.higginsvillemo.com/

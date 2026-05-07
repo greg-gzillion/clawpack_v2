@@ -1,11 +1,14 @@
 # Branson — Local Law Resources
+## City Website
+- https://www.bransonmo.org/
 ## Law Enforcement
-- Branson Police Department
+- Branson PD — 110 W Maddux St — (417) 334-3300
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Branson Municipal Court — 110 W Maddux St Ste 205 — (417) 335-4578
+- **Court Website**: https://www.bransonmo.org/municipal-court
 ## Building Permits
-- Branson Building Department
+- Branson Building Department — https://www.bransonmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

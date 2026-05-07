@@ -1,11 +1,14 @@
 # Jennings — Local Law Resources
+## City Website
+- https://www.jenningsmo.org/
 ## Law Enforcement
-- Jennings Police Department
+- Jennings PD — 7005 Florence Pl — (314) 385-4670
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Jennings Municipal Court — 7005 Florence Pl — (314) 385-4670
+- **Court Website**: https://www.jenningsmo.org/court
 ## Building Permits
-- Jennings Building Department
+- Jennings Building Department — https://www.jenningsmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
