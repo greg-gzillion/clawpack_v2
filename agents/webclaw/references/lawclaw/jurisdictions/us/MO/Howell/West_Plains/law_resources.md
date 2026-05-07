@@ -1,14 +1,15 @@
 # West Plains — Local Law Resources
 ## City Website
-- https://www.westplainsmo.org/
+- https://westplains.gov/
 ## Law Enforcement
-- West Plains PD — 100 E Broadway — (417) 258-6100
+- West Plains PD — 1910 Holiday Lane — (417) 256-7176
+- **Police Website**: https://westplains.gov/departments/emergency-services/police-department/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Howell County Circuit Court — 100 E Broadway — (417) 258-6100
-- **Court Website**: https://www.howellcountymo.org/
+- West Plains Municipal Court — 1910 Holiday Lane — (417) 256-6154
+- **Court Website**: https://westplains.gov/departments/administration/municipal-court/
 ## Building Permits
-- West Plains Building Department — https://www.westplainsmo.org/
+- West Plains Building Department — https://westplains.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

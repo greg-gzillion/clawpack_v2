@@ -1,14 +1,15 @@
 # Kennett — Local Law Resources
 ## City Website
-- https://www.kennettmo.org/
+- https://cityofkennettmo.com/
 ## Law Enforcement
-- Kennett PD — 500 E Washington Ave — (573) 888-2020
+- Kennett PD — 200 Cedar St — (573) 888-6341
+- **Police Website**: https://cityofkennettmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Dunklin County Circuit Court — 100 E Court St — (573) 888-2020
-- **Court Website**: https://www.dunklincounty.org/
+- Kennett Municipal Court — 200 Cedar St — (573) 888-6340
+- **Court Website**: https://cityofkennettmo.com/fines-and-payment
 ## Building Permits
-- Kennett Building Department — https://www.kennettmo.org/
+- Kennett Building Department — https://cityofkennettmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

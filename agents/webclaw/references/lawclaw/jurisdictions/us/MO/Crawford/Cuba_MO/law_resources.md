@@ -1,14 +1,15 @@
 # Cuba MO — Local Law Resources
 ## City Website
-- https://www.cubamo.org/
+- https://cityofcubamo.com/
 ## Law Enforcement
-- Cuba PD — 100 W 1st St — (573) 986-2121
+- Cuba PD — 602 S Franklin St — (573) 885-7979
+- **Police Website**: https://cityofcubamo.com/police/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Crawford County Circuit Court — Sullivan — (573) 468-2154
-- **Court Website**: https://www.crawfordcountymo.org/
+- Cuba Municipal Court — 602 S Franklin Ave — (573) 885-0854
+- **Court Website**: https://cityofcubamo.com/courthouse/
 ## Building Permits
-- Cuba MO Building Department — https://www.cubamo.org/
+- Cuba MO Building Department — https://cityofcubamo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

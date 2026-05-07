@@ -1,14 +1,15 @@
 # Poplar Bluff — Local Law Resources
 ## City Website
-- https://www.poplarbluff.org/
+- https://www.poplarbluff-mo.gov/
 ## Law Enforcement
-- Poplar Bluff PD — 101 E Broadway — (573) 785-2511
+- Poplar Bluff PD — 501 Vine St — (573) 785-5776
+- **Police Website**: https://www.poplarbluff-mo.gov/149/Departments/Police-Department
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Butler County Circuit Court — 201 E Court St — (573) 785-2501
-- **Court Website**: https://www.butlercountymo.org/
+- Poplar Bluff Municipal Court — 501 Vine St — (573) 686-8679
+- **Court Website**: https://www.poplarbluff-mo.gov/159/Municipal-Court
 ## Building Permits
-- Poplar Bluff Building Department — https://www.poplarbluff.org/
+- Poplar Bluff Building Department — https://www.poplarbluff-mo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

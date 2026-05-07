@@ -1,14 +1,15 @@
 # Osage Beach — Local Law Resources
 ## City Website
-- https://www.osagebeach.org/
+- https://www.osagebeach-mo.gov/
 ## Law Enforcement
-- Camden County Sheriff — (573) 346-5486
+- Osage Beach PD — 1000 City Parkway — (573) 302-2010
+- **Police Website**: https://www.osagebeach-mo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Camden County Circuit Court — Camdenton — (573) 346-5486
-- **Court Website**: https://www.camdencounty.org/
+- Osage Beach Municipal Court — 1000 City Parkway — (573) 302-2000 ext. 1040
+- **Court Website**: https://osagebeachmo.municipalonlinepayments.com/
 ## Building Permits
-- Osage Beach Building Department — https://www.osagebeach.org/
+- Osage Beach Building Department — https://www.osagebeach-mo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

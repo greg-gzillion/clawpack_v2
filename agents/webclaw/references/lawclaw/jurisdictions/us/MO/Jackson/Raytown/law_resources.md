@@ -2,11 +2,12 @@
 ## City Website
 - https://www.raytownmo.org/
 ## Law Enforcement
-- Raytown PD — 11100 E 31st St — (816) 322-7277
+- Raytown PD — 10000 E 59th St — (816) 737-6020
+- **Police Website**: https://www.raytownpolice.org/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Jackson County Circuit Court — Independence — (816) 325-8150
-- **Court Website**: https://www.16thcircuit.org/
+- Raytown Municipal Court — 10000 E 59th St — (816) 737-6008
+- **Court Website**: https://www.raytownmo.org/government/departments/city_court
 ## Building Permits
 - Raytown Building Department — https://www.raytownmo.org/
 ## Hunting Regulations

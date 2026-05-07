@@ -1,14 +1,15 @@
 # Owensville — Local Law Resources
 ## City Website
-- https://www.owensvillemo.org/
+- https://www.cityofowensville.com/
 ## Law Enforcement
-- Owensville PD — 200 S Main St — (573) 438-2151
+- Owensville PD — 780 W Hwy 28 — (573) 437-2195
+- **Police Website**: https://www.cityofowensville.com/departments/police.php
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Gasconade County Circuit Court — Hermann — (573) 486-2200
-- **Court Website**: https://www.gasconadecounty.org/
+- Osage County Circuit Court (municipal court disbanded) — Linn — (573) 897-3114
+- **Court Website**: https://www.courts.mo.gov/case.net
 ## Building Permits
-- Owensville Building Department — https://www.owensvillemo.org/
+- Owensville Building Department — https://www.cityofowensville.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

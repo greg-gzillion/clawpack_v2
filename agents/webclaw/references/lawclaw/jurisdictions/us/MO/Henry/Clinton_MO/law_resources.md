@@ -1,14 +1,15 @@
 # Clinton MO — Local Law Resources
 ## City Website
-- https://www.clintonmo.com/
+- https://clintonmo.com/
 ## Law Enforcement
-- Clinton PD — 100 W 2nd St — (660) 885-2211
+- Clinton PD — 101 E Ohio St — (660) 885-2679
+- **Police Website**: https://clintonmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Henry County Circuit Court — 100 W 2nd St — (660) 885-2211
-- **Court Website**: https://www.henrycountymo.org/
+- Clinton Municipal Court — 105 E Ohio St — (660) 885-3485
+- **Court Website**: https://www.clintonmunicourt.org/
 ## Building Permits
-- Clinton MO Building Department — https://www.clintonmo.com/
+- Clinton MO Building Department — https://clintonmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

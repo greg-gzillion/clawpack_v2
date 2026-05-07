@@ -1,14 +1,15 @@
 # Grandview — Local Law Resources
 ## City Website
-- https://www.grandviewmo.org/
+- https://www.grandview.org/
 ## Law Enforcement
-- Grandview PD — 12001 Blue Ridge Blvd — (816) 764-2100
+- Grandview PD — 1200 Main St — (816) 316-4980
+- **Police Website**: https://www.grandview.org/government/city-departments/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Jackson County Circuit Court — Independence — (816) 325-8150
-- **Court Website**: https://www.16thcircuit.org/
+- Grandview Municipal Court — 1212 Main St — (816) 316-4837
+- **Court Website**: https://www.grandview.org/government/city-departments/municipal-court
 ## Building Permits
-- Grandview Building Department — https://www.grandviewmo.org/
+- Grandview Building Department — https://www.grandview.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

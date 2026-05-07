@@ -1,14 +1,15 @@
 # Monett — Local Law Resources
 ## City Website
-- https://www.monettmo.org/
+- https://www.cityofmonett.com/
 ## Law Enforcement
-- Monett PD — 201 S 2nd St — (417) 235-2211
+- Monett PD — 1901 E Cleveland St — (417) 235-4241
+- **Police Website**: https://www.cityofmonett.com/departments/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Barry County Circuit Court — Cassville — (417) 847-4450
-- **Court Website**: https://www.circuit31.org/
+- Monett Municipal Court — 1901 E Cleveland St — (417) 235-4677
+- **Court Website**: https://www.cityofmonett.com/government/court.php
 ## Building Permits
-- Monett Building Department — https://www.monettmo.org/
+- Monett Building Department — https://www.cityofmonett.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

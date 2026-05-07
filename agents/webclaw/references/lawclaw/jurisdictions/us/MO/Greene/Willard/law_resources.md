@@ -1,14 +1,15 @@
 # Willard — Local Law Resources
 ## City Website
-- https://www.willardmo.org/
+- https://www.cityofwillard.org/
 ## Law Enforcement
-- Willard PD — 101 E Cherry St — (417) 745-2141
+- Willard PD — 224 W Jackson St — (417) 742-3033 ext. 5306
+- **Police Website**: https://www.cityofwillard.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Greene County Circuit Court — Springfield — (417) 868-4000
-- **Court Website**: https://www.circuit31.org/
+- Willard Municipal Court — 224 W Jackson St — (417) 742-3033 ext. 5306
+- **Court Website**: https://www.cityofwillard.org/municipal-court
 ## Building Permits
-- Willard Building Department — https://www.willardmo.org/
+- Willard Building Department — https://www.cityofwillard.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

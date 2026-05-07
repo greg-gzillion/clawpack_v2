@@ -2,11 +2,12 @@
 ## City Website
 - https://www.holtssummit.org/
 ## Law Enforcement
-- Callaway County Sheriff — (573) 642-0351
+- Holts Summit PD — 245 S Summit Dr — (573) 646-3234
+- **Police Website**: https://www.holtssummit.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Callaway County Circuit Court — Fulton — (573) 642-0351
-- **Court Website**: https://www.callawaycounty.org/
+- Holts Summit Municipal Court — 245 S Summit Dr — (573) 646-3234
+- **Court Website**: https://www.holtssummit.org/municipal_court
 ## Building Permits
 - Holts Summit Building Department — https://www.holtssummit.org/
 ## Hunting Regulations
