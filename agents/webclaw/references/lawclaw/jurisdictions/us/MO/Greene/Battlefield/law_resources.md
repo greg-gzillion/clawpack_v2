@@ -1,11 +1,14 @@
 # Battlefield — Local Law Resources
+## City Website
+- https://www.battlefieldmo.com/
 ## Law Enforcement
-- Battlefield Police Department
+- Greene County Sheriff — (417) 868-4000
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Greene County Circuit Court — Springfield — (417) 868-4000
+- **Court Website**: https://www.circuit31.org/
 ## Building Permits
-- Battlefield Building Department
+- Battlefield Building Department — https://www.battlefieldmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

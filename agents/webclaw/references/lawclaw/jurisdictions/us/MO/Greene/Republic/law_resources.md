@@ -1,11 +1,14 @@
 # Republic — Local Law Resources
+## City Website
+- https://www.republicmo.org/
 ## Law Enforcement
-- Republic Police Department
+- Republic PD — 101 E College St — (417) 732-1435
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Greene County Circuit Court — Springfield — (417) 868-4000
+- **Court Website**: https://www.circuit31.org/
 ## Building Permits
-- Republic Building Department
+- Republic Building Department — https://www.republicmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

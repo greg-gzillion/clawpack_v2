@@ -1,11 +1,14 @@
 # Lake Ozark — Local Law Resources
+## City Website
+- https://www.lakeozark.org/
 ## Law Enforcement
-- Lake Ozark Police Department
+- Camden County Sheriff — (573) 346-5486
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Camden County Circuit Court — Camdenton — (573) 346-5486
+- **Court Website**: https://www.camdencounty.org/
 ## Building Permits
-- Lake Ozark Building Department
+- Lake Ozark Building Department — https://www.lakeozark.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

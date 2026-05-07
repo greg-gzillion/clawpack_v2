@@ -1,11 +1,14 @@
 # Fulton MO — Local Law Resources
+## City Website
+- https://www.fultonmo.org/
 ## Law Enforcement
-- Fulton MO Police Department
+- Fulton PD — 601 Court St — (573) 642-0351
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Callaway County Circuit Court — 601 Court St — (573) 642-0351
+- **Court Website**: https://www.callawaycounty.org/
 ## Building Permits
-- Fulton MO Building Department
+- Fulton MO Building Department — https://www.fultonmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

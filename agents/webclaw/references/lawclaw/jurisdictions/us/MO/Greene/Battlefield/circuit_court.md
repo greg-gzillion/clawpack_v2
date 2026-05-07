@@ -1,3 +1,6 @@
 # Battlefield Circuit Court
 ## Court Information
-- Battlefield Circuit Court
+- Greene County Circuit Court — Springfield — (417) 868-4000
+- **Court Website**: https://www.circuit31.org/
+## City Website
+- https://www.battlefieldmo.com/

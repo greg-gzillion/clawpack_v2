@@ -1,11 +1,14 @@
 # Mexico MO — Local Law Resources
+## City Website
+- https://www.mexicocitymo.com/
 ## Law Enforcement
-- Mexico MO Police Department
+- Mexico PD — 200 W 3rd St — (573) 581-3181
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Audrain County Circuit Court — 101 N 3rd St — (573) 581-3548
+- **Court Website**: https://www.circuit14.org/
 ## Building Permits
-- Mexico MO Building Department
+- Mexico MO Building Department — https://www.mexicocitymo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

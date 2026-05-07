@@ -1,11 +1,14 @@
 # Union MO — Local Law Resources
+## City Website
+- https://www.unionmo.org/
 ## Law Enforcement
-- Union MO Police Department
+- Union PD — 100 S Main St — (636) 583-4151
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Franklin County Circuit Court — 100 E Washington Ave — (636) 583-4151
+- **Court Website**: https://www.franklincountycourts.org/
 ## Building Permits
-- Union MO Building Department
+- Union MO Building Department — https://www.unionmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

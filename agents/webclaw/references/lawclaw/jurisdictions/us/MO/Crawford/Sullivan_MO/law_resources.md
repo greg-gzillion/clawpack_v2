@@ -1,11 +1,14 @@
 # Sullivan MO — Local Law Resources
+## City Website
+- https://www.sullivanmo.org/
 ## Law Enforcement
-- Sullivan MO Police Department
+- Sullivan PD — 200 E Main St — (573) 468-2154
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Crawford County Circuit Court — 200 E Main St — (573) 468-2154
+- **Court Website**: https://www.crawfordcountymo.org/
 ## Building Permits
-- Sullivan MO Building Department
+- Sullivan MO Building Department — https://www.sullivanmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

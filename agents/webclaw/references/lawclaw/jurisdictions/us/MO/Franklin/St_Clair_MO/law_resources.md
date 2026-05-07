@@ -1,11 +1,14 @@
 # St Clair MO — Local Law Resources
+## City Website
+- https://www.stclairmo.com/
 ## Law Enforcement
-- St Clair MO Police Department
+- St. Clair PD — 200 S Main St — (636) 583-2254
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Franklin County Circuit Court — Union — (636) 583-4151
+- **Court Website**: https://www.franklincountycourts.org/
 ## Building Permits
-- St Clair MO Building Department
+- St Clair MO Building Department — https://www.stclairmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

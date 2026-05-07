@@ -1,11 +1,14 @@
 # Holts Summit — Local Law Resources
+## City Website
+- https://www.holtssummit.org/
 ## Law Enforcement
-- Holts Summit Police Department
+- Callaway County Sheriff — (573) 642-0351
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Callaway County Circuit Court — Fulton — (573) 642-0351
+- **Court Website**: https://www.callawaycounty.org/
 ## Building Permits
-- Holts Summit Building Department
+- Holts Summit Building Department — https://www.holtssummit.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,11 +1,14 @@
 # Pacific MO — Local Law Resources
+## City Website
+- https://www.pacificmo.org/
 ## Law Enforcement
-- Pacific MO Police Department
+- Pacific PD — 200 S 1st St — (636) 257-6100
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Missouri Circuit Court
+- Franklin County Circuit Court — Union — (636) 583-4151
+- **Court Website**: https://www.franklincountycourts.org/
 ## Building Permits
-- Pacific MO Building Department
+- Pacific MO Building Department — https://www.pacificmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
