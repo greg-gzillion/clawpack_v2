@@ -1,15 +1,16 @@
-# Fredericktown — Local Law Resources
+﻿# Fredericktown — Local Law Resources
 ## City Website
-- https://www.fredericktownmo.org/
+- https://www.fredericktownmo.org
 ## Law Enforcement
-- Fredericktown PD — 124 W Main St — (573) 783-3575
-- **Police Website**: https://www.fredericktownmo.org/police
+- Fredericktown Police Department — 124 W Main St, Fredericktown, MO 63645 — (573) 783-3575
+- Police Website: https://www.fredericktownmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Fredericktown Municipal Court — 120 W Main St — (573) 783-7401
-- **Court Website**: https://www.fredericktownmo.org/municipal_court.html
+- Fredericktown Municipal Court — 120 W Main St, Fredericktown, MO 63645 — (573) 783-7401
+- Hours: Monday–Friday, 7:00 AM – 4:00 PM
+- Court Website: https://www.fredericktownmo.org/municipal_court.html
 ## Building Permits
-- Fredericktown Building Department — https://www.fredericktownmo.org/
+- Fredericktown Building Department — https://www.fredericktownmo.org
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

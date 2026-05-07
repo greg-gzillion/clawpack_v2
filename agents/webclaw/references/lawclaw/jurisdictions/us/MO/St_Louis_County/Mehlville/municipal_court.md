@@ -1,10 +1,10 @@
 ﻿# Mehlville Municipal Court
 ## Court Information
-- Mehlville does not operate a standalone municipal court. Cases are handled by St. Louis County Municipal Division.
-- **Court Website**: https://www.courts.mo.gov
-- Phone: (314) 615-2677 (County Police)
+- No standalone municipal court. Cases handled by St. Louis County Municipal Division.
+- Court Website: https://www.courts.mo.gov
 ## City Website
-- https://www.mehlville.org
+- Mehlville is an unincorporated community; no standalone city website.
 ## Police Department
-- Contracted with St. Louis County Police Department — (314) 615-2677 (Non-emergency)
-- **Police Website**: https://www.stlouiscountymo.gov/departments/police
+- St. Louis County Police Department
+- Phone: (314) 615-2677
+- Police Website: https://www.stlouiscountypolice.com

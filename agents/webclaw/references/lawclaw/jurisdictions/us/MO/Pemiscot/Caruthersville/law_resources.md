@@ -1,15 +1,16 @@
-# Caruthersville — Local Law Resources
+﻿# Caruthersville — Local Law Resources
 ## City Website
-- https://www.caruthersvillecity.com/
+- https://www.caruthersvillecity.com
 ## Law Enforcement
-- Caruthersville PD — 200 W 3rd St — (573) 333-0216
-- **Police Website**: https://www.caruthersvillecity.com/police
+- Caruthersville Police Department — 200 W 3rd St, Caruthersville, MO 63830 — (573) 333-0216
+- Police Website: https://www.caruthersvillecity.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Caruthersville Municipal Court — 1000 Ward Ave — (573) 333-0106
-- **Court Website**: https://www.caruthersvillecity.com/city_directory.php
+- Caruthersville Municipal Court — 1000 Ward Ave, Caruthersville, MO 63830 — (573) 333-0106
+- Hours: Monday–Friday, 8:00 AM – 4:00 PM
+- Court Website: https://www.caruthersvillecity.com/city_directory.php
 ## Building Permits
-- Caruthersville Building Department — https://www.caruthersvillecity.com/
+- Caruthersville Building Department — https://www.caruthersvillecity.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

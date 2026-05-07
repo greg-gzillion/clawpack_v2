@@ -1,15 +1,16 @@
-# Versailles MO — Local Law Resources
+﻿# Versailles — Local Law Resources
 ## City Website
-- https://cityofversaillesmo.com/
+- https://cityofversaillesmo.com
 ## Law Enforcement
-- Versailles PD — 100 W Main St — (573) 539-2581
-- **Police Website**: https://cityofversaillesmo.com/police
+- Versailles Police Department — 100 W Main St, Versailles, MO 65085 — (573) 539-2581
+- Police Website: https://cityofversaillesmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Versailles Municipal Court — 100 W Main St — (573) 539-2590
-- **Court Website**: https://cityofversaillesmo.com/municipal-court
+- Versailles Municipal Court — 100 W Main St, Versailles, MO 65085 — (573) 539-2590
+- Note: Contact via City Clerk's Office
+- Court Website: https://cityofversaillesmo.com/municipal-court
 ## Building Permits
-- Versailles MO Building Department — https://cityofversaillesmo.com/
+- Versailles Building Department — https://cityofversaillesmo.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

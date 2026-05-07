@@ -1,15 +1,15 @@
-# Oakville — Local Law Resources
+﻿# Oakville — Local Law Resources
 ## City Website
-- 
+- Oakville is an unincorporated community; no standalone city website.
 ## Law Enforcement
-- St. Louis County PD — (314) 615-2677
-- **Police Website**: https://www.stlouiscountypolice.com/
+- St. Louis County Police Department — (314) 615-2677 (Non-emergency)
+- Police Website: https://www.stlouiscountypolice.com
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- St. Louis County Municipal Division (no standalone municipal court)
-- **Court Website**: https://www.courts.mo.gov/
+- St. Louis County Municipal Division — https://www.courts.mo.gov
+- Note: No standalone municipal court.
 ## Building Permits
-- Oakville Building Department — 
+- St. Louis County Building Department — https://www.stlouiscountymo.gov
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- St Louis County County Jail
+- St. Louis County Jail

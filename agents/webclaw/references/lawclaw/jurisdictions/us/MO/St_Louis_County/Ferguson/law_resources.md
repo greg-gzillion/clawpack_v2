@@ -1,15 +1,16 @@
-# Ferguson — Local Law Resources
+﻿# Ferguson — Local Law Resources
 ## City Website
-- https://www.fergusonmo.org/
+- https://www.fergusonmo.org
 ## Law Enforcement
-- Ferguson PD — 222 S Florissant Rd — (314) 522-1300
-- **Police Website**: https://www.fergusonmo.org/police
+- Ferguson Police Department — 222 S Florissant Rd, Ferguson, MO 63135 — (314) 522-1300
+- Police Website: https://www.fergusonmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Ferguson Municipal Court — 222 S Florissant Rd — (314) 522-1350
-- **Court Website**: https://www.fergusonmo.org/municipal-court
+- Ferguson Municipal Court — 222 S Florissant Rd, Ferguson, MO 63135 — (314) 522-1350
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Court Website: https://www.fergusonmo.org/municipal-court
 ## Building Permits
-- Ferguson Building Department — https://www.fergusonmo.org/
+- Ferguson Building Department — https://www.fergusonmo.org
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +18,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- St Louis County County Jail
+- St. Louis County Jail

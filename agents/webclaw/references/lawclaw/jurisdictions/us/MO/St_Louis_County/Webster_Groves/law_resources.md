@@ -1,15 +1,16 @@
-# Webster Groves — Local Law Resources
+﻿# Webster Groves — Local Law Resources
 ## City Website
-- https://www.webstergrovesmo.gov/
+- https://www.webstergrovesmo.gov
 ## Law Enforcement
-- Webster Groves PD — 4 E Lockwood Ave — (314) 963-5402
-- **Police Website**: https://www.webstergrovesmo.gov/police
+- Webster Groves Police Department — 4 E Lockwood Ave, Webster Groves, MO 63119 — (314) 963-5402
+- Police Website: https://www.webstergrovesmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Webster Groves Municipal Court — 4 E Lockwood Ave — (314) 963-5416
-- **Court Website**: https://www.webstergrovesmo.gov/court
+- Webster Groves Municipal Court — 4 E Lockwood Ave, Webster Groves, MO 63119 — (314) 963-5416
+- Hours: Monday–Friday, 8:00 AM – 4:00 PM
+- Court Website: https://www.webstergrovesmo.gov/court
 ## Building Permits
-- Webster Groves Building Department — https://www.webstergrovesmo.gov/
+- Webster Groves Building Department — https://www.webstergrovesmo.gov
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +18,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- St Louis County County Jail
+- St. Louis County Jail

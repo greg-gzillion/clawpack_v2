@@ -1,15 +1,16 @@
-# Waynesville — Local Law Resources
+﻿# Waynesville — Local Law Resources
 ## City Website
-- https://www.waynesvillemo.org/
+- https://www.waynesvillemo.org
 ## Law Enforcement
-- Waynesville PD — 301 Historic Route 66 — (573) 774-4755
-- **Police Website**: https://www.waynesvillepd.org/
+- Waynesville Police Department — 301 Historic Route 66, Waynesville, MO 65583 — (573) 774-4755
+- Police Website: https://www.waynesvillepd.org
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Waynesville Municipal Court — 100 Tremont Center — (573) 774-6158
-- **Court Website**: https://www.waynesvillemo.org/page/municipal-court
+- Waynesville Municipal Court — 100 Tremont Center, Waynesville, MO 65583 — (573) 774-6158
+- Hours: Monday–Friday, 9:00 AM – 4:00 PM
+- Court Website: https://www.waynesvillemo.org/page/municipal-court
 ## Building Permits
-- Waynesville Building Department — https://www.waynesvillemo.org/
+- Waynesville Building Department — https://www.waynesvillemo.org
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

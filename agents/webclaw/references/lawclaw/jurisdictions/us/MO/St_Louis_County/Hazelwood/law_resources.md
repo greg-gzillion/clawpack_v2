@@ -1,15 +1,16 @@
-# Hazelwood — Local Law Resources
+﻿# Hazelwood — Local Law Resources
 ## City Website
-- https://www.hazelwoodmo.org/
+- https://www.hazelwoodmo.org
 ## Law Enforcement
-- Hazelwood PD — 415 Elm Grove Ln — (314) 838-5000
-- **Police Website**: https://www.hazelwoodmo.org/police
+- Hazelwood Police Department — 415 Elm Grove Ln, Hazelwood, MO 63042 — (314) 838-5000
+- Police Website: https://www.hazelwoodmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Hazelwood Municipal Court — 415 Elm Grove Ln — (314) 839-2212
-- **Court Website**: https://www.hazelwoodmo.org/court
+- Hazelwood Municipal Court — 415 Elm Grove Ln, Hazelwood, MO 63042 — (314) 839-2212
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Court Website: https://www.hazelwoodmo.org/court
 ## Building Permits
-- Hazelwood Building Department — https://www.hazelwoodmo.org/
+- Hazelwood Building Department — https://www.hazelwoodmo.org
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +18,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- St Louis County County Jail
+- St. Louis County Jail

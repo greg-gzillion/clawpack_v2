@@ -1,15 +1,16 @@
-# Reeds Spring — Local Law Resources
+﻿# Reeds Spring — Local Law Resources
 ## City Website
-- https://www.reedsspringmo.gov/
+- https://www.reedsspringmo.gov
 ## Law Enforcement
-- Reeds Spring PD — 22601 Main St — (417) 272-3107
-- **Police Website**: https://www.reedsspringmo.gov/police
+- Reeds Spring Police Department — 22601 Main St, Reeds Spring, MO 65737 — (417) 272-3107
+- Police Website: https://www.reedsspringmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Reeds Spring Municipal Court — 22601 Main St — (417) 272-3309
-- **Court Website**: https://www.reedsspringmo.gov/municipal-court
+- Reeds Spring Municipal Court — 22601 Main St, Reeds Spring, MO 65737 — (417) 272-3309
+- Hours: 3rd Wednesday monthly at 1:00 PM
+- Court Website: https://www.reedsspringmo.gov/municipal-court
 ## Building Permits
-- Reeds Spring Building Department — https://www.reedsspringmo.gov/
+- Reeds Spring Building Department — https://www.reedsspringmo.gov
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

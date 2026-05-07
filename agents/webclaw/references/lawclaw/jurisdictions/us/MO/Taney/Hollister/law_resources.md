@@ -1,15 +1,15 @@
-# Hollister — Local Law Resources
+﻿# Hollister — Local Law Resources
 ## City Website
-- https://www.hollistermo.gov/
+- https://www.hollistermo.gov
 ## Law Enforcement
-- Hollister PD — 14848 Hwy 65 — (417) 334-6565
-- **Police Website**: https://www.hollistermo.gov/police
+- Hollister Police Department — 14848 Highway 65, Hollister, MO 65672 — (417) 334-6565
+- Police Website: https://www.hollistermo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Taney County Circuit Court (no standalone municipal court)
-- **Court Website**: https://www.courts.mo.gov/
+- Taney County Circuit Court — https://www.courts.mo.gov
+- Note: No standalone municipal court.
 ## Building Permits
-- Hollister Building Department — https://www.hollistermo.gov/
+- Hollister Building Department — https://www.hollistermo.gov
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

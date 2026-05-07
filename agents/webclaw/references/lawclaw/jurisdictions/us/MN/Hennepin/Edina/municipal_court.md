@@ -1,6 +1,11 @@
-# Edina Municipal Court
+﻿# Edina Municipal Court
 ## Court Information
-- Hennepin County District Court — Minneapolis — (612) 348-6000
-- **Court Website**: https://www.mncourts.gov/Find-Courts/Hennepin.aspx
+- No standalone municipal court; cases go to Hennepin County District Court
+- Court Website: https://www.hennepin.us/courts
 ## City Website
-- https://www.edinamn.gov/
+- https://www.edinamn.gov
+## Police Department
+- Edina Police Department
+- Address: 7901 Normandale Rd, Edina, MN 55439
+- Phone: (952) 835-5555
+- Police Website: https://www.edinamn.gov/police

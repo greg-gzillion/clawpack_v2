@@ -1,15 +1,17 @@
-# Lake Ozark — Local Law Resources
+﻿# Lake Ozark — Local Law Resources
 ## City Website
-- https://cityoflakeozark.net/
+- https://cityoflakeozark.net
 ## Law Enforcement
-- Lake Ozark PD — 3162 Bagnell Dam Blvd — (573) 365-5900
-- **Police Website**: https://cityoflakeozark.net/police-department
+- Lake Ozark Police Department — 3162 Bagnell Dam Blvd, Lake Ozark, MO 65049 — (573) 365-5900
+- Police Website: https://cityoflakeozark.net/police-department
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Lake Ozark Municipal Court — 3162 Bagnell Dam Blvd — (573) 365-5903
-- **Court Website**: https://lakeozarkmo.municipalonlinepayments.com/
+- Lake Ozark Municipal Court — 3162 Bagnell Dam Blvd, Lake Ozark, MO 65049 — (573) 365-5903
+- Mailing Address: PO Box 370, Lake Ozark, MO 65049
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Court Website: https://lakeozarkmo.municipalonlinepayments.com
 ## Building Permits
-- Lake Ozark Building Department — https://cityoflakeozark.net/
+- Lake Ozark Building Department — https://cityoflakeozark.net
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

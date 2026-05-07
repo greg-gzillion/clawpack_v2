@@ -1,20 +1,21 @@
-# Duluth — Local Law Resources
+﻿# Duluth — Local Law Resources
 ## City Website
-- https://www.duluthmn.gov/
+- https://duluthmn.gov
 ## Law Enforcement
-- Duluth PD — 2030 N Arlington Ave — (218) 730-5400
+- Duluth Police Department — 2030 Arlington Ave, Duluth, MN 55811 — (218) 730-5400
+- Police Website: https://duluthmn.gov/police
 - Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
 ## Courts
-- St. Louis County District Court — 100 N 5th Ave W — (218) 726-2460
-- **Court Website**: https://www.mncourts.gov/Find-Courts/St-Louis.aspx
+- St. Louis County District Court — 100 N 5th Ave W, Duluth, MN 55802 — (218) 221-7560
+- Note: Duluth does not have a standalone municipal court.
+- Court Website: https://www.mncourts.gov
 ## Building Permits
-- Duluth Building Department — https://www.duluthmn.gov/
+- Duluth Building Department — https://duluthmn.gov
 ## Hunting Regulations
 - MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
 ## Fishing Regulations
 - MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
 ## Legal Aid
 - Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
 ## Corrections
-- St Louis County Jail
+- St. Louis County Jail

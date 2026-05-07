@@ -1,15 +1,16 @@
-# Odessa MO — Local Law Resources
+﻿# Odessa — Local Law Resources
 ## City Website
-- https://www.cityofodessamo.com/
+- https://www.cityofodessamo.com
 ## Law Enforcement
-- Odessa PD — 310 S 1st St — (816) 633-7575
-- **Police Website**: https://www.cityofodessamo.com/Police
+- Odessa Police Department — 310 S 1st St, Odessa, MO 64076 — (816) 633-7575
+- Police Website: https://www.cityofodessamo.com/Police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Odessa Municipal Court — 601 W Main St — (816) 230-5577 ext. 1
-- **Court Website**: https://www.cityofodessamo.com/MunicipalCourt
+- Odessa Municipal Court — 601 W Main St, Odessa, MO 64076 (Dyer Park Community Bldg) — (816) 230-5577 ext. 1
+- Hours: Court held 2nd Tuesday monthly at 9:30 AM
+- Court Website: https://www.cityofodessamo.com/MunicipalCourt
 ## Building Permits
-- Odessa MO Building Department — https://www.cityofodessamo.com/
+- Odessa Building Department — https://www.cityofodessamo.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

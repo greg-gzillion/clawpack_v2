@@ -1,15 +1,15 @@
-# Perryville — Local Law Resources
+﻿# Perryville — Local Law Resources
 ## City Website
-- https://www.cityofperryville.com/
+- https://www.cityofperryville.com
 ## Law Enforcement
-- Perryville PD — 400 W St Joseph St — (573) 547-4546
-- **Police Website**: https://www.cityofperryville.com/police
+- Perryville Police Department — 400 W St Joseph St, Perryville, MO 63775 — (573) 547-4546
+- Police Website: https://www.cityofperryville.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Perry County Circuit Court — 710 S Kingshighway — (573) 547-4576
-- **Court Website**: https://perrycountymo.us/
+- Perry County Circuit Court — 710 S Kingshighway, Perryville, MO 63775 — (573) 547-4576
+- Court Website: https://perrycountymo.us
 ## Building Permits
-- Perryville Building Department — https://www.cityofperryville.com/
+- Perryville Building Department — https://www.cityofperryville.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

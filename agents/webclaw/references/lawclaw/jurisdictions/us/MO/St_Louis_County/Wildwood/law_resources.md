@@ -1,15 +1,16 @@
-# Wildwood — Local Law Resources
+﻿# Wildwood — Local Law Resources
 ## City Website
-- https://www.cityofwildwood.com/
+- https://www.cityofwildwood.com
 ## Law Enforcement
-- St. Louis County PD (Wildwood Precinct) — 16860 Main St — (314) 615-5601
-- **Police Website**: https://www.stlouiscountypolice.com/
+- St. Louis County Police – Wildwood Precinct — 16860 Main St, Wildwood, MO 63040 — (314) 615-5601
+- Police Website: https://www.stlouiscountypolice.com
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Wildwood Municipal Court — 16860 Main St — (636) 458-8277
-- **Court Website**: https://www.cityofwildwood.com/court
+- Wildwood Municipal Court — 16860 Main St, Wildwood, MO 63040 — (636) 458-8277
+- Hours: Monday–Friday, 8:30 AM – 4:30 PM
+- Court Website: https://www.cityofwildwood.com/court
 ## Building Permits
-- Wildwood Building Department — https://www.cityofwildwood.com/
+- Wildwood Building Department — https://www.cityofwildwood.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +18,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- St Louis County County Jail
+- St. Louis County Jail

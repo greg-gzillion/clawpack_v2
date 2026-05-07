@@ -1,15 +1,16 @@
-# Louisiana MO — Local Law Resources
+﻿# Louisiana — Local Law Resources
 ## City Website
-- https://cityoflouisiana.com/
+- https://cityoflouisiana.com
 ## Law Enforcement
-- Louisiana PD — 201 N Main St — (573) 754-5277
-- **Police Website**: https://cityoflouisiana.com/police
+- Louisiana Police Department — 201 N Main St, Louisiana, MO 63353 — (573) 754-5277
+- Police Website: https://cityoflouisiana.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Pike County Circuit Court — (573) 324-3112
-- **Court Website**: https://pikecountymo.com/
+- Pike County Circuit Clerk — (573) 324-3112
+- Note: No standalone municipal court.
+- Court Website: https://pikecountymo.com
 ## Building Permits
-- Louisiana MO Building Department — https://cityoflouisiana.com/
+- Louisiana Building Department — https://cityoflouisiana.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

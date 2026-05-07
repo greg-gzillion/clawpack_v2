@@ -1,15 +1,15 @@
-# Bismarck MO — Local Law Resources
+﻿# Bismarck — Local Law Resources
 ## City Website
 - https://ecode360.com/35820804
 ## Law Enforcement
-- Bismarck PD — 101 S Main St — (573) 734-2125
-- **Police Website**: https://ecode360.com/35850586
+- Bismarck Police Department — 101 S Main St, Bismarck, MO 63624 — (573) 734-2125
+- Police Website: https://ecode360.com/35850586
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Bismarck Municipal Court — PO Box 27 — (573) 734-2125
-- **Court Website**: https://ncourt.com/
+- Bismarck Municipal Court — PO Box 27, Bismarck, MO 63624 — (573) 734-2125
+- Court Website: https://ncourt.com
 ## Building Permits
-- Bismarck MO Building Department — https://ecode360.com/35820804
+- Bismarck Building Department — https://ecode360.com/35820804
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +17,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- St Francois County Jail
+- St. Francois County Jail

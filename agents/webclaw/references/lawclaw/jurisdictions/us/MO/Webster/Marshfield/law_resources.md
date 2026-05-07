@@ -1,15 +1,16 @@
-# Marshfield — Local Law Resources
+﻿# Marshfield — Local Law Resources
 ## City Website
-- https://www.marshfieldmo.gov/
+- https://www.marshfieldmo.gov
 ## Law Enforcement
-- Marshfield PD — 101 S Crittenden St — (417) 888-4203
-- **Police Website**: https://www.marshfieldmo.gov/police
+- Marshfield Police Department — 101 S Crittenden St, Marshfield, MO 65706 — (417) 888-4203
+- Police Website: https://www.marshfieldmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Webster County Circuit Court (no standalone municipal court) — (417) 859-2041
-- **Court Website**: https://webstercountymo.gov/
+- Webster County Circuit Court — 101 S Crittenden St, Marshfield, MO 65706 — (417) 859-2041
+- Note: Cases now handled by Webster County Circuit Court
+- Court Website: https://webstercountymo.gov
 ## Building Permits
-- Marshfield Building Department — https://www.marshfieldmo.gov/
+- Marshfield Building Department — https://www.marshfieldmo.gov
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

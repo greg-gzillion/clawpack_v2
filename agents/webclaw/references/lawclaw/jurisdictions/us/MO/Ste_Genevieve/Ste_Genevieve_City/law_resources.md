@@ -1,15 +1,16 @@
-# Ste Genevieve City — Local Law Resources
+﻿# Ste. Genevieve — Local Law Resources
 ## City Website
-- https://sites.google.com/site/sgmopd/
+- https://sites.google.com/site/sgmopd
 ## Law Enforcement
-- Ste. Genevieve PD — 165 S 4th St — (573) 883-5707
-- **Police Website**: https://sites.google.com/site/sgmopd/
+- Ste. Genevieve Police Department — 165 S 4th St, Ste. Genevieve, MO 63670 — (573) 883-5707
+- Police Website: https://sites.google.com/site/sgmopd
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Ste. Genevieve Municipal Court (24th Judicial Circuit) — 165 S 4th St — (573) 883-5707
-- **Court Website**: https://sites.google.com/site/sgmopd/municipal-court
+- Division of the 24th Judicial Circuit Court — 165 S 4th St, Ste. Genevieve, MO 63670 — (573) 883-5707
+- Hours: 3rd Thursday monthly at 6:00 PM
+- Court Website: https://sites.google.com/site/sgmopd/municipal-court
 ## Building Permits
-- Ste Genevieve City Building Department — https://sites.google.com/site/sgmopd/
+- Ste. Genevieve Building Department — https://sites.google.com/site/sgmopd
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
@@ -17,4 +18,4 @@
 ## Legal Aid
 - Legal Services of Missouri — https://www.lsmo.org/
 ## Corrections
-- Ste Genevieve County Jail
+- Ste. Genevieve County Jail

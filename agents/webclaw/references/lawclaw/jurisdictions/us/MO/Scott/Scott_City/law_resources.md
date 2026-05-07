@@ -1,15 +1,16 @@
-# Scott City — Local Law Resources
+﻿# Scott City — Local Law Resources
 ## City Website
-- https://scottcitymo.com/
+- https://scottcitymo.com
 ## Law Enforcement
-- Scott City PD — 618 Main St — (573) 264-2006
-- **Police Website**: https://scottcitymo.com/police
+- Scott City Police Department — 618 Main St, Scott City, MO 63780 — (573) 264-2006
+- Police Website: https://scottcitymo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Scott City Municipal Court — 618 Main St — (573) 264-2006
-- **Court Website**: https://scottcitymo.com/municipal-court
+- Scott City Municipal Court — 618 Main St, Scott City, MO 63780 (Police Dept.) — (573) 264-2006
+- Hours: By appointment or as scheduled
+- Court Website: https://scottcitymo.com/municipal-court
 ## Building Permits
-- Scott City Building Department — https://scottcitymo.com/
+- Scott City Building Department — https://scottcitymo.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

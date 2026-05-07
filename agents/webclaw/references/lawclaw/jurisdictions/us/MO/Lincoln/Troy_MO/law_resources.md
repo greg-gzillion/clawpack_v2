@@ -1,15 +1,16 @@
-# Troy MO — Local Law Resources
+﻿# Troy — Local Law Resources
 ## City Website
-- https://cityoftroymissouri.com/
+- https://cityoftroymissouri.com
 ## Law Enforcement
-- Troy PD — 800 Cap Au Gris St — (636) 528-4712
-- **Police Website**: https://cityoftroymissouri.com/departments/police/
+- Troy Police Department — 800 Cap Au Gris St, Troy, MO 63379 — (636) 528-4712
+- Police Website: https://cityoftroymissouri.com/departments/police/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Troy Municipal Court — 800 Cap Au Gris St — (636) 528-6179
-- **Court Website**: https://cityoftroymissouri.com/departments/municipal-court/
+- Troy Municipal Court — 800 Cap Au Gris St, Troy, MO 63379 — (636) 528-6179
+- Hours: Monday–Friday 8:00 AM – 4:30 PM
+- Court Website: https://cityoftroymissouri.com/departments/municipal-court/
 ## Building Permits
-- Troy MO Building Department — https://cityoftroymissouri.com/
+- Troy Building Department — https://cityoftroymissouri.com
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

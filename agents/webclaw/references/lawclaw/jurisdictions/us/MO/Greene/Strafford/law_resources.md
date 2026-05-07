@@ -1,15 +1,17 @@
-# Strafford — Local Law Resources
+﻿# Strafford — Local Law Resources
 ## City Website
-- https://www.straffordmo.net/
+- https://www.straffordmo.net
 ## Law Enforcement
-- Strafford PD — 101 E Main St — (417) 736-2154
-- **Police Website**: https://www.straffordmo.net/police
+- Strafford Police Department — 101 E Main St, Strafford, MO 65757 — (417) 736-2154
+- Police Website: https://www.straffordmo.net/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Strafford Municipal Court — 101 E Main St — (417) 736-2154 ext. 4
-- **Court Website**: https://www.straffordmo.net/municipal_court
+- Strafford Municipal Court — 101 E Main St, Strafford, MO 65757 (City Hall) — (417) 736-2154 ext. 4
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Court Sessions: 2nd Thursday monthly at 1:30 PM
+- Court Website: https://www.straffordmo.net/municipal_court
 ## Building Permits
-- Strafford Building Department — https://www.straffordmo.net/
+- Strafford Building Department — https://www.straffordmo.net
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

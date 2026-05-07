@@ -1,15 +1,14 @@
-# Potosi — Local Law Resources
+﻿# Potosi — Local Law Resources
 ## City Website
-- https://potosimo.org/
+- https://potosimo.org
 ## Law Enforcement
-- Potosi PD — 121 E High St — (573) 438-5468
-- **Police Website**: https://potosimo.org/police
+- Potosi Police Department — 121 E High St, Potosi, MO 63664 — (573) 438-5468
+- Police Website: https://potosimo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Washington County Circuit Court — 100 E Columbia St — (573) 438-7553
-- **Court Website**: https://potosimo.org/
+- Washington County Circuit Court — 100 E Columbia St, Potosi, MO 63664 — (573) 438-7553
 ## Building Permits
-- Potosi Building Department — https://potosimo.org/
+- Potosi Building Department — https://potosimo.org
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
