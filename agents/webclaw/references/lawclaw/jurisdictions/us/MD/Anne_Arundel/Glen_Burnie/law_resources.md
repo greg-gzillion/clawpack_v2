@@ -1,0 +1,19 @@
+# Glen Burnie — Local Law Resources
+## City Website
+- https://www.aacounty.org/
+## Law Enforcement
+- Anne Arundel PD — 7500 Ritchie Hwy — (410) 222-7000
+- Maryland State Police — https://www.mdsp.maryland.gov/
+## Courts
+- Anne Arundel District Court — 7500 Ritchie Hwy — (410) 412-7103
+- **Court Website**: https://www.mdcourts.gov/district/directories/anne-arundel
+## Building Permits
+- Glen Burnie Building Department — https://www.aacounty.org/
+## Hunting Regulations
+- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
+## Fishing Regulations
+- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
+## Legal Aid
+- Maryland Legal Aid — https://www.mdlab.org/
+## Corrections
+- Anne Arundel County Detention Center
