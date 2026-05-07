@@ -1,12 +1,14 @@
 # Sykesville — Local Law Resources
+## City Website
+- https://www.sykesvillemd.gov/
 ## Law Enforcement
-- Sykesville Police Department
-- Carroll County Sheriff
+- Sykesville PD — 7551 Townhouse Dr — (410) 795-0757
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Carroll County District Court
+- Carroll District Court — Westminster — (410) 871-3500
+- **Court Website**: https://www.mdcourts.gov/district/directories/carroll
 ## Building Permits
-- Sykesville Building Department
+- Sykesville Building Department — https://www.sykesvillemd.gov/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations

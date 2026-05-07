@@ -1,14 +1,14 @@
-# Takoma Park — Local Law Resources
+# Severn — Local Law Resources
 ## City Website
-- https://takomaparkmd.gov/
+- https://www.aacounty.org/
 ## Law Enforcement
-- Takoma Park PD — 7500 Maple Ave — (301) 891-7100
+- Anne Arundel County PD — Odenton — (410) 222-7000
 - Maryland State Police — https://www.mdsp.maryland.gov/
 ## Courts
-- Montgomery District Court — Silver Spring — (301) 563-8500
-- **Court Website**: https://www.mdcourts.gov/district/directories/montgomery
+- Anne Arundel District Court — Glen Burnie — (410) 412-7103
+- **Court Website**: https://www.mdcourts.gov/district/directories/anne-arundel
 ## Building Permits
-- Takoma Park Building Department — https://takomaparkmd.gov/
+- Severn Building Department — https://www.aacounty.org/
 ## Hunting Regulations
 - MD Hunting Regulations — https://dnr.maryland.gov/hunters/
 ## Fishing Regulations
@@ -16,4 +16,4 @@
 ## Legal Aid
 - Maryland Legal Aid — https://www.mdlab.org/
 ## Corrections
-- Montgomery County Detention Center
+- Anne Arundel County Detention Center

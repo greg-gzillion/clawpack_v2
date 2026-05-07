@@ -1167,9 +1167,136 @@ MA
 32	Worcester	Worcester	city site, police, municipal court 
 
 
+MASSACHUSETTS BATCH 2 — REMAINING 5,000+ CITIES
+
+#	City	County	Needs
 
 
+1	Agawam	Hampden	city site, police, district court
+2	Arlington	Middlesex	city site, police, district court
+3	Attleboro	Bristol	city site, police, district court
+4	Billerica	Middlesex	city site, police, district court
+5	Burlington	Middlesex	city site, police, district court
+6	Chelsea	Suffolk	city site, police, district court
+7	Dedham	Norfolk	city site, police, district court
+8	Easthampton	Hampshire	city site, police, district court
+9	Everett	Middlesex	city site, police, district court
+10	Gardner	Worcester	city site, police, district court
+11	Gloucester	Essex	city site, police, district court
+12	Greenfield	Franklin	city site, police, district court
+13	Haverhill	Essex	city site, police, district court
+14	Lexington	Middlesex	city site, police, district court
+15	Longmeadow	Hampden	city site, police, district court
+16	Marlborough	Middlesex	city site, police, district court
+17	Melrose	Middlesex	city site, police, district court
+18	Methuen	Essex	city site, police, district court
+19	Middleborough	Plymouth	city site, police, district court
+20	Milford	Worcester	city site, police, district court
+21	Natick	Middlesex	city site, police, district court
+22	Needham	Norfolk	city site, police, district court
+23	Newburyport	Essex	city site, police, district court
+24	Northampton	Hampshire	city site, police, district court
+25	Norwood	Norfolk	city site, police, district court
+26	Randolph	Norfolk	city site, police, district court
+27	Reading	Middlesex	city site, police, district court
+28	Revere	Suffolk	city site, police, district court
+29	Shrewsbury	Worcester	city site, police, district court
+30	South Hadley	Hampshire	city site, police, district court
+31	Stoneham	Middlesex	city site, police, district court
+32	Stoughton	Norfolk	city site, police, district court
+33	Wakefield	Middlesex	city site, police, district court
+34	Watertown	Middlesex	city site, police, district court
+35	Wellesley	Norfolk	city site, police, district court
+36	Westfield	Hampden	city site, police, district court
+37	West Springfield	Hampden	city site, police, district court
+38	Winchester	Middlesex	city site, police, district court
+39	Winthrop	Suffolk	city site, police, district court
+40	Woburn	Middlesex	city site, police, district court
 
 
+MD
+
+Now the full Maryland research list — 75 cities. Here's the first batch of 30:
+
+#	City	County	Needs
+
+
+1	Aberdeen	Harford	city site, police, district court
+2	Annapolis	Anne Arundel	city site, police, district court
+3	Baltimore	Baltimore City	city site, police, district court
+4	Bel Air	Harford	city site, police, district court
+5	Bethesda	Montgomery	city site, police, district court
+6	Bowie	Prince George's	city site, police, district court
+7	Catonsville	Baltimore County	city site, police, district court
+8	College Park	Prince George's	city site, police, district court
+9	Columbia	Howard	city site, police, district court
+10	Cumberland	Allegany	city site, police, district court
+11	Dundalk	Baltimore County	city site, police, district court
+12	Ellicott City	Howard	city site, police, district court
+13	Elkton	Cecil	city site, police, district court
+14	Frederick	Frederick	city site, police, district court
+15	Gaithersburg	Montgomery	city site, police, district court
+16	Germantown	Montgomery	city site, police, district court
+17	Glen Burnie	Anne Arundel	city site, police, district court
+18	Greenbelt	Prince George's	city site, police, district court
+19	Hagerstown	Washington	city site, police, district court
+20	Hyattsville	Prince George's	city site, police, district court
+21	Laurel	Prince George's	city site, police, district court
+22	Ocean City	Worcester	city site, police, district court
+23	Rockville	Montgomery	city site, police, district court
+24	Salisbury	Wicomico	city site, police, district court
+25	Silver Spring	Montgomery	city site, police, district court
+26	Towson	Baltimore County	city site, police, district court
+27	Upper Marlboro	Prince George's	city site, police, district court
+28	Waldorf	Charles	city site, police, district court
+29	Westminster	Carroll	city site, police, district court
+30	Wheaton	Montgomery	city site, police, district court
+
+
+#	City	County	Needs
+
+1	Adelphi	Prince George's	city site, police, district court
+2	Aspen Hill	Montgomery	city site, police, district court
+3	Beltsville	Prince George's	city site, police, district court
+4	Boonsboro	Washington	city site, police, district court
+5	California	St. Mary's	city site, police, district court
+6	Clarksburg	Montgomery	city site, police, district court
+7	Clinton	Prince George's	city site, police, district court
+8	Damascus	Montgomery	city site, police, district court
+9	Delmar	Wicomico	city site, police, district court
+10	Edgewood	Harford	city site, police, district court
+11	Eldersburg	Carroll	city site, police, district court
+12	Elkridge	Howard	city site, police, district court
+13	Fort Washington	Prince George's	city site, police, district court
+14	Havre de Grace	Harford	city site, police, district court
+15	Indian Head	Charles	city site, police, district court
+16	Joppatowne	Harford	city site, police, district court
+17	La Plata	Charles	city site, police, district court
+18	Lanham	Prince George's	city site, police, district court
+19	Largo	Prince George's	city site, police, district court
+20	Leonardtown	St. Mary's	city site, police, district court
+21	Lexington Park	St. Mary's	city site, police, district court
+22	New Market	Frederick	city site, police, district court
+23	Odenton	Anne Arundel	city site, police, district court
+24	Olney	Montgomery	city site, police, district court
+25	Owings Mills	Baltimore County	city site, police, district court
+26	Oxon Hill	Prince George's	city site, police, district court
+27	Parkville	Baltimore County	city site, police, district court
+28	Pasadena	Anne Arundel	city site, police, district court
+29	Perry Hall	Baltimore County	city site, police, district court
+30	Potomac	Montgomery	city site, police, district court
+
+MARYLAND BATCH 3 — FINAL 15 CITIES
+
+#	City	County	Needs
+1	Reisterstown	Baltimore County	city site, police, district court
+2	Seabrook	Prince George's	city site, police, district court
+3	Severn	Anne Arundel	city site, police, district court
+4	Smithsburg	Washington	city site, police, district court
+5	Suitland	Prince George's	city site, police, district court
+6	Sykesville	Carroll	city site, police, district court
+7	Takoma Park	Montgomery	city site, police, district court
+8	Temple Hills	Prince George's	city site, police, district court
+9	Urbana	Frederick	city site, police, district court
 
 
