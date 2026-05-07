@@ -1289,6 +1289,7 @@ Now the full Maryland research list — 75 cities. Here's the first batch of 30:
 MARYLAND BATCH 3 — FINAL 15 CITIES
 
 #	City	County	Needs
+
 1	Reisterstown	Baltimore County	city site, police, district court
 2	Seabrook	Prince George's	city site, police, district court
 3	Severn	Anne Arundel	city site, police, district court
@@ -1298,5 +1299,145 @@ MARYLAND BATCH 3 — FINAL 15 CITIES
 7	Takoma Park	Montgomery	city site, police, district court
 8	Temple Hills	Prince George's	city site, police, district court
 9	Urbana	Frederick	city site, police, district court
+
+
+Maine has 17 cities across 11 counties. Small batch. Here's the full research list:
+
+#	City	County	Needs
+
+
+1	Auburn	Androscoggin	city site, police, district court
+2	Augusta	Kennebec	city site, police, district court
+3	Bangor	Penobscot	city site, police, district court
+4	Bath	Sagadahoc	city site, police, district court
+5	Belfast	Waldo	city site, police, district court
+6	Biddeford	York	city site, police, district court
+7	Ellsworth	Hancock	city site, police, district court
+8	Lewiston	Androscoggin	city site, police, district court
+9	Portland	Cumberland	city site, police, district court
+10	Presque Isle	Aroostook	city site, police, district court
+11	Rockland	Knox	city site, police, district court
+12	Rumford	Oxford	city site, police, district court
+13	Saco	York	city site, police, district court
+14	South Portland	Cumberland	city site, police, district court
+15	Waterville	Kennebec	city site, police, district court
+16	Westbrook	Cumberland	city site, police, district court
+
+44 new city folders created. Research list for these:
+
+#	City	County
+
+
+1	Bar Harbor	Hancock
+2	Brewer	Penobscot
+3	Brunswick	Cumberland
+4	Camden	Knox
+5	Cape Elizabeth	Cumberland
+6	Caribou	Aroostook
+7	Farmington	Franklin
+8	Freeport	Cumberland
+9	Gardiner	Kennebec
+10	Gorham	Cumberland
+11	Houlton	Aroostook
+12	Kennebunk	York
+13	Kittery	York
+14	Old Orchard Beach	York
+15	Old Town	Penobscot
+16	Orono	Penobscot
+17	Sanford	York
+18	Scarborough	Cumberland
+19	Skowhegan	Somerset
+20	Windham	Cumberland
+MAINE BATCH 3 — FINAL 4 CITIES
+
+#	City	County	Needs
+
+1	Sanford	York	city site, police, district court
+2	Scarborough	Cumberland	city site, police, district court
+3	Skowhegan	Somerset	city site, police, district court
+4	Windham	Cumberland	city site, police, district court
+Last 4. Quick batch to finish Maine.
+
+
+Michigan has 47 cities across 22 counties. That's manageable. Here's the full research list:
+
+#	City	County	Needs
+
+1	Ann Arbor	Washtenaw	city site, police, district court
+2	Battle Creek	Calhoun	city site, police, district court
+3	Bay City	Bay	city site, police, district court
+4	Benton Harbor	Berrien	city site, police, district court
+5	Charlotte	Eaton	city site, police, district court
+6	Clinton Township	Macomb	city site, police, district court
+7	Dearborn	Wayne	city site, police, district court
+8	Detroit	Wayne	city site, police, district court
+9	East Lansing	Ingham	city site, police, district court
+10	Escanaba	Delta	city site, police, district court
+11	Farmington Hills	Oakland	city site, police, district court
+12	Flint	Genesee	city site, police, district court
+13	Grand Haven	Ottawa	city site, police, district court
+14	Grand Rapids	Kent	city site, police, district court
+15	Holland	Ottawa	city site, police, district court
+16	Howell	Livingston	city site, police, district court
+17	Jackson	Jackson	city site, police, district court
+18	Kalamazoo	Kalamazoo	city site, police, district court
+19	Kentwood	Kent	city site, police, district court
+20	Lansing	Ingham	city site, police, district court
+21	Livonia	Wayne	city site, police, district court
+22	Marquette	Marquette	city site, police, district court
+23	Midland	Midland	city site, police, district court
+24	Monroe	Monroe	city site, police, district court
+
+MICHIGAN BATCH 2 — REMAINING 23 CITIES
+
+#	City	County	Needs
+
+1	Muskegon	Muskegon	city site, police, district court
+2	Norton Shores	Muskegon	city site, police, district court
+3	Novi	Oakland	city site, police, district court
+4	Pontiac	Oakland	city site, police, district court
+5	Port Huron	St. Clair	city site, police, district court
+6	Portage	Kalamazoo	city site, police, district court
+7	Rochester Hills	Oakland	city site, police, district court
+8	Saginaw	Saginaw	city site, police, district court
+9	Sault Ste. Marie	Chippewa	city site, police, district court
+10	Shelby Township	Macomb	city site, police, district court
+11	Southfield	Oakland	city site, police, district court
+12	St. Joseph	Berrien	city site, police, district court
+13	Sterling Heights	Macomb	city site, police, district court
+14	Taylor	Wayne	city site, police, district court
+15	Traverse City	Grand Traverse	city site, police, district court
+16	Troy	Oakland	city site, police, district court
+17	Warren	Macomb	city site, police, district court
+18	Westland	Wayne	city site, police, district court
+19	Wyoming	Kent	city site, police, district court
+20	Ypsilanti	Washtenaw	city site, police, district court
+
+
+#	City	County	Needs
+
+1	Adrian	Lenawee	city site, police, district court
+2	Allegan	Allegan	city site, police, district court
+3	Alpena	Alpena	city site, police, district court
+4	Big Rapids	Mecosta	city site, police, district court
+5	Cadillac	Wexford	city site, police, district court
+6	Coldwater	Branch	city site, police, district court
+7	Gaylord	Otsego	city site, police, district court
+8	Greenville	Montcalm	city site, police, district court
+9	Hancock	Houghton	city site, police, district court
+10	Hastings	Barry	city site, police, district court
+11	Hillsdale	Hillsdale	city site, police, district court
+12	Holland	Allegan	city site, police, district court
+13	Iron Mountain	Dickinson	city site, police, district court
+14	Ironwood	Gogebic	city site, police, district court
+15	Ludington	Mason	city site, police, district court
+16	Manistee	Manistee	city site, police, district court
+17	Menominee	Menominee	city site, police, district court
+18	Mount Pleasant	Isabella	city site, police, district court
+19	Owosso	Shiawassee	city site, police, district court
+20	Petoskey	Emmet	city site, police, district court
+21	South Haven	Van Buren	city site, police, district court
+22	Sturgis	St. Joseph	city site, police, district court
+23	Three Rivers	St. Joseph	city site, police, district court
 
 
