@@ -1,14 +1,15 @@
 # Libby — Local Law Resources
 ## City Website
-- https://lincolncountymt.us/
+- https://cityoflibby.com/
 ## Law Enforcement
-- Lincoln County Sheriff — 512 California Ave — (406) 293-4112
+- Libby PD — 418 Mineral Ave — (406) 293-4112
+- **Police Website**: https://cityoflibby.com/departments-services/police/
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Lincoln County Justice Court — 512 California Ave — (406) 283-2411 / 10th Judicial District Court — 512 California Ave — (406) 283-2411
-- **Court Website**: https://lincolncountymt.us/
+- Libby Municipal Court — 418 Mineral Ave — (406) 293-4112
+- **Court Website**: https://cityoflibby.com/departments-services/municipal-courts/
 ## Building Permits
-- Libby Building Department — https://lincolncountymt.us/
+- Libby Building Department — https://cityoflibby.com/
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunting/
 ## Fishing Regulations

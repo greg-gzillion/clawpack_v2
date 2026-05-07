@@ -3,10 +3,11 @@
 - https://www.dillonmt.org/
 ## Law Enforcement
 - Dillon PD — 2 S Pacific St — (406) 683-3701
+- **Police Website**: https://www.dillonmt.org/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Beaverhead County Justice Court — 2 S Pacific St Ste 15 — (406) 683-3755 / 5th Judicial District Court — 2 S Pacific St Ste 5 — (406) 683-3725
-- **Court Website**: https://www.dillonmt.org/
+- Dillon Municipal Court — 2 S Pacific St — (406) 683-3755
+- **Court Website**: https://www.dillonmt.org/city-court
 ## Building Permits
 - Dillon MT Building Department — https://www.dillonmt.org/
 ## Hunting Regulations

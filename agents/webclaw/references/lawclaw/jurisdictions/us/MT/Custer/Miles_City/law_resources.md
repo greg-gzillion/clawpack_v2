@@ -1,14 +1,15 @@
 # Miles City — Local Law Resources
 ## City Website
-- https://www.milescity.com/
+- https://www.milescitymt.gov/
 ## Law Enforcement
-- Miles City PD — 200 N Main St — (406) 234-5939
+- Miles City PD — 210 S Winchester Ave — (406) 234-6273
+- **Police Website**: https://milescitypolice.org/
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Custer County District Court — 1010 Main St — (406) 874-3326
-- **Court Website**: https://www.milescity.com/
+- Miles City Municipal Court — 17 S 8th St — (406) 234-3462
+- **Court Website**: https://www.milescitymt.gov/city-court
 ## Building Permits
-- Miles City Building Department — https://www.milescity.com/
+- Miles City Building Department — https://www.milescitymt.gov/
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunting/
 ## Fishing Regulations

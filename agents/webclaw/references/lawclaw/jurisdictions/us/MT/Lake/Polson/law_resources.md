@@ -3,10 +3,11 @@
 - https://www.cityofpolson.com/
 ## Law Enforcement
 - Polson PD — 106 1st St E — (406) 883-8211
+- **Police Website**: https://www.cityofpolson.com/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Lake County Justice Court — 106 4th Ave E — (406) 883-7272 / 9th Judicial District Court — 106 4th Ave E — (406) 883-7254
-- **Court Website**: https://www.cityofpolson.com/
+- Polson Municipal Court — 106 1st St E — (406) 883-8212
+- **Court Website**: https://www.cityofpolson.com/citycourt
 ## Building Permits
 - Polson Building Department — https://www.cityofpolson.com/
 ## Hunting Regulations

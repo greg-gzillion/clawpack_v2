@@ -2,11 +2,12 @@
 ## City Website
 - https://www.livingstonmontana.org/
 ## Law Enforcement
-- Livingston PD — 220 E Park St — (406) 222-2050
+- Livingston PD — 414 E Callender St — (406) 222-2050
+- **Police Website**: https://www.livingstonmontana.org/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Park County Justice Court — 414 E Callender St — (406) 222-1142 / 8th Judicial District Court — 414 E Callender St — (406) 222-2085
-- **Court Website**: https://www.livingstonmontana.org/
+- Livingston Municipal Court — 414 E Callender St — (406) 222-1142
+- **Court Website**: https://www.livingstonmontana.org/cc
 ## Building Permits
 - Livingston MT Building Department — https://www.livingstonmontana.org/
 ## Hunting Regulations

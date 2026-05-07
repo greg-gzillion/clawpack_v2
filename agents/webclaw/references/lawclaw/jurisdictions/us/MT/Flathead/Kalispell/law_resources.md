@@ -3,10 +3,11 @@
 - https://www.kalispellmt.gov/
 ## Law Enforcement
 - Kalispell PD — 201 3rd Ave E — (406) 758-7780
+- **Police Website**: https://www.kalispellmt.gov/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Kalispell Municipal Court — 201 3rd Ave E — (406) 758-7705 / 11th Judicial District Court — 920 S Main St — (406) 758-4060
-- **Court Website**: https://www.kalispellmt.gov/
+- Kalispell Municipal Court — 201 3rd Ave E — (406) 758-7705
+- **Court Website**: https://www.kalispellmt.gov/municipal-court
 ## Building Permits
 - Kalispell Building Department — https://www.kalispellmt.gov/
 ## Hunting Regulations

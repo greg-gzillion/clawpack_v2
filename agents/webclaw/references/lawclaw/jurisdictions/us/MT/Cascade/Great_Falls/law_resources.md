@@ -1,14 +1,15 @@
 # Great Falls — Local Law Resources
 ## City Website
-- https://greatfallsmt.net/
+- https://greatfallsmt.gov/
 ## Law Enforcement
 - Great Falls PD — 112 1st St S — (406) 727-7688
+- **Police Website**: https://greatfallsmt.gov/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Great Falls Municipal Court — 2 Park Dr S — (406) 771-1180 / Cascade County District Court — 415 2nd Ave N — (406) 454-6915
-- **Court Website**: https://greatfallsmt.net/
+- Great Falls Municipal Court — 2 Park Dr S (2nd floor Civic Center) — (406) 771-1180
+- **Court Website**: https://greatfallsmt.gov/municipalcourt
 ## Building Permits
-- Great Falls Building Department — https://greatfallsmt.net/
+- Great Falls Building Department — https://greatfallsmt.gov/
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunting/
 ## Fishing Regulations

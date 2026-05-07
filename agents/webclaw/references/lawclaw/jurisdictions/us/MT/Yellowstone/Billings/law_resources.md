@@ -3,10 +3,11 @@
 - https://www.billingsmt.gov/
 ## Law Enforcement
 - Billings PD — 220 N 27th St — (406) 657-8460
+- **Police Website**: https://www.billingsmt.gov/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Billings Municipal Court — 220 N 27th St — (406) 657-8490 / Yellowstone County District Court — 217 N 27th St — (406) 256-2851
-- **Court Website**: https://www.billingsmt.gov/
+- Billings Municipal Court — 220 N 27th St (2nd floor) — (406) 657-8490
+- **Court Website**: https://www.billingsmt.gov/115/Municipal-Court
 ## Building Permits
 - Billings Building Department — https://www.billingsmt.gov/
 ## Hunting Regulations

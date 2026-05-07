@@ -1,14 +1,15 @@
 # Havre — Local Law Resources
 ## City Website
-- https://hillcountyarrests.org/
+- https://www.ci.havre.mt.us/
 ## Law Enforcement
-- Havre PD — 520 4th Ave N — (406) 265-4483
+- Havre PD — 520 4th St — (406) 265-4361
+- **Police Website**: https://www.ci.havre.mt.us/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Hill County Justice Court — 315 4th St — (406) 265-7200 / 1st Judicial District Court — 315 4th St — (406) 265-7200
-- **Court Website**: https://hillcountyarrests.org/
+- Havre Municipal Court — 520 4th St — (406) 265-8575
+- **Court Website**: https://www.ci.havre.mt.us/city-court
 ## Building Permits
-- Havre Building Department — https://hillcountyarrests.org/
+- Havre Building Department — https://www.ci.havre.mt.us/
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunting/
 ## Fishing Regulations

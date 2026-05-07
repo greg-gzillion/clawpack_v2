@@ -3,10 +3,11 @@
 - https://www.helenamt.gov/
 ## Law Enforcement
 - Helena PD — 406 Fuller Ave — (406) 447-8200
+- **Police Website**: https://www.helenamt.gov/police
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Helena Municipal Court — 406 Fuller Ave — (406) 447-8280 / Lewis and Clark County District Court — 406 Fuller Ave — (406) 447-8275
-- **Court Website**: https://www.helenamt.gov/
+- Helena Municipal Court — 406 Fuller Ave — (406) 447-8280
+- **Court Website**: https://www.helenamt.gov/Departments/Municipal-Court
 ## Building Permits
 - Helena Building Department — https://www.helenamt.gov/
 ## Hunting Regulations

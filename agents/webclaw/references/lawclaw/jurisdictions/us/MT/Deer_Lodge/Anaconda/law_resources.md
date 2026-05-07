@@ -3,10 +3,11 @@
 - https://www.anacondamt.gov/
 ## Law Enforcement
 - Anaconda PD — 800 Main St — (406) 563-5241
+- **Police Website**: https://www.anacondamt.gov/law-enforcement
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Deer Lodge County Justice Court — 800 Main St — (406) 563-5241 / 2nd Judicial District Court — 300 Main St — (406) 563-5241
-- **Court Website**: https://www.anacondamt.gov/
+- Anaconda Municipal Court — 800 Main St — (406) 563-4025
+- **Court Website**: https://www.anacondamt.gov/justice-court
 ## Building Permits
 - Anaconda Building Department — https://www.anacondamt.gov/
 ## Hunting Regulations
