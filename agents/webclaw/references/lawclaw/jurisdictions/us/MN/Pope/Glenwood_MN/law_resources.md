@@ -1,0 +1,20 @@
+# Glenwood MN — Local Law Resources
+## City Website
+- https://www.ci.glenwood.mn.us/
+## Law Enforcement
+- Glenwood PD — 101 1st Ave N — (320) 634-2880
+- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+## Courts
+- Pope County District Court — 101 1st Ave N — (320) 634-2880
+- **Court Website**: https://mncourts.gov/district/8
+## Building Permits
+- Glenwood MN Building Department — https://www.ci.glenwood.mn.us/
+## Hunting Regulations
+- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
+## Fishing Regulations
+- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
+## Legal Aid
+- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
+- Southern Minnesota Regional Legal Services — https://www.smrls.org/
+## Corrections
+- Pope County Jail

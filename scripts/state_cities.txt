@@ -1440,4 +1440,461 @@ MICHIGAN BATCH 2 — REMAINING 23 CITIES
 22	Sturgis	St. Joseph	city site, police, district court
 23	Three Rivers	St. Joseph	city site, police, district court
 
+Minnesota has 33 cities across 20 counties. Here's the full research list:
+
+City County Needs
+
+1 Apple Valley Dakota city site, police, district court
+2 Bemidji Beltrami city site, police, district court
+3 Blaine Anoka city site, police, district court
+4 Bloomington Hennepin city site, police, district court
+5 Brainerd Crow Wing city site, police, district court
+6 Brooklyn Park Hennepin city site, police, district court
+7 Burnsville Dakota city site, police, district court
+8 Chaska Carver city site, police, district court
+9 Coon Rapids Anoka city site, police, district court
+10 Duluth St. Louis city site, police, district court
+11 Eagan Dakota city site, police, district court
+12 Eden Prairie Hennepin city site, police, district court
+13 Edina Hennepin city site, police, district court
+14 Elk River Sherburne city site, police, district court
+15 Faribault Rice city site, police, district court
+16 Fergus Falls Otter Tail city site, police, district court
+17 Grand Rapids Itasca city site, police, district court
+18 Lakeville Dakota city site, police, district court
+19 Mankato Blue Earth city site, police, district court
+20 Maple Grove Hennepin city site, police, district court
+21 Minneapolis Hennepin city site, police, district court
+22 Minnetonka Hennepin city site, police, district court
+23 Moorhead Clay city site, police, district court
+24 North Mankato Nicollet city site, police, district court
+25 Otsego Wright city site, police, district court
+26 Plymouth Hennepin city site, police, district court
+27 Red Wing Goodhue city site, police, district court
+28 Rochester Olmsted city site, police, district court
+29 Roseville Ramsey city site, police, district court
+30 Shakopee Scott city site, police, district court
+31 St. Cloud Stearns city site, police, district court
+32 St. Paul Ramsey city site, police, district court
+33 Winona Winona city site, police, district court
+34 Woodbury Washington city site, police, district court
+
+
+Aitkin
+
+Aitkin — city site, police, district court
+
+Decker
+
+Detroit Lakes — city site, police, district court
+
+Benton
+
+Sauk Rapids — city site, police, district court
+
+Foley — city site, police, district court
+
+Brown
+
+New Ulm — city site, police, district court
+
+Carlton
+
+Cloquet — city site, police, district court
+
+Cass
+
+Walker — city site, police, district court
+
+Lake Shore — city site, police, district court
+
+Chippewa
+
+Montevideo — city site, police, district court
+
+Chisago
+
+North Branch — city site, police, district court
+
+Chisago City — city site, police, district court
+
+Lindstrom — city site, police, district court
+
+Clay
+
+Dilworth — city site, police, district court
+
+Cottonwood
+
+Windom — city site, police, district court
+
+Crow Wing
+
+Baxter — city site, police, district court
+
+Crosslake — city site, police, district court
+
+Dakota
+
+Inver Grove Heights — city site, police, district court
+
+Mendota Heights — city site, police, district court
+
+South St. Paul — city site, police, district court
+
+Rosemount — city site, police, district court
+
+Farmington — city site, police, district court
+
+Dodge
+
+Kasson — city site, police, district court
+
+Douglas
+
+Alexandria — city site, police, district court
+
+Fillmore
+
+Preston — city site, police, district court
+
+Harmony — city site, police, district court
+
+Freeborn
+
+Albert Lea — city site, police, district court
+
+Goodhue
+
+Northfield — city site, police, district court
+
+Cannon Falls — city site, police, district court
+
+Hennepin
+
+Brooklyn Center — city site, police, district court
+
+Champlin — city site, police, district court
+
+Crystal — city site, police, district court
+
+Golden Valley — city site, police, district court
+
+Hopkins — city site, police, district court
+
+New Hope — city site, police, district court
+
+Richfield — city site, police, district court
+
+Robbinsdale — city site, police, district court
+
+St. Louis Park — city site, police, district court
+
+St. Anthony — city site, police, district court
+
+Shoreview — city site, police, district court
+
+Fridley — city site, police, district court
+
+Houston
+
+Caledonia — city site, police, district court
+
+La Crescent — city site, police, district court
+
+Hubbard
+
+Park Rapids — city site, police, district court
+
+Isanti
+
+Cambridge — city site, police, district court
+
+Isanti — city site, police, district court
+
+Kanabec
+
+Mora — city site, police, district court
+
+Kandiyohi
+
+Willmar — city site, police, district court
+
+Koochiching
+
+International Falls — city site, police, district court
+
+Lac qui Parle
+
+Madison — city site, police, district court
+
+Lake
+
+Two Harbors — city site, police, district court
+
+Silver Bay — city site, police, district court
+
+Le Sueur
+
+Le Sueur — city site, police, district court
+
+Le Center — city site, police, district court
+
+Lyon
+
+Marshall — city site, police, district court
+
+Martin
+
+Fairmont — city site, police, district court
+
+McLeod
+
+Hutchinson — city site, police, district court
+
+Glencoe — city site, police, district court
+
+Meeker
+
+Litchfield — city site, police, district court
+
+Mille Lacs
+
+Milaca — city site, police, district court
+
+Princeton — city site, police, district court
+
+Morrison
+
+Little Falls — city site, police, district court
+
+Mower
+
+Austin — city site, police, district court
+
+Nobles
+
+Worthington — city site, police, district court
+
+Olmsted
+
+Stewartville — city site, police, district court
+
+Byron — city site, police, district court
+
+Otter Tail
+
+Perham — city site, police, district court
+
+Pelican Rapids — city site, police, district court
+
+Battle Lake — city site, police, district court
+
+Pennington
+
+Thief River Falls — city site, police, district court
+
+Pine
+
+Hinckley — city site, police, district court
+
+Pine City — city site, police, district court
+
+Pipestone
+
+Pipestone — city site, police, district court
+
+Polk
+
+Crookston — city site, police, district court
+
+East Grand Forks — city site, police, district court
+
+Pope
+
+Glenwood — city site, police, district court
+
+Ramsey
+
+Maplewood — city site, police, district court
+
+White Bear Lake — city site, police, district court
+
+New Brighton — city site, police, district court
+
+Mounds View — city site, police, district court
+
+North St. Paul — city site, police, district court
+
+Vadnais Heights — city site, police, district court
+
+Arden Hills — city site, police, district court
+
+Little Canada — city site, police, district court
+
+Redwood
+
+Redwood Falls — city site, police, district court
+
+Renville
+
+Olivia — city site, police, district court
+
+Rice
+
+Northfield — city site, police, district court
+
+Roseau
+
+Roseau — city site, police, district court
+
+Scott
+
+Savage — city site, police, district court
+
+Prior Lake — city site, police, district court
+
+Jordan — city site, police, district court
+
+Belle Plaine — city site, police, district court
+
+Sherburne
+
+Big Lake — city site, police, district court
+
+Becker — city site, police, district court
+
+Zimmerman — city site, police, district court
+
+Sibley
+
+Gaylord — city site, police, district court
+
+St. Louis
+
+Hermantown — city site, police, district court
+
+Hibbing — city site, police, district court
+
+Virginia — city site, police, district court
+
+Ely — city site, police, district court
+
+Chisholm — city site, police, district court
+
+Eveleth — city site, police, district court
+
+Gilbert — city site, police, district court
+
+Mountain Iron — city site, police, district court
+
+Proctor — city site, police, district court
+
+Stearns
+
+Sartell — city site, police, district court
+
+Sauk Centre — city site, police, district court
+
+Melrose — city site, police, district court
+
+Cold Spring — city site, police, district court
+
+Waite Park — city site, police, district court
+
+Steele
+
+Owatonna — city site, police, district court
+
+Todd
+
+Long Prairie — city site, police, district court
+
+Staples — city site, police, district court
+
+Wabasha
+
+Wabasha — city site, police, district court
+
+Lake City — city site, police, district court
+
+Wadena
+
+Wadena — city site, police, district court
+
+Waseca
+
+Waseca — city site, police, district court
+
+Washington
+
+Stillwater — city site, police, district court
+
+Cottage Grove — city site, police, district court
+
+Forest Lake — city site, police, district court
+
+Hugo — city site, police, district court
+
+Oakdale — city site, police, district court
+
+Mahtomedi — city site, police, district court
+
+Hastings — city site, police, district court
+
+Oak Park Heights — city site, police, district court
+
+Watonwan
+
+St. James — city site, police, district court
+
+Wilkin
+
+Breckenridge — city site, police, district court
+
+Winona
+
+St. Charles — city site, police, district court
+
+Lewiston — city site, police, district court
+
+Wright
+
+Buffalo — city site, police, district court
+
+Monticello — city site, police, district court
+
+St. Michael — city site, police, district court
+
+Albertville — city site, police, district court
+
+Hanover — city site, police, district court
+
+Delano — city site, police, district court
+
+Annandale — city site, police, district court
+
+Howard Lake — city site, police, district court
+
+Waverly — city site, police, district court
+
+Yellow Medicine
+
+Granite Falls — city site, police, district court
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
