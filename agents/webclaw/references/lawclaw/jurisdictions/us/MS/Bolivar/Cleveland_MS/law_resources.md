@@ -1,14 +1,15 @@
 # Cleveland MS — Local Law Resources
 ## City Website
-- https://www.clevelandms.com/
+- https://www.cityofclevelandms.com/
 ## Law Enforcement
-- Cleveland PD — 100 North St — (662) 843-3611
+- Cleveland PD — 100 N Street — (662) 843-3611
+- **Police Website**: https://www.cityofclevelandms.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Bolivar County Circuit Court (2nd District) — 200 S Court St — (662) 843-2061
-- **Court Website**: https://www.co.bolivar.ms.us/
+- Cleveland Municipal Court — 100 N Street PO Box 58 — (662) 843-7346
+- **Court Website**: https://www.cityofclevelandms.com/
 ## Building Permits
-- Cleveland MS Building Department — https://www.clevelandms.com/
+- Cleveland MS Building Department — https://www.cityofclevelandms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

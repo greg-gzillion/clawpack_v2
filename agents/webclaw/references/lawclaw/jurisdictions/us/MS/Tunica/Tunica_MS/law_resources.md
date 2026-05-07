@@ -3,10 +3,11 @@
 - https://www.townoftunica.com/
 ## Law Enforcement
 - Tunica PD — 1196 Edwards Ave — (662) 363-2400
+- **Police Website**: https://www.townoftunica.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Tunica County Circuit Court — 1300 School St — (662) 363-2842
-- **Court Website**: https://www.tunica.ms.us/
+- Tunica Municipal Court — 1196 Edwards Ave — (662) 363-2400
+- **Court Website**: https://www.townoftunica.com/
 ## Building Permits
 - Tunica MS Building Department — https://www.townoftunica.com/
 ## Hunting Regulations

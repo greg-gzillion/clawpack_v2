@@ -1,14 +1,15 @@
 # Lumberton — Local Law Resources
 ## City Website
-- https://lamarcountyms.gov/
+- http://www.cityoflumberton.com/
 ## Law Enforcement
-- Lumberton PD — 203 Main St, Lumberton — (601) 794-1005
+- Lamar County Sheriff — (601) 794-8504
+- **Police Website**: http://www.cityoflumberton.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Lamar County Circuit Court — Purvis — (601) 794-8504
-- **Court Website**: https://lamarcountyms.gov/
+- Lumberton Municipal Court — 102 E Main Ave — (601) 796-8341
+- **Court Website**: http://www.cityoflumberton.com/
 ## Building Permits
-- Lumberton Building Department — https://lamarcountyms.gov/
+- Lumberton Building Department — http://www.cityoflumberton.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

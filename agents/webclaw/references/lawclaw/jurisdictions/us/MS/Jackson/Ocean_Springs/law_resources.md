@@ -2,11 +2,12 @@
 ## City Website
 - https://oceansprings-ms.gov/
 ## Law Enforcement
-- Ocean Springs PD — 3810 Bienville Blvd — (228) 875-5009
+- Ocean Springs PD — 3810 Bienville Blvd — (228) 875-2211
+- **Police Website**: https://oceanspringsjail.org/police-department/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Jackson County Circuit Court — Pascagoula — (228) 769-3040
-- **Court Website**: https://www.co.jackson.ms.us/
+- Ocean Springs Municipal Court — 3810 Bienville Blvd — (228) 875-5009
+- **Court Website**: https://ci.ocean-springs.ms.us/departments/municipal-court/
 ## Building Permits
 - Ocean Springs Building Department — https://oceansprings-ms.gov/
 ## Hunting Regulations

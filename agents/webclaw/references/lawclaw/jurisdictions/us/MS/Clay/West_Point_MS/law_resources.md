@@ -1,14 +1,15 @@
 # West Point MS — Local Law Resources
 ## City Website
-- https://www.westpointms.com/
+- https://www.wpnet.org/
 ## Law Enforcement
-- West Point PD — 205 Court St — (662) 494-6140
+- West Point PD — 84 E Westbrook St — (662) 494-1244
+- **Police Website**: https://www.wpnet.org/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Clay County Circuit Court — 26089 W Main St — (662) 494-3384
-- **Court Website**: https://www.claycountyms.com/
+- West Point Municipal Court — 310 E Westbrook St PO Box 1117 — (662) 494-6386
+- **Court Website**: https://www.wpnet.org/
 ## Building Permits
-- West Point MS Building Department — https://www.westpointms.com/
+- West Point MS Building Department — https://www.wpnet.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

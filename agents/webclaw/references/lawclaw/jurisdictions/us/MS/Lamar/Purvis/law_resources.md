@@ -1,14 +1,15 @@
 # Purvis — Local Law Resources
 ## City Website
-- https://lamarcountyms.gov/
+- https://www.purvisms.com/
 ## Law Enforcement
-- Purvis PD — 136 Shelby Speights Dr — (601) 794-6512
+- Lamar County Sheriff — (601) 794-8504
+- **Police Website**: https://www.purvisms.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Lamar County Circuit Court — 203 Main St — (601) 794-8504
-- **Court Website**: https://lamarcountyms.gov/
+- Purvis Municipal Court — 136 Shelby Spikes Dr — (601) 794-6515
+- **Court Website**: https://www.purvisms.com/
 ## Building Permits
-- Purvis Building Department — https://lamarcountyms.gov/
+- Purvis Building Department — https://www.purvisms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

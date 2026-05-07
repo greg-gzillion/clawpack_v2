@@ -1,14 +1,15 @@
 # Collins — Local Law Resources
 ## City Website
-- https://www.collinsms.com/
+- https://cityofcollins.com/
 ## Law Enforcement
-- Collins PD — 101 N 1st Ave — (601) 764-2441
+- Covington County Sheriff — (601) 765-4242
+- **Police Website**: https://www.covingtoncountyms.gov/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Covington County Circuit Court — 101 N 1st Ave — (601) 764-2441
-- **Court Website**: https://www.covingtoncountyms.com/
+- Collins Municipal Court — Covington County Courthouse — (601) 765-1657
+- **Court Website**: https://cityofcollins.com/
 ## Building Permits
-- Collins Building Department — https://www.collinsms.com/
+- Collins Building Department — https://cityofcollins.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

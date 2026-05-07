@@ -1,14 +1,15 @@
 # New Albany MS — Local Law Resources
 ## City Website
-- https://www.newalbanyms.com/
+- https://www.newalbanyms.org/
 ## Law Enforcement
-- New Albany PD — 109 E Main St — (662) 534-1035
+- New Albany PD — 101 N Main St — (662) 534-2211
+- **Police Website**: https://www.newalbanyms.org/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Union County Circuit Court — 109 E Main St — (662) 534-1910
-- **Court Website**: https://unioncoms.com/circuit
+- New Albany Municipal Court — 101 N Main St — (662) 534-2200
+- **Court Website**: https://www.newalbanyms.org/
 ## Building Permits
-- New Albany MS Building Department — https://www.newalbanyms.com/
+- New Albany MS Building Department — https://www.newalbanyms.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

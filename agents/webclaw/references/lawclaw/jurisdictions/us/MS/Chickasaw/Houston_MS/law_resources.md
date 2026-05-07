@@ -1,14 +1,15 @@
 # Houston MS — Local Law Resources
 ## City Website
-- https://www.houstonms.com/
+- http://www.chickasawcoms.com/
 ## Law Enforcement
-- Houston PD — 1 Pinson Square — (662) 456-3941
+- Chickasaw County Sheriff — 130 Lancaster Cir — (662) 456-2339
+- **Police Website**: http://www.chickasawcoms.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Chickasaw County Circuit Court (1st District) — 1 Pinson Square — (662) 456-2331
-- **Court Website**: https://www.chickasawcoms.com/circuit
+- Houston Municipal Court — 1 Pinson Square — (662) 456-2328
+- **Court Website**: http://www.chickasawcoms.com/
 ## Building Permits
-- Houston MS Building Department — https://www.houstonms.com/
+- Houston MS Building Department — http://www.chickasawcoms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

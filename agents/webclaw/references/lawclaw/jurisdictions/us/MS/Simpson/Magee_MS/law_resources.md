@@ -1,14 +1,15 @@
 # Magee MS — Local Law Resources
 ## City Website
-- https://www.cityofmagee.com/
+- https://www.cityofmagee.ms.gov/
 ## Law Enforcement
-- Magee PD — 124 1st Street NE — (601) 849-2366
+- Magee PD — 124 1st St NE — (601) 849-2366
+- **Police Website**: https://www.cityofmagee.ms.gov/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Simpson County Circuit Court — Mendenhall — (601) 849-3421
-- **Court Website**: https://www.simpsoncountymississippi.org/
+- Magee Municipal Court — 123 Main Ave N — (601) 849-3344
+- **Court Website**: https://www.cityofmagee.ms.gov/
 ## Building Permits
-- Magee MS Building Department — https://www.cityofmagee.com/
+- Magee MS Building Department — https://www.cityofmagee.ms.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

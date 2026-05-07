@@ -1,14 +1,15 @@
 # Philadelphia MS — Local Law Resources
 ## City Website
-- https://www.neshobacounty.net/
+- https://www.cityofphillyms.com/
 ## Law Enforcement
-- Neshoba County Sheriff — 920 Chestnut St — (601) 656-1414
+- Philadelphia PD — 525 Main St — (601) 650-3584
+- **Police Website**: https://www.cityofphillyms.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Neshoba County Circuit Court — 401 E Beacon St #110 — (601) 656-4781
-- **Court Website**: https://www.neshobacounty.net/
+- Philadelphia Municipal Court — 525 Main St — (601) 650-3584
+- **Court Website**: https://www.cityofphillyms.com/
 ## Building Permits
-- Philadelphia MS Building Department — https://www.neshobacounty.net/
+- Philadelphia MS Building Department — https://www.cityofphillyms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

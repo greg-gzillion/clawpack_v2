@@ -1,14 +1,15 @@
 # Newton MS — Local Law Resources
 ## City Website
-- http://www.newtonms.org/
+- https://www.newtonms.org/
 ## Law Enforcement
-- Newton PD — 203 E Church St — (601) 683-3535
+- Newton PD — 103 Banks St — (601) 683-2041
+- **Police Website**: https://www.newtonms.org/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Newton County Circuit Court — Decatur — (601) 635-3368
-- **Court Website**: https://newtoncountymscircuitclerk.com/
+- Newton Municipal Court — PO Box 300 — (601) 683-2042
+- **Court Website**: https://www.newtonms.org/
 ## Building Permits
-- Newton MS Building Department — http://www.newtonms.org/
+- Newton MS Building Department — https://www.newtonms.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

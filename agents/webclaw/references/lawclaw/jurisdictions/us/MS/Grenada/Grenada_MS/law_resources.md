@@ -1,14 +1,15 @@
 # Grenada MS — Local Law Resources
 ## City Website
-- https://www.grenadams.com/
+- https://www.cityofgrenada.net/
 ## Law Enforcement
-- Grenada PD — 200 S Main St — (662) 226-4755
+- Grenada PD — 26 N Green St — (662) 227-3450
+- **Police Website**: https://www.cityofgrenada.net/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Grenada County Circuit Court — 200 S Main St — (662) 226-4755
-- **Court Website**: https://www.co.grenada.ms.us/
+- Grenada Municipal Court — 26 N Green St — (662) 227-3430
+- **Court Website**: https://www.cityofgrenada.net/
 ## Building Permits
-- Grenada MS Building Department — https://www.grenadams.com/
+- Grenada MS Building Department — https://www.cityofgrenada.net/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

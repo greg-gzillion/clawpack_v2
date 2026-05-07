@@ -1,14 +1,15 @@
 # Forest MS — Local Law Resources
 ## City Website
-- https://www.forestms.org/
+- https://www.forestcityms.org/
 ## Law Enforcement
-- Forest PD — 201 S Main St — (601) 948-3181
+- Forest PD — 850 Park Rd — (601) 469-4141
+- **Police Website**: https://www.forestcityms.org/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Scott County Circuit Court — 201 S Main St — (601) 948-3181
-- **Court Website**: https://www.scottcountymississippi.org/
+- Forest Municipal Court — 850 Park Rd — (601) 469-4141
+- **Court Website**: https://www.forestcityms.org/
 ## Building Permits
-- Forest MS Building Department — https://www.forestms.org/
+- Forest MS Building Department — https://www.forestcityms.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

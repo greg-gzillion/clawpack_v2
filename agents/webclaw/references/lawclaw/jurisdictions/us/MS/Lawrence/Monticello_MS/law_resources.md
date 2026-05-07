@@ -1,14 +1,15 @@
 # Monticello MS — Local Law Resources
 ## City Website
-- https://lawrencecounty.net/
+- 
 ## Law Enforcement
-- Lawrence County Sheriff — 515 Brinson St — (601) 587-2211
+- Monticello PD — 202 Jefferson St S — (601) 587-1111
+
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Lawrence County Circuit Court — 515 Brinson St — (601) 587-2271
-- **Court Website**: https://lawrencecounty.net/
+- Monticello Municipal Court — 202 Jefferson St S — (601) 587-1111
+- **Court Website**: https://www.ncourt.com/
 ## Building Permits
-- Monticello MS Building Department — https://lawrencecounty.net/
+- Monticello MS Building Department — 
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

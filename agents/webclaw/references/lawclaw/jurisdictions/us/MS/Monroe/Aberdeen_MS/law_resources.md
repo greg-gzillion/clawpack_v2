@@ -1,14 +1,15 @@
 # Aberdeen MS — Local Law Resources
 ## City Website
-- https://www.aberdeenms.org/
+- https://www.cityofaberdeenms.com/
 ## Law Enforcement
-- Aberdeen PD — 125 W Commerce St — (662) 369-8585
+- Aberdeen PD — 125 W Commerce St — (662) 369-6454
+- **Police Website**: https://www.cityofaberdeenms.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Monroe County Circuit Court — 200 S Chestnut St — (662) 369-8695
-- **Court Website**: https://www.monroems.com/
+- Aberdeen Municipal Court — 125 W Commerce St — (662) 369-4873
+- **Court Website**: https://www.cityofaberdeenms.com/
 ## Building Permits
-- Aberdeen MS Building Department — https://www.aberdeenms.org/
+- Aberdeen MS Building Department — https://www.cityofaberdeenms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

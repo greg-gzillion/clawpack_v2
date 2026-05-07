@@ -1,14 +1,15 @@
 # Booneville MS — Local Law Resources
 ## City Website
-- https://www.cityofbooneville.com/
+- https://boonevillemssite.com/
 ## Law Enforcement
-- Booneville PD — 200 W Main St — (662) 728-5546
+- Booneville PD — 1901 E Chambers Dr — (662) 728-6232
+- **Police Website**: https://boonevillemssite.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Prentiss County Circuit Court — 200 W Main St — (662) 728-5546
-- **Court Website**: https://www.prentisscounty.net/
+- Booneville Municipal Court — 1901 E Chambers Dr — (662) 728-6232
+- **Court Website**: https://boonevillemssite.com/
 ## Building Permits
-- Booneville MS Building Department — https://www.cityofbooneville.com/
+- Booneville MS Building Department — https://boonevillemssite.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

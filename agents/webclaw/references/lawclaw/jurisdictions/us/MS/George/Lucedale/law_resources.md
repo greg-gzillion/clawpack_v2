@@ -1,14 +1,15 @@
 # Lucedale — Local Law Resources
 ## City Website
-- https://www.lucedalems.com/
+- https://www.georgecountyms.com/
 ## Law Enforcement
-- Lucedale PD — 100 W Main St — (601) 947-2100
+- Lucedale PD — 545 Oak St — (601) 766-3336
+- **Police Website**: https://www.georgecountyms.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- George County Circuit Court — 100 W Main St — (601) 947-2100
+- Lucedale Municipal Court — 545 Oak St — (601) 766-3336
 - **Court Website**: https://www.georgecountyms.com/
 ## Building Permits
-- Lucedale Building Department — https://www.lucedalems.com/
+- Lucedale Building Department — https://www.georgecountyms.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

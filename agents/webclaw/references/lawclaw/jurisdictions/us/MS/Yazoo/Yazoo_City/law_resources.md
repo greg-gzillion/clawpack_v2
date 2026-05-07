@@ -1,14 +1,15 @@
 # Yazoo City — Local Law Resources
 ## City Website
-- https://www.yazoocity.org/
+- http://cityofyazoocity.org/
 ## Law Enforcement
-- Yazoo City PD — 100 E Broadway Ave — (662) 746-8555
+- Yazoo City PD — 305 Mike Espy Dr — (662) 314-1000
+- **Police Website**: http://cityofyazoocity.org/city-government/departments/police/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Yazoo County Circuit Court — 100 E Broadway Ave — (662) 746-8555
-- **Court Website**: https://www.co.yazoo.ms.us/
+- Yazoo City Municipal Court — 305 Mike Espy Dr — (662) 314-1013
+- **Court Website**: http://cityofyazoocity.org/city-government/departments/municipal-court/
 ## Building Permits
-- Yazoo City Building Department — https://www.yazoocity.org/
+- Yazoo City Building Department — http://cityofyazoocity.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

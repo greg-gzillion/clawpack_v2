@@ -1,14 +1,15 @@
 # Bay Springs — Local Law Resources
 ## City Website
-- https://www.baysprings.org/
+- https://www.cityofbaysprings.com/
 ## Law Enforcement
-- Bay Springs PD — 27 W 8th Ave — (601) 764-2245
+- Bay Springs PD — 110 N 3rd Ave — (601) 764-4112
+- **Police Website**: https://www.cityofbaysprings.com/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Jasper County Circuit Court (2nd District) — 27 W 8th Ave — (601) 764-2245
-- **Court Website**: https://www.co.jasper.ms.us/
+- Bay Springs Municipal Court — Jasper County Courthouse — (601) 764-4112
+- **Court Website**: https://www.cityofbaysprings.com/
 ## Building Permits
-- Bay Springs Building Department — https://www.baysprings.org/
+- Bay Springs Building Department — https://www.cityofbaysprings.com/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

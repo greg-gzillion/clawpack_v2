@@ -1,14 +1,15 @@
 # Port Gibson — Local Law Resources
 ## City Website
-- https://www.portgibsonms.com/
+- http://claibornecountyms.org/
 ## Law Enforcement
-- Claiborne County Sheriff — 410 Main St — (601) 437-5841
+- Port Gibson PD — 806 Farmer St — (601) 437-5101
+- **Police Website**: http://claibornecountyms.org/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Claiborne County Circuit Court — 410 Market St — (601) 437-5841
-- **Court Website**: https://www.claibornems.com/
+- Port Gibson Municipal Court — 1005 College St — (601) 437-4234
+- **Court Website**: http://claibornecountyms.org/
 ## Building Permits
-- Port Gibson Building Department — https://www.portgibsonms.com/
+- Port Gibson Building Department — http://claibornecountyms.org/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

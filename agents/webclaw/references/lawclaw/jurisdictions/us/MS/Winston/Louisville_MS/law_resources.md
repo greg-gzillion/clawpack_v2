@@ -2,11 +2,12 @@
 ## City Website
 - https://www.cityoflouisvillems.com/
 ## Law Enforcement
-- Louisville PD — 101 E Main St — (662) 773-3271
+- Louisville PD — 2363 South Church Ave — (662) 773-3511
+- **Police Website**: https://www.cityoflouisvillems.com/police.html
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Winston County Circuit Court — 101 E Main St — (662) 773-3271
-- **Court Website**: https://www.co.winston.ms.us/
+- Louisville Municipal Court — 2363 South Church Ave — (662) 773-2500
+- **Court Website**: https://www.cityoflouisvillems.com/municipal-court.html
 ## Building Permits
 - Louisville MS Building Department — https://www.cityoflouisvillems.com/
 ## Hunting Regulations

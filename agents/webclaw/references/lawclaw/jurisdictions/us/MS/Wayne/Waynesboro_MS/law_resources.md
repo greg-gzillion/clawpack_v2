@@ -1,14 +1,15 @@
 # Waynesboro MS — Local Law Resources
 ## City Website
-- https://www.cityofwaynesboro.com/
+- https://waynesboroms.us/
 ## Law Enforcement
-- Waynesboro PD — 200 W Church St — (601) 735-3211
+- Waynesboro PD — 714 Wayne St — (601) 735-4899
+- **Police Website**: https://waynesboroms.us/police.html
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Wayne County Circuit Court — 200 W Church St — (601) 735-3211
-- **Court Website**: https://www.co.wayne.ms.us/
+- Waynesboro Municipal Court — 714 Wayne St — (601) 735-4899
+- **Court Website**: https://waynesboroms.us/
 ## Building Permits
-- Waynesboro MS Building Department — https://www.cityofwaynesboro.com/
+- Waynesboro MS Building Department — https://waynesboroms.us/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

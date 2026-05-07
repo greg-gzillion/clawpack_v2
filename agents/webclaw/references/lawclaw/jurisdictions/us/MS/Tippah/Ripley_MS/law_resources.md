@@ -1,14 +1,15 @@
 # Ripley MS — Local Law Resources
 ## City Website
-- https://www.co.tippah.ms.us/
+- https://www.ripley.ms.gov/
 ## Law Enforcement
-- Ripley PD — 102 N Main St — (662) 837-7370
+- Ripley PD — 116 S Main St — (662) 837-2215
+- **Police Website**: https://www.ripley.ms.gov/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Tippah County Circuit Court — 102 N Main St — (662) 837-7370
-- **Court Website**: https://www.co.tippah.ms.us/
+- Ripley Municipal Court — Tippah County Courthouse 2nd Floor — (662) 837-3659
+- **Court Website**: https://www.ripley.ms.gov/city-municipal-courts
 ## Building Permits
-- Ripley MS Building Department — https://www.co.tippah.ms.us/
+- Ripley MS Building Department — https://www.ripley.ms.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

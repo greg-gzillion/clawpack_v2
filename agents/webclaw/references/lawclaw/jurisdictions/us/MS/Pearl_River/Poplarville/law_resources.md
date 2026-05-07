@@ -1,14 +1,15 @@
 # Poplarville — Local Law Resources
 ## City Website
-- https://www.poplarvillemi.com/
+- https://www.poplarvillems.gov/
 ## Law Enforcement
-- Poplarville PD — 200 S Main St — (601) 795-1002
+- Poplarville PD — 201 W Cumberland St — (601) 795-4447
+- **Police Website**: https://www.poplarvillems.gov/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Pearl River County Circuit Court — 200 S Main St — (601) 403-2300
-- **Court Website**: https://www.co.pearl.ms.us/
+- Poplarville Municipal Court — 100 S Main St 2nd Floor Rm 259 — (601) 799-8989
+- **Court Website**: https://www.poplarvillems.gov/
 ## Building Permits
-- Poplarville Building Department — https://www.poplarvillemi.com/
+- Poplarville Building Department — https://www.poplarvillems.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations

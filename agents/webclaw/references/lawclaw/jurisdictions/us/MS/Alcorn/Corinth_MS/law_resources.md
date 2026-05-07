@@ -1,14 +1,15 @@
 # Corinth MS — Local Law Resources
 ## City Website
-- https://www.corinthms.com/
+- https://www.corinthms.gov/
 ## Law Enforcement
-- Corinth PD — 100 Alcorn Dr — (662) 287-2711
+- Corinth PD — 2837 S Harper Rd — (662) 286-3377
+- **Police Website**: https://www.corinthms.gov/
 - Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
 ## Courts
-- Alcorn County Circuit Court — 600 Waldron St — (662) 286-7740
-- **Court Website**: https://www.co.alcorn.ms.us/
+- Corinth Municipal Court — 300 Childs St PO Box 669 — (662) 286-2236
+- **Court Website**: https://www.corinthms.gov/
 ## Building Permits
-- Corinth MS Building Department — https://www.corinthms.com/
+- Corinth MS Building Department — https://www.corinthms.gov/
 ## Hunting Regulations
 - MS Hunting Regulations — https://www.mdwfp.com/hunting/
 ## Fishing Regulations
