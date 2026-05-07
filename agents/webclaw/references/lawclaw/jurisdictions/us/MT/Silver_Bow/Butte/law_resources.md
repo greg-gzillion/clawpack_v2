@@ -2,12 +2,12 @@
 ## City Website
 - https://co.silverbow.mt.us/
 ## Law Enforcement
-- Butte-Silver Bow Law Enforcement — 175 W Granite St — (406) 497-1120
-- **Police Website**: https://co.silverbow.mt.us/law-enforcement
+- Butte-Silver Bow PD — 225 Alaska St — (406) 497-1120
+- **Police Website**: https://co.silverbow.mt.us/173/Police-Department
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
 - Butte City Court — 155 W Granite St Room 401 — (406) 497-6365
-- **Court Website**: https://co.silverbow.mt.us/city-court
+- **Court Website**: https://co.silverbow.mt.us/164/City-Court
 ## Building Permits
 - Butte Building Department — https://co.silverbow.mt.us/
 ## Hunting Regulations
