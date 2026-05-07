@@ -1,13 +1,14 @@
-﻿# Warsaw Municipal Court
+﻿# Polson Municipal Court
 ## Court Information
-- Handled by Benton County Circuit Court
-- Address: 100 E Columbia St, Warsaw, MO 64093
-- Phone: (660) 438-7712
-- Court Website: https://warsawmo.gov/court
+- Polson Municipal Court
+- Address: 106 1st St E, Polson, MT 59860
+- Phone: (406) 883-8212
+- Hours: Monday–Thursday, 8:00 AM – 5:00 PM
+- Court Website: https://www.cityofpolson.com/citycourt
 ## City Website
-- https://warsawmo.gov
+- https://www.cityofpolson.com
 ## Police Department
-- Warsaw Police Department
-- Address: 100 E High St, Warsaw, MO 64093
-- Phone: (660) 438-5441
-- Police Website: https://warsawmo.gov/police
+- Polson Police Department
+- Address: 106 1st St E, Polson, MT 59860
+- Phone: (406) 883-8211
+- Police Website: https://www.cityofpolson.com/police

@@ -1,15 +1,16 @@
-# Libby — Local Law Resources
+﻿# Libby — Local Law Resources
 ## City Website
-- https://cityoflibby.com/
+- https://cityoflibby.com
 ## Law Enforcement
-- Libby PD — 418 Mineral Ave — (406) 293-4112
-- **Police Website**: https://cityoflibby.com/departments-services/police/
+- Libby Police Department — 418 Mineral Ave, Libby, MT 59923 — (406) 293-4112
+- Police Website: https://cityoflibby.com/departments-services/police/
 - Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Libby Municipal Court — 418 Mineral Ave — (406) 293-4112
-- **Court Website**: https://cityoflibby.com/departments-services/municipal-courts/
+- Libby Municipal Court — 418 Mineral Ave, Libby, MT 59923 — (406) 293-4112
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Court Website: https://cityoflibby.com/departments-services/municipal-courts/
 ## Building Permits
-- Libby Building Department — https://cityoflibby.com/
+- Libby Building Department — https://cityoflibby.com
 ## Hunting Regulations
 - MT Hunting Regulations — https://fwp.mt.gov/hunting/
 ## Fishing Regulations

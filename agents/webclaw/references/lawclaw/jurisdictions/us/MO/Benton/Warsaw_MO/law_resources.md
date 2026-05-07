@@ -1,20 +1,21 @@
-﻿# Warsaw — Local Law Resources
+﻿# Polson — Local Law Resources
 ## City Website
-- https://warsawmo.gov
+- https://www.cityofpolson.com
 ## Law Enforcement
-- Warsaw Police Department — 100 E High St, Warsaw, MO 64093 — (660) 438-5441
-- Police Website: https://warsawmo.gov/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Polson Police Department — 106 1st St E, Polson, MT 59860 — (406) 883-8211
+- Police Website: https://www.cityofpolson.com/police
+- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
 ## Courts
-- Benton County Circuit Court — 100 E Columbia St, Warsaw, MO 64093 — (660) 438-7712
-- Court Website: https://warsawmo.gov/court
+- Polson Municipal Court — 106 1st St E, Polson, MT 59860 — (406) 883-8212
+- Hours: Monday–Thursday, 8:00 AM – 5:00 PM
+- Court Website: https://www.cityofpolson.com/citycourt
 ## Building Permits
-- Warsaw Building Department — https://warsawmo.gov
+- Polson Building Department — https://www.cityofpolson.com
 ## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
+- MT Hunting Regulations — https://fwp.mt.gov/hunting/
 ## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
+- MT Fishing Regulations — https://fwp.mt.gov/fishing/
 ## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
+- Montana Legal Services Association — https://www.mtlsa.org/
 ## Corrections
-- Benton County Jail
+- Lake County Detention Center
