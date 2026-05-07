@@ -1,6 +1,9 @@
-# Cassville Municipal Court
+﻿# Cassville Municipal Court
 ## Court Information
-- Barry County Circuit Court (no standalone municipal court) — 102 W Street — (417) 847-3133
-- **Court Website**: https://barrycountycourt.com/
+- Cassville Municipal Court — 101 E. Central Ave, Cassville, MO 65625 — (417) 847-2121 (City Hall)
+- Processes municipal ordinance and traffic violations.
+- Specific court hours and procedures may require calling ahead.
 ## City Website
-- https://www.cityofcassville.com/
+- https://www.cassvillemo.org
+## Police Department
+- Cassville PD — 101 E. Central Ave, Cassville, MO 65625 — (417) 847-2121

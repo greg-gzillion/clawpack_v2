@@ -1,6 +1,7 @@
-# Mexico MO Municipal Court
+﻿# Mexico Municipal Court
 ## Court Information
-- Mexico Municipal Court — 300 N Coal St 3rd Floor — (573) 581-2100 ext. 247
+- Mexico Municipal Court (12th Judicial Circuit) — 101 N. Jefferson St, Mexico, MO 65265 — (573) 567-4455
 - **Court Website**: https://www.mexicomissouri.net/557/Municipal-Court
+- Handles city ordinance violations.
 ## City Website
-- https://www.mexicomissouri.net/
+- https://www.mexicomissouri.net

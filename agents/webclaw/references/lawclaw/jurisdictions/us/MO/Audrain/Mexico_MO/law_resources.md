@@ -1,15 +1,16 @@
-# Mexico MO — Local Law Resources
+﻿# Mexico — Local Law Resources
 ## City Website
-- https://www.mexicomissouri.net/
+- https://www.mexicomissouri.net
 ## Law Enforcement
-- Mexico PD — 300 N Coal St — (573) 581-2100
+- Mexico PD — 201 N. Clark St, Mexico, MO 65265 — (573) 567-4411
 - **Police Website**: https://www.mexicomissouri.net/253/Police-Department
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Mexico Municipal Court — 300 N Coal St 3rd Floor — (573) 581-2100 ext. 247
+- Mexico Municipal Court (12th Judicial Circuit) — 101 N. Jefferson St, Mexico, MO 65265 — (573) 567-4455
 - **Court Website**: https://www.mexicomissouri.net/557/Municipal-Court
+- Handles city ordinance violations.
 ## Building Permits
-- Mexico MO Building Department — https://www.mexicomissouri.net/
+- Mexico Building Department — https://www.mexicomissouri.net
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

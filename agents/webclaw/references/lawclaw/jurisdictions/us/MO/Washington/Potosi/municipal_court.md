@@ -1,6 +1,8 @@
-# Potosi Municipal Court
+﻿# Potosi Municipal Court
 ## Court Information
-- Washington County Circuit Court — 100 E Columbia St — (573) 438-7553
-- **Court Website**: https://potosimo.org/
+- Handled by Washington County Circuit Court — 100 E Columbia St, Potosi, MO 63664 — (573) 438-7553
 ## City Website
-- https://potosimo.org/
+- https://potosimo.org
+## Police Department
+- Potosi PD — 121 E High St, Potosi, MO 63664 — (573) 438-5468
+- **Police Website**: https://potosimo.org/police
