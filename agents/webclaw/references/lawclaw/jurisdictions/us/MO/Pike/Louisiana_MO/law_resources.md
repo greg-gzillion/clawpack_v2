@@ -1,14 +1,15 @@
 # Louisiana MO — Local Law Resources
 ## City Website
-- https://www.louisianamo.com/
+- https://cityoflouisiana.com/
 ## Law Enforcement
-- Louisiana PD — 100 S 1st St — (573) 242-3336
+- Louisiana PD — 201 N Main St — (573) 754-5277
+- **Police Website**: https://cityoflouisiana.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Pike County Circuit Court — Bowling Green — (573) 324-3112
-- **Court Website**: https://pikecountymo.net/
+- Pike County Circuit Court — (573) 324-3112
+- **Court Website**: https://pikecountymo.com/
 ## Building Permits
-- Louisiana MO Building Department — https://www.louisianamo.com/
+- Louisiana MO Building Department — https://cityoflouisiana.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

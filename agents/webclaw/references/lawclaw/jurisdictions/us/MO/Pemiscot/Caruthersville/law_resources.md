@@ -1,14 +1,15 @@
 # Caruthersville — Local Law Resources
 ## City Website
-- https://www.caruthersvillemo.com/
+- https://www.caruthersvillecity.com/
 ## Law Enforcement
-- Caruthersville PD — 800 Ward Ave — (573) 333-4101
+- Caruthersville PD — 200 W 3rd St — (573) 333-0216
+- **Police Website**: https://www.caruthersvillecity.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Pemiscot County Circuit Court — 610 Ward Ave — (573) 333-2800
-- **Court Website**: https://www.pemiscotcounty.org/
+- Caruthersville Municipal Court — 1000 Ward Ave — (573) 333-0106
+- **Court Website**: https://www.caruthersvillecity.com/city_directory.php
 ## Building Permits
-- Caruthersville Building Department — https://www.caruthersvillemo.com/
+- Caruthersville Building Department — https://www.caruthersvillecity.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

@@ -1,14 +1,15 @@
 # Dexter MO — Local Law Resources
 ## City Website
-- https://www.dextermo.com/
+- https://www.cityofdexter.org/
 ## Law Enforcement
-- Dexter PD — 100 N Main St — (573) 628-3141
+- Dexter PD — 301 E Stoddard St — (573) 624-5512
+- **Police Website**: https://www.cityofdexter.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Stoddard County Circuit Court — 100 N Main St — (573) 628-3141
-- **Court Website**: https://www.stoddardcountymo.org/
+- Dexter Municipal Court — 305 Cooper St — (573) 624-4174
+- **Court Website**: https://www.cityofdexter.org/courts
 ## Building Permits
-- Dexter MO Building Department — https://www.dextermo.com/
+- Dexter MO Building Department — https://www.cityofdexter.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

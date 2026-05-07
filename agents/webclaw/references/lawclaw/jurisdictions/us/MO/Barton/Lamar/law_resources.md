@@ -1,14 +1,15 @@
 # Lamar — Local Law Resources
 ## City Website
-- https://ci.lamar.co.us/
+- https://www.bartoncounty.com/
 ## Law Enforcement
-- Lamar PD — 102 E Parmenter St — (417) 682-3546
+- Lamar PD — 1004 Gulf St — (417) 682-3546
+- **Police Website**: https://www.bartoncounty.com/phone-numbers
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Lamar Municipal Court — 102 E Parmenter St — (417) 682-5554
-- **Court Website**: https://ci.lamar.co.us/municipal-court
+- Barton County Courthouse — 1004 Gulf St — (417) 682-5554 ext. 316
+- **Court Website**: https://www.bartoncounty.com/
 ## Building Permits
-- Lamar Building Department — https://ci.lamar.co.us/
+- Lamar Building Department — https://www.bartoncounty.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

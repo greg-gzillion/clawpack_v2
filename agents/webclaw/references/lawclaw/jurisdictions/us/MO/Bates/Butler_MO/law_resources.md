@@ -1,14 +1,15 @@
 # Butler MO — Local Law Resources
 ## City Website
-- https://www.butlermo.org/
+- https://mo-butler.civiccities.com/
 ## Law Enforcement
-- Butler PD — 100 E Main St — (816) 532-2500
+- Butler PD — 22 W Ohio St — (660) 679-6465
+- **Police Website**: https://mo-butler.civiccities.com/index.aspx?nid=563
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Bates County Circuit Court — 100 N Main St — (816) 532-2500
-- **Court Website**: https://www.batescountymo.org/
+- Bates County Associate Circuit Court — 1 N Delaware St — (660) 679-3188
+- **Court Website**: https://batescounty.net/
 ## Building Permits
-- Butler MO Building Department — https://www.butlermo.org/
+- Butler MO Building Department — https://mo-butler.civiccities.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

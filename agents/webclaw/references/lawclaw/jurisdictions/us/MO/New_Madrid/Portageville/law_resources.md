@@ -1,14 +1,15 @@
 # Portageville — Local Law Resources
 ## City Website
-- https://www.portagevillemo.com/
+- https://cityofportageville.com/
 ## Law Enforcement
-- Portageville PD — 400 S 2nd St — (573) 339-2122
+- Portageville PD — 303 E Main St — (573) 379-5500
+- **Police Website**: https://cityofportageville.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- New Madrid County Circuit Court — New Madrid — (573) 748-2228
-- **Court Website**: https://www.newmadridcountymo.org/
+- Portageville Municipal Court — 303 E Main St — (573) 379-5500
+- **Court Website**: https://ecode360.com/29749470
 ## Building Permits
-- Portageville Building Department — https://www.portagevillemo.com/
+- Portageville Building Department — https://cityofportageville.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

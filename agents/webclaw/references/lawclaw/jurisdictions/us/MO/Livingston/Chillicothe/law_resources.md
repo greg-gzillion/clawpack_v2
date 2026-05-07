@@ -1,14 +1,15 @@
 # Chillicothe — Local Law Resources
 ## City Website
-- https://www.chillicothe.org/
+- https://chillicothecity.org/
 ## Law Enforcement
-- Chillicothe PD — 400 N Main St — (660) 646-2191
+- Chillicothe PD — 715 Washington St — (660) 646-1877
+- **Police Website**: https://chillicothecity.org/police-department
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Livingston County Circuit Court — 400 N Main St — (660) 646-2191
-- **Court Website**: https://www.livingstoncountymo.org/
+- Chillicothe Municipal Court — 715 Washington St — (660) 646-6800
+- **Court Website**: https://chillicothemunicipalcourt.org/
 ## Building Permits
-- Chillicothe Building Department — https://www.chillicothe.org/
+- Chillicothe Building Department — https://chillicothecity.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

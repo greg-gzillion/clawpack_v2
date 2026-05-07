@@ -1,14 +1,15 @@
 # Richmond MO — Local Law Resources
 ## City Website
-- https://www.richmondmo.org/
+- https://cityofrichmondmo.org/
 ## Law Enforcement
-- Richmond PD — 200 E Kansas St — (816) 776-5255
+- Richmond PD — 101 S Main St — (816) 776-5277
+- **Police Website**: https://cityofrichmondmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Ray County Circuit Court — 200 E Kansas St — (816) 776-5255
-- **Court Website**: https://www.raycountymo.org/
+- Ray County Circuit Court — (816) 776-5282
+- **Court Website**: https://raycountymo.com/
 ## Building Permits
-- Richmond MO Building Department — https://www.richmondmo.org/
+- Richmond MO Building Department — https://cityofrichmondmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

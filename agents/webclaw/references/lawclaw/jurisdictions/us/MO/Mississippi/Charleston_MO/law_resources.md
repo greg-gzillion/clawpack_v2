@@ -1,14 +1,15 @@
 # Charleston MO — Local Law Resources
 ## City Website
-- https://www.charlestonmo.org/
+- https://www.charlestondps.org/
 ## Law Enforcement
-- Charleston PD — 200 N Main St — (573) 649-3166
+- Charleston PD — 204 N Main St — (573) 683-3737
+- **Police Website**: https://www.charlestondps.org/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Mississippi County Circuit Court — 200 N Main St — (573) 649-3166
-- **Court Website**: https://www.mississippicountymo.org/
+- Charleston Municipal Court — 180 Lockwood Blvd — (573) 683-3737
+- **Court Website**: https://www.charlestondps.org/
 ## Building Permits
-- Charleston MO Building Department — https://www.charlestonmo.org/
+- Charleston MO Building Department — https://www.charlestondps.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

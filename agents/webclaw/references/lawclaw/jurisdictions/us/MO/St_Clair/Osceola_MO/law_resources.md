@@ -1,14 +1,15 @@
 # Osceola MO — Local Law Resources
 ## City Website
-- https://www.osceolamo.com/
+- http://www.cityofosceolamo.com/
 ## Law Enforcement
-- Osceola PD — 101 S Main St — (660) 822-3222
+- St. Clair County Sheriff — (417) 646-2565
+- **Police Website**: https://www.stclaircomo.com/
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- St. Clair County Circuit Court — 101 S Main St — (660) 822-3222
-- **Court Website**: https://www.stclaircountymo.org/
+- St. Clair County Circuit Court — 655 2nd St — (417) 646-2226
+- **Court Website**: http://www.cityofosceolamo.com/
 ## Building Permits
-- Osceola MO Building Department — https://www.osceolamo.com/
+- Osceola MO Building Department — http://www.cityofosceolamo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

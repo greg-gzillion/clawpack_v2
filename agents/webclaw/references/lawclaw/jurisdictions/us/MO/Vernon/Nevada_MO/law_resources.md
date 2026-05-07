@@ -1,14 +1,15 @@
 # Nevada MO — Local Law Resources
 ## City Website
-- https://nevadamo.gov/
+- https://www.mynevadamo.com/
 ## Law Enforcement
-- Nevada PD — 100 W Cherry St — (417) 667-2530
+- Nevada PD — 110 S Ash St — (417) 448-5105
+- **Police Website**: https://www.mynevadamo.com/government/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Vernon County Circuit Court — 100 W Cherry St Ste 15 — (417) 448-2525
-- **Court Website**: https://vernoncountymo.org/
+- Nevada Municipal Court — 110 S Ash St — (417) 448-5108
+- **Court Website**: https://www.mynevadamo.com/government/municipal-court
 ## Building Permits
-- Nevada MO Building Department — https://nevadamo.gov/
+- Nevada MO Building Department — https://www.mynevadamo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

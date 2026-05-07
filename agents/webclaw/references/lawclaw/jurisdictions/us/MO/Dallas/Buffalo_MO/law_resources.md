@@ -1,14 +1,15 @@
 # Buffalo MO — Local Law Resources
 ## City Website
-- https://www.buffalomo.com/
+- https://www.cityofbuffalo.org/
 ## Law Enforcement
-- Buffalo PD — 100 S Main St — (417) 345-2243
+- Buffalo PD — 311 N Poplar St — (417) 345-8836
+- **Police Website**: https://www.cityofbuffalo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Dallas County Circuit Court — 109 W Main St — (417) 345-2632
-- **Court Website**: https://www.dallascountymo.org/
+- Buffalo Circuit Court — 108 S Maple St — (417) 345-2243
+- **Court Website**: https://dallascountymo.com/
 ## Building Permits
-- Buffalo MO Building Department — https://www.buffalomo.com/
+- Buffalo MO Building Department — https://www.cityofbuffalo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

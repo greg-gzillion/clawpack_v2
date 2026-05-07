@@ -1,14 +1,15 @@
 # Versailles MO — Local Law Resources
 ## City Website
-- https://www.morgancountymo.gov/
+- https://cityofversaillesmo.com/
 ## Law Enforcement
-- Morgan County Sheriff — 100 E Newton St — (573) 378-4413
+- Versailles PD — 100 W Main St — (573) 539-2581
+- **Police Website**: https://cityofversaillesmo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Morgan County Circuit Court — 100 E Newton St — (573) 378-5436
-- **Court Website**: https://www.morgancountymo.gov/
+- Versailles Municipal Court — 100 W Main St — (573) 539-2590
+- **Court Website**: https://cityofversaillesmo.com/municipal-court
 ## Building Permits
-- Versailles MO Building Department — https://www.morgancountymo.gov/
+- Versailles MO Building Department — https://cityofversaillesmo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

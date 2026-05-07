@@ -1,14 +1,15 @@
 # Trenton MO — Local Law Resources
 ## City Website
-- https://www.trentonmo.org/
+- https://trentonmo.org/
 ## Law Enforcement
-- Trenton PD — 200 N Main St — (660) 359-2521
+- Trenton PD — 610 Main St — (660) 359-5557
+- **Police Website**: https://trentonmo.org/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Grundy County Circuit Court — 200 N Main St — (660) 359-2521
-- **Court Website**: https://www.grundycountymo.org/
+- Trenton Municipal Court — Grundy County Courthouse — (660) 359-4040
+- **Court Website**: https://trentonmunicipalcourt.org/
 ## Building Permits
-- Trenton MO Building Department — https://www.trentonmo.org/
+- Trenton MO Building Department — https://trentonmo.org/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

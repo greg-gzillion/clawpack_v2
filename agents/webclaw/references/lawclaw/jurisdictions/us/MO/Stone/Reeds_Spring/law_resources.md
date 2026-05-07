@@ -1,14 +1,15 @@
 # Reeds Spring — Local Law Resources
 ## City Website
-- https://www.reedsspringmo.com/
+- https://www.reedsspringmo.gov/
 ## Law Enforcement
-- Reeds Spring PD — 300 S Main St — (417) 275-2431
+- Reeds Spring PD — 22601 Main St — (417) 272-3107
+- **Police Website**: https://www.reedsspringmo.gov/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Stone County Circuit Court — Galena — (417) 357-6851
-- **Court Website**: https://www.stonecountymo.com/
+- Reeds Spring Municipal Court — 22601 Main St — (417) 272-3309
+- **Court Website**: https://www.reedsspringmo.gov/municipal-court
 ## Building Permits
-- Reeds Spring Building Department — https://www.reedsspringmo.com/
+- Reeds Spring Building Department — https://www.reedsspringmo.gov/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations

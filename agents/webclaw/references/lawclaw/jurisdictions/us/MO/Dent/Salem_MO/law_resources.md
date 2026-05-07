@@ -1,14 +1,15 @@
 # Salem MO — Local Law Resources
 ## City Website
-- https://www.cityofsalem.org/
+- https://salem-mo.com/
 ## Law Enforcement
-- Salem PD — 201 W Commercial St — (573) 729-4444
+- Salem PD — 200 E 3rd St — (417) 729-3575
+- **Police Website**: https://salem-mo.com/police
 - Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Dent County Circuit Court — 201 W Commercial St — (573) 729-4444
-- **Court Website**: https://www.dentcountymo.org/
+- Dent County Associate Circuit Court — 101 E 3rd St — (417) 729-3224
+- **Court Website**: https://dentcountymo.gov/
 ## Building Permits
-- Salem MO Building Department — https://www.cityofsalem.org/
+- Salem MO Building Department — https://salem-mo.com/
 ## Hunting Regulations
 - MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
 ## Fishing Regulations
