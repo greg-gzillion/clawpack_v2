@@ -1,19 +1,22 @@
-# Selma — Local Law Resources
+﻿# Selma — Local Law Resources
 ## City Website
-- https://www.selmaalabama.org/
+- https://selma-al.gov
+## City Hall
+- 222 Broad Street, Selma, AL 36701 — (334) 876-1201
 ## Law Enforcement
-- Selma Police Department — 211 Broad St — (334) 874-3145
-- Dallas County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Selma Police Department — 222 Broad Street, Selma, AL 36701 — (334) 876-1259
+- Emergency: 911
+- Website: https://selma-al.gov/departments/police-department/
 ## Courts
-- Selma Municipal Court — (334) 874-3135
+- Selma Municipal Court — 222 Broad Street, Selma, AL 36701 — (334) 876-1299
+- Pay Citations: https://violationinfo.com
+- Court Website: https://selma-al.gov/departments/municipal-court/
+## Detention Center
+- Dallas County Jail — 114 Court Square, Selma, AL 36701 — (334) 874-2585
+- Inmate Roster: https://www.dallascounty-al.org
 ## Building Permits
-- Selma Building Department — https://www.selmaalabama.org/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Dallas County Jail
+- Building Inspector — 222 Broad Street, Selma, AL 36701 — (334) 876-1210
+- Website: https://selma-al.gov/departments/building-inspector/
+## Library
+- Selma Dallas County Public Library — 218 Broad Street, Selma, AL 36701 — (334) 874-5464
+- Website: https://selma-al.gov/venue/selma-dallas-county-public-library/

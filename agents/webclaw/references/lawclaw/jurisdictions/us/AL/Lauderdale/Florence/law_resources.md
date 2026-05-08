@@ -1,19 +1,25 @@
-# Florence — Local Law Resources
+﻿# Florence — Local Law Resources
 ## City Website
-- https://www.florenceal.org/
+- https://www.florenceal.org
+## City Hall
+- 200 North Pine Street, Florence, AL 35630 — (256) 382-2541
 ## Law Enforcement
-- Florence Police Department — 702 S Seminary St — (256) 760-6500
-- Lauderdale County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Florence Police Department — 200 North Pine Street, Florence, AL 35630 — (256) 382-2541 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.florenceal.org/police
 ## Courts
-- Florence Municipal Court — 110 W College St — (256) 760-6625
+- Florence Municipal Court — 200 North Pine Street, Florence, AL 35630 — (256) 382-2541
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+- Pay Online: https://florenceal.govtportal.com
+- Court Website: https://www.florenceal.org/municipal-court
+## Detention Center
+- City Detention — 200 North Pine Street, Florence, AL 35630 — (256) 382-2541
 ## Building Permits
-- Florence Building Department — https://www.florenceal.org/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Lauderdale County Jail
+- Building Department — 200 North Pine Street, Florence, AL 35630 — (256) 382-2541
+- Building Dept: https://www.florenceal.org/building
+- Permit Applications: https://www.florenceal.org/DocumentCenter/View/15/Building-Permit-Applications
+- Zoning & Planning: https://www.florenceal.org/planning
+- Zoning Map: https://www.florenceal.org/DocumentCenter/View/14/Zoning-Map
+## Library
+- Florence Public Library – Main — 18 East Mobile Street, Florence, AL 35630 — (256) 386-4780
+- Library Website: https://www.florenceal.org/library

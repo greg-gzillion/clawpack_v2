@@ -21,3 +21,7 @@
 - Licenses available online
 ## Library
 - No dedicated public library in North Pole; services via Fairbanks North Star Borough Library system
+
+## Library
+- North Pole Branch Library — 656 NPHS Blvd, North Pole, AK 99705 — (907) 488-6101
+  Hours: Tue 11 AM–8 PM, Wed–Fri 11 AM–6 PM, Sat 11 AM–5 PM (Closed Mon)

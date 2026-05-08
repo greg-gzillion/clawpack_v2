@@ -1,6 +1,6 @@
 https://www.unalaska.gov/
 
-
+Harlowton — city site, police, municipal court, jail, library, hunt/fish
 https://www.muni.org/pages/default.aspx
 
 https://www.cityofbethel.org/
@@ -28,21 +28,110 @@ city.kodiak.ak.us
 Alaska Cities Needing Verified URLs:
 
 #	City	Borough	Needs
-1	Anchorage	Anchorage_Municipality	city site, police, municipal court
-2	Bethel	Bethel_Census_Area	city site, police, municipal court
-3	Fairbanks	Fairbanks_North_Star_Borough	city site, police, municipal court
-4	Homer	Kenai_Peninsula_Borough	city site, police, municipal court
-5	Juneau	Juneau_City_and_Borough	city site, police, municipal court
-6	Kenai	Kenai_Peninsula_Borough	city site, police, municipal court
+
+
+1	Anchorage	Anchorage_Municipality	city site, police, municipal court, jail, hunt/fish
+
+
+2	Bethel	Bethel_Census_Area	city site, police, municipal court, jail, hunt/fish
+
+3	Fairbanks	Fairbanks_North_Star_Borough	city site, police, municipal court, jail hunt/fish
+
+4	Homer	Kenai_Peninsula_Borough	city site, police, municipal court, jail hunt/fish lincense
+
+5	Juneau	Juneau_City_and_Borough	city site, police, municipal court, jail, hunt/fish
+
+6	Kenai	Kenai_Peninsula_Borough	city site, police, municipal court, jail, hunt/fish
+
 7	Ketchikan	Ketchikan_Gateway_Borough	city site, police, municipal court
-8	Kodiak	Kodiak_Island_Borough	city site, police, municipal court
-9	Nome	Nome_Census_Area	city site, police, municipal court
-10	Palmer	Matanuska_Susitna_Borough	city site, police, municipal court
-11	Seward	Kenai_Peninsula_Borough	city site, police, municipal court
-12	Sitka	Sitka_City_and_Borough	city site, police, municipal court
-13	Unalaska	Aleutians_West_Census_Area	city site, police, municipal court
-14	Valdez	Chugach_Census_Area	city site, police, municipal court
-15	Wasilla	Matanuska_Susitna_Borough	city site, police, municipal court
+8	Kodiak	Kodiak_Island_Borough	city site, police, municipal court, jail, hunt/fish
+
+9	Nome	Nome_Census_Area	city site, police, municipal court, jail, hunt/fish
+
+10	Palmer	Matanuska_Susitna_Borough	city site, police, municipal court, jail, hunt/fish
+
+11	Seward	Kenai_Peninsula_Borough	city site, police, municipal court, jail, hunt/fish
+
+12	Sitka	Sitka_City_and_Borough	city site, police, municipal court, jail, hunt/fish
+
+13	Unalaska	Aleutians_West_Census_Area	city site, police, municipal court, jail, hunt/fish
+
+14	Valdez	Chugach_Census_Area	city site, police, municipal court, jail, hunt/fish
+
+15	Wasilla	Matanuska_Susitna_Borough	city site, police, municipal court, jail, hunt/fish
+
+Aleutians East Borough
+
+King Cove — city site, police, municipal court, jail, hunt/fish
+
+
+Bristol Bay Borough
+
+Dillingham** — actually this is in Dillingham Census Area
+
+Copper River Census Area
+
+Cordova — city site, police, district court, jail, hunt/fish
+
+
+Denali Borough
+
+Healy — city site, police, district court
+, jail, hunt/fish
+
+Dillingham Census Area
+
+Dillingham — city site, police, district court, jail, hunt/fish
+
+
+Haines Borough
+
+Haines — city site, police, district court, jail, hunt/fish
+
+
+Kenai Peninsula Borough
+
+Soldotna — city site, police, district court, jail, hunt/fish
+
+
+Ketchikan Gateway Boroughcity site, police, district court, jail, hunt/fish
+
+ (already have Ketchikan)
+
+Kodiak Island Borough city site, police, district court, jail, hunt/fish
+
+(already have Kodiak)
+
+North Slope Borough
+
+Utqiaġvik (Barrow) — city site, police, district court, jail, hunt/fish
+
+
+Northwest Arctic Borough
+
+Kotzebue — city site, police, district court, jail, hunt/fish
+
+
+Petersburg Borough
+
+Petersburg — city site, police, district court, jail, hunt/fish
+
+
+Wrangell City and Borough
+
+Wrangell — city site, police, district court, jail, hunt/fish, library
+
+
+Yakutat City and Borough
+
+
+
+Yakutat — city site, police, district court, jail, hunt/fish, library
+
+Healy — city site, police, district court, jail, hunt/fish, library
+
+North Pole — city site, police, district court, jail, hunt/fish, library
+
 When you research each one, give me the format:
 
 text
@@ -61,61 +150,154 @@ Police department (URL or phone)
 
 Municipal court (URL or note that county court handles it)
 
+
+
+all details for this city please, urls, addresses, phone,
 #	City	County	Info Needed
-1	Prattville	Autauga	city site, police, municipal court
-2	Daphne	Baldwin	city site, police, municipal court
-3	Fairhope	Baldwin	city site, police, municipal court
-4	Foley	Baldwin	city site, police, municipal court
-5	Gulf Shores	Baldwin	city site, police, municipal court
-6	Eufaula	Barbour	city site, police, municipal court
-7	Greenville	Butler	city site, police, municipal court
-8	Anniston	Calhoun	city site, police, municipal court
-9	Oxford	Calhoun	city site, police, municipal court
-10	Valley	Chambers	city site, police, municipal court
-11	Centre	Cherokee	city site, police, municipal court
-12	Clanton	Chilton	city site, police, municipal court
-13	Jackson	Clarke	city site, police, municipal court
-14	Enterprise	Coffee	city site, police, municipal court
-15	Muscle Shoals	Colbert	city site, police, municipal court
-16	Andalusia	Covington	city site, police, municipal court
-17	Opp	Covington	city site, police, municipal court
-18	Cullman	Cullman	city site, police, municipal court
-19	Ozark	Dale	city site, police, municipal court
-20	Selma	Dallas	city site, police, municipal court
-21	Fort Payne	DeKalb	city site, police, municipal court
-22	Millbrook	Elmore	city site, police, municipal court
-23	Wetumpka	Elmore	city site, police, municipal court
-24	Atmore	Escambia	city site, police, municipal court
-25	Brewton	Escambia	city site, police, municipal court
-26	Gadsden	Etowah	city site, police, municipal court
-27	Russellville	Franklin	city site, police, municipal court
-28	Geneva	Geneva	city site, police, municipal court
-29	Dothan	Houston	city site, police, municipal court
-30	Scottsboro	Jackson	city site, police, municipal court
-31	Bessemer	Jefferson	city site, police, municipal court
-32	Birmingham	Jefferson	city site, police, municipal court
-33	Center Point	Jefferson	city site, police, municipal court
-34	Homewood	Jefferson	city site, police, municipal court
-35	Hoover	Jefferson	city site, police, municipal court
-36	Mountain Brook	Jefferson	city site, police, municipal court
-37	Vestavia Hills	Jefferson	city site, police, municipal court
-38	Florence	Lauderdale	city site, police, municipal court
-39	Moulton	Lawrence	city site, police, municipal court
-40	Auburn	Lee	city site, police, municipal court
-41	Opelika	Lee	city site, police, municipal court
-42	Athens	Limestone	city site, police, municipal court
-43	Huntsville	Madison	city site, police, municipal court
-44	Hamilton	Marion	city site, police, municipal court
-45	Albertville	Marshall	city site, police, municipal court
-46	Guntersville	Marshall	city site, police, municipal court
-47	Prichard	Mobile	city site, police, municipal court
-48	Saraland	Mobile	city site, police, municipal court
-49	Monroeville	Monroe	city site, police, municipal court
-50	Montgomery	Montgomery	city site, police, municipal court
-51	Decatur	Morgan	city site, police, municipal court
-52	Hartselle	Morgan	city site, police, municipal court
-53	Troy	Pike	city site, police, municipal court
-54	Roanoke	Randolph	city site, police, municipal court
+
+1	Prattville	Autauga	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+
+
+2	Daphne	Baldwin	city site, police, municipal court, jail, hunt/fish, library, building permit urls
+
+
+3	Fairhope	Baldwin	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+4	Foley	Baldwin	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+5	Gulf Shores	Baldwin	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+6	Eufaula	Barbour	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+7	Greenville	Butler	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+8	Anniston	Calhoun	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+9	Oxford	Calhoun	city site, police, municipal court, jail, hunt/fish, library building permit urls
+ 
+
+10	Valley	Chambers	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+11	Centre	Cherokee	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+12	Clanton	Chilton	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+13	Jackson	Clarke	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+14	Enterprise	Coffee	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+15	Muscle Shoals	Colbert	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+16	Andalusia	Covington	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+17	Opp	Covington	city site, police, municipal court, jail, hunt/fish, library 
+building permit urls
+
+18	Cullman	Cullman	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+, jail, hunt/fish, library
+
+
+19	Ozark	Dale	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+20	Selma	Dallas	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+21	Fort Payne	DeKalb	city site, police, municipal court, jail, hunt/fish, library building permit urls
+ 
+
+22	Millbrook	Elmore	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+23	Wetumpka	Elmore	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+24	Atmore	Escambia	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+25	Brewton	Escambia	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+26	Gadsden	Etowah	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+27	Russellville	Franklin	city site, police, municipal court, jail, hunt/fish, library building permit urls
+ 
+building permit urls
+28	Geneva	Geneva	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+29	Dothan	Houston	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+30	Scottsboro	Jackson	city site, police, municipal court, jail, hunt/fish, library building permit urls
+ 
+
+31	Bessemer	Jefferson	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+building permit urls
+32	Birmingham	Jefferson	city site, police, municipal court, jail, hunt/fish, library  building permit urls
+
+
+33	Center Point	Jefferson	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+
+34	Homewood	Jefferson	city site, police, municipal court, jail, hunt/fish, library building permit urls
+35	Hoover	Jefferson	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+36	Mountain Brook	Jefferson	city site, police, municipal court , jail, hunt/fish, library building permit urls
+
+37	Vestavia Hills	Jefferson	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+38	Florence	Lauderdale	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+39	Moulton	Lawrence	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+40	Auburn	Lee	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+41	Opelika	Lee	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+42	Athens	Limestone	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+43	Huntsville	Madison	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+44	Hamilton	Marion	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+45	Albertville	Marshall	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+46	Guntersville	Marshall	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+47	Prichard	Mobile	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+48	Saraland	Mobile	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+49	Monroeville	Monroe	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+50	Montgomery	Montgomery	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+51	Decatur	Morgan	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+52	Hartselle	Morgan	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+53	Troy	Pike	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
+54	Roanoke	Randolph	city site, police, municipal court, jail, hunt/fish, library building permit urls
+
 55	Phenix City	Russell	city site, police, municipal court
 56	Alabaster	Shelby	city site, police, municipal court
 57	Helena	Shelby	city site, police, municipal court
@@ -1444,391 +1626,392 @@ Minnesota has 33 cities across 20 counties. Here's the full research list:
 
 City County Needs
 
-1 Apple Valley Dakota city site, police, district court
-2 Bemidji Beltrami city site, police, district court
-3 Blaine Anoka city site, police, district court
-4 Bloomington Hennepin city site, police, district court
-5 Brainerd Crow Wing city site, police, district court
-6 Brooklyn Park Hennepin city site, police, district court
-7 Burnsville Dakota city site, police, district court
-8 Chaska Carver city site, police, district court
-9 Coon Rapids Anoka city site, police, district court
-10 Duluth St. Louis city site, police, district court
-11 Eagan Dakota city site, police, district court
-12 Eden Prairie Hennepin city site, police, district court
-13 Edina Hennepin city site, police, district court
-14 Elk River Sherburne city site, police, district court
-15 Faribault Rice city site, police, district court
-16 Fergus Falls Otter Tail city site, police, district court
-17 Grand Rapids Itasca city site, police, district court
-18 Lakeville Dakota city site, police, district court
-19 Mankato Blue Earth city site, police, district court
-20 Maple Grove Hennepin city site, police, district court
-21 Minneapolis Hennepin city site, police, district court
-22 Minnetonka Hennepin city site, police, district court
-23 Moorhead Clay city site, police, district court
-24 North Mankato Nicollet city site, police, district court
-25 Otsego Wright city site, police, district court
-26 Plymouth Hennepin city site, police, district court
-27 Red Wing Goodhue city site, police, district court
-28 Rochester Olmsted city site, police, district court
-29 Roseville Ramsey city site, police, district court
-30 Shakopee Scott city site, police, district court
-31 St. Cloud Stearns city site, police, district court
-32 St. Paul Ramsey city site, police, district court
-33 Winona Winona city site, police, district court
-34 Woodbury Washington city site, police, district court
+1 Apple Valley Dakota city site, police, municipal court
+2 Bemidji Beltrami city site, police, municipal court
+3 Blaine Anoka city site, police, municipal court
+4 Bloomington Hennepin city site, police, municipal court
+5 Brainerd Crow Wing city site, police, municipal court
+6 Brooklyn Park Hennepin city site, police, municipal court
+7 Burnsville Dakota city site, police, municipal court
+8 Chaska Carver city site, police, municipal court
+9 Coon Rapids Anoka city site, police, municipal court
+10 Duluth St. Louis city site, police, municipal court
+11 Eagan Dakota city site, police, municipal court
+12 Eden Prairie Hennepin city site, police, municipal court
+13 Edina Hennepin city site, police, municipal court
+14 Elk River Sherburne city site, police, municipal court
+15 Faribault Rice city site, police, municipal court
+16 Fergus Falls Otter Tail city site, police, municipal court
+17 Grand Rapids Itasca city site, police, municipal court
+18 Lakeville Dakota city site, police, municipal court
+19 Mankato Blue Earth city site, police, municipal court
+20 Maple Grove Hennepin city site, police, municipal court
+21 Minneapolis Hennepin city site, police, municipal court
+22 Minnetonka Hennepin city site, police, municipal court
+23 Moorhead Clay city site, police, municipal court
+24 North Mankato Nicollet city site, police, municipal court
+25 Otsego Wright city site, police, municipal court
+26 Plymouth Hennepin city site, police, municipal court
+27 Red Wing Goodhue city site, police, municipal court
+28 Rochester Olmsted city site, police, municipal court
+29 Roseville Ramsey city site, police, municipal court
+30 Shakopee Scott city site, police, municipal court
+
+31 St. Cloud Stearns city site, police, municipal court
+32 St. Paul Ramsey city site, police, municipal court
+33 Winona Winona city site, police, municipal court
+34 Woodbury Washington city site, police, municipal court
 
 
 Aitkin
 
-Aitkin — city site, police, district court
+Aitkin — city site, police, municipal court
 
 Decker
 
-Detroit Lakes — city site, police, district court
+Detroit Lakes — city site, police, municipal court
 
 Benton
 
-Sauk Rapids — city site, police, district court
+Sauk Rapids — city site, police, municipal court
 
-Foley — city site, police, district court
+Foley — city site, police, municipal court
 
 Brown
 
-New Ulm — city site, police, district court
+New Ulm — city site, police, municipal court
 
 Carlton
 
-Cloquet — city site, police, district court
+Cloquet — city site, police, municipal court
 
 Cass
 
-Walker — city site, police, district court
+Walker — city site, police, municipal court
 
-Lake Shore — city site, police, district court
+Lake Shore — city site, police, municipal court
 
 Chippewa
 
-Montevideo — city site, police, district court
+Montevideo — city site, police, municipal court
 
 Chisago
 
-North Branch — city site, police, district court
+North Branch — city site, police, municipal court
 
-Chisago City — city site, police, district court
+Chisago City — city site, police, municipal court
 
-Lindstrom — city site, police, district court
+Lindstrom — city site, police, municipal court
 
 Clay
 
-Dilworth — city site, police, district court
+Dilworth — city site, police, municipal court
 
 Cottonwood
 
-Windom — city site, police, district court
+Windom — city site, police, municipal court
 
 Crow Wing
 
-Baxter — city site, police, district court
+Baxter — city site, police, municipal court
 
-Crosslake — city site, police, district court
+Crosslake — city site, police, municipal court
 
 Dakota
 
-Inver Grove Heights — city site, police, district court
+Inver Grove Heights — city site, police, municipal court
 
-Mendota Heights — city site, police, district court
+Mendota Heights — city site, police, municipal court
 
-South St. Paul — city site, police, district court
+South St. Paul — city site, police, municipal court
 
-Rosemount — city site, police, district court
+Rosemount — city site, police, municipal court
 
-Farmington — city site, police, district court
+Farmington — city site, police, municipal court
 
 Dodge
 
-Kasson — city site, police, district court
+Kasson — city site, police, municipal court
 
 Douglas
 
-Alexandria — city site, police, district court
+Alexandria — city site, police, municipal court
 
 Fillmore
 
-Preston — city site, police, district court
+Preston — city site, police, municipal court
 
-Harmony — city site, police, district court
+Harmony — city site, police, municipal court
 
 Freeborn
 
-Albert Lea — city site, police, district court
+Albert Lea — city site, police, municipal court
 
 Goodhue
 
-Northfield — city site, police, district court
+Northfield — city site, police, municipal court
 
-Cannon Falls — city site, police, district court
+Cannon Falls — city site, police, municipal court
 
 Hennepin
 
-Brooklyn Center — city site, police, district court
+Brooklyn Center — city site, police, municipal court
 
-Champlin — city site, police, district court
+Champlin — city site, police, municipal court
 
-Crystal — city site, police, district court
+Crystal — city site, police, municipal court
 
-Golden Valley — city site, police, district court
+Golden Valley — city site, police, municipal court
 
-Hopkins — city site, police, district court
+Hopkins — city site, police, municipal court
 
-New Hope — city site, police, district court
+New Hope — city site, police, municipal court
 
-Richfield — city site, police, district court
+Richfield — city site, police, municipal court
 
-Robbinsdale — city site, police, district court
+Robbinsdale — city site, police, municipal court
 
-St. Louis Park — city site, police, district court
+St. Louis Park — city site, police, municipal court
 
-St. Anthony — city site, police, district court
+St. Anthony — city site, police, municipal court
 
-Shoreview — city site, police, district court
+Shoreview — city site, police, municipal court
 
-Fridley — city site, police, district court
+Fridley — city site, police, municipal court
 
 Houston
 
-Caledonia — city site, police, district court
+Caledonia — city site, police, municipal court
 
-La Crescent — city site, police, district court
+La Crescent — city site, police, municipal court
 
 Hubbard
 
-Park Rapids — city site, police, district court
+Park Rapids — city site, police, municipal court
 
 Isanti
 
-Cambridge — city site, police, district court
+Cambridge — city site, police, municipal court
 
-Isanti — city site, police, district court
+Isanti — city site, police, municipal court
 
 Kanabec
 
-Mora — city site, police, district court
+Mora — city site, police, municipal court
 
 Kandiyohi
 
-Willmar — city site, police, district court
+Willmar — city site, police, municipal court
 
 Koochiching
 
-International Falls — city site, police, district court
+International Falls — city site, police, municipal court
 
 Lac qui Parle
 
-Madison — city site, police, district court
+Madison — city site, police, municipal court
 
 Lake
 
-Two Harbors — city site, police, district court
+Two Harbors — city site, police, municipal court
 
-Silver Bay — city site, police, district court
+Silver Bay — city site, police, municipal court
 
 Le Sueur
 
-Le Sueur — city site, police, district court
+Le Sueur — city site, police, municipal court
 
-Le Center — city site, police, district court
+Le Center — city site, police, municipal court
 
 Lyon
 
-Marshall — city site, police, district court
+Marshall — city site, police, municipal court
 
 Martin
 
-Fairmont — city site, police, district court
+Fairmont — city site, police, municipal court
 
 McLeod
 
-Hutchinson — city site, police, district court
+Hutchinson — city site, police, municipal court
 
-Glencoe — city site, police, district court
+Glencoe — city site, police, municipal court
 
 Meeker
 
-Litchfield — city site, police, district court
+Litchfield — city site, police, municipal court
 
 Mille Lacs
 
-Milaca — city site, police, district court
+Milaca — city site, police, municipal court
 
-Princeton — city site, police, district court
+Princeton — city site, police, municipal court
 
 Morrison
 
-Little Falls — city site, police, district court
+Little Falls — city site, police, municipal court
 
 Mower
 
-Austin — city site, police, district court
+Austin — city site, police, municipal court
 
 Nobles
 
-Worthington — city site, police, district court
+Worthington — city site, police, municipal court
 
 Olmsted
 
-Stewartville — city site, police, district court
+Stewartville — city site, police, municipal court
 
-Byron — city site, police, district court
+Byron — city site, police, municipal court
 
 Otter Tail
 
-Perham — city site, police, district court
+Perham — city site, police, municipal court
 
-Pelican Rapids — city site, police, district court
+Pelican Rapids — city site, police, municipal court
 
-Battle Lake — city site, police, district court
+Battle Lake — city site, police, municipal court
 
 Pennington
 
-Thief River Falls — city site, police, district court
+Thief River Falls — city site, police, municipal court
 
 Pine
 
-Hinckley — city site, police, district court
+Hinckley — city site, police, municipal court
 
-Pine City — city site, police, district court
+Pine City — city site, police, municipal court
 
 Pipestone
 
-Pipestone — city site, police, district court
+Pipestone — city site, police, municipal court
 
 Polk
 
-Crookston — city site, police, district court
+Crookston — city site, police, municipal court
 
-East Grand Forks — city site, police, district court
+East Grand Forks — city site, police, municipal court
 
 Pope
 
-Glenwood — city site, police, district court
+Glenwood — city site, police, municipal court
 
 Ramsey
 
-Maplewood — city site, police, district court
+Maplewood — city site, police, municipal court
 
-White Bear Lake — city site, police, district court
+White Bear Lake — city site, police, municipal court
 
-New Brighton — city site, police, district court
+New Brighton — city site, police, municipal court
 
-Mounds View — city site, police, district court
+Mounds View — city site, police, municipal court
 
-North St. Paul — city site, police, district court
+North St. Paul — city site, police, municipal court
 
-Vadnais Heights — city site, police, district court
+Vadnais Heights — city site, police, municipal court
 
-Arden Hills — city site, police, district court
+Arden Hills — city site, police, municipal court
 
-Little Canada — city site, police, district court
+Little Canada — city site, police, municipal court
 
 Redwood
 
-Redwood Falls — city site, police, district court
+Redwood Falls — city site, police, municipal court
 
 Renville
 
-Olivia — city site, police, district court
+Olivia — city site, police, municipal court
 
 Rice
 
-Northfield — city site, police, district court
+Northfield — city site, police, municipal court
 
 Roseau
 
-Roseau — city site, police, district court
+Roseau — city site, police, municipal court
 
 Scott
 
-Savage — city site, police, district court
+Savage — city site, police, municipal court
 
-Prior Lake — city site, police, district court
+Prior Lake — city site, police, municipal court
 
-Jordan — city site, police, district court
+Jordan — city site, police, municipal court
 
-Belle Plaine — city site, police, district court
+Belle Plaine — city site, police, municipal court
 
 Sherburne
 
-Big Lake — city site, police, district court
+Big Lake — city site, police, municipal court
 
-Becker — city site, police, district court
+Becker — city site, police, municipal court
 
-Zimmerman — city site, police, district court
+Zimmerman — city site, police, municipal court
 
 Sibley
 
-Gaylord — city site, police, district court
+Gaylord — city site, police, municipal court
 
 St. Louis
 
-Hermantown — city site, police, district court
+Hermantown — city site, police, municipal court
 
-Hibbing — city site, police, district court
+Hibbing — city site, police, municipal court
 
-Virginia — city site, police, district court
+Virginia — city site, police, municipal court
 
-Ely — city site, police, district court
+Ely — city site, police, municipal court
 
-Chisholm — city site, police, district court
+Chisholm — city site, police, municipal court
 
-Eveleth — city site, police, district court
+Eveleth — city site, police, municipal court
 
-Gilbert — city site, police, district court
+Gilbert — city site, police, municipal court
 
-Mountain Iron — city site, police, district court
+Mountain Iron — city site, police, municipal court
 
-Proctor — city site, police, district court
+Proctor — city site, police, municipal court
 
 Stearns
 
-Sartell — city site, police, district court
+Sartell — city site, police, municipal court
 
-Sauk Centre — city site, police, district court
+Sauk Centre — city site, police, municipal court
 
-Melrose — city site, police, district court
+Melrose — city site, police, municipal court
 
-Cold Spring — city site, police, district court
+Cold Spring — city site, police, municipal court
 
-Waite Park — city site, police, district court
+Waite Park — city site, police, municipal court
 
 Steele
 
-Owatonna — city site, police, district court
+Owatonna — city site, police, municipal court
 
 Todd
 
-Long Prairie — city site, police, district court
+Long Prairie — city site, police, municipal court
 
-Staples — city site, police, district court
+Staples — city site, police, municipal court
 
 Wabasha
 
-Wabasha — city site, police, district court
+Wabasha — city site, police, municipal court
 
-Lake City — city site, police, district court
+Lake City — city site, police, municipal court
 
 Wadena
 
-Wadena — city site, police, district court
+Wadena — city site, police, municipal court
 
 Waseca
 
-Waseca — city site, police, district court
+Waseca — city site, police, municipal court
 
 Washington
 
-Stillwater — city site, police, district court
+Stillwater — city site, police, municipal court
 
 Cottage Grove — city site, police, district court
 
@@ -1895,7 +2078,6 @@ City County Needs
 4 Cape Girardeau Cape Girardeau city site, police, municipal court
 5 Chesterfield St. Louis County city site, police, municipal court
 6 Clayton St. Louis County city site, police, municipal court
-
 7 Columbia Boone city site, police, municipal court
 8 Florissant St. Louis County city site, police, municipal court
 9 Independence Jackson city site, police, municipal court
@@ -1903,20 +2085,75 @@ City County Needs
 11 Joplin Jasper city site, police, municipal court
 12 Kansas City Jackson city site, police, municipal court
 13 Kirkwood St. Louis County city site, police, municipal court
-
 14 Lee's Summit Jackson city site, police, municipal court
 15 Liberty Clay city site, police, municipal court
 16 O'Fallon St. Charles city site, police, municipal court
 17 Ozark Christian city site, police, municipal court
 18 Parkville Platte city site, police, municipal court
 19 Springfield Greene city site, police, municipal court
-
 20 St. Charles St. Charles city site, police, municipal court
 21 St. Joseph Buchanan city site, police, municipal court
 22 St. Louis St. Louis City city site, police, municipal court
 23 St. Peters St. Charles city site, police, municipal court
 24 University City St. Louis County city site, police, municipal court
 25 Washington Franklin city site, police, municipal court
+
+Benton
+
+Warsaw — city site, police, municipal court
+
+Jackson
+
+Gladstone — city site, police, municipal court
+
+Raymore — city site, police, municipal court
+
+Jasper
+
+Neosho — city site, police, municipal court
+
+Lawrence
+
+Monett — city site, police, municipal court
+
+St. Louis County
+
+Affton — city site, police, municipal court
+
+Ballwin — city site, police, municipal court
+
+Bridgeton — city site, police, municipal court
+
+Concord — city site, police, municipal court
+
+Creve Coeur — city site, police, municipal court
+
+Ferguson — city site, police, municipal court
+
+Hazelwood — city site, police, municipal court
+
+Jennings — city site, police, municipal court
+
+Lemay — city site, police, municipal court
+
+Manchester — city site, police, municipal court
+
+Maryland Heights — city site, police, municipal court
+
+Mehlville — city site, police, municipal court
+
+Oakville — city site, police, municipal court
+
+Overland — city site, police, municipal court
+
+St. Ann — city site, police, municipal court
+
+Webster Groves — city site, police, municipal court
+
+Wildwood — city site, police, municipal court
+
+
+
 
 
 Adair
@@ -2621,4 +2858,101 @@ Cutbank  city site, police, municipal court
 
 Red lodge city site, police, municipal court
 
+Write-Host "$state : $withMuni / $total cities have municipal_court.md"
+>> }
+AK : 15 / 65 cities have municipal_court.md
+AL : 66 / 100 cities have municipal_court.md
+AR : 42 / 73 cities have municipal_court.md
+AZ : 32 / 60 cities have municipal_court.md
+CA : 85 / 114 cities have municipal_court.md
+CO : 43 / 76 cities have municipal_court.md
+CT : 6 / 31 cities have municipal_court.md
+DE : 4 / 22 cities have municipal_court.md
+FL : 129 / 235 cities have municipal_court.md
+GA : 93 / 127 cities have municipal_court.md
+HI : 7 / 28 cities have municipal_court.md
+IA : 71 / 119 cities have municipal_court.md
+ID : 39 / 66 cities have municipal_court.md
+IL : 53 / 82 cities have municipal_court.md
+IN : 52 / 80 cities have municipal_court.md
+KS : 33 / 59 cities have municipal_court.md
+KY : 60 / 94 cities have municipal_court.md
+LA : 0 / 104 cities have municipal_court.md
+MA : 0 / 136 cities have municipal_court.md
+MD : 0 / 93 cities have municipal_court.md
+ME : 0 / 83 cities have municipal_court.md
+MI : 0 / 138 cities have municipal_court.md
+MN : 0 / 197 cities have municipal_court.md
+MO : 116 / 160 cities have municipal_court.md
+MS : 60 / 88 cities have municipal_court.md
+MT : 22 / 48 cities have municipal_court.md
+PS C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\lawclaw\jurisdictions\us\mn>  which states have too few, municiple courts and which are supposed to have 0
+Here's the breakdown:
 
+States that should have 0 municipal courts (these states don't use municipal courts, they use county/state courts instead):
+
+LA — 0/104 ✓ (Louisiana uses City Courts, not municipal courts)
+
+MA — 0/136 ✓ (Massachusetts uses District Courts)
+
+MD — 0/93 ✓ (Maryland uses District Courts)
+
+ME — 0/83 ✓ (Maine uses District Courts)
+
+MI — 0/138 ❌ (Michigan DOES have municipal courts — needs rework)
+
+MN — 0/197 ❌ (Minnesota DOES have municipal courts — needs rework)
+
+States that need more municipal courts (incomplete coverage):
+
+AK — 15/65 (needs 50 more)
+
+AL — 66/100 (needs 34 more)
+
+AR — 42/73 (needs 31 more)
+
+AZ — 32/60 (needs 28 more)
+
+CA — 85/114 (needs 29 more)
+
+CO — 43/76 (needs 33 more)
+
+CT — 6/31 (needs 25 more)
+
+DE — 4/22 (needs 18 more)
+
+FL — 129/235 (needs 106 more)
+
+GA — 93/127 (needs 34 more)
+
+HI — 7/28 (needs 21 more)
+
+IA — 71/119 (needs 48 more)
+
+ID — 39/66 (needs 27 more)
+
+IL — 53/82 (needs 29 more)
+
+IN — 52/80 (needs 28 more)
+
+KS — 33/59 (needs 26 more)
+
+KY — 60/94 (needs 34 more)
+
+MO — 116/160 (nearly done, 44 remaining)
+
+MS — 60/88 (needs 28 more)
+
+MT — 22/48 (needs 26 more)
+
+Priority states to fix first:
+
+MI — 138 cities, all need municipal court files (Michigan has municipal courts — 16th, 36th, etc.)
+
+MN — 197 cities, all need municipal court files (Minnesota has municipal courts)
+
+MO — 44 remaining
+
+MS — 28 remaining
+
+MT — 26 remaining

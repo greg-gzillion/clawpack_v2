@@ -24,3 +24,8 @@
 - Alaska Legal Services Corporation — https://www.alsc-law.org/
 ## Corrections
 - Fairbanks Correctional Center
+
+## Libraries
+- Noel Wien Public Library — 1215 Cowles St — (907) 459-1020
+- North Pole Branch — 656 NPHS Blvd, North Pole — (907) 488-6101
+- Bookmobile — (907) 459-1031

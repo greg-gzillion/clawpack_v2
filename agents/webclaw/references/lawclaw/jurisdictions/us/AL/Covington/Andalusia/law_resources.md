@@ -1,19 +1,22 @@
-# Andalusia — Local Law Resources
+﻿# Andalusia — Local Law Resources
 ## City Website
-- https://www.cityofandalusia.com/
+- https://andalusiaal.gov
+## City Hall
+- 505 E Three Notch Street, Andalusia, AL 36420 — (334) 222-3312
 ## Law Enforcement
-- Andalusia Police Department — 200 N Water St — (334) 222-7555
-- Covington County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Andalusia Police Department — 102 Opp Avenue, Andalusia, AL 36420 — (334) 222-1155
+- Emergency: 911
+- Website: https://andalusiaal.gov/police
 ## Courts
-- Covington County courts handle municipal cases
+- Andalusia Municipal Court — 102 Opp Avenue, Andalusia, AL 36420 — (334) 222-1155
+- Court Website: https://andalusiaal.gov/municipal-court
+## Detention Center
+- Covington County Jail — 290 Hillcrest Drive, Andalusia, AL 36420 — (334) 428-2640
+- Sheriff's Office: https://alexandercityonline.com/alabama/covington-county/
 ## Building Permits
-- Andalusia Building Department — https://www.cityofandalusia.com/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Covington County Jail
+- Planning & Development — 505 E Three Notch Street, Andalusia, AL 36420 — (334) 222-3312
+- Permit Application: https://andalusia.seamlessdocs.com/f/n0g7ud7pilyc
+- Business Application: https://andalusia.seamlessdocs.com/f/BusinessApp
+## Library
+- Covington County Public Library — 250 N Court Street, Andalusia, AL 36420 — (334) 222-4711
+- Website: https://covingtoncountylibrary.org

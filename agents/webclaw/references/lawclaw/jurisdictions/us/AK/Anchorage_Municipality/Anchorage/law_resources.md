@@ -21,3 +21,12 @@
 - Alaska Legal Services Corporation — https://www.alsc-law.org/
 ## Corrections
 - Anchorage Municipal Jail
+
+## Libraries
+- Anchorage Public Library — https://anchoragelibrary.org
+- Z.J. Loussac Library (Main) — 3600 Denali St — (907) 343-2975
+- Chugiak-Eagle River — 12001 Business Blvd #176, Eagle River — (907) 343-1530
+- Mountain View — 120 Bragaw St — (907) 343-2818
+- Muldoon — 1251 Muldoon Rd #158 — (907) 343-4032
+- Girdwood (Gerrish) — 250 Egloff Dr — (907) 343-4024
+- Dimond Express (lockers) — 800 E Dimond Blvd

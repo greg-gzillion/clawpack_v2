@@ -26,3 +26,7 @@
 - Alaska Legal Services Corporation — https://www.alsc-law.org/
 ## Corrections
 - North Pole Jail / Fairbanks Correctional Center
+
+## Library
+- North Pole Branch Library — 656 NPHS Blvd — (907) 488-6101
+  Hours: Tue 11 AM–8 PM, Wed–Fri 11 AM–6 PM, Sat 11 AM–5 PM (Closed Mon)

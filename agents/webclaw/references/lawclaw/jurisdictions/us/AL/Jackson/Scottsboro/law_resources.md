@@ -1,19 +1,25 @@
-# Scottsboro — Local Law Resources
+﻿# Scottsboro — Local Law Resources
 ## City Website
-- https://www.scottsboro.org/
+- https://www.scottsboro.org
+## City Hall
+- 201 North Main Street, Scottsboro, AL 35768 — (256) 259-3500
 ## Law Enforcement
-- Scottsboro Police Department — (256) 259-3535
-- Jackson County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Scottsboro Police Department — 201 North Main Street, Scottsboro, AL 35768 — (256) 259-3500 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.scottsboro.org/police
 ## Courts
-- Scottsboro Municipal Court — (256) 259-3515
+- Scottsboro Municipal Court — 201 North Main Street, Scottsboro, AL 35768 — (256) 259-3535
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+- Pay Online: https://scottsboroal.govtportal.com
+- Court Website: https://www.scottsboro.org/municipal-court
+## Detention Center
+- City Detention — 201 North Main Street, Scottsboro, AL 35768 — (256) 259-3500
 ## Building Permits
-- Scottsboro Building Department — https://www.scottsboro.org/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Jackson County Jail
+- Building Department — 201 North Main Street, Scottsboro, AL 35768 — (256) 259-3500
+- Building Dept: https://www.scottsboro.org/building-department
+- Permit Forms: https://www.scottsboro.org/DocumentCenter/View/16/Building-Department-Forms
+- Zoning & Planning: https://www.scottsboro.org/planning-commission
+- Zoning Map: https://www.scottsboro.org/DocumentCenter/View/15/Zoning-Map
+## Library
+- Scottsboro Public Library — 407 North Main Street, Scottsboro, AL 35768 — (256) 259-3525
+- Library Website: https://www.scottsborolibrary.org

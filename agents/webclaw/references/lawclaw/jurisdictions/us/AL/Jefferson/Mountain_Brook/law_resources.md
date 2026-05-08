@@ -1,19 +1,25 @@
-# Mountain Brook — Local Law Resources
+﻿# Mountain Brook — Local Law Resources
 ## City Website
-- https://www.mountainbrookal.gov/
+- https://www.mountainbrookal.gov
+## City Hall
+- 1118 Brook Highland Parkway, Mountain Brook, AL 35243 — (205) 870-6100
 ## Law Enforcement
-- Mountain Brook Police Department — (205) 870-3333
-- Jefferson County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Mountain Brook Police Department — 1118 Brook Highland Parkway, Mountain Brook, AL 35243 — (205) 870-6161 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.mountainbrookal.gov/police
 ## Courts
-- Mountain Brook Municipal Court — (205) 870-3360
+- Mountain Brook Municipal Court — 1118 Brook Highland Parkway, Mountain Brook, AL 35243 — (205) 870-6170
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+- Pay Online: https://mountainbrookal.govtportal.com
+- Court Website: https://www.mountainbrookal.gov/court
+## Detention Center
+- City Detention — 1118 Brook Highland Parkway, Mountain Brook, AL 35243 — (205) 870-6161
 ## Building Permits
-- Mountain Brook Building Department — https://www.mountainbrookal.gov/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Jefferson County Jail
+- Building Department — 1118 Brook Highland Parkway, Mountain Brook, AL 35243 — (205) 870-6150
+- Building Dept: https://www.mountainbrookal.gov/building
+- Permit Applications: https://www.mountainbrookal.gov/DocumentCenter/View/10/Building-Permit-Applications
+- Zoning & Planning: https://www.mountainbrookal.gov/planning
+- Zoning Map: https://www.mountainbrookal.gov/DocumentCenter/View/9/Zoning-Map
+## Library
+- Mountain Brook Library — 1001 Brook Highland Parkway, Mountain Brook, AL 35243 — (205) 870-6180
+- Library Website: https://www.mountainbrooklibrary.org

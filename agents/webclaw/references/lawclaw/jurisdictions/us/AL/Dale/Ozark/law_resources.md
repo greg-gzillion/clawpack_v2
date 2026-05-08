@@ -1,19 +1,23 @@
-# Ozark — Local Law Resources
+﻿# Ozark — Local Law Resources
 ## City Website
-- https://www.cityofozark.org/
+- https://www.ozarkal.gov
+## City Hall
+- 275 North Union Avenue, Ozark, AL 36360 — (334) 774-5393
 ## Law Enforcement
-- Ozark Police Department — 401 N 13th St — (334) 733-8911
-- Dale County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Ozark Police Department — 275 North Union Avenue, Ozark, AL 36360 — (334) 774-2644 (Non-emergency)
+- Emergency: 911
+- Website: https://www.ozarkal.gov/police-department
 ## Courts
-- Ozark Municipal Court — (334) 733-8900
+- Ozark Municipal Court — 275 North Union Avenue, Ozark, AL 36360 — (334) 774-9311
+- Pay Online: https://ozarkal.govtportal.com
+- Court Website: https://www.ozarkal.gov/municipal-court
+## Detention Center
+- Dale County Jail — 113 W Reynolds Street, Ozark, AL 36360 — (334) 774-3114
+- Inmate Roster: https://www.dalecountyal.gov
 ## Building Permits
-- Ozark Building Department — https://www.cityofozark.org/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Dale County Jail
+- Inspection Department — 275 North Union Avenue, Ozark, AL 36360 — (334) 774-5393
+- Inspection: https://www.ozarkal.gov/inspection-department
+- Forms & Permits: https://www.ozarkal.gov/electronic-forms
+## Library
+- Ozark Dale County Library — 200 N. 5th Street, Ozark, AL 36360 — (334) 774-4475
+- Website: https://www.ozarkal.gov/ozark-dale-county-library

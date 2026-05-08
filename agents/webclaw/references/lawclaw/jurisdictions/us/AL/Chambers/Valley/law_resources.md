@@ -1,19 +1,23 @@
-# Valley — Local Law Resources
+﻿# Valley — Local Law Resources
 ## City Website
-- https://www.cityofvalley.com/
+- https://cityofvalley.com
+## City Hall
+- 20 Fob James Drive, Valley, AL 36854 — (334) 756-5220
+- Mayor: Leonard Riley
 ## Law Enforcement
-- Valley Police Department — 500 College St — (334) 765-4411
-- Chambers County Sheriff
-- Alabama Law Enforcement Agency — https://www.alea.gov/
+- Valley Police Department — 20 Fob James Drive, Valley, AL 36854 — (334) 756-5200 (Non-emergency)
+- Emergency: 911
+- Website: https://cityofvalley.com/departments/police-department/
 ## Courts
-- Valley Municipal Court — 500 College St — (334) 765-4422
+- Valley Municipal Court — 20 Fob James Drive, Valley, AL 36854 (City Hall) — (334) 756-5220
+- Court Website: https://cityofvalley.com/government/municipal-court/
+## Detention Center
+- City Detention — 20 Fob James Drive, Valley, AL 36854 — (334) 756-5200
+- Inmate Info: https://alabamaprisonroster.org
 ## Building Permits
-- Valley Building Department — https://www.cityofvalley.com/
-## Hunting Regulations
-- AL Hunting Regulations — https://www.outdooralabama.com/hunting
-## Fishing Regulations
-- AL Fishing Regulations — https://www.outdooralabama.com/fishing
-## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Chambers County Jail
+- Planning and Development — 20 Fob James Drive, Valley, AL 36854 — (334) 756-5220
+- Permit Applications: https://cityofvalley.com/government/faq/
+- Online Forms: https://chamberscoida.com/doing-business/licenses-permits/
+## Library
+- Chambers County Public Library – Valley Branch — 20 Fob James Drive, Valley, AL 36854 — (334) 756-5220
+- Website: https://chamberscountyal.gov/library
