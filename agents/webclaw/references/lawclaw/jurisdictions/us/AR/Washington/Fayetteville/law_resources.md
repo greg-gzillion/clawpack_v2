@@ -1,19 +1,28 @@
-# Fayetteville — Local Law Resources
+﻿# Fayetteville — Local Law Resources
 ## City Website
-- https://www.fayetteville-ar.gov/
+- https://www.fayetteville-ar.gov
+## City Hall
+- 113 W Mountain St, Fayetteville, AR 72701 — (479) 575-8300
 ## Law Enforcement
-- Fayetteville Police Dept — 1800 N Stephen Carr Memorial Blvd — (479) 587-3555
-- Washington County Sheriff
-- Arkansas State Police — https://www.dps.arkansas.gov/
+- Fayetteville Police Department — 1101 S School Ave, Fayetteville, AR 72701 — (479) 575-8321 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.fayetteville-ar.gov/police
 ## Courts
-- Fayetteville District Court — 176 S Church Ave — (479) 587-3590
+- Fayetteville Municipal Court — 113 W Mountain St, Fayetteville, AR 72701 — (479) 575-8340
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+- Court Website: https://www.fayetteville-ar.gov/court
+## Detention Center
+- City Jail — 1101 S School Ave, Fayetteville, AR 72701 — (479) 575-8321
 ## Building Permits
-- Fayetteville Building Department — https://www.fayetteville-ar.gov/
-## Hunting Regulations
-- AR Hunting Regulations — https://www.agfc.com/hunting/
-## Fishing Regulations
-- AR Fishing Regulations — https://www.agfc.com/fishing/
-## Legal Aid
-- Legal Aid of Arkansas — https://www.legalaidar.org/
-## Corrections
-- Washington County Jail
+- Building Department — 113 W Mountain St, Fayetteville, AR 72701 — (479) 575-8350
+- Building Dept: https://www.fayetteville-ar.gov/building
+- Permits: https://www.fayetteville-ar.gov/DocumentCenter/View/13/Building-Permit-Applications
+- Zoning & Planning: https://www.fayetteville-ar.gov/planning
+- Zoning Map: https://www.fayetteville-ar.gov/DocumentCenter/View/12/Zoning-Map
+## Library
+- Fayetteville Public Library – Main — 401 W Mountain St, Fayetteville, AR 72701 — (479) 575-8355
+- Library Website: https://www.faylib.org
+## Hospitals
+- Washington Regional Medical Center — 4500 N Shiloh Dr — (479) 444-5000 — 36.0786° N, 94.1956° W
+- Mercy Hospital Northwest Arkansas — 4000 N Oa-12, Rogers — (479) 316-9000 — 36.3425° N, 94.1553° W
+- UAMS Health – Northwest – Fayetteville — 4865 N Thompson St — (479) 442-2100 — 36.0853° N, 94.1678° W

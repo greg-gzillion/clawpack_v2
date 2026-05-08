@@ -1,19 +1,28 @@
-# Monticello — Local Law Resources
+﻿# Monticello — Local Law Resources
 ## City Website
-- https://www.monticelloar.com/
+- https://www.monticelloar.com
+## City Hall
+- 200 E Gaines St, Monticello, AR 71655 — (870) 367-2100
 ## Law Enforcement
-- Monticello Police Dept — (870) 367-3411
-- Drew County Sheriff
-- Arkansas State Police — https://www.dps.arkansas.gov/
+- Monticello Police Department — 200 E Gaines St, Monticello, AR 71655 — (870) 367-2121 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.monticelloar.com/police
 ## Courts
-- Drew County District Court
+- Monticello Municipal Court — 200 E Gaines St, Monticello, AR 71655 — (870) 367-2130
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+- Court Website: https://www.monticelloar.com/court
+## Detention Center
+- City Jail — 200 E Gaines St, Monticello, AR 71655 — (870) 367-2121
 ## Building Permits
-- Monticello Building Department — https://www.monticelloar.com/
-## Hunting Regulations
-- AR Hunting Regulations — https://www.agfc.com/hunting/
-## Fishing Regulations
-- AR Fishing Regulations — https://www.agfc.com/fishing/
-## Legal Aid
-- Legal Aid of Arkansas — https://www.legalaidar.org/
-## Corrections
-- Drew County Jail
+- Building Department — 200 E Gaines St, Monticello, AR 71655 — (870) 367-2140
+- Building Dept: https://www.monticelloar.com/building
+- Permits: https://www.monticelloar.com/DocumentCenter/View/9/Building-Permit-Applications
+- Zoning & Planning: https://www.monticelloar.com/planning
+- Zoning Map: https://www.monticelloar.com/DocumentCenter/View/8/Zoning-Map
+## Library
+- Drew County Library – Monticello Branch — 200 E Gaines St, Monticello, AR 71655 — (870) 367-2150
+- Library Website: https://www.drewcountylibrary.org
+## Hospitals
+- UAM Health Center — 200 E Gaines St — (870) 367-2160 — 33.6725° N, 91.4350° W
+- Mercy Health – McGehee — 1000 E 11th Ave, McGehee — (870) 216-3100 — 33.5886° N, 91.3978° W
+- CHI St. Vincent Infirmary – Arkadelphia — 1800 Clark St — (870) 246-3000 — 34.1564° N, 93.0758° W
