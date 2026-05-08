@@ -1,19 +1,22 @@
-# Clovis — Local Law Resources
+﻿# Clovis — Local Law Resources
 ## City Website
-- https://www.clovisca.gov/
+- https://www.clovisca.gov
+## City Hall
+- 1033 Fifth St, Clovis, CA 93612 — (559) 324-2000
 ## Law Enforcement
-- Clovis Police Dept — (559) 324-2000
-- Fresno County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Clovis Police Department — 1033 Fifth St, Clovis, CA 93612 — (559) 324-2400 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.clovisca.gov/police
 ## Courts
-- Fresno County Superior Court — Clovis Courthouse — 1011 5th St — (559) 457-2000
+- Fresno County Superior Court – Clovis Branch — 1033 Fifth St, Clovis, CA 93612
+- Court Website: https://www.fresnocountycourts.org
+## Detention Center
+- Fresno County Jail — Inmate Search: https://inmate.fresnocountysheriff.org
 ## Building Permits
-- Clovis Building Department — https://www.clovisca.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Fresno County Jail
+- Building Division — 1033 Fifth St, Clovis, CA 93612 — (559) 324-2390
+- Building Dept: https://www.clovisca.gov/building
+## Library
+- Clovis Regional Library — 1663 Shaw Ave, Clovis, CA 93611 — (559) 324-2380
+- Library Website: https://www.fresnolibrary.org
+## Hospitals
+- Community Regional Medical Center – Clovis Campus — 1955 Fowler Ave — (559) 324-3000 — 36.8240° N, 119.7050° W

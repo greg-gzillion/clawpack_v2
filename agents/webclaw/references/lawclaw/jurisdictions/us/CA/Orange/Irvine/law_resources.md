@@ -1,19 +1,22 @@
-# Irvine — Local Law Resources
+﻿# Irvine — Local Law Resources
 ## City Website
-- https://www.cityofirvine.org/
+- https://www.cityofirvine.org
+## City Hall
+- 1 Civic Center Plaza, Irvine, CA 92606 — (949) 724-6000
 ## Law Enforcement
-- Irvine Police Dept — 1 Civic Center Plz — (949) 724-7000
-- Orange County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Irvine Police Department — 1 Civic Center Plaza, Irvine, CA 92606 — (949) 724-7000 (Non-emergency)
+- Emergency: 911
+- Police Website: https://irvinepd.gov
 ## Courts
-- Orange County Superior Court — Harbor Justice Center — 4601 Jamboree Rd, Newport Beach — (657) 622-5400
+- Orange County Superior Court – Harbor Justice Center, Newport Beach
+- Court Website: https://www.occourts.org
+## Detention Center
+- IPD Jail — 1 Civic Center Plaza, Irvine, CA 92606 — (949) 724-7000
 ## Building Permits
-- Irvine Building Department — https://www.cityofirvine.org/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Orange County Jail
+- Building & Safety Division — 1 Civic Center Plaza, Irvine, CA 92606 — (949) 724-6313
+- Permits: https://permits.cityofirvine.org
+## Library
+- Irvine Public Library – Main — 15245 Culver Dr, Irvine, CA 92606 — (949) 724-6700
+- Library Website: https://www.cityofirvine.org/library
+## Hospitals
+- UC Irvine Medical Center — 101 The City Dr S, Orange — (714) 456-7890 — 33.7870° N, 117.8550° W

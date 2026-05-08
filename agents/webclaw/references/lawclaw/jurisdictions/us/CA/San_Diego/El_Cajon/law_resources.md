@@ -1,19 +1,22 @@
-# El Cajon — Local Law Resources
+﻿# El Cajon — Local Law Resources
 ## City Website
-- https://www.elcajon.gov/
+- https://www.elcajon.gov
+## City Hall
+- 200 Civic Center Way, El Cajon, CA 92020 — (619) 441-1776
 ## Law Enforcement
-- El Cajon Police Dept — 100 Civic Center Way — (619) 579-3311
-- San Diego County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- El Cajon Police Department — 100 Civic Center Way, El Cajon, CA 92020 — (619) 579-3311 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.elcajon.gov/police
 ## Courts
-- San Diego County Superior Court — www.sdcourt.ca.gov
+- San Diego County Superior Court – El Cajon Branch — 100 Civic Center Way, El Cajon, CA 92020
+- Court Website: https://www.sdcourt.ca.gov
+## Detention Center
+- El Cajon PD Jail — 100 Civic Center Way, El Cajon, CA 92020
 ## Building Permits
-- El Cajon Building Department — https://www.elcajon.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- San Diego County Jail
+- Building & Safety Division — 200 Civic Center Way, El Cajon, CA 92020 — (619) 441-1726
+- Building Dept: https://www.elcajon.gov/building
+## Library
+- El Cajon Library — 200 E Main St, El Cajon, CA 92020 — (619) 590-3131
+- Library Website: https://www.sandiego.gov/library
+## Hospitals
+- Sharp Grossmont Hospital — 5555 Grossmont Blvd, La Mesa — (619) 465-8311 — 32.7750° N, 116.9850° W

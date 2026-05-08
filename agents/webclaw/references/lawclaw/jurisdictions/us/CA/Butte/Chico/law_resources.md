@@ -1,19 +1,23 @@
-# Chico — Local Law Resources
+﻿# Chico — Local Law Resources
 ## City Website
-- https://www.chicoca.gov/
+- https://www.chico.ca.us
+## City Hall
+- 411 Main St, Chico, CA 95926 — (530) 879-6700
 ## Law Enforcement
-- Chico Police Dept — (530) 897-4910
-- Butte County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Chico Police Department — 550 W 2nd St, Chico, CA 95926 — (530) 891-4100 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.chico.ca.us/police
 ## Courts
-- Butte County Superior Court — (530) 532-7002
+- Butte County Superior Court – Chico — 725 Oak St, Chico, CA 95926
+- Court Website: https://www.butte.courts.ca.gov
+## Detention Center
+- Butte County Jail – North Valley — 550 E 9th St, Chico, CA 95926
+- Inmate Search: https://www.buttecounty.net
 ## Building Permits
-- Chico Building Department — https://www.chicoca.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Butte County Jail
+- Building Division — 411 Main St, Chico, CA 95926 — (530) 879-6700
+- Building Dept: https://www.chico.ca.us/building
+## Library
+- Chico City Library — 550 W 3rd St, Chico, CA 95926 — (530) 879-4180
+- Library Website: https://www.chicolibrary.org
+## Hospitals
+- Enloe Medical Center — 1531 Esplanade — (530) 332-7300 — 39.7320° N, 121.8380° W

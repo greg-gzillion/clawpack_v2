@@ -1,19 +1,22 @@
-# Ontario — Local Law Resources
+﻿# Ontario — Local Law Resources
 ## City Website
-- https://www.ontarioca.gov/
+- https://www.ontarioca.gov
+## City Hall
+- 303 E B St, Ontario, CA 91764 — (909) 395-2000
 ## Law Enforcement
-- Ontario Police Dept — (909) 395-2001
-- San Bernardino County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Ontario Police Department — 303 E B St, Ontario, CA 91764 — (909) 395-2001 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.ontarioca.gov/police
 ## Courts
-- San Bernardino County Superior Court — www.sb-court.org
+- San Bernardino County Superior Court – Ontario Branch — 325 W B St, Ontario, CA 91766
+- Court Website: https://www.sb-court.org
+## Detention Center
+- Ontario PD Jail — 303 E B St, Ontario, CA 91764
 ## Building Permits
-- Ontario Building Department — https://www.ontarioca.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- San Bernardino County Jail
+- Building Division — 303 E B St, Ontario, CA 91764 — (909) 395-2023
+- Building Dept: https://www.ontarioca.gov/building
+## Library
+- Ontario Public Library – Main — 2255 E Holt Ave, Ontario, CA 91761 — (909) 395-2004
+- Library Website: https://www.ontarioca.gov/library
+## Hospitals
+- Ontario Medical Center — 400 N Euclid Ave — (909) 477-1111 — 34.0650° N, 117.6250° W

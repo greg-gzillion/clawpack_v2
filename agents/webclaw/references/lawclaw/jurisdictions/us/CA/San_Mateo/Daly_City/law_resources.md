@@ -1,19 +1,22 @@
-# Daly City — Local Law Resources
+﻿# Daly City — Local Law Resources
 ## City Website
-- https://www.dalycity.org/
+- https://www.dalycity.org
+## City Hall
+- 333 – 90th St, Daly City, CA 94015 — (650) 991-8000
 ## Law Enforcement
-- Daly City Police Dept — (650) 991-8119
-- San Mateo County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Daly City Police Department — 333 – 90th St, Daly City, CA 94015 — (650) 991-8119 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.dalycity.org/police
 ## Courts
-- San Mateo County Superior Court — www.sanmateocourt.org
+- San Mateo County Superior Court — 400 County Center, Redwood City, CA 94063
+- Court Website: https://www.smcourts.org
+## Detention Center
+- Daly City Jail — 333 – 90th St, Daly City, CA 94015 — (650) 991-8092
 ## Building Permits
-- Daly City Building Department — https://www.dalycity.org/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- San Mateo County Jail
+- Building Division — 333 – 90th St, Daly City, CA 94015 — (650) 991-8061
+- Building Dept: https://www.dalycity.org/building
+## Library
+- Daly City Public Library – Serramonte — 3090 Serramonte Blvd, Daly City, CA 94015 — (650) 991-8023
+- Library Website: https://www.dalycity.org/library
+## Hospitals
+- Seton Medical Center — 1900 Sullivan Ave — (650) 991-8111 — 37.6780° N, 122.4750° W

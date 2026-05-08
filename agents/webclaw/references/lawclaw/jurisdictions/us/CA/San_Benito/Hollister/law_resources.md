@@ -1,19 +1,23 @@
-# Hollister — Local Law Resources
+﻿# Hollister — Local Law Resources
 ## City Website
-- https://www.cityofhollister.org/
+- https://www.hollister.ca.gov
+## City Hall
+- 375 Fifth St, Hollister, CA 95023 — (831) 636-4300
 ## Law Enforcement
-- Hollister Police Dept — (831) 636-4040
-- San Benito County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Hollister Police Department — 375 Fifth St, Hollister, CA 95023 — (831) 636-4350 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.hollister.ca.gov/police
 ## Courts
-- San Benito County Superior Court — 450 4th St — (831) 636-4057
+- San Benito County Superior Court — 350 Fifth St, Hollister, CA 95023
+- Court Website: https://www.sanbenitocourt.org
+## Detention Center
+- San Benito County Jail — 225 Fifth St, Hollister, CA 95023
+- Inmate Search: https://www.sbcsheriff.org
 ## Building Permits
-- Hollister Building Department — https://www.cityofhollister.org/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- San Benito County Jail
+- Building Division — 339 Fifth St, Hollister, CA 95023 — (831) 636-4355
+- Building Dept: https://www.hollister.ca.gov/building
+## Library
+- Hollister Public Library — 375 Fifth St, Hollister, CA 95023 — (831) 637-5594
+- Library Website: https://www.sanbenitocountylibrary.org
+## Hospitals
+- San Benito Health Foundation – Hollister Clinic — 535 Fifth St — (831) 637-5600 — 36.8650° N, 121.4050° W

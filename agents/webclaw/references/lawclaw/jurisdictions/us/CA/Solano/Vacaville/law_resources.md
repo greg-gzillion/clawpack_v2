@@ -1,19 +1,23 @@
-# Vacaville — Local Law Resources
+﻿# Vacaville — Local Law Resources
 ## City Website
-- https://www.cityofvacaville.com/
+- https://www.cityofvacaville.gov
+## City Hall
+- 650 Merchant St, Vacaville, CA 95688 — (707) 449-5100
 ## Law Enforcement
-- Vacaville Police Dept — 660 Merchant St — (707) 449-5231
-- Solano County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Vacaville Police Department — 650 Merchant St, Vacaville, CA 95688 — (707) 449-5200 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofvacaville.gov/police
 ## Courts
-- Solano County Superior Court — www.solano.courts.ca.gov
+- Solano County Superior Court – Vacaville Branch — 2350 Harbison Way, Vacaville, CA 95687
+- Court Website: https://www.solanocourt.org
+## Detention Center
+- Solano County Jail — 2350 Harbison Way, Vacaville, CA 95687
+- Inmate Search: https://inmateinfo.solanocounty.com
 ## Building Permits
-- Vacaville Building Department — https://www.cityofvacaville.com/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Solano County Jail
+- Building Division — 650 Merchant St, Vacaville, CA 95688 — (707) 449-5152
+- Building Dept: https://www.cityofvacaville.gov/building
+## Library
+- Vacaville Public Library – Cultural Center — 2121 Bicentennial Way, Vacaville, CA 95688 — (866) 572-7587
+- Library Website: https://www.solanolibrary.com
+## Hospitals
+- NorthBay VacaValley Hospital — 2350 Harbison Way — (707) 624-7000 — 38.3450° N, 121.9850° W

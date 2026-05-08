@@ -1,19 +1,23 @@
-# Santa Clarita — Local Law Resources
+﻿# Santa Clarita — Local Law Resources
 ## City Website
-- https://www.santaclarita.com/
+- https://www.santaclarita.gov
+## City Hall
+- 23920 Valencia Blvd, Santa Clarita, CA 91355 — (661) 259-CITY (2489)
 ## Law Enforcement
-- LA County Sheriff — Santa Clarita Station — (323) 881-2411
-- Los Angeles County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Santa Clarita Valley Sheriff's Station (LASD) — 27220 Tourney Rd, Valencia, CA 91355 — (661) 260-4000 (Non-emergency)
+- Emergency: 911
+- Sheriff Website: https://www.lasd.org
 ## Courts
-- LA County Superior Court — Santa Clarita Courthouse — 23747 W Valencia Blvd — (661) 253-7301
+- Los Angeles County Superior Court – Santa Clarita Branch — 26500 The Old Rd, Santa Clarita, CA 91355
+- Court Website: https://www.lasuperiorcourt.org
+## Detention Center
+- Santa Clarita Valley Sheriff's Station Jail — 27220 Tourney Rd, Valencia, CA 91355
+- Inmate Search: https://inmatelocator.lasd.org
 ## Building Permits
-- Santa Clarita Building Department — https://www.santaclarita.com/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Los Angeles County Jail
+- Building & Safety Division — 23920 Valencia Blvd, Suite 140, Santa Clarita, CA 91355 — (661) 255-4935
+- Building Dept: https://www.santaclarita.gov/building-safety
+## Library
+- Santa Clarita Public Library – Central — 21100 Golden Valley Rd, Santa Clarita, CA 91355 — (661) 259-3600
+- Library Website: https://www.santaclaritalibrary.com
+## Hospitals
+- Henry Mayo Newhall Hospital — 23845 McBean Pkwy, Valencia — (661) 259-1111 — 34.4390° N, 118.5700° W

@@ -1,19 +1,22 @@
-# Garden Grove — Local Law Resources
+﻿# Garden Grove — Local Law Resources
 ## City Website
-- https://www.ci.garden-grove.ca.us/
+- https://www.ggcity.org
+## City Hall
+- 11300 Stanford Ave, Garden Grove, CA 92840 — (714) 741-5000
 ## Law Enforcement
-- Garden Grove Police Dept — 11301 Acacia Pkwy — (714) 741-5704
-- Orange County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Garden Grove Police Department — 11300 Stanford Ave, Garden Grove, CA 92840 — (714) 741-5200 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.ggcity.org/police
 ## Courts
-- Orange County Superior Court — North Justice Center — Fullerton — (657) 622-5600
+- Orange County Superior Court – Garden Grove Branch — 11300 Stanford Ave, Garden Grove, CA 92840
+- Court Website: https://www.occourts.org
+## Detention Center
+- Garden Grove City Jail — 11300 Stanford Ave, Garden Grove, CA 92840
 ## Building Permits
-- Garden Grove Building Department — https://www.ci.garden-grove.ca.us/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Orange County Jail
+- Building & Safety Division — 11222 Acacia Pkwy, Garden Grove, CA 92840 — (714) 741-5307
+- Building Dept: https://www.ggcity.org/building-and-safety
+## Library
+- Garden Grove Public Library — 11222 Acacia Pkwy, Garden Grove, CA 92840 — (714) 741-5270
+- Library Website: https://www.ggpl.org
+## Hospitals
+- UC Irvine Medical Center – Garden Grove — 11701 Acacia Pkwy — (714) 446-5555 — 33.7750° N, 117.9350° W

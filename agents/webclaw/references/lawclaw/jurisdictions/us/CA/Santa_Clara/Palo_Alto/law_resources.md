@@ -1,19 +1,22 @@
-# Palo Alto — Local Law Resources
+﻿# Palo Alto — Local Law Resources
 ## City Website
-- https://www.cityofpaloalto.org/
+- https://www.paloalto.gov
+## City Hall
+- 250 Hamilton Ave, Palo Alto, CA 94301 — (650) 329-2496
 ## Law Enforcement
-- Palo Alto Police Dept — 275 Forest Ave — (650) 329-2406
-- Santa Clara County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Palo Alto Police Department — 260 Hamilton Ave, Palo Alto, CA 94301 — (650) 329-2411 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.paloaltopolice.org
 ## Courts
-- Santa Clara County Superior Court — Palo Alto Courthouse — 270 Grant Ave — (650) 462-3800
+- Santa Clara County Superior Court — 191 N First St, San Jose, CA 95113
+- Court Website: https://www.scscourt.org
+## Detention Center
+- Palo Alto PD Jail — 260 Hamilton Ave, Palo Alto, CA 94301
 ## Building Permits
-- Palo Alto Building Department — https://www.cityofpaloalto.org/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Santa Clara County Jail
+- Building Division — 250 Hamilton Ave, Palo Alto, CA 94301 — (650) 329-2496
+- Building Dept: https://www.paloalto.gov/building
+## Library
+- Palo Alto City Library – Main — 1301 Willow Rd, Menlo Park, CA 94025 — (650) 329-2497
+- Library Website: https://www.cityofpaloalto.org/library
+## Hospitals
+- Stanford Health Care – Palo Alto — 300 Pasteur Dr — (650) 723-6601 — 37.4450° N, 122.1750° W

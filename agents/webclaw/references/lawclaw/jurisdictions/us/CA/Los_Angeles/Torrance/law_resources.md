@@ -1,19 +1,23 @@
-# Torrance — Local Law Resources
+﻿# Torrance — Local Law Resources
 ## City Website
-- https://www.torranceca.gov/
+- https://www.torranceca.gov
+## City Hall
+- 3031 Torrance Blvd, Torrance, CA 90503 — (310) 328-5310
 ## Law Enforcement
-- Torrance Police Dept — 3300 Civic Center Dr — (310) 618-5500
-- Los Angeles County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Torrance Police Department — 3300 Civic Center Dr, Torrance, CA 90503 — (310) 328-3456 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.torranceca.gov/our-city/police
 ## Courts
-- LA County Superior Court — Torrance Courthouse — 32100 Civic Center Dr — (310) 253-5000
+- Los Angeles County Superior Court – Southwest District — 825 Maple Ave, Torrance, CA 90503
+- Court Website: https://www.lacourt.org
+## Detention Center
+- Torrance City Jail — 3300 Civic Center Dr, Torrance, CA 90503 — (310) 618-5631
 ## Building Permits
-- Torrance Building Department — https://www.torranceca.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Los Angeles County Jail
+- Building & Safety Division — 3031 Torrance Blvd, Torrance, CA 90503 — (310) 618-2870
+- Building Dept: https://www.torranceca.gov/building
+## Library
+- Torrance Public Library – Civic Center — 3301 Torrance Blvd, Torrance, CA 90503 — (310) 618-5959
+- Library Website: https://www.library.torranceca.gov
+## Hospitals
+- Torrance Memorial Medical Center — 3330 Lomita Blvd — (310) 325-9111 — 33.8120° N, 118.3430° W
+- Providence Little Company of Mary Medical Center — 2701 Lomita Blvd — (310) 530-2011

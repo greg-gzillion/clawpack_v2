@@ -1,19 +1,23 @@
-# Vallejo — Local Law Resources
+﻿# Vallejo — Local Law Resources
 ## City Website
-- https://www.cityofvallejo.net/
+- https://www.vallejo.gov
+## City Hall
+- 555 Santa Clara St, Vallejo, CA 94590 — (707) 648-4522
 ## Law Enforcement
-- Vallejo Police Dept — 111 Amador St — (707) 648-4321
-- Solano County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Vallejo Police Department — 555 Santa Clara St, Vallejo, CA 94590 — (707) 648-0445 (Non-emergency)
+- Emergency: 911
+- Police Website: https://vallejopd.net
 ## Courts
-- Solano County Superior Court — Solano Justice Center — 321 Tuolumne St — (707) 784-7000
+- Solano County Superior Court – Vallejo Branch — 500 Union Ave, Vallejo, CA 94590
+- Court Website: https://www.solanocourt.org
+## Detention Center
+- Solano County Jail — 500 Union Ave, Vallejo, CA 94590
+- Inmate Search: https://inmateinfo.solanocounty.com
 ## Building Permits
-- Vallejo Building Department — https://www.cityofvallejo.net/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Solano County Jail
+- Building Division — 555 Santa Clara St, Vallejo, CA 94590 — (707) 648-4522
+- Building Dept: https://www.vallejo.gov/building
+## Library
+- Vallejo Public Library – Main — 750 Benicia Rd, Vallejo, CA 94589 — (707) 648-4355
+- Library Website: https://www.solanolibrary.com
+## Hospitals
+- NorthBay Medical Center — 1241 Lakeville Hwy — (707) 646-5000 — 38.1150° N, 122.1950° W

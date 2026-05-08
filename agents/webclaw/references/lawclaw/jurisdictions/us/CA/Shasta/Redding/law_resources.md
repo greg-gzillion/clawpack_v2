@@ -1,19 +1,23 @@
-# Redding — Local Law Resources
+﻿# Redding — Local Law Resources
 ## City Website
-- https://www.cityofredding.gov/
+- https://www.cityofredding.gov
+## City Hall
+- 777 Cypress Ave, Redding, CA 96001 — (530) 225-4002
 ## Law Enforcement
-- Redding Police Dept — 777 Cypress Ave — (530) 225-4200
-- Shasta County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Redding Police Department — 777 Cypress Ave, Redding, CA 96001 — (530) 225-4200 (Non-emergency)
+- Emergency: 911
+- Police Website: https://reddingpolice.org
 ## Courts
-- Shasta County Superior Court — 1515 Court St — (530) 245-6100
+- Shasta County Superior Court — 2000 Placer St, Redding, CA 96001
+- Court Website: https://www.shastacourt.org
+## Detention Center
+- Shasta County Jail — 2250 Placer St, Redding, CA 96001
+- Inmate Search: https://inmates.shastacounty.gov
 ## Building Permits
-- Redding Building Department — https://www.cityofredding.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Shasta County Jail
+- Building Division — 777 Cypress Ave, Redding, CA 96001 — (530) 225-4030
+- Building Dept: https://www.cityofredding.gov/building
+## Library
+- Redding City Library — 777 Cypress Ave, Redding, CA 96001 — (530) 225-4040
+- Library Website: https://www.cityofredding.gov/library
+## Hospitals
+- St. Elizabeth Community Hospital — 555 Montgomery St — (530) 243-7111 — 40.5850° N, 122.3900° W

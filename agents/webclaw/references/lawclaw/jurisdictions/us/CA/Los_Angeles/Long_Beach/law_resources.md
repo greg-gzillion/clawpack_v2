@@ -1,19 +1,22 @@
-# Long Beach — Local Law Resources
+﻿# Long Beach — Local Law Resources
 ## City Website
-- https://www.longbeach.gov/
+- https://www.longbeach.gov
+## City Hall
+- 411 W Ocean Blvd, Long Beach, CA 90802 — (561) 570-2000
 ## Law Enforcement
-- Long Beach Police Dept — (562) 435-6711
-- Los Angeles County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Long Beach Police Department — 411 W Ocean Blvd, Long Beach, CA 90802 — (562) 570-7474 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.longbeach.gov/police
 ## Courts
-- Los Angeles County Superior Court — www.lacourt.org
+- Los Angeles County Superior Court – Long Beach Branch — 300 W Ocean Blvd, Long Beach, CA 90802
+- Court Website: https://www.lasuperiorcourt.org
+## Detention Center
+- LBPD Jail — 411 W Ocean Blvd, Long Beach, CA 90802
 ## Building Permits
-- Long Beach Building Department — https://www.longbeach.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Los Angeles County Jail
+- Building & Safety — 411 W Ocean Blvd, Long Beach, CA 90802 — (562) 570-7648
+- Building Dept: https://www.longbeach.gov/lbcd/building
+## Library
+- Long Beach Public Library – Central — 101 W Broadway, Long Beach, CA 90802 — (562) 570-7323
+- Library Website: https://www.lbpl.org
+## Hospitals
+- Long Beach Memorial Medical Center — 2800 Atlantic Ave — (562) 933-1111 — 33.7780° N, 118.1790° W

@@ -1,19 +1,22 @@
-# Pomona — Local Law Resources
+﻿# Pomona — Local Law Resources
 ## City Website
-- https://www.pomonaca.gov/
+- https://www.pomonaca.gov
+## City Hall
+- 505 S Garey Ave, Pomona, CA 91766 — (909) 620-2311
 ## Law Enforcement
-- Pomona Police Dept — (909) 620-2155
-- Los Angeles County Sheriff
-- California Highway Patrol — https://www.chp.ca.gov/
+- Pomona Police Department — 490 W Mission Blvd, Pomona, CA 91766 — (909) 622-1241 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.pomonaca.gov/police
 ## Courts
-- LA County Superior Court — Pomona Courthouse — 300 E Mission Blvd — (909) 620-3020
+- Los Angeles County Superior Court – Pomona Branch — 300 N Garey Ave, Pomona, CA 91767
+- Court Website: https://www.lasuperiorcourt.org
+## Detention Center
+- Pomona PD Jail — 490 W Mission Blvd, Pomona, CA 91766
 ## Building Permits
-- Pomona Building Department — https://www.pomonaca.gov/
-## Hunting Regulations
-- CA Hunting Regulations — https://www.wildlife.ca.gov/hunting
-## Fishing Regulations
-- CA Fishing Regulations — https://www.wildlife.ca.gov/fishing
-## Legal Aid
-- California Legal Aid — https://www.lawhelpca.org/
-## Corrections
-- Los Angeles County Jail
+- Building & Safety Division — 505 S Garey Ave, Pomona, CA 91766 — (909) 620-2371
+- Building Dept: https://www.pomonaca.gov/building
+## Library
+- Pomona Public Library — 250 S Garey Ave, Pomona, CA 91766 — (909) 620-2043
+- Library Website: https://www.pomonaca.gov/library
+## Hospitals
+- Pomona Valley Hospital Medical Center — 1800 N Orange Grove Ave — (909) 622-1101 — 34.0780° N, 117.7450° W
