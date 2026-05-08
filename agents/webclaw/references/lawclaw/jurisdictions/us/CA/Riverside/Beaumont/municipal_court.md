@@ -1,0 +1,38 @@
+﻿# Beaumont Municipal Court
+## Court Information
+- No municipal court; cases handled by Riverside County Superior Court
+- Banning Courthouse: 250 E. Ramsey Street, Banning, CA 92220
+- Phone: (951) 776-1000
+- Court Website: https://www.riverside.courts.ca.gov
+## City Website
+- https://www.beaumontca.gov
+## City Hall
+- Address: 550 E. Sixth Street, Beaumont, CA 92223
+- Phone: (951) 769-8520
+- Hours: Monday–Thursday, 8:00 AM – 5:00 PM; Friday, 8:00 AM – 12:00 PM
+## Police Department
+- Beaumont Police Department
+- Address: 660 Orange Avenue, Beaumont, CA 92223
+- Phone: (951) 769-8500 (Non-emergency), 911 (Emergency)
+- Police Website: https://www.beaumontca.gov/police
+## Detention Center
+- Beaumont Jail
+- Address: 660 Orange Avenue, Beaumont, CA 92223 (co-located with Police HQ)
+- Phone: (951) 769-8500
+- Short-term holding; inmates typically transferred to Riverside County Jail
+## Building Permits
+- Building & Safety Department
+- Address: 550 E. Sixth Street, Beaumont, CA 92223
+- Phone: (951) 769-8520
+- Email: planning@beaumontca.gov
+- Building Dept: https://www.beaumontca.gov/building
+## Library
+- Beaumont Library District
+- Address: 125 E. Eighth Street, Beaumont, CA 92223
+- Phone: (951) 845-1357
+- Hours: Mon–Fri 10:00 AM – 5:00 PM; Sat–Sun 1:00 PM – 5:00 PM
+- Library Website: https://www.bld.lib.ca.us
+## Hospitals
+- San Gorgonio Memorial Hospital — 600 N Highland Springs Ave, Banning, CA 92220 — (951) 845-1121 — 33.9317° N, 116.9460° W
+  Website: https://www.sgmh.org
+- Neighborhood Healthcare – Beaumont — 831 N Highland Springs Ave, Ste 301, Beaumont, CA 92223 — (951) 845-0313 — 33.9076° N, 116.9766° W
