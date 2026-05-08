@@ -1,19 +1,28 @@
-# Scottsdale — Local Law Resources
+﻿# Scottsdale — Local Law Resources
 ## City Website
-- https://www.scottsdaleaz.gov/
+- https://www.scottsdaleaz.gov
+## City Hall
+- 3939 N Drinkwater Blvd, Scottsdale, AZ 85251 — (480) 312-7000
 ## Law Enforcement
-- Scottsdale Police Dept — (480) 312-5000
-- Maricopa County Sheriff
-- Arizona Department of Public Safety — https://www.azdps.gov/
+- Scottsdale Police Department — 3939 N Drinkwater Blvd, Scottsdale, AZ 85251 — (480) 312-8100 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.scottsdaleaz.gov/police
 ## Courts
-- Scottsdale City Court — 3700 N 75th St — (480) 312-2442
+- Scottsdale Municipal Court — 3939 N Drinkwater Blvd, Scottsdale, AZ 85251 — (480) 312-8200
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Court Website: https://www.scottsdaleaz.gov/court
+## Detention Center
+- City Jail — 3939 N Drinkwater Blvd, Scottsdale, AZ 85251 — (480) 312-8100
 ## Building Permits
-- Scottsdale Building Department — https://www.scottsdaleaz.gov/
-## Hunting Regulations
-- AZ Hunting Regulations — https://www.azgfd.com/hunting/regulations/
-## Fishing Regulations
-- AZ Fishing Regulations — https://www.azgfd.com/fishing/regulations/
-## Legal Aid
-- Community Legal Services of Arizona — https://www.clsaz.org/
-## Corrections
-- Maricopa County Jail
+- Building Department — 3939 N Drinkwater Blvd, Scottsdale, AZ 85251 — (480) 312-8300
+- Building Dept: https://www.scottsdaleaz.gov/building
+- Permits: https://www.scottsdaleaz.gov/DocumentCenter/View/13/Building-Permit-Applications
+- Zoning & Planning: https://www.scottsdaleaz.gov/planning
+- Zoning Map: https://www.scottsdaleaz.gov/DocumentCenter/View/12/Zoning-Map
+## Library
+- Scottsdale Public Library – Civic Center — 3839 N Drinkwater Blvd, Scottsdale, AZ 85251 — (480) 312-8400
+- Library Website: https://www.scottsdalelibrary.org
+## Hospitals
+- Abrazo Scottsdale Campus — 9601 E Via de Ventura — (480) 728-6000 — 33.6389° N, 111.9189° W
+- Mayo Clinic Hospital – Phoenix — 5777 E Mayo Blvd — (480) 342-2000 — 33.6489° N, 111.9689° W
+- St. Joseph's Hospital and Medical Center — 350 W Thomas Rd, Phoenix — (602) 406-2000 — 33.4689° N, 112.0789° W
