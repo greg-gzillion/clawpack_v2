@@ -1,20 +1,21 @@
-# Vero Beach — Local Law Resources
+﻿# Vero Beach — Local Law Resources
 ## City Website
-- https://www.vbpd.org/
+- https://www.covb.org
+## City Hall
+- 1053 20th Place, Vero Beach, FL 32960 — (772) 978-5151
 ## Law Enforcement
-- Vero Beach PD — 1555 20th St — (772) 978-4600
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Vero Beach Police Department — 1055 20th Street, Vero Beach, FL 32960 — (772) 978-4600 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.vbpd.org
 ## Courts
-- Indian River County Clerk — (772) 226-3311 — M-F 8-5
-- **Court Website**: https://www.myircourt.org/
+- 19th Judicial Circuit Court – Indian River County
+- Court Website: https://www.flcourts19.org
+## Detention Center
+- Vero Beach City Jail — 1055 20th Street, Vero Beach, FL 32960
 ## Building Permits
-- Vero Beach Building Department — https://www.vbpd.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Indian River County Jail
+- Indian River County Building — https://indianriver.gov/building
+## Library
+- Vero Beach Regional Library — 1010 14th Avenue, Vero Beach, FL 32960 — (772) 794-5600
+- Library Website: https://www.indianriversc.org
+## Hospitals
+- Cleveland Clinic Indian River Hospital — 1000 36th St — (772) 567-4311 — 27.6564° N, 80.3928° W

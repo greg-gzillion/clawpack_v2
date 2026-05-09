@@ -1,21 +1,22 @@
-# Bonita Springs — Local Law Resources
+﻿# Bonita Springs — Local Law Resources
 ## City Website
-- https://www.cityofbonitasprings.org/
+- https://www.cityofbonitasprings.org
+## City Hall
+- 9101 Bonita Beach Road, Bonita Springs, FL 34135 — (239) 949-6262
 ## Law Enforcement
-- Lee County Sheriff — 8350 Hospital Dr Ste 114 — (239) 477-1840 — M-F 8-5
-- Lee County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Lee County Sheriff's Office (LCSO) — Bonita Springs Substation: 8350 Hospital Drive, Suite 114, Bonita Springs, FL 34135 — (239) 477-1000 (Non-emergency)
+- Emergency: 911
+- Sheriff Website: https://www.sheriffleefl.org
 ## Courts
-- Lee County Clerk
-- **Court Website**: https://www.leeclerk.org/
+- 20th Judicial Circuit Court – Lee County
+- Court Website: https://www.20thcircuit.org
+## Detention Center
+- Lee County Jail — (239) 533-7500 — Inmate Search: Lee County Inmate Search
 ## Building Permits
-- Bonita Springs Building Department — https://www.cityofbonitasprings.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Lee County Jail
+- Community Development – Building Division — 9220 Bonita Beach Rd, Suite 111, Bonita Springs, FL 34135 — (239) 444-6179
+- Building Dept: https://www.cityofbonitaspringscd.org
+## Library
+- Bonita Springs Library — 9101 Bonita Beach Rd, Bonita Springs, FL 34135 — (239) 530-3980
+- Library Website: https://www.leegov.com/library
+## Hospitals
+- Lee Health Coconut Point — 23450 Via Coconut Point — (239) 343-4000 — 26.3301° N, 81.7881° W

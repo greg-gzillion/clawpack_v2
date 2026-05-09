@@ -1,21 +1,22 @@
-# Cape Coral — Local Law Resources
+﻿# Cape Coral — Local Law Resources
 ## City Website
-- https://www.capecoral.gov/
+- https://www.capecoral.gov
+## City Hall
+- 1015 Cultural Park Boulevard, Cape Coral, FL 33990 — (239) 574-0436
 ## Law Enforcement
-- Cape Coral PD — 1100 Cultural Park Blvd — (239) 574-3223
-- Lee County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Cape Coral Police Department — 1100 Cultural Park Boulevard, Cape Coral, FL 33990 — (239) 574-3223 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.capecoral.gov/police
 ## Courts
-- Lee County Clerk — 1039 SE 9th Pl — (239) 533-7101 — M-F 8-5
-- **Court Website**: https://www.leecountyclerk.com/
+- 20th Judicial Circuit Court – Lee County — Cape Coral Branch: 1039 SE 9th Place, Cape Coral, FL 33990 — (239) 533-7101
+- Court Website: https://www.20thcircuit.org
+## Detention Center
+- Cape Coral City Jail — 1100 Cultural Park Boulevard, Cape Coral, FL 33990
 ## Building Permits
-- Cape Coral Building Department — https://www.capecoral.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Lee County Jail
+- Development Services – Building Division — 1015 Cultural Park Boulevard, Cape Coral, FL 33990 — (239) 574-0459
+- Building Dept: https://www.capecoral.gov/development
+## Library
+- Cape Coral-Lee County Public Library — 921 SW 39th Terrace, Cape Coral, FL 33914 — (239) 533-4500
+- Library Website: https://www.leegov.com/library
+## Hospitals
+- Cape Coral Hospital — 636 Del Prado Blvd S — (239) 424-2219 — 26.6393° N, 81.9409° W

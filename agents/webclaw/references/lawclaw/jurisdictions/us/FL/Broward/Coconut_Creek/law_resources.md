@@ -1,21 +1,22 @@
-# Coconut Creek — Local Law Resources
+﻿# Coconut Creek — Local Law Resources
 ## City Website
-- https://www.coconutcreek.net/
+- https://www.coconutcreek.gov
+## City Hall
+- 4800 West Copans Road, Coconut Creek, FL 33063 — (954) 973-6770
 ## Law Enforcement
-- BSO Coconut Creek — 4800 N State Rd 7 — (954) 752-2500
-- Broward County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Coconut Creek Police Department — 4800 West Copans Road, Coconut Creek, FL 33063 — (954) 346-4400 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.coconutcreek.gov/police
 ## Courts
-- Broward County Clerk
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- Coconut Creek City Jail — 4800 West Copans Road, Coconut Creek, FL 33063
 ## Building Permits
-- Coconut Creek Building Department — https://www.coconutcreek.net/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building Department — 4800 West Copans Road, Coconut Creek, FL 33063 — (954) 973-6750
+- Building Dept: https://www.coconutcreek.gov/building
+## Library
+- Coconut Creek Library — 4700 Coconut Creek Parkway, Coconut Creek, FL 33066 — (954) 630-2222
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- Broward Health Coral Springs — 1001 Johnson Street, Coral Springs — (954) 344-1000 — 26.2937° N, 80.2767° W

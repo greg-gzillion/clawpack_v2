@@ -1,21 +1,22 @@
-# Callaway — Local Law Resources
+﻿# Callaway — Local Law Resources
 ## City Website
-- https://www.cityofcallaway.com/
+- https://www.cityofcallaway.com
+## City Hall
+- 324 S 8th Ave, Callaway, FL 32404 — (850) 871-6000
 ## Law Enforcement
-- Bay County Sheriff — 6601 E Hwy 22 — (850) 874-8660
-- Bay County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Bay County Sheriff's Office – Callaway Sub Station — 252 N Star Avenue, Callaway, FL 32404 — (850) 747-4700 (Non-emergency)
+- Emergency: 911
+- Website: https://www.cityofcallaway.com/law-enforcement
 ## Courts
-- Bay County Clerk
-- **Court Website**: https://www.bayclerk.com/
+- Bay County Court — 5700 Star Lane, Panama City, FL 32404 — (850) 785-5245
+- Court Website: https://www.baycountyfl.gov
+## Detention Center
+- Bay County Jail — 5700 Star Lane, Panama City, FL 32404 — (850) 785-5245
 ## Building Permits
-- Callaway Building Department — https://www.cityofcallaway.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Bay County Jail
+- Planning Department / EPCI — 205 W 7th St, Panama City, FL 32401 — (850) 818-0213
+- Building Dept: https://www.cityofcallaway.com/building-permits
+## Library
+- Callaway Branch Library — 324 S 8th Ave, Callaway, FL 32404 — (850) 784-7555
+- Library Website: https://www.baycountyfl.gov/library
+## Hospitals
+- Bay Medical Sacred Heart — 5700 Majors Ave, Panama City — (850) 215-1000 — 30.1594° N, 85.6201° W

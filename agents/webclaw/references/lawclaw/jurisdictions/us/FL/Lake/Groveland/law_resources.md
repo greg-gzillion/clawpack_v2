@@ -1,20 +1,22 @@
-# Groveland — Local Law Resources
+﻿# Groveland — Local Law Resources
 ## City Website
-- https://www.groveland-fl.gov/
+- https://www.groveland-fl.gov
+## City Hall
+- 6825 SR 50, Groveland, FL 34736 — (352) 429-2141
 ## Law Enforcement
-- Groveland PD — 408 W Orange St — (352) 429-4166
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Groveland Police Department — 408 West Orange Street, Groveland, FL 34736 — (352) 429-4166 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.groveland-fl.gov/police
 ## Courts
-- Lake County Clerk — (352) 343-9400 — M-F 8-5
-- **Court Website**: https://www.lakeclerk.org/
+- 5th Judicial Circuit Court – Lake County
+- Court Website: https://www.flcourts5.org
+## Detention Center
+- Groveland City Jail — 408 West Orange Street, Groveland, FL 34736
 ## Building Permits
-- Groveland Building Department — https://www.groveland-fl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Lake County Jail
+- Building Division — 6825 SR 50, Groveland, FL 34736 — (352) 429-2141 ext. 2
+- Building Dept: https://www.groveland-fl.gov/building
+## Library
+- Clermont Library — 3705 S Hwy 27, Clermont, FL 34711 — (352) 394-4064
+- Library Website: https://www.lakelibrary.org
+## Hospitals
+- Orlando Health South Lake Hospital — 1900 Don Wickham Dr, Clermont — (352) 394-4071 — 28.5477° N, 81.7213° W

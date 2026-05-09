@@ -1,20 +1,23 @@
-# Leesburg — Local Law Resources
+﻿# Leesburg — Local Law Resources
 ## City Website
-- https://www.leesburgflorida.gov/
+- https://www.leesburgflorida.gov
+## City Hall
+- 501 W. Meadow Street, Leesburg, FL 34748 — (352) 728-9700
 ## Law Enforcement
-- Leesburg PD — 201 W Main St — (352) 728-3222
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Leesburg Police Department — 115 East Magnolia Street, Leesburg, FL 34748 — (352) 728-9860 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.leesburgflorida.gov/police
 ## Courts
-- Lake County Clerk
-- **Court Website**: https://www.lakeclerk.org/
+- 5th Judicial Circuit Court – Lake County
+- Court Website: https://www.flcourts5.org
+## Detention Center
+- Leesburg City Jail — 115 East Magnolia Street, Leesburg, FL 34748
 ## Building Permits
-- Leesburg Building Department — https://www.leesburgflorida.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Lake County Jail
+- Building Services — 204 N. 5th Street, Leesburg, FL 34748 — (352) 728-9735
+- Building Dept: https://www.leesburgflorida.gov/building
+## Library
+- Leesburg Library — 301 W. Main Street, Leesburg, FL 34748 — (352) 728-9790
+- Library Website: https://www.lakelibrary.org
+## Hospitals
+- UF Health Leesburg Hospital — 600 E Dixie Ave — (352) 323-5762 — 28.8135° N, 81.8698° W
+- AdventHealth Waterman — 1000 Waterman Way, Tavares — (352) 759-6000 — 28.8038° N, 81.6876° W

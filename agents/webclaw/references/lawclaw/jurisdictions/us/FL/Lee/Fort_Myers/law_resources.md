@@ -1,20 +1,23 @@
-# Fort Myers — Local Law Resources
+﻿# Fort Myers — Local Law Resources
 ## City Website
-- https://www.fortmyers.gov/
+- https://www.fortmyers.gov
+## City Hall
+- 2200 Second Street, Fort Myers, FL 33901 — (239) 321-7000
 ## Law Enforcement
-- Fort Myers PD — 2210 Widman Way — (239) 321-7700
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Fort Myers Police Department — 2210 Widman Way, Fort Myers, FL 33901 — (239) 321-7700 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.fortmyers.gov/police
 ## Courts
-- Lee County Clerk — 2075 Dr MLK Jr Blvd — (239) 533-5000 — M-F 8:30-4:45
-- **Court Website**: https://www.leeclerk.org/
+- 20th Judicial Circuit Court – Lee County
+- Court Website: https://www.20thcircuit.org
+## Detention Center
+- Lee County Sheriff's Office detention centers — Main Intake: 2115 Martin Luther King Jr Blvd, Fort Myers, FL 33901
+- Inmate Search: Lee County Inmate Search
 ## Building Permits
-- Fort Myers Building Department — https://www.fortmyers.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Lee County Jail
+- Building, Permitting & Inspections — 1825 Hendry St, Fort Myers, FL 33901 — (239) 321-7925
+- Building Dept: https://www.fortmyers.gov/building
+## Library
+- Fort Myers Regional Library — 2450 First St, Fort Myers, FL 33901 — (239) 533-4500
+- Library Website: https://www.leegov.com/library
+## Hospitals
+- Lee Health - Gulf Coast Medical Center — 16000 Hospital Blvd — (239) 343-4000 — 26.5778° N, 81.8487° W

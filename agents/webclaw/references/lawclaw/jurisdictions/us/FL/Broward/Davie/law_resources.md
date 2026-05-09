@@ -1,21 +1,22 @@
-# Davie — Local Law Resources
-## City Website
-- https://www.davie-fl.gov/
+﻿# Davie — Local Law Resources
+## Town Website
+- https://www.davie-fl.gov
+## Town Hall
+- 8800 SW 36th Street, Davie, FL 33328 — (954) 797-1000
 ## Law Enforcement
-- Davie PD — 1230 S Nob Hill Rd — (954) 693-8200
-- Broward County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Davie Police Department — 8800 SW 36th Street, Davie, FL 33328 — (954) 797-1111 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.davie-fl.gov/police
 ## Courts
-- Broward County Clerk — 201 SE 6th St, Fort Lauderdale — (954) 831-6565 — M-F 8:30-5
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- Davie City Jail — 8800 SW 36th Street, Davie, FL 33328
 ## Building Permits
-- Davie Building Department — https://www.davie-fl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building Division — 8800 SW 36th Street, Building A, Davie, FL 33328 — (954) 797-1111
+- Building Dept: https://www.davie-fl.gov/building
+## Library
+- Davie Library — 6591 Orange Drive, Davie, FL 33314 — (954) 797-1145
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- Broward Health Medical Center — 400 NW 8th Street, Fort Lauderdale — (954) 847-4000 — 26.1227° N, 80.1384° W

@@ -1,20 +1,22 @@
-# Plant City — Local Law Resources
+﻿# Plant City — Local Law Resources
 ## City Website
-- https://www.planetplantcity.com/
+- https://www.plantcitygov.com
+## City Hall
+- 302 W Reynolds Street, Plant City, FL 33563 — (813) 659-4200
 ## Law Enforcement
-- Plant City PD — 100 N Collins St — (813) 757-9191
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Plant City Police Department — 1 Police Pl, Plant City, FL 33566 — (813) 757-9200 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.plantcitygov.com/police
 ## Courts
-- Hillsborough County Clerk — (813) 272-7600 — M-F 8-5
-- **Court Website**: https://www.hillsclerk.com/
+- 13th Judicial Circuit Court – Hillsborough County
+- Court Website: https://www.flcourts13.org
+## Detention Center
+- Plant City City Jail — 1 Police Pl, Plant City, FL 33566
 ## Building Permits
-- Plant City Building Department — https://www.planetplantcity.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Hillsborough County Jail
+- Building Division — 302 W Reynolds Street, Plant City, FL 33563 — (813) 659-4254
+- Building Dept: https://www.plantcitygov.com/building
+## Library
+- Bruton Memorial Library — 302 W Reynolds St, Plant City, FL 33563 — (813) 659-4254
+- Library Website: https://hcplc.org
+## Hospitals
+- South Florida Baptist Hospital — 3202 N Park Rd — (813) 757-1200 — 28.0427° N, 82.1133° W

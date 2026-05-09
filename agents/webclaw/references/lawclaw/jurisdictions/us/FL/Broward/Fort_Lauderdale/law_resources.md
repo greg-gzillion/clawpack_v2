@@ -1,21 +1,23 @@
-# Fort Lauderdale — Local Law Resources
+﻿# Fort Lauderdale — Local Law Resources
 ## City Website
-- https://www.fortlauderdale.gov/
+- https://www.fortlauderdale.gov
+## City Hall
+- 100 N. Andrews Ave, Fort Lauderdale, FL 33301 — (954) 828-4550
 ## Law Enforcement
-- Fort Lauderdale PD — 1515 W Cypress Creek Rd — (954) 828-5700
-- Broward County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Fort Lauderdale Police Department — 1515 W Cypress Creek Rd, Fort Lauderdale, FL 33309 — (954) 764-4357 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.fortlauderdale.gov/police
 ## Courts
-- Broward County Clerk — 201 SE 6th St — (954) 831-6565 — M-F 8:30-5
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- FLPD Holding Facility — 1515 W Cypress Creek Rd, Fort Lauderdale, FL 33309
+- Broward County Jail system
 ## Building Permits
-- Fort Lauderdale Building Department — https://www.fortlauderdale.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building Services — 700 NW 19th Ave, Fort Lauderdale, FL 33311 — (954) 828-6520
+- Building Dept: https://www.fortlauderdale.gov/building
+## Library
+- Main Library — 100 S Andrews Ave, Fort Lauderdale, FL 33301 — (954) 523-2000
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- Broward Health Medical Center — 400 NW 8th Street — (954) 847-4000 — 26.1227° N, 80.1384° W

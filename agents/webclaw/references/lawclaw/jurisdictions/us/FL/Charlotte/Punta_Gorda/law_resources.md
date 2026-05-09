@@ -1,20 +1,22 @@
-# Punta Gorda — Local Law Resources
+﻿# Punta Gorda — Local Law Resources
 ## City Website
-- https://www.ci.punta-gorda.fl.us/
+- https://www.ci.punta-gorda.fl.us
+## City Hall
+- 126 Harvey Street, Punta Gorda, FL 33950 — (941) 575-3324
 ## Law Enforcement
-- Punta Gorda PD — 1410 Tamiami Trail — (941) 639-4111
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Punta Gorda Police Department — 201 W. Marion Avenue, Punta Gorda, FL 33950 — (941) 575-3333 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.ci.punta-gorda.fl.us/police
 ## Courts
-- Charlotte County Clerk — (941) 637-2176
-- **Court Website**: https://www.charlottecountyfl.gov/clerk
+- 20th Judicial Circuit Court – Charlotte County — 18500 Murdock Circle, Port Charlotte, FL 33948 — (941) 505-4716
+- Court Website: https://charlotteclerk.com
+## Detention Center
+- Punta Gorda City Jail — 201 W. Marion Avenue, Punta Gorda, FL 33950
 ## Building Permits
-- Punta Gorda Building Department — https://www.ci.punta-gorda.fl.us/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Charlotte County Jail
+- Building Division — 126 Harvey Street, Punta Gorda, FL 33950 — (941) 575-3324
+- Building Dept: https://www.ci.punta-gorda.fl.us/building
+## Library
+- Punta Gorda Library — 101 E. Marion Avenue, Punta Gorda, FL 33950 — (941) 833-5800
+- Library Website: https://www.sclibs.net
+## Hospitals
+- Sarasota Memorial Hospital–Venice — 1000 S Tamiami Trail, Venice — (941) 483-1000 — 27.0766° N, 82.4284° W

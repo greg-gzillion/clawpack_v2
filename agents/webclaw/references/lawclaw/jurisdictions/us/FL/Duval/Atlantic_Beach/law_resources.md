@@ -1,21 +1,22 @@
-# Atlantic Beach — Local Law Resources
+﻿# Atlantic Beach — Local Law Resources
 ## City Website
-- https://www.coab.us/
+- https://www.coab.us
+## City Hall
+- 800 Seminole Road, Atlantic Beach, FL 32233 — (904) 247-5800
 ## Law Enforcement
-- Atlantic Beach PD — 850 Seminole Rd — (904) 247-5859
-- Duval County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Atlantic Beach Police Department — 850 Seminole Road, Atlantic Beach, FL 32233 — (904) 247-5820 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.coab.us/police
 ## Courts
-- Duval County Clerk — (904) 247-5816
-- **Court Website**: https://www.duvalclerk.com/
+- 4th Judicial Circuit Court – Duval County
+- Court Website: https://www.flcourts4.org
+## Detention Center
+- Atlantic Beach City Jail — 850 Seminole Road, Atlantic Beach, FL 32233
 ## Building Permits
-- Atlantic Beach Building Department — https://www.coab.us/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Duval County Jail
+- Building Division — 800 Seminole Road, Atlantic Beach, FL 32233 — (904) 247-5826
+- Building Dept: https://www.coab.us/building
+## Library
+- Atlantic Beach Memorial Library — 116 Atlantic Blvd, Atlantic Beach, FL 32233 — (904) 247-5772
+- Library Website: https://coj.net/libraries
+## Hospitals
+- Baptist Medical Center Beaches — 1350 13th Ave S, Jacksonville Beach — (904) 627-2900 — 30.2839° N, 81.3937° W

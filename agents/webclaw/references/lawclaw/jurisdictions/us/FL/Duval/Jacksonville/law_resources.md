@@ -1,21 +1,25 @@
-# Jacksonville — Local Law Resources
+﻿# Jacksonville — Local Law Resources
 ## City Website
-- https://www.jacksonville.gov/
+- https://www.jacksonville.gov
+## City Hall
+- 117 W. Duval Street, Jacksonville, FL 32202 — (904) 630-0101
 ## Law Enforcement
-- Jacksonville PD — 501 East Bay St — (904) 630-5760
-- Duval County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Jacksonville Sheriff's Office (JSO) — 11511 City Place Drive, Jacksonville, FL 32218 — (904) 630-1000 (Non-emergency)
+- Emergency: 911
+- Sheriff Website: https://www.jaxsheriff.org
 ## Courts
-- Duval County Clerk of Courts — 501 W Adams St — (904) 255-2000 — M-F 8-5
-- **Court Website**: https://www.duvalclerk.com/
+- 4th Judicial Circuit Court – Duval County
+- Court Website: https://www.flcourts4.org
+## Detention Center
+- Duval County Jail — 11511 City Place Drive, Jacksonville, FL 32218
 ## Building Permits
-- Jacksonville Building Department — https://www.jacksonville.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Duval County Jail
+- Building Inspection Division — 214 N Hogan St, Jacksonville, FL 32202 — (904) 255-8500
+- Building Dept: https://www.jacksonville.gov/building
+## Library
+- Main Library — 303 N Laura St, Jacksonville, FL 32202 — (904) 255-7300
+- Library Website: https://coj.net/libraries
+## Hospitals
+- UF Health Jacksonville — 655 W 8th St — (904) 244-0411 — 30.3284° N, 81.6558° W
+- Ascension St. Vincent's Riverside — 1 Shircliff Way — (904) 308-7300 — 30.3128° N, 81.7000° W
+- Baptist Medical Center Jacksonville — 800 Prudential Dr — (904) 202-2000 — 30.3160° N, 81.6589° W
+- HCA Florida Memorial Hospital — 3625 University Blvd S — (904) 399-6111 — 30.2892° N, 81.6031° W

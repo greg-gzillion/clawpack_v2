@@ -1,20 +1,22 @@
-# Palm Bay — Local Law Resources
+﻿# Palm Bay — Local Law Resources
 ## City Website
-- https://www.palmbayfl.gov/
+- https://www.palmbayfl.gov
+## City Hall
+- 100 Malabar Road SE, Palm Bay, FL 32907 — (321) 952-3456
 ## Law Enforcement
-- Palm Bay PD — 130 Malabar Rd SE — (321) 952-3456
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Palm Bay Police Department — 130 Malabar Road SE, Palm Bay, FL 32907 — (321) 952-3456 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.palmbayfl.gov/police
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Brevard County Court — 2725 Judge Fran Jamieson Way, Viera, FL 32940 — (321) 633-2000
+- Court Website: https://www.brevardcounty.us
+## Detention Center
+- Palm Bay City Jail — 130 Malabar Road SE, Palm Bay, FL 32907
 ## Building Permits
-- Palm Bay Building Department — https://www.palmbayfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Brevard County Jail
+- Building Department — 190 Malabar Road SW, Suite 105, Palm Bay, FL 32907 — (321) 953-8924
+- Building Dept: https://www.palmbayfl.gov/building
+## Library
+- Palm Bay Public Library — 555 Malabar Road NE, Palm Bay, FL 32905 — (321) 952-7280
+- Library Website: https://www.brevardcounty.us/library
+## Hospitals
+- Health First – Palm Bay Hospital — 250 Palm Bay Rd NE — (321) 805-4000 — 28.0328° N, 80.6542° W

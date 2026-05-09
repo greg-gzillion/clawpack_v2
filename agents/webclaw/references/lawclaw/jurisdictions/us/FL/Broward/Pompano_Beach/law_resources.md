@@ -1,21 +1,22 @@
-# Pompano Beach — Local Law Resources
+﻿# Pompano Beach — Local Law Resources
 ## City Website
-- https://www.pompanobeachfl.gov/
+- https://www.pompanobeachfl.gov
+## City Hall
+- 100 West Atlantic Boulevard, Pompano Beach, FL 33060 — (954) 786-4600
 ## Law Enforcement
-- Broward Sheriff — 100 SW 3rd St — (954) 786-4200
-- Broward County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Pompano Beach Police Department — 100 West Atlantic Boulevard, Pompano Beach, FL 33060 — (954) 786-4640 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.pompanobeachfl.gov/police
 ## Courts
-- Broward County Clerk — 201 SE 6th St, Fort Lauderdale — (954) 831-6565 — M-F 8:30-5
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- Pompano Beach City Jail — 100 West Atlantic Boulevard, Pompano Beach, FL 33060
 ## Building Permits
-- Pompano Beach Building Department — https://www.pompanobeachfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building & Inspections — 100 West Atlantic Boulevard, Pompano Beach, FL 33060 — (954) 786-4669
+- Building Dept: https://www.pompanobeachfl.gov/building
+## Library
+- Pompano Beach Library — 601 NE 13th Ave, Pompano Beach, FL 33060 — (754) 321-3500
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- North Broward Medical Center — 1000 W Sample Rd — (954) 916-8000 — 26.2473° N, 80.1377° W

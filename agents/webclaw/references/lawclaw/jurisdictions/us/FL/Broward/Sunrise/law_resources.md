@@ -1,21 +1,22 @@
-# Sunrise — Local Law Resources
+﻿# Sunrise — Local Law Resources
 ## City Website
-- https://www.sunrisefl.gov/
+- https://www.sunrisefl.gov
+## City Hall
+- 10770 West Oakland Park Boulevard, Sunrise, FL 33351 — (954) 741-2580
 ## Law Enforcement
-- Sunrise PD — 10440 W Oakland Park Blvd — (954) 746-3600
-- Broward County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Sunrise Police Department — 10440 West Oakland Park Boulevard, Sunrise, FL 33351 — (954) 746-3600 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.sunrisefl.gov/police
 ## Courts
-- Broward County Clerk — 201 SE 6th St, Fort Lauderdale — (954) 831-6565 — M-F 8:30-5
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- Sunrise City Jail — 10440 West Oakland Park Boulevard, Sunrise, FL 33351
 ## Building Permits
-- Sunrise Building Department — https://www.sunrisefl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building Division — 10770 West Oakland Park Boulevard, Sunrise, FL 33351 — (954) 572-2354
+- Building Dept: https://www.sunrisefl.gov/building
+## Library
+- Sunrise Library — 11701 W Oakland Park Blvd, Sunrise, FL 33351 — (754) 321-3700
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- Florida Medical Center — 3000 W Oakland Park Blvd, Fort Lauderdale — (954) 589-2000 — 26.1408° N, 80.2222° W

@@ -1,21 +1,21 @@
-# Brandon — Local Law Resources
-## City Website
-- https://brandonms.org/
+﻿# Brandon — Local Law Resources
+## Community
+- Unincorporated community in Hillsborough County
+- County Website: https://hcfl.gov — (813) 272-5800
 ## Law Enforcement
-- Hillsborough County Sheriff — 311 Pauls Dr — (813) 744-7553
-- Hillsborough County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Hillsborough County Sheriff's Office (HCSO) — (813) 247-8200 (Non-emergency)
+- Emergency: 911
+- Sheriff Website: https://hcso.org
 ## Courts
-- Hillsborough County Clerk
-- **Court Website**: https://www.hillsclerk.com/
+- 13th Judicial Circuit Court – Hillsborough County
+- Court Website: https://www.flcourts13.org
+## Detention Center
+- Hillsborough County Jail — Inmate Search: Hillsborough County Inmate Search — (813) 247-8984
 ## Building Permits
-- Brandon Building Department — https://brandonms.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Hillsborough County Jail
+- Development Services — (813) 272-5800
+- Building Dept: https://hcfl.gov/businesses
+## Library
+- Brandon Regional Library — 619 Vonderburg Dr, Brandon, FL 33511 — (813) 273-3652
+- Library Website: https://hcplc.org
+## Hospitals
+- HCA Florida Brandon Hospital — 119 Oakfield Dr — (813) 681-5551 — 27.9327° N, 82.2875° W

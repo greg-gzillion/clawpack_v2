@@ -1,20 +1,22 @@
-# Avon Park — Local Law Resources
+﻿# Avon Park — Local Law Resources
 ## City Website
-- https://www.avonpark.city/
+- https://www.avonpark.city
+## City Hall
+- 110 E Main Street, Avon Park, FL 33825 — (863) 452-4400
 ## Law Enforcement
-- Avon Park PD — 304 W Pleasant St — (863) 453-6622
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Highlands County Sheriff's Office — 1535 State Road 64 W, Avon Park, FL 33825 — (863) 453-6622 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.avonpark.city/police
 ## Courts
-- Highlands County Clerk — (863) 402-5200 — M-F 8-5
-- **Court Website**: https://www.hcclerk.com/
+- 10th Judicial Circuit Court – Highlands County
+- Court Website: https://www.flcourts10.org
+## Detention Center
+- Avon Park Correctional Institution — 20199 US-27, Avon Park, FL 33825
 ## Building Permits
-- Avon Park Building Department — https://www.avonpark.city/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Highlands County Jail
+- Code Enforcement Department — 110 E Main Street, Avon Park, FL 33825 — (863) 452-4403
+- Building Dept: https://www.avonpark.city/buildingpermits
+## Library
+- Avon Park Public Library — 200 E. Orange Avenue, Avon Park, FL 33825 — (863) 453-5740
+- Library Website: https://www.highlandsfl.gov/library
+## Hospitals
+- AdventHealth Sebring — 3301 S Dougherty Ave, Sebring — (863) 402-7000 — 27.4668° N, 81.4583° W

@@ -1,20 +1,22 @@
-# Mount Dora — Local Law Resources
+﻿# Mount Dora — Local Law Resources
 ## City Website
-- https://mountdora.gov/
+- https://www.mountdora.gov
+## City Hall
+- 510 N. Baker Street, Mount Dora, FL 32757 — (352) 735-7105
 ## Law Enforcement
-- Mount Dora PD — 1300 North Donnelly St — (352) 735-7130
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Mount Dora Police Department — 1300 N. Donnelly Street, Mount Dora, FL 32757 — (352) 735-7130 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.mountdora.gov/police
 ## Courts
-- Lake County Clerk — 315 W Main St, Tavares — (352) 343-9400 — M-F 8-5
-- **Court Website**: https://www.lakeclerk.org/
+- 5th Judicial Circuit Court – Lake County
+- Court Website: https://www.flcourts5.org
+## Detention Center
+- Mount Dora City Jail — 1300 N. Donnelly Street, Mount Dora, FL 32757
 ## Building Permits
-- Mount Dora Building Department — https://mountdora.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Lake County Jail
+- Building Division — 308 E. 5th Avenue, Mount Dora, FL 32757 — (352) 735-7115
+- Building Dept: https://www.mountdora.gov/building
+## Library
+- W.T. Bland Public Library — 100 N. 4th Street, Mount Dora, FL 32757 — (352) 383-1300
+- Library Website: https://www.lakelibrary.org
+## Hospitals
+- AdventHealth Waterman — 1000 Waterman Way, Tavares — (352) 759-6000 — 28.8038° N, 81.6876° W

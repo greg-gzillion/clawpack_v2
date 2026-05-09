@@ -1,20 +1,23 @@
-# Melbourne — Local Law Resources
+﻿# Melbourne — Local Law Resources
 ## City Website
-- https://www.melbourneflorida.org/
+- https://www.melbourneflorida.org
+## City Hall
+- 900 E Strawbridge Ave, Melbourne, FL 32901 — (321) 608-7000
 ## Law Enforcement
-- Melbourne PD — 650 N Apollo Blvd — (321) 409-2200
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Melbourne Police Department — 650 N Apollo Blvd, Melbourne, FL 32935 — (321) 608-6731 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.melbourneflorida.org/police
 ## Courts
-- Brevard County Clerk — (321) 633-2040 — M-F 8-5
-- **Court Website**: https://www.brevardclerk.us/
+- Brevard County Court — 2725 Judge Fran Jamieson Way, Viera, FL 32940 — (321) 633-2000
+- Court Website: https://www.brevardcounty.us
+## Detention Center
+- Melbourne City Jail — 650 N Apollo Blvd, Melbourne, FL 32935
 ## Building Permits
-- Melbourne Building Department — https://www.melbourneflorida.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Brevard County Jail
+- Building Section — 900 E Strawbridge Ave, Melbourne, FL 32901 — (321) 608-7900
+- Building Dept: https://www.melbourneflorida.org/building
+## Library
+- Melbourne Public Library — 540 E New Haven Ave, Melbourne, FL 32901 — (321) 608-6880
+- Library Website: https://www.brevardcounty.us/library
+## Hospitals
+- Holmes Regional Medical Center — 1350 Hickory St — (321) 434-6000 — 28.0888° N, 80.6098° W
+- Orlando Health Melbourne Hospital — 250 N Wickham Rd — (321) 752-1200

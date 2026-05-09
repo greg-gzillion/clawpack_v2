@@ -1,20 +1,22 @@
-# Green Cove Springs — Local Law Resources
+﻿# Green Cove Springs — Local Law Resources
 ## City Website
-- https://www.greencovesprings.com/
+- https://www.greencovesprings.com
+## City Hall
+- 321 Walnut Street, Green Cove Springs, FL 32043 — (904) 297-7500
 ## Law Enforcement
-- Green Cove Springs PD — 205 Spring St — (904) 529-2220
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Green Cove Springs Police Department — 205 Spring Street, Green Cove Springs, FL 32043 — (904) 297-7300 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.greencovesprings.com/police
 ## Courts
-- Clay County Clerk — 825 N Orange Ave — (904) 284-4200 — M-F 8-5
-- **Court Website**: https://www.clayclerk.com/
+- 4th Judicial Circuit Court – Clay County — 820 Walnut Street, Green Cove Springs, FL 32043 — (904) 284-4400
+- Court Website: https://www.clayclerk.com
+## Detention Center
+- Green Cove Springs City Jail — 205 Spring Street, Green Cove Springs, FL 32043
 ## Building Permits
-- Green Cove Springs Building Department — https://www.greencovesprings.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Clay County Jail
+- Building Division — 321 Walnut Street, Green Cove Springs, FL 32043 — (904) 297-7050
+- Building Dept: https://www.greencovesprings.com/building
+## Library
+- Green Cove Springs Library — 1111 Library Street, Green Cove Springs, FL 32043 — (904) 284-6860
+- Library Website: https://www.claycountygov.com/library
+## Hospitals
+- Orange Park Medical Center — 2045 Loretto St, Orange Park — (904) 272-2200 — 30.1183° N, 81.7435° W

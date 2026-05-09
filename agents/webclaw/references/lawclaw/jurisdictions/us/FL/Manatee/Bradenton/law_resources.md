@@ -1,21 +1,23 @@
-# Bradenton — Local Law Resources
+﻿# Bradenton — Local Law Resources
 ## City Website
-- https://www.cityofbradenton.com/
+- https://www.cityofbradenton.com
+## City Hall
+- 100 10th Street West, Bradenton, FL 34205 — (941) 932-9000
 ## Law Enforcement
-- Bradenton PD — 100 10th St W — (941) 932-9300
-- Manatee County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Bradenton Police Department — 100 10th Street West, Bradenton, FL 34205 — (941) 932-9300 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.bradentonpd.com
 ## Courts
-- Manatee County Clerk — 1115 Manatee Ave W — (941) 749-1800
-- **Court Website**: https://www.manateeclerk.com/
+- 12th Judicial Circuit Court – Manatee County
+- Court Website: https://www.12thcircuit.org
+## Detention Center
+- Bradenton City Jail — 100 10th Street West, Bradenton, FL 34205
 ## Building Permits
-- Bradenton Building Department — https://www.cityofbradenton.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Manatee County Jail
+- Building and Permitting Division — 100 10th Street West, Bradenton, FL 34205 — (941) 932-9414
+- Building Dept: https://cityofbradenton.com/permitting
+## Library
+- Bradenton Public Library — 105 10th St W, Bradenton, FL 34205 — (941) 749-5250
+- Library Website: https://www.mymanatee.org/library
+## Hospitals
+- Manatee Memorial Hospital — 322 14th St W — (941) 749-2111 — 27.4990° N, 82.5676° W
+- HCA Florida Blake Hospital — 2020 59th St W — (941) 792-6611 — 27.4843° N, 82.6210° W

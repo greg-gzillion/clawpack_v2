@@ -1,21 +1,22 @@
-# Hollywood — Local Law Resources
+﻿# Hollywood — Local Law Resources
 ## City Website
-- https://www.hollywoodfl.org/
+- https://www.hollywoodfl.org
+## City Hall
+- 2600 Hollywood Boulevard, Hollywood, FL 33020 — (954) 967-4200
 ## Law Enforcement
-- Hollywood PD — 3250 Hollywood Blvd — (954) 764-HELP
-- Broward County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Hollywood Police Department — 2600 Hollywood Boulevard, Hollywood, FL 33020 — (954) 967-4480 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.hollywoodfl.org/police
 ## Courts
-- Broward County Clerk — 3550 Hollywood Blvd (South Regional) — (954) 831-6565 — M-Th 8-4
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- Hollywood City Jail — 2600 Hollywood Boulevard, Hollywood, FL 33020
 ## Building Permits
-- Hollywood Building Department — https://www.hollywoodfl.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building Division — 2600 Hollywood Boulevard, Hollywood, FL 33020 — (954) 921-3335
+- Building Dept: https://www.hollywoodfl.org/building
+## Library
+- Seminole Tribal Library — 3400 SW 80th Ave, Hollywood, FL 33024
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- Hollywood Medical Center — 3200 Hollywood Boulevard — (954) 987-5555 — 26.0165° N, 80.1634° W

@@ -1,20 +1,22 @@
-# Lauderhill — Local Law Resources
+﻿# Lauderhill — Local Law Resources
 ## City Website
-- https://www.lauderhill.gov/
+- https://www.lauderhill-fl.gov
+## City Hall
+- 5581 W Oakland Park Blvd, Lauderhill, FL 33313 — (954) 572-1475
 ## Law Enforcement
-- Lauderhill PD
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Lauderhill Police Department — 6279 W Oakland Park Blvd, Lauderhill, FL 33313 — (954) 764-4357 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.lauderhill-fl.gov/police
 ## Courts
-- Broward County Clerk — (954) 831-6565
-- **Court Website**: https://www.browardclerk.org/
+- Broward County Court — 201 SE 6th Street, Fort Lauderdale, FL 33301
+- Court Website: https://www.browardcourt.org
+## Detention Center
+- Lauderhill City Jail — 6279 W Oakland Park Blvd, Lauderhill, FL 33313
 ## Building Permits
-- Lauderhill Building Department — https://www.lauderhill.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Broward County Jail
+- Building Division — 3300 Inverrary Blvd, Lauderhill, FL 33319 — (954) 730-3050
+- Building Dept: https://www.lauderhill-fl.gov/building
+## Library
+- Lauderhill Public Library — 3701 NW 11th Ave, Lauderhill, FL 33313 — (754) 321-3900
+- Library Website: https://www.broward.org/Library
+## Hospitals
+- North Broward Medical Center — 1000 W Sample Rd, Pompano Beach — (954) 916-8000 — 26.2473° N, 80.1377° W
