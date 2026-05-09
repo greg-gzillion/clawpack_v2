@@ -1,19 +1,22 @@
-# Newark — Local Law Resources
+﻿# Newark — Local Law Resources
 ## City Website
-- https://www.newarkde.gov/
+- https://www.newarkde.gov
+## City Hall
+- 220 South Main Street, Newark, DE 19711 — (302) 366-7000
 ## Law Enforcement
-- Newark PD — 220 South Main St — (302) 366-7111
-- New_Castle County Sheriff
-- Delaware State Police — https://www.dsp.delaware.gov/
+- Newark Police Department — 220 South Main Street, Newark, DE 19711 — (302) 366-7100 (Non-emergency)
+- Emergency: 911
+- Police Website: https://newarkde.gov/police
 ## Courts
-- Alderman's Court — 220 South Main St — (302) 366-7000
+- Newark Alderman's Court — 220 Elkton Road, Newark, DE 19711
+- Court Website: https://newarkde.gov/26/Aldermans-Court
+## Detention Center
+- Newark PD Detention Center — 220 South Main Street, Newark, DE 19711 — (302) 366-7100
 ## Building Permits
-- Newark Building Department — https://www.newarkde.gov/
-## Hunting Regulations
-- DE Hunting Regulations — https://dnrec.delaware.gov/fish-wildlife/hunting/
-## Fishing Regulations
-- DE Fishing Regulations — https://dnrec.delaware.gov/fish-wildlife/fishing/
-## Legal Aid
-- Delaware Legal Help Link — https://www.delegalhelplink.org/
-## Corrections
-- New_Castle County Jail
+- Code Enforcement Division — 220 South Main Street, Newark, DE 19711 — (302) 366-7000
+- Building Dept: https://newarkde.gov/24/Code-Enforcement-Division
+## Library
+- Newark Free Library — 300 S. 8th Street, Newark, DE 19711 — (302) 731-7550
+- Library Website: https://www.newarkfreelibrary.org
+## Hospitals
+- ChristianaCare – Newark Hospital — 675 S. College Avenue — (302) 320-6000 — 39.6897° N, 75.7553° W

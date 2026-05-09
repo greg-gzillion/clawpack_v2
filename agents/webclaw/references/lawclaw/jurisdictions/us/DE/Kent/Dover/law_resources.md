@@ -1,19 +1,22 @@
-# Dover — Local Law Resources
+﻿# Dover — Local Law Resources
 ## City Website
-- https://www.dover.de.us/
+- https://www.cityofdover.gov
+## City Hall
+- 15 Loockerman Plaza, Dover, DE 19901 — (302) 736-7005
 ## Law Enforcement
-- Dover PD — 400 South Queen St — (302) 736-7111
-- Kent County Sheriff
-- Delaware State Police — https://www.dsp.delaware.gov/
+- Dover Police Department — 15 Loockerman Plaza, Dover, DE 19901 — (302) 736-7100 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofdover.gov/police
 ## Courts
-- Justice of the Peace Court 7 — 480 Bank Lane — (302) 739-4554
+- Justice of the Peace Court 16 — 414 Federal Street, Dover, DE 19901 — (302) 735-1900
+- Court Website: https://courts.delaware.gov
+## Detention Center
+- Dover PD Detention Center — 150 Martin Luther King Jr. Blvd S, Dover, DE 19901 — (302) 736-7100
 ## Building Permits
-- Dover Building Department — https://www.dover.de.us/
-## Hunting Regulations
-- DE Hunting Regulations — https://dnrec.delaware.gov/fish-wildlife/hunting/
-## Fishing Regulations
-- DE Fishing Regulations — https://dnrec.delaware.gov/fish-wildlife/fishing/
-## Legal Aid
-- Delaware Legal Help Link — https://www.delegalhelplink.org/
-## Corrections
-- Kent County Jail
+- Planning and Inspections — 15 Loockerman Plaza, Dover, DE 19901 — (302) 736-7010
+- Building Dept: https://www.cityofdover.gov/planning-and-inspections
+## Library
+- Dover Public Library — 755 N Governors Ave, Dover, DE 19901 — (302) 734-3940
+- Library Website: https://doverpubliclibrary.org
+## Hospitals
+- Bayhealth Medical Center – Kent Campus — 675 S State Street — (302) 735-3000 — 39.1589° N, 75.5187° W

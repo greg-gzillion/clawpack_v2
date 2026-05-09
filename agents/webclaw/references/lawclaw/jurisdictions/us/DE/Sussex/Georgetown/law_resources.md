@@ -1,19 +1,22 @@
-# Georgetown — Local Law Resources
-## City Website
-- https://www.georgetowndel.com/
+﻿# Georgetown — Local Law Resources
+## Town Website
+- https://www.georgetowndel.com
+## Town Hall
+- 335 South Race Street, Georgetown, DE 19947 — (302) 856-6613
 ## Law Enforcement
-- Georgetown PD — 37 The Circle — (302) 856-6613
-- Sussex County Sheriff
-- Delaware State Police — https://www.dsp.delaware.gov/
+- Georgetown Police Department — 335 South Race Street, Georgetown, DE 19947 — (302) 856-6613 (Non-emergency)
+- Emergency: 911
+- Police Website: https://georgetownpolicede.com
 ## Courts
-- JP Court 3 (Criminal) / JP Court 17 (Civil) — 1 The Circle — (302) 856-1445
+- Justice of the Peace Court 3 — 1 The Circle, Georgetown, DE 19947 — (302) 855-7751
+- Court Website: https://courts.delaware.gov
+## Detention Center
+- Georgetown City Jail — 335 South Race Street, Georgetown, DE 19947
 ## Building Permits
-- Georgetown Building Department — https://www.georgetowndel.com/
-## Hunting Regulations
-- DE Hunting Regulations — https://dnrec.delaware.gov/fish-wildlife/hunting/
-## Fishing Regulations
-- DE Fishing Regulations — https://dnrec.delaware.gov/fish-wildlife/fishing/
-## Legal Aid
-- Delaware Legal Help Link — https://www.delegalhelplink.org/
-## Corrections
-- Sussex County Jail
+- Building Department — 335 South Race Street, Georgetown, DE 19947 — (302) 856-6613
+- Building Dept: https://www.georgetowndel.com/building-permits
+## Library
+- Georgetown Public Library — 1 The Circle, Georgetown, DE 19947 — (302) 856-5300
+- Library Website: https://www.delawarelibraries.org
+## Hospitals
+- Bayhealth Medical Center – Kent Campus — 675 South State Street, Dover — (302) 735-3000 — 39.1589° N, 75.5187° W
