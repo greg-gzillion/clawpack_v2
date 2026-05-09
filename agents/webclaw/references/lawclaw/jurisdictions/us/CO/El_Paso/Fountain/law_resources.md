@@ -1,19 +1,22 @@
-# Fountain — Local Law Resources
+﻿# Fountain — Local Law Resources
 ## City Website
-- https://www.fountaincolorado.org/
+- https://fountain.colorado.gov
+## City Hall
+- 116 South Main Street, Fountain, CO 80817 — (719) 322-2000
 ## Law Enforcement
-- Fountain PD — 222 N Santa Fe Ave — (719) 382-8555
-- El Paso County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Fountain Police Department — 222 N Santa Fe Avenue, Fountain, CO 80817 — (719) 382-8555 (Non-emergency)
+- Emergency: 911
+- Police Website: https://fountain.colorado.gov/police
 ## Courts
-- Fountain Municipal Court — 116 S Main St — (719) 382-5561
+- Fountain Municipal Court — 222 N Santa Fe Avenue, Fountain, CO 80817 — (719) 382-8570
+- Court Website: https://fountain.colorado.gov/municipal-court
+## Detention Center
+- Fountain PD Holding Facility — 222 N Santa Fe Avenue, Fountain, CO 80817
 ## Building Permits
-- Fountain Building Department — https://www.fountaincolorado.org/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- El Paso County Jail
+- Pikes Peak Regional Building Department — (719) 327-2880
+- Building Dept: https://www.pprbd.org
+## Library
+- Fountain Library — 101 S Main St, Fountain, CO 80817 — (719) 382-6565
+- Library Website: https://ppld.org
+## Hospitals
+- UCHealth Fountain Medical Center — 750 Crestview Dr — (719) 382-8700 — 38.7058° N, 104.7550° W

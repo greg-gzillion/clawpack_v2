@@ -1,19 +1,22 @@
-# Littleton — Local Law Resources
+﻿# Littleton — Local Law Resources
 ## City Website
-- https://www.littletoncolorado.gov/
+- https://www.littletonco.gov
+## City Hall
+- 2255 W. Berry Avenue, Littleton, CO 80120 — (303) 795-3700
 ## Law Enforcement
-- Littleton PD — 2565 W Berry Ave — (303) 795-3600
-- Arapahoe County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Littleton Police Department — 2069 W Littleton Blvd, Littleton, CO 80120 — (303) 794-1551 (Non-emergency)
+- Emergency: 911
+- Police Website: https://police.littletonco.gov
 ## Courts
-- Littleton Municipal Court — 2565 W Berry Ave — (303) 795-3650
+- Littleton Municipal Court — 2069 W Littleton Blvd, Littleton, CO 80120 — (303) 795-3837
+- Court Website: https://www.littletonco.gov/court
+## Detention Center
+- Arapahoe County Detention Facility — Inmate Search: Arapahoe County Inmate Locator
 ## Building Permits
-- Littleton Building Department — https://www.littletoncolorado.gov/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- Arapahoe County Jail
+- Building & Development Division — 2255 W. Berry Avenue, Littleton, CO 80120 — (303) 795-3751
+- Building Dept: https://www.littletonco.gov/building
+## Library
+- Bemis Public Library — 6014 South Datura Street, Littleton, CO 80120 — (303) 795-3961
+- Library Website: https://www.bemislibrary.org
+## Hospitals
+- Littleton AdventHealth — 7700 S Broadway — (303) 702-4000 — 39.6155° N, 105.0390° W

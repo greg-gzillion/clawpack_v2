@@ -1,19 +1,22 @@
-# Cortez — Local Law Resources
+﻿# Cortez — Local Law Resources
 ## City Website
-- https://www.cityofcortez.com/
+- https://www.cortezco.gov
+## City Hall
+- 123 Roger Smith Ave, Cortez, CO 81321 — (970) 565-3402
 ## Law Enforcement
-- Cortez PD — 123 Roger Smith Ave — (970) 565-8441
-- Montezuma County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Cortez Police Department — 608 N Park Street, Cortez, CO 81321 — (970) 565-8441 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cortezco.gov/police
 ## Courts
-- Cortez Municipal Court — 123 Roger Smith Ave — (970) 565-7952
+- Cortez Municipal Court — 123 Roger Smith Ave, Cortez, CO 81321 — (970) 565-7952
+- Court Website: https://www.cortezco.gov/municipal-court
+## Detention Center
+- Montezuma County Detention Center — 730 East Driscoll Street, Cortez, CO 81321 — (970) 565-8452
 ## Building Permits
-- Cortez Building Department — https://www.cityofcortez.com/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- Montezuma County Jail
+- Community Development — 123 Roger Smith Ave, Cortez, CO 81321 — (970) 565-3402
+- Building Dept: https://www.cortezco.gov/community-development
+## Library
+- Cortez Public Library — 202 N Park Street, Cortez, CO 81321 — (970) 565-8117
+- Library Website: https://www.cortezco.gov/library
+## Hospitals
+- Southwest Memorial Hospital — 1311 N Mildred Rd — (970) 565-6666 — 37.3622° N, 108.5727° W

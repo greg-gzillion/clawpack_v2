@@ -1,19 +1,22 @@
-# Durango — Local Law Resources
+﻿# Durango — Local Law Resources
 ## City Website
-- https://www.durangoco.gov/
+- https://www.durangoco.gov
+## City Hall
+- 949 E 2nd Avenue, Durango, CO 81301 — (970) 375-5000
 ## Law Enforcement
-- Durango PD — (970) 375-4700
-- La Plata County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Durango Police Department — 990 E 2nd Avenue, Durango, CO 81301 — (970) 375-4700 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.durangoco.gov/police
 ## Courts
-- Durango Municipal Court — 949 E 2nd Ave — (970) 375-5020
+- Durango Municipal Court — 949 E 2nd Avenue, Durango, CO 81301 — (970) 375-5020
+- Court Website: https://www.durangoco.gov/municipal-court
+## Detention Center
+- La Plata County Detention Center — 283 Girard Street, Durango, CO 81303 — (970) 247-1157
 ## Building Permits
-- Durango Building Department — https://www.durangoco.gov/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- La Plata County Jail
+- Building Division — 949 E 2nd Avenue, Durango, CO 81301 — (970) 375-4801
+- Building Dept: https://www.durangoco.gov/building
+## Library
+- Durango Public Library — 1900 E 3rd Ave, Durango, CO 81301 — (970) 375-3380
+- Library Website: https://www.durangoco.gov/library
+## Hospitals
+- Mercy Regional Medical Center — 1000 E 20th St — (970) 247-3121 — 37.2753° N, 107.8619° W

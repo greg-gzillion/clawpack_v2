@@ -1,19 +1,22 @@
-# Evans — Local Law Resources
+﻿# Evans — Local Law Resources
 ## City Website
-- https://www.evansco.us/
+- https://www.evanscolorado.gov
+## City Hall
+- 1100 37th Street, Evans, CO 80620 — (970) 475-1170
 ## Law Enforcement
-- Evans PD — 3155 Otero St — (970) 673-3511
-- Weld County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Evans Police Department — 1100 37th Street, Evans, CO 80620 — (970) 339-2441 (Non-emergency)
+- Emergency: 911
+- Police Website: https://police.evanscolorado.gov
 ## Courts
-- Evans Municipal Court — 3155 Otero St — (970) 673-3540
+- Evans Municipal Court — 1100 37th Street, Evans, CO 80620 — (970) 475-1180
+- Court Website: https://www.evanscolorado.gov/municipal-court
+## Detention Center
+- Weld County Detention Facility — Inmate Search: Weld County Inmate Roster
 ## Building Permits
-- Evans Building Department — https://www.evansco.us/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- Weld County Jail
+- Building Department — 1100 37th Street, Evans, CO 80620 — (970) 475-1170
+- Building Dept: https://www.evanscolorado.gov/building
+## Library
+- Evans Public Library — 1100 37th Street, Evans, CO 80620 — (970) 522-3200
+- Library Website: https://www.evanslibrary.org
+## Hospitals
+- North Colorado Medical Center — 1801 16th Street, Greeley — (970) 350-2000 — 40.4236° N, 104.7192° W

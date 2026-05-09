@@ -1,19 +1,22 @@
-# Castle Rock — Local Law Resources
-## City Website
-- https://www.ccronline.org/
+﻿# Castle Rock — Local Law Resources
+## Town Website
+- https://www.crgov.com
+## Town Hall
+- 100 N. Wilcox Street, Castle Rock, CO 80104 — (303) 663-6100
 ## Law Enforcement
-- Castle Rock PD — 100 Perry St — (303) 663-6100
-- Douglas County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Castle Rock Police Department — 100 Perry Street, Castle Rock, CO 80104 — (303) 663-6151 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.crgov.com/police
 ## Courts
-- Castle Rock Municipal Court — 100 Perry St — (303) 663-6150
+- Castle Rock Municipal Court — 100 Perry Street, Castle Rock, CO 80104 — (303) 660-1015
+- Court Website: https://www.crgov.com/court
+## Detention Center
+- Douglas County Jail — Inmate Search: Douglas County Jail Roster
 ## Building Permits
-- Castle Rock Building Department — https://www.ccronline.org/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- Douglas County Jail
+- Development Services Building Division — 100 N. Wilcox Street, Castle Rock, CO 80104 — (720) 733-3527
+- Building Dept: https://www.crgov.com/building
+## Library
+- Castle Rock Library — 100 N. Wilcox Street, Castle Rock, CO 80104 — (303) 688-2594
+- Library Website: https://douglascountylibraries.org
+## Hospitals
+- Castle Rock AdventHealth — 750 Perry Park Road — (720) 284-3000 — 39.3838° N, 104.8611° W

@@ -1,19 +1,22 @@
-# Lakewood — Local Law Resources
+﻿# Lakewood — Local Law Resources
 ## City Website
-- https://www.lakewood.org/
+- https://www.lakewoodco.gov
+## City Hall
+- 480 S. Allison Parkway, Lakewood, CO 80226 — (303) 987-7400
 ## Law Enforcement
-- Lakewood PD — 480 S Allison Pkwy — (303) 987-7111
-- Jefferson County Sheriff
-- Colorado State Patrol — https://www.csp.colorado.gov/
+- Lakewood Police Department — 445 S. Allison Parkway, Lakewood, CO 80226 — (303) 987-7400 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.lakewoodco.gov/police
 ## Courts
-- Lakewood Municipal Court — 480 S Allison Pkwy — (303) 987-7120
+- Lakewood Municipal Court — 445 S. Allison Parkway, Lakewood, CO 80226 — (303) 987-7400
+- Court Website: https://municourtportal.lakewoodco.gov
+## Detention Center
+- Jefferson County Detention Center — Inmate Search: Jefferson County Inmate Locator
 ## Building Permits
-- Lakewood Building Department — https://www.lakewood.org/
-## Hunting Regulations
-- CO Hunting Regulations — https://www.cpw.state.co.us/hunting
-## Fishing Regulations
-- CO Fishing Regulations — https://www.cpw.state.co.us/fishing
-## Legal Aid
-- Colorado Legal Services — https://www.coloradolegalservices.org/
-## Corrections
-- Jefferson County Jail
+- Building Division — 480 S. Allison Parkway, Lakewood, CO 80226 — (303) 987-7500
+- Building Dept: https://www.lakewoodco.gov/building
+## Library
+- Lakewood Public Library — 10800 W. Dakota Ave, Lakewood, CO 80226 — (303) 232-1234
+- Library Website: https://www.jeffcolibrary.org
+## Hospitals
+- St. Anthony Hospital — 2401 W 26th Ave — (303) 439-6000 — 39.7086° N, 105.0883° W
