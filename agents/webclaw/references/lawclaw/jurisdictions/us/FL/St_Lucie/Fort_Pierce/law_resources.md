@@ -1,22 +1,20 @@
-﻿# Fort Pierce — Local Law Resources
+# Fort Pierce — Local Law Resources
 ## City Website
-- https://www.cityoffortpierce.com
-## City Hall
-- 100 N US Highway 1, Fort Pierce, FL 34950 — (772) 467-3000
+- https://www.cityoffortpierce.com/
 ## Law Enforcement
-- Fort Pierce Police Department — 920 S US Highway 1, Fort Pierce, FL 34950 — (772) 467-6800 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.fppd.org
+- Fort Pierce PD
+- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
 ## Courts
-- 19th Judicial Circuit Court – St. Lucie County
-- Court Website: https://www.circuit19.org
-## Detention Center
-- Fort Pierce City Jail — 920 S US Highway 1, Fort Pierce, FL 34950
+- St. Lucie County Clerk — 201 S Indian River Dr — (772) 462-6900 — M-F 8-5
+- **Court Website**: https://www.stlucieclerk.gov/
 ## Building Permits
-- Building Department — 100 N US Highway 1, Fort Pierce, FL 34950 — (772) 467-3718 — ftpbuilding@cityoffortpierce.com
-- Building Dept: https://www.cityoffortpierce.com/building
-## Library
-- Susan Broom Kilmer Branch Library — 101 Melody Lane, Fort Pierce, FL 34950 — (772) 462-1615
-- Library Website: https://www.stlucieco.gov/library
-## Hospitals
-- HCA Florida Lawnwood Hospital — 1700 S 23rd St — (772) 461-4000 — 27.4319° N, 80.3455° W
+- Fort Pierce Building Department — https://www.cityoffortpierce.com/
+## Hunting Regulations
+- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
+## Fishing Regulations
+- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
+- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
+## Legal Aid
+- Florida Legal Aid — https://www.floridalegal.org/
+## Corrections
+- St. Lucie County Jail
