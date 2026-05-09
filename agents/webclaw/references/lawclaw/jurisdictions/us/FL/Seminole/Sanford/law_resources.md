@@ -1,20 +1,22 @@
-# Sanford — Local Law Resources
+﻿# Sanford — Local Law Resources
 ## City Website
-- https://www.sanfordfl.gov/
+- https://sanfordfl.gov
+## City Hall
+- 300 N Park Ave, Sanford, FL 32771 — (407) 688-5001
 ## Law Enforcement
-- Sanford PD — 815 S French Ave — (407) 688-5070
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Sanford Police Department — 815 W 13th Street, Sanford, FL 32771 — (407) 688-5070 (Non-emergency)
+- Emergency: 911
+- Police Website: https://sanfordfl.gov/police
 ## Courts
-- Seminole County Clerk — (407) 665-5200 — M-F 8:30-5
-- **Court Website**: https://www.seminoleclerk.org/
+- 18th Judicial Circuit Court – Seminole County
+- Court Website: https://www.seminolecourt.org
+## Detention Center
+- Sanford City Jail — 815 W 13th Street, Sanford, FL 32771
 ## Building Permits
-- Sanford Building Department — https://www.sanfordfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Seminole County Jail
+- Building Division — 300 N Park Ave, Sanford, FL 32771 — (407) 688-5150 — BuildingDepartment@sanfordfl.gov
+- Building Dept: https://sanfordfl.gov/building
+## Library
+- North Branch Library — 150 N Palmetto Ave, Sanford, FL 32771 — (407) 665-1620
+- Library Website: https://www.seminolecountyfl.gov/library
+## Hospitals
+- HCA Florida Lake Monroe Hospital — 1401 W Seminole Blvd — (407) 321-4500 — 28.8147° N, 81.2836° W

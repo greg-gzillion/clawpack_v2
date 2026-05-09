@@ -1,21 +1,22 @@
-# Clearwater — Local Law Resources
+﻿# Clearwater — Local Law Resources
 ## City Website
-- https://www.clearwaterfl.gov/
+- https://www.myclearwater.com
+## City Hall
+- 100 S Myrtle Ave, Clearwater, FL 33756 — (727) 562-4242
 ## Law Enforcement
-- Clearwater PD — 600 Cleveland St — (727) 562-4080
-- Pinellas County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Clearwater Police Department — 645 Pierce St, Clearwater, FL 33756 — (727) 562-4242 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.myclearwater.com/police
 ## Courts
-- Pinellas County Clerk — 315 Court St, Clearwater — (727) 464-6100 — M-F 8-5
-- **Court Website**: https://www.pinellasclerk.org/
+- 6th Judicial Circuit Court – Pinellas County
+- Court Website: https://www.pinellasclerk.org
+## Detention Center
+- Pinellas County Jail — Inmate Roster: https://www.pinellasclerk.org/inmate-search
 ## Building Permits
-- Clearwater Building Department — https://www.clearwaterfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Pinellas County Jail
+- Planning & Development – Construction Services — 100 S Myrtle Ave, Clearwater, FL 33756 — (727) 562-4780
+- Building Dept: https://www.myclearwater.com/permits
+## Library
+- Clearwater Main Library — 100 N Osceola Ave, Clearwater, FL 33755
+- Library Website: https://www.myclearwater.com/library
+## Hospitals
+- Morton Plant Hospital — 300 Pinellas St — (727) 462-7000 — 27.9674° N, 82.7973° W

@@ -1,21 +1,23 @@
-# Delray Beach — Local Law Resources
+﻿# Delray Beach — Local Law Resources
 ## City Website
-- https://www.delraybeachfl.gov/
+- https://www.delraybeachfl.gov
+## City Hall
+- 100 NW 1st Ave, Delray Beach, FL 33444 — (561) 243-7000
 ## Law Enforcement
-- Delray Beach PD — 300 W Atlantic Ave — (561) 243-7800 — M-F 7-6, Sat 8-5
-- Palm Beach County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Delray Beach Police Department — 300 W Atlantic Ave, Delray Beach, FL 33444 — (561) 243-7800 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.delraybeachfl.gov/police
 ## Courts
-- South County Courthouse — 200 W Atlantic Ave — (561) 274-1400
-- **Court Website**: https://www.mypalmbeachclerk.com/
+- 15th Judicial Circuit Court – Palm Beach County (South County Courthouse in Delray Beach)
+- Court Website: https://www.flcourts15.org
+## Detention Center
+- Delray Beach City Jail (temporary) — 300 W Atlantic Ave, Delray Beach, FL 33444
+- Transfers to Palm Beach County Jail — Inmate Search: Palm Beach County Inmate Search
 ## Building Permits
-- Delray Beach Building Department — https://www.delraybeachfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Palm Beach County Jail
+- Development Services — 100 NW 1st Ave, Delray Beach, FL 33444 — (561) 243-7200
+- Building Dept: https://www.delraybeachfl.gov/building
+## Library
+- Delray Beach Public Library — 100 W Atlantic Ave, Delray Beach, FL 33444 — (561) 266-0194
+- Library Website: https://www.delraylibrary.org
+## Hospitals
+- Delray Medical Center — 5352 Linton Blvd — (561) 498-4440 — 26.4370° N, 80.1277° W

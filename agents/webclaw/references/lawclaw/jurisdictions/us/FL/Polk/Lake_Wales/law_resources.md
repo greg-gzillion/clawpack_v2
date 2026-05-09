@@ -1,20 +1,22 @@
-# Lake Wales — Local Law Resources
+﻿# Lake Wales — Local Law Resources
 ## City Website
-- https://www.lakewalesfl.gov/
+- https://www.lakewalesfl.gov
+## City Hall
+- 111 E Central Ave, Lake Wales, FL 33853 — (863) 678-4182
 ## Law Enforcement
-- Lake Wales PD — (863) 678-4223
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Lake Wales Police Department — 133 E Tillman Ave, Lake Wales, FL 33853 — (863) 678-4223 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.lakewalesfl.gov/police
 ## Courts
-- Polk County Clerk — (863) 678-4002 (traffic)
-- **Court Website**: https://www.polkclerk.com/
+- 10th Judicial Circuit Court – Polk County
+- Court Website: https://www.flcourts10.org
+## Detention Center
+- Lake Wales City Jail — 133 E Tillman Ave, Lake Wales, FL 33853
 ## Building Permits
-- Lake Wales Building Department — https://www.lakewalesfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Polk County Jail
+- Building Division — 111 E Central Ave, Lake Wales, FL 33853 — (863) 676-5115 ext. 9201 — permitting@lakewalesfl.gov
+- Building Dept: https://www.lakewalesfl.gov/building
+## Library
+- Lake Wales Public Library — 290 Cypress Garden Ln, Lake Wales, FL 33853 — (863) 678-4004
+- Library Website: https://www.lakewalesfl.gov/library
+## Hospitals
+- AdventHealth Lake Wales — 410 S 11th St — (863) 676-1433 — 27.8963° N, 81.5653° W

@@ -1,20 +1,22 @@
-# Winter Springs — Local Law Resources
+﻿# Winter Springs — Local Law Resources
 ## City Website
-- https://www.winterspringsfl.org/
+- https://www.winterspringsfl.org
+## City Hall
+- 1126 E State Road 434, Winter Springs, FL 32708 — (407) 327-1800
 ## Law Enforcement
-- Winter Springs PD — 300 N Moss Rd — (407) 327-1000
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Winter Springs Police Department — 300 N Moss Rd, Winter Springs, FL 32708 — (407) 327-1000 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.winterspringsfl.org/police
 ## Courts
-- Seminole County Clerk — Traffic: 101 Bush Blvd, Sanford — (407) 665-4330
-- **Court Website**: https://www.seminoleclerk.org/
+- 18th Judicial Circuit Court – Seminole County
+- Court Website: https://www.seminolecourt.org
+## Detention Center
+- Winter Springs City Jail — 300 N Moss Rd, Winter Springs, FL 32708
 ## Building Permits
-- Winter Springs Building Department — https://www.winterspringsfl.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Seminole County Jail
+- Community Development — 1126 E State Road 434, Winter Springs, FL 32708 — (407) 327-5963 — CommunityDevelopment@winterspringsfl.org
+- Building Dept: https://www.winterspringsfl.org/community-development
+## Library
+- East Branch Library (nearest) — 310 N Division St, Oviedo, FL 32765 — (407) 665-1560
+- Library Website: https://www.seminolecountyfl.gov/library
+## Hospitals
+- AdventHealth Winter Springs — 201 N Edinburgh Dr — (407) 303-2200 — 28.7028° N, 81.2872° W

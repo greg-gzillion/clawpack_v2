@@ -1,20 +1,22 @@
-# Jupiter — Local Law Resources
-## City Website
-- https://www.jupiter.fl.us/
+﻿# Jupiter — Local Law Resources
+## Town Website
+- https://www.jupiter.fl.us
+## Town Hall
+- 210 Military Trail, Jupiter, FL 33458 — (561) 746-5134
 ## Law Enforcement
-- Jupiter PD — 210 Military Trail — (561) 746-6201
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Jupiter Police Department — 196 Military Trail, Jupiter, FL 33458 — (561) 746-6201 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.jupiter.fl.us/police
 ## Courts
-- Palm Beach County Clerk — 1515 Military Trail, Jupiter — (561) 355-2996 — M-F 8-5
-- **Court Website**: https://www.pbclerk.com/
+- 15th Judicial Circuit Court – Palm Beach County
+- Court Website: https://www.flcourts15.org
+## Detention Center
+- Palm Beach County Jail — Inmate Roster: Palm Beach County Inmate Search
 ## Building Permits
-- Jupiter Building Department — https://www.jupiter.fl.us/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Palm Beach County Jail
+- Building Department — 210 Military Trail, Jupiter, FL 33458 — (561) 741-2286 — tojbuilding@jupiter.fl.us
+- Building Dept: https://www.jupiter.fl.us/building
+## Library
+- Jupiter Branch Library — 705 Military Trail, Jupiter, FL 33458 — (561) 744-2301
+- Library Website: https://www.pbclibrary.org
+## Hospitals
+- Jupiter Medical Center — 1210 S Old Dixie Hwy — (561) 263-2234 — 26.9226° N, 80.0966° W

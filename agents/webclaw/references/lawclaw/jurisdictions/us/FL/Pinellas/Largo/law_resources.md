@@ -1,21 +1,22 @@
-# Largo — Local Law Resources
+﻿# Largo — Local Law Resources
 ## City Website
-- https://www.largo.com/
+- https://www.largo.com
+## City Hall
+- 201 Highland Ave NE, Largo, FL 33770 — (727) 587-6730
 ## Law Enforcement
-- Largo PD — 201 Highland Ave NE — (727) 587-6730
-- Pinellas County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Largo Police Department — 201 Highland Ave NE, Largo, FL 33770 — (727) 587-6717 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.largo.com/police
 ## Courts
-- Pinellas County Clerk — 37510 US Hwy 19, Palm Harbor — (727) 464-6100 — M-F 8-5
-- **Court Website**: https://www.pinellasclerk.org/
+- 6th Judicial Circuit Court – Pinellas County
+- Court Website: https://www.pinellasclerk.org
+## Detention Center
+- Pinellas County Jail — Inmate Roster: https://www.pinellasclerk.org/inmate-search
 ## Building Permits
-- Largo Building Department — https://www.largo.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Pinellas County Jail
+- Building Services Division — 400 Alt Keene Rd, Largo, FL 33770 — (727) 586-7488 — permits@largo.com
+- Building Dept: https://www.largo.com/building
+## Library
+- Largo Public Library — 120 Central Park Dr SE, Largo, FL 33771 — (727) 587-7850
+- Library Website: https://www.pplc.us
+## Hospitals
+- HCA Florida Largo Hospital — 201 14th St SW — (727) 588-5200 — 27.9145° N, 82.7987° W

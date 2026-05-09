@@ -1,21 +1,22 @@
-# Casselberry — Local Law Resources
+﻿# Casselberry — Local Law Resources
 ## City Website
-- https://www.casselberry.org/
+- https://www.casselberry.org
+## City Hall
+- 95 Triplet Lake Drive, Casselberry, FL 32707 — (407) 262-7700
 ## Law Enforcement
-- Casselberry PD — 115 Wilshire Blvd — (407) 262-7606 — M-Th 7-6
-- Seminole County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Casselberry Police Department — 115 Wilshire Boulevard, Casselberry, FL 32707 — (407) 262-7616 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.casselberry.org/police
 ## Courts
-- Seminole County Clerk
-- **Court Website**: https://www.seminoleclerk.org/
+- 18th Judicial Circuit Court – Seminole County
+- Court Website: https://www.seminolecourt.org
+## Detention Center
+- Casselberry City Jail — 4195 S US Highway 17-92, Casselberry, FL 32707
 ## Building Permits
-- Casselberry Building Department — https://www.casselberry.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Seminole County Jail
+- Building and Fire Safety — 95 Triplet Lake Drive, Casselberry, FL 32707 — (407) 262-7725 — BuildingInspections@casselberry.org
+- Building Dept: https://www.casselberry.org/building
+## Library
+- Jean Rhein Central Branch — 215 N Oxford Rd, Casselberry, FL 32707 — (407) 665-1500
+- Library Website: https://www.seminolecountyfl.gov/library
+## Hospitals
+- HCA Florida Casselberry Emergency — 2560 S US Hwy 17-92 — (407) 303-5000 — 28.6624° N, 81.3217° W

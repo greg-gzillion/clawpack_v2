@@ -1,20 +1,23 @@
-# New Port Richey — Local Law Resources
+﻿# New Port Richey — Local Law Resources
 ## City Website
-- https://www.nprflorida.org/
+- https://www.cityofnewportrichey.org
+## City Hall
+- 5919 Main Street, New Port Richey, FL 34652 — (727) 853-1016
 ## Law Enforcement
-- New Port Richey PD — 6739 Adams St — (727) 841-4550
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- New Port Richey Police Department — 6739 Adams Street, New Port Richey, FL 34652 — (727) 841-4550 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofnewportrichey.org/police
 ## Courts
-- Pasco County Clerk — 37910 Grand Marais Rd W, Land O Lakes — (813) 995-8000 — M-F 8-5
-- **Court Website**: https://www.pascoclerk.com/
+- 6th Judicial Circuit Court – Pasco County
+- Court Website: https://www.flcourts6.org
+## Detention Center
+- New Port Richey City Jail (temporary) — 6739 Adams Street, New Port Richey, FL 34652
+- Transfers to Pasco County Jail
 ## Building Permits
-- New Port Richey Building Department — https://www.nprflorida.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Pasco County Jail
+- Building Division — 5919 Main Street, New Port Richey, FL 34652 — (727) 853-1047 — permitting@cityofnewportrichey.org
+- Building Dept: https://www.cityofnewportrichey.org/building
+## Library
+- West Pasco Library — 7737 Little Road, New Port Richey, FL 34655 — (727) 847-8164
+- Library Website: https://www.pascolibraries.org
+## Hospitals
+- Morton Plant North Bay Hospital — 6600 Madison St — (727) 842-8468 — 28.2543° N, 82.7145° W

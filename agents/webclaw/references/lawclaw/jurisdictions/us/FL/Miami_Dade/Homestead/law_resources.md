@@ -1,21 +1,22 @@
-# Homestead — Local Law Resources
+﻿# Homestead — Local Law Resources
 ## City Website
-- https://www.homesteadfl.gov/
+- https://www.homesteadfl.gov
+## City Hall
+- 100 Civic Court, Homestead, FL 33030 — (305) 224-4400
 ## Law Enforcement
-- Homestead PD — 45 NW 1st Ave — (305) 247-1535
-- Miami Dade County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Homestead Police Department — 45 NW 1st Avenue, Homestead, FL 33030 — (305) 224-4595 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.homesteadfl.gov/Police-Services
 ## Courts
-- Miami-Dade Clerk of Courts — 175 NW 1st Ave, Miami — (305) 275-1155 — M-F 9-4
-- **Court Website**: https://www.miamidadeclerk.gov/
+- 11th Judicial Circuit Court – Miami-Dade County
+- Court Website: https://www.mdcourts.gov
+## Detention Center
+- Homestead City Jail — 45 NW 1st Avenue, Homestead, FL 33030
 ## Building Permits
-- Homestead Building Department — https://www.homesteadfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Miami Dade County Jail
+- Building Division — 100 Civic Court, Homestead, FL 33030 — (305) 224-4500 — permits@homesteadfl.gov
+- Building Dept: https://www.homesteadfl.gov/Building-Permits
+## Library
+- Homestead Branch Library — 100 SE 5th Avenue, Homestead, FL 33030 — (305) 224-4600
+- Library Website: https://www.mdpls.org
+## Hospitals
+- Baptist Health Homestead Hospital — 975 Baptist Way — (786) 243-8000 — 25.4568° N, 80.4617° W

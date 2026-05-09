@@ -1,20 +1,22 @@
-# Key West — Local Law Resources
+﻿# Key West — Local Law Resources
 ## City Website
-- https://www.cityofkeywest-fl.gov/
+- https://www.cityofkeywest-fl.gov
+## City Hall
+- 1300 White Street, Key West, FL 33040 — (305) 809-3945
 ## Law Enforcement
-- Key West PD — 1604 N Roosevelt Blvd — (305) 292-3423
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Key West Police Department — 1300 White Street, Key West, FL 33040 — (305) 809-1111 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofkeywest-fl.gov/police
 ## Courts
-- Monroe County Clerk — 500 Whitehead St — (305) 295-3130 — M-F 8:30-5
-- **Court Website**: https://www.monroecountyfl.gov/clerk
+- 16th Judicial Circuit Court – Monroe County
+- Court Website: https://www.flcourts16.org
+## Detention Center
+- Key West City Jail — 1300 White Street, Key West, FL 33040
 ## Building Permits
-- Key West Building Department — https://www.cityofkeywest-fl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Monroe County Jail
+- Building Department — 1300 White Street, Key West, FL 33040 — (305) 809-3956 — building@cityofkeywest-fl.gov
+- Building Dept: https://www.cityofkeywest-fl.gov/building
+## Library
+- Key West Library — 700 Fleming Street, Key West, FL 33040 — (305) 292-3595
+- Library Website: https://www.keyslibraries.org
+## Hospitals
+- Lower Keys Medical Center — 5900 College Rd — (305) 294-5531 — 24.5736° N, 81.7559° W

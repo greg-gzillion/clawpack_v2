@@ -1,20 +1,22 @@
-# Haines City — Local Law Resources
+﻿# Haines City — Local Law Resources
 ## City Website
-- https://hainescity.com/
+- https://www.hainescity.com
+## City Hall
+- 620 E Main Street, Haines City, FL 33844 — (863) 421-3600
 ## Law Enforcement
-- Haines City PD — 35400 Hwy 27 — (863) 421-3636
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Haines City Police Department — 35400 US Highway 27, Haines City, FL 33844 — (863) 421-3636 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.hainescity.com/police
 ## Courts
-- Polk County Clerk
-- **Court Website**: https://www.polkclerk.com/
+- 10th Judicial Circuit Court – Polk County
+- Court Website: https://www.flcourts10.org
+## Detention Center
+- Haines City City Jail — 35400 US Highway 27, Haines City, FL 33844
 ## Building Permits
-- Haines City Building Department — https://hainescity.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Polk County Jail
+- Development Services – Building Division — 620 E Main Street, Haines City, FL 33844 — (863) 421-3600 ext. 5253 — permitting@hainescity.com
+- Building Dept: https://www.hainescity.com/building
+## Library
+- Haines City Public Library — 111 N 6th Street, Haines City, FL 33844 — (863) 421-3633
+- Library Website: https://www.hainescity.com/library
+## Hospitals
+- HCA Florida Haines City Emergency — 36810 Hwy 27 — (863) 695-7400 — 28.1336° N, 81.6401° W

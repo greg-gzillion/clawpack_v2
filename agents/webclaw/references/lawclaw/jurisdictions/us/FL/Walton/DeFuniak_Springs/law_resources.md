@@ -1,21 +1,23 @@
-# DeFuniak Springs — Local Law Resources
+﻿# DeFuniak Springs — Local Law Resources
 ## City Website
-- https://www.defuniaksprings.net/
+- https://www.defuniaksprings.net
+## City Hall
+- 1350 Baldwin Avenue, DeFuniak Springs, FL 32435 — (850) 892-8500
 ## Law Enforcement
-- DeFuniak Springs PD — 355 US Hwy 90 E — (850) 892-8511 — M-F 8-5
-- Walton County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- City Marshal/Police Department — 99 S 18th St, DeFuniak Springs, FL 32435 — (850) 892-8511 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.defuniaksprings.net/police
 ## Courts
-- City Marshal Court — (850) 892-8513 ext 223 — M-F 8-5
-- **Court Website**: https://www.defuniaksprings.net/
+- 1st Judicial Circuit Court – Walton County
+- Court Website: https://www.firstjudicialcircuit.org
+## Detention Center
+- DeFuniak Springs City Jail — 99 S 18th St, DeFuniak Springs, FL 32435
+- Walton County Jail Inmate Search
 ## Building Permits
-- DeFuniak Springs Building Department — https://www.defuniaksprings.net/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Walton County Jail
+- Community Development — 1350 Baldwin Avenue, DeFuniak Springs, FL 32435 — (850) 892-8500 — communitydev@defuniaksprings.net
+- Building Dept: https://www.defuniaksprings.net/community-development
+## Library
+- Walton-DeFuniak Library — 3 Circle Drive, DeFuniak Springs, FL 32435 — (850) 892-3624
+- Library Website: https://waltonlibraries.com
+## Hospitals
+- North Walton Doctors Hospital — 4413 US Highway 331 S — (850) 920-2065 — 30.6607° N, 86.1176° W

@@ -1,20 +1,22 @@
-# New Smyrna Beach — Local Law Resources
+﻿# New Smyrna Beach — Local Law Resources
 ## City Website
-- https://www.cityofnsb.com/
+- https://www.cityofnsb.com
+## City Hall
+- 210 Sams Avenue, New Smyrna Beach, FL 32168 — (386) 410-2850
 ## Law Enforcement
-- New Smyrna Beach PD — 246 Industrial Park Ave — (386) 424-2220 — M-F 8-5
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- New Smyrna Beach Police Department — 210 Sams Avenue, New Smyrna Beach, FL 32168 — (386) 410-3600 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofnsb.com/police
 ## Courts
-- Volusia County Clerk — (386) 736-5950 — M-F 8-5
-- **Court Website**: https://www.volusiaclerk.org/
+- 7th Judicial Circuit Court – Volusia County
+- Court Website: https://www.clk.volusia.org
+## Detention Center
+- Volusia County Jail — Inmate Roster: https://www.volusia.org/jail-roster
 ## Building Permits
-- New Smyrna Beach Building Department — https://www.cityofnsb.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Volusia County Jail
+- Building & Inspections — 210 Sams Avenue, New Smyrna Beach, FL 32168 — (386) 410-2860 — building@cityofnsb.com
+- Building Dept: https://www.cityofnsb.com/building
+## Library
+- New Smyrna Beach Regional Library — 1001 S Dixie Freeway, New Smyrna Beach, FL 32168 — (386) 428-0222
+- Library Website: https://www.volusialibrary.org
+## Hospitals
+- AdventHealth New Smyrna Beach — 401 Palmetto St — (386) 424-5000 — 29.0206° N, 80.9283° W

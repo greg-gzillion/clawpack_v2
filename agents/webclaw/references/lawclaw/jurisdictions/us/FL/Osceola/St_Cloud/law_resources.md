@@ -1,20 +1,22 @@
-# St Cloud — Local Law Resources
+﻿# St. Cloud — Local Law Resources
 ## City Website
-- https://www.stcloudfl.gov/
+- https://www.stcloudfl.gov
+## City Hall
+- 1300 9th Street, Building A, St. Cloud, FL 34769 — (407) 957-7300
 ## Law Enforcement
-- St. Cloud PD — 923 New York Ave — (407) 891-6700
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- St. Cloud Police Department — 4700 Neptune Road, St. Cloud, FL 34769 — (407) 891-6700 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.stcloudfl.gov/Police
 ## Courts
-- Osceola County Clerk — 2 Courthouse Sq, Kissimmee — (407) 742-8555 — M-F 8-5
-- **Court Website**: https://www.osceolacountyfl.net/clerk
+- 9th Judicial Circuit Court – Osceola County
+- Court Website: https://www.osceolacourt.org
+## Detention Center
+- Osceola County Jail — Inmate Roster: https://www.osceola.org/inmate-roster
 ## Building Permits
-- St Cloud Building Department — https://www.stcloudfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Osceola County Jail
+- Building Department — 1300 9th Street, Building A, 1st Floor, St. Cloud, FL 34769 — (407) 957-7224
+- Building Dept: https://www.stcloudfl.gov/Building-Department
+## Library
+- Veterans Memorial St. Cloud Library — 1300 9th Street, Building A, St. Cloud, FL 34769 — (407) 343-2791
+- Library Website: https://www.osceolalibrary.org
+## Hospitals
+- Orlando Health St. Cloud Hospital — 2906 17th St — (407) 498-3500 — 28.2483° N, 81.2841° W

@@ -1,21 +1,23 @@
-# Apopka — Local Law Resources
+﻿# Maitland — Local Law Resources
 ## City Website
-- https://apopka.gov/
+- https://www.itsmymaitland.com
+## City Hall
+- 1776 Independence Lane, Maitland, FL 32751 — (407) 539-6000
 ## Law Enforcement
-- Apopka PD — 112 E 6th St — (407) 703-1771 — M-F 8-5
-- Orange County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Maitland Police Department — 1776 Independence Lane, Maitland, FL 32751 — (407) 539-6261 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.maitlandpd.org
 ## Courts
-- Orange County Clerk — 1111 N Rock Springs Rd — (405) 836-2007 — M-Th 7:30-4, F 8-4
-- **Court Website**: https://www.myorangeclerk.com/
+- 9th Judicial Circuit Court – Orange County
+- Court Website: https://www.flcourts9.org
+## Detention Center
+- Maitland City Jail — 1776 Independence Lane, Maitland, FL 32751
 ## Building Permits
-- Apopka Building Department — https://apopka.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Orange County Jail
+- Building Safety and Permitting — 1776 Independence Lane, Maitland, FL 32751 — (407) 539-6150 — building@itsmymaitland.com
+- Building Dept: https://www.itsmymaitland.com/building
+## Library
+- Maitland Public Library — 501 S Maitland Ave, Maitland, FL 32751 — (407) 260-6460
+- Library Website: https://www.ocls.info
+## Hospitals
+- AdventHealth Altamonte — 601 E Altamonte Dr, Altamonte Springs — (407) 303-2000 — 28.6354° N, 81.3731° W
+- AdventHealth Orlando — 6000 Major Blvd, Orlando — (321) 841-4000 — 28.5383° N, 81.3757° W

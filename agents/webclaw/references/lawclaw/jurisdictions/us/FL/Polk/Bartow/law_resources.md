@@ -1,21 +1,23 @@
-# Bartow — Local Law Resources
+﻿# Bartow — Local Law Resources
 ## City Website
-- https://www.cityofbartow.net/
+- https://www.cityofbartow.net
+## City Hall
+- 450 N Broadway Ave, Bartow, FL 33830 — (863) 534-0100
 ## Law Enforcement
-- Bartow PD — 450 N Broadway Ave — (863) 534-5034
-- Polk County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Bartow Police Department — 450 N Broadway Ave, Bartow, FL 33830 — (863) 534-5034 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofbartow.net/police
 ## Courts
-- Polk County Clerk
-- **Court Website**: https://www.polkclerk.com/
+- 10th Judicial Circuit Court – Polk County
+- Court Website: https://www.flcourts10.org
+## Detention Center
+- Polk County Jail – Central County Jail — 2390 Bob Phillips Rd, Bartow, FL 33830
+- Inmate Roster: https://www.polksheriff.org
 ## Building Permits
-- Bartow Building Department — https://www.cityofbartow.net/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Polk County Jail
+- Building Department — 450 N Broadway Ave, Bartow, FL 33830 — (863) 534-0157
+- Building Dept: https://www.cityofbartow.net/building
+## Library
+- Bartow Public Library — 2150 S Broadway Ave, Bartow, FL 33830 — (863) 534-0131
+- Library Website: https://pclc.ent.sirsi.net
+## Hospitals
+- Bartow Regional Medical Center — 2200 Osprey Blvd — (863) 533-8111 — 27.9187° N, 81.8439° W

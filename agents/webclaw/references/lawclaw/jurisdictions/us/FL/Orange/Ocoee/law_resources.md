@@ -1,20 +1,22 @@
-# Ocoee — Local Law Resources
+﻿# Ocoee — Local Law Resources
 ## City Website
-- https://www.ocoee.org/
+- https://www.ocoee.org
+## City Hall
+- 1 North Bluford Avenue, Ocoee, FL 34761 — (407) 905-3100
 ## Law Enforcement
-- Ocoee PD — (407) 905-3160
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Ocoee Police Department — 646 Ocoee Commerce Parkway, Ocoee, FL 34761 — (407) 905-3160 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.ocoee.org/police
 ## Courts
-- Orange County Clerk — (407) 836-4000
-- **Court Website**: https://www.myorangeclerk.com/
+- 9th Judicial Circuit Court – Orange County
+- Court Website: https://www.flcourts9.org
+## Detention Center
+- Ocoee City Jail — 646 Ocoee Commerce Parkway, Ocoee, FL 34761
 ## Building Permits
-- Ocoee Building Department — https://www.ocoee.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Orange County Jail
+- Building Division — 1 North Bluford Ave, Ocoee, FL 34761 — (407) 905-3104 — inspections@ocoee.org
+- Building Dept: https://www.ocoee.org/building
+## Library
+- West Oaks Branch Library — 1821 E Silver Star Rd, Ocoee, FL 34761 — (407) 835-7323
+- Library Website: https://www.ocls.info
+## Hospitals
+- Orlando Health Health Central Hospital — 10000 W Colonial Dr — (352) 338-2000 — 28.5528° N, 81.5340° W

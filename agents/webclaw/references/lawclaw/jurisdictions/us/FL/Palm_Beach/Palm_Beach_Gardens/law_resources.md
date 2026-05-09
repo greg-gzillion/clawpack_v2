@@ -1,20 +1,23 @@
-# Palm Beach Gardens — Local Law Resources
+﻿# Palm Beach Gardens — Local Law Resources
 ## City Website
-- https://www.pbgfl.com/
+- https://www.pbgfl.gov
+## City Hall
+- 10500 N Military Trail, Palm Beach Gardens, FL 33410 — (561) 799-4100
 ## Law Enforcement
-- Palm Beach Gardens PD — 10500 N Military Trl — (561) 799-4433
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Palm Beach Gardens Police Department — 10500 N Military Trail, Palm Beach Gardens, FL 33410 — (561) 799-4445 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.pbgfl.gov/police
 ## Courts
-- North County Courthouse — (561) 355-2996
-- **Court Website**: https://www.mypalmbeachclerk.com/
+- 15th Judicial Circuit Court – Palm Beach County
+- North County Courthouse: 3188 PGA Blvd, Palm Beach Gardens, FL 33410
+- Court Website: https://www.flcourts15.org
+## Detention Center
+- Palm Beach County Jail — Inmate Roster: https://www.pbso.org/inmate-search
 ## Building Permits
-- Palm Beach Gardens Building Department — https://www.pbgfl.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Palm Beach County Jail
+- Building Department — 10500 N Military Trail, Palm Beach Gardens, FL 33410 — (561) 799-4210 — tojbuilding@pbgfl.gov
+- Building Dept: https://www.pbgfl.gov/building
+## Library
+- Palm Beach Gardens Library — 4050 Burns Rd, Palm Beach Gardens, FL 33410 — (561) 626-7770
+- Library Website: https://www.pbclibrary.org
+## Hospitals
+- Palm Beach Gardens Medical Center — 3360 Burns Rd — (561) 622-1411 — 26.8290° N, 80.0842° W

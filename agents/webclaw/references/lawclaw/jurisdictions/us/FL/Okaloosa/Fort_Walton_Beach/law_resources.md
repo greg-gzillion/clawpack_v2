@@ -1,20 +1,23 @@
-# Fort Walton Beach — Local Law Resources
+﻿# Fort Walton Beach — Local Law Resources
 ## City Website
-- https://www.fwb.org/
+- https://www.fwb.org
+## City Hall
+- 107 Miracle Strip Parkway SW, Fort Walton Beach, FL 32548 — (850) 833-9591
 ## Law Enforcement
-- Fort Walton Beach PD — 7 Hollywood Blvd NE — (850) 833-9533
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Fort Walton Beach Police Department — 7 Hollywood Boulevard NE, Fort Walton Beach, FL 32548 — (850) 833-9546 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.fwb.org/police
 ## Courts
-- Okaloosa County Clerk — 122 Miracle Strip Pkwy SW — (850) 651-7300
-- **Court Website**: https://www.okaloosacountyclerk.com/
+- 1st Judicial Circuit Court – Okaloosa County
+- Court Website: https://www.firstjudicialcircuit.org
+## Detention Center
+- Okaloosa County Jail — 335 Airport Road, Crestview, FL 32539
+- Inmate Roster: https://www.okaloosasos.com/inmate-roster
 ## Building Permits
-- Fort Walton Beach Building Department — https://www.fwb.org/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Okaloosa County Jail
+- Building & Inspections Division — 105 Miracle Strip Parkway SW, Fort Walton Beach, FL 32548 — (850) 833-9605
+- Building Dept: https://www.fwb.org/building
+## Library
+- Fort Walton Beach Library — 185 Miracle Strip Parkway SE, Fort Walton Beach, FL 32548 — (850) 833-9590
+- Library Website: https://www.okalibrary.org
+## Hospitals
+- HCA Florida Fort Walton-Destin Hospital — 1000 Mar Walt Dr — (850) 862-1111 — 30.4468° N, 86.6275° W

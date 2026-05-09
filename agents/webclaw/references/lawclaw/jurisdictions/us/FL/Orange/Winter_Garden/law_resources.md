@@ -1,20 +1,22 @@
-# Winter Garden — Local Law Resources
+﻿# Winter Garden — Local Law Resources
 ## City Website
-- https://www.wgfl.gov/
+- https://www.wgfl.gov
+## City Hall
+- 300 West Plant Street, Winter Garden, FL 34787 — (407) 656-4155
 ## Law Enforcement
-- Winter Garden PD — 251 W Plant St — (407) 656-3636
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Winter Garden Police Department — 251 W Plant Street, Winter Garden, FL 34787 — (407) 656-3636 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.wgpd.com
 ## Courts
-- Orange County Clerk — Winter Park Courthouse — (407) 836-2007
-- **Court Website**: https://www.myorangeclerk.com/
+- 9th Judicial Circuit Court – Orange County
+- Court Website: https://www.flcourts9.org
+## Detention Center
+- Orange County Jail — Inmate Roster: https://www.ocso.com/inmate-roster
 ## Building Permits
-- Winter Garden Building Department — https://www.wgfl.gov/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Orange County Jail
+- Building Department — 300 West Plant Street, Winter Garden, FL 34787 — (407) 656-4111 — building@wgfl.gov
+- Building Dept: https://wgfl.gov/Building
+## Library
+- Winter Garden Branch Library — 805 E Plant Street, Winter Garden, FL 34787 — (407) 835-7323
+- Library Website: https://www.ocls.org
+## Hospitals
+- AdventHealth Winter Garden — 2000 Fowler Grove Blvd — (407) 303-2000 — 28.5239° N, 81.5894° W

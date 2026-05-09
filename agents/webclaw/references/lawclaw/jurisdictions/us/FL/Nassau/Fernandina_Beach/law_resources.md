@@ -1,21 +1,22 @@
-# Fernandina Beach — Local Law Resources
+﻿# Fernandina Beach — Local Law Resources
 ## City Website
-- https://www.fbfl.us/
+- https://www.fbfl.us
+## City Hall
+- 204 Ash Street, Fernandina Beach, FL 32034 — (904) 321-7200
 ## Law Enforcement
-- Fernandina Beach PD — 1525 Lime St — (904) 310-2400
-- Nassau County Sheriff
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Fernandina Beach Police Department — 1525 Lime Street, Fernandina Beach, FL 32034 — (904) 277-7342 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.fbfl.us/police
 ## Courts
-- Fernandina Beach Municipal Court — 1525 Lime St
-- **Court Website**: https://www.fbfl.us/
+- 4th Judicial Circuit Court – Nassau County
+- Court Website: https://www.flcourts4.org
+## Detention Center
+- Fernandina Beach City Jail — 1525 Lime Street, Fernandina Beach, FL 32034 — (904) 277-7342
 ## Building Permits
-- Fernandina Beach Building Department — https://www.fbfl.us/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Nassau County Jail
+- Building Department — 204 Ash Street, Fernandina Beach, FL 32034 — (904) 321-7200 — building@fbfl.us
+- Building Dept: https://www.fbfl.us/building
+## Library
+- Fernandina Beach Branch Library — 25 N 4th Street, Fernandina Beach, FL 32034 — (904) 530-6500
+- Library Website: https://nassaureads.com
+## Hospitals
+- Baptist Medical Center Nassau — 1250 S 18th Street — (904) 321-3500 — 30.6531° N, 81.4487° W

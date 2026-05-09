@@ -1,20 +1,22 @@
-# Winter Park — Local Law Resources
+﻿# Winter Park — Local Law Resources
 ## City Website
-- https://wpgov.com/
+- https://www.cityofwinterpark.org
+## City Hall
+- 401 South Park Avenue, Winter Park, FL 32789 — (407) 599-3399
 ## Law Enforcement
-- Winter Park PD — 500 N Virginia Ave — (407) 599-3399
-- Florida Highway Patrol — https://www.flhsmv.gov/florida-highway-patrol/
+- Winter Park Police Department — 500 North Virginia Avenue, Winter Park, FL 32789 — (407) 599-3277 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofwinterpark.org/police
 ## Courts
-- Orange County Clerk — 4037 Metric Dr — (407) 836-2007 — M-F 8-4
-- **Court Website**: https://www.myorangeclerk.com/
+- 9th Judicial Circuit Court – Orange County
+- Court Website: https://www.flcourts9.org
+## Detention Center
+- Winter Park City Jail — 500 North Virginia Avenue, Winter Park, FL 32789
 ## Building Permits
-- Winter Park Building Department — https://wpgov.com/
-## Hunting Regulations
-- FL Hunting Regulations — https://www.myfwc.com/hunting/regulations/
-## Fishing Regulations
-- FL Saltwater Fishing — https://www.myfwc.com/fishing/saltwater/regulations/
-- FL Freshwater Fishing — https://www.myfwc.com/fishing/freshwater/regulations/
-## Legal Aid
-- Florida Legal Aid — https://www.floridalegal.org/
-## Corrections
-- Orange County Jail
+- Building Permitting Services — 401 South Park Avenue, Winter Park, FL 32789 — (407) 599-3335 — buildingpermits@cityofwinterpark.org
+- Building Dept: https://www.cityofwinterpark.org/building
+## Library
+- Winter Park Public Library — 460 E New England Ave, Winter Park, FL 32789 — (407) 623-3300
+- Library Website: https://www.winterparklibrary.org
+## Hospitals
+- AdventHealth Winter Park — 200 N Lakemont Ave — (407) 646-7000 — 28.5983° N, 81.3272° W
