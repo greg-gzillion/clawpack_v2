@@ -1,19 +1,23 @@
-# Sylvester — Local Law Resources
+﻿# Sylvester — Local Law Resources
 ## City Website
-- https://cityofsylvester.com/
+- https://www.cityofsylvester.com
+## City Hall
+- 101 N. Main Street, Sylvester, GA 31791 — (229) 776-8505
 ## Law Enforcement
-- Sylvester PD — 102 S Isabella St — (229) 776-8500
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Sylvester Police Department — 102 South Isabella Street, Sylvester, GA 31791 — (229) 776-8500 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofsylvester.com/departments/police-department
 ## Courts
-- Sylvester Municipal Court — 102 S Main St — (229) 776-8500
-- **Court Website**: https://cityofsylvester.com/municipal-court
+- Sylvester Municipal Court — 102 South Main Street, Sylvester, GA 31791 — (229) 776-8500
+- Court Website: https://www.cityofsylvester.com/municipal-court
+## Detention Center
+- Sylvester City Jail — 102 South Isabella Street, Sylvester, GA 31791 — (229) 776-8500
+- Capacity: 158 inmates
 ## Building Permits
-- Sylvester Building Department — https://cityofsylvester.com/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Worth County Jail
+- City of Sylvester — 101 N. Main Street, Sylvester, GA 31791 — (229) 776-8505
+- Website: https://www.cityofsylvester.com
+## Library
+- Margaret Jones Public Library — 205 E Pope St, Sylvester, GA 31791 — (229) 776-2096
+- Library Website: https://www.worthlib.org
+## Hospitals
+- Phoebe Worth Medical Center — 807 S Isabella St — (229) 776-6961 — 31.5118° N, 83.8402° W

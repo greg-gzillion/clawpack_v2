@@ -1,19 +1,24 @@
-# Adairsville — Local Law Resources
+﻿# Adairsville — Local Law Resources
 ## City Website
-- https://www.adairsvillega.net/
+- https://www.adairsvillega.net
+## City Hall
+- 116 Public Square, Adairsville, GA 30103 — (770) 773-3451
 ## Law Enforcement
-- Adairsville PD — 100 Public Square — (770) 773-7778
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Adairsville Police Department — 100 Public Square, Adairsville, GA 30103 — (770) 773-7778 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.adairsvillega.net/police
 ## Courts
-- Adairsville Municipal Court — 116 Public Square — (770) 773-3451 — M-F 8-5
-- **Court Website**: https://www.adairsvillega.net/government/municipal_court/
+- Adairsville Municipal Court — 116 Public Square, Adairsville, GA 30103 — (770) 773-3451 ext. 102
+- Court Website: https://www.adairsvillega.net/municipal_court
+## Detention Center
+- Bartow County Jail — 104 Zena Drive, Cartersville, GA 30121
+- Inmate Roster: https://www.bartowsheriff.org
 ## Building Permits
-- Adairsville Building Department — https://www.adairsvillega.net/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Bartow County Jail
+- Planning & Zoning — 116 Public Square, Adairsville, GA 30103 — (770) 773-3451
+- Building Dept: https://www.adairsvillega.net/planning-zoning
+## Library
+- Adairsville Public Library — 202 North Main Street, Adairsville, GA 30103 — (770) 382-4203
+- Library Website: https://www.bartowlibrary.org
+## Hospitals
+- WellStar Kennestone Hospital — 280 Kennestone Hospital Dr, Marietta — (770) 499-2000 — 33.9400° N, 84.5000° W
+- Redmond Regional Medical Center — 501 Redmond Rd, Rome — (706) 235-5000 — 34.2600° N, 85.1700° W

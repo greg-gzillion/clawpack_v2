@@ -1,19 +1,24 @@
-# Jesup — Local Law Resources
+﻿# Jesup — Local Law Resources
 ## City Website
-- https://www.waynecountyga.us/
+- https://www.jesupga.gov
+## City Hall
+- 162 E Cherry Street, Jesup, GA 31546 — (912) 427-1313
 ## Law Enforcement
-- Jesup PD — (912) 427-1300
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Jesup Police Department — 1355 W. Orange Street, Jesup, GA 31545 — (912) 427-1300 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.jesupga.gov/252/Police-Department
 ## Courts
-- Jesup Municipal Court — (912) 427-4779 — Judge Joe Phelps
-- **Court Website**: https://www.waynecountyga.us/
+- Wayne County Magistrate Court — (912) 427-1313
+- Court Website: https://www.waynegacourts.com
+## Detention Center
+- Jesup City Jail — 1355 W. Orange Street, Jesup, GA 31545 — (912) 427-1300
+- Inmate Roster: Jesup Police Department Inmate Search
 ## Building Permits
-- Jesup Building Department — https://www.waynecountyga.us/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Wayne County Jail
+- Building Inspections — 162 E Cherry Street, Jesup, GA 31546 — (912) 427-1313
+- Building Dept: https://www.jesupga.gov/151/Building-Inspections-Zoning-Departments
+## Library
+- Wayne County Public Library — 101 E. Cherry Street, Jesup, GA 31546 — (912) 427-1355
+- Library Website: https://www.waynelibrary.org
+## Hospitals
+- Memorial Satilla Health — 1111 Memorial Dr, Waycross — (912) 287-5111 — 31.2089° N, 82.3447° W
+- St. Mary's Camden Medical Center — 1000 St. Mary's Rd, Kingsland — (912) 576-5000 — 30.7858° N, 81.7136° W

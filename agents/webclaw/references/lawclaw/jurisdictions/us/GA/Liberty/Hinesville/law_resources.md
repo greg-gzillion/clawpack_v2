@@ -1,19 +1,24 @@
-# Hinesville — Local Law Resources
+﻿# Hiram — Local Law Resources
 ## City Website
-- https://www.cityofhinesville.org/
+- https://www.cityofhiramga.gov
+## City Hall
+- 217 Main Street, Hiram, GA 30141 — (770) 943-3726
 ## Law Enforcement
-- Hinesville PD — 123 E ML King Jr Dr — (912) 368-8211
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Hiram Police Department — 217 Main Street, Hiram, GA 30141 — (770) 445-2117 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofhiramga.gov/police
 ## Courts
-- Hinesville Municipal Court — (912) 368-8206
-- **Court Website**: https://www.cityofhinesville.org/municipal-court
+- Municipal Court of Hiram — 217 Main Street, Hiram, GA 30141 — (770) 943-3726 ext. 2003
+- Court Website: https://www.cityofhiramga.gov/courts
+## Detention Center
+- Paulding County Detention Center — 25 Industrial Way North, Dallas, GA 30132 — (770) 443-3030
+- Inmate Roster: Paulding County Inmate Search
 ## Building Permits
-- Hinesville Building Department — https://www.cityofhinesville.org/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Liberty County Jail
+- Community Development — 217 Main Street, Hiram, GA 30141 — (770) 943-3726 ext. 2030
+- Building Dept: https://www.cityofhiramga.gov/planning
+## Library
+- Paulding County Library — 120 Bells Ferry Road, Dallas, GA 30132 — (770) 443-7505
+- Library Website: https://www.pauldinglibrary.org
+## Hospitals
+- Wellstar Paulding Hospital — 345 Paulding Ave — (770) 537-4000 — 33.8104° N, 84.6858° W
+- Wellstar Kennestone Hospital — 281 Kennestone Hospital Dr, Marietta — (770) 499-3000 — 33.9239° N, 84.4858° W

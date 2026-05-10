@@ -1,19 +1,24 @@
-# Forest Park — Local Law Resources
+﻿# Forest Park — Local Law Resources
 ## City Website
-- https://www.forestparkga.gov/
+- https://www.forestparkga.gov
+## City Hall
+- 745 Forest Parkway, Forest Park, GA 30297 — (404) 608-2000
 ## Law Enforcement
-- Forest Park PD
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Forest Park Police Department — 745 Forest Parkway, Forest Park, GA 30297 — (404) 608-2363 (Non-emergency)
+- Emergency: 911
+- Police Website: https://forestparkpolice.net
 ## Courts
-- Forest Park Municipal Court — 745 Forest Pkwy — (404) 608-2363 — M-F 8-4
-- **Court Website**: https://www.forestparkga.gov/
+- Forest Park Municipal Court — 320 Cash Memorial Boulevard, Forest Park, GA 30297 — (404) 608-2363
+- Court Website: https://www.forestparkga.gov/municipal-court
+## Detention Center
+- Forest Park City Jail — 745 Forest Parkway, Forest Park, GA 30297
+- Inmate Roster: Forest Park City Jail Search
 ## Building Permits
-- Forest Park Building Department — https://www.forestparkga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Clayton County Jail
+- Planning and Community Development — 745 Forest Parkway, Forest Park, GA 30297 — (404) 608-2241
+- Building Dept: https://www.forestparkga.gov/planning
+## Library
+- Forest Park Branch Library — 745 Forest Parkway, Forest Park, GA 30297 — (770) 473-4151
+- Library Website: https://www.claytoncountylibrary.org
+## Hospitals
+- Atlanta Medical Center — 303 Parkway Dr NE, Atlanta — (404) 261-8000 — 33.7631° N, 84.3986° W
+- Grady Memorial Hospital — 80 Jesse Hill Jr Dr SE, Atlanta — (404) 616-1000 — 33.7536° N, 84.3891° W

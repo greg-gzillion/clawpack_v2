@@ -1,19 +1,22 @@
-# Blairsville — Local Law Resources
+﻿# Blairsville — Local Law Resources
 ## City Website
-- https://www.unioncountyga.gov/
+- https://www.blairsville-ga.gov
+## City Hall
+- 62 Blue Ridge Street, Blairsville, GA 30512 — (706) 745-2000
 ## Law Enforcement
-- Blairsville PD — (706) 835-1692
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Blairsville Police Department — 96 Blue Ridge Street, Blairsville, GA 30512 — (706) 835-1692 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.blairsville-ga.gov/police
 ## Courts
-- Blairsville Municipal Court — 33 Blue Ridge St — (706) 835-1692 — Pat Haralson Memorial Civic Center
-- **Court Website**: https://www.courtreference.com/courts/7981/municipal-court-of-blairsville
+- Municipal court handled via police department — (706) 835-1692
+## Detention Center
+- Blairsville City Jail — 33 Blue Ridge Street, Blairsville, GA 30512 — (706) 835-1692
+- Inmate Roster: Blairsville Jail Inmate Search
 ## Building Permits
-- Blairsville Building Department — https://www.unioncountyga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Union County Jail
+- City Administration — 62 Blue Ridge Street, Blairsville, GA 30512 — (706) 745-2000
+- Website: https://www.blairsville-ga.gov
+## Library
+- Union County Library — 84 Andrew Young Blvd, Blairsville, GA 30512 — (706) 745-7202
+- Library Website: https://www.unioncountylibrary.org
+## Hospitals
+- Union General Hospital — 200 Hospital Road — (706) 745-5151 — 34.8764° N, 83.9643° W

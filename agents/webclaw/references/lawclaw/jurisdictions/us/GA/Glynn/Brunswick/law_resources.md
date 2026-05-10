@@ -1,19 +1,22 @@
-# Brunswick — Local Law Resources
+﻿# Brunswick — Local Law Resources
 ## City Website
-- https://www.brunswickga.org/
+- https://www.brunswickga.org
+## City Hall
+- 601 Gloucester Street, Brunswick, GA 31520 — (912) 267-5500
 ## Law Enforcement
-- Brunswick PD — (912) 267-5559
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Brunswick Police Department — 206 Mansfield Street, Brunswick, GA 31520 — (912) 267-5559 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.brunswickga.org/police
 ## Courts
-- Brunswick Municipal Court — 1229 Newcastle St — (912) 267-5524 — M-F 8-5
-- **Court Website**: https://www.brunswickga.org/court
+- Municipal Court of Brunswick — 1229 Newcastle Street, Brunswick, GA 31520 — (912) 267-5524
+- Court Website: https://www.brunswickga.org/court
+## Detention Center
+- Brunswick City Jail — 206 Mansfield Street, Brunswick, GA 31520 — (912) 267-5559
 ## Building Permits
-- Brunswick Building Department — https://www.brunswickga.org/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Glynn County Jail
+- Planning, Development & Codes — 601 Gloucester Street, Brunswick, GA 31520 — (912) 267-5530
+- Building Dept: https://www.brunswickga.org/planning
+## Library
+- Brunswick-Glynn County Public Library — 211 Gloucester Street, Brunswick, GA 31520 — (912) 279-4600
+- Library Website: https://www.brunswick-glynncountylibrary.org
+## Hospitals
+- Southeast Georgia Health System — 2415 Parkwood Drive — (912) 466-7000 — 31.1536° N, 81.4928° W

@@ -1,19 +1,23 @@
-# Tifton — Local Law Resources
+﻿# Tifton — Local Law Resources
 ## City Website
-- https://www.tiftonga.gov/
+- https://www.tiftonga.gov
+## City Hall
+- 130 E 5th Street, Tifton, GA 31794 — (229) 382-3132
 ## Law Enforcement
-- Tifton PD — 130 E 5th St — (229) 391-3967
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Tifton Police Department — 527 Commerce Way, Tifton, GA 31794 — (229) 382-3132 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.tiftonga.gov/police
 ## Courts
-- Tifton Municipal Court — Criminal Justice Center — Wed 2pm — (229) 391-3967 — M-F 8-5
-- **Court Website**: https://tifton.net/municipal-court
+- Tifton Municipal Court — 130 E 5th Street, Tifton, GA 31794 — (229) 391-3967
+- Court Website: https://www.tiftonga.gov/municipal-court
+## Detention Center
+- Tift County Jail — 500 Morgan Drive, Tifton, GA 31793 — (229) 388-6020
+- Inmate Roster: Tift County Jail Inmate Search
 ## Building Permits
-- Tifton Building Department — https://www.tiftonga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Tift County Jail
+- Community Development — 130 E 5th Street, Tifton, GA 31794 — (229) 382-3132
+- Building Dept: https://www.tiftonga.gov/building-permits
+## Library
+- Tifton-Tift County Public Library — 201 N. Madison Street, Tifton, GA 31792 — (229) 225-5252
+- Library Website: https://www.tcpls.org
+## Hospitals
+- Tift Regional Medical Center — 3307 Highway 82 W — (229) 389-6000 — 31.4653° N, 83.5044° W

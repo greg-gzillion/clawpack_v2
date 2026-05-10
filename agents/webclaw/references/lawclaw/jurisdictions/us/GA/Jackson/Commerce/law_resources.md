@@ -1,19 +1,24 @@
-# Commerce — Local Law Resources
+﻿# Commerce — Local Law Resources
 ## City Website
-- https://commercega.gov/
+- https://www.commercega.gov
+## City Hall
+- 110 State Street, Commerce, GA 30529 — (706) 335-3164
 ## Law Enforcement
-- Commerce PD — 1491 S Elm St — (706) 335-3200 — M-Sat 9-6
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Commerce Police Department — 1491 South Elm Street, Commerce, GA 30529 — (706) 335-3200 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.commercega.gov/police
 ## Courts
-- Commerce Municipal Court — 1st Tue 1:30pm — (706) 335-2533
-- **Court Website**: https://commercega.gov/departments/municipal-court
+- Municipal Court of Commerce — 110 State Street, Commerce, GA 30529 — (706) 335-2533
+- First Tuesday monthly at 1:30 PM
+- Online Payments: https://www.commercega.org/court
+## Detention Center
+- Commerce City Jail — 1491 South Elm Street, Commerce, GA 30529 — (706) 335-3200
 ## Building Permits
-- Commerce Building Department — https://commercega.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Jackson County Jail
+- Planning and Development — 110 State Street, Commerce, GA 30529 — (706) 335-3164
+- Building Dept: https://www.commercega.gov/planning
+## Library
+- Harold S. Swindle Public Library — 5466 Highway 441 S, Commerce, GA 30529 — (706) 757-3577
+- Library Website: https://www.jacksoncountyga.com/library
+## Hospitals
+- St. Mary's Good Samaritan Hospital — 400 Hospital Drive, Greensboro — (706) 453-3511 — 33.5597° N, 83.2624° W
+- Athens Regional Medical Center — 1199 Prince Ave, Athens — (706) 475-5000 — 33.9320° N, 83.3665° W

@@ -1,19 +1,23 @@
-# Snellville — Local Law Resources
+﻿# Springfield — Local Law Resources
 ## City Website
-- https://www.snellville.gov/
+- https://springfieldga.org
+## City Hall
+- 130 S. Laurel Street, Springfield, GA 31329 — (912) 754-7617
 ## Law Enforcement
-- Snellville PD — (770) 985-3500
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Springfield Police Department — 601 N. Laurel Street, Springfield, GA 31329 — (912) 754-3061 (Non-emergency)
+- Emergency: 911
+- Police Website: https://springfieldga.org/police
 ## Courts
-- Snellville Municipal Court — Wed 8:30am & 1:30pm — (770) 985-3500 ext 3549
-- **Court Website**: https://www.snellville.gov/municipal-court
+- Municipal Court of Springfield — 601 N. Laurel Street, Springfield, GA 31329 — (912) 754-3061
+- Court Website: https://springfieldga.org/police
+## Detention Center
+- Springfield City Jail — 601 N. Laurel Street, Springfield, GA 31329 — (912) 754-3061
 ## Building Permits
-- Snellville Building Department — https://www.snellville.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Gwinnett County Jail
+- City of Springfield — 130 S. Laurel Street, Springfield, GA 31329 — (912) 754-7617
+- Website: https://springfieldga.org/community-development
+## Library
+- Springfield Branch Library — 110 E. 4th Street, Springfield, GA 31329 — (912) 754-7477
+- Library Website: https://www.effinghamlibrary.org
+## Hospitals
+- Memorial Health – Effingham Hospital — 7501 Candler Drive, Rincon — (912) 754-5000 — 32.2800° N, 81.2300° W
+- St. Joseph's/Candler – Candler Hospital — 5353 Reynolds St, Savannah — (912) 819-4000 — 32.0031° N, 81.0842° W

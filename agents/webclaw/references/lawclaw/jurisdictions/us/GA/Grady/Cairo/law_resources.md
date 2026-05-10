@@ -1,19 +1,23 @@
-# Cairo — Local Law Resources
+﻿# Cairo — Local Law Resources
 ## City Website
-- https://www.syrupcity.net/
+- https://www.syrupcity.net
+## City Hall
+- 119 N Broad Street, Cairo, GA 39828 — (229) 377-1722
 ## Law Enforcement
-- Cairo PD — 4 S Broad St — (229) 378-3096
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Cairo Police Department — 55 3rd Avenue NW, Cairo, GA 39828 — (229) 378-3096 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.syrupcity.net/police
 ## Courts
-- Cairo Municipal Court — 119 N Broad St — (229) 377-1722
-- **Court Website**: https://www.syrupcity.net/
+- Municipal Court of Cairo — 119 N Broad Street, Cairo, GA 39828 — (229) 377-1722
+- Court Website: https://www.syrupcity.net/cityclerk
+## Detention Center
+- Cairo City Jail — 4 S Broad Street, Cairo, GA 39828
+- Inmate Roster: Cairo Jail Inmate Search
 ## Building Permits
-- Cairo Building Department — https://www.syrupcity.net/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Grady County Jail
+- City Administration — 119 N Broad Street, Cairo, GA 39828 — (229) 377-1722
+- Website: https://www.syrupcity.net
+## Library
+- Roddenbery Memorial Library — 320 N Broad Street, Cairo, GA 39828 — (229) 377-3632
+- Library Website: https://www.rmlibrary.org
+## Hospitals
+- Grady General Hospital — 1155 5th St SE — (229) 377-0251 — 30.8634° N, 84.2001° W

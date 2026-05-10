@@ -1,19 +1,23 @@
-# Waycross — Local Law Resources
+﻿# Waycross — Local Law Resources
 ## City Website
-- https://www.waycrossga.gov/
+- https://www.waycrossga.gov
+## City Hall
+- 417 Pendleton Street, Waycross, GA 31501 — (912) 287-2900
 ## Law Enforcement
-- Waycross PD — 201 Williams St — (912) 287-2565
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Waycross Police Department — 512 Oak Street, Waycross, GA 31501 — (912) 287-2921 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.waycrossga.gov/179/Police-Department
 ## Courts
-- Waycross Municipal Court — 512 Oak St — (912) 287-2921 — M-F 8-5
-- **Court Website**: https://www.waycrossga.gov/police-department.php
+- Waycross Municipal Court — 512 Oak Street, Waycross, GA 31501 — (912) 287-2921
+- Court Website: https://www.waycrossga.gov/181/Municipal-Court
+## Detention Center
+- Ware County Jail — 3487 Harris Road, Waycross, GA 31503 — (912) 287-4323
+- Inmate Roster: Ware County Jail Search
 ## Building Permits
-- Waycross Building Department — https://www.waycrossga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Ware County Jail
+- Community Improvement — 417 Pendleton Street, Waycross, GA 31501 — (912) 287-2944
+- Building Dept: https://www.waycrossga.gov/community-development
+## Library
+- Waycross-Ware County Public Library — 401 Lee Avenue, Waycross, GA 31501 — (912) 287-4978
+- Library Website: https://okrls.org
+## Hospitals
+- Memorial Satilla Health — 1900 Tebeau Street — (912) 287-2500 — 31.2263° N, 82.3488° W

@@ -1,19 +1,24 @@
-# Chamblee — Local Law Resources
+﻿# Chamblee — Local Law Resources
 ## City Website
-- https://www.chambleega.gov/
+- https://www.chambleega.com
+## City Hall
+- 4445 Buford Highway NE, Chamblee, GA 30341 — (770) 986-5010
 ## Law Enforcement
-- Chamblee PD — (678) 538-2450
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Chamblee Police Department — 4445 Buford Highway NE, Chamblee, GA 30341 — (770) 986-5001 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.chambleega.com/police_department
 ## Courts
-- Chamblee Municipal Court — Monthly at City Hall
-- **Court Website**: https://www.chambleega.gov/court
+- Chamblee Municipal Court — 4445 Buford Highway NE, Chamblee, GA 30341 — (770) 986-5004
+- Court Website: https://www.chambleega.com/municipal_court
+## Detention Center
+- Chamblee City Jail — 3518 Broad Street, Chamblee, GA 30341 — (770) 986-5005
+- Inmate Roster: Chamblee City Jail Search
 ## Building Permits
-- Chamblee Building Department — https://www.chambleega.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- DeKalb County Jail
+- Planning & Development — 4445 Buford Highway NE, Chamblee, GA 30341 — (770) 986-5003
+- Building Dept: https://www.chambleega.com/planning
+## Library
+- Chamblee Branch Library — 4115 Clairmont Road, Atlanta, GA 30341 — (770) 936-1380
+- Library Website: https://dekalblibrary.org/locations/cham
+## Hospitals
+- Emory Saint Joseph's Hospital — 5671 Peachtree Dunwoody Rd, Atlanta — (404) 851-8000 — 33.9072° N, 84.3614° W
+- Northside Hospital Atlanta — 1000 Johnson Ferry Rd, Atlanta — (404) 252-7000 — 33.9147° N, 84.3653° W

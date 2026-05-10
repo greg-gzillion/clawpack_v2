@@ -1,19 +1,23 @@
-# Cornelia — Local Law Resources
+﻿# Cornelia — Local Law Resources
 ## City Website
-- https://www.corneliageorgia.org/
+- https://www.cornelia.city
+## City Hall
+- 181 Larkin Street, Cornelia, GA 30531 — (706) 778-8585
 ## Law Enforcement
-- Cornelia PD — (706) 778-8585
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Cornelia Police Department — 163 Larkin Street, Cornelia, GA 30531 — (706) 778-4314 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cornelia.city/public-safety/police
 ## Courts
-- Cornelia Municipal Court — 181 Larkin St — (706) 778-4314 — M-F 8-5
-- **Court Website**: https://www.corneliageorgia.org/municipal-court
+- Municipal Court of Cornelia — 163 Larkin Street, Cornelia, GA 30531 — (706) 778-4314
+- Court Website: https://www.cornelia.city/public-safety/municipal-court
+## Detention Center
+- Cornelia City Jail — 163 Larkin Street, Cornelia, GA 30531 — (706) 778-4314
 ## Building Permits
-- Cornelia Building Department — https://www.corneliageorgia.org/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Habersham County Jail
+- Planning & Zoning — 181 Larkin Street, Cornelia, GA 30531 — (706) 778-8585
+- Building Dept: https://www.cornelia.city/planning
+## Library
+- Cornelia Public Library — 301 N Main Street, Cornelia, GA 30531 — (706) 778-2635
+- Library Website: https://www.cornelialibrary.org
+## Hospitals
+- Northeast Georgia Medical Center – Habersham — 1100 Health Center Dr, Demorest — (706) 778-5431 — 34.5522° N, 83.5008° W
+- St. Mary's Sacred Heart Hospital — 525 Sacred Heart Dr, Lavonia — (706) 353-6500 — 34.3665° N, 83.3682° W

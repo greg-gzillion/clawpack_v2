@@ -1,19 +1,22 @@
-# Vidalia — Local Law Resources
+﻿# Vidalia — Local Law Resources
 ## City Website
-- https://www.vidaliaga.gov/
+- https://www.vidaliaga.com
+## City Hall
+- 302 E First Street, Vidalia, GA 30474 — (912) 537-7661
 ## Law Enforcement
-- Vidalia PD — 302 E 1st St — (912) 537-4123
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Vidalia Police Department — 302 E First Street, Vidalia, GA 30474 — (912) 537-4123 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.vidaliaga.com/police
 ## Courts
-- Vidalia Municipal Court — 302 E 1st St — (912) 537-4123 — M-F 8-5
-- **Court Website**: https://www.vidaliaga.gov/police/page/vidalia-municipal-court-re-scheduled
+- Vidalia Municipal Court — 302 E First Street, Vidalia, GA 30474 — (912) 537-4123
+- Court Website: https://www.vidaliaga.gov/police/page/vidalia-municipal-court-re-scheduled
+## Detention Center
+- Vidalia City Jail — 302 E First Street, Vidalia, GA 30474 — (912) 537-4123
 ## Building Permits
-- Vidalia Building Department — https://www.vidaliaga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Toombs County Jail
+- City Marshal's Office — 302 E First Street, Vidalia, GA 30474 — (912) 537-7661
+- Building Dept: https://vidaliaga.gov/departments/city-marshal
+## Library
+- Vidalia-Toombs County Public Library — 610 Jackson Street, Vidalia, GA 30474 — (912) 537-9283
+- Library Website: https://ohoopeelibrary.org
+## Hospitals
+- Memorial Health Meadows Hospital — 1 Meadows Pkwy — (912) 537-6100 — 32.2086° N, 82.4275° W

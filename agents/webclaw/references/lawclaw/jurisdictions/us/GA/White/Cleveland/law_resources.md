@@ -1,19 +1,24 @@
-# Cleveland — Local Law Resources
+﻿# Cleveland — Local Law Resources
 ## City Website
-- https://www.clevelandga.org/
+- https://www.clevelandga.org
+## City Hall
+- 85 S Main St, Cleveland, GA 30528 — (706) 865-2017
 ## Law Enforcement
-- Cleveland PD — 342 Campbell St — (706) 348-7078
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Cleveland Police Department — 85 S Main St, Cleveland, GA 30528 — (706) 865-2111 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.clevelandga.org/police
 ## Courts
-- Cleveland Municipal Court — White County Courthouse — (706) 865-0058 — M-F 8-5
-- **Court Website**: https://www.clevelandga.org/municipal-court
+- Municipal Court of Cleveland — White County Courthouse, 59 S Main St, Cleveland, GA 30528 — (706) 865-0058
+- Court Website: https://www.clevelandga.org/municipal-court
+## Detention Center
+- White County Detention Center — 1210 Hulsey Road, Cleveland, GA 30545 — (706) 865-5177
+- Inmate Roster: White County Jail Search
 ## Building Permits
-- Cleveland Building Department — https://www.clevelandga.org/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- White County Jail
+- City of Cleveland — 85 S Main St, Cleveland, GA 30528 — (706) 865-2017
+- Building Dept: https://www.clevelandga.org/building-zoning
+## Library
+- Cleveland Branch Library — 60 Bell Street, Cleveland, GA 30528 — (706) 865-5572
+- Library Website: https://whitecountypubliclibraries.org
+## Hospitals
+- Union General Hospital — 200 Hospital Road, Blairsville — (706) 745-5151 — 34.8764° N, 83.9643° W
+- NE Georgia Medical Center – Braselton — 5295 Spout Springs Rd — (770) 255-1000 — 34.1197° N, 83.7881° W

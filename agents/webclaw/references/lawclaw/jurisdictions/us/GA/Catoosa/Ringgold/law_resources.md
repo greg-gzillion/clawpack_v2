@@ -1,19 +1,25 @@
-# Ringgold — Local Law Resources
+﻿# Ringgold — Local Law Resources
 ## City Website
-- https://www.cityofringgoldga.gov/
+- https://www.cityofringgoldga.gov
+## City Hall
+- 150 Tennessee Street, Ringgold, GA 30736 — (706) 935-3061
 ## Law Enforcement
-- Ringgold PD — (706) 935-3066
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Ringgold Police Department — 150 Tennessee Street, Ringgold, GA 30736 — (706) 935-3066 (Non-emergency)
+- Emergency: 911
+- Police Website: https://ringgoldpolice.com
 ## Courts
-- Ringgold Municipal Court — 1st & 3rd Mon 4:30pm — (706) 935-3061
-- **Court Website**: https://www.cityofringgoldga.gov/MunicipalCourt.aspx
+- Ringgold Municipal Court — 150 Tennessee Street, Ringgold, GA 30736 — (706) 935-3061
+- Court Dates: 1st & 3rd Monday at 4:30 PM
+- Court Website: https://www.cityofringgoldga.gov/cityofficials.aspx
+## Detention Center
+- Catoosa County Jail — 5842 Highway 41, Ringgold, GA 30736 — (706) 935-2424
+- Inmate Roster: Catoosa County Inmate Search
 ## Building Permits
-- Ringgold Building Department — https://www.cityofringgoldga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Catoosa County Jail
+- City of Ringgold — 150 Tennessee Street, Ringgold, GA 30736 — (706) 935-3061
+- Website: https://www.cityofringgoldga.gov
+## Library
+- Catoosa County Library — 108 Catoosa Circle, Ringgold, GA 30736 — (706) 965-3600
+- Library Website: https://www.catoosacountylibrary.org
+## Hospitals
+- CommonSpirit Memorial Hospital – Ringgold — 4710 Battlefield Parkway — (706) 965-4000 — 34.8972° N, 85.1503° W
+- Hamilton Medical Center — 455 Wallis Drive, Dalton — (706) 278-7000 — 34.7685° N, 84.7803° W

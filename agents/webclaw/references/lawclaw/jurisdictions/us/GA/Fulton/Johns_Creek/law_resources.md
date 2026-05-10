@@ -1,19 +1,24 @@
-# Johns Creek — Local Law Resources
+﻿# Johns Creek — Local Law Resources
 ## City Website
-- https://www.johnscreekga.gov/
+- https://www.johnscreekga.gov
+## City Hall
+- 11360 Lakefield Drive, Johns Creek, GA 30097 — (678) 512-3200
 ## Law Enforcement
-- Johns Creek PD — 11360 Lakefield Dr — (678) 474-1600
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Johns Creek Police Department — 11360 Lakefield Drive, Johns Creek, GA 30097 — (678) 474-1600 (Non-emergency)
+- Emergency: 911
+- Police Website: https://johnscreekga.gov/police
 ## Courts
-- Johns Creek Municipal Court — (678) 512-3444 — M-F 8:30-5
-- **Court Website**: https://www.johnscreekga.gov/municipal-court
+- Johns Creek Municipal Court — 11360 Lakefield Drive, Johns Creek, GA 30097 — (678) 512-3444
+- Court Website: https://johnscreekga.gov/municipal-court
+## Detention Center
+- Fulton County Jail — 901 Rice Street NW, Atlanta, GA 30318 — (404) 613-2000
+- Website: https://www.fultoncountyga.gov
 ## Building Permits
-- Johns Creek Building Department — https://www.johnscreekga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Fulton County Jail
+- Community Development — 11360 Lakefield Drive, Johns Creek, GA 30097 — (678) 512-3200
+- Building Dept: https://www.johnscreekga.gov/building-permitting
+## Library
+- Johns Creek Branch Library — 10370 Nesbit Ferry Rd, Johns Creek, GA 30097 — (770) 497-7677
+- Library Website: https://fulcolibrary.bibliocommons.com
+## Hospitals
+- Northside Hospital Atlanta — 1000 Johnson Ferry Rd, Atlanta — (404) 252-7000 — 33.9147° N, 84.3653° W
+- Emory Saint Joseph's Hospital — 5671 Peachtree Dunwoody Rd, Atlanta — (404) 851-8000 — 33.9072° N, 84.3614° W

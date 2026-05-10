@@ -1,19 +1,24 @@
-# Covington — Local Law Resources
+﻿# Covington — Local Law Resources
 ## City Website
-- https://cityofcovington.org/
+- https://www.cityofcovington.org
+## City Hall
+- 2194 Emory Street NW, Covington, GA 30014 — (770) 385-2000
 ## Law Enforcement
-- Covington PD — (770) 786-7605
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Covington Police Department — 1143 Oak Street SE, Covington, GA 30014 — (770) 786-7605 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.covingtonpolice.com
 ## Courts
-- Covington Municipal Court — 2116 Stallings St NW — (770) 385-2141
-- **Court Website**: https://cityofcovington.org/municipal_court
+- Municipal Court of Covington — 2116 Stallings Street NW, Covington, GA 30014 — (770) 385-2193
+- Court Website: https://www.cityofcovington.org/court
+## Detention Center
+- Covington City Jail — 1143 Oak Street SE, Covington, GA 30014
+- Inmate Roster: Covington Jail Inmate Search
 ## Building Permits
-- Covington Building Department — https://cityofcovington.org/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Newton County Jail
+- Planning & Development — 2194 Emory Street NW, Covington, GA 30014 — (770) 385-2046
+- Building Dept: https://www.cityofcovington.org/planning
+## Library
+- Covington Branch Library — 1205 Clark Street, Covington, GA 30014 — (770) 784-2034
+- Library Website: https://www.newtoncountylibrary.org
+## Hospitals
+- Emory Newton Medical Center — 11395 Floyd Baker Blvd — (770) 786-3000 — 33.6047° N, 83.8684° W
+- Piedmont Newton Hospital — 2301 Hospital Drive — (770) 786-3000 — 33.5995° N, 83.8700° W

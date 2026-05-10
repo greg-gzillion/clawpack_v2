@@ -1,19 +1,23 @@
-# Jefferson — Local Law Resources
+﻿# Jefferson — Local Law Resources
 ## City Website
-- https://www.jacksoncountygov.com/
+- https://www.jeffersonga.gov
+## City Hall
+- 147 Athens Street, Jefferson, GA 30549 — (706) 367-5121
 ## Law Enforcement
-- Jefferson PD — 1010 Washington St — (706) 367-5231
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Jefferson Police Department — 140 Mahaffey Street, Jefferson, GA 30549 — (706) 367-5231 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofjeffersonpolice.com
 ## Courts
-- Jefferson Municipal Court — (706) 367-5231
-- **Court Website**: https://www.jacksoncountygov.com/
+- Municipal Court of Jefferson — 147 Athens Street, Jefferson, GA 30549 — (706) 367-5231
+- Court Website: https://cityofjeffersonga.com/administration/page/municipal-court
+## Detention Center
+- Jefferson City Jail — 140 Mahaffey Street, Jefferson, GA 30549 — (706) 367-5231
 ## Building Permits
-- Jefferson Building Department — https://www.jacksoncountygov.com/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Jackson County Jail
+- Planning & Development — 147 Athens Street, Jefferson, GA 30549 — (706) 367-5011
+- Building Dept: https://www.jeffersonga.gov/planning
+## Library
+- Jefferson Public Library — 28 College Street, Jefferson, GA 30549 — (706) 367-5714
+- Library Website: https://www.jeffersonlibrary.org
+## Hospitals
+- St. Mary's Good Samaritan Hospital — 400 Hospital Drive, Greensboro — (706) 453-3511 — 33.5597° N, 83.2624° W
+- Athens Regional Medical Center — 1199 Prince Ave, Athens — (706) 475-5000 — 33.9320° N, 83.3665° W

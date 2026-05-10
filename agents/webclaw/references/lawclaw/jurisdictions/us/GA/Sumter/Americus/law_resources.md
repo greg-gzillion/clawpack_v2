@@ -1,19 +1,23 @@
-# Americus — Local Law Resources
+﻿# Americus — Local Law Resources
 ## City Website
-- https://www.americusga.gov/
+- https://www.americusga.gov
+## City Hall
+- 101 W. Lamar Street, Americus, GA 31709 — (229) 924-4411
 ## Law Enforcement
-- Americus PD — 119 S Lee St — (229) 924-6722
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Americus Police Department — 119 S. Lee Street, Americus, GA 31709 — (229) 937-9011 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.americusga.gov/police
 ## Courts
-- Americus Municipal Court — 119 S Lee St — (229) 924-3677 — M-F 8-5
-- **Court Website**: https://www.americuscourt.com/
+- Municipal Court of Americus — 119 S. Lee Street, Americus, GA 31709 — (229) 924-3677
+- Court Website: https://www.americuscourt.com
+## Detention Center
+- Sumter County Jail — 352 McMath Mill Road, Americus, GA 31709 — (229) 924-4094
+- Inmate Roster: Sumter County Sheriff's Office
 ## Building Permits
-- Americus Building Department — https://www.americusga.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Sumter County Jail
+- Building & Inspections — 101 W. Lamar Street, Americus, GA 31709 — (229) 924-4411
+- Building Dept: https://www.americusga.gov/departments/building
+## Library
+- Lake Blackshear Regional Library — 307 E. Lamar Street, Americus, GA 31709 — (229) 924-8091
+- Library Website: https://www.lbrls.org
+## Hospitals
+- Phoebe Sumter Medical Center — 126 US Highway 280 W — (229) 924-2961 — 32.0643° N, 84.2559° W

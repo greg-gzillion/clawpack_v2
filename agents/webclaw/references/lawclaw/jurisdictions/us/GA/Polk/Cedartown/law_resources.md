@@ -1,19 +1,23 @@
-# Cedartown — Local Law Resources
+﻿# Cedartown — Local Law Resources
 ## City Website
-- https://cedartowngeorgia.gov/
+- https://www.cedartowngeorgia.gov
+## City Hall
+- 201 East Avenue, Cedartown, GA 30125 — (770) 748-3220
 ## Law Enforcement
-- Cedartown PD — (770) 748-4123
-- Georgia State Patrol — https://www.dps.georgia.gov/
+- Cedartown Police Department — 118 Philpot Street, Cedartown, GA 30125 — (770) 748-4123 (Non-emergency)
+- Emergency: 911
+- Police Website: https://cedartowngeorgia.gov/our-departments/public-safety-fire-police/
 ## Courts
-- Cedartown Municipal Court — 118 N Philpot St — (770) 748-4123 — M-F 8-5
-- **Court Website**: https://cedartowngeorgia.gov/municipal-court
+- Municipal Court of Cedartown — 118 Philpot Street, Cedartown, GA 30125 — (770) 748-4123
+- Online Fines: Pay Online
+## Detention Center
+- Cedartown City Jail — 118 Philpot Street, Cedartown, GA 30125 — (770) 748-4123
+- Transfers to Polk County Jail
 ## Building Permits
-- Cedartown Building Department — https://cedartowngeorgia.gov/
-## Hunting Regulations
-- GA Hunting Regulations — https://www.georgiawildlife.com/hunting/regulations
-## Fishing Regulations
-- GA Fishing Regulations — https://www.georgiawildlife.com/fishing/regulations
-## Legal Aid
-- Georgia Legal Aid — https://www.georgialegalaid.org/
-## Corrections
-- Polk County Jail
+- Building Inspection & Zoning — 201 East Avenue, Cedartown, GA 30125 — (770) 748-3220 ext. 3040
+- Building Dept: https://cedartowngeorgia.gov/our-departments/building-inspection-zoning/
+## Library
+- Cedartown Public Library — 245 East Avenue, Cedartown, GA 30125 — (770) 748-5644
+- Library Website: https://www.saralibrary.org
+## Hospitals
+- Polk Medical Center — 111 North 5th Street — (770) 748-8211 — 34.0176° N, 85.2544° W
