@@ -1,18 +1,22 @@
-# Lihue — Local Law Resources
-## City Website
-- https://www.kauai.gov/
+﻿# Lihue — Local Law Resources
+## Community
+- Census-designated place; county seat of Kauai County
+- County Website: https://www.kauai.gov — (808) 241-4464
 ## Law Enforcement
-- Kauai Police Dept — 3990 Kaana St — (808) 241-1711 — M-F 8-4:30
+- Kauai Police Department – Lihue District — 3990 Kaana Street, Suite 200, Lihue, HI 96766 — (808) 241-1711 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.kauai.gov/Police
 ## Courts
-- Fifth Circuit Court — 3970 Kaana St — (808) 482-2300 — M-F 7:45-4:30
-- **Court Website**: https://www.courts.state.hi.us/
+- Fifth Circuit Court — 3970 Kaana Street, Lihue, HI 96766 — (808) 482-2553
+- Court Website: https://www.courts.state.hi.us
+## Detention Center
+- Kauai Community Correctional Center — 3-5351 Kuhio Highway, Lihue, HI 96766 — (808) 241-4464
+- Inmate Search: Kauai County Jail Roster
 ## Building Permits
-- Lihue Building Department — https://www.kauai.gov/
-## Hunting Regulations
-- HI Hunting Regulations — https://www.dlnr.hawaii.gov/recreation/hunting/
-## Fishing Regulations
-- HI Fishing Regulations — https://www.dlnr.hawaii.gov/dar/fishing/fishing-regulations/
-## Legal Aid
-- Legal Aid Society of Hawaii — https://www.legalaidhawaii.org/
-## Corrections
-- Hawaii Department of Corrections — https://www.dps.hawaii.gov/
+- Kauai County Department of Public Works — 4444 Rice Street, Lihue, HI 96766 — (808) 241-4464
+- Building Dept: https://www.kauai.gov/dpw
+## Library
+- Lihue Public Library — 4344 Hardy Street, Lihue, HI 96766 — (808) 241-3222
+- Library Website: https://www.librarieshawaii.org
+## Hospitals
+- Wilcox Memorial Hospital — 3435 Kuhio Highway — (808) 245-3333 — 21.9700° N, 159.3578° W

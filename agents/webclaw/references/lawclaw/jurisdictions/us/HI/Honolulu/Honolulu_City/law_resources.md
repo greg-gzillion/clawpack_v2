@@ -1,18 +1,24 @@
-# Honolulu City — Local Law Resources
+﻿# Honolulu — Local Law Resources
 ## City Website
-- https://www.honolulu.gov/
+- https://www.honolulu.gov
+## City Hall
+- 530 South King Street, Honolulu, HI 96813 — (808) 768-4141
 ## Law Enforcement
-- Honolulu PD — 801 S Beretania St — (808) 529-3111
+- Honolulu Police Department — 801 S. Beretania Street, Honolulu, HI 96813 — (808) 529-3111 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.honolulupd.org
 ## Courts
-- Honolulu District Court — 1111 Alakea St — (808) 539-4318 — M-F 7:45-4:30
-- **Court Website**: https://www.courts.state.hi.us/
+- First Circuit Court (District Court) — 1111 Alakea Street, Honolulu, HI 96813 — (808) 538-5629
+- Court Website: https://www.courts.state.hi.us
+## Detention Center
+- Oahu Community Correctional Center — 2199 Kamehameha Highway, Honolulu, HI 96819 — (808) 832-1777
+- Inmate Search: Hawaii Inmate Search
 ## Building Permits
-- Honolulu City Building Department — https://www.honolulu.gov/
-## Hunting Regulations
-- HI Hunting Regulations — https://www.dlnr.hawaii.gov/recreation/hunting/
-## Fishing Regulations
-- HI Fishing Regulations — https://www.dlnr.hawaii.gov/dar/fishing/fishing-regulations/
-## Legal Aid
-- Legal Aid Society of Hawaii — https://www.legalaidhawaii.org/
-## Corrections
-- Hawaii Department of Corrections — https://www.dps.hawaii.gov/
+- Department of Planning and Permitting — 650 South King Street, Honolulu, HI 96813 — (808) 768-8028
+- Building Dept: https://www.honolulu.gov/dpp
+## Library
+- Hawaii State Public Library — 478 S King Street, Honolulu, HI 96813 — (808) 586-3500
+- Library Website: https://www.librarieshawaii.org
+## Hospitals
+- The Queen's Medical Center — 1301 Punchbowl St — (808) 691-4000 — 21.3078° N, 157.8581° W
+- Tripler Army Medical Center — 1 Jarrett White Rd — (808) 433-1111 — 21.3389° N, 157.8597° W
