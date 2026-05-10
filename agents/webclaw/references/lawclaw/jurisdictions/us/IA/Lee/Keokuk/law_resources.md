@@ -1,19 +1,23 @@
-# Keokuk — Local Law Resources
+﻿# Keokuk — Local Law Resources
 ## City Website
-- https://www.cityofkeokuk.org/
+- https://www.cityofkeokuk.org
+## City Hall
+- 501 Main Street, Keokuk, IA 52632 — (319) 524-2050
 ## Law Enforcement
-- Keokuk PD — 1222 Johnson St — (319) 524-1642
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Keokuk Police Department — 1222 Johnson Street, Keokuk, IA 52632 — (319) 524-2741 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofkeokuk.org/police
 ## Courts
-- Lee County District Court (South) — 25 N 7th St — (319) 524-2433
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Lee County — 111 S 5th St, Keokuk, IA 52632 — (319) 524-2381
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Keokuk City Jail — 1222 Johnson Street, Keokuk, IA 52632 — (319) 524-2741
+- Lee County Jail for long-term: https://www.leecounty-iowa.com
 ## Building Permits
-- Keokuk Building Department — https://www.cityofkeokuk.org/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Lee County Jail
+- Community Development — 501 Main Street, Keokuk, IA 52632 — (319) 524-2050 ext. 2209 — pbroomhall@cityofkeokuk.org
+- Building Dept: https://www.cityofkeokuk.org/community-development
+## Library
+- Keokuk Public Library — 210 N 5th St, Keokuk, IA 52632 — (319) 524-1483
+- Library Website: https://www.keokuklibrary.org
+## Hospitals
+- Quincy Medical Group – Keokuk Clinic — 1603 Morgan St, Suite 3 — (319) 524-4300 — 40.4006° N, 91.3894° W

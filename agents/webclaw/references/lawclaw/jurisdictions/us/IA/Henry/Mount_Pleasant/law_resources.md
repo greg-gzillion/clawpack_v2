@@ -1,19 +1,23 @@
-# Mount Pleasant — Local Law Resources
+﻿# Mount Pleasant — Local Law Resources
 ## City Website
-- https://cityofmountpleasantiowa.org/
+- https://cityofmountpleasantiowa.org
+## City Hall
+- 307 E Monroe St, Mount Pleasant, IA 52641 — (319) 385-1470
 ## Law Enforcement
-- Mount Pleasant PD — 102 S 1st St — (319) 385-3511
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Mount Pleasant Police Department — 300 W Monroe St, Mount Pleasant, IA 52641 — (319) 385-3511 (Non-emergency)
+- Emergency: 911
+- Police Website: https://cityofmountpleasantiowa.org/police-department
 ## Courts
-- Henry County Clerk — 102 S 1st St — (319) 385-2632
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Henry County — 100 E Washington St, Mount Pleasant, IA 52641
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Mount Pleasant City Jail — 300 W Monroe St, Mount Pleasant, IA 52641 — (319) 385-3511
+- Inmate Roster: Mount Pleasant Jail Roster
 ## Building Permits
-- Mount Pleasant Building Department — https://cityofmountpleasantiowa.org/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Henry County Jail
+- Building & Zoning — 307 E Monroe St, Mount Pleasant, IA 52641 — (319) 385-1474 — garys@citymtpia.com
+- Building Dept: https://cityofmountpleasantiowa.org/building-zoning
+## Library
+- Mount Pleasant Public Library — 307 E Monroe St, Mount Pleasant, IA 52641 — (319) 385-1490
+- Library Website: https://cityofmountpleasantiowa.org/library
+## Hospitals
+- Great River Health – Burlington — 2000 S Gear Ave, West Burlington — (319) 768-1000 — 40.8109° N, 91.1711° W

@@ -1,19 +1,23 @@
-# Pella — Local Law Resources
+﻿# Pella — Local Law Resources
 ## City Website
-- https://www.cityofpella.com/
+- https://www.cityofpella.com
+## City Hall
+- 614 Main Street, Pella, IA 50219 — (641) 628-4173
 ## Law Enforcement
-- Pella PD — 614 Main St — (641) 628-2246
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Pella Police Department — 614 Main Street, Pella, IA 50219 — (641) 628-4921 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofpella.com/pellaPD
 ## Courts
-- Marion County District Court — 214 E Main St, Knoxville — (641) 828-2207
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Marion County — 214 E Main St, Knoxville, IA 50138
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Pella City Jail — 614 Main Street, Pella, IA 50219 — (641) 628-4921
+- Inmate Roster: Marion County Inmate Search
 ## Building Permits
-- Pella Building Department — https://www.cityofpella.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Marion County Jail
+- Planning & Zoning — 614 Main Street, Pella, IA 50219 — (641) 628-0043 — jbyers@cityofpella.com
+- Building Dept: https://www.cityofpella.com/planning-zoning
+## Library
+- Pella Public Library — 325 1st Ave NE, Pella, IA 50219 — (641) 628-4268
+- Library Website: https://www.cityofpella.com/library
+## Hospitals
+- MercyOne Newton Medical Center — 1000 4th St NE, Newton — (641) 792-5171 — 41.7122° N, 92.9925° W

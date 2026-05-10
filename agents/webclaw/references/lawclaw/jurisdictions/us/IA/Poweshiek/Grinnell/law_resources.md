@@ -1,19 +1,23 @@
-# Grinnell — Local Law Resources
+﻿# Grinnell — Local Law Resources
 ## City Website
-- https://www.grinnelliowa.gov/
+- https://www.grinnelliowa.gov
+## City Hall
+- 520 Fourth Avenue, Grinnell, IA 50112 — (641) 236-2600
 ## Law Enforcement
-- Grinnell PD — 1020 Spring St — (641) 236-2670
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Grinnell Police Department — 1020 Spring Street, Grinnell, IA 50112 — (641) 236-2670 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.grinnelliowa.gov/police
 ## Courts
-- Poweshiek County Clerk — 500 E Main St, Montezuma — (641) 623-5425
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Poweshiek County — 302 E Main St, Montezuma, IA 50171
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Grinnell City Jail — 1020 Spring Street, Grinnell, IA 50112 — (641) 236-2670
+- Transfers to Poweshiek County Sheriff's Office
 ## Building Permits
-- Grinnell Building Department — https://www.grinnelliowa.gov/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Poweshiek County Jail
+- Building & Planning — 520 Fourth Avenue, Grinnell, IA 50112 — (641) 236-2600 — tavis@grinnelliowa.gov
+- Building Dept: https://www.grinnelliowa.gov/building-planning
+## Library
+- Drake Community Library — 930 E Broad St, Grinnell, IA 50112 — (641) 236-2679
+- Library Website: https://www.drakelibrary.org
+## Hospitals
+- Grinnell Regional Medical Center — 615 4th Ave — (641) 236-2121 — 41.7422° N, 92.7275° W

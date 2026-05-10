@@ -1,19 +1,23 @@
-# Denison — Local Law Resources
+﻿# Denison — Local Law Resources
 ## City Website
-- https://denisonia.com/
+- https://denisonia.com
+## City Hall
+- 111 North Main, Denison, IA 51442 — (712) 263-3141
 ## Law Enforcement
-- Denison PD — 1202 Broadway — (712) 263-3354
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Denison Police Department — 1119 1st Avenue North, Denison, IA 51442 — (712) 263-3195 (Non-emergency)
+- Emergency: 911
+- Police Website: https://denisonia.com/police
 ## Courts
-- Crawford County Clerk — (712) 263-3643
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Crawford County — 1202 Broadway, Denison, IA 51442
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Denison City Jail — 1119 1st Avenue North, Denison, IA 51442 — (712) 263-3195
+- Inmate Roster: Crawford County Inmate Search
 ## Building Permits
-- Denison Building Department — https://denisonia.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Crawford County Jail
+- Building Department — 111 North Main, Denison, IA 51442 — (712) 263-3143 — building@denisonia.com
+- Building Dept: https://denisonia.com/building
+## Library
+- Norelius Community Library — 105 N 5th Ave, Denison, IA 51442 — (712) 263-3511
+- Library Website: https://www.denison.lib.ia.us
+## Hospitals
+- Crawford County Memorial Hospital — 100 Medical Parkway — (712) 265-2500 — 42.5550° N, 95.3833° W

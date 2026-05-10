@@ -1,19 +1,24 @@
-# Ottumwa — Local Law Resources
+﻿# Ottumwa — Local Law Resources
 ## City Website
-- https://www.cityofottumwa.com/
+- https://www.ottumwa.us
+## City Hall
+- 105 E 3rd St, Ottumwa, IA 52501 — (641) 683-0600
 ## Law Enforcement
-- Ottumwa PD — (641) 683-0661
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Ottumwa Police Department — 330 W 2nd St, Ottumwa, IA 52501 — (641) 683-0661 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.ottumwa.us/police
 ## Courts
-- Wapello County District Court — 101 W 4th St — (641) 683-0060
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Wapello County — 101 W 4th St, Ottumwa, IA 52501
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Ottumwa City Jail — 330 W 2nd St, Ottumwa, IA 52501 — (641) 683-0661
+- Inmate Roster: Ottumwa Police Department Jail Roster
+- Wapello County Jail for long-term: https://www.wapellocounty.org/sheriff
 ## Building Permits
-- Ottumwa Building Department — https://www.cityofottumwa.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Wapello County Jail
+- Building & Code Enforcement — 105 E 3rd St, Ottumwa, IA 52501 — (641) 683-0650 — building@ottumwa.us
+- Building Dept: https://www.ottumwa.us/building
+## Library
+- Ottumwa Public Library — 105 E 3rd St, Ottumwa, IA 52501 — (641) 682-7563
+- Library Website: https://www.ottumwa.us/library
+## Hospitals
+- Ottumwa Regional Health Center — 1025 1st Ave NE — (641) 684-5811 — 41.0283° N, 92.4186° W

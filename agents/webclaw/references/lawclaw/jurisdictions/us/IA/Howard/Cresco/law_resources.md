@@ -1,19 +1,24 @@
-# Cresco — Local Law Resources
+﻿# Davenport — Local Law Resources
 ## City Website
-- https://www.cityofcresco.com/
+- https://www.davenportiowa.com
+## City Hall
+- 226 W 4th St, Davenport, IA 52801 — (563) 326-7900
 ## Law Enforcement
-- Cresco PD — (563) 568-2266
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Davenport Police Department — 416 N Harrison St, Davenport, IA 52801 — (563) 326-7979 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.davenportiowa.com/police
 ## Courts
-- Howard County Clerk — 101 E Howard St — (563) 568-2587
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Scott County — 600 W 4th St, Davenport, IA 52802
+- U.S. District Court – Davenport Division — 131 E 4th St, Davenport, IA 52801
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Scott County Jail — 400 W 4th St, Davenport, IA 52801 — (563) 326-8750
+- Inmate Roster: Scott County Jail Roster
 ## Building Permits
-- Cresco Building Department — https://www.cityofcresco.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Howard County Jail
+- Development & Neighborhood Services — 1200 E 46th St, Davenport, IA 52807 — (563) 326-7745 — building@cityofdavenport.com
+- Building Dept: https://www.davenportiowa.com/building
+## Library
+- Davenport Public Library — 321 Main St, Davenport, IA 52801 — (563) 326-7832
+- Library Website: https://davenportlibrary.com
+## Hospitals
+- Genesis Medical Center – Davenport Central Campus — 1200 E Rusholme St — (563) 421-9100 — 41.5297° N, 90.5981° W

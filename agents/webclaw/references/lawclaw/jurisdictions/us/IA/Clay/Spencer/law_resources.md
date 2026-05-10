@@ -1,19 +1,23 @@
-# Spencer — Local Law Resources
+﻿# Spencer — Local Law Resources
 ## City Website
-- https://www.spenceriowacity.com/
+- https://www.spenceriowacity.com
+## City Hall
+- 405 1st Avenue West, Spencer, IA 51301 — (712) 580-7200
 ## Law Enforcement
-- Spencer PD — 712 Grand Ave — (712) 262-2151
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Spencer Police Department — 405 1st Avenue West, Spencer, IA 51301 — (712) 262-2151 (Non-emergency)
+- Emergency: 911
+- Police Website: https://spenceriowacity.com/police
 ## Courts
-- Clay County District Court — 215 W 4th St — (712) 262-4335
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Clay County — 215 W 4th St, Spencer, IA 51301
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Spencer City Jail — 405 1st Avenue West, Spencer, IA 51301 — (712) 262-2151
+- Inmate Roster: Spencer Police Department Jail Roster
 ## Building Permits
-- Spencer Building Department — https://www.spenceriowacity.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Clay County Jail
+- Planning & Zoning — 405 1st Avenue West, Spencer, IA 51301 — (712) 580-7200 ext. 228 — aharmo@spenceriowacity.com
+- Building Dept: https://spenceriowacity.com/planning
+## Library
+- Spencer Public Library — 1200 1st Ave E, Spencer, IA 51301 — (712) 262-3533
+- Library Website: https://spencer.lib.ia.us
+## Hospitals
+- Spencer Municipal Hospital — 1200 1st Ave E — (712) 264-6198 — 43.1425° N, 95.1465° W

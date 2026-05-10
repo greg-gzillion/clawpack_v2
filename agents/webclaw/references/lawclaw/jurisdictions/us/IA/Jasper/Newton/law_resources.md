@@ -1,19 +1,23 @@
-# Newton — Local Law Resources
+﻿# Newton — Local Law Resources
 ## City Website
-- https://www.newtongov.org/
+- https://www.newtongov.org
+## City Hall
+- 101 W 4th St S, Newton, IA 50208 — (641) 792-2787
 ## Law Enforcement
-- Newton PD — 101 W 4th St S — (641) 791-0850
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Newton Police Department — 101 W 4th St S, Newton, IA 50208 — (641) 792-1547 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.newtongov.org/police
 ## Courts
-- Jasper County District Court — 101 1st St N — (641) 792-7016
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Jasper County — 101 1st St N, Newton, IA 50208
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Newton City Jail — 101 W 4th St S, Newton, IA 50208 — (641) 792-1547
+- Inmate Roster: Newton Jail Roster
 ## Building Permits
-- Newton Building Department — https://www.newtongov.org/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Jasper County Jail
+- Community Development — 303 W 4th St N, Suite 501, Newton, IA 50208 — (641) 792-6622 — planning@newtongov.org
+- Building Dept: https://www.newtongov.org/building
+## Library
+- Newton Public Library — 1010 3rd Ave W, Newton, IA 50208 — (641) 792-4108
+- Library Website: https://www.newtonlibrary.org
+## Hospitals
+- Jasper County Hospital — 1010 4th St SE — (641) 792-5171 — 41.7122° N, 92.9925° W

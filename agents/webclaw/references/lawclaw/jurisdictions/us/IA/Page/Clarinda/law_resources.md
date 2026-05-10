@@ -1,19 +1,23 @@
-# Clarinda — Local Law Resources
+﻿# Clarinda — Local Law Resources
 ## City Website
-- https://www.cityofclarinda.com/
+- https://www.cityofclarinda.org
+## City Hall
+- 101 N 15th Street, Clarinda, IA 51632 — (712) 542-2136
 ## Law Enforcement
-- Clarinda PD — (712) 542-2194
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Clarinda Police Department — 200 S 15th Street #A, Clarinda, IA 51632 — (712) 542-2194 (Non-emergency)
+- Emergency: 911
+- Police Website: https://clarindapolicedepartment.com
 ## Courts
-- Page County Clerk — 112 E Main St — (712) 542-5134
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Page County — 112 E Main St, Clarinda, IA 51632
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Clarinda City Jail — 200 S 15th Street #A, Clarinda, IA 51632 — (712) 542-2194
+- Iowa DOC Inmate Search for long-term detentions
 ## Building Permits
-- Clarinda Building Department — https://www.cityofclarinda.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Page County Jail
+- City of Clarinda — 101 N 15th Street, Clarinda, IA 51632 — (712) 542-2136 — cityclerk@cityofclarinda.org
+- Building Dept: https://www.cityofclarinda.org/building-permits
+## Library
+- Clarinda Lied Public Library — 100 E Garfield St, Clarinda, IA 51632 — (712) 542-2416
+- Library Website: https://www.clarindapubliclibrary.org
+## Hospitals
+- Clarinda Regional Health Center — 1700 E 10th St — (712) 542-1155 — 40.7421° N, 95.0360° W

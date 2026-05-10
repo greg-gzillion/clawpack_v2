@@ -1,19 +1,24 @@
-# Fort Madison — Local Law Resources
+﻿# Fort Madison — Local Law Resources
 ## City Website
-- https://www.fortmadison-ia.com/
+- https://www.fortmadison-ia.com
+## City Hall
+- 811 Avenue E, Fort Madison, IA 52627 — (319) 372-7700
 ## Law Enforcement
-- Fort Madison PD — (319) 372-2525
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Fort Madison Police Department — 811 Avenue E, Fort Madison, IA 52627 — (319) 372-2525 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.fortmadisonpd.com
 ## Courts
-- Lee County Clerk — 933 Ave H — (319) 376-1096
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Lee County — 701 Avenue F, Fort Madison, IA 52627 — (319) 372-3523
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Fort Madison City Jail — 811 Avenue E, Fort Madison, IA 52627 — (319) 372-2525
+- Lee County Correctional Center for long-term: (319) 372-1152
+- Inmate Search: Lee County Correctional Center
 ## Building Permits
-- Fort Madison Building Department — https://www.fortmadison-ia.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Lee County Jail
+- Building Department — 811 Avenue E, Fort Madison, IA 52627 — (319) 372-7700 ext. 212 — dmkrogmeier@fortmadison-ia.com
+- Building Dept: https://www.fortmadison-ia.com/building
+## Library
+- Fort Madison Public Library — 1920 Avenue E, Fort Madison, IA 52627 — (319) 372-5721
+- Library Website: https://www.fortmadison-ia.com/library
+## Hospitals
+- Fort Madison Community Hospital — 1900 Avenue F — (319) 372-2400 — 40.6308° N, 91.3131° W

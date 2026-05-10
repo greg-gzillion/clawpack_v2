@@ -1,19 +1,23 @@
-# Estherville — Local Law Resources
+﻿# Estherville — Local Law Resources
 ## City Website
-- https://www.esthervilleiowa.com/
+- https://www.cityofestherville.org
+## City Hall
+- 2 N 7th St, Estherville, IA 51334 — (712) 362-7465
 ## Law Enforcement
-- Estherville PD — 114 N 6th St — (712) 362-3515
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Estherville Police Department — 114 N 6th St, Estherville, IA 51334 — (712) 362-3515 (Non-emergency)
+- Emergency: 911
+- Police Website: https://esthervillepd.net
 ## Courts
-- Emmet County Clerk — 609 1st Ave N — (712) 362-3325
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Emmet County — 114 N 6th St, Estherville, IA 51334
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Emmet County Jail — 114 N 6th St, Estherville, IA 51334
+- Inmate Search: Emmet County Jail Roster
 ## Building Permits
-- Estherville Building Department — https://www.esthervilleiowa.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Emmet County Jail
+- City of Estherville — 2 N 7th St, Estherville, IA 51334 — (712) 362-7465 — estherville-admin@cityofestherville.org
+- Website: https://www.cityofestherville.org
+## Library
+- Estherville Public Library — 613 Central Ave, Estherville, IA 51334 — (712) 362-4295
+- Library Website: https://www.estherville.lib.ia.us
+## Hospitals
+- Emmet County Health System – Estherville — 1000 5th Ave S — (712) 362-5555 — 43.3847° N, 94.8492° W

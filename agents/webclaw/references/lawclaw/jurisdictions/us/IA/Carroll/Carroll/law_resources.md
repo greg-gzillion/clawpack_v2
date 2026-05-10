@@ -1,19 +1,23 @@
-# Carroll — Local Law Resources
+﻿# Carroll — Local Law Resources
 ## City Website
-- https://www.cityofcarroll.com/
+- https://www.cityofcarroll.com
+## City Hall
+- 627 N Adams St, Carroll, IA 51401 — (712) 792-1000
 ## Law Enforcement
-- Carroll PD — 112 E 5th St — (712) 792-3536
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Carroll Police Department — 112 E 5th St, Carroll, IA 51401 — (712) 792-3536 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofcarroll.com/police
 ## Courts
-- Carroll County Clerk — (712) 792-1515
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Carroll County — 114 E 6th St, Carroll, IA 51401 — (712) 792-1021
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Carroll County Jail — 114 E 6th St, Carroll, IA 51401 — (712) 792-1205
+- Inmate Roster: Carroll County Jail Search
 ## Building Permits
-- Carroll Building Department — https://www.cityofcarroll.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Carroll County Jail
+- Building Department — 627 N Adams St, Carroll, IA 51401 — (712) 792-1000 — building@cityofcarroll.com
+- Building Dept: https://www.cityofcarroll.com/building
+## Library
+- Carroll Public Library — 112 E 5th St, Carroll, IA 51401 — (712) 792-2544
+- Library Website: https://www.carrollpubliclibrary.org
+## Hospitals
+- St. Anthony Regional Hospital — 1200 W 4th St — (712) 792-8111 — 42.0558° N, 93.8847° W

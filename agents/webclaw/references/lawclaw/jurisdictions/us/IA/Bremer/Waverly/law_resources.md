@@ -1,19 +1,23 @@
-# Waverly — Local Law Resources
+﻿# Waverly — Local Law Resources
 ## City Website
-- https://www.waverlyia.com/
+- https://www.waverlyia.com
+## City Hall
+- 200 1st Street NE, Waverly, IA 50677 — (319) 352-9211
 ## Law Enforcement
-- Waverly PD — 111 4th St NE — (319) 352-5400
-- Iowa State Patrol — https://www.dps.iowa.gov/
+- Waverly Police Department — 111 4th Street NE, Waverly, IA 50677 — (319) 352-5400 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.waverlypd.net
 ## Courts
-- Bremer County Clerk — 415 E Bremer Ave — (319) 352-5661
-- **Court Website**: https://www.iowacourts.gov/
+- Iowa District Court – Bremer County — 415 E Bremer Ave, Waverly, IA 50677 — (319) 352-5661
+- Court Website: https://www.iowacourts.gov
+## Detention Center
+- Waverly City Jail — 111 4th Street NE, Waverly, IA 50677 — (319) 352-5400
+- Inmate Roster: Bremer County Jail Inmate Search
 ## Building Permits
-- Waverly Building Department — https://www.waverlyia.com/
-## Hunting Regulations
-- IA Hunting Regulations — https://www.iowadnr.gov/Hunting/Hunting-Regulations
-## Fishing Regulations
-- IA Fishing Regulations — https://www.iowadnr.gov/Fishing/Fishing-Regulations
-## Legal Aid
-- Iowa Legal Aid — https://www.iowalegalaid.org/
-## Corrections
-- Bremer County Jail
+- Community Development — 200 1st Street NE, Waverly, IA 50677 — (319) 352-9208 — zoning@waverlyia.com
+- Building Dept: https://www.waverlyia.com/community-development
+## Library
+- Waverly Public Library — 1500 W Bremer Ave, Waverly, IA 50677 — (319) 352-2313
+- Library Website: https://www.waverlyia.com/library
+## Hospitals
+- Waverly Health Center — 1000 1st Ave NE — (319) 352-2551 — 42.7975° N, 92.5028° W
