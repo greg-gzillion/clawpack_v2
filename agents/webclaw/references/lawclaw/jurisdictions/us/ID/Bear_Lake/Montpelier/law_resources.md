@@ -1,19 +1,25 @@
-# Montpelier — Local Law Resources
+﻿# Montpelier — Local Law Resources
 ## City Website
-- https://www.bearlakecounty.info/
+- https://www.montpelier.id.gov
+## City Hall
+- 830 Washington Street, Montpelier, ID 83254 — (208) 847-0824
 ## Law Enforcement
-- Montpelier PD — 534 Washington St — (208) 847-1324
-- Idaho State Police — https://www.isp.idaho.gov/
+- Montpelier Police Department — 830 Washington Street, Montpelier, ID 83254 — (208) 847-1324 (Non-emergency)
+- Emergency: 911
+- Chief: Blake Wells
+- Police Website: https://police.montpelier.id.gov
 ## Courts
-- Bear Lake County Magistrate Court — 30 N Main St, Paris — (208) 945-2155 ext 6
-- **Court Website**: https://www.bearlakecounty.info/
+- 5th Judicial District Court – Bear Lake County — 30 N Main Street, Paris, ID 83261 — (208) 945-2155
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Montpelier City Jail — 830 Washington Street, Montpelier, ID 83254 — (208) 847-1324
+- Transfers to Bear Lake County Jail
+- Inmate Roster: Bear Lake County Jail Roster
 ## Building Permits
-- Montpelier Building Department — https://www.bearlakecounty.info/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Bear Lake County Jail
+- Community Development — 830 Washington Street, Montpelier, ID 83254 — (208) 847-0824 — cityclerk@montpelier.id.gov
+- Building Dept: https://www.montpelier.id.gov/community-development
+## Library
+- Bear Lake County Library – Montpelier Branch — 138 N. 6th Street, Montpelier, ID 83254 — (208) 847-1664
+- Library Website: https://bearlakelibrary.org
+## Hospitals
+- Bear Lake Memorial Hospital — 164 S. 5th Street — (208) 847-1630 — 42.3275° N, 111.2983° W

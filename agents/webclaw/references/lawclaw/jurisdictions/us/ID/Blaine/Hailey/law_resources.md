@@ -1,19 +1,23 @@
-# Hailey — Local Law Resources
+﻿# Hailey — Local Law Resources
 ## City Website
-- https://haileyid.gov/
+- https://www.haileycityhall.org
+## City Hall
+- 115 S Main Street South, Suite H, Hailey, ID 83333 — (208) 788-4221
 ## Law Enforcement
-- Blaine County Sheriff — (208) 788-8444
-- Idaho State Police — https://www.isp.idaho.gov/
+- Hailey Police Department — 115 South Main Street, Hailey, ID 83333 — (208) 788-3531 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.haileycityhall.org/police
 ## Courts
-- Blaine County Magistrate Court — 616 2nd Ave N — (208) 788-5561
-- **Court Website**: https://www.blainecounty.org/
+- Blaine County District and Magistrate Court — 201 South 2nd Avenue, Hailey, ID 83333 — (208) 788-5521
+- Court Website: https://www.co.blaine.id.us/courts
+## Detention Center
+- Hailey City Jail — 115 South Main Street, Hailey, ID 83333 — (208) 788-3531
+- Inmate Roster: https://idahoinmateroster.org/idaho/police-department/hailey-police-department/
 ## Building Permits
-- Hailey Building Department — https://haileyid.gov/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Blaine County Jail
+- Blaine County Land Use & Building Services — 219 S 1st Ave, Hailey, ID 83333 — (208) 788-5555
+- Building Dept: https://www.co.blaine.id.us/land-use-building-services
+## Library
+- Hailey Public Library — 7 W Croy St, Hailey, ID 83333 — (208) 788-2036
+- Library Website: https://www.haileypubliclibrary.org
+## Hospitals
+- St. Luke's Wood River Medical Center — 100 Hospital Dr — (208) 727-8800 — 43.6486° N, 114.3498° W

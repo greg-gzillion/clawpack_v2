@@ -1,19 +1,24 @@
-# Star — Local Law Resources
+﻿# Star — Local Law Resources
 ## City Website
-- https://staridaho.org/
+- https://www.staridaho.org
+## City Hall
+- 2100 15th Avenue, Star, ID 83669 — (208) 286-7247
 ## Law Enforcement
-- Ada County Sheriff — Star Substation — (208) 286-7247
-- Idaho State Police — https://www.isp.idaho.gov/
+- Ada County Sheriff's Office – Star Police (contract) — 2100 15th Avenue, Star, ID 83669 — (208) 286-7247 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.staridaho.org/police
 ## Courts
-- Ada County Magistrate Court — 200 W Front St, Boise — (208) 287-6900
-- **Court Website**: https://adacounty.id.gov/courts/
+- 5th Judicial District Court – Ada County — 200 W Front St, Boise, ID 83702
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Ada County Jail — 300 W Front Street, Boise, ID 83702
+- Inmate Roster: Ada County Inmate Search
 ## Building Permits
-- Star Building Department — https://staridaho.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Ada County Jail
+- Building Department — 2100 15th Avenue, Star, ID 83669 — (208) 286-7247 — building@staridaho.org
+- Building Dept: https://www.staridaho.org/building
+## Library
+- Star Public Library — 2020 15th Avenue, Star, ID 83669 — (208) 286-7250
+- Library Website: https://www.staridaho.org/library
+## Hospitals
+- Saint Alphonsus Medical Center – Nampa — 4300 E Flamingo Ave — (208) 205-1000 — 43.5717° N, 116.5917° W
+- St. Luke's Nampa Medical Center — 9850 W St. Luke's Dr — (208) 505-2000 — 43.5561° N, 116.5483° W

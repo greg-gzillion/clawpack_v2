@@ -1,19 +1,23 @@
-# Rigby — Local Law Resources
+﻿# Rigby — Local Law Resources
 ## City Website
-- https://cityofrigby.gov/
+- https://www.cityofrigby.com
+## City Hall
+- 158 West Fremont Avenue, Rigby, ID 83442 — (208) 745-8111
 ## Law Enforcement
-- Rigby PD — (208) 745-1951
-- Idaho State Police — https://www.isp.idaho.gov/
+- Rigby Police Department — 173 East Main Street, Rigby, ID 83442 — (208) 745-1951 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.rigbypolice.com
 ## Courts
-- Jefferson County Magistrate Court — 100 E 2nd St — (208) 745-8241
-- **Court Website**: https://www.co.jefferson.id.us/
+- Jefferson County Magistrate and District Court — 210 Courthouse Way, Rigby, ID 83442 — (208) 745-7736
+- Court Website: https://www.co.jefferson.id.us/courts
+## Detention Center
+- Rigby City Jail — 173 East Main Street, Rigby, ID 83442 — (208) 745-1951
+- Inmate Roster: https://idahoinmateroster.org/idaho/police-department/rigby-police-department/
 ## Building Permits
-- Rigby Building Department — https://cityofrigby.gov/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Jefferson County Jail
+- City of Rigby — 158 West Fremont Avenue, Rigby, ID 83442 — (208) 745-8111
+- Website: https://www.cityofrigby.com
+## Library
+- Rigby Public Library — 110 N. State Street, Rigby, ID 83442 — (208) 745-8231
+- Library Website: https://rigby.lili.org
+## Hospitals
+- Rigby Medical Center — 477 Pleasant County Lane — (208) 359-9840 — 43.6804° N, 111.9116° W

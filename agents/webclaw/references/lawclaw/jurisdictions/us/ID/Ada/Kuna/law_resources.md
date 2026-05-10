@@ -1,19 +1,25 @@
-# Kuna — Local Law Resources
+﻿# Kuna — Local Law Resources
 ## City Website
-- https://kunacity.id.gov/
+- https://kunacity.id.gov
+## City Hall
+- 751 W 4th Street, Kuna, ID 83634 — (208) 922-5546
 ## Law Enforcement
-- Kuna PD — (208) 577-3860
-- Idaho State Police — https://www.isp.idaho.gov/
+- Ada County Sheriff's Office – Kuna Police (contract) — 751 W 4th Street, Kuna, ID 83634 — (208) 377-6790 (Non-emergency)
+- Emergency: 911
+- Chief: Mike Fratusco (ACSO Lieutenant)
+- Police Website: https://kunacity.id.gov/police
 ## Courts
-- Ada County District Court — 200 W Front St, Boise — (208) 287-6900
-- **Court Website**: https://adacounty.id.gov/courts/
+- 5th Judicial District Court – Ada County — 200 W Front St, Boise, ID 83702
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Ada County Jail — 300 W Front Street, Boise, ID 83702
+- Inmate Roster: Ada County Inmate Search
 ## Building Permits
-- Kuna Building Department — https://kunacity.id.gov/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Ada County Jail
+- City of Kuna — 751 W 4th Street, Kuna, ID 83634 — (208) 922-5546
+- Building Dept: https://kunacity.id.gov/building
+## Library
+- Kuna Library District — 457 Locust Avenue, Kuna, ID 83634 — (208) 922-1025
+- Library Website: https://kunalibrary.org
+## Hospitals
+- St. Luke's Meridian Medical Center — 2001 E Fairview Ave, Meridian — (208) 714-1000 — 43.6100° N, 116.3944° W
+- Saint Alphonsus Regional Medical Center — 1055 N Curtis Road, Boise — (208) 367-2111 — 43.6250° N, 116.2094° W

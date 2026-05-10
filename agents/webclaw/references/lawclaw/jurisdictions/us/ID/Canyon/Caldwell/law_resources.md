@@ -1,19 +1,23 @@
-# Caldwell — Local Law Resources
+﻿# Caldwell — Local Law Resources
 ## City Website
-- https://www.caldwellid.org/
+- https://www.cityofcaldwell.org
+## City Hall
+- 111 N 11th Ave, Caldwell, ID 83605 — (208) 455-5400
 ## Law Enforcement
-- Caldwell PD — 110 S 5th Ave — (208) 455-3115
-- Idaho State Police — https://www.isp.idaho.gov/
+- Caldwell Police Department — 110 S 5th Ave, Caldwell, ID 83605 — (208) 455-3115 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.caldwellpolice.org
 ## Courts
-- Canyon County Magistrate Court — 1115 E Albany St — (208) 454-7300
-- **Court Website**: https://www.canyoncounty.id.gov/courts/
+- 5th Judicial District Court – Canyon County — 1115 Albany St, Caldwell, ID 83605
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Canyon County Detention Center — 219 N 12th Ave, Caldwell, ID 83605
+- Inmate Search: https://inmate.co.canyon.id.us
 ## Building Permits
-- Caldwell Building Department — https://www.caldwellid.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Canyon County Jail
+- Community Development — 111 N 11th Ave, Caldwell, ID 83605 — (208) 455-5400 — communitydevelopment@cityofcaldwell.org
+- Building Dept: https://www.cityofcaldwell.org/building
+## Library
+- Caldwell Branch Library — 1202 Dearborn St, Caldwell, ID 83605 — (208) 455-3268
+- Library Website: https://canyonlibrary.org
+## Hospitals
+- St. Luke's Elmore Hospital — 100 Hospital Dr, Mountain Home — (208) 587-2211 — 43.1147° N, 115.4889° W

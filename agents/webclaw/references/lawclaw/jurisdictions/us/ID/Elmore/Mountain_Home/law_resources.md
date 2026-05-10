@@ -1,19 +1,24 @@
-# Mountain Home — Local Law Resources
+﻿# Mountain Home — Local Law Resources
 ## City Website
-- https://www.mountainhomeidaho.org/
+- https://www.mountain-home.us
+## City Hall
+- 160 S 3rd E St, Mountain Home, ID 83647 — (208) 587-2173
 ## Law Enforcement
-- Mountain Home PD — 2775 E 8th N — (208) 587-2101
-- Idaho State Police — https://www.isp.idaho.gov/
+- Mountain Home Police Department — 2775 E 8th N, Mountain Home, ID 83647 — (208) 587-2101 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.mhpd.net
 ## Courts
-- Elmore County Magistrate Court — 150 S 4th E Ste 5 — (208) 587-2130
-- **Court Website**: https://www.elmorecounty.org/
+- Elmore County Courthouse — 150 S 4th E, Mountain Home, ID 83647 — (208) 587-2130
+- Court Website: https://elmorecounty.org
+## Detention Center
+- Mountain Home City Jail — 2775 E 8th N, Mountain Home, ID 83647 — (208) 587-2101
+- Inmate Roster: Mountain Home Jail Roster
+- Elmore County Jail: 2255 E 8th N, Mountain Home, ID 83647
 ## Building Permits
-- Mountain Home Building Department — https://www.mountainhomeidaho.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Elmore County Jail
+- Planning and Zoning — 160 S 3rd E St, Mountain Home, ID 83647 — (208) 587-2173
+- Website: https://www.mountain-home.us
+## Library
+- Mountain Home Public Library — 790 N 10th E, Mountain Home, ID 83647 — (208) 587-4716
+- Library Website: https://www.mhlibrary.org
+## Hospitals
+- St. Luke's Elmore Medical Center — 895 N 6th E — (208) 587-8401 — 43.1328° N, 115.6946° W

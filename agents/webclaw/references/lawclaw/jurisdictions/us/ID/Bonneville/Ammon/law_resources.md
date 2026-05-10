@@ -1,19 +1,23 @@
-# Ammon — Local Law Resources
+﻿# Ammon — Local Law Resources
 ## City Website
-- https://www.ammonidaho.org/
+- https://cityofammon.us
+## City Hall
+- 2135 S. Ammon Road, Ammon, ID 83406 — (208) 612-4000
 ## Law Enforcement
-- Ammon PD — (208) 522-1190
-- Idaho State Police — https://www.isp.idaho.gov/
+- Ammon Police Department — 3787 East 112th Street North, Ammon, ID 83401 — (208) 523-3971 (Non-emergency)
+- Emergency: 911
+- Police Website: https://cityofammon.us/police
 ## Courts
-- Bonneville County Magistrate Court — Idaho Falls — (208) 529-1300
-- **Court Website**: https://www.bonnevillecountyidaho.gov/
+- 7th Judicial District Court – Bonneville County — 605 N Capital Ave, Idaho Falls, ID 83402
+- Court Website: https://isc.idaho.gov/courts/district/7
+## Detention Center
+- Ammon City Jail — 3787 East 112th Street North, Ammon, ID 83401 — (208) 523-3971
+- Inmate Roster: Ammon City Jail Roster
 ## Building Permits
-- Ammon Building Department — https://www.ammonidaho.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Bonneville County Jail
+- Building Department — 2135 S. Ammon Road, Ammon, ID 83406 — (208) 612-4021 — permits@cityofammon.us
+- Building Dept: https://cityofammon.us/building
+## Library
+- Ammon Branch Library — 2135 S Ammon Rd, Ammon, ID 83406 — (208) 523-5550
+- Library Website: https://www.bonnevillelibrary.org
+## Hospitals
+- Eastern Idaho Regional Medical Center — 5555 S Holmes Ave, Idaho Falls — (208) 529-7411 — 43.4808° N, 111.9583° W

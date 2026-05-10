@@ -1,19 +1,24 @@
-# Kellogg — Local Law Resources
+﻿# Kellogg — Local Law Resources
 ## City Website
-- https://kelloggcity.com/
+- https://kellogg.id.gov
+## City Hall
+- 1007 McKinley Avenue, Kellogg, ID 83837 — (208) 786-9131
 ## Law Enforcement
-- Kellogg PD — 323 Main St — (208) 786-9131
-- Idaho State Police — https://www.isp.idaho.gov/
+- Kellogg Police Department — 323 Main Street, Kellogg, ID 83837 — (208) 786-9131 (Non-emergency)
+- After hours: (208) 556-1114 (Shoshone County Sheriff)
+- Emergency: 911
+- Police Website: https://kellogg.id.gov/police-department
 ## Courts
-- Shoshone County Magistrate Court — 717 Bank St, Wallace — (208) 556-2100
-- **Court Website**: https://www.shoshonecounty.id.gov/
+- 5th Judicial District Court – Shoshone County — 700 Bank St, Wallace, ID 83873
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Kellogg City Jail — 323 Main Street, Kellogg, ID 83837 — (208) 786-9131
+- Transfers to Wallace Detention Facility
 ## Building Permits
-- Kellogg Building Department — https://kelloggcity.com/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Shoshone County Jail
+- Building Department — 1007 McKinley Avenue, Kellogg, ID 83837 — (208) 786-9131
+- Building Dept: https://kellogg.id.gov/building
+## Library
+- Kellogg Public Library — 10 E Station Avenue, Kellogg, ID 83837
+- Library Website: https://kellogg.id.gov/library
+## Hospitals
+- St. Joseph Regional Medical Center — 5225 N 3rd St, Lewiston — (208) 746-3000 — 46.4089° N, 117.0178° W

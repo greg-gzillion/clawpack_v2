@@ -1,19 +1,23 @@
-# American Falls — Local Law Resources
+﻿# American Falls — Local Law Resources
 ## City Website
-- https://www.co.power.id.us/
+- https://www.cityofamericanfalls.com
+## City Hall
+- 540 North Oregon Trail, American Falls, ID 83211 — (208) 226-5922
 ## Law Enforcement
-- American Falls PD — 550 N Oregon Trail — (208) 226-5922
-- Idaho State Police — https://www.isp.idaho.gov/
+- American Falls Police Department — 540 North Oregon Trail, American Falls, ID 83211 — (208) 226-5922 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityofamericanfalls.com/police-department
 ## Courts
-- Power County Magistrate Court — 543 Bannock Ave — (208) 226-7610
-- **Court Website**: https://www.co.power.id.us/
+- 7th Judicial District Court – Power County — 543 Bannock Ave, American Falls, ID 83211
+- Court Website: https://isc.idaho.gov/courts/district/7
+## Detention Center
+- American Falls City Jail — 540 North Oregon Trail, American Falls, ID 83211 — (208) 226-5922
+- Inmate Roster: American Falls Jail Roster
 ## Building Permits
-- American Falls Building Department — https://www.co.power.id.us/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Power County Jail
+- Power County Building Administrator — 543 Bannock Ave, American Falls, ID 83211 — (208) 226-7610 — buildingadmin@co.power.id.us
+- Building Dept: https://www.co.power.id.us/building-administrator-planning-and-zoning-department/building-permits/
+## Library
+- American Falls Public Library — 500 N 6th Ave, American Falls, ID 83211 — (208) 226-5511
+- Library Website: https://www.powercountylibrary.org
+## Hospitals
+- Portneuf Medical Center — 751 S 5th Ave, Pocatello — (208) 239-7000 — 42.8753° N, 112.4528° W

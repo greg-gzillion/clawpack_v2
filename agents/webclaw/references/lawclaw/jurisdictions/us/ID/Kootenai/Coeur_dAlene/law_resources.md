@@ -1,19 +1,23 @@
-# Coeur dAlene — Local Law Resources
+﻿# Coeur d'Alene — Local Law Resources
 ## City Website
-- https://www.cdaid.org/
+- https://www.cdaid.org
+## City Hall
+- 710 E Mullan Ave, Coeur d'Alene, ID 83814 — (208) 769-2300
 ## Law Enforcement
-- Coeur d'Alene PD — 3818 Schreiber Way — (208) 769-2320
-- Idaho State Police — https://www.isp.idaho.gov/
+- Coeur d'Alene Police Department — 3818 N Schreiber Way, Coeur d'Alene, ID 83815 — (208) 769-2320 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cdaid.org/police
 ## Courts
-- Kootenai County District Court — 5500 N Government Way — (208) 446-1160
-- **Court Website**: https://www.kcgov.us/
+- 1st Judicial District Court – Kootenai County — 324 W Garden Ave, Coeur d'Alene, ID 83814
+- Court Website: https://isc.idaho.gov/courts/district/1
+## Detention Center
+- Kootenai County Jail — 421 W Cameron Ave, Coeur d'Alene, ID 83814
+- Inmate Search: https://kootenai.inmatequery.com
 ## Building Permits
-- Coeur dAlene Building Department — https://www.cdaid.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Kootenai County Jail
+- Building Services — 710 E Mullan Ave, Coeur d'Alene, ID 83814 — (208) 769-2267 — buildingpermits@cdaid.org
+- Building Dept: https://www.cdaid.org/building
+## Library
+- Coeur d'Alene Public Library — 702 E Front Ave, Coeur d'Alene, ID 83814 — (208) 769-2315
+- Library Website: https://www.cdalibrary.org
+## Hospitals
+- Kootenai Health — 2003 E Sherman Ave — (208) 625-4111 — 47.6975° N, 116.8097° W

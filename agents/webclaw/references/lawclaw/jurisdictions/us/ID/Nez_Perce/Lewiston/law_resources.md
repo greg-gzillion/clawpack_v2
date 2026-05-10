@@ -1,19 +1,23 @@
-# Lewiston — Local Law Resources
+﻿# Lewiston — Local Law Resources
 ## City Website
-- https://www.cityoflewiston.org/
+- https://www.cityoflewiston.org
+## City Hall
+- 215 D Street, Lewiston, ID 83501 — (208) 746-1318
 ## Law Enforcement
-- Lewiston PD — (208) 746-0171
-- Idaho State Police — https://www.isp.idaho.gov/
+- Lewiston Police Department — 215 D Street, Lewiston, ID 83501 — (208) 746-0171 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.cityoflewiston.org/police
 ## Courts
-- Nez Perce County District Court — 1230 Main St — (208) 799-3020
-- **Court Website**: https://www.co.nezperce.id.us/
+- 5th Judicial District Court – Nez Perce County — 1230 Main St, Lewiston, ID 83501
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Lewiston City Jail — 215 D Street, Lewiston, ID 83501 — (208) 746-0171
+- Inmate Roster: Lewiston Police Department Jail Roster
 ## Building Permits
-- Lewiston Building Department — https://www.cityoflewiston.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Nez Perce County Jail
+- Community Development — 215 D Street, Lewiston, ID 83501 — (208) 746-1318 — cd@cityoflewiston.org
+- Building Dept: https://www.cityoflewiston.org/building
+## Library
+- Lewiston Public Library — 215 D Street, Lewiston, ID 83501 — (208) 798-2525
+- Library Website: https://www.lewistonlibrary.org
+## Hospitals
+- St. Joseph Regional Medical Center — 5225 N 3rd St — (208) 746-3000 — 46.4089° N, 117.0178° W

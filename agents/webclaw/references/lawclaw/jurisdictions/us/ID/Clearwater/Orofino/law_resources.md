@@ -1,19 +1,23 @@
-# Orofino — Local Law Resources
+﻿# Orofino — Local Law Resources
 ## City Website
-- https://cityoforofino.org/
+- https://cityoforofino.org
+## City Hall
+- 217 1st Street, Orofino, ID 83544 — (208) 476-4725
 ## Law Enforcement
-- Orofino PD — (208) 476-5551
-- Idaho State Police — https://www.isp.idaho.gov/
+- Orofino Police Department — 217 1st Street, Orofino, ID 83544 — (208) 476-5551 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.orofinopd.com
 ## Courts
-- Clearwater County Magistrate Court — 217 1st St — (208) 476-5551
-- **Court Website**: https://www.clearwatercounty.org/
+- 5th Judicial District Court – Clearwater County — 217 1st Street, Orofino, ID 83544 — (208) 476-4725
+- Court Website: https://www.5thjudicialdistrict.com
+## Detention Center
+- Orofino City Jail — 217 1st Street, Orofino, ID 83544 — (208) 476-5551
+- Inmate Roster: Orofino City Jail Inmate Search
 ## Building Permits
-- Orofino Building Department — https://cityoforofino.org/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Clearwater County Jail
+- Building and Code Enforcement — 217 1st Street, Orofino, ID 83544 — (208) 476-4725
+- Building Dept: https://cityoforofino.org/building-and-code-enforcement
+## Library
+- Clearwater Memorial Public Library — 402 Michigan Avenue, Orofino, ID 83544 — (208) 476-3411
+- Library Website: https://orofinolibrary.com
+## Hospitals
+- Clearwater Valley Hospital & Clinics — 301 Cedar Street — (208) 476-4555 — 46.4872° N, 116.2599° W

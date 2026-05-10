@@ -1,19 +1,23 @@
-# Bonners Ferry — Local Law Resources
+﻿# Bonners Ferry — Local Law Resources
 ## City Website
-- https://bonnersferry.id.gov/
+- https://bonnersferry.id.gov
+## City Hall
+- 7232 Main Street, Bonners Ferry, ID 83805 — (208) 267-3105
 ## Law Enforcement
-- Bonners Ferry PD — (208) 267-2412
-- Idaho State Police — https://www.isp.idaho.gov/
+- Bonners Ferry Police Department — 7232 Main Street, Bonners Ferry, ID 83805 — (208) 267-2412 (Non-emergency)
+- Emergency: 911
+- Police Website: https://bonnersferry.id.gov/police-department
 ## Courts
-- Boundary County Magistrate Court — 6452 Kootenai St — (208) 267-3151
-- **Court Website**: https://www.boundarycountyid.org/
+- 7th Judicial District Court – Boundary County — 6438 Kootenai Street, Bonners Ferry, ID 83805
+- Court Website: https://isc.idaho.gov/courts/district/7
+## Detention Center
+- Bonners Ferry City Jail — 7232 Main Street, Bonners Ferry, ID 83805 — (208) 267-2412
+- Inmate Roster: Bonners Ferry Jail Roster
 ## Building Permits
-- Bonners Ferry Building Department — https://bonnersferry.id.gov/
-## Hunting Regulations
-- ID Hunting Regulations — https://www.idfg.idaho.gov/hunt/rules
-## Fishing Regulations
-- ID Fishing Regulations — https://www.idfg.idaho.gov/fish/rules
-## Legal Aid
-- Idaho Legal Aid — https://www.idaholegalaid.org/
-## Corrections
-- Boundary County Jail
+- Building Department — 7232 Main Street, Bonners Ferry, ID 83805 — (208) 267-3105 — rick.hill@dbs.idaho.gov
+- Building Dept: https://bonnersferry.id.gov/building-permits
+## Library
+- Bonners Ferry Public Library — 501 S 8th St, Bonners Ferry, ID 83805 — (208) 267-3171
+- Library Website: https://www.boundarylibrary.org
+## Hospitals
+- Boundary Community Hospital — 510 S 8th St — (208) 267-3030 — 48.8958° N, 116.1581° W
