@@ -1,19 +1,32 @@
-# Springfield — Local Law Resources
+﻿# Springfield — Local Law Resources
 ## City Website
-- https://www.springfield.il.us/
+- https://www.springfield.il.us — (217) 753-6600
+- Address: 800 E Monroe St, Springfield, IL 62701
 ## Law Enforcement
-- Springfield PD — (217) 753-3100
-- Illinois State Police — https://www.isp.state.il.us/
+- Springfield Police Department
+- Address: 800 E Monroe St, Springfield, IL 62701
+- Emergency: 911 | Non-Emergency: (217) 788-8311 | Front Desk: (217) 788-8325
+- Police Website: https://www.springfield.il.us/police
 ## Courts
-- Springfield Municipal Court — 625 N Benton Ave
-- **Court Website**: https://www.springfield.il.us/
+- Springfield Municipal Court — 635 N Benton Ave, Springfield, IL 62702
+- Court Website: https://www.springfield.il.us/municipal-court
+## Detention Center
+- Springfield Police Department City Jail
+- Address: 800 E Monroe St, Springfield, IL 62701
+- Inmate Roster: https://inmate-search-springfield-il.govbackgroundchecks.com
 ## Building Permits
-- Springfield Building Department — https://www.springfield.il.us/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- Sangamon County Jail
+- Department of Public Works – Permits & Inspections
+- Phone: (217) 789-2255
+- Address: 800 E Monroe St, Springfield, IL 62701
+- Website: https://www.springfield.il.us
+## Library
+- Lincoln Library (Public Library of Springfield)
+- Address: 326 S 7th St, Springfield, IL 62701
+- Phone: (217) 753-4900
+- Website: https://www.lincolnlibrary.info
+- Hours: Mon–Wed 10:00 AM – 8:00 PM; Thu–Sat 10:00 AM – 5:00 PM; Sun 1:00 PM – 5:00 PM (Oct–Apr)
+## Hospitals
+- Springfield Memorial Hospital — 701 N 1st St, Springfield, IL 62781 — (217) 788-3000 — 39.8099° N, 89.6568° W
+  Website: https://www.springfieldclinic.com
+- HSHS St. John's Hospital — 3631 S 6th St, Springfield, IL 62703 — (217) 525-5000 — 39.7524° N, 89.6463° W
+  Website: https://www.hshs.org

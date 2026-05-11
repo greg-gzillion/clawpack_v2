@@ -1,19 +1,24 @@
-# Moline — Local Law Resources
+﻿# Moline — Local Law Resources
 ## City Website
-- https://www.ci.moline.il.us/
+- https://www.moline.il.us — (309) 524-2000
+## City Hall
+- 1640 6th Ave, Moline, IL 61265 — (309) 524-2000
 ## Law Enforcement
-- Moline PD — (309) 524-2400
-- Illinois State Police — https://www.isp.state.il.us/
+- Moline Police Department — 1640 6th Ave, Moline, IL 61265
+- Emergency: 911 | Non-Emergency: (309) 797-0401
+- Police Website: https://www.moline.il.us/police
 ## Courts
-- MUNICES — 1528 3rd Ave, Rock Island — (309) 793-6300 ext 1149
-- **Court Website**: https://www.ci.moline.il.us/
+- MUNICES Hearings — every other Fri 9 AM, 1504 3rd Ave, Room 317, Rock Island
+- Court Website: https://www.rigov.org/munices
+## Detention Center
+- Moline Jail — 1640 6th Ave — (309) 797-0401
+- Inmate Roster: https://moline-inmate-listing.govbackgroundchecks.com
 ## Building Permits
-- Moline Building Department — https://www.ci.moline.il.us/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- Rock Island County Jail
+- Community Development — 1640 6th Ave, Moline, IL 61265 — (309) 524-2193
+- Building Dept: https://www.moline.il.us/building
+## Library
+- Moline Public Library — 3210 41st St, Moline, IL 61265 — (309) 524-2440
+- Library Website: https://www.molinelibrary.com
+## Hospitals
+- UnityPoint Health – Trinity Rock Island — 1415 14th Ave — (309) 779-4411 — 41.5100° N, 90.5600° W
+- Genesis Medical Center – Silvis — 1200 28th Ave — (309) 762-4100 — 41.5500° N, 90.4500° W

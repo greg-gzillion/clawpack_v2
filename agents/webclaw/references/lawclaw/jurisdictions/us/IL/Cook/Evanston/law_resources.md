@@ -1,19 +1,22 @@
-# Evanston — Local Law Resources
+﻿# Evanston — Local Law Resources
 ## City Website
-- https://www.cityofevanston.org/
+- https://www.cityofevanston.org — (847) 448-4311
+## City Hall
+- 909 Davis St, Evanston, IL 60201 — (847) 448-4311
 ## Law Enforcement
-- Evanston PD — 1454 Elmwood Ave — (847) 866-5000
-- Illinois State Police — https://www.isp.state.il.us/
+- Evanston Police Department — 915 Davis St, Evanston, IL 60201
+- Emergency: 911 | Non-Emergency: (847) 866-5000
+- Police Website: https://www.cityofevanston.org/police
 ## Courts
-- Cook County Circuit Court — 6th Municipal District — (312) 603-5000
-- **Court Website**: https://www.cookcountycourt.org/
+- Administrative / Cook County Circuit Court — https://www.cookcountycourt.org
+## Detention Center
+- Evanston PD (short-term) — 915 Davis St — (847) 866-5000
+- Cook County Jail (long-term)
 ## Building Permits
-- Evanston Building Department — https://www.cityofevanston.org/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- Cook County Jail
+- Building Permits — 909 Davis St, Evanston, IL 60201 — (847) 448-8207
+- Building Dept: https://www.cityofevanston.org/building-permits
+## Library
+- Evanston Public Library — 1703 Orrington Ave, Evanston, IL 60201 — (847) 448-8600
+- Library Website: https://www.evanstonpl.org
+## Hospitals
+- Ascension Saint Francis Hospital — 3555 N Ridge Ave — (847) 328-8000 — 42.0400° N, 87.6850° W

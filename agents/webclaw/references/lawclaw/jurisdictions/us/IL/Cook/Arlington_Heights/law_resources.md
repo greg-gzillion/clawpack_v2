@@ -1,19 +1,24 @@
-# Arlington Heights — Local Law Resources
-## City Website
-- https://www.arlingtonheights.net/
+﻿# Arlington Heights — Local Law Resources
+## Village Website
+- https://www.vah.com
+## Village Hall
+- 33 S. Arlington Heights Road, Arlington Heights, IL 60005 — (847) 368-5000
 ## Law Enforcement
-- Arlington Heights PD — 33 S Arlington Heights Rd — (847) 368-5300
-- Illinois State Police — https://www.isp.state.il.us/
+- Arlington Heights Police Department — 200 E. Sigwalt Street, Arlington Heights, IL 60005 — (847) 368-5300 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.vah.com/police
 ## Courts
-- Cook County Circuit Court — Rolling Meadows — (312) 603-5000
-- **Court Website**: https://www.cookcountycourt.org/
+- Cook County Circuit Court – Third Municipal District — 2121 Euclid Avenue, Rolling Meadows, IL 60008 — (847) 818-3000
+- Court Website: https://www.cookcountycourt.org
+## Detention Center
+- Arlington Heights City Jail — 200 E. Sigwalt Street, Arlington Heights, IL 60005
+- Inmate Roster: https://arlingtonheightscityjail.org
 ## Building Permits
-- Arlington Heights Building Department — https://www.arlingtonheights.net/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- Cook County Jail
+- Building & Life Safety — 33 S. Arlington Heights Road, Arlington Heights, IL 60005 — (847) 368-5560
+- Building Dept: https://www.vah.com/building
+## Library
+- Arlington Heights Memorial Library — 500 N. Dunton Avenue, Arlington Heights, IL 60004 — (847) 392-0100
+- Library Website: https://www.ahml.info
+## Hospitals
+- Northwest Community Hospital — 800 W Central Road — (847) 618-2000 — 42.0789° N, 87.9792° W
+- AMITA Health Alexian Brothers Medical Center — 800 Biesterfield Road, Elk Grove Village — (847) 430-8000 — 42.0556° N, 87.9486° W

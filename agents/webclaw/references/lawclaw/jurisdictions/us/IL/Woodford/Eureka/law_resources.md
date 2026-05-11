@@ -1,19 +1,23 @@
-# Eureka — Local Law Resources
+﻿# Eureka — Local Law Resources
 ## City Website
-- https://www.eurekaillinois.net/
+- https://www.eurekaillinois.net — (309) 467-2113
+## City Hall
+- 111 W Court St, Eureka, IL 61530 — (309) 467-2113
 ## Law Enforcement
-- Eureka PD — 210 N Main St — (309) 467-2541
-- Illinois State Police — https://www.isp.state.il.us/
+- Eureka Police Department — 210 N Main St, Eureka, IL 61530
+- Emergency: 911 | Non-Emergency: (309) 467-2541
+- Police Website: https://www.eurekaillinois.net/police
 ## Courts
-- Woodford County Circuit Court — 111 W Court St — (309) 467-2375
-- **Court Website**: https://www.woodfordcountyil.gov/
+- Municipal Court — bi-weekly Fridays 9 AM, City Hall
+- Court Website: https://www.eurekaillinois.net/community/page/city-eureka-faqs
+## Detention Center
+- Eureka PD (temporary) — 210 N Main St — (309) 467-2541
+- Woodford County Jail (long-term)
 ## Building Permits
-- Eureka Building Department — https://www.eurekaillinois.net/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- Woodford County Jail
+- Building Inspector — 111 W Court St, Eureka, IL 61530 — (309) 467-2113 — eurekabuildinginspector@gmail.com
+- Building Dept: https://www.eurekaillinois.net/building-permits
+## Library
+- Eureka Public Library — 202 S Main St, Eureka, IL 61530 — (309) 467-2922
+- Library Website: https://www.eurekapl.org
+## Hospitals
+- Carle Eureka Hospital — 515 N Main St — (309) 467-2113 — 40.7225° N, 89.2700° W

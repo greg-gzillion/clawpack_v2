@@ -1,19 +1,24 @@
-# Bloomington — Local Law Resources
+﻿# Bloomington — Local Law Resources
 ## City Website
-- https://www.bloomingtonil.gov/
+- https://www.bloomingtonil.gov
+## City Hall
+- 115 E. Washington Street, Bloomington, IL 61701 — (309) 434-2509
 ## Law Enforcement
-- Bloomington PD — 115 E Washington St — (309) 434-2509
-- Illinois State Police — https://www.isp.state.il.us/
+- Bloomington Police Department — 305 S. East Street, Bloomington, IL 61701 — (309) 820-8888 (Non-emergency)
+- Emergency: 911
+- Police Website: https://police.bloomingtonil.gov
 ## Courts
-- McLean County Circuit Court — 104 W Front St — (309) 888-5301
-- **Court Website**: https://www.mcleancountyil.gov/
+- Administrative Court (ordinance violations) — 115 E. Washington Street, Room 400, Bloomington, IL 61701 — (309) 434-2213
+- Court Website: https://www.bloomingtonil.gov/legal/administrative-court
+## Detention Center
+- Bloomington City Jail — 305 S. East Street, Bloomington, IL 61701
+- Inmate Roster: https://bloomingtonil.gov/police/inmate-roster/
 ## Building Permits
-- Bloomington Building Department — https://www.bloomingtonil.gov/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- McLean County Jail
+- Development Services — 115 E. Washington Street, Bloomington, IL 61701 — (309) 434-2226
+- Building Dept: https://www.bloomingtonil.gov/development-services
+## Library
+- McLean County Public Library — 2100 W. Masonic Avenue, Bloomington, IL 61704 — (309) 662-6918
+- Library Website: https://mclinc.org
+## Hospitals
+- OSF Saint James-John W. Allyn Hospital — 1400 E. Empire Street — (309) 662-7000 — 40.4850° N, 88.9900° W
+- Carle BroMenn Medical Center — 2000 N. Mattis Avenue, Normal — (309) 268-6000 — 40.4983° N, 88.9583° W

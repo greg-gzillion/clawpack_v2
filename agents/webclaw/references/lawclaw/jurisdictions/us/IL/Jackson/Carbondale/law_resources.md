@@ -1,19 +1,23 @@
-# Carbondale — Local Law Resources
+﻿# Carbondale — Local Law Resources
 ## City Website
-- https://www.explorecarbondale.com/
+- https://www.explorecarbondale.com
+## City Hall
+- 200 S. Illinois Avenue, Carbondale, IL 62901 — (618) 457-3229
 ## Law Enforcement
-- Carbondale PD — 200 S Illinois Ave — (618) 549-5500
-- Illinois State Police — https://www.isp.state.il.us/
+- Carbondale Police Department — 501 S. Washington Street, Carbondale, IL 62901 — (618) 457-3200 (Non-emergency)
+- Emergency: 911
+- Police Website: https://www.explorecarbondale.com/192/About-the-Police-Department
 ## Courts
-- Jackson County Circuit Court — 405 W Main St — (618) 687-7300
-- **Court Website**: https://www.jacksoncounty-il.gov/
+- First Judicial Circuit Court – Jackson County — (618) 687-7300
+- Court Website: https://www.jacksoncounty-il.gov
+## Detention Center
+- Carbondale City Jail — 501 S. Washington Street, Carbondale, IL 62901 — (618) 457-3200
+- Inmate Roster: Carbondale Jail Inmate Search
 ## Building Permits
-- Carbondale Building Department — https://www.explorecarbondale.com/
-## Hunting Regulations
-- IL Hunting Regulations — https://www.dnr.illinois.gov/hunting/
-## Fishing Regulations
-- IL Fishing Regulations — https://www.ifishillinois.org/
-## Legal Aid
-- Illinois Legal Aid — https://www.illinoislegalaid.org/
-## Corrections
-- Jackson County Jail
+- City of Carbondale — 200 S. Illinois Avenue, Carbondale, IL 62901 — (618) 457-3229
+- Website: https://www.explorecarbondale.com
+## Library
+- Carbondale Public Library — 405 W. Main Street, Carbondale, IL 62901 — (618) 457-0354
+- Library Website: https://www.carbondale.lib.il.us
+## Hospitals
+- Memorial Hospital of Carbondale — 1001 Highland Dr — (618) 545-5000 — 37.7286° N, 89.2217° W
