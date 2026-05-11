@@ -1,19 +1,31 @@
-# Plymouth — Local Law Resources
+﻿# Plymouth — Local Law Resources
 ## City Website
-- https://www.cityofplymouth.com/
+- https://www.plymouthin.com — (574) 936-6717
+- Address: 124 N Michigan St, Plymouth, IN 46563
+- Hours: Mon–Fri, 8:30 AM – 4:30 PM
 ## Law Enforcement
-- Plymouth PD — (574) 936-2111
-- Indiana State Police — https://www.in.gov/isp/
+- Plymouth Police Department
+- Address: 215 W Washington St, Plymouth, IN 46563
+- Emergency: 911 | Non-Emergency: (574) 936-2126
+- Police Website: https://www.plymouthin.com/police
 ## Courts
-- Marshall Circuit Court — 101 S Center St — (574) 936-2111
-- **Court Website**: https://www.marshallcountyin.gov/
+- Marshall Circuit Court / Marshall Superior Courts — https://www.co.marshall.in.us
+## Detention Center
+- Plymouth Police Department City Jail — 215 W Washington St — (574) 936-2126
+- Inmate Roster: https://www.plymouthin.com/police/inmate-roster
+- Marshall County Jail (long-term): https://www.co.marshall.in.us
 ## Building Permits
-- Plymouth Building Department — https://www.cityofplymouth.com/
-## Hunting Regulations
-- IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
-## Fishing Regulations
-- IN Fishing Regulations — https://www.in.gov/dnr/fish-and-wildlife/fishing/
-## Legal Aid
-- Indiana Legal Services — https://www.indianalegalservices.org/
-## Corrections
-- Marshall County Jail
+- Building Commissioner's Office
+- Phone: (574) 936-2824
+- Email: building@plymouthin.com
+- Address: 124 N Michigan St, Plymouth, IN 46563
+- Website: https://www.plymouthin.com/building-commissioner
+## Library
+- Plymouth Public Library
+- Address: 201 N Center St, Plymouth, IN 46563
+- Phone: (574) 936-3455
+- Website: https://www.plymouthin.com/library
+- Hours: Mon–Thu 9:00 AM – 8:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+## Hospitals
+- Franciscan Health Plymouth — 801 W Jefferson St, Plymouth, IN 46563 — (574) 936-5211 — 41.3333° N, 86.2833° W
+  Website: https://www.franciscanhealth.org

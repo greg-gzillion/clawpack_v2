@@ -1,19 +1,30 @@
-# Indianapolis — Local Law Resources
+﻿# Indianapolis — Local Law Resources
 ## City Website
-- https://www.indy.gov/
+- https://www.indy.gov — (317) 327-4401
+- Address: 200 E Washington St, Indianapolis, IN 46204
+- Hours: Mon–Fri, 8:00 AM – 5:00 PM
 ## Law Enforcement
-- Indianapolis Metro PD — (317) 327-6582
-- Indiana State Police — https://www.in.gov/isp/
+- Indianapolis Metropolitan Police Department (IMPD)
+- Address: 307 E Washington St, Indianapolis, IN 46204
+- Emergency: 911 | Non-Emergency: (317) 327-4400
+- Police Website: https://www.indy.gov/IMPD
 ## Courts
-- Marion County Courts — 675 Justice Way — (317) 327-5741
-- **Court Website**: https://www.indy.gov/
+- Marion Superior Court / Marion Circuit Court — https://www.in.gov/judiciary
+## Detention Center
+- Marion County Jail — 307 E New York St, Indianapolis, IN 46204
+- Inmate Search: https://www.in.gov/judiciary/indianapolis-marion-county-community-justice-campus
 ## Building Permits
-- Indianapolis Building Department — https://www.indy.gov/
-## Hunting Regulations
-- IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
-## Fishing Regulations
-- IN Fishing Regulations — https://www.in.gov/dnr/fish-and-wildlife/fishing/
-## Legal Aid
-- Indiana Legal Services — https://www.indianalegalservices.org/
-## Corrections
-- Marion County Jail
+- Department of Business and Neighborhood Services
+- Phone: (317) 327-8700
+- Email: PermitQuestions@indy.gov
+- Address: 1200 S Madison Ave, Indianapolis, IN 46225
+- Website: https://www.indy.gov/BNS
+## Library
+- Indianapolis Public Library – Central Library
+- Address: 40 E St Clair St, Indianapolis, IN 46204
+- Phone: (317) 275-4100
+- Website: https://www.indypl.org
+- Hours: Mon–Thu 9:00 AM – 8:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+## Hospitals
+- IU Health Methodist Hospital — 1701 N Senate Ave, Indianapolis, IN 46202 — (317) 962-1000 — 39.7869° N, 86.1575° W
+  Website: https://www.iuhealth.org

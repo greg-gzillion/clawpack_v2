@@ -1,6 +1,35 @@
-# Columbus Municipal Court
+﻿# Columbus Municipal Court
 ## Court Information
-- Bartholomew Circuit Court — 225 3rd St — (812) 376-2515
-- **Court Website**: https://www.bartholomewcounty.in.gov/
+- Columbus does not have a municipal court
+- Legal matters handled by Bartholomew Circuit Court
+- Court Website: https://www.in.gov/judiciary
 ## City Website
-- https://www.columbus.in.gov/
+- https://www.columbus.in.gov
+- Phone: (812) 376-2500
+- Address: 123 Washington Street, Columbus, IN 47201
+- Hours: Mon–Fri, 8:00 AM – 4:30 PM
+## Police Department
+- Columbus Police Department
+- Address: 123 Washington Street, Columbus, IN 47201
+- Emergency: 911
+- Non-Emergency: (812) 376-2600
+- Police Website: https://www.columbus.in.gov/police
+## Detention Center
+- Bartholomew County Jail — 507 3rd Street, Columbus, IN 47201
+- Inmate Search: https://www.bartholomew.in.gov
+- Website: https://www.bartholomew.in.gov
+## Building Permits
+- Planning Department
+- Phone: (812) 376-5450
+- Email: planning@Columbus.in.gov
+- Address: 2612 17th Street, Columbus, IN 47201
+- Website: https://www.columbus.in.gov/planning
+## Library
+- Bartholomew County Public Library – Main Branch
+- Address: 233 Third Street, Columbus, IN 47201
+- Phone: (812) 372-3646
+- Website: https://www.bcpl.lib.in.us
+- Hours: Mon–Thu 9:00 AM – 8:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+## Hospitals
+- Columbus Regional Hospital — 739 16th Street, Columbus, IN 47201 — (812) 376-2421 — 39.2050° N, 85.9150° W
+  Website: https://www.columbusregional.org

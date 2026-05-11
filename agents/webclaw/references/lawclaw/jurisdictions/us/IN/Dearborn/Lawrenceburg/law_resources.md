@@ -1,19 +1,32 @@
-# Lawrenceburg — Local Law Resources
+﻿# Lawrenceburg — Local Law Resources
 ## City Website
-- https://thinklawrenceburg.com/
+- https://www.lawrenceburg-in.com — (812) 537-1500
+- Address: 9001 E 59th Street, Lawrenceburg, IN 47025
+- Hours: Mon–Fri, 8:00 AM – 4:00 PM
 ## Law Enforcement
-- Lawrenceburg PD — 233 W Gaines St — (812) 537-3151
-- Indiana State Police — https://www.in.gov/isp/
+- Lawrenceburg Police Department
+- Address: 349 Walnut Street, Lawrenceburg, IN 47025
+- Emergency: 911 | Non-Emergency: (812) 537-2284
+- Police Website: http://www.lawrenceburgpolice.com/
 ## Courts
-- Lawrenceburg City Court — (812) 537-3151
-- **Court Website**: https://thinklawrenceburg.com/city-court
+- Lawrenceburg City Court — 349 Walnut Street, Lawrenceburg, IN 47025 — (812) 532-3545
+- Court Website: https://thinklawrenceburg.com/city-court/
+## Detention Center
+- Lawrenceburg Police Department City Jail — 349 Walnut Street — (812) 537-2284
+- Inmate Roster: http://www.lawrenceburgpolice.com/inmate-roster
+- Dearborn County Jail (long-term): https://www.dearborncounty.org
 ## Building Permits
-- Lawrenceburg Building Department — https://thinklawrenceburg.com/
-## Hunting Regulations
-- IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
-## Fishing Regulations
-- IN Fishing Regulations — https://www.in.gov/dnr/fish-and-wildlife/fishing/
-## Legal Aid
-- Indiana Legal Services — https://www.indianalegalservices.org/
-## Corrections
-- Dearborn County Jail
+- Building Department
+- Phone: (812) 532-3561
+- Email: zoning@lawrenceburg.in.gov
+- Address: 9001 E 59th Street, Lawrenceburg, IN 47025
+- Website: https://thinklawrenceburg.com/zoning-department/
+## Library
+- Lawrenceburg Public Library District
+- Address: 101 E Main St, Lawrenceburg, IN 47025
+- Phone: (812) 537-2335
+- Website: https://www.thinklawrenceburg.com/library
+- Hours: Mon–Thu 9:00 AM – 7:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+## Hospitals
+- Dearborn County Hospital — 1000 E Main St, Lawrenceburg, IN 47025 — (812) 537-4541 — 39.2000° N, 84.8833° W
+  Website: https://www.dch-inc.org

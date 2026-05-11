@@ -1,19 +1,32 @@
-# Greenwood — Local Law Resources
+﻿# Greenwood — Local Law Resources
 ## City Website
-- https://www.greenwood.in.gov/
+- https://www.greenwood.in.gov — (317) 882-9191
+- Address: 300 S Madison Ave, Greenwood, IN 46142
+- Hours: Mon–Fri, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Greenwood PD — (317) 882-5100
-- Indiana State Police — https://www.in.gov/isp/
+- Greenwood Police Department
+- Address: 186 Surina Way, Greenwood, IN 46143
+- Emergency: 911 | Non-Emergency: (317) 882-9191
+- Police Website: https://www.greenwood.in.gov/police
 ## Courts
-- Greenwood City Court — 300 S Madison St — (317) 882-5129
-- **Court Website**: https://www.greenwood.in.gov/
+- Greenwood City Court — 300 S Madison Ave, Greenwood, IN 46142 — (317) 882-9191
+- Court Website: https://www.greenwood.in.gov/city-court
+## Detention Center
+- Greenwood Police Department City Jail — 186 Surina Way — (317) 882-9191
+- Inmate Roster: https://www.greenwood.in.gov/police/inmate-roster
+- Johnson County Jail (long-term): https://www.johnsoncounty.in.gov
 ## Building Permits
-- Greenwood Building Department — https://www.greenwood.in.gov/
-## Hunting Regulations
-- IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
-## Fishing Regulations
-- IN Fishing Regulations — https://www.in.gov/dnr/fish-and-wildlife/fishing/
-## Legal Aid
-- Indiana Legal Services — https://www.indianalegalservices.org/
-## Corrections
-- Johnson County Jail
+- Building Commissioner
+- Phone: (317) 887-5230
+- Email: sealk@greenwood.in.gov
+- Address: 300 S Madison Ave, Greenwood, IN 46142
+- Website: https://www.greenwood.in.gov/building
+## Library
+- Johnson County Public Library – Greenwood Branch
+- Address: 75 N Johnson Ave, Greenwood, IN 46142
+- Phone: (317) 887-0755
+- Website: https://www.jcplin.org
+- Hours: Mon–Thu 9:00 AM – 8:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+## Hospitals
+- Johnson Memorial Health — 1015 Executive Drive, Franklin, IN 46131 — (317) 738-2500 — 39.4333° N, 86.0500° W
+  Website: https://www.johnsonmemorial.org

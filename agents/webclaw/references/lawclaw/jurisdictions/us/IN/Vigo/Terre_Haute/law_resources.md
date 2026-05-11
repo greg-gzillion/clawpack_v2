@@ -1,19 +1,31 @@
-# Terre Haute — Local Law Resources
+﻿# Terre Haute — Local Law Resources
 ## City Website
-- https://www.terrehaute.in.gov/
+- https://www.terrehaute.in.gov — (812) 244-2303
+- Address: 17 Harding Avenue, Terre Haute, IN 47807
 ## Law Enforcement
-- Terre Haute PD — (812) 244-2100
-- Indiana State Police — https://www.in.gov/isp/
+- Terre Haute Police Department
+- Address: 17 Harding Avenue, Terre Haute, IN 47807
+- Emergency: 911 | Non-Emergency: (812) 244-2501
+- Police Website: https://www.terrehaute.in.gov/departments/pd
 ## Courts
-- Vigo County Superior Court 1 — 101 N 3rd St — (812) 258-4400
-- **Court Website**: https://www.vigocounty.in.gov/
+- Terre Haute City Court — 17 Harding Avenue, Room 100, Terre Haute, IN 47807 — (812) 244-2153
+- Court Website: https://www.terrehaute.in.gov/departments/city-court
+## Detention Center
+- Terre Haute Police Department City Jail — 17 Harding Avenue — (812) 244-2501
+- Inmate Roster: https://www.terrehaute.in.gov/departments/pd/inmate-roster
+- Vigo County Jail (long-term): https://www.vigocountysheriff.com
 ## Building Permits
-- Terre Haute Building Department — https://www.terrehaute.in.gov/
-## Hunting Regulations
-- IN Hunting Regulations — https://www.in.gov/dnr/fish-and-wildlife/hunting/
-## Fishing Regulations
-- IN Fishing Regulations — https://www.in.gov/dnr/fish-and-wildlife/fishing/
-## Legal Aid
-- Indiana Legal Services — https://www.indianalegalservices.org/
-## Corrections
-- Vigo County Jail
+- Engineering Department
+- Phone: (812) 244-4903
+- Email: engineering@terrehaute.in.gov
+- Address: 17 Harding Avenue, Terre Haute, IN 47807
+- Website: https://www.terrehaute.in.gov
+## Library
+- Vigo County Public Library – Main Branch
+- Address: 100 N 6th St, Terre Haute, IN 47807
+- Phone: (812) 232-2722
+- Website: https://www.vcpl.info
+- Hours: Mon–Thu 9:00 AM – 8:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+## Hospitals
+- Union Hospital — 5101 S US Hwy 41, Terre Haute, IN 47802 — (812) 231-2500 — 39.4500° N, 87.3333° W
+  Website: https://www.unionhospital.org
