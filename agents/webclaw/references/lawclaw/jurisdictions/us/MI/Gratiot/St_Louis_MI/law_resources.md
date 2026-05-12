@@ -1,17 +1,33 @@
-# St Louis MI — Local Law Resources
+﻿# St. Louis — Local Law Resources
+## City Website
+- https://www.stlouismi.com — (989) 681-2137
+- Address: 300 North Mill Street, St. Louis, MI 48880
+- City Manager: Kurt Giles | Hours: Mon–Thu 8:00 AM – 4:00 PM
 ## Law Enforcement
-- St Louis MI Police Department
-- Gratiot County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- St. Louis Police Department
+- Address: 300 North Mill Street, St. Louis, MI 48880
+- Emergency: 911 | Non-Emergency: (989) 681-5285
+- Chief: Richard Ramereiz Jr.
+- Police Website: https://www.stlouismi.com/government/police-department
 ## Courts
-- Michigan District Court
+- 65B District Court — 525 E. Superior Street, Alma, MI 48801 — (989) 463-8350
+- Court Website: https://gratiotmi.com/386/65th-District-Court
+## Detention Center
+- St. Louis does not operate a city jail
+- St. Louis Correctional Facility (State Prison) — 8585 North Croswell Road, St. Louis, MI 48880 — (989) 681-6444
+- Prison Website: https://www.michigan.gov/michigan-corrections
+- Gratiot County Jail — 226 E. Center Street, Ithaca, MI 48847 — (989) 875-5215
 ## Building Permits
-- St Louis MI Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Gratiot County Jail
+- City of St. Louis Planning & Zoning Department
+- Phone: (989) 681-2137
+- Address: 300 North Mill Street, St. Louis, MI 48880
+- Website: https://www.stlouismi.com
+## Library
+- T.A. Cutler Memorial Library
+- Address: 108 W. Saginaw St, St. Louis, MI 48880
+- Phone: (989) 681-3885
+- Hours: Mon–Thu 10 AM–7 PM, Fri 10 AM–5 PM, Sat 10 AM–2 PM
+- Website: https://www.gratiotlibrary.org
+## Hospitals
+- MyMichigan Medical Center Alma — 300 E. Warwick Drive, Alma, MI 48801 — (989) 463-1101 — 43.3916° N, 84.6639° W
+  Website: https://www.mymichigan.org

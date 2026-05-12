@@ -1,19 +1,30 @@
-# Farmington Hills — Local Law Resources
+﻿# Farmington Hills — Local Law Resources
 ## City Website
-- https://www.farmington-hills.org/
+- https://www.fhgov.com — (248) 871-2400
+- Address: 31555 W. Eleven Mile Road, Farmington Hills, MI 48336
 ## Law Enforcement
-- Farmington Hills PD — 31500 Government Dr — (248) 852-1111
-- Michigan State Police — https://www.michigan.gov/msp
+- Farmington Hills Police Department
+- Address: 31655 W. Eleven Mile Road, Farmington Hills, MI 48336
+- Emergency: 911 | Non-Emergency: (248) 871-2600
+- Police Website: https://www.fhgov.com/police
 ## Courts
-- 47th District Court — 31605 W 11 Mile Rd — (248) 871-2900
-- **Court Website**: https://47thdistrictcourt.com/
+- 47th District Court — 31605 W. Eleven Mile Road, Farmington Hills, MI 48336 — (248) 871-2900
+- Court Website: https://www.oakgov.com
+## Detention Center
+- Farmington Hills City Jail (short-term) — 31655 W. Eleven Mile Road — (248) 871-2600
+- Jail Info: https://www.fhgov.com
+- Oakland County Jail — 1201 N. Telegraph Road, Pontiac, MI 48341 — (248) 858-1800
 ## Building Permits
-- Farmington Hills Building Department — https://www.farmington-hills.org/
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Oakland County Jail
+- Building Department
+- Phone: (248) 871-2456
+- Address: 31555 W. Eleven Mile Road, Farmington Hills, MI 48336
+- Website: https://www.fhgov.com
+## Library
+- Farmington Community Library (Main Branch)
+- Address: 32737 W. 12 Mile Road, Farmington Hills, MI 48336
+- Phone: (248) 871-7980
+- Hours: Mon–Thu 9 AM–9 PM, Fri–Sat 9 AM–6 PM
+- Website: https://www.farmlib.org
+## Hospitals
+- Corewell Health Farmington Hills Hospital — 28050 Grand River Ave, Farmington Hills, MI 48336 — (947) 521-8000 — 42.4437° N, 83.3246° W
+  Website: https://www.corewellhealth.org

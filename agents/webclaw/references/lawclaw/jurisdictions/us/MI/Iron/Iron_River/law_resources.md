@@ -1,17 +1,32 @@
-# Iron River — Local Law Resources
+﻿# Iron River — Local Law Resources
+## City Website
+- https://ironriver.org — (906) 265-4719
+- Address: 106 W. Genesee St, Iron River, MI 49935
+- Hours: 9 AM – 4 PM, Mon–Fri
 ## Law Enforcement
 - Iron River Police Department
-- Iron County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 106 W. Genesee St, Iron River, MI 49935
+- Emergency: 911 | Non-Emergency: (906) 265-4321 (Front Desk: 9 AM–2 PM, Mon–Fri)
+- Chief: Curt T. Harrington
+- Police Website: https://ironriver.org/police/
 ## Courts
-- Michigan District Court
+- Iron County District Court — 2 S. 6th St, Crystal Falls, MI 49920 — (906) 875-0619
+- Court Website: https://ironmi.com
+## Detention Center
+- Iron River City Jail (short-term) — 106 W. Genesee St — (906) 265-4321
+- Iron County Correctional Facility (long-term) — 2 S. 6th St, Crystal Falls, MI 49920 — (906) 875-3301
+- County Website: https://ironmi.com
 ## Building Permits
-- Iron River Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Iron County Jail
+- City of Iron River Planning & Zoning Department
+- Phone: (906) 265-4719
+- Address: 106 W. Genesee St, Iron River, MI 49935
+- Website: https://ironriver.org
+## Library
+- West Iron District Library
+- Address: 116 W. Genesee St, Iron River, MI 49935
+- Phone: (906) 265-2831 | Email: sswenski@westironlib.org
+- Hours: Mon–Wed & Fri: 8:30 AM–5 PM | Thu: 8:30 AM–7 PM | Sat: 10 AM–2 PM
+- Website: https://westironlib.org
+## Hospitals
+- Aspirus Iron River Hospital & Clinics — 1400 W Ice Lake Rd, Iron River, MI 49935 — (906) 265-6121 — 46.0999° N, 88.6198° W
+  Website: https://www.aspirus.org

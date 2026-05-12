@@ -1,17 +1,30 @@
-# Cassopolis — Local Law Resources
+﻿# Cassopolis — Local Law Resources
+## Village Website
+- https://www.cassopolis-mi.us — (269) 445-8100
+- Address: 117 S. Broadway St., #100, Cassopolis, MI 49031
 ## Law Enforcement
 - Cassopolis Police Department
-- Cass County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 117 S. Broadway St., Cassopolis, MI 49031
+- Emergency: 911 | Non-Emergency: (269) 445-8100
+- Public Safety Website: https://www.cassopolis-mi.us/services/public_safety.php
 ## Courts
-- Michigan District Court
+- Cass County Law & Courts Building — 60296 M-62, Cassopolis, MI 49031
+- 4th District Court: (269) 445-4424 | 43rd Circuit Court
+- Court Website: https://casscourtsmi.org
+## Detention Center
+- Cass County Jail (Correctional Facility) — 321 N M-62 Highway, Cassopolis, MI 49031 — (269) 445-2481
+- Inmate Search: http://www.ccso.info
 ## Building Permits
-- Cassopolis Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Cass County Jail
+- Cass County Building Department
+- Address: 120 N Broadway St, Suite 116, Cassopolis, MI 49031
+- Phone: (269) 445-5280
+- Website: https://www.casscountymi.org/155/Building-Department
+## Library
+- Cass District Library (Main Branch)
+- Address: 319 M-62, Cassopolis, MI 49031
+- Phone: (269) 357-7822
+- Hours: Mon–Thu 9 AM–8 PM, Fri 9 AM–6 PM, Sat 9 AM–3 PM
+- Website: https://cass.lib.mi.us
+## Hospitals
+- Cass Family Clinic — 261 M-62, Cassopolis, MI 49031 — (269) 445-3874 — 41.9195° N, 86.0152° W
+- Beacon Health System – Niles Campus — 400 N 5th St, Niles, MI 49120 — 41.8055° N, 86.2403° W

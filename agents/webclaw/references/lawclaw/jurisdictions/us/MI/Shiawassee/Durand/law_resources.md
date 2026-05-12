@@ -1,17 +1,33 @@
-# Durand — Local Law Resources
+﻿# Durand — Local Law Resources
+## City Website
+- https://www.durandmi.com — (989) 288-3113
+- Address: 215 W. Clinton Street, Durand, MI 48429
+- Hours: Mon–Thu 7:30 AM–5:30 PM
 ## Law Enforcement
 - Durand Police Department
-- Shiawassee County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 215 W. Clinton Street, Durand, MI 48429
+- Emergency: 911 | Non-Emergency: (989) 288-3113
+- Chief: Robert Brancheau
+- Police Website: https://www.durandmi.com/city_services/police_department/index.php
 ## Courts
-- Michigan District Court
+- 66th District Court — 110 E. Mack St, Corunna, MI 48817 — (989) 743-2395
+- Court Website: https://www.sado.org
+## Detention Center
+- Durand City Jail (short-term) — 215 W. Clinton Street — (989) 288-3113
+- Shiawassee County Jail (long-term) — 201 E. McArthur St, Corunna, MI 48817 — (989) 743-3411
+- County Website: https://shiawassee.net
 ## Building Permits
-- Durand Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Shiawassee County Jail
+- Planning & Development Department
+- Phone: (989) 288-3113
+- Address: 215 W. Clinton Street, Durand, MI 48429
+- Website: https://www.durandmi.com
+## Library
+- Durand Branch – Shiawassee District Library
+- Address: 700 N. Saginaw Street, Durand, MI 48429
+- Phone: (989) 288-3743
+- Hours: Mon–Thu 9:30 AM–8 PM, Fri 9:30 AM–6 PM, Sat 9:30 AM–3 PM
+- Website: https://www.mysdl.org/durand
+## Hospitals
+- Memorial Urgent Care - Durand — 9099 E. Lansing Road, Durand, MI 48429 — (989) 288-0400 — 42.9255° N, 83.9857° W
+- Memorial Health Care (Owosso) — 43.0055° N, 84.1810° W
+  Website: https://www.mymemorialhealth.org

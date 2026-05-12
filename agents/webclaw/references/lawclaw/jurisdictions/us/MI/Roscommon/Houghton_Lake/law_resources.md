@@ -1,17 +1,29 @@
-# Houghton Lake — Local Law Resources
+﻿# Roscommon — Local Law Resources
+## Village Website
+- https://www.roscommonvillage.com — (989) 275-5743
+- Address: 500 Lake Street, Roscommon, MI 48653
 ## Law Enforcement
-- Houghton Lake Police Department
-- Roscommon County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Roscommon County Sheriff's Office
+- Address: 111 S. Second Street, Roscommon, MI 48653
+- Emergency: 911 | Non-Emergency: (989) 275-5101
+- Sheriff Website: https://www.roscommoncounty.net
 ## Courts
-- Michigan District Court
+- 82nd District Court — 500 Lake Street, Roscommon, MI 48653 — (989) 275-5221
+- Court Website: https://www.sado.org
+## Detention Center
+- Roscommon County Jail — 111 S. Second Street, Roscommon, MI 48653 — (989) 275-9070
+- County Website: https://www.roscommoncounty.net
 ## Building Permits
-- Houghton Lake Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Roscommon County Jail
+- Village of Roscommon Building & Zoning Department
+- Phone: (989) 275-5743
+- Address: 500 Lake Street, Roscommon, MI 48653
+- Website: https://www.roscommonvillage.com
+## Library
+- Roscommon Area District Library
+- Address: 500 Lake Street, Roscommon, MI 48653
+- Phone: (989) 275-5960
+- Hours: Mon–Thu 10 AM–7 PM, Fri–Sat 10 AM–5 PM
+- Website: https://roscommonlibrary.org
+## Hospitals
+- MidMichigan Health Park - Roscommon — 500 Lake Street, Roscommon, MI 48653 — (989) 275-5122 — 44.3226° N, 84.6789° W
+  Website: https://www.midmichigan.org

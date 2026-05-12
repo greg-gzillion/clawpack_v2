@@ -1,19 +1,30 @@
-# Houghton City — Local Law Resources
+﻿# Houghton — Local Law Resources
 ## City Website
-- https://www.cityofhoughton.com/
+- https://www.cityofhoughton.com — (906) 482-1700
+- Address: 616 Shelden Avenue, Houghton, MI 49931
 ## Law Enforcement
-- Houghton PD — 616 Shelden Ave — (906) 482-2121
-- Michigan State Police — https://www.michigan.gov/msp
+- Houghton Police Department
+- Address: 616 Shelden Avenue, Houghton, MI 49931
+- Emergency: 911 | Non-Emergency: (906) 482-2121
+- Police Website: https://www.cityofhoughton.com/police-parking-enforcement/
 ## Courts
-- 97th District Court — 401 E Houghton Ave — (906) 482-3120
-- **Court Website**: https://www.houghtoncountymi.gov/courts
+- 97th District Court — 401 E. Houghton Ave, Houghton, MI 49931 — (906) 482-4980
+- Court Website: https://www.michiganlegalhelp.org/courts-and-agencies/97th-district-court-houghton
+## Detention Center
+- Houghton County Jail — 403 East Houghton Avenue, Houghton, MI 49931 — (906) 482-0055
+- Inmate Search: https://www.houghtonsheriff.com
+- Corrections Website: https://www.houghtonsheriff.com/corrections.shtml
 ## Building Permits
-- Houghton City Building Department — https://www.cityofhoughton.com/
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Houghton County Jail
+- Planning & Zoning Department
+- Phone: (906) 482-1700
+- Address: 616 Shelden Avenue, Houghton, MI 49931
+- Website: https://www.cityofhoughton.com
+## Library
+- Portage Lake District Library
+- Address: 302 E. Lakeshore Blvd, Houghton, MI 49931
+- Phone: (906) 482-2691
+- Hours: Mon–Thu 10 AM–8 PM, Fri 10 AM–6 PM, Sat 10 AM–2 PM
+- Website: https://pldl.org
+## Hospitals
+- UP Health System – Portage (Houghton Express Care) — 921 W Sharon Ave, Houghton, MI 49931 — (906) 483-1777 — 47.1244° N, 88.5765° W
+  Website: https://www.uphealthsystem.com

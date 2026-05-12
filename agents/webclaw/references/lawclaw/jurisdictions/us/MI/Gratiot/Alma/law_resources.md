@@ -1,17 +1,30 @@
-# Alma — Local Law Resources
+﻿# Alma — Local Law Resources
+## City Website
+- https://myalma.org — (989) 463-8336
+- Address: 525 E. Superior Street, Alma, MI 48801
 ## Law Enforcement
 - Alma Police Department
-- Gratiot County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 525 E. Superior Street, Alma, MI 48801
+- Emergency: 911 | Non-Emergency: (989) 463-8317
+- Police Website: https://myalma.org/police-department.php
 ## Courts
-- Michigan District Court
+- 65B District Court — 525 E. Superior Street, Alma, MI 48801 — (989) 463-8350
+- Court Website: https://gratiotmi.com/386/65th-District-Court
+## Detention Center
+- Alma City Jail (short-term) — 525 E. Superior Street — (989) 463-8317
+- Jail Info: https://myalma.org/police-department.php
+- Gratiot County Jail — 226 E. Center Street, Ithaca, MI 48847 — (989) 875-5215
 ## Building Permits
-- Alma Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Gratiot County Jail
+- Planning & Zoning Department
+- Phone: (989) 463-8336
+- Address: 525 E. Superior Street, Alma, MI 48801
+- Website: https://myalma.org
+## Library
+- Alma Public Library
+- Address: 525 E. Superior Street, Alma, MI 48801
+- Phone: (989) 463-3966
+- Hours: Mon–Thu 9 AM–6 PM, Fri 9 AM–1 PM
+- Website: https://www.almalibrary.org
+## Hospitals
+- MyMichigan Medical Center Alma — 300 E. Warwick Drive, Alma, MI 48801 — (989) 463-1101 — 43.3916° N, 84.6639° W
+  Website: https://www.mymichigan.org

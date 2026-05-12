@@ -1,17 +1,29 @@
-# Belding — Local Law Resources
+﻿# Belding — Local Law Resources
+## City Website
+- https://www.ci.belding.mi.us — (616) 794-1900
+- Address: 120 S. Pleasant Street, Belding, MI 48809
 ## Law Enforcement
 - Belding Police Department
-- Ionia County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 120 S. Pleasant Street, Belding, MI 48809
+- Emergency: 911 | Non-Emergency: (616) 794-1900
+- Police Website: https://www.ci.belding.mi.us/police.php
 ## Courts
-- Michigan District Court
+- 64B District Court — Ionia, MI
+- Court Website: https://www.montcalm.us
+## Detention Center
+- Belding City Jail (short-term) — 120 S. Pleasant Street — (616) 794-1900
+- Jail Info: https://www.ci.belding.mi.us/police.php
+- Ionia County Jail — 133 E. Adams Street, Ionia, MI 48846 — (616) 527-5353
 ## Building Permits
-- Belding Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Ionia County Jail
+- Building permits issued by Ionia County
+- Phone: (616) 527-5374
+- Website: https://www.ioniacounty.org
+## Library
+- Alvah N. Belding Memorial Library
+- Address: 302 E. Main Street, Belding, MI 48809
+- Phone: (616) 794-1450
+- Hours: Mon & Wed 9 AM–8 PM, Tue & Thu 9 AM–5 PM, Fri 9 AM–1 PM
+- Website: https://www.alvahnbeldinglibrary.org
+## Hospitals
+- Spectrum Health United Hospital - Belding Family Medicine — 1227 W State St, Belding, MI 48809 — (616) 794-3100 — 43.0950° N, 85.2275° W
+- Corewell Health - Greenville — Greenville, MI — 43.0618° N, 85.4589° W

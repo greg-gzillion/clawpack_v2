@@ -1,17 +1,32 @@
-# Lapeer — Local Law Resources
+﻿# Lapeer — Local Law Resources
+## City Website
+- https://www.ci.lapeer.mi.us — (810) 664-5231
+- Address: 576 Liberty Park, Lapeer, MI 48446
 ## Law Enforcement
 - Lapeer Police Department
-- Lapeer County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 2300 W. Genesee Street, Lapeer, MI 48446
+- Emergency: 911 | Non-Emergency: (810) 667-0292
+- Chief: Jeremy Howe
+- Police Website: https://www.ci.lapeer.mi.us/police2.php
 ## Courts
-- Michigan District Court
+- 63rd District Court / 40th Circuit Court — 255 Clay St, Lapeer, MI 48446 — (810) 667-0314
+- Court Website: https://lapeercountymi.gov
+## Detention Center
+- Lapeer City Jail (short-term) — 2300 W. Genesee Street — (810) 664-0833
+- Lapeer County Jail (long-term) — 3231 John Conley Drive, Lapeer, MI 48446
+- Inmate Search: https://lapeercountyjailmi.org
+- County Website: https://lapeercountymi.gov
 ## Building Permits
-- Lapeer Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Lapeer County Jail
+- Planning & Zoning Department
+- Phone: (810) 664-5231
+- Address: 576 Liberty Park, Lapeer, MI 48446
+- Website: https://www.ci.lapeer.mi.us
+## Library
+- Lapeer District Library
+- Address: 201 Village West Drive, Lapeer, MI 48446
+- Phone: (810) 664-9521
+- Hours: Mon–Thu 9 AM–8 PM, Fri–Sat 9 AM–5 PM, Sun 1–5 PM
+- Website: https://www.library.lapeer.org
+## Hospitals
+- McLaren Lapeer Region Hospital — 1375 N Main St, Lapeer, MI 48446 — (810) 667-5500 — 43.0625° N, 83.3215° W
+  Website: https://www.mclaren.org

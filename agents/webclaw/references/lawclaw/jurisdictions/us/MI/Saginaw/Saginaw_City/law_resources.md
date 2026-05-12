@@ -1,19 +1,29 @@
-# Saginaw City — Local Law Resources
+﻿# Saginaw — Local Law Resources
 ## City Website
-- https://www.saginaw-mi.com/
+- https://www.saginaw-mi.com — (989) 755-2300
+- Address: 131 S. Washington Ave, Saginaw, MI 48607
 ## Law Enforcement
-- Saginaw PD — 131 South Jefferson — (989) 755-2400
-- Michigan State Police — https://www.michigan.gov/msp
+- Saginaw Police Department
+- Address: 612 Federal Ave, Saginaw, MI 48607
+- Emergency: 911 | Non-Emergency: (989) 759-1289
+- Police Website: https://www.saginaw-mi.com
 ## Courts
-- 70th District Court — 111 S Michigan Ave — (989) 790-5380
-- **Court Website**: https://www.saginawcountymi.gov/70th-district-court
+- 70th District Court / 10th Circuit Court — Saginaw County Governmental Center, 111 S. Michigan Ave, Saginaw, MI 48602 — (989) 790-5363
+- Court Website: https://www.sado.org
+## Detention Center
+- Saginaw County Jail — 208 S. Harrison St, Saginaw, MI 48602 — (989) 790-5456
+- Inmate Search: https://www.saginawcounty.com
 ## Building Permits
-- Saginaw City Building Department — https://www.saginaw-mi.com/
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Saginaw County Jail
+- City of Saginaw Building Department
+- Phone: (989) 755-2300
+- Address: 131 S. Washington Ave, Saginaw, MI 48607
+- Website: https://www.saginaw-mi.com
+## Library
+- Public Libraries of Saginaw — Hoyt Main Library
+- Address: 505 Janes Ave, Saginaw, MI 48607
+- Phone: (989) 755-0904
+- Hours: Mon & Thu 12 PM–8 PM, Tue & Wed 10 AM–6 PM, Fri & Sat 9 AM–5 PM
+- Website: https://saginawlibrary.org
+## Hospitals
+- MyMichigan Medical Center Saginaw — 3100 N. Center Rd, Saginaw, MI 48603 — (989) 799-2771 — 43.4524° N, 84.0148° W
+  Website: https://www.mymichigan.org

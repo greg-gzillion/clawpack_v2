@@ -1,19 +1,30 @@
-# Charlotte MI — Local Law Resources
+﻿# Charlotte — Local Law Resources
 ## City Website
-- https://www.eatoncounty.org/
+- https://www.charlottemi.gov — (517) 543-2750
+- Address: 111 E. Lawrence Ave, Charlotte, MI 48813
 ## Law Enforcement
-- Eaton County Sheriff — 1045 Independence Blvd — (517) 543-7520
-- Michigan State Police — https://www.michigan.gov/msp
+- Charlotte Police Department
+- Address: 111 E. Lawrence Ave, Charlotte, MI 48813
+- Emergency: 911 | Non-Emergency: (517) 543-1552
+- Police Website: https://www.charlottemi.gov
 ## Courts
-- 56A District Court — 1045 Independence Blvd — (517) 543-7520
-- **Court Website**: https://www.eatoncounty.org/
+- Eaton County 29th District Court — 1045 Independence Blvd, Charlotte, MI 48813 — (517) 543-2426
+- Court Website: https://www.eatoncounty.org
+## Detention Center
+- Charlotte City Jail (short-term) — 111 E. Lawrence Ave — (517) 543-1552
+- Eaton County Jail (long-term) — 1025 Independence Blvd, Charlotte, MI 48813
+- Inmate Search: https://www.eatoncounty.org
 ## Building Permits
-- Charlotte MI Building Department — https://www.eatoncounty.org/
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Eaton County Jail
+- Planning & Zoning Department
+- Phone: (517) 543-2750
+- Address: 111 E. Lawrence Ave, Charlotte, MI 48813
+- Website: https://www.charlottemi.gov
+## Library
+- Charlotte Community Library
+- Address: 226 S Bostwick St, Charlotte, MI 48813
+- Phone: (517) 543-8859
+- Hours: Mon–Fri 9 AM–7 PM, Sat 10 AM–2 PM
+- Website: https://charlottelibrary.org
+## Hospitals
+- University of Michigan Health - Sparrow Eaton Hospital — 312 E Harris St, Charlotte, MI 48813 — (517) 543-1050 — 42.5656° N, 84.8324° W
+  Website: https://uofmhealthsparrow.org

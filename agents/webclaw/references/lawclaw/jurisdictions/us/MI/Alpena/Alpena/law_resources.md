@@ -1,17 +1,31 @@
-# Alpena — Local Law Resources
+﻿# Alpena — Local Law Resources
+## City Website
+- https://www.alpena.mi.us — (989) 354-1700
+- Address: 208 N. First Avenue, Alpena, MI 49707
+- Business Hours: Mon–Fri 8:00 AM – 5:00 PM
 ## Law Enforcement
 - Alpena Police Department
-- Alpena County Sheriff
-- Michigan State Police — https://www.michigan.gov/msp
+- Address: 501 West Chisholm Street, Alpena, MI 49707
+- Emergency: 911 | Non-Emergency: (989) 354-1800
+- Police Website: https://www.alpena.mi.us/departments/police_department
 ## Courts
-- Michigan District Court
+- 88-1 District and Probate Court — 719 W. Chisholm Street, Suite 3, Alpena, MI 49707 — (989) 354-9678
+- Court Website: https://www.michigan.gov/courts
+## Detention Center
+- Alpena County Jail — 4900 M-32 West, Alpena, MI 49707 — (989) 354-9836
+- Inmate Search: https://www.alpenasheriff.com
+- Sheriff Website: https://www.alpenasheriff.com
 ## Building Permits
-- Alpena Building Department
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Alpena County Jail
+- Planning, Development, Zoning & Building Safety Department
+- Phone: (989) 354-1700
+- Address: 208 N. First Avenue, Alpena, MI 49707
+- Website: https://www.alpena.mi.us/departments/planning_development_zoning_building_safety
+## Library
+- Alpena County George N. Fletcher Public Library
+- Address: 211 N. First Avenue, Alpena, MI 49707
+- Phone: (989) 356-6188
+- Hours: Mon–Thu 9:30 AM–7:00 PM, Fri–Sat 9:00 AM–4:00 PM
+- Website: https://alpenalibrary.org
+## Hospitals
+- MidMichigan Medical Center - Alpena — 1501 W Chisholm Street, Alpena, MI 49707 — (989) 356-7000 — 45.0777° N, 83.4516° W
+  Website: https://www.midmichigan.org

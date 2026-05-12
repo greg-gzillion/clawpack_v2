@@ -1,19 +1,30 @@
-# Escanaba — Local Law Resources
+﻿# Escanaba — Local Law Resources
 ## City Website
-- https://www.escanabami.gov/
+- https://www.escanaba.org — (906) 786-9402
+- Address: 410 Ludington Street, Escanaba, MI 49829
 ## Law Enforcement
-- Escanaba DPS — 1900 3rd Ave N — (906) 786-5911
-- Michigan State Police — https://www.michigan.gov/msp
+- Escanaba Department of Public Safety (police and fire)
+- Address: 1900 3rd Avenue North, Escanaba, MI 49829
+- Emergency: 911 | Non-Emergency: (906) 786-5911
+- Public Safety Website: https://www.escanaba.org/safety/page/public-safety-administration
 ## Courts
-- 94th District Court — 310 Ludington St Ste 136 — (906) 789-5106
-- **Court Website**: https://94thdistrictcourt.com/
+- Delta County Building — 310 Ludington Street, Escanaba, MI 49829 — (906) 789-5100
+- 94th District Court and 47th Circuit Court
+- Court Website: https://deltacountymi.org
+## Detention Center
+- Delta County Correctional Facility — 111 North Third Street, Escanaba, MI 49829 — (906) 786-3633
+- Inmate Search: https://deltacountymi.org/pages.php?ID=67
 ## Building Permits
-- Escanaba Building Department — https://www.escanabami.gov/
-## Hunting Regulations
-- MI Hunting Regulations — https://www.michigan.gov/dnr/hunting
-## Fishing Regulations
-- MI Fishing Regulations — https://www.michigan.gov/dnr/fishing
-## Legal Aid
-- Michigan Legal Aid — https://www.michiganlegalaid.org/
-## Corrections
-- Delta County Jail
+- City of Escanaba Planning & Zoning Department
+- Phone: (906) 786-9402
+- Address: 410 Ludington Street, Escanaba, MI 49829
+- Website: https://www.escanaba.org
+## Library
+- Escanaba Public Library
+- Address: 400 Ludington Street, Escanaba, MI 49829
+- Phone: (906) 789-7323
+- Hours: Mon–Fri 7:30 AM–5 PM, Sat 9 AM–1 PM
+- Website: https://www.escanabalibrary.org
+## Hospitals
+- OSF St. Francis Hospital — 3401 Ludington Street, Escanaba, MI 49829 — (906) 786-4461 — 45.7489° N, 87.0434° W
+  Website: https://www.osfhealthcare.org
