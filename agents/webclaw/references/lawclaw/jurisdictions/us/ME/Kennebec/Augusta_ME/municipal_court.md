@@ -1,17 +1,20 @@
-﻿# Augusta — Local Law Resources
+﻿# Augusta Courts
+## Court Information
+- Augusta District Court handles civil, criminal, and traffic cases
+- Address: 1 Court Street, Suite 101, Augusta, ME 04330 — (207) 213-2800
+- Court Website: https://www.courts.maine.gov
 ## City Website
-- https://www.augustamaine.gov — (207) 626-2310
+- https://www.augustamaine.gov
+- Phone: (207) 626-2310
 - Address: 16 Cony Street, Augusta, ME 04330
-## Law Enforcement
+## Police Department
 - Augusta Police Department
 - Address: 7 Willow Street, Augusta, ME 04330 (new station as of 2024)
-- Emergency: 911 | Non-Emergency: (207) 626-2370
+- Emergency: 911
+- Non-Emergency: (207) 626-2370
 - Police Website: https://www.augustamaine.gov/police
-## Courts
-- Augusta District Court — 1 Court Street, Suite 101, Augusta, ME 04330 — (207) 213-2800
-- Court Website: https://www.courts.maine.gov
 ## Detention Center
-- Augusta Jail (short-term) — 33 Union Street — (207) 626-2370
+- Augusta Jail (short-term holding) — 33 Union Street, Augusta, ME 04330 — (207) 626-2370
 - Kennebec County Correctional Facility — 115 State Street, Augusta, ME 04330 — (207) 623-3616
 ## Building Permits
 - Augusta Code Enforcement Office

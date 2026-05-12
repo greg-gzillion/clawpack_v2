@@ -1,17 +1,21 @@
-﻿# Norway — Local Law Resources
+﻿# Norway Courts
+## Court Information
+- Norway does not have a municipal court
+- Legal matters handled by Oxford County District Court in South Paris
+- Oxford County District Court: 26 Western Avenue, South Paris, ME 04281 — (207) 743-8942
+- Court Website: https://www.courts.maine.gov
 ## Town Website
-- https://norwaymaine.com — (207) 743-5300
+- https://norwaymaine.com
+- Phone: (207) 743-5300
 - Address: 19 Danforth Street, Norway, ME 04268
-## Law Enforcement
+## Police Department
 - Norway Police Department
 - Address: 19 Danforth Street, Norway, ME 04268
-- Emergency: 911 | Non-Emergency: (207) 743-5303
+- Emergency: 911
+- Non-Emergency: (207) 743-5303
 - Police Website: https://norwaymaine.com/NorPoliceDep.php
-## Courts
-- Oxford County District Court — 26 Western Avenue, South Paris, ME 04281 — (207) 743-8942
-- Court Website: https://www.courts.maine.gov
 ## Detention Center
-- Norway Police Department (short-term) — 19 Danforth Street — (207) 743-5303
+- Norway Police Department (short-term holding) — 19 Danforth Street, Norway, ME 04268 — (207) 743-5303
 - Oxford County Jail — 26 Western Avenue, P.O. Box 179, South Paris, ME 04281 — (207) 743-9554
 - Inmate Search: http://www.oxfordcountysheriff.com
 ## Building Permits
