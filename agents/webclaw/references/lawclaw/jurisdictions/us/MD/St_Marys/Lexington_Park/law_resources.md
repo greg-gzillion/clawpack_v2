@@ -1,19 +1,33 @@
-# Lexington Park — Local Law Resources
-## City Website
-- https://www.stmarysmd.com/
+﻿# Lexington Park — Local Law Resources
+## County Website
+- https://www.stmarysmd.com — (301) 475-4200
+- Address: 41650 Courthouse Drive, Leonardtown, MD 20650
+- Note: Lexington Park is an unincorporated CDP; services provided by St. Mary's County
 ## Law Enforcement
-- St. Mary's County Sheriff — (301) 475-4200
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- St. Mary's County Sheriff's Office — COPs Unit
+- COPs Unit Office: 21633 Great Mills Road, Lexington Park, MD 20653
+- Emergency: 911 | Non-Emergency: (301) 475-4200
+- Sheriff Website: https://www.firstsheriff.com
 ## Courts
-- St. Mary's District Court — Leonardtown — (301) 880-2700
-- **Court Website**: https://www.mdcourts.gov/district/directories/stmarys
+- District Court of Maryland for St. Mary's County — https://www.mdcourts.gov/district/stm
+- Circuit Court for St. Mary's County — https://www.mdcourts.gov/circuit/stm
+## Detention Center
+- St. Mary's County Detention and Rehabilitation Center — 41880 Baldridge Street, Leonardtown, MD 20650 — (301) 475-4200
+- Inmate Search: https://stmaryscountyjail.org
+- Website: https://www.firstsheriff.com/corrections
 ## Building Permits
-- Lexington Park Building Department — https://www.stmarysmd.com/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- St. Marys County Detention Center
+- St. Mary's County Department of Planning and Zoning
+- Phone: (301) 475-4300
+- Address: 41650 Courthouse Drive, Leonardtown, MD 20650
+- Online Portal: https://www.stmarysmd.com/planning
+## Library
+- St. Mary's County Library – Lexington Park Library
+- Address: 21677 FDR Boulevard, Lexington Park, MD 20653
+- Phone: (301) 863-8188
+- Hours: Mon–Thu 9 a.m.–8 p.m.; Fri 11 a.m.–5 p.m.; Sat 9 a.m.–5 p.m.; Sun 1–5 p.m.
+- Website: https://www.stmalib.org
+## Hospitals
+- MedStar St. Mary's Hospital — 25500 Point Lookout Road, Leonardtown, MD 20650 — (301) 475-6003 — 38.3000° N, 76.5833° W
+  Website: https://www.medstarstmarys.org
+- MedStar Health Urgent Care – Great Mills — 45870 E. Run Drive, Suite 102, Lexington Park, MD 20653 — (301) 373-5600 — 38.2616° N, 76.4568° W
+  Website: https://www.medstarhealth.org/locations/urgent-care-great-mills

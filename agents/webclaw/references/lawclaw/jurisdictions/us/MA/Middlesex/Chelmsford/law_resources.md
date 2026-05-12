@@ -1,17 +1,28 @@
-# Chelmsford — Local Law Resources
+﻿# Chelmsford — Local Law Resources
+## Town Website
+- https://www.chelmsfordma.gov — (978) 250-5200
+- Address: 50 Billerica Road, Chelmsford, MA 01824
 ## Law Enforcement
 - Chelmsford Police Department
-- Middlesex County Sheriff
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Address: 50 Billerica Road, Chelmsford, MA 01824
+- Emergency: 911 | Non-Emergency: (978) 256-2521
+- Police Website: https://www.chelmsfordma.gov/police
 ## Courts
-- Chelmsford District Court
+- Lowell District Court — https://www.mass.gov/courts/court-locations/lowell-district-court.html
+## Detention Center
+- Chelmsford Police Department (short-term) — 50 Billerica Road — (978) 256-2521
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Chelmsford Building Department
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Building Department
+- Phone: (978) 250-5225
+- Address: 50 Billerica Road, Chelmsford, MA 01824
+- Online Portal: https://permiteyes.us/chelmsford
+- Website: https://www.chelmsfordma.gov/building
+## Library
+- Hunt Memorial Library
+- Address: 242 North Road, Chelmsford, MA 01824
+- Phone: (978) 256-5521
+- Website: https://www.chelmsfordma.gov/library
+## Hospitals
+- Lowell General Hospital – Saints Campus — 1 Hospital Drive, Lowell, MA 01852 — (978) 937-6000 — 42.6264° N, 71.3214° W
+  Website: https://www.lowellgeneral.org

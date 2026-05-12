@@ -1,17 +1,33 @@
-# Solomon — Local Law Resources
+﻿# Solomon — Local Law Resources
+## City Website
+- https://solomon-ks.com — (785) 655-3311
+- Address: 116 W Main St, Solomon, KS 67480
+- Hours: Mon–Fri: 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Solomon Police Department
-- Saline County Sheriff
-- Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
+- Dickinson County Sheriff's Department (contract)
+- Address: 109 E 1st St, Abilene, KS 67410
+- Emergency: 911 | Phone: (785) 263-4081
+- Sheriff: Jerry Davis
+- Website: https://www.dkcoks.gov
 ## Courts
-- Solomon Municipal Court
+- Solomon Municipal Court — 116 W Main St, Solomon, KS 67480 — (785) 655-3311
+- Email: Court@Solomon-KS.com
+- Court Time: Third Thursday of each month at 4:00 PM
+- Court Website: https://solomon-ks.com/court
+## Detention Center
+- Dickinson County Jail — 109 E 1st St, Abilene, KS 67410 — (785) 263-4081
+- Website: https://www.dkcoks.gov
 ## Building Permits
-- Solomon Building Department
-## Hunting Regulations
-- KS Hunting Regulations — https://www.ksoutdoors.com/Hunting/
-## Fishing Regulations
-- KS Fishing Regulations — https://www.ksoutdoors.com/Fishing/
-## Legal Aid
-- Kansas Legal Services — https://www.kansaslegalservices.org/
-## Corrections
-- Saline County Jail
+- Building Inspector: Dave Hasker — (785) 577-3099 — kdhasker53@gmail.com
+- Permit Information: https://solomon-ks.com/building-permits-and-inspections
+## Library
+- Solomon Public Library
+- Address: 116 W Main St, Solomon, KS 67480 (within City Hall)
+- Phone: (785) 655-3311
+- Website: https://solomon-ks.com
+- Hours: Mon–Thu: 8:00 AM – 4:30 PM
+## Hospitals
+- Abilene Regional Medical Center — 1311 N Cedar St, Abilene, KS 67410 — (785) 263-2121 — 38.9242° N, 97.2150° W
+  Website: https://www.primehealthcare.com/abilene/
+- Stormont Vail Health — 1500 SW 10th Ave, Topeka, KS 66604 — (785) 270-3211 — 39.0585° N, 95.6773° W
+  Website: https://www.saintlukeshealthsystem.org/locations/stormont-vail-health

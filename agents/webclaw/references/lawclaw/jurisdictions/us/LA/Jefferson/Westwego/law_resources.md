@@ -1,19 +1,28 @@
-# Westwego — Local Law Resources
+﻿# Westwego — Local Law Resources
 ## City Website
-- https://www.westwego.org/
+- https://www.visitwestwego.com — (504) 341-3424
+- Address: 419 Avenue A, Westwego, LA 70094
 ## Law Enforcement
-- Westwego PD — (504) 341-5428
-- Louisiana State Police — https://www.lsp.org/
+- Westwego Police Department
+- Address: 401 4th Street, Westwego, LA 70094
+- Emergency: 911 | Non-Emergency: (504) 341-5428
+- Police Website: http://www.westwegopolice.com/
 ## Courts
-- Jefferson Parish City Courts — Metairie — (504) 364-7884
-- **Court Website**: https://www.westwego.org/
+- 24th Judicial District Court — https://24thjdc.org
+## Detention Center
+- Westwego City Jail — 401 4th Street, Westwego, LA 70094 — (504) 341-5428
+- Inmate Roster: Contact Westwego PD (no verified online roster)
+- Jefferson Parish Inmate Search: https://jpso.com/295/Online-Inmate-Search
 ## Building Permits
-- Westwego Building Department — https://www.westwego.org/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Jefferson Parish Jail
+- Building and Permits Department
+- Phone: (504) 341-3424
+- Address: 419 Avenue A, Westwego, LA 70094
+- Website: https://www.visitwestwego.com
+## Library
+- Jefferson Parish Library – Westwego Branch
+- Address: 419 Avenue A, Westwego, LA 70094
+- Phone: (504) 341-2410
+- Website: https://www.jplibrary.net/westwego-library
+## Hospitals
+- Ochsner Medical Center – Jefferson Highway — 4500 Jefferson Hwy, Metairie, LA 70006 — (504) 842-3000 — 29.9726° N, 90.1556° W
+  Website: https://www.ochsner.org

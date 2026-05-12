@@ -1,19 +1,35 @@
-# Laurel — Local Law Resources
+﻿# Laurel — Local Law Resources
 ## City Website
-- https://www.cityoflaurel.org/
+- https://www.cityoflaurel.org — (301) 725-5300
+- Address: 8103 Sandy Spring Road, Laurel, MD 20707
+- Hours: Mon–Fri 9 a.m.–5 p.m.
 ## Law Enforcement
-- Laurel PD — 811 5th St — (301) 498-0092
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Laurel Police Department (LPD)
+- Address: 811 Fifth Street, Laurel, MD 20707
+- Emergency: 911 | Non-Emergency: (301) 498-0092
+- Chief: Russ Hamill | Accreditation: Nationally accredited (CALEA)
+- Police Website: https://www.cityoflaurel.org/police
 ## Courts
-- Prince George's District Court — Hyattsville — (301) 298-4200
-- **Court Website**: https://www.mdcourts.gov/district/directories/prince-georges
+- Alderman Court — 8103 Sandy Spring Road, Laurel, MD 20707 — handles city code violations, traffic infractions, and misdemeanors
+- District Court of Maryland for Prince George's County — https://www.mdcourts.gov/district/pg
+- Circuit Court for Prince George's County — https://www.mdcourts.gov/circuit/pg
+## Detention Center
+- Laurel City Jail — 811 Fifth Street, Laurel, MD 20707 — (301) 498-0092
+- Capacity: 152 inmates; holds individuals awaiting trial, sentencing, or transfer
+- Laurel City Jail Roster: https://www.cityoflaurel.org/police
+- Prince George's County Correctional Center — 1601 McCormick Dr, Largo, MD 20774
+- Inmate Locator: https://www.princegeorgescountymd.gov/corrections
 ## Building Permits
-- Laurel Building Department — https://www.cityoflaurel.org/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Prince Georges County Detention Center
+- Prince George's County Department of Permitting, Inspections, and Development (PIDCO)
+- Phone: (301) 883-5700
+- Address: 14741 Governor Oden Bowie Drive, Upper Marlboro, MD 20772
+- Online Portal: https://www.princegeorgescountymd.gov/permit
+## Library
+- Prince George's County Memorial Library System – Laurel Branch
+- Address: 507 Seventh Street, Laurel, MD 20707
+- Phone: (301) 776-6790
+- Hours: Mon–Fri 10 a.m.–8 p.m.; Sat 10 a.m.–5 p.m.; Sun 1–5 p.m.
+- Website: https://www.pgcmls.info/laurel
+## Hospitals
+- University of Maryland Laurel Medical Center — 7300 Van Dusen Road, Laurel, MD 20707 — (301) 618-2000 — 39.0986° N, 76.8536° W
+  Website: https://www.umms.org/capital/locations/um-laurel-medical-center

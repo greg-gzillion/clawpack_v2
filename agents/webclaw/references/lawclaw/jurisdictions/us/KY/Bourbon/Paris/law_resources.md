@@ -1,19 +1,27 @@
-# Paris — Local Law Resources
+﻿# Paris — Local Law Resources
 ## City Website
-- https://www.cityofparis-ky.com/
+- https://www.parisky.gov — (859) 987-2600
+- Address: 525 High St, Paris, KY 40361
 ## Law Enforcement
-- Paris PD — 525 High St — (859) 987-2100
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Paris Police Department
+- Address: 525 High St, Paris, KY 40361
+- Emergency: 911 | Non-Emergency: (859) 987-2100
+- Police Website: https://www.parisky.gov/police
 ## Courts
-- Bourbon District Court — 301 Main St — (859) 987-2142
-- **Court Website**: https://www.courts.ky.gov/
+- Bourbon County District Court — 310 Main St, Paris, KY 40361 — (859) 987-2624
+- Website: https://kycourts.gov
+## Detention Center
+- Paris Police Department (short-term) — 525 High St — (859) 987-2100
+- Bourbon County Detention Center — 101 Legion Dr, Paris, KY 40361 — (859) 987-2135
 ## Building Permits
-- Paris Building Department — https://www.cityofparis-ky.com/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Bourbon County Jail
+- Planning & Zoning Department
+- Phone: (859) 987-2600
+- Website: https://www.parisky.gov
+## Library
+- Bourbon County Public Library
+- Address: 701 High St, Paris, KY 40361
+- Phone: (859) 987-4419
+- Website: https://www.bourbonlibrary.org
+## Hospitals
+- Bourbon Community Hospital — 9 Linville Dr, Paris, KY 40361 — (859) 987-3600 — 38.2033° N, 84.2536° W
+  Website: https://www.bourbonhospital.com

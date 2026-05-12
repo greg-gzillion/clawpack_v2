@@ -1,19 +1,28 @@
-# Arlington — Local Law Resources
-## City Website
-- https://www.arlingtonma.gov/
+﻿# Arlington — Local Law Resources
+## Town Website
+- https://www.arlingtonma.gov — (781) 316-3000
+- Address: 730 Massachusetts Ave, Arlington, MA 02476
 ## Law Enforcement
-- Arlington PD — 112 Mystic St — (781) 316-3900
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Arlington Police Department
+- Address: 112 Mystic St, Arlington, MA 02474
+- Emergency: 911 | Non-Emergency: (781) 316-3900
+- Police Website: https://www.arlingtonma.gov/police
 ## Courts
-- Cambridge District Court — 40 Thorndike St — (617) 491-0600
-- **Court Website**: https://www.mass.gov/courts/
+- Cambridge District Court — https://www.mass.gov/courts/court-locations/cambridge-district-court.html
+## Detention Center
+- Arlington Police Department (short-term) — 112 Mystic St — (781) 316-3900
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Arlington Building Department — https://www.arlingtonma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Inspectional Services Department
+- Phone: (781) 316-3386
+- Address: 51 Grove Street, Floor 1, Arlington, MA 02476
+- Online Portal: https://aca-prod.accela.com/ARLINGTONCO
+- Website: https://www.arlingtonma.gov/inspectional-services
+## Library
+- Robbins Library
+- Address: 700 Massachusetts Ave, Arlington, MA 02476
+- Phone: (781) 316-3410
+- Website: https://www.arlingtonrobbinslibrary.org
+## Hospitals
+- Mount Auburn Hospital — 330 Mount Auburn St, Cambridge, MA 02138 — (617) 441-3000 — 42.3683° N, 71.1170° W
+  Website: https://www.mountauburnhospital.org

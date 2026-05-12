@@ -1,19 +1,29 @@
-# Odenton — Local Law Resources
-## City Website
-- https://www.aacounty.org/
+﻿# Odenton — Local Law Resources
+## County Website
+- https://www.aacounty.org — (410) 222-7000
+- Address: 44 Calvert Street, Annapolis, MD 21401
+- Note: Odenton is an unincorporated CDP; services provided by Anne Arundel County
 ## Law Enforcement
-- Anne Arundel County PD — Glen Burnie — (410) 222-7000
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Anne Arundel County Police Department - Western District
+- Address: 8273 Telegraph Road, Odenton, MD 21113
+- Emergency: 911 | Non-Emergency: (410) 222-6155
+- Police Website: https://www.aacounty.org/police
 ## Courts
-- Anne Arundel District Court — Glen Burnie — (410) 412-7103
-- **Court Website**: https://www.mdcourts.gov/district/directories/anne-arundel
+- District Court of Maryland - Glen Burnie — 7500 Governor Ritchie Highway, Glen Burnie, MD 21061 — (410) 260-1800
+- Court Website: https://www.mdcourts.gov/district/directories/annearundelGLENBURNIE
+## Detention Center
+- Anne Arundel County Ordnance Road Correctional Center — 600 East Ordnance Road, Glen Burnie, MD 21060 — (410) 222-6350
+- Inmate Search: https://www.aacounty.org/sheriff/inmate-search
 ## Building Permits
-- Odenton Building Department — https://www.aacounty.org/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Anne Arundel County Detention Center
+- Anne Arundel County Department of Public Works
+- Phone: (410) 222-7244
+- Address: 160 Duke of Gloucester Street, Annapolis, MD 21401
+- Website: https://www.aacounty.org/public-works
+## Library
+- Anne Arundel County Public Library – Odenton Library
+- Address: 8981 Clarksville Pike, Odenton, MD 21113
+- Phone: (410) 222-6270
+- Website: https://www.aacpl.net/branch/odenton-library
+## Hospitals
+- University of Maryland Baltimore Washington Medical Center (UM BWMC) — 301 Hospital Drive, Glen Burnie, MD 21061 — (410) 787-4000 — 39.1597° N, 76.6197° W
+  Website: https://www.umms.org/bwmc

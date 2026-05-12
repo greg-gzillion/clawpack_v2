@@ -1,19 +1,27 @@
-# Beverly — Local Law Resources
+﻿# Beverly — Local Law Resources
 ## City Website
-- https://www.beverlyma.gov/
+- https://www.beverlyma.gov — (978) 921-6000
+- Address: 191 Cabot Street, Beverly, MA 01915
 ## Law Enforcement
-- Beverly PD — 193 West St — (978) 921-6000
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Beverly Police Department
+- Address: 150 Sohier Road, Beverly, MA 01915
+- Emergency: 911 | Non-Emergency: (978) 921-8800
+- Police Website: https://www.beverlyma.gov/police
 ## Courts
-- Lynn District Court — 200 Market St, Lynn — (781) 581-1700
-- **Court Website**: https://www.mass.gov/courts/
+- Lynn District Court — https://www.mass.gov/courts/court-locations/lynn-district-court.html
+## Detention Center
+- Beverly Police Department (short-term) — 150 Sohier Road — (978) 921-8800
+- Essex County Correctional Facility Inmate Search: https://www.mass.gov/info-details/essex-county-correctional-facility-inmate-search
 ## Building Permits
-- Beverly Building Department — https://www.beverlyma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Municipal Inspections / Building Department
+- Phone: (978) 921-6060
+- Address: 191 Ballardvale Street, Beverly, MA 01915
+- Online Portal: https://aca.accela.com/BeverlyMA
+## Library
+- Beverly Public Library
+- Address: 32 Essex Street, Beverly, MA 01915
+- Phone: (978) 921-6062
+- Website: https://www.beverlypubliclibrary.org
+## Hospitals
+- Beverly Hospital — 85 Herrick Street, Beverly, MA 01915 — (978) 922-3000 — 42.5533° N, 70.8780° W
+  Website: https://www.beverlyhospital.org

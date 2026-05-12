@@ -1,19 +1,28 @@
-# Leominster — Local Law Resources
+﻿# Leominster — Local Law Resources
 ## City Website
-- https://www.leominster-ma.gov/
+- https://www.leominster-ma.gov — (978) 534-7500
+- Address: 25 West Street, Leominster, MA 01453
 ## Law Enforcement
-- Leominster PD — 29 Church St — (978) 534-7560
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Leominster Police Department
+- Address: 29 Church Street, Leominster, MA 01453
+- Emergency: 911 | Non-Emergency: (978) 534-7560
+- Police Website: https://www.leominster-ma.gov
 ## Courts
-- Leominster District Court — 25 School St — (978) 534-7500
-- **Court Website**: https://www.mass.gov/courts/
+- Leominster District Court — 25 School Street, Leominster, MA 01453 — (978) 870-1100
+- Court Website: https://www.mass.gov/locations/leominster-district-court
+## Detention Center
+- Leominster Police Department (short-term) — 29 Church Street — (978) 534-7560
+- Massachusetts Inmate Locator: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Leominster Building Department — https://www.leominster-ma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Worcester County Jail
+- Building Department
+- Phone: (978) 534-7570
+- Address: 25 West Street, Leominster, MA 01453
+- Online Portal: https://www.leominster-ma.gov/438/General-Permits
+## Library
+- Leominster Public Library
+- Address: 30 West Street, Leominster, MA 01453
+- Phone: (978) 534-0771
+- Website: https://www.leominsterpubliclibrary.org
+## Hospitals
+- UMass Memorial Health - HealthAlliance-Clinton Hospital — 275 Grove Street, Leominster, MA 01453 — (978) 341-2000 — 42.5236° N, 71.7597° W
+  Website: https://www.umassmemorialhealthcare.org

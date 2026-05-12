@@ -1,17 +1,27 @@
-# Danvers — Local Law Resources
+﻿# Danvers — Local Law Resources
+## Town Website
+- https://www.danversma.gov — (978) 777-0001
+- Address: 1 Sylvan Street, Danvers, MA 01923
 ## Law Enforcement
 - Danvers Police Department
-- Essex County Sheriff
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Address: 120 Ash Street, Danvers, MA 01923
+- Emergency: 911 | Non-Emergency: (978) 774-1213
+- Police Website: https://www.danversma.gov/police-department
 ## Courts
-- Danvers District Court
+- Danvers District Court — 100 Conant Street, Danvers, MA 01923 — (978) 774-1580
+- Court Website: https://www.mass.gov/courts/court-locations/danvers-district-court.html
+## Detention Center
+- Danvers Police Department (short-term) — 120 Ash Street — (978) 774-1213
+- Massachusetts Inmate Locator: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Danvers Building Department
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Building Department
+- Phone: (978) 777-0001 ext. 3061
+- Address: 1 Sylvan Street, Danvers, MA 01923
+## Library
+- Peabody Institute Library of Danvers
+- Address: 15 Sylvan Street, Danvers, MA 01923
+- Phone: (978) 774-0554
+- Website: https://www.danverslibrary.org
+## Hospitals
+- Beverly Hospital — 85 Herrick Street, Beverly, MA 01915 — (978) 922-3000 — 42.5533° N, 70.8780° W
+  Website: https://www.beverlyhospital.org

@@ -1,19 +1,27 @@
-# Peabody — Local Law Resources
+﻿# Peabody — Local Law Resources
 ## City Website
-- https://peabody-ma.gov/
+- https://www.peabody-ma.gov — (978) 538-5700
+- Address: 24 Lowell Street, Peabody, MA 01960
 ## Law Enforcement
-- Peabody PD — 24 Lowell St — (978) 538-6300
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Peabody Police Department
+- Address: 6 Allens Lane, Peabody, MA 01960
+- Emergency: 911 | Non-Emergency: (978) 536-0600
+- Police Website: https://www.peabodypd.org
 ## Courts
-- Peabody District Court — 1 Lowell St — (978) 532-4140
-- **Court Website**: https://www.mass.gov/courts/
+- Peabody District Court — 1 Lowell Street, Peabody, MA 01960 — (978) 536-5680
+- Court Website: https://www.mass.gov/locations/peabody-district-court
+## Detention Center
+- Peabody Police Department (short-term) — 6 Allens Lane — (978) 536-0600
+- Essex County Correctional Facility Inmate Search: https://www.mass.gov/info-details/essex-county-correctional-facility-inmate-search
 ## Building Permits
-- Peabody Building Department — https://peabody-ma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Inspectional Services Department
+- Phone: (978) 538-5780
+- Address: 24 Lowell Street, Peabody, MA 01960
+## Library
+- Peabody Institute Library
+- Address: 82 Main Street, Peabody, MA 01960
+- Phone: (978) 538-8815
+- Website: https://www.peabodyinstitutelibrary.org
+## Hospitals
+- North Shore Medical Center - Salem Hospital — 81 Highland Avenue, Salem, MA 01970 — (978) 741-1200 — 42.5185° N, 70.8940° W
+  Website: https://www.massgeneralbrigham.org

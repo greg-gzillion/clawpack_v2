@@ -1,19 +1,28 @@
-# Shepherdsville — Local Law Resources
+﻿# Shepherdsville — Local Law Resources
 ## City Website
-- https://www.shepherdsvilleky.org/
+- https://shepherdsvilleky.gov — (502) 543-2923
+- Address: 634 Conestoga Parkway, Shepherdsville, KY 40165
 ## Law Enforcement
-- Shepherdsville PD — 111 N Main St — (502) 543-1234
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Shepherdsville Police Department
+- Address: 634 Conestoga Parkway, Shepherdsville, KY 40165
+- Emergency: 911 | Non-Emergency: (502) 921-1000 | Tip Line: (502) 215-1588
+- Police Website: https://shepherdsvilleky.gov/police
 ## Courts
-- Bullitt District Court — 300 S Buckman St — (502) 543-2514
-- **Court Website**: https://www.courts.ky.gov/
+- Bullitt District Court — 250 Frank E. Simon Avenue, Shepherdsville, KY 40165 — (502) 543-2244
+- Website: https://kycourts.gov
+## Detention Center
+- Shepherdsville Police Department (short-term) — 634 Conestoga Parkway — (502) 921-1000
+- Bullitt County Detention Center — 1671 S. Preston Hwy, Shepherdsville, KY 40165 — (502) 543-7263
+- Inmate Roster: https://www.bullittcounty.com
 ## Building Permits
-- Shepherdsville Building Department — https://www.shepherdsvilleky.org/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Bullitt County Jail
+- Bullitt County Planning and Development: (502) 921-2970 | http://bcpad.net
+- Shepherdsville Building Resources: https://shepherdsvilleky.gov/building-resources
+## Library
+- Bullitt County Public Library – Central Library
+- Address: 740 Conestoga Pkwy, Shepherdsville, KY 40165
+- Website: https://www.bcpl.org
+## Hospitals
+- UofL Health – South Hospital — 1903 W Hebron Ln, Shepherdsville, KY 40165
+  Website: https://uoflhealth.org
+- Baptist Health Hardin — 913 N Dixie Hwy, Elizabethtown, KY 42701 — (270) 765-7451 — 37.6980° N, 85.8748° W
+  Website: https://www.baptist-health.com

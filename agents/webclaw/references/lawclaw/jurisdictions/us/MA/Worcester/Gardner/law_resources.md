@@ -1,19 +1,29 @@
-# Gardner — Local Law Resources
+﻿# Gardner — Local Law Resources
 ## City Website
-- https://www.cityofgardner.org/
+- https://www.gardner-ma.gov — (978) 632-1900
+- Address: 95 Pleasant Street, Gardner, MA 01440
 ## Law Enforcement
-- Gardner PD — 108 Matthews St — (978) 632-5600
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Gardner Police Department
+- Address: 31 City Hall Avenue, Gardner, MA 01440
+- Emergency: 911 | Non-Emergency: (978) 632-5600
+- Police Website: https://www.gardner-ma.gov/police
 ## Courts
-- Gardner District Court — 108 Matthews St — (978) 632-4276
-- **Court Website**: https://www.mass.gov/courts/court-locations/gardner-district-court
+- Gardner District Court — 100 Elm Street, Gardner, MA 01420 — (978) 345-9400
+- Court Website: https://www.mass.gov/locations/gardner-district-court
+## Detention Center
+- Gardner Police Department (short-term) — 31 City Hall Avenue — (978) 632-5600
+- Worcester County Jail & House of Correction Inmate Search: https://www.worcestercountysheriff.org/inmate-search
 ## Building Permits
-- Gardner Building Department — https://www.cityofgardner.org/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Worcester County Jail
+- Building Department
+- Phone: (978) 829-1880
+- Address: 718 Main Street, Suite 201B, Gardner, MA 01420
+- Online Portal: https://gardnerma.viewpointcloud.com
+- Website: https://www.gardner-ma.gov/building
+## Library
+- Gardner Public Library
+- Address: 30 West Lynde Street, Gardner, MA 01440
+- Phone: (978) 632-1481
+- Website: https://www.gardnerpubliclibrary.org
+## Hospitals
+- UMass Memorial Health - HealthAlliance-Clinton Hospital — 275 Grove Street, Leominster, MA 01453 — (978) 341-2000 — 42.5236° N, 71.7597° W
+  Website: https://www.umassmemorialhealthcare.org

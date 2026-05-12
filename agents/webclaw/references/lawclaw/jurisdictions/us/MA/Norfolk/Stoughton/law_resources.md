@@ -1,19 +1,28 @@
-# Stoughton — Local Law Resources
-## City Website
-- https://www.stoughtonma.gov/
+﻿# Stoughton — Local Law Resources
+## Town Website
+- https://www.stoughton.org — (781) 341-1300
+- Address: 10 Pearl Street, Stoughton, MA 02072
 ## Law Enforcement
-- Stoughton PD — 26 Rose St — (781) 344-2131
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Stoughton Police Department
+- Address: 26 Rose Street, Stoughton, MA 02072
+- Emergency: 911 | Non-Emergency: (781) 344-2424
+- Police Website: https://www.stoughtonpolice.org
 ## Courts
-- Stoughton District Court — 1288 Central St — (781) 344-2131
-- **Court Website**: https://www.stoughtonma.gov/
+- Stoughton Municipal Court — 10 Pearl Street, Stoughton, MA 02072 — (781) 341-1300
+- Court Website: https://www.stoughtoncourt.com
+## Detention Center
+- Stoughton Police Department (short-term) — 26 Rose Street — (781) 344-2424
+- Norfolk County House of Correction Inmate Search: https://sheriff.norfolkcounty.org/inmate-search
 ## Building Permits
-- Stoughton Building Department — https://www.stoughtonma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Norfolk County Jail
+- Department of Planning & Development
+- Phone: (781) 344-2444
+- Address: 215 S. Forrest Street, Stoughton, MA 02072
+- Online Portal: https://www.stoughton.org/1765/Online-Permitting
+## Library
+- Stoughton Public Library
+- Address: 215 S. Forrest Street, Stoughton, MA 02072
+- Phone: (781) 344-2550
+- Website: https://www.stoughtonpl.org
+## Hospitals
+- Signature Healthcare Brockton Hospital — 1101 MacArthur Blvd, Brockton, MA 02301 — (508) 580-7000 — 42.0819° N, 71.0189° W
+  Website: https://www.signaturehealthcare.org

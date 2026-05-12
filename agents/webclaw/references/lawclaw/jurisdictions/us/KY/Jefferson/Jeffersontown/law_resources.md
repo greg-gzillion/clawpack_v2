@@ -1,19 +1,30 @@
-# Jeffersontown — Local Law Resources
+﻿# Jeffersontown — Local Law Resources
 ## City Website
-- https://www.jeffersontownky.com/
+- https://www.jeffersontownky.com — (502) 267-8333
+- Address: 10416 Watterson Trail, Jeffersontown, KY 40299
+- Hours: Mon–Fri: 7:30 AM – 4:30 PM
 ## Law Enforcement
-- Jeffersontown PD — (502) 267-0503
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Jeffersontown Police Department
+- Address: 10410 Taylorsville Road, Jeffersontown, KY 40299
+- Emergency: 911 | Non-Emergency: (502) 267-0503
+- Chief: Michael W. Wigginton
+- Police Website: https://www.jeffersontownky.com/125/Police-Department
 ## Courts
-- Jefferson District Court — 600 W Jefferson St, Louisville — (502) 574-6703
-- **Court Website**: https://www.courts.ky.gov/
+- Jefferson District Court – Jeffersontown Branch — 10420 Watterson Trail, Jeffersontown, KY 40299 — (502) 267-8500
+- Website: https://kycourts.gov
+## Detention Center
+- Jeffersontown City Jail — 10410 Taylorsville Road — (502) 267-0503
+- Louisville Metro Department of Corrections — https://lmpd.ky.gov
 ## Building Permits
-- Jeffersontown Building Department — https://www.jeffersontownky.com/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Jefferson County Jail
+- Building Department: https://www.jeffersontownky.com/98/Building-Department
+- Permits & Fees: https://www.jeffersontownky.com/114/Permits-Applications-and-Fees
+## Library
+- Louisville Free Public Library – Jeffersontown Branch
+- Address: 10310 Watterson Trail, Jeffersontown, KY 40299
+- Phone: (502) 499-6680
+- Website: https://www.lfpl.org
+## Hospitals
+- Baptist Health Louisville — 4000 Kresge Way, Louisville, KY 40207 — (502) 897-8100
+  Website: https://www.baptisthealth.com
+- Norton Women's and Children's Hospital — 4001 Dutchmans Ln, Louisville, KY 40207
+  Website: https://nortonhealthcare.com

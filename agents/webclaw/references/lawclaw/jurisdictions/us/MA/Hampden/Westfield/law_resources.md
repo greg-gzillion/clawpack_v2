@@ -1,19 +1,28 @@
-# Westfield — Local Law Resources
+﻿# Westfield — Local Law Resources
 ## City Website
-- https://www.cityofwestfield.org/
+- https://www.cityofwestfield.org — (413) 572-6200
+- Address: 59 Court Street, Westfield, MA 01085
 ## Law Enforcement
-- Westfield PD — 59 Court St — (413) 568-1500
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Westfield Police Department
+- Address: 15 Washington Street, Westfield, MA 01085
+- Emergency: 911 | Non-Emergency: (413) 562-5411
+- Police Website: https://www.westfieldpolice.org
 ## Courts
-- Westfield District Court — 224 Elm St — (413) 568-8946
-- **Court Website**: https://www.mass.gov/locations/westfield-district-court
+- Westfield District Court — 27 Washington Street, Westfield, MA 01085 — (413) 568-8946
+- Court Website: https://www.mass.gov/locations/westfield-district-court
+## Detention Center
+- Westfield Police Department (short-term) — 15 Washington Street — (413) 562-5411
+- Hampden County Jail & House of Correction Inmate Search: https://sheriff.hampden.org/inmate-search
 ## Building Permits
-- Westfield Building Department — https://www.cityofwestfield.org/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Hampden County Jail
+- Building Department
+- Phone: (413) 572-6251
+- Address: 59 Court Street, Westfield, MA 01085
+- Online Portal: https://www.cityofwestfield.org
+## Library
+- Westfield Athenaeum
+- Address: 6 Elm Street, Westfield, MA 01085
+- Phone: (413) 568-7833
+- Website: https://www.westfieldathenaeum.org
+## Hospitals
+- Baystate Noble Hospital — 115 W Silver St, Westfield, MA 01085 — (413) 571-0000 — 42.1184° N, 72.7598° W
+  Website: https://www.baystatehealth.org

@@ -1,19 +1,29 @@
-# Abbeville — Local Law Resources
+﻿# Abbeville — Local Law Resources
 ## City Website
-- https://cityofabbeville.net/
+- https://cityofabbeville.net — (337) 893-8550
+- Address: 101 N State St, Abbeville, LA 70510
+- Hours: Mon–Fri: 8:30 AM – 4:30 PM
 ## Law Enforcement
-- Vermilion Parish Sheriff — (337) 898-4409
-- Louisiana State Police — https://www.lsp.org/
+- Abbeville Police Department
+- Address: 304 S State St, Abbeville, LA 70510
+- Emergency: 911 | Non-Emergency: (337) 893-2511
+- Police Website: https://cityofabbeville.net
 ## Courts
-- Abbeville City Court — 208 S State St — (337) 893-1513
-- **Court Website**: https://cityofabbeville.net/court-prosecutor
+- Mayor's Court — Contact City Hall: (337) 893-8550
+- 15th Judicial District Court (parish-level)
+## Detention Center
+- Abbeville Police Department (short-term) — 304 S State St — (337) 893-2511
+- Vermilion Parish Detention Center — 1001 S State St, Abbeville, LA 70510 — (337) 898-4300
+- Inmate Roster: https://vermilionsheriff.org
 ## Building Permits
-- Abbeville Building Department — https://cityofabbeville.net/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Vermilion Parish Jail
+- Tax & Permitting Department
+- Phone: (337) 898-4213
+- Permit Portal: https://cityofabbeville.net/tax-permitting/building-permit/
+## Library
+- Vermilion Parish Library – Abbeville Branch
+- Address: 200 Charity St, Abbeville, LA 70510
+- Phone: (337) 893-3511
+- Website: https://www.abbevillelibrary.org
+## Hospitals
+- Abbeville General Hospital — 118 N Hospital Dr, Abbeville, LA 70510 — (337) 893-5511 — 29.9753° N, 92.1342° W
+  Website: https://vph.org

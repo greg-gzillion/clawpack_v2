@@ -1,19 +1,27 @@
-# Watertown — Local Law Resources
+﻿# Watertown — Local Law Resources
 ## City Website
-- https://www.watertown-ma.gov/
+- https://www.watertown-ma.gov — (617) 923-2400
+- Address: 149 Main Street, Watertown, MA 02472
 ## Law Enforcement
-- Watertown PD — 552 Main St — (617) 972-6500
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Watertown Police Department
+- Address: 155 Lexington Street, Watertown, MA 02472
+- Emergency: 911 | Non-Emergency: (617) 923-4531
+- Police Website: https://www.watertown-ma.gov/1021/Police-Department
 ## Courts
-- Waltham District Court — 38 Linden St, Waltham — (781) 894-4500
-- **Court Website**: https://www.mass.gov/courts/
+- Waltham District Court — https://www.mass.gov/locations/waltham-district-court
+## Detention Center
+- Watertown Police Department (short-term) — 155 Lexington Street — (617) 923-4531
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Watertown Building Department — https://www.watertown-ma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Planning & Zoning Division
+- Phone: (617) 923-2400
+- Address: 149 Main Street, Watertown, MA 02472
+- Online Portal: https://www.watertown-ma.gov/218/Planning-Zoning
+## Library
+- Watertown Free Public Library
+- Address: 123 Main Street, Watertown, MA 02472
+- Phone: (617) 923-2470
+- Website: https://watertownlib.org
+## Hospitals
+- Mount Auburn Hospital — 330 Mount Auburn St, Cambridge, MA 02138 — (617) 441-3000 — 42.3683° N, 71.1170° W
+  Website: https://www.mountauburnhospital.org

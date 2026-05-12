@@ -1,19 +1,28 @@
-# Lockport — Local Law Resources
-## City Website
-- https://louisianainmateroster.org/
+﻿# Lockport — Local Law Resources
+## Town Website
+- http://www.townoflockport.com — (985) 532-3117
+- Address: 710 Church Street, Lockport, LA 70374
 ## Law Enforcement
-- Lockport PD — 710 Church St — (985) 532-9799
-- Louisiana State Police — https://www.lsp.org/
+- Lockport Police Department
+- Address: 710 Church Street, Lockport, LA 70374
+- Emergency: 911 | Non-Emergency: (985) 532-9799
+- Police Website: http://www.lockportpolice.com
 ## Courts
-- Lafourche Parish Clerk — Thibodaux — (985) 493-3500
-- **Court Website**: https://louisianainmateroster.org/
+- Lafourche Parish Clerk of Court — Lockport Office: 710 Church Street, Lockport, LA 70374 — (985) 532-7361
+- Website: https://lafourcheclerk.com
+## Detention Center
+- Lockport City Jail — 710 Church Street, Lockport, LA 70374 — (985) 532-9799
+- Inmate Roster: Contact Lockport PD (no online roster)
+- Lafourche Parish Detention Center: https://www.lafourcheso.org
 ## Building Permits
-- Lockport Building Department — https://louisianainmateroster.org/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Lafourche Parish Jail
+- Contact via Town Hall: (985) 532-3117
+- Address: 710 Church Street, Lockport, LA 70374
+- Lafourche Parish Planning & Permitting: https://www.lafourchegov.org
+## Library
+- Lafourche Parish Public Library – Lockport Branch
+- Address: 720 Crescent Avenue, Lockport, LA 70374
+- Phone: (985) 532-3158
+- Website: http://www.lafourche.org
+## Hospitals
+- Ochsner St. Anne Hospital — 8111 Main Street, Raceland, LA 70394 — (985) 532-2111 — 29.6397° N, 90.5426° W
+  Website: https://www.ochsner.org

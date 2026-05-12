@@ -1,19 +1,30 @@
-# Middlesboro — Local Law Resources
+﻿# Middlesboro — Local Law Resources
 ## City Website
-- https://www.cityofmiddlesboro.com/
+- https://cityofmiddlesboro.com — (606) 248-5670
+- Address: 221 North 21st Street, Middlesboro, KY 40965
+- Mailing: PO Box 336, Middlesboro, KY 40965
+- Hours: Mon–Fri: 8:00 AM – 4:00 PM
 ## Law Enforcement
-- Middlesboro PD — 150 20th St — (606) 248-2020
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Middlesboro Police Department
+- Address: 150 North 20th Street, Middlesboro, KY 40965
+- Emergency: 911 | Non-Emergency: (606) 248-3636
+- Chief: Joe Holder
+- Police Website: https://kentuckyinmates.org/kentucky/police-department/middlesboro-police-department/
 ## Courts
-- Bell District Court — 101 W Park Ave, Pineville — (606) 337-9900
-- **Court Website**: https://www.courts.ky.gov/
+- Bell County District Court — 101 Courthouse Square, Pineville, KY 40977 — (606) 337-3102
+- Website: https://kycourts.gov
+## Detention Center
+- Middlesboro Police Department (short-term) — 150 North 20th Street — (606) 248-3636
+- Bell County Detention Center — 101 Courthouse Square, Pineville, KY 40977 — (606) 337-3102
 ## Building Permits
-- Middlesboro Building Department — https://www.cityofmiddlesboro.com/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Bell County Jail
+- Contact via City Hall: (606) 248-5670
+- Bell County Planning & Zoning: https://bellcountyky.org
+## Library
+- Middlesboro-Bell County Public Library
+- Address: 625 North 19th Street, Middlesboro, KY 40965
+- Phone: (606) 248-5794
+- Website: https://bellcounty.lib.ky.us
+- Hours: Mon–Thu 9:00 AM – 6:00 PM; Fri 9:00 AM – 5:00 PM; Sat 10:00 AM – 2:00 PM
+## Hospitals
+- Middlesboro ARH Hospital — 3600 W Cumberland Ave, Middlesboro, KY 40965 — (606) 248-2111 — 36.6097° N, 83.7088° W
+  Website: https://www.arhp.org

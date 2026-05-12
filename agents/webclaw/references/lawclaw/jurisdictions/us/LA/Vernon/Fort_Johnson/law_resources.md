@@ -1,19 +1,28 @@
-# Fort Johnson — Local Law Resources
-## City Website
-- https://www.vppjla.com/
+﻿# Fort Johnson — Local Law Resources
+## Installation Website
+- https://installations.militaryonesource.mil/in-depth-overview/fort-johnson
+- Phone: (337) 531-0380
+- Address: 5907 Eddleman Rd., Bldg. 5903, Leesville, LA 71446
 ## Law Enforcement
-- Vernon Parish Sheriff — (337) 238-0324
-- Louisiana State Police — https://www.lsp.org/
+- Fort Johnson Police Department (Directorate of Emergency Services)
+- Address: Bldg. 2396, Fort Johnson, LA 71459
+- Emergency: 911 | Non-Emergency: (337) 531-2677
+- Website: https://home.army.mil/polk/about/garrison-directorates-and-support-offices/directorate-emergency-services/Fort-Johnson-Police
 ## Courts
-- 30th Judicial District Court — Leesville — (337) 238-4824
-- **Court Website**: https://www.vppjla.com/
+- Fort Johnson Magistrate Court — 15th Street, Fort Johnson, LA 71459 — (337) 531-6143
+- Vernon Parish courts for civilian matters
+## Detention Center
+- Fort Johnson military detention (on-base)
+- Vernon Parish Jail — 100 W 1st St, Leesville, LA 71446 — (337) 226-4241
+- Website: https://www.vernonparishsheriff.org
 ## Building Permits
-- Fort Johnson Building Department — https://www.vppjla.com/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Vernon Parish Jail
+- On-base: U.S. Army Garrison
+- Civilian: Vernon Parish Planning & Zoning — (337) 226-4270
+- Website: https://www.vernonparish.com
+## Library
+- Fort Johnson Library — Bldg. 2396, Fort Johnson, LA 71459 — (337) 531-3408
+- Vernon Parish Library – Leesville Branch — 100 W 1st St, Leesville, LA 71446 — (337) 226-4257
+- Website: https://www.vernonparishlibrary.org
+## Hospitals
+- Bayne-Jones Army Community Hospital — 3222 24th Street, Fort Johnson, LA 71459 — (337) 531-2273 — 31.0325° N, 93.2108° W
+  Website: https://www.baynejones.army.mil

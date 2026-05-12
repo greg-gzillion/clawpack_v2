@@ -1,19 +1,29 @@
-# Easthampton — Local Law Resources
+﻿# Easthampton — Local Law Resources
 ## City Website
-- https://www.easthamptonma.gov/
+- https://easthamptonma.gov — (413) 529-1400
+- Address: 50 Payson Avenue, Easthampton, MA 01027
 ## Law Enforcement
-- Easthampton PD — 32 Payson Ave — (413) 527-1212
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Easthampton Police Department
+- Address: 32 Payson Avenue, Easthampton, MA 01027
+- Emergency: 911 | Non-Emergency: (413) 527-1212
+- Police Website: https://easthamptonma.gov/157/Police
 ## Courts
-- Northampton District Court — 234 Main St — (413) 587-1500
-- **Court Website**: https://www.mass.gov/courts/
+- Northampton District Court — 15 Gothic Street, Northampton, MA 01060 — (413) 587-0400
+- Court Website: https://www.mass.gov/courts/court-locations/northampton-district-court.html
+## Detention Center
+- Easthampton Police Department (short-term) — 32 Payson Avenue — (413) 527-1212
+- Hampshire County Jail & House of Correction Inmate Roster: https://www.hampshirecountysheriff.org/inmate-roster
 ## Building Permits
-- Easthampton Building Department — https://www.easthamptonma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Hampshire County Jail
+- Building Department / Building Inspector
+- Phone: (413) 529-1400 ext. 130
+- Address: 50 Payson Avenue, Easthampton, MA 01027
+- Online Portal: https://permiteyes.us/easthampton
+- Website: https://easthamptonma.gov/161/Building-Inspector
+## Library
+- Emily Williston Memorial Library
+- Address: 43 Main Street, Easthampton, MA 01027
+- Phone: (413) 527-4506
+- Website: https://www.easthamptonlibrary.org
+## Hospitals
+- Cooley Dickinson Hospital — 30 Locust Street, Northampton, MA 01060 — (413) 582-2000 — 42.3250° N, 72.6294° W
+  Website: https://www.cooley-dickinson.org

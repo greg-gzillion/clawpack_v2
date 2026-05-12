@@ -1,19 +1,29 @@
-# Amherst — Local Law Resources
-## City Website
-- https://www.amherstma.gov/
+﻿# Amherst — Local Law Resources
+## Town Website
+- https://www.amherstma.gov — (413) 259-3000
+- Address: 4 Boltwood Avenue, Amherst, MA 01002
 ## Law Enforcement
-- Amherst PD — 111 Main St — (413) 259-3016
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Amherst Police Department
+- Address: 510 Main Street, Amherst, MA 01002
+- Emergency: 911 | Non-Emergency: (413) 259-3000
+- Police Website: https://www.amherstma.gov/police-department
 ## Courts
-- Eastern Hampshire District Court — 210 Northampton Rd, Belchertown — (413) 323-0550
-- **Court Website**: https://www.mass.gov/courts/
+- Amherst District Court — 21 East Street, Amherst, MA 01002
+- Court Website: https://www.mass.gov/courts/court-locations/amherst-district-court.html
+## Detention Center
+- Amherst Police Department (short-term) — 510 Main Street — (413) 259-3000
+- Hampshire County Jail & House of Correction Inmate Roster: https://www.hampshirecountysheriff.org/inmate-roster
 ## Building Permits
-- Amherst Building Department — https://www.amherstma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Hampshire County Jail
+- Inspection Services Department
+- Phone: (413) 259-3030
+- Address: 4 Boltwood Avenue, Amherst, MA 01002
+- Online Permit Portal: https://amherstma.gov/permits
+- Website: https://www.amherstma.gov/inspection-services
+## Library
+- Jones Library
+- Address: 43 Amity Street, Amherst, MA 01002
+- Phone: (413) 259-3200
+- Website: https://www.joneslibrary.org
+## Hospitals
+- Cooley Dickinson Hospital — 30 Locust Street, Northampton, MA 01060 — (413) 582-2000 — 42.3250° N, 72.6294° W
+  Website: https://www.cooley-dickinson.org

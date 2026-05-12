@@ -1,6 +1,34 @@
-# Glasgow Municipal Court
+﻿# Glasgow Municipal Court
 ## Court Information
-- Barren District Court — 200 E Public Square — (270) 651-7788
-- **Court Website**: https://www.courts.ky.gov/
+- Glasgow does not have a standalone municipal court
+- Legal matters handled through Barren County District Court
+- Contact via City Hall: (270) 651-5131
 ## City Website
-- https://www.glasgowky.org/
+- https://cityofglasgow.gov
+- Phone: (270) 651-5131
+- Address: 126 East Public Square, Glasgow, KY 42141
+- Mailing: PO Box 278, Glasgow, KY 42141
+- Hours: Mon–Fri: 7:30 AM – 4:30 PM
+## Police Department
+- Glasgow Police Department
+- Address: 201 South Broadway Street, Glasgow, KY 42141
+- Emergency: 911
+- Non-Emergency: (270) 651-5151
+- Police Website: https://cityofglasgow.gov/police
+## Detention Center
+- Glasgow City Jail — 201 South Broadway Street — (270) 651-5151
+- Inmate Roster: https://kentuckyarrestsearch.org/kentucky/glasgow-city-jail/
+- Barren County Detention Center (long-term)
+## Building Permits
+- Planning & Zoning Department
+- Phone: (270) 659-0661
+- Permit Applications: https://cityofglasgow.gov/planning-zoning
+- Website: https://cityofglasgow.gov/planning-zoning
+## Library
+- Mary Wood Weldon Memorial Library
+- Address: 126 East Public Square, Glasgow, KY 42141
+- Phone: (270) 651-3751
+- Website: https://www.mwwml.org
+## Hospitals
+- T.J. Samson Community Hospital — 1301 N Race St, Glasgow, KY 42141 — (270) 651-6111 — 36.9797° N, 85.9228° W
+  Website: https://www.tjsamson.com

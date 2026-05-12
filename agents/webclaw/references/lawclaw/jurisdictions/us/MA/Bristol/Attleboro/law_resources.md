@@ -1,19 +1,28 @@
-# Attleboro — Local Law Resources
+﻿# Attleboro — Local Law Resources
 ## City Website
-- https://www.attleboro.ma.us/
+- https://www.cityofattleboro.us — (508) 223-2222
+- Address: 77 Park Street, Attleboro, MA 02703
 ## Law Enforcement
-- Attleboro PD — 12 Union St — (508) 222-1212
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Attleboro Police Department
+- Address: 12 Union Street, Attleboro, MA 02703
+- Emergency: 911 | Non-Emergency: (508) 222-1212
+- Police Website: https://www.attleboropolice.org
 ## Courts
-- Attleboro District Court — 88 N Main St — (508) 222-5400
-- **Court Website**: https://www.mass.gov/courts/
+- Attleboro District Court — 100 West Street, Attleboro, MA 02703
+- Court Website: https://www.mass.gov/courts/court-locations/attleboro-district-court.html
+## Detention Center
+- Attleboro City Jail (short-term) — 12 Union Street — (508) 222-1212
+- Bristol County Jail & House of Correction Inmate Search: https://sheriff.bristolcounty.org/inmate-search
 ## Building Permits
-- Attleboro Building Department — https://www.attleboro.ma.us/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Bristol County Jail
+- Building Department
+- Phone: (508) 223-2222 ext. 3251
+- Address: 77 Park Street, Attleboro, MA 02703
+- Website: https://www.cityofattleboro.us
+## Library
+- Attleboro Public Library
+- Address: 74 North Main Street, Attleboro, MA 02703
+- Phone: (508) 222-0157
+- Website: https://www.attleborolibrary.org
+## Hospitals
+- Sturdy Memorial Hospital — 211 N Main St, Attleboro, MA 02703 — (508) 222-7000 — 41.9481° N, 71.2807° W
+  Website: https://www.sturdyhealth.org

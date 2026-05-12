@@ -1,19 +1,31 @@
-# Lake Charles — Local Law Resources
+﻿# Lake Charles — Local Law Resources
 ## City Website
-- https://www.lccitycourt.org/
+- https://www.cityoflakecharles.com — (337) 491-1456
+- Address: 701 Enterprise Blvd, Lake Charles, LA 70601
 ## Law Enforcement
-- Lake Charles PD — 830 Enterprise Blvd — (337) 491-4700
-- Louisiana State Police — https://www.lsp.org/
+- Lake Charles Police Department
+- Address: 830 Enterprise Boulevard, Lake Charles, LA 70601
+- Emergency: 911 | Non-Emergency: (337) 491-1311
+- Police Website: https://www.cityoflakecharles.com/department/?fDD=19-0
 ## Courts
-- Lake Charles City Court — 118 W Mill St — (337) 491-1564
-- **Court Website**: https://www.lccitycourt.org/
+- Lake Charles City Court — 118 West Mill Street, Lake Charles, LA 70601 — (337) 491-1564
+- Court Website: https://www.lccitycourt.org
+## Detention Center
+- Lake Charles City Jail — 830 Enterprise Boulevard, Lake Charles, LA 70601 — (337) 491-1456
+- Inmate Roster: https://lakecharlescityjail.org/inmate-search
+- Calcasieu Parish Correctional Center: https://www.cpso.com
 ## Building Permits
-- Lake Charles Building Department — https://www.lccitycourt.org/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Calcasieu Parish Jail
+- Permitting & Inspections
+- Phone: (337) 491-1456
+- Address: 701 Enterprise Blvd, Lake Charles, LA 70601
+- Website: https://www.cityoflakecharles.com
+## Library
+- Calcasieu Parish Public Library – Main Branch
+- Address: 701 Enterprise Blvd, Lake Charles, LA 70601
+- Phone: (337) 491-5659
+- Website: https://calcasieulibrary.org
+## Hospitals
+- Lake Charles Memorial Hospital — 1701 Oak Park Blvd, Lake Charles, LA 70601 — (337) 494-3000 — 30.2036° N, 93.1973° W
+  Website: https://www.lcmh.com
+- CHRISTUS Ochsner Lake Area Hospital — 4200 Nelson Rd, Lake Charles, LA 70605 — (337) 494-8800 — 30.2333° N, 93.2333° W
+  Website: https://www.christushealth.org/locations/ochsner-lake-area-hospital

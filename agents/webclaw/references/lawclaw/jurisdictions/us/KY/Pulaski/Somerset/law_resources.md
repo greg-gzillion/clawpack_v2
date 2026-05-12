@@ -1,19 +1,27 @@
-# Somerset — Local Law Resources
+﻿# Somerset — Local Law Resources
 ## City Website
-- https://www.cityofsomerset.com/
+- https://www.cityofsomerset.com — (606) 679-6366
+- Address: 400 East Mount Vernon Street, PO Box 989, Somerset, KY 42502
 ## Law Enforcement
-- Somerset PD — 306 E Mt Vernon St — (606) 678-5176
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Somerset Police Department
+- Address: 306 East Mount Vernon Street, Somerset, KY 42501
+- Emergency: 911 | Non-Emergency: (606) 678-5176
+- Police Website: https://www.cityofsomerset.com/police/
 ## Courts
-- Pulaski District Court — 50 Public Square — (606) 677-4029
-- **Court Website**: https://www.courts.ky.gov/
+- Pulaski District Court — 50 Public Square, Somerset, KY 42501 — (606) 677-4112
+- Website: https://kycourts.gov
+## Detention Center
+- Somerset Police Department (short-term) — 306 East Mount Vernon Street — (606) 678-5176
+- Pulaski County Detention Center — 300 Hail Knob Road, Somerset, KY 42503 — (606) 678-0130
+- Inmate Roster: https://pulaskijail.com
 ## Building Permits
-- Somerset Building Department — https://www.cityofsomerset.com/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Pulaski County Jail
+- Contact via City Hall: (606) 679-6366
+- Pulaski County Planning and Zoning: https://pulaskigov.com
+## Library
+- Pulaski County Public Library
+- Address: 101 West Laurel Avenue, Somerset, KY 42501
+- Phone: (606) 678-4357
+- Website: https://www.pulaskilibrary.org
+## Hospitals
+- Lake Cumberland Regional Hospital — 305 Langdon St, Somerset, KY 42503 — (606) 678-7411 — 37.0484° N, 84.5985° W
+  Website: https://www.lakecumberlandregional.com

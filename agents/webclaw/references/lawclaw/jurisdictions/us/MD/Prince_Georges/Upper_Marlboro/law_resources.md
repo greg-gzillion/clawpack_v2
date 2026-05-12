@@ -1,19 +1,34 @@
-# Upper Marlboro — Local Law Resources
-## City Website
-- https://www.uppermarlboromd.gov/
+﻿# Upper Marlboro — Local Law Resources
+## Town Website
+- https://www.uppermarlboromd.gov — (301) 627-6905
+- Address: 14211 School Lane, Upper Marlboro, MD 20772
+- Email: info@uppermarlboromd.gov
 ## Law Enforcement
-- Prince George's County PD — 601 Crain Hwy — (301) 390-2100
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Upper Marlboro Police Department
+- Address: 6409 Crain Highway, Upper Marlboro, MD 20772
+- Emergency: 911 | Non-Emergency: (301) 352-1200
+- Administrative Office: (240) 525-8130 (Mon–Fri, 9 a.m.–5 p.m.)
+- Chief of Police: David A. Burse
+- Police Website: https://www.uppermarlboromd.gov/police
 ## Courts
-- Prince George's District Court — 14735 Main St — (301) 627-7700
-- **Court Website**: https://www.mdcourts.gov/district/directories/prince-georges
+- District Court of Maryland – Prince George's County — 14735 Main Street, Suite 173B, Upper Marlboro, MD 20772
+- District Court Website: https://www.mdcourts.gov/district/pg
+- Circuit Court for Prince George's County — 14735 Main Street, Upper Marlboro, MD 20772
+- Circuit Court Website: https://princegeorgescourts.org
+## Detention Center
+- Prince George's County Correctional Center — 13400 Dille Drive, Upper Marlboro, MD 20772 — (301) 952-4800
+- Inmate Locator: https://www.princegeorgescountymd.gov/corrections
 ## Building Permits
-- Upper Marlboro Building Department — https://www.uppermarlboromd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Prince Georges County Detention Center
+- Prince George's County Department of Permitting, Inspections, and Development (PIDCO)
+- Phone: (301) 883-5700
+- Address: 14741 Governor Oden Bowie Drive, Upper Marlboro, MD 20772
+- Online Portal: https://www.princegeorgescountymd.gov/permit
+## Library
+- Prince George's County Memorial Library System – Upper Marlboro Branch
+- Address: 14730 Main Street, Upper Marlboro, MD 20772
+- Phone: (301) 627-9330
+- Hours: Mon 10 a.m.–6 p.m.; Tue–Wed 12–8 p.m.; Thu–Fri 10 a.m.–6 p.m.; Sat 10 a.m.–5 p.m.
+- Website: https://www.pgcmls.info/upper-marlboro
+## Hospitals
+- University of Maryland Capital Region Medical Center — 901 Harry S. Truman Drive, Upper Marlboro, MD 20774 — (240) 677-1000 — 38.9031° N, 76.8455° W
+  Website: https://www.umms.org

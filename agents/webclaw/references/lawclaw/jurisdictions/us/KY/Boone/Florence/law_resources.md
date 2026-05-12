@@ -1,19 +1,28 @@
-# Florence — Local Law Resources
+﻿# Florence — Local Law Resources
 ## City Website
-- https://florence-ky.gov/
+- https://www.florence-ky.gov — (859) 371-5491
+- Address: 8100 Ewing Blvd, Florence, KY 41042
+- Hours: Mon–Fri: 8:30 AM – 5:00 PM
 ## Law Enforcement
-- Florence PD — 8100 Ewing Blvd — (859) 371-5491
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Florence Police Department
+- Address: 8100 Ewing Blvd, Florence, KY 41042
+- Emergency: 911 | Non-Emergency: (859) 647-5420
+- Chief: Jeff Mallery
+- Police Website: https://www.florence-ky.gov/our-services/police
 ## Courts
-- Florence Municipal Court
-- **Court Website**: https://florence-ky.gov/
+- Boone County District Court — (859) 334-2293
+- Website: https://www.boonecountyky.org
+## Detention Center
+- Florence Police Department (short-term) — 8100 Ewing Blvd — (859) 647-5420
+- Boone County Detention Center — https://www.boonecountyky.org
 ## Building Permits
-- Florence Building Department — https://florence-ky.gov/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Boone County Jail
+- Boone County Planning Commission
+- Phone: (859) 334-2196
+- Website: https://www.boonecountyky.org
+## Library
+- Boone County Public Library – Florence Branch
+- Address: 7425 US-42, Florence, KY 41042
+- Website: https://www.bcpl.org
+## Hospitals
+- St. Elizabeth Florence — 4900 Houston Rd, Florence, KY 41042 — (859) 301-5000 — 38.9990° N, 84.6515° W
+  Website: https://www.stelizabeth.com

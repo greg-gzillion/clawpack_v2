@@ -1,19 +1,36 @@
-# Bethesda — Local Law Resources
-## City Website
-- https://www.montgomerycountymd.gov/
+﻿# Bethesda — Local Law Resources
+## County Website
+- https://www.montgomerycountymd.gov — (240) 777-6500
+- Address: 101 Monroe Street, Rockville, MD 20850
+- Bethesda-Chevy Chase Regional Services Center: https://www.montgomerycountymd.gov/bcc
+- Note: Bethesda is an unincorporated CDP; home to NIH and Walter Reed Medical Center
 ## Law Enforcement
-- Montgomery County PD — 4823 Rugby Ave — (240) 773-6700
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Montgomery County Police Department – 2nd District (Bethesda)
+- Address: 4823 Rugby Avenue, Bethesda, MD 20814
+- Emergency: 911 | Non-Emergency: (301) 279-8000
+- Police Website: https://www.montgomerycountymd.gov/pol
 ## Courts
-- Montgomery District Court — 191 E Jefferson St, Rockville — (301) 563-8800
-- **Court Website**: https://www.mdcourts.gov/district/directories/montgomery
+- District Court of Maryland – Montgomery County — https://www.mdcourts.gov/district/directories/montgomeryROCKVILLE
+- Circuit Court for Montgomery County — https://www.mdcourts.gov/circuit/montgomery
+## Detention Center
+- Montgomery County Detention Center — 100 Edison Park Dr, Rockville, MD 20850
+- Inmate Search: https://www.montgomerycountymd.gov/dcr
 ## Building Permits
-- Bethesda Building Department — https://www.montgomerycountymd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Montgomery County Detention Center
+- Montgomery County Department of Permitting, Inspections, and Development (PIDCO)
+- Phone: (240) 777-1995
+- Address: 255 Rockville Pike, Rockville, MD 20850
+- Website: https://www.montgomerycountymd.gov/permit
+## Library
+- Montgomery County Public Libraries – Davis Library
+- Address: 6400 Democracy Boulevard, Bethesda, MD 20817
+- Phone: (240) 777-0922
+- Website: https://www.montgomerycountymd.gov/library
+## Hospitals
+- Walter Reed National Military Medical Center — 8901 Wisconsin Ave, Bethesda, MD 20889 — (301) 295-4000
+  Website: https://tricare.mil — Flagship military medical center
+- NIH Clinical Center — 10 Center Drive, Bethesda, MD 20892 — (301) 496-4000
+  Website: https://www.cc.nih.gov — Nation's largest clinical research hospital
+- Suburban Hospital (Johns Hopkins Medicine) — 8600 Old Georgetown Road, Bethesda, MD 20814 — (301) 896-3100
+  Website: https://www.johnshopkinshealthcare.org
+- Sibley Memorial Hospital — 5255 Loughboro Road NW, Washington, DC 20016 — (202) 537-4000
+  Website: https://www.hopkinsmedicine.org

@@ -1,19 +1,27 @@
-# Frankfort — Local Law Resources
+﻿# Georgetown — Local Law Resources
 ## City Website
-- https://www.frankfortky.gov/
+- https://www.georgetownky.gov — (502) 863-9800
+- Address: 100 N Court St, Georgetown, KY 40324
 ## Law Enforcement
-- Frankfort PD — 217 St Clair St — (502) 875-8200
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Georgetown Police Department
+- Address: 550 Bourbon St, Georgetown, KY 40324
+- Emergency: 911 | Non-Emergency: (502) 863-7826 | Dispatch: (502) 863-7820
+- Police Website: https://www.georgetownky.gov/2389/Police
 ## Courts
-- Franklin District Court — 325 W Main St — (502) 564-5710
-- **Court Website**: https://www.courts.ky.gov/
+- Scott County District Court — https://kycourts.gov
+## Detention Center
+- Georgetown Police Department (short-term) — 550 Bourbon St — (502) 863-7826
+- Scott County Regional Jail — https://www.scottcountyjail.com
 ## Building Permits
-- Frankfort Building Department — https://www.frankfortky.gov/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Franklin County Jail
+- Building Inspection Department
+- Address: 125 W Clinton St, Georgetown, KY 40324
+- Phone: (502) 863-9802
+- Permit Applications: https://www.georgetownky.gov/2150/Departments/Building-Inspection
+## Library
+- Scott County Public Library
+- Address: 104 S Bradford Ln, Georgetown, KY 40324
+- Phone: (502) 863-5424
+- Website: https://www.gtlibrary.org
+## Hospitals
+- Georgetown Community Hospital — 1140 Lexington Rd, Georgetown, KY 40324 — (502) 863-5511 — 38.2156° N, 84.5529° W
+  Website: https://www.georgetowncommunityhospital.com

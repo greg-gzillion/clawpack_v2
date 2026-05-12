@@ -1,17 +1,28 @@
-# Yarmouth — Local Law Resources
+﻿# Yarmouth — Local Law Resources
+## Town Website
+- https://www.yarmouth.ma.us — (508) 398-2231
+- Address: 1146 Route 28, South Yarmouth, MA 02664
 ## Law Enforcement
 - Yarmouth Police Department
-- Barnstable County Sheriff
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Address: 1146 Route 28, South Yarmouth, MA 02664
+- Emergency: 911 | Non-Emergency: (508) 398-2231
+- Police Website: https://www.yarmouthpolice.com
 ## Courts
-- Yarmouth District Court
+- Barnstable District Court — https://www.mass.gov/locations/barnstable-district-court
+## Detention Center
+- Yarmouth Police Department (short-term) — 1146 Route 28 — (508) 398-2231
+- Barnstable County Correctional Facility Inmate Roster: https://www.barnstablecounty.org
 ## Building Permits
-- Yarmouth Building Department
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Barnstable County Jail
+- Building Department
+- Phone: (508) 398-2231 ext. 1260
+- Address: 1146 Route 28, South Yarmouth, MA 02664
+- Online Portal: https://www.yarmouth.ma.us/1501/Online-Services
+- Website: https://www.yarmouth.ma.us/123/Building
+## Library
+- Yarmouth Port Library
+- Address: 212 Main Street, Yarmouth Port, MA 02675
+- Phone: (508) 362-3728
+- Website: https://yarmouthportlibrary.org
+## Hospitals
+- Cape Cod Hospital — 27 Park Street, Hyannis, MA 02601 — (508) 771-5000 — 41.6620° N, 70.2924° W
+  Website: https://www.capecodhealth.org

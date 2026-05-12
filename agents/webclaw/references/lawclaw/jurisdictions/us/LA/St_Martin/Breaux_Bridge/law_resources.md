@@ -1,19 +1,29 @@
-# Breaux Bridge — Local Law Resources
+﻿# Breaux Bridge — Local Law Resources
 ## City Website
-- https://www.breauxbridge.org/
+- https://breauxbridgela.net — (337) 332-2171
+- Address: 101 Berard Street, Breaux Bridge, LA 70517
+- Hours: Mon–Fri: 8:00 AM – 4:15 PM
 ## Law Enforcement
-- Breaux Bridge PD — (337) 332-2155
-- Louisiana State Police — https://www.lsp.org/
+- Breaux Bridge Police Department
+- Address: 101 Berard Street, Breaux Bridge, LA 70517
+- Emergency: 911 | Non-Emergency: (337) 332-2186
+- Chief: Albert "Buz" LeBlanc
+- Police Website: https://breauxbridgela.net/government/departments/
 ## Courts
-- St. Martin Parish Justice of the Peace — (337) 332-2155
-- **Court Website**: https://www.breauxbridge.org/
+- Breaux Bridge City Court — 101 Berard Street, Suite B, Breaux Bridge, LA 70517 — (337) 332-4117
+- Email: breauxbridge@breauxbridgecitycourt.com
+- Court Website: https://breauxbridgecitycourt.com
+## Detention Center
+- Breaux Bridge City Jail — 101 Berard Street — (337) 332-2186
 ## Building Permits
-- Breaux Bridge Building Department — https://www.breauxbridge.org/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- St. Martin Parish Jail
+- Planning, Zoning & Permits Department
+- Phone: (337) 332-8333
+- Website: https://breauxbridgela.net/government/departments/
+## Library
+- St. Martin Parish Library – Breaux Bridge Branch
+- Address: 200 N Main St, Breaux Bridge, LA 70517
+- Phone: (337) 332-3682
+- Website: https://www.stmartinlibrary.org
+## Hospitals
+- Ochsner St. Martin Hospital — 210 Champagne Blvd, Breaux Bridge, LA 70517 — (337) 332-2111 — 30.2728° N, 91.9008° W
+  Website: https://www.ochsner.org

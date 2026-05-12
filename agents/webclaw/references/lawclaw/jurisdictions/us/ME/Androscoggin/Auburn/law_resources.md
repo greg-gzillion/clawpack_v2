@@ -1,19 +1,31 @@
-# Auburn — Local Law Resources
+﻿# Auburn — Local Law Resources
 ## City Website
-- https://www.auburnmaine.gov/
+- https://www.auburnmaine.gov — (207) 333-6600
+- Address: 60 Court Street, Suite 150, Auburn, ME 04210
+- Mayor: Jeff Harmon
 ## Law Enforcement
-- Auburn PD — 1 Minot Ave — (207) 333-6650
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Auburn Police Department
+- Address: 1 Minot Avenue, Auburn, ME 04210
+- Emergency: 911 | Non-Emergency: (207) 784-7331
+- Police Website: https://www.auburnmaine.gov/departments/police
 ## Courts
-- Androscoggin County Superior Court — 1 Court St — (207) 784-2121
-- **Court Website**: https://www.courts.maine.gov/
+- Androscoggin County Superior Court — 2 Turner Street, Auburn, ME 04210 — (207) 330-7500
+- Maine Judicial Branch: https://www.courts.maine.gov
+## Detention Center
+- Auburn Police Jail (short-term) — 1 Minot Avenue — (207) 784-7331
+- Androscoggin County Jail — 40 Pleasant Street, Auburn, ME 04210 — (207) 784-5999
+- County Jail Website: http://www.androscoggincountyme.com/countyjailaso/countyjail.htm
 ## Building Permits
-- Auburn Building Department — https://www.auburnmaine.gov/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- Androscoggin County Jail
+- Planning, Permitting & Code Department
+- Phone: (207) 333-6601 | Email: permits@auburnmaine.gov
+- Address: 60 Court Street, Suite 150, Auburn, ME 04210
+- Permitting Portal: https://www.auburnmaine.gov/services/permits.php
+## Library
+- Auburn Public Library
+- Address: 49 Spring Street, Auburn, ME 04210
+- Phone: (207) 333-6640
+- Coordinates: 44.0981° N, 70.2293° W
+- Website: https://www.auburnpubliclibrary.org
+## Hospitals
+- Central Maine Medical Center (CMMC) — 300 Main Street, Lewiston, ME 04240 — (207) 795-2000 — 44.1025° N, 70.2011° W
+  Website: https://www.centralmaine.com

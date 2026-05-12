@@ -1,19 +1,29 @@
-# Springfield — Local Law Resources
+﻿# Springfield — Local Law Resources
 ## City Website
-- https://www.springfield-ma.gov/
+- https://www.springfield-ma.gov — (413) 787-6000
+- Address: 70 Tapley Street, Springfield, MA 01104
 ## Law Enforcement
-- Springfield PD — 700 State St — (413) 787-6302
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Springfield Police Department
+- Address: 700 State Street, Springfield, MA 01109
+- Emergency: 911 | Non-Emergency: (413) 787-6302
+- Police Website: https://www.springfield-ma.gov/police
 ## Courts
-- Springfield District Court — 175 State St — (413) 747-4841
-- **Court Website**: https://www.mass.gov/courts/
+- Springfield District Court — 191 State Street, Springfield, MA 01103 — (413) 787-8211
+- Court Website: https://www.mass.gov/locations/springfield-district-court
+## Detention Center
+- Springfield Police Department (short-term) — 700 State Street — (413) 787-6302
+- Hampden County Jail & House of Correction Inmate Search: https://sheriff.hampden.org/inmate-search
 ## Building Permits
-- Springfield Building Department — https://www.springfield-ma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Hampden County Jail
+- Department of Inspectional Services
+- Phone: (413) 787-6031
+- Address: 70 Tapley Street, Springfield, MA 01104
+- Online Portal: https://citizen.springfieldma.intelligovsoftware.com
+- Website: https://www.springfield-ma.gov/permits
+## Library
+- Springfield City Library
+- Address: 220 State Street, Springfield, MA 01103
+- Phone: (413) 263-6828
+- Website: https://www.springfieldlibrary.org
+## Hospitals
+- Mercy Medical Center — 301 Carew Street, Springfield, MA 01104 — (413) 794-5000 — 42.1017° N, 72.5781° W
+  Website: https://www.holyokehealth.com

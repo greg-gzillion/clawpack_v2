@@ -1,19 +1,29 @@
-# Dundalk — Local Law Resources
-## City Website
-- https://www.baltimorecountymd.gov/
+﻿# Dundalk — Local Law Resources
+## County Website
+- https://www.baltimorecountymd.gov — (410) 887-2000
+- Address: 111 West Chesapeake Avenue, Towson, MD 21204
+- Note: Dundalk is an unincorporated community; services provided by Baltimore County
 ## Law Enforcement
-- Baltimore County PD — 428 Westham Way — (410) 887-7320
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Baltimore County Police Department - Precinct 12 (Dundalk)
+- Address: 428 Westham Way, Dundalk, MD 21224
+- Emergency: 911 | Non-Emergency: (410) 887-7320
+- Police Website: https://www.baltimorecountymd.gov/departments/police/community/precincts/12-dundalk
 ## Courts
-- Baltimore County District Court — Catonsville — (410) 887-7900
-- **Court Website**: https://www.mdcourts.gov/district/directories/baltimorecounty
+- District Court of Maryland - Catonsville — 1 Rolling Cross Road, Catonsville, MD 21228 — (410) 887-4500
+- Court Website: https://www.mdcourts.gov/district/directories/baltimorecountyCATONSVILLE-Rolling
+## Detention Center
+- Baltimore County Detention Center — 700 East Patapsco Avenue, Baltimore, MD 21225 — (410) 887-2400
+- Inmate Search: https://www.baltimorecountymd.gov/departments/corrections/inmate-search
 ## Building Permits
-- Dundalk Building Department — https://www.baltimorecountymd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Baltimore County County Detention Center
+- Permits, Approvals & Inspections (PAI)
+- Phone: (410) 887-3587
+- Address: 111 West Chesapeake Avenue, Towson, MD 21204
+- Website: https://www.baltimorecountymd.gov/departments/pai
+## Library
+- Baltimore County Public Library – Dundalk Library
+- Address: 7425 Holabird Avenue, Baltimore, MD 21224
+- Phone: (410) 887-4585
+- Website: https://www.bcpl.info/locations/dundalk
+## Hospitals
+- Sinai Hospital — 2401 W Belvedere Ave, Baltimore, MD 21215 — (410) 601-7000 — 39.3492° N, 76.6528° W
+  Website: https://lifebridgehealth.org

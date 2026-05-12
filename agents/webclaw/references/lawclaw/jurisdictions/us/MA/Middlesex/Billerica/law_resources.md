@@ -1,19 +1,29 @@
-# Billerica — Local Law Resources
-## City Website
-- https://www.billerica.gov/
+﻿# Billerica — Local Law Resources
+## Town Website
+- https://billerica.gov — (978) 671-0959
+- Address: 365 Boston Road, Billerica, MA 01821
 ## Law Enforcement
-- Billerica PD — 6 Good St — (978) 671-0950
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Billerica Police Department
+- Address: 6 Good Street, Billerica, MA 01821
+- Emergency: 911 | Non-Emergency: (978) 671-0900
+- Police Website: https://police.billericaps.com
 ## Courts
-- Lowell District Court — 41 Hurd St — (978) 937-2486
-- **Court Website**: https://www.mass.gov/courts/
+- Middlesex District Court — https://www.mass.gov/courts/court-locations/middlesex-district-court.html
+## Detention Center
+- Billerica Police Department (short-term) — 6 Good Street — (978) 671-0900
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Billerica Building Department — https://www.billerica.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Building Department
+- Phone: (978) 671-0959
+- Address: 365 Boston Road, Billerica, MA 01821
+- Inspections: Building (978) 215-1925 | Electrical (978) 671-1307 | Plumbing/Gas (978) 671-1339
+- Online Portal: https://aca.accela.com/BILLERICA
+- Website: https://billerica.gov/building-department
+## Library
+- Billerica Public Library
+- Address: 15 Concord Road, Billerica, MA 01821
+- Phone: (978) 671-0948
+- Website: https://billericalibrary.org
+## Hospitals
+- Lahey Hospital & Medical Center – Burlington — 41 Mall Road, Burlington, MA 01805 — (781) 744-5100 — 42.5103° N, 71.2039° W
+  Website: https://www.bmc.org/lahey-health

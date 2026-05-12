@@ -1,6 +1,36 @@
-# Middlesboro Municipal Court
+﻿# Middlesboro Municipal Court
 ## Court Information
-- Bell District Court — 101 W Park Ave, Pineville — (606) 337-9900
-- **Court Website**: https://www.courts.ky.gov/
+- Middlesboro does not have a standalone municipal court
+- Legal matters handled through Bell County District Court
+- Address: 101 Courthouse Square, Pineville, KY 40977
+- Phone: (606) 337-3102
+- Website: https://kycourts.gov
 ## City Website
-- https://www.cityofmiddlesboro.com/
+- https://cityofmiddlesboro.com
+- Phone: (606) 248-5670
+- Address: 221 North 21st Street, Middlesboro, KY 40965
+- Mailing: PO Box 336, Middlesboro, KY 40965
+- Hours: Mon–Fri: 8:00 AM – 4:00 PM
+## Police Department
+- Middlesboro Police Department
+- Address: 150 North 20th Street, Middlesboro, KY 40965
+- Emergency: 911
+- Non-Emergency: (606) 248-3636
+- Chief: Joe Holder
+- Police Website: https://kentuckyinmates.org/kentucky/police-department/middlesboro-police-department/
+## Detention Center
+- Middlesboro Police Department (short-term) — 150 North 20th Street — (606) 248-3636
+- Bell County Detention Center (long-term) — 101 Courthouse Square, Pineville, KY 40977 — (606) 337-3102
+- Inmate Roster: https://bellcountyky.gov
+## Building Permits
+- Contact via City Hall: (606) 248-5670
+- Bell County Planning & Zoning: https://bellcountyky.org
+## Library
+- Middlesboro-Bell County Public Library
+- Address: 625 North 19th Street, Middlesboro, KY 40965
+- Phone: (606) 248-5794
+- Website: https://bellcounty.lib.ky.us
+- Hours: Mon–Thu 9:00 AM – 6:00 PM; Fri 9:00 AM – 5:00 PM; Sat 10:00 AM – 2:00 PM
+## Hospitals
+- Middlesboro ARH Hospital — 3600 W Cumberland Ave, Middlesboro, KY 40965 — (606) 248-2111 — 36.6097° N, 83.7088° W
+  Website: https://www.arhp.org

@@ -1,19 +1,29 @@
-# Brunswick — Local Law Resources
-## City Website
-- https://www.brunswickme.org/
+﻿# Brunswick — Local Law Resources
+## Town Website
+- https://www.brunswickme.gov — (207) 725-6100
+- Address: 85 Union Street, Brunswick, ME 04011
 ## Law Enforcement
-- Brunswick PD — 85 Pleasant St — (207) 725-5521
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Brunswick Police Department
+- Address: 28 Federal Street, Brunswick, ME 04011
+- Emergency: 911 | Non-Emergency: (207) 725-5521
+- Police Website: https://www.brunswickme.gov/245/Police
 ## Courts
-- Portland District Court — (207) 822-4200
-- **Court Website**: https://www.courts.maine.gov/
+- Cumberland County Superior Court: (207) 871-5800
+- Maine Judicial Branch: https://www.courts.maine.gov
+## Detention Center
+- Brunswick Police Jail (short-term) — 28 Federal Street — (207) 725-5521
+- Cumberland County Jail — 50 County Way, Portland, ME 04102 — (207) 774-5939
 ## Building Permits
-- Brunswick Building Department — https://www.brunswickme.org/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- Cumberland County Jail
+- Brunswick Planning & Codes Office
+- Phone: (207) 725-6660
+- Address: 85 Union Street, Brunswick, ME 04011
+- Permitting Portal: https://www.civicgov4.com/me_brunswick/portal/
+## Library
+- Curtis Memorial Library
+- Address: 23 Pleasant Street, Brunswick, ME 04011
+- Phone: (207) 725-5242
+- Coordinates: 43.9167° N, 69.9794° W
+- Website: https://curtislibrary.com
+## Hospitals
+- Mid Coast Hospital — 123 Medical Center Drive, Brunswick, ME 04011 — (207) 319-1500 — 43.9264° N, 69.9811° W
+  Website: https://www.midcoasthealth.com

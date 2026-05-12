@@ -1,6 +1,38 @@
-# Fort Thomas Municipal Court
+﻿# Fort Thomas Municipal Court
 ## Court Information
-- Campbell District Court — 100 E 6th St, Newport — (859) 572-7450
-- **Court Website**: https://www.courts.ky.gov/
+- Fort Thomas does not have a standalone municipal court
+- Legal matters handled through Campbell District Court
+- Address: 1098 Monmouth Street, Newport, KY 41071
+- Phone: (859) 292-6305
+- Website: https://kycourts.gov
 ## City Website
-- https://www.fortthomasky.org/
+- https://fortthomasky.org
+- Phone: (859) 441-1055
+- Email: mkremer@ftthomas.org
+- Address: 130 North Fort Thomas Avenue, Fort Thomas, KY 41075
+## Police Department
+- Fort Thomas Police Department
+- Address: 130 North Fort Thomas Avenue, Fort Thomas, KY 41075
+- Emergency: 911
+- Non-Emergency: (859) 572-1228
+- Fax: (859) 441-3230
+- Dispatch: Campbell County Consolidated Dispatch Center at (859) 292-3622
+- Police Website: https://fortthomasky.org/police
+## Detention Center
+- Fort Thomas Police Department (short-term) — 130 North Fort Thomas Avenue — (859) 572-1228
+- Campbell County Detention Center (long-term) — 601 Central Avenue, Newport, KY 41071 — (859) 431-4611
+- Inmate Roster: https://www.campbellcountyky.gov
+- Website: https://www.campbellcountyky.gov
+## Building Permits
+- General Services Department
+- Phone: (859) 441-1055
+- Website: https://fortthomasky.org/departments/general-services
+- Zoning & Ordinances: https://fortthomasky.org/government/ordinances
+## Library
+- Campbell County Public Library: Carrico/Fort Thomas Branch
+- Address: 1000 Scott Street, Fort Thomas, KY 41075
+- Phone: (859) 331-1234
+- Website: https://www.ccplibrary.org
+## Hospitals
+- St. Elizabeth Ft. Thomas Hospital — 85 N Grand Ave, Fort Thomas, KY 41075 — (859) 441-4100 — 39.0150° N, 84.4950° W
+  Website: https://www.stelizabeth.com

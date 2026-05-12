@@ -1,19 +1,29 @@
-# Fall River — Local Law Resources
+﻿# Fall River — Local Law Resources
 ## City Website
-- https://www.fallriverma.gov/
+- https://fallriverma.gov — (508) 324-2000
+- Address: One Government Center, Fall River, MA 02722
 ## Law Enforcement
-- Fall River PD — 685 Pleasant St — (508) 324-2500
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Fall River Police Department
+- Address: 350 Highland Avenue, Fall River, MA 02720
+- Emergency: 911 | Non-Emergency: (508) 324-2211
+- Police Website: https://fallriverma.gov/departments/police
 ## Courts
-- Fall River District Court — 186 S Main St — (508) 491-3200
-- **Court Website**: https://www.mass.gov/courts/
+- Fall River District Court — 186 S. Main St, 2nd Floor, Fall River, MA 02721 — (508) 676-4240
+- Court Website: https://www.mass.gov/locations/fall-river-district-court
+## Detention Center
+- Bristol County Jail & House of Correction — 250 County Street, Dartmouth, MA 02747 — (508) 996-3600
+- Inmate Search: https://sheriff.bristolcounty.org/inmate-search
 ## Building Permits
-- Fall River Building Department — https://www.fallriverma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Bristol County Jail
+- Inspectional Services Department - Building Division
+- Phone: (508) 324-2500
+- Address: One Government Center, Room 524, Fall River, MA 02722
+- Online Portal: https://fallriverma.gov/apply-for-obtain/permit-portal
+- Website: https://fallriverma.gov/departments/inspectional-services/building
+## Library
+- Fall River Public Library
+- Address: 104 N Main St, Fall River, MA 02720
+- Phone: (508) 324-2700
+- Website: https://www.fallriverlibrary.org
+## Hospitals
+- Southcoast Hospitals - Charlton Memorial — 755 Middleboro Ave, Fall River, MA 02720 — (508) 674-5600 — 41.7018° N, 71.1580° W
+  Website: https://www.southcoast.org

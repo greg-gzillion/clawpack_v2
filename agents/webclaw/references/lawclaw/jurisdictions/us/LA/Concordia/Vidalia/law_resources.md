@@ -1,17 +1,30 @@
-# Vidalia — Local Law Resources
+﻿# Vidalia — Local Law Resources
+## City Website
+- https://www.cityofvidaliala.com — (318) 336-6206
+- Address: 101 N Spruce St, Vidalia, LA 71373
 ## Law Enforcement
 - Vidalia Police Department
-- Concordia Parish Sheriff
-- Louisiana State Police — https://www.lsp.org/
+- Address: 200 Vernon Stevens Blvd, Vidalia, LA 71373
+- Emergency: 911 | Non-Emergency: (318) 336-5254
+- Police Website: https://www.cityofvidaliala.com/police-department
 ## Courts
-- Vidalia City Court
+- Vidalia City Court — 409 Texas St, Vidalia, LA 71373 — (318) 336-6255
+- Online Ticket Payment: https://www.ncourt.com/x-press/x-onlinepayments.aspx?juris=e2bc206d-ddca-444f-aafd-045af60d3a49
+- Court Website: https://www.cityofvidaliala.com
+## Detention Center
+- Vidalia City Jail — 200 Vernon Stevens Blvd, Vidalia, LA 71373 — (318) 336-5254
+- Inmate Roster: https://vidaliajail.org/inmate-search/
+- Concordia Parish Detention Center: https://www.concordiasheriff.org
 ## Building Permits
-- Vidalia Building Department
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Concordia Parish Jail
+- Permitting & Inspections
+- Phone: (318) 336-6206 (City Hall)
+- Address: 101 N Spruce St, Vidalia, LA 71373
+- Website: https://www.cityofvidaliala.com
+## Library
+- Concordia Parish Library – Vidalia Branch
+- Address: 408 Texas St, Vidalia, LA 71373
+- Phone: (318) 336-0904
+- Website: https://concordialibrary.org
+## Hospitals
+- RiverBridge Specialty Hospital — 209 Front St, Vidalia, LA 71373 — (318) 336-6500 — 31.5612° N, 91.4262° W
+  Website: https://ldh.la.gov/directory/detail/1905

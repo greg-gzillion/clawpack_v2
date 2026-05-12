@@ -1,19 +1,29 @@
-# Waltham — Local Law Resources
+﻿# Waltham — Local Law Resources
 ## City Website
-- https://www.walthamma.gov/
+- https://www.city.waltham.ma.us — (781) 314-3000
+- Address: 610 Main Street, Waltham, MA 02452
 ## Law Enforcement
-- Waltham PD — 38 Linden St — (781) 314-0500
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Waltham Police Department
+- Address: 155 Lexington Street, Waltham, MA 02452
+- Emergency: 911 | Non-Emergency: (781) 893-3700
+- Chief's Office: (781) 314-3500
+- Police Website: https://www.city.waltham.ma.us/police-department
 ## Courts
-- Waltham District Court — 38 Linden St — (781) 894-4500
-- **Court Website**: https://www.mass.gov/courts/
+- Waltham District Court — 38 Linden Street, Waltham, MA 02452
+- Court Website: https://www.mass.gov/locations/waltham-district-court
+## Detention Center
+- Waltham Police Department (short-term) — 155 Lexington Street — (781) 314-3500
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Waltham Building Department — https://www.walthamma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Building Department
+- Phone: (781) 314-3275
+- Address: 119 School Street, Waltham, MA 02451
+- Online Portal: https://www.city.waltham.ma.us/building-department
+## Library
+- Waltham Public Library
+- Address: 735 Main Street, Waltham, MA 02451
+- Phone: (781) 314-3425
+- Website: https://www.walthampl.org
+## Hospitals
+- Mount Auburn Hospital — 330 Mount Auburn St, Cambridge, MA 02138 — (617) 441-3000 — 42.3683° N, 71.1170° W
+  Website: https://www.mountauburnhospital.org

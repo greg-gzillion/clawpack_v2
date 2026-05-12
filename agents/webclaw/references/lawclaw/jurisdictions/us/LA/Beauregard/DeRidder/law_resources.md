@@ -1,19 +1,31 @@
-# DeRidder — Local Law Resources
+﻿# DeRidder — Local Law Resources
 ## City Website
-- https://www.deridderla.com/
+- https://www.cityofderidder.org — (337) 462-8911
+- Address: 200 S Jefferson Street, DeRidder, LA 70634
 ## Law Enforcement
-- DeRidder PD — (337) 463-3281
-- Louisiana State Police — https://www.lsp.org/
+- DeRidder Police Department
+- Address: 200 S Jefferson Street, DeRidder, LA 70634
+- Emergency: 911 | Non-Emergency: (337) 462-8911
+- Chief: Craig Richard
+- Police Website: http://www.deridderla.org/DeRidder-Police-Department
 ## Courts
-- Beauregard Parish Justice of the Peace — 201 W 1st St — (337) 463-8595
-- **Court Website**: https://www.deridderla.com/
+- Mayor's Court — Contact City Hall: (337) 462-8911
+- 36th Judicial District Court (parish-level)
+## Detention Center
+- DeRidder City Jail — 200 S Jefferson Street — (337) 462-8911
+- Inmate Roster: https://deriddercityjail.org
 ## Building Permits
-- DeRidder Building Department — https://www.deridderla.com/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Beauregard Parish Jail
+- Beauregard Parish Planning Commission: (337) 462-0675
+- Permit Portal: https://rapc.info
+- Website: https://beauparish.org/buildingPermits.htm
+## Library
+- Beauregard Parish Library – DeRidder Branch
+- Address: 201 W 2nd Street, DeRidder, LA 70634
+- Phone: (337) 463-7019
+- Website: https://beauparish.org
+## Hospitals
+- Beauregard Memorial Hospital — 1215 2nd Street, DeRidder, LA 70634 — (337) 462-5111 — 30.8330° N, 93.3297° W
+  Website: https://beauregardmemorial.com
+- Beauregard Health System — 600 S Pine St, DeRidder, LA 70634
+  Website: https://beauregardmemorial.com
+- Beauregard Medical & Surgical Center Walk-In Clinic — 301 S Washington St, DeRidder, LA 70634

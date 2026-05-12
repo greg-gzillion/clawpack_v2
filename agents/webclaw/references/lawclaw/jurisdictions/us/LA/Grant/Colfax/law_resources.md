@@ -1,17 +1,33 @@
-# Colfax — Local Law Resources
+﻿# Colfax — Local Law Resources
+## City Website
+- Not available
+- Phone: (318) 627-3711
+- Address: 1208 Main St, P.O. Box 310, Colfax, LA 71417
+- Mayor: Gerald Hamilton
 ## Law Enforcement
 - Colfax Police Department
-- Grant Parish Sheriff
-- Louisiana State Police — https://www.lsp.org/
+- Address: 1208 Main St, Colfax, LA 71417
+- Emergency: 911 | Non-Emergency: (318) 627-3711
+- Police Website: https://louisianaprisonroster.org/louisiana/police-department/colfax-police-department/
 ## Courts
-- Colfax City Court
+- Grant Parish District Court (35th JDC) — 200 Main Street, Colfax, LA 71417 — (318) 627-3157
+- Website: https://35jdc.com
+## Detention Center
+- Colfax Police Department (short-term) — 1208 Main St — (318) 627-3711
+- Grant Parish Detention Center — 705 3rd Street, Colfax, LA 71417 — (318) 627-3261
 ## Building Permits
-- Colfax Building Department
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Grant Parish Jail
+- Grant Parish Permit Office — 200 Main Street, Colfax, LA 71417 — (318) 627-3333
+- Permit Manager: Emily Gray
+- Hours: Mon–Fri: 8:00 AM – 4:30 PM
+- Website: https://gppj.org/building-permits
+- E-911 Address: https://www.grantso.org/911permit
+- Health Unit: (318) 627-3133 ext. 203, melanie.spahn@la.gov
+- Fees: Residential , Commercial , Roofing Free, CofO 
+## Library
+- Grant Parish Library – Colfax Branch
+- Address: 452 2nd Street, Colfax, LA 71417
+- Phone: (318) 627-3461
+- Website: https://www.grantparishlibrary.org
+## Hospitals
+- Grant Community Health Center — 441 Hwy 8, Colfax, LA 71417 — (318) 627-5021 — 31.5219° N, 92.6994° W
+  Website: https://www.grantparishhealth.com

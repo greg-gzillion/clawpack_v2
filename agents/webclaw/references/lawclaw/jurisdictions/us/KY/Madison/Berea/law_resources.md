@@ -1,19 +1,27 @@
-# Berea — Local Law Resources
+﻿# Berea — Local Law Resources
 ## City Website
-- https://www.bereaky.gov/
+- https://bereaky.gov — (859) 986-8528
+- Address: 212 Chestnut St, Berea, KY 40403
 ## Law Enforcement
-- Berea PD — 304 Chestnut St — (859) 985-7838
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Berea Police Department
+- Address: 212 Chestnut St, Berea, KY 40403
+- Emergency: 911 | Non-Emergency: (859) 986-8456
+- Police Website: https://bereaky.gov/police
 ## Courts
-- Berea Municipal Court — 304 Chestnut St — (859) 985-7838
-- **Court Website**: https://www.bereamunicipalcourt.org/
+- Municipal Court — Contact City Hall: (859) 986-8528
+## Detention Center
+- Berea Police Department (short-term) — 212 Chestnut St — (859) 986-8456
+- Inmate Roster: https://bereajail.org
 ## Building Permits
-- Berea Building Department — https://www.bereaky.gov/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Madison County Jail
+- Codes & Planning Department
+- Phone: (859) 986-8528
+- Permit Portal: https://bereaky.gov/codes-planning
+- Website: https://bereaky.gov/government/city-departments/codes-planning-2/
+## Library
+- Madison County Public Library (Berea Branch)
+- Address: 120 Chestnut St, Berea, KY 40403
+- Phone: (859) 986-5200
+- Website: https://www.madisonlibrary.org
+## Hospitals
+- CHI Saint Joseph Health - Saint Joseph Berea — 305 Estill St, Berea, KY 40403 — (859) 986-5200 — 37.5797° N, 84.2853° W
+  Website: https://www.stjoes.org

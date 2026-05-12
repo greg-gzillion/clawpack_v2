@@ -1,19 +1,29 @@
-# Everett — Local Law Resources
+﻿# Everett — Local Law Resources
 ## City Website
-- https://cityofeverett.com/
+- https://cityofeverett.com — (617) 394-2220
+- Address: 484 Broadway, Everett, MA 02149
 ## Law Enforcement
-- Everett PD — 484 Broadway — (617) 394-2270
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Everett Police Department
+- Address: 484 Broadway, Everett, MA 02149
+- Emergency: 911 | Non-Emergency: (617) 394-2222
+- Police Website: https://everettpolicema.com
 ## Courts
-- Chelsea District Court — 120 Broadway, Chelsea — (617) 660-9200
-- **Court Website**: https://www.mass.gov/courts/
+- Everett District Court — 200 Broadway, Everett, MA 02149 — (617) 387-2500
+- Court Website: https://www.mass.gov/courts/court-locations/everett-district-court.html
+## Detention Center
+- Everett Police Department (short-term) — 484 Broadway — (617) 394-2222
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Everett Building Department — https://cityofeverett.com/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Inspectional Services Department (ISD)
+- Phone: (617) 394-2220
+- Address: 484 Broadway, Everett, MA 02149
+- Online Portal: https://permiteyes.us/everett
+- Website: https://cityofeverett.com/isd
+## Library
+- Everett Public Library
+- Address: 275 Broadway, Everett, MA 02149
+- Phone: (617) 394-2355
+- Website: https://cityofeverett.com/libraries
+## Hospitals
+- CHA Everett Hospital — 103 Garland Street, Everett, MA 02149 — (617) 389-6270 — 42.4070° N, 71.0580° W
+  Website: https://www.challiance.org

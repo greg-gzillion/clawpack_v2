@@ -1,19 +1,29 @@
-# Edgewood — Local Law Resources
-## City Website
-- https://www.harfordcountymd.gov/
+﻿# Edgewood — Local Law Resources
+## County Website
+- https://www.harfordcountymd.gov — (410) 638-3000
+- Address: 220 S. Main Street, Bel Air, MD 21014
+- Note: Edgewood is an unincorporated area; services provided by Harford County
 ## Law Enforcement
-- Harford County Sheriff — 11100 Franklin Square Dr — (410) 836-4545
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Harford County Sheriff's Office - Southern Precinct
+- Address: 1305 Pulaski Highway, Edgewood, MD 21040
+- Emergency: 911 | Non-Emergency: (410) 612-1300
+- Sheriff Website: https://www.harfordcountymd.gov/sheriff
 ## Courts
-- Harford District Court — Bel Air — (410) 836-4545
-- **Court Website**: https://www.mdcourts.gov/district/directories/harford
+- District Court of Maryland - Bel Air — https://www.mdcourts.gov/district/directories/harford
+- Circuit Court for Harford County — https://www.mdcourts.gov/circuit/harford
+## Detention Center
+- Harford County Detention Center — 500 N. Bond Street, Bel Air, MD 21014 — (410) 638-3184
+- Inmate Search: https://www.hcsheriff.org/inmate-search
 ## Building Permits
-- Edgewood Building Department — https://www.harfordcountymd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Harford County Detention Center
+- Department of Planning and Zoning
+- Phone: (410) 612-7100
+- Address: 220 S. Main Street, Suite 100, Bel Air, MD 21014
+- Website: https://www.harfordcountymd.gov/departments/planning-and-zoning
+## Library
+- Harford County Public Library – Edgewood Branch
+- Address: 501 Emmorton Road, Edgewood, MD 21040
+- Phone: (410) 612-7160
+- Website: https://www.hcplonline.org
+## Hospitals
+- Upper Chesapeake Medical Center - Bel Air — 101 Medical Center Drive, Bel Air, MD 21015 — (410) 836-3000 — 39.5367° N, 76.3342° W
+  Website: https://luminishealth.org

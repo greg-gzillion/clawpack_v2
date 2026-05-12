@@ -1,17 +1,27 @@
-# Mansfield — Local Law Resources
+﻿# Mansfield — Local Law Resources
+## Town Website
+- https://www.mansfieldma.gov — (508) 261-7373
+- Address: 6 Park Row, Mansfield, MA 02048
 ## Law Enforcement
 - Mansfield Police Department
-- Bristol County Sheriff
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Address: 50 West Street, Mansfield, MA 02048
+- Emergency: 911 | Non-Emergency: (508) 261-7300
+- Police Website: https://www.mansfieldma.gov/police
 ## Courts
-- Mansfield District Court
+- Wrentham District Court — https://www.mass.gov/courts/court-locations/wrentham-district-court.html
+## Detention Center
+- Mansfield Police Department (short-term) — 50 West Street — (508) 261-7300
+- Bristol County Jail & House of Correction Inmate Search: https://sheriff.bristolcounty.org/inmate-search
 ## Building Permits
-- Mansfield Building Department
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Bristol County Jail
+- Building Department
+- Phone: (508) 261-7391
+- Address: 6 Park Row, Mansfield, MA 02048
+- Online Portal: https://www.mansfieldma.gov/building-department
+## Library
+- Mansfield Public Library
+- Address: 255 Hope Street, Mansfield, MA 02048
+- Phone: (508) 261-7380
+- Website: https://www.mansfieldlibraryma.com
+## Hospitals
+- Sturdy Memorial Hospital — 211 N Main St, Attleboro, MA 02703 — (508) 222-7000 — 41.9481° N, 71.2807° W
+  Website: https://www.sturdyhealth.org

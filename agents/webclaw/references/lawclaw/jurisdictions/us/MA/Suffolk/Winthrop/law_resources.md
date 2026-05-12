@@ -1,19 +1,27 @@
-# Winthrop — Local Law Resources
-## City Website
-- https://www.winthropma.gov/
+﻿# Winthrop — Local Law Resources
+## Town Website
+- https://www.winthropma.gov — (617) 846-1852
+- Address: 1 Metcalf Square, Winthrop, MA 02152
 ## Law Enforcement
-- Winthrop PD — 445 Main St — (617) 846-1000
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Winthrop Police Department
+- Address: 1 Metcalf Square, Winthrop, MA 02152
+- Emergency: 911 | Non-Emergency: (617) 846-1212
+- Police Website: https://www.winthropma.gov/police-department
 ## Courts
-- Boston Municipal Court — East Boston Division — (617) 534-5400
-- **Court Website**: https://www.mass.gov/courts/
+- Boston Municipal Court — https://www.mass.gov/orgs/boston-municipal-court
+## Detention Center
+- Winthrop Police Department (short-term) — 1 Metcalf Square — (617) 846-1212
+- Suffolk County Jail Inmate Search: https://sheriff.suffolkcounty.gov/inmate-search
 ## Building Permits
-- Winthrop Building Department — https://www.winthropma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Suffolk County Jail
+- Building Department
+- Phone: (617) 846-1852 ext. 1122
+- Address: 1 Metcalf Square, Winthrop, MA 02152
+- Online Portal: https://www.winthropma.gov/building-department
+## Library
+- Winthrop Public Library
+- Address: 425 Main Street, Winthrop, MA 02152
+- Phone: (617) 846-1852
+- Website: https://www.winthropma.gov/library
+## Hospitals
+- Massachusetts General Hospital — 55 Fruit Street, Boston, MA 02114 — (617) 726-2000 — 42.3647° N, 71.0699° W
+  Website: https://www.massgeneral.org

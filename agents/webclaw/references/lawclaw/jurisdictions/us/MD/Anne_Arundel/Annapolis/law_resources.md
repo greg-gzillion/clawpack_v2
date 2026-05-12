@@ -1,19 +1,28 @@
-# Annapolis — Local Law Resources
+﻿# Annapolis — Local Law Resources
 ## City Website
-- https://www.annapolis.gov/
+- https://www.annapolis.gov — (410) 263-7997
+- Address: 160 Duke of Gloucester Street, Annapolis, MD 21401
 ## Law Enforcement
-- Annapolis PD — 199 Taylor Ave — (410) 260-2200
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Annapolis Police Department
+- Address: 199 Taylor Avenue, Annapolis, MD 21401
+- Emergency: 911 | Non-Emergency: (410) 268-4141
+- Police Website: https://www.annapolis.gov/police
 ## Courts
-- Anne Arundel District Court — 251 Rowe Blvd — (410) 260-1325
-- **Court Website**: https://www.mdcourts.gov/district/directories/anne-arundel
+- District Court of Maryland for Anne Arundel County — https://www.mdcourts.gov/district/arundel
+- Circuit Court for Anne Arundel County — https://www.mdcourts.gov/circuit/arundel
+## Detention Center
+- Anne Arundel County Detention Center — 133 Jennifer Road, Annapolis, MD 21401 — (410) 222-7374
+- Inmate Search: https://www.aacounty.org/sheriff/inmate-search
 ## Building Permits
-- Annapolis Building Department — https://www.annapolis.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Anne Arundel County Detention Center
+- Department of Planning & Zoning
+- Phone: (410) 222-7244
+- Address: 160 Duke of Gloucester Street, Annapolis, MD 21401
+- Website: https://www.annapolis.gov/147/Planning-Zoning
+## Library
+- Anne Arundel County Public Library – Annapolis Branch
+- Address: 1410 West Street, Annapolis, MD 21401
+- Phone: (410) 222-1750
+- Website: https://www.aacpl.net
+## Hospitals
+- Luminis Health Anne Arundel Medical Center — 2001 Medical Parkway, Annapolis, MD 21401 — (443) 481-1000 — 38.9902° N, 76.5340° W
+  Website: https://www.luminishealth.org

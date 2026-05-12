@@ -1,19 +1,30 @@
-# Prestonsburg — Local Law Resources
+﻿# Prestonsburg — Local Law Resources
 ## City Website
-- https://prestonsburgcity.org/
+- https://prestonsburgcity.org — (606) 886-2335
+- Email: sharon.setser@prestonsburgcity.org
+- Address: 200 N Lake Drive, Prestonsburg, KY 41653
+- Hours: 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Prestonsburg PD — 200 N Lake Dr — (606) 886-1010
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Prestonsburg Police Department
+- Address: 200 N Lake Drive, Suite 104, Prestonsburg, KY 41653
+- Emergency: 911 | Non-Emergency: (606) 886-1010
+- Chief: Ross Shurtleff
+- Police Website: https://prestonsburgcity.org
 ## Courts
-- Floyd District Court — 127 S Lake Dr — (606) 889-1672
-- **Court Website**: https://www.courts.ky.gov/
+- Floyd District Court — 127 S Lake Drive, Suite 100, Prestonsburg, KY 41653 — (606) 889-1651
+- Website: https://kycourts.gov
+## Detention Center
+- Prestonsburg Police Department (short-term) — 200 N Lake Drive — (606) 886-1010
+- Floyd County Detention Center — 151 S Central Ave, Prestonsburg, KY 41653 — (606) 886-8021
+- Inmate Roster: https://www.fcsoky.us
 ## Building Permits
-- Prestonsburg Building Department — https://prestonsburgcity.org/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Floyd County Jail
+- Contact via City Hall: (606) 886-2335
+- Website: https://prestonsburgcity.org
+## Library
+- Floyd County Public Library
+- Address: 161 N Arnold Ave, Prestonsburg, KY 41653
+- Phone: (606) 886-2981
+- Website: http://www.fclib.org
+## Hospitals
+- Highlands ARH Regional Medical Center — 5000 KY Route 321, Prestonsburg, KY 41653 — (606) 886-8511 — 37.7295° N, 82.7673° W
+  Website: https://providers.arh.org/location/highlands-arh-regional-medical-center/loc0000132808

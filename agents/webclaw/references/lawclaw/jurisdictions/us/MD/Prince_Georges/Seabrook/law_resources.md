@@ -1,19 +1,30 @@
-# Seabrook — Local Law Resources
-## City Website
-- https://www.princegeorgescountymd.gov/
+﻿# Seabrook — Local Law Resources
+## County Website
+- https://www.princegeorgescountymd.gov — (301) 952-3000
+- Address: 14741 Governor Oden Bowie Drive, Upper Marlboro, MD 20772
+- District 2 Council Office: https://pgccouncil.us/807/About-District-2
+- Note: Seabrook is an unincorporated area; services provided by Prince George's County
 ## Law Enforcement
-- PG County PD — Oxon Hill — (301) 749-4900
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Prince George's County Police Department – District IV (Lanham)
+- Address: 5900 Princess Garden Pkwy, Lanham, MD 20706
+- Emergency: 911 | Non-Emergency: (301) 459-4000
+- Police Website: https://www.princegeorgescountymd.gov/staff-directory/police/lanham-district-iv
 ## Courts
-- PG District Court — Upper Marlboro — (301) 627-7700
-- **Court Website**: https://www.mdcourts.gov/district/directories/prince-georges
+- District Court of Maryland for Prince George's County — https://www.mdcourts.gov/district/pg
+- Circuit Court for Prince George's County — https://www.mdcourts.gov/circuit/pg
+## Detention Center
+- Prince George's County Correctional Center — 13400 Dille Drive, Upper Marlboro, MD 20772
+- Inmate Locator: https://www.princegeorgescountymd.gov/corrections
 ## Building Permits
-- Seabrook Building Department — https://www.princegeorgescountymd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Prince Georges County Detention Center
+- Department of Permitting, Inspections, and Development (PIDCO)
+- Phone: (301) 883-5700
+- Address: 14741 Governor Oden Bowie Drive, Upper Marlboro, MD 20772
+- Online Portal: https://www.princegeorgescountymd.gov/permit
+## Library
+- Prince George's County Memorial Library System – Glenarden Branch
+- Address: 8724 Glenarden Parkway, Lanham, MD 20706
+- Phone: (301) 772-5477
+- Website: https://www.pgcmls.info/glenarden
+## Hospitals
+- Luminis Health Doctors Community Medical Center — 8118 Good Luck Road, Lanham, MD 20706 — (301) 552-8118 — 38.9620° N, 76.8421° W
+  Website: https://www.luminishealth.org

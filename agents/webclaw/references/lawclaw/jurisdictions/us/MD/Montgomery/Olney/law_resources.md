@@ -1,19 +1,33 @@
-# Olney — Local Law Resources
-## City Website
-- https://www.montgomerycountymd.gov/
+﻿# Olney — Local Law Resources
+## County Website
+- https://www.montgomerycountymd.gov — (240) 777-6500
+- Address: 101 Monroe Street, Rockville, MD 20850
+- Note: Olney is an unincorporated community; services provided by Montgomery County
 ## Law Enforcement
-- Montgomery County PD — Wheaton — (240) 773-5500
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- Montgomery County Police Department
+- Emergency: 911 | Non-Emergency: (301) 279-8000
+- Olney Satellite Station: 17821 Georgia Ave, Olney, MD 20832 — (301) 570-2880
+- Police Website: https://www.montgomerycountymd.gov/police
 ## Courts
-- Montgomery District Court — Rockville — (301) 563-8800
-- **Court Website**: https://www.mdcourts.gov/district/directories/montgomery
+- District Court of Maryland - Rockville — https://www.mdcourts.gov/district/directories/montgomeryROCKVILLE
+- Circuit Court for Montgomery County — https://www.mdcourts.gov/circuit/montgomery
+## Detention Center
+- Montgomery County Detention Center — 100 Edison Park Dr, Rockville, MD 20850
+- Montgomery County Correctional Facility — 22880 Whelan Lane, Boyds, MD 20841 — (240) 773-9700
+- Inmate Search: https://www.montgomerycountymd.gov/dcr
 ## Building Permits
-- Olney Building Department — https://www.montgomerycountymd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Montgomery County Detention Center
+- Department of Permitting Services
+- Phone: (240) 777-2888
+- Address: 255 Rockville Pike, Rockville, MD 20850
+- Online Portal: https://www.montgomerycountymd.gov/dps
+## Library
+- Montgomery County Public Libraries – Olney Branch
+- Address: 3500 Olney-Laytonsville Rd, Olney, MD 20832
+- Phone: (240) 773-9545
+- Hours: Mon–Thu 10:00 AM – 8:00 PM; Fri–Sat 10:00 AM – 6:00 PM; Sun 10:00 AM – 6:00 PM
+- Website: https://www.montgomerycountymd.gov/library
+## Hospitals
+- Adventist HealthCare White Oak Medical Center — 10001 New Hampshire Ave, Silver Spring, MD 20903 — (301) 315-3000 — 39.0719° N, 77.0231° W
+  Website: https://www.adventisthealthcare.com
+- Holy Cross Germantown Hospital — 18351 Central Maryland Pkwy, Germantown, MD 20874 — (240) 314-6000 — 39.1468° N, 77.2656° W
+  Website: https://www.holycrosshealth.org

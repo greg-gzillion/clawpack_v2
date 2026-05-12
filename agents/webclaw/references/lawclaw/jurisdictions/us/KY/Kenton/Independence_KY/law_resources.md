@@ -1,19 +1,29 @@
-# Independence KY — Local Law Resources
+﻿# Independence — Local Law Resources
 ## City Website
-- https://www.cityofindependence.org/
+- https://www.cityofindependence.org — (859) 356-5302
+- Address: 5409 Madison Pike, Independence, KY 41051
 ## Law Enforcement
-- Independence PD — (859) 356-2697
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Independence Police Department
+- Address: 5409 Madison Pike, Independence, KY 41051
+- Emergency: 911 | Non-Emergency: (859) 360-3146
+- Police Website: https://www.cityofindependence.org/police
 ## Courts
-- Kenton District Court — 1840 Simon Kenton Way, Covington — (859) 392-1600
-- **Court Website**: https://www.courts.ky.gov/
+- Kenton County District Court — 1840 Simon Kenton Way, Covington, KY 41011 — (859) 292-6521
+- Website: https://kycourts.gov
+## Detention Center
+- Independence Police Department (short-term) — 5409 Madison Pike — (859) 360-3146
+- Kenton County Detention Center — https://www.kentoncountyjail.org
 ## Building Permits
-- Independence KY Building Department — https://www.cityofindependence.org/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Kenton County Jail
+- Planning & Zoning: https://www.cityofindependence.org/planning-and-zoning
+- Permits Portal: https://independence.portal.iworq.net/portalhome/independence
+- Electrical: (859) 746-9111 | Plumbing: (859) 341-8228
+## Library
+- Kenton County Public Library – Independence Branch
+- Address: 1795 Scott Blvd, Independence, KY 41051
+- Phone: (859) 356-3500
+- Website: https://kentoncounty.lib.ky.us
+## Hospitals
+- St. Elizabeth Physicians – Independence — 1050 Medical Center Drive, Independence, KY 41051 — (859) 331-4000 — 38.7567° N, 84.5769° W
+  Website: https://www.stelizabethphysicians.com
+- St. Elizabeth Edgewood — 1 Medical Village Dr, Edgewood, KY 41017 — (859) 331-3000 — 38.9800° N, 84.4692° W
+  Website: https://www.stelizabeth.com

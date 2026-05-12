@@ -1,19 +1,33 @@
-# Oak Grove — Local Law Resources
+﻿# Oak Grove — Local Law Resources
 ## City Website
-- https://www.oakgroveky.org/
+- https://oakgroveky.org — (270) 439-4646
+- Address: 8505 Pembroke-Oak Grove Rd, Oak Grove, KY 42262
+- Hours: Mon–Fri: 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Oak Grove PD — 2121 Fort Campbell Blvd — (270) 798-9500
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Oak Grove Police Department
+- Address: 152 Stateline Rd, Oak Grove, KY 42262
+- Emergency: 911 | Non-Emergency: (270) 439-4602
+- Chief: Victor Lynch
+- Police Website: https://oakgroveky.org/department/police/
 ## Courts
-- Christian District Court — 100 Justice Way, Hopkinsville — (270) 889-6539
-- **Court Website**: https://www.courts.ky.gov/
+- Christian County District Court — 100 Justice Way, Hopkinsville, KY 42240 — (270) 889-6539
+- Website: https://kycourts.gov
+## Detention Center
+- Oak Grove Police Department (short-term) — 152 Stateline Rd — (270) 439-4602
+- Christian County Jail — 410 West 7th Street, Hopkinsville, KY 42240 — (270) 887-4152
+- Inmate Roster: http://www.ccjail.org/qcms/
 ## Building Permits
-- Oak Grove Building Department — https://www.oakgroveky.org/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Christian County Jail
+- Planning and Zoning Administrator
+- Phone: (270) 439-4646
+- Email: brian.ahart@oakgroveky.org
+- Website: https://oakgroveky.org/department/
+## Library
+- Christian County Public Library – Main Branch
+- Address: 1101 Bethel Street, Hopkinsville, KY 42240
+- Phone: (270) 887-4262
+- Website: https://hccpl.org
+## Hospitals
+- Jennie Stuart Medical Center — 320 W 18th St, Hopkinsville, KY 42240 — (270) 887-0100 — 36.8601° N, 87.4949° W
+  Website: https://www.jenniestuarthealth.org
+- Blanchfield Army Community Hospital — 650 Joel Dr, Fort Campbell, KY 42223
+  Website: https://blanchfield.tricare.mil

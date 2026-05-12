@@ -1,19 +1,29 @@
-# Newburyport — Local Law Resources
+﻿# Newburyport — Local Law Resources
 ## City Website
-- https://www.newburyportma.gov/
+- https://www.cityofnewburyport.com — (978) 465-4405
+- Address: 60 Pleasant Street, Newburyport, MA 01950
 ## Law Enforcement
-- Newburyport PD — 100 State St — (978) 462-1200
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Newburyport Police Department
+- Address: 4 Green Street, Newburyport, MA 01950
+- Emergency: 911 | Non-Emergency: (978) 462-4411
+- Police Website: https://newburyportpolice.com
 ## Courts
-- Newburyport District Court — 20 State St — (978) 462-5651
-- **Court Website**: https://www.mass.gov/locations/newburyport-district-court
+- Newburyport District Court — 188 State Street, Newburyport, MA 01950
+- Court Website: https://www.mass.gov/locations/newburyport-district-court
+## Detention Center
+- Newburyport Police Department (short-term) — 4 Green Street — (978) 462-4411
+- Essex County Correctional Facility Inmate Search: https://www.mass.gov/info-details/essex-county-correctional-facility-inmate-search
 ## Building Permits
-- Newburyport Building Department — https://www.newburyportma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Building Department
+- Phone: (978) 465-4405
+- Address: 60 Pleasant Street, Lower Level, Newburyport, MA 01950
+- Online Portal: https://www.cityofnewburyport.com/online-services
+- Website: https://www.cityofnewburyport.com/building-department
+## Library
+- Newburyport Public Library
+- Address: 94 State Street, Newburyport, MA 01950
+- Phone: (978) 465-4428
+- Website: https://www.newburyportlibrary.org
+## Hospitals
+- Anna Jaques Hospital — 25 Highland Ave, Newburyport, MA 01950 — (978) 463-1000 — 42.8100° N, 70.8733° W
+  Website: https://www.ajh.org

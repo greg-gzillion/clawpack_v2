@@ -1,19 +1,30 @@
-# Brookline — Local Law Resources
-## City Website
-- https://www.brooklinema.gov/
+﻿# Brookline — Local Law Resources
+## Town Website
+- https://www.brooklinema.gov — (617) 730-2100
+- Address: 333 Washington Street, Brookline, MA 02445
 ## Law Enforcement
-- Brookline PD — 350 Washington St — (617) 730-2250
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Brookline Police Department
+- Address: 350 Washington Street, Brookline, MA 02445
+- Emergency: 911 | Non-Emergency: (617) 730-2222
+- Police Website: https://police.brooklinema.gov
 ## Courts
-- Brookline District Court — 360 Washington St — (617) 232-4660
-- **Court Website**: https://www.mass.gov/courts/
+- Brookline District Court — https://www.mass.gov/courts/court-locations/brookline-district-court.html
+## Detention Center
+- Brookline Police Department (short-term) — 350 Washington Street — (617) 730-2222
+- Norfolk County House of Correction Inmate Search: https://sheriff.norfolkcounty.org/inmate-search
 ## Building Permits
-- Brookline Building Department — https://www.brooklinema.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Norfolk County Jail
+- Building Department
+- Phone: (617) 730-2100
+- Address: 333 Washington Street, Brookline, MA 02445
+- Online Portal: https://aca.accela.com/BROOKLINE
+- Website: https://www.brooklinema.gov/building-department
+## Library
+- Brookline Public Library
+- Address: 361 Washington Street, Brookline, MA 02445
+- Phone: (617) 730-2140
+- Website: https://www.brooklinema.gov/library
+## Hospitals
+- Brigham and Women's Hospital — 75 Francis Street, Boston, MA 02115 — (617) 732-5500 — 42.3370° N, 71.1070° W
+  Website: https://www.brighamandwomens.org
+- Beth Israel Deaconess Medical Center — 330 Brookline Ave, Boston, MA 02215 — (617) 667-7000 — 42.3380° N, 71.1066° W
+  Website: https://www.bidmc.org

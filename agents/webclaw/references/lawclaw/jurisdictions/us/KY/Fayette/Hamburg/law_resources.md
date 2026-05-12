@@ -1,17 +1,25 @@
-# Hamburg — Local Law Resources
+﻿# Hamburg — Local Law Resources
+## City Website
+- https://www.lexingtonky.gov — (859) 258-3000
+- Address: 200 E Main St, Lexington, KY 40507
 ## Law Enforcement
-- Hamburg Police Department
-- Fayette County Sheriff
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Lexington-Fayette Urban County Police Department
+- Address: 150 E Main St, Lexington, KY 40507
+- Emergency: 911 | Non-Emergency: (859) 258-3600
+- Police Website: https://www.lexingtonky.gov/departments/police
 ## Courts
-- Hamburg Municipal Court
+- Fayette County District Court — https://www.kycourt.net
+## Detention Center
+- Fayette County Detention Center — 600 Old Frankfort Cir, Lexington, KY 40510 — (859) 425-2700
 ## Building Permits
-- Hamburg Building Department
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Fayette County Jail
+- Division of Building Inspection
+- Phone: (859) 258-3770
+- Website: https://www.lexingtonky.gov/building-inspection
+## Library
+- Lexington Public Library – Eastside Branch
+- Address: 3000 Blake James Dr, Lexington, KY 40509
+- Phone: (859) 231-5500
+- Website: https://www.lexpublib.org
+## Hospitals
+- Baptist Health Lexington — 1740 Nicholasville Rd, Lexington, KY 40503 — (859) 260-6100 — 38.0125° N, 84.5228° W
+  Website: https://www.baptisthealth.com

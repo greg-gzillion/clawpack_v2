@@ -1,19 +1,28 @@
-# La Plata — Local Law Resources
-## City Website
-- https://www.charlescountymd.gov/
+﻿# La Plata — Local Law Resources
+## Town Website
+- https://www.townoflaplata.org — (301) 934-8421
+- Address: 305 Queen Anne Street, La Plata, MD 20646
 ## Law Enforcement
-- Charles County Sheriff — (301) 645-4800
-- Maryland State Police — https://www.mdsp.maryland.gov/
+- La Plata Police Department
+- Address: 101 La Grange Avenue, La Plata, MD 20646
+- Emergency: 911 | Non-Emergency: (301) 934-1500
+- Police Website: https://www.townoflaplata.org/184/Police
 ## Courts
-- Charles District Court — 11 Washington Ave — (301) 884-4750
-- **Court Website**: https://www.mdcourts.gov/district/directories/charles
+- District Court of Maryland - La Plata — https://www.mdcourts.gov/district/directories/charles
+- Circuit Court for Charles County — https://www.mdcourts.gov/circuit/charles
+## Detention Center
+- Charles County Detention Center — 1000 Charles Street, La Plata, MD 20646 — (301) 934-2000
+- Inmate Roster: https://www.ccso.us/inmate-roster
 ## Building Permits
-- La Plata Building Department — https://www.charlescountymd.gov/
-## Hunting Regulations
-- MD Hunting Regulations — https://dnr.maryland.gov/hunters/
-## Fishing Regulations
-- MD Fishing Regulations — https://dnr.maryland.gov/fisheries/
-## Legal Aid
-- Maryland Legal Aid — https://www.mdlab.org/
-## Corrections
-- Charles County Detention Center
+- Town of La Plata Planning Department
+- Phone: (301) 934-8811
+- Address: 305 Queen Anne Street, La Plata, MD 20646
+- Online Portal: https://www.townoflaplata.org/179/Building-Permits
+## Library
+- Charles County Public Library – La Plata Branch
+- Address: 300 E. Charles Street, La Plata, MD 20646
+- Phone: (301) 934-1540
+- Website: https://www.ccplonline.org
+## Hospitals
+- University of Maryland Charles Regional Medical Center — 1000 Charles Street, La Plata, MD 20646 — (301) 932-5000 — 38.5303° N, 76.9778° W
+  Website: https://www.umms.org

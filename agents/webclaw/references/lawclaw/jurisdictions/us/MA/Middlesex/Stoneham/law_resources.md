@@ -1,19 +1,28 @@
-# Stoneham — Local Law Resources
-## City Website
-- https://www.stoneham-ma.gov/
+﻿# Stoneham — Local Law Resources
+## Town Website
+- https://www.stoneham-ma.gov — (781) 279-2600
+- Address: 35 Central Street, Stoneham, MA 02180
 ## Law Enforcement
-- Stoneham PD — 47 Central St — (781) 438-1215
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Stoneham Police Department
+- Address: 35 Central Street, Stoneham, MA 02180
+- Emergency: 911 | Non-Emergency: (781) 438-1212
+- Police Website: https://www.stoneham-ma.gov/215/Police-Department
 ## Courts
-- Woburn District Court — 30 Pleasant St — (781) 935-4000
-- **Court Website**: https://www.mass.gov/courts/
+- Woburn District Court — https://www.mass.gov/locations/woburn-district-court
+## Detention Center
+- Stoneham Police Department (short-term) — 35 Central Street — (781) 438-1212
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Stoneham Building Department — https://www.stoneham-ma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Building Department
+- Phone: (781) 279-2670
+- Address: 35 Central Street, Stoneham, MA 02180
+- Online Portal: https://stonehamma.portal.opengov.com
+- Website: https://www.stoneham-ma.gov/199/Building-Department
+## Library
+- Stoneham Public Library
+- Address: 40 S Main St, Stoneham, MA 02180
+- Phone: (781) 438-5700
+- Website: https://stonehamlibrary.org
+## Hospitals
+- MelroseWakefield Hospital — 585 Lynn Fells Pkwy, Melrose, MA 02176 — (781) 979-5000 — 42.4525° N, 71.0797° W
+  Website: https://www.wakefieldhospital.org

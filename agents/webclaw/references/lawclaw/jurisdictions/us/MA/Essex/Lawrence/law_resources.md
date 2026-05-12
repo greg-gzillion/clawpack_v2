@@ -1,19 +1,28 @@
-# Lawrence — Local Law Resources
+﻿# Lawrence — Local Law Resources
 ## City Website
-- https://www.cityoflawrence.com/
+- https://www.cityoflawrence.com — (978) 620-3000
+- Address: 200 Common Street, Lawrence, MA 01840
 ## Law Enforcement
-- Lawrence PD — 2 Appleton St — (978) 794-5900
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Lawrence Police Department
+- Address: 90 Lowell Street, Lawrence, MA 01840
+- Emergency: 911 | Non-Emergency: (978) 794-5900
+- Police Website: https://lawpd.com
 ## Courts
-- Lawrence District Court — 2 Appleton St — (978) 687-7184
-- **Court Website**: https://www.mass.gov/courts/
+- Lawrence District Court — 2 Appleton Street, Lawrence, MA 01840 — (978) 687-7184
+- Court Website: https://www.mass.gov/locations/lawrence-district-court
+## Detention Center
+- Lawrence Police Department (short-term) — 90 Lowell Street — (978) 794-5900
+- Essex County Correctional Facility Inmate Search: https://www.mass.gov/info-details/essex-county-correctional-facility-inmate-search
 ## Building Permits
-- Lawrence Building Department — https://www.cityoflawrence.com/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Inspectional Services Department
+- Phone: (978) 620-3130
+- Address: 200 Common Street, Lawrence, MA 01840
+- Online Portal: https://www4.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=325
+## Library
+- Lawrence Free Public Library
+- Address: 5 Essex Street, Lawrence, MA 01840
+- Phone: (978) 620-3600
+- Website: https://www.lawrencefreelibrary.org
+## Hospitals
+- Lawrence General Hospital — 170 Governors Avenue, Lawrence, MA 01840 — (978) 687-2121 — 42.7056° N, 71.1639° W
+  Website: https://www.lawrencegeneral.org

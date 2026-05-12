@@ -1,19 +1,31 @@
-# Destrehan — Local Law Resources
-## City Website
-- https://www.destrehan.com/
+﻿# Destrehan — Local Law Resources
+## Parish Website
+- https://www.stcharlesparish.gov — (985) 783-5000
+- Address: 15045 River Road, Hahnville, LA 70057
 ## Law Enforcement
-- Destrehan PD — (985) 764-2825
-- Louisiana State Police — https://www.lsp.org/
+- St. Charles Parish Sheriff's Office
+- East Bank District: 1701 N 12th St, Luling, LA 70070
+- Emergency: 911 | Non-Emergency: (985) 783-2555
+- Website: https://www.stcharlesso.org
 ## Courts
-- St. Charles Parish Clerk — Luling — (985) 783-2323
-- **Court Website**: https://www.destrehan.com/
+- 27th Judicial District Court — 1800 River Road, Hahnville, LA 70057 — (985) 783-2488
+- Website: https://www.27thjdc.org
+## Detention Center
+- St. Charles Parish Jail — 1800 River Road, Hahnville, LA 70057 — (985) 783-2488
+- Inmate Roster: https://www.stcharlesso.org
+- Website: https://www.stcharlesso.org
 ## Building Permits
-- Destrehan Building Department — https://www.destrehan.com/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- St. Charles Parish Jail
+- Department of Planning & Zoning: (985) 783-3377
+- Website: https://www.stcharlesparish.gov
+## Library
+- St. Charles Parish Library – East Regional Branch
+- Address: 18100 River Road, Destrehan, LA 70047
+- Phone: (985) 769-5104
+- Website: https://www.stcharlesparishlibrary.org
+## Hospitals
+- Ochsner Health Center - Destrehan — 13100 River Rd, Destrehan, LA 70047 — (985) 732-9000 — 29.9496° N, 90.3712° W
+  Website: https://www.ochsner.org
+- Ochsner Children's Health Center - Destrehan — 13100 River Rd #250, Destrehan, LA 70047
+  Website: https://www.ochsner.org
+- Ochsner Health Center - Luling — 200 Ochsner Dr, Luling, LA 70070 — (985) 732-9000 — 29.9275° N, 90.3728° W
+  Website: https://www.ochsner.org

@@ -1,17 +1,30 @@
-# Harrodsburg — Local Law Resources
+﻿# Harrodsburg — Local Law Resources
+## City Website
+- https://www.harrodsburgky.gov — (859) 734-2383
+- Address: 208 South Main Street, Harrodsburg, KY 40330
 ## Law Enforcement
 - Harrodsburg Police Department
-- Mercer County Sheriff
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Address: 411 North Greenville Street, Harrodsburg, KY 40330
+- Emergency: 911 | Non-Emergency: (859) 734-3311
+- Chief: Larry Scott Elder
+- Police Website: http://www.harrodsburgpd.org
 ## Courts
-- Harrodsburg Municipal Court
+- Mercer County District Court — 207 West Lexington Street, Harrodsburg, KY 40330 — (859) 734-3192
+- Website: https://kycourts.gov
+## Detention Center
+- Harrodsburg City Jail — 411 North Greenville Street — (859) 734-3311
+- Mercer County Jail — 224 South Main Street, Harrodsburg, KY 40330 — (859) 734-6336
+- Inmate Roster: http://www.mercercounty.ky.gov/leoff/jailer.htm
 ## Building Permits
-- Harrodsburg Building Department
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Mercer County Jail
+- Planning and Zoning Administrator
+- Phone: (859) 734-6066
+- Email: kdonnally@mercerky.gov
+- Website: https://mercercounty.ky.gov/departments/planning-and-zoning
+## Library
+- Mercer County Public Library
+- Address: 109 West Lexington Street, Harrodsburg, KY 40330
+- Phone: (859) 734-3680
+- Website: http://www.mcplib.info
+## Hospitals
+- Ephraim McDowell James B. Haggin Hospital — 464 Linden Avenue, Harrodsburg, KY 40330 — (859) 734-5441 — 37.7569° N, 84.8489° W
+  Website: https://emhealth.org/location/ephraim-mcdowell-james-b-haggin-hospital/

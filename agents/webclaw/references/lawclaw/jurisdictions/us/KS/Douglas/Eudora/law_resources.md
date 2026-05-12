@@ -1,19 +1,32 @@
-# Eudora — Local Law Resources
+﻿# Eudora — Local Law Resources
 ## City Website
-- https://www.eudoraks.org/
+- https://www.cityofeudoraks.gov — (785) 542-2153 (Option 3)
+- Address: 4 E. 7th St, Eudora, KS 66025
+- Hours: Mon–Fri: 8:15 AM – 4:15 PM
 ## Law Enforcement
-- Eudora PD — (785) 542-5100
-- Kansas Highway Patrol — https://www.kansashighwaypatrol.gov/
+- Eudora Police Department
+- Address: 930 Main St, Eudora, KS 66025
+- Emergency: 911 | Non-Emergency: (785) 542-3121
+- Police Website: https://www.cityofeudoraks.gov/77/Police
 ## Courts
-- Eudora Municipal Court — (785) 542-5100
-- **Court Website**: https://www.eudoraks.org/
+- Eudora Municipal Court — 930 Main St, Eudora, KS 66025 — (785) 542-4113
+- Court Website: https://www.cityofeudoraks.gov/75/Municipal-Court
+## Detention Center
+- Eudora Police Department Jail — 930 Main St — (785) 542-3121
+- Douglas County Correctional Facility — 3601 E 25th St, Lawrence, KS 66046 — (785) 830-1000
+- Inmate Roster: https://www.dgso.org/web/index.php
+- Facility Website: https://www.dgso.org
 ## Building Permits
-- Eudora Building Department — https://www.eudoraks.org/
-## Hunting Regulations
-- KS Hunting Regulations — https://www.ksoutdoors.com/Hunting/
-## Fishing Regulations
-- KS Fishing Regulations — https://www.ksoutdoors.com/Fishing/
-## Legal Aid
-- Kansas Legal Services — https://www.kansaslegalservices.org/
-## Corrections
-- Douglas County Jail
+- Community Development
+- Phone: (785) 542-3124 (Building/Planning)
+- Email: gsnyder@cityofeudoraks.gov (Code Enforcement)
+- Address: 14 E. 7th St, Eudora, KS 66025
+- Website: https://www.cityofeudoraks.gov/65/Community-Development
+## Library
+- Eudora Public Library
+- Address: 14 E. 9th St, Eudora, KS 66025
+- Phone: (785) 542-2496
+- Website: https://www.eudoralibrary.org
+## Hospitals
+- LMH Health — 325 Maine St, Lawrence, KS 66044 — (785) 505-5000 — 38.9717° N, 95.2350° W
+  Website: https://www.lmh.org

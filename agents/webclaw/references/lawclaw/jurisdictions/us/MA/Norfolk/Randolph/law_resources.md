@@ -1,19 +1,27 @@
-# Randolph — Local Law Resources
-## City Website
-- https://www.randolphma.gov/
+﻿# Raynham — Local Law Resources
+## Town Website
+- https://www.town.raynham.ma.us — (508) 824-2700
+- Address: 558 South Main Street, Raynham, MA 02767
 ## Law Enforcement
-- Randolph PD — 600 East St — (781) 961-1200
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Raynham Police Department
+- Address: 53 Orchard Street, Raynham, MA 02767
+- Emergency: 911 | Non-Emergency: (508) 824-2716
+- Police Website: https://www.town.raynham.ma.us/police-department
 ## Courts
-- Quincy District Court — 1 Dennis F. Ryan Pkwy — (617) 471-1650
-- **Court Website**: https://www.mass.gov/courts/
+- Taunton District Court — https://www.mass.gov/locations/taunton-district-court
+## Detention Center
+- Raynham Police Department (short-term) — 53 Orchard Street — (508) 824-2716
+- Bristol County Jail & House of Correction Inmate Search: https://sheriff.bristolcounty.org/inmate-search
 ## Building Permits
-- Randolph Building Department — https://www.randolphma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Norfolk County Jail
+- Building Department
+- Phone: (508) 824-2708
+- Address: 558 South Main Street, Raynham, MA 02767
+- Online Portal: https://www.town.raynham.ma.us/building-department
+## Library
+- Raynham Public Library
+- Address: 760 South Main Street, Raynham, MA 02767
+- Phone: (508) 823-1344
+- Website: https://www.raynhamlibrary.org
+## Hospitals
+- Signature Healthcare Brockton Hospital — 1101 MacArthur Blvd, Brockton, MA 02301 — (508) 580-7000 — 42.0819° N, 71.0189° W
+  Website: https://www.signaturehealthcare.org

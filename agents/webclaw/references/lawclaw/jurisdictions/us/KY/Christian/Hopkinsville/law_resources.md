@@ -1,19 +1,33 @@
-# Hopkinsville — Local Law Resources
+﻿# Hopkinsville — Local Law Resources
 ## City Website
-- https://www.hopkinsvilleky.us/
+- https://www.hopkinsvilleky.us — (270) 887-4000
+- Address: 715 South Virginia Street, Hopkinsville, KY 42240
 ## Law Enforcement
-- Hopkinsville PD — 101 N Main St — (270) 890-1500
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Hopkinsville Police Department
+- Address: 101 North Main Street, Hopkinsville, KY 42240
+- Emergency: 911 | Non-Emergency: (270) 890-1500 | Dispatch: (270) 890-1300
+- Chief: Jason Newby
+- Police Website: https://www.hopkinsvilleky.us/departments/police/index.php
 ## Courts
-- Christian District Court — 100 Justice Way — (270) 889-6539
-- **Court Website**: https://www.courts.ky.gov/
+- Christian County District Court — 100 Justice Way, Hopkinsville, KY 42240 — (270) 889-6539
+- Website: https://kycourts.gov
+## Detention Center
+- Hopkinsville Police Department (short-term) — 101 North Main Street — (270) 890-1500
+- Christian County Jail — 410 West 7th Street, Hopkinsville, KY 42240 — (270) 887-4152
+- Inmate Roster: http://www.ccjail.org/qcms/
 ## Building Permits
-- Hopkinsville Building Department — https://www.hopkinsvilleky.us/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Christian County Jail
+- Hopkinsville-Christian County Planning Commission
+- Phone: (270) 887-4285
+- Address: 101 North Main Street, Hopkinsville, KY 42240
+- Website: https://www.hopkinsvilleky.us/services/development_services/planning_commission/index.php
+## Library
+- Hopkinsville-Christian County Public Library
+- Address: 1101 Bethel Street, Hopkinsville, KY 42240
+- Phone: (270) 887-4262
+- Website: https://hccpl.org
+- Hours: Mon–Fri 9:30 AM – 6:00 PM; Sat 9:00 AM – 4:30 PM
+## Hospitals
+- Jennie Stuart Medical Center — 320 W 18th St, Hopkinsville, KY 42240 — (270) 887-0100 — 36.8601° N, 87.4949° W
+  Website: https://www.jenniestuarthealth.org
+- Western State Hospital — 2101 Fort Campbell Blvd, Hopkinsville, KY 42240 — (270) 887-5454 — 36.8672° N, 87.4859° W
+  Website: https://chfs.ky.gov/agencies/dbhdid/wsh

@@ -2753,6 +2753,429 @@ DeFuniak Springs — city site, police, municipal court, jail, hospital(s) with 
 
 
 
+PALM BEACH
+Greenacres — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Jupiter — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palm Beach Gardens — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Riviera Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Royal Palm Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Wellington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+West Palm Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PASCO
+Dade City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Land O' Lakes — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+New Port Richey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Wesley Chapel — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Zephyrhills — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PINELLAS
+Clearwater — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dunedin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Largo — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palm Harbor — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Seminole City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+St. Petersburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Tarpon Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+POLK
+Auburndale — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bartow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Haines City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lakeland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lake Wales — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Winter Haven — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PUTNAM
+Palatka — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SANTA ROSA
+Milton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Navarre — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SARASOTA
+North Port — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sarasota — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Venice — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SEMINOLE
+Altamonte Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Casselberry — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Longwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Oviedo — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sanford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Winter Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+ST. JOHNS
+Ponte Vedra — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+St. Augustine — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+ST. LUCIE
+Fort Pierce — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Port St. Lucie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SUMTER
+Wildwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+VOLUSIA
+Daytona Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+DeLand — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Deltona — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+New Smyrna Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Port Orange — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+WALTON
+DeFuniak Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+ALACHUA
+Alachua — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+BAY
+Mexico Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+BREVARD
+Cocoa Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rockledge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Satellite Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+West Melbourne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+BROWARD
+Cooper City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hallandale Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Parkland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Wilton Manors — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+COLLIER
+Everglades City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+DUVAL
+Neptune Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+FLAGLER
+Flagler Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palm Coast — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+HERNANDO
+Weeki Wachee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+HIGHLANDS
+Lake Placid — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+HILLSBOROUGH
+Temple Terrace — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Town 'n' Country — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Valrico — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Westchase — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+INDIAN RIVER
+Fellsmere — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+LAKE
+Fruitland Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+LEE
+Estero — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Fort Myers Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+MANATEE
+Holmes Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+MIAMI-DADE
+Aventura — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Florida City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hialeah Gardens — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Key Biscayne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Miami Lakes — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Miami Shores — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Miami Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+North Bay Village — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+North Miami — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+North Miami Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Opa-locka — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pinecrest — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+South Miami — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sunny Isles Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sweetwater — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+West Miami — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+MONROE
+Marathon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+NASSAU
+Callahan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+OKALOOSA
+Mary Esther — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+ORANGE
+Belle Isle — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Eatonville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Oakland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Windermere — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PALM BEACH
+Belle Glade — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lake Worth Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+North Palm Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palm Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palm Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Tequesta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PASCO
+Port Richey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PINELLAS
+Gulfport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pinellas Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Safety Harbor — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+POLK
+Davenport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PUTNAM
+Crescent City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Interlachen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SANTA ROSA
+Gulf Breeze — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SARASOTA
+Longboat Key — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SEMINOLE
+Lake Mary — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+ST. JOHNS
+St. Augustine Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SUMTER
+Bushnell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+VOLUSIA
+Edgewater — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Holly Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Orange City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+South Daytona — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+WALTON
+Freeport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Santa Rosa Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lantana— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+
+
+
+Lake Helen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Oak Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pierson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+ALACHUA
+High Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Newberry — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+BAY
+Springfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+BROWARD
+Lighthouse Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+COLUMBIA
+Fort White — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+FLAGLER
+Bunnell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+INDIAN RIVER
+Indian River Shores — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+MARTIN
+Jupiter Island — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sewall's Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+MIAMI-DADE
+Bal Harbour — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bay Harbor Islands — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Biscayne Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Golden Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Indian Creek — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Medley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Virginia Gardens — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+MONROE
+Key Colony Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Layton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+NASSAU
+Hilliard — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+OKALOOSA
+Valparaiso — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PALM BEACH
+Cloud Lake — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Glen Ridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Golf — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Gulf Stream — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Haverhill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Highland Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hypoluxo — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Juno Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Jupiter Inlet Colony — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lake Clarke Shores — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lake Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Manalapan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Mangonia Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Ocean Ridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pahokee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palm Beach Shores — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+South Bay — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+South Palm Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PASCO
+Port Richey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PINELLAS
+Belleair — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Belleair Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Belleair Bluffs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Indian Rocks Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Indian Shores — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Kenneth City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Madeira Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Redington Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Redington Shores — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+South Pasadena — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Treasure Island — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+PUTNAM
+Welaka — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+SANTA ROSA
+Jay — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+
+
 
 fl
 #	City	County	Needs
@@ -2933,11 +3356,239 @@ FLORIDA BATCH 5 — REMAINING 5,000+ CITIES
 36	Winter Springs	Seminole	city site, police, municipal court
 37	Zephyrhills	Pasco	city site, police, municipal court
 
+GEORGIA
 
 
+
+Acworth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Adairsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Albany — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Alpharetta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Americus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Athens — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Atlanta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Augusta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Blairsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Brookhaven — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Brunswick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cairo — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Calhoun — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Carrollton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cartersville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cedartown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Chamblee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Chatsworth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cleveland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+College Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Columbus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Commerce — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Conyers — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cornelia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Covington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cumming — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dahlonega — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dallas — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dalton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Decatur — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Douglas — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Douglasville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dublin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Duluth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dunwoody — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+East Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Fayetteville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Forest Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Fort Oglethorpe — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Gainesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Griffin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hinesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hiram — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Jefferson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Jesup — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Johns Creek — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Kennesaw — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Kingsland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lafayette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+LaGrange — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lawrenceville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lyons — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Macon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Marietta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+McDonough — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Milledgeville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Milton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Monroe — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Moultrie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Newnan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Norcross — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Peachtree City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Peachtree Corners — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pooler — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Powder Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rincon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Ringgold — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Riverdale — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rockmart — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rome — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Roswell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sandy Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Savannah — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Smyrna — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Snellville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Springfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+St Marys — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Statesboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Stockbridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Stone Mountain — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sugar Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Suwanee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sylvester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Thomasville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Tifton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Toccoa — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Tucker — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Union City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Valdosta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Vidalia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Warner Robins — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Waycross — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Woodstock — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
 GA
 
-GEORGIA — 5,000+ CITIES RESEARCH LIST
+Morrow	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Clarkston— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+	
+DeKalb	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Fairburn  — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+Lilburn	Gwinnett— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hampton	Henry	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Midland	Muscogee— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+ Braselton - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+ Auburn - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+ Flowery_Branch - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+Locust Grove - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+ Tyrone - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+Social_Circle - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+Byron - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+
+
+— 5,000+ CITIES RESEARCH LIST
 
 #	City	County	Needs
 1	Acworth	Cobb	city site, police, municipal court
@@ -3042,7 +3693,32 @@ GEORGIA — 5,000+ CITIES RESEARCH LIST
 
 exact websites, and other details, hrs, addresses, phone #s etc.
 
-HI
+
+│ Hilo
+│   Kailua_Kona - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+├   Honolulu - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+│   Honolulu_City - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+├   Kalawao - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+├   Lihue - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+├──
+│   Kahului - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+│   Kihei - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+│   Lahaina - city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+└──Kaneohe — Adventist Health Castle (~20 mins away in Kailua)
+
+Wahiawa — Wahiawa General Hospital
+
+Tripler Army Medical Center — near Honolulu
+    
+PS C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\lawclaw\jurisdictions\us\hi>
 
 
 #	City	County	Needs
@@ -3058,6 +3734,179 @@ HI
 
 
 IA 
+
+
+IOWA
+Algona — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Ames — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Anamosa — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Ankeny — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Atlantic — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bettendorf — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Boone — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Burlington — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Carroll — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cedar Falls — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cedar Rapids — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Charles City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Clarinda — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Clinton City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Council Bluffs — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cresco — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Davenport — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Decorah — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Denison — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Des Moines City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dubuque City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Eldora — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Estherville — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Fort Dodge — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Fort Madison — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Grinnell — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hampton — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Independence — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Indianola — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Iowa City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Keokuk — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Knoxville — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Marion — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Marshalltown — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Mason City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Mount Pleasant — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Muscatine — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Newton — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Oelwein — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Ottumwa — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pella — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sioux City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Spencer — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Storm Lake — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Urbandale — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Washington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Waterloo — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Waukee — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Waverly — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+West Des Moines — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+
+
+
+
+
+
+
+
+Coralville — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+North Liberty	 — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Altoona	Polk — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+Johnston — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+Clive	 — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Norwalk	Warren	 — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pleasant Hill	 — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Clear Lake — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+Hiawatha — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+Windsor Heights	 — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Centerville — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+Webster City — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+Perry	Dallas	 — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+
+Mount Vernon — city site, police,  court, jail, hospital(s) with coordinates, library, building permit urls
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3154,6 +4003,88 @@ IOWA BATCH 3 — FINAL 25 CITIES
 25	Grundy Center	Grundy	city site, police, municipal court
 
 ID
+
+
+
+IDAHO
+Ammon — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+American Falls — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Blackfoot — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Boise City — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bonners Ferry — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Burley — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Caldwell — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Coeur d'Alene — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Eagle — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Emmett — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Garden City — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Gooding — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hailey — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Homedale — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Idaho Falls — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Jerome — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Kellogg — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Kuna — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Lewiston — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+McCall — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Meridian — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Montpelier — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Moscow — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Mountain Home — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Nampa — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Orofino — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Payette — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pocatello — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Post Falls — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Preston — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rexburg — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rigby — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rupert — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Saint Anthony — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Salmon — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Soda Springs — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Star — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Twin Falls City — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
+Weiser — city site, police, court, jail, hospital(s) with coordinates, library, building permit urls
+
 
 IDAHO BATCH 1 — EXISTING CITY FOLDERS (17)
 
@@ -3273,10 +4204,683 @@ ILLINOIS BATCH 2 — REMAINING 35 CITIES
 28	Waukegan	Lake	city site, police, municipal court
 29	Wheaton	DuPage	city site, police, municipal court
 30	Woodstock	McHenry	city site, police, municipal court
+ILLINOIS — BATCH 1 (25 cities)
+Algonquin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Alton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Arlington Heights — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Aurora — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Belleville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bloomington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bolingbrook — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Carbondale — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Champaign — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Charleston — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Chicago — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Collinsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Crystal Lake — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Danville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Decatur — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+DeKalb — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Downers Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+East Peoria — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+East St. Louis — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Edwardsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Elgin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Eureka — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Evanston — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Freeport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Galesburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+ILLINOIS — BATCH 2 (30 cities)
+Granite City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Joliet — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Kankakee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+La Salle — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Loves Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Machesney Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Marion — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+McHenry — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Moline — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Morton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Naperville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+O'Fallon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Orland Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Oswego — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Ottawa — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Palatine — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Pekin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Peoria — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Peru — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Quincy — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rock Island — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Rockford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Schaumburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Springfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Sterling — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Urbana — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Washington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Waukegan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Wheaton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Woodstock — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+
+
+
+
+Addison — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bartlett — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Batavia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Belvidere — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bensenville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Berwyn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Blue Island — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Bridgeview — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Buffalo Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Burbank — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Calumet City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Carol Stream — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Carpentersville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Centralia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Chicago Heights — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Cicero — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Country Club Hills — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Des Plaines — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Dolton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Elk Grove Village — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Elmhurst — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Franklin Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Geneva — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Glenview — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Glendale Heights — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Gurnee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Hanover Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+Harvey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Herrin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Hickory Hills — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Highland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Highland Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Hoffman Estates — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Homewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Huntley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Jacksonville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Jerseyville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Kankakee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Kewanee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Lake Forest — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Lake Zurich — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+ with all agencies urls!!!!!
+
+
+Lincoln — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Lombard — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Macomb — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Matteson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+ with all agencies urls!!!!!
+
+
+Maywood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Melrose Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Montgomery — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Morton Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Mount Prospect — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Mundelein — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+New Lenox — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Niles — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Normal — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+ with all agencies urls!!!!!
+
+
+North Chicago — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Northbrook — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+ with all agencies urls!!!!!
+
+
+Oak Forest — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Oak Lawn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Oak Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Park Ridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Plainfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Prospect Heights — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Richton Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Riverdale — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Rolling Meadows — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Romeoville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Round Lake Beach — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Skokie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+South Holland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+St. Charles — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Streamwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Sycamore — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Taylorville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Tinley Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Vernon Hills — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Villa Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+West Chicago — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Westmont — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Wheeling — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Wilmette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+Westmont 
+
+
+Wood Dale — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Woodridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Zion — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Princeton, IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Breese— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Robinson— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Effingham— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Vandalia— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Benton, West Frankfort— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Canton— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Morris, Minooka— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Watseka— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Mount Vernon— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Dixon— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Pontiac, IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Carlinville— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Salem— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Litchfield— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Rochelle— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Du Quoin— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Chester— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Olney— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Harrisburg— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Anna— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Monmouth— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Fairfield, IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+	Carmi— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+Paris, IL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+Metropolis, IL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Monticello, IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+Mount Carmel, IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+
+
+6. Flora IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+7. Shelbyville
+IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+8. Tuscola IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+9. Sullivan IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+10. Lawrenceville IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+
+
+
+
 
 
 IN
 Now the full Indiana research list — 56 cities:
+Missing Indiana cities by county:
+
+County	Missing Cities
+Allen	None (Fort Wayne, New Haven done)
+Clark	None (Clarksville, Jeffersonville done)
+Elkhart	None (Elkhart, Goshen done)
+Hamilton	Noblesville, Westfield
+Hendricks	Avon
+Johnson	None (Franklin, Greenwood done)
+Lake	None (all major ones done)
+LaPorte	None (La Porte, Michigan City done)
+Madison	Elwood
+Marion	Beech Grove, Lawrence, Speedway
+Monroe	None (Bloomington done)
+Porter	None (Portage, Valparaiso done)
+St. Joseph	Mishawaka
+Tippecanoe	West Lafayette
+Vanderburgh	None (Evansville done)
+Vigo	None (Terre Haute done)
+And entire missing counties with cities
+
+Lawrenceville IL— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls!!!!!
+all files are subject to have incorrect information due to previous   please list all cities greater than 5000 in the above format
+You're right — let me list all missing Indiana cities over 5,000 in the format you need:
+
+Beech Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Noblesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Westfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Avon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Elwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lawrence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+INDIANA 
+
+
+
+Anderson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Angola — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Avon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Beech Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bloomington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Boonville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Brownsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Carmel — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Clarksville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Columbus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Crown Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+East Chicago — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Elkhart — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Elwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Evansville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fishers — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fort Wayne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Franklin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Gary — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Goshen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Greenfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Greenwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hammond — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hobart — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Indianapolis — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Jasper — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Jeffersonville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Kendallville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Kokomo — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+La Porte — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lafayette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lawrence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lawrenceburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Marion — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Martinsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Merrillville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Michigan City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mishawaka — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Muncie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Munster — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+New Albany — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+New Haven — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Noblesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Plainfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Plymouth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Portage — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Richmond — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Salem — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Schererville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Scottsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shelbyville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+South Bend — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Speedway — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Terre Haute — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Valparaiso — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wabash — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Warsaw — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+West Lafayette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Westfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Williamsport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Plainfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+Greenfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+Fishers — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+
+
+
+
+
 
 #	City	County	Needs
 
@@ -3344,6 +4948,139 @@ KS
 Kansas research list — 33 cities total, quick batch:
 
 #	City	County	Needs
+Here are all Kansas cities over 5,000 — both existing and missing — formatted for your research:
+
+Arkansas City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Atchison — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Augusta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bonner Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Burlington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Chanute — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Coffeyville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Colby — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Concordia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Derby — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Dodge City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Edwardsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+El Dorado — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Emporia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Eudora — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fort Scott — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Garden City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Great Bend — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hays — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hiawatha — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hutchinson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Independence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Iola — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Junction City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Kansas City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lansing — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Larned — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lawrence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Leavenworth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lenexa — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Liberal — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Louisburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Manhattan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Marysville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+McPherson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Merriam — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mission — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mulvane — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Newton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ogden — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Olathe — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ottawa — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Overland Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Paola — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Parsons — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Pittsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Prairie Village — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Pratt — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Roeland Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Rose Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Salina — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shawnee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Silver Lake — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Solomon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Spring Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Tonganoxie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Topeka — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ulysses — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Valley Center — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wamego — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wellington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wichita — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Winfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Merriam— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+
 
 
 1	Bonner Springs	Wyandotte	city site, police, municipal court
@@ -3433,7 +5170,319 @@ KENTUCKY BATCH 2 — REMAINING 24 CITIES
 21	Winchester	Clark	city site, police, municipal court
 
 
+
+Ashland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bardstown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Beaver Dam — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Berea — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bowling Green — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Campbellsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Coal Run — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Corbin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Covington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Danville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Dry Ridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Edgewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Elizabethtown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Erlanger — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Flatwoods — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Florence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fort Thomas — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Frankfort — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Georgetown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Glasgow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Grayson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hamburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Harlan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Harrodsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hazard — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Henderson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hopkinsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Independence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Jeffersontown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+La Grange — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Leitchfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lexington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+London — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lone Oak — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Louisville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lyndon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Madisonville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mayfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Middlesboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mount Sterling — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mount Washington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Murray — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Newport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Nicholasville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Oak Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Owensboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Paducah — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Paris — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Pikeville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Prestonsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Radcliff — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Richmond — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shelbyville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shepherdsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shively — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Smiths Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Somerset — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+St. Matthews — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Whitesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Winchester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+Grayson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+ Fort Thomas city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+ Smiths Grove city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+Franklin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lawrenceburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Versailles — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Princeton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Morehead — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Central City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Russellville— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Cynthiana — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
 LA
+
+
+
+Abbeville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Alexandria — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Algiers — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Amite City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Audubon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bastrop — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Baton Rouge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Belle Chasse — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Benton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bogalusa — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bossier City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Breaux Bridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Broussard — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Campti — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Carencro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Central — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Chalmette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Colfax — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Covington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Crowley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Denham Springs — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+DeRidder — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Destrehan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Eunice — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fort Johnson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Franklin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Franklinton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Gonzales — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Grambling — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Gray — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Gretna — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hammond — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Harahan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Houma — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Jeanerette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Jennings — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Kenner — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lafayette — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lake Charles — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+LaPlace — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Leesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lockport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Luling — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lutcher — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mandeville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mansfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Marksville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Metairie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Minden — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Monroe — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Morgan City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Natchitoches — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+New Iberia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+New Orleans — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+New Roads — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Norco — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Oakdale — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Opelousas — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Patterson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Pineville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Plaquemine — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ponchatoula — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Prairieville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Reserve — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ruston — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shreveport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Slidell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Sulphur — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Thibodaux — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Vidalia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ville Platte — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Vivian — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Walker — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+West Monroe — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Westlake — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Westwego — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Youngsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Zachary — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+
+
+
 52 new city folders. Louisiana research list — 77 cities total. Big batch. Here's the first 25:
 
 #	City	Parish	Needs
@@ -3511,6 +5560,245 @@ LOUISIANA BATCH 2 — REMAINING 52 CITIES
 
 
 MA
+
+
+Massachusetts is next. All existing cities need verified data with correct court types. Let me list all MA cities over 5,000 — both existing and missing:
+
+Adams — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Agawam — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Amesbury — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Amherst — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Arlington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Attleboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Auburn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Barnstable Town — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Beverly — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Billerica — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Boston — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Braintree — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Bridgewater — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Brockton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Brookline — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Burlington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Cambridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Chelmsford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Chelsea — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Chicopee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Danvers — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Dartmouth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Dedham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Deerfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+East Longmeadow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Easthampton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Easton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Everett — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fall River — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Falmouth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Fitchburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Framingham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Gardner — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Gloucester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Grafton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Great Barrington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Greenfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Haverhill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Hingham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Holden — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Holyoke — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lawrence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lenox — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Leominster — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lexington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Longmeadow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lowell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Ludlow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Lynn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Malden — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Mansfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Marblehead — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Marlborough — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Marshfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Medford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Melrose — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Methuen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Middleborough — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Milford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Montague — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Natick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Needham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+New Bedford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Newburyport — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Newton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+North Reading — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Northampton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Norton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Norwood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Peabody — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Pittsfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Plymouth Town — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Quincy — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Randolph — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Raynham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Reading — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Revere — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Salem — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Sandwich — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Saugus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Scituate — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Shrewsbury — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Somerset — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Somerville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+South Hadley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Southbridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Springfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Stoneham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Stoughton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Swampscott — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Swansea — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Taunton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Tewksbury — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wakefield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Waltham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wareham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Watertown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Webster — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wellesley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+West Springfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Westborough — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Westfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Weymouth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Wilmington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Winchester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Winthrop — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Woburn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Worcester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+Yarmouth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #	City	County	Needs
@@ -3598,6 +5886,185 @@ MASSACHUSETTS BATCH 2 — REMAINING 5,000+ CITIES
 
 MD
 
+
+Allegany County
+Cumberland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls!!!
+
+Anne Arundel County
+Annapolis — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Glen Burnie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Odenton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Pasadena — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Severn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Baltimore City
+Baltimore — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Baltimore County
+Catonsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Dundalk — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Owings Mills — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Parkville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Perry Hall — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Reisterstown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Towson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Carroll County
+Eldersburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Sykesville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Westminster — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Cecil County
+Elkton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Charles County
+Indian Head — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+La Plata — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Waldorf — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+
+Frederick County
+Frederick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+New Market — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Urbana — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+Harford County
+Aberdeen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Bel Air — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Edgewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Havre de Grace — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Joppatowne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Howard County
+Columbia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Elkridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Ellicott City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Montgomery County
+Aspen Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Bethesda — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Clarksburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Damascus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Gaithersburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Germantown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Olney — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Potomac — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Rockville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Silver Spring — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Takoma Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Wheaton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Prince George's County
+Adelphi — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Beltsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Bowie — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Clinton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+College Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Fort Washington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Greenbelt — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Hyattsville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Lanham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Largo — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Laurel — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Oxon Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Seabrook — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Suitland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Temple Hills — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Upper Marlboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls
+
+St. Mary's County
+California — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Leonardtown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Lexington Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+
+Washington County
+Boonsboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Hagerstown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Smithsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Wicomico County
+Delmar — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Salisbury — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+Worcester County
+Ocean City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls, with all agencies urls !!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Now the full Maryland research list — 75 cities. Here's the first batch of 30:
 
 #	City	County	Needs
@@ -3681,6 +6148,9 @@ MARYLAND BATCH 3 — FINAL 15 CITIES
 7	Takoma Park	Montgomery	city site, police, district court
 8	Temple Hills	Prince George's	city site, police, district court
 9	Urbana	Frederick	city site, police, district court
+
+
+
 
 
 Maine has 17 cities across 11 counties. Small batch. Here's the full research list:

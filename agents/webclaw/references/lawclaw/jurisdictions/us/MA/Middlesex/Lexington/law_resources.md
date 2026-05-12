@@ -1,19 +1,28 @@
-# Lexington — Local Law Resources
-## City Website
-- https://www.lexingtonma.gov/
+﻿# Lexington — Local Law Resources
+## Town Website
+- https://www.lexingtonma.gov — (781) 862-0500
+- Address: 1625 Massachusetts Avenue, Lexington, MA 02420
 ## Law Enforcement
-- Lexington PD — 13 Depot St — (781) 861-2100
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Lexington Police Department
+- Address: 1575 Massachusetts Avenue, Lexington, MA 02420
+- Emergency: 911 | Non-Emergency: (781) 862-1212
+- Police Website: https://www.lexingtonma.gov/371/Police
 ## Courts
-- Woburn District Court — 30 Pleasant St — (781) 897-8725
-- **Court Website**: https://www.mass.gov/courts/
+- Woburn District Court — https://www.mass.gov/locations/woburn-district-court
+## Detention Center
+- Lexington Police Department (short-term) — 1575 Massachusetts Avenue — (781) 862-1212
+- Middlesex County House of Correction Inmate Search: https://sheriff.mass.gov/inmate-search
 ## Building Permits
-- Lexington Building Department — https://www.lexingtonma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Middlesex County Jail
+- Building Office
+- Phone: (781) 862-6550
+- Address: 1625 Massachusetts Avenue, Lexington, MA 02420
+- Online Portal: https://aca.accela.com/LEXINGTON
+- Website: https://www.lexingtonma.gov/178/Building-Office
+## Library
+- Cary Memorial Library
+- Address: 1874 Massachusetts Ave, Lexington, MA 02420
+- Phone: (781) 861-2526
+- Website: https://www.carylibrary.org
+## Hospitals
+- Mount Auburn Hospital — 330 Mount Auburn St, Cambridge, MA 02138 — (617) 441-3000 — 42.3683° N, 71.1170° W
+  Website: https://www.mountauburnhospital.org

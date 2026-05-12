@@ -1,17 +1,29 @@
-# Dry Ridge — Local Law Resources
+﻿# Dry Ridge — Local Law Resources
+## City Website
+- https://cdrky.org — (859) 824-3335
+- Address: 31 Broadway St, Dry Ridge, KY 41035
+- Mailing: PO Box 145, Dry Ridge, KY 41035
 ## Law Enforcement
 - Dry Ridge Police Department
-- Grant County Sheriff
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Address: 31 Broadway St, Dry Ridge, KY 41035
+- Emergency: 911 | Non-Emergency: (859) 824-3335
+- Chief: Rick Kells
+- Police Website: https://cdrky.org/departments/police-department/
 ## Courts
-- Dry Ridge Municipal Court
+- Municipal Court — Contact City Hall: (859) 824-3335
+## Detention Center
+- Dry Ridge City Jail — 31 Broadway St — (859) 824-3335
+- Inmate Roster: https://kentuckyarrestsearch.org/kentucky/dry-ridge-city-jail/
 ## Building Permits
-- Dry Ridge Building Department
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Grant County Jail
+- Contact via City Hall: (859) 824-3335
+- Website: https://cdrky.org
+## Library
+- Grant County Public Library – Main Branch
+- Address: 211 E Main St, Williamstown, KY 41097
+- Phone: (859) 824-4400
+- Website: https://grantcounty.lib.ky.us
+## Hospitals
+- St. Elizabeth Grant Hospital — 238 Barnes Rd, Williamstown, KY 41097 — (859) 824-8240 — 38.6820° N, 84.5899° W
+  Website: https://www.stelizabeth.com
+- St. Elizabeth Physicians – Dry Ridge — 19 S Main St, Dry Ridge, KY 41035 — (859) 823-5441 — 38.6821° N, 84.5888° W
+  Website: https://www.stelizabethphysicians.com

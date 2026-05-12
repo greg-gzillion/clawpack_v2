@@ -1,19 +1,31 @@
-# Crowley — Local Law Resources
+﻿# Crowley — Local Law Resources
 ## City Website
-- https://crowley-la.com/
+- https://crowley-la.com — (337) 788-4100
+- Address: 425 N Parkerson Avenue, Crowley, LA 70526
+- Hours: Mon–Thu: 8:00 AM – 4:30 PM; Fri: 8:00 AM – 12:00 PM
 ## Law Enforcement
-- Crowley PD — 426 N Ave F — (337) 788-4114
-- Louisiana State Police — https://www.lsp.org/
+- Crowley Police Department
+- Address: 426 N Avenue F, Crowley, LA 70526
+- Emergency: 911 | Non-Emergency: (337) 783-1234
+- Chief: Troy Hebert
+- Police Website: https://crowleypolice.com
 ## Courts
-- Acadia Parish Justice of the Peace — 500 NE Court Cir — (337) 788-4100
-- **Court Website**: https://crowley-la.com/
+- Crowley City Court — 426 N Avenue F, 2nd Floor, Crowley, LA 70526 — (337) 788-4117
+- Judge: Marie B. "M'elise" Trahan
+- Court Website: https://crowleycitycourt.org
+## Detention Center
+- Crowley Police Department Jail — 426 N Avenue F — (337) 788-4114
+- Inmate Roster: https://crowleypolice.com
 ## Building Permits
-- Crowley Building Department — https://crowley-la.com/
-## Hunting Regulations
-- LA Hunting Regulations — https://www.wlf.louisiana.gov/page/hunting-regulations
-## Fishing Regulations
-- LA Fishing Regulations — https://www.wlf.louisiana.gov/page/fishing-regulations
-## Legal Aid
-- Louisiana Legal Aid — https://www.louisianalawhelp.org/
-## Corrections
-- Acadia Parish Jail
+- Code Enforcement Department
+- Phone: (337) 788-4100
+- Permit Applications: https://crowley-la.com/online-forms/
+- Website: https://crowley-la.com
+## Library
+- Acadia Parish Library – Crowley Branch
+- Address: 1125 N Parkerson Ave, Crowley, LA 70526
+- Phone: (337) 788-2256
+- Website: https://www.acadiaparishlibrary.org
+## Hospitals
+- Acadia General Hospital — 1001 W 2nd St, Crowley, LA 70526 — (337) 788-2111 — 30.2180° N, 92.3475° W
+  Website: https://www.acadiageneral.com

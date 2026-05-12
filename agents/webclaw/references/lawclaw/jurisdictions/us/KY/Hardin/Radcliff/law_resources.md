@@ -1,19 +1,31 @@
-# Radcliff — Local Law Resources
+﻿# Radcliff — Local Law Resources
 ## City Website
-- https://www.cityofradcliff.org/
+- https://radcliff.org — (270) 351-4714
+- Address: 411 W. Lincoln Trail Blvd, P.O. Box 519, Radcliff, KY 40159
 ## Law Enforcement
-- Radcliff PD — 220 Freedoms Way — (270) 351-4477
-- Kentucky State Police — https://www.kentuckystatepolice.ky.gov/
+- Radcliff Police Department
+- Address: 220 Freedoms Way, Radcliff, KY 40160
+- Emergency: 911 | Non-Emergency: (270) 351-4479
+- Chief: Jeff Cross
+- Police Website: https://radcliff.org/police-department
 ## Courts
-- Radcliff Municipal Court — 220 Freedoms Way — (502) 351-1299
-- **Court Website**: https://www.cityofradcliff.org/
+- Hardin District Court — 1881 Wilson Lane, Elizabethtown, KY 42701 — (270) 769-2451
+- Website: https://kycourts.gov
+## Detention Center
+- Radcliff Police Department Jail — 220 Freedoms Way — (270) 351-4479
+- Inmate Roster: https://radcliff.org/police-department
+- Hardin County Detention Center — 1881 Wilson Lane, Elizabethtown, KY 42701 — (270) 765-5575
+- Inmate Roster: https://www.hardincourts.com
 ## Building Permits
-- Radcliff Building Department — https://www.cityofradcliff.org/
-## Hunting Regulations
-- KY Hunting Regulations — https://www.fw.ky.gov/Hunt/
-## Fishing Regulations
-- KY Fishing Regulations — https://www.fw.ky.gov/Fish/
-## Legal Aid
-- Kentucky Legal Aid — https://www.klaid.org/
-## Corrections
-- Hardin County Jail
+- Economic Development, Planning and Building Department
+- Phone: (270) 351-1875
+- Email: murray.wanner@radcliffky.gov
+- Permit Applications: https://radcliff.org/economic-development-planning-and-building/
+## Library
+- Hardin County Public Library – North Branch
+- Address: 1800 Fort Logan Road, Elizabethtown, KY 42701
+- Phone: (270) 765-2400
+- Website: https://hardincounty.lib.ky.us
+## Hospitals
+- Baptist Health Hardin — 913 N Dixie Hwy, Elizabethtown, KY 42701 — (270) 765-7451 — 37.6980° N, 85.8748° W
+  Website: https://www.baptist-health.com

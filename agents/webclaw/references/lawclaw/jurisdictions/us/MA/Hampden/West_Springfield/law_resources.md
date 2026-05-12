@@ -1,19 +1,27 @@
-# West Springfield — Local Law Resources
-## City Website
-- https://www.westspringfieldma.gov/
+﻿# West Springfield — Local Law Resources
+## Town Website
+- https://www.townofwestspringfield.org — (413) 263-3000
+- Address: 26 Central Street, West Springfield, MA 01089
 ## Law Enforcement
-- West Springfield PD — 176 Main St — (413) 736-1421
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- West Springfield Police Department
+- Address: 26 Central Street, West Springfield, MA 01089
+- Emergency: 911 | Non-Emergency: (413) 263-3012
+- Police Website: https://www.townofwestspringfield.org/Community-Resources/Police-Department
 ## Courts
-- Springfield District Court — 175 State St — (413) 747-4841
-- **Court Website**: https://www.mass.gov/courts/
+- Springfield District Court — https://www.mass.gov/locations/springfield-district-court
+## Detention Center
+- West Springfield Police Department (short-term) — 26 Central Street — (413) 263-3012
+- Hampden County Jail & House of Correction Inmate Search: https://sheriff.hampden.org/inmate-search
 ## Building Permits
-- West Springfield Building Department — https://www.westspringfieldma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Hampden County Jail
+- Building Department
+- Phone: (413) 263-3040
+- Address: 26 Central Street, Suite 8, West Springfield, MA 01089
+- Online Portal: https://www.townofwestspringfield.org/Business/Building-Department
+## Library
+- West Springfield Public Library
+- Address: 601 State Street, West Springfield, MA 01089
+- Phone: (413) 263-1324
+- Website: https://www.westspringfieldlibrary.org
+## Hospitals
+- Mercy Medical Center — 301 Carew Street, Springfield, MA 01104 — (413) 794-5000 — 42.1017° N, 72.5781° W
+  Website: https://www.holyokehealth.com

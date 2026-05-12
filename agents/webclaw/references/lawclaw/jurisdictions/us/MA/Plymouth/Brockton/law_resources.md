@@ -1,19 +1,27 @@
-# Brockton — Local Law Resources
+﻿# Brockton — Local Law Resources
 ## City Website
-- https://www.brockton.ma.us/
+- https://brockton.ma.us — (508) 580-7150
+- Address: 45 School Street, Brockton, MA 02301
 ## Law Enforcement
-- Brockton PD — 90 West St — (508) 941-0200
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Brockton Police Department
+- Address: 45 School Street, Brockton, MA 02301
+- Emergency: 911 | Non-Emergency: (508) 580-7123
+- Police Website: https://brocktonpolice.com
 ## Courts
-- Brockton District Court — 215 Main St — (508) 587-8000
-- **Court Website**: https://www.mass.gov/courts/
+- Brockton District Court — https://www.mass.gov/courts/court-locations/brockton-district-court.html
+## Detention Center
+- Brockton Police Department (short-term) — 45 School Street — (508) 580-7123
+- Plymouth County Correctional Facility Inmate Search: https://sheriff.plymouthcounty.org/inmate-search
 ## Building Permits
-- Brockton Building Department — https://www.brockton.ma.us/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Plymouth County Jail
+- Building Department
+- Phone: (508) 580-7150
+- Address: 45 School Street, Brockton, MA 02301
+- Online Portal: https://brockton.ma.us/city-departments/building/
+## Library
+- Brockton Public Library
+- Address: 304 Main Street, Brockton, MA 02301
+- Phone: (508) 580-7524
+- Website: https://www.brocktonpubliclibrary.org
+## Hospitals
+- Signature Healthcare Brockton Hospital — 1101 MacArthur Blvd, Brockton, MA 02301 — (508) 580-7000 — 42.0819° N, 71.0189° W
+  Website: https://www.signaturehealthcare.org

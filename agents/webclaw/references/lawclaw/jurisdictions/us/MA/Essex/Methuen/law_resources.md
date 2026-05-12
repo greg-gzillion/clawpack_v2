@@ -1,19 +1,29 @@
-# Methuen — Local Law Resources
+﻿# Methuen — Local Law Resources
 ## City Website
-- https://www.methuen.gov/
+- https://www.cityofmethuen.net — (978) 983-8500
+- Address: 575 Merrimack Street, Methuen, MA 01844
 ## Law Enforcement
-- Methuen PD — 260 Broadway — (978) 947-1500
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Methuen Police Department
+- Address: 90 Hampshire Street, Quinn Public Safety Building, Methuen, MA 01844
+- Emergency: 911 | Non-Emergency: (978) 983-8698
+- Police Website: https://www.cityofmethuen.net/375/Police-Department
 ## Courts
-- Lawrence District Court — 2 Appleton St, Lawrence — (978) 687-7184
-- **Court Website**: https://www.mass.gov/courts/
+- Lawrence District Court — 2 Appleton Street, Lawrence, MA 01840
+- Court Website: https://www.mass.gov/locations/lawrence-district-court
+## Detention Center
+- Methuen Police Department (short-term) — 90 Hampshire Street — (978) 983-8698
+- Essex County Correctional Facility Inmate Search: https://www.mass.gov/info-details/essex-county-correctional-facility-inmate-search
 ## Building Permits
-- Methuen Building Department — https://www.methuen.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Inspections Division
+- Phone: (978) 983-8625
+- Address: 575 Merrimack Street, Methuen, MA 01844
+- Online Portal: https://permiteyes.us/methuen
+- Website: https://www.cityofmethuen.net/344/Inspections-Division
+## Library
+- Nevins Library
+- Address: 305 Broadway, Methuen, MA 01844
+- Phone: (978) 983-8540
+- Website: https://nevinslibrary.org
+## Hospitals
+- Lawrence General Hospital — 170 Governors Avenue, Lawrence, MA 01840 — (978) 687-2121 — 42.7056° N, 71.1639° W
+  Website: https://www.lawrencegeneral.org

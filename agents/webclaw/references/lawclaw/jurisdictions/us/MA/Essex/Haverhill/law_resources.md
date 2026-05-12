@@ -1,19 +1,28 @@
-# Haverhill — Local Law Resources
+﻿# Haverhill — Local Law Resources
 ## City Website
-- https://www.haverhillma.gov/
+- https://www.haverhillma.gov — (978) 374-2300
+- Address: 4 Summer Street, Haverhill, MA 01830
 ## Law Enforcement
-- Haverhill PD — 4 Summer St — (978) 373-1500
-- Massachusetts State Police — https://www.mass.gov/orgs/massachusetts-state-police
+- Haverhill Police Department
+- Address: 40 Bailey Boulevard, Haverhill, MA 01830
+- Emergency: 911 | Non-Emergency: (978) 373-1212
+- Police Website: https://www.haverhillpolice.com
 ## Courts
-- Haverhill District Court — 50 Winter St — (978) 373-2750
-- **Court Website**: https://www.mass.gov/courts/court-locations/haverhill-district-court
+- Haverhill District Court — 222 Washington Street, Haverhill, MA 01830 — (978) 374-8400
+- Court Website: https://www.mass.gov/locations/haverhill-district-court
+## Detention Center
+- Haverhill Police Department (short-term) — 40 Bailey Boulevard — (978) 373-1212
+- Essex County Correctional Facility Inmate Search: https://www.mass.gov/info-details/essex-county-correctional-facility-inmate-search
 ## Building Permits
-- Haverhill Building Department — https://www.haverhillma.gov/
-## Hunting Regulations
-- MA Hunting Regulations — https://www.mass.gov/hunting-regulations
-## Fishing Regulations
-- MA Fishing Regulations — https://www.mass.gov/freshwater-fishing
-## Legal Aid
-- Massachusetts Legal Aid — https://www.masslegalservices.org/
-## Corrections
-- Essex County Jail
+- Inspectional Services Department - Building Division
+- Phone: (978) 420-3670
+- Address: 4 Summer Street, Room 214, Haverhill, MA 01830
+- Online Portal: https://www.haverhillma.gov/applications-licenses-and-permits
+## Library
+- Haverhill Public Library
+- Address: 97 Main Street, Haverhill, MA 01830
+- Phone: (978) 373-2300
+- Website: https://www.haverhillpl.org
+## Hospitals
+- Holy Family Hospital - Haverhill — 140 Lincoln Avenue, Haverhill, MA 01830 — (978) 374-2000 — 42.7785° N, 71.0811° W
+  Website: https://www.lh.org
