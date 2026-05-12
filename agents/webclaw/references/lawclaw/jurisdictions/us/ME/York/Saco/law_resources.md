@@ -1,19 +1,29 @@
-# Saco — Local Law Resources
+﻿# Saco — Local Law Resources
 ## City Website
-- https://www.sacomaine.org/
+- https://www.sacomaine.org — (207) 282-1032
+- Address: 300 Main Street, Saco, ME 04072
 ## Law Enforcement
-- Saco PD — 100 North St — (207) 284-4535
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Saco Police Department
+- Address: 20 Storer Street, Saco, ME 04072
+- Emergency: 911 | Non-Emergency: (207) 284-4535
+- Police Website: https://www.sacomaine.org/departments/police_department/index.php
 ## Courts
-- Biddeford District Court — 25 Adams St Ste 2 — (207) 282-0466
-- **Court Website**: https://www.courts.maine.gov/
+- York District Court — 11 Chase's Pond Road, York, ME 03909 — (207) 363-7434
+- Court Website: https://www.courts.maine.gov
+## Detention Center
+- Saco City Jail — 20 Storer Street — (207) 284-4535 — Capacity: 116 inmates
+- York County Jail — 1 Layman Way, Alfred, ME 04002 — (207) 324-9001
 ## Building Permits
-- Saco Building Department — https://www.sacomaine.org/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- York County Jail
+- Saco Code Enforcement Office
+- Phone: (207) 282-1032
+- Address: 300 Main Street, Saco, ME 04072
+- Website: https://www.sacomaine.org/departments/code_enforcement/index.php
+## Library
+- Dyer Library
+- Address: 371 Main Street, Saco, ME 04072
+- Phone: (207) 283-3861
+- Hours: Mon–Thu 9:30 AM–8 PM, Fri 9:30 AM–5 PM, Sat 9:30 AM–3 PM
+- Website: https://www.dyerlibrarysacomuseum.org
+## Hospitals
+- Southern Maine Health Care (SMHC) — 1 Medical Center Drive, Biddeford, ME 04005 — (207) 283-0111 — 43.4908° N, 70.4589° W
+  Website: https://www.smmc.com

@@ -8,20 +8,25 @@
 - https://www.scarboroughmaine.org
 - Phone: (207) 730-4000
 - Address: 259 U.S. Route 1, Scarborough, ME 04074
+- Town Manager: Matthew Bull
+- Administration: https://www.scarboroughmaine.org/government/town-manager
 ## Police Department
 - Scarborough Police Department
 - Address: 246 U.S. Route 1, Scarborough, ME 04074
 - Emergency: 911
 - Non-Emergency: (207) 883-6361
+- Staff Directory: https://www.scarboroughmaine.org/police-staff
 - Police Website: https://www.scarboroughmaine.org/police
 ## Detention Center
 - Scarborough Police Jail (short-term holding) — 246 U.S. Route 1, Scarborough, ME 04074 — (207) 883-6361
+- Jail Info: https://www.scarboroughmaine.org/police
 - Cumberland County Jail — 50 County Way, Portland, ME 04102 — (207) 774-5939
 ## Building Permits
 - Scarborough Code Enforcement Office
 - Phone: (207) 730-4040
 - Address: 259 U.S. Route 1, Scarborough, ME 04074
-- Website: https://www.scarboroughmaine.org/permits
+- Permitting Services: https://www.scarboroughmaine.org/permits
+- Application Forms: https://www.scarboroughmaine.org/permits-applications
 ## Library
 - Scarborough Public Library
 - Address: 480 U.S. Route 1, Scarborough, ME 04074

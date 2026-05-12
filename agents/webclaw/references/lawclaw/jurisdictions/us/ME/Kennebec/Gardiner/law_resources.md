@@ -1,19 +1,35 @@
-# Gardiner — Local Law Resources
+﻿# Gardiner — Local Law Resources
 ## City Website
-- https://www.gardinermaine.org/
+- https://www.gardinermaine.com — (207) 582-4460
+- Address: 6 Church Street, Gardiner, ME 04345
+- Interim City Manager: Denise Brown
+- Staff Directory: https://www.gardinermaine.gov/Government/City-Hall-Directory-And-Hours
 ## Law Enforcement
-- Gardiner PD — 6 Church St — (207) 582-3212
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Gardiner Police Department
+- Address: 6 Church Street, Gardiner, ME 04345
+- Emergency: 911 | Non-Emergency: (207) 582-5150
+- Chief: Todd Pilsbury
+- Police Website: https://www.gardinermaine.com/police
 ## Courts
-- Augusta District Court — (207) 213-2800
-- **Court Website**: https://www.courts.maine.gov/
+- Augusta District Court: https://www.courts.maine.gov
+- Kennebec County Superior Court: https://www.courts.maine.gov
+## Detention Center
+- Gardiner Police Jail (short-term) — 6 Church Street — (207) 582-5150
+- Jail Info/Inmate Roster: https://www.gardinermaine.com/police
+- Kennebec County Correctional Facility — 115 State Street, Augusta, ME 04330 — (207) 623-3616
 ## Building Permits
-- Gardiner Building Department — https://www.gardinermaine.org/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- Kennebec County Jail
+- Gardiner Code Enforcement Office
+- Phone: (207) 620-4853
+- Address: 6 Church Street, Gardiner, ME 04345
+- Permitting Services: https://www.gardinermaine.com/code-enforcement
+- Application Forms: https://www.gardinermaine.com/code-enforcement
+## Library
+- Gardiner Public Library
+- Address: 110 Water Street, Gardiner, ME 04345
+- Phone: (207) 582-3312
+- Coordinates: 44.2292° N, 69.7736° W
+- Website: https://www.gardinermaine.com/library
+## Hospitals
+- Mid Coast Hospital - Gardiner Health Center — 110 Water Street, Gardiner, ME 04345 — (207) 582-1888 — 44.2292° N, 69.7736° W
+  Website: https://www.midcoasthealth.com
+- Gardiner Family Medicine — 5 Central Maine crossing, Gardiner, ME 04345

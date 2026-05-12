@@ -7,6 +7,7 @@
 - Portland Police Department
 - Address: 109 Middle Street, Portland, ME 04101
 - Emergency: 911 | Non-Emergency: (207) 874-8575
+- Anonymous Tip Line: (207) 874-8584
 - Police Website: https://www.portlandmaine.gov/1596/Police
 ## Courts
 - Portland District Court: (207) 822-4200
@@ -15,7 +16,7 @@
 ## Detention Center
 - Portland Police Jail (short-term) — 109 Middle Street — (207) 874-8479
 - Cumberland County Jail — 50 County Way, Portland, ME 04102 — (207) 774-5939
-- Website: https://www.cumberlandso.org
+- County Jail Website: https://www.cumberlandso.org
 ## Building Permits
 - Portland Department of Planning & Urban Development
 - Phone: (207) 874-8117
@@ -28,7 +29,7 @@
 - Coordinates: 43.6579° N, 70.2594° W
 - Website: https://www.portlandlibrary.com
 ## Hospitals
-- Maine Medical Center — 22 Bramhall Street, Portland, ME 04101 — (207) 662-0111 — 43.6533° N, 70.2763° W
+- Maine Medical Center — 22 Bramhall Street, Portland, ME 04101 — (207) 662-1000 — 43.6533° N, 70.2763° W
   Website: https://www.mainemedicalcenter.org
 - Northern Light Mercy Hospital — 175 Fore River Pkwy, Portland, ME 04102
 - New England Rehabilitation Hospital of Portland — 335 Brighton Ave #201, Portland, ME 04102

@@ -1,19 +1,28 @@
-# Sanford — Local Law Resources
+﻿# Sanford — Local Law Resources
 ## City Website
-- https://www.sanfordmaine.gov/
+- https://www.sanfordmaine.org — (207) 324-9125
+- Address: 919 Main Street, Sanford, ME 04073
 ## Law Enforcement
-- Sanford PD — 500 Main St — (207) 324-4000
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Sanford Police Department
+- Address: 917 Main Street, Sanford, ME 04073
+- Emergency: 911 | Non-Emergency: (207) 324-3644
+- Police Website: https://www.sanfordmaine.org/police
 ## Courts
-- Springvale District Court — 447 Main St Ste 1, Springvale — (207) 324-8214
-- **Court Website**: https://www.courts.maine.gov/courts/district/springvale-dc.html
+- Springvale District Court — 447 Main Street, Sanford, ME 04083 — (207) 459-1400
+- Court Website: https://www.courts.maine.gov
+## Detention Center
+- Sanford Police Jail (short-term) — 917 Main Street — (207) 324-9170
+- York County Jail — 1 Layman Way, Alfred, ME 04002 — (207) 324-9001
 ## Building Permits
-- Sanford Building Department — https://www.sanfordmaine.gov/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- York County Jail
+- Sanford Code Enforcement Office
+- Phone: (207) 324-9125
+- Address: 919 Main Street, Sanford, ME 04073
+- Website: https://www.sanfordmaine.org/code-enforcement
+## Library
+- Louis B. Goodall Memorial Library
+- Address: 1364 Main Street, Sanford, ME 04073 (temporary location during renovation)
+- Phone: (207) 324-4714 | Email: info@lbgoodall.org
+- Website: https://lbgoodall.org
+## Hospitals
+- Southern Maine Health Care (SMHC) - Sanford Medical Center — 25 June Street, Sanford, ME 04073 — (207) 324-4310 — 43.4483° N, 70.7680° W
+  Website: https://www.mainehealth.org

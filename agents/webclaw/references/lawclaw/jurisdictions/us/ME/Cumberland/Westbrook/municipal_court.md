@@ -8,20 +8,26 @@
 - https://www.westbrookmaine.com
 - Phone: (207) 854-9105
 - Address: 2 York Street, Westbrook, ME 04092
+- Mayor: Michael T. Foley
+- City Manager: Scott Morelli
 ## Police Department
 - Westbrook Police Department
 - Address: 570 Main Street, Westbrook, ME 04092
 - Emergency: 911
 - Non-Emergency: (207) 854-0644
+- Chief: Daniel J. Ahern
+- Records Division: https://www.westbrookmaine.com/police
 - Police Website: https://www.westbrookmaine.com/police
 ## Detention Center
 - Westbrook Police Jail (short-term holding) — 570 Main Street, Westbrook, ME 04092 — (207) 854-0644
+- Jail Info/Inmate Roster: https://www.westbrookmaine.com/police
 - Cumberland County Jail — 50 County Way, Portland, ME 04102 — (207) 774-5939
 ## Building Permits
 - Westbrook Code Enforcement Office
 - Phone: (207) 854-0638
 - Address: 2 York Street, Westbrook, ME 04092
-- Website: https://www.westbrookmaine.com/code-enforcement
+- Permitting Services: https://www.westbrookmaine.com/code-enforcement
+- Note: Forms page (westbrookmaine.com/forms) returned 404; contact Code Enforcement directly for applications
 ## Library
 - Walker Memorial Library
 - Address: 800 Main Street, Westbrook, ME 04092

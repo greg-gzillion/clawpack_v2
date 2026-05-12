@@ -1,19 +1,33 @@
-# Bangor — Local Law Resources
+﻿# Bangor — Local Law Resources
 ## City Website
-- https://www.bangormaine.gov/
+- https://www.bangormaine.gov — (207) 992-4200
+- Address: 73 Harlow Street, Bangor, ME 04401
+- Staff Directory: https://www.bangormaine.gov/directory.aspx
 ## Law Enforcement
-- Bangor PD — 73 Harlow St — (207) 945-0500
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Bangor Police Department
+- Address: 240 Main Street, Bangor, ME 04401
+- Emergency: 911 | Non-Emergency: (207) 947-7382
+- Chief: Mark Hathaway
+- Anonymous Tips: (207) 947-7382 ext. 3 or via Bangor PD App
+- Police Website: https://www.bangormaine.gov/586/Police-Department
 ## Courts
-- Penobscot County Judicial Center — 97 Hammond St — (207) 561-2300
-- **Court Website**: https://www.courts.maine.gov/
+- Bangor District Court — 78 Exchange Street, Bangor, ME 04401 — (207) 561-2300
+- Court Website: https://www.courts.maine.gov/courts/district/index.html
+## Detention Center
+- Penobscot County Jail — 85 Hammond Street, Bangor, ME 04401 — (207) 947-4585
+- Inmate Search: http://www.penobscot-sheriff.net
 ## Building Permits
-- Bangor Building Department — https://www.bangormaine.gov/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- Penobscot County Jail
+- City of Bangor Code Enforcement Office
+- Phone: (207) 992-4230
+- Address: 73 Harlow Street, Bangor, ME 04401
+- Permit Information: https://www.bangormaine.gov/588/Code-Enforcement
+## Library
+- Bangor Public Library
+- Address: 145 Harlow Street, Bangor, ME 04401
+- Phone: (207) 947-8336
+- Hours: Mon–Thu 10 AM–8 PM, Fri–Sat 10 AM–5 PM
+- Website: http://www.bpl.lib.me.us
+## Hospitals
+- Northern Light Eastern Maine Medical Center — 489 State Street, Bangor, ME 04401 — (207) 973-7000 — 44.8082° N, 68.7514° W
+  Website: https://www.northernlighthealth.org
+- St. Joseph Healthcare — 360 Broadway, Bangor, ME 04401 — (207) 907-1000 — 44.8036° N, 68.7731° W

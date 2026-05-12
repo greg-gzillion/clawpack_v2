@@ -8,21 +8,27 @@
 - https://www.southportland.gov
 - Phone: (207) 767-7601
 - Address: 25 Cottage Road, South Portland, ME 04106
+- City Manager: Scott Morelli
+- Mayor: Elyse Tipton
 ## Police Department
 - South Portland Police Department
 - Address: 30 Anthoine Street, South Portland, ME 04106
 - Emergency: 911
-- Non-Emergency: (207) 874-8575
+- Non-Emergency: (207) 799-5511
+- Chief: Daniel J. Ahern
+- Staff Directory: https://www.southportland.gov/691/Police-Staff-Directory
 - Police Website: https://www.southportland.org/police
 ## Detention Center
 - South Portland Police Jail (short-term holding) — 30 Anthoine Street, South Portland, ME 04106 — (207) 799-5511
 - Capacity: 48 inmates
+- Jail Info: https://www.southportland.org/departments/police-department/
 - Cumberland County Jail — 50 County Way, Portland, ME 04102 — (207) 774-5939
 ## Building Permits
 - South Portland Code Enforcement Office
-- Phone: (207) 767-7603
+- Phone: (207) 799-5511
 - Address: 25 Cottage Road, South Portland, ME 04106
-- Website: https://www.southportland.org/departments/code-enforcement/
+- Permitting Services: https://www.southportland.org/applications-information
+- Application Portal: https://www.southportland.org/online-services
 ## Library
 - South Portland Public Library (Main Branch)
 - Address: 482 Broadway, South Portland, ME 04106

@@ -1,19 +1,31 @@
-# Kennebunk — Local Law Resources
-## City Website
-- https://kennebunkmaine.us/
+﻿# Kennebunk — Local Law Resources
+## Town Website
+- https://www.kennebunkmaine.us — (207) 985-3675
+- Email: info@kennebunkmaine.us
+- Address: 1 Summer Street, Kennebunk, ME 04043
 ## Law Enforcement
-- Kennebunk PD — 4 Summer St — (207) 985-6121
-- Maine State Police — https://www.maine.gov/dps/msp/
+- Kennebunk Police Department
+- Address: 4 Summer Street, Kennebunk, ME 04043
+- Emergency: 911 | Non-Emergency: (207) 985-6121
+- Chief: Robert MacKenzie
+- Police Website: https://www.kennebunkmaine.us/Police
 ## Courts
-- Biddeford District Court — (207) 283-1147
-- **Court Website**: https://www.courts.maine.gov/
+- Biddeford District Court — 25 Adams Street, Biddeford, ME 04005 — (207) 283-1147
+- Court Website: https://www.courts.maine.gov
+## Detention Center
+- Kennebunk City Jail (short-term) — 4 Summer Street — (207) 985-6121
+- York County Jail — 1 Layman Way, Alfred, ME 04002 — (207) 324-9001
 ## Building Permits
-- Kennebunk Building Department — https://kennebunkmaine.us/
-## Hunting Regulations
-- ME Hunting Regulations — https://www.maine.gov/ifw/hunting-trapping/
-## Fishing Regulations
-- ME Fishing Regulations — https://www.maine.gov/ifw/fishing-boating/
-## Legal Aid
-- Maine Equal Justice — https://www.mejp.org/
-## Corrections
-- York County Jail
+- Kennebunk Code Enforcement Office
+- Phone: (207) 985-2102 ext. 1314
+- Address: 1 Summer Street, Kennebunk, ME 04043
+- Website: https://www.kennebunkmaine.us/Building-Permits
+## Library
+- Kennebunk Free Library
+- Address: 112 Main Street, Kennebunk, ME 04043
+- Phone: (207) 985-2173 | Email: kfl@kennebunklibrary.org
+- Hours: Mon & Tue 9:30 AM–8 PM, Wed 12:30–8 PM, Thu–Sat 9:30 AM–5 PM
+- Website: https://kennebunklibrary.org
+## Hospitals
+- Southern Maine Health Care (SMHC) — 2 Livewell Drive, Kennebunk, ME 04043 — (207) 467-6900 — 43.3917° N, 70.5358° W
+  Website: https://www.smmc.com
