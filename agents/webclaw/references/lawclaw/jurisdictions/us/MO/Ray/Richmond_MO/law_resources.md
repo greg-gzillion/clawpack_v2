@@ -1,20 +1,38 @@
 ﻿# Richmond — Local Law Resources
 ## City Website
-- https://cityofrichmondmo.org
+- https://cityofrichmondmo.org — (816) 776-5304
+- City Administrator: Tonya Willim | Mayor: Mike Wright
+- Mayor & Council: https://cityofrichmondmo.org/government/mayor-and-council
+- Staff Directory: https://cityofrichmondmo.org/government/staff-directory
+- Address: 205 Summit Street, Richmond, MO 64085
 ## Law Enforcement
-- Richmond Police Department — 101 S Main St, Richmond, MO 64085 — (816) 776-5277
-- Police Website: https://cityofrichmondmo.org/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Richmond Police Department
+- Address: 205 Summit Street, Richmond, MO 64085
+- Emergency: 911 | Non-Emergency: (816) 776-3575
+- Chief: Scott Bagley
+- Police Website: https://cityofrichmondmo.org/departments/police
 ## Courts
-- Ray County Circuit Court — (816) 776-5282
-- Court Website: https://raycountymo.com
+- Richmond Municipal Court — https://cityofrichmondmo.org/departments/municipal-court
+- Address: 205 Summit Street, Richmond, MO 64085
+- Phone: (816) 776-5304 ext. 1115 | Court Clerk: Sarah Collins
+## Detention Center
+- Richmond PD (short-term) — 205 Summit Street, Richmond, MO 64085
+- Ray County Jail — 301 S. Court St, Richmond, MO 64085
+- Phone: (816) 776-2111
+- County Website: https://www.raycountymo.org
 ## Building Permits
-- Richmond Building Department — https://cityofrichmondmo.org
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Ray County Jail
+- City of Richmond Community Development
+- Building Permits: https://cityofrichmondmo.org/business/building-permits
+- Community Development: https://cityofrichmondmo.org/departments/community-development
+- Contact: Lisa Hastings | (816) 776-5304 ext. 1112
+- Address: 205 Summit Street, Richmond, MO 64085
+## Library
+- Richmond Public Library
+- Address: 100 W Main Street, Richmond, MO 64085
+- Phone: (816) 776-5129
+- Website: https://www.richmondpl.org
+## Hospitals
+- Ray County Medical Center — 1300 E Lexington St, Richmond, MO 64085 — (816) 776-2500 — 39.2775° N, 93.9792° W
+  Website: https://www.raycounty.org
+- NKC Health Primary Care - Richmond — 902 Wollard Blvd, Richmond, MO 64085
+- Ray County Hospital and Healthcare — 904 Wollard Blvd, Richmond, MO 64085

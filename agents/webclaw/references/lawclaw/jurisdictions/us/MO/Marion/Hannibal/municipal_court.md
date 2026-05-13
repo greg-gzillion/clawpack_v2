@@ -1,14 +1,39 @@
-﻿# Hannibal Municipal Court
+﻿# Hannibal Courts
 ## Court Information
 - Hannibal Municipal Court
-- Address: 320 Broadway, Hannibal, MO 63401
+- Court Website: https://hannibal-mo.gov/departments/court
+- Address: 777 Broadway, Hannibal, MO 63401 (Police Station)
 - Phone: (573) 221-9210
-- Hours: Monday–Friday 8:00 AM – 5:00 PM
-- Court Website: https://www.hannibal-mo.gov/municipal-court
+- Hours: Mon–Fri, 8:00 AM – 4:00 PM
 ## City Website
-- https://www.hannibal-mo.gov
+- https://hannibal-mo.gov
+- Phone: (573) 221-0111
+- City Manager: Andy Dorian
+- Mayor: Darrell McCoy
+- City Government: https://hannibal-mo.gov/government
+- Contact Page: https://hannibal-mo.gov/contact-us
+- Address: 320 Broadway, Hannibal, MO 63401
 ## Police Department
 - Hannibal Police Department
+- Address: 777 Broadway, Hannibal, MO 63401
+- Emergency: 911
+- Non-Emergency: (573) 221-0987
+- Police Website: https://hannibal-mo.gov/departments/police
+## Detention Center
+- Hannibal Police Department Jail (short-term) — 777 Broadway, Hannibal, MO 63401
+- Marion County Jail (long-term) — 320 Broadway, Hannibal, MO 63401 (same building as City Hall)
+- Phone: (573) 221-0111
+- County Website: https://marioncountymo.org
+## Building Permits
+- City of Hannibal Building & Zoning / City Inspector
+- Permit Info: https://hannibal-mo.gov/departments/inspector
+- Phone: (573) 221-0111
 - Address: 320 Broadway, Hannibal, MO 63401
-- Phone: (573) 221-9200
-- Police Website: https://www.hannibal-mo.gov/police
+## Library
+- Hannibal Public Library
+- Address: 201 Broadway, Hannibal, MO 63401
+- Phone: (573) 221-0153
+- Website: https://hannibal-mo.gov/departments/library
+## Hospitals
+- Hannibal Regional Hospital — 2000 McMasters Ave, Hannibal, MO 63401 — (573) 221-4500 — 39.7125° N, 91.3592° W
+  Website: https://www.hannibalregional.org

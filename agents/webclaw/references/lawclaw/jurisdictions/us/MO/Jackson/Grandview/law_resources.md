@@ -1,21 +1,40 @@
 ﻿# Grandview — Local Law Resources
 ## City Website
-- https://www.grandview.org
+- https://www.grandview.org — (816) 316-4800
+- City Administrator: Cemal Umut Gungor | City Clerk: M. Paith
+- City Departments: https://www.grandview.org/government/city-departments
+- Address: 1200 Main Street, Grandview, MO 64030
 ## Law Enforcement
-- Grandview Police Department — 1200 Main St, Grandview, MO 64030 — (816) 316-4980
-- Police Website: https://www.grandview.org/government/city-departments/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Grandview Police Department
+- Address: 1200 Main Street, Grandview, MO 64030
+- Emergency: 911 | Non-Emergency: (816) 316-4900
+- Records Unit: (816) 316-4900
+- Online Crash Reports: Purchase via website
+- Police Website: https://www.grandview.org/police
 ## Courts
-- Grandview Municipal Court — 1212 Main St, Grandview, MO 64030 (Lion's Club Building) — (816) 316-4837
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://www.grandview.org/government/city-departments/municipal-court
+- Grandview Municipal Court — https://www.grandview.org/court
+- Address: 1200 Main Street, Grandview, MO 64030
+- Phone: (816) 316-4815 | Court Clerk: M. Paith
+## Detention Center
+- Grandview PD (short-term) — 1200 Main Street, Grandview, MO 64030
+- Jackson County Detention Center — 411 E 12th St, Kansas City, MO 64106
+- Phone: (816) 881-3000
+- County Website: https://www.jacksoncounty.org
 ## Building Permits
-- Grandview Building Department — https://www.grandview.org
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Jackson County Jail
+- City of Grandview Community Development – Building Services
+- Permit Information: https://www.grandview.org/building-permits
+- Community Development: https://www.grandview.org/community-development
+- Online Portal (GOVBUILT): https://grandview.govbuilt.com
+- Building Official: (816) 316-4825
+- Fees: Residential  + .50/ | Commercial  + .00/ | Sheds/Fences/Decks 
+- Address: 1200 Main Street, Grandview, MO 64030
+## Library
+- Mid-Continent Public Library – Grandview Branch
+- Address: 12000 E US Highway 40, Grandview, MO 64030
+- Phone: (816) 761-4220
+- Website: https://www.mymcpl.org/locations/grandview
+## Hospitals
+- Research Medical Center – Grandview — 12000 E US Highway 40, Grandview, MO 64030 — (816) 316-4000 — 38.8958° N, 94.5078° W
+  Website: https://www.researchmedicalcenter.com
+- Centerpoint Medical Center — 11133 US Highway 40, Independence, MO 64055 — (816) 523-5000 — 39.0789° N, 94.4101° W
+  Website: https://www.centerpointmedical.org

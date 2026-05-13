@@ -1,20 +1,34 @@
-# Portageville — Local Law Resources
+﻿# Portageville — Local Law Resources
 ## City Website
-- https://cityofportageville.com/
+- https://cityofportageville.com — (573) 379-5789
+- Hours: Mon–Fri 8:30 AM–4:30 PM | Mayor: Dennis Walker
+- City Government: https://cityofportageville.com/government
+- City Clerk: https://cityofportageville.com/city-clerk
+- Address: 301 E Main St, Portageville, MO 63873
 ## Law Enforcement
-- Portageville PD — 303 E Main St — (573) 379-5500
-- **Police Website**: https://cityofportageville.com/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Portageville Police Department
+- Address: 201 E Main St, Portageville, MO 63873
+- Emergency: 911 | Non-Emergency: (573) 379-5500
+- Police Website: https://cityofportageville.com/police
 ## Courts
-- Portageville Municipal Court — 303 E Main St — (573) 379-5500
-- **Court Website**: https://ecode360.com/29749470
+- Portageville Municipal Court — https://cityofportageville.com/court
+- Address: 201 2nd St, Portageville, MO 63873
+- Phone: (573) 379-2773 | Hours: Mon–Fri 8:00 AM–4:00 PM
+## Detention Center
+- Portageville PD (short-term) — 201 E Main St, Portageville, MO 63873
+- New Madrid County Jail — 450 Main Street, New Madrid, MO 63869
+- Phone: (573) 748-2228
+- County Website: https://www.newmadridcountymo.org
 ## Building Permits
-- Portageville Building Department — https://cityofportageville.com/
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- New Madrid County Jail
+- City of Portageville Building Permits & Inspections
+- Permit Info: https://cityofportageville.com/building-permits-and-inspections
+- Code Enforcement Officer: Jonathan Thacker | (573) 379-2171
+- Address: 301 E Main St, Portageville, MO 63873
+## Library
+- New Madrid County Library – Portageville Branch
+- Address: 350 US Highway 61, Portageville, MO 63869
+- Phone: (573) 748-7637
+- Website: https://www.newmadridcountylibrary.com
+## Hospitals
+- SEMO Health Network – New Madrid Medical Center — 655 US Highway 61, New Madrid, MO 63869 — (573) 748-2592 — 36.5831° N, 89.5518° W
+  Website: https://www.semohealthnetwork.org

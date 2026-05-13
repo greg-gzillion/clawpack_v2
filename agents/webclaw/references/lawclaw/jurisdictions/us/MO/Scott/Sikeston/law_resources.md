@@ -1,21 +1,38 @@
 ﻿# Sikeston — Local Law Resources
 ## City Website
-- https://www.sikeston.org
+- https://www.sikeston.org — (573) 471-6200
+- Council-Manager government
+- Departments: https://www.sikeston.org/departments
+- Contact: https://www.sikeston.org/contact
+- Address: 105 E Center St, Sikeston, MO 63801
 ## Law Enforcement
-- Sikeston Police Department — 131 N New Madrid St, Sikeston, MO 63801 — (573) 475-3705
+- Sikeston Police Department
+- Address: 215 N New Madrid St, Sikeston, MO 63801
+- Emergency: 911 | Non-Emergency: (573) 471-6200
 - Police Website: https://www.sikeston.org/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- DPS: 201 S Kingshighway, Sikeston, MO 63801
 ## Courts
-- Sikeston Municipal Court — 105 E Center St, Sikeston, MO 63801 (City Hall) — (573) 475-3705
-- Hours: Monday–Wednesday & Friday 8:00 AM – 5:00 PM; Thursday 8:00 AM – 12:30 PM
-- Court Website: https://www.sikeston.org/municipal_court
+- Sikeston Municipal Court — https://www.sikeston.org/municipal_court
+- Court: 131 N New Madrid St (Thursdays) | Office: 105 E Center St
+- Phone: (573) 475-3705 | Court Clerk: Shelley Carter
+- Court Days: 2nd & 4th Thursday monthly at 3:00 PM
+## Detention Center
+- Sikeston PD (short-term) — 215 N New Madrid St, Sikeston, MO 63801
+- Scott County Jail — 131 S Winchester St, Benton, MO 63736
+- Phone: (573) 545-3596
+- County Website: https://scottcountymo.com
 ## Building Permits
-- Sikeston Building Department — https://www.sikeston.org
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Scott County Jail
+- City of Sikeston Community Development / Code Enforcement
+- Permit Information: https://www.sikeston.org/community_development
+- Phone: (573) 475-3743 | Address: 105 E Center St, Sikeston, MO 63801
+## Library
+- Riverside Regional Library – Sikeston Branch
+- Address: 1408 Main St, Sikeston, MO 63801
+- Phone: (573) 475-2525
+- Website: https://riversideregionallibrary.org
+## Hospitals
+- Missouri Delta Medical Center — 1008 N Main St, Sikeston, MO 63801
+- Missouri Delta MC Emergency Room — 1008 N Main St, Sikeston, MO 63801
+- Ferguson Medical Group - Sikeston — 1012 N Main St, Sikeston, MO 63801
+- Southeast Missouri Hospital — 1400 Hospital Drive, Cape Girardeau, MO 63701 — (573) 334-5151 — 37.2989° N, 89.5272° W
+  Website: https://www.southeasthealth.com

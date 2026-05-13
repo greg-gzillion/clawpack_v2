@@ -1,23 +1,35 @@
 ﻿# Cassville — Local Law Resources
 ## City Website
-- https://www.cityofcassville.com
+- https://www.cityofcassville.com — (417) 847-2114
+- Email: city@cityofcassville.com
+- Address: 300 Main St, Cassville, MO 65625
 ## Law Enforcement
-- Cassville Police Department — 300 Main St, Ste 2, Cassville, MO 65625 — (417) 847-4700
-- Hours: 24/7 emergency response; office hours Monday–Friday, 8:00 AM – 4:00 PM
+- Cassville Police Department
+- Address: 302 Main St, Cassville, MO 65625
+- Emergency: 911 | Non-Emergency: (417) 847-4911
+- Administrative Office: (417) 847-4700
 - Police Website: https://www.cityofcassville.com/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Barry County Circuit Court — 102 W Street, Cassville, MO 65625 — (417) 847-3133
-- Hours: Monday–Friday, 8:00 AM – 4:00 PM
-- Note: Cassville no longer operates a standalone municipal court. Cases are handled by Barry County Circuit Court.
-- Court Website: https://barrycountycourt.com
+- Cassville Municipal Court — https://www.cityofcassville.com/government/municipal_court
+- Address: 300 Main St, Cassville, MO 65625 (City Hall, rear)
+- Phone: (417) 847-4876
+- Court Days: 1st, 3rd, and 5th Monday monthly at 2:00 PM
+## Detention Center
+- Cassville City Jail (short-term) — 304 Main St, Cassville, MO 65625
+- Barry County Jail — 505 East St, Cassville, MO 65625
+- Phone: (417) 847-6556
+- County Website: https://www.barrycountysheriff.com
 ## Building Permits
-- Cassville Building Department — https://www.cityofcassville.com
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Barry County Jail
+- City of Cassville Community Development
+- Permit Information: https://www.cityofcassville.com/community-development
+- Phone: (417) 847-2114 | Email: city@cityofcassville.com
+- Address: 300 Main St, Cassville, MO 65625
+## Library
+- Cassville Branch Library (Barry-Lawrence Regional Library)
+- Address: 301 W 17th St, Cassville, MO 65625
+- Phone: (417) 847-2121
+- Email: cassville@blrlibrary.org
+- Website: https://www.blrlibrary.com/cassville
+## Hospitals
+- Mercy Hospital Cassville — 94 Main St, Cassville, MO 65625 — (417) 847-6000 — 36.6747° N, 93.8723° W
+  Website: https://www.mercy.net

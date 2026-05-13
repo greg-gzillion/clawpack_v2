@@ -1,14 +1,45 @@
-﻿# New Madrid Municipal Court
+﻿# New Madrid Courts
 ## Court Information
 - New Madrid Municipal Court
-- Address: 560 Mott St, New Madrid, MO 63869 (Council Chambers)
+- Court Website: http://www.new-madrid.mo.us/17/Police-Municipal-Court
+- Address: City Hall Annex, 537A Mott Street, New Madrid, MO 63869
 - Phone: (573) 748-5901
-- Hours: 1st & 3rd Wednesdays monthly at 4:00 PM
-- Court Website: http://new-madrid.mo.us/municipal-court
+- Fax: (573) 748-2019
+- Hours: Mon–Thu, 7:00 AM – 6:00 PM
+- Court Sessions: 1st and 3rd Wednesday monthly at 4:00 PM
+- Clerk: Martha Henderson
 ## City Website
-- http://new-madrid.mo.us
+- http://www.new-madrid.mo.us
+- Phone: (573) 748-5901
+- City Departments: http://www.new-madrid.mo.us/8/Departments
+- Staff Directory: http://www.new-madrid.mo.us/Directory.aspx
+- FAQ (Building Permits): http://www.new-madrid.mo.us/faq.aspx
+- Address: 560 Mott Street, New Madrid, MO 63869
+- Mailing: P.O. Box 96, New Madrid, MO 63869
 ## Police Department
 - New Madrid Police Department
-- Address: 342 US Highway 61, New Madrid, MO 63869
-- Phone: (573) 748-5901
-- Police Website: http://new-madrid.mo.us/police
+- Address: 342 U.S. Highway 61, New Madrid, MO 63869
+- Emergency: 911
+- Non-Emergency: (573) 748-5901
+- Chief: Joey Higgerson
+- Police Website: http://www.new-madrid.mo.us/17/Police-Municipal-Court
+## Detention Center
+- New Madrid City Jail — 342 U.S. Highway 61, New Madrid, MO 63869 (at Police Department)
+- New Madrid County Jail — 450 Main Street, New Madrid, MO 63869
+- Phone: (573) 748-2228
+- County Website: https://www.newmadridcountymo.org
+## Building Permits
+- City of New Madrid City Clerk's Office
+- Permit Info: http://www.new-madrid.mo.us/faq.aspx
+- Fees:  (residential),  (commercial)
+- Required for all construction except fences
+- Application: Online or at City Hall
+- Address: 560 Mott Street, New Madrid, MO 63869
+## Library
+- New Madrid Memorial Branch Library (New Madrid County Library)
+- Address: 431 Mill Street, New Madrid, MO 63869
+- Phone: (573) 748-7637
+- Website: https://www.newmadridcountylibrary.com
+## Hospitals
+- SEMO Health Network – New Madrid Medical Center — 655 US Highway 61, New Madrid, MO 63869 — (573) 748-2592 — 36.5831° N, 89.5518° W
+  Website: https://www.semohealthnetwork.org

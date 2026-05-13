@@ -1,11 +1,32 @@
-﻿# Affton Municipal Court
+﻿# Affton Courts
 ## Court Information
-- No standalone municipal court. Cases handled by St. Louis County Municipal Division.
+- Affton is an unincorporated community; no independent municipal court
+- Violations handled by St. Louis County Circuit Court
 - Court Website: https://www.courts.mo.gov
-## City Website
-- Affton is an unincorporated community; no standalone city website.
+## Community Info
+- Status: Unincorporated community in St. Louis County, MO
+- No independent city government; all services administered by St. Louis County
+- St. Louis County Official Site: https://www.stlouisco.com
+- Affton Chamber of Commerce: https://www.afftonlemaychamber.com
 ## Police Department
 - St. Louis County Police Department – Affton-Southwest Precinct
 - Address: 9928 Gravois Rd, St. Louis, MO 63123
-- Phone: (314) 638-5550
-- Police Website: https://www.stlouiscountypolice.com/precincts/affton-southwest/
+- Emergency: 911
+- Non-Emergency: (314) 638-5550
+- Police Website: https://www.stlouiscountypolice.com
+## Detention Center
+- St. Louis County Justice Center — 10 S. Meramec Ave, St. Louis, MO 63105
+- County Website: https://www.stlouisco.com
+## Building Permits
+- St. Louis County Department of Planning and Zoning
+- Permit Info: https://www.stlouisco.com
+- Phone: (314) 615-5800
+## Library
+- St. Louis County Library – Nearest Branches:
+  - Grant's View Branch: 7830 Gravois Rd, St. Louis, MO 63123
+  - Weber Road Branch: 8995 Weber Rd, St. Louis, MO 63123
+- Library Website: https://www.slcl.org
+## Hospitals
+- Mercy Hospital South — 15315 S Outer Rd, St. Louis, MO 63129 — (314) 338-4000 — 38.5075° N, 90.3753° W
+  Website: https://www.mercy.net
+- SSM Health St. Mary's Hospital - St. Louis — 6420 Clayton Rd, Richmond Heights, MO 63117

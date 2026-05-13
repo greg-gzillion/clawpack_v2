@@ -1,20 +1,31 @@
-# Jefferson City — Local Law Resources
+﻿# Jefferson City — Local Law Resources
 ## City Website
-- https://www.jeffersoncitymo.gov/
+- https://www.jeffersoncitymo.gov — (573) 634-6410
+- Address: 320 E McCarty St, Jefferson City, MO 65101
 ## Law Enforcement
-- Jefferson City PD — 401 Monroe St — (573) 634-6400
-- **Police Website**: https://www.jeffersoncitymo.gov/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Jefferson City Police Department
+- Address: 401 Monroe St, Jefferson City, MO 65101
+- Emergency: 911 | Non-Emergency: (573) 634-6400
+- Police Website: https://www.jeffersoncitymo.gov/government/police.php
 ## Courts
-- Jefferson City Municipal Court — 427 Monroe St — (573) 634-6316
-- **Court Website**: https://www.jeffersoncitymo.gov/court
+- Jefferson City Municipal Court — https://www.jeffersoncitymo.gov/government/municipal_court/index.php
+- Address: 427 Monroe St, Jefferson City, MO 65101
+- Phone: (573) 634-6316
+## Detention Center
+- Jefferson City Correctional Center (state prison) — 8200 No More Victims Road, Jefferson City, MO 65101
+- Facility Info: https://doc.mo.gov/node/521
+- Note: Jefferson City does not operate a city jail
 ## Building Permits
-- Jefferson City Building Department — https://www.jeffersoncitymo.gov/
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Cole County Jail
+- City of Jefferson City Planning & Protective Services
+- Permit Information: https://www.jeffersoncitymo.gov/government/planning_protective_services/index.php
+- Phone: (573) 634-6410 | Address: 320 E McCarty St, Jefferson City, MO 65101
+## Library
+- Missouri River Regional Library
+- Address: 214 Adams St, Jefferson City, MO 65101
+- Phone: (573) 634-2464
+- Website: https://www.mrrl.org
+## Hospitals
+- Capital Region Medical Center — 1125 Madison St, Jefferson City, MO 65101 — (573) 632-5000 — 38.5719° N, 92.1717° W
+  Website: https://www.capitalregion.com
+- SSM Health St. Mary's Hospital – Jefferson City — 2505 Mission Dr, Jefferson City, MO 65109 — (573) 681-3000 — 38.5922° N, 92.1497° W
+  Website: https://www.ssmhealth.com

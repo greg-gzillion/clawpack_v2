@@ -1,14 +1,46 @@
-﻿# Lebanon Municipal Court
+﻿# Lebanon Courts
 ## Court Information
 - Lebanon Municipal Court
+- Court Website: https://www.lebanonmissouri.org/municipal-court
 - Address: 401 S Jefferson Ave, Lebanon, MO 65536 (City Hall)
 - Phone: (417) 533-5400
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://www.lebanonmissouri.org/Municipal-Court
+- Fax: (417) 532-3917
+- Judge: Mark Rector
+- Hours: Mon–Fri, 8:00 AM – 5:00 PM
 ## City Website
 - https://www.lebanonmissouri.org
+- Phone: (417) 532-2156
+- City Administrator: Troy Schulte
+- Mayor: Jared Carr
+- City Council: https://www.lebanonmissouri.org/city-council
+- Staff Directory: https://www.lebanonmissouri.org/staff-directory
+- Address: 401 S Jefferson Ave, Lebanon, MO 65536
 ## Police Department
 - Lebanon Police Department
+- Address: 14275 Missouri Route 5, Lebanon, MO 65536
+- Emergency: 911
+- Non-Emergency: (417) 532-3131
+- Chief: Jerry Harrison
+- Police Website: https://www.lebanonmissouri.org/police
+## Detention Center
+- Lebanon Police Department (short-term detention) — 14275 Missouri Route 5, Lebanon, MO 65536
+- Laclede County Jail (long-term) — 200 N Adams Ave, Lebanon, MO 65536
+- Phone: (417) 532-2311
+- County Website: https://lacledecountymo.org
+## Building Permits
+- City of Lebanon Code Administration / Community Development
+- Permit Information: https://www.lebanonmissouri.org/code-administration
+- Building Permit Application: https://www.lebanonmissouri.org/building-permits
+- Contact: Christina Wagner, (417) 991-3911
+- Submit: Email, fax (417) 588-6098, or in person at 1401 W Commercial St
 - Address: 401 S Jefferson Ave, Lebanon, MO 65536
-- Phone: (417) 532-3811
-- Police Website: https://www.lebanonmissouri.org/Police
+## Library
+- Lebanon-Laclede County Library
+- Address: 200 N Adams Ave, Lebanon, MO 65536 (also 915 S Jefferson Ave)
+- Phone: (417) 532-3841
+- Website: https://www.lebanonlacledecountylibrary.org
+## Hospitals
+- Cox Medical Center South — 1000 W Chestnut Expressway, Springfield, MO 65807 — (417) 269-5200 — 37.1981° N, 93.2923° W
+  Website: https://www.coxhealth.com
+- Mercy Hospital Lebanon — 100 Hospital Dr, Lebanon, MO 65536
+- CoxHealth Center Lebanon — 510 E Missouri 32 Suite C, Lebanon, MO 65536

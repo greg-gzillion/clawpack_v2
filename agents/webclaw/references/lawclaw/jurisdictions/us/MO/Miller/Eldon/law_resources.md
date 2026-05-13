@@ -1,20 +1,39 @@
-# Eldon — Local Law Resources
+﻿# Eldon — Local Law Resources
 ## City Website
-- https://www.eldonmo.com/
+- https://www.eldonmo.org — (573) 392-2291
+- City Administrator: Mandy Asbury | Mayor: Trevor Vernon
+- Hours: Mon–Fri 8:00 AM–4:30 PM
+- Staff: https://www.eldonmo.org/staff.aspx
+- Contact: https://www.eldonmo.org/pview.aspx?id=20772&catid=0
+- Address: 101 S Oak St, Eldon, MO 65026
 ## Law Enforcement
-- Eldon PD — 200 E Washington St — (573) 392-3531
-- **Police Website**: https://www.eldonmo.com/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Eldon Police Department
+- Address: 111 S Oak St, Eldon, MO 65026
+- Emergency: 911 | Non-Emergency: (573) 392-9111
+- Chief: Brian Kidwell
+- Police Website: https://www.eldonmo.org/pview.aspx?id=20780&catid=0
 ## Courts
-- Eldon Municipal Court — 200 E Washington St — (573) 392-5113
-- **Court Website**: https://www.eldonmo.com/municipal-court
+- Eldon Municipal Court — https://www.countyoffice.org/eldon-municipal-court-eldon-mo-69a/
+- Address: 201 E 1st St, Eldon, MO 65026
+- Phone: (573) 392-2291 | Fax: (573) 392-2341
+## Detention Center
+- Eldon PD (short-term) — 111 S Oak St, Eldon, MO 65026
+- Miller County Jail — 1703 Marion City Rd, Palmyra, MO 63461
+- Phone: (573) 769-2077
+- County Website: https://marioncountymo.com
 ## Building Permits
-- Eldon Building Department — https://www.eldonmo.com/
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Miller County Jail
+- City of Eldon Code Enforcement / Building & Zoning
+- Permit Info: https://ecode360.com/28571564
+- Phone: (573) 392-2291 | Address: 101 S Oak St, Eldon, MO 65026
+- Contractor Business License: /year
+## Library
+- Eldon Public Library
+- Address: 210 E 6th St, Eldon, MO 65026
+- Phone: (573) 392-3752
+- Website: https://www.eldonchamber.com
+- Heartland Regional Library System Eldon Branch
+## Hospitals
+- Miller County Health Department — 105 S 1st St, Eldon, MO 65026 — (573) 392-2223 — 38.3497° N, 92.5799° W
+- Lake Regional Medical Clinic — 304 W 4th St, Eldon, MO 65026
+- Family Medicine Clinic-Eldon — 103 N Business 54, Eldon, MO 65026
+- Note: No full-service hospital in Eldon; nearest in Jefferson City (~30 miles)

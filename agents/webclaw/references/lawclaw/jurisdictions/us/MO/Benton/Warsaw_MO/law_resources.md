@@ -1,21 +1,32 @@
-﻿# Polson — Local Law Resources
+﻿# Warsaw — Local Law Resources
 ## City Website
-- https://www.cityofpolson.com
+- https://www.warsawmo.gov — (660) 438-5522
+- Email: info@warsawmo.gov
+- Address: 201 W Main St, Warsaw, MO 65355
 ## Law Enforcement
-- Polson Police Department — 106 1st St E, Polson, MT 59860 — (406) 883-8211
-- Police Website: https://www.cityofpolson.com/police
-- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
+- Warsaw Police Department
+- Address: 181 W Harrison St, Warsaw, MO 65355
+- Emergency: 911 | Non-Emergency: (660) 438-5522
+- Police Website: https://www.warsawmo.gov/police
 ## Courts
-- Polson Municipal Court — 106 1st St E, Polson, MT 59860 — (406) 883-8212
-- Hours: Monday–Thursday, 8:00 AM – 5:00 PM
-- Court Website: https://www.cityofpolson.com/citycourt
+- Warsaw Municipal Court (held at Benton County Courthouse as of January 15, 2023)
+- Court Website: https://warsawmo.gov/court
+- Location: Benton County Courthouse, 316 Van Buren St, Warsaw, MO 65355
+- Phone: (660) 438-7712 (Benton County Circuit Clerk)
+## Detention Center
+- Benton County Jail — 128 Washington St, Warsaw, MO 65355
+- Phone: (660) 438-6135
+- County Website: https://bentoncomo.com
 ## Building Permits
-- Polson Building Department — https://www.cityofpolson.com
-## Hunting Regulations
-- MT Hunting Regulations — https://fwp.mt.gov/hunting/
-## Fishing Regulations
-- MT Fishing Regulations — https://fwp.mt.gov/fishing/
-## Legal Aid
-- Montana Legal Services Association — https://www.mtlsa.org/
-## Corrections
-- Lake County Detention Center
+- City of Warsaw Community Development
+- Permit Information: https://www.warsawmo.gov/community-development
+- Phone: (660) 438-5522 | Email: info@warsawmo.gov
+- Address: 201 W Main St, Warsaw, MO 65355
+## Library
+- Warsaw/Benton County Branch Library (Boonslick Regional Library)
+- Address: 102 E Jackson St, Warsaw, MO 65355
+- Phone: (660) 438-5211
+- Website: https://www.boonslickregionallibrary.com/warsaw
+## Hospitals
+- Bothwell Health Center – Truman Lake — 1771 Commercial St, Warsaw, MO 65355 — (660) 428-1146 — 38.2521° N, 93.3671° W
+  Website: https://www.brhc.org

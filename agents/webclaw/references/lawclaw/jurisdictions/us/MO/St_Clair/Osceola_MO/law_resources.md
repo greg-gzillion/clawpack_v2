@@ -1,20 +1,33 @@
 ﻿# Osceola — Local Law Resources
 ## City Website
-- http://www.cityofosceolamo.com
+- https://cityofosceolamo.com — (417) 646-8421
+- Mayor: Dustin Gibbs | Mayor and Board of Aldermen
+- Address: 210 Olive St, Osceola, MO 64776
 ## Law Enforcement
-- St. Clair County Sheriff's Office (contracted) — (417) 646-2565 (Non-emergency)
-- Police Website: https://www.stclaircomo.com
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Osceola Police Department
+- Address: 210 Olive St, Osceola, MO 64776 (City Hall)
+- Emergency: 911 | Non-Emergency: (417) 646-8421
+- Police Website: https://cityofosceolamo.com
 ## Courts
-- St. Clair County Circuit Court — 655 2nd St, Osceola, MO 64776
-- Court Website: https://www.courts.mo.gov
+- Osceola Municipal Court — https://cityofosceolamo.com (via City Hall)
+- Address: 210 Olive St, Osceola, MO 64776
+- Phone: (417) 646-8421
+## Detention Center
+- Osceola PD (short-term) — 210 Olive St, Osceola, MO 64776
+- St. Clair County Jail — 655 2nd St, Osceola, MO 64776
+- Phone: (417) 646-2565
+- County Website: https://www.stclaircountymo.com
 ## Building Permits
-- Osceola Building Department — http://www.cityofosceolamo.com
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- St. Clair County Jail
+- City of Osceola Building Permits
+- Phone: (417) 646-8421 | Address: 210 Olive St, Osceola, MO 64776
+- Website: https://cityofosceolamo.com (via City Hall)
+## Library
+- St. Clair County Library – Osceola Branch
+- Address: 115 Chestnut St, Osceola, MO 64776
+- Phone: (417) 646-2214
+- Website: https://www.stclaircountylibrary.org
+## Hospitals
+- No full-service hospital in Osceola; nearest:
+  - Citizens Memorial Hospital — 1500 N Oakland Ave, Bolivar, MO 65613 — (417) 326-6000
+  - Golden Valley Memorial Healthcare — 1600 N 2nd St, Clinton, MO 64735 — (660) 885-5511
+- Compass Health Network — Osceola, MO 64776

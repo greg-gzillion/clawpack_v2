@@ -1,15 +1,35 @@
-﻿# Lake Ozark Municipal Court
+﻿# Lake Ozark Courts
 ## Court Information
 - Lake Ozark Municipal Court
-- Physical Address: 3162 Bagnell Dam Blvd, Lake Ozark, MO 65049
-- Mailing Address: PO Box 370, Lake Ozark, MO 65049
+- Court Website: https://cityoflakeozark.net/court
+- Address: 2624 Bagnell Dam Blvd, Lake Ozark, MO 65049
 - Phone: (573) 365-5903
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://lakeozarkmo.municipalonlinepayments.com
 ## City Website
 - https://cityoflakeozark.net
+- Phone: (573) 365-5378
+- Email: city@cityoflakeozark.net
+- Address: 3162 Bagnell Dam Blvd, Lake Ozark, MO 65049
 ## Police Department
 - Lake Ozark Police Department
 - Address: 3162 Bagnell Dam Blvd, Lake Ozark, MO 65049
-- Phone: (573) 365-5900
+- Emergency: 911
+- Non-Emergency: (573) 365-5371
 - Police Website: https://cityoflakeozark.net/police-department
+## Detention Center
+- Lake Ozark does not operate a city jail
+- Miller County Adult Detention Center — 200 W Adams St, Tuscumbia, MO 65085
+- Inmate Roster: https://www.millercountysheriff.org/roster.php
+- County Website: https://www.millercountysheriff.org
+## Building Permits
+- City of Lake Ozark Building Permits
+- Permit Applications & Information: https://cityoflakeozark.net/building-permits
+- Phone: (573) 365-5378
+- Address: 3162 Bagnell Dam Blvd, Lake Ozark, MO 65049
+## Library
+- Camden County Library – Osage Beach Branch
+- Address: 321 Bagnell Dam Blvd, Osage Beach, MO 65065
+- Phone: (573) 348-7480
+- Website: https://www.ccld.us
+## Hospitals
+- Lake Regional Hospital — 101 Hospital Dr, Osage Beach, MO 65065 — (573) 348-8256 — 38.1495° N, 92.6568° W
+  Website: https://www.lakeregional.com

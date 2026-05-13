@@ -1,21 +1,31 @@
 ﻿# Fulton — Local Law Resources
 ## City Website
-- https://www.fultonmo.org
+- https://www.fultonmo.gov — (573) 592-3111
+- Email: communications@fultonmo.gov
+- Address: 18 E 4th St, Fulton, MO 65251
 ## Law Enforcement
-- Fulton Police Department — 510 Market St, Fulton, MO 65251 — (573) 592-3100 (Non-emergency)
-- Police Website: https://www.fultonmo.org/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Fulton Police Department
+- Address: 100 N 2nd St, Fulton, MO 65251
+- Emergency: 911 | Non-Emergency: (573) 592-3100
+- Police Website: https://www.fultonmo.gov/169/Police-Department
 ## Courts
-- Callaway County Circuit Clerk — 10 E 5th St, Fulton, MO 65251 (Callaway County Courthouse) — (573) 642-0780
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://www.courts.mo.gov/hosted/circuit13/muni/munifulton.htm
+- Callaway County Circuit Court — https://www.courts.mo.gov
+- Address: 6 E 7th St, Fulton, MO 65251
+- Phone: (573) 642-0780
+- Note: Fulton does not have a municipal court; cases handled at county level
+## Detention Center
+- Callaway County Jail — 1201 State Highway O, Fulton, MO 65251
+- Phone: (573) 642-0758
+- County Website: https://www.callawaycounty.org
 ## Building Permits
-- Fulton Building Department — https://www.fultonmo.org
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Callaway County Jail
+- City of Fulton Community Development
+- Permit Information: https://www.fultonmo.gov/194/Community-Development
+- Phone: (573) 592-3111 | Address: 18 E 4th St, Fulton, MO 65251
+## Library
+- Callaway County Public Library
+- Address: 101 E 5th St, Fulton, MO 65251
+- Phone: (573) 642-5401
+- Website: https://www.dbrl.org
+## Hospitals
+- Callaway Community Hospital — 10 S Hospital Dr, Fulton, MO 65251 — (573) 642-3376 — 38.8435° N, 91.9659° W
+  Website: https://www.callawaycommunityhospital.com

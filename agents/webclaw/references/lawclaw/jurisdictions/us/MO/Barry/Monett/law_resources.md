@@ -1,23 +1,31 @@
 ﻿# Monett — Local Law Resources
 ## City Website
-- https://www.cityofmonett.com
+- https://monettmo.gov — (417) 235-3763
+- Email: amy.crouch@cityofmonett.com
+- Address: 217 5th St, Monett, MO 65708
 ## Law Enforcement
-- Monett Police Department — 1901 E Cleveland St, Monett, MO 65708 — (417) 235-4241 (Non-emergency)
-- Hours: 24/7 emergency response; office Monday–Friday, 8:00 AM – 5:00 PM
-- Police Website: https://www.cityofmonett.com/departments/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Monett Police Department
+- Address: 1901 E Cleveland Ave, Monett, MO 65708
+- Emergency: 911 | Non-Emergency: (417) 235-4241
+- Police Website: https://monettmo.gov/252/About-the-Department
 ## Courts
-- Monett Municipal Court — 1901 E Cleveland St, Monett, MO 65708 — (417) 235-4677
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Sessions: Every Tuesday at 4:00 PM (excluding holidays)
-- Court Website: https://www.cityofmonett.com/government/court.php
+- Monett Municipal Court — https://monettmo.gov/157/Municipal-Court
+- Address: 1901 E Cleveland Ave, Monett, MO 65708 (Monett Justice Center)
+- Phone: (417) 235-4677 | Court Clerk: Mechele James
+- Court Hours: Tuesdays at 4:00 PM
+## Detention Center
+- Monett City Jail — 1901 E Cleveland Ave, Monett, MO 65708
+- Phone: (417) 235-4241 | Capacity: 160 inmates (short-term holding)
 ## Building Permits
-- Monett Building Department — https://www.cityofmonett.com
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Barry County Jail
+- City of Monett Building and Zoning
+- Permit Information: https://monettmo.gov/101/Departments/Building-and-Zoning
+- Phone: (417) 235-4241 | Address: 217 5th St, Monett, MO 65708
+## Library
+- Monett Branch Library (Barry-Lawrence Regional Library)
+- Address: 2200 Park St, Monett, MO 65708
+- Phone: (417) 235-7350
+- Email: monett@blrlibrary.org
+- Website: https://www.blrlibrary.com/monett
+## Hospitals
+- CoxHealth Monett Clinic — 1000 E US Highway 60, Monett, MO 65708 — (417) 235-3144 — 36.9142° N, 93.8917° W
+  Website: https://www.coxhealth.com/our-locations/cox-monett/

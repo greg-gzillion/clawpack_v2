@@ -1,22 +1,31 @@
 ﻿# St. Clair — Local Law Resources
 ## City Website
-- http://stclairmo.us
+- https://stclairmo.us — (636) 629-0333
+- Email: media@stclairmo.us
+- Address: #1 Paul Parks Drive, St. Clair, MO 63077
 ## Law Enforcement
-- St. Clair Police Department — 1 Paul Parks Dr, St. Clair, MO 63077 — (636) 629-0333
-- Police Website: http://stclairmo.us/departments/police.php
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- St. Clair Police Department
+- Address: #1 Paul Parks Drive, St. Clair, MO 63077
+- Emergency: 911 | Non-Emergency: (636) 629-1313
+- Email: pdclerk@stclairmo.us
+- Police Website: https://stclairmo.us/departments/police_department.php
 ## Courts
-- Franklin County Circuit Court — 115 E Main St, Union, MO 63084 (Franklin County Courthouse) — (636) 583-6355
-- Hours: Monday–Friday 8:00 AM – 5:00 PM
-- Note: St. Clair does not operate a standalone municipal court.
-- Court Website: https://www.courts.mo.gov/circuit17
+- St. Clair Municipal Court
+- Address: #1 Paul Parks Drive, St. Clair, MO 63077
+- Phone: (636) 629-5194 | Judge: Hon. Nick Gasaway
+## Detention Center
+- St. Clair PD Holding Facility — #1 Paul Parks Drive, St. Clair, MO 63077
+- Franklin County Jail — 1000 Fairgrounds Road, Union, MO 63084 (long-term)
+- County Website: https://www.franklincountymo.org
 ## Building Permits
-- St. Clair Building Department — http://stclairmo.us
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Franklin County Jail
+- City of St. Clair Building Permits
+- Phone: (636) 629-0333 | Address: #1 Paul Parks Drive, St. Clair, MO 63077
+- Permit Info: https://stclairmo.org/license-office/
+## Library
+- Scenic Regional Library – St. Clair Branch
+- Address: 515 E Springfield Rd, St. Clair, MO 63077
+- Phone: (636) 629-2546
+- Website: https://www.scenicregional.org
+## Hospitals
+- Mercy Hospital Washington — 1001 Mercy Dr, Washington, MO 63090 — (636) 239-8011 — 38.5239° N, 90.9324° W
+  Website: https://www.mercy.net

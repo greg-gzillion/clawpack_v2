@@ -1,21 +1,28 @@
 ﻿# Overland — Local Law Resources
 ## City Website
-- https://www.overlandmo.org
+- City Website: https://overlandmo.org
+- St. Louis County Official Site: https://www.stlouisco.com
+- Note: Incorporated city; some services may be county-administered
+- City Hall: 9119 Lackland Rd, Overland, MO 63114
 ## Law Enforcement
-- Overland Police Department — 9155 St. Charles Rock Rd, Overland, MO 63114 — (314) 428-1221
-- Police Website: https://www.overlandmo.org/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Overland Police Department — https://overlandmo.org
+- St. Louis County Police – 4th Precinct: 5001 Telegraph Rd, St. Louis, MO 63129
+- Emergency: 911 | Non-Emergency: (314) 638-5550
+- County Police: https://www.stlouiscountypolice.com
 ## Courts
-- Overland Municipal Court — 9155 St. Charles Rock Rd, Overland, MO 63114 — (314) 428-6811
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://www.overlandmo.org/court
+- St. Louis County Circuit Court — https://www.courts.mo.gov
+- Verify with city if independent municipal court exists
+## Detention Center
+- St. Louis County Justice Center — 10 S. Meramec Ave, St. Louis, MO 63105
+- County Website: https://www.stlouisco.com
 ## Building Permits
-- Overland Building Department — https://www.overlandmo.org
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- St. Louis County Jail
+- St. Louis County Department of Planning and Zoning
+- Permit Info: https://www.stlouisco.com
+- Phone: (314) 615-5800
+## Library
+- St. Louis County Library — https://www.slcl.org
+- Sappington Branch: 11601 S. Lindbergh Blvd, St. Louis, MO 63127
+- Grant's View Branch: 7830 Gravois Rd, St. Louis, MO 63123
+## Hospitals
+- Mercy Hospital South — 15315 S Outer Rd, St. Louis, MO 63129 — (314) 338-4000 — 38.5075° N, 90.3753° W
+  Website: https://www.mercy.net

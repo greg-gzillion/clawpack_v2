@@ -1,21 +1,36 @@
 ﻿# Reeds Spring — Local Law Resources
 ## City Website
-- https://www.reedsspringmo.gov
+- https://www.reedsspring.org — (417) 272-3309
+- Alternate: https://www.reedsspringmo.gov
+- Email: info@reedsspringmo.gov | Hours: Mon–Fri 8:30 AM–4:30 PM
+- City Government: https://www.reedsspringmo.gov
+- Address: 21016 Main Street, Suite B, Reeds Spring, MO 65737
 ## Law Enforcement
-- Reeds Spring Police Department — 22601 Main St, Reeds Spring, MO 65737 — (417) 272-3107
-- Police Website: https://www.reedsspringmo.gov/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Reeds Spring Police Department
+- Address: 22188 Main Street, Reeds Spring, MO 65737
+- Emergency: 911 | Non-Emergency: (417) 272-3107
+- Police Website: https://www.reedsspring.org/police
 ## Courts
-- Reeds Spring Municipal Court — 22601 Main St, Reeds Spring, MO 65737 — (417) 272-3309
-- Hours: 3rd Wednesday monthly at 1:00 PM
-- Court Website: https://www.reedsspringmo.gov/municipal-court
+- Reeds Spring Municipal Court — https://www.reedsspringmo.gov/municipal-court
+- Address: 21016 Main Street, Reeds Spring, MO 65737
+- Phone: (417) 272-3309 | Court Clerk: Kelly Wheeler
+- Sessions: 3rd Wednesday monthly at 1:00 PM
+## Detention Center
+- Reeds Spring PD (short-term) — 22188 Main Street, Reeds Spring, MO 65737
+- Stone County Jail — 300 E Jackson St, Galena, MO 65656
+- Phone: (417) 358-2241
+- County Website: https://stonecountymo.com
 ## Building Permits
-- Reeds Spring Building Department — https://www.reedsspringmo.gov
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Stone County Jail
+- City of Reeds Spring Building Department
+- Forms & Permits: https://www.reedsspring.org/forms-and-permits
+- Phone: (417) 272-3309 | Address: 21016 Main Street, Suite B, Reeds Spring, MO 65737
+## Library
+- No public library in Reeds Spring; nearest:
+  - Galena Public Library: 210 E Jackson St, Galena — (417) 358-2153
+  - Branson Public Library: 100 S Commercial, Branson — (417) 337-8784
+## Hospitals
+- Cox Medical Center – Branson — 1000 Medical Center Dr, Branson, MO 65616 — (417) 339-2000 — 36.6367° N, 93.2314° W
+  Website: https://www.coxhealth.com
+- Skaggs Community Health Center — Reeds Spring, MO 65737
+- Mercy Clinic Family Medicine - Branson West — 18598 Business 13
+- CoxHealth Center Branson West — 18452 MO-13

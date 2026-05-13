@@ -1,22 +1,34 @@
 ﻿# Kirksville — Local Law Resources
 ## City Website
-- https://www.kirksvillecity.com
+- https://www.kirksvillecity.com — (660) 627-1272
+- Email: city@kirksvillecity.com
+- Address: 201 S Franklin St, Kirksville, MO 63501
 ## Law Enforcement
-- Kirksville Police Department — 119 E McPherson St, Kirksville, MO 63501 — (660) 665-5621 (Non-emergency)
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
+- Kirksville Police Department
+- Address: 119 E McPherson St, Kirksville, MO 63501
+- Emergency: 911 | Non-Emergency: (660) 785-6945
+- Email: police@kirksvillecity.com
 - Police Website: https://www.kirksvillecity.com/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
 ## Courts
-- Kirksville Municipal Court — 201 S Franklin St, Kirksville, MO 63501 — (660) 627-1237
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://www.kirksvillecity.com/municipal-court
+- Kirksville Municipal Court — https://www.kirksvillecity.com/municipal-court
+- Address: 201 S Franklin St, Kirksville, MO 63501
+- Phone: (660) 627-1237 | Fax: (660) 627-7941
+## Detention Center
+- Kirksville Detention Facility — 215 N Franklin St, Kirksville, MO 63501
+- Adair County Sheriff Jail — 215 N Franklin St, Kirksville, MO 63501
+- Phone: (660) 665-4600
+- Sheriff Website: http://youradaircountysheriff.com
 ## Building Permits
-- Kirksville Building Department — https://www.kirksvillecity.com
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Adair County Jail
+- City of Kirksville Building Permits
+- Permit Information: https://www.kirksvillecity.com/codes
+- Phone: (660) 627-1272 | Email: codes@kirksvillecity.com
+- Address: 201 S Franklin St, Kirksville, MO 63501
+## Library
+- Adair County Public Library
+- Address: 1 Library Ln, Kirksville, MO 63501
+- Phone: (660) 665-6038
+- Email: acpl@adairco.org
+- Website: https://www.adairco.org
+## Hospitals
+- Northeast Regional Medical Center — 315 S Osteopathy Ave, Kirksville, MO 63501 — (660) 785-1000 — 40.1926° N, 92.5899° W
+  Website: https://www.nermc.com

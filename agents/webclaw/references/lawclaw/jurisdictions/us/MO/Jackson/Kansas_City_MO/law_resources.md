@@ -1,20 +1,41 @@
-# Kansas City MO — Local Law Resources
+﻿# Kansas City — Local Law Resources
 ## City Website
-- https://www.kcmo.gov/
+- https://www.kcmo.gov — (816) 513-3600
+- City Manager: Troy Schulte | Mayor: Quinton Lucas
+- City Departments: https://www.kcmo.gov/departments
+- Contact Directory: https://www.kcmo.gov/contact
+- Address: 414 E 12th St, Kansas City, MO 64106
 ## Law Enforcement
-- Kansas City PD — 1125 Locust St — (816) 234-5111
-- **Police Website**: https://kcpolice.org/
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Kansas City Police Department
+- Address: 1125 Locust Ave, Kansas City, MO 64106
+- Emergency: 911 | Non-Emergency: (816) 513-5877
+- Chief: Stacey Graves
+- Police Website: https://www.kcmo.gov/police
 ## Courts
-- Kansas City Municipal Court — 1101 Locust St — (816) 513-2700
-- **Court Website**: https://www.kcmo.gov/
+- Kansas City Municipal Court — https://www.kcmo.gov/court
+- Case Lookup: https://www.kcmo.gov/court/look-up-ticket
+- Address: 511 E 11th St, Kansas City, MO 64106
+- Phone: (816) 513-6700
+## Detention Center
+- Kansas City does not operate its own jail
+- Municipal offenders housed under contract with Johnson County, MO and Vernon County, MO
+- Jackson County Jail — 1300 Cherry St, Kansas City, MO 64106
+- County Website: https://www.jacksoncounty.org
 ## Building Permits
-- Kansas City MO Building Department — https://www.kcmo.gov/
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Jackson County Jail
+- City of Kansas City Planning & Development
+- Permit Information: https://www.kcmo.gov/permits
+- City Planning: https://www.kcmo.gov/city-planning
+- Online Portal (CompassKC): https://compasskc.kcmo.gov
+- Phone: (816) 513-1500 | Email: cdpermits@kcmo.org
+- Address: 414 E 12th St, Kansas City, MO 64106
+## Library
+- Kansas City Public Library – Central Library
+- Address: 14 W 10th St, Kansas City, MO 64105
+- Phone: (816) 701-3427
+- Website: https://kclibrary.org
+- Branches: Lucile H. Bluford (3050 Prospect Ave), Plaza (4801 Main St)
+## Hospitals
+- University Health Truman Campus — 2301 Holmes St, Kansas City, MO 64108 — (816) 364-7000 — 39.0933° N, 94.5797° W
+  Website: https://www.universityhealthcare.org
+- Saint Luke's Hospital — 4401 Wornall Rd, Kansas City, MO 64111 — (816) 600-2000 — 39.0083° N, 94.5947° W
+  Website: https://www.saintlukeskc.org

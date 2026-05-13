@@ -1,21 +1,37 @@
 ﻿# Wright City — Local Law Resources
 ## City Website
-- https://wrightcity.org
+- https://wrightcity.org — (636) 745-3101
+- Hours: Mon–Fri 8:00 AM–5:00 PM
+- City Government: https://wrightcity.org
+- Contact via main site (contact page blocked)
+- Address: 203 Veterans Memorial Pkwy, Wright City, MO 63390
 ## Law Enforcement
-- Wright City Police Department — 636 Westwoods Rd, Wright City, MO 63390 — (636) 745-1024
-- Police Website: https://wrightcity.org/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Wright City Police Department
+- Address: 203 Veterans Memorial Pkwy, Wright City, MO 63390
+- Emergency: 911 | Non-Emergency: (636) 745-3101
+- Police Website: https://wrightcity.org
 ## Courts
-- Wright City Municipal Court — 636 Westwoods Rd, Wright City, MO 63390 — (636) 745-1025
-- Hours: Monday–Friday, 8:00 AM – 3:30 PM
-- Court Website: https://wrightcity.org/municipal-court
+- Wright City Municipal Court — https://wrightcity.org/municipal-court/
+- Address: 203 Veterans Memorial Pkwy, Wright City, MO 63390 (City Hall)
+- Phone: (636) 745-1025
+- Hours: Mon–Fri 8:00 AM–3:30 PM (closed 12:00–12:30 PM)
+- Court Sessions: 2nd Tuesday monthly at 4:00 PM
+## Detention Center
+- Wright City PD (short-term) — 203 Veterans Memorial Pkwy, Wright City, MO 63390
+- Lincoln County Jail — 1001 Lincoln County Rd 105, Troy, MO 63379
+- Phone: (636) 528-4712
+- County Website: https://lincolncomo.gov
 ## Building Permits
-- Wright City Building Department — https://wrightcity.org
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Warren County Jail
+- City of Wright City Building Inspector
+- Permit Forms: https://wrightcity.org/forms/
+- Contact: Lance Bauer | buildinginspector@wrightcity.org | (636) 745-3101
+- Fees: 0.39% of estimated construction cost
+- Address: 203 Veterans Memorial Pkwy, Wright City, MO 63390
+## Library
+- No public library in Wright City
+- Scenic Regional Library – Wright City Branch: 60 Wildcat Dr, Wright City, MO 63390
+- Troy Public Library: 800 Cap Au Gris St, Troy — (636) 528-4712
+- Wentzville Public Library: 100 Municipal Center Dr, Wentzville — (636) 332-3232
+## Hospitals
+- Progress West Hospital — 1301 Schuetz Rd, O'Fallon, MO 63368 — (636) 344-2220 — 38.7322° N, 90.6142° W
+  Website: https://www.bjc.org

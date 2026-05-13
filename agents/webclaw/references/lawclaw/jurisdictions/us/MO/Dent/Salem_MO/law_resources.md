@@ -1,20 +1,33 @@
 ﻿# Salem — Local Law Resources
 ## City Website
-- https://salem-mo.com
+- https://www.salemmo.com — (573) 729-4811
+- Email: city@salemmo.com
+- Address: 400 N Iron St, Salem, MO 65560
 ## Law Enforcement
-- Salem Police Department — 200 E 3rd St, Salem, MO 65560 — (417) 729-3575
-- Police Website: https://salem-mo.com/police
-- Missouri State Highway Patrol — https://www.mshp.dps.missouri.gov/
+- Salem Police Department
+- Address: 500 N Jackson St, Salem, MO 65560
+- Emergency: 911 | Non-Emergency: (573) 729-4242
+- Chief: John Chase
+- Police Website: https://www.salemmo.com/city/government/departments/police_department/index.php
 ## Courts
-- Dent County Associate Circuit Court — 101 E 3rd St, Salem, MO 65560 — (417) 729-3224
-- Court Website: https://dentcountymo.gov
+- Associate Circuit Court of Dent County — https://www.courtreference.com/courts/5950/salem-municipal-division
+- Address: 112 E 5th St, Salem, MO 65560
+- Phone: (573) 729-3931
+- Note: Salem does not have a standalone municipal court
+## Detention Center
+- Dent County Jail — 112 E 5th St, Salem, MO 65560
+- Phone: (573) 729-3241
+- Jail Website: https://dentcountyjailmo.org
+- Note: Salem does not operate a city jail
 ## Building Permits
-- Salem Building Department — https://salem-mo.com
-## Hunting Regulations
-- MO Hunting Regulations — https://mdc.mo.gov/hunting-trapping/
-## Fishing Regulations
-- MO Fishing Regulations — https://mdc.mo.gov/fishing/
-## Legal Aid
-- Legal Services of Missouri — https://www.lsmo.org/
-## Corrections
-- Dent County Jail
+- City of Salem Building Inspector
+- Permit Information: https://www.salemmo.com/city/government/departments/building_inspector/index.php
+- Phone: (573) 729-4811 | Address: 400 N Iron St, Salem, MO 65560
+## Library
+- Salem Public Library
+- Address: 403 N Jackson St, Salem, MO 65560
+- Phone: (573) 729-4331
+- Website: https://www.salempubliclibrary.net
+## Hospitals
+- Salem Memorial District Hospital — 35629 Highway 72, Salem, MO 65560 — (573) 729-6626 — 37.6602° N, 91.5696° W
+  Website: https://www.smdh.net
