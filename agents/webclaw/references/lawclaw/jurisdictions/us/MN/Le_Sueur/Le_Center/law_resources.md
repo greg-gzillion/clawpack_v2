@@ -1,20 +1,28 @@
-# Le Center — Local Law Resources
+﻿# Le Center — Local Law Resources
 ## City Website
-- https://www.ci.le-center.mn.us/
+- https://www.cityoflecenter.com — (507) 357-4450
+- Address: 10 W Tyrone Street, Le Center, MN 56057
 ## Law Enforcement
-- Le Center PD — 200 1st Ave E — (507) 357-8500
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Le Center Police Department
+- Address: 10 W Tyrone Street, Le Center, MN 56057
+- Emergency: 911 | Non-Emergency: (507) 357-4802
+- Police Website: https://www.cityoflecenter.com/police-department
 ## Courts
-- Le Sueur County District Court — Le Sueur — (507) 665-2700
-- **Court Website**: https://mncourts.gov/district/5
+- Le Sueur County District Court — 435 E Derrynane St, Le Center, MN 56057 — (507) 357-8260
+- Court Website: https://www.mncourts.gov/Find-Courts/LeSueur
+## Detention Center
+- Le Sueur County Jail — 435 E Derrynane St, Le Center, MN 56057 — (507) 357-8545
+- Inmate Roster & Jail Website: https://www.co.le-sueur.mn.us/223/Le-Sueur-County-Jail
 ## Building Permits
-- Le Center Building Department — https://www.ci.le-center.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Le Sueur County Jail
+- City of Le Center Building Permits
+- Permit Information: https://www.cityoflecenter.com/community-resources/page/permits
+- Inspections & Forms: https://www.cityoflecenter.com/inspections (Note: returned 404; contact City Hall)
+- Phone: (507) 357-4450 | Address: 10 W Tyrone Street, Le Center, MN 56057
+## Library
+- Le Center Public Library (Waseca-Le Sueur Regional Library)
+- Address: 10 W Tyrone Street, Le Center, MN 56057
+- Phone: (507) 357-6792 | Email: libtlc@tds.lib.mn.us
+- Website: https://wasecalesueurlibraries.com
+## Hospitals
+- Central Health Care Inc — 444 N Cordova Ave, Le Center, MN 56057 — (507) 357-2275 — 44.3885° N, 93.7313° W
+  Website: https://www.centralhealthcaremn.com

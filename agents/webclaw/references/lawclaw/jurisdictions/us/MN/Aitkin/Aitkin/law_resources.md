@@ -1,20 +1,33 @@
-# Aitkin — Local Law Resources
+﻿# Aitkin — Local Law Resources
 ## City Website
-- https://www.co.aitkin.mn.us/
+- https://www.ci.aitkin.mn.us — (218) 927-2133
+- Address: 109 1st Avenue NW, Aitkin, MN 56431
+- City Administrator: https://www.ci.aitkin.mn.us/administration
 ## Law Enforcement
-- Aitkin PD — 109 1st Ave NW — (218) 927-2527
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Aitkin Police Department
+- Address: 109 1st Avenue NW, Aitkin, MN 56431
+- Emergency: 911 | Non-Emergency: (218) 927-7400
+- Chief: https://www.ci.aitkin.mn.us/police
+- Email: AitkinPolice@AitkinPolice.com
+- Office Hours: Mon–Fri 7:00 AM–3:00 PM
 ## Courts
-- Aitkin County District Court — 118 3rd Ave NW — (218) 927-7435
-- **Court Website**: https://mncourts.gov/district/10
+- Aitkin County Court Administration — 307 2nd Street NW, Aitkin, MN 56431 — (218) 927-7350
+- Court Website: https://www.co.aitkin.mn.us/court-administration
+## Detention Center
+- Aitkin County Jail — 218 1st Street NW, Aitkin, MN 56431 — (218) 927-7435
+- Inmate Roster: https://www.co.aitkin.mn.us/jail-inmate-roster
+- Sheriff Website: https://www.co.aitkin.mn.us/sheriff
 ## Building Permits
-- Aitkin Building Department — https://www.co.aitkin.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Aitkin County Jail
+- Aitkin County Environmental Services Department
+- Phone: (218) 927-7342 | Email: aitkinpz@aitkincountymn.gov
+- Permitting Services: https://www.co.aitkin.mn.us/environmental-services
+## Library
+- Aitkin Public Library
+- Address: 210 1st Ave NW, Aitkin, MN 56431
+- Phone: (218) 927-6522
+- Coordinates: 46.5283° N, 93.7072° W
+- Website: https://www.aitkinlibrary.org
+## Hospitals
+- Aitkin Memorial Hospital — 502 Minnesota Ave N, Aitkin, MN 56431 — (218) 927-2111 — 46.5286° N, 93.7086° W
+  Website: https://www.aitkinmemorial.org
+- Riverwood Healthcare Center — 200 Bunker Hill Dr, Aitkin, MN 56431

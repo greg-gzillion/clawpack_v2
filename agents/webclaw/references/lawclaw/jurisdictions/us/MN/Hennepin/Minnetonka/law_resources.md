@@ -1,20 +1,32 @@
-# Minnetonka — Local Law Resources
+﻿# Minnetonka — Local Law Resources
 ## City Website
-- https://www.minnetonkamn.gov/
+- https://www.minnetonkamn.gov — (952) 939-8200
+- Address: 14600 Minnetonka Blvd, Minnetonka, MN 55345
+- Hours: Mon–Fri, 8:00 AM – 4:30 PM (Fri until noon in summer)
 ## Law Enforcement
-- Minnetonka PD — 14600 Minnetonka Blvd — (952) 939-8500
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Minnetonka Police Department
+- Address: 14600 Minnetonka Blvd, Minnetonka, MN 55345
+- Emergency: 911 | Non-Emergency: (952) 939-8500
+- Police Website: https://www.minnetonkamn.gov/police
 ## Courts
-- Hennepin County District Court — Minneapolis — (612) 348-6000
-- **Court Website**: https://www.mncourts.gov/Find-Courts/Hennepin.aspx
+- Hennepin County District Court – Ridgedale — 12601 Ridgedale Dr, Minnetonka, MN 55305
+- Court Website: https://www.mncourts.gov
+## Detention Center
+- Minnetonka Police Department (short-term) — 14600 Minnetonka Blvd — (952) 939-8500
+- Hennepin County Jail — 401 S 4th Ave, Minneapolis, MN 55415
+- Website: https://www.hennepin.us
 ## Building Permits
-- Minnetonka Building Department — https://www.minnetonkamn.gov/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Hennepin County Jail
+- Community Development Department
+- Phone: (952) 939-8200 | Email: communitydevelopment@minnetonkamn.gov
+- Address: 14600 Minnetonka Blvd, Minnetonka, MN 55345
+- Website: https://www.minnetonkamn.gov/community-development
+## Library
+- Minnetonka Library (Hennepin County Library)
+- Address: 17524 Excelsior Blvd, Minnetonka, MN 55345
+- Phone: (612) 543-5725
+- Website: https://www.hclib.org
+## Hospitals
+- North Memorial Clinic – Minnetonka Medical Center — 15450 Highway 7, Suite 225, Minnetonka, MN 55345 — (763) 581-3300 — 44.9211° N, 93.4764° W
+  Website: https://northmemorial.com
+- Children's Minnesota – Minnetonka — 6050 Clearwater Dr, Minnetonka, MN 55343 — (952) 993-2000 — 44.9086° N, 93.4950° W
+  Website: https://www.childrensmn.org

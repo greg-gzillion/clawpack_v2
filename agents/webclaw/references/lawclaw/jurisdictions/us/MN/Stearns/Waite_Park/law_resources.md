@@ -1,20 +1,28 @@
-# Waite Park — Local Law Resources
+﻿# Waite Park — Local Law Resources
 ## City Website
-- https://www.ci.waite-park.mn.us/
+- https://www.ci.waitepark.mn.us — (320) 656-8936
+- Address: 19 13th Avenue North, Waite Park, MN 56387 | Mailing: PO Box 339
 ## Law Enforcement
-- Waite Park PD — 120 1st Ave NE — (320) 253-7111
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Waite Park Police Department
+- Address: 19 13th Avenue North, Waite Park, MN 56387 | PO Box 339
+- Emergency: 911 | Non-Emergency: (320) 251-3281
+- Police Website: https://www.ci.waitepark.mn.us/158/Police-Department
 ## Courts
-- Stearns County District Court — St. Cloud — (320) 656-3620
-- **Court Website**: https://mncourts.gov/district/7
+- Stearns County District Court — 705 Courthouse Square, St. Cloud, MN 56303 — (320) 656-3620
+- Court Website: https://www.mncourts.gov/Find-Courts/Stearns
+## Detention Center
+- Waite Park Police Holding Facility (short-term) — 19 13th Avenue North — (320) 251-3281
+- Stearns County Jail — 3301 County Rd 138, St. Cloud, MN 56303 — (320) 656-3888
+- Inmate Roster & Jail Website: https://jailroster.stearnscountymn.gov
 ## Building Permits
-- Waite Park Building Department — https://www.ci.waite-park.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Stearns County Jail
+- City of Waite Park Building Department
+- Permit Information: https://www.ci.waitepark.mn.us/151/Building-Department
+- Phone: (320) 656-8936 | Address: 19 13th Avenue North, Waite Park, MN 56387
+## Library
+- St. Cloud Public Library (Great River Regional Library — nearest)
+- Address: 1300 W St Germain St, St. Cloud, MN 56301
+- Phone: (320) 650-2500
+- Website: https://griver.org/locations/st-cloud
+## Hospitals
+- CentraCare – St. Cloud Hospital Waite Park Clinic — 2100 13th Ave N, Waite Park, MN 56387 — (320) 251-5511 — 45.5745° N, 94.2558° W
+  Website: https://www.centracare.com/locations/profile/waite-park-clinic/

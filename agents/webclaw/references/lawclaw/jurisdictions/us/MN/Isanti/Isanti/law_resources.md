@@ -1,20 +1,30 @@
-# Isanti — Local Law Resources
+﻿# Isanti — Local Law Resources
 ## City Website
-- http://www.cityofisanti.us/
+- https://www.cityofisanti.us — (763) 444-5512
+- Address: 110 1st Avenue NW, Isanti, MN 55040
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Isanti PD — 401 1st Ave NW — (763) 444-4761
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Isanti Police Department
+- Address: 401 1st Avenue NW, Isanti, MN 55040
+- Emergency: 911 | Non-Emergency: (763) 444-4761
+- Police Website: https://www.cityofisanti.us/police-department
 ## Courts
-- Isanti County District Court — Cambridge — (763) 689-2141
-- **Court Website**: https://mncourts.gov/district/10
+- Isanti County District Court — 555 18th Ave SW, Cambridge, MN 55008
+- Court Website: https://www.mncourts.gov
+## Detention Center
+- Isanti Police Department (short-term) — 401 1st Avenue NW — (763) 444-4761
+- Isanti County Jail — 509 18th Ave SW, Cambridge, MN 55008
+- Website: https://www.co.isanti.mn.us
 ## Building Permits
-- Isanti Building Department — http://www.cityofisanti.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Isanti County Jail
+- City Hall / Planning Department
+- Phone: (763) 444-5512
+- Address: 110 1st Avenue NW, Isanti, MN 55040
+- Website: https://www.cityofisanti.us/planning-zoning
+## Library
+- Isanti Outreach Library (East Central Regional Library)
+- Address: 110 1st Ave NW, Isanti, MN 55040 (inside City Hall)
+- Hours: Wednesdays, 11:00 AM – 3:00 PM
+- Website: https://ecrlib.org
+## Hospitals
+- Allina Health – Cambridge Medical Center — 701 Dellwood St S, Cambridge, MN 55008 — (763) 689-7700 — 45.5658° N, 93.2275° W
+  Website: https://www.allinahealth.org

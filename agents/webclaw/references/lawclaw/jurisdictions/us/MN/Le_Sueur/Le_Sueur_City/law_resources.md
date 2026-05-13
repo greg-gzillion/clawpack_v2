@@ -1,20 +1,29 @@
-# Le Sueur City — Local Law Resources
+﻿# Le Sueur — Local Law Resources
 ## City Website
-- https://www.ci.le-sueur.mn.us/
+- https://www.cityoflesueur.com — (507) 665-6401
+- Address: 203 South Second Street, Le Sueur, MN 56058
 ## Law Enforcement
-- Le Sueur PD — 105 1st St N — (507) 665-3471
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Le Sueur Police Department
+- Address: 228 North Main Street, Le Sueur, MN 56058
+- Emergency: 911 | Non-Emergency: (507) 665-2041
+- Police Website: https://www.cityoflesueur.com/departments/police
 ## Courts
-- Le Sueur County District Court — 101 E Main St — (507) 665-2700
-- **Court Website**: https://mncourts.gov/district/5
+- Le Sueur County District Court — 88 South Park Avenue, Le Center, MN 56057 — (507) 357-8260
+- Court Website: https://www.mncourts.gov/Find-Courts/LeSueur.aspx
+## Detention Center
+- Le Sueur County Jail — 88 South Park Avenue, Le Center, MN 56057 — (507) 357-8274
+- Inmate Roster: https://www.inmatesearchmn.org/Le_Sueur_County.html
+- Jail Website: https://www.co.le-sueur.mn.us/223/Le-Sueur-County-Jail
 ## Building Permits
-- Le Sueur City Building Department — https://www.ci.le-sueur.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Le Sueur County Jail
+- City of Le Sueur Building Inspections
+- Permit Information: https://www.cityoflesueur.com/departments/building-inspections
+- Building Official: Justin Nielsen — (507) 593-8317
+- Phone: (507) 665-6401 | Address: 203 South Second Street, Le Sueur, MN 56058
+## Library
+- Le Sueur Public Library (Waseca-Le Sueur Regional Library)
+- Address: 118 E Ferry Street, Le Sueur, MN 56058
+- Phone: (507) 665-2662
+- Website: https://wasecalesueurlibraries.com
+## Hospitals
+- Ridgeview Le Sueur Medical Center — 621 South Fourth Street, Le Sueur, MN 56058 — (507) 665-3375 — 44.4539° N, 93.9157° W
+  Website: https://www.ridgeviewmedical.org/locations/ridgeview-le-sueur-medical-center

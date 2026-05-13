@@ -1,20 +1,28 @@
-# Gaylord MN — Local Law Resources
+﻿# Gaylord — Local Law Resources
 ## City Website
-- https://www.ci.gaylord.mn.us/
+- https://www.exploregaylord.org — (507) 237-2338
+- Address: 220 Jefferson Ave E, Gaylord, MN 55334
 ## Law Enforcement
-- Gaylord PD — 201 2nd Ave — (507) 237-5300
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Gaylord Police Department
+- Address: 220 Jefferson Ave E, Gaylord, MN 55334
+- Emergency: 911 | Non-Emergency: (507) 237-2265
+- Police Website: https://www.exploregaylord.org/government/city-departments/police/
 ## Courts
-- Sibley County District Court — 201 2nd Ave — (507) 237-5300
-- **Court Website**: https://mncourts.gov/district/1
+- Sibley County District Court — 400 Court Avenue, Gaylord, MN 55334 — (507) 237-7800
+- Court Website: https://www.sibleycounty.gov
+## Detention Center
+- Sibley County Jail — 400 Court Avenue, Gaylord, MN 55334 — (507) 237-4330
+- Inmate Roster: https://sibleycountyarrests.org/inmate-roster
+- Jail Website: https://sibleycountyarrests.org
 ## Building Permits
-- Gaylord MN Building Department — https://www.ci.gaylord.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Sibley County Jail
+- City of Gaylord Building Permits
+- Permit Information: https://www.exploregaylord.org/government/permits/
+- Phone: (507) 237-2338 | Address: 220 Jefferson Ave E, Gaylord, MN 55334
+## Library
+- Sibley County Library
+- Address: 400 Court Avenue, Gaylord, MN 55334
+- Phone: (507) 237-2212
+- Website: https://www.sibleycounty.gov/library
+## Hospitals
+- Gaylord Community Hospital (Allina Health) — 300 Main Ave, Gaylord, MN 55334 — (507) 237-2900 — 44.5547° N, 94.2117° W
+  Website: https://www.allinahealth.org/locations/gaylord-community-hospital

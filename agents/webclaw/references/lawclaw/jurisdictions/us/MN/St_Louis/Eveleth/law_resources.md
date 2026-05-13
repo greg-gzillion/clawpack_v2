@@ -1,20 +1,30 @@
-# Eveleth — Local Law Resources
+﻿# Eveleth — Local Law Resources
 ## City Website
-- https://www.ci.eveleth.mn.us/
+- https://eveleth.gov — (218) 744-7560
+- Address: 415 Pierce Street, Eveleth, MN 55734
 ## Law Enforcement
-- Eveleth PD — 111 2nd Ave S — (218) 744-2671
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Eveleth Police Department
+- Address: 415 Pierce Street, Eveleth, MN 55734
+- Emergency: 911 | Non-Emergency: (218) 744-7560
+- Police Website: https://www.evelethpd.gov
 ## Courts
-- St. Louis County District Court — Duluth — (218) 726-2460
-- **Court Website**: https://mncourts.gov/district/4
+- St. Louis County District Court — 100 North 6th Avenue West, Room 210, Hibbing, MN 55746 — (218) 283-4600
+- Court Website: https://www.stlouiscountymn.gov/courts
+## Detention Center
+- Eveleth Police Holding Facility (short-term) — 415 Pierce Street — (218) 744-7560
+- St. Louis County Jail — 1000 North 6th Avenue West, Hibbing, MN 55746 — (218) 283-4640
+- Inmate Roster: https://www.stlouiscountymn.gov/sheriff/inmate-roster
+- Sheriff Website: https://www.stlouiscountymn.gov/sheriff
 ## Building Permits
-- Eveleth Building Department — https://www.ci.eveleth.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- St Louis County Jail
+- City of Eveleth Building Permits
+- Permit Information: https://eveleth.gov/index.asp?SEC=33D49EAA-4795-4C82-B42E-6617CAC436BB
+- Public Works Director: (218) 744-7504
+- Address: 415 Pierce Street, Eveleth, MN 55734
+## Library
+- Eveleth Public Library (Arrowhead Library System)
+- Address: 413 Pierce Street, Eveleth, MN 55734
+- Phone: (218) 744-7567
+- Website: https://www.evelethmn.com/index.asp?SEC=7480D577-3777-4F31-890A-816491216566
+## Hospitals
+- Fairview Range Medical Center — 1001 19th Ave, Hibbing, MN 55746 — (218) 262-2111 — 47.4375° N, 92.9375° W
+  Website: https://www.fairview.org/locations/fairview-range-medical-center

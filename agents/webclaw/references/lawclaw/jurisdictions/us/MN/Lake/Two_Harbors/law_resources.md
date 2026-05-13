@@ -1,20 +1,30 @@
-# Two Harbors — Local Law Resources
+﻿# Two Harbors — Local Law Resources
 ## City Website
-- https://www.ci.two-harbors.mn.us/
+- https://www.twoharborsmn.gov — (218) 834-5631
+- Address: 522 1st Avenue, Two Harbors, MN 55616
+- Email: Contact via website form
 ## Law Enforcement
-- Two Harbors PD — 601 3rd Ave — (218) 834-8330
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Two Harbors Police Department
+- Address: 611 3rd Avenue, Two Harbors, MN 55616
+- Emergency: 911 | Non-Emergency: (218) 834-5567
+- Police Website: http://www.ci.two-harbors.mn.us/index.asp?Type=B_BASIC&SEC={14481697-2F8D-49BF-B255-891987E734E6}
 ## Courts
-- Lake County District Court — 601 3rd Ave — (218) 834-8330
-- **Court Website**: https://mncourts.gov/district/6
+- Lake County District Court — 601 3rd Avenue, Two Harbors, MN 55616 — (218) 834-8330
+- Court Website: https://www.mncourts.gov/Find-Courts/Lake
+## Detention Center
+- Lake County Jail — 601 3rd Avenue, Two Harbors, MN 55616 — (218) 834-8305
+- Inmate Roster: https://www.co.lake.mn.us/inmate-roster/
+- Jail Website: https://www.co.lake.mn.us/lake-county-jail/
 ## Building Permits
-- Two Harbors Building Department — https://www.ci.two-harbors.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Lake County Jail
+- City of Two Harbors Building Permits
+- Permit Information: https://www.twoharborsmn.gov/community/building-permits/
+- Zoning & Forms: https://www.twoharborsmn.gov/community/zoning/
+- Phone: (218) 834-5631 | Address: 522 1st Avenue, Two Harbors, MN 55616
+## Library
+- Two Harbors Public Library
+- Address: 320 Waterfront Drive, Two Harbors, MN 55616
+- Phone: (218) 834-3148 | Email: thpl@alslib.info
+- Website: https://www.twoharborspubliclibrary.com
+## Hospitals
+- Aspirus Lake View Two Harbors Clinic — 325 11th Avenue, Two Harbors, MN 55616 — (218) 834-7700 — 47.0298° N, 91.6665° W
+  Website: https://locations.aspirus.org/mn/two-harbors/325-11th-avenue/primary-care-clinics

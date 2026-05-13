@@ -1,20 +1,29 @@
-# Delano — Local Law Resources
+﻿# Delano — Local Law Resources
 ## City Website
-- https://www.ci.delano.mn.us/
+- https://www.delanomn.gov — (763) 972-0550
+- Address: 234 2nd Street South, Delano, MN 55328
 ## Law Enforcement
-- Wright County Sheriff — (763) 682-7622
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Wright County Sheriff's Office (contract)
+- Emergency: 911 | Non-Emergency: (763) 682-1162
+- Public Safety Website: https://www.delanomn.gov/210/Public-Safety
+- Sheriff Website: https://www.co.wright.mn.us/sheriff
 ## Courts
-- Wright County District Court — Stillwater — (651) 430-6600
-- **Court Website**: https://mncourts.gov/district/10
+- Wright County District Court — 10 Second Street NW, Buffalo, MN 55313 — (763) 682-7539
+- Court Website: https://www.mncourts.gov/Find-Courts/Wright
+## Detention Center
+- Wright County Adult Detention Center — 3800 Braddock Ave NE, Buffalo, MN 55313 — (763) 682-7600
+- Inmate Roster: https://www.co.wright.mn.us/sheriff/inmate-roster
+- Jail Website: https://www.co.wright.mn.us/sheriff
 ## Building Permits
-- Delano Building Department — https://www.ci.delano.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Wright County Jail
+- City of Delano Building Department
+- Permit Information: https://www.delanomn.gov/161/Building-Department
+- Application Forms: https://www.delanomn.gov/167/Permit-Application-Forms
+- Phone: (763) 972-0550 | Address: 234 2nd Street South, Delano, MN 55328
+## Library
+- Delano Public Library (Great River Regional Library)
+- Address: 234 2nd Street South, Delano, MN 55328
+- Phone: (763) 972-3467
+- Website: https://www.delanomn.gov/318/Library
+## Hospitals
+- Buffalo Hospital (Allina Health) — 200 1st Avenue North, Buffalo, MN 55313 — (763) 682-7500 — 45.1761° N, 93.7975° W
+  Website: https://www.allinahealth.org/locations/buffalo-hospital

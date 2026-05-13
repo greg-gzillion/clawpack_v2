@@ -1,20 +1,29 @@
-# Hutchinson — Local Law Resources
+﻿# Hutchinson — Local Law Resources
 ## City Website
-- https://www.ci.hutchinson.mn.us/
+- https://hutchinsonmn.gov — (320) 587-5151
+- Address: 111 Hassan Street SE, Hutchinson, MN 55350
 ## Law Enforcement
-- Hutchinson PD — 830 N 7th Ave — (320) 234-4111
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Hutchinson Police Department
+- Address: 10 Franklin Street SW, Hutchinson, MN 55350
+- Emergency: 911 | Non-Emergency: (320) 234-4290
+- Police Website: https://hutchinsonmn.gov/departmentsfacilities/police-services/
 ## Courts
-- McLeod County District Court — 830 N 7th Ave — (320) 864-1281
-- **Court Website**: https://mncourts.gov/district/5
+- McLeod County District Court — 830 11th Street East, Suite 106, Glencoe, MN 55336 — (320) 864-1281
+- Court Website: https://www.mncourts.gov/Find-Courts/McLeod
+## Detention Center
+- McLeod County Jail — 801 East 10th Street, Glencoe, MN 55336 — (320) 864-5191
+- Inmate Roster: https://mcleodcountyjail.org/
+- Jail Website: https://www.mcleodcountymn.gov/government/sheriff_s_office/jail_information/index.php
 ## Building Permits
-- Hutchinson Building Department — https://www.ci.hutchinson.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- McLeod County Jail
+- City of Hutchinson Building Department
+- Permit Information: https://hutchinsonmn.gov/city-services/departmentsfacilities/building/
+- Online Portal: https://www.citizenserve.com/Portal/PortalController?Action=showHomePage&ctzPagePrefix=Portal_&installationID=203
+- Phone: (320) 234-4216 | Address: 111 Hassan Street SE, Hutchinson, MN 55350
+## Library
+- Hutchinson Public Library (Pioneerland Library System)
+- Address: 50 Hassan Street SE, Hutchinson, MN 55350
+- Phone: (320) 587-2368
+- Website: https://www.hutchinson.lib.mn.us
+## Hospitals
+- Hutchinson Health — 300 East Park Avenue, Hutchinson, MN 55350 — (320) 234-8300 — 44.8745° N, 94.2097° W
+  Website: https://www.hutchinsonhealth.org

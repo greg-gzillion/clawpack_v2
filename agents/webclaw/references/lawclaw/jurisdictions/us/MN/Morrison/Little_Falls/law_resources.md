@@ -1,20 +1,29 @@
-# Little Falls — Local Law Resources
+﻿# Little Falls — Local Law Resources
 ## City Website
-- https://www.ci.little-falls.mn.us/
+- https://www.cityoflittlefalls.com — (320) 616-5500
+- Address: 207 NE 1st Street, Little Falls, MN 56345
 ## Law Enforcement
-- Little Falls PD — 213 1st Ave SE — (320) 632-0340
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Little Falls Police Department
+- Address: 207 NE 1st Street, Little Falls, MN 56345
+- Emergency: 911 | Non-Emergency: (320) 616-5540
+- Police Website: https://www.cityoflittlefalls.com/181/Police-Department
 ## Courts
-- Morrison County District Court — 213 1st Ave SE — (320) 412-7010
-- **Court Website**: https://mncourts.gov/district/7
+- Morrison County District Court — 213 1st Ave SE, Little Falls, MN 56345 — (320) 412-7010
+- Court Website: https://www.mncourts.gov/Find-Courts/Morrison
+## Detention Center
+- Morrison County Jail — 213 1st Ave SE, Little Falls, MN 56345 — (320) 632-2673
+- Inmate Roster: https://morrisoncountyjailmn.org/
+- Jail Website: https://www.co.morrison.mn.us/173/Jail
 ## Building Permits
-- Little Falls Building Department — https://www.ci.little-falls.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Morrison County Jail
+- City of Little Falls Building Permits & Inspections
+- Permit Information: https://www.cityoflittlefalls.com/166/Building-Permits-Inspections
+- Online Portal: https://ci-little-falls-mn.smartgovcommunity.com/
+- Phone: (320) 616-5500 | Address: 207 NE 1st Street, Little Falls, MN 56345
+## Library
+- Little Falls Public Library (Great River Regional Library)
+- Address: 108 NE 3rd St, Little Falls, MN 56345
+- Phone: (320) 632-9676
+- Website: https://www.griver.org/locations-and-hours/little-falls-public-library
+## Hospitals
+- CHI St. Gabriel's Hospital — 815 SE 2nd St, Little Falls, MN 56345 — (320) 632-5441 — 45.9670° N, 94.3619° W
+  Website: https://www.chistgabriels.com

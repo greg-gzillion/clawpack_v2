@@ -1,20 +1,28 @@
-# Hanover — Local Law Resources
+﻿# Hanover — Local Law Resources
 ## City Website
-- https://www.ci.hanover.mn.us/
+- https://hanovermn.gov — (763) 497-3777
+- Email: cityhall@ci.hanover.mn.us
+- Address: 11250 5th Street NE, Hanover, MN 55341
 ## Law Enforcement
-- Wright County Sheriff — (763) 682-7622
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Hennepin County Sheriff's Office (contract)
+- Emergency: 911 | Non-Emergency: (952) 995-7700
+- Sheriff Website: https://www.hennepin.us/sheriff
 ## Courts
-- Wright County District Court — Stillwater — (651) 430-6600
-- **Court Website**: https://mncourts.gov/district/10
+- Hennepin County District Court — 3600 Chicago Ave S, Minneapolis, MN 55407 — (612) 348-6300
+- Court Website: https://www.mncourts.gov/Find-Courts/Hennepin
+## Detention Center
+- Hennepin County Adult Detention Center — 1125 5th St S, Minneapolis, MN 55403 — (612) 348-2885
+- Inmate Search: https://inmatesearch.hennepin.us
+- Sheriff Website: https://www.hennepin.us/sheriff
 ## Building Permits
-- Hanover Building Department — https://www.ci.hanover.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Wright County Jail
+- City of Hanover Building Department
+- Permit Information: https://hanovermn.gov/departments/building-department/
+- Phone: (763) 497-3777 | Address: 11250 5th Street NE, Hanover, MN 55341
+## Library
+- St. Michael-Albertville-Hanover Library (Great River Regional Library)
+- Address: 11800 Central Avenue NE, St. Michael, MN 55376
+- Phone: (763) 497-1998
+- Website: https://www.griver.org/locations/st-michael
+## Hospitals
+- North Memorial Health – Albertville Clinic — 5900 Main Ave NE, Albertville, MN 55301 — (763) 497-7400 — 45.2214° N, 93.5858° W
+  Website: https://northmemorial.com/locations/albertville-clinic/

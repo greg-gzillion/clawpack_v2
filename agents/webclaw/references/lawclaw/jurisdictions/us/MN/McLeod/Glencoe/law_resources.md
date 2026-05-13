@@ -1,20 +1,30 @@
-# Glencoe — Local Law Resources
+﻿# Glencoe — Local Law Resources
 ## City Website
-- https://www.ci.glencoe.mn.us/
+- https://www.glencoemn.org — (320) 864-5586
+- Address: 1107 11th Street E, Suite 107, Glencoe, MN 55336
 ## Law Enforcement
-- Glencoe PD — 111 3rd St S — (320) 864-4551
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Glencoe Police Department
+- Address: 911 Greeley Avenue North, Glencoe, MN 55336
+- Emergency: 911 | Non-Emergency: (320) 864-5171
+- Police Website: https://www.glencoemn.org/departments/police/
 ## Courts
-- McLeod County District Court — Hutchinson — (320) 864-1281
-- **Court Website**: https://mncourts.gov/district/5
+- Glencoe Municipal Court — 1st & 3rd Wednesday, 3:00 PM
+- Court Magistrate: kelleyrhoades@cityofglencoe.org
+- Court Website: https://cityofglencoe.org/municipal-court/
+## Detention Center
+- McLeod County Jail — 801 East 10th Street, Glencoe, MN 55336 — (320) 864-5191
+- Inmate Roster: https://mcleodcountyjail.org/
+- Jail Website: https://www.mcleodcountymn.gov/government/sheriff_s_office/jail_information/index.php
 ## Building Permits
-- Glencoe Building Department — https://www.ci.glencoe.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- McLeod County Jail
+- City of Glencoe Building Permits
+- Applications & Forms: https://www.glencoemn.org/services/applications-forms/
+- Zoning & Ordinances: https://www.glencoemn.org/services/ordinances-zoning/ (Note: returned 404)
+- Phone: (320) 864-5586 | Address: 1107 11th Street E, Suite 107, Glencoe, MN 55336
+## Library
+- Glencoe Public Library (Pioneerland Library System)
+- Address: 1107 11th Street E, Suite 207, Glencoe, MN 55336
+- Phone: (320) 864-3919
+- Website: https://www.glencoe.lib.mn.us
+## Hospitals
+- Glencoe Regional Health — 1805 Hennepin Ave N, Glencoe, MN 55336 — (320) 864-3121 — 44.7776° N, 94.1517° W
+  Website: https://www.glencoehealth.org

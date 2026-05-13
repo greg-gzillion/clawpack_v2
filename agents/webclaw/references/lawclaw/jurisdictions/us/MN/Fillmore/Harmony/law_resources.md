@@ -1,20 +1,32 @@
-# Harmony — Local Law Resources
+﻿# Harmony — Local Law Resources
 ## City Website
-- https://www.harmonymn.com/
+- https://harmonymn.gov — (507) 886-8122
+- Email: cityoffice@harmonymn.gov
+- Address: 225 3rd Ave SW, Harmony, MN 55939
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Fillmore County Sheriff — (507) 765-3151
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Fillmore County Sheriff's Office (contract)
+- Address: 225 3rd Ave SW, Harmony, MN 55939
+- Emergency: 911 | Non-Emergency: (507) 886-3414
+- Sheriff Website: https://www.co.fillmore.mn.us/departments/sheriff/
 ## Courts
-- Fillmore County District Court — Preston — (507) 765-3151
-- **Court Website**: https://mncourts.gov/district/5
+- Fillmore County Court — https://www.mncourts.gov
+## Detention Center
+- Fillmore County Jail — 901 Houston St NW, Preston, MN 55965
+- Website: https://www.co.fillmore.mn.us/departments/sheriff/
 ## Building Permits
-- Harmony Building Department — https://www.harmonymn.com/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Fillmore County Jail
+- City of Harmony City Office – Building & Zoning
+- Phone: (507) 886-8122 | Email: cityoffice@harmonymn.gov
+- Address: 225 3rd Ave SW, Harmony, MN 55939
+- Website: https://harmonymn.gov
+## Library
+- Harmony Public Library
+- Address: 225 3rd Ave SW, Harmony, MN 55939
+- Phone: (507) 886-8133 | Email: harmonypl@selco.info
+- Hours: Mon/Wed/Fri 10 AM–6 PM, Tue/Thu 2 PM–8 PM, Sat 10 AM–1 PM
+- Website: https://harmony.lib.mn.us
+## Hospitals
+- Gundersen Harmony Clinic — 805 Main Ave S, Harmony, MN 55939 — (507) 886-8888 — 43.5465° N, 92.0106° W
+  Website: https://www.gundersenhealth.org
+- Gundersen Harmony Care Center — 815 Main Ave S, Harmony, MN 55939 — (507) 886-6544 — 43.5464° N, 92.0106° W
+  Website: https://www.gundersenhealth.org

@@ -1,20 +1,33 @@
-# South St Paul — Local Law Resources
+﻿# South St. Paul — Local Law Resources
 ## City Website
-- https://www.southstpaul.org/
+- https://www.southstpaulmn.gov — (651) 554-3200
+- Address: 125 3rd Avenue N, South St. Paul, MN 55075
+- Hours: Monday–Thursday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- South St. Paul PD — 125 3rd Ave N — (651) 554-3300
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- South St. Paul Police Department
+- Address: 125 3rd Avenue N, South St. Paul, MN 55075
+- Emergency: 911 | Non-Emergency: (651) 413-8300
+- Chief of Police: Brian Wicke
+- Police Website: https://www.southstpaulmn.gov/police
 ## Courts
-- Dakota County District Court — Hastings — (651) 438-8100
-- **Court Website**: https://mncourts.gov/district/1
+- Dakota County District Court — https://www.mncourts.gov/dakota
+## Detention Center
+- Dakota County Jail — 1580 Highway 55, Hastings, MN 55033
+- Inmate Search: https://www.co.dakota.mn.us/LawJustice/Jail
 ## Building Permits
-- South St Paul Building Department — https://www.southstpaul.org/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Dakota County Jail
+- Building Permits & Inspections
+- Phone: (651) 554-3220 | Email: permits@southstpaul.org
+- Address: 125 3rd Avenue N, South St. Paul, MN 55075
+- Online Portal: E-Permit System
+- Note: Building page returned 404; contact department directly
+- Website: https://www.southstpaulmn.gov
+## Library
+- South St. Paul Public Library
+- Address: 106 3rd Avenue N, South St. Paul, MN 55075
+- Phone: (651) 554-3240
+- Website: https://www.co.dakota.mn.us/libraries/HoursLocations/SSP
+## Hospitals
+- United Hospital — 333 Smith Ave N, St. Paul, MN 55107 — (651) 243-2000 — 44.9386° N, 93.1078° W
+  Website: https://www.allinahealth.org
+- Regions Hospital — 640 Jackson St, St. Paul, MN 55101 — (651) 241-5000 — 44.9356° N, 93.0925° W
+  Website: https://www.healthpartners.com

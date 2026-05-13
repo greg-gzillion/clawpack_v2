@@ -1,6 +1,35 @@
-# Cannon Falls Municipal Court
+﻿# Cannon Falls Courts
 ## Court Information
-- Goodhue County District Court — Red Wing — (651) 385-3040
-- **Court Website**: https://mncourts.gov/district/1
+- Cannon Falls does not have a municipal court
+- Legal matters handled by Goodhue County District Court
+- Court Website: https://www.mncourts.gov
 ## City Website
-- https://www.ci.cannon-falls.mn.us/
+- https://www.cannonfallsmn.gov
+- Phone: (507) 263-9300
+- Address: 918 River Road, Cannon Falls, MN 55009
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+## Police Department
+- Cannon Falls Police Department
+- Address: 918 River Road, Cannon Falls, MN 55009
+- Emergency: 911
+- Non-Emergency: (507) 263-9300
+- Police Website: https://www.cannonfallsmn.gov/police
+## Detention Center
+- Cannon Falls does not operate a jail
+- Goodhue County Jail — 509 West 5th Street, Red Wing, MN 55066
+- Website: https://www.goodhuecountymn.gov
+## Building Permits
+- City of Cannon Falls Planning & Zoning Department
+- Phone: (507) 263-9300
+- Email: buildingpermits@cannonfallsmn.gov
+- Address: 918 River Road, Cannon Falls, MN 55009
+- Forms & Applications: https://www.cannonfallsmn.gov/forms
+- Website: https://www.cannonfallsmn.gov/planning-zoning
+## Library
+- Cannon Falls Public Library
+- Address: 306 W Mill St, Cannon Falls, MN 55009
+- Phone: (507) 263-2468
+- Website: https://cannonfalls.lib.mn.us
+## Hospitals
+- Mayo Clinic Health System – Cannon Falls — 505 E Main St, Cannon Falls, MN 55009 — (507) 263-2111 — 44.3847° N, 92.8972° W
+  Website: https://www.mayoclinichealthsystem.org

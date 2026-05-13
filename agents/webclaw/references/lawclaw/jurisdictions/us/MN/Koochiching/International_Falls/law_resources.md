@@ -1,20 +1,27 @@
-# International Falls — Local Law Resources
+﻿# International Falls — Local Law Resources
 ## City Website
-- https://www.ci.international-falls.mn.us/
+- https://www.ci.international-falls.mn.us — (218) 283-9484
+- Address: 600 4th Street, International Falls, MN 56649
 ## Law Enforcement
-- International Falls PD — 715 4th St — (218) 283-1160
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- International Falls Police Department
+- Address: 900 5th Street, Suite 305, International Falls, MN 56649
+- Emergency: 911 | Non-Emergency: (218) 283-1900
+- Police Website: https://www.ci.international-falls.mn.us/police
 ## Courts
-- Koochiching County District Court — 715 4th St — (218) 283-1160
-- **Court Website**: https://mncourts.gov/district/9
+- Koochiching County District Court — https://www.mncourts.gov
+## Detention Center
+- Koochiching County Jail — 715 4th Street, International Falls, MN 56649
+- Inmate Search: https://www.co.koochiching.mn.us
 ## Building Permits
-- International Falls Building Department — https://www.ci.international-falls.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Koochiching County Jail
+- Building & Zoning Department
+- Phone: (218) 283-7990 | Email: kellym@ci.international-falls.mn.us
+- Address: 600 4th Street, International Falls, MN 56649
+- Website: https://www.ci.international-falls.mn.us/building
+## Library
+- International Falls Public Library
+- Address: 750 4th Street, International Falls, MN 56649
+- Phone: (218) 283-8051
+- Website: https://internationalfallslibrary.us
+## Hospitals
+- Rainy Lake Medical Center — 1400 Highway 71, International Falls, MN 56649 — (218) 283-4481 — 48.5947° N, 93.4317° W
+  Website: https://www.rainylakemedical.com

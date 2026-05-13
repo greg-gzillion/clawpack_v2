@@ -1,13 +1,37 @@
-﻿# Mankato Municipal Court
+﻿# Mankato Courts
 ## Court Information
-- Handled by Blue Earth County District Court
-- Address: 401 Carver Rd, Mankato, MN 56001
-- Phone: (507) 594-3055
+- Mankato does not have a municipal court
+- Legal matters handled by Blue Earth County District Court
+- Blue Earth County Courthouse: 401 Carver Road, Mankato, MN 56001 — (507) 594-3055
 - Court Website: https://www.mncourts.gov
 ## City Website
 - https://www.mankatomn.gov
+- Phone: (507) 387-8700
+- Address: 100 E. Main St, Mankato, MN 56001
+- City Manager: Susan Arntz
+- Mayor: Najwa Massad
 ## Police Department
-- Mankato Police Department
-- Address: 710 S Front St, Mankato, MN 56001
-- Phone: (507) 387-8600
-- Police Website: https://www.mankatomn.gov/police
+- Mankato Department of Public Safety – Police Services division
+- Address: 100 E. Main St, Mankato, MN 56001
+- Emergency: 911
+- Non-Emergency: (507) 387-8725
+- Police Website: https://www.mankatomn.gov/residents/public-safety/police-services
+## Detention Center
+- Mankato does not operate its own jail
+- Blue Earth County Jail — 401 Carver Road, Mankato, MN 56001 — (507) 304-4800
+- Inmate Search: https://www.co.blue-earth.mn.us/dept/sheriff.php
+## Building Permits
+- City of Mankato Community Development Department
+- Phone: (507) 387-8700
+- Email: communitydevelopment@mankatomn.gov
+- Address: 100 E. Main St, Mankato, MN 56001
+- Permit Applications & Info: https://www.mankatomn.gov/services/permits
+## Library
+- Blue Earth County Library
+- Address: 100 E. Main St, Mankato, MN 56001
+- Phone: (507) 304-4001
+- Website: https://www.blueearthcountymn.gov/library
+## Hospitals
+- Mayo Clinic Health System – Mankato — 1025 Marsh St, Mankato, MN 56001 — (507) 625-4031 — 44.1650° N, 93.9842° W
+  Services: Level III Trauma Center, emergency care, ICU, birth center, cancer care
+  Website: https://www.mayoclinichealthsystem.org/locations/mankato

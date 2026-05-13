@@ -1,20 +1,31 @@
-# Preston — Local Law Resources
+﻿# Preston — Local Law Resources
 ## City Website
-- https://www.ci.preston.mn.us/
+- https://prestonmn.gov — (507) 765-2153
+- Address: 210 Fillmore Street West, Preston, MN 55965
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Preston PD — 216 Main St E — (507) 765-3181
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Preston Police Department
+- Address: 210 Fillmore Street West, Preston, MN 55965
+- Emergency: 911 | Daytime: (507) 765-2153 | Nighttime: (507) 765-3874
+- Police Website: https://prestonmn.gov/preston-police-department/
 ## Courts
-- Fillmore County District Court — 200 W Main St — (507) 765-3151
-- **Court Website**: https://mncourts.gov/district/5
+- Fillmore County District Court — 101 Fillmore Street East, Preston, MN 55965
+- Court Website: https://www.mncourts.gov
+## Detention Center
+- Fillmore County Jail — 901 Houston Street NW, Preston, MN 55965 — (507) 765-3874
+- Sheriff Website: https://www.co.fillmore.mn.us/sheriff
 ## Building Permits
-- Preston Building Department — https://www.ci.preston.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Fillmore County Jail
+- City of Preston Planning & Zoning Department
+- Phone: (507) 765-2153
+- Address: 210 Fillmore Street West, Preston, MN 55965
+- Website: https://prestonmn.gov/planning-zoning/
+## Library
+- Preston Public Library
+- Address: 101 St. Paul Street NW, Preston, MN 55965
+- Phone: (507) 765-4511 | Email: preston_ill@selco.info
+- Website: https://preston.lib.mn.us
+## Hospitals
+- Gundersen Health System – Preston Clinic — 910 Houston Street NW, Preston, MN 55965 — (507) 765-2621 — 43.6687° N, 92.0826° W
+  Website: https://www.gundersenhealth.org
+- Mayo Clinic Health System – Cannon Falls — 505 E Main St, Cannon Falls, MN 55009 — (507) 263-2111 — 44.3847° N, 92.8972° W
+  Website: https://www.mayoclinichealthsystem.org

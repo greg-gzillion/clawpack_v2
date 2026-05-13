@@ -1,18 +1,29 @@
-# Northfield Rice — Local Law Resources
+﻿# Northfield — Local Law Resources
+## City Website
+- https://www.northfieldmn.gov — (507) 645-8833
+- Address: 801 Washington Street, Northfield, MN 55057
 ## Law Enforcement
-- Northfield Rice Police Department
-- Rice County Sheriff
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Northfield Police Department
+- Address: 300 5th Street West, Northfield, MN 55057
+- Emergency: 911 | Non-Emergency: (507) 645-4477
+- Police Website: https://www.northfieldmn.gov/263/Police-Department
 ## Courts
-- Minnesota District Court
+- Rice County District Court — 218 NW 3rd Street, Faribault, MN 55021 — (507) 497-7134
+- Court Website: https://www.mncourts.gov/Find-Courts/Rice
+## Detention Center
+- Northfield Police Holding Facility (short-term) — 300 5th Street West — (507) 645-4477
+- Rice County Jail — 50 East View Drive, Faribault, MN 55021 — (507) 332-7850
+- Inmate Roster & Jail Website: https://ricecountyjailmn.org
 ## Building Permits
-- Northfield Rice Building Department
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Rice County Jail
+- City of Northfield Building Permits
+- Permit Information: https://www.northfieldmn.gov/1479/Building-Permits
+- Online Application: https://www.northfieldmn.gov/1689/Apply-For-A-Permit
+- Phone: (507) 645-3004 | Address: 801 Washington Street, Northfield, MN 55057
+## Library
+- Northfield Public Library
+- Address: 210 Washington Street, Northfield, MN 55057
+- Phone: (507) 645-6606
+- Website: https://www.northfieldmn.gov/147/Library
+## Hospitals
+- Allina Health – Northfield Hospital & Clinics — 1000 Division Street, Northfield, MN 55057 — (507) 646-1441 — 44.4583° N, 93.1667° W
+  Website: https://www.allinahealth.org/locations/northfield-hospital-and-clinics

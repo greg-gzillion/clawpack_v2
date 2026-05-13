@@ -1,20 +1,35 @@
 ﻿# Bemidji — Local Law Resources
 ## City Website
-- https://www.ci.bemidji.mn.us
+- https://www.ci.bemidji.mn.us — (218) 759-3564
+- Address: 111 Minnesota Ave NW, Bemidji, MN 56601
+- City Manager: Rich Spiczka
+- Office Hours: Monday–Friday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Bemidji Police Department — 613 Minnesota Ave NW, Bemidji, MN 56601 — (218) 333-9111
+- Bemidji Police Department
+- Address: 613 Minnesota Ave NW, Bemidji, MN 56601
+- Emergency: 911 | Non-Emergency: (218) 333-9111
+- Staff: 34 licensed peace officers, 3 support staff, 1 CSO (~27,000 calls annually)
 - Police Website: https://www.ci.bemidji.mn.us/police
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
 ## Courts
-- Beltrami County District Court — 613 Minnesota Ave NW, Bemidji, MN 56601 — (218) 333-9111
-- Court Website: https://www.co.beltrami.mn.us
+- Beltrami County Judicial Center — 600 Minnesota Ave NW, Suite 108, Bemidji, MN 56601 — (218) 888-5060
+- Court Website: https://www.mncourts.gov/beltrami
+## Detention Center
+- Beltrami County Jail (Adult Corrections Center) — 626 Minnesota Ave NW, Bemidji, MN 56601 — (218) 333-4189
+- Capacity: 140 inmates
+- Inmate Search: https://www.co.beltrami.mn.us
 ## Building Permits
-- Bemidji Building Department — https://www.ci.bemidji.mn.us
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-## Corrections
-- Beltrami County Jail
+- City of Bemidji Community Development Department
+- Community Development Director: Rich Spiczka
+- Phone: (218) 759-3565 | Email: rspiczka@ci.bemidji.mn.us
+- Note: Development page returned 404; contact department directly
+- Website: https://www.ci.bemidji.mn.us
+## Library
+- Bemidji Public Library (KRLS)
+- Address: 509 America Ave NW, Bemidji, MN 56601
+- Phone: (218) 751-3963 | Email: bemidji@krls.org
+- Hours: Mon–Thu 9:00 AM–7:00 PM, Fri 9:00 AM–5:00 PM, Sat 9:00 AM–1:00 PM
+- Website: https://krls.org/bemidji-public-library
+## Hospitals
+- Sanford Bemidji Medical Center — 1300 Anne St NW, Bemidji, MN 56601 — (218) 751-5430 — 47.5034° N, 94.9003° W
+  Services: 24-hour ER, surgery, family medicine, pediatrics, obstetrics, cancer care
+  Website: https://www.sanfordhealth.org/locations/minnesota/bemidji

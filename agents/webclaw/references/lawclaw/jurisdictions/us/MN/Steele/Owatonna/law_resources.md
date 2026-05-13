@@ -1,20 +1,29 @@
-# Owatonna — Local Law Resources
+﻿# Owatonna — Local Law Resources
 ## City Website
-- https://www.ci.owatonna.mn.us/
+- https://www.owatonna.gov — (507) 444-4300
+- Address: 540 West Hills Circle, Owatonna, MN 55060
 ## Law Enforcement
-- Owatonna PD — 101 E Main St — (507) 444-2400
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Owatonna Police Department
+- Address: 204 East Pearl Street, Owatonna, MN 55060
+- Emergency: 911 | Non-Emergency: (507) 444-3800
+- Pearl Street 911 Dispatch: (507) 451-8232
+- Police Website: https://www.owatonna.gov/170/Police
 ## Courts
-- Steele County District Court — 101 E Main St — (507) 444-2400
-- **Court Website**: https://mncourts.gov/district/3
+- Steele County District Court — 630 Florence Avenue, Owatonna, MN 55060 — (507) 444-7700
+- Court Website: https://www.steelecountymn.gov/courts
+## Detention Center
+- Steele County Detention Center — 2500 Alexander Street SW, Owatonna, MN 55060 — (507) 446-7000
+- Inmate Roster: https://www.steelecountymn.gov/sheriff/detention-center/inmate-roster
+- Jail Website: https://www.steelecountymn.gov/sheriff/detention-center
 ## Building Permits
-- Owatonna Building Department — https://www.ci.owatonna.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Steele County Jail
+- City of Owatonna Building Permits
+- Permit Information: https://www.owatonna.gov/157/Building-Permits
+- Phone: (507) 444-4370 | Address: 540 West Hills Circle, Owatonna, MN 55060
+## Library
+- Owatonna Public Library
+- Address: 105 West Countryside Drive, Owatonna, MN 55060
+- Phone: (507) 444-2460
+- Website: https://www.owatonna.gov/136/Public-Library
+## Hospitals
+- Mayo Clinic Health System – Owatonna — 1000 West Steele Boulevard, Owatonna, MN 55060 — (507) 444-2273 — 44.1103° N, 93.2342° W
+  Website: https://www.mayoclinichealthsystem.org/locations/owatonna

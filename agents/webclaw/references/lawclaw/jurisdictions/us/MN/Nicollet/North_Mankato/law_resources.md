@@ -1,20 +1,31 @@
 ﻿# North Mankato — Local Law Resources
 ## City Website
-- https://www.northmankato.com
+- https://www.northmankato.com — (507) 625-4141
+- Address: 1001 Belgrade Avenue, North Mankato, MN 56003
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- North Mankato Police Department — 1001 Belgrade Ave, North Mankato, MN 56003 — (507) 625-4141
-- Police Website: https://www.northmankato.com/police
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- North Mankato Police Department
+- Address: 1001 Belgrade Avenue, North Mankato, MN 56003
+- Emergency: 911 | Non-Emergency: (507) 625-4141
+- Police Website: https://www.northmankato.com/police-department
 ## Courts
-- Blue Earth County District Court — 401 Carver Rd, Mankato, MN 56001 — (507) 304-4600
-- Court Website: https://www.mncourts.gov
+- Nicollet County District Court — 520 S Minnesota Ave, St. Peter, MN 56082 — (507) 934-0660
+- Court Website: https://www.mncourts.gov/Find-Courts/Nicollet
+## Detention Center
+- North Mankato Police Holding Facility (short-term) — 1001 Belgrade Avenue — (507) 625-4141
+- Nicollet County Jail — 520 S Minnesota Ave, St. Peter, MN 56082 — (507) 934-0650
+- Inmate Roster & Jail Website: https://www.co.nicollet.mn.us/28/Jail
 ## Building Permits
-- North Mankato Building Department — https://www.northmankato.com
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-## Corrections
-- Nicollet County Jail
+- City of North Mankato Building Permits
+- Permit Information: https://www.northmankato.com/building-permits
+- Public Works Department — (507) 625-4141
+- Address: 1001 Belgrade Avenue, North Mankato, MN 56003
+## Library
+- North Mankato Public Library (SELCO system)
+- Address: 1001 Belgrade Ave, North Mankato, MN 56003
+- Phone: (507) 625-3344
+- Note: SELCO location page returned 418 error; contact library directly
+- Website: https://www.selco.info/locations/north-mankato
+## Hospitals
+- Mayo Clinic Health System – Mankato, North — 1700 Madison Ave, North Mankato, MN 56003 — (507) 625-7888 — 44.1387° N, 93.9986° W
+  Website: https://www.mayoclinichealthsystem.org/locations/mankato-north

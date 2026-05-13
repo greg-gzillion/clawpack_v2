@@ -1,20 +1,30 @@
-# Howard Lake — Local Law Resources
+﻿# Howard Lake — Local Law Resources
 ## City Website
-- https://www.ci.howardlake.mn.us/
+- https://www.howard-lake.mn.us — (320) 543-3670
+- Address: 625 8th Avenue, Howard Lake, MN 55349
 ## Law Enforcement
-- Howard Lake PD — 101 1st Ave S — (320) 543-2550
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Howard Lake Police Department
+- Address: 625 8th Avenue, Howard Lake, MN 55349
+- Emergency: 911 | Non-Emergency: (320) 543-3670
+- Chief: David Thompson
+- Police Website: https://www.howard-lake.mn.us/1237/Police
 ## Courts
-- Wright County District Court — Stillwater — (651) 430-6600
-- **Court Website**: https://mncourts.gov/district/10
+- Wright County District Court — 10 Second Street NW, Buffalo, MN 55313 — (763) 682-7539
+- Court Website: https://www.mncourts.gov/Find-Courts/Wright
+## Detention Center
+- Wright County Adult Detention Center — 3800 Braddock Ave NE, Buffalo, MN 55313 — (763) 682-7600
+- Inmate Roster: https://www.co.wright.mn.us/sheriff/inmate-roster
+- Jail Website: https://www.co.wright.mn.us/sheriff
 ## Building Permits
-- Howard Lake Building Department — https://www.ci.howardlake.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Wright County Jail
+- City of Howard Lake Building Permits (via Metro West Inspection Services)
+- Permit Information: https://www.howard-lake.mn.us/building-permits-inspections
+- Metro West: Pat Skie — ps@mwimn.com — (763) 479-1720
+- Phone: (320) 543-3670 | Address: 625 8th Avenue, Howard Lake, MN 55349
+## Library
+- Howard Lake Library (Great River Regional Library)
+- Address: 741 6th Street, Howard Lake, MN 55349
+- Phone: (320) 543-2148
+- Website: https://www.howard-lake.mn.us/1318/Library
+## Hospitals
+- CentraCare – Howard Lake Clinic — 500 8th Street, Howard Lake, MN 55349 — (320) 543-2000 — 45.0597° N, 94.0689° W
+  Website: https://www.centracare.com/locations/profile/howard-lake-clinic/

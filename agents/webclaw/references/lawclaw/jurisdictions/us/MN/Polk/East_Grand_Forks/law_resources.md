@@ -1,20 +1,28 @@
-# East Grand Forks — Local Law Resources
+﻿# East Grand Forks — Local Law Resources
 ## City Website
-- https://www.egf.com/
+- https://www.eastgrandforks.gov — (218) 773-1104
+- Address: 520 DeMers Avenue, East Grand Forks, MN 56721
 ## Law Enforcement
-- East Grand Forks PD — 200 1st Ave S — (218) 773-2750
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- East Grand Forks Police Department
+- Address: 520 DeMers Avenue, East Grand Forks, MN 56721
+- Emergency: 911 | Non-Emergency: (218) 773-1104 | Fax: (218) 773-1108
+- Police Website: https://www.eastgrandforks.gov/158/Police-Department
 ## Courts
-- Polk County District Court — Crookston — (218) 281-2211
-- **Court Website**: https://mncourts.gov/district/9
+- Polk County District Court — 816 Marin Ave, Suite 210, Crookston, MN 56716 — (218) 281-2332
+- Court Website: https://www.mncourts.gov/Find-Courts/Polk
+## Detention Center
+- East Grand Forks Police Holding Facility (short-term) — 520 DeMers Avenue — (218) 773-1104
+- Tri-County Community Corrections Center — 816 Marin Avenue, Suite 110, Crookston, MN 56716 — (218) 470-8100
+- Inmate Information: https://www.eastgrandforks.gov/158/Police-Department
 ## Building Permits
-- East Grand Forks Building Department — https://www.egf.com/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Polk County Jail
+- City of East Grand Forks Building Inspections
+- Permit Information & Application: https://www.eastgrandforks.gov/133/Building-Inspections
+- Phone: (218) 773-2208 | Address: 520 DeMers Avenue, East Grand Forks, MN 56721
+## Library
+- East Grand Forks Public Library (Lake Agassiz Regional Library)
+- Address: 600 DeMers Avenue, East Grand Forks, MN 56721
+- Phone: (218) 773-2595
+- Website: https://larl.org/locations/east-grand-forks/
+## Hospitals
+- Essentia Health – East Grand Forks Clinic — 201 4th Street NW, East Grand Forks, MN 56721 — (218) 773-3600 — 47.9266° N, 97.0248° W
+  Website: https://www.eastgrandforks.essentiahealth.org

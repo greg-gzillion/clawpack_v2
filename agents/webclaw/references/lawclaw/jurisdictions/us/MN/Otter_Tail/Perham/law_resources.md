@@ -1,20 +1,30 @@
-# Perham — Local Law Resources
+﻿# Perham — Local Law Resources
 ## City Website
-- https://www.ci.perham.mn.us/
+- https://www.ci.perham.mn.us — (218) 346-4455
+- Email: kbreid@cityofperham.com
+- Address: 525 West Main Street, Perham, MN 56573
 ## Law Enforcement
-- Perham PD — 525 W Main St — (218) 346-4452
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Perham Police Department
+- Address: 525 West Main Street, Perham, MN 56573
+- Emergency: 911 | Non-Emergency: (218) 346-4452
+- Police Website: https://www.ci.perham.mn.us/index.asp?Type=B_BASIC&SEC={6F2EA21C-DD29-4AC1-8DBE-388ADCE1D3D5}
 ## Courts
-- Otter Tail County District Court — Fergus Falls — (218) 560-7045
-- **Court Website**: https://mncourts.gov/district/1
+- Otter Tail County District Court — 121 West Junius Avenue, Suite 310, Fergus Falls, MN 56537 — (218) 560-7045
+- Court Website: https://www.mncourts.gov/Find-Courts/Otter-Tail
+## Detention Center
+- Perham Police Holding Facility (short-term) — 525 West Main Street — (218) 346-4452
+- Otter Tail County Jail — 417 Court Street, Fergus Falls, MN 56537 — (218) 998-8555
+- Inmate Roster: https://ottertailcounty.gov/departments/sheriff-s-office/inmate-roster
+- Jail Website: https://ottertailcounty.gov/departments/sheriff-s-office/adult-detention-center
 ## Building Permits
-- Perham Building Department — https://www.ci.perham.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Otter Tail County Jail
+- City of Perham Building Permits
+- Permit Information: https://www.ci.perham.mn.us/?SEC=85378A91-113A-4484-8167-82298994520D
+- Phone: (218) 346-4455 | Address: 525 West Main Street, Perham, MN 56573
+## Library
+- Perham Area Public Library
+- Address: 225 2nd Avenue NE, Perham, MN 56573
+- Phone: (218) 346-4892
+- Website: https://www.perhamlibrary.org
+## Hospitals
+- Perham Health — 1000 Coney Street West, Perham, MN 56573 — (218) 347-1200 — 46.5922° N, 95.5944° W
+  Website: https://www.perhamhealth.org

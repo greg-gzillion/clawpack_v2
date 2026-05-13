@@ -1,6 +1,34 @@
-# Annandale MN Municipal Court
+﻿# Annandale Courts
 ## Court Information
-- Wright County District Court — Stillwater — (651) 430-6600
-- **Court Website**: https://mncourts.gov/district/10
+- Annandale does not have a municipal court
+- Legal matters handled by Wright County District Court
+- Address: 10 Second Street NW, Buffalo, MN 55313 — (763) 682-7539
+- Court Website: https://www.mncourts.gov/Find-Courts/Wright
 ## City Website
-- https://www.ci.annandale.mn.us/
+- https://www.annandale.mn.us
+- Phone: (320) 274-3055
+- Email: city@annandale.mn.us
+- Address: 30 Cedar Street East, Annandale, MN 55302
+## Police Department
+- Annandale contracts with Wright County Sheriff's Office for law enforcement
+- Emergency: 911
+- Non-Emergency: (763) 682-7620
+- Sheriff Website: https://www.co.wright.mn.us/sheriff
+## Detention Center
+- Wright County Adult Detention Center — 3800 Braddock Ave NE, Buffalo, MN 55313 — (763) 682-7600
+- Inmate Roster: https://www.co.wright.mn.us/sheriff/inmate-roster
+- Jail Website: https://www.co.wright.mn.us/sheriff
+## Building Permits
+- City of Annandale Building Permits (via Metro West Inspection Services)
+- Permit Information: https://www.annandale.mn.us/services/page/building-permit
+- Metro West Inspection Services: (763) 479-1720
+- Phone: (320) 274-3055
+- Address: 30 Cedar Street East, Annandale, MN 55302
+## Library
+- Annandale Public Library (Great River Regional Library)
+- Address: 202 1st Street NE, Annandale, MN 55302
+- Phone: (320) 274-3970
+- Website: https://griver.org/locations/annandale
+## Hospitals
+- CentraCare – Annandale Clinic — 502 1st Street NE, Annandale, MN 55302 — (320) 274-3080 — 45.2670° N, 94.1170° W
+  Website: https://www.centracare.com/locations/profile/annandale-clinic/

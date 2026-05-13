@@ -1,20 +1,29 @@
-# Caledonia — Local Law Resources
+﻿# Caledonia — Local Law Resources
 ## City Website
-- https://www.caledoniamn.com/
+- https://www.caledoniamn.gov — (507) 725-3450
+- Address: 231 E. Main Street, Caledonia, MN 55921
 ## Law Enforcement
-- Caledonia PD — 100 3rd St NW — (507) 724-2555
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Caledonia Police Department
+- Address: 304 E. Main Street, Caledonia, MN 55921
+- Emergency: 911 | Non-Emergency: (507) 725-3889
+- Police Website: https://www.caledoniamn.gov/police
 ## Courts
-- Houston County District Court — 100 3rd St NW — (507) 724-2555
-- **Court Website**: https://mncourts.gov/district/5
+- Houston County District Court — https://www.mncourts.gov
+## Detention Center
+- Caledonia City Jail — 304 E. Main Street — (507) 725-3889
+- Inmate Roster: Contact the Police Department directly
+- Houston County Jail — 304 S. Marshall St, Caledonia, MN 55921 — (507) 725-3379
 ## Building Permits
-- Caledonia Building Department — https://www.caledoniamn.com/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Houston County Jail
+- Planning & Zoning Department
+- Phone: (507) 725-3462 | Email: planning@caledoniamn.gov
+- Address: 231 E. Main Street, Caledonia, MN 55921
+- Note: Planning/Zoning page returned 404; contact department directly
+- Website: https://www.caledoniamn.gov
+## Library
+- Caledonia Public Library
+- Address: 116 E. Main Street, Caledonia, MN 55921
+- Phone: (507) 725-3470
+- Website: https://caledonialibrary.org
+## Hospitals
+- Houston Medical Center — 306 S Marshall St, Caledonia, MN 55921 — (507) 725-3444 — 43.6340° N, 91.4940° W
+  Website: https://www.houstonmedical.org

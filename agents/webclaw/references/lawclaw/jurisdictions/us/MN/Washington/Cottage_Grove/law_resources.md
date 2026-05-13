@@ -1,20 +1,32 @@
-# Cottage Grove — Local Law Resources
+﻿# Cottage Grove — Local Law Resources
 ## City Website
-- https://www.cottagegrove.org/
+- https://www.cottagegrovemn.gov — (651) 458-2800
+- Address: 12800 Ravine Parkway S, Cottage Grove, MN 55016
+- Hours: Mon–Fri 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Cottage Grove PD — 12800 Ravine Pkwy — (651) 458-2550
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Cottage Grove Police Department (Public Safety)
+- Address: 12800 Ravine Parkway S, Cottage Grove, MN 55016
+- Emergency: 911 | Non-Emergency: (651) 458-2806
+- Police Website: https://www.cottagegrovemn.gov/286/Public-Safety
 ## Courts
-- Washington County District Court — Stillwater — (651) 430-6600
-- **Court Website**: https://mncourts.gov/district/10
+- Washington County District Court — 14945 62nd St N, Stillwater, MN 55082 — (651) 430-6600
+- Court Website: https://www.co.washington.mn.us/164/County-Courts
+## Detention Center
+- Cottage Grove Police Holding Facility (short-term) — 12800 Ravine Parkway S — (651) 458-2806
+- Washington County Adult Detention Center — 14945 62nd St N, Stillwater, MN 55082 — (651) 430-6650
+- Inmate Search: https://inmatesearch.co.washington.mn.us
+- Jail Website: https://www.co.washington.mn.us/168/Adult-Detention-Center
 ## Building Permits
-- Cottage Grove Building Department — https://www.cottagegrove.org/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Washington County Jail
+- City of Cottage Grove Permits
+- Permit Information: https://www.cottagegrovemn.gov/681/Permits
+- Online Portal (iWorQ): https://cottagegrovemn.gov/iworq
+- Email: building@cottagegrovemn.gov | Phone: (651) 458-2804
+- Address: 12800 Ravine Parkway S, Cottage Grove, MN 55016
+## Library
+- Park Grove Library (temporary location)
+- Address: Cottage Grove Service Center, 13000 Ravine Parkway S, Cottage Grove, MN 55016
+- Phone: (651) 459-2040
+- Website: https://www.cottagegrovemn.gov/493/Library
+## Hospitals
+- Fairview Ridges Hospital — 9000 33rd Ave S, Burnsville, MN 55337 — (952) 993-3000 — 44.7294° N, 93.2744° W
+  Website: https://www.fairview.org/locations/ridges

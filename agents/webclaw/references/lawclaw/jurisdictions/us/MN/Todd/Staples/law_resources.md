@@ -1,20 +1,32 @@
-# Staples — Local Law Resources
+﻿# Staples — Local Law Resources
 ## City Website
-- https://www.ci.staples.mn.us/
+- https://staples.govoffice.com — (218) 894-2550
+- Address: 122 6th Street NE, Staples, MN 56479
+- Office Hours: Mon–Fri 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Staples PD — 100 1st Ave S — (218) 898-2211
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Staples Police Department
+- Address: 301 2nd Avenue NE, Staples, MN 56479
+- Emergency: 911 | Non-Emergency: (800) 794-5733
+- Chief: Melissa Larson | Email: woberlander@ci.staples.mn.us
+- Police Website: https://staples.govoffice.com/staples_police
 ## Courts
-- Todd County District Court — Long Prairie — (320) 732-4400
-- **Court Website**: https://mncourts.gov/district/7
+- Dual-county jurisdiction: Todd County Court (320) 732-7800 and Wadena County Court (218) 631-7634
+- Court Website: https://www.mncourts.gov
+## Detention Center
+- Staples City Jail (short-term) — 301 2nd Ave NE — (800) 794-5733
+- Inmate Roster: https://staplescityjail.org
+- Todd County Jail — 115 3rd Street South, Long Prairie, MN 56347 — (320) 732-2157
+- Wadena County Jail — 415 Jefferson Street South, Wadena, MN 56482 — (218) 631-7600
 ## Building Permits
-- Staples Building Department — https://www.ci.staples.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Todd County Jail
+- City of Staples Building Permits
+- Permit Information: https://staples.govoffice.com/building_permit_info
+- Application: https://staples.govoffice.com/building_permit_app
+- Phone: (218) 894-2550 | Address: 122 6th Street NE, Staples, MN 56479
+## Library
+- Staples Public Library (Great River Regional Library)
+- Address: 611 Iowa Avenue NE, Staples, MN 56479
+- Phone: (218) 894-1401
+- Website: https://staples.govoffice.com/public_library
+## Hospitals
+- Lakewood Health System – Staples Clinic — 410 4th Street NE, Staples, MN 56479 — (218) 894-1775 — 46.3705° N, 94.8056° W
+  Website: https://lakewoodhealthsystem.org

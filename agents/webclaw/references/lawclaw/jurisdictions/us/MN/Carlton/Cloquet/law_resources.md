@@ -1,20 +1,31 @@
-# Cloquet — Local Law Resources
+﻿# Cloquet — Local Law Resources
 ## City Website
-- https://www.cloquetmn.gov/
+- https://www.cloquetmn.gov — (218) 879-3347
+- Address: 1307 Cloquet Ave, Cloquet, MN 55720
+- City Administrator: Mike Mathliowetz
 ## Law Enforcement
-- Cloquet PD — 508 Cloquet Ave — (218) 879-1247
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Cloquet Police Department (serves Cloquet, Scanlon, and parts of Fond du Lac Reservation)
+- Address: 508 Cloquet Ave, Cloquet, MN 55720
+- Emergency: 911 | Non-Emergency: (218) 879-1247
+- Police Website: https://www.cloquetmn.gov/departments/police
 ## Courts
-- Carlton County District Court — 15 S Washington St — (218) 384-9111
-- **Court Website**: https://mncourts.gov/district/10
+- Carlton County Justice Center — 1780 Justice Dr, Carlton, MN 55718
+- Court Website: https://www.carltoncountymn.gov
+## Detention Center
+- Cloquet Police Detention (short-term) — 508 Cloquet Ave — (218) 879-1247
+- Carlton County Jail — 1780 Justice Dr, Carlton, MN 55718
+- Inmate Search: https://www.carltoncountymn.gov
 ## Building Permits
-- Cloquet Building Department — https://www.cloquetmn.gov/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Carlton County Jail
+- City of Cloquet Planning & Zoning Department
+- Phone: (218) 879-2507
+- Address: 1307 Cloquet Ave, Cloquet, MN 55720
+- Website: https://www.cloquetmn.gov/departments/planning-zoning
+## Library
+- Cloquet Public Library
+- Address: 320 14th St, Cloquet, MN 55720
+- Phone: (218) 879-1531
+- Hours: Mon–Thu 9:30 AM–7:30 PM, Fri 9:30 AM–5:30 PM, Sat 9:30 AM–2:00 PM
+- Website: https://www.cloquetlibrary.org
+## Hospitals
+- Community Memorial Hospital — 512 Skyline Blvd, Cloquet, MN 55720 — (218) 879-4641 — 46.7313° N, 92.4621° W
+  Website: https://cloquethospital.com

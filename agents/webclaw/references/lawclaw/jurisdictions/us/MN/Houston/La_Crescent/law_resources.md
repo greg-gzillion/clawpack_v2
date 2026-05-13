@@ -1,20 +1,29 @@
-# La Crescent — Local Law Resources
+﻿# La Crescent — Local Law Resources
 ## City Website
-- https://www.lacrescentmn.com/
+- https://www.cityoflacrescent-mn.gov — (507) 895-2595
+- Address: 315 Main Street, La Crescent, MN 55947
 ## Law Enforcement
-- La Crescent PD — 201 Main St — (507) 895-3900
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- La Crescent Police Department
+- Address: 315 Main Street, La Crescent, MN 55947
+- Emergency: 911 | Non-Emergency: (507) 895-4414
+- Chief of Police: Luke Ahlschlager
+- Police Website: https://www.cityoflacrescent-mn.gov/police-department
 ## Courts
-- Houston County District Court — Caledonia — (507) 724-2555
-- **Court Website**: https://mncourts.gov/district/5
+- Houston County District Court — https://www.mncourts.gov
+## Detention Center
+- La Crescent City Jail (short-term) — 315 Main Street — (507) 895-4414
+- Houston County Jail — 101 3rd Street SE, Caledonia, MN 55921
+- Website: https://www.co.houston.mn.us
 ## Building Permits
-- La Crescent Building Department — https://www.lacrescentmn.com/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Houston County Jail
+- City Hall / Planning & Zoning Department
+- Phone: (507) 895-2595
+- Address: 315 Main Street, La Crescent, MN 55947
+- Website: https://www.cityoflacrescent-mn.gov/building-zoning
+## Library
+- La Crescent Public Library
+- Address: 321 Main Street, La Crescent, MN 55947
+- Phone: (507) 895-4047
+- Website: https://lacrescent.lib.mn.us
+## Hospitals
+- Gundersen La Crescent Clinic — 226 N 2nd St, La Crescent, MN 55947 — (507) 895-6610 — 43.8313° N, 91.3028° W
+  Website: https://www.gundersenhealth.org

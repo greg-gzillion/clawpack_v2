@@ -1,20 +1,30 @@
 ﻿# Mankato — Local Law Resources
 ## City Website
-- https://www.mankatomn.gov
+- https://www.mankatomn.gov — (507) 387-8700
+- Address: 100 E. Main St, Mankato, MN 56001
+- City Manager: Susan Arntz | Mayor: Najwa Massad
 ## Law Enforcement
-- Mankato Police Department — 710 S Front St, Mankato, MN 56001 — (507) 387-8600
-- Police Website: https://www.mankatomn.gov/police
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Mankato Department of Public Safety – Police Services
+- Address: 100 E. Main St, Mankato, MN 56001
+- Emergency: 911 | Non-Emergency: (507) 387-8725
+- Police Website: https://www.mankatomn.gov/residents/public-safety/police-services
 ## Courts
-- Blue Earth County District Court — 401 Carver Rd, Mankato, MN 56001 — (507) 594-3055
+- Blue Earth County Courthouse — 401 Carver Road, Mankato, MN 56001 — (507) 594-3055
 - Court Website: https://www.mncourts.gov
+## Detention Center
+- Blue Earth County Jail — 401 Carver Road, Mankato, MN 56001 — (507) 304-4800
+- Inmate Search: https://www.co.blue-earth.mn.us/dept/sheriff.php
 ## Building Permits
-- Mankato Building Department — https://www.mankatomn.gov
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-## Corrections
-- Blue Earth County Jail
+- City of Mankato Community Development Department
+- Phone: (507) 387-8700 | Email: communitydevelopment@mankatomn.gov
+- Address: 100 E. Main St, Mankato, MN 56001
+- Permit Info: https://www.mankatomn.gov/services/permits
+## Library
+- Blue Earth County Library
+- Address: 100 E. Main St, Mankato, MN 56001
+- Phone: (507) 304-4001
+- Website: https://www.blueearthcountymn.gov/library
+## Hospitals
+- Mayo Clinic Health System – Mankato — 1025 Marsh St, Mankato, MN 56001 — (507) 625-4031 — 44.1650° N, 93.9842° W
+  Services: Level III Trauma Center, emergency care, ICU, birth center, cancer care
+  Website: https://www.mayoclinichealthsystem.org/locations/mankato

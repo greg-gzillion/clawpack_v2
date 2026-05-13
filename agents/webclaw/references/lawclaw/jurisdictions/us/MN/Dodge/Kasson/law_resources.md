@@ -1,20 +1,31 @@
-# Kasson — Local Law Resources
+﻿# Kasson — Local Law Resources
 ## City Website
-- https://www.ci.kasson.mn.us/
+- https://www.cityofkasson.gov — (507) 634-7071
+- Email: cityhall@cityofkasson.gov
+- Address: 401 5th Street SE, Kasson, MN 55944
+- Hours: Monday–Friday, 8:00 AM – 5:00 PM
 ## Law Enforcement
-- Kasson PD — 200 1st St NW — (507) 645-3011
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Kasson Police Department
+- Address: 401 5th Street SE, Kasson, MN 55944
+- Emergency: 911 | Dispatch: (507) 634-7071 (via City Hall)
 ## Courts
-- Dodge County District Court — Mantorville — (507) 725-2555
-- **Court Website**: https://mncourts.gov/district/1
+- Dodge County District Court — https://www.mncourts.gov
+## Detention Center
+- Dodge County Jail — 721 Main Street North, Mantorville, MN 55955
+- Website: https://www.co.dodge.mn.us
 ## Building Permits
-- Kasson Building Department — https://www.ci.kasson.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Dodge County Jail
+- City of Kasson Building Permit Applications
+- Phone: (507) 634-7071 | Email: cityhall@cityofkasson.gov
+- Address: 401 5th Street SE, Kasson, MN 55944
+- Payment: Cash or check only
+- Website: https://www.cityofkasson.gov
+## Library
+- Kasson Public Library
+- Address: 206 1st Avenue NE, Kasson, MN 55944
+- Phone: (507) 634-4350
+- Website: https://www.kassonlibrary.org
+## Hospitals
+- Mayo Clinic Health System – Kasson — 100 1st Avenue NE, Kasson, MN 55944 — (507) 634-7111 — 44.0297° N, 92.7469° W
+  Website: https://www.mayoclinichealthsystem.org
+- Mayo Clinic – Rochester (Saint Marys Campus) — 200 1st St SW, Rochester, MN 55905 — (507) 284-2511 — 44.0225° N, 92.4675° W
+  Website: https://www.mayoclinic.org

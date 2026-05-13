@@ -1,20 +1,28 @@
 ﻿# Grand Rapids — Local Law Resources
 ## City Website
-- https://www.grandrapidsmn.gov
+- https://cityofgrandrapidsmn.com — (218) 326-7600
+- Address: 420 N Pokegama Ave, Grand Rapids, MN 55744
 ## Law Enforcement
-- Grand Rapids Police Department — 420 N Pokegama Ave, Grand Rapids, MN 55744 — (218) 326-3464
-- Police Website: https://www.grandrapidsmn.gov/police
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Grand Rapids Police Department
+- Address: 420 N Pokegama Ave, Grand Rapids, MN 55744
+- Emergency: 911 | Non-Emergency: (218) 326-3464
+- Police Website: https://cityofgrandrapidsmn.com/police
 ## Courts
-- Itasca County District Court — 123 4th St NE, Grand Rapids, MN 55744 — (218) 327-2870
-- Court Website: https://www.mncourts.gov
+- Itasca County District Court — https://www.mncourts.gov
+## Detention Center
+- Grand Rapids City Jail — 420 N Pokegama Ave — (218) 326-3464
+- Itasca County Jail — 440 1st Avenue NE, Grand Rapids, MN 55744
+- Website: https://www.co.itasca.mn.us
 ## Building Permits
-- Grand Rapids Building Department — https://www.grandrapidsmn.gov
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-## Corrections
-- Itasca County Jail
+- Community Development Department
+- Phone: (218) 326-7622 | Email: planning@cityofgrandrapidsmn.com
+- Address: 420 N Pokegama Ave, Grand Rapids, MN 55744
+- Website: https://cityofgrandrapidsmn.com/community-development
+## Library
+- Grand Rapids Area Library
+- Address: 420 N Pokegama Ave, Grand Rapids, MN 55744
+- Phone: (218) 326-6533
+- Website: https://cityofgrandrapidsmn.com/library
+## Hospitals
+- Grand Itasca Clinic & Hospital — 1601 Golf Course Road, Grand Rapids, MN 55744 — (218) 326-3401 — 47.2232° N, 93.5557° W
+  Website: https://www.granditasca.org

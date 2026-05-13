@@ -1,20 +1,29 @@
 ﻿# Maple Grove — Local Law Resources
 ## City Website
-- https://www.maple-grove.org
+- https://www.maplegrovemn.gov — (763) 494-6000
+- Address: 12800 Arbor Lakes Parkway N, Maple Grove, MN 55369
 ## Law Enforcement
-- Maple Grove Police Department — 12800 Arbor Lakes Pkwy N, Maple Grove, MN 55311 — (763) 494-6100
-- Police Website: https://www.maple-grove.org/police
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Maple Grove Police Department
+- Address: 12800 Arbor Lakes Parkway N, Maple Grove, MN 55369
+- Emergency: 911 | Non-Emergency: (763) 494-6100
+- Police Website: https://www.maplegrovemn.gov/police
 ## Courts
-- Hennepin County District Court — 300 S 6th St, Minneapolis, MN 55487 — (612) 348-6000
-- Court Website: https://www.hennepin.us/courts
+- Hennepin County District Court - Brookdale — 6125 Shingle Creek Pkwy, Brooklyn Center, MN 55430
+- Court Website: https://mncourts.gov
+## Detention Center
+- Maple Grove Police Department (short-term) — 12800 Arbor Lakes Parkway N — (763) 494-6100
+- Hennepin County Jail — 401 S 4th Ave, Minneapolis, MN 55415
+- Website: https://www.hennepin.us
 ## Building Permits
-- Maple Grove Building Department — https://www.maple-grove.org
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-## Corrections
-- Hennepin County Jail
+- Community Development Department
+- Phone: (763) 494-6060
+- Address: 12800 Arbor Lakes Parkway N, Maple Grove, MN 55369
+- Website: https://www.maplegrovemn.gov/building
+## Library
+- Maple Grove Library (Hennepin County Library)
+- Address: 8001 Main St N, Maple Grove, MN 55369
+- Phone: (612) 543-6450
+- Website: https://www.hclib.org
+## Hospitals
+- North Memorial Health – Maple Grove Hospital — 9875 Hospital Dr, Maple Grove, MN 55369 — (763) 581-1000 — 45.1327° N, 93.4812° W
+  Website: https://northmemorial.com

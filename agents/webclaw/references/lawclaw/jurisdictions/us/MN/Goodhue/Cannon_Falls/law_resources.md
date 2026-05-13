@@ -1,20 +1,29 @@
-# Cannon Falls — Local Law Resources
+﻿# Cannon Falls — Local Law Resources
 ## City Website
-- https://www.ci.cannon-falls.mn.us/
+- https://www.cannonfallsmn.gov — (507) 263-9300
+- Address: 918 River Road, Cannon Falls, MN 55009
+- Hours: Monday–Friday, 8:00 AM – 4:30 PM
 ## Law Enforcement
-- Cannon Falls PD — 100 2nd St NW — (507) 263-6100
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Cannon Falls Police Department
+- Address: 918 River Road, Cannon Falls, MN 55009
+- Emergency: 911 | Non-Emergency: (507) 263-9300
+- Police Website: https://www.cannonfallsmn.gov/police
 ## Courts
-- Goodhue County District Court — Red Wing — (651) 385-3040
-- **Court Website**: https://mncourts.gov/district/1
+- Goodhue County District Court — https://www.mncourts.gov
+## Detention Center
+- Goodhue County Jail — 509 West 5th Street, Red Wing, MN 55066
+- Website: https://www.goodhuecountymn.gov
 ## Building Permits
-- Cannon Falls Building Department — https://www.ci.cannon-falls.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Goodhue County Jail
+- City of Cannon Falls Planning & Zoning Department
+- Phone: (507) 263-9300 | Email: buildingpermits@cannonfallsmn.gov
+- Address: 918 River Road, Cannon Falls, MN 55009
+- Forms: https://www.cannonfallsmn.gov/forms
+- Website: https://www.cannonfallsmn.gov/planning-zoning
+## Library
+- Cannon Falls Public Library
+- Address: 306 W Mill St, Cannon Falls, MN 55009
+- Phone: (507) 263-2468
+- Website: https://cannonfalls.lib.mn.us
+## Hospitals
+- Mayo Clinic Health System – Cannon Falls — 505 E Main St, Cannon Falls, MN 55009 — (507) 263-2111 — 44.3847° N, 92.8972° W
+  Website: https://www.mayoclinichealthsystem.org

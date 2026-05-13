@@ -1,6 +1,35 @@
-# Sauk Centre Municipal Court
+﻿# Sauk Centre Courts
 ## Court Information
-- Stearns County District Court — St. Cloud — (320) 656-3620
-- **Court Website**: https://mncourts.gov/district/7
+- Sauk Centre does not have a municipal court
+- Legal matters handled by Stearns County District Court
+- Address: 705 Courthouse Square, St. Cloud, MN 56303 — (320) 656-3620
+- Court Website: https://www.mncourts.gov/Find-Courts/Stearns
 ## City Website
-- https://www.ci.sauk-centre.mn.us/
+- https://saukcentre.govoffice2.com
+- Phone: (320) 351-7022
+- Address: 320 Oak Street South, Sauk Centre, MN 56378
+## Police Department
+- Sauk Centre Police Department
+- Address: 320 Oak Street South, Sauk Centre, MN 56378
+- Emergency: 911
+- Non-Emergency: (320) 351-7022
+- Fax: (320) 352-2206
+- Police Website: https://saukcentre.govoffice2.com/index.asp?SEC=C3D10E49-3D12-4F67-BCBB-F59890D429CD&Type=B_DIR
+## Detention Center
+- Sauk Centre Police Holding Facility (short-term) — 320 Oak Street South, Sauk Centre, MN 56378 — (320) 351-7022
+- Stearns County Jail (long-term) — 3301 County Rd 138, St. Cloud, MN 56303 — (320) 656-3888
+- Inmate Roster: https://jailroster.stearnscountymn.gov
+- Jail Website: https://jailroster.stearnscountymn.gov
+## Building Permits
+- City of Sauk Centre Building Permits
+- Phone: (320) 351-7022
+- Address: 320 Oak Street South, Sauk Centre, MN 56378
+- Website: https://saukcentre.govoffice2.com
+## Library
+- Sauk Centre Public Library
+- Address: 200 2nd Street South, Sauk Centre, MN 56378
+- Phone: (320) 352-3725
+- Website: https://saukcentre.govoffice2.com/index.asp?SEC=4D5F4B2B-7780-4542-8297-3FCE9C698891
+## Hospitals
+- CentraCare – Sauk Centre Clinic — 200 2nd Street South, Sauk Centre, MN 56378 — (320) 352-1500 — 45.7381° N, 94.9572° W
+  Website: https://www.centracare.com/locations/profile/sauk-centre-clinic/

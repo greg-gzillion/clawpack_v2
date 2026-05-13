@@ -1,20 +1,30 @@
-# Winona City — Local Law Resources
+﻿# Winona — Local Law Resources
 ## City Website
-- https://www.cityofwinona.com/
+- https://www.winonamn.gov — (507) 457-8231
+- Address: 201 West 3rd Street, Winona, MN 55987
 ## Law Enforcement
-- Winona PD — 207 Lafayette St — (507) 457-9188
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Winona Police Department
+- Address: 201 West 3rd Street, Winona, MN 55987
+- Emergency: 911 | Non-Emergency: (507) 457-6302
+- Chief: Tom Williams
+- Police Website: https://www.winonamn.gov/26/Police-Department
 ## Courts
-- Winona County District Court — 171 W 3rd St — (507) 615-5183
-- **Court Website**: https://www.mncourts.gov/Find-Courts/Winona.aspx
+- Winona County District Court — 207 Lafayette St, Winona, MN 55987 — (507) 457-8215
+- Court Website: https://www.mncourts.gov/Find-Courts/Winona
+## Detention Center
+- Winona Police Holding Facility (short-term) — 201 West 3rd Street — (507) 457-6302
+- Winona County Jail — 207 Lafayette St, Winona, MN 55987 — (507) 457-8225
+- Inmate Roster: https://www.co.winona.mn.us/sheriff/inmate-roster
+- Sheriff Website: https://www.co.winona.mn.us/sheriff
 ## Building Permits
-- Winona City Building Department — https://www.cityofwinona.com/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Winona County Jail
+- City of Winona Permits, Fees & Handouts
+- Permit Information: https://www.winonamn.gov/198/Permits-Fees-Handouts
+- Phone: (507) 457-8231 | Address: 201 West 3rd Street, Winona, MN 55987
+## Library
+- Winona Public Library
+- Address: 125 E 5th St, Winona, MN 55987
+- Phone: (507) 457-0311
+- Website: https://www.winonapubliclibrary.org
+## Hospitals
+- Winona Health — 855 Mankato Ave, Winona, MN 55987 — (507) 454-4111 — 44.0486° N, 91.6656° W
+  Website: https://www.winonahealth.org

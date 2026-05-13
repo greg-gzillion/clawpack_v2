@@ -1,20 +1,29 @@
-# Sartell — Local Law Resources
+﻿# Sartell — Local Law Resources
 ## City Website
-- https://www.ci.sartell.mn.us/
+- https://www.sartellmn.com — (320) 258-7317
+- Address: 310 2nd Street South, Sartell, MN 56377
 ## Law Enforcement
-- Sartell PD — 700 2nd St S — (320) 252-2200
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Sartell Police Department
+- Address: 310 2nd Street South, Sartell, MN 56377
+- Emergency: 911 | Non-Emergency: (320) 251-8186
+- Police Website: https://www.sartellmn.com/departments/public-safety/police-department/
 ## Courts
-- Stearns County District Court — St. Cloud — (320) 656-3620
-- **Court Website**: https://mncourts.gov/district/7
+- Stearns County District Court — 705 Courthouse Square, St. Cloud, MN 56303 — (320) 656-3620
+- Court Website: https://www.mncourts.gov/Find-Courts/Stearns
+## Detention Center
+- Sartell Police Holding Facility (short-term) — 310 2nd Street South — (320) 251-8186
+- Stearns County Jail — 807 Courthouse Square, St. Cloud, MN 56302 — (320) 259-3760
+- Inmate Roster & Jail Website: https://jailroster.stearnscountymn.gov
 ## Building Permits
-- Sartell Building Department — https://www.ci.sartell.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Stearns County Jail
+- City of Sartell Building Inspections – Permits
+- Permit Information: https://www.sartellmn.com/services/building-inspections/permits
+- Online Application: https://www.sartellmn.com/apply-for-a-permit
+- Phone: (320) 258-7317 | Address: 310 2nd Street South, Sartell, MN 56377
+## Library
+- Sartell Public Library (Great River Regional Library)
+- Address: 125 Pine Cone Road, Sartell, MN 56377
+- Phone: (320) 251-8190
+- Website: https://griver.org/locations/sartell
+## Hospitals
+- CentraCare - St. Cloud Hospital Sartell Clinic — 1201 2nd Street South, Sartell, MN 56377 — (320) 258-3470 — 45.6194° N, 94.2106° W
+  Website: https://www.centracare.com/locations/profile/sartell-clinic/

@@ -1,20 +1,34 @@
-# St Charles MN — Local Law Resources
+﻿# St. Charles — Local Law Resources
 ## City Website
-- https://www.stcharlesmn.org/
+- https://www.stcharlesmn.org — (507) 932-3020
+- Address: 830 Whitewater Ave, St. Charles, MN 55972
+- Hours: Mon–Fri 8:00 AM – 5:00 PM
 ## Law Enforcement
-- St. Charles PD — 830 Whitewater Ave — (507) 932-4500
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- St. Charles Police Department
+- Address: 830 Whitewater Ave, St. Charles, MN 55972
+- Emergency: 911 | Non-Emergency: (507) 932-4500
+- Chief: Jose Pelaez
+- Police Website: https://www.stcharlesmn.org/city-services/police-department/
 ## Courts
-- Winona County District Court — Winona — (507) 457-6200
-- **Court Website**: https://mncourts.gov/district/3
+- Winona County District Court — 207 Lafayette St, Winona, MN 55987 — (507) 457-8215
+- Court Website: https://www.mncourts.gov/Find-Courts/Winona
+## Detention Center
+- St. Charles Police Holding Facility (short-term) — 830 Whitewater Ave — (507) 932-4500
+- Winona County Jail — 207 Lafayette St, Winona, MN 55987 — (507) 457-8225
+- Inmate Roster: https://www.co.winona.mn.us/sheriff/inmate-roster
+- Sheriff Website: https://www.co.winona.mn.us/sheriff
 ## Building Permits
-- St Charles MN Building Department — https://www.stcharlesmn.org/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Winona County Jail
+- City of St. Charles Permits (via Safebuilt)
+- Permit Information: https://www.stcharlesmn.org/applications-documents-permits/
+- Online Portal: https://mn-stcharles.onegov.rtvision.com/core/login.php
+- Email: permits@stcharlesmn.org | Phone: (507) 932-3020
+- Address: 830 Whitewater Ave, St. Charles, MN 55972
+## Library
+- St. Charles Public Library
+- Address: 125 W 11th St, St. Charles, MN 55972
+- Phone: (507) 932-3227
+- Director: Jill Veerkamp
+- Website: https://www.stcharlesmn.org/city-services/library/
+## Hospitals
+- Olmsted Medical Center – St. Charles Clinic — 213 E 13th St, St. Charles, MN 55972 — (507) 932-3810 — 44.0468° N, 92.1359° W
+  Website: https://www.olmstedmedicalcenter.org/locations/st-charles-clinic

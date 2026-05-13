@@ -1,20 +1,28 @@
-# Sauk Centre — Local Law Resources
+﻿# Sauk Centre — Local Law Resources
 ## City Website
-- https://www.ci.sauk-centre.mn.us/
+- https://saukcentre.govoffice2.com — (320) 351-7022
+- Address: 320 Oak Street South, Sauk Centre, MN 56378
 ## Law Enforcement
-- Sauk Centre PD — 401 Main St — (320) 352-2550
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Sauk Centre Police Department
+- Address: 320 Oak Street South, Sauk Centre, MN 56378
+- Emergency: 911 | Non-Emergency: (320) 351-7022 | Fax: (320) 352-2206
+- Police Website: https://saukcentre.govoffice2.com/index.asp?SEC=C3D10E49-3D12-4F67-BCBB-F59890D429CD&Type=B_DIR
 ## Courts
-- Stearns County District Court — St. Cloud — (320) 656-3620
-- **Court Website**: https://mncourts.gov/district/7
+- Stearns County District Court — 705 Courthouse Square, St. Cloud, MN 56303 — (320) 656-3620
+- Court Website: https://www.mncourts.gov/Find-Courts/Stearns
+## Detention Center
+- Sauk Centre Police Holding Facility (short-term) — 320 Oak Street South — (320) 351-7022
+- Stearns County Jail — 3301 County Rd 138, St. Cloud, MN 56303 — (320) 656-3888
+- Inmate Roster & Jail Website: https://jailroster.stearnscountymn.gov
 ## Building Permits
-- Sauk Centre Building Department — https://www.ci.sauk-centre.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Stearns County Jail
+- City of Sauk Centre Building Permits
+- Phone: (320) 351-7022 | Address: 320 Oak Street South, Sauk Centre, MN 56378
+- Website: https://saukcentre.govoffice2.com
+## Library
+- Sauk Centre Public Library
+- Address: 200 2nd Street South, Sauk Centre, MN 56378
+- Phone: (320) 352-3725
+- Website: https://saukcentre.govoffice2.com/index.asp?SEC=4D5F4B2B-7780-4542-8297-3FCE9C698891
+## Hospitals
+- CentraCare – Sauk Centre Clinic — 200 2nd Street South, Sauk Centre, MN 56378 — (320) 352-1500 — 45.7381° N, 94.9572° W
+  Website: https://www.centracare.com/locations/profile/sauk-centre-clinic/

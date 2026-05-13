@@ -1,20 +1,30 @@
 ﻿# Otsego — Local Law Resources
 ## City Website
-- https://www.cityofotsego.org
+- https://www.otsegomn.gov — (763) 441-2593
+- Address: 13400 90th Street NE, Otsego, MN 55330
 ## Law Enforcement
-- Wright County Sheriff's Office (no local police) — (763) 682-7622
-- Police Website: https://www.co.wright.mn.us
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Otsego Police Department (Public Safety)
+- Address: 13400 90th Street NE, Otsego, MN 55330
+- Emergency: 911 | Non-Emergency: (763) 441-2593
+- Police Website: https://www.otsegomn.gov/157/Public-Safety
 ## Courts
-- Wright County District Court — 3800 Braddock Ave NE, Buffalo, MN 55313 — (763) 682-7560
-- Court Website: https://www.mncourts.gov
+- Wright County District Court — 10 Second Street NW, Buffalo, MN 55313 — (763) 682-7539
+- Court Website: https://www.mncourts.gov/Find-Courts/Wright
+## Detention Center
+- Otsego Police Holding Facility (short-term) — 13400 90th Street NE — (763) 441-2593
+- Wright County Adult Detention Center — 3800 Braddock Ave NE, Buffalo, MN 55313 — (763) 682-7600
+- Inmate Roster: https://www.co.wright.mn.us/sheriff/inmate-roster
+- Jail Website: https://www.co.wright.mn.us/sheriff
 ## Building Permits
-- Otsego Building Department — https://www.cityofotsego.org
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-## Corrections
-- Wright County Jail
+- City of Otsego Building Safety
+- Permit Information: https://www.otsegomn.gov/158/Building-Safety
+- Online Portal (GovWell): https://app.govwell.com/otsego
+- Phone: (763) 441-2593 | Address: 13400 90th Street NE, Otsego, MN 55330
+## Library
+- Otsego Public Library (Great River Regional Library)
+- Address: 13400 90th Street NE, Otsego, MN 55330
+- Phone: (763) 441-2743
+- Website: https://griver.org/locations/otsego
+## Hospitals
+- CentraCare – Otsego Clinic — 13400 90th Street NE, Otsego, MN 55330 — (763) 441-2595 — 45.2067° N, 93.6817° W
+  Website: https://www.centracare.com/locations/profile/otsego-clinic/

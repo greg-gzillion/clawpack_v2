@@ -1,20 +1,34 @@
-# Rosemount — Local Law Resources
+﻿# Rosemount — Local Law Resources
 ## City Website
-- https://www.rosemountmn.gov/
+- https://www.rosemountmn.gov — (651) 423-4411
+- Address: 2875 145th Street West, Rosemount, MN 55068
+- Hours: Monday–Thursday, 7:00 AM – 4:30 PM
 ## Law Enforcement
-- Rosemount PD — 2875 145th St W — (651) 423-4491
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Rosemount Police Department
+- Address: 14041 Biscayne Avenue, Rosemount, MN 55068
+- Emergency: 911 | Non-Emergency: (651) 322-2323
+- Police Records: (651) 423-4491
+- Police Website: https://www.rosemountmn.gov/police
 ## Courts
-- Dakota County District Court — Hastings — (651) 438-8100
-- **Court Website**: https://mncourts.gov/district/1
+- Dakota County District Court — https://www.mncourts.gov/dakota
+## Detention Center
+- Rosemount Police Department (short-term) — 14041 Biscayne Avenue — (651) 423-4491
+- Dakota County Jail — 10600 Dakota Ave S, Burnsville, MN 55337
+- Inmate Search: https://www.dakotacounty.us
 ## Building Permits
-- Rosemount Building Department — https://www.rosemountmn.gov/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Dakota County Jail
+- Community Development Department
+- Phone: (651) 322-2051 | Building Inspections: (651) 322-2024
+- Address: 2875 145th Street West, Rosemount, MN 55068
+- Online Permit Application available
+- Website: https://www.rosemountmn.gov/building
+## Library
+- Robert Trail Library (Dakota County Library)
+- Address: 14395 South Robert Trail, Rosemount, MN 55068
+- Phone: (651) 480-1200
+- Hours: Mon–Thu 9 AM–8 PM, Fri–Sat 9 AM–5 PM, Sun 1–5 PM
+- Website: https://www.co.dakota.mn.us/libraries
+## Hospitals
+- M Health Fairview Clinic – Rosemount — 15075 Cimarron Avenue, Rosemount, MN 55068 — (651) 322-8800 — 44.7301° N, 93.1396° W
+  Website: https://www.mhealthfairview.org
+- Fairview Ridges Hospital — 6020 France Ave S, Edina, MN 55436 — (952) 928-4000 — 44.8588° N, 93.3066° W
+  Website: https://www.mhealthfairview.org

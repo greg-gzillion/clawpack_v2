@@ -1,20 +1,29 @@
-# Hinckley — Local Law Resources
+﻿# Hinckley — Local Law Resources
 ## City Website
-- https://www.co.pine.mn.us/
+- https://hinckleymn.gov — (320) 384-7491
+- Email: cityofhinckley@cityofhinckley.com
+- Address: 106 1st Street SE, Hinckley, MN 55037
 ## Law Enforcement
-- Pine County Sheriff — 612 Northridge Dr — (320) 639-2211
-- Minnesota State Patrol — https://dps.mn.gov/divisions/state-patrol/
+- Pine County Sheriff's Office (contract, Hinckley Substation)
+- Address: 106 1st Street SE, Hinckley, MN 55037
+- Emergency: 911 | Non-Emergency: (320) 629-8380
+- Sheriff Website: https://www.pinecountysheriff.org
 ## Courts
-- Pine County District Court — 612 Northridge Dr — (320) 639-2225
-- **Court Website**: https://mncourts.gov/district/9
+- Pine County District Court — 635 Northridge Dr NW, Suite 220, Pine City, MN 55063 — (320) 629-8405
+- Court Website: https://www.mncourts.gov/Find-Courts/Pine
+## Detention Center
+- Pine County Jail — 635 Northridge Dr NW, Pine City, MN 55063 — (320) 629-8400
+- Inmate Roster: https://www.pinecountysheriff.org/inmate-roster
+- Jail Website: https://www.pinecountysheriff.org/jail
 ## Building Permits
-- Hinckley Building Department — https://www.co.pine.mn.us/
-## Hunting Regulations
-- MN Hunting Regulations — https://www.dnr.state.mn.us/hunting/
-## Fishing Regulations
-- MN Fishing Regulations — https://www.dnr.state.mn.us/fishing/
-## Legal Aid
-- Legal Aid Service of Northeastern Minnesota — https://www.lasnem.org/
-- Southern Minnesota Regional Legal Services — https://www.smrls.org/
-## Corrections
-- Pine County Jail
+- City of Hinckley Building Permits
+- Permit Information: https://hinckleymn.gov/residents/building-permits/
+- Phone: (320) 384-7491 | Address: 106 1st Street SE, Hinckley, MN 55037
+## Library
+- Hinckley Public Library (East Central Regional Library)
+- Address: 106 1st Street SE, Hinckley, MN 55037
+- Phone: (320) 384-6351
+- Website: https://ecrlib.org/hinckley-mn-public-library/
+## Hospitals
+- Welia Health – Hinckley Clinic — 620 Sandy Ln, Hinckley, MN 55037 — (320) 384-6189 — 46.0118° N, 92.9425° W
+  Website: https://www.weliahealth.org/location/hinckley-clinic/

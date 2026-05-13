@@ -1,6 +1,34 @@
-# Forest Lake Municipal Court
+﻿# Forest Lake Courts
 ## Court Information
-- Washington County District Court — Stillwater — (651) 430-6600
-- **Court Website**: https://mncourts.gov/district/10
+- Forest Lake does not have a municipal court
+- Legal matters handled by Washington County District Court
+- Address: 14945 62nd St N, Stillwater, MN 55082 — (651) 430-6600
+- Court Website: https://www.co.washington.mn.us/164/County-Courts
 ## City Website
-- https://www.ci.forest-lake.mn.us/
+- https://www.ci.forest-lake.mn.us
+- Phone: (651) 464-4349
+- Address: 1408 Lake Street South, Forest Lake, MN 55025
+## Police Department
+- Forest Lake Police Department
+- Address: 1408 Lake Street South, Forest Lake, MN 55025
+- Emergency: 911
+- Non-Emergency: (651) 464-5877
+- Police Website: https://www.ci.forest-lake.mn.us/145/Police
+## Detention Center
+- Forest Lake Police Holding Facility (short-term) — 1408 Lake Street South, Forest Lake, MN 55025 — (651) 464-5877
+- Washington County Adult Detention Center (long-term) — 15015 62nd Street North, Stillwater, MN 55082 — (651) 430-6650
+- Inmate Search: https://inmatesearch.co.washington.mn.us
+- Jail Website: https://www.co.washington.mn.us/168/Adult-Detention-Center
+## Building Permits
+- City of Forest Lake Building Permits
+- Permit Information: https://www.ci.forest-lake.mn.us/158/Building-Permits
+- Phone: (651) 464-4349
+- Address: 1408 Lake Street South, Forest Lake, MN 55025
+## Library
+- Hardwood Creek Library (Washington County Library)
+- Address: 19955 Forest Rd N, Forest Lake, MN 55025
+- Phone: (651) 275-7300
+- Website: https://www.washcolib.org/445/Hardwood-Creek-Library
+## Hospitals
+- M Health Fairview Lakes Medical Center — 900 Forest Lake Dr, Wyoming, MN 55092 — (651) 426-7000 — 45.2285° N, 92.9965° W
+  Website: https://www.fairview.org/locations/lakes
