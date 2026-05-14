@@ -1,20 +1,26 @@
-# Newton MS — Local Law Resources
+﻿# Newton — Local Law Resources
 ## City Website
-- https://www.newtonms.org/
+- https://www.newtonms.org — (601) 683-6181
+- City Hall: 203 E Church St, Newton, MS 39345
 ## Law Enforcement
-- Newton PD — 103 Banks St — (601) 683-2041
-- **Police Website**: https://www.newtonms.org/
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Newton Police Department — https://www.newtonms.org/departments/police-department
+- Emergency: 911 | Non-Emergency: (601) 683-2041
+- Address: 103 Banks St, Newton, MS 39345
 ## Courts
-- Newton Municipal Court — PO Box 300 — (601) 683-2042
-- **Court Website**: https://www.newtonms.org/
+- Newton Municipal Court — https://www.newtonms.org/municipal-court
+- Address: 103 Banks St, Newton, MS 39345
+- Phone: (601) 683-2041
+## Detention Center
+- NPD Holding — 103 Banks St (short-term)
+- Newton County Jail — 92 W Broad St, Decatur, MS 39327
+- Phone: (601) 635-2243
+- Website: https://www.newtoncountyms.net
 ## Building Permits
-- Newton MS Building Department — https://www.newtonms.org/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Newton County Jail
+- Building Permits: https://www.newtonms.org/departments/building-permits
+- Phone: (601) 683-6181
+## Library
+- Newton County Public Library — https://www.llf.lib.ms.us
+- Address: 92 W Broad St, Decatur, MS 39327 — (601) 635-2319
+## Hospitals
+- Newton Medical Center — 1001 MS-15, Newton, MS 39345 — (601) 683-2300 — 32.5828 N, 88.9386 W
+  https://www.neshobacounty.net

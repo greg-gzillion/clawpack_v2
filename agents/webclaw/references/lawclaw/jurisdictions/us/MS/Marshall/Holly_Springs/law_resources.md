@@ -1,20 +1,26 @@
-# Holly Springs — Local Law Resources
+﻿# Holly Springs — Local Law Resources
 ## City Website
-- https://hollyspringsms.gov/
+- https://hollyspringsms.gov — (662) 252-4280
+- City Hall: 160 South Memphis Street, Holly Springs, MS 38635
 ## Law Enforcement
-- Holly Springs PD — 107 S Market St — (662) 252-2122
-- **Police Website**: https://hollyspringsms.gov/
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Holly Springs Police Department — https://hollyspringsms.gov/police-department/
+- Emergency: 911 | Non-Emergency: (662) 252-2122
+- Address: 538 J.M. Ash Drive, Holly Springs, MS 38635
 ## Courts
-- Holly Springs Municipal Court — 107 S Market St Courtroom B — (662) 252-2122
-- **Court Website**: https://hollyspringsms.gov/
+- Holly Springs Municipal Court — https://hollyspringsms.gov/municipal-court/
+- Address: 538 J.M. Ash Drive, Holly Springs, MS 38635
+- Phone: (662) 252-4652 | Email: sasha.marsh@hollyspringsms.gov
+## Detention Center
+- HSPD Holding — 538 J.M. Ash Drive — (662) 252-2122 (short-term)
+- Marshall County Sheriff's Office — 819 West Street, Holly Springs, MS 38635
+- Website: https://www.marshall-county.com
+- Inmate Search: Contact Sheriff's Office
 ## Building Permits
-- Holly Springs Building Department — https://hollyspringsms.gov/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Marshall County Jail
+- Marshall County Zoning & Planning: https://www.marshall-county.com/zoning-planning-building-department
+- Phone: (662) 252-3663 | Address: 545 JM Ash Drive, Holly Springs, MS 38635
+## Library
+- Marshall County Public Library — https://www.llf.lib.ms.us
+- Address: 128 E Van Dorn Ave, Holly Springs, MS 38635 — (662) 252-3434
+## Hospitals
+- Baptist Memorial Hospital - North Mississippi — 801 W Jackson Ave, Oxford, MS 38655 — (662) 238-3131 — 34.3686 N, 89.5172 W
+  https://www.baptistonline.org (nearest major hospital)

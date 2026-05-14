@@ -1,20 +1,25 @@
-# Picayune — Local Law Resources
+﻿# Picayune — Local Law Resources
 ## City Website
-- https://picayune.ms.us/
+- https://www.picayune.ms.us — (601) 798-9770
+- City Hall: 203 Goodyear Blvd, Picayune, MS 39466
 ## Law Enforcement
-- Picayune PD — 200 W Hickory Ave — (601) 798-7411
-- **Police Website**: https://picayune.ms.us/
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Picayune Police Department — http://www.picayunepolicedepartment.com
+- Emergency: 911 | Non-Emergency: (601) 798-7411
+- Address: 328 S Main St, Picayune, MS 39466
 ## Courts
-- Picayune Municipal Court — 200 W Hickory Ave — (601) 798-9773
-- **Court Website**: https://picayune.ms.us/
+- Picayune Municipal Court — https://www.picayune.ms.us/1295/About-the-Municipal-Court
+- Address: 309 Stephens St, Picayune, MS 39466
+- Phone: (601) 798-9773
+## Detention Center
+- Picayune City Jail — 328 S Main St — (601) 798-7411 (short-term)
+- Pearl River County Jail — 115 S Main St, Poplarville, MS 39470
+- Phone: (601) 794-3562
+- Website: https://www.co.pearl-river.ms.us
 ## Building Permits
-- Picayune Building Department — https://picayune.ms.us/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Pearl River County Jail
+- City Hall: (601) 798-9770 | https://www.picayune.ms.us
+## Library
+- Margaret Reed Crosby Memorial Library — https://pearlriver.lib.ms.us
+- Address: 900 Goodyear Blvd, Picayune, MS 39466 — (601) 798-5081
+## Hospitals
+- Highland Community Hospital — 130 Highland Pkwy, Picayune, MS 39466 — (601) 358-9400 — 30.5502 N, 89.6652 W
+  https://www.forresthealth.org

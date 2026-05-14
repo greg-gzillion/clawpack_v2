@@ -1,20 +1,28 @@
-# Cleveland MS — Local Law Resources
+﻿# Cleveland — Local Law Resources
 ## City Website
-- https://www.cityofclevelandms.com/
+- https://www.cityofclevelandms.com — (662) 843-3611
+- Departments: https://www.cityofclevelandms.com/101/Departments
+- Address: 100 North Street, Cleveland, MS 38732
 ## Law Enforcement
-- Cleveland PD — 100 N Street — (662) 843-3611
-- **Police Website**: https://www.cityofclevelandms.com/
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Cleveland Police Department — https://www.cityofclevelandms.com/165/Police-Department
+- Emergency: 911 | Non-Emergency: (662) 843-3611
+- Address: 301 S Sharpe Ave, Cleveland, MS 38732
 ## Courts
-- Cleveland Municipal Court — 100 N Street PO Box 58 — (662) 843-7346
-- **Court Website**: https://www.cityofclevelandms.com/
+- Cleveland Municipal Court — https://www.cityofclevelandms.com
+- Address: 315 S Sharpe St, Cleveland, MS 38732
+- Phone: (662) 843-7346 | Mailing: P.O. Box 1439, Cleveland, MS 38732
+## Detention Center
+- Cleveland City Jail — 301 S Sharpe Ave, Cleveland, MS 38732 (managed by CPD)
+- Bolivar County Regional Correctional Facility — 2792 MS-8 W, Cleveland, MS 38732
+- County Website: https://www.co.bolivar.ms.us/regional-correctional-facility
 ## Building Permits
-- Cleveland MS Building Department — https://www.cityofclevelandms.com/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Bolivar County Jail
+- Community Development: https://www.cityofclevelandms.com/101/Departments
+- City Hall: (662) 843-3611 | Address: 100 North Street, Cleveland, MS 38732
+## Library
+- Robinson-Carpenter Memorial Library — https://www.bolivar.lib.ms.us
+- Address: 104 S Leflore Ave, Cleveland, MS 38732 — (662) 843-2774
+## Hospitals
+- Bolivar Medical Center — 901 MS-8, Cleveland, MS 38732 — (662) 843-3600 — 33.7400° N, 90.7300° W
+- Bolivar Medical Center ER — 901 E Sunflower Rd, Cleveland, MS 38732
+- Delta Health Center - Cleveland — 548 E Rosemary Rd, Cleveland, MS 38732
+- North Sunflower Medical Center — 110 Sunflower Dr, Ruleville, MS 38771

@@ -1,20 +1,25 @@
-# Lumberton — Local Law Resources
+﻿# Lumberton — Local Law Resources
 ## City Website
-- http://www.cityoflumberton.com/
+- http://lumberton.ms — (601) 796-8341 | info@lumberton.ms
+- City Hall: 102 E Main Ave, Lumberton, MS 39455
 ## Law Enforcement
-- Lamar County Sheriff — (601) 794-8504
-- **Police Website**: http://www.cityoflumberton.com/
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Lumberton Police Department — http://lumberton.ms
+- Emergency: 911 | Non-Emergency: (601) 796-7002
+- Address: 102 E Main Ave, Lumberton, MS 39455
 ## Courts
-- Lumberton Municipal Court — 102 E Main Ave — (601) 796-8341
-- **Court Website**: http://www.cityoflumberton.com/
+- Lumberton Municipal Court — http://lumberton.ms
+- Address: 102 E Main Ave, Lumberton, MS 39455
+- Phone: (601) 796-8341 | Email: larrym@lumberton.ms
+## Detention Center
+- LPD Holding Facility — 102 E Main Ave — (601) 796-7002 (short-term)
+- Lamar County Jail — 203 Main Street, Purvis, MS 39475
+- Website: https://sheriff.lamarcountyms.gov
+- Inmate Search: https://sheriff.lamarcountyms.gov/inmate-search/
 ## Building Permits
-- Lumberton Building Department — http://www.cityoflumberton.com/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Lamar County Jail
+- City Hall: (601) 796-8341 | http://lumberton.ms
+## Library
+- Lumberton Public Library — https://www.lamarcountylibrarysystem.org
+- Address: 106 W Main Ave, Lumberton, MS 39455 — (601) 796-2505
+## Hospitals
+- Lumberton Family Health Center — 598 W 11th Ave, Lumberton, MS 39455 — (601) 796-4215 — 31.0017 N, 89.4486 W
+  https://semrhi.com/clinic/lumberton-family-health-center/

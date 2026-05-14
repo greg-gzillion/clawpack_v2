@@ -1,19 +1,26 @@
-# Fulton MS — Local Law Resources
+﻿# Fulton — Local Law Resources
 ## City Website
-- https://itawamba.gov/
+- No standalone city website; contact City Hall: (662) 862-4929
+- Community Info: https://fulton.itawambams.com
 ## Law Enforcement
-- Itawamba County Sheriff — 201 W Main St — (662) 862-3421
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Fulton Police Department — https://fulton.itawambams.com/police/
+- Emergency: 911 | Non-Emergency: (662) 862-3441
+- Chief: Brad Rogers | Address: 303 W. Cedar St, Fulton, MS 38843
 ## Courts
-- Itawamba County Circuit Court — 201 W Main St — (662) 862-3511
-- **Court Website**: https://itawamba.gov/
+- Fulton Municipal Court — https://fulton.itawambams.com
+- Address: 213 W. Wiygul St, Fulton, MS 38843
+- Phone: (662) 862-4929 | Sessions: 1st & 3rd Tuesday at 5:30 PM
+## Detention Center
+- Fulton City Jail — 303 W. Cedar St, Fulton, MS 38843 (managed by FPD)
 ## Building Permits
-- Fulton MS Building Department — https://itawamba.gov/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Itawamba County Jail
+- Building Permits: (662) 862-9616
+- Address: 102 Martin Luther King Dr, Fulton, MS 38843
+## Library
+- Itawamba County Library — https://www.itawamblibrary.org
+- Address: 107 W. Wiygul St, Fulton, MS 38843 — (662) 862-4926
+## Hospitals
+- NMMC – Itawamba — 1110 MS-30, Fulton, MS 38843 — 34.2000° N, 88.5000° W
+- Fulton Medical Clinic — 1 Medical Park, Fulton, MS 38843
+- Fulton Family Medical Center — 302 Hospital Rd, Fulton, MS 38843
+- Fulton Urgent Care — 1 Medical Park, Fulton, MS 38843
+- NMMC – Tupelo — 830 S Gloster St, Tupelo, MS 38801

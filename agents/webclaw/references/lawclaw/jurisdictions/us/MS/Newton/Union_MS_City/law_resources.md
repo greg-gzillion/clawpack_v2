@@ -1,19 +1,25 @@
-# Union MS City — Local Law Resources
+﻿# Union — Local Law Resources
 ## City Website
-- https://www.newtoncounty.net/
+- https://www.mmlonline.com/members/municipalities/Union/ (MML)
+- Phone: (601) 774-9422 | Hours: Mon–Fri 8:00 AM–5:00 PM
+- Address: 404 Bank Street, Union, MS 39365
 ## Law Enforcement
-- Union PD — 404 Bank St — (601) 342-2545
-- Mississippi Highway Patrol — https://www.dps.ms.gov/mississippi-highway-patrol
+- Union Police Department
+- Emergency: 911 | Non-Emergency: (601) 774-9211
+- Address: 404 Bank Street, Union, MS 39365
+- Note: No standalone police website
 ## Courts
-- Newton County Circuit Court — Decatur — (601) 635-3368
-- **Court Website**: https://newtoncountymscircuitclerk.com/
+- Union Municipal Court — MML site
+- Address: 404 Bank Street, Union, MS 39365
+- Phone: (601) 774-9422
+## Detention Center
+- Union City Jail — 404 Bank Street, Union, MS 39365 (managed by UPD)
+- Union County Jail (long-term)
 ## Building Permits
-- Union MS City Building Department — https://www.newtoncounty.net/
-## Hunting Regulations
-- MS Hunting Regulations — https://www.mdwfp.com/hunting/
-## Fishing Regulations
-- MS Fishing Regulations — https://www.mdwfp.com/fishing/
-## Legal Aid
-- Mississippi Center for Legal Services — https://www.mslegalservices.org/
-## Corrections
-- Newton County Jail
+- City Hall: (601) 774-9422 | Address: 404 Bank Street, Union, MS 39365
+## Library
+- Jefferson Davis County Library – Bassfield — https://www.jdclibrary.org
+- Address: 110 Main St, Bassfield, MS 39421 — (601) 943-5423
+## Hospitals
+- Forrest General Hospital — 501 N 44th Ave, Hattiesburg, MS 39401 — (601) 288-7000 — 31.3250° N, 89.2833° W
+- Hancock Medical Center — 2221 1st Avenue, Bay St. Louis, MS 39520
