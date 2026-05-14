@@ -1,22 +1,48 @@
-﻿# Chinook Municipal Court
+﻿# Chinook Courts
 ## Court Information
-- Blaine County Justice Court (serves Chinook)
-- Address: 420 Ohio Street, Chinook, MT 59523
-- Phone: (406) 357-2335
-- Hours: Monday–Friday 8:00 AM – 5:00 PM (closed 12–1 PM)
-- Also holds sessions in Harlem 2nd & 4th Wednesdays (~10 AM–12 PM)
-- Judge: Hon. Jim Doyle
-- Handles civil, criminal, and small claims cases
+- Chinook Municipal Court
 - Court Website: https://blainecounty-mt.gov/justice-court
+- Address: Blaine County Courthouse, 420 Ohio St, Chinook, MT 59523
+- Phone: (406) 357-2335
+- Held: In Harlem City Hall on 2nd & 4th Wednesdays (10:00 AM - 12:00 PM)
 ## City Website
 - https://cityofchinook.com
+- City Hall: https://cityofchinook.com — (406) 357-3160
+- City Clerk: clerk@chinookmt.gov — https://cityofchinook.com/contacts
+- City Council: https://chinookmontana.com — (406) 357-3160
+- Public Works: https://cityofchinook.com — (406) 357-3160
+- City Hall Address: 300 Ohio St N, Chinook, MT 59523 — 48.5864 N, 109.4773 W
 ## Police Department
 - Chinook Police Department
-- Address: 300 Ohio Street North, Chinook, MT 59523
-- Phone: (406) 357-3170
-- Website: https://cityofchinook.com (no dedicated police site)
+- Address: 300 Ohio St N, Chinook, MT 59523 — 48.5864 N, 109.4773 W
+- Emergency: 911
+- Non-Emergency: (406) 357-3170
+- Police Website: https://cityofchinook.com
+- Jail Type: Short-term holding
 ## Detention Center
-- Blaine County Jail
-- Address: 400 Ohio Street, Chinook, MT 59523
+- Chinook Police Department Holding — 300 Ohio St N, Chinook, MT 59523
+- Short-term holding
+- Blaine County Jail (long-term) — 400 Ohio St, Chinook, MT 59523 — 48.5867 N, 109.4770 W
 - Phone: (406) 357-3260
-- Website: https://blainecounty-mt.gov/sheriff-coroner
+- Official Website: https://blainecounty-mt.gov
+- Inmate Search: Montana Inmate Search via https://blainecounty-mt.gov
+- Mailing: Inmate Name, Blaine County Jail, 400 Ohio St, Chinook, MT 59523
+## Building Permits
+- Contact: City Hall
+- Phone: (406) 357-3160
+- Permit Info: https://codelibrary.amlegal.com
+- Required for: new construction, signage, alterations
+## Key Departments
+- City Clerk: clerk@chinookmt.gov — https://cityofchinook.com/contacts
+- City Council: https://chinookmontana.com
+- Public Works: https://cityofchinook.com — (406) 357-3160
+## Library
+- Chinook Public Library
+- Address: 300 Ohio St N, Chinook, MT 59523 — 48.5864 N, 109.4773 W (inside City Hall)
+- Phone: (406) 357-3160
+- Hours: Mon-Fri 8:00 AM - 5:00 PM
+- No dedicated website; located in City Hall
+## Hospitals
+- Blaine County Medical Center — 400 Ohio St, Chinook, MT 59523 — (406) 357-2441 — 48.5867 N, 109.4770 W
+  Website: https://blainecounty-mt.gov
+  Services: Primary care, emergency, imaging

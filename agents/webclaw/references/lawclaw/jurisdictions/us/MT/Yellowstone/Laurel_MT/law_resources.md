@@ -1,20 +1,25 @@
-# Laurel MT — Local Law Resources
+﻿# Laurel — Local Law Resources
 ## City Website
-- https://cityoflaurelmontana.com/
+- https://cityoflaurelmontana.com — (406) 628-4796
+- City Hall: 115 W 1st St, Laurel, MT 59044
 ## Law Enforcement
-- Laurel PD — 115 W 1st St — (406) 628-8737
-- **Police Website**: https://cityoflaurelmontana.com/police
-- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
+- Laurel Police Department — https://cityoflaurelmontana.com/police
+- Emergency: 911 | Non-Emergency: (406) 628-8737
+- Chief: Jarred Anglin | Address: 215 W 1st St, Laurel, MT 59044
 ## Courts
-- Laurel Municipal Court — 115 W 1st St — (406) 628-1964
-- **Court Website**: https://cityoflaurelmontana.com/citycourt
+- Laurel City Court — https://cityoflaurelmontana.com/citycourt
+- Address: 115 W 1st St, Laurel, MT 59044
+- Phone: (406) 628-1964 | Judge: Jean Kerr
+## Detention Center
+- Laurel PD Jail — 215 W 1st St (short-term)
+- Yellowstone County Detention Center — 3165 King Ave E, Billings, MT 59101
+- Official Website: https://yellowstonecountyjailroster.com
 ## Building Permits
-- Laurel MT Building Department — https://cityoflaurelmontana.com/
-## Hunting Regulations
-- MT Hunting Regulations — https://fwp.mt.gov/hunting/
-## Fishing Regulations
-- MT Fishing Regulations — https://fwp.mt.gov/fishing/
-## Legal Aid
-- Montana Legal Services Association — https://www.mtlsa.org/
-## Corrections
-- Yellowstone County Detention Center
+- Building Department: https://cityoflaurelmontana.com/building
+- Phone: (406) 628-4796 ext. 5304 | Email: jgonzales@laurel.mt.gov
+## Library
+- Laurel Public Library — https://cityoflaurelmontana.com/library
+- Address: 720 W 3rd St, Laurel, MT 59044 — (406) 628-2455
+## Hospitals
+- RiverStone Health Laurel Clinic — 510 W 1st St, Laurel, MT 59044 — (406) 628-2273 — 45.6692 N, 108.7717 W
+  https://riverstonehealth.org

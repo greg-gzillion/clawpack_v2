@@ -1,27 +1,26 @@
 ﻿# Harlowton — Local Law Resources
 ## City Website
-- https://harlowton.municipalimpact.com
+- https://harlowton.municipalimpact.com — (406) 632-5523 | cityofharlowton@gmail.com
+- City Hall: 17 S Central Ave, Harlowton, MT 59036
 ## Law Enforcement
-- Wheatland County Sheriff's Department (contracted) — 203 A Avenue NW, Harlowton, MT 59036 — (406) 632-5614
-- Emergency: 911
-- Website: https://harlowton.municipalimpact.com/sheriff-s-department
-- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
+- Wheatland County Sheriff's Office — https://wheatlandcomt.gov
+- Emergency: 911 | Non-Emergency: (406) 632-5614
+- Address: 203 A Ave NW, Harlowton, MT 59036
 ## Courts
-- Harlowton City & Wheatland County Justice Court — 201 A Avenue NW, Harlowton, MT 59036 — (406) 632-4821
-- Court Website: https://wheatlandcomt.gov/departments/justice-court
+- Harlowton City Court — https://harlowton.municipalimpact.com/court
+- Address: Wheatland County Courthouse, 3rd Floor, 201 A Ave NW, Harlowton, MT 59036
+- Phone: (406) 632-4821 | Fax: (406) 632-4880
 ## Detention Center
-- Wheatland County Detention Facility — 203 A Avenue NW, Harlowton, MT 59036 — (406) 632-5614
-## Library
-- Harlowton Public Library — 13 Central Avenue S, Harlowton, MT 59036 — (406) 632-5584
-## Hunting & Fishing
-- Fishing Access: Harlowton FAS on Musselshell River (1/2 mile south via Hwy 191) — Brown trout
-- Hunting: Crazy Mountains, Little Belt Mountains, Lewis and Clark National Forest — deer and elk
-- License Issuance: City Clerk
-- MT Hunting Regulations — https://fwp.mt.gov/hunting/
-- MT Fishing Regulations — https://fwp.mt.gov/fishing/
+- Wheatland County Detention Center — 203 A Ave NW, Harlowton, MT 59036
+- Phone: (406) 632-5614
+- Official Website: https://wheatlandcountyjailmt.org
+- Inmate Roster: https://wheatlandcountyjailmt.org
 ## Building Permits
-- Harlowton Building Department — https://harlowton.municipalimpact.com
-## Legal Aid
-- Montana Legal Services Association — https://www.mtlsa.org/
-## Corrections
-- Wheatland County Detention Facility
+- City Departments: https://harlowton.municipalimpact.com/departments
+- Phone: (406) 632-5523
+## Library
+- Harlowton Public Library — https://harlowtonpubliclibrary.com
+- Address: 13 S Central Ave, Harlowton, MT 59036 — (406) 632-5584
+## Hospitals
+- Wheatland Memorial Healthcare — 530 3rd St NW, Harlowton, MT 59036 — (406) 632-4351 — 46.4358 N, 109.8333 W
+  https://www.wheatlandmemorial.org

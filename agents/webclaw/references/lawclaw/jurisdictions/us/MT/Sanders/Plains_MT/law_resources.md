@@ -1,25 +1,37 @@
 ﻿# Plains — Local Law Resources
 ## City Website
-- https://plainsmt.gov
+- https://plainsmt.gov — (406) 826-3411
+- Mayor: Chris Allen — (406) 826-3411 ext. 3
+- Town Clerk: clerk@plainsmt.gov — https://plainsmt.gov/contactus
+- Water Department: https://plainsmt.gov — (406) 826-3411 ext. 2
+- Town Hall: 101 W Lynch St, Plains, MT 59859 — 47.4586 N, 114.8850 W
 ## Law Enforcement
-- Plains Police Department — 101 W Lynch Street, Plains, MT 59859 — (406) 826-5990
-- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
+- Plains Police Department — https://plainsmt.gov
+- Emergency: 911 | Non-Emergency: (406) 826-5990
+- Address: 101 W Lynch St, Plains, MT 59859 — 47.4586 N, 114.8850 W
+- Holding: Short-term only
 ## Courts
-- Plains Municipal Court — 101 W Lynch Street, Plains, MT 59859 — (406) 826-3411 Ext. 4
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM (closed 12:00–1:00 PM)
+- Plains Municipal Court — https://plainsmt.gov
+- Address: Town Hall, 101 W Lynch St, Plains, MT 59859 — 47.4586 N, 114.8850 W
+- Phone: (406) 826-3411 ext. 4
+- Sessions: 1st Monday monthly, 7:00 PM
 ## Detention Center
-- Plains Jail — 101 W Lynch Street, Plains, MT 59859 — (406) 826-5990
-- Short-term holding; long-term inmates held at Sanders County Jail in Thompson Falls
-## Library
-- Plains Public Library — 101 W Lynch Street, Plains, MT 59859 — (406) 826-3411
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM (closed 12:00–1:00 PM)
+- PPD Holding — 101 W Lynch St (short-term only)
+- Sanders County Jail — 1115 Main St, Thompson Falls, MT 59873
+- Phone: (406) 827-3557
+- Official Website: https://sanderscountyarrests.org
+- Inmate Search: Online Roster via https://sanderscountyarrests.org
+- Mail: Inmate Name, PO Box 519, Thompson Falls, MT 59873
 ## Building Permits
-- Plains Building Department — https://plainsmt.gov
-## Hunting Regulations
-- MT Hunting Regulations — https://fwp.mt.gov/hunting/
-## Fishing Regulations
-- MT Fishing Regulations — https://fwp.mt.gov/fishing/
-## Legal Aid
-- Montana Legal Services Association — https://www.mtlsa.org/
-## Corrections
-- Plains Jail / Sanders County Jail
+- Town Hall: (406) 826-3411 | https://plainsmt.gov
+## Key Departments
+- Mayor: Chris Allen — ext. 3
+- Town Clerk: clerk@plainsmt.gov
+- Water Department: ext. 2
+## Library
+- Plains Public Library — inside Town Hall, 101 W Lynch St
+- Phone: (406) 826-3411 | Hours: Mon-Fri 8-5
+## Hospitals
+- Plains Medical Center — 101 W Lynch St, Plains, MT 59859 — (406) 826-3557 — 47.4586 N, 114.8850 W
+  https://plainsmedicalcenter.com — Primary care, telehealth
+- Clark Fork Valley Hospital — 209 Main St, Hot Springs, MT 59845 — https://cfvh.org

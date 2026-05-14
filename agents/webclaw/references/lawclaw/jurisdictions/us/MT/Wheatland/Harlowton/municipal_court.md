@@ -1,26 +1,33 @@
-﻿# Harlowton Municipal Court
+﻿# Harlowton Courts
 ## Court Information
-- Harlowton City & Wheatland County Justice Court
-- Address: 201 A Avenue NW, Harlowton, MT 59036
+- Harlowton City Court
+- Court Website: https://harlowton.municipalimpact.com/court
+- Address: Wheatland County Courthouse, 3rd Floor, 201 A Ave NW, Harlowton, MT 59036
 - Phone: (406) 632-4821
-- Court Website: https://wheatlandcomt.gov/departments/justice-court
+- Fax: (406) 632-4880
 ## City Website
 - https://harlowton.municipalimpact.com
+- Phone: (406) 632-5523
+- Email: cityofharlowton@gmail.com
+- City Hall Address: 17 S Central Ave, Harlowton, MT 59036
 ## Police Department
-- Wheatland County Sheriff's Department (contracted for Harlowton)
-- Address: 203 A Avenue NW, Harlowton, MT 59036
-- Phone: (406) 632-5614
-- Emergency: 911
-- Website: https://harlowton.municipalimpact.com/sheriff-s-department
+- Law enforcement provided by Wheatland County Sheriff's Office
+- Sheriff Website: https://wheatlandcomt.gov
+- Emergency: 911 | Non-Emergency: (406) 632-5614
+- Address: 203 A Ave NW, Harlowton, MT 59036
 ## Detention Center
-- Wheatland County Detention Facility
-- Address: 203 A Avenue NW, Harlowton, MT 59036
+- Wheatland County Detention Center — 203 A Ave NW, Harlowton, MT 59036
 - Phone: (406) 632-5614
+- Official Website: https://wheatlandcountyjailmt.org
+- Inmate Roster: https://wheatlandcountyjailmt.org
+## Building Permits
+- Contact: City Hall at (406) 632-5523
+- Permit Info: https://harlowton.municipalimpact.com/departments
 ## Library
 - Harlowton Public Library
-- Address: 13 Central Avenue S, Harlowton, MT 59036
+- Address: 13 S Central Ave, Harlowton, MT 59036
 - Phone: (406) 632-5584
-## Hunting & Fishing
-- Fishing Access: Harlowton FAS on the Musselshell River (1/2 mile south via Hwy 191) — Brown trout
-- Hunting: Nearby Crazy Mountains, Little Belt Mountains, and Lewis and Clark National Forest — deer and elk
-- License Issuance: City Clerk issues hunting/fishing licenses
+- Library Website: https://harlowtonpubliclibrary.com
+## Hospitals
+- Wheatland Memorial Healthcare — 530 3rd St NW, Harlowton, MT 59036 — (406) 632-4351 — 46.4358 N, 109.8333 W
+  Website: https://www.wheatlandmemorial.org

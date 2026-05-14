@@ -1,26 +1,38 @@
-﻿# Ennis — Local Law Resources
+﻿# Whitehall — Local Law Resources
 ## City Website
-- https://ennismontana.org
+- https://townofwhitehallmt.com — (406) 287-3972
+- Mayor: Mary Hensleigh — mayor@townofwhitehall.org
+- Town Clerk: clerk@townofwhitehall.org
+- Public Works: https://townofwhitehallmt.com — (406) 287-3972
+- Town Hall: 207 E Legion St, Whitehall, MT 59759 — 45.8845 N, 111.9552 W
 ## Law Enforcement
-- Ennis Police Department — 328 W Main St, Ennis, MT 59729 — (406) 682-4287
-- Website: https://ennismontana.org/departments/police
-- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
+- Whitehall Police Services — https://townofwhitehallmt.com/police-department
+- Emergency: 911 | Non-Emergency (Sheriff): (406) 287-3222
+- Town Office: (406) 287-3972
+- Address: 207 E Legion St, Whitehall, MT 59759 — 45.8845 N, 111.9552 W
+- Contracted through Jefferson County Sheriff's Office
 ## Courts
-- Ennis City Court — 328 W Main St, Ennis, MT 59729 — (406) 682-7339
-- Hours: Monday & every other Thursday, 8:30 AM – 4:30 PM (call to confirm)
-- Court Website: https://ennismontana.org/departments/city-court
+- Whitehall Municipal Court — https://jeffersoncounty-mt.gov/justice-court
+- Address: Jefferson County Justice Court, 110 S Washington St, Boulder, MT 59632
+- Phone: (406) 225-4055
 ## Detention Center
-- Madison County Detention Center — (406) 843-5301 (Sheriff)
-## Library
-- Madison Valley Public Library — 210 E Main St, Ennis, MT 59729 — (406) 682-7244
-- Website: https://ennislib.org
+- Whitehall PS Holding — 207 E Legion St (short-term)
+- Jefferson County Detention Center — 110 S Washington St, Boulder, MT 59632 — 46.2350 N, 112.1216 W
+- Phone: (406) 225-4055
+- Official Website: https://jeffersoncounty-mt.gov
+- Inmate Search: Montana Inmate Search via https://jeffersoncounty-mt.gov
+- Mail: Inmate Name, 110 S Washington St, Boulder, MT 59632
 ## Building Permits
-- Ennis Building Department — https://ennismontana.org
-## Hunting Regulations
-- MT Hunting Regulations — https://fwp.mt.gov/hunting/
-## Fishing Regulations
-- MT Fishing Regulations — https://fwp.mt.gov/fishing/
-## Legal Aid
-- Montana Legal Services Association — https://www.mtlsa.org/
-## Corrections
-- Madison County Detention Center
+- Building & Development: https://townofwhitehallmt.com/building-development-permit
+- Phone: (406) 287-3972
+- Required: Sheds, fences, additions, new construction
+## Key Departments
+- Mayor: Mary Hensleigh — mayor@townofwhitehall.org
+- Town Clerk: clerk@townofwhitehall.org
+- Public Works: (406) 287-3972
+## Library
+- Whitehall Community Library — inside Town Hall, 104 E Legion St
+- Phone: (406) 287-3972 | Hours: Mon-Fri 8-4:30
+## Hospitals
+- Whitehall Medical Clinic — 108 1st St W, Whitehall, MT 59759 — (406) 287-3003 — 45.8844 N, 111.9550 W
+  Primary care, family medicine

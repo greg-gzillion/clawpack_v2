@@ -1,24 +1,46 @@
-﻿# Superior Municipal Court
+﻿# Superior Courts
 ## Court Information
 - Superior Town Court
-- Address: Mineral County Courthouse, 300 River Street, PO Box 658, Superior, MT 59872
+- Court Website: https://townofsuperiormontana.org/town-court
+- Address: 300 River St, Superior, MT 59872 (Mineral County Courthouse) — 46.6387 N, 115.7427 W
 - Phone: (406) 822-3550
-- Hours: Contact court directly
-- Court Website: https://townofsuperiormontana.org/departments/town-court
 ## City Website
-- https://co.mineral.mt.us
+- https://townofsuperiormontana.org
+- Town Hall: https://townofsuperiormontana.org — (406) 822-4672
+- Mayor (Roni Phillips): https://townofsuperiormontana.org — (406) 822-4672
+- Town Clerk (Brenda Schneider): townofsuperior@blackfoot.net — https://townofsuperiormontana.org
+- Public Works: https://townofsuperiormontana.org — (406) 822-4672
+- Planning: https://co.mineral.mt.us — (406) 822-3525
+- Town Hall Address: 105 Cedar St, Superior, MT 59872 — 46.6364 N, 115.7427 W
 ## Police Department
 - Mineral County Sheriff's Office (serves Superior)
-- Address: PO Box 99, Superior, MT 59872
-- Phone: (406) 822-3555 (Non-emergency), 911 (Emergency)
-- Website: https://co.mineral.mt.us/sheriff
+- Address: 310 River St, Superior, MT 59872
+- Emergency: 911
+- Non-Emergency: (406) 822-3555
+- Sheriff Website: https://co.mineral.mt.us/sheriff
+- Jail Type: Primary detention center for Superior
 ## Detention Center
-- Mineral County Detention Center
-- Address: 310 River Street, Superior, MT 59872
+- Mineral County Jail — 310 River St, Superior, MT 59872 — 46.6388 N, 115.7428 W
 - Phone: (406) 822-3555
-- Website: https://co.mineral.mt.us/sheriff
+- Official Website: https://inmateaid.com/mineral-county-mt-jail
+- Inmate Search: Montana Inmate Search
+- Mailing: Inmate Name, Mineral County Jail, PO Box 99, Superior, MT 59872
+## Building Permits
+- Contact: Mineral County Environmental Health/Planning
+- Phone: (406) 822-3525
+- Permit Info: https://co.mineral.mt.us/planning
+## Key Departments
+- Mayor: Roni Phillips — (406) 822-4672
+- Town Clerk: Brenda Schneider — townofsuperior@blackfoot.net
+- Public Works: (406) 822-4672
+- County Planning: https://co.mineral.mt.us — (406) 822-3525
 ## Library
-- Mineral County Library
-- Address: 300 River Street, Superior, MT 59872 (in County Courthouse)
-- Phone: (406) 822-3552
-- Website: https://co.mineral.mt.us/library
+- Thompson-Hickman County Library - Superior Branch
+- Address: 300 River St, Superior, MT 59872 — 46.6387 N, 115.7427 W
+- Phone: (406) 822-4293
+- Hours: Mon-Fri 9AM-5PM
+- Library Website: https://thclib.org
+## Hospitals
+- Mineral County Health Department — 300 River St, Superior, MT 59872 — (406) 822-3552 — 46.6387 N, 115.7427 W
+  Website: https://co.mineral.mt.us/health
+  Services: Primary care, public health, immunizations

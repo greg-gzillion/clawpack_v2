@@ -1,24 +1,25 @@
 ﻿# Polson — Local Law Resources
 ## City Website
-- https://www.cityofpolson.com
+- https://www.cityofpolson.com — (406) 883-8200
+- City Hall: 106 1st Street East, Polson, MT 59860
 ## Law Enforcement
-- Polson Police Department — 106 1st St E, Polson, MT 59860 (inside City Hall) — (406) 883-8211
-- Non-Emergency Dispatch: (406) 883-7301
-- Police Website: https://www.cityofpolson.com/police
-- Montana Highway Patrol — https://dojmt.gov/highwaypatrol/
+- Polson Police Department — https://www.cityofpolson.com/police
+- Emergency: 911 | Non-Emergency: (406) 883-7301
+- Address: 106 1st Street East, Polson, MT 59860
 ## Courts
-- Polson Municipal Court — 106 1st St E, Polson, MT 59860 — (406) 883-8212
-- Appearance Hours: Monday–Thursday, 8:30 AM – 11:30 AM
-- Other Business: Monday–Thursday, 8:00 AM – 5:00 PM
-- Online Payments: Available via City Court Online Payments portal
-- Court Website: https://www.cityofpolson.com/citycourt
+- Polson City Court — https://www.cityofpolson.com/city-court
+- Address: 106 1st Street East, Polson, MT 59860
+- Phone: (406) 883-8212
+## Detention Center
+- Lake County Detention Facility — 106 4th Ave E, Polson, MT 59860
+- Phone: (406) 883-7272
+- Website: https://lakemt.gov
 ## Building Permits
-- Polson Building Department — https://www.cityofpolson.com
-## Hunting Regulations
-- MT Hunting Regulations — https://fwp.mt.gov/hunting/
-## Fishing Regulations
-- MT Fishing Regulations — https://fwp.mt.gov/fishing/
-## Legal Aid
-- Montana Legal Services Association — https://www.mtlsa.org/
-## Corrections
-- Lake County Detention Center
+- Forms & Permits: https://www.cityofpolson.com/forms-permits-and-applications
+- Phone: (406) 883-8214 | Email: bp@cityofpolson.com
+## Library
+- Polson Public Library — https://lakemt.gov/library
+- Address: 106 4th Ave E, Polson, MT 59860 — (406) 883-7277
+## Hospitals
+- Providence St. Joseph Medical Center — 2000 Hospital Dr, Polson, MT 59860 — (406) 883-2300 — 47.6789 N, 114.1761 W
+  https://www.providence.org
