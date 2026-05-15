@@ -1,0 +1,49 @@
+﻿# Absecon Courts
+## Municipal Court
+- Absecon Municipal Court
+- Address: 500 Mill Road, Absecon, NJ 08201
+- Phone: (609) 641-0663 ext. 129
+- Court Website: https://www.abseconnj.gov/departments/city-departments/municipal-court
+- Handles: Traffic violations, disorderly persons offenses, municipal ordinances
+## Superior Court (Felonies/Major Civil)
+- Atlantic County Superior Court: 1201 Bacharach Boulevard, Atlantic City, NJ 08401
+- Phone: (609) 345-6700
+- Website: https://www.njcourts.gov/courts/atlantic
+## City Website
+- https://www.abseconnj.gov
+- Address: 500 Mill Road, Absecon, NJ 08201
+- Phone: (609) 641-0663
+- Coordinates: 39.4236° N, 74.4930° W
+## Police Department
+- Absecon Police Department
+- Address: 500 Mill Road, Absecon, NJ 08201
+- Emergency: 911
+- Non-Emergency: (609) 641-0667
+- Police Website: https://www.abseconnj.gov/police-home
+## Detention Center
+- Absecon has a short-term holding facility — 500 Mill Road, Absecon, NJ 08201
+- Long-term detainees transferred to Atlantic County
+- Atlantic County Justice Facility — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
+- Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Coordinates: 39.4470° N, 74.6150° W
+## Building Permits
+- Absecon Construction Department
+- Website: https://www.abseconnj.gov/construction
+- Phone: (609) 641-0663 ext. 113
+- Permit Types: Construction, electrical, plumbing, zoning, CCO
+## Library
+- Atlantic County Library System / Absecon Branch
+- Address: 305 New Jersey Avenue, Absecon, NJ 08201
+- Phone: (609) 646-2228
+- Coordinates: 39.4220° N, 74.4900° W
+- Website: https://www.abseconnj.gov/library
+## Hospitals
+- AtlantiCare Regional Medical Center, Mainland Campus — 65 W Jimmie Leeds Road, Pomona, NJ 08240 — (609) 652-1000 — 39.4787° N, 74.5493° W
+- AtlantiCare Regional Medical Center, Atlantic City Campus — 1925 Pacific Avenue, Atlantic City, NJ 08401 — (609) 345-3000 — 39.3631° N, 74.4267° W
+- Select Specialty Hospital - Atlantic City — 1925 Pacific Avenue 5th Floor, Atlantic City, NJ 08401
+## County Agencies
+- Atlantic County Official Site: https://www.atlanticcountynj.gov
+- Sheriff's Office: https://www.atlanticcountynj.gov/government/county-departments/sheriff
+- Prosecutor's Office: https://www.atlanticcountynj.gov/government/county-departments/prosecutor
+- Assessor: https://www.atlanticcountynj.gov/government/county-departments/assessor
+- Treasurer: https://www.atlanticcountynj.gov/government/county-departments/treasurer
