@@ -1,33 +1,53 @@
-﻿# Ridgewood — Local Law Resources
+﻿# Ridgewood
 ## Village Website
 - https://www.ridgewoodnj.net
-- Address: 131 North Maple Avenue, Ridgewood, NJ 07450 — (201) 670-5500
-- Hours: Mon–Thu 8:30–4:30
-- Coordinates: 40.9750° N, 74.1167° W
-## Law Enforcement
-- Ridgewood Police Department — https://www.ridgewoodnj.net/police
-- Emergency: 911 | Non-Emergency: (201) 670-5500
-- Address: 131 North Maple Avenue, Ridgewood, NJ 07450
-## Courts
-- Ridgewood Municipal Court — https://www.ridgewoodnj.net/court
-- Address: 131 North Maple Avenue, Ridgewood, NJ 07450 — (201) 670-5500 ext. 5580
-- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 527-2000
-## Detention Center
-- Ridgewood Police Department Holding Facility (Short-Term) — 131 North Maple Avenue, Ridgewood, NJ 07450
-- Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 527-3000
-- Inmate Search: https://www.bergenjailroster.org
-- Website: https://www.co.bergen.nj.us/sheriff
-## Building Permits
-- Building Department: https://www.ridgewoodnj.net/building
-- Phone: (201) 670-5500 ext. 5506 | SDL Permit Portal
+- Address: 131 N Maple Avenue, Ridgewood, NJ 07450
+- Phone: (201) 670-5500
+## Police Department
+- Ridgewood Police Department
+- Website: https://www.ridgewoodpolice.org
+- Address: 201 East Glen Avenue, Ridgewood, NJ 07450
+- Phone: (201) 444-4224 (Emergency), (201) 670-5500 (Non-emergency)
+- Emergency: 911
+## Municipal Court
+- Ridgewood Municipal Court
+- Website: https://www.ridgewoodnj.net/281/Municipal-Court
+- Address: 131 N Maple Avenue, Ridgewood, NJ 07450
+- Phone: (201) 670-5500 ext. 5501
+- Payments: https://www.njmcdirect.com
+## Detention Facilities
+### Ridgewood Police Holding (Short-Term)
+- Ridgewood does not operate a jail; detainees transferred to county facility
+### Bergen County Jail
+- Website: https://www.bcsd.us
+- Inmate Search: Bergen County Inmate Locator
+- Address: 160 South River Street, Hackensack, NJ 07601
+- Phone: (201) 336-3500
+- Coordinates: 40.8734° N, 74.0399° W
+## Hospitals with Coordinates
+- Valley Hospital Medical Center
+  Address: 223 N Van Dien Avenue, Ridgewood, NJ 07450
+  Coordinates: 40.9960° N, 74.1008° W
+  Website: https://www.valleyhealth.com
+- Englewood Hospital and Medical Center
+  Address: 350 Engle Street, Englewood, NJ 07631
+  Coordinates: 40.9048° N, 73.9960° W
+  Website: https://www.englewoodhealth.org
 ## Library
-- Ridgewood Public Library — https://www.ridgewoodlibrary.org
-- Address: 125 West Midland Avenue, Ridgewood, NJ 07450 — (201) 670-5555
-- Hours: Mon–Thu 9–9, Fri–Sat 9–5
-## Hospitals
-- The Valley Hospital (Paramus) — 4 Valley Health Plaza, Paramus, NJ 07652 — (201) 447-8000 — 40.9837° N, 74.1008° W
-- Bergen New Bridge Medical Center — 230 E Ridgewood Avenue, Paramus, NJ 07652
-- St. Joseph's University Medical Center — 703 Main Street, Paterson, NJ 07503
-## County Resources
-- Bergen County: https://www.co.bergen.nj.us
-- Sheriff: https://www.co.bergen.nj.us/sheriff
+- Ridgewood Public Library
+  Website: https://www.ridgewoodlibrary.org
+  Address: 125 E Glen Avenue, Ridgewood, NJ 07450
+  Phone: (201) 670-5545
+## Building Permits
+- Building Department
+  Website: https://www.ridgewoodnj.net/170/Building
+  Phone: (201) 670-5500 ext. 5506
+  Applications: SDL Permit Portal
+## Municipal Agencies
+- Village of Ridgewood: https://www.ridgewoodnj.net
+- Ridgewood Police: https://www.ridgewoodpolice.org
+- Ridgewood Municipal Court: https://www.ridgewoodnj.net/court
+- Bergen County Government: https://www.co.bergen.nj.us
+- Bergen County Sheriff: https://www.bcsd.us
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections

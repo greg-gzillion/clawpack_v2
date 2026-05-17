@@ -1,34 +1,53 @@
-﻿# Willingboro — Local Law Resources
+﻿# Willingboro
 ## Township Website
 - https://www.willingboronj.gov
-- Address: 1 Rev. Dr. Martin Luther King Jr. Drive, Willingboro, NJ 08046 — (609) 877-2200
-- Hours: Mon–Thu 8:30–4:30
-- Coordinates: 39.948992° N, 74.900247° W | Population: ~31,000
-## Law Enforcement
-- Willingboro Township Police Department — https://www.willingboronj.gov/police
-- Emergency: 911 | Non-Emergency: (609) 877-3000
 - Address: 1 Rev. Dr. Martin Luther King Jr. Drive, Willingboro, NJ 08046
-## Courts
-- Willingboro Municipal Court — https://www.willingboronj.gov/court
-- Address: 1 Rev. Dr. Martin Luther King Jr. Drive, Willingboro, NJ 08046 — (609) 877-2200 ext. 1038–1039, 1147
-- Burlington County Superior Court: 49 Rancocas Road, Mount Holly, NJ 08060 — (609) 265-5000
-## Detention Center
-- Willingboro Police Department Holding Facility (Short-Term) — 1 Rev. Dr. Martin Luther King Jr. Drive, Willingboro, NJ 08046
-- Burlington County Detention Center — 795 Woodlane Road, Mount Holly, NJ 08060 — (609) 265-5855
-- Website: https://www.co.burlington.nj.us
-## Building Permits
-- Inspections & Code Enforcement: https://www.willingboronj.gov/inspections
-- Phone: (609) 877-2200 ext. 1220
-- Application: Construction Permit Packet
+- Phone: (609) 877-2200
+## Police Department
+- Willingboro Police Department
+- Website: https://www.willingboropolice.com
+- Address: 1 Rev. Dr. Martin Luther King Jr. Drive, Willingboro, NJ 08046
+- Phone: (609) 877-3001 (Non-emergency)
+- Emergency: 911
+## Municipal Court
+- Willingboro Municipal Court
+- Website: https://www.willingboronj.gov/government/municipal-court
+- Address: Municipal Complex, 1 Rev. Dr. Martin Luther King Jr. Drive, Willingboro, NJ 08046
+- Phone: (609) 877-2200 ext. 1038, 1039, or 1147
+- Payments: https://www.njmcdirect.com
+## Detention Facilities
+### Willingboro Police Holding (Short-Term)
+- Willingboro does not operate a jail; detainees transferred to county facility
+### Burlington County Detention Center
+- Website: https://www.co.burlington.nj.us/detention
+- Inmate Search: Burlington County Inmate Roster
+- Address: 54 Grant Street, Mount Holly, NJ 08060
+- Phone: (609) 265-5979
+- Coordinates: 39.9167° N, 74.7833° W
+## Hospitals with Coordinates
+- Virtua Our Lady of Lourdes Medical Center – Willingboro
+  Address: 218A Sunset Road, Willingboro, NJ 08046
+  Coordinates: 40.0485° N, 74.8823° W
+  Website: https://www.virtua.org
+- Select Specialty Hospital – Willingboro
+  Address: 218 Sunset Road, Willingboro, NJ 08046
+  Coordinates: 40.0466° N, 74.8805° W
+  Website: https://www.selectspecialtyhospitals.com
 ## Library
-- Willingboro Public Library — https://www.willingboronj.gov/library
-- Address: 220 Willingboro Parkway, Willingboro, NJ 08046 — (609) 877-6668 ext. 248
-- Hours: Mon–Thu 9–8, Fri–Sat 9–5
-## Hospitals
-- Lourdes Medical Center of Burlington County — 1800 Hawkins Road, Willingboro, NJ 08046 — (609) 877-2222 — 39.9667° N, 74.8500° W
-- Virtua Willingboro Hospital — 218A Sunset Road, Willingboro, NJ 08046
-- Virtua Willingboro Hospital - Emergency Department — 218A Sunset Road, Willingboro, NJ 08046
-- Virtua Mount Holly Hospital — 175 Madison Avenue, Mount Holly, NJ 08060
-## County Resources
-- Burlington County: https://www.co.burlington.nj.us
-- Sheriff: https://www.co.burlington.nj.us/sheriff
+- Willingboro Public Library
+  Website: https://www.willingboronj.gov/departments/library
+  Address: 220 Willingboro Parkway, Willingboro, NJ 08046
+  Phone: (609) 877-6668 ext. 248
+## Building Permits
+- Department of Inspections
+  Website: https://www.willingboronj.gov/departments/inspections-code-enforcement
+  Phone: (609) 877-2200 ext. 1210
+  Located at the Municipal Complex
+## Municipal Agencies
+- Township of Willingboro: https://www.willingboronj.gov
+- Willingboro Police: https://www.willingboropolice.com
+- Willingboro Municipal Court: https://www.willingboronj.gov/court
+- Burlington County Government: https://www.co.burlington.nj.us
+- Burlington County Sheriff: https://www.co.burlington.nj.us/sheriff
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections

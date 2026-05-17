@@ -1,31 +1,59 @@
-﻿# Washington Township — Local Law Resources
+﻿# Washington Township — Local Law Resources (Gloucester County)
 ## Township Website
 - https://www.twp.washington.nj.us
 - Address: 523 Egg Harbor Road, Sewell, NJ 08080 — (856) 589-0520
-- Hours: Mon–Fri 8:30–4:30
-- Coordinates: 39.6833° N, 75.1167° W
+- Note: This is Washington Township, Gloucester County. Not to be confused with Washington Township, Bergen County.
 ## Law Enforcement
-- Washington Township Police Department — https://www.twp.washington.nj.us/departments/police
-- Emergency: 911 | Non-Emergency: (856) 589-0521
-- Address: 523 Egg Harbor Road, Sewell, NJ 08080
+- Law enforcement services provided by Gloucester County
+- Gloucester County Police: https://www.co.gloucester.nj.us/police
+- Emergency: 911
 ## Courts
-- Washington Township Municipal Court — https://www.twp.washington.nj.us/departments/municipal-court
-- Address: 523 Egg Harbor Road, Sewell, NJ 08080 — (856) 589-0520
+- Washington Township Municipal Court — https://www.twp.washington.nj.us/departments/municipal_court
+- Address: 523 Egg Harbor Road, Sewell, NJ 08080 — (856) 589-0546
+- Payments: www.njmcdirect.com
 - Gloucester County Superior Court: 1 North Broad Street, Woodbury, NJ 08096 — (856) 853-3200
 ## Detention Center
-- Washington Township Police Department Holding Facility (Short-Term) — 523 Egg Harbor Road, Sewell, NJ 08080
-- Gloucester County Department of Corrections — 1111 Almond Road, Dept. 11, Pilesgrove, NJ 08098 — (856) 451-1010
-- Website: https://www.co.gloucester.nj.us
+- Washington Township does not operate a municipal jail
+- Gloucester County Correctional Facility — 2 South Broad Street, Woodbury, NJ 08096 — (856) 384-4600
+  Website: https://www.co.gloucester.nj.us/corrections
+  Inmate Search: Inmate Roster
+  Coordinates: 39.6944° N, 75.1278° W
 ## Building Permits
 - Construction Department: https://www.twp.washington.nj.us/departments/construction
-- Phone: (856) 589-0520
+- Phone: (856) 589-0520 ext. 2240 | Location: 523 Egg Harbor Road
 ## Library
 - Margaret E. Heggan Free Public Library — https://www.hegganlibrary.org
-- Address: 55 E. Holly Avenue, Washington Township, NJ 08080 — (856) 228-3500
-- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Address: 558 Egg Harbor Road, Washington Township, NJ 08080 — (856) 266-2404
 ## Hospitals
-- Inspira Medical Center Elmer — 101 E. Chestnut Street, Elmer, NJ 08318 — (856) 358-5000 — 39.5500° N, 75.2167° W
-- Jefferson Washington Township Hospital — 435 Hurffville-Cross Keys Road, Turnersville, NJ 08012
+- Cooper University Hospital – Washington Township — 1 Cooper Way, Camden, NJ 08103 — 39.9295° N, 75.1123° W
+  Website: https://www.cooperhealth.org
+- Jefferson Washington Township Hospital — 1000 Springdale Road, Turnersville, NJ 08012 — 39.7380° N, 75.0090° W
+  Website: https://www.jeffersonhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Gloucester County: https://www.co.gloucester.nj.us
 - Sheriff: https://www.co.gloucester.nj.us/sheriff

@@ -10,7 +10,7 @@
 ## Courts
 - Bloomfield Municipal Court — https://bloomfieldtwpnj.com/municipalcourt
 - Address: 1 Municipal Plaza, Room 227, Bloomfield, NJ 07003 — (973) 680-4078
-- Online: NJMCDirect
+- Online: NJMCDirect — https://www.njmcdirect.com
 - Essex County Superior Court: 50 West Market Street, Newark, NJ 07102 — (973) 693-5700
 ## Detention Center
 - Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
@@ -18,16 +18,21 @@
 ## Building Permits
 - Construction Department: https://bloomfieldtwpnj.com/construction-permits
 - Phone: (973) 680-4053 (Inspections), (973) 680-4056 (Clerk)
-- Construction Official: Federico Pinto | Portal: SDL
+- Construction Official: Federico Pinto
+- SDL Portal: https://www.sdlportal.com
 ## Library
 - Bloomfield Public Library — 90 Broad Street, Bloomfield, NJ 07003 — (973) 566-6200
 - Hours: Mon–Wed 9–8, Thu 9–6, Fri–Sat 9–5
 - Website: https://bplnj.org
 ## Hospitals
 - Mountainside Medical Center — 1 Bay Avenue, Montclair, NJ 07042 — (973) 429-6000 — 40.8118° N, 74.2037° W
-- Mountainside - Immedicenter Urgent Care (Bloomfield) — 557 Broad Street, Bloomfield, NJ 07003 — (973) 680-8300 — 40.8130° N, 74.1939° W
+  Website: https://mountainsidemedicalcenter.com
+- Mountainside - Immedicenter Urgent Care — 557 Broad Street, Bloomfield, NJ 07003 — (973) 680-8300 — 40.8130° N, 74.1939° W
+  Website: https://mountainsidemedicalcenter.com/bloomfield
 - St. Mary's General Hospital — 350 Boulevard, Passaic, NJ 07055 — (973) 757-5000 — 40.8333° N, 74.1500° W
+  Website: https://www.trinityhealth.com/stmarys
 - Newark Community Health Center — 444 William Street, East Orange, NJ 07017
+  Website: https://www.newarkchc.org
 ## County Resources
 - Essex County: https://www.essexcountynj.org
 - Sheriff: https://www.essexcountynj.org/sheriff

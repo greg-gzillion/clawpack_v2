@@ -1,31 +1,58 @@
 ﻿# Manalapan — Local Law Resources
 ## Township Website
-- https://mtnj.org
+- https://www.mtnj.org
 - Address: 120 Route 522, Manalapan, NJ 07726 — (732) 446-3200
-- Coordinates: 40.2824° N, 74.3466° W
 ## Law Enforcement
-- Manalapan Police Department — https://mtnj.org/police
-- Emergency: 911 | Non-Emergency: (732) 446-3200
+- Manalapan Police Department — https://www.mtnj.org/police
+- Emergency: 911 | Non-Emergency: (732) 446-4300
 - Address: 120 Route 522, Manalapan, NJ 07726
-- Short-Term Holding: Yes
+- Chief: Leonard Maltese
 ## Courts
-- Manalapan Municipal Court — https://mtnj.org/court
-- Address: 120 Route 522, Manalapan, NJ 07726 — (732) 446-6656
-- Online: NJMCDirect
-- Monmouth County Superior Court: 71 Monument Park, Freehold, NJ 07728 — (732) 431-7000
+- Manalapan Municipal Court — https://www.mtnj.org/court
+- Address: 120 Route 522, Manalapan, NJ 07726 — (732) 446-8333
+- Court Administrator: Daniella M. Trancho
+- Payments: www.njmcdirect.com
+- Monmouth County Superior Court: 71 Monument Park, Freehold, NJ 07728 — (732) 677-4300
 ## Detention Center
-- Manalapan Police Holding Facility (Short-Term) — 120 Route 522, Manalapan, NJ 07726
-- Monmouth County Correctional Institution — 100 Industrial Way West, Freehold, NJ 07728 — (732) 431-7100
-- Website: https://www.co.monmouth.nj.us/government/public-safety/correctional-institution
+- Manalapan Police Department Holding (Short-Term) — 120 Route 522, Manalapan, NJ 07726
+- Monmouth County Correctional Institution — 2500 Kozloski Road, Freehold, NJ 07728 — (732) 431-7880
+  Website: https://www.co.monmouth.nj.us
+  Inmate Search: Inmate Roster
+  Coordinates: 40.2833° N, 74.3333° W
 ## Building Permits
-- Construction Department: https://mtnj.org/construction
-- Phone: (732) 446-8319 or (732) 446-8320 | Portal: https://mgoconnect.org
+- Construction Department: https://www.mtnj.org/construction
+- Phone: (732) 446-8320 | Online Portal: My Government Online (MGO)
 ## Library
-- Manalapan Library — 110 Englishtown Road, Manalapan, NJ 07726 — (732) 446-5555
-- Website: https://www.mcpl.org
+- Manalapan Public Library (Monmouth County Library branch) — https://www.manalapanlibrary.org
+- Address: 200 Tennent Road, Manalapan, NJ 07726 — (732) 446-3575
 ## Hospitals
-- CentraState Healthcare System — 901 W Main Street, Freehold Township, NJ 07728 — (732) 294-8000
-- Old Bridge Medical Center — 1 Hospital Plaza, Old Bridge, NJ 08857 — (732) 360-1000 — 40.4570° N, 74.3150° W
+- CentraState Medical Center — 95 Highland Park Blvd, Freehold, NJ 07728 — 40.2840° N, 74.3220° W
+  Website: https://www.centrastate.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
-- Monmouth County: https://www.monmouthcountynj.gov
-- Sheriff: https://www.monmouthcountynj.gov/sheriff
+- Monmouth County: https://www.co.monmouth.nj.us
+- Sheriff: https://www.co.monmouth.nj.us/sheriff

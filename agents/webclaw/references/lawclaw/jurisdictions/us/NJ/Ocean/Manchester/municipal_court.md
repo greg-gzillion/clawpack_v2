@@ -25,8 +25,8 @@
 ## Detention Center
 - Manchester has no jail
 - Ocean County Jail — 114 Hooper Avenue, Toms River, NJ 08753 — (732) 929-2043
-- Website: https://www.co.ocean.nj.us/oc/corrections
-- Coordinates: 39.9550° N, 74.1860° W
+  Website: https://www.co.ocean.nj.us/oc/corrections
+  Coordinates: 39.9550° N, 74.1860° W
 ## Building Permits
 - Manchester Department of Inspections, Land Use & Planning
 - Website: https://manchestertwp.com/departments/department-of-inspection
@@ -34,6 +34,7 @@
 - Email: building@manchestertwp.com
 - Permit Portal: https://manchestertwpnj.portal.fasttrackgov.com
 - Permit Types: Construction, electrical, plumbing, roofing, zoning, CCO
+- Inspections: Foundation, framing, mechanical, final
 ## Library
 - Ocean County Library - Manchester Branch
 - Address: 225 North Main Street, Manchester, NJ 08759
@@ -44,6 +45,7 @@
 - Monmouth Medical Center Southern Campus — 600 River Avenue, Lakewood, NJ 08701 — (732) 363-1900 — 40.0950° N, 74.2050° W
   Website: https://www.rwjbh.org/locations/monmouth-medical-center-southern-campus
 - HMH Ocean University Medical Center — 425 Jack Martin Boulevard, Brick Township, NJ 08724
+  Website: https://www.hackensackmeridianhealth.org/en/locations/ocean-university-medical-center
 ## County Agencies
 - Ocean County Official Site: https://www.co.ocean.nj.us
 - Sheriff's Office: https://www.co.ocean.nj.us/sheriff

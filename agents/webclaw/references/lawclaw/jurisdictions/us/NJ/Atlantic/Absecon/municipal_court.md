@@ -24,13 +24,14 @@
 - Absecon has a short-term holding facility — 500 Mill Road, Absecon, NJ 08201
 - Long-term detainees transferred to Atlantic County
 - Atlantic County Justice Facility — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
-- Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
-- Coordinates: 39.4470° N, 74.6150° W
+  Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+  Coordinates: 39.4470° N, 74.6150° W
 ## Building Permits
 - Absecon Construction Department
 - Website: https://www.abseconnj.gov/construction
 - Phone: (609) 641-0663 ext. 113
 - Permit Types: Construction, electrical, plumbing, zoning, CCO
+- Inspections: Foundation, framing, mechanical, final
 ## Library
 - Atlantic County Library System / Absecon Branch
 - Address: 305 New Jersey Avenue, Absecon, NJ 08201
@@ -39,11 +40,12 @@
 - Website: https://www.abseconnj.gov/library
 ## Hospitals
 - AtlantiCare Regional Medical Center, Mainland Campus — 65 W Jimmie Leeds Road, Pomona, NJ 08240 — (609) 652-1000 — 39.4787° N, 74.5493° W
+  Website: https://www.atlanticare.org
 - AtlantiCare Regional Medical Center, Atlantic City Campus — 1925 Pacific Avenue, Atlantic City, NJ 08401 — (609) 345-3000 — 39.3631° N, 74.4267° W
+  Website: https://www.atlanticare.org
 - Select Specialty Hospital - Atlantic City — 1925 Pacific Avenue 5th Floor, Atlantic City, NJ 08401
+  Website: https://www.selectmedical.com
 ## County Agencies
 - Atlantic County Official Site: https://www.atlanticcountynj.gov
 - Sheriff's Office: https://www.atlanticcountynj.gov/government/county-departments/sheriff
 - Prosecutor's Office: https://www.atlanticcountynj.gov/government/county-departments/prosecutor
-- Assessor: https://www.atlanticcountynj.gov/government/county-departments/assessor
-- Treasurer: https://www.atlanticcountynj.gov/government/county-departments/treasurer

@@ -1,50 +1,71 @@
 ﻿# Moorestown Courts
 ## Municipal Court
 - Moorestown Municipal Court
-- Address: 1245 North Church Street, Suite 4, Cinnaminson, NJ 08077
+- Address: 1245 North Church Street, Suite 4, Moorestown, NJ 08057
 - Phone: (856) 235-0922
 - Court Website: https://www.moorestown.nj.us/court
-- Online Payments: NJMCDirect
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Burlington County Superior Court: 49 Rancocas Road, Mount Holly, NJ 08060
-- Phone: (609) 265-5000
+- Phone: (609) 288-9500
 - Website: https://www.njcourts.gov/courts/burlington
 ## Township Website
 - https://www.moorestown.nj.us
-- Address: 111 West Second Street, Moorestown, NJ 08057
+- Address: 120 West Second Street, Moorestown, NJ 08057
 - Phone: (856) 235-0912
-- Coordinates: 39.9644° N, 74.9505° W
 ## Police Department
 - Moorestown Police Department
-- Address: 111 West Second Street, Moorestown, NJ 08057
+- Address: 120 West Second Street, Moorestown, NJ 08057
 - Emergency: 911
 - Non-Emergency: (856) 235-1405
 - Police Website: https://www.moorestown.nj.us/police
 ## Detention Center
-- Moorestown has a short-term holding facility — 111 West Second Street, Moorestown, NJ 08057
-- Long-term detainees transferred to Burlington County
-- Burlington County Detention Center — 795 Woodlane Road, Mount Holly, NJ 08060 — (609) 265-5855
-- Website: https://www.co.burlington.nj.us/sheriff
-- Coordinates: 39.9580° N, 74.7920° W
+- Moorestown does not operate a municipal jail
+- Burlington County Detention Center — 54 Grant Street, Mount Holly, NJ 08060 — (609) 265-5979
+  Website: https://www.co.burlington.nj.us
+  Inmate Search: Inmate Roster
+  Coordinates: 39.9167° N, 74.7833° W
 ## Building Permits
-- Moorestown Community Development / Construction Office
-- Website: https://www.moorestown.nj.us/construction
-- Phone: (856) 235-0912 ext. 3018
-- Permit Portal: https://sdl.town/moorestown
-- Permit Types: Construction, electrical, plumbing, roofing, zoning
+- Moorestown Construction Office
+- Website: https://www.moorestown.nj.us/building
+- Phone: (856) 235-0912
+- Online: SDL Portal
 ## Library
-- Moorestown Library
-- Address: 111 West Second Street, Moorestown, NJ 08057
-- Phone: (856) 234-0333
-- Coordinates: 39.9644° N, 74.9505° W
-- Website: https://www.moorestownlibrary.org
+- Moorestown Public Library
+- Address: 100 West Second Street, Moorestown, NJ 08057
+- Phone: (856) 235-5508
+- Website: https://www.moorlib.org
 ## Hospitals
-- Lourdes Medical Center of Burlington County — 10000 Route 55, Willingboro, NJ 08046 — (609) 877-2000 — 39.9800° N, 74.8500° W
-  Website: https://www.trinityhealth.com
-- Jefferson Cherry Hill Hospital — 2201 Chapel Avenue W, Cherry Hill, NJ 08002
-- Virtua Willingboro Hospital — 218A Sunset Road, Willingboro, NJ 08046
-- Virtua Marlton Hospital — 90 Brick Road, Marlton, NJ 08053
+- Jefferson Cherry Hill Hospital — 2201 Chapel Ave W, Cherry Hill, NJ 08002 — 39.9273° N, 75.0151° W
+  Website: https://www.jeffersonhealth.org
+- Cooper University Health Care Cherry Hill Campus — 2339 NJ-70, Cherry Hill, NJ 08002 — 39.9263° N, 75.0511° W
+  Website: https://www.cooperhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
 - Burlington County Official Site: https://www.co.burlington.nj.us
 - Sheriff's Office: https://www.co.burlington.nj.us/sheriff

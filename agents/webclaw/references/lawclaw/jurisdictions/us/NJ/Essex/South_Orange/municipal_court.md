@@ -1,52 +1,74 @@
 ﻿# South Orange Courts
 ## Municipal Court
-- South Orange Municipal Court
-- Address: 101 South Orange Avenue, South Orange, NJ 07079
+- South Orange Municipal Court (Shared with Maplewood)
+- Address: 1618 Springfield Avenue, Maplewood, NJ 07040
 - Phone: (973) 762-2839
-- Court Website: https://www.southorange.org/municipal-court
-- Online Payments: NJMCDirect
+- Court Website: https://southorange.org/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Essex County Superior Court: 50 West Market Street, Newark, NJ 07102
-- Phone: (973) 693-5700
+- Phone: (973) 776-9300
 - Website: https://www.njcourts.gov/courts/essex
 ## Village Website
-- https://www.southorange.org
-- Address: 101 South Orange Avenue, South Orange, NJ 07079
-- Phone: (973) 378-7715
-- Coordinates: 40.7333° N, 74.2561° W
+- https://southorange.org
+- Address: 201 South Orange Avenue, South Orange, NJ 07079
+- Phone: (973) 763-3000
 ## Police Department
 - South Orange Police Department
 - Address: 201 South Orange Avenue, South Orange, NJ 07079
 - Emergency: 911
 - Non-Emergency: (973) 763-3000
-- Police Website: https://www.southorange.org/police
-- Short-Term Holding Facility: Yes
+- Police Website: https://southorange.org/police
 ## Detention Center
-- South Orange has a short-term holding facility — 201 South Orange Avenue, South Orange, NJ 07079
-- Long-term detainees transferred to Essex County
+- South Orange Police Department Detention (Short-Term Only) — 201 South Orange Avenue, South Orange, NJ 07079
 - Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
-- Website: https://www.essexcountynj.org
+  Website: https://www.essexcountynj.gov/corrections
+  Inmate Search: Inmate Locator
+  Coordinates: 40.7306° N, 74.2181° W
 ## Building Permits
-- South Orange Building Department / Code Enforcement
-- Website: https://www.southorange.org/building-department
-- Phone: (973) 378-7715 ext. 7700
-- Permit Types: Construction, electrical, plumbing, zoning, CCO
+- South Orange Building Department
+- Website: https://southorange.org/building
+- Phone: (973) 763-3000 ext. 7780
+- Online: Permit Applications
 ## Library
 - South Orange Public Library
-- Address: 116 Scotland Road, South Orange, NJ 07079
-- Phone: (973) 762-0230
-- Coordinates: 40.7300° N, 74.2580° W
-- Website: https://www.southorange.org/library
+- Address: 126 South Orange Avenue, South Orange, NJ 07079
+- Phone: (973) 762-0600
+- Website: https://southorange.org/library
 ## Hospitals
-- Cooperman Barnabas Medical Center — 94 Old Short Hills Road, Livingston, NJ 07039 — (973) 322-5000 — 40.7630° N, 74.3580° W
-  Website: https://www.coopermanbarnabas.org
-- Overlook Medical Center — 99 Beauvoir Avenue, Summit, NJ 07901 — (908) 522-2000 — 40.7180° N, 74.3780° W
-- CARE WELL HEALTH MEDICAL CENTER — 300 Central Avenue, East Orange, NJ 07018
-- Newark Community Health Center — 444 William Street, East Orange, NJ 07017
+- Overlook Medical Center — 99 Beauvoir Avenue, Summit, NJ 07901 — 40.7100° N, 74.3600° W
+  Website: https://www.overlookmedicalcenter.org
+- Clara Maass Medical Center — 1 Clara Maass Drive, Belleville, NJ 07109 — 40.7850° N, 74.1700° W
+  Website: https://www.rwjbh.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Essex County Official Site: https://www.essexcountynj.org
-- Sheriff's Office: https://www.essexcountynj.org/sheriff
-- Prosecutor's Office: https://www.essexcountynj.org/prosecutor
-- Assessor: https://www.essexcountynj.org/assessor
-- Treasurer: https://www.essexcountynj.org/treasurer
+- Essex County Official Site: https://www.essexcountynj.gov
+- Sheriff's Office: https://www.essexcountynj.gov/sheriff
+- Prosecutor's Office: https://www.essexcountynj.gov/prosecutor
+- Assessor: https://www.essexcountynj.gov/assessor
+- Treasurer: https://www.essexcountynj.gov/treasurer

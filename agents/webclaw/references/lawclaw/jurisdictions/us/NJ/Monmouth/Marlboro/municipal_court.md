@@ -2,51 +2,71 @@
 ## Municipal Court
 - Marlboro Municipal Court
 - Address: 1979 Township Drive, Marlboro, NJ 07746
-- Phone: (732) 536-0300
+- Phone: (732) 536-0100
 - Court Website: https://www.marlboro-nj.gov/court
-- Online Payments: NJMCDirect
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Monmouth County Superior Court: 71 Monument Park, Freehold, NJ 07728
-- Phone: (732) 431-7000
+- Phone: (732) 677-4300
 - Website: https://www.njcourts.gov/courts/monmouth
 ## Township Website
 - https://www.marlboro-nj.gov
 - Address: 1979 Township Drive, Marlboro, NJ 07746
 - Phone: (732) 536-0200
-- Coordinates: 40.3429° N, 74.2572° W
 ## Police Department
 - Marlboro Police Department
 - Address: 1979 Township Drive, Marlboro, NJ 07746
 - Emergency: 911
 - Non-Emergency: (732) 536-0100
 - Police Website: https://www.marlboropd.org
-- Short-Term Holding Facility: Yes
 ## Detention Center
-- Marlboro has a short-term holding facility — 1979 Township Drive, Marlboro, NJ 07746
-- Long-term detainees transferred to Monmouth County
-- Monmouth County Correctional Institution — 100 Industrial Way West, Freehold, NJ 07728 — (732) 431-7100
-- Website: https://www.co.monmouth.nj.us/government/public-safety/correctional-institution
-- Coordinates: 40.2980° N, 74.3150° W
+- Marlboro Police Department Holding (Short-Term Only) — 1979 Township Drive, Marlboro, NJ 07746
+- Monmouth County Correctional Institution — 2500 Kozloski Road, Freehold, NJ 07728 — (732) 431-7880
+  Website: https://www.co.monmouth.nj.us
+  Inmate Search: Inmate Roster
+  Coordinates: 40.2833° N, 74.3333° W
 ## Building Permits
-- Marlboro Department of Community Development
+- Marlboro Construction & Zoning
 - Website: https://www.marlboro-nj.gov/construction
 - Phone: (732) 536-0200 ext. 1800
-- Permit Portal: https://sdlportal.com/towns/nj/monmouth/marlborotwp
-- Permit Types: Construction, electrical, plumbing, zoning, CCO
+- Online Portal: SDL Portal
 ## Library
-- Monmouth County Library - Marlboro Branch
-- Address: 100 School Road, Marlboro, NJ 07746
-- Phone: (732) 446-5555
-- Coordinates: 40.3450° N, 74.2580° W
-- Website: https://www.monmouthcountylib.org
+- Marlboro Public Library (Monmouth County Library branch)
+- Address: 1979 Township Drive, Marlboro, NJ 07746
+- Phone: (732) 536-0140
+- Website: https://www.marlborolibrary.org
 ## Hospitals
-- HMH Bayshore Medical Center — 727 N Beers Street, Holmdel, NJ 07733 — (732) 842-8000 — 40.3850° N, 74.1500° W
-- HMH Old Bridge Medical Center — 1 Hospital Plaza, Old Bridge, NJ 08857 — (732) 360-1000 — 40.4570° N, 74.3150° W
-- CentraState Healthcare System — 901 W Main Street, Freehold Township, NJ 07728 — (732) 294-8000
+- CentraState Medical Center — 95 Highland Park Blvd, Freehold, NJ 07728 — 40.2840° N, 74.3220° W
+  Website: https://www.centrastate.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Monmouth County Official Site: https://www.monmouthcountynj.gov
-- Sheriff's Office: https://www.monmouthcountynj.gov/sheriff
-- Prosecutor's Office: https://www.monmouthcountynj.gov/prosecutor
-- Assessor: https://www.monmouthcountynj.gov/assessor
-- Treasurer: https://www.monmouthcountynj.gov/treasurer
+- Monmouth County Official Site: https://www.co.monmouth.nj.us
+- Sheriff's Office: https://www.co.monmouth.nj.us/sheriff
+- Prosecutor's Office: https://www.co.monmouth.nj.us/prosecutor
+- Assessor: https://www.co.monmouth.nj.us/assessor
+- Treasurer: https://www.co.monmouth.nj.us/treasurer

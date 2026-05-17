@@ -1,59 +1,72 @@
-﻿# Vernon Township Courts
+﻿# Vernon Courts
 ## Municipal Court
-- Vernon Township Municipal Court
+- Vernon Municipal Court
 - Address: 21 Church Street, Vernon, NJ 07462
 - Phone: (973) 764-4737
-- Email: Lindsay.Palmisano@njcourts.gov
-- Court Website: https://vernon-twp.org/municipal-court
-- Online Services: NJMCDirect for ticket payments and case lookup
+- Court Website: https://www.vernontwp.com/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Sussex County Superior Court: 43-47 High Street, Newton, NJ 07860
-- Phone: (973) 579-0675
+- Phone: (973) 383-4200
 - Website: https://www.njcourts.gov/courts/sussex
 ## Township Website
 - https://www.vernontwp.com
 - Address: 21 Church Street, Vernon, NJ 07462
 - Phone: (973) 764-4055
-- Hours: Mon–Fri 8:30–4
-- Coordinates: 41.1348° N, 74.5181° W
 ## Police Department
-- Vernon Township Police Department
+- Vernon Police Department
 - Address: 21 Church Street, Vernon, NJ 07462
 - Emergency: 911
 - Non-Emergency: (973) 764-6155
-- Fax: (973) 764-2518
-- Police Website: https://vernonpolice.org
-- Coordinates: 41.1348° N, 74.5181° W
+- Police Website: https://www.vernontwp.com/police
 ## Detention Center
-- Vernon does not have its own jail
-- Sussex County Jail — 43-47 High Street, Newton, NJ 07860
-- Website: https://www.co.sussex.nj.us
+- Vernon does not operate a municipal jail
+- Sussex County Jail — 151 North Church Street, Newton, NJ 07860 — (973) 383-1100
+  Website: https://sussexcountynj.org
+  Inmate Search: Inmate Roster
+  Coordinates: 41.0017° N, 74.7539° W
 ## Building Permits
 - Vernon Township Building Department
-- Website: https://vernontwp.com/building-department
+- Website: https://www.vernontwp.com/building
 - Phone: (973) 764-4055 ext. 2254
-- Construction Official: Paul Black
-- SDL Portal: https://www.sdlportal.com
-- Permit Types: Residential/commercial construction, decks, pools, electrical, plumbing, HVAC
-- Payment: Check or exact cash only
+- Online Portal: SDL Portal
 ## Library
 - Vernon Township Library
 - Address: 21 Church Street, Vernon, NJ 07462
-- Phone: (973) 764-4055 ext. 2291
-- Coordinates: 41.1348° N, 74.5181° W
-- Website: https://vernonlibrary.org
-- Sussex County Library - Dorothy Henry Branch — 66 NJ-94, Vernon Township, NJ 07462
+- Phone: (973) 764-4055 ext. 2264
+- Website: https://www.vernontwp.com/library
 ## Hospitals
-- Chilton Medical Center — 175 Madison Avenue, Pompton Plains, NJ 07444 — (973) 831-5000 — 40.9844° N, 74.3978° W
-  Website: https://trinitynet.org/chilton
-- Newton Medical Center — 175 High Street, Newton, NJ 07860 — (973) 383-2121 — 41.0261° N, 74.7592° W
-  Website: https://trinitynet.org/newton
-- St. Anthony Community Hospital — 15 Maple Avenue, Warwick, NY 10990
-- ImageCare at Vernon — 212 NJ-94, Vernon Township, NJ 07462
+- Newton Medical Center — 175 High Street, Newton, NJ 07860 — 41.0000° N, 74.7550° W
+  Website: https://www.hackensackmeridianhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Sussex County Official Site: https://www.co.sussex.nj.us
-- Sheriff's Office: https://www.co.sussex.nj.us/sheriff
-- Prosecutor's Office: https://www.co.sussex.nj.us/prosecutor
-- Assessor: https://www.co.sussex.nj.us/assessor
-- Treasurer: https://www.co.sussex.nj.us/treasurer
+- Sussex County Official Site: https://sussexcountynj.org
+- Sheriff's Office: https://sussexcountynj.org/sheriff
+- Prosecutor's Office: https://sussexcountynj.org/prosecutor
+- Assessor: https://sussexcountynj.org/assessor
+- Treasurer: https://sussexcountynj.org/treasurer

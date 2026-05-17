@@ -2,52 +2,73 @@
 ## Municipal Court
 - Millburn Municipal Court
 - Address: 435 Essex Street, Millburn, NJ 07041
-- Phone: (973) 564-7066
-- Court Website: https://www.twp.millburn.nj.us/152/Court
-- Online Payments: NJMCDirect
+- Phone: (973) 564-7065
+- Court Website: https://twp.millburn.nj.us/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Essex County Superior Court: 50 West Market Street, Newark, NJ 07102
-- Phone: (973) 693-5700
+- Phone: (973) 776-9300
 - Website: https://www.njcourts.gov/courts/essex
 ## Township Website
-- https://www.twp.millburn.nj.us
+- https://twp.millburn.nj.us
 - Address: 375 Millburn Avenue, Millburn, NJ 07041
 - Phone: (973) 564-7000
-- Coordinates: 40.7222° N, 74.3035° W
-- Population: ~20,000
 ## Police Department
 - Millburn Police Department
 - Address: 435 Essex Street, Millburn, NJ 07041
 - Emergency: 911
 - Non-Emergency: (973) 564-7001
-- Police Website: https://www.twp.millburn.nj.us/160/Police
-- Short-Term Holding Facility: Yes
+- Police Website: https://twp.millburn.nj.us/police
 ## Detention Center
-- Millburn has a short-term holding facility — 435 Essex Street, Millburn, NJ 07041
-- Long-term detainees transferred to Essex County
+- Millburn Police Department Detention (Short-Term Only) — 435 Essex Street, Millburn, NJ 07041
 - Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
-- Website: https://www.essexcountynj.org
+  Website: https://www.essexcountynj.gov/corrections
+  Inmate Search: Inmate Locator
+  Coordinates: 40.7306° N, 74.2181° W
 ## Building Permits
 - Millburn Building Department
-- Website: https://www.twp.millburn.nj.us/150/Building
+- Website: https://twp.millburn.nj.us/building
 - Phone: (973) 564-7055
-- Permit Portal: https://sdl.town/millburn
-- Permit Types: Construction, electrical, plumbing, zoning, CCO
+- Online: SDL Portal
 ## Library
 - Millburn Free Public Library
-- Address: 201 N. Munn Avenue, Millburn, NJ 07041
+- Address: 22 East Willow Street, Millburn, NJ 07041
 - Phone: (973) 376-1006
-- Coordinates: 40.7210° N, 74.3040° W
-- Website: https://www.millburnlibrary.org
+- Website: https://twp.millburn.nj.us/library
 ## Hospitals
-- Cooperman Barnabas Medical Center — 94 Old Short Hills Road, Livingston, NJ 07039 — (973) 322-5000 — 40.7630° N, 74.3580° W
-  Website: https://www.coopermanbarnabas.org
-- Overlook Medical Center — 99 Beauvoir Avenue, Summit, NJ 07901 — (908) 522-2000 — 40.7180° N, 74.3780° W
-  Website: https://www.atlantichealth.org/locations/overlook-medical-center
+- Overlook Medical Center — 99 Beauvoir Avenue, Summit, NJ 07901 — 40.7100° N, 74.3600° W
+  Website: https://www.overlookmedicalcenter.org
+- St. Barnabas Medical Center — 94 Old Short Hills Road, Livingston, NJ 07039 — 40.7760° N, 74.3370° W
+  Website: https://www.rwjbh.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Essex County Official Site: https://www.essexcountynj.org
-- Sheriff's Office: https://www.essexcountynj.org/sheriff
-- Prosecutor's Office: https://www.essexcountynj.org/prosecutor
-- Assessor: https://www.essexcountynj.org/assessor
-- Treasurer: https://www.essexcountynj.org/treasurer
+- Essex County Official Site: https://www.essexcountynj.gov
+- Sheriff's Office: https://www.essexcountynj.gov/sheriff
+- Prosecutor's Office: https://www.essexcountynj.gov/prosecutor
+- Assessor: https://www.essexcountynj.gov/assessor
+- Treasurer: https://www.essexcountynj.gov/treasurer

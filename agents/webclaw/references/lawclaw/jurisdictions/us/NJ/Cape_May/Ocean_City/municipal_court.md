@@ -23,9 +23,8 @@
 - Police Website: https://www.ocnj.us/police
 ## Detention Center
 - Ocean City Police Department Holding Facility (Short-Term Only) — 835 Central Avenue, Ocean City, NJ 08226
-- Note: Temporary holding only; detainees transferred to Cape May County
 - Cape May County Correctional Center — 4 Moore Road, Cape May Court House, NJ 08210 — (609) 465-5454
-- Website: https://capemaycountynj.gov/corrections
+  Website: https://capemaycountynj.gov/corrections
 ## Building Permits
 - City of Ocean City Construction Code Division
 - Website: https://services.ocnj.us/departments/construction
@@ -42,6 +41,32 @@
 - Cape Regional Medical Center — 1000 Delsea Drive, Cape May Court House, NJ 08210 — (609) 465-6500 — 39.1500° N, 74.8000° W
   Website: https://www.capehealth.org
 - Shore Medical Center — 100 Medical Center Way, Somers Point, NJ 08244
+  Website: https://www.shoremedicalcenter.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
 - Cape May County Official Site: https://capemaycountynj.gov
 - Sheriff's Office: https://capemaycountynj.gov/sheriff

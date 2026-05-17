@@ -18,13 +18,15 @@
 ## Building Permits
 - Inspections, Land Use & Planning: https://manchestertwp.com/departments/department-of-inspection
 - Phone: (732) 657-6700 | Email: building@manchestertwp.com
-- Portal: https://manchestertwpnj.portal.fasttrackgov.com
+- FastTrack Portal: https://manchestertwpnj.portal.fasttrackgov.com
 ## Library
 - Ocean County Library - Manchester Branch — 225 North Main Street, Manchester, NJ 08759 — (732) 657-3818
 - Website: https://theoceancountylibrary.org
 ## Hospitals
 - Monmouth Medical Center Southern Campus — 600 River Avenue, Lakewood, NJ 08701 — (732) 363-1900 — 40.0950° N, 74.2050° W
+  Website: https://www.rwjbh.org/locations/monmouth-medical-center-southern-campus
 - HMH Ocean University Medical Center — 425 Jack Martin Boulevard, Brick Township, NJ 08724
+  Website: https://www.hackensackmeridianhealth.org/en/locations/ocean-university-medical-center
 ## County Resources
 - Ocean County: https://www.co.ocean.nj.us
 - Sheriff: https://www.co.ocean.nj.us/sheriff

@@ -11,7 +11,7 @@
 ## Courts
 - Roselle Municipal Court — https://www.boroughofroselle.com/departments/municipal_court.php
 - Address: 210 Chestnut Street, Roselle, NJ 07203 — (908) 245-5588
-- Online: NJMCDirect
+- Online: NJMCDirect — https://www.njmcdirect.com
 - Union County Superior Court: 2 Broad Street, Elizabeth, NJ 07207 — (908) 659-4600
 ## Detention Center
 - Roselle Police Holding Facility (Short-Term) — 210 Chestnut Street, Roselle, NJ 07203
@@ -25,7 +25,9 @@
 - Website: https://www.rosellelibrary.org
 ## Hospitals
 - Trinitas Regional Medical Center — 225 Williamson Street, Elizabeth, NJ 07202 — (908) 994-5000 — 40.6600° N, 74.2185° W
+  Website: https://www.trinityhealth.com/trinitas
 - RWJ University Hospital Rahway — 865 Stone Street, Rahway, NJ 07065 — (732) 453-2915 — 40.5820° N, 74.2850° W
+  Website: https://www.rwjbh.org/rahway
 ## County Resources
 - Union County: https://www.ucnj.org
 - Sheriff: https://www.ucnj.org/sheriff

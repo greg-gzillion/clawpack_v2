@@ -1,34 +1,58 @@
 ﻿# Garfield — Local Law Resources
 ## City Website
 - https://www.garfieldnj.org
-- Address: 111 Outwater Lane, Garfield, NJ 07026 — (973) 478-0500
-- Coordinates: 40.8683° N, 74.1042° W | Population: ~31,000
+- Address: 111 Outwater Lane, Garfield, NJ 07026 — (973) 340-2000
 ## Law Enforcement
-- Garfield Police Department — https://garfieldnj.org/police
-- Emergency: 911 | Non-Emergency: (973) 478-0501
-- Crime Tips: (973) 478-0510
-- Address: 111 Outwater Lane, Garfield, NJ 07026
+- Garfield Police Department — https://www.garfieldnj.org/police
+- Emergency: 911 | Non-Emergency: (973) 478-8500
+- Address: 411 Midland Avenue, Garfield, NJ 07026
 ## Courts
-- Garfield Municipal Court — https://garfieldnj.org/municipal-court
-- Address: 111 Outwater Lane, Garfield, NJ 07026 — (973) 478-0515
-- Online: NJMCDirect
-- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 527-2000
+- Garfield Municipal Court — https://www.garfieldnj.org/court
+- Address: 111 Outwater Lane, Garfield, NJ 07026 — (973) 340-2000 ext. 4050
+- Payments: www.njmcdirect.com
+- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 221-0700
 ## Detention Center
-- Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 527-3000
-- Website: https://co.bergen.nj.us/sheriff
+- Garfield Police Detention (Short-Term) — 411 Midland Avenue, Garfield, NJ 07026
+- Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 336-3500
+  Website: https://www.bcsd.us
+  Inmate Search: Inmate Locator
+  Coordinates: 40.8734° N, 74.0399° W
 ## Building Permits
-- Building Department: https://garfieldnj.org/building-department
-- Phone: (973) 478-0550 ext. 5530 | Email: buildingdept@garfieldnj.org
-- Online Portal: https://garfieldnj.portal.fasttrackgov.com
+- Building Department: https://www.garfieldnj.org/building
+- Phone: (973) 340-2000 ext. 4044 | Online Portal: FastTrackGov
 ## Library
-- Garfield Public Library — 480 Midland Avenue, Garfield, NJ 07026 — (973) 478-0560
-- Website: https://garfieldlibrary.org
+- Garfield Public Library — https://www.garfieldlibrary.org
+- Address: 74 Midland Avenue, Garfield, NJ 07026 — (973) 478-3300
 ## Hospitals
-- NHCAC Health Center — 535 Midland Avenue, Ste 2, Garfield, NJ 07026 — (973) 478-0502 — 40.8824° N, 74.1025° W
-- Garfield Urgent Care — 210 Passaic Street, Garfield, NJ 07026 — (973) 478-0555 — 40.8674° N, 74.1024° W
-- St. Mary's General Hospital — 350 Boulevard, Passaic, NJ 07055 — (973) 757-5000 — 40.8333° N, 74.1500° W
-- HMH Hackensack University Medical Center — 30 Prospect Avenue, Hackensack, NJ 07601 — (800) 822-8820 — 40.8881° N, 74.0475° W
-- St. Joseph's University Medical Center — 703 Main Street, Paterson, NJ 07503 — (973) 754-5000 — 40.9167° N, 74.1667° W
+- Valley Hospital — 223 N Van Dien Ave, Ridgewood, NJ 07450 — 40.9960° N, 74.1008° W
+  Website: https://www.valleyhealth.com
+- Englewood Hospital and Medical Center — 350 Engle St, Englewood, NJ 07631 — 40.9048° N, 73.9960° W
+  Website: https://www.englewoodhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Bergen County: https://www.co.bergen.nj.us
-- Sheriff: https://www.co.bergen.nj.us/sheriff
+- Sheriff: https://www.bcsd.us

@@ -1,30 +1,56 @@
-﻿# Hanover Township — Local Law Resources
+﻿# Hanover — Local Law Resources
 ## Township Website
 - https://www.hanovertownship.com
-- Address: 1000 Route 10, Whippany, NJ 07981 — (973) 428-2462
-- Coordinates: 40.8170° N, 74.4260° W | Population: ~14,000
+- Address: 1000 Route 10, Whippany, NJ 07981 — (973) 428-2500
 ## Law Enforcement
-- Hanover Township Police Department — https://www.hanovertownship.com/police
-- Emergency: 911 | Non-Emergency: (973) 428-2440
+- Hanover Police Department — https://www.hanovertownship.com/police
+- Emergency: 911 | Non-Emergency: (973) 428-2500
 - Address: 1000 Route 10, Whippany, NJ 07981
 ## Courts
-- Hanover Township Municipal Court (Shared with East Hanover) — https://www.hanovertownship.com/municipal-court
+- Hanover Municipal Court (Shared with East Hanover) — https://www.easthanovertownship.com/municipal-court
 - Address: 1000 Route 10, Whippany, NJ 07981 — (973) 428-2519
-- Online: NJMCDirect
+- Payments: www.njmcdirect.com
 - Morris County Superior Court: 56 Washington Street, Morristown, NJ 07960 — (973) 656-4000
 ## Detention Center
-- Hanover Police Holding Facility (Short-Term) — 1000 Route 10, Whippany, NJ 07981
-- Morris County Correctional Facility — 10 Western Boulevard, Morristown, NJ 07960 — (973) 285-5000
-- Website: https://www.morriscountynj.gov/government/departments/sheriff/correctional-facility
+- Hanover does not operate a municipal jail
+- Morris County Jail — 43 John Street, Morristown, NJ 07960 — (973) 631-5174
+  Website: https://www.morriscountynj.gov
+  Inmate Search: Inmate Locator
+  Coordinates: 40.7894° N, 74.4653° W
 ## Building Permits
-- Building & Zoning: https://www.hanovertownship.com/building-zoning
-- Phone: (973) 428-2462 | Portal: https://sdl.town/hanover
+- Building & Zoning: https://www.hanovertownship.com/building
+- Phone: (973) 428-2500 ext. 2425 | Online: SDL Portal
 ## Library
-- Whippanong Library — 1000 Route 10, Whippany, NJ 07981 — (973) 428-2489
-- Website: https://www.whippanonglibrary.org
+- Whippanong Library — https://www.hanovertownship.com/library
+- Address: 1000 Route 10, Whippany, NJ 07981 — (973) 428-2500
 ## Hospitals
-- Morristown Medical Center — 100 Madison Avenue, Morristown, NJ 07960 — (973) 971-6000 — 40.7983° N, 74.4775° W
-- Saint Clare's Denville Hospital — 25 Pocono Road, Denville, NJ 07834 — (973) 627-5555 — 40.8667° N, 74.4833° W
+- Atlantic Health System – Morristown Medical Center — 100 Madison Avenue, Morristown, NJ 07960 — 40.7894° N, 74.4653° W
+  Website: https://www.atlantichealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Morris County: https://www.morriscountynj.gov
 - Sheriff: https://www.morriscountynj.gov/sheriff

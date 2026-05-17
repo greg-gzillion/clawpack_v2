@@ -11,12 +11,12 @@
 ## Courts
 - North Brunswick Municipal Court — https://www.northbrunswicknj.gov/departments/municipal-court
 - Address: 710 Hermann Road, North Brunswick, NJ 08902 — (732) 247-0922 ext. 425
-- Email: court@northbrunswicknj.gov | Online: NJMCDirect
+- Email: court@northbrunswicknj.gov | Online: NJMCDirect — https://www.njmcdirect.com
 - Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08903 — (732) 645-4300
 ## Detention Center
 - North Brunswick Police Holding Facility (Short-Term) — 710 Hermann Road, North Brunswick, NJ 08902
 - Middlesex County Adult Corrections Center — 1 Apple Orchard Lane, North Brunswick, NJ 08902 — (732) 297-3636
-- Website: https://www.middlesexcountynj.gov/.../adult-corrections
+- Website: https://www.middlesexcountynj.gov/government/departments/department-of-public-safety-and-health/office-of-adult-correction-and-youth-services/adult-corrections
 ## Building Permits
 - Community Development: https://www.northbrunswicknj.gov/departments/community-development
 - Phone: (732) 247-0922 ext. 450 (Construction), ext. 440 (Zoning)
@@ -25,8 +25,11 @@
 - Website: https://www.middlesexcountylibrary.org
 ## Hospitals
 - Robert Wood Johnson University Hospital — 1 Robert Wood Johnson Place, New Brunswick, NJ 08903 — (732) 828-3000 — 40.4869° N, 74.4469° W
+  Website: https://www.rwjbh.org
 - Saint Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — (732) 745-8600 — 40.4867° N, 74.4467° W
+  Website: https://www.saintpetersuh.org
 - The Children's Hospital — 254 Easton Avenue, New Brunswick, NJ 08901
+  Website: https://www.saintpetersuh.org
 ## County Resources
 - Middlesex County: https://www.middlesexcountynj.gov
 - Sheriff: https://www.middlesexcountynj.gov/sheriff

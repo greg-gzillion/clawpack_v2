@@ -2,30 +2,58 @@
 ## Borough Website
 - https://www.dumontnj.gov
 - Address: 50 Washington Avenue, Dumont, NJ 07628 — (201) 387-5022
-- Coordinates: 40.9370° N, 73.9940° W
 ## Law Enforcement
-- Dumont Police Department — https://www.dumontnj.gov/emergency_services/police_department
+- Dumont Police Department — https://www.dumontpolice.org
 - Emergency: 911 | Non-Emergency: (201) 387-5000
 - Address: 50 Washington Avenue, Dumont, NJ 07628
 ## Courts
-- Dumont Municipal Court — https://www.dumontnj.gov/departments/municipal_court.php
-- Address: 50 Washington Avenue, Dumont, NJ 07628 — (201) 313-2018
-- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 527-2000
+- Dumont Municipal Court — https://www.dumontnj.gov/departments/dumont-municipal-court
+- Address: 80 West Madison Avenue, Dumont, NJ 07628 — (201) 387-5032
+- Sessions: 2nd & 4th Monday of each month at 5:00 PM
+- Payments: www.njmcdirect.com
+- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 221-0700
 ## Detention Center
+- Dumont Police Department Detention (Short-Term) — 50 Washington Avenue, Dumont, NJ 07628
 - Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 336-3500
-- Website: https://www.co.bergen.nj.us/sheriff
+  Website: https://www.bcsd.us
+  Inmate Search: Inmate Locator
+  Coordinates: 40.8734° N, 74.0399° W
 ## Building Permits
 - Building Department: https://dumontnj.us/departments/116-building-department
-- Phone: (201) 387-5034 | Construction Official: Robert Sherrow
-- Portal: https://sdlportal.com
+- Phone: (201) 387-5034 | Construction Official: Robert Sherrow | Online Portal: SDL Portal
 ## Library
-- Dixon Homestead Library — 180 Washington Avenue, Dumont, NJ 07628
-- Website: https://www.bcpl.org
+- Dumont Public Library (Dixon Homestead Library) — https://dumontlibrary.org
+- Address: 50 Washington Avenue, Dumont, NJ 07628 — (201) 387-5050
 ## Hospitals
-- Valley Medical Group – Dumont — 40 Washington Avenue, Dumont, NJ 07628 — (201) 387-7055 — 40.9373° N, 73.9947° W
-- Hackensack University Medical Center — 30 Prospect Avenue, Hackensack, NJ 07601 — (551) 996-5000 — 40.8770° N, 74.0490° W
-- The Valley Hospital — 4 Valley Health Plaza, Paramus, NJ 07652 — (201) 447-8000 — 40.9837° N, 74.1008° W
-- Bergen New Bridge Medical Center — 230 E Ridgewood Avenue, Paramus, NJ 07652
+- Englewood Hospital and Medical Center — 350 Engle Street, Englewood, NJ 07631 — 40.9048° N, 73.9960° W
+  Website: https://www.englewoodhealth.org
+- Valley Hospital — 223 N Van Dien Ave, Ridgewood, NJ 07450 — 40.9960° N, 74.1008° W
+  Website: https://www.valleyhealth.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Bergen County: https://www.co.bergen.nj.us
-- Sheriff: https://www.co.bergen.nj.us/sheriff
+- Sheriff: https://www.bcsd.us

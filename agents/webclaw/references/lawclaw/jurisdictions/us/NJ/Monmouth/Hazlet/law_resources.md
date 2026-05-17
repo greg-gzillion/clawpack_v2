@@ -1,32 +1,57 @@
 ﻿# Hazlet — Local Law Resources
 ## Township Website
 - https://www.hazlettwp.org
-- Address: 1766 Union Avenue, Hazlet, NJ 07730 — (732) 264-1700
-- Coordinates: 40.4299° N, 74.1494° W
+- Address: 255 Middle Road, Hazlet, NJ 07730 — (732) 264-1700
 ## Law Enforcement
-- Hazlet Township Police Department — https://www.hazletpd.org
-- Emergency: 911 | Non-Emergency: (732) 264-0763
+- Hazlet Police Department — https://www.hazletpd.org
+- Emergency: 911 | Non-Emergency: (732) 264-6565
 - Address: 255 Middle Road, Hazlet, NJ 07730
-- Short-Term Holding: Yes
 ## Courts
-- Hazlet Municipal Court — https://www.hazlettwp.org/153/Court
+- Hazlet Municipal Court — https://www.hazlettwp.org/court
 - Address: 255 Middle Road, Hazlet, NJ 07730 — (732) 264-2231
-- Online: NJMCDirect
-- Monmouth County Superior Court: 71 Monument Park, Freehold, NJ 07728 — (732) 431-7000
+- Sessions: Mondays at 1:30 PM, 2nd Tuesday monthly at 2:00 PM (Virtual)
+- Payments: www.njmcdirect.com
+- Monmouth County Superior Court: 71 Monument Park, Freehold, NJ 07728 — (732) 677-4300
 ## Detention Center
-- Hazlet Police Holding Facility (Short-Term) — 255 Middle Road, Hazlet, NJ 07730
-- Monmouth County Correctional Institution — 1 Waterworks Road, Freehold, NJ 07728 — (732) 431-7500
-- Website: https://www.monmouthcountynj.gov
+- Hazlet Township Police Department Jail (Short-Term) — 255 Middle Road, Hazlet, NJ 07730
+- Monmouth County Correctional Institution — 2500 Kozloski Road, Freehold, NJ 07728 — (732) 431-7880
+  Website: https://www.co.monmouth.nj.us
+  Inmate Search: Inmate Roster
+  Coordinates: 40.2833° N, 74.3333° W
 ## Building Permits
 - Construction Department: https://www.hazlettwp.org/construction
-- Phone: (732) 264-1700 | Portal: https://sdl.town/hazlet
+- Phone: (732) 264-1700 ext. 2150 | Online: SDL Portal
 ## Library
-- Hazlet Township Public Library — 255 Middle Road, Hazlet, NJ 07730 — (732) 264-0763 ext. 2150
-- Website: https://www.hazlettwp.org/library
+- Hazlet Public Library — https://www.hazlettwp.org/library
+- Address: 255 Middle Road, Hazlet, NJ 07730 — (732) 264-1700 ext. 2200
 ## Hospitals
-- Bayshore Medical Center — 727 N Beers Street, Holmdel, NJ 07733 — (732) 842-8000 — 40.3850° N, 74.1500° W
-- Old Bridge Medical Center — 1 Hospital Plaza, Old Bridge, NJ 08857 — (732) 360-1000 — 40.4570° N, 74.3150° W
-- Immediate Care Hazlet — 1376 NJ-36, Hazlet, NJ 07730
+- CentraState Medical Center — 95 Highland Park Blvd, Freehold, NJ 07728 — 40.2840° N, 74.3220° W
+  Website: https://www.centrastate.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
-- Monmouth County: https://www.monmouthcountynj.gov
-- Sheriff: https://www.monmouthcountynj.gov/sheriff
+- Monmouth County: https://www.co.monmouth.nj.us
+- Sheriff: https://www.co.monmouth.nj.us/sheriff

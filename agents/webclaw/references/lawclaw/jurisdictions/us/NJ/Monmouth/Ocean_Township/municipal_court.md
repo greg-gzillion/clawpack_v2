@@ -2,48 +2,73 @@
 ## Municipal Court
 - Ocean Township Municipal Court
 - Address: 399 Monmouth Road, Oakhurst, NJ 07755
-- Phone: (732) 531-5000 ext. 501
-- Court Website: https://mail.twpoceannj.gov/court/municipal_court.html
+- Phone: (732) 531-5000 ext. 3340
+- Judge: Philip M. Miller
+- Court Website: https://www.oceantwp.org/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Monmouth County Superior Court: 71 Monument Park, Freehold, NJ 07728
-- Phone: (732) 431-7000
+- Phone: (732) 677-4300
 - Website: https://www.njcourts.gov/courts/monmouth
 ## Township Website
 - https://www.oceantwp.org
 - Address: 399 Monmouth Road, Oakhurst, NJ 07755
 - Phone: (732) 531-5000
-- Coordinates: 40.2836° N, 74.0469° W
-- Note: Ocean Township, Monmouth County
 ## Police Department
 - Ocean Township Police Department
 - Address: 399 Monmouth Road, Oakhurst, NJ 07755
 - Emergency: 911
-- Non-Emergency: (732) 531-1800
-- Police Website: https://oceantwp.qscend.com/police
+- Non-Emergency: (732) 531-5000
+- Chief: Michael Rogalski
+- Police Website: https://www.oceantwp.org/police
 ## Detention Center
-- Ocean Township has a short-term holding facility — 399 Monmouth Road, Oakhurst, NJ 07755
-- Long-term detainees transferred to Monmouth County
-- Monmouth County Correctional Institution — 100 Industrial Way West, Freehold, NJ 07728 — (732) 431-7100
-- Website: https://www.co.monmouth.nj.us/government/public-safety/correctional-institution
+- Ocean Township does not operate a municipal jail
+- Monmouth County Correctional Institution — 2500 Kozloski Road, Freehold, NJ 07728 — (732) 431-7880
+  Website: https://www.co.monmouth.nj.us
+  Inmate Search: Inmate Roster
+  Coordinates: 40.2833° N, 74.3333° W
 ## Building Permits
-- Ocean Township Construction and Building Division
-- Website: https://www.oceantwp.org/construction
-- Phone: (732) 531-5000 ext. 3348
-- Permit Types: Construction, electrical, plumbing, zoning, sheds, fences
+- Ocean Township Community Development (Planning, Building & Zoning)
+- Website: https://www.oceantwp.org/building
+- Phone: (732) 531-5000 ext. 3358
+- Online: Permit Database
 ## Library
-- Ocean Township Library
-- Address: 101 Oakhurst Road, Oakhurst, NJ 07755
-- Phone: (732) 531-3700
-- Coordinates: 40.2820° N, 74.0450° W
-- Website: https://www.theoceancountylibrary.org
+- Howell Township Library – Ocean Township Branch
+- Address: 501 Squankum-Yellowbrook Road, Howell, NJ 07731
+- Phone: (732) 938-2300
+- Website: https://www.howelllibrary.org
 ## Hospitals
-- HMH Riverview Medical Center — 1 Riverview Plaza, Red Bank, NJ 07701 — (732) 758-5000 — 40.3460° N, 74.0790° W
-  Website: https://www.hackensackmeridianhealth.org/en/locations/riverview-medical-center/
-- HMH Jersey Shore University Medical Center — 1910 State Route 33, Neptune, NJ 07753 — (732) 776-4000 — 40.2250° N, 74.0320° W
+- CentraState Medical Center — 95 Highland Park Blvd, Freehold, NJ 07728 — 40.2840° N, 74.3220° W
+  Website: https://www.centrastate.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Monmouth County Official Site: https://www.monmouthcountynj.gov
-- Sheriff's Office: https://www.monmouthcountynj.gov/sheriff
-- Prosecutor's Office: https://www.monmouthcountynj.gov/prosecutor
-- Assessor: https://www.monmouthcountynj.gov/assessor
-- Treasurer: https://www.monmouthcountynj.gov/treasurer
+- Monmouth County Official Site: https://www.co.monmouth.nj.us
+- Sheriff's Office: https://www.co.monmouth.nj.us/sheriff
+- Prosecutor's Office: https://www.co.monmouth.nj.us/prosecutor
+- Assessor: https://www.co.monmouth.nj.us/assessor
+- Treasurer: https://www.co.monmouth.nj.us/treasurer

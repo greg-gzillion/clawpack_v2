@@ -1,32 +1,51 @@
-﻿# Galloway Township — Local Law Resources
+﻿# Galloway Township
 ## Township Website
 - https://www.gtnj.org
-- Address: 300 E. Jimmie Leeds Road, Galloway, NJ 08205 — (609) 652-3700
-- Hours: Mon–Thu 8–4
-- Coordinates: 39.4915° N, 74.4739° W | Population: ~37,000
-## Law Enforcement
-- Galloway Township Police Department — https://www.gtpd.org
-- Emergency: 911 | Non-Emergency: (609) 652-3705
-- Address: 300 E. Jimmie Leeds Road, Galloway, NJ 08205
-## Courts
-- Galloway Township Municipal Court — https://www.gtnj.org/municipal-court
-- Address: 300 E. Jimmie Leeds Road, Galloway, NJ 08205 — (609) 652-3710
-- Atlantic County Superior Court: 1201 Bacharach Boulevard, Atlantic City, NJ 08401 — (609) 345-6700
-## Detention Center
-- Galloway Township Police Department Jail (Short-Term) — 300 E. Jimmie Leeds Road, Galloway, NJ 08205
-- Atlantic County Justice Facility — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
-- Inmate Search: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail/inmate-services
-- Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
-## Building Permits
-- Community Development: https://www.gtnj.org/community-development
-- Phone: (609) 652-3700 ext. 241
+- Address: 300 East Jimmie Leeds Road, Galloway, NJ 08205
+- Phone: (609) 652-3700
+## Police Department
+- Galloway Township Police Department
+- Website: https://www.gtpd.org
+- Address: 300 East Jimmie Leeds Road, Galloway, NJ 08205
+- Phone: (609) 652-3700 (non-emergency), (609) 652-3705 (main line)
+- Emergency: 911
+## Municipal Court
+- Galloway Township uses the joint court system for Atlantic County
+- NJMCDirect (Statewide Portal): https://www.njmcdirect.com
+- Location: 5901 Main Street, Mays Landing, NJ 08330
+- Phone: (609) 909-5999
+## Detention Facilities
+### Galloway Township Police Holding (Short-Term)
+- Galloway Township does not operate its own jail; detainees transferred to county facility
+### Gerard L. Gormley Justice Facility (Atlantic County Jail)
+- Website: https://www.atlanticcountynj.gov/departments/public-safety
+- Inmate Search: Atlantic County Inmate Roster
+- Address: 5060 Atlantic Avenue, Mays Landing, NJ 08330
+- Phone: (609) 645-5855
+- Coordinates: 39.4133° N, 74.5864° W
+## Hospitals with Coordinates
+- AtlantiCare Regional Medical Center – Mainland Campus
+  Address: 65 W Jimmie Leeds Road, Galloway, NJ 08205
+  Coordinates: 39.479° N, 74.540° W
+  Website: https://www.atlanticare.org
+- The Health Center at Galloway
+  Address: 66 W Jimmie Leeds Road, Galloway, NJ 08205
+  Coordinates: 39.4748° N, 74.5404° W
+  Website: https://www.gallowayhc.com
 ## Library
-- Galloway Township Public Library — https://www.gtnj.org/library
-- Address: 300 E. Jimmie Leeds Road, Galloway, NJ 08205 — (609) 652-3700
-- Hours: Mon–Thu 9–8, Fri 9–5, Sat 9–1
-## Hospitals
-- AtlantiCare Regional Medical Center - Mainland Campus — 65 W. Jimmie Leeds Road, Pomona, NJ 08240 — (609) 652-1000 — 39.4787° N, 74.5493° W
-- AtlantiCare Behavioral Health Hospital — 6501 Black Horse Pike, Egg Harbor Township, NJ 08234 — (609) 625-6900 — 39.3953° N, 74.5542° W
-## County Resources
-- Atlantic County: https://www.atlanticcountynj.gov
-- Sheriff: https://www.atlanticcountynj.gov/government/county-departments/sheriff
+- Atlantic County Library – Galloway Branch
+  Website: https://www.aclibrary.org/locations/galloway
+  Address: 306 E. Jimmie Leeds Road, Galloway, NJ 08205
+  Phone: (609) 652-2352
+## Building Permits
+- Community Development – Construction Division
+  Website: https://www.gtnj.org/departments/community-development/construction
+  Phone: (609) 652-3700 ext. 241 or 249
+  Required for construction, electrical, plumbing, and zoning compliance
+## Municipal Agencies
+- Galloway Township: https://www.gtnj.org
+- Galloway Police: https://www.gtpd.org
+- Atlantic County Government: https://www.atlanticcountynj.gov
+- Atlantic County Sheriff: https://www.atlanticcountynj.gov/sheriff
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections

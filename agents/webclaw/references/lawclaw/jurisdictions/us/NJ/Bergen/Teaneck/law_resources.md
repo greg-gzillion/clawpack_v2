@@ -1,33 +1,50 @@
-﻿# Teaneck — Local Law Resources
+﻿# Teaneck
 ## Township Website
 - https://www.teanecknj.gov
-- Address: 818 Teaneck Road, Teaneck, NJ 07666 — (201) 837-1600
-- Hours: Mon–Thu 8:30–5:15, Tue 8:30–7
-- Coordinates: 40.8831° N, 74.0108° W
-## Law Enforcement
-- Teaneck Police Department — https://www.teanecknj.gov/police
-- Emergency: 911 | Non-Emergency: (201) 837-2600
 - Address: 818 Teaneck Road, Teaneck, NJ 07666
-## Courts
-- Teaneck Municipal Court — https://www.teanecknj.gov/court
-- Address: 818 Teaneck Road, Teaneck, NJ 07666 — (201) 837-1600 ext. 1800
-- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 527-2000
-## Detention Center
-- Teaneck Police Department Holding Facility (Short-Term) — 818 Teaneck Road, Teaneck, NJ 07666
-- Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 527-3000
-- Inmate Search: https://www.bergenjailroster.org
-- Website: https://www.co.bergen.nj.us/sheriff
-## Building Permits
-- Building Department: https://www.teanecknj.gov/building-and-business/building-permits
-- Phone: (201) 837-1600 ext. 1100
+- Phone: (201) 837-1600
+## Police Department
+- Teaneck Police Department
+- Website: https://www.teanecknj.gov/living-in-teaneck/police-department
+- Address: 900 Teaneck Road, Teaneck, NJ 07666
+- Phone: (201) 837-2600 (Non-emergency)
+- Emergency: 911
+## Municipal Court
+- Teaneck Municipal Court
+- Website: https://www.teanecknj.gov/our-government/meet-the-departments/municipal-court
+- Address: 818 Teaneck Road, Teaneck, NJ 07666
+- Phone: (201) 837-1600 ext. 1800
+- Payments: https://www.njmcdirect.com
+## Detention Facilities
+### Teaneck Police Department Holding (Short-Term)
+- Location: 900 Teaneck Road, Teaneck, NJ 07666
+- Function: Temporary booking and processing; no long-term detention
+### Bergen County Jail (Primary Detention Center)
+- Website: https://www.bcsd.us
+- Inmate Search: Bergen County Inmate Locator
+- Address: 160 South River Street, Hackensack, NJ 07601
+- Phone: (201) 336-3500
+- Coordinates: 40.8734° N, 74.0399° W
+## Hospitals with Coordinates
+- Holy Name Medical Center
+  Address: 718 Teaneck Road, Teaneck, NJ 07666
+  Coordinates: 40.8831° N, 74.0107° W
+  Website: https://www.holyname.org
 ## Library
-- Teaneck Public Library — https://www.teanecklibrary.org
-- Address: 80 Teaneck Road, Teaneck, NJ 07666 — (201) 837-4171
-- Hours: Mon–Thu 9–9, Fri–Sat 9–5
-## Hospitals
-- Holy Name Medical Center — 718 Teaneck Road, Teaneck, NJ 07666 — (201) 279-5799 — 40.8831° N, 74.0108° W
-- Hackensack University Medical Center — 30 Prospect Avenue, Hackensack, NJ 07601 — (800) 822-8820 — 40.8881° N, 74.0475° W
-- Bergen New Bridge Medical Center — 230 E Ridgewood Avenue, Paramus, NJ 07652
-## County Resources
-- Bergen County: https://www.co.bergen.nj.us
-- Sheriff: https://www.co.bergen.nj.us/sheriff
+- Teaneck Public Library
+  Website: https://www.teanecklibrary.org
+  Address: 80 Teaneck Road, Teaneck, NJ 07666
+  Phone: (201) 837-0700
+## Building Permits
+- Building Department
+  Website: https://www.teanecknj.gov/building-and-business
+  Phone: (201) 837-1600 ext. 1100
+  Located at 818 Teaneck Road
+## Municipal Agencies
+- Township of Teaneck: https://www.teanecknj.gov
+- Teaneck Police: https://www.teanecknj.gov/police
+- Teaneck Municipal Court: https://www.teanecknj.gov/court
+- Bergen County Government: https://www.co.bergen.nj.us
+- Bergen County Sheriff: https://www.bcsd.us
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections

@@ -3,55 +3,72 @@
 - Lodi Municipal Court
 - Address: 1 Memorial Drive, Room 102, Lodi, NJ 07644
 - Phone: (973) 859-7450
-- Judge: Hon. Tracie Nunno D'Amico
-- Hours: Mon–Fri 8:30–4
-- Court Website: https://lodi-nj.org/municipal-court
-- Online Services: NJMCDirect
+- Court Website: https://www.lodi-nj.org/departments/municipal-court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601
-- Phone: (201) 527-2000
+- Phone: (201) 221-0700
 - Website: https://www.njcourts.gov/courts/bergen
 ## Borough Website
 - https://www.lodi-nj.org
 - Address: 1 Memorial Drive, Lodi, NJ 07644
-- Phone: (973) 859-7400
-- Coordinates: 40.8760° N, 74.0881° W
-- Population: ~24,000
+- Phone: (973) 365-4005
 ## Police Department
 - Lodi Police Department
 - Address: 1 Memorial Drive, Lodi, NJ 07644
 - Emergency: 911
 - Non-Emergency: (973) 473-7600
-- Police Website: https://lodi-nj.org/police
-- Coordinates: 40.8760° N, 74.0881° W
+- Police Website: https://www.lodipd.org
 ## Detention Center
-- Lodi does not operate a jail
+- Lodi Police Department Jail (Short-Term Only — up to 72 hours) — 1 Memorial Drive, Lodi, NJ 07644
 - Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 336-3500
-- Website: https://bcsd.us/bccrc
-- Coordinates: 40.8750° N, 74.0500° W
+  Website: https://www.bcsd.us
+  Inmate Search: Inmate Locator
+  Coordinates: 40.8734° N, 74.0399° W
 ## Building Permits
-- Lodi Building Department / Code Enforcement
-- Website: https://lodi-nj.org/building-department
-- Phone: (973) 859-7410 (Building), (973) 859-7466 (Code Enforcement)
-- Online Portal: https://eforms-main.govpilot.com/NJ/lodi
-- Permit Types: Construction, electrical, plumbing, mechanical, roofing, fences, sheds, driveways, HVAC
+- Lodi Building Department
+- Website: https://www.lodi-nj.org/departments/building-department
+- Phone: (973) 859-7410
+- Location: 1 Memorial Drive
 ## Library
 - Lodi Memorial Library
 - Address: 1 Memorial Drive, Lodi, NJ 07644
 - Phone: (973) 365-4044
-- Coordinates: 40.8760° N, 74.0881° W
-- Website: https://lodilibrarynj.org
+- Website: https://www.lodilibrarynj.org
 ## Hospitals
-- Hackensack Meridian Health – Primary Care Lodi — 4 Hunter Street, Suite 203, Lodi, NJ 07644 — (551) 996-9100 — 40.8730° N, 74.0880° W
-  Website: https://hackensackmeridianhealth.org/lodi
-- St. Mary's General Hospital — 350 Boulevard, Passaic, NJ 07055 — (973) 365-4300 — 40.8560° N, 74.1220° W
-  Website: https://trinityhealth.com/stmarys
-- HMH Hackensack University Medical Center — 30 Prospect Avenue, Hackensack, NJ 07601 — (800) 822-8820 — 40.8881° N, 74.0475° W
-- St. Joseph's University Medical Center — 703 Main Street, Paterson, NJ 07503 — (973) 754-5000 — 40.9167° N, 74.1667° W
+- St. Mary's General Hospital — 350 Boulevard, Passaic, NJ 07055 — 40.8920° N, 74.1580° W
+  Website: https://www.stmichaelshcs.org
+- Valley Hospital — 223 N Van Dien Ave, Ridgewood, NJ 07450 — 40.9960° N, 74.1008° W
+  Website: https://www.valleyhealth.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
 - Bergen County Official Site: https://www.co.bergen.nj.us
-- Sheriff's Office: https://www.co.bergen.nj.us/sheriff
+- Sheriff's Office: https://www.bcsd.us
 - Prosecutor's Office: https://www.co.bergen.nj.us/prosecutor
 - Assessor: https://www.co.bergen.nj.us/assessor
 - Treasurer: https://www.co.bergen.nj.us/treasurer

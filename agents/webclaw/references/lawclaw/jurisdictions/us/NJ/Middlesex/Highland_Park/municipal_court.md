@@ -26,14 +26,15 @@
 - Highland Park has a short-term holding facility — 222 South Fifth Avenue, Highland Park, NJ 08904
 - Long-term detainees transferred to Middlesex County
 - Middlesex County Adult Corrections Center — 1 Apple Orchard Lane, North Brunswick, NJ 08902 — (732) 951-3320
-- Website: https://www.middlesexcountynj.gov/government/departments/department-of-public-safety-and-health/office-of-adult-correction-and-youth-services/adult-corrections
-- Coordinates: 40.4720° N, 74.4300° W
+  Website: https://www.middlesexcountynj.gov/government/departments/department-of-public-safety-and-health/office-of-adult-correction-and-youth-services/adult-corrections
+  Coordinates: 40.4720° N, 74.4300° W
 ## Building Permits
 - Highland Park Building & Construction Division
 - Website: https://www.hpboro.com/construction
 - Phone: (732) 777-6013
 - Construction Official: Scott Brescher
 - Permit Types: Building, electrical, plumbing, fire, zoning
+- Inspections: Foundation, framing, mechanical, final
 ## Library
 - Highland Park Public Library
 - Address: 31 North 5th Avenue, Highland Park, NJ 08904
@@ -46,6 +47,7 @@
 - Saint Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — (732) 745-8600 — 40.4867° N, 74.4467° W
   Website: https://www.saintpetersuh.org
 - The Children's Hospital — 254 Easton Avenue, New Brunswick, NJ 08901
+  Website: https://www.saintpetersuh.org
 ## County Agencies
 - Middlesex County Official Site: https://www.middlesexcountynj.gov
 - Sheriff's Office: https://www.middlesexcountynj.gov/sheriff

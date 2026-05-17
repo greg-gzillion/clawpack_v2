@@ -25,10 +25,9 @@
 - Police Website: https://gtpolice.com
 ## Detention Center
 - Gloucester Township Police Department Holding Facility (Short-Term Only) — 1261 Chews Landing-Clementon Road, Laurel Springs, NJ 08021
-- Note: Temporary holding only; detainees transferred to Camden County
 - Camden County Correctional Facility — 330 Federal Street, Camden, NJ 08103 — (856) 225-7632
-- Inmate Search: https://camden-county-jail-nj.govbackgroundchecks.com
-- Website: https://camdendoc.opsnetwork.org
+  Website: https://camdendoc.opsnetwork.org
+  Inmate Search: https://camden-county-jail-nj.govbackgroundchecks.com
 ## Building Permits
 - Gloucester Township Community Development & Planning Department
 - Website: https://glotwp.com/community-development-planning
@@ -46,6 +45,32 @@
 - Cooper University Hospital — 1 Cooper Plaza, Camden, NJ 08103 — (800) 879-2467 — 39.9258° N, 75.1196° W
   Website: https://www.cooperhealth.org
 - Jefferson Cherry Hill Hospital — 2201 Chapel Avenue W, Cherry Hill, NJ 08002
+  Website: https://www.jeffersonhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://www.co.cape-may.nj.us
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
 - Camden County Official Site: https://www.camdencounty.com
 - Sheriff's Office: https://www.camdencounty.com/sheriff

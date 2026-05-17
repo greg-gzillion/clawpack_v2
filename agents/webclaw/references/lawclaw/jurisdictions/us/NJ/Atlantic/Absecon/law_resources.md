@@ -14,7 +14,7 @@
 ## Detention Center
 - Absecon Police Holding Facility (Short-Term) — 500 Mill Road, Absecon, NJ 08201
 - Atlantic County Justice Facility — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
-- Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+  Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
 ## Building Permits
 - Construction Department: https://www.abseconnj.gov/construction
 - Phone: (609) 641-0663 ext. 113
@@ -23,8 +23,11 @@
 - Website: https://www.abseconnj.gov/library
 ## Hospitals
 - AtlantiCare Mainland Campus — 65 W Jimmie Leeds Road, Pomona, NJ 08240 — (609) 652-1000 — 39.4787° N, 74.5493° W
+  Website: https://www.atlanticare.org
 - AtlantiCare Atlantic City Campus — 1925 Pacific Avenue, Atlantic City, NJ 08401 — (609) 345-3000 — 39.3631° N, 74.4267° W
+  Website: https://www.atlanticare.org
 - Select Specialty Hospital - Atlantic City — 1925 Pacific Avenue 5th Floor, Atlantic City, NJ 08401
+  Website: https://www.selectmedical.com
 ## County Resources
 - Atlantic County: https://www.atlanticcountynj.gov
 - Sheriff: https://www.atlanticcountynj.gov/government/county-departments/sheriff

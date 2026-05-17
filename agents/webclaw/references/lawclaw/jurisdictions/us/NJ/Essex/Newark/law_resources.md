@@ -1,33 +1,58 @@
 ﻿# Newark — Local Law Resources
 ## City Website
 - https://www.newarknj.gov
-- Address: 920 Mayor Kenneth A. Gibson Boulevard, Newark, NJ 07102 — (973) 733-4311
-- Hours: Mon–Fri 9–5
-- Coordinates: 40.7356° N, 74.1722° W | Largest city in NJ, Essex County seat
+- Address: 920 Broad Street, Newark, NJ 07102 — (973) 733-4311
 ## Law Enforcement
-- Newark Police Division — https://www.newarkpublicsafety.org
+- Newark Police Department — https://www.newarkpublicsafety.org
 - Emergency: 911 | Non-Emergency: (973) 733-6000
 - Address: 480 Clinton Avenue, Newark, NJ 07108
 ## Courts
-- Newark Municipal Court — https://www.newarknj.gov/municipal-court
-- Address: 31 Green Street, Room 105, Newark, NJ 07102 — (973) 733-6520
+- Newark Municipal Court — https://www.newarknj.gov/38/Municipal-Court
+- Address: 31 Green Street, Newark, NJ 07102 — (973) 733-6520
+- Hours: Mon–Fri, 8:30 AM – 4:30 PM
 - Essex County Superior Court: 50 West Market Street, Newark, NJ 07102 — (973) 693-5700
 ## Detention Center
-- Newark Police Division Holding Facility (Short-Term) — 480 Clinton Avenue, Newark, NJ 07108
-- Essex County Correctional Facility (ECCF) — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
-- Website: https://www.essexcountynj.org
+- Newark Police Detention Center (Short-Term) — 480 Clinton Avenue, Newark, NJ 07108
+- Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
+  Website: https://www.essexcountynj.gov/corrections
+  Inmate Search: Inmate Lookup
+  Coordinates: 40.7306° N, 74.2181° W
 ## Building Permits
-- Office of Uniform Construction Code (UCC): https://www.newarknj.gov/building-division
-- Phone: (973) 733-4343 | Online: NewarkPortal
+- Permits, Licenses & Inspections: https://www.newarknj.gov/160/Permits-Licenses-Inspections
+- Phone: (973) 733-5800 | Location: 52 Franklin Street
 ## Library
-- Newark Public Library — https://www.newarkpubliclibrary.org
-- Address: 5 Washington Street, Newark, NJ 07102 — (973) 733-6300
-- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Newark Public Library — https://www.npl.org
+- Address: 5 Washington Street, Newark, NJ 07102 — (973) 733-7784
 ## Hospitals
-- University Hospital — 55 Clifton Avenue, Newark, NJ 07103 — (973) 972-3000 — 40.7403° N, 74.1889° W
-- Saint Michael's Medical Center — 111 Central Avenue, Newark, NJ 07102
-- Newark Community Health Center — 92 Ferry Street, Newark, NJ 07105
-- Newark Beth Israel Medical Center — 201 Lyons Avenue, Newark, NJ 07112 — (973) 926-8000 — 40.7381° N, 74.2067° W
+- University Hospital — 150 Bergen Street, Newark, NJ 07103 — 40.7406° N, 74.1904° W
+  Website: https://www.uhnj.org
+- Saint Michael's Medical Center — 914 Broad Street, Newark, NJ 07103 — 40.7380° N, 74.1830° W
+  Website: https://www.trinityhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
-- Essex County: https://www.essexcountynj.org
-- Sheriff: https://www.essexcountynj.org/sheriff
+- Essex County: https://www.essexcountynj.gov
+- Sheriff: https://www.essexcountynj.gov/sheriff

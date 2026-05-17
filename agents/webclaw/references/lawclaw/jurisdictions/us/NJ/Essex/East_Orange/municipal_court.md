@@ -1,9 +1,10 @@
 ﻿# East Orange Courts
 ## Municipal Court
 - East Orange Municipal Court
-- Address: 15 S Munn Avenue, East Orange, NJ 07018
-- Phone: (973) 266-5000
-- Court Website: https://www.eastorange-nj.gov/court
+- Address: 221 Freeway Drive East, East Orange, NJ 07018
+- Phone: (973) 266-5300
+- Court Website: https://www.eomc.org
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Essex County Superior Court: 50 West Market Street, Newark, NJ 07102
@@ -13,40 +14,61 @@
 - https://www.eastorange-nj.gov
 - Address: 44 City Hall Plaza, East Orange, NJ 07018
 - Phone: (973) 266-5000
-- Hours: Mon–Fri 8:30–4:30
-- Coordinates: 40.7750° N, 74.2167° W
 ## Police Department
 - East Orange Police Department
 - Address: 15 S Munn Avenue, East Orange, NJ 07018
 - Emergency: 911
 - Non-Emergency: (973) 266-5000
-- Police Website: https://www.eastorange-nj.gov/police
+- Police Website: https://www.eastorange-nj.gov/340/Police-Department
 ## Detention Center
-- East Orange Detention Center (Short-Term Holding) — Inside Police Headquarters, 15 S Munn Avenue, East Orange, NJ 07018
-- Note: Temporary holding only; detainees transferred to Essex County
-- Essex County Correctional Facility (ECCF) — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
-- Website: https://www.essexcountynj.org
+- East Orange Police Detention Center (Short-Term Only) — 15 S Munn Avenue, East Orange, NJ 07018
+- Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
+  Website: https://www.essexcountynj.gov/corrections
+  Inmate Search: Inmate Lookup
+  Coordinates: 40.7306° N, 74.2181° W
 ## Building Permits
-- City of East Orange Building Division, Department of Property Maintenance
-- Website: https://www.eastorange-nj.gov/building
-- Phone: (973) 266-5182
-- Permit Types: Construction, electrical, plumbing, zoning, certificates of occupancy
-- Application: In person at City Hall, 3rd Floor
+- City of East Orange Construction Division
+- Website: https://www.eastorange-nj.gov/160/Construction
+- Phone: (973) 266-5400
+- Location: 44 City Hall Plaza
 ## Library
 - East Orange Public Library
-- Address: 117 S Grove Street, East Orange, NJ 07018
-- Phone: (973) 678-0500
-- Hours: Mon–Thu 9–8, Fri–Sat 9–5
-- Website: https://www.eastorangelibrary.org
+- Address: 21 South Arlington Avenue, East Orange, NJ 07018
+- Phone: (973) 266-5600
+- Website: https://www.eopl.org
 ## Hospitals
-- CARE WELL HEALTH MEDICAL CENTER — 300 Central Avenue, East Orange, NJ 07018
-- Newark Community Health Center — 444 William Street, East Orange, NJ 07017
-- Newark Beth Israel Medical Center — 201 Lyons Avenue, Newark, NJ 07112 — (973) 926-8000 — 40.7381° N, 74.2067° W
-  Website: https://www.barnabashealth.org
-- University Hospital — 150 Bergen Street, Newark, NJ 07103
+- Clara Maass Medical Center — 1 Clara Maass Drive, Belleville, NJ 07109 — 40.7850° N, 74.1700° W
+  Website: https://www.rwjbh.org
+- University Hospital — 1500 Broad Street, Newark, NJ 07103 — 40.7420° N, 74.2090° W
+  Website: https://www.uhnj.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Essex County Official Site: https://www.essexcountynj.org
-- Sheriff's Office: https://www.essexcountynj.org/sheriff
-- Prosecutor's Office: https://www.essexcountynj.org/prosecutor
-- Assessor: https://www.essexcountynj.org/assessor
-- Treasurer: https://www.essexcountynj.org/treasurer
+- Essex County Official Site: https://www.essexcountynj.gov
+- Sheriff's Office: https://www.essexcountynj.gov/sheriff
+- Prosecutor's Office: https://www.essexcountynj.gov/prosecutor
+- Assessor: https://www.essexcountynj.gov/assessor
+- Treasurer: https://www.essexcountynj.gov/treasurer

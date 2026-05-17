@@ -1,31 +1,58 @@
 ﻿# Sayreville — Local Law Resources
 ## Borough Website
 - https://www.sayreville.com
-- Address: 167 Main Street, Sayreville, NJ 08872 — (732) 390-7007
-- Coordinates: 40.4625° N, 74.3250° W | Population: ~42,000
+- Address: 167 Main Street, Sayreville, NJ 08872 — (732) 390-7000
 ## Law Enforcement
 - Sayreville Police Department — https://www.sayrevillepolice.org
-- Emergency: 911 | Non-Emergency: (732) 727-4444
+- Emergency: 911 | Non-Emergency: (732) 390-7000
 - Address: 1000 Main Street, Sayreville, NJ 08872
 ## Courts
-- Sayreville Municipal Court — https://sayrevillepolice.org/court
+- Sayreville Municipal Court — https://www.sayreville.com/municipal-court
 - Address: 1000 Main Street, Sayreville, NJ 08872 — (732) 525-5446
-- Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08903 — (732) 645-4300
+- Payments: www.njmcdirect.com
+- Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08901 — (732) 645-4300
 ## Detention Center
-- Sayreville Police Holding Facility (Short-Term) — 1000 Main Street, Sayreville, NJ 08872
-- Middlesex County Adult Corrections Center — 1 Apple Orchard Lane, North Brunswick, NJ 08902 — (732) 745-4300
-- Website: https://www.middlesexcountynj.gov/Government/Departments/PSH/Pages/adultcorrections_home.aspx
+- Sayreville Police Department Detention (Short-Term) — 1000 Main Street, Sayreville, NJ 08872
+- Middlesex County Adult Correctional Center — 265 Westmoblie Avenue, North Brunswick, NJ 08902 — (732) 249-1900
+  Website: https://www.middlesexcountynj.gov
+  Inmate Search: Inmate Locator
+  Coordinates: 40.4461° N, 74.4480° W
 ## Building Permits
-- Construction Department: https://www.sayreville.com/cn/webpage.cfm?tpid=17281
-- Phone: (732) 390-7028 | Email: construction@sayreville.com
-- Forms: https://www.sayreville.com/Cit-e-Access/webpage.cfm?TID=87&TPID=8678
+- Construction Department: https://www.sayreville.com/construction
+- Phone: (732) 390-7077 | Online: Permit Process
 ## Library
-- Sayreville Free Public Library — 1050 Washington Road, Parlin, NJ 08859 — (732) 727-0212
-- Website: https://www.sayrevillelibrary.org
+- Sayreville Public Library — https://www.sayreville.com/library
+- Address: 167 Main Street, Sayreville, NJ 08872 — (732) 390-7050
 ## Hospitals
-- Old Bridge Medical Center — 1 Hospital Plaza, Old Bridge, NJ 08857 — (732) 360-1000 — 40.4570° N, 74.3150° W
-- Robert Wood Johnson University Hospital — 1 Robert Wood Johnson Place, New Brunswick, NJ 08903 — (732) 828-3000 — 40.4869° N, 74.4469° W
-- Saint Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — (732) 745-8600 — 40.4867° N, 74.4467° W
+- Robert Wood Johnson University Hospital – Rahway — 1161 Route 1, Rahway, NJ 07065 — 40.5780° N, 74.2880° W
+  Website: https://www.rwjbh.org
+- St. Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — 40.4820° N, 74.4470° W
+  Website: https://www.stmichaelshcs.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Middlesex County: https://www.middlesexcountynj.gov
 - Sheriff: https://www.middlesexcountynj.gov/sheriff

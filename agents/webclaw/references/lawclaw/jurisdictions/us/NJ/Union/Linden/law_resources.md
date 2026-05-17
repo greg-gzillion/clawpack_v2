@@ -1,32 +1,56 @@
 ﻿# Linden — Local Law Resources
 ## City Website
 - https://linden-nj.gov
-- Address: 301 North Wood Avenue, Linden, NJ 07036 — (908) 474-8500
-- Coordinates: 40.6315° N, 74.2555° W | Population: ~40,000
+- Address: 301 North Wood Avenue, Linden, NJ 07036 — (908) 474-8400
 ## Law Enforcement
-- Linden Police Department — https://linden-nj.gov/directory/police
-- Emergency: 911 | Non-Emergency: (908) 474-8500
+- Linden Police Department — https://linden-nj.gov/police
+- Emergency: 911 | Non-Emergency: (908) 474-8420
 - Address: 301 North Wood Avenue, Linden, NJ 07036
 ## Courts
-- Linden Municipal Court — https://linden-nj.gov/directory/municipal-court
+- Linden Municipal Court — https://linden-nj.gov/municipal-court
 - Address: 301 North Wood Avenue, Linden, NJ 07036 — (908) 474-8429
-- Online: NJMCDirect
-- Union County Superior Court: 2 Broad Street, Elizabeth, NJ 07207 — (908) 659-4600
+- Payments: www.njmcdirect.com
+- Union County Superior Court: 2 Broad Street, Elizabeth, NJ 07201 — (908) 659-5800
 ## Detention Center
-- Union County Jail — 15 Elizabethtown Plaza, Elizabeth, NJ 07207 — (908) 558-2600
-- Website: https://www.ucnj.org/sheriff
-- Union County Juvenile Detention Center — 1075 Edward Street, Linden, NJ 07036
-- Website: https://www.ucesc.org/ucesc/Schools%20%26%20Services/Juvenile%20Detention%20Center/
+- Linden Police Department Detention (Short-Term) — 301 North Wood Avenue, Linden, NJ 07036
+- Union County Jail — 301 North Avenue East, Elizabeth, NJ 07201 — (908) 354-3400
+  Website: https://ucnj.org
+  Inmate Search: Inmate Roster
+  Coordinates: 40.6560° N, 74.1950° W
 ## Building Permits
-- Construction Code: https://linden-nj.gov/department/construction-code
-- Phone: (908) 474-8400
+- Construction Code Department: https://linden-nj.gov/construction
+- Phone: (908) 474-8460 | Location: City Hall, Room 204
 ## Library
-- Linden Free Public Library — 31 East Henry Street, Linden, NJ 07036 — (908) 298-3830
-- Website: https://lindenlibrary-nj.gov
+- Linden Public Library — https://linden-nj.gov/library
+- Address: 301 North Wood Avenue, Linden, NJ 07036 — (908) 474-8465
 ## Hospitals
-- Trinitas Regional Medical Center — 225 Williamson Street, Elizabeth, NJ 07202 — (908) 994-5000 — 40.6600° N, 74.2185° W
-- RWJ University Hospital Rahway — 865 Stone Street, Rahway, NJ 07065 — (732) 453-2915 — 40.5820° N, 74.2850° W
-- ImageCare at Woodbridge — 530 Green Street, Lower Level, Iselin, NJ 08830
+- Trinitas Regional Medical Center — 225 Williamson Street, Elizabeth, NJ 07207 — 40.6670° N, 74.2160° W
+  Website: https://www.trinitasregional.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
-- Union County: https://www.ucnj.org
-- Sheriff: https://www.ucnj.org/sheriff
+- Union County: https://ucnj.org
+- Sheriff: https://ucnj.org/sheriff

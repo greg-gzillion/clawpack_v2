@@ -2,67 +2,73 @@
 ## Municipal Court
 - Franklin Township Municipal Court
 - Address: 495 DeMott Lane, Somerset, NJ 08873
-- Phone: (908) 782-6855
-- Court Website: https://franklin-twp.org/court
+- Phone: (732) 873-7285
+- Court Website: https://www.franklintwpnj.org/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Somerset County Superior Court: 20 North Bridge Street, Somerville, NJ 08876
-- Phone: (908) 332-7700
+- Phone: (908) 231-7000
 - Website: https://www.njcourts.gov/courts/somerset
 ## Township Website
 - https://www.franklintwpnj.org
-- Address: 495 DeMott Lane, Somerset, NJ 08873
-- Coordinates: 40.5188° N, 74.5420° W
+- Address: 475 DeMott Lane, Somerset, NJ 08873
+- Phone: (732) 873-2500
 ## Police Department
 - Franklin Township Police Department
 - Address: 495 DeMott Lane, Somerset, NJ 08873
 - Emergency: 911
-- Non-Emergency: (908) 782-9594
-- Police Website: https://franklin-twp.org/police
-- Coordinates: 40.5188° N, 74.5420° W
+- Non-Emergency: (732) 873-5533
+- Police Website: https://www.franklintwpnj.org/police
 ## Detention Center
-- Franklin Township has no jail
-- Somerset County Jail — 20 Grove Street, Somerville, NJ 08876 — (908) 231-7150
-- Website: https://co.somerset.nj.us/sheriff/jail
-- Coordinates: 40.5631° N, 74.6375° W
+- Franklin Township Police Detention (Short-Term Only) — 495 DeMott Lane, Somerset, NJ 08873
+- Somerset County Jail — 190 North Doughty Drive, Somerville, NJ 08876 — (908) 231-7200
+  Website: https://www.co.somerset.nj.us
+  Inmate Search: Inmate Locator
+  Coordinates: 40.5740° N, 74.7450° W
 ## Building Permits
-- Franklin Township Construction/Code Enforcement
-- Website: https://franklin-twp.org/construction
+- Franklin Township Construction Code Department
+- Website: https://www.franklintwpnj.org/construction
 - Phone: (732) 873-7283
-- Email: construction@franklin-twp.org
-- SDL Portal: https://www.sdlportal.com
+- Online Portal: SDL Portal
 ## Library
 - Franklin Township Public Library
 - Address: 485 DeMott Lane, Somerset, NJ 08873
-- Phone: (732) 873-8700
-- Coordinates: 40.5187° N, 74.5418° W
-- Website: https://franklintwp.org/library
+- Phone: (732) 873-1991
+- Website: https://www.franklintwpnj.org/library
 ## Hospitals
-- Robert Wood Johnson University Hospital Somerset — 110 Rehill Avenue, Somerville, NJ 08876 — (908) 685-2200 — 40.5619° N, 74.6403° W
-  Website: https://rwjbh.org/somerset
-- Saint Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — (732) 745-8600 — 40.4867° N, 74.4467° W
-  Website: https://stpetersuh.org
-## Municipal Agencies
-- Mayor & Township Committee: https://franklintwpnj.org/government
-- Police: https://franklin-twp.org/police — (908) 782-9594
-- Municipal Court: https://franklin-twp.org/court — (908) 782-6855
-- Construction/Code Enforcement: https://franklin-twp.org/construction — (732) 873-7283
-- Township Clerk: https://franklintwpnj.org/clerk
-- Fire & Rescue: https://franklin-twp.org/fire-rescue
-- Public Works: https://franklintwpnj.org/public-works
-- Finance: https://franklintwpnj.org/finance
-- Human Resources: https://franklintwpnj.org/hr
-- Planning & Zoning: https://franklintwpnj.org/planning
-- Tax Assessor: https://franklintwpnj.org/tax-assessor
-- Tax Collector: https://franklintwpnj.org/tax-collector
-- Animal Control: https://franklintwpnj.org/animal-control
-- Emergency Management: https://franklintwpnj.org/oem
-- Recreation: https://franklintwp.recdesk.com
-- Library: https://franklintwp.org/library
-- OPRA Requests: https://franklintwpnj.org/OPRArequest
+- Robert Wood Johnson University Hospital – Somerset — 30 Rehill Avenue, Somerville, NJ 08876 — 40.5730° N, 74.7420° W
+  Website: https://www.rwjbh.org
+- St. Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — 40.4820° N, 74.4470° W
+  Website: https://www.stmichaelshcs.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Somerset County Official Site: https://www.somersetcountynj.gov
-- Sheriff's Office: https://www.somersetcountynj.gov/sheriff
-- Prosecutor's Office: https://www.somersetcountynj.gov/prosecutor
-- Assessor: https://www.somersetcountynj.gov/assessor
-- Treasurer: https://www.somersetcountynj.gov/treasurer
+- Somerset County Official Site: https://www.co.somerset.nj.us
+- Sheriff's Office: https://www.co.somerset.nj.us/sheriff
+- Prosecutor's Office: https://www.co.somerset.nj.us/prosecutor
+- Assessor: https://www.co.somerset.nj.us/assessor
+- Treasurer: https://www.co.somerset.nj.us/treasurer

@@ -3,48 +3,70 @@
 - Carteret Municipal Court
 - Address: 230 Roosevelt Avenue, Carteret, NJ 07008
 - Phone: (732) 541-3900
+- Sessions: Monday (6:00 PM), Wednesday (9:00 AM), Friday (9:00 AM)
 - Court Website: https://www.carteret.net/municipal-court
-- Online Payments: NJMCDirect
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
-- Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08903
+- Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08901
 - Phone: (732) 645-4300
 - Website: https://www.njcourts.gov/courts/middlesex
 ## Borough Website
 - https://www.carteret.net
-- Address: 61 Cooke Avenue, Carteret, NJ 07008
+- Address: 230 Roosevelt Avenue, Carteret, NJ 07008
 - Phone: (732) 541-3801
-- Coordinates: 40.5838° N, 74.2275° W
 ## Police Department
 - Carteret Police Department
 - Address: 230 Roosevelt Avenue, Carteret, NJ 07008
 - Emergency: 911
 - Non-Emergency: (732) 541-4181
 - Police Website: https://www.carteret.net/police
-- Short-Term Holding Facility: Yes
 ## Detention Center
-- Carteret has a short-term holding facility — 230 Roosevelt Avenue, Carteret, NJ 07008
-- Long-term detainees transferred to Middlesex County
-- Middlesex County Adult Corrections Center — 1 Apple Orchard Lane, North Brunswick, NJ 08902 — (732) 745-4300
-- Website: https://www.middlesexcountynj.gov/Government/Departments/PSH/Pages/adultcorrections_home.aspx
-- Coordinates: 40.4720° N, 74.4300° W
+- Carteret Police Department Holding (Short-Term Only) — 230 Roosevelt Avenue, Carteret, NJ 07008
+- Middlesex County Adult Correctional Center — 265 Westmoblie Avenue, North Brunswick, NJ 08902 — (732) 249-1900
+  Website: https://www.middlesexcountynj.gov
+  Inmate Search: Inmate Locator
+  Coordinates: 40.4461° N, 74.4480° W
 ## Building Permits
 - Carteret Building, Construction & Land Use
-- Website: https://www.carteret.net/construction-office-3
-- Phone: (732) 541-3819 or (732) 541-3926
-- Permit Types: Construction, electrical, plumbing, zoning, CCO
+- Website: https://www.carteret.net/building-construction-land-use
+- Phone: (732) 541-3819 / 3926
+- Forms: Building Permit Application
 ## Library
 - Carteret Public Library
-- Address: 61 Cooke Avenue, Carteret, NJ 07008
+- Address: 230 Roosevelt Avenue, Carteret, NJ 07008
 - Phone: (732) 541-3830
-- Coordinates: 40.5838° N, 74.2275° W
 - Website: https://www.carteret.net/library
 ## Hospitals
-- Central Jersey Medical Center Inc — 1540 Roosevelt Avenue, Carteret, NJ 07008 — (732) 376-9333 — 40.5957° N, 74.2512° W
-  Website: https://www.cjmed.org
-- Carteret Medical Plaza — 125 Washington Avenue, Carteret, NJ 07008 — (732) 541-6521 — 40.5782° N, 74.2254° W
-- ImageCare at Woodbridge — 530 Green Street, Lower Level, Iselin, NJ 08830
-- Robert Wood Johnson University Hospital Rahway — 865 Stone Street, Rahway, NJ 07065 — (732) 453-2915 — 40.5820° N, 74.2850° W
+- Jersey Shore University Medical Center — 1945 State Route 33, Neptune, NJ 07753 — 40.2400° N, 74.0200° W
+  Website: https://www.hackensackmeridianhealth.org
+- Robert Wood Johnson University Hospital – Rahway — 1161 Route 1, Rahway, NJ 07065 — 40.5780° N, 74.2880° W
+  Website: https://www.rwjbh.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
 - Middlesex County Official Site: https://www.middlesexcountynj.gov
 - Sheriff's Office: https://www.middlesexcountynj.gov/sheriff

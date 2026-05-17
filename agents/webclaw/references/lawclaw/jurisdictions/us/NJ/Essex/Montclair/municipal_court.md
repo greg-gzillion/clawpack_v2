@@ -2,53 +2,71 @@
 ## Municipal Court
 - Montclair Municipal Court
 - Address: 647 Bloomfield Avenue, Montclair, NJ 07042
-- Phone: (973) 509-4774
-- Email: montclaircourt@montclairnjusa.org
-- Court Website: https://montclairnjusa.org/municipal-court
-- Online Payments: NJMCDirect
+- Phone: (973) 744-1234
+- Court Website: https://www.montclairnjusa.org/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Essex County Superior Court: 50 West Market Street, Newark, NJ 07102
-- Phone: (973) 693-5700
+- Phone: (973) 776-9300
 - Website: https://www.njcourts.gov/courts/essex
 ## Township Website
 - https://www.montclairnjusa.org
 - Address: 205 Claremont Avenue, Montclair, NJ 07042
-- Phone: (973) 509-4900
-- Coordinates: 40.8140° N, 74.2145° W
-- Population: ~38,000
+- Phone: (973) 744-1400
 ## Police Department
 - Montclair Police Department
-- Chief: Todd Conforti
 - Address: 647 Bloomfield Avenue, Montclair, NJ 07042
 - Emergency: 911
 - Non-Emergency: (973) 744-1234
-- Police Website: https://montclairnjusa.org/police
-- Coordinates: 40.8168° N, 74.2210° W
+- Police Website: https://www.montclairnjusa.org/police
 ## Detention Center
-- Montclair has no jail
+- Montclair Police Department Detention (Short-Term Only) — 647 Bloomfield Avenue, Montclair, NJ 07042
 - Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
-- Website: https://www.essexcountynj.org
+  Website: https://www.essexcountynj.gov/corrections
+  Inmate Search: Inmate Locator
+  Coordinates: 40.7306° N, 74.2181° W
 ## Building Permits
 - Montclair Building Office
-- Website: https://montclairnjusa.org/building-office
+- Website: https://www.montclairnjusa.org/building
 - Phone: (973) 509-4951
-- Permit Portal: Montclair Properties Information Portal (SDL)
-- Permit Types: Construction, electrical, plumbing, mechanical, roofing, sheds, fences
+- Location: 205 Claremont Avenue
 ## Library
 - Montclair Public Library
 - Address: 50 South Fullerton Avenue, Montclair, NJ 07042
 - Phone: (973) 744-0500
-- Coordinates: 40.8135° N, 74.2150° W
-- Website: https://montclairlibrary.org
+- Website: https://www.mcl.org
 ## Hospitals
-- Hackensack Meridian Mountainside Medical Center — 1 Bay Avenue, Montclair, NJ 07042 — (973) 429-6000 — 40.8118° N, 74.2037° W
-  Website: https://mountainsidehosp.com
-- St. Mary's General Hospital — 350 Boulevard, Passaic, NJ 07055 — (973) 757-5000 — 40.8333° N, 74.1500° W
-- Newark Community Health Center — 444 William Street, East Orange, NJ 07017
+- Mountainside Hospital — 1 Bay Avenue, Montclair, NJ 07043 — 40.8150° N, 74.2050° W
+  Website: https://www.hackensackmeridianhealth.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Essex County Official Site: https://www.essexcountynj.org
-- Sheriff's Office: https://www.essexcountynj.org/sheriff
-- Prosecutor's Office: https://www.essexcountynj.org/prosecutor
-- Assessor: https://www.essexcountynj.org/assessor
-- Treasurer: https://www.essexcountynj.org/treasurer
+- Essex County Official Site: https://www.essexcountynj.gov
+- Sheriff's Office: https://www.essexcountynj.gov/sheriff
+- Prosecutor's Office: https://www.essexcountynj.gov/prosecutor
+- Assessor: https://www.essexcountynj.gov/assessor
+- Treasurer: https://www.essexcountynj.gov/treasurer

@@ -1,52 +1,50 @@
-﻿# Hackensack Courts
-## Municipal Court
-- Hackensack Municipal Court
-- Address: 71 Hudson Street, Hackensack, NJ 07601
-- Phone: (201) 646-3971
-- Court Website: https://www.hackensacknj.org/courts
-- Handles: Traffic violations, disorderly persons offenses, municipal ordinances
-## Superior Court (Felonies/Major Civil)
-- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601
-- Phone: (201) 527-2000
-- Website: https://www.njcourts.gov/courts/bergen
+﻿# Hackensack
 ## City Website
-- https://www.hackensacknj.org
+- https://www.hackensack.org
 - Address: 215 State Street, Hackensack, NJ 07601
-- Phone: (201) 646-3000
-- Hours: Mon–Fri 8:30–4:30
-- Coordinates: 40.8853° N, 74.0444° W
-- Note: County seat of Bergen County
+- Phone: (201) 646-3940
 ## Police Department
 - Hackensack Police Department
-- Address: 215 State Street, Hackensack, NJ 07601
+- Website: https://www.hackensack.org/HPD
+- Address: 225 State Street, Hackensack, NJ 07601
+- Phone: (201) 646-7777 (Non-emergency)
 - Emergency: 911
-- Non-Emergency: (201) 646-7777
-- Police Website: https://www.hackensacknj.org/police
-## Detention Center
-- Hackensack Police Department Holding Facility (Short-Term Only) — 215 State Street, Hackensack, NJ 07601
-- Note: Temporary holding only; detainees transferred to Bergen County
-- Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 527-3000
-- Inmate Search: https://www.bergenjailroster.org
-- Website: https://www.co.bergen.nj.us/sheriff
-## Building Permits
-- City of Hackensack Construction Department
-- Website: https://www.hackensacknj.org/construction
-- Phone: (201) 646-3000 ext. 112
-- Permit Types: Construction, electrical, plumbing, septic, zoning
-## Library
-- Hackensack Public Library
-- Address: 210 State Street, Hackensack, NJ 07601
-- Phone: (201) 646-3000
-- Website: https://www.hackensacknj.org/library
-## Hospitals
-- Hackensack University Medical Center — 30 Prospect Avenue, Hackensack, NJ 07601 — (800) 822-8820 — 40.8881° N, 74.0475° W
+## Municipal Court
+- Hackensack Municipal Court
+- Website: https://www.hackensack.org/Court
+- Address: 215 State Street, Hackensack, NJ 07601
+- Phone: (201) 646-3971
+- Judge: Hon. Louis J. Dinice
+- Payments: https://www.njmcdirect.com
+## Detention Facilities
+### Hackensack Police Holding (Short-Term)
+- Hackensack does not operate a city jail; detainees transferred to county facility
+### Bergen County Jail
+- Website: https://www.bcsd.us/bccrc
+- Inmate Search: Bergen County Inmate Locator
+- Address: 160 South River Street, Hackensack, NJ 07601
+- Phone: (201) 336-3500
+- Coordinates: 40.8734° N, 74.0399° W
+## Hospitals with Coordinates
+- Hackensack University Medical Center
+  Address: 30 Prospect Avenue, Hackensack, NJ 07601
+  Coordinates: 40.8824° N, 74.0561° W
   Website: https://www.hackensackmeridianhealth.org
-  Services: Level II Trauma Center, comprehensive care, research, teaching hospital
-- John Theurer Cancer Center — 92 2nd Street, Hackensack, NJ 07601
-- Select Specialty Hospital - Northeast NJ — 96 Parkway, Rochelle Park, NJ 07662
-## County Agencies
-- Bergen County Official Site: https://www.co.bergen.nj.us
-- Sheriff's Office: https://www.co.bergen.nj.us/sheriff
-- Prosecutor's Office: https://www.co.bergen.nj.us/prosecutor
-- Assessor: https://www.co.bergen.nj.us/assessor
-- Treasurer: https://www.co.bergen.nj.us/treasurer
+## Library
+- Johnson Public Library
+  Website: https://www.johnsonlib.org
+  Address: 274 Main Street, Hackensack, NJ 07601
+  Phone: (201) 343-4169
+## Building Permits
+- Building Department
+  Website: https://www.hackensack.org/Building
+  Phone: (201) 646-3960
+  Located at City Hall Annex, 215 State Street
+## Municipal Agencies
+- City of Hackensack: https://www.hackensack.org
+- Hackensack Police: https://www.hackensack.org/HPD
+- Hackensack Municipal Court: https://www.hackensack.org/Court
+- Bergen County Government: https://www.co.bergen.nj.us
+- Bergen County Sheriff: https://www.bcsd.us
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections

@@ -2,68 +2,73 @@
 ## Municipal Court
 - Bridgewater Municipal Court
 - Address: 100 Commons Way, Bridgewater, NJ 08807
-- Phone: (908) 725-6375
-- Email: bridgewater.mc@njcourts.gov
-- Court Website: https://bridgewaternj.gov/court
+- Phone: (908) 725-6300 ext. 5404
+- Court Website: https://www.bridgewaternj.gov/municipal-court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
 - Somerset County Superior Court: 20 North Bridge Street, Somerville, NJ 08876
-- Phone: (908) 332-7700
+- Phone: (908) 231-7000
 - Website: https://www.njcourts.gov/courts/somerset
 ## Township Website
 - https://www.bridgewaternj.gov
 - Address: 100 Commons Way, Bridgewater, NJ 08807
 - Phone: (908) 725-6300
-- Coordinates: 40.5928° N, 74.6158° W
 ## Police Department
-- Bridgewater Township Police Department
-- Address: 100 Commons Way, Bridgewater, NJ 08807
+- Bridgewater Police Department
+- Address: 400 Commons Way, Bridgewater, NJ 08807
 - Emergency: 911
 - Non-Emergency: (908) 722-4111
 - Police Website: https://police.bridgewaternj.gov
-- Coordinates: 40.5928° N, 74.6158° W
 ## Detention Center
-- Bridgewater does not operate its own jail
-- Somerset County Jail — 20 Grove Street, Somerville, NJ 08876 — (908) 231-7150
-- Warden: Tim Pino | Sheriff: Darrin J. Russo
-- Inmate Search: https://www.somersetcountynj.gov/jail
-- Website: https://www.somersetcountynj.gov/jail
-- Coordinates: 40.5631° N, 74.6375° W
-- Somerset County Juvenile Detention Center — PO Box 3000, Somerville, NJ 08876 — (908) 704-6326
-- Coordinates: 40.5620° N, 74.6380° W
+- Bridgewater does not operate a municipal jail
+- Somerset County Jail — 190 North Doughty Drive, Somerville, NJ 08876 — (908) 231-7200
+  Website: https://www.co.somerset.nj.us
+  Inmate Search: Inmate Locator
+  Coordinates: 40.5740° N, 74.7450° W
 ## Building Permits
 - Bridgewater Township Code Enforcement
-- Website: https://bridgewaternj.gov/code-enforcement
+- Website: https://www.bridgewaternj.gov/code-enforcement
 - Phone: (908) 725-6300 ext. 5574
-- Email: bwtcode@bridgewaternj.gov
-- Construction Official: John Tillotson
-- Hours: Mon–Fri 9–4:30
-- Permit Types: Decks, pools, additions, sheds >200 sq ft, electrical, plumbing, roofing
+- Online Portal: SDL Portal
 ## Library
-- Somerset County Library - Bridgewater Branch
+- Somerset County Library – Bridgewater Branch
 - Address: 1 Vogt Drive, Bridgewater, NJ 08807
-- Phone: (908) 526-4016
-- Coordinates: 40.5887° N, 74.6194° W
-- Website: https://somerset.lib.nj.us
+- Phone: (908) 725-6900
+- Website: https://www.sclibs.org
 ## Hospitals
-- Robert Wood Johnson University Hospital Somerset — 110 Rehill Avenue, Somerville, NJ 08876 — (908) 685-2200 — 40.5619° N, 74.6403° W
-  Website: https://rwjbh.org/somerset
-- Hunterdon Medical Center (Bridgewater Office) — 1121 Route 22 West, Bridgewater, NJ 08807 — 40.5802° N, 74.5928° W
-  Website: https://hunterdonhealth.org
-## Municipal Agencies
-- Administrator: https://bridgewaternj.gov/administrator — (908) 725-6300 x5000
-- Township Clerk: https://bridgewaternj.gov/clerk — (908) 725-6300 x5025
-- Code Enforcement: https://bridgewaternj.gov/code-enforcement — (908) 725-6300 x5574
-- Engineering: https://bridgewaternj.gov/engineering — (908) 725-6300 x5500
-- Fire Safety: https://bridgewaternj.gov/fire-safety — (908) 725-6300 x5555
-- Health Division: https://bridgewaternj.gov/health — (908) 725-6300 x5205
-- Human Services: https://bridgewaternj.gov/human-services — (908) 725-6300 x5210
-- Municipal Court: https://bridgewaternj.gov/court — (908) 725-6375
-- Planning Office: https://bridgewaternj.gov/planning — (908) 725-6300 x5530
-- Police: https://police.bridgewaternj.gov — (908) 722-4111
-- Public Works: https://bridgewaternj.gov/public-works — (908) 725-6300 x6000
-- Recreation: https://bridgewaternj.gov/recreation — (908) 725-6300 x5300
-- Sewer Utility: https://bridgewaternj.gov/sewer — (908) 725-6300 x5515
-- Tax Assessor: https://bridgewaternj.gov/tax-assessor — (908) 725-6300 x5121
-- Tax Collector: https://bridgewaternj.gov/tax-collector — (908) 725-6300 x5143
-- Zoning Department: https://bridgewaternj.gov/zoning — (908) 725-6300 x5541
+- Robert Wood Johnson University Hospital – Somerset — 30 Rehill Avenue, Somerville, NJ 08876 — 40.5730° N, 74.7420° W
+  Website: https://www.rwjbh.org
+- St. Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — 40.4820° N, 74.4470° W
+  Website: https://www.stmichaelshcs.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
+## County Agencies
+- Somerset County Official Site: https://www.co.somerset.nj.us
+- Sheriff's Office: https://www.co.somerset.nj.us/sheriff
+- Prosecutor's Office: https://www.co.somerset.nj.us/prosecutor
+- Assessor: https://www.co.somerset.nj.us/assessor
+- Treasurer: https://www.co.somerset.nj.us/treasurer

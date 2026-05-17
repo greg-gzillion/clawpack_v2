@@ -15,8 +15,8 @@
 ## Detention Center
 - Winslow Township Police Department Holding Facility (Short-Term) — 125 South Route 73, Braddock, NJ 08037
 - Camden County Correctional Facility — 330 Federal Street, Camden, NJ 08103 — (856) 225-7632
-- Inmate Search: https://camden-county-jail-nj.govbackgroundchecks.com
-- Website: https://camdendoc.opsnetwork.org
+  Website: https://camdendoc.opsnetwork.org
+  Inmate Search: https://camden-county-jail-nj.govbackgroundchecks.com
 ## Building Permits
 - Construction & Code Enforcement: https://www.winslowtownship.com/construction
 - Phone: (609) 567-0700 ext. 5
@@ -26,9 +26,38 @@
 - Hours: Mon–Thu 10–8, Fri–Sat 10–5
 ## Hospitals
 - Virtua Mount Holly Hospital — 501 Woodlane Road, Mount Holly, NJ 08060 — (888) 847-8821 — 39.9472° N, 74.8947° W
+  Website: https://www.virtua.org
 - Ancora Psychiatric Hospital — 301 Spring Garden Road, Hammonton, NJ 08037 — (856) 761-6000 — 39.5000° N, 74.7500° W
+  Website: https://www.dhs.nj.gov
 - AtlantiCare Emergency Department, Hammonton — 219 N White Horse Pike, Hammonton, NJ 08037
+  Website: https://www.atlanticare.org
 - Southern Jersey Family Medical Centers — 860 S White Horse Pike, Hammonton, NJ 08037
+  Website: https://www.sjfmc.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://www.co.cape-may.nj.us
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Camden County: https://www.camdencounty.com
 - Sheriff: https://www.camdencounty.com/sheriff

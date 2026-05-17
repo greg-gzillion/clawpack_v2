@@ -9871,3 +9871,770 @@ Wahpeton — city site, police, municipal court, jail, hospital(s) with coordina
 Devils Lake — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
 
 Valley City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+Nebraska 
+
+NE 
+
+BUFFALO
+
+Kearney — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+DAWSON
+
+Lexington_NE — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+DODGE
+
+Fremont — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+DOUGLAS
+
+Omaha — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+HALL
+
+Grand_Island — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+LANCASTER
+
+Lincoln_NE — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+LINCOLN_COUNTY
+
+North_Platte — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+MADISON
+
+Norfolk — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+PLATTE
+
+Columbus_NE — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+SARPY
+
+Bellevue — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Papillion — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+SCOTTS_BLUFF
+
+Scottsbluff — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+BUFFALO
+
+Kearney — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+DAWSON
+
+Lexington_NE — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+DODGE
+
+Fremont — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+DOUGLAS
+
+Omaha — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+HALL
+
+Grand_Island — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+LANCASTER
+
+Lincoln_NE — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+LINCOLN_COUNTY
+
+North_Platte — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+MADISON
+
+Norfolk — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+PLATTE
+
+Columbus_NE — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+SARPY
+
+Bellevue — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Papillion — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+SCOTTS_BLUFF
+
+Scottsbluff — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+Based on Nebraska cities over 5,000 population, here are the ones missing from your tree:
+
+Missing NE cities over 5,000:
+
+Hastings (Adams County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Beatrice (Gage County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+South Sioux City (Dakota County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+La Vista (Sarpy County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Chalco (Sarpy County - CDP) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Blair (Washington County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Nebraska City (Otoe County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Crete (Saline County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Sidney (Cheyenne County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Schuyler (Colfax County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Gering (Scotts Bluff County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Alliance (Box Butte County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+York (York County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+McCook (Red Willow County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Ralston (Douglas County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+Alliance — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Chadron	Dawes — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Ogallala — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Wayne	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Holdrege — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Aurora — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Falls City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Cozad — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Fairbury — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+O'Neill	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Gothenburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Broken Bow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+West Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Valentine— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+Imperial— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+New Hampshire
+
+NH
+
+
+Manchester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~115,000 | County: Hillsborough
+
+Nashua — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~91,000 | County: Hillsborough
+
+Concord — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~44,000 | County: Merrimack
+
+Derry — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~34,000 | County: Rockingham
+
+Dover — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~33,000 | County: Strafford
+
+Rochester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~33,000 | County: Strafford
+
+Salem — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~30,000 | County: Rockingham
+
+Merrimack — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~27,000 | County: Hillsborough (CDP/town)
+
+Londonderry — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~26,000 | County: Rockingham (town)
+
+Hudson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~25,000 | County: Hillsborough (town)
+
+Bedford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~23,000 | County: Hillsborough (town)
+
+Portsmouth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~22,000 | County: Rockingham
+
+Keene — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~22,000 | County: Cheshire
+
+Goffstown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~18,000 | County: Hillsborough (town)
+
+Laconia — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~17,000 | County: Belknap
+
+Hampton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~16,000 | County: Rockingham (town)
+
+Milford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~16,000 | County: Hillsborough (town)
+
+Durham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~16,000 | County: Strafford (town)
+
+Exeter — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~16,000 | County: Rockingham (town)
+
+Windham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~15,000 | County: Rockingham (town)
+
+Lebanon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~15,000 | County: Grafton
+
+Pelham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~14,000 | County: Hillsborough (town)
+
+Hooksett — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~14,000 | County: Merrimack (town)
+
+Amherst — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~12,000 | County: Hillsborough (town)
+
+Hanover — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~12,000 | County: Grafton (town)
+
+Conway — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~10,000 | County: Carroll (town)
+
+Claremont — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~13,000 | County: Sullivan
+
+Berlin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~9,500 | County: Coos
+
+Somersworth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~12,000 | County: Strafford
+
+Franklin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~8,700 | County: Merrimack
+
+Raymond — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~10,000 | County: Rockingham (town)
+
+Weare — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~9,000 | County: Hillsborough (town)
+
+Barrington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~9,000 | County: Strafford (town)
+
+Seabrook — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~8,800 | County: Rockingham (town)
+
+Hampstead — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~8,700 | County: Rockingham (town)
+
+Litchfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~8,500 | County: Hillsborough (town)
+
+Atkinson NH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~7,200 | County: Rockingham (town)
+
+Plaistow NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~7,600 | County: Rockingham (town)
+
+Epping NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~7,200 | County: Rockingham (town)
+
+Newmarket NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~9,200 | County: Rockingham (town)
+
+Belmont NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~7,300 | County: Belknap (town)
+
+Gilford NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~7,200 | County: Belknap (town)
+
+Plymouth NH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~6,800 | County: Grafton (town)
+
+Littleton NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~6,000 | County: Grafton (town)
+
+Peterborough NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~6,500 | County: Hillsborough (town)
+
+Pembroke NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Population: ~7,100 | County: Merrimack (town)
+
+Bow NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! 
+
+
+
+
+Gilford	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Meredith — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Alton	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Barnstead	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Wolfeboro	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Tamworth	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Ossipee	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Wakefield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Moultonborough — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Newport NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Charlestown NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Lancaster — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Colebrook — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Gorham	Coos	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Northumberland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Enfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Haverhill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Campton	NH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+New London NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Hopkinton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Hennike — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Pittsfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+New Boston NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Hollis	 — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Brookline	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Lyndeborough	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Wilton	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Mont Vernon	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Greenville	NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Mason	NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Plaistow	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Kingston	NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Sandown	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Newton	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Fremont	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Northwood	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+Nottingham	NH— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+Lee	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+Farmington	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+New Durham	— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+Swanzey— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+Jaffrey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+Rindge— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Walpole — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Dublin — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+Coös County:
+
+Colebrook— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Other notable missing towns:
+
+Meredith (Belknap) — already done ✅
+
+Tilton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Sanbornton (Belknap) —— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Gilmanton (Belknap) —— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+Tilton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+Rindge— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+Colebrook— city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL!
+
+
+
+
+New Jersey 
+
+NJ
+
+ATLANTIC COUNTY:
+
+Atlantic City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Egg Harbor Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Galloway — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Hamilton Township (Atlantic) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Hammonton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Pleasantville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+BERGEN COUNTY:
+7. Fort Lee — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. Hackensack — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+9. Mahwah — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+10. Paramus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+11. Ridgewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+12. Teaneck — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+BURLINGTON COUNTY:
+13. Evesham — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+14. Mount Laurel — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+15. Willingboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+CAMDEN COUNTY:
+16. Camden City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+17. Cherry Hill — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+18. Gloucester Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+19. Winslow — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+CAPE MAY COUNTY:
+20. Middle Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+21. Ocean City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+CUMBERLAND COUNTY:
+22. Millville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+23. Vineland — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+ESSEX COUNTY:
+24. East Orange — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+25. Irvington — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+26. Newark — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+GLOUCESTER COUNTY:
+27. Washington Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+HUDSON COUNTY:
+28. Bayonne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+29. Hoboken — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+30. Jersey City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+31. Kearny — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+32. North Bergen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+33. Union City — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MERCER COUNTY:
+34. East Windsor — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+35. Hamilton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+36. Princeton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+37. Trenton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MIDDLESEX COUNTY:
+38. Edison — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+39. Monroe — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+40. New Brunswick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+41. Piscataway — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+42. Woodbridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MONMOUTH COUNTY:
+43. Freehold — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+44. Howell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+45. Long Branch — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MORRIS COUNTY:
+46. Morris Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+47. Morristown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+48. Parsippany — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+49. Randolph — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+OCEAN COUNTY:
+50. Brick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+51. Jackson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+52. Toms River — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+PASSAIC COUNTY:
+53. Clifton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+54. Paterson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+55. Wayne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+56. West Milford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+SOMERSET COUNTY:
+57. Bridgewater — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+58. Franklin Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+SUSSEX COUNTY:
+59. Vernon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+UNION COUNTY:
+60. Elizabeth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+61. Plainfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+62. Westfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+WARREN COUNTY:
+63. Phillipsburg — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+BERGEN COUNTY:
+
+Garfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Lodi — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Englewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Fair Lawn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Bergenfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+ESSEX COUNTY:
+6. Montclair — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Bloomfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. Belleville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+9. Nutley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+10. West Orange — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+11. Livingston — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+HUDSON COUNTY:
+12. West New York — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MIDDLESEX COUNTY:
+13. Old Bridge — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+14. Sayreville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+15. Perth Amboy — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MONMOUTH COUNTY:
+16. Middletown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+17. Howell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+18. Neptune — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+OCEAN COUNTY:
+19. Lakewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+20. Manchester — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+UNION COUNTY:
+21. Linden — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+22. Union Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+GLOUCESTER COUNTY:
+23. Deptford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+BERGEN COUNTY (continued):
+6. Cliffside Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Dumont — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. Elmwood Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+9. Hasbrouck Heights — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+10. Little Ferry — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+11. Lyndhurst — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+12. New Milford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+13. Palisades Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+14. Ramsey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+15. Rutherford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+16. Wyckoff — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+ESSEX COUNTY (continued):
+12. Cedar Grove — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+13. Maplewood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+14. Millburn — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+15. South Orange — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+16. Verona — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MIDDLESEX COUNTY (continued):
+4. Carteret — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+5. East Brunswick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+6. Highland Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Metuchen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. North Brunswick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+9. South Brunswick — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+10. South Plainfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MONMOUTH COUNTY (continued):
+4. Hazlet — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+5. Manalapan — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+6. Marlboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Ocean Township — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. Wall — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MORRIS COUNTY (continued):
+5. Hanover — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+6. Jefferson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Montville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. Rockaway — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+OCEAN COUNTY (continued):
+3. Berkeley — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+4. Lacey — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+5. Stafford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+UNION COUNTY (continued):
+3. Rahway — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+4. Summit — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+5. Cranford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+6. Hillside — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Roselle — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+8. Scotch Plains — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+BURLINGTON COUNTY (continued):
+4. Pemberton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+5. Moorestown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+GLOUCESTER COUNTY (continued):
+2. Glassboro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+CUMBERLAND COUNTY:
+
+Bridgeton — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+ATLANTIC COUNTY:
+
+Absecon — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Somers Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+
+
+ATLANTIC COUNTY:
+
+Somers Point — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+BERGEN COUNTY:
+2. Bergenfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+3. Tenafly — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+BURLINGTON COUNTY:
+4. Cinnaminson — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+5. Delran — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+6. Maple Shade — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+7. Medford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+CAMDEN COUNTY:
+8. Collingswood — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+9. Haddonfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+10. Pennsauken — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+11. Voorhees — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+ESSEX COUNTY:
+12. Belleville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+13. Caldwell — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+14. Fairfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+GLOUCESTER COUNTY:
+15. West Deptford — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+16. Woodbury — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+HUDSON COUNTY:
+17. Secaucus — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+18. Weehawken — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MIDDLESEX COUNTY:
+19. South River — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MONMOUTH COUNTY:
+20. Aberdeen — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+21. Eatontown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+22. Holmdel — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+23. Red Bank — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+24. Tinton Falls — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+MORRIS COUNTY:
+25. Denville — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+26. Dover — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+27. Lincoln Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+28. Madison — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+29. Pequannock — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+OCEAN COUNTY:
+30. Barnegat — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+31. Little Egg Harbor — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+32. Point Pleasant — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+PASSAIC COUNTY:
+33. Hawthorne — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+34. Pompton Lakes — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+SOMERSET COUNTY:
+35. Bernards — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+36. Hillsborough — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+37. Montgomery — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+SUSSEX COUNTY:
+38. Hopatcong — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+39. Sparta — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+UNION COUNTY:
+40. Berkeley Heights — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+41. Clark — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+42. Kenilworth — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+43. New Providence — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+44. Springfield — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+45. Roselle Park — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+WARREN COUNTY:
+46. Hackettstown — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+

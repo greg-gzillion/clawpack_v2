@@ -3,54 +3,72 @@
 - Westfield Municipal Court
 - Address: 425 East Broad Street, Westfield, NJ 07090
 - Phone: (908) 789-4060
-- Court Website: https://westfieldnj.gov/court
-- Online Services: NJMCDirect
+- Court Website: https://www.westfieldnj.gov/court
+- Payments: www.njmcdirect.com
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
-- Union County Superior Court: 2 Broad Street, Elizabeth, NJ 07207
-- Phone: (908) 659-4600
+- Union County Superior Court: 2 Broad Street, Elizabeth, NJ 07201
+- Phone: (908) 659-5800
 - Website: https://www.njcourts.gov/courts/union
 ## Town Website
 - https://www.westfieldnj.gov
 - Address: 425 East Broad Street, Westfield, NJ 07090
 - Phone: (908) 789-4040
-- Coordinates: 40.6516° N, 74.3432° W
 ## Police Department
 - Westfield Police Department
 - Address: 425 East Broad Street, Westfield, NJ 07090
 - Emergency: 911
 - Non-Emergency: (908) 789-4000
-- Police Website: https://westfieldnj.gov/police
-- Divisions: Patrol, Detective Bureau, Records, Traffic Safety, Communications
+- Police Website: https://www.westfieldnj.gov/police
 ## Detention Center
-- Westfield does not operate a jail
-- Union County Jail — 15 Elizabethtown Plaza, Elizabeth, NJ 07207 — (908) 558-2600
-- Website: https://ucnj.org/corrections
-- Coordinates: 40.6622° N, 74.2167° W
+- Westfield Police Detention (Short-Term Only) — 425 East Broad Street, Westfield, NJ 07090
+- Union County Jail — 301 North Avenue East, Elizabeth, NJ 07201 — (908) 354-3400
+  Website: https://ucnj.org
+  Inmate Search: Inmate Roster
+  Coordinates: 40.6560° N, 74.1950° W
 ## Building Permits
-- Westfield Building Department
-- Website: https://westfieldnj.gov/building
+- Westfield Building & Construction
+- Website: https://www.westfieldnj.gov/building
 - Phone: (908) 789-4125
-- Address: 959 North Avenue West, Westfield, NJ 07090
-- SDL Portal: https://sdl.town/westfield
-- Permit Types: New construction, additions, decks, pools, sheds, electrical, plumbing
-- Inspections: Mon–Fri 7:30–1:00
+- Online Portal: SDL Portal
 ## Library
 - Westfield Memorial Library
 - Address: 550 East Broad Street, Westfield, NJ 07090
 - Phone: (908) 789-4670
-- Coordinates: 40.6514° N, 74.3435° W
-- Website: https://westfieldlibrary.org
+- Website: https://www.westfieldlibrary.org
 ## Hospitals
-- Hackensack Meridian Mountainside Medical Center — 150 New Providence Road, Mountainside, NJ 07092 — (908) 233-3720 — 40.6497° N, 74.3605° W
-  Website: https://mountainsidehosp.com
-- Robert Wood Johnson University Hospital Somerset — 110 Rehill Avenue, Somerville, NJ 08876 — (908) 685-2200 — 40.5619° N, 74.6403° W
-  Website: https://rwjbh.org/somerset
-- Robert Wood Johnson University Hospital Rahway — 865 Stone Street, Rahway, NJ 07065
-- Overlook Medical Center Emergency Room — 99 Beauvoir Avenue, Summit, NJ 07901
+- Overlook Medical Center — 99 Beauvoir Avenue, Summit, NJ 07901 — 40.7100° N, 74.3600° W
+  Website: https://www.overlookmedicalcenter.org
+- Trinitas Regional Medical Center — 225 Williamson Street, Elizabeth, NJ 07207 — 40.6670° N, 74.2160° W
+  Website: https://www.trinitasregional.com
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Agencies
-- Union County Official Site: https://www.ucnj.org
-- Sheriff's Office: https://www.ucnj.org/sheriff
-- Prosecutor's Office: https://www.ucnj.org/prosecutor
-- Assessor: https://www.ucnj.org/assessor
-- Treasurer: https://www.ucnj.org/treasurer
+- Union County Official Site: https://ucnj.org
+- Sheriff's Office: https://ucnj.org/sheriff
+- Prosecutor's Office: https://ucnj.org/prosecutor
+- Assessor: https://ucnj.org/assessor
+- Treasurer: https://ucnj.org/treasurer

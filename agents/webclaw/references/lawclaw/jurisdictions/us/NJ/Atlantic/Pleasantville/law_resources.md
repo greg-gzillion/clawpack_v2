@@ -1,32 +1,53 @@
-﻿# Pleasantville — Local Law Resources
+﻿# Pleasantville
 ## City Website
 - https://www.pleasantville-nj.org
-- Address: 18 N. First Street, Pleasantville, NJ 08232 — (609) 484-3600
-- Hours: Mon–Fri 8:30–5
-- Coordinates: 39.3931° N, 74.5229° W
-## Law Enforcement
-- Pleasantville Police Department — https://pleasantvillepd.org
-- Emergency: 911 | Non-Emergency: (609) 484-3666
 - Address: 18 N. First Street, Pleasantville, NJ 08232
-## Courts
-- Joint Municipal Court of Atlantic City — https://www.acnj.gov/Departments/municipal-court
-- Address: 2715 Atlantic Avenue, Atlantic City, NJ 08401 — (609) 347-5560
-- Atlantic County Superior Court: 1201 Bacharach Boulevard, Atlantic City, NJ 08401 — (609) 345-6700
-## Detention Center
-- Pleasantville Police Department Holding Facility (Short-Term) — 18 N. First Street, Pleasantville, NJ 08232
-- Atlantic County Justice Facility — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
-- Inmate Search: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail/inmate-services
-- Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
-## Building Permits
-- Building Department: https://www.pleasantville-nj.org/building
-- Phone: (609) 484-3614
+- Phone: (609) 484-3600
+## Police Department
+- Pleasantville Police Department
+- Website: https://pleasantvillepd.org
+- Address: 17 N. 1st Street, Pleasantville, NJ 08232
+- Phone: (609) 641-6100 (non-emergency)
+- Emergency: 911
+## Municipal Court
+- Atlantic City Joint Municipal Court (consolidated, effective January 1, 2024)
+- NJMCDirect: https://www.njmcdirect.com
+- Address: 2715 Atlantic Avenue, 2nd Floor, Atlantic City, NJ 08401
+- Phone: (609) 347-5560
+- Handles all Pleasantville municipal cases
+## Detention Facilities
+### Pleasantville Police Holding (Short-Term)
+- Pleasantville does not operate a jail; detainees transferred to county facility
+### Atlantic County Detention Center
+- Website: https://www.acsheriff.org
+- Inmate Search: Inmate Roster
+- Address: 5060 Atlantic Avenue, Mays Landing, NJ 08330
+- Phone: (609) 645-5855
+- Coordinates: 39.4133° N, 74.5864° W
+## Hospitals with Coordinates
+- AtlantiCare City Campus
+  Address: 2500 Bacharach Boulevard, Atlantic City, NJ 08401
+  Coordinates: 39.3650° N, 74.4594° W
+  Website: https://www.atlanticare.org
+- AtlantiCare Emergency Department, Pleasantville
+  Address: 1000 Huron Avenue, Pleasantville, NJ 08232
+  Coordinates: 39.3905° N, 74.4760° W
+  Website: https://www.atlanticare.org
 ## Library
-- Pleasantville Public Library — https://www.pleasantville-nj.org/library
-- Address: 18 N. First Street, Pleasantville, NJ 08232 — (609) 484-3610
-## Hospitals
-- AtlantiCare City Campus — 1925 Pacific Avenue, Atlantic City, NJ 08401 — (609) 345-3000 — 39.3631° N, 74.4267° W
-- Southern Jersey Family Medical Centers — 932 S Main St, Pleasantville, NJ 08232
-- Shore Medical Center — 100 Medical Center Way, Somers Point, NJ 08244
-## County Resources
-- Atlantic County: https://www.atlanticcountynj.gov
-- Sheriff: https://www.atlanticcountynj.gov/government/county-departments/sheriff
+- Pleasantville Public Library
+  Website: https://www.pleasantvillelibrary.org
+  Address: 1214 Huron Avenue, Pleasantville, NJ 08232
+  Phone: (609) 641-2787
+## Building Permits
+- Building & Zoning
+  Website: https://www.pleasantville-nj.org/building.html
+  Phone: (609) 484-3614
+  Located at City Hall Annex, 132 West Washington Avenue
+## Municipal Agencies
+- City of Pleasantville: https://www.pleasantville-nj.org
+- Pleasantville Police: https://pleasantvillepd.org
+- Atlantic County Government: https://www.atlanticcountynj.gov
+- Atlantic County Sheriff: https://www.acsheriff.org
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Delaney Hall (ICE Detention): https://www.ice.gov/detain/delaneypark

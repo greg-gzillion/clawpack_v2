@@ -15,7 +15,7 @@
 ## Detention Center
 - Highland Park Police Holding Facility (Short-Term) — 222 South Fifth Avenue, Highland Park, NJ 08904
 - Middlesex County Adult Corrections Center — 1 Apple Orchard Lane, North Brunswick, NJ 08902 — (732) 951-3320
-- Website: https://www.middlesexcountynj.gov/.../adult-corrections
+- Website: https://www.middlesexcountynj.gov/government/departments/department-of-public-safety-and-health/office-of-adult-correction-and-youth-services/adult-corrections
 ## Building Permits
 - Building & Construction: https://www.hpboro.com/construction
 - Phone: (732) 777-6013 | Construction Official: Scott Brescher
@@ -24,8 +24,11 @@
 - Website: https://www.hpplnj.org
 ## Hospitals
 - Robert Wood Johnson University Hospital — 1 Robert Wood Johnson Place, New Brunswick, NJ 08903 — (732) 828-3000 — 40.4869° N, 74.4469° W
+  Website: https://www.rwjbh.org
 - Saint Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — (732) 745-8600 — 40.4867° N, 74.4467° W
+  Website: https://www.saintpetersuh.org
 - The Children's Hospital — 254 Easton Avenue, New Brunswick, NJ 08901
+  Website: https://www.saintpetersuh.org
 ## County Resources
 - Middlesex County: https://www.middlesexcountynj.gov
 - Sheriff: https://www.middlesexcountynj.gov/sheriff

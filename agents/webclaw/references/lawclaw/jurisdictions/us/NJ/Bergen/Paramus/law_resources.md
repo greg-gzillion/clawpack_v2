@@ -1,33 +1,55 @@
-﻿# Paramus — Local Law Resources
+﻿# Paramus
 ## Borough Website
 - https://www.paramusborough.gov
-- Address: 110 Paramus Road, Paramus, NJ 07652 — (201) 265-2100
-- Hours: Mon–Thu 8:30–4:30
-- Coordinates: 40.9837° N, 74.1008° W
-## Law Enforcement
-- Paramus Police Department — https://www.paramuspd.org
-- Emergency: 911 | Non-Emergency: (201) 262-7800
-- Address: 110 Paramus Road, Paramus, NJ 07652
-## Courts
-- Paramus Borough Municipal Court — https://www.paramusborough.gov/court
-- Address: 110 Paramus Road, Paramus, NJ 07652 — (201) 262-7800
-- Bergen County Superior Court: 10 Main Street, Hackensack, NJ 07601 — (201) 527-2000
-## Detention Center
-- Paramus Police Department Holding Facility (Short-Term) — 110 Paramus Road, Paramus, NJ 07652
-- Bergen County Jail — 160 South River Street, Hackensack, NJ 07601 — (201) 527-3000
-- Inmate Search: https://www.bergenjailroster.org
-- Website: https://www.co.bergen.nj.us/sheriff
-## Building Permits
-- Construction Department: https://www.paramusborough.gov/construction
-- Phone: (201) 265-2100 ext. 2230
+- Address: 1 Jockish Square, Paramus, NJ 07652
+- Phone: (201) 265-2100
+## Police Department
+- Paramus Police Department
+- Website: https://www.paramuspd.org
+- Address: 1 Carlough Drive, Paramus, NJ 07652
+- Phone: (201) 262-3400 (Non-emergency)
+- Emergency: 911
+## Municipal Court
+- Paramus Municipal Court
+- Website: https://www.paramusborough.gov/291/Municipal-Court
+- Address: 1 Jockish Square, Paramus, NJ 07652
+- Phone: (201) 265-2100 ext. 223
+- Payments: https://www.njmcdirect.com
+## Detention Facilities
+### Paramus Police Department Holding Cell (Short-Term)
+- Location: 1 Carlough Drive, Paramus, NJ 07652
+- Function: Temporary holding (up to 72 hours); no visitation, commissary, or inmate phone services
+- Inmate Inquiries: (201) 262-3400
+### Bergen County Jail (Primary Detention Center)
+- Website: https://www.bcsd.us/bccrc
+- Inmate Search: Bergen County Inmate Locator
+- Address: 160 South River Street, Hackensack, NJ 07601
+- Phone: (201) 336-3500
+- Coordinates: 40.8734° N, 74.0399° W
+## Hospitals with Coordinates
+- Valley Hospital Medical Center
+  Address: 223 N Van Dien Avenue, Ridgewood, NJ 07450
+  Coordinates: 40.9960° N, 74.1008° W
+  Website: https://www.valleyhealth.com
+- Englewood Hospital and Medical Center
+  Address: 350 Engle Street, Englewood, NJ 07631
+  Coordinates: 40.9048° N, 73.9960° W
+  Website: https://www.englewoodhealth.org
 ## Library
-- Paramus Public Library — https://www.paramuslibrary.org
-- Address: 199 Lockett Avenue, Paramus, NJ 07652 — (201) 262-6180
-- Hours: Mon–Thu 9–9, Fri–Sat 9–5
-## Hospitals
-- The Valley Hospital — 4 Valley Health Plaza, Paramus, NJ 07652 — (201) 447-8000 — 40.9837° N, 74.1008° W
-- Bergen New Bridge Medical Center — 230 E Ridgewood Avenue, Paramus, NJ 07652
-- Hackensack University Medical Center — 30 Prospect Avenue, Hackensack, NJ 07601 — (800) 822-8820 — 40.8881° N, 74.0475° W
-## County Resources
-- Bergen County: https://www.co.bergen.nj.us
-- Sheriff: https://www.co.bergen.nj.us/sheriff
+- Paramus Public Library
+  Website: https://www.paramuslibrary.org
+  Address: 235 S Paramus Road, Paramus, NJ 07652
+  Phone: (201) 262-6180
+## Building Permits
+- Department of Inspections
+  Website: https://www.paramusborough.org/153/Building
+  Phone: (201) 265-2100 ext. 234
+  Located at 1 Jockish Square
+## Municipal Agencies
+- Borough of Paramus: https://www.paramusborough.gov
+- Paramus Police: https://www.paramuspd.org
+- Paramus Municipal Court: https://www.paramusborough.gov/court
+- Bergen County Government: https://www.co.bergen.nj.us
+- Bergen County Sheriff: https://www.bcsd.us
+- NJ Municipal Court System: https://www.njmcdirect.com
+- NJ Department of Corrections: https://www.nj.gov/corrections

@@ -1,31 +1,58 @@
 ﻿# Edison — Local Law Resources
 ## Township Website
 - https://www.edisonnj.org
-- Address: 100 Municipal Boulevard, Edison, NJ 08817 — (732) 248-7328
-- Hours: Mon–Fri 8–4:30
-- Coordinates: 40.5220° N, 74.3935° W
+- Address: 100 Municipal Boulevard, Edison, NJ 08817 — (732) 248-7200
 ## Law Enforcement
-- Edison Police Division — https://edisonnj.gov/police
-- Emergency: 911 | Non-Emergency: (732) 248-7400
+- Edison Police Department — https://www.edisonnj.org/police
+- Emergency: 911 | Non-Emergency: (732) 248-7367
 - Address: 100 Municipal Boulevard, Edison, NJ 08817
 ## Courts
-- Edison Municipal Court — https://www.edisonnj.org/municipal_court
+- Edison Municipal Court — https://www.edisonnj.org/court
 - Address: 100 Municipal Boulevard, Edison, NJ 08817 — (732) 248-7328
-- Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08903 — (732) 645-4300
+- Payments: www.njmcdirect.com
+- Middlesex County Superior Court: 56 Paterson Street, New Brunswick, NJ 08901 — (732) 645-4300
 ## Detention Center
-- Edison Police Division Holding Facility (Short-Term) — 100 Municipal Boulevard, Edison, NJ 08817
-- Middlesex County Adult Correctional Complex — 300 Centennial Avenue, Piscataway, NJ 08854 — (732) 745-4300
-- Website: https://www.middlesexcountynj.gov
+- Edison does not operate a municipal jail
+- Middlesex County Adult Correctional Center — 265 Westmoblie Avenue, North Brunswick, NJ 08902 — (732) 249-1900
+  Website: https://www.middlesexcountynj.gov
+  Inmate Search: Middlesex County Inmate Locator
+  Coordinates: 40.4461° N, 74.4480° W
 ## Building Permits
-- Construction Department: https://www.edisonnj.org/construction
-- Phone: (732) 248-7257
+- Construction Code Enforcement: https://www.edisonnj.org/construction
+- Phone: (732) 248-7257 | Location: 100 Municipal Boulevard
 ## Library
-- Edison Public Library (Main) — https://www.edisonnj.org/library
-- Address: 345 Plainfield Avenue, Edison, NJ 08820 — (732) 248-8000
+- Edison Public Library — https://www.edisonnj.org/library
+- Address: 345 Plainfield Avenue, Edison, NJ 08820 — (732) 287-2298
 ## Hospitals
-- HMH JFK University Medical Center — 65 James Street, Edison, NJ 08818 — (732) 321-5111 — 40.5167° N, 74.3917° W
-- Saint Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901
-- Robert Wood Johnson University Hospital — 1 Robert Wood Johnson Place, New Brunswick, NJ 08901
+- Robert Wood Johnson University Hospital – New Brunswick — 1 Robert Wood Johnson Place, New Brunswick, NJ 08901 — 40.4888° N, 74.4488° W
+  Website: https://www.rwjbh.org
+- St. Peter's University Hospital — 254 Easton Avenue, New Brunswick, NJ 08901 — 40.4820° N, 74.4470° W
+  Website: https://www.stmichaelshcs.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Middlesex County: https://www.middlesexcountynj.gov
 - Sheriff: https://www.middlesexcountynj.gov/sheriff

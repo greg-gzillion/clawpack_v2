@@ -2,32 +2,57 @@
 ## City Website
 - https://www.jerseycitynj.gov
 - Address: 280 Grove Street, Jersey City, NJ 07302 — (201) 547-5000
-- Hours: Mon–Fri 8:30–4:30
-- Coordinates: 40.7282° N, 74.0776° W | Second-largest city in NJ
 ## Law Enforcement
-- Jersey City Police Department — https://www.jerseycitynj.gov/police
+- Jersey City Police Department — https://www.jerseycitynj.gov/publicsafety/police
 - Emergency: 911 | Non-Emergency: (201) 547-5477
-- Address: 356 Martin Luther King Drive, Jersey City, NJ 07305
+- Address: 1 Jackson Avenue, Jersey City, NJ 07304
 ## Courts
-- Jersey City Municipal Court — https://www.jerseycitynj.gov/municipal-court
-- Address: Lewis S. McRae Justice Complex, 365 Summit Avenue, Jersey City, NJ 07306 — (201) 209-6700
-- Hudson County Superior Court: 595 Newark Avenue, Jersey City, NJ 07306 — (201) 795-6000
+- Jersey City Municipal Court — https://www.jerseycitynj.gov/law/municipalcourt
+- Address: 280 Grove Street, Jersey City, NJ 07302 — (201) 547-5640
+- Payments: www.njmcdirect.com
+- Hudson County Superior Court: 595 Newark Avenue, Jersey City, NJ 07306 — (201) 748-4400
 ## Detention Center
-- Jersey City Police Department Holding Facility (Short-Term) — 356 Martin Luther King Drive, Jersey City, NJ 07305
-- Hudson County Correctional Facility — 300 Newark Avenue, Kearny, NJ 07032 — (201) 793-3400
-- Website: https://www.hudsoncountynj.gov
+- Jersey City Police Department Holding (Short-Term) — 1 Jackson Avenue, Jersey City, NJ 07304
+- Hudson County Correctional Facility — 30–35 Hackensack Avenue, Kearny, NJ 07032 — (201) 395-5600
+  Website: https://www.hudsoncountynj.gov
+  Inmate Search: Hudson County Inmate Roster
+  Coordinates: 40.7619° N, 74.0761° W
 ## Building Permits
-- Construction Code Office: https://www.jerseycitynj.gov/construction-code
-- Phone: (201) 547-5055 | Online: PermitFlow
+- Construction Code Office: https://www.jerseycitynj.gov/housinganddevelopment/constructioncode
+- Phone: (201) 547-5070 | Online Portal: jcnj.org/permitportal
 ## Library
-- Jersey City Free Public Library (Main) — https://www.jerseycitylibrary.org
-- Address: 474 Jersey Avenue, Jersey City, NJ 07302 — (201) 547-4526
-- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Jersey City Free Public Library — https://jclibrary.org
+- Address: 472 Jersey Avenue, Jersey City, NJ 07302 — (201) 547-4500
 ## Hospitals
-- Christ Hospital — 176 Palisade Avenue, Jersey City, NJ 07306 — (201) 795-5000 — 40.7250° N, 74.0667° W
-- Jersey City Medical Center — 355 Grand Street, Jersey City, NJ 07302
-- Hudson Regional Hospital — 55 Meadowlands Parkway, Secaucus, NJ 07094
-- Hoboken University Medical Center — 308 Willow Avenue, Hoboken, NJ 07030 — (201) 418-1000 — 40.7425° N, 74.0286° W
+- Christ Hospital — 176 Palisade Avenue, Jersey City, NJ 07306 — 40.7333° N, 74.0556° W
+  Website: https://www.christhospital.com
+- Jersey City Medical Center — 355 Grand Street, Jersey City, NJ 07302 — 40.7280° N, 74.0500° W
+  Website: https://www.rwjbh.org
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Center: https://capemaycountynj.gov/corrections
+- Cumberland County Jail: https://www.cumberlandcountynj.gov
+- Essex County Correctional Facility: https://www.essexcountynj.org
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correction Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
+- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
 ## County Resources
 - Hudson County: https://www.hudsoncountynj.gov
 - Sheriff: https://www.hudsoncountynj.gov/sheriff
