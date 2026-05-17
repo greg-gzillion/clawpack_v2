@@ -1,49 +1,67 @@
-﻿# Middle Township
+﻿# Middle Township — Local Law Resources
 ## Township Website
 - https://middletownship.com
-- Address: 33 Mechanic Street, Cape May Court House, NJ 08210
-- Phone: (609) 465-8732
-## Police Department
-- Middle Township Police Department
-- Website: https://middlepd.com
-- Address: 400 West Mechanic Street, Cape May Court House, NJ 08210
-- Phone: (609) 465-8700
-- Emergency: 911
-## Municipal Court
+- Address: 33 Mechanic Street, Cape May Court House, NJ 08210 — (609) 465-8732
+- Office Hours: Mon–Fri 7:30 AM – 4:00 PM
+## Law Enforcement
+- Middle Township Police Department — https://middletownship.com/police
+- Address: 1001 Route 9, Cape May Court House, NJ 08210
+- Emergency: 911 | Non-Emergency: (609) 465-8700
+## Courts
 - Middle Township Municipal Court
-- Website: https://middletownship.com/departments/courts/
-- Address: 33 Mechanic Street, Cape May Court House, NJ 08210
 - Phone: (609) 465-8729
-- Payments: https://www.njmcdirect.com
-## Detention Facilities
-### Middle Township Police Holding (Short-Term)
-- Middle Township does not operate a jail; detainees transferred to county facility
-### Cape May County Correctional Facility
-- Website: https://www.capemaycountynj.gov/departments/sheriff/corrections
-- Inmate Search: Cape May County Inmate Roster
-- Address: 200 Crest Haven Road, Cape May Court House, NJ 08210
-- Phone: (609) 465-1400
-- Coordinates: 39.0919° N, 74.8389° W
-## Hospitals with Coordinates
-- Cape Regional Medical Center
-  Address: 100 Medical Center Drive, Cape May Court House, NJ 08210
-  Coordinates: 39.0853° N, 74.8394° W
-  Website: https://www.caperegional.com
-## Library
-- Jersey Shore Libraries – Cape May Court House Branch
-  Website: https://www.jerseyshorelibraries.org
-  Address: 414 Route 9, Cape May Court House, NJ 08210
-  Phone: (609) 465-2777
+- Website: https://middletownship.com/municipal-court
+- Cape May County Superior Court: 9 N Main Street, Cape May Court House, NJ 08210 — (609) 465-1000
+  Website: https://www.njcourts.gov
+## Detention Center
+- Cape May County Correctional Facility — 1 Sheriff Drive, Mays Landing, NJ 08330 — (609) 625-2800
+  Website: https://capemayjail.org | Inmate Search: https://www.co.cape-may.nj.us
+- NJDOC Inmate Locator: https://inmatelocator.nj.gov
 ## Building Permits
-- Construction Department
-  Website: https://middletownship.com/departments/construction/
-  Phone: (609) 465-8740
-  Located at 10 South Boyd Street
-## Municipal Agencies
-- Middle Township: https://middletownship.com
-- Middle Township Police: https://middlepd.com
-- Middle Township Municipal Court: https://middletownship.com/court
-- Cape May County Government: https://www.capemaycountynj.gov
-- Cape May County Sheriff: https://www.capemaycountynj.gov/sheriff
-- NJ Municipal Court System: https://www.njmcdirect.com
+- Building Department: https://middletownship.com/construction
+- Construction Official: Daniel Speigel — (609) 465-8740 — construction@middletownship.com
+- Zoning Officer: zoning@middletownship.com
+- Online Portal: Permit Application
+- Required: Additions, sheds, pools, decks, electrical, plumbing, HVAC
+## Library
+- Cape May County Library – Middle Township Branch — https://www.co.cape-may.nj.us
+- Address: 110 South Main Street, Cape May Court House, NJ 08210 — (609) 465-8743
+## Hospitals
+- Cape Regional Medical Center — 1048 Delsea Drive, Cape May Court House, NJ 08210 — 39.1761° N, 74.7581° W
+  Website: https://www.capehealth.org
+## Additional Resources
+- Government Directory: https://middletownship.com/administration
+- Mayor & Council: https://middletownship.com/administration
+- Finance & Taxes: https://middletownship.com/tax-collector
+- Public Works: https://middletownship.com/public-works
+- Board of Health: https://www.co.cape-may.nj.us
+- Planning Board: https://middletownship.com/planning-board
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Facility: https://capemayjail.org
+- Cumberland County Jail: https://www.co.cumberland.nj.us
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hcnj.us/corrections
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correctional Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Complex: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.monmouthcountynj.gov
+- Morris County Correctional Facility: https://www.mcsonj.org/divisions/corrections/
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
 - NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
+- NJDOC Inmate Locator: https://inmatelocator.nj.gov
+## County Resources
+- Cape May County: https://www.co.cape-may.nj.us
+- Sheriff: https://www.co.cape-may.nj.us/sheriff

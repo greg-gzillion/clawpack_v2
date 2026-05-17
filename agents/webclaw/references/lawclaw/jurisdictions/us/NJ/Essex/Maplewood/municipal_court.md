@@ -1,51 +1,77 @@
 ﻿# Maplewood Courts
 ## Municipal Court
-- Maplewood Municipal Court
-- Address: 574 Valley Street, Maplewood, NJ 07040
+- Address: 1618 Springfield Avenue, Maplewood, NJ 07040
 - Phone: (973) 762-2839
-- Court Website: https://www.maplewoodnj.gov/government/township-clerk/municipal-court
+- Website: https://www.maplewoodnj.gov/court
 - Handles: Traffic violations, disorderly persons offenses, municipal ordinances
 ## Superior Court (Felonies/Major Civil)
-- Essex County Superior Court: 50 West Market Street, Newark, NJ 07102
+- Essex County Superior Court: 50 W Market Street, Newark, NJ 07102
 - Phone: (973) 693-5700
-- Website: https://www.njcourts.gov/courts/essex
+- Website: https://www.njcourts.gov
 ## Township Website
 - https://www.maplewoodnj.gov
-- Address: 574 Valley Street, Maplewood, NJ 07040
-- Phone: (973) 762-8120
-- Coordinates: 40.7299° N, 74.2720° W
-## Police Department
-- Maplewood Police Department
 - Address: 1618 Springfield Avenue, Maplewood, NJ 07040
+- Phone: (973) 762-8120
+- Office Hours: Mon–Fri 8:30 AM – 4:30 PM
+## Police Department
+- Maplewood Police Department — https://www.maplewoodnj.gov/police
+- Address: 125 Dunnell Road, Maplewood, NJ 07040
 - Emergency: 911
 - Non-Emergency: (973) 762-3400
-- Police Website: https://www.maplewoodnj.gov/government/maplewood-police-department
-- Coordinates: 40.7224° N, 74.2582° W
 ## Detention Center
-- Maplewood has no jail
-- Essex County Correctional Facility — 354 Doremus Avenue, Newark, NJ 07105 — (973) 274-7500
-- Website: https://www.essexcountynj.org
+- Essex County Correctional Facility — 300 Orange Street, Newark, NJ 07103 — (973) 877-6100
+  Website: https://www.essexcountynj.gov/corrections
+  Inmate Search: https://www.essexcountynj.gov
+- NJDOC Inmate Locator: https://inmatelocator.nj.gov
 ## Building Permits
-- Maplewood Department of Community Development
-- Website: https://www.maplewoodnj.gov/government/community-development
-- Phone: (973) 762-8120 ext. 3700
-- Permit Types: Construction, electrical, plumbing, zoning, CCO
+- Building Department: https://www.maplewoodnj.gov/construction
+- Construction Official: Darius Pokoj — (973) 762-8120 ext. 3600 — dpokoj@maplewoodnj.gov
+- Zoning Officer: zoning@maplewoodnj.gov
+- Portal: Inspection Request Form
+- Required: Additions, sheds, pools, decks, electrical, plumbing, HVAC
 ## Library
-- Maplewood Memorial Library
-- Address: 129 Boyden Avenue, Maplewood, NJ 07040
-- Phone: (973) 762-3434
-- Coordinates: 40.7300° N, 74.2700° W
-- Website: https://www.maplewoodnj.gov/government/community-services/library
+- Maplewood Memorial Library — https://www.maplewoodlibrary.org
+- Address: 80 South Orange Avenue, Maplewood, NJ 07040
+- Phone: (973) 762-0616
 ## Hospitals
-- Cooperman Barnabas Medical Center — 94 Old Short Hills Road, Livingston, NJ 07039 — (973) 322-5000 — 40.7630° N, 74.3580° W
-  Website: https://www.coopermanbarnabas.org
-- Overlook Medical Center – Union Campus — 1000 Galloping Hill Road, Union, NJ 07083 — (908) 522-6300 — 40.6740° N, 74.2980° W
-  Website: https://www.hackensackmeridianhealth.org/en/locations/overlook-medical-center
-- CARE WELL HEALTH MEDICAL CENTER — 300 Central Avenue, East Orange, NJ 07018
-- Newark Community Health Center — 444 William Street, East Orange, NJ 07017
+- Saint Barnabas Medical Center — 94 Old Short Hills Road, Livingston, NJ 07039 — 40.7750° N, 74.3250° W
+  Website: https://www.barnabashealth.org
+## Additional Township Resources
+- Government Directory: https://www.maplewoodnj.gov/directory
+- Mayor & Council: https://www.maplewoodnj.gov/government
+- Finance & Taxes: https://www.maplewoodnj.gov/finance
+- Public Works: https://www.maplewoodnj.gov/public-works
+- Board of Health: https://www.maplewoodnj.gov/health
+- Planning Board: https://www.maplewoodnj.gov/planning-board
+## Statewide Detention Center URLs
+- Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
+- Bergen County Jail: https://www.bcsd.us
+- Burlington County Detention Center: https://www.co.burlington.nj.us
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Facility: https://capemayjail.org
+- Cumberland County Jail: https://www.co.cumberland.nj.us
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
+- Gloucester County Jail: https://www.co.gloucester.nj.us
+- Hudson County Correctional Facility: https://www.hcnj.us/corrections
+- Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
+- Mercer County Correctional Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Complex: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.monmouthcountynj.gov
+- Morris County Correctional Facility: https://www.mcsonj.org/divisions/corrections/
+- Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
+- Passaic County Jail: https://www.passaiccountynj.org
+- Salem County Correctional Facility: https://www.co.salem.nj.us
+- Somerset County Jail: https://www.co.somerset.nj.us
+- Sussex County Jail: https://www.co.sussex.nj.us
+- Union County Jail: https://www.ucnj.org/sheriff
+- Warren County Correctional Center: https://www.co.warren.nj.us
+- New Jersey State Prison: https://www.nj.gov/corrections
+- NJ Department of Corrections: https://www.nj.gov/corrections
+- Inmate Locator (NJDEN): https://njdens.nj.gov
+- NJDOC Inmate Locator: https://inmatelocator.nj.gov
 ## County Agencies
-- Essex County Official Site: https://www.essexcountynj.org
-- Sheriff's Office: https://www.essexcountynj.org/sheriff
-- Prosecutor's Office: https://www.essexcountynj.org/prosecutor
-- Assessor: https://www.essexcountynj.org/assessor
-- Treasurer: https://www.essexcountynj.org/treasurer
+- Essex County Official Site: https://www.essexcountynj.gov
+- Sheriff's Office: https://www.essexcountynj.gov/sheriff
+- Prosecutor's Office: https://www.essexcountynj.gov/prosecutor
+- Assessor: https://www.essexcountynj.gov/assessor
+- Treasurer: https://www.essexcountynj.gov/treasurer

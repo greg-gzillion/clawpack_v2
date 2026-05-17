@@ -1,54 +1,57 @@
 ﻿# Atlantic City — Local Law Resources
 ## City Website
-- https://www.cityofatlanticcity.org
-- Address: 2715 Atlantic Avenue, Atlantic City, NJ 08401 — (609) 347-5555
-- Hours: Mon–Fri 8:30–4:30
-- Coordinates: 39.3643° N, 74.4229° W
+- https://www.acnj.gov
+- Address: 1301 Bacharach Boulevard, Atlantic City, NJ 08401 — (609) 347-5300
 ## Law Enforcement
-- Atlantic City Police Department — https://www.acnj.gov/Departments/police
-- Emergency: 911 | Non-Emergency: (609) 347-3500
+- Atlantic City Police Department — https://www.acnj.gov/police
 - Address: 2715 Atlantic Avenue, Atlantic City, NJ 08401
+- Emergency: 911 | Non-Emergency: (609) 347-3500
 ## Courts
-- Atlantic City Municipal Court — https://www.acnj.gov/Departments/municipal-court
-- Address: 2715 Atlantic Avenue, Atlantic City, NJ 08401 — (609) 347-5560
-- Email: acmuncourt@acnj.gov
+- Central Municipal Court of Atlantic County
+- Address: 5905 Main Street, Mays Landing, NJ 08330 — (609) 909-5999
+- Online Payments: NJMCDirect
 - Atlantic County Superior Court: 1201 Bacharach Boulevard, Atlantic City, NJ 08401 — (609) 345-6700
+  Website: https://www.njcourts.gov
 ## Detention Center
-- Atlantic City Police Department Jail (Short-Term) — 2715 Atlantic Avenue, Atlantic City, NJ 08401
-- Atlantic County Justice Facility — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
-  Website: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
-  Inmate Search: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail/inmate-services
+- Atlantic County Justice Facility (Primary) — 5060 Atlantic Avenue, Mays Landing, NJ 08330 — (609) 645-5855
+  Website: https://www.atlanticcountynj.gov | Inmate Search: https://www.atlanticcountynj.gov
+- NJDOC Inmate Locator: https://inmatelocator.nj.gov
 ## Building Permits
-- Planning & Development: https://www.cityofatlanticcity.org/planning-development
-- Phone: (609) 347-5586
+- Construction Division: https://www.acnj.gov/construction
+- Required: New construction, additions, electrical, plumbing, HVAC
+- State Review Required For: Casino hotels, large facilities
 ## Library
-- Atlantic City Free Public Library — https://www.acfpl.org
-- Address: 10 West S. Carolina Avenue, Atlantic City, NJ 08401 — (609) 348-4141
-- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Atlantic City Free Public Library — https://acfpl.org
+- Address: 10 N Indiana Avenue, Atlantic City, NJ 08401 — (609) 348-4200
 ## Hospitals
-- AtlantiCare Regional Medical Center - City Campus — 1925 Pacific Avenue, Atlantic City, NJ 08401 — (609) 345-3000 — 39.3631° N, 74.4267° W
+- AtlantiCare Regional Medical Center – Atlantic City Campus
+  1925 Pacific Avenue, Atlantic City, NJ 08401 — 39.3633° N, 74.4378° W
   Website: https://www.atlanticare.org
-- AtlantiCare Behavioral Health Hospital — 6501 Black Horse Pike, Egg Harbor Township, NJ 08234 — (609) 625-6900 — 39.3953° N, 74.5542° W
+- AtlantiCare Regional Medical Center – Mainland Campus
+  65 W Jimmie Leeds Road, Pomona, NJ 08240 — 39.4436° N, 74.5111° W
   Website: https://www.atlanticare.org
-- Select Specialty Hospital - Atlantic City — Wellness Building, 1925 Pacific Avenue 5th Floor, Atlantic City, NJ 08401
-  Website: https://www.selectmedical.com
-- AtlantiCare HealthPlex — 1401 Atlantic Avenue, Atlantic City, NJ 08401
-  Website: https://www.atlanticare.org
+## Additional Resources
+- Government Directory: https://www.acnj.gov/directory
+- Mayor & Council: https://www.acnj.gov/mayor-council
+- Finance & Taxes: https://www.acnj.gov/finance
+- Public Works: https://www.acnj.gov/public-works
+- Board of Health: https://www.atlanticcountynj.gov/health
+- ACUA (Utilities): https://acua.com
 ## Statewide Detention Center URLs
 - Atlantic County Justice Facility: https://www.atlanticcountynj.gov/government/county-departments/department-of-public-safety/division-of-adult-detention-atlantic-county-jail
-- Bergen County Jail: https://www.co.bergen.nj.us/sheriff
+- Bergen County Jail: https://www.bcsd.us
 - Burlington County Detention Center: https://www.co.burlington.nj.us
-- Camden County Correctional Facility: https://www.camdencounty.com
-- Cape May County Correctional Center: https://www.co.cape-may.nj.us
-- Cumberland County Jail: https://www.cumberlandcountynj.gov
-- Essex County Correctional Facility: https://www.essexcountynj.org
+- Camden County Correctional Facility: https://camdendoc.opsnetwork.org
+- Cape May County Correctional Facility: https://capemayjail.org
+- Cumberland County Jail: https://www.co.cumberland.nj.us
+- Essex County Correctional Facility: https://www.essexcountynj.gov/corrections
 - Gloucester County Jail: https://www.co.gloucester.nj.us
-- Hudson County Correctional Facility: https://www.hudsoncountynj.org
+- Hudson County Correctional Facility: https://www.hcnj.us/corrections
 - Hunterdon County Correctional Facility: https://www.co.hunterdon.nj.us
-- Mercer County Correction Center: https://www.mercercounty.org
-- Middlesex County Adult Correctional Center: https://www.middlesexcountynj.gov
-- Monmouth County Correctional Institution: https://www.co.monmouth.nj.us
-- Morris County Correctional Facility: https://www.morriscountynj.gov
+- Mercer County Correctional Center: https://www.mercercounty.org
+- Middlesex County Adult Correctional Complex: https://www.middlesexcountynj.gov
+- Monmouth County Correctional Institution: https://www.monmouthcountynj.gov
+- Morris County Correctional Facility: https://www.mcsonj.org/divisions/corrections/
 - Ocean County Jail: https://www.co.ocean.nj.us/oc/corrections
 - Passaic County Jail: https://www.passaiccountynj.org
 - Salem County Correctional Facility: https://www.co.salem.nj.us
@@ -59,6 +62,7 @@
 - New Jersey State Prison: https://www.nj.gov/corrections
 - NJ Department of Corrections: https://www.nj.gov/corrections
 - Inmate Locator (NJDEN): https://njdens.nj.gov
+- NJDOC Inmate Locator: https://inmatelocator.nj.gov
 ## County Resources
 - Atlantic County: https://www.atlanticcountynj.gov
-- Sheriff: https://www.atlanticcountynj.gov/government/county-departments/sheriff
+- Sheriff: https://www.atlanticcountynj.gov/sheriff
