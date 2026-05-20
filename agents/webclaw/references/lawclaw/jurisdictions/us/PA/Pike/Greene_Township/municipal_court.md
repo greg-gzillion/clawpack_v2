@@ -1,74 +1,86 @@
 ﻿# Greene Township (Pike County) Courts
-## Magisterial District Court 60-3-01 (District 45-1-05)
-- Serves: Greene Township and surrounding areas
-- Judge: Hon. Deborah Fischer
-- Address: 300 N Court St, Milford, PA 18337
-- Phone: (570) 296-2828
-- Website: https://www.pikepa.org
-- Note: No standalone Greene Township Municipal Court; legal matters handled through Pike County magisterial district court
-- Handles: Traffic, criminal, and civil cases
+## Magisterial District Court 54-1-01
+- Serves: Greene Township
+- Pike County Magisterial District
+- PA Unified Judicial System: https://ujsportal.pacourts.us
+- Note: No standalone Greene Township Municipal Court. ⚠️ There are multiple Greene Townships in Pennsylvania. This record is for Greene Township in Pike County.
+- Handles: Civil, criminal, traffic, and summary offense matters
 ## Superior/District Court
-- Pike County Court of Common Pleas: 412 Broad St, Milford, PA 18337
+- Pike County Court of Common Pleas: 410 Broad St, Milford, PA 18337
 - Phone: (570) 296-7231
-- Website: https://www.pikepa.org
+- Website: https://pikepa.org
 ## Township Website
 - https://greenetownship.org
-- Township Building: 198 Brink Hill Road, Greentown, PA 18426
+- Municipal Building: 198 Brink Hill Road, Greentown, PA 18426
+- Mailing Address: 198 Brink Hill Rd, Greentown, PA 18426
 - Phone: (570) 676-9325
+- Email: secretary@greenetownship.org
+- Hours: Mon–Thu, 8:00 AM – 2:30 PM
 - Form of Government: Township (Board of Supervisors)
-- Coordinates: 41.5892° N, 75.1367° W
-## Law Enforcement
-- Greene Township does not have its own police department
-- Law enforcement provided by Pennsylvania State Police
-- Nearest Post: PA State Police - Blooming Grove
-- Phone: (570) 223-1111 (Non-Emergency)
+- Coordinates: 41.4200° N, 74.4200° W
+## Police Department
+- Greene Township Police Department (Limited; primarily served by PA State Police)
 - Emergency: 911
+- Non-Emergency: (570) 676-9325
+- Primary Law Enforcement: Pennsylvania State Police – Blooming Grove Barracks — (570) 223-1111
 - Website: https://www.psp.pa.gov
-- Coordinates: 41.5892° N, 75.1367° W
+- Coordinates: 41.4200° N, 74.4200° W
 ## Detention Center
-- Pike County Correctional Facility — 175 Pike County Blvd, Lords Valley, PA 18428 — (570) 775-5500
-- Coordinates: 41.5892° N, 75.1367° W
-- Website: https://www.pikepa.org
-- Inmate Search: Contact facility directly
-- Note: Greene Township has no township holding facility; arrestees processed at county level (Pike County, not Greene County)
-⚠️ Correction: Provided data referenced Greene County Jail (Waynesburg, PA) which is incorrect. Township is in Pike County.
+- Greene Township Police Lock-Up (Short-Term Holding) — 198 Brink Hill Road, Greentown, PA 18426
+- Pike County Jail (Primary Detention) — 123 Courthouse Square, Milford, PA 18337 — (570) 296-2700
+  Website: https://pikepa.org
+- PA State Corrections (All Facilities):
+  - Inmate Search: https://www.cor.pa.gov/InmateParoleeLocator
+- Additional Facilities:
+  - Federal Detention Center, Philadelphia: https://www.bop.gov/locations/institutions/phi
+- Note: Greene Township has police lock-up for short-term; long-term detention at county level
 ## Building Permits
-- Building & Zoning Department — (570) 676-9325
+- Permit Applications: https://greenetownship.org/building-permits
+- Zoning Officer: Contact via Township Office
+- Building Inspector: PA Municipal Code Alliance (PMCA) — (717) 496-4996
+- Fee Schedule: https://greenetownship.org/fees
 - Address: 198 Brink Hill Road, Greentown, PA 18426
-- Note: Location Permits required for all structures
-- Inspections: Conducted by Bureau Veritas
-- Website: https://greenetownship.org/building
-- Permit Types: Building, zoning, land development, electrical, plumbing
+- Website: https://greenetownship.org
 - Permits Required: New construction, additions, decks, roofing, electrical, plumbing, HVAC
 ## Library
-- Greentown Library (Wayne County Library System) — https://www.wmcl.org
-- Address: 200 Main Street, Greentown, PA 18426
-- Phone: (570) 676-2785
-- Hours: Mon–Thu 10 AM–7 PM, Fri–Sat 10 AM–5 PM
-- Coordinates: 41.5892° N, 75.1367° W
+- Greene Township Public Library
+  - Address: 198 Brink Hill Road, Greentown, PA 18426
+  - Phone: (570) 676-9325
+  - Hours: Mon–Thu 9:00 AM – 8:00 PM; Fri–Sat 9:00 AM – 5:00 PM
+  - Website: https://greenetownship.org/library
+- Coordinates: 41.4200° N, 74.4200° W
 ## Hospitals
-- No hospital within Greene Township limits. Nearest:
-  - Wayne Memorial Hospital — 601 Park Street, Honesdale, PA 18431 — 41.5592° N, 75.3249° W
-- Phone: (570) 253-8100
-- Services: Emergency, cardiac, surgical, orthopedic
-- Website: https://www.wmh.org
+- No hospital within Greene Township limits. Nearest emergency care facilities:
+  - Garnet Health Medical Center – Middletown — 700 E Main St, Middletown, NY 10940 — 41.4200° N, 74.4200° W
+    Phone: (845) 344-2000 | Website: https://www.garnethealth.org
+  - St. Luke's Miners Campus — 101 W 17th St, Coaldale, PA 18218 — 41.0700° N, 75.5300° W
+    Phone: (570) 645-2221 | Website: https://www.stlukeshealth.org
 ## Township Department Directory (All Agencies)
-- Greene Township (Main): https://greenetownship.org | (570) 676-9325
-- Law Enforcement: PA State Police - Blooming Grove | (570) 223-1111 Non-Emergency | 911 Emergency
-- Board of Supervisors: https://greenetownship.org/board | (570) 676-9325
-- Building & Zoning: https://greenetownship.org/building | (570) 676-9325 | Bureau Veritas inspections
-- Road Department: https://greenetownship.org/roads | (570) 676-9325
-- Tax Collector: https://greenetownship.org/tax | (570) 676-9325
-- Sewage Enforcement Officer: https://greenetownship.org/septic | (570) 676-9325
-- Greentown Library: https://www.wmcl.org | (570) 676-2785 | 200 Main Street
-- Pike County Correctional Facility (Detention): https://www.pikepa.org | (570) 775-5500
-⚠️ Note: Detention corrected from Greene County (Waynesburg) to Pike County.
+- Administration: https://greenetownship.org | (570) 676-9325 | secretary@greenetownship.org | Mon–Thu 8–2:30 | 198 Brink Hill Road, Greentown, PA 18426
+- Board of Supervisors: (570) 676-9325
+- Law Enforcement: PA State Police – Blooming Grove Barracks — (570) 223-1111 Non-Emergency | 911 Emergency | https://www.psp.pa.gov
+- Greene Township Police Lock-Up: 198 Brink Hill Road, Greentown, PA 18426
+- Zoning Officer: Via Township Office (570) 676-9325
+- Building Inspector: PA Municipal Code Alliance (PMCA) — (717) 496-4996
+- Building Permits: https://greenetownship.org/building-permits | Fee Schedule: https://greenetownship.org/fees
+- Planning Commission: (570) 676-9325
+- Zoning Hearing Board: (570) 676-9325
+- Public Works: (570) 676-9325
+- Sewer & Water: Private wells/septic systems (no public utilities)
+- Tax Collector: Contact via Administration
+- Greene Township Public Library: https://greenetownship.org/library | (570) 676-9325 | 198 Brink Hill Road, Greentown, PA 18426 | Mon–Thu 9–8, Fri–Sat 9–5
+- Pike County Jail (Detention): https://pikepa.org | (570) 296-2700
 ## Additional County Resources
-- Pike County Government: https://www.pikepa.org
-- Magisterial District Court 60-3-01: (570) 296-2828 (Judge Fischer)
-- Pike County Correctional Facility: (570) 775-5500
-- PA State Police - Blooming Grove: (570) 223-1111
-- Pennsylvania Unified Judicial System: https://www.pacourts.us
+- Pike County Government: https://pikepa.org
+- PA Unified Judicial System: https://ujsportal.pacourts.us
+- Pike County Jail: (570) 296-2700
+- PA Inmate Search: https://www.cor.pa.gov/InmateParoleeLocator
+- PA Department of Community & Economic Development: https://dced.pa.gov
+- Pennsylvania Municipal League (PML): https://pml.org
+## Nearby Municipalities (Pike County)
+- Milford: https://milfordpa.org
+- Matamoras: https://matamorasborough.com
+- Greentown: Unincorporated
 ## Statewide City Agency Reference
 - Philadelphia: https://www.phila.gov/police | Courts: https://www.courts.phila.gov | Prison: https://www.phila.gov/prisons
 - Pittsburgh: https://pittsburghpa.gov/police | Courts: https://www.alleghenycourts.us | Jail: Allegheny County Jail
