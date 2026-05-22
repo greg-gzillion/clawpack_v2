@@ -1,51 +1,47 @@
 ﻿# Anna City (Collin County, TX) — Local Law Resources
 ## City Website
 - https://www.annatexas.gov
-- 101 South Powell Parkway, Anna, TX 75409
-- Mayor: Pete W. Cain | City Manager: Ronda Perez | Home Rule
-- Collin County | DFW metroplex | Rapidly growing
-- Coordinates: 33.3377° N, 96.5665° W
+- 120 W 7th St, Anna, TX 75409 | (972) 924-2848
+- City Manager: Ronda Perez | Collin County | DFW metroplex | Rapidly growing
+- Shares name with Anna, IL and Anna, OH | Coordinates: 33.1597° N, 96.6371° W
 ## Law Enforcement
-- Anna Police Department — 218 West 4th Street
+- Anna Police Department — 120 W 7th St
 - Non-Emergency: (972) 924-2848 | Emergency: 911
-- Chief: Dean Habel | City Jail (short-term holding)
-- https://www.annatexas.gov
+- Chief: Dean Habel | Holding facility on-site
+- https://www.annatexas.gov/Police
 ## Courts
-- Anna Municipal Court — 101 South Powell Parkway | (972) 924-3325 | Mon–Fri 8–5
-- https://www.annatexas.gov/563/Municipal-Court
+- Anna Municipal Court — 120 W 7th St | (972) 924-3325 ext. 6
+- https://www.annatexas.gov/Municipal-Court
 - Collin County Courthouse: 2100 Bloomdale Road, McKinney — (972) 548-4100
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Anna City Jail (short-term) — 218 West 4th Street — (972) 924-2848
-- Collin County Jail — https://www.collincountytx.gov
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
+- Anna Police Holding — 120 W 7th St — (972) 924-2848
+- Collin County Detention Facility (McKinney) — https://www.collincountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Building Department: (972) 924-2616 | Online: SmartGov Public Portal
-- https://www.annatexas.gov
-- Residential/commercial construction, electrical, plumbing, HVAC, fences
+- Building Department: (972) 924-2616 | SmartGov Community Portal
+- https://www.annatexas.gov/Building-Department
+- Construction, electrical, plumbing, structural
 ## Library
-- Anna Community Library — 111 W Fifth St — (469) 709-2001
-- Mon–Thu 12–6, Fri–Sat 10–2, Sun CLOSED (limited hours)
-- https://www.annatexas.gov
+- Anna Community Library — 3223 N Powell Pkwy — (972) 924-3325
+- https://www.annatexas.gov/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- ER at Anna (Texoma Medical Center, Freestanding) — 2710 Hackberry Drive
-  Coordinates: 33.3377° N, 96.5665° W | (214) 831-2600
-  https://texomamedicalcenter.com
-- Medical City Healthcare – Anna — 330 Standridge Blvd
-  Coordinates: 33.3374° N, 96.5597° W | (469) 274-7000 | Urgent/primary care
-  https://medicalcityhealthcare.com
-- Medical City Plano — 4700 Alliance Blvd, Plano, TX 75093
-  Coordinates: 33.0393° N, 96.8048° W | (972) 566-8000
-- Baylor Scott & White Medical Center – McKinney — 5800 Windhaven Pkwy, Plano
-  Coordinates: 33.0371° N, 96.8051° W | (972) 569-8000
+- Medical City McKinney (Level III Trauma, NEAREST) — 4500 Medical Center Dr, McKinney, TX 75069
+  Coordinates: 33.1597° N, 96.6371° W | (972) 547-8000
+  Emergency, surgery, cardiac | https://medicalcityhealthcare.com
+- Baylor Scott & White Medical Center - McKinney — 5252 W University Dr, McKinney, TX 75071
+  Coordinates: 33.2211° N, 96.6824° W | (469) 764-1000
+  Emergency, surgery, women's services | https://bswhealth.com
 - NOTE: No full-service hospital in Anna
-## Additional Resources
-- CITY HALL AND COURT AT SAME ADDRESS: 101 South Powell Parkway
-- POLICE AND JAIL AT DIFFERENT ADDRESS: 218 West 4th Street
-- LIBRARY WITH LIMITED HOURS: Opens at noon Mon–Thu, closes at 2 PM Fri–Sat
-- ER at Anna is freestanding (Texoma Medical Center service)
-- Medical City Anna is clinic only (not hospital)
-- Rapidly growing DFW suburb
+## Additional Resources — ALL CITY AGENCIES
+- ALL SERVICES AT 120 W 7TH ST (City Hall, Police, Court, Holding)
+- NAMED POLICE CHIEF: Dean Habel
+- NAMED CITY MANAGER: Ronda Perez
+- COURT PHONE WITH EXTENSION: ext. 6 (rare detail)
+- No hospital in town — Medical City McKinney (Level III) and BSW McKinney nearby
+- Rapidly growing DFW suburb | Collin County
+- Fire: (972) 924-2143 | Public Works: (972) 924-4510
+- Utility Billing: (972) 924-2432 | Parks & Rec: (469) 885-9428
 - Collin County: https://www.collincountytx.gov
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov

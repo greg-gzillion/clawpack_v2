@@ -1,101 +1,84 @@
 ﻿# Brenham City (Washington County, TX) Courts
 ## Brenham Municipal Court
 - Serves: Brenham City
-- Location: 200 W Vulcan St, Brenham, TX 77833
-- Phone: (979) 337-7599
-- Hours: Mon–Fri 8:30–4:30
-- Website: https://www.cityofbrenham.org/city_government/municipal_court/index.php
-- Jurisdiction: City ordinance violations, traffic citations
+- Address: 200 W Vulcan St, Brenham, TX 77833
+- Phone: (979) 337-7500
+- Website: https://www.cityofbrenham.org/Court
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; separate location from Police and City Hall
-- Handles: City ordinance violations, traffic infractions
+- Note: Municipal City Court; separate location from Police on W Vulcan St
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Washington County Courthouse: 100 E Main Street, Brenham, TX 77833
 - Phone: (979) 277-6200
-- Website: https://www.washingtoncountytx.gov
+- Website: https://www.co.washington.tx.us
 ## City Website
 - https://www.cityofbrenham.org
-- Address: 200 W Vulcan St, Brenham, TX 77833
-- Mayor: Louis Allwin Barrow, Jr.
-- City Manager: Carolyn Miller
-- Government Type: Council-Manager
-- Coordinates: 30.1584° N, 96.3966° W (Baylor Scott & White area)
-- Note: County seat of Washington County; home of Blue Bell Creameries; "Birthplace of Texas"
+- Address: 1800 Longwood Dr, Brenham, TX 77833
+- City Manager: James Fisher
+- Phone: (979) 337-7337 (Police non-emergency)
+- Coordinates: 30.1472° N, 96.3545° W (CHI St. Joseph Health area)
+- Note: County seat of Washington County; Central Texas; home of Blue Bell Creameries; NOT the county seat; NO CITY JAIL
 ## Police Services
 - Brenham Police Department
 - Address: 1800 Longwood Dr, Brenham, TX 77833
 - Emergency: 911
 - Non-Emergency: (979) 337-7337
-- Chief: Gary Boshears
-- Operates short-term holding facility
-- Website: https://www.cityofbrenham.org
+- NO city jail — arrestees held at Washington County Jail
+- Website: https://www.cityofbrenham.org/Police
 ## Jail / Detention Facilities
-- Brenham City Jail (short-term holding)
-  Location: 1800 Longwood Dr, Brenham, TX 77833
-  Note: Inmates transferred to Washington County Jail
+- NO CITY JAIL — all arrestees held at Washington County
 - Washington County Jail (long-term)
-  Website: https://www.washingtoncountytx.gov
+  Address: 100 E Main St, Brenham, TX 77833
+  Phone: (979) 277-6255
+  Website: https://www.co.washington.tx.us
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- Baylor Scott & White Medical Center – Brenham
-  Address: 700 Medical Pkwy, Brenham, TX 77833
-  Phone: (979) 836-1111
-  Website: https://bswhealth.org
-  Coordinates: 30.1584° N, 96.3966° W
-  Services: Emergency, surgery, imaging, primary care
-- Baylor Scott & White Clinic – Brenham Hwy 290
-  Address: 604 Hwy 290 E, Brenham, TX 77833
-  Phone: (979) 337-5400
-  Website: https://bswhealth.org
-  Coordinates: 30.1420° N, 96.3855° W
-  Services: Primary care clinic
-- St. Joseph Health – College Station (nearby)
-  Address: 2700 E 28th St, College Station, TX 77845
-  Phone: (979) 703-5000
+- CHI St. Joseph Health - Brenham
+  Address: 700 S Bailey Ave, Brenham, TX 77833
+  Phone: (979) 836-2121
   Website: https://stjosephhealth.org
-  Coordinates: 30.6487° N, 96.3307° W
-- Baylor Scott & White Medical Center – College Station (nearby)
-  Address: 2500 E 28th St, College Station, TX 77845
-  Phone: (979) 703-5000
-  Website: https://bswhealth.org
-  Coordinates: 30.6487° N, 96.3307° W
+  Coordinates: 30.1472° N, 96.3545° W
+  Services: Emergency, surgery, imaging, inpatient services
 ## Library
 - Nancy Carol Roberts Memorial Library
-  Address: 100 Martin Luther King Jr. Pkwy, Brenham, TX 77833
+  Address: 115 E Alamo St, Brenham, TX 77833
   Phone: (979) 337-7201
-  Hours: Mon–Thu 10–6; Fri 10–5; Sat 10–1; Sun CLOSED
-  Website: https://www.cityofbrenham.org
+  Website: https://www.brenham.lib.tx.us
+  Note: NAMED library with dedicated website (separate domain)
 ## Building Permits
 - Office: Development Services Department
 - Contact: (979) 337-7220
-- Online Portal: Permit Applications
-- Website: https://www.cityofbrenham.org
-- Permit Types: Residential/commercial construction, plumbing, electrical, fencing, pools, sign permits
-## City Department Directory (All Agencies)
-- Administration: https://www.cityofbrenham.org
-  200 W Vulcan St, Brenham, TX 77833
-  Mayor: Louis Allwin Barrow, Jr. | City Manager: Carolyn Miller | Council-Manager
-- Police Department: 1800 Longwood Dr | (979) 337-7337 Non-Emergency | 911 Emergency
-  Chief: Gary Boshears | City Jail (short-term holding)
-- Municipal Court: 200 W Vulcan St | (979) 337-7599 | Mon–Fri 8:30–4:30
-  https://www.cityofbrenham.org/city_government/municipal_court/index.php
-- Washington County Courthouse: 100 E Main Street, Brenham — (979) 277-6200
-- Development Services: (979) 337-7220 | Online: Permit Applications
-  Construction, plumbing, electrical, fencing, pools, sign permits
-- Tax Collection: Via City Hall
+- Online Portal: Online Permit Portal
+- Website: https://www.cityofbrenham.org/Development
+- Permits required: Construction, electrical, plumbing, structural
+## City Department Directory (ALL AGENCIES)
+- Administration: https://www.cityofbrenham.org | (979) 337-7337
+  1800 Longwood Dr, Brenham, TX 77833 | City Manager: James Fisher
+- Police Department: 1800 Longwood Dr | (979) 337-7337 | 911 Emergency
+  NO city jail | https://www.cityofbrenham.org/Police
+- Municipal Court: 200 W Vulcan St | (979) 337-7500
+  https://www.cityofbrenham.org/Court
+- Fire Department: (979) 337-7300
+- Public Works: (979) 337-7212
+- Utility Billing: (979) 337-7520
+- Parks & Recreation: (979) 337-7250
+- Development Services: (979) 337-7220 | Online Permit Portal
+  https://www.cityofbrenham.org/Development
 - Nancy Carol Roberts Memorial Library: (979) 337-7201
-  100 Martin Luther King Jr. Pkwy | Mon–Thu 10–6, Fri 10–5, Sat 10–1
-- Washington County Jail: https://www.washingtoncountytx.gov
+  115 E Alamo St | https://www.brenham.lib.tx.us
+- Washington County Jail: 100 E Main St, Brenham, TX 77833
+  (979) 277-6255 | https://www.co.washington.tx.us
 ## Additional County Resources
-- Washington County Government: https://www.washingtoncountytx.gov
+- Washington County Government: https://www.co.washington.tx.us
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 - Texas Municipal League: https://www.tml.org
 ## Nearby Municipalities (Washington County, TX)
-- College Station: St. Joseph Health, BSW Medical Center
-- Burton: Contact via Washington County
-- Chappell Hill: Contact via Washington County
+- College Station: TX/Brazos/College_Station
+- Bryan: TX/Brazos/Bryan
+- Navasota: Contact via Grimes County
 ## Statewide City Agency Reference
 - Houston: TX/Harris/Houston
 - Austin: TX/Travis/Austin

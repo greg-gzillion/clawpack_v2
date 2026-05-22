@@ -1,46 +1,44 @@
 ﻿# Brownwood City (Brown County, TX) — Local Law Resources
 ## City Website
 - https://www.brownwoodtexas.gov
-- 1050 W Commerce St, Brownwood, TX 76801 (Law Enforcement Center)
-- Mayor: John A. Sims | City Manager: Jeffrey L. Haley | Council-Manager
-- County seat of Brown County | Central Texas | Home of Howard Payne University
-- Coordinates: 31.7206° N, 98.9886° W
+- 1050 W Commerce, Brownwood, TX 76801 | (325) 646-2525
+- City Manager: Marshal McIntosh | County seat of Brown County | Central Texas
+- Coordinates: 31.7231° N, 98.9972° W
 ## Law Enforcement
-- Brownwood Police Department — 1050 W Commerce St (Law Enforcement Center)
+- Brownwood Police Department — 1050 W Commerce
 - Non-Emergency: (325) 646-2525 | Emergency: 911
-- Short-term holding only — NO long-term city jail
-- https://www.brownwoodtexas.gov
+- NO city jail — shares Brownwood Law Enforcement Center with county
+- https://www.brownwoodtexas.gov/Police
 ## Courts
-- Brownwood Municipal Court — 1050 W Commerce St (Law Enforcement Center) | (325) 646-6947
-- Mon–Fri 8–5 | https://www.brownwoodtexas.gov/Municipal-Court
-- Brown County Courthouse: 200 S Broadway Street, Brownwood — (325) 643-2685
+- Brownwood Municipal Court — 1050 W Commerce | (325) 646-6947
+- https://www.brownwoodtexas.gov/Municipal-Court
+- Brown County Courthouse: 200 S Broadway Street, Brownwood — (325) 643-2594
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Brownwood Law Enforcement Center (short-term only) — 1050 W Commerce St — (325) 646-2525
-- Brown County Jail — https://www.browncountytx.gov
+## Detention Facilities (ALL URLS INCLUDED — COUNTY ONLY, SHARED FACILITY)
+- Brown County Jail — 1050 W Commerce, Brownwood, TX 76801 — (325) 646-2221
+  SHARED LAW ENFORCEMENT CENTER (City Police + County Jail in same building)
+  https://www.co.brown.tx.us
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Development Services: (325) 646-5775 | Online: Accela Citizen Access
-- https://www.brownwoodtexas.gov
-- Residential/commercial construction, plumbing, electrical, fencing, signage
+- Planning & Development Services: (325) 646-5331 | Online Forms
+- https://www.brownwoodtexas.gov/Building-Services
+- Construction, electrical, plumbing, structural
 ## Library
-- Brownwood Public Library — 200 S Broadway Ave — (325) 646-0928
-- Mon–Thu 9–6, Fri–Sat 9–5 | https://www.brownwoodtexas.gov
+- Brownwood Public Library — 200 W Decherd St — (325) 643-2658
+- https://www.brownwoodtexas.gov/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- Hendrick Medical Center Brownwood (IN TOWN) — 1501 Burnett Rd
-  Coordinates: 31.7206° N, 98.9886° W | (325) 646-8541
-  Emergency, surgery, imaging | https://hendrickhealth.org
-- Brownwood Regional Medical Center — 1000 W Wall St | (325) 641-7000
-  Emergency, primary care | https://brownwoodregional.com
-- Stephenville Medical Center — 201 S Loop 365, Stephenville, TX 76401
-  Coordinates: 32.2174° N, 98.1998° W | (254) 968-4111
-## Additional Resources
-- ALL SERVICES AT ONE ADDRESS: 1050 W Commerce St (City Hall, Police, Court — Law Enforcement Center)
-- NO LONG-TERM CITY JAIL — only short-term holding at Law Enforcement Center
-- Hendrick Medical Center AND Brownwood Regional in town
-- Home of Howard Payne University
-- Central Texas | County seat
-- Brown County: https://www.browncountytx.gov
+- Brownwood Regional Medical Center (IN TOWN) — 1000 N Fisk Ave
+  Coordinates: 31.7231° N, 98.9972° W | (325) 643-1151
+  Emergency, surgery, cardiac, inpatient | https://brmctx.com
+## Additional Resources — ALL CITY AGENCIES
+- ALL SERVICES AT 1050 W COMMERCE — SHARED LAW ENFORCEMENT CENTER (City Hall, Police, Court, County Jail all in one building)
+- UNIQUE: City and County share the Brownwood Law Enforcement Center — city has no separate jail
+- NAMED CITY MANAGER: Marshal McIntosh
+- Brownwood Regional Medical Center in town on N Fisk Ave
+- County seat | Central Texas
+- Fire: (325) 646-5345 | Public Works/Utility: (325) 646-5775
+- Parks & Rec: (325) 646-5388 | Planning: (325) 646-5331
+- Brown County: https://www.co.brown.tx.us | Jail: (325) 646-2221
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

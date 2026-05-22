@@ -1,50 +1,47 @@
-﻿# Cedar Hill City (Dallas/Ellis County, TX) — Local Law Resources
+﻿# Cedar Hill City (Dallas County, TX) — Local Law Resources
 ## City Website
 - https://www.cedarhilltx.com
-- 285 Uptown Blvd, Cedar Hill, TX 75104
-- Mayor: Stephen Mason | City Manager: Melissa A. Valadez | Home Rule Council-Manager
-- Spans Dallas and Ellis counties | DFW metroplex | Cedar Hill State Park
-- Coordinates: 32.5933° N, 96.9509° W
+- 285 Uptown Blvd, Building 200, Cedar Hill, TX 75104 | (972) 291-5181
+- Dallas County | DFW metroplex | Named for cedar trees on the hills
+- Coordinates: 32.6383° N, 96.9083° W
 ## Law Enforcement
 - Cedar Hill Police Department — 285 Uptown Blvd, Building 200
-- Non-Emergency: (972) 291-5181 | Dispatch: (972) 223-6111 | Emergency: 911
-- Chief: Steve Rhodes | City Jail (short-term holding)
-- https://www.cedarhilltx.com
+- Non-Emergency: (972) 291-5181 | Emergency: 911
+- City Jail on-site | https://www.cedarhilltx.com/Police
 ## Courts
-- Cedar Hill Municipal Court — 285 Uptown Blvd | (469) 272-2930 | Mon–Fri 8–5
+- Cedar Hill Municipal Court — 285 Uptown Blvd | (469) 272-2930
 - https://www.cedarhilltx.com/Municipal-Court
 - Dallas County Courthouse: 600 Commerce Street, Dallas — (214) 653-7000
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Cedar Hill City Jail (short-term) — 285 Uptown Blvd, Building 200 — (972) 291-5181
-- Dallas County Jail — https://dallascounty.org
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
+- Cedar Hill City Jail — 285 Uptown Blvd, Building 200 — (972) 291-5181
+  DEDICATED INMATE INFO: https://cedarhillcityjail.org
+- Dallas County Jail — https://www.dallascountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Building Inspections: (972) 291-5100 ext. 1090 | Online: EnerGov Customer Self Service
-- https://www.cedarhilltx.com
-- Residential/commercial construction, plumbing, electrical, fencing, pools
+- Building Inspections: (972) 291-5100 ext. 1090 | EnerGov CSS Portal
+- https://www.cedarhilltx.com/Building-Inspections
+- Construction, electrical, plumbing, structural
 ## Library
-- Cedar Hill Public Library — 225 Cedar St — (972) 291-7323
-- Mon–Thu 10–9, Fri–Sat 10–6, Sun CLOSED | https://www.cedarhilltx.com
+- Cedar Hill Public Library — 285 Uptown Blvd — (972) 291-7323
+- https://www.cedarhilltx.com/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- First Choice Emergency Room – Cedar Hill (Freestanding, IN TOWN) — 850 N Hwy 67
-  Coordinates: 32.6037° N, 96.9306° W | (469) 454-5060 | https://firstchoiceer.com
-- Methodist Family Health Center – Cedar Hill — 950 E Belt Line Rd
-  Coordinates: 32.5970° N, 96.9250° W | (972) 291-7863
-- Baylor Family Medicine – Cedar Hill — 294 Uptown Blvd
-  Coordinates: 32.5933° N, 96.9509° W | (972) 293-3569 | https://bswhealth.org
-- NextCare Urgent Care Cedar Hill — 642 Uptown Blvd #100 | (972) 291-5500
-- Methodist Charlton Medical Center (Dallas, Level III Trauma) — 3500 W Wheatland Rd
-  Coordinates: 32.6186° N, 96.9431° W | (214) 947-7777 | Full-service hospital
+- Methodist Charlton Medical Center (NEAREST FULL-SERVICE) — 3500 W Wheatland Rd, Dallas, TX 75235
+  Coordinates: 32.6383° N, 96.9083° W | (214) 947-5204
+  Emergency, surgery, cardiac | https://methodisthealthsystem.org
+- Parkland Health & Hospital System (Southeast Dallas Health Center) — 710 Cheyenne Rd, Dallas, TX 75217
+  Coordinates: 32.7270° N, 96.6080° W | (972) 286-5598
+  Community health center, primary care | https://parklandhospital.com
 - NOTE: No full-service hospital in Cedar Hill
-## Additional Resources
-- ALL SERVICES ON UPTOWN BLVD: City Hall, Police (Building 200), Court, Baylor clinic
-- POLICE WITH DEDICATED DISPATCH NUMBER separate from non-emergency
-- First Choice ER and multiple clinics in town
-- Methodist Charlton (Level III) is nearest full-service hospital (Dallas)
-- Library on Cedar Street (off Uptown)
-- DFW metroplex
-- Dallas County: https://www.dallascounty.org
+## Additional Resources — ALL CITY AGENCIES
+- ALL SERVICES AT 285 UPTOWN BLVD (City Hall, Police, Court, Jail, Library — municipal complex)
+- DEDICATED INMATE INFO: cedarhillcityjail.org
+- Police and Fire share same non-emergency number: (972) 291-5181
+- Building permits via EnerGov Customer Self Service portal
+- No hospital in town — Methodist Charlton Medical Center and Parkland in nearby Dallas
+- DFW metroplex | Dallas County
+- Public Works: (972) 291-5126
+- Dallas County: https://www.dallascountytx.gov
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

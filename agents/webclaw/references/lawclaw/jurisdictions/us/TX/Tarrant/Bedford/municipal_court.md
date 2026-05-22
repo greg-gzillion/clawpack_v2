@@ -1,105 +1,88 @@
 ﻿# Bedford City (Tarrant County, TX) Courts
 ## Bedford Municipal Court
 - Serves: Bedford City
-- Location: 2000 Forest Ridge Drive, Bedford, TX 76021
-- Phone: (817) 952-2400
-- Hours: Mon–Fri 8–5
-- Website: https://bedfordmuni.org/
-- Jurisdiction: City ordinance violations, traffic citations
+- Phone: (817) 952-2150
+- Website: https://bedfordtx.gov/Municipal-Court
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; dedicated website; separate from Police
-- Handles: City ordinance violations, traffic infractions
+- Note: Municipal City Court; contact via city phone; no separate court address published
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Tarrant County Courthouse: 100 E Weatherford Street, Fort Worth, TX 76196
 - Phone: (817) 884-1111
 - Website: https://www.tarrantcountytx.gov
 ## City Website
 - https://www.bedfordtx.gov
-- Address: 2000 Forest Ridge Drive, Bedford, TX 76021
-- Mayor: Jim Miller
-- City Manager: Mike Johnson
-- Government Type: Council-Manager
-- Coordinates: 32.7992° N, 97.2584° W (Medical City North Hills area)
-- Note: Tarrant County; DFW metroplex; NOT the county seat; part of H-E-B (Hurst-Euless-Bedford) area
+- Address: 2121 L. Don Dodson Drive, Bedford, TX 76021
+- Phone: (817) 952-2127 (Police non-emergency)
+- Coordinates: 32.8353° N, 97.1233° W (Texas Health HEB area)
+- Note: Tarrant County; DFW metroplex; part of H-E-B (Hurst-Euless-Bedford) tri-city area; NOT the county seat; NO CITY JAIL — contracts with Euless
 ## Police Services
 - Bedford Police Department
-- Address: 2121 L Don Dodson Drive, Bedford, TX 76021
+- Address: 2121 L. Don Dodson Drive, Bedford, TX 76021
 - Emergency: 911
 - Non-Emergency: (817) 952-2127
-- Chief: David Allen
-- NO city jail — participates in joint detention facility
-- Website: https://www.bedfordtx.gov
+- NO city jail — contracts with Euless for detention
+- Website: https://bedfordtx.gov/Police
 ## Jail / Detention Facilities
-- Bedford-Euless Joint Detention Facility (regional)
-  Location: 1102 W Euless Blvd, Euless, TX 76040
+- NO CITY JAIL — Bedford contracts with Euless for detention services
+- Euless City Jail (contract detention for Bedford)
   Phone: (817) 685-1577
-  Note: Shared facility operated by Euless Police Department; serves Bedford and Euless
-- Tarrant County Jail (long-term)
+  Website: https://www.eulesstx.gov
+- Tarrant County Corrections Center (Fort Worth, long-term)
   Inmate Search: https://inmatesearch.tarrantcounty.com
   Website: https://www.tarrantcountytx.gov
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- Texas Health Harris Methodist Hurst-Euless-Bedford
+- Texas Health Harris Methodist Hospital HEB
   Address: 1600 Hospital Pkwy, Bedford, TX 76022
-  Phone: (817) 358-8000
+  Phone: (817) 848-4000
   Website: https://texashealth.org
-  Coordinates: 32.8206° N, 97.2524° W
-  Services: Emergency, surgery, imaging, cardiac care, Level III Trauma Center
-- Medical City North Hills
-  Address: 4401 Booth Calloway Rd, North Richland Hills, TX 76180
-  Phone: (817) 952-2111
-  Website: https://medicalcityhealthcare.com
-  Coordinates: 32.7992° N, 97.2584° W
-- JPS Air Park Medical Center
-  Address: 4700 Air Park Blvd, Bedford, TX 76021
-  Phone: (817) 776-5500
-  Website: https://jpshealthnet.org
-  Coordinates: 32.8016° N, 97.2603° W
-- Medical City Alliance (Fort Worth)
-  Address: 10600 N Highway 121, Fort Worth, TX 76177
-  Phone: (817) 776-5000
-  Website: https://medicalcityhealthcare.com
-  Coordinates: 32.9055° N, 97.2873° W
+  Coordinates: 32.8353° N, 97.1233° W
+  Services: Emergency, surgery, Level III Trauma Center, cardiac care
+  Note: HEB stands for Hurst-Euless-Bedford — serves the entire tri-city area
 ## Library
 - Bedford Public Library
-  Address: 2100 Forest Ridge Drive, Bedford, TX 76021
-  Phone: (817) 952-2120
-  Hours: Mon–Thu 9–8; Fri–Sat 9–5; Sun CLOSED
-  Website: https://www.bedfordtx.gov
+  Address: 1805 L Don Dodson Dr, Bedford, TX 76021
+  Phone: (817) 952-2350
+  Website: https://bedfordtx.gov/Library
 ## Building Permits
 - Office: Building Inspections Division
 - Contact: (817) 952-2140
-- Online Portal: OpenGov Citizen Portal
-- Website: https://www.bedfordtx.gov
-- Permit Types: Residential/commercial construction, plumbing, electrical, HVAC, fencing, pools, driveways
-## City Department Directory (All Agencies)
-- Administration: https://www.bedfordtx.gov
-  2000 Forest Ridge Drive, Bedford, TX 76021
-  Mayor: Jim Miller | City Manager: Mike Johnson | Council-Manager
-- Police Department: 2121 L Don Dodson Drive | (817) 952-2127 Non-Emergency | 911 Emergency
-  Chief: David Allen | NO city jail — joint facility with Euless
-- Municipal Court: 2000 Forest Ridge Drive | (817) 952-2400 | Mon–Fri 8–5
-  https://bedfordmuni.org/
-- Tarrant County Courthouse: 100 E Weatherford Street, Fort Worth — (817) 884-1111
-- Building Inspections: (817) 952-2140 | Online: OpenGov Citizen Portal
-  Construction, plumbing, electrical, HVAC, fencing, pools, driveways
-- Tax Collection: Via City Hall
-- Bedford Public Library: (817) 952-2120
-  2100 Forest Ridge Drive | Mon–Thu 9–8, Fri–Sat 9–5, Sun CLOSED
-- Bedford-Euless Joint Detention Facility: 1102 W Euless Blvd, Euless, TX 76040 — (817) 685-1577
-- Tarrant County Jail: https://inmatesearch.tarrantcounty.com
+- Online Portal: https://bedfordtx.portal.opengov.com
+- Website: https://bedfordtx.gov/Permits
+- Permits required: Construction, electrical, plumbing, structural
+## City Department Directory (ALL AGENCIES)
+- Administration: https://www.bedfordtx.gov | (817) 952-2127
+  2121 L. Don Dodson Drive, Bedford, TX 76021 | City Manager: (817) 952-2100
+- Police Department: 2121 L. Don Dodson Drive | (817) 952-2127 | 911 Emergency
+  NO city jail | https://bedfordtx.gov/Police
+- Municipal Court: (817) 952-2150
+  https://bedfordtx.gov/Municipal-Court
+- Fire Department: (817) 952-2440
+- Public Works: (817) 952-2200
+- Utility Billing: (817) 952-2112
+- Parks & Recreation: (817) 952-2300
+- Building Inspections: (817) 952-2140 | OpenGov Portal
+  https://bedfordtx.gov/Permits
+- Bedford Public Library: (817) 952-2350
+  1805 L Don Dodson Dr | https://bedfordtx.gov/Library
+- Euless City Jail (contract detention): (817) 685-1577
+  https://www.eulesstx.gov
+- Tarrant County Corrections Center: https://inmatesearch.tarrantcounty.com
 ## Additional County Resources
 - Tarrant County Government: https://www.tarrantcountytx.gov
+- Tarrant County Inmate Search: https://inmatesearch.tarrantcounty.com
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 - Texas Municipal League: https://www.tml.org
 ## Nearby Municipalities (Tarrant County, TX)
-- Fort Worth: TX/Tarrant/Fort_Worth (County Courthouse)
-- Euless: Joint Detention Facility location
-- North Richland Hills: Medical City North Hills
+- Euless: TX/Tarrant/Euless (contract jail for Bedford)
+- Hurst: TX/Tarrant/Hurst
+- Fort Worth: TX/Tarrant/Fort_Worth (County Courthouse, County Corrections)
 ## Statewide City Agency Reference
-- Dallas: TX/Dallas/Dallas_City
 - Fort Worth: TX/Tarrant/Fort_Worth
+- Dallas: TX/Dallas/Dallas_City
 - Austin: TX/Travis/Austin
 - Houston: TX/Harris/Houston

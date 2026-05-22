@@ -1,44 +1,47 @@
 ﻿# Gainesville City (Cooke County, TX) — Local Law Resources
 ## City Website
 - https://www.gainesville.tx.us
-- 104 W Hird Street, Gainesville, TX 76240 | (940) 668-4500
-- County seat of Cooke County | Near Oklahoma border | Frank Buck Zoo
-- Coordinates: 33.6464° N, 97.1626° W
+- 201 Santa Fe St, Gainesville, TX 76240 | (940) 668-7777
+- County seat of Cooke County | North Texas | Near Oklahoma border
+- Shares name with Gainesville, FL | Coordinates: 33.6464° N, 97.1626° W
 ## Law Enforcement
-- Gainesville Police Department — 104 W Hird Street
+- Gainesville Police Department — 201 Santa Fe St
 - Non-Emergency: (940) 668-7777 | Emergency: 911
-- Municipal Jail on-site (no online roster)
-- https://www.gainesville.tx.us/Police
+- City Jail on-site | https://www.gainesville.tx.us/Police
 ## Courts
-- Gainesville Municipal Court — 104 W Hird Street | (940) 668-4750
+- Gainesville Municipal Court — 200 S Rusk St | (940) 668-4750
+- COURT AND LIBRARY SHARE BUILDING
 - https://www.gainesville.tx.us/MunicipalCourt
-- Cooke County Courthouse: 100 S Dixon Street, Gainesville — (940) 668-5400
+- Cooke County Courthouse: 101 S Dixon Street, Gainesville — (940) 668-5400
 - Texas State Courts: https://www.txcourts.gov
 ## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
-- Gainesville Jail (municipal) — 104 W Hird Street — (940) 668-7777
-  No public online inmate roster | Transfers to Cooke County
-- Cooke County Jail — 200 W California St, Gainesville, TX 76240 — (940) 668-5561
-  Inmate Search: https://www.cookecountytx.gov
+- Gainesville Jail — 201 Santa Fe St — (940) 668-7777
+- Cooke County Jail — 300 County Road 451, Gainesville, TX 76240 — (940) 665-3471
+  DEDICATED INMATE SEARCH: https://cookecountyarrests.org
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Community Development: (940) 668-4799 | 104 W Hird Street
+- Community Development: 104 W Hird Street — (940) 668-4799
 - https://www.gainesville.tx.us/CommunityDevelopment
-- Submit in person, email, or mail | Construction, plumbing, electrical, roofing
+- Construction, plumbing, electrical, roofing, accessory structures
 ## Library
-- Gainesville Public Library — 104 W Hird Street (shared building) — (940) 668-4500
+- Gainesville Public Library — 200 S Rusk St — (940) 668-4500
+- SHARES BUILDING WITH MUNICIPAL COURT
 - https://www.gainesville.tx.us/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
 - North Texas Medical Center (IN TOWN) — 1900 Hospital Blvd
   Coordinates: 33.6464° N, 97.1626° W | (940) 665-1751
-  Emergency, surgical, imaging, inpatient | https://ntmconline.net
+  Emergency, surgery, imaging, inpatient | https://ntmconline.net
 ## Additional Resources — ALL CITY AGENCIES
-- ALL SERVICES AT ONE ADDRESS: 104 W Hird Street (City Hall, Police, Court, Jail, Library, Community Development)
-- FRANK BUCK ZOO: (940) 668-4539 | https://gainesville.tx.us/Zoo ("Best Little Zoo in Texas")
-- Fire Dept: (940) 668-7777 | Public Works: (940) 668-4540
-- Finance: (940) 668-4500 | Parks & Rec: (940) 668-4530
-- North Texas Medical Center in town
-- County seat | Near Oklahoma border
-- Cooke County: https://www.cookecountytx.gov | Jail: (940) 668-5561
+- POLICE/CITY HALL AT 201 SANTA FE ST; COURT AND LIBRARY AT 200 S RUSK ST
+- COURT AND LIBRARY SHARE BUILDING at 200 S Rusk St
+- DEDICATED COUNTY INMATE SEARCH: cookecountyarrests.org
+- COUNTY JAIL ON COUNTY ROAD 451 (separate from city center)
+- North Texas Medical Center in town on Hospital Blvd
+- Police and Fire share same non-emergency number: (940) 668-7777
+- County seat | North Texas | Near Oklahoma border
+- City Manager/Finance: (940) 668-4500 | Public Works: (940) 668-4540
+- Parks & Rec: (940) 668-4530 | Community Dev: (940) 668-4799
+- Cooke County: https://www.co.cooke.tx.us
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

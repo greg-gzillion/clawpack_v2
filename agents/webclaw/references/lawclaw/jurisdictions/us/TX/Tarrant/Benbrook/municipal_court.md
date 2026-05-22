@@ -1,103 +1,94 @@
 ﻿# Benbrook City (Tarrant County, TX) Courts
 ## Benbrook Municipal Court
 - Serves: Benbrook City
-- Location: 911 Winscott Rd, Benbrook, TX 76126
-- Phone: (817) 249-6083
-- Hours: Mon–Fri 8–5
-- Website: https://www.benbrook-tx.gov/municipal-court
-- Jurisdiction: City ordinance violations, traffic citations
+- Phone: (817) 249-6077
+- Website: https://www.benbrook-tx.gov/Municipal-Court
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; separate location from Police and City Hall
-- Handles: City ordinance violations, traffic infractions
+- Note: Municipal City Court; contact via city phone; no separate court address published
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Tarrant County Courthouse: 100 E Weatherford Street, Fort Worth, TX 76196
 - Phone: (817) 884-1111
 - Website: https://www.tarrantcountytx.gov
 ## City Website
 - https://www.benbrook-tx.gov
-- Address: 911 Winscott Rd, Benbrook, TX 76126
-- Mayor: Jason Ward
+- Address: 528 Mercedes St, Benbrook, TX 76126
 - City Manager: Jim Hinderaker
-- Government Type: Home Rule, Council-Manager
-- Coordinates: 32.6824° N, 97.4603° W (TotalCare ER area)
-- Note: Tarrant County; DFW metroplex; NOT the county seat; near Benbrook Lake
+- Phone: (817) 249-1610 (Police non-emergency)
+- Coordinates: 32.8353° N, 97.1233° W (Texas Health HEB area)
+- Note: Tarrant County; DFW metroplex; suburb of Fort Worth; NOT the county seat; NO CITY JAIL — contracts with Euless
 ## Police Services
 - Benbrook Police Department
-- Address: 1080 Mercedes St, Benbrook, TX 76126
+- Address: 528 Mercedes St, Benbrook, TX 76126
 - Emergency: 911
 - Non-Emergency: (817) 249-1610
-- Chief: Craig Ross
-- Operates short-term holding facility
-- Website: https://www.benbrook-tx.gov
+- NO city jail — contracts with Euless for detention
+- Website: https://www.benbrook-tx.gov/Police
 ## Jail / Detention Facilities
-- Benbrook City Jail (short-term holding)
-  Location: 1080 Mercedes St, Benbrook, TX 76126
-  Note: Inmates transferred to Tarrant County Jail
-- Tarrant County Jail (long-term)
+- NO CITY JAIL — Benbrook contracts with Euless for detention services
+- Euless City Jail (contract detention for Benbrook)
+  Phone: (817) 685-1577
+  Website: https://www.eulesstx.gov
+- Tarrant County Corrections Center (Fort Worth, long-term)
   Inmate Search: https://inmatesearch.tarrantcounty.com
   Website: https://www.tarrantcountytx.gov
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- TotalCare Emergency Room - Benbrook
-  Address: 8501 Benbrook Blvd, Ste 103, Benbrook, TX 76126
-  Phone: (817) 249-5911
-  Website: https://totalcareer.com
-  Coordinates: 32.68235° N, 97.46025° W
-  Services: Freestanding emergency room
-- Texas Health Harris Methodist Southwest Fort Worth
-  Address: 6100 Harris Pkwy, Fort Worth, TX 76132
-  Phone: (817) 237-5000
+- Texas Health Harris Methodist Hospital HEB (Bedford)
+  Address: 1600 Hospital Pkwy, Bedford, TX 76022
+  Phone: (817) 848-4000
   Website: https://texashealth.org
-  Coordinates: 32.6200° N, 97.4050° W
-  Services: Emergency, surgery, imaging, cardiac care
-- Kindred Hospital Tarrant County - Fort Worth Southwest
-  Address: 7800 Oakmont Blvd, Fort Worth, TX 76132
-  Phone: (817) 346-7000
-  Website: https://kindredhealthcare.com
-  Services: Long-term acute care
-- Medical City Arlington (nearby)
-  Address: 2000 W Park Row Dr, Arlington, TX 76013
-  Phone: (817) 268-5000
-  Website: https://medicalcityhealthcare.com
-  Coordinates: 32.6847° N, 97.1228° W
-- Note: Only TotalCare ER is in Benbrook; full-service hospitals in Fort Worth
+  Coordinates: 32.8353° N, 97.1233° W
+  Services: Emergency, surgery, Level III Trauma Center, cardiac care
+- JPS Health Center - Northeast (Haltom City)
+  Address: 5705 E Belknap St, Haltom City, TX 76117
+  Phone: (817) 831-1283
+  Website: https://jpshealthnet.org
+  Coordinates: 32.8029° N, 97.2625° W
+  Services: Primary care, specialty clinic
+- Note: No full-service hospital in Benbrook
 ## Library
 - Benbrook Public Library
-  Address: 1065 Mercedes St, Benbrook, TX 76126
+  Address: 8000 Winbrook Dr, Benbrook, TX 76126
   Phone: (817) 249-6632
-  Hours: Mon–Thu 9–7; Fri–Sat 10–5
-  Website: https://www.benbrook-tx.gov
+  Website: https://www.benbrooklibrary.org
+  Note: Dedicated library website separate from city site
 ## Building Permits
 - Office: Building Permits and Inspections Department
 - Contact: (817) 249-6064
-- Online Portal: Online Permit System
-- Website: https://www.benbrook-tx.gov
-- Permit Types: Residential/commercial construction, plumbing, electrical, fencing, pools
-## City Department Directory (All Agencies)
-- Administration: https://www.benbrook-tx.gov
-  911 Winscott Rd, Benbrook, TX 76126
-  Mayor: Jason Ward | City Manager: Jim Hinderaker | Home Rule Council-Manager
-- Police Department: 1080 Mercedes St | (817) 249-1610 Non-Emergency | 911 Emergency
-  Chief: Craig Ross | City Jail (short-term holding)
-- Municipal Court: 911 Winscott Rd | (817) 249-6083 | Mon–Fri 8–5
-  https://www.benbrook-tx.gov/municipal-court
-- Tarrant County Courthouse: 100 E Weatherford Street, Fort Worth — (817) 884-1111
-- Building Permits and Inspections: (817) 249-6064 | Online: Online Permit System
-  Construction, plumbing, electrical, fencing, pools
-- Tax Collection: Via City Hall
+- Online Portal: https://benbrooktx.portal.opengov.com
+- Website: https://www.benbrook-tx.gov/Building-Permits-and-Inspections
+- Permits required: Construction, electrical, plumbing, structural
+## City Department Directory (ALL AGENCIES)
+- Administration: https://www.benbrook-tx.gov | (817) 249-1610
+  528 Mercedes St, Benbrook, TX 76126 | City Manager: Jim Hinderaker
+- Police Department: 528 Mercedes St | (817) 249-1610 | 911 Emergency
+  NO city jail | https://www.benbrook-tx.gov/Police
+- Municipal Court: (817) 249-6077
+  https://www.benbrook-tx.gov/Municipal-Court
+- Fire Department: (817) 249-6081
+- Public Works: (817) 249-6063
+- Utility Billing: (817) 249-3000
+- Parks & Recreation: (817) 249-6300
+- Building Permits and Inspections: (817) 249-6064 | OpenGov Portal
+  https://www.benbrook-tx.gov/Building-Permits-and-Inspections
 - Benbrook Public Library: (817) 249-6632
-  1065 Mercedes St | Mon–Thu 9–7, Fri–Sat 10–5
-- Tarrant County Jail: https://inmatesearch.tarrantcounty.com
+  8000 Winbrook Dr | https://www.benbrooklibrary.org
+- Euless City Jail (contract detention): (817) 685-1577
+  https://www.eulesstx.gov
+- Tarrant County Corrections Center: https://inmatesearch.tarrantcounty.com
 ## Additional County Resources
 - Tarrant County Government: https://www.tarrantcountytx.gov
+- Tarrant County Inmate Search: https://inmatesearch.tarrantcounty.com
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 - Texas Municipal League: https://www.tml.org
 ## Nearby Municipalities (Tarrant County, TX)
-- Fort Worth: TX/Tarrant/Fort_Worth (County Courthouse, Texas Health Southwest, Kindred)
-- Arlington: Medical City Arlington
-- Mansfield: TX/Tarrant/Mansfield_TX
+- Fort Worth: TX/Tarrant/Fort_Worth (County Courthouse, County Corrections)
+- Euless: TX/Tarrant/Euless (contract jail for Benbrook)
+- Bedford: Texas Health HEB Hospital
 ## Statewide City Agency Reference
 - Fort Worth: TX/Tarrant/Fort_Worth
 - Dallas: TX/Dallas/Dallas_City

@@ -7,7 +7,7 @@
 - Website: https://www.jacksonvilletx.org/216/Municipal-Court
 - Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; separate location from Police; shares name with Jacksonville, FL
+- Note: Municipal City Court; separate location from Police on S Ragsdale St
 - Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Cherokee County Courthouse: 135 S Main Street, Rusk, TX 75785
@@ -17,23 +17,22 @@
 - https://www.jacksonvilletx.org
 - Address: 210 W Larissa St, Jacksonville, TX 75766
 - City Manager: James Hubbard
-- Phone: (903) 586-3510 (main)
+- Phone: (903) 586-2548 (Police non-emergency)
 - Coordinates: 31.9378° N, 95.2481° W (CHRISTUS Mother Frances area)
-- Note: Cherokee County; East Texas; NOT the county seat; shares name with Jacksonville, FL
+- Note: Cherokee County; East Texas; NOT the county seat (county seat is Rusk); shares name with Jacksonville, FL
 ## Police Services
 - Jacksonville Police Department
 - Address: 210 W Larissa St, Jacksonville, TX 75766
 - Emergency: 911
 - Non-Emergency: (903) 586-2548
 - City Jail: (903) 586-2549
-- Operates short-term holding facility
+- Operates City Jail
 - Website: https://www.jacksonvilletx.org/229/Police
 ## Jail / Detention Facilities
 - Jacksonville City Jail (short-term holding)
   Location: 210 W Larissa St, Jacksonville, TX 75766
   Phone: (903) 586-2549
-  Inmate Info: Contact via police department
-  Note: Most long-term inmates held at Cherokee County Jail
+  Note: Most long-term inmates held at Cherokee County Jail in Rusk
 - Cherokee County Jail (Rusk, long-term)
   Website: https://www.co.cherokee.tx.us
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
@@ -55,7 +54,7 @@
   Address: 526 E Commerce St, Jacksonville, TX 75766
   Phone: (903) 586-7664
   Hours: Mon & Thu 12–8; Tue/Wed/Fri 10–6; Sat 10–2; Sun 1–5
-  Note: OPEN SUNDAYS 1–5 PM (very rare!)
+  Note: OPEN SUNDAYS 1–5 PM (very rare for municipal libraries)
   Website: https://www.jacksonvilletx.org/228/Library
 ## Building Permits
 - Office: Planning & Zoning Department
@@ -63,7 +62,7 @@
 - Website: https://www.jacksonvilletx.org/227/Planning-Zoning
 - Permits required: Construction, electrical, plumbing, structural
 ## City Department Directory (ALL AGENCIES)
-- Administration: https://www.jacksonvilletx.org | (903) 586-3510
+- Administration: https://www.jacksonvilletx.org | (903) 586-2548
   210 W Larissa St, Jacksonville, TX 75766 | City Manager: James Hubbard
 - Police Department: 210 W Larissa St | (903) 586-2548 | 911 Emergency
   City Jail: (903) 586-2549 | https://www.jacksonvilletx.org/229/Police
@@ -76,7 +75,7 @@
 - Planning & Zoning: (903) 586-3510
   https://www.jacksonvilletx.org/227/Planning-Zoning
 - Jacksonville Public Library: (903) 586-7664
-  526 E Commerce St | Mon & Thu 12–8, Tue/Wed/Fri 10–6, Sat 10–2, Sun 1–5
+  526 E Commerce St | Mon & Thu 12–8, Tue/Wed/Fri 10–6, Sat 10–2, SUN 1–5
   https://www.jacksonvilletx.org/228/Library
 - Jacksonville City Jail: 210 W Larissa St | (903) 586-2549
 - Cherokee County Jail (Rusk): https://www.co.cherokee.tx.us

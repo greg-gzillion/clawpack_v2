@@ -1,77 +1,114 @@
 ﻿# Nacogdoches City (Nacogdoches County, TX) Courts
 ## Nacogdoches Municipal Court
 - Serves: Nacogdoches City
+- Address: 217 W Hospital Street, Nacogdoches, TX 75961
+- Mailing: P.O. Box 635030, Nacogdoches, TX 75963
 - Phone: (936) 559-2641
-- Website: https://ci.nacogdoches.tx.us/Municipal-Court
-- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
+- Fax: (936) 560-3477
+- Email: mcourt@nactx.us
+- Hours: Mon–Fri 8–4
+- Online Payments: https://cityofnacogdochestx.municipalonlinepayments.com/
+- Judge/Court Administrator: Juanita Springer
+- Website: https://www.nactx.us/733/Municipal-Court
+- Jurisdiction: Class C misdemeanors, traffic citations, city ordinance violations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; contact via city phone; no separate court address published
-- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
+- Note: Municipal City Court; separate from Police on W Hospital Street; online payments available; closes at 4 PM
+- Handles: City ordinance violations, traffic infractions, fine-only criminal cases
 ## Superior/District Court
 - Nacogdoches County Courthouse: 101 W Main Street, Nacogdoches, TX 75961
 - Phone: (936) 560-7733
 - Website: https://www.co.nacogdoches.tx.us
 ## City Website
-- https://ci.nacogdoches.tx.us
-- Address: 201 E Main St, Nacogdoches, TX 75961
-- City Manager: Rick Beverlin
-- Phone: (936) 559-2607 (Police non-emergency)
-- Coordinates: 31.5874° N, 94.6746° W (Nacogdoches Medical Center area)
-- Note: County seat of Nacogdoches County; Deep East Texas; OLDEST TOWN IN TEXAS; named after the Nacogdoche tribe; home of Stephen F. Austin State University
+- https://www.nactx.us
+- Address: 312 W Main Street, Nacogdoches, TX 75961
+- Mailing: P.O. Box 635030, Nacogdoches, TX 75963-5030
+- Phone: (936) 559-2506 (Main)
+- Coordinates: 31.6124° N, 94.6493° W (Nacogdoches Memorial Hospital area)
+- Note: County seat of Nacogdoches County; East Texas; OLDEST TOWN IN TEXAS; Home Rule Charter; Council-Manager (Mayor + 5 Council); City Manager: Richard B. Beverlin, III; Mayor: Randy Johnson
 ## Police Services
 - Nacogdoches Police Department
-- Address: 201 E Main St, Nacogdoches, TX 75961
+- Address: 312 W Main Street, Nacogdoches, TX 75961
 - Emergency: 911
-- Non-Emergency: (936) 559-2607
-- NO city jail — arrestees go to Nacogdoches County
-- Website: https://ci.nacogdoches.tx.us/Police
+- Non-Emergency: (936) 559-2607 or (936) 468-2608
+- Chief of Police: Scott Weems
+- Records Supervisor: Rhonda Modisette, (936) 559-2638
+- NO CITY JAIL — all arrestees to Nacogdoches County
+- Online Accident Report Access available
+- Website: https://www.nactx.us/1638/Police-Department
 ## Jail / Detention Facilities
-- NO CITY JAIL — arrestees processed at Nacogdoches County
-- Nacogdoches County Jail (long-term)
+- NO CITY JAIL — all detainees held at Nacogdoches County
+- Nacogdoches County Jail
   Address: 2306 Douglass Road, Nacogdoches, TX 75964
-  Phone: (936) 560-7777
-  Inmate Roster: https://www.nac-sheriff.com/CountyJail/InmateSearch.asp
-  Website: https://www.nac-sheriff.com
+  Phone: (936) 560-7777 | Inmate Line: (936) 560-7794
+  Sheriff: Jason Bridges
+  Capacity: 292 inmates
+  Booking & Release: 24/7 operations; bond posting available
+  Inmate Search: https://nacogdochescountyjailtx.org/
+  Website: http://www.nac-sheriff.com/sheriff.asp
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- Nacogdoches Medical Center
-  Address: 1100 Wilson Rd, Nacogdoches, TX 75961
-  Phone: (936) 560-7800
-  Website: https://nacmedcenter.com
-  Coordinates: 31.5874° N, 94.6746° W
-  Services: Emergency, surgery, imaging, cardiac care, inpatient services
+- Nacogdoches Memorial Hospital (General Acute Care, Level III Trauma, IN TOWN)
+  Address: 1204 N Mound Street, Nacogdoches, TX 75961
+  Phone: (936) 564-4611
+  Website: https://www.nacmemorial.org
+  Coordinates: 31.6124° N, 94.6493° W
+  Services: Level III Trauma Center, emergency, surgery, inpatient care
+- Nacogdoches Medical Center (Multi-Specialty, IN TOWN)
+  Address: 4930 North Street, Nacogdoches, TX 75965
+  Phone: (936) 560-2388
+  Website: https://www.nacmedcenter.org
+  Coordinates: 31.6511° N, 94.6556° W
+  Services: Multi-specialty medical center, imaging, outpatient services
 ## Library
-- Nacogdoches Public Library
-  Address: 101 E Main St, Nacogdoches, TX 75961
+- Judy B. McDonald Public Library
+  Address: 1112 North Street, Nacogdoches, TX 75961
   Phone: (936) 559-2970
-  Website: https://ci.nacogdoches.tx.us/Library
-  Note: Located on Main Street near Police Department
+  Manager: Mercedes Franks, (936) 559-2945
+  Hours: Mon–Thu 9–8; Fri 9–6:30; Sat 10–4
+  Services: eBooks (OverDrive), computer access, children's programs, curbside pickup
+  Website: https://www.nactx.us/962/Library
+  Note: NAMED library (Judy B. McDonald)
 ## Building Permits
-- Office: Building Inspections Department
-- Contact: (936) 559-2551
-- Website: https://ci.nacogdoches.tx.us/Inspections
-- Permits required: Construction, electrical, plumbing, structural
+- Office: Planning & Zoning Department
+- Address: 202 East Pilar Street, Nacogdoches, TX 75961
+- Phone: (936) 559-2588
+- Email: neu@nactx.us
+- Chief Building Official: Donald Shoemaker, CBO
+- Website: https://www.nactx.us/1530/Planning-Zoning
+- Services: Building permit applications, zoning verification, subdivision reviews, inspections (electrical, plumbing, structural)
 ## City Department Directory (ALL AGENCIES)
-- Administration: https://ci.nacogdoches.tx.us | (936) 559-2607
-  201 E Main St, Nacogdoches, TX 75961 | City Manager: Rick Beverlin
-- Police Department: 201 E Main St | (936) 559-2607 | 911 Emergency
-  NO city jail | https://ci.nacogdoches.tx.us/Police
-- Municipal Court: (936) 559-2641
-  https://ci.nacogdoches.tx.us/Municipal-Court
-- Fire Department: (936) 559-2541
-- Public Works: (936) 559-2583
-- Utility Billing: (936) 559-2593
-- Parks & Recreation: (936) 559-2960
-- Building Inspections: (936) 559-2551
-  https://ci.nacogdoches.tx.us/Inspections
-- Nacogdoches Public Library: (936) 559-2970
-  101 E Main St | https://ci.nacogdoches.tx.us/Library
+- City Hall: 312 W Main Street, Nacogdoches, TX 75961 | (936) 559-2506
+  Mailing: P.O. Box 635030, Nacogdoches, TX 75963-5030
+  https://www.nactx.us
+  Home Rule | Council-Manager: Mayor Randy Johnson + 5 Council
+  City Manager: Richard B. Beverlin, III
+- Police Department: 312 W Main Street | (936) 559-2607 or (936) 468-2608 | 911 Emergency
+  Chief: Scott Weems | Records: Rhonda Modisette (936) 559-2638
+  NO city jail | https://www.nactx.us/1638/Police-Department
+- Municipal Court: 217 W Hospital Street | (936) 559-2641 | Fax: (936) 560-3477
+  Mon–Fri 8–4 | mcourt@nactx.us | Judge: Juanita Springer
+  Online Payments: https://cityofnacogdochestx.municipalonlinepayments.com/
+  https://www.nactx.us/733/Municipal-Court
+- City Secretary: Public Records Requests | https://www.nactx.us/650/City-Secretary
+- Planning & Zoning: 202 East Pilar Street | (936) 559-2588
+  neu@nactx.us | Chief Building Official: Donald Shoemaker, CBO
+  https://www.nactx.us/1530/Planning-Zoning
+- Judy B. McDonald Public Library: 1112 North Street | (936) 559-2970
+  Manager: Mercedes Franks (936) 559-2945
+  Mon–Thu 9–8, Fri 9–6:30, Sat 10–4
+  https://www.nactx.us/962/Library
 - Nacogdoches County Jail: 2306 Douglass Road, Nacogdoches, TX 75964
-  (936) 560-7777 | Inmate Roster: https://www.nac-sheriff.com/CountyJail/InmateSearch.asp
-  Website: https://www.nac-sheriff.com
+  (936) 560-7777 | Inmate Line: (936) 560-7794
+  Sheriff: Jason Bridges | Capacity: 292 inmates
+  Inmate Search: https://nacogdochescountyjailtx.org/
+  http://www.nac-sheriff.com/sheriff.asp
 ## Additional County Resources
 - Nacogdoches County Government: https://www.co.nacogdoches.tx.us
-- Nacogdoches County Sheriff: https://www.nac-sheriff.com
+- Nacogdoches County Sheriff: http://www.nac-sheriff.com
+- Nacogdoches County Clerk: https://www.co.nacogdoches.tx.us/CountyOffices/CountyClerk/Index.asp
+- Nacogdoches County Appraisal District: https://www.ncad-tx.org
+- Stephen F. Austin State University Police: https://www.sfasu.edu/police
+- Nacogdoches ISD: https://www.nisdtx.org
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov

@@ -1,11 +1,11 @@
 ﻿# Hutto City (Williamson County, TX) Courts
 ## Hutto Municipal Court
 - Serves: Hutto City
-- Phone: (512) 759-4030
+- Phone: (512) 759-4033 ext. 111
 - Website: https://www.huttotx.gov/municipal-court
 - Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; contact via city phone
+- Note: Municipal City Court; contact via city phone with extension; no separate court address published
 - Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Williamson County Courthouse: 405 Martin Luther King Jr. Street, Georgetown, TX 78626
@@ -15,15 +15,15 @@
 - https://www.huttotx.gov
 - Address: 401 W Front St, Hutto, TX 78634
 - City Manager: James R. Earp
-- Phone: (512) 759-4030 (main)
+- Phone: (512) 846-2200 (Police non-emergency)
 - Coordinates: 30.5084° N, 97.6785° W (Ascension Seton Round Rock area)
-- Note: Williamson County; Austin metro area; rapidly growing; known for Hutto Hippos mascot; NOT the county seat
+- Note: Williamson County; Austin metro area; rapidly growing; NOT the county seat; known for Hutto Hippos mascot
 ## Police Services
 - Hutto Police Department
 - Address: 401 W Front St, Hutto, TX 78634
 - Emergency: 911
 - Non-Emergency: (512) 846-2200
-- Operates short-term holding facility
+- Operates Holding Facility
 - Website: https://www.huttotx.gov/police
 ## Jail / Detention Facilities
 - Hutto Police Department Holding Facility (short-term)
@@ -51,7 +51,7 @@
 - Note: No full-service hospital in Hutto
 ## Library
 - Hutto Public Library
-  Address: 500 W Live Oak St, Hutto, TX 78634
+  Address: 501 W Live Oak St, Hutto, TX 78634
   Phone: (512) 759-4030
   Website: https://www.huttotx.gov/library
 ## Building Permits
@@ -60,25 +60,26 @@
 - Online Portal: Hutto Interactive Maps & Permits
 - Permits required: Construction, electrical, plumbing, structural
 ## City Department Directory (ALL AGENCIES)
-- Administration: https://www.huttotx.gov | (512) 759-4030
+- Administration: https://www.huttotx.gov | (512) 846-2200
   401 W Front St, Hutto, TX 78634 | City Manager: James R. Earp
 - Police Department: 401 W Front St | (512) 846-2200 | 911 Emergency
-  Holding facility on-site | https://www.huttotx.gov/police
-- Municipal Court: (512) 759-4030
+  Holding Facility on-site | https://www.huttotx.gov/police
+- Municipal Court: (512) 759-4033 ext. 111
   https://www.huttotx.gov/municipal-court
 - Fire Department: (512) 846-2200
-- Public Works: (512) 759-4030
-- Utility Billing: (512) 759-4030
+- Public Works: (512) 759-4023
+- Utility Billing: (512) 759-4055
 - Parks & Recreation: (512) 759-4030
 - Development Services: (512) 759-4030 | Hutto Interactive Maps & Permits
   https://www.huttotx.gov/building
 - Hutto Public Library: (512) 759-4030
-  500 W Live Oak St | https://www.huttotx.gov/library
-- Hutto Police Holding: 401 W Front St | (512) 846-2200
+  501 W Live Oak St | https://www.huttotx.gov/library
+- Hutto PD Holding Facility: 401 W Front St | (512) 846-2200
 - Williamson County Jail (Georgetown): 306 W 4th St | (512) 943-1365
   Inmate Search: https://williamsonjailroster.org
 ## Additional County Resources
 - Williamson County Government: https://www.wilco.org
+- Williamson County Inmate Search: https://williamsonjailroster.org
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov

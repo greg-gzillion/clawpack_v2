@@ -1,34 +1,34 @@
-ï»¿# Marshall City (Harrison County, TX) â€” Local Law Resources
+# Marshall City (Harrison County, TX) — Local Law Resources
 ## City Website
 - https://www.marshalltexas.net
 - 2101 E End Blvd North, Marshall, TX 75672 | (903) 935-4575
 - City Manager: Greg Smith | County seat of Harrison County | East Texas
-- Near Texas-Louisiana border | Shares name with Marshall, MN and Marshall, MI | Coordinates: 32.5504Â° N, 94.3323Â° W
+- Near Texas-Louisiana border | Shares name with Marshall, MN and Marshall, MI | Coordinates: 32.5504° N, 94.3323° W
 ## Law Enforcement
-- Marshall Police Department â€” 2101 E End Blvd North
+- Marshall Police Department — 2101 E End Blvd North
 - Non-Emergency: (903) 935-4575 | Emergency: 911
 - City Jail on-site | https://www.marshalltexas.net/225/Police-Department
 ## Courts
-- Marshall Municipal Court â€” 303 W Burleson St | (903) 935-4535
+- Marshall Municipal Court — 303 W Burleson St | (903) 935-4535
 - https://www.marshalltexas.net/180/Municipal-Court
-- Harrison County Courthouse: 200 W Houston Street, Marshall â€” (903) 935-8400
+- Harrison County Courthouse: 200 W Houston Street, Marshall — (903) 935-8400
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED â€” CITY + COUNTY)
-- Marshall City Jail â€” 2101 E End Blvd North â€” (903) 935-4575
-- Harrison County Jail â€” https://www.harrisoncountytx.gov
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
+- Marshall City Jail — 2101 E End Blvd North — (903) 935-4575
+- Harrison County Jail — https://www.harrisoncountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
 - Permits & Inspections: (903) 934-7994 | Citizen Portal
 - https://www.marshalltexas.net/228/Permits-Inspections
 - Construction, electrical, plumbing, structural
 ## Library
-- Marshall Public Library â€” 300 S Alamo Blvd â€” (903) 935-4465
+- Marshall Public Library — 300 S Alamo Blvd — (903) 935-4465
 - DEDICATED LIBRARY WEBSITE: https://www.marshallpubliclibrary.org
-## Hospitals (ALL URLS INCLUDED â€” WITH COORDINATES)
-- CHRISTUS Good Shepherd Medical Center - Marshall (IN TOWN) â€” 1100 W Houston St
-  Coordinates: 32.5504Â° N, 94.3323Â° W | (903) 935-7111
+## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
+- CHRISTUS Good Shepherd Medical Center - Marshall (IN TOWN) — 1100 W Houston St
+  Coordinates: 32.5504° N, 94.3323° W | (903) 935-7111
   Emergency, surgery, imaging, inpatient | https://christusgoodshepherd.org
-## Additional Resources â€” ALL CITY AGENCIES
+## Additional Resources — ALL CITY AGENCIES
 - CITY HALL AND POLICE AT 2101 E END BLVD NORTH; COURT AT 303 W BURLESON ST (separate)
 - NAMED CITY MANAGER: Greg Smith
 - DEDICATED LIBRARY WEBSITE (separate domain): marshallpubliclibrary.org

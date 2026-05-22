@@ -1,49 +1,50 @@
 ﻿# Henderson City (Rusk County, TX) — Local Law Resources
 ## City Website
 - https://www.hendersontx.us
-- 402 W Main St, Henderson, TX 75652 | (903) 657-6551
-- County seat of Rusk County | East Texas | Shares name with Henderson, NV
-- Coordinates: 32.1611° N, 94.7955° W
+- 800 Lake Forest Pkwy, Henderson, TX 75652 | (903) 657-3512
+- County seat of Rusk County | East Texas | Known for Henderson Syrup Festival
+- Shares name with Henderson, NV | Coordinates: 32.1611° N, 94.7955° W
 ## Law Enforcement
 - Henderson Police Department — 800 Lake Forest Pkwy
 - Non-Emergency: (903) 657-3512 | Emergency: 911
-- Holding facility on-site | https://www.hendersontx.us/police-department
+- Holding Facility on-site | https://www.hendersontx.us/police-department
 ## Courts
 - Henderson Municipal Court — 402 W Main St | (903) 392-0557
 - https://www.hendersontx.us/municipal-court
 - Rusk County Courthouse: 115 E Main Street, Henderson — (903) 657-0300
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED — CITY + TWO COUNTIES)
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
 - Henderson PD Holding Facility — 800 Lake Forest Pkwy — (903) 657-3512
-- Henderson County Jail (Athens) — 206-A N Murchison St, Athens, TX 75751 — (903) 677-6322
-  Note: Henderson County Jail is in ATHENS, not Henderson (different county)
 - Rusk County Jail — https://www.co.rusk.tx.us
+  NOTE: Henderson is county seat of RUSK County (not Henderson County — Henderson County is in Athens, TX)
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Community Development: Cliff McElfresh | (903) 657-6551 ext. 265
+- Community Development: (903) 657-6551 ext. 265
+- Building Official: Cliff McElfresh
 - https://www.hendersontx.us/community-development
 - Construction, electrical, plumbing, structural
 ## Library
 - Rusk County Library — 106 E Main St — (903) 657-8557
-- https://www.ruskcountylibrary.org
+- DEDICATED LIBRARY WEBSITE: https://www.ruskcountylibrary.org
+- County library, not city-operated
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
 - UT Health Henderson (IN TOWN) — 300 Wilson St
   Coordinates: 32.1611° N, 94.7955° W | (903) 657-7541
   Emergency, surgery, imaging, inpatient | https://uthealtheasttexas.com
-- CHRISTUS Emergency Center (OPENING 2025) — 1875 US Hwy 259
-  Coordinates: 32.1421° N, 94.7690° W | Freestanding ER | https://christushealth.org
+- CHRISTUS Emergency Center (OPENING 2025) — 1875 US Hwy 259, Henderson, TX 75654
+  Coordinates: 32.1421° N, 94.7690° W | Freestanding ER (future)
+  https://christushealth.org
 ## Additional Resources — ALL CITY AGENCIES
-- CITY HALL AND COURT AT SAME ADDRESS: 402 W Main St
-- POLICE AT DIFFERENT ADDRESS: 800 Lake Forest Pkwy
+- POLICE AT 800 LAKE FOREST PKWY; COURT AT 402 W MAIN ST (separate locations)
+- NAMED BUILDING OFFICIAL: Cliff McElfresh with phone extension
 - NAMED CITY SECRETARY: Cheryl Jimerson
-- NAMED BUILDING OFFICIAL: Cliff McElfresh
-- UT Health Henderson in town; CHRISTUS ER opening 2025
-- County library (Rusk County Library) on Main Street
-- Jail situation UNUSUAL: Henderson County Jail is in Athens (not Henderson)
+- DEDICATED LIBRARY WEBSITE (separate domain): ruskcountylibrary.org
+- COUNTY LIBRARY (not city-operated)
+- FUTURE HOSPITAL: CHRISTUS Emergency Center opening 2025
+- COUNTY SEAT OF RUSK COUNTY (not Henderson County — important distinction)
+- East Texas | Known for Henderson Syrup Festival
 - Fire/Public Works/Utility/Parks: (903) 657-6551
-- County seat | East Texas
 - Rusk County: https://www.co.rusk.tx.us
-- Henderson County Jail: (903) 677-6322 (Athens)
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

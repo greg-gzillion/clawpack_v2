@@ -1,108 +1,94 @@
-﻿# Cibolo City (Guadalupe/Bexar County, TX) Courts
+﻿# Cibolo City (Guadalupe County, TX) Courts
 ## Cibolo Municipal Court
 - Serves: Cibolo City
-- Location: 200 S Main Street, P.O. Box 826, Cibolo, TX 78108
+- Address: 200 S Main St, Cibolo, TX 78108
 - Phone: (210) 658-7324
 - Hours: Mon–Fri 8–4:45
-- Website: https://www.cibolotx.gov/services/municipal_court/index.php
-- Jurisdiction: City ordinance violations, traffic citations
+- Website: https://www.cibolotx.gov/municipal_court
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; separate location from Police; closes 4:45 PM
-- Handles: City ordinance violations, traffic infractions
+- Note: Municipal City Court; separate location from Police on S Main St
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Guadalupe County Courthouse: 101 E Court Street, Seguin, TX 78155
 - Phone: (830) 303-4188
 - Website: https://www.co.guadalupe.tx.us
 ## City Website
 - https://www.cibolotx.gov
-- Address: 200 S Main Street, Cibolo, TX 78108
-- Mayor: Kara Latimer
+- Address: 162 E Loop 539, Cibolo, TX 78108
 - City Manager: Wayne Reed
-- Government Type: Home Rule, Council-Manager
-- Coordinates: 29.5726° N, 98.2350° W (Physicians Premier ER area)
-- Note: Spans Guadalupe and Bexar counties; San Antonio metro area; NOT the county seat
+- Phone: (210) 659-1999 (Police non-emergency)
+- Coordinates: 29.7154° N, 98.1231° W (Christus Santa Rosa - New Braunfels area)
+- Note: Guadalupe County; San Antonio metro area; rapidly growing; NOT the county seat; named after the Cibolo Creek
 ## Police Services
 - Cibolo Police Department
-- Address: 109 South Main St, Cibolo, TX 78108
+- Address: 162 E Loop 539, Cibolo, TX 78108
 - Emergency: 911
 - Non-Emergency: (210) 659-1999
 - Chief: Thedrick Andres
 - Operates short-term holding facility
-- Website: https://www.cibolotx.gov
+- Website: https://www.cibolotx.gov/police
 ## Jail / Detention Facilities
-- Cibolo City Jail (short-term holding)
-  Location: 109 South Main St, Cibolo, TX 78108
-  Note: Inmates transferred to Guadalupe County Jail
-- Guadalupe County Jail (long-term)
+- Cibolo Police Holding Facility (short-term)
+  Location: 162 E Loop 539, Cibolo, TX 78108
+  Phone: (210) 659-1999
+  Note: Most inmates transferred to Guadalupe County Jail
+- Guadalupe County Jail (Seguin, long-term)
   Website: https://www.co.guadalupe.tx.us
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- Physicians Premier Cibolo ER
-  Address: 580 Cibolo Valley Dr #137, Cibolo, TX 78108
-  Phone: (210) 251-3545
-  Website: https://physicianspremier.com
-  Coordinates: 29.5726° N, 98.2350° W
-  Services: Freestanding emergency room
-- Baptist Neighborhood Hospital – Schertz (nearby)
-  Address: 16977 I-35, Schertz, TX 78154
-  Phone: (210) 265-1200
-  Website: https://baptistemergencyhospital.com
-  Services: Freestanding emergency hospital
-- McKenna Memorial Hospital (New Braunfels)
-  Address: 600 North Union Ave, New Braunfels, TX 78130
-  Phone: (830) 625-9111
-  Website: https://resolutehealth.com
-  Coordinates: 29.7020° N, 98.1316° W
-- North East Baptist Hospital (San Antonio)
-  Address: 12412 Hudson Rd, San Antonio, TX 78233
-  Phone: (210) 575-0000
-  Website: https://baptisthealthsystem.com
-  Coordinates: 29.5907° N, 98.2500° W
-- Guadalupe Valley Hospital (Seguin)
-  Address: 1215 E Court St, Seguin, TX 78155
-  Phone: (830) 379-2411
-  Website: https://grmedcenter.com
-  Coordinates: 29.5667° N, 97.9735° W
+- Christus Santa Rosa Hospital - New Braunfels (nearest full-service)
+  Address: 600 N Union Ave, New Braunfels, TX 78130
+  Phone: (830) 606-9111
+  Website: https://christushealth.org
+  Coordinates: 29.7154° N, 98.1231° W
+  Services: Emergency, surgery, imaging, cardiac care, Level IV Trauma Center
+- University Hospital - North Central (San Antonio)
+  Address: 7700 N Loop 1604 W, San Antonio, TX 78249
+  Phone: (210) 358-0000
+  Website: https://uhnctexas.org
+  Coordinates: 29.6464° N, 98.5802° W
+  Services: Emergency, surgery, imaging
 - Note: No full-service hospital in Cibolo
 ## Library
-- Schertz Public Library (serves Cibolo area — no library in Cibolo)
-  Address: 798 Schertz Pkwy, Schertz, TX 78154
-  Phone: (210) 619-1700
-  Hours: Mon–Thu 10–8; Fri–Sat 10–6; Sun 12–6
-  Note: OPEN SUNDAYS 12–6 PM
-  Website: https://www.schertz.com
+- NO MUNICIPAL LIBRARY — served by Guadalupe County Library System
+- Nearest: New Braunfels Public Library
+  Address: 700 Commons St, New Braunfels, TX 78130
+  Phone: (830) 221-4300
+  Website: https://www.nbtexas.org/library
 ## Building Permits
-- Office: Building Permits & Inspections Department
-- Contact: (210) 658-9900
-- Online Portal: Cibolo Development Services
-- Website: https://www.cibolotx.gov
-- Permit Types: Residential/commercial construction, plumbing, electrical, HVAC, fencing, pools
-## City Department Directory (All Agencies)
-- Administration: https://www.cibolotx.gov
-  200 S Main Street, Cibolo, TX 78108
-  Mayor: Kara Latimer | City Manager: Wayne Reed | Home Rule Council-Manager
-- Police Department: 109 South Main St | (210) 659-1999 Non-Emergency | 911 Emergency
-  Chief: Thedrick Andres | City Jail (short-term holding)
-- Municipal Court: 200 S Main Street | (210) 658-7324 | Mon–Fri 8–4:45
-  P.O. Box 826 | https://www.cibolotx.gov/services/municipal_court/index.php
-- Guadalupe County Courthouse: 101 E Court Street, Seguin — (830) 303-4188
-- Building Permits & Inspections: (210) 658-9900 | Online: Cibolo Development Services
-  Construction, plumbing, electrical, HVAC, fencing, pools
-- Tax Collection: Via City Hall
-- Schertz Public Library (serves Cibolo): (210) 619-1700
-  798 Schertz Pkwy | Mon–Thu 10–8, Fri–Sat 10–6, Sun 12–6
-- Guadalupe County Jail: https://www.co.guadalupe.tx.us
+- Office: Building & Permits Department
+- Contact: (210) 658-4175
+- Online Portal: MGO Connect
+- Website: https://www.cibolotx.gov/building_permits
+- Permits required: Construction, electrical, plumbing, structural
+## City Department Directory (ALL AGENCIES)
+- Administration: https://www.cibolotx.gov | (210) 659-1999
+  162 E Loop 539, Cibolo, TX 78108 | City Manager: Wayne Reed
+- Police Department: 162 E Loop 539 | (210) 659-1999 | 911 Emergency
+  Chief: Thedrick Andres | Holding facility on-site | https://www.cibolotx.gov/police
+- Municipal Court: 200 S Main St | (210) 658-7324 | Mon–Fri 8–4:45
+  https://www.cibolotx.gov/municipal_court
+- Fire Department: (210) 659-1999
+- Public Works: (210) 658-9900
+- Utility Billing: (210) 658-9900
+- Parks & Recreation: (210) 658-9900
+- Building & Permits: (210) 658-4175 | MGO Connect Portal
+  https://www.cibolotx.gov/building_permits
+- NO MUNICIPAL LIBRARY — New Braunfels Public Library: (830) 221-4300
+  700 Commons St, New Braunfels, TX 78130 | https://www.nbtexas.org/library
+- Cibolo Police Holding: 162 E Loop 539 | (210) 659-1999
+- Guadalupe County Jail (Seguin): https://www.co.guadalupe.tx.us
 ## Additional County Resources
 - Guadalupe County Government: https://www.co.guadalupe.tx.us
-- Bexar County Government: https://www.bexar.org
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 - Texas Municipal League: https://www.tml.org
 ## Nearby Municipalities (Guadalupe County, TX)
-- Schertz: Baptist Neighborhood Hospital, Schertz Public Library
-- Seguin: TX/Guadalupe/Seguin (County Courthouse, County Jail, Guadalupe Valley Hospital)
-- New Braunfels: McKenna Memorial Hospital
+- Seguin: TX/Guadalupe/Seguin (County Courthouse, County Jail)
+- New Braunfels: TX/Comal/New_Braunfels (Christus Santa Rosa Hospital, Public Library)
+- Schertz: Contact via Guadalupe County
 ## Statewide City Agency Reference
 - San Antonio: TX/Bexar/San_Antonio
 - Austin: TX/Travis/Austin

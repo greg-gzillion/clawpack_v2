@@ -1,128 +1,129 @@
 ﻿# Duncanville City (Dallas County, TX) Courts
 ## Duncanville Municipal Court
 - Serves: Duncanville City
-- Location: 203 E Wheatland Road, Duncanville, TX 75116
+- Address: 203 E Wheatland Road, Duncanville, TX 75116
 - Mailing: P.O. Box 380280, Duncanville, TX 75138
 - Phone: (972) 780-5055
 - Fax: (972) 780-6473
-- Hours: Mon–Fri 8–5 (CLOSED 12–1 PM for lunch)
-- Online Payments: https://ipn.paymentus.com/rotp/dncc or GovPayNow.net (Pay Code: A0003A)
+- Hours: Mon–Fri 8–5 (Closed 12–1 for lunch)
 - Website: https://www.duncanvilletx.gov/residents/city_services/municipal_court
-- Jurisdiction: City ordinance violations, Class C Misdemeanors, Texas Penal Code, Alcoholic Beverage Code
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations, Texas Penal Code, Alcoholic Beverage Code, Health Code, Safety Code
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; located in same building as Police; closed for lunch
-- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
+- Note: Municipal City Court; located in same building as Police; CLOSED FOR LUNCH 12–1 PM daily
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors, state statute violations punishable by fine only
 ## Superior/District Court
 - Dallas County Courthouse: 600 Commerce Street, Dallas, TX 75202
 - Phone: (214) 653-7000
-- Website: https://www.dallascounty.org
+- Website: https://www.dallascountytx.gov
 ## City Website
 - https://www.duncanvilletx.gov
 - Address: 203 E Wheatland Road, Duncanville, TX 75116
-- City Hall: (972) 780-5000 | Service Center: (972) 780-4900 (24/7)
-- Non-Emergency Police & Fire: (972) 223-6111, option 4
-- Mayor: (contact via city website)
-- City Manager: Weekly updates published
-- Coordinates: 32.6383° N, 96.9083° W (Methodist Charlton area)
-- Note: Dallas County; DFW metroplex; NOT the county seat; participant in Tri-City Regional Jail
+- Phone: (972) 223-6111 (Police non-emergency, Option 4)
+- Coordinates: 32.6383° N, 96.9083° W (Methodist Charlton Medical Center area)
+- Note: Dallas County; DFW metroplex; NOT the county seat; part of Best Southwest area; NO CITY JAIL — uses Tri-City Regional Jail in DeSoto
 ## Police Services
 - Duncanville Police Department
 - Address: 203 E Wheatland Road, Duncanville, TX 75116
 - Emergency: 911
 - Non-Emergency: (972) 223-6111 (Option 4)
-- Admin Hours: Mon–Fri 8–5
-- Community-policing philosophy
-- NO city jail — uses Tri-City Regional Jail (since Oct 2020)
+- NO city jail — arrestees housed at Tri-City Regional Jail
 - Website: https://www.duncanvilletx.gov/residents/public_safety/police_department
 ## Jail / Detention Facilities
-- Tri-City Regional Jail (primary — shared facility serving Duncanville, DeSoto, Cedar Hill, Lancaster)
+- NO CITY JAIL — Duncanville no longer operates a municipal jail
+- Tri-City Regional Jail (shared facility — serves Duncanville, DeSoto, Cedar Hill, Lancaster)
   Address: 714 E Beltline Road, DeSoto, TX 75115
   Phone: (469) 658-3081
   Website: https://www.duncanvilletx.gov/residents/public_safety/police_department/tri_city_regional_jail
-- Dallas County Lew Sterrett Justice Center (main county jail)
-  Address: 111 West Commerce Street, Dallas, TX 75202
-  Phone: (214) 761-9025
-  Website: https://www.dallascounty.org/departments/sheriff/detention-centers/
-- Frank Crowley Courts Building (Inmate Info)
-  Address: 133 N Riverfront Blvd., Dallas, TX 75207
-  Inmate Lookup: https://www.dallascounty.org/jaillookup/search.jsp
-- Henry Wade Juvenile Justice Center
-  Address: 2600 Lone Star Drive, Dallas, TX 75212
-  Phone: (214) 698-2200
-  Website: https://www.dallascounty.org/departments/juvenile/detention-services.php
+- Lew Sterrett Justice Center (Dallas County, long-term)
+  Inmate Search: https://www.dallascounty.org/jaillookup/search.jsp
+  Website: https://www.dallascountytx.gov
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- Methodist Charlton Medical Center (nearest full-service, Dallas)
+- Methodist Charlton Medical Center (Dallas, nearest full-service)
   Address: 3500 W Wheatland Rd, Dallas, TX 75235
   Phone: (214) 947-5204
   Website: https://methodisthealthsystem.org
   Coordinates: 32.6383° N, 96.9083° W
-  Services: Emergency, surgery, Level III Trauma Center
-- North Texas Care Clinic
+  Services: Emergency, surgery, imaging, cardiac care
+- North Texas Care Clinic (IN TOWN)
   Address: 529 W Wheatland Rd, Duncanville, TX 75116
   Phone: (972) 298-2429
   Website: https://southwesternhealth.org
   Coordinates: 32.6471° N, 96.9187° W
+  Services: Primary care clinic
 - Nova Medical Centers
   Address: 814 E Camp Wisdom Rd, Duncanville, TX 75116
   Phone: (214) 217-0303
   Coordinates: 32.6345° N, 96.8865° W
+  Services: Occupational medicine
 - iHeart Care Center
   Address: 1018 E Wheatland Rd, Duncanville, TX 75116
   Phone: (855) 943-2788
   Coordinates: 32.6512° N, 96.8956° W
+  Services: Cardiology
 - Duncanville Medical Center Inc
   Address: 1026 E Wheatland Rd, Duncanville, TX 75116
   Phone: (972) 296-2888
   Coordinates: 32.6518° N, 96.8944° W
-- Note: No full-service hospital in Duncanville; Methodist Charlton <5 minutes away
+  Services: Medical clinic
+- Note: No full-service hospital in Duncanville
 ## Library
 - Duncanville Public Library
   Address: 201 James Collins Blvd, Duncanville, TX 75116
   Phone: (972) 780-5050
   Hours: Mon–Wed 10–8; Thu–Sat 10–6; Sun CLOSED
-  Reciprocal borrowing with Cedar Hill, DeSoto, and Lancaster libraries
   Website: https://www.duncanvilletx.gov/residents/education/duncanville_public_library
 ## Building Permits
 - Office: Permit & Inspection Services / Planning & Zoning
-- Pre-Development Meeting: Required; Wednesdays 9–12 (in-person or virtual)
-- Submit Project Assessment Form to: planning@duncanvilletx.gov
-- Website: https://www.duncanvilletx.gov/business/permitting_resources/planning_and_zoning
+- Pre-Development Meeting: Required for new construction, remodeling, zoning changes (Wednesdays 9–12)
+- Email: planning@duncanvilletx.gov
 - Zoning Ordinance: DNV-ZO-2021.03.02-ADOPTED.pdf
-- Projects NOT requiring permits: painting, cabinet installation, fence building
-- Inspections required at various construction stages
+- Website: https://www.duncanvilletx.gov/business/permitting_resources/planning_and_zoning
+- Permits required: Construction, electrical, plumbing, mechanical
+- Note: Painting, cabinet installation, fence building typically do NOT require permits
 ## City Department Directory (ALL AGENCIES)
-- Administration: https://www.duncanvilletx.gov | (972) 780-5000
-  Service Center: (972) 780-4900 (24/7)
-- Police Department: https://www.duncanvilletx.gov/residents/public_safety/police_department
-  203 E Wheatland Road | (972) 223-6111 (Option 4) | Admin Mon–Fri 8–5
+- Administration: https://www.duncanvilletx.gov | (972) 223-6111
+  203 E Wheatland Road, Duncanville, TX 75116
+- Police Department: 203 E Wheatland Road | (972) 223-6111 (Option 4) | 911 Emergency
+  NO city jail | https://www.duncanvilletx.gov/residents/public_safety/police_department
 - Municipal Court: 203 E Wheatland Road | (972) 780-5055 | Fax: (972) 780-6473
-  Mon–Fri 8–5 (closed 12–1 PM) | Online: ipn.paymentus.com/rotp/dncc
-- Fire Department: https://duncanvilletx.gov/fire | (972) 780-4920
-- Fiscal Services: https://duncanvilletx.gov/fiscal
-- Human Resources: https://duncanvilletx.gov/hr
-- Parks & Recreation: https://duncanvilletx.gov/parks
-- Public Works: https://duncanvilletx.gov/publicworks
-- Utility Customer Service: https://duncanvilletx.gov/utility
-- City Secretary: https://duncanvilletx.gov/citysecretary (Public Records)
-- Economic Development: https://duncanvilletx.gov/economicdev
-- Planning & Zoning: https://www.duncanvilletx.gov/business/permitting_resources/planning_and_zoning
-  planning@duncanvilletx.gov
-- Library: https://www.duncanvilletx.gov/residents/education/duncanville_public_library
-  (972) 780-5050 | 201 James Collins Blvd
-- Tri-City Regional Jail: (469) 658-3081 | 714 E Beltline Road, DeSoto, TX 75115
-- Dallas County Lew Sterrett Justice Center: (214) 761-9025
-- Inmate Lookup: https://www.dallascounty.org/jaillookup/search.jsp
+  Mon–Fri 8–5 (CLOSED 12–1 FOR LUNCH)
+  Mailing: P.O. Box 380280, Duncanville, TX 75138
+  https://www.duncanvilletx.gov/residents/city_services/municipal_court
+- Fire Department: (972) 780-4920
+  https://www.duncanvilletx.gov/fire
+- Public Works: https://www.duncanvilletx.gov/city_hall/departments/public_works
+- Utility Customer Service: https://www.duncanvilletx.gov/residents/utility_customer_service
+- Parks & Recreation: https://www.duncanvilletx.gov/residents/parks_and_recreation
+- Fiscal Services: https://www.duncanvilletx.gov/fiscal
+- Human Resources: https://www.duncanvilletx.gov/hr
+- City Secretary: https://www.duncanvilletx.gov/city_hall/departments/city_secretary
+- Economic Development: https://www.duncanvilletx.gov/city_hall/departments/economic_development
+- City Communications & Marketing: Public Information Office
+- Purchasing: https://www.duncanvilletx.gov
+- Permit & Inspection Services: https://www.duncanvilletx.gov
+- Planning & Zoning: planning@duncanvilletx.gov
+  https://www.duncanvilletx.gov/business/permitting_resources/planning_and_zoning
+- Duncanville Public Library: (972) 780-5050
+  201 James Collins Blvd | Mon–Wed 10–8, Thu–Sat 10–6, Sun CLOSED
+  https://www.duncanvilletx.gov/residents/education/duncanville_public_library
+- Tri-City Regional Jail (DeSoto): 714 E Beltline Road, DeSoto, TX 75115
+  (469) 658-3081
+  https://www.duncanvilletx.gov/residents/public_safety/police_department/tri_city_regional_jail
+- Lew Sterrett Justice Center (Dallas County):
+  https://www.dallascounty.org/jaillookup/search.jsp
 ## Additional County Resources
-- Dallas County Government: https://www.dallascounty.org
+- Dallas County Government: https://www.dallascountytx.gov
+- Dallas County Jail Lookup: https://www.dallascounty.org/jaillookup/search.jsp
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 - Texas Municipal League: https://www.tml.org
 ## Nearby Municipalities (Dallas County, TX)
+- Dallas: TX/Dallas/Dallas_City (County Courthouse, Lew Sterrett Justice Center, Methodist Charlton)
 - DeSoto: Tri-City Regional Jail location
-- Cedar Hill: TX/Dallas/Cedar_Hill (reciprocal library)
-- Dallas: TX/Dallas/Dallas_City (County Courthouse, Methodist Charlton)
+- Cedar Hill: Tri-City Regional Jail partner
+- Lancaster: Tri-City Regional Jail partner
 ## Statewide City Agency Reference
 - Dallas: TX/Dallas/Dallas_City
 - Fort Worth: TX/Tarrant/Fort_Worth

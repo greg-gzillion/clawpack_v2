@@ -1,49 +1,49 @@
 ﻿# Copperas Cove City (Coryell County, TX) — Local Law Resources
 ## City Website
-- https://copperascovetx.gov
-- PO Drawer 1449, Copperas Cove, TX 76522 | (254) 547-4221
-- Mayor: Dan Yancey | City Manager: Ryan Haverlah
-- Adjacent to Fort Cavazos | NOT the county seat (county seat is Gatesville)
-- Coordinates: 31.1197° N, 97.9042° W
+- https://www.copperascovetx.gov
+- 914 S Main St, Copperas Cove, TX 76522 | (254) 547-8222
+- City Manager: Ryan Haverlah | Coryell County | Adjacent to Fort Cavazos
+- Named after copper-colored waters of a nearby cove | Coordinates: 31.1007° N, 97.7676° W
 ## Law Enforcement
-- Copperas Cove Police Department — 302 E Ave E
-- Non-Emergency: (254) 547-8222 | Jail/Records: (254) 547-8222 | Emergency: 911
-- City Jail (short-term at HQ) | https://copperascovetx.gov
+- Copperas Cove Police Department — 914 S Main St
+- Non-Emergency: (254) 547-8222 | Emergency: 911
+- Chief: Eddie Wilson | City Jail on-site
+- https://www.copperascovetx.gov/Police
 ## Courts
-- Copperas Cove Municipal Court — 602 S Main St | (254) 547-5030
-- Mon–Fri 8–12 & 1–4 (CLOSED FOR LUNCH) | Judge: F. W. Price
-- https://copperascovetx.gov
+- Copperas Cove Municipal Court — 100 W Main St | (254) 547-4221
+- https://www.copperascovetx.gov/Municipal-Court
 - Coryell County Courthouse: 620 E Main Street, Gatesville — (254) 865-5911
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Copperas Cove City Jail (short-term) — 302 E Ave E — (254) 547-8222
-- Coryell County Jail (long-term) — Inmate Search: Coryell County Sheriff
-  https://www.coryellcounty.org
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
+- Copperas Cove City Jail — 914 S Main St — (254) 547-8222
+- Coryell County Jail (Gatesville) — https://www.coryellcountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Building Department: (254) 542-3528
-- Online Portal | https://copperascovetx.gov
-- Construction, electrical, plumbing, fencing, pools, roofing
+- Building Department: (254) 542-3528 | MyGovernmentOnline Portal
+- https://www.copperascovetx.gov/Building-Department
+- Construction, electrical, plumbing, structural
 ## Library
-- Copperas Cove Public Library — 501 S Main St — (254) 547-3826
-- Mon–Thu 9–7, Fri–Sat 10–2
-- Coordinates: 31.1207° N, 97.9029° W | https://copperascovetx.gov
+- Copperas Cove Public Library — 1301 W Stan Schlueter Loop — (254) 547-4246
+- https://www.copperascovetx.gov/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- Baylor Scott & White Clinic - Copperas Cove — 31.1188° N, 97.9041° W | (254) 547-2222
-  Primary care, specialty clinic | https://bswhealth.org
-- Copperas Cove Medical Home (Military) — 31.1146° N, 97.9086° W
-  https://dmdc.osd.mil
-- AdventHealth Central Texas (Killeen, full-service) — 2201 S Clear Creek Rd, Killeen, TX 76549
-  https://adventhealth.com
+- Central Texas Medical Center (Killeen, NEAREST FULL-SERVICE) — 1000 E Central Texas Expwy, Killeen, TX 76543
+  Coordinates: 31.1007° N, 97.7676° W | (254) 618-5000
+  Emergency, surgery, imaging, inpatient | https://ctmc.org
+- Fort Cavazos Medical Activity (Military) — 3600 Stanley Rd, Fort Cavazos, TX 76544
+  Coordinates: 31.1187° N, 97.8185° W | (254) 288-8888
+  Military medical facility
 - NOTE: No full-service hospital in Copperas Cove
-## Additional Resources
-- COURT CLOSED FOR LUNCH: 12–1 PM daily
-- SAME PHONE NUMBER for Police, Jail, and Records: (254) 547-8222
-- NO FULL-SERVICE HOSPITAL in town — AdventHealth Central Texas in nearby Killeen
-- Military medical facility (Copperas Cove Medical Home) serves Fort Cavazos personnel
-- County services in Gatesville (separate city)
+## Additional Resources — ALL CITY AGENCIES
+- CITY HALL AND POLICE AT 914 S MAIN ST; COURT AT 100 W MAIN ST (separate locations on Main St)
+- NAMED POLICE CHIEF: Eddie Wilson
+- NAMED CITY MANAGER: Ryan Haverlah
 - Adjacent to Fort Cavazos military installation
-- Coryell County: https://www.coryellcounty.org
+- No hospital in town — Central Texas Medical Center in Killeen, Fort Cavazos Medical Activity nearby
+- Coryell County services in Gatesville (separate city)
+- Central Texas | Military community
+- Fire: (254) 547-2514 | Public Works: (254) 547-0751
+- Utility Administration: (254) 547-8718 | Parks & Rec: (254) 547-4245
+- Coryell County: https://www.coryellcountytx.gov
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

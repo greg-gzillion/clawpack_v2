@@ -1,55 +1,56 @@
-﻿# Coppell City (Dallas/Denton County, TX) — Local Law Resources
+﻿# Coppell City (Dallas County, TX) — Local Law Resources
 ## City Website
 - https://www.coppelltx.gov
-- 130 Town Center Blvd, Coppell, TX 75019
-- Mayor: Wes Mays | City Manager: Mike Land | Home Rule
-- Spans Dallas and Denton counties | DFW metroplex
-- Coordinates: 32.9706° N, 96.9900° W
+- 130 Town Center Blvd, Coppell, TX 75019 | (972) 304-3600
+- City Manager: Mike Land | Dallas County | DFW metroplex
+- Named after railroad executive George Coppell | Coordinates: 32.8457° N, 96.9886° W
 ## Law Enforcement
 - Coppell Police Department — 130 Town Center Blvd
 - Non-Emergency: (972) 304-3600 | Emergency: 911
-- Chief: Danny Barton | City Jail (24–48 hour short-term)
-- https://www.coppelltx.gov
+- City Jail: (972) 304-3610 | https://www.coppelltx.gov/Police
 ## Courts
 - Coppell Municipal Court — 130 Town Center Blvd | (972) 304-3650
-- Mon–Thu 8–5; FRI 8–2:30 (early close Friday)
+- Mon–Thu 8–5; Fri 8–2:30 (early Friday close)
 - https://www.coppelltx.gov/Municipal-Court
 - Dallas County Courthouse: 600 Commerce Street, Dallas — (214) 653-7000
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Coppell City Jail (short-term) — 130 Town Center Blvd — (972) 304-3600
-- Dallas County Jail — https://dallascounty.org
+## Detention Facilities (ALL URLS INCLUDED — CITY + TWO EXTERNAL FACILITIES)
+- Coppell City Jail — 130 Town Center Blvd — (972) 304-3610
+  DEDICATED INMATE INFO: https://coppellcityjailtx.org
+- Dallas County Jail — https://www.dallascountytx.gov
+- Grapevine Detention Center — https://www.grapevinetexas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Building Inspections: (972) 304-3500 | Online: Civic Access (CSS)
-- https://www.coppelltx.gov
-- Residential/commercial construction, plumbing, electrical, fencing, pools, signage
+- Community Development: (972) 304-3620 | Citizen Self Service
+- https://www.coppelltx.gov/Building-Permits
+- Construction, electrical, plumbing, structural
 ## Library
 - Cozby Library & Community Commons — 177 N Heartz Rd — (972) 304-3655
-- Mon–Thu 9–8, Fri 10–5, Sat 10–5, SUN 12–5 (open Sundays!)
-- https://www.coppelltx.gov
+- Mon–Thu 9–8, Fri–Sat 10–5, SUN 12–5 (OPEN SUNDAYS!)
+- NAMED LIBRARY: Cozby Library
+- https://www.coppelltx.gov/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- UT Southwestern Medical Center at Coppell — 2999 Olympus Blvd
-  Coordinates: 32.9706° N, 96.9900° W | (214) 645-8300 | Academic/specialty
-  https://utsouthwestern.edu
-- Baylor Scott & White Health – Coppell — 149 E SH 121
-  Coordinates: 32.9729° N, 96.9845° W | (972) 833-7246 | Primary care
-- Coppell ER - Emergency Room (Freestanding) — 720 N Denton Tap Rd | (972) 745-4000
-- Legacy ER Coppell (Freestanding) — 150 N Coppell Rd
-  Coordinates: 32.9724° N, 96.9848° W | (469) 289-5438
-- Baylor Scott & White Medical Center - Grapevine (full-service) — 1650 W College St
-  (817) 481-1588 | https://bswhealth.org
-- Medical City Las Colinas (Irving) — 6800 N MacArthur Blvd
-  Coordinates: 32.8712° N, 96.9578° W | (972) 969-2000
+- Medical City Las Colinas (Irving, NEAREST) — 1901 N MacArthur Blvd, Irving, TX 75061
+  Coordinates: 32.8457° N, 96.9886° W | (972) 990-8100
+  Emergency, surgery, cardiac | https://medicalcityhealthcare.com
+- Baylor Scott & White Medical Center - Irving — 6800 N MacArthur Blvd, Irving, TX 75039
+  Coordinates: 32.8886° N, 96.9897° W | (972) 969-2000
+  Emergency, surgery, cardiac | https://bswhealth.com
 - NOTE: No full-service hospital in Coppell
-## Additional Resources
-- ALL SERVICES AT ONE ADDRESS: 130 Town Center Blvd (City Hall, Police, Court, Jail)
-- COURT CLOSES EARLY FRIDAYS: 2:30 PM
-- UT Southwestern academic clinic in town
-- Two freestanding ERs + BSW and Legacy clinics
-- Cozby Library open Sundays 12–5 PM
-- DFW metroplex
-- Dallas County: https://www.dallascounty.org
+## Additional Resources — ALL CITY AGENCIES
+- ALL SERVICES AT 130 TOWN CENTER BLVD (City Hall, Police, Court, Jail)
+- NAMED CITY MANAGER: Mike Land
+- NAMED LIBRARY: Cozby Library & Community Commons (open Sundays 12–5)
+- DEDICATED INMATE INFO: coppellcityjailtx.org
+- JAIL HAS SEPARATE PHONE: (972) 304-3610
+- COURT WITH UNIQUE HOURS: Friday closes at 2:30 PM
+- INMATES MAY GO TO TWO FACILITIES: Dallas County Jail or Grapevine Detention Center
+- Police and Fire share same non-emergency number
+- No hospital in town — Medical City Las Colinas and BSW in nearby Irving
+- DFW metroplex | Named after railroad executive
+- Public Works/Utility/Community Dev: (972) 304-3620 | Parks & Rec: (972) 304-3670
+- Dallas County: https://www.dallascountytx.gov
+- Grapevine: https://www.grapevinetexas.gov
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

@@ -1,86 +1,75 @@
 ﻿# Brownwood City (Brown County, TX) Courts
 ## Brownwood Municipal Court
 - Serves: Brownwood City
-- Location: 1050 W Commerce St, Brownwood, TX 76801 (Brownwood Law Enforcement Center)
+- Address: 1050 W Commerce, Brownwood, TX 76801
 - Phone: (325) 646-6947
-- Hours: Mon–Fri 8–5
 - Website: https://www.brownwoodtexas.gov/Municipal-Court
-- Jurisdiction: City ordinance violations, traffic citations
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; located in Law Enforcement Center with Police
-- Handles: City ordinance violations, traffic infractions
+- Note: Municipal City Court; located in same building as Police and Brown County Jail at the Law Enforcement Center
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Brown County Courthouse: 200 S Broadway Street, Brownwood, TX 76801
-- Phone: (325) 643-2685
-- Website: https://www.browncountytx.gov
+- Phone: (325) 643-2594
+- Website: https://www.co.brown.tx.us
 ## City Website
 - https://www.brownwoodtexas.gov
-- Address: 1050 W Commerce St, Brownwood, TX 76801
-- Mayor: John A. Sims
-- City Manager: Jeffrey L. Haley
-- Government Type: Council-Manager
-- Coordinates: 31.7206° N, 98.9886° W (Brownwood Regional Medical Center area)
-- Note: County seat of Brown County; Central Texas; home of Howard Payne University
+- Address: 1050 W Commerce, Brownwood, TX 76801
+- City Manager: Marshal McIntosh
+- Phone: (325) 646-2525 (Police non-emergency)
+- Coordinates: 31.7231° N, 98.9972° W (Brownwood Regional Medical Center area)
+- Note: County seat of Brown County; Central Texas; NO CITY JAIL — shares Law Enforcement Center with Brown County
 ## Police Services
 - Brownwood Police Department
-- Address: 1050 W Commerce St, Brownwood, TX 76801 (Brownwood Law Enforcement Center)
+- Address: 1050 W Commerce, Brownwood, TX 76801
 - Emergency: 911
 - Non-Emergency: (325) 646-2525
-- Short-term holding only — no long-term city jail
-- Website: https://www.brownwoodtexas.gov
+- NO city jail — operates from Brownwood Law Enforcement Center (shared with county)
+- Website: https://www.brownwoodtexas.gov/Police
 ## Jail / Detention Facilities
-- Brownwood Law Enforcement Center (short-term holding only)
-  Location: 1050 W Commerce St, Brownwood, TX 76801
-  Note: No long-term city jail; inmates transferred to Brown County Jail
+- NO CITY JAIL — Brown County Jail located in same Law Enforcement Center building
 - Brown County Jail (long-term)
-  Website: https://www.browncountytx.gov
+  Address: 1050 W Commerce, Brownwood, TX 76801 (shared Law Enforcement Center)
+  Phone: (325) 646-2221
+  Website: https://www.co.brown.tx.us
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- Hendrick Medical Center Brownwood
-  Address: 1501 Burnett Rd, Brownwood, TX 76801
-  Phone: (325) 646-8541
-  Website: https://hendrickhealth.org
-  Coordinates: 31.7206° N, 98.9886° W
-  Services: Emergency, surgery, imaging, primary care
 - Brownwood Regional Medical Center
-  Address: 1000 W Wall St, Brownwood, TX 76801
-  Phone: (325) 641-7000
-  Website: https://brownwoodregional.com
-  Services: Emergency, primary care
-- Stephenville Medical Center (nearby)
-  Address: 201 S Loop 365, Stephenville, TX 76401
-  Phone: (254) 968-4111
-  Website: https://stephenvillemedical.com
-  Coordinates: 32.2174° N, 98.1998° W
+  Address: 1000 N Fisk Ave, Brownwood, TX 76801
+  Phone: (325) 643-1151
+  Website: https://brmctx.com
+  Coordinates: 31.7231° N, 98.9972° W
+  Services: Emergency, surgery, imaging, cardiac care, inpatient services
 ## Library
 - Brownwood Public Library
-  Address: 200 S Broadway Ave, Brownwood, TX 76801
-  Phone: (325) 646-0928
-  Hours: Mon–Thu 9–6; Fri–Sat 9–5
-  Website: https://www.brownwoodtexas.gov
+  Address: 200 W Decherd St, Brownwood, TX 76801
+  Phone: (325) 643-2658
+  Website: https://www.brownwoodtexas.gov/Library
 ## Building Permits
-- Office: Development Services Department
-- Contact: (325) 646-5775
-- Online Portal: Accela Citizen Access
-- Website: https://www.brownwoodtexas.gov
-- Permit Types: Residential/commercial construction, plumbing, electrical, fencing, signage
-## City Department Directory (All Agencies)
-- Administration: https://www.brownwoodtexas.gov
-  1050 W Commerce St, Brownwood, TX 76801
-  Mayor: John A. Sims | City Manager: Jeffrey L. Haley | Council-Manager
-- Police Department: 1050 W Commerce St (Law Enforcement Center) | (325) 646-2525 Non-Emergency | 911 Emergency
-  Short-term holding only — NO long-term city jail
-- Municipal Court: 1050 W Commerce St (Law Enforcement Center) | (325) 646-6947 | Mon–Fri 8–5
+- Office: Planning & Development Services Department
+- Contact: (325) 646-5331
+- Online Forms: https://www.brownwoodtexas.gov/FormCenter
+- Website: https://www.brownwoodtexas.gov/Building-Services
+- Permits required: Construction, electrical, plumbing, structural
+## City Department Directory (ALL AGENCIES)
+- Administration: https://www.brownwoodtexas.gov | (325) 646-2525
+  1050 W Commerce, Brownwood, TX 76801 | City Manager: Marshal McIntosh
+- Police Department: 1050 W Commerce | (325) 646-2525 | 911 Emergency
+  NO city jail | https://www.brownwoodtexas.gov/Police
+- Municipal Court: 1050 W Commerce | (325) 646-6947
   https://www.brownwoodtexas.gov/Municipal-Court
-- Brown County Courthouse: 200 S Broadway Street, Brownwood — (325) 643-2685
-- Development Services: (325) 646-5775 | Online: Accela Citizen Access
-  Construction, plumbing, electrical, fencing, signage
-- Tax Collection: Via City Hall
-- Brownwood Public Library: (325) 646-0928
-  200 S Broadway Ave | Mon–Thu 9–6, Fri–Sat 9–5
-- Brown County Jail: https://www.browncountytx.gov
+- Fire Department: (325) 646-5345
+- Public Works: (325) 646-5775
+- Utility Billing: (325) 646-5775
+- Parks & Recreation: (325) 646-5388
+- Planning & Development Services: (325) 646-5331 | Online Forms
+  https://www.brownwoodtexas.gov/Building-Services
+- Brownwood Public Library: (325) 643-2658
+  200 W Decherd St | https://www.brownwoodtexas.gov/Library
+- Brown County Jail: 1050 W Commerce (shared Law Enforcement Center) | (325) 646-2221
+  https://www.co.brown.tx.us
 ## Additional County Resources
-- Brown County Government: https://www.browncountytx.gov
+- Brown County Government: https://www.co.brown.tx.us
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
@@ -88,9 +77,9 @@
 ## Nearby Municipalities (Brown County, TX)
 - Early: Contact via Brown County
 - Bangs: Contact via Brown County
-- Stephenville: Stephenville Medical Center
+- Abilene: TX/Taylor/Abilene
 ## Statewide City Agency Reference
 - Abilene: TX/Taylor/Abilene
-- Austin: TX/Travis/Austin
 - Dallas: TX/Dallas/Dallas_City
 - Houston: TX/Harris/Houston
+- Austin: TX/Travis/Austin

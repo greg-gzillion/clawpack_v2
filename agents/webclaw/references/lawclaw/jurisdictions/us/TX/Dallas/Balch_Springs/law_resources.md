@@ -1,50 +1,46 @@
 ﻿# Balch Springs City (Dallas County, TX) — Local Law Resources
 ## City Website
 - https://www.balchspringstx.gov
-- 3117 Hickory Tree Rd, Balch Springs, TX 75180
-- Mayor: Rodney Taylor | City Manager: Charles R. Fenner | Home Rule Council-Manager
-- DFW metroplex | Coordinates: 32.7253° N, 96.6037° W
+- 12500 Elam Road, Balch Springs, TX 75180 | (972) 557-6000
+- Dallas County | DFW metroplex | Named after Balch family and natural springs
+- Coordinates: 32.7270° N, 96.6080° W
 ## Law Enforcement
-- Balch Springs Police Department — 12500 Elam Rd
+- Balch Springs Police Department — 12500 Elam Road
 - Non-Emergency: (972) 557-6000 | Emergency: 911
-- Chief: Brent Hurley | City Jail (short-term holding)
-- https://www.balchspringstx.gov
+- City Jail: (972) 557-6030 | https://www.balchspringstx.gov/Police
 ## Courts
-- Balch Springs Municipal Court — 3117 Hickory Tree Rd | (972) 557-6055
-- Mon–Thu 8–4:20; FRI 8–11:20 AM (early close Friday)
-- https://www.balchspringstx.gov/Municipal-Court
+- Balch Springs Municipal Court — (972) 557-6055
+- https://www.balchspringstx.gov/MunicipalCourt
 - Dallas County Courthouse: 600 Commerce Street, Dallas — (214) 653-7000
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Balch Springs City Jail (short-term) — 12500 Elam Rd — (972) 557-6000
-- Dallas County Jail — https://dallascounty.org
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
+- Balch Springs City Jail — 12500 Elam Road — (972) 557-6030
+  DEDICATED INMATE ROSTER: https://balchspringscityjail.org
+- Dallas County Jail — https://www.dallascountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Development Services: (972) 286-4477 ext. 124 (Permits) / ext. 123 (Planning)
+- Building Department: via city website
 - https://www.balchspringstx.gov
-- Construction, plumbing, electrical, signage, change of use
+- Construction, electrical, plumbing, structural
 ## Library
-- Balch Springs Library – Learning Center — 12450 Elam Rd — (972) 913-3000
-- Mon–Thu 10–7, Fri 10–6, Sat 10–3 | https://www.balchspringstx.gov
+- Balch Springs Library & Learning Center — 3117 Hickory Tree Road — (972) 913-3000
+- https://www.balchspringstx.gov/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- CareNow Urgent Care – Balch Springs — 12127 Lake June Rd
-  Coordinates: 32.7253° N, 96.6037° W | (469) 872-5393
-- FastMed Urgent Care – Balch Springs — 12127 Lake June Rd
-  Coordinates: 32.7254° N, 96.6035° W | (972) 288-9718
-- Martin Luther King Jr. Family Clinic — 3515 Shepherd Ln
-  Coordinates: 32.7169° N, 96.6290° W | (214) 888-3149
-- Parkland Health – Southeast (Dallas) — 710 Cheyenne Rd
-  Coordinates: 32.7306° N, 96.6176° W | (972) 286-5598
-- Dallas Regional Medical Center (Mesquite, full-service) — 1011 N Galloway Ave | (214) 320-7000
+- Parkland Health & Hospital System (Southeast Dallas Health Center) — 710 Cheyenne Rd, Dallas, TX 75217
+  Coordinates: 32.7270° N, 96.6080° W | (972) 286-5598
+  Community health center, primary care | https://parklandhospital.com
+- CareNow Urgent Care - Balch Springs (IN TOWN) — 12127 Lake June Rd
+  Coordinates: 32.7321° N, 96.5767° W | (469) 872-5393
+  Urgent care clinic
 - NOTE: No full-service hospital in Balch Springs
-## Additional Resources
-- CITY HALL AND COURT AT SAME ADDRESS: 3117 Hickory Tree Rd
-- POLICE AND JAIL AT DIFFERENT ADDRESS: 12500 Elam Rd
-- COURT CLOSES EARLY FRIDAYS: 11:20 AM
-- Two urgent care centers on same road: Lake June Rd
-- Dallas Regional Medical Center in nearby Mesquite for full hospital services
-- DFW metroplex
-- Dallas County: https://www.dallascounty.org
+## Additional Resources — ALL CITY AGENCIES
+- ALL SERVICES AT 12500 ELAM ROAD (City Hall, Police, Jail)
+- DEDICATED INMATE ROSTER: balchspringscityjail.org
+- JAIL HAS SEPARATE PHONE: (972) 557-6030 (different from PD non-emergency)
+- CareNow Urgent Care in town on Lake June Rd
+- Parkland Southeast Dallas Health Center nearby
+- DFW metroplex | Dallas County
+- Dallas County: https://www.dallascountytx.gov
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

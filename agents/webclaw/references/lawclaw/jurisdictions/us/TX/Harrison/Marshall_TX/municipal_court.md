@@ -1,4 +1,4 @@
-ï»¿# Marshall City (Harrison County, TX) Courts
+# Marshall City (Harrison County, TX) Courts
 ## Marshall Municipal Court
 - Serves: Marshall City
 - Address: 303 W Burleson St, Marshall, TX 75670
@@ -17,7 +17,7 @@
 - Address: 2101 E End Blvd North, Marshall, TX 75672
 - City Manager: Greg Smith
 - Phone: (903) 935-4575 (Police non-emergency)
-- Coordinates: 32.5504Â° N, 94.3323Â° W (CHRISTUS Good Shepherd area)
+- Coordinates: 32.5504° N, 94.3323° W (CHRISTUS Good Shepherd area)
 - Note: County seat of Harrison County; East Texas; shares name with Marshall, MN and Marshall, MI; near Texas-Louisiana border
 ## Police Services
 - Marshall Police Department
@@ -39,7 +39,7 @@
   Address: 1100 W Houston St, Marshall, TX 75670
   Phone: (903) 935-7111
   Website: https://christusgoodshepherd.org
-  Coordinates: 32.5504Â° N, 94.3323Â° W
+  Coordinates: 32.5504° N, 94.3323° W
   Services: Emergency, surgery, imaging, inpatient services
 ## Library
 - Marshall Public Library

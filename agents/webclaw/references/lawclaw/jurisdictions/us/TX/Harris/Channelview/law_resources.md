@@ -1,42 +1,49 @@
-﻿# Channelview (Harris County, TX) — Census-Designated Place
-## Community Government
-- UNINCORPORATED — Census-designated place (CDP), not a city
-- No city government or official city website
-- All services provided by Harris County and special districts
-- Coordinates: 29.7681° N, 95.1743° W
+﻿# Channelview (Harris County, TX) — Local Law Resources (Unincorporated)
+## Community Information
+- NO CITY GOVERNMENT — unincorporated Harris County
+- Harris County Precinct 2: https://www.hcp2.org
+- Channelview ISD: https://www.cvisd.org
+- Houston metro area | Coordinates: 29.7745° N, 95.1447° W
 ## Law Enforcement
-- NO LOCAL POLICE — Harris County Sheriff's Office / Houston PD
-- Constable Precinct 5: (281) 920-7500 | HPD Northeast: (832) 395-1500
-- Emergency: 911
+- Harris County Sheriff's Office – Precinct 2 — 15415 Wallisville Road, Houston, TX 77049
+- Non-Emergency: (713) 226-1460 | Emergency: 911
+- NO LOCAL POLICE DEPARTMENT — Sheriff's Office provides all law enforcement
+- https://www.hcso.org
 ## Courts
-- NO MUNICIPAL COURT — Harris County Justice of the Peace Courts
+- Harris County Justice of the Peace – Precinct 2, Place 1 — 15415 Wallisville Road, Houston, TX 77049
+- (713) 274-2828 | NO MUNICIPAL COURT
 - Harris County Courthouse: 201 Caroline Street, Houston — (713) 755-5000
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Harris County Jail — https://www.harriscountytx.gov
+## Detention Facilities (ALL URLS INCLUDED — COUNTY ONLY)
+- Harris County Jail — 700 J Street, Deer Park, TX 77536
+  Inmate Search: https://www.hcso.org/inmate-search
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Harris County Development Services: (713) 274-3850
-- https://www.harriscountytx.gov/services/development-services
+- Harris County Public Works — Via Harris County Development Services
+- https://www.harriscountytx.gov
+- Construction, electrical, plumbing, structural
 ## Library
-- Sheldon Branch Library (Harris County Public Library) — 1200 Sheldon Rd, Pasadena, TX 77504
-- (832) 927-5560 | Mon–Thu 10–8, Fri–Sat 10–6 | https://www.hcpl.net
+- North Channel Branch Library (Harris County Public Library) — 15741 Wallisville Road, Houston, TX 77049
+- (281) 457-1631 | https://www.hcpl.net
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- Kindred Hospital East Houston (LTAC, IN COMMUNITY) — 15101 East Fwy
-  Coordinates: 29.7681° N, 95.1743° W | (832) 200-5500 | https://kindredhealthcare.com
-- Sun Belt Regional Medical Center East — 15101 East Fwy
-  Coordinates: 29.7680° N, 95.1742° W | (713) 452-1511 | Emergency, primary care
-- East Houston Regional Medical Center — 12950 East Fwy, Houston, TX 77015
-  Coordinates: 29.7508° N, 95.1558° W | (713) 330-3887
-- East Houston Medical Center — 15149 Wallisville Rd, Houston, TX 77049 | (713) 330-3887
-- Tidelands General Hospital (League City) — 1301 N Main St
-  Coordinates: 29.5100° N, 95.1050° W | (281) 332-7500
-## Additional Resources
-- UNINCORPORATED CDP — all services through Harris County or Houston
-- Kindred LTAC and Sun Belt Regional on East Freeway in community
-- No local library — nearest is Sheldon Branch in Pasadena
-- Multiple law enforcement agencies serve area (Sheriff, HPD, Constable)
-- Harris County: https://www.harriscountytx.gov
+- Triumph Hospital Channelview (Long-term Acute Care) — 15101 East Fwy, Channelview, TX 77530
+  Coordinates: 29.7745° N, 95.1447° W | (832) 200-5500
+  Long-term acute care | https://triumphhospital.com
+- Channelview Medical Center — 12322 East Fwy, Houston, TX 77015
+  Coordinates: 29.7697° N, 95.2188° W | (713) 451-2100
+  Primary care, specialty clinic
+- NOTE: No full-service general hospital in Channelview
+## Additional Resources — ALL COUNTY AGENCIES
+- UNINCORPORATED AREA — NO CITY GOVERNMENT (rare designation in this collection)
+- All services provided by Harris County Precinct 2
+- Justice of the Peace handles municipal-level cases
+- Harris County Sheriff provides all law enforcement
+- Channelview Volunteer Fire Department for fire services
+- Harris County Public Library (North Channel Branch)
+- Channelview ISD: https://www.cvisd.org
+- Houston metro area
+- Harris County: https://www.harriscountytx.gov | Sheriff: https://www.hcso.org
+- Inmate Search: https://www.hcso.org/inmate-search
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

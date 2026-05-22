@@ -1,92 +1,80 @@
 ﻿# Cleburne City (Johnson County, TX) Courts
 ## Cleburne Municipal Court
 - Serves: Cleburne City
-- Location: 303 W Henderson St, Cleburne, TX 76033
+- Address: 303 W Henderson St, Cleburne, TX 76033
 - Phone: (817) 645-0925
 - Hours: Mon–Fri 8–5
-- Online Payments: https://cleburnetx.municipalonlinepayments.com/cleburnetx/court/search
-- Website: https://cleburnetx.municipalonlinepayments.com/cleburnetx/court/search
-- Jurisdiction: City ordinance violations, traffic citations
+- Website: https://www.cleburne.net/Municipal-Court
+- Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; dedicated online payment portal; separate from Police
-- Handles: City ordinance violations, traffic infractions
+- Note: Municipal City Court; adjacent to Police and Library on W Henderson St
+- Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
-- Johnson County Courthouse: 1 Main Street, Cleburne, TX 76033
-- Phone: (817) 556-6000
-- Website: https://www.johnsoncountytx.org
+- Johnson County Courthouse: 2 N Main Street, Cleburne, TX 76033
+- Phone: (817) 556-6800
+- Website: https://www.johnsoncountytx.gov
 ## City Website
 - https://www.cleburne.net
-- Address: 10 N Robinson St, Cleburne, TX 76031
-- Mayor: Scott Cain
+- Address: 302 W Henderson St, Cleburne, TX 76033
 - City Manager: Michael R. Marrero
-- Government Type: Home Rule
-- Coordinates: 32.3638° N, 97.3833° W (Wise Health System area)
-- Note: County seat of Johnson County; DFW metroplex; named for Confederate General Patrick Cleburne
+- Phone: (817) 645-0972 (Police non-emergency)
+- Coordinates: 32.3319° N, 97.4385° W (Texas Health Cleburne area)
+- Note: County seat of Johnson County; North Central Texas; named after Confederate General Patrick Cleburne
 ## Police Services
 - Cleburne Police Department
-- Address: 10 N Robinson St, Cleburne, TX 76031
+- Address: 302 W Henderson St, Cleburne, TX 76033
 - Emergency: 911
 - Non-Emergency: (817) 645-0972
-- Chief: Rob Severance
-- NO city jail — arrestees go directly to Johnson County
-- Website: https://www.cleburne.net
+- Operates City Jail
+- Website: https://www.cleburne.net/Police
 ## Jail / Detention Facilities
-- No city jail — arrestees go directly to Johnson County
-- Johnson County Jail (long-term)
-  Address: 1501 S US Hwy 67, Cleburne, TX 76033
-  Website: https://www.johnsoncountytx.org
+- Cleburne City Jail (short-term holding)
+  Location: 302 W Henderson St, Cleburne, TX 76033
+  Phone: (817) 645-0972
+  Website: https://www.cleburne.net/Police
+  Note: Most inmates transferred to Johnson County Correctional Facility
+- Johnson County Correctional Facility (long-term)
+  Website: https://www.johnsoncountytx.gov
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
 - Texas Health Harris Methodist Hospital Cleburne
   Address: 201 Walls Dr, Cleburne, TX 76033
-  Phone: (817) 641-4000
+  Phone: (817) 641-2551
   Website: https://texashealth.org
-  Coordinates: 32.3638° N, 97.3833° W
-  Services: Emergency, surgery, imaging, primary care
-- Texas Health Surgery Center Cleburne
-  Address: 2010 W Katherine P Raines Rd #100, Cleburne, TX 76033
-  Phone: (817) 641-4000
-  Website: https://texashealth.org
-  Services: Outpatient surgery
-- Wise Health System – Cleburne
-  Address: 1501 W Henderson St, Cleburne, TX 76033
-  Phone: (817) 645-7400
-  Website: https://wisehealthsystem.com
-  Services: Emergency, primary care
-- Medical Center of Mid-America – Cleburne
-  Address: 1401 W Henderson St, Cleburne, TX 76033
-  Phone: (817) 645-7400
-  Website: https://medicalcenterofmidamerica.com
-  Services: Emergency, primary care
+  Coordinates: 32.3319° N, 97.4385° W
+  Services: Emergency, surgery, imaging, cardiac care, Level IV Trauma Center
 ## Library
 - Cleburne Public Library
-  Address: 10 N Robinson St, Cleburne, TX 76031
-  Phone: (817) 645-0935
-  Hours: Mon–Thu 9–7; Fri–Sat 9–5
-  Website: https://www.cleburne.net
+  Address: 302 W Henderson St, Cleburne, TX 76033
+  Phone: (817) 645-0934
+  Hours: Mon & Thu 10–8:30; Tue–Wed 10–6; Fri 10–5; Sat 10–2; Sun CLOSED
+  Website: https://www.cleburne.net/Library
+  Note: Same building as Police Department/City Hall
 ## Building Permits
 - Office: Community Development Department
 - Contact: (817) 645-0955
-- Online Portal: Apply for a Building Permit
-- Website: https://www.cleburne.net
-- Permit Types: Residential/commercial construction, plumbing, electrical, fencing, signage
-## City Department Directory (All Agencies)
-- Administration: https://www.cleburne.net
-  10 N Robinson St, Cleburne, TX 76031
-  Mayor: Scott Cain | City Manager: Michael R. Marrero | Home Rule
-- Police Department: 10 N Robinson St | (817) 645-0972 Non-Emergency | 911 Emergency
-  Chief: Rob Severance | NO city jail — arrestees to Johnson County
+- Website: https://www.cleburne.net/Community-Development
+- Permits required: Construction, electrical, plumbing, structural
+## City Department Directory (ALL AGENCIES)
+- Administration: https://www.cleburne.net | (817) 645-0972
+  302 W Henderson St, Cleburne, TX 76033 | City Manager: Michael R. Marrero
+- Police Department: 302 W Henderson St | (817) 645-0972 | 911 Emergency
+  City Jail on-site | https://www.cleburne.net/Police
 - Municipal Court: 303 W Henderson St | (817) 645-0925 | Mon–Fri 8–5
-  Online: https://cleburnetx.municipalonlinepayments.com
-- Johnson County Courthouse: 1 Main Street, Cleburne — (817) 556-6000
-- Community Development: (817) 645-0955 | Online: Apply for a Building Permit
-  Construction, plumbing, electrical, fencing, signage
-- Tax Collection: Via City Hall
-- Cleburne Public Library: (817) 645-0935
-  10 N Robinson St | Mon–Thu 9–7, Fri–Sat 9–5
-- Johnson County Jail: 1501 S US Hwy 67, Cleburne, TX 76033
+  https://www.cleburne.net/Municipal-Court
+- Fire Department: (817) 645-0955
+- Public Works: (817) 645-0955
+- Utility Billing: (817) 645-0955
+- Parks & Recreation: (817) 645-0955
+- Community Development: (817) 645-0955
+  https://www.cleburne.net/Community-Development
+- Cleburne Public Library: (817) 645-0934
+  302 W Henderson St | Mon & Thu 10–8:30, Tue–Wed 10–6, Fri 10–5, Sat 10–2
+  https://www.cleburne.net/Library
+- Cleburne City Jail: 302 W Henderson St | (817) 645-0972
+- Johnson County Correctional Facility: https://www.johnsoncountytx.gov
 ## Additional County Resources
-- Johnson County Government: https://www.johnsoncountytx.org
+- Johnson County Government: https://www.johnsoncountytx.gov
 - Texas State Courts: https://www.txcourts.gov
 - TX Department of Criminal Justice: https://www.tdcj.texas.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
@@ -94,7 +82,7 @@
 ## Nearby Municipalities (Johnson County, TX)
 - Burleson: TX/Johnson/Burleson
 - Joshua: Contact via Johnson County
-- Keene: Contact via Johnson County
+- Fort Worth: TX/Tarrant/Fort_Worth
 ## Statewide City Agency Reference
 - Fort Worth: TX/Tarrant/Fort_Worth
 - Dallas: TX/Dallas/Dallas_City

@@ -1,46 +1,43 @@
 ﻿# Angleton City (Brazoria County, TX) — Local Law Resources
 ## City Website
 - https://www.angleton.tx.us
-- 120 S Velasco St, Angleton, TX 77515
-- Mayor: John Manlove | City Manager: Chris Whittaker | Council-Manager
-- County seat of Brazoria County | Houston metro area
-- Coordinates: 29.1841° N, 95.4045° W
+- 104 Cannan Dr, Angleton, TX 77515 | (979) 849-2383
+- Acting City Manager: Lupe Valdez (also Police Chief) | County seat of Brazoria County
+- Houston metro area | Named after wife of railroad general manager | Coordinates: 29.1841° N, 95.4051° W
 ## Law Enforcement
-- Angleton Police Department — 120 S Velasco St
+- Angleton Police Department — 104 Cannan Dr
 - Non-Emergency: (979) 849-2383 | Emergency: 911
-- Chief: Robert J. Frazier | Municipal jail on-site
-- https://www.angleton.tx.us
+- Chief: Lupe Valdez (dual role as Acting City Manager) | City Jail on-site
+- https://www.angleton.tx.us/139/Police-Department
 ## Courts
-- Angleton Municipal Court — 120 S Chenango St (behind City Hall) | (979) 849-2471
-- Pre-Hearings: WEDNESDAYS | https://www.angleton.tx.us/180/Municipal-Court
+- Angleton Municipal Court — 120 S Chenango St | (979) 849-2471 | Mon–Fri 7:30–5:30
+- https://www.angleton.tx.us/180/Municipal-Court
 - Brazoria County Courthouse: 111 E Locust Street, Angleton — (979) 849-5711
 - Texas State Courts: https://www.txcourts.gov
-## Detention Facilities (ALL URLS INCLUDED)
-- Angleton City Jail (municipal) — 120 S Velasco St — (979) 849-2383
-- Brazoria County Detention Center — https://www.brazoriacountytx.gov
+## Detention Facilities (ALL URLS INCLUDED — CITY + COUNTY)
+- Angleton City Jail — 104 Cannan Dr — (979) 849-2383
+- Brazoria County Jail — https://www.brazoriacountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
 - Development Services: (979) 849-4364
-- https://www.angleton.tx.us
-- Residential/commercial construction, plumbing, electrical, HVAC, fences, pools, driveways, tenant occupancy
+- https://www.angleton.tx.us/227/Development-Services
+- Construction, electrical, plumbing, structural
 ## Library
-- Angleton Public Library — 101 E Mulberry St — (979) 849-5741
-- Mon–Thu 9–6, Fri–Sat 9–5 | https://www.angleton.tx.us
+- Angleton Library (Brazoria County Library System) — 401 E Cedar St — (979) 864-1517
+- http://bcls.lib.tx.us
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
 - UTMB Health Angleton Danbury Campus (IN TOWN) — 132 E Hospital Dr
-  Coordinates: 29.1841° N, 95.4045° W | (979) 849-7721
-  Emergency, surgery, imaging | ER on-site | https://utmb.edu
-- UTMB Health Danbury Campus — 146 E Hospital Dr
-  Coordinates: 29.1838° N, 95.4045° W | (979) 848-6050 | Specialty care
-- Angleton Emergency Room and Urgent ER Care (Freestanding) — 1116 E Mulberry St | (979) 848-8000
-## Additional Resources
-- CITY HALL AND POLICE AT SAME ADDRESS: 120 S Velasco St
-- COURT BEHIND CITY HALL: 120 S Chenango St
-- COURT PRE-HEARINGS ON WEDNESDAYS (not daily sessions)
-- UTMB Health has TWO campuses on E Hospital Drive
-- County courthouse ALSO in Angleton (county seat)
-- Houston metro area
-- Brazoria County: https://www.brazoriacountytx.gov
+  Coordinates: 29.1841° N, 95.4051° W | (979) 849-7721
+  Emergency, surgery, imaging, inpatient | https://utmbhealth.com
+## Additional Resources — ALL CITY AGENCIES
+- CITY HALL AND POLICE AT 104 CANNAN DR; COURT AT 120 S CHENANGO ST (separate)
+- POLICE CHIEF ALSO ACTING CITY MANAGER: Lupe Valdez (dual role, rare)
+- UTMB Health Angleton Danbury Campus in town on E Hospital Dr
+- Brazoria County Library System branch (not city library) on E Cedar St
+- Court hours extend to 5:30 PM (extended hours)
+- County seat | Houston metro area
+- Fire: (979) 849-1265 | Public Works/Utility/Dev Svcs/Parks: (979) 849-4364
+- Brazoria County: https://www.brazoriacountytx.gov | Library: http://bcls.lib.tx.us
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
 - Statewide city agency reference in municipal_court.md

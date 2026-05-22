@@ -17,7 +17,7 @@
 - https://www.cityofkaty.com
 - Address: 5456 Franz Road, Katy, TX 77493
 - City Manager: Byron J. Hebert
-- Phone: (281) 391-4800 (main)
+- Phone: (281) 391-4848 (Police non-emergency)
 - Coordinates: 29.7876° N, 95.7857° W (Memorial Hermann Katy area)
 - Note: Spans Harris, Fort Bend, and Waller counties; Houston metro area; NOT a county seat; named for the MKT Railroad ("K-T")
 ## Police Services
@@ -31,9 +31,9 @@
 - Katy City Jail (short-term holding)
   Location: 5456 Franz Road, Katy, TX 77493
   Phone: (281) 391-4848
-  Inmate Roster: Contact via police department
   Website: https://www.cityofkaty.com/police
-- Harris County Jail (long-term)
+  Note: Most long-term inmates held at Harris County Jail
+- Harris County Jail (Houston, long-term)
   Website: https://www.harriscountytx.gov
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals

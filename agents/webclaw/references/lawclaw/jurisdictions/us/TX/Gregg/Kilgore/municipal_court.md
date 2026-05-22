@@ -7,7 +7,7 @@
 - Website: https://www.cityofkilgore.com/municipal-court
 - Jurisdiction: Class C misdemeanors, city ordinance violations, traffic citations
 - Texas State Courts: https://www.txcourts.gov
-- Note: Municipal City Court; NIGHT COURT available Mondays; adjacent to Police
+- Note: Municipal City Court; NIGHT COURT available Mondays; adjacent to Police on N Kilgore St
 - Handles: City ordinance violations, traffic infractions, Class C misdemeanors
 ## Superior/District Court
 - Gregg County Courthouse: 101 E Methvin Street, Longview, TX 75601
@@ -18,7 +18,7 @@
 - https://www.cityofkilgore.com
 - Address: 909 N Kilgore St, Kilgore, TX 75662
 - City Manager: Rachel Rowe
-- Phone: (903) 984-5081 (main)
+- Phone: (903) 983-1559 (Police non-emergency)
 - Coordinates: 32.3849° N, 94.8685° W (CHRISTUS Good Shepherd area)
 - Note: Spans Gregg and Rusk counties; East Texas; NOT a county seat; known for oil industry and Kilgore Rangerettes
 ## Police Services
@@ -33,14 +33,14 @@
   Location: 909 N Kilgore St, Kilgore, TX 75662
   Phone: (903) 983-1559
   Inmate Info: https://kilgorecityjailtx.org
-  Note: Inmates transferred to Rusk County or Gregg County for long-term
+  Note: Inmates transferred to Rusk County Jail or Gregg County Jail for long-term
 - Gregg County Jail (Longview)
   Website: https://www.greggcountytx.gov
 - Rusk County Jail (Henderson)
   Website: https://www.co.rusk.tx.us
 - Texas Department of Criminal Justice: https://www.tdcj.texas.gov
 ## Hospitals
-- CHRISTUS Good Shepherd Emergency Center - Kilgore
+- CHRISTUS Good Shepherd Emergency Center - Kilgore (Freestanding ER)
   Address: 1612 S Henderson Blvd, Kilgore, TX 75662
   Phone: (903) 983-2492
   Website: https://christushealth.org
@@ -66,7 +66,7 @@
 - Website: https://www.cityofkilgore.com/planning
 - Permits required: Construction, electrical, plumbing, structural
 ## City Department Directory (ALL AGENCIES)
-- Administration: https://www.cityofkilgore.com | (903) 984-5081
+- Administration: https://www.cityofkilgore.com | (903) 983-1559
   909 N Kilgore St, Kilgore, TX 75662 | City Manager: Rachel Rowe
 - Police Department: 909 N Kilgore St | (903) 983-1559 | 911 Emergency
   City Jail on-site | https://www.cityofkilgore.com/police

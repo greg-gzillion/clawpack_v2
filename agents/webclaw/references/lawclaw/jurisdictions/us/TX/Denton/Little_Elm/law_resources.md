@@ -1,48 +1,60 @@
 ﻿# Little Elm Town (Denton County, TX) — Local Law Resources
 ## Town Website
 - https://www.littleelm.gov
-- 100 W Eldorado Parkway, Little Elm, TX 75068 | (972) 242-2300
-- Town Manager: Mark McDaniel | Denton County | DFW metroplex
-- Lakeside community on Lewisville Lake | Officially a "Town" | Coordinates: 33.1508° N, 96.8387° W
+- 100 W Eldorado Parkway, Little Elm, TX 75068 (Town Hall) | (214) 975-0404
+- Denton County | DFW metroplex | Home Rule Charter (Town Manager + 7-member Council)
+- OFFICIALLY A "TOWN" | Rapid growth | Lake Lewisville proximity | Coordinates: 33.1158° N, 96.8200° W
 ## Law Enforcement
-- Little Elm Police Department — 88 W Eldorado Parkway
-- Non-Emergency: (214) 975-0460 | Emergency: 911
-- Town Jail: 100 W Eldorado Parkway | https://www.littleelm.gov/134/Police
+- Little Elm Police Department — 88 W Eldorado Pkwy (Public Safety Center)
+- Emergency: 911 | Non-Emergency: (214) 975-0460
+- Town Jail within PD (48–72 hour holding)
+- Inmate Search via Denton County
+- https://www.littleelm.gov/134/Police
 ## Courts
-- Little Elm Municipal Court — 88 W Eldorado Parkway | (972) 731-1453
+- Little Elm Municipal Court — 88 W Eldorado Pkwy (Public Safety Center) | (972) 731-1453 or (214) 975-0483
+- Mon–Thu 7:30–5:30; Fri 7:30–11:30 (HALF-DAY FRIDAY)
+- Online citation payment, virtual court dates, docket viewing
 - https://www.littleelm.gov/27/Government
 - Denton County Courthouse: 1450 E McKinney Street, Denton — (940) 349-2000
 - Texas State Courts: https://www.txcourts.gov
 ## Detention Facilities (ALL URLS INCLUDED — TOWN + COUNTY)
-- Little Elm City Jail — 100 W Eldorado Parkway — (214) 975-0460
-  DEDICATED INMATE ROSTER: https://littleelmcityjailtx.org
+- Little Elm Municipal Jail — 88 W Eldorado Pkwy (Public Safety Center) — (214) 975-0460
+  48–72 hour holding before release or transfer
 - Denton County Jail — https://www.dentoncountytx.gov
 - TX Inmate Search: https://www.tdcj.texas.gov
 ## Building Permits
-- Building Permits & Safety: (214) 975-0456 | MyGov Permits
+- Development Services: (214) 975-0456 | MyGov Permits Portal (REQUIRED)
+- Building Codes: 2018 IBC and related standards
 - https://www.littleelm.gov/86/Building-Permits
-- Construction, electrical, plumbing, structural
+- New construction, additions, roofing >100 sq ft, HVAC, electrical, plumbing, fences >7 ft, pools, sheds >200 sq ft, driveways, paving, signage
 ## Library
-- Little Elm Public Library — 100 W Eldorado Parkway — (972) 242-2300
+- Little Elm Library — 100 W Eldorado Pkwy (Town Hall complex) — (214) 975-0430
+- Mon–Thu 10–8, Fri–Sat 10–5, Sun CLOSED
+- Makerspace, digital library, free Wi-Fi, computers, children's programs
 - https://www.littleelm.gov/173/Library
 ## Hospitals (ALL URLS INCLUDED — WITH COORDINATES)
-- Medical City Frisco (NEAREST FULL-SERVICE) — 5500 Frisco Square Blvd, Frisco, TX 75034
-  Coordinates: 33.1508° N, 96.8387° W | (214) 618-0500
-  Emergency, surgery, cardiac | https://medicalcityhealthcare.com
-- UNT Health Science Center - North Texas Primary Care Clinic — 3801 S I-35 E, Denton, TX 76210
-  Coordinates: 33.2006° N, 97.0858° W | (940) 831-8300
-  Primary care | https://unthsc.edu
+- Medical City Frisco (Full-Service, NEAREST) — 12775 Independence Pkwy, Frisco, TX 75035
+  Coordinates: 33.1158° N, 96.8200° W | (972) 347-6000
+  ER, surgery, imaging, maternity, ICU | https://medicalcityhealthcare.com
+- UT Southwestern Medical Center at Frisco (Outpatient/Specialty) — 10777 Warren Pkwy, Frisco, TX 75034
+  Coordinates: 33.0992° N, 96.8133° W | (214) 645-8000
+  Primary care, cardiology, neurology, imaging, urgent care | https://utswmed.org
 - NOTE: No full-service hospital in Little Elm
 ## Additional Resources — ALL TOWN AGENCIES
-- POLICE AND COURT AT 88 W ELDORADO; TOWN HALL/LIBRARY/JAIL AT 100 W ELDORADO (across street)
-- DEDICATED INMATE ROSTER: littleelmcityjailtx.org
-- NAMED TOWN MANAGER: Mark McDaniel
-- OFFICIALLY A "TOWN" — not a city
-- No hospital in town — Medical City in nearby Frisco
-- Lakeside community on Lewisville Lake
-- Fire: (214) 975-0450 | Public Works: (214) 975-0450
-- Utility Billing/Parks & Rec: (972) 242-2300
-- DFW metroplex | Denton County
+- TWO CAMPUSES: Town Hall/Library at 100 W Eldorado; Public Safety Center (Police/Court/Jail) at 88 W Eldorado
+- OFFICIALLY A "TOWN" (not a city)
+- PUBLIC SAFETY CENTER houses Police, Court, and Jail
+- COURT HAS TWO PHONE NUMBERS and HALF-DAY FRIDAY (closes 11:30 AM)
+- TOWN JAIL WITH 48–72 HOUR HOLDING LIMIT
+- MyGov PERMITS PORTAL REQUIRED for all applications
+- LIBRARY IN TOWN HALL with Makerspace
+- MOST DEPARTMENTS AT 100 W ELDORADO PKWY (consolidated)
+- Lake Lewisville proximity | DFW metroplex
+- Town Manager: (214) 975-0405 | Town Secretary: (214) 975-0471
+- Finance: (214) 975-0415 | Dev Svcs/Building/Planning: (214) 975-0456
+- Fire: (214) 975-0420 | Public Works: (972) 377-5556
+- Utility Billing: (214) 975-0480 | Animal Svcs: (972) 377-1898
+- Community Svcs/Parks: (972) 731-3296 | Econ Dev: (214) 975-0455
 - Denton County: https://www.dentoncountytx.gov
 - TX Inmate Locator: https://www.tdcj.texas.gov
 - TX Courts: https://www.txcourts.gov
