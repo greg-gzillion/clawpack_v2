@@ -1,7 +1,9 @@
-# York County - Virginia
-## County Seat: Yorktown
-## Phone: (757)890-3000
-
-## USBC | IBC 2018 | IRC 2018 | NEC 2017
-## Frost: 12-24 in | Snow: 10-30 psf | Wind: 110-130 mph
-## VA DHCD: (804) 371-7150
+# York County Building Codes - Virginia
+## AHJ: York County Building
+## Address: 224 Ballard St, Yorktown, VA 23690
+## Phone: (757) 890-3300
+## URL: https://www.yorkcounty.gov/
+## Locality: York
+## USBC 2015 | Frost: 12 in | Snow: 15 psf | Wind: 130 mph
+## Notes: Hampton Roads. Historic.
+## State: VA DHCD: (804) 371-7000

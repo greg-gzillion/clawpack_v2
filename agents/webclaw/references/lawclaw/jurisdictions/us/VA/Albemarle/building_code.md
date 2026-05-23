@@ -1,13 +1,9 @@
-# Albemarle County - Virginia
-## County Seat: Charlottesville
-## Phone: (434)296-5801
-## URL: https://www.albemarlecountyva.gov/
-
-## USBC
-IBC 2018 | IRC 2018 | NEC 2017 | IPC 2018 | IMC 2018 | IFC 2018 | IECC 2018
-
-## Design Criteria
-Frost: 12-24 in | Snow: 10-30 psf | Wind: 110-130 mph
-
-## State Resources
-VA DHCD: (804) 371-7150 | https://www.dhcd.virginia.gov/
+# Albemarle County Building Codes - Virginia
+## AHJ: Albemarle County Building
+## Address: 401 McIntire Rd, Charlottesville, VA 22902
+## Phone: (434) 296-5800
+## URL: https://www.albemarle.org/
+## Locality: Albemarle
+## USBC 2015 | Frost: 18 in | Snow: 25 psf | Wind: 110 mph
+## Notes: Surrounds Charlottesville.
+## State: VA DHCD: (804) 371-7000

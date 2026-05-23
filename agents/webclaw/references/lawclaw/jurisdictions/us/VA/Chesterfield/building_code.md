@@ -1,13 +1,9 @@
-# Chesterfield County - Virginia
-## County Seat: Chesterfield
-## Phone: (804)748-1000
+# Chesterfield County Building Codes - Virginia
+## AHJ: Chesterfield County Building
+## Address: 9901 Lori Rd, Chesterfield, VA 23832
+## Phone: (804) 748-1000
 ## URL: https://www.chesterfield.gov/
-
-## USBC
-IBC 2018 | IRC 2018 | NEC 2017 | IPC 2018 | IMC 2018 | IFC 2018 | IECC 2018
-
-## Design Criteria
-Frost: 12-24 in | Snow: 10-30 psf | Wind: 110-130 mph
-
-## State Resources
-VA DHCD: (804) 371-7150 | https://www.dhcd.virginia.gov/
+## Locality: Chesterfield
+## USBC 2015 (IBC) | Frost: 18 in | Snow: 20 psf | Wind: 115 mph | Seismic: SDC B
+## Notes: Richmond metro.
+## State: VA DHCD: (804) 371-7000

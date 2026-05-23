@@ -1,7 +1,9 @@
-# Spotsylvania County - Virginia
-## County Seat: Spotsylvania
-## Phone: (540)507-7000
-
-## USBC | IBC 2018 | IRC 2018 | NEC 2017
-## Frost: 12-24 in | Snow: 10-30 psf | Wind: 110-130 mph
-## VA DHCD: (804) 371-7150
+# Spotsylvania County Building Codes - Virginia
+## AHJ: Spotsylvania County Building
+## Address: 9104 Courthouse Rd, Spotsylvania, VA 22553
+## Phone: (540) 507-7000
+## URL: https://www.spotsylvania.va.us/
+## Locality: Spotsylvania
+## USBC 2015 | Frost: 18 in | Snow: 25 psf | Wind: 115 mph
+## Notes: Fredericksburg metro.
+## State: VA DHCD: (804) 371-7000

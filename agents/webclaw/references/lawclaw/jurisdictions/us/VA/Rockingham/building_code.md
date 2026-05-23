@@ -1,7 +1,9 @@
-# Rockingham County - Virginia
-## County Seat: Harrisonburg
-## Phone: (540)564-3000
-
-## USBC | IBC 2018 | IRC 2018 | NEC 2017
-## Frost: 12-24 in | Snow: 10-30 psf | Wind: 110-130 mph
-## VA DHCD: (804) 371-7150
+# Rockingham County Building Codes - Virginia
+## AHJ: Rockingham County Building
+## Address: 20 E Gay St, Harrisonburg, VA 22802
+## Phone: (540) 564-3000
+## URL: https://www.rockinghamcountyva.gov/
+## Locality: Rockingham
+## USBC 2015 | Frost: 24 in | Snow: 30 psf | Wind: 110 mph
+## Notes: Shenandoah Valley. Ag.
+## State: VA DHCD: (804) 371-7000

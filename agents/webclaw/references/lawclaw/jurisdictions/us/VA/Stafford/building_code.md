@@ -1,7 +1,9 @@
-# Stafford County - Virginia
-## County Seat: Stafford
-## Phone: (540)658-8600
-
-## USBC | IBC 2018 | IRC 2018 | NEC 2017
-## Frost: 12-24 in | Snow: 10-30 psf | Wind: 110-130 mph
-## VA DHCD: (804) 371-7150
+# Stafford County Building Codes - Virginia
+## AHJ: Stafford County Building
+## Address: 1300 Courthouse Rd, Stafford, VA 22554
+## Phone: (540) 658-8600
+## URL: https://www.staffordcountyva.gov/
+## Locality: Stafford
+## USBC 2015 | Frost: 18 in | Snow: 25 psf | Wind: 115 mph
+## Notes: DC metro exurb. Quantico.
+## State: VA DHCD: (804) 371-7000
