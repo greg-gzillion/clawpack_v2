@@ -128,7 +128,7 @@ def _ask_anthropic(prompt, model, timeout):
     return None
 
 def _load_key(key_name):
-    env_path = Path("str(PROJECT_ROOT)/.env")
+    env_path = PROJECT_ROOT / ".env"
     if env_path.exists():
         with open(env_path) as f:
             for line in f:

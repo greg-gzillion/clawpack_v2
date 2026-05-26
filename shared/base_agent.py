@@ -291,7 +291,7 @@ class BaseAgent:
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
             chronicle = get_chronicle()
-            return chronicle.recover_by_context(query, limit, source_filter=self.name)
+            return chronicle.recover_by_context(query, limit)
         except Exception as e:
             self._log_error("chronicle_recover", str(e))
             # Fallback if source_filter not supported yet

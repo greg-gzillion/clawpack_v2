@@ -1,5 +1,6 @@
 """Chronicle Ledger - SQLite-backed with FTS5 full-text search"""
 import sqlite3, hashlib, json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
