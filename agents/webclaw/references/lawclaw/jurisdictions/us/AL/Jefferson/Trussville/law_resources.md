@@ -1,28 +1,63 @@
-﻿# Trussville — Local Law Resources
+﻿# Trussville City (Jefferson County, AL) — Local Law Resources
+
 ## City Website
-- https://www.trussvilleal.gov
-## City Hall
-- 5511 Grandview Parkway, Trussville, AL 35173 — (205) 655-2000
+- https://trussville.org
+- 131 Main Street, Trussville, AL 35173 | (205) 655-7478
+- Jefferson County | Pop: ~23,000
+- Coordinates: 33.6207° N, 86.6034° W
+- Trussville Entertainment District | Cahaba River
+
 ## Law Enforcement
-- Trussville Police Department — 5511 Grandview Parkway, Trussville, AL 35173 — (205) 655-2020 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.trussvilleal.gov/police
+- Trussville Police Department — 131 Main Street
+- Emergency: 911 | Non-Emergency: (205) 655-2101
+- Website: https://trussville.org/public-safety/police
+
 ## Courts
-- Trussville Municipal Court — 5511 Grandview Parkway, Trussville, AL 35173 — (205) 655-2030
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.trussvilleal.gov/court
-## Detention Center
-- City Jail — 5511 Grandview Parkway, Trussville, AL 35173 — (205) 655-2020
+### Trussville Municipal Court — ACTIVE
+- 131 Main Street | (205) 655-8352
+- Hours: Mon/Tue/Thu/Fri 7–4:30, Wed 9–6:30
+- Website: https://trussville.org/public-safety/municipal-court
+
+## Detention Facilities (ALL URLs)
+- Trussville City Jail: 131 Main Street | (205) 661-4014
+  Misdemeanors up to 6 months, felonies up to 48 hrs | 33.6207° N, 86.6034° W
+  Website: https://trussville.org/public-safety/police/city-jail
+- Jefferson County Jail (Birmingham): https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building Department — 5511 Grandview Parkway, Trussville, AL 35173 — (205) 655-2040
-- Building Dept: https://www.trussvilleal.gov/building
-- Permits: https://www.trussvilleal.gov/DocumentCenter/View/14/Building-Permit-Applications
-- Zoning & Planning: https://www.trussvilleal.gov/planning
-- Zoning Map: https://www.trussvilleal.gov/DocumentCenter/View/13/Zoning-Map
+- Inspections Dept: 113 N Chalkville Road | (205) 661-4017
+- Website: https://trussville.org/departments/inspections
+
 ## Library
-- Trussville Public Library — 5511 Grandview Parkway, Trussville, AL 35173 — (205) 655-2050
-- Library Website: https://www.trussvillelibrary.org
-## Hospitals
-- St. Vincent's East — 1500 Gray Ln — (205) 983-2000 — 33.5468° N, 86.6637° W
-- Princeton Baptist Medical Center — 5500 Montclair Road, Birmingham — (205) 930-5000 — 33.5068° N, 86.7855° W
-- UAB Hospital — 1900 6th Avenue South, Birmingham — (205) 934-3000 — 33.5017° N, 86.8092° W
+- Trussville Public Library: 113 N Chalkville Road | (205) 655-7488
+- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Website: https://trussville.org/departments/library
+
+## Hospitals & Medical
+- UAB Medicine Trussville: 2150 Galleria Circle, Trussville, AL 35173
+  (205) 930-8100 | 24/7 ER, imaging, surgery, primary care | 33.6218° N, 86.6019° W
+  Website: https://www.uabmedicine.org
+- UAB Hospital (~15 mi): Level I Trauma | (205) 934-3411
+- Grandview Medical Center (~10 mi): (205) 971-1000
+
+## City & County Agency Directory (ALL URLs)
+- City of Trussville: https://trussville.org
+- TPD: https://trussville.org/public-safety/police
+- City Jail: https://trussville.org/public-safety/police/city-jail
+- Municipal Court: https://trussville.org/public-safety/municipal-court
+- Library: https://trussville.org/departments/library
+- UAB Medicine: https://www.uabmedicine.org
+- Jefferson County Jail: https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
+## Legal Aid
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+

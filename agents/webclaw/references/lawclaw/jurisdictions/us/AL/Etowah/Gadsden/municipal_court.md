@@ -28,7 +28,7 @@
 - Phone: (256) 549-4529 (Building), (256) 549-4525 (Zoning), (256) 549-4520 (Planning)
 - Building Department Website: https://www.cityofgadsden.com/93/Building-Department
 - Apply for Permits Online: https://www.cityofgadsden.com/595/Apply-for-Permits-etc
-- Building Permit Applications: https://www.cityofgadsden.com/DocumentCenter/View/101/Building-Permit-Applications
+- Building Permit Applications: https://www.cityofgadsden.com/93/Building-Department-Permit-Applications
 - Zoning Forms: https://www.cityofgadsden.com/DocumentCenter/View/103/Planning-and-Zoning-Forms
 - Zoning Map: https://www.cityofgadsden.com/DocumentCenter/View/102/Zoning-Map
 ## Library
@@ -39,3 +39,7 @@
 - Library Website: https://gadsdenlibrary.org/locations-and-hours/
 - Alabama City Branch — 2700 West Meighan Blvd, Gadsden, AL 35904 — (256) 549-4688 — Mon–Fri 9 AM–5 PM
 - East Gadsden Branch — 1800 Gunter Avenue, Gadsden, AL 35903 — (256) 549-4691 — Mon–Fri 9 AM–5 PM
+
+
+
+

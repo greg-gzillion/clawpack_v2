@@ -1,42 +1,85 @@
-﻿# Atmore Municipal Court
-## Court Information
-- Atmore Municipal Court
-- Address: 201 East Louisville Avenue, Atmore, AL 36502
-- Phone: (251) 368-8442
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.cityofatmore.gov/166/City-of-Atmore-Municipal-Court
+﻿# Atmore City (Escambia County, AL) Courts
+
+## Atmore Municipal Court — ACTIVE
+- Status: **HAS ACTIVE MUNICIPAL COURT**
+- Location: 201 East Louisville Avenue, Atmore, AL 36504
+- Phone: (251) 368-3593 | Fax: (251) 368-1841
+- Hours: Mon–Fri 8:00 AM – 4:00 PM (Closed Mon afternoons for court)
+- Website: https://www.cityofatmore.gov/166/City-of-Atmore-Municipal-Court
+
 ## City Website
 - https://www.cityofatmore.gov
-## City Hall
-- Address: 201 East Louisville Avenue, Atmore, AL 36502
+- City Hall: 201 East Louisville Avenue, Atmore, AL 36504
 - Phone: (251) 368-2253
-## Police Department
+- Hours: Mon–Fri 8:00 AM – 5:00 PM
+- Government Type: Mayor–Council
+- Escambia County | Population: ~10,000
+- Coordinates: 31.0221° N, 87.4939° W
+- Note: In southwestern Alabama near the Florida line; known for the Poarch Band of Creek Indians reservation and the Wind Creek Casino & Hotel; located at the intersection of AL-21 and US 31; home to the historic Atmore Amtrak station
+
+## Police Services
 - Atmore Police Department
-- Address: 201 East Louisville Avenue, Atmore, AL 36502
-- Phone: (251) 368-9141 (Non-emergency), 911 (Emergency)
-- Police Website: https://www.cityofatmore.gov/172/Police-Department
-## Detention Center
-- City Jail
-- Address: 201 East Louisville Avenue, Atmore, AL 36502 (co-located with police)
+- Address: 201 East Louisville Avenue, Atmore, AL 36504
+- Emergency: 911 | Non-Emergency: (251) 368-9141
+- Chief: Chuck Brooks
+- Website: https://www.cityofatmore.gov/172/Police-Department
+- Operates Atmore City Jail with visiting hours
+
+## Jail & Detention Facilities (ALL FACILITIES — EVERY URL)
+
+### Atmore City Jail (City/PD-Operated — Short-Term)
+- Address: 201 East Louisville Avenue, Atmore, AL 36504
 - Phone: (251) 368-9141
-## Building Permits
-- Building Department
-- Address: 201 East Louisville Avenue, Atmore, AL 36502
-- Phone: (251) 368-2253
-- Building Department Website: https://www.cityofatmore.gov/101/Departments
-- Permits & Forms: https://www.cityofatmore.gov/DocumentCenter/View/12/Building-Permit-Applications
-- Zoning & Planning: https://www.cityofatmore.gov/planning
-- Zoning Map: https://www.cityofatmore.gov/DocumentCenter/View/11/Zoning-Map
+- Function: Short-term holding; most inmates transferred to Escambia County Detention Center (Brewton)
+- Visiting Hours: Mon–Fri 9:00 AM – 12:00 PM & 1:00 PM – 5:00 PM
+- Website: https://www.cityofatmore.gov/172/Police-Department
+
+### Escambia County Detention Center (County — Brewton)
+- Website: https://www.escambiasheriff.org/
+
+### Alabama State Facilities:
+- Alabama DOC: http://www.doc.alabama.gov
+- VINELink: https://vinelink.com
+
+## Hospitals & Medical Facilities
+
+### Atmore Community Hospital (Full-Service Hospital — IN ATMORE)
+- Address: 401 Medical Park Drive, Atmore, AL 36502
+- Phone: (251) 368-2500
+- Website: https://www.brewtonmedical.com/
+- Coordinates: 31.0170° N, 87.4810° W
+- Services: 24/7 ER, surgery, imaging, lab, primary care
+
 ## Library
 - Atmore Public Library
-- Address: 201 East Louisville Avenue, Atmore, AL 36502
-- Phone: (251) 368-2736
-- Hours: Mon–Thu 9 AM–6 PM, Fri 9 AM–5 PM, Sat 9 AM–1 PM, Sun Closed
-- Library Website: https://www.cityofatmore.gov/facilities/facility/details/Public-Library-20
-## Hospitals
-- Baptist Medical Center South — 2000 Airport Blvd, Montgomery, AL 36108 — (334) 288-1000 — 32.3388° N, 86.2867° W
-  Website: https://www.bsmhealth.com
-- Foley Hospital — 605 E Section St, Foley, AL 36535 — (251) 943-3611 — 30.3964° N, 87.6737° W
-  Website: https://www.fmhosp.org
-- Infirmary West — 5950 Airport Blvd, Mobile, AL 36608 — (251) 435-6500 — 30.6928° N, 88.1844° W
-  Website: https://www.southmssystem.org
+- Address: 700 East Church Street, Atmore, AL 36502
+- Phone: (251) 368-5234
+- Hours: Mon–Fri 8:00 AM – 5:00 PM
+- Website: https://www.cityofatmore.gov/159/Atmore-Public-Library
+
+## Building Permits
+- Issued by: Planning & Zoning Department
+- Location: 201 East Louisville Avenue, Atmore, AL 36504
+- Phone: (251) 368-2253
+- Permit required for construction, renovations, signage
+- Website: https://www.cityofatmore.gov
+
+## City & County Agency Directory (ALL AGENCIES — EVERY URL)
+- City of Atmore: https://www.cityofatmore.gov
+- Atmore Police Department: https://www.cityofatmore.gov/172/Police-Department
+- Atmore Municipal Court: https://www.cityofatmore.gov/166/City-of-Atmore-Municipal-Court
+- Atmore Public Library: https://www.cityofatmore.gov/159/Atmore-Public-Library
+- Atmore City Jail: https://www.cityofatmore.gov/172/Police-Department
+- Atmore Community Hospital: https://www.brewtonmedical.com/
+- Escambia County Detention Center: https://www.escambiasheriff.org/
+- Alabama DOC: http://www.doc.alabama.gov
+- VINELink: https://vinelink.com
+
+## Additional State Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Unified Judicial System: https://www.alacourt.gov
+
+## Nearby Communities & Notes
+- Brewton (~25 mi north) | Pensacola, FL (~45 mi south) | Mobile (~55 mi southwest)
+- Poarch Band of Creek Indians | Wind Creek Casino & Hotel | US 31 corridor
+

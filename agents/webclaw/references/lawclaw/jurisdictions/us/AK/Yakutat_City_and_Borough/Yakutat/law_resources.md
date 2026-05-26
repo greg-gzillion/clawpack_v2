@@ -1,33 +1,65 @@
-﻿# Cordova — Local Law Resources
-## City Website
-- https://cityofcordova.net
+﻿# Yakutat City and Borough (Alaska) — Local Law Resources
+
+## City/Borough Website
+- https://www.yakutatak.us
+- 434 Max Italio Drive, Yakutat, AK 99689 | (907) 784-3323
+- Unified Home Rule City-Borough | Pop: ~600
+- Coordinates: 59.5514° N, 139.7369° W
+- Borough Manager: Tina Ryman | Borough Clerk: Ricardo Tejeda
+- Gulf of Alaska | Wrangell-St. Elias | Hubbard Glacier
+
 ## Law Enforcement
-- Cordova Police Department — 602 Railroad Avenue, Cordova, AK 99574 — (907) 424-6100 (Non-emergency)
-- Emergency: 911
-- Acting Chief: Cameron Hayden
-- Crime Tip Line: (907) 424-8477
-- Anonymous Tips: Text CORDOVAPD to 847411
-- Website: https://cityofcordova.net/police-department
-- Alaska State Troopers — https://dps.alaska.gov/ast/
+- Yakutat Police Department (YPD) — 434 Max Italio Drive
+- Emergency: 911 | Non-Emergency: (907) 784-3323
+- Chief: Theo Capes | Website: https://www.yakutatak.us
+- Operates Yakutat Community Jail | Alaska State Troopers: https://dps.alaska.gov/ast/
+
 ## Courts
-- Alaska Court System (regional; no standalone courthouse)
+### Yakutat Municipal Court — NONE
+- Yakutat District Court: 434 Max Italio Drive | (907) 784-3287
 - Court Website: https://courts.alaska.gov
-## Detention Center
-- Cordova Jail — 602 Railroad Avenue, Cordova, AK 99574 — (907) 424-6100
-- Visitation: Monday–Friday 9:00 AM – 9:30 PM (immediate family only)
-## Hunting & Fishing
-- Alaska Department of Fish and Game — https://adfg.alaska.gov
-- Renowned for salmon, halibut, and shellfish
-- Hunting: bear, waterfowl, small game
-- Licenses: https://adfg.alaska.gov
-- Hunting Regulations: https://adfg.alaska.gov
-- Fishing Regulations: https://adfg.alaska.gov
-## Library
-- Cordova Public Library — 610 Railway Avenue, Cordova, AK 99574 — (907) 424-6667
-- Hours: Tuesday–Friday 10:00 AM – 7:00 PM, Saturday 12:00 PM – 5:00 PM
+
+## Detention Facilities (ALL URLs)
+- Yakutat Community Jail: PO Box 110 | (907) 784-3206
+  Visitation: Mon–Fri 7:30 AM–9 PM, Sat–Sun 7:30 AM–2:30 PM
+  Website: http://www.yakutatak.govoffice2.com
+  One of Alaska's 15 Community Jails
+- Alaska DOC: https://doc.alaska.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Cordova Building Department — https://cityofcordova.net
-## Legal Aid
-- Alaska Legal Services Corporation — https://www.alsc-law.org/
-## Corrections
-- Cordova Jail
+- Planning & Zoning: Borough Planner Martha Indreland
+- (907) 784-3329 | 434 Max Italio Drive
+- Website: https://www.yakutatak.us/planning-zoning
+
+## Library & Education
+- NO STANDALONE PUBLIC LIBRARY
+- Yakutat School: https://www.yakutat.k12.ak.us | (907) 784-3344
+- Yakutat Tlingit Tribe: https://yakutattlingittribe.org | (907) 784-3344
+
+## Hospitals & Medical
+- Yakutat Community Health Center (SEARHC): 115 Airport Road, Yakutat, AK 99689
+  (907) 784-3275 | Primary, dental, behavioral health, emergency stabilization | 59.5514° N, 139.7369° W
+  Website: https://www.yakutathealth.org
+
+## City & Borough Agency Directory (ALL URLs)
+- Yakutat Borough: https://www.yakutatak.us
+- YPD: https://www.yakutatak.us
+- Planning & Zoning: https://www.yakutatak.us/planning-zoning
+- Fire Dept: (907) 784-3323
+- Public Works: (907) 784-3329
+- Airport: https://dot.alaska.gov
+- Yakutat Health Center: https://www.yakutathealth.org
+- Yakutat School: https://www.yakutat.k12.ak.us
+- Yakutat Tlingit Tribe: https://yakutattlingittribe.org
+- Alaska Court System: https://courts.alaska.gov
+- Alaska DOC: https://doc.alaska.gov
+- Alaska Legal Services: https://www.alsc-law.org/
+
+## Hunting & Fishing Regulations
+- Alaska Department of Fish & Game: https://adfg.alaska.gov
+
+## Additional Resources
+- State of Alaska: https://alaska.gov
+- Tongass National Forest: https://fs.usda.gov/tongass
+- Wrangell-St. Elias NP: https://nps.gov/wrst
+- Alaska Court Records: https://alaskacourtrecords.us

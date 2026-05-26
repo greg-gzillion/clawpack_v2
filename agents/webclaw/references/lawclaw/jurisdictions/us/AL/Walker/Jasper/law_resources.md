@@ -1,28 +1,89 @@
-﻿# Jasper — Local Law Resources
-## City Website
-- https://www.jasperal.org
-## City Hall
-- 201 19th Street, Jasper, AL 35501 — (205) 387-1100
-## Law Enforcement
-- Jasper Police Department — 201 19th Street, Jasper, AL 35501 — (205) 387-1130 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.jasperal.org/police
-## Courts
-- Jasper Municipal Court — 201 19th Street, Jasper, AL 35501 — (205) 387-1140
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.jasperal.org/court
-## Detention Center
-- City Jail — 201 19th Street, Jasper, AL 35501 — (205) 387-1130
-## Building Permits
-- Building Department — 201 19th Street, Jasper, AL 35501 — (205) 387-1150
-- Building Dept: https://www.jasperal.org/building
-- Permits: https://www.jasperal.org/DocumentCenter/View/11/Building-Permit-Applications
-- Zoning & Planning: https://www.jasperal.org/planning
-- Zoning Map: https://www.jasperal.org/DocumentCenter/View/10/Zoning-Map
-## Library
-- Walker County Public Library – Jasper Branch — 510 2nd Avenue, Jasper, AL 35501 — (205) 387-4676
-- Library Website: https://www.walkerlibrary.org
-## Hospitals (Nearest)
-- Walker Baptist Medical Center — 901 McElwain Road — (205) 381-0100 — 33.8348° N, 87.2777° W
-- Dignity Health – Northport Medical Center — 500 Medical Center Parkway, Northport — (205) 371-2000 — 33.2314° N, 87.5769° W
-- UAB Hospital – Tuscaloosa — 501 8th Street, Tuscaloosa — (205) 348-0111 — 33.2097° N, 87.5608° W
+﻿
+Jasper City (Walker County, AL) — Local Law Resources
+City Website
+https://www.jaspercity.com
+
+400 19th Street West, Jasper, AL 35501 | (205) 221-2100
+
+COUNTY SEAT of Walker County | Pop: ~14,000
+
+Coordinates: 33.8312° N, 87.2775° W
+
+I-22 corridor | "Coal Capital of Alabama" | Bankhead National Forest
+
+Law Enforcement
+Jasper Police Department — 121 17th Street West
+
+Emergency: 911 | Non-Emergency: (205) 221-8109
+
+Chief: J.C. Poe
+
+Website: https://www.jaspercity.com/police
+
+Courts
+Jasper Municipal Court — ACTIVE
+400 19th Street West (City Hall) | (205) 221-4254
+
+Hours: Mon–Fri 8:00 AM – 4:30 PM | Judge: Jim Brakefield
+
+Website: https://www.jaspercity.com/municipal-court
+
+Detention Facilities (ALL URLs)
+Jasper City Jail: 121 17th Street West | (205) 221-8145
+
+Walker County Jail (IN JASPER): 2001 2nd Avenue | (205) 302-6464
+Inmate Search: https://walkercountysheriff.com
+
+Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
+Building Permits
+Building & Inspections: 400 19th Street West | (205) 221-2100
+
+Website: https://www.jaspercity.com/building-inspections
+
+Library
+Jasper Public Library (Carl Elliott Regional): 98 18th Street East | (205) 221-8512
+
+Hours: Mon–Thu 9–5, Fri 9–4:30, Sat 9–1
+
+Website: https://www.jaspercity.com/library
+
+Hospitals & Medical
+Walker Baptist Medical Center (IN JASPER): 3400 Highway 78 E | (205) 387-4000
+33.8411° N, 87.2365° W | https://baptist-health.com
+
+DCH Regional Medical Center (Tuscaloosa): 809 University Blvd E | (205) 759-7111
+
+UAB Hospital (Birmingham): 1802 6th Avenue South | (205) 934-3411
+
+City & County Agency Directory (ALL URLs)
+City of Jasper: https://www.jaspercity.com
+
+JPD: https://www.jaspercity.com/police
+
+Municipal Court: https://www.jaspercity.com/municipal-court
+
+Building & Inspections: https://www.jaspercity.com/building-inspections
+
+Library: https://www.jaspercity.com/library
+
+Parks & Rec: https://www.jaspercity.com/parks-recreation
+
+Fire Department: https://www.jaspercity.com/fire
+
+Walker Baptist Medical Center: https://baptist-health.com
+
+Walker County Sheriff: https://walkercountysheriff.com
+
+Alabama DOC: http://www.doc.alabama.gov
+
+Hunting & Fishing Regulations
+Alabama DCNR: https://www.outdooralabama.com
+
+Legal Aid
+Alabama Legal Services: https://www.alsp.org
+
+Additional Resources
+State of Alabama: https://www.alabama.gov
+
+Alabama Courts: https://www.alacourt.gov

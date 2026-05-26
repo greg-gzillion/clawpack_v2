@@ -1,24 +1,57 @@
-﻿# Center Point — Local Law Resources
+﻿# Center Point City (Jefferson County, AL) — Local Law Resources
+
 ## City Website
-- https://www.centerpointal.org
-## City Hall
-- 901 1st Avenue, Center Point, AL 35215 — (205) 595-3773
+- https://www.cityofcenterpoint.org
+- 2209 Center Point Parkway, Center Point, AL 35220 | (205) 854-4460
+- Jefferson County | Pop: ~16,000
+- Coordinates: 33.6393° N, 86.6836° W
+- Birmingham metro area | Contract law enforcement
+
 ## Law Enforcement
-- Jefferson County Sheriff's Office – Center Point Precinct — 901 1st Avenue, Center Point, AL 35215 — (205) 325-4000 (Non-emergency)
-- Emergency: 911
+- NO CITY POLICE — Jefferson County Sheriff's Office (contract)
+- Emergency: 911 | Non-Emergency: (205) 325-5300
+- Website: https://www.cityofcenterpoint.org/216/Public-Safety
+
 ## Courts
-- Center Point Municipal Court — 901 1st Avenue, Center Point, AL 35215 — (205) 595-3773 ext. 225
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Pay Online: https://centerpointal.govtportal.com
-- Court Website: https://www.centerpointal.org/municipal-court
-## Detention Center
-- Jefferson County Jail — Inmate Search: https://www.jcmsonline.com
+### Center Point Municipal Court
+- 2209 Center Point Parkway | (205) 854-4460
+- Website: https://www.cityofcenterpoint.org
+
+## Detention Facilities (ALL URLs)
+- Center Point Holding Facility (Sheriff): 2209 Center Point Parkway
+  Website: https://www.cityofcenterpoint.org/216/Public-Safety
+- Jefferson County Jail (Birmingham): https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building Department — 901 1st Avenue, Center Point, AL 35215 — (205) 595-3773
-- Building Dept: https://www.centerpointal.org/building-department
-- Permit Forms: https://www.centerpointal.org/DocumentCenter/View/8/Building-Department-Forms
-- Zoning & Planning: https://www.centerpointal.org/planning-commission
-- Zoning Map: https://www.centerpointal.org/DocumentCenter/View/7/Zoning-Map
+- Planning & Zoning: 2209 Center Point Parkway | (205) 854-4617
+- Website: https://www.cityofcenterpoint.org
+
 ## Library
-- Center Point Public Library — 813 1st Avenue, Center Point, AL 35215 — (205) 595-3774
-- Library Website: https://www.bplonline.org/locations/center-point
+- Center Point Public Library: 2209 Center Point Parkway | (205) 854-4890
+- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Website: https://www.cityofcenterpoint.org
+
+## Hospitals & Medical
+- NO HOSPITAL IN CENTER POINT
+- UAB Hospital (Bessemer, ~15 mi): 5000 Medical West Way | (205) 481-8650 | 33.5006° N, 86.8087° W
+- UAB Hospital (Birmingham, ~10 mi): Level I Trauma | (205) 934-3411
+- St. Vincent's East (~10 mi): (205) 838-3000
+
+## City & County Agency Directory (ALL URLs)
+- City of Center Point: https://www.cityofcenterpoint.org
+- Jefferson County Sheriff: https://www.cityofcenterpoint.org/216/Public-Safety
+- Jefferson County Jail: https://www.jccal.org/
+- UAB Hospital: https://www.uab.edu/hospital/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
+## Legal Aid
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+

@@ -1,42 +1,86 @@
-﻿# Southside Municipal Court
-## Court Information
-- Southside Municipal Court
-- Address: 1001 10th Street, Southside, AL 35907
-- Phone: (256) 945-2130
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.southsideal.org/court
+﻿# Southside City (Etowah County, AL) Courts
+
+## Southside Municipal Court — ACTIVE
+- Status: **HAS ACTIVE MUNICIPAL COURT**
+- Location: Inside City Hall, 2255 Highway 77, Southside, AL 35907
+- Phone: (256) 442-9775
+- Court Days: 2nd & 4th Wednesday monthly at 3:00 PM
+- Website: https://cityofsouthside.com/departments/municipal-court/
+
 ## City Website
-- https://www.southsideal.org
-## City Hall
-- Address: 1001 10th Street, Southside, AL 35907
-- Phone: (256) 945-2111
-## Police Department
+- https://www.cityofsouthside.com
+- City Hall: 2255 Highway 77, Southside, AL 35907
+- Phone: (256) 442-9775
+- Hours: Mon–Fri 8:00 AM – 4:00 PM
+- Government Type: Mayor–Council
+- Etowah County | Population: ~8,500
+- Coordinates: 33.9032° N, 86.0244° W
+- Note: On the Coosa River south of Gadsden in northeastern Alabama; known for its scenic riverfront views and sunsets; bedroom community for Gadsden; popular for boating and fishing on the Coosa River
+
+## Police Services
 - Southside Police Department
-- Address: 1001 10th Street, Southside, AL 35907
-- Phone: (256) 945-2121 (Non-emergency), 911 (Emergency)
-- Police Website: https://www.southsideal.org/police
-## Detention Center
-- City Jail
-- Address: 1001 10th Street, Southside, AL 35907 (co-located with police)
-- Phone: (256) 945-2121
-## Building Permits
-- Building Department
-- Address: 1001 10th Street, Southside, AL 35907
-- Phone: (256) 945-2140
-- Building Department Website: https://www.southsideal.org/building
-- Permits & Forms: https://www.southsideal.org/DocumentCenter/View/7/Building-Permit-Applications
-- Zoning & Planning: https://www.southsideal.org/planning
-- Zoning Map: https://www.southsideal.org/DocumentCenter/View/6/Zoning-Map
+- Address: 2255 Highway 77, Southside, AL 35907
+- Emergency: 911 | Non-Emergency: (256) 442-2255
+- Chief: Jarrett Williams
+- Website: https://cityofsouthside.com/public-safety/police/
+- Operates Southside City Jail
+
+## Jail & Detention Facilities (ALL FACILITIES — EVERY URL)
+
+### Southside City Jail (City/PD-Operated — Short-Term)
+- Address: 2255 Highway 77, Southside, AL 35907
+- Phone: (256) 442-2255
+- Function: Short-term holding; transfers to Etowah County Detention Center
+- Website: https://cityofsouthside.com/public-safety/police/
+
+### Etowah County Detention Center (County — Gadsden)
+- Website: http://www.etowahcountysheriff.org/detention.php
+
+### Alabama State Facilities:
+- Alabama DOC: http://www.doc.alabama.gov
+- VINELink: https://vinelink.com
+
+## Hospitals & Medical Facilities
+
+### NO HOSPITAL IN SOUTHSIDE
+
+### Gadsden Regional Medical Center (Nearest Full-Service Hospital — Gadsden, ~8 mi north)
+- Address: 1007 Goodyear Avenue, Gadsden, AL 35903
+- Phone: (256) 494-4000
+- Website: https://www.riverviewregional.com/
+- Coordinates: 34.0142° N, 86.0228° W
+- Services: 24/7 ER, ICU, surgery, cardiology, orthopedics
+
 ## Library
-- Etowah County Public Library – Southside Branch
-- Address: 1001 10th Street, Southside, AL 35907
-- Phone: (256) 945-2150
-- Hours: Mon–Thu 9 AM–6 PM, Fri 9 AM–5 PM, Sat 9 AM–1 PM, Sun Closed
-- Library Website: https://www.etowahlibrary.org
-## Hospitals
-- Grandview Medical Center — 300 6th Avenue North, Birmingham, AL 35203 — (205) 325-5000 — 33.5192° N, 86.8103° W
-  Website: https://www.grandviewmedicalcenter.com
-- St. Vincent's East — 1500 Gray Ln, Trussville, AL 35173 — (205) 983-2000 — 33.5468° N, 86.6637° W
-  Website: https://www.stvincentseast.org
-- Princeton Baptist Medical Center — 5500 Montclair Road, Birmingham, AL 35210 — (205) 930-5000 — 33.5068° N, 86.7855° W
-  Website: https://www.princetonbaptist.org
+- Southside Public Library
+- Address: 2142 AL-7, Southside, AL 35907
+- Phone: (256) 442-6217
+- Hours: Mon–Thu 10 AM–6 PM, Fri–Sat 10 AM–5 PM
+- Website: https://cityofsouthside.com/explore/library/
+
+## Building Permits
+- Issued by: Building Department
+- Location: 2255 Highway 77, Southside, AL 35907
+- Phone: (256) 442-9775 ext. 115
+- Permit required for all construction and renovations
+- Website: https://cityofsouthside.com/departments/building-dept/
+
+## City & County Agency Directory (ALL AGENCIES — EVERY URL)
+- City of Southside: https://www.cityofsouthside.com
+- Southside Police Department: https://cityofsouthside.com/public-safety/police/
+- Southside Municipal Court: https://cityofsouthside.com/departments/municipal-court/
+- Building Department: https://cityofsouthside.com/departments/building-dept/
+- Southside Public Library: https://cityofsouthside.com/explore/library/
+- Gadsden Regional Medical Center: https://www.riverviewregional.com/
+- Etowah County Detention Center: http://www.etowahcountysheriff.org/detention.php
+- Alabama DOC: http://www.doc.alabama.gov
+- VINELink: https://vinelink.com
+
+## Additional State Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Unified Judicial System: https://www.alacourt.gov
+
+## Nearby Communities & Notes
+- Gadsden (~8 mi north) | Rainbow City (~6 mi northwest) | Birmingham (~60 mi southwest)
+- Coosa River | Scenic riverfront | Boating & fishing
+

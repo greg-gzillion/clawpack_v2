@@ -1,26 +1,55 @@
-﻿# King Cove — Local Law Resources
+﻿# King Cove City (Aleutians East Borough, Alaska) — Local Law Resources
+
 ## City Website
 - https://cityofkingcove.com
+- PO Box 37, King Cove, AK 99612 | (907) 497-2340
+- First-Class City | Alaska Peninsula | Pop: ~800
+- Coordinates: 55.0722° N, 162.3250° W
+- Mayor: Warren Wilson | City Clerk: cityclerk@kingcoveak.org
+
 ## Law Enforcement
-- King Cove Police Department — 100 Ram's Creek Road, King Cove, AK 99612 — (907) 497-2210
-- Website: https://cityofkingcove.com/police-department
-- Alaska State Troopers — https://dps.alaska.gov/ast/
+- Dept of Public Safety — 100 Ram's Creek Road
+- Emergency: 911 | Non-Emergency: (907) 497-2210
+- Website: https://cityofkingcove.com/department-of-public-safety/
+- Alaska State Troopers: https://dps.alaska.gov/ast/
+
 ## Courts
-- King Cove District Court — 100 Ram's Creek Road, King Cove, AK 99612 — (907) 497-2210
+### King Cove Municipal Court — NONE
+- King Cove District Court: 100 Ram's Creek Road | (907) 497-2311
 - Court Website: https://courts.alaska.gov
-## Detention Center
-- King Cove Jail — 100 Ram's Creek Road, King Cove, AK 99612 — (907) 497-2210
-- Short-term holding; inmate lookups via police or Alaska VINE
-## Hunting & Fishing
-- Alaska Department of Fish and Game — https://adfg.alaska.gov
-- Commercial/sport fishing: salmon, halibut, crab, herring
-- Hunting: waterfowl, fox
-- Licenses: https://adfg.alaska.gov
-- Hunting Regulations: https://adfg.alaska.gov
-- Fishing Regulations: https://adfg.alaska.gov
+
+## Detention Facilities (ALL URLs)
+- King Cove PD Detention Center: 100 Ram's Creek Road | (907) 497-2210
+- Alaska DOC: https://doc.alaska.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- King Cove Building Department — https://cityofkingcove.com
-## Legal Aid
-- Alaska Legal Services Corporation — https://www.alsc-law.org/
-## Corrections
-- King Cove Jail
+- Planning Commission: (907) 497-2340
+- Website: https://cityofkingcove.com/planning-commission/
+
+## Library & Education
+- King Cove School (PK–12): https://www.aebps.org | (907) 497-2215
+
+## Hospitals & Medical
+- King Cove Community Health Center (EAT): PO Box 9, King Cove, AK 99612
+  (907) 497-2311 | Primary care, ER stabilization, behavioral health, telehealth | 55.0722° N, 162.3250° W
+  Website: https://eatribes.org
+
+## City & Borough Agency Directory (ALL URLs)
+- City of King Cove: https://cityofkingcove.com
+- Public Safety: https://cityofkingcove.com/department-of-public-safety/
+- Electric Dept: (907) 497-2340
+- Harbors & Ports: (907) 497-2340
+- Airport: https://adot.alaska.gov
+- AEB School District: https://www.aebps.org
+- Alaska Court System: https://courts.alaska.gov
+- Alaska DOC: https://doc.alaska.gov
+- Alaska Legal Services: https://www.alsc-law.org/
+
+## Hunting & Fishing Regulations
+- Alaska Department of Fish & Game: https://adfg.alaska.gov
+
+## Additional Resources
+- State of Alaska: https://alaska.gov
+- Izembek NWR: https://fws.gov/refuge/izembek
+- Alaska Court Records: https://alaskacourtrecords.us
+

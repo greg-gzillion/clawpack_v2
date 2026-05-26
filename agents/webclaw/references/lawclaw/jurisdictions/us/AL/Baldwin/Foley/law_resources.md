@@ -1,34 +1,60 @@
-﻿# Foley — Local Law Resources
+﻿# Foley City (Baldwin County, AL) — Local Law Resources
+
 ## City Website
-- https://cityoffoley.org
-## City Hall
-- 200 East Section Avenue, Foley, AL 36535 — (251) 952-4010
+- https://www.cityoffoley.org
+- 407 E Laurel Ave, Foley, AL 36535 | (251) 943-1545
+- Baldwin County | Pop: ~22,000
+- Coordinates: 30.4063° N, 87.6836° W
+- Gateway to Gulf Shores & Orange Beach
+
 ## Law Enforcement
-- Foley Police Department — 200 East Section Avenue, Foley, AL 36535 — (251) 952-4010 (Main), (251) 943-4431 (Non-emergency)
-- Emergency: 911
-- Website: https://cityoffoley.org/police-department
-- Alabama State Troopers — https://www.alea.gov/
+- Foley Police Department — 200 E Section Ave (Justice Center)
+- Emergency: 911 | Non-Emergency: (251) 943-4431
+- Chief: Kevin Carnley | Website: https://www.cityoffoley.org/city-services/police-department/
+- Operates Foley City Jail
+
 ## Courts
-- Foley Municipal Court — 200 East Section Avenue, Foley, AL 36535 (Foley Justice Center) — (251) 952-4086
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Court Website: https://cityoffoley.org/municipal-court
-## Detention Center
-- Foley City Jail — 200 East Section Avenue, Foley, AL 36535 — (251) 970-3040
-- Inmate Roster: https://foleycityjailal.org
+### Foley Municipal Court — ACTIVE
+- 200 E Section Ave | (251) 952-4086 | Email: sbenefield@cityoffoley.org
+- Court: 1st–3rd Tuesdays, 2nd Thursday monthly
+- Website: https://www.cityoffoley.org/municipal-court
+
+## Detention Facilities (ALL URLs)
+- Foley City Jail: 200 E Section Ave | (251) 970-3040
+  Website: https://www.cityoffoley.org/city-services/police-department/
+- Baldwin County Corrections (Bay Minette): http://sheriff.baldwincountyal.gov/
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building Department — 120 S. McKenzie Street, Foley, AL 36535 — (251) 952-4011
-- Building Department: https://cityoffoley.org/building-department
-- Apply Online: https://www.citizenserve.com/foley
-- Permitting: https://cityoffoley.org/community-development
-## Hunting & Fishing
-- Alabama Department of Conservation and Natural Resources
-- Hunting Regulations: https://www.outdooralabama.com/hunting
-- Fishing Regulations: https://www.outdooralabama.com/fishing
-- Buy Licenses: https://www.outdooralabama.com/licensing
+- Planning & Development: 120 S McKenzie St | (251) 952-4011
+- Online: CitizenServe | Website: https://www.cityoffoley.org/building-department/
+
 ## Library
-- Foley Public Library — 211 East Section Avenue, Foley, AL 36535 — (251) 943-3956
-- Website: https://foley.lib.al.us
+- Foley Public Library: 319 E Laurel Ave | (251) 943-7665
+- Hours: Mon–Thu 9–7, Fri–Sat 9–5
+- Website: https://www.foleylibrary.org
+
+## Hospitals & Medical
+- Baldwin Health - South Baldwin Campus: 1100 N McKenzie St, Foley, AL 36535
+  (251) 949-3400 | 24/7 ER, surgery, imaging, women's health, orthopedics | 30.4134° N, 87.6756° W
+  Website: https://www.baldwinhealth.org/locations/south-baldwin-campus/
+
+## City & County Agency Directory (ALL URLs)
+- City of Foley: https://www.cityoffoley.org
+- FPD: https://www.cityoffoley.org/city-services/police-department/
+- Municipal Court: https://www.cityoffoley.org/municipal-court
+- Foley City Jail: https://www.cityoffoley.org/city-services/police-department/
+- Baldwin Health - South Baldwin Campus: https://www.baldwinhealth.org/locations/south-baldwin-campus/
+- Baldwin County Sheriff: http://sheriff.baldwincountyal.gov/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
 ## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Foley City Jail
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+

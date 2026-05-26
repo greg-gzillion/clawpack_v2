@@ -1,28 +1,87 @@
-﻿# Haleyville — Local Law Resources
-## City Website
-- https://www.haleyvilleal.org
-## City Hall
-- 101 South Main Street, Haleyville, AL 35565 — (205) 482-9300
-## Law Enforcement
-- Haleyville Police Department — 101 South Main Street, Haleyville, AL 35565 — (205) 482-9300 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.haleyvilleal.org/police
-## Courts
-- Haleyville Municipal Court — 101 South Main Street, Haleyville, AL 35565 — (205) 482-9300
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.haleyvilleal.org/court
-## Detention Center
-- City Jail — 101 South Main Street, Haleyville, AL 35565 — (205) 482-9300
-## Building Permits
-- Building Department — 101 South Main Street, Haleyville, AL 35565 — (205) 482-9300
-- Building Dept: https://www.haleyvilleal.org/building
-- Permits: https://www.haleyvilleal.org/DocumentCenter/View/8/Building-Permit-Applications
-- Zoning & Planning: https://www.haleyvilleal.org/planning
-- Zoning Map: https://www.haleyvilleal.org/DocumentCenter/View/7/Zoning-Map
-## Library
-- Winston County Public Library – Haleyville Branch — 101 South Main Street, Haleyville, AL 35565 — (205) 482-9310
-- Library Website: https://www.winstoncountylibrary.org
-## Hospitals (Nearest)
-- Winston Medical Center — 1101 10th Street, Double Springs — (205) 489-4111 — 33.9653° N, 87.2839° W
-- Walker Baptist Medical Center — 901 McElwain Road, Jasper — (205) 381-0100 — 33.8348° N, 87.2777° W
-- Dignity Health – Northport Medical Center — 500 Medical Center Parkway, Northport — (205) 371-2000 — 33.2314° N, 87.5769° W
+﻿
+Haleyville City (Winston County, AL) — Local Law Resources
+City Website
+https://www.cityofhaleyville.com
+
+911 21st Street, Haleyville, AL 35565 | (205) 486-3121
+
+Winston County (partially Marion County) | Pop: ~4,100
+
+Coordinates: 34.2265° N, 87.6214° W
+
+"Home of the 9-1-1 System" (first 911 call, Feb 16, 1968)
+
+Law Enforcement
+Haleyville Police Department — 1901 11th Avenue
+
+Emergency: 911 | Non-Emergency: (205) 486-5201
+
+Website: https://www.cityofhaleyville.com/police
+
+Courts
+Haleyville Municipal Court — ACTIVE
+1901 11th Avenue | (205) 486-3121
+
+Online Payments: https://haleyville.municipalimpact.com/court
+
+Detention Facilities (ALL URLs)
+Haleyville City Jail: 1901 11th Avenue | (205) 486-5201
+
+Winston County Jail (Double Springs): 100 19th Street, Double Springs, AL 35553
+(205) 437-2111
+
+Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
+Building Permits
+City Hall: 911 21st Street | (205) 486-3121
+
+Website: https://www.cityofhaleyville.com/services
+
+Library
+Haleyville Public Library: 913 20th Street | (205) 486-7450
+
+Hours: Mon–Fri 8–5, Sat 9–4
+
+Website: https://www.cityofhaleyville.com/library
+
+Hospitals & Medical
+Lakeland Community Hospital (IN HALEYVILLE): 42024 Highway 195 | (205) 486-5213
+34.2411° N, 87.5913° W | https://lakelandcommunityhospital.com
+
+Revive Medical Center: 1728 11th Ave (Primary Care)
+
+Russellville Hospital: 15155 US-43, Russellville, AL 35653 | (256) 332-1611
+
+Walker Baptist Medical Center (Jasper): 3400 Highway 78 E | (205) 387-4000
+
+City & County Agency Directory (ALL URLs)
+City of Haleyville: https://www.cityofhaleyville.com
+
+HPD: https://www.cityofhaleyville.com/police
+
+Municipal Court: https://haleyville.municipalimpact.com/court
+
+Library: https://www.cityofhaleyville.com/library
+
+City Services: https://www.cityofhaleyville.com/services
+
+Fire Department: https://www.cityofhaleyville.com/fire
+
+Parks & Rec: https://www.cityofhaleyville.com/parks
+
+Lakeland Community Hospital: https://lakelandcommunityhospital.com
+
+Winston County: https://www.winstoncounty-al.gov
+
+Alabama DOC: http://www.doc.alabama.gov
+
+Hunting & Fishing Regulations
+Alabama DCNR: https://www.outdooralabama.com
+
+Legal Aid
+Alabama Legal Services: https://www.alsp.org
+
+Additional Resources
+State of Alabama: https://www.alabama.gov
+
+Alabama Courts: https://www.alacourt.gov

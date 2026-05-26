@@ -1,28 +1,91 @@
-﻿# Talladega — Local Law Resources
-## City Website
-- https://www.talladegaal.gov
-## City Hall
-- 160 West College Street, Talladega, AL 35160 — (256) 362-4111
-## Law Enforcement
-- Talladega Police Department — 160 West College Street, Talladega, AL 35160 — (256) 362-4141 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.talladegaal.gov/police
-## Courts
-- Talladega Municipal Court — 160 West College Street, Talladega, AL 35160 — (256) 362-4150
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.talladegaal.gov/court
-## Detention Center
-- City Jail — 160 West College Street, Talladega, AL 35160 — (256) 362-4141
-## Building Permits
-- Building Department — 160 West College Street, Talladega, AL 35160 — (256) 362-4160
-- Building Dept: https://www.talladegaal.gov/building
-- Permits: https://www.talladegaal.gov/DocumentCenter/View/10/Building-Permit-Applications
-- Zoning & Planning: https://www.talladegaal.gov/planning
-- Zoning Map: https://www.talladegaal.gov/DocumentCenter/View/9/Zoning-Map
-## Library
-- Talladega Public Library — 101 West Battle Street, Talladega, AL 35160 — (256) 362-4170
-- Library Website: https://www.talladegalibrary.org
-## Hospitals (Nearest)
-- Talladega Regional Medical Center — 301 10th St E, Talladega, AL 35160 — (256) 362-5000 — 33.4295° N, 86.0984° W
-- St. Vincent's East — 1500 Gray Ln, Trussville, AL 35173 — (205) 983-2000 — 33.5468° N, 86.6637° W
-- Princeton Baptist Medical Center — 5500 Montclair Road, Birmingham, AL 35210 — (205) 930-5000 — 33.5068° N, 86.7855° W
+﻿
+Talladega City (Talladega County, AL) — Local Law Resources
+City Website
+https://www.talladega.com
+
+255 South Street West, Talladega, AL 35160 | (256) 362-8186
+
+COUNTY SEAT of Talladega County | Pop: ~15,000
+
+Coordinates: 33.4359° N, 86.1058° W
+
+I-20 corridor | Talladega Superspeedway | Talladega College (1867)
+
+Law Enforcement
+Talladega Police Department — 203 South Street West
+
+Emergency: 911 | Non-Emergency: (256) 362-4163
+
+Website: https://www.talladega.com/police-department
+
+Courts
+Talladega Municipal Court — ACTIVE
+255 South Street West | (256) 362-8236
+
+Email: courtoffice@talladega.com
+
+Website: https://www.talladega.com/Default.asp?ID=93&pg=Municipal+Court
+
+Detention Facilities (ALL URLs)
+Talladega City Jail: Managed by Talladega PD | (256) 362-4163
+
+Talladega County Metro Jail (IN TALLADEGA): 150 East Renfroe Road | (256) 761-2000
+
+FCI Talladega (FEDERAL PRISON IN TALLADEGA): 565 E Renfroe Rd
+https://www.bop.gov/locations/institutions/tdg/
+
+Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
+Building Permits
+Building & Code Enforcement: 255 South Street West | (256) 362-8186
+
+Website: https://www.talladega.com/building-inspector
+
+Library
+Talladega Public Library (Armstrong-Osborne): 132 N. Court Street | (256) 362-4211
+
+Hours: Mon–Wed/Fri 8–5, Thu 8–6, Sat 9–1, Sun Closed
+
+Website: https://www.talladegalibrary.com
+
+Hospitals & Medical
+Citizens Baptist Medical Center (IN TALLADEGA): 604 Stone Avenue | (256) 362-8111
+33.4398° N, 86.0922° W | https://cbmc.org
+
+Coosa Valley Medical Center (Sylacauga): 315 W Hickory St | (256) 401-4000 | 33.1644° N, 86.2552° W
+
+Grandview Medical Center (Birmingham): 3690 Grandview Parkway | (205) 971-1000
+
+City & County Agency Directory (ALL URLs)
+City of Talladega: https://www.talladega.com
+
+TPD: https://www.talladega.com/police-department
+
+Municipal Court: https://www.talladega.com/Default.asp?ID=93&pg=Municipal+Court
+
+Building Inspector: https://www.talladega.com/building-inspector
+
+Library: https://www.talladegalibrary.com
+
+Parks & Rec: https://www.talladega.com/parks-and-recreation
+
+Fire Department: https://www.talladega.com/fire-department
+
+Citizens Baptist Medical Center: https://cbmc.org
+
+Talladega County: https://www.talladegacountyal.org
+
+FCI Talladega: https://www.bop.gov/locations/institutions/tdg/
+
+Alabama DOC: http://www.doc.alabama.gov
+
+Hunting & Fishing Regulations
+Alabama DCNR: https://www.outdooralabama.com
+
+Legal Aid
+Alabama Legal Services: https://www.alsp.org
+
+Additional Resources
+State of Alabama: https://www.alabama.gov
+
+Alabama Courts: https://www.alacourt.gov

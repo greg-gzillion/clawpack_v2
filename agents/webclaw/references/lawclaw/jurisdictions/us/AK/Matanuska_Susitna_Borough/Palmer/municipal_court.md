@@ -16,3 +16,4 @@
 - Address: 423 S Valley Way, Palmer, AK 99645 (co-located with police)
 - Phone: (907) 745-4811
 - Inmate Search: https://palmercityjail.org
+

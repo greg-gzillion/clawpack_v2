@@ -1,51 +1,122 @@
-﻿# Sylacauga Municipal Court
-## Court Information
-- Sylacauga Municipal Court
-- Address: 205 Martin Luther King Jr. Drive, Sylacauga, AL 35150
-- Phone: (256) 249-2111
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.sylacauga.org/municipal-court
-## City Website
-- https://www.sylacauga.org
-## City Hall
-- Address: 205 Martin Luther King Jr. Drive, Sylacauga, AL 35150
-- Phone: (256) 249-2111
-## Police Department
-- Sylacauga Police Department
-- Address: 205 Martin Luther King Jr. Drive, Sylacauga, AL 35150
-- Phone: (256) 249-2111 (Non-emergency), 911 (Emergency)
-- Police Website: https://www.sylacauga.org/police
-## Detention Center
-- City Jail
-- Address: 205 Martin Luther King Jr. Drive, Sylacauga, AL 35150 (co-located with police)
-- Phone: (256) 249-2111
-## Building Permits
-- Building Department
-- Address: 205 Martin Luther King Jr. Drive, Sylacauga, AL 35150
-- Phone: (256) 249-2111
-- Building Department Website: https://www.sylacauga.org/building
-- Permits & Forms: https://www.sylacauga.org/DocumentCenter/View/12/Building-Permit-Applications
-- Zoning & Planning: https://www.sylacauga.org/planning
-- Zoning Map: https://www.sylacauga.org/DocumentCenter/View/11/Zoning-Map
-## Library
-- Sylacauga Public Library
-- Address: 201 North Broadway, Sylacauga, AL 35150
-- Phone: (256) 245-1221
-- Hours: Monday–Thursday 9:00 AM – 6:00 PM, Friday 9:00 AM – 5:00 PM, Saturday 9:00 AM – 1:00 PM, Sunday Closed
-- Library Website: https://www.sylacaugalibrary.org
-## Hospitals (Nearest)
-- Talladega Regional Medical Center
-  Address: 301 10th St E, Talladega, AL 35160
-  Phone: (256) 362-5000
-  Coordinates: 33.4295° N, 86.0984° W
-  Website: https://www.beaumonthealth.org/talladega-regional
-- St. Vincent's East
-  Address: 1500 Gray Ln, Trussville, AL 35173
-  Phone: (205) 983-2000
-  Coordinates: 33.5468° N, 86.6637° W
-  Website: https://www.stvincentseast.org
-- Princeton Baptist Medical Center
-  Address: 5500 Montclair Road, Birmingham, AL 35210
-  Phone: (205) 930-5000
-  Coordinates: 33.5068° N, 86.7855° W
-  Website: https://www.princetonbaptist.org
+﻿
+Lincoln City (Talladega County, AL) Courts
+Lincoln Municipal Court — ACTIVE
+Status: HAS ACTIVE MUNICIPAL COURT
+
+Address: 150 Magnolia Street, Lincoln, AL 35096 (City Hall)
+
+Phone: (205) 763-4020
+
+Court Dates: 2nd and 4th Wednesdays monthly
+
+Website: https://www.lincolnalabama.com/Municipal-Court
+
+City Website
+https://www.lincolnalabama.com
+
+City Hall: 150 Magnolia Street, Lincoln, AL 35096
+
+Phone: (205) 763-7777
+
+Government Type: Mayor–Council
+
+Talladega County | Population: ~7,000
+
+Coordinates: 33.6132° N, 86.1183° W
+
+Note: Located along I-20 in east-central Alabama between Birmingham and Atlanta; home to the Honda Manufacturing of Alabama plant (major employer); known for its proximity to Logan Martin Lake, Talladega National Forest, and the Talladega Superspeedway just a few miles north
+
+Police Services
+Lincoln Police Department
+
+Address: 33 Complex Drive, Lincoln, AL 35096
+
+Emergency: 911 | Non-Emergency: (205) 761-1556
+
+Chief: Darren Britton
+
+Website: https://www.lincolnalabama.com/Police-Department
+
+Operates Lincoln City Jail (contracts jail services through Talladega County for long-term detention)
+
+Jail & Detention Facilities (ALL FACILITIES — EVERY URL)
+Lincoln City Jail (City/PD-Operated — Short-Term)
+Managed By: Lincoln Police Department
+
+Note: City contracts jail services through Talladega County for longer-term detention
+
+Talladega County Metro Jail (Primary Long-Term — Talladega)
+Address: 150 E Renfroe Road, Talladega, AL 35161
+
+Phone: (256) 761-2000
+
+Inmate Search: Talladega County Jail Roster
+
+Managed By: Talladega County Sheriff's Office
+
+Alabama State Facilities:
+Alabama DOC: http://www.doc.alabama.gov
+
+VINELink: https://vinelink.com
+
+Hospitals & Medical Facilities
+NO HOSPITAL IN LINCOLN
+Nearest Hospitals:
+FacilityAddressCoordinatesPhoneWebsite
+Citizens Baptist Medical Center1101 E. Fort Williams St, Talladega, AL 3516033.4273° N, 86.0971° W(256) 362-5500cbmc.org
+UAB Hospital / St. Vincent's Birmingham3001 5th Ave S, Birmingham, AL 3523333.5006° N, 86.8088° W(205) 215-1000uabmedicine.org
+Grandview Medical Center (Birmingham)3690 Grandview Parkway, Birmingham, AL 35243—(205) 971-1000grandviewhealth.com
+Library
+Lincoln Public Library
+
+Address: 49 Complex Drive, Lincoln, AL 35096
+
+Phone: (205) 351-5988
+
+Website: https://www.lincolnalabama.com/Public-Library
+
+Building Permits
+Department: Building, Planning & Development
+
+Phone: (205) 763-4004
+
+Portal: iWorQ Permit Portal for online applications
+
+Website: https://www.lincolnalabama.com/Building-Planning-Development
+
+City & County Agency Directory (ALL AGENCIES — EVERY URL)
+City of Lincoln: https://www.lincolnalabama.com
+
+Lincoln Police Department: https://www.lincolnalabama.com/Police-Department
+
+Lincoln Municipal Court: https://www.lincolnalabama.com/Municipal-Court
+
+Building, Planning & Development: https://www.lincolnalabama.com/Building-Planning-Development
+
+Lincoln Public Library: https://www.lincolnalabama.com/Public-Library
+
+Parks & Recreation: https://www.lincolnalabama.com/Parks-and-Recreation
+
+Fire Department: https://www.lincolnalabama.com/Fire-Department
+
+Talladega County: https://www.talladegacountyal.org
+
+Talladega County Metro Jail: (256) 761-2000
+
+Citizens Baptist Medical Center: https://cbmc.org
+
+Alabama DOC: http://www.doc.alabama.gov
+
+VINELink: https://vinelink.com
+
+Additional State Resources
+State of Alabama: https://www.alabama.gov
+
+Alabama Unified Judicial System: https://www.alacourt.gov
+
+Nearby Communities & Notes
+Talladega (~10 mi east) | Pell City (~15 mi west) | Oxford/Anniston (~20 mi northeast)
+
+I-20 corridor | Honda Manufacturing of Alabama
+
+Logan Martin Lake | Talladega National Forest | Talladega Superspeedway (nearby)

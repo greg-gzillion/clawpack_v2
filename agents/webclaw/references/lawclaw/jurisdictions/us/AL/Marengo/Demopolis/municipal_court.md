@@ -1,41 +1,85 @@
-﻿# Demopolis Municipal Court
-## Court Information
-- Demopolis Municipal Court
-- Address: 200 N Walnut Street, Demopolis, AL 36732
-- Phone: (334) 287-2130
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.cityofdemopolis.com/court
+﻿# Demopolis City (Marengo County, AL) Courts
+
+## Demopolis Municipal Court — ACTIVE
+- Status: **HAS ACTIVE MUNICIPAL COURT**
+- Location: 301 East Washington Street, Demopolis, AL 36732
+- Phone: (334) 289-5933
+- Hours: Mon 8:00 AM – 3:30 PM; Tue–Fri 8:00 AM – 4:00 PM
+- Website: https://demopoliscourt.com/
+
 ## City Website
-- https://www.cityofdemopolis.com
-## City Hall
-- Address: 200 N Walnut Street, Demopolis, AL 36732
-- Phone: (334) 287-2111
-## Police Department
+- https://demopolisal.gov
+- City Hall: 211 North Walnut Avenue, Demopolis, AL 36732
+- Phone: (334) 289-0577
+- Hours: Mon–Fri 8:00 AM – 5:00 PM
+- Government Type: Mayor–Council
+- Marengo County | Population: ~7,000
+- Coordinates: 32.5176° N, 87.8364° W
+- Note: In west-central Alabama at the confluence of the Tombigbee and Black Warrior rivers; known for the historic Gaineswood and Bluff Hall antebellum mansions, the Demopolis Historic District, and the annual Christmas on the River celebration; founded by French exiles in 1817
+
+## Police Services
 - Demopolis Police Department
-- Address: 200 N Walnut Street, Demopolis, AL 36732
-- Phone: (334) 287-2121 (Non-emergency), 911 (Emergency)
-- Police Website: https://www.cityofdemopolis.com/police
-## Detention Center
-- City Jail
-- Address: 200 N Walnut Street, Demopolis, AL 36732 (co-located with police)
-- Phone: (334) 287-2121
-## Building Permits
-- Building Department
-- Address: 200 N Walnut Street, Demopolis, AL 36732
-- Phone: (334) 287-2140
-- Building Department Website: https://www.cityofdemopolis.com/building
-- Permits & Forms: https://www.cityofdemopolis.com/DocumentCenter/View/8/Building-Permit-Applications
-- Zoning & Planning: https://www.cityofdemopolis.com/planning
-- Zoning Map: https://www.cityofdemopolis.com/DocumentCenter/View/7/Zoning-Map
+- Address: 301 East Washington Street, Demopolis, AL 36732
+- Emergency: 911 | Non-Emergency: (334) 289-3073
+- Chief: Rex Flowers
+- Website: https://demopolisal.gov/government/police/
+- Operates Demopolis City Jail
+
+## Jail & Detention Facilities (ALL FACILITIES — EVERY URL)
+
+### Demopolis City Jail (City/PD-Operated — Short-Term)
+- Address: 301 East Washington Street, Demopolis, AL 36732
+- Phone: (334) 289-3073
+- Function: Short-term holding; transfers to Marengo County Detention Center
+- Website: https://demopolisal.gov/government/police/
+
+### Marengo County Detention Center (County — Linden)
+- Website: https://marengocounty.org/
+
+### Alabama State Facilities:
+- Alabama DOC: http://www.doc.alabama.gov
+- VINELink: https://vinelink.com
+
+## Hospitals & Medical Facilities
+
+### Whitfield Regional Hospital (Full-Service Hospital — IN DEMOPOLIS)
+- Address: 105 Highway 80 East, Demopolis, AL 36732
+- Phone: (334) 289-4000
+- Website: https://bwwmh.com/
+- Coordinates: 32.5038° N, 87.8375° W
+- Services: 24/7 ER, surgery, oncology, home health
+
 ## Library
-- Marengo County Public Library – Demopolis Branch
-- Address: 200 N Walnut Street, Demopolis, AL 36732
-- Phone: (334) 287-2150
-- Hours: Mon–Thu 9 AM–6 PM, Fri 9 AM–5 PM, Sat 9 AM–1 PM, Sun Closed
-- Library Website: https://www.marengocountylibrary.org
-## Hospitals
-- Northwest Medical Center – Linden — 100 Hospital Drive, Linden, AL 36748 — (334) 295-3111 — 32.3183° N, 87.3858° W
-  Website: https://www.nwmedicalcenter.com
-- University of Alabama Medical Center – Livingston — 1000 University Blvd, Livingston, AL 35470 — (205) 652-3535 — 32.5950° N, 88.0067° W
-  Website: https://www.uamlivingston.org
-- Marion Military Institute Medical Clinic (Limited Services) — 110 Goodspeed Street, Marion, AL 36756 — (205) 683-4287 — 32.4850° N, 87.3000° W
+- Demopolis Public Library
+- Address: 217 East Washington Street, Demopolis, AL 36732
+- Phone: (334) 289-1595
+- Hours: Mon–Fri 9:00 AM – 5:00 PM
+- Website: https://demopolislibrary.org/
+
+## Building Permits
+- Issued by: Building, Construction & Zoning: https://building.demopolisal.gov/
+- Location: 211 North Walnut Avenue, Demopolis, AL 36732
+- Phone: (334) 289-0577
+- Permit required for construction, renovations, signage
+- Website: https://demopolisal.gov
+
+## City & County Agency Directory (ALL AGENCIES — EVERY URL)
+- City of Demopolis: https://demopolisal.gov
+- Demopolis Police Department: https://demopolisal.gov/government/police/
+- Demopolis Municipal Court: https://demopoliscourt.com/
+- Demopolis City Jail: https://demopolisal.gov/government/police/
+- Demopolis Public Library: https://demopolislibrary.org/
+- Whitfield Regional Hospital: https://bwwmh.com/
+- Marengo County Detention Center: https://marengocounty.org/
+- Alabama DOC: http://www.doc.alabama.gov
+- VINELink: https://vinelink.com
+
+## Additional State Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Unified Judicial System: https://www.alacourt.gov
+
+## Nearby Communities & Notes
+- Linden (~20 mi south — county seat) | Selma (~50 mi east) | Tuscaloosa (~60 mi north)
+- Gaineswood | Bluff Hall | Tombigbee & Black Warrior rivers | Christmas on the River
+
+

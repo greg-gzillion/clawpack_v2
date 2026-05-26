@@ -1,28 +1,61 @@
-﻿# Tarrant — Local Law Resources
+﻿# Tarrant City (Jefferson County, AL) — Local Law Resources
+
 ## City Website
-- https://www.tarrantal.org
-## City Hall
-- 100 Municipal Drive, Tarrant, AL 35217 — (205) 991-4400
+- https://www.cityoftarrant.com
+- 1133 East Lake Blvd, Tarrant, AL 35217 | (205) 849-2800
+- Jefferson County | Pop: ~6,000
+- Coordinates: 33.5840° N, 86.7703° W
+- I-59 corridor | Historic downtown
+
 ## Law Enforcement
-- Tarrant Police Department — 100 Municipal Drive, Tarrant, AL 35217 — (205) 991-4411 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.tarrantal.org/police
+- Tarrant Police Department — 2593 Commerce Circle
+- Emergency: 911 | Non-Emergency: (205) 849-2811
+- Chief: Wendell Major | Website: https://www.cityoftarrant.com/police
+
 ## Courts
-- Tarrant Municipal Court — 100 Municipal Drive, Tarrant, AL 35217 — (205) 991-4420
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.tarrantal.org/court
-## Detention Center
-- City Jail — 100 Municipal Drive, Tarrant, AL 35217 — (205) 991-4411
+### Tarrant Municipal Court — ACTIVE
+- 1133 East Lake Blvd | Online Payments: https://tarrantal.govtportal.com
+- Website: https://www.cityoftarrant.com/municipal-court
+
+## Detention Facilities (ALL URLs)
+- Tarrant City Jail: 2593 Commerce Circle | (205) 849-2811
+  Website: https://www.cityoftarrant.com/police
+- Jefferson County Jail (Birmingham): https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building Department — 100 Municipal Drive, Tarrant, AL 35217 — (205) 991-4430
-- Building Dept: https://www.tarrantal.org/building
-- Permits: https://www.tarrantal.org/DocumentCenter/View/8/Building-Permit-Applications
-- Zoning & Planning: https://www.tarrantal.org/planning
-- Zoning Map: https://www.tarrantal.org/DocumentCenter/View/7/Zoning-Map
+- Building Inspector: 1133 East Lake Blvd | (205) 849-2800
+- Residential: $8.50/$1,000 (min $50) | Commercial: $9.50/$1,000 (min $55)
+- Website: https://www.cityoftarrant.com/building
+
 ## Library
-- Tarrant Public Library — 100 Library Lane, Tarrant, AL 35217 — (205) 991-4440
-- Library Website: https://www.bplonline.org/locations/tarrant
-## Hospitals
-- Princeton Baptist Medical Center — 5500 Montclair Road, Birmingham — (205) 930-5000 — 33.5068° N, 86.7855° W
-- St. Vincent's East — 1500 Gray Ln, Trussville — (205) 983-2000 — 33.5468° N, 86.6637° W
-- UAB Hospital — 1900 6th Avenue South, Birmingham — (205) 934-3000 — 33.5017° N, 86.8092° W
+- Tarrant Public Library: 1133 East Lake Blvd | (205) 849-2800
+- Hours: Mon–Thu 9–8, Fri–Sat 9–5
+- Website: https://www.cityoftarrant.com/library
+
+## Hospitals & Medical
+- NO HOSPITAL IN TARRANT
+- UAB Medicine at The Summit (~8 mi): 2200 Summit Blvd, Birmingham, AL 35243
+  (205) 930-8100 | 24/7 ER, surgery, imaging, primary care | 33.4289° N, 86.7788° W
+- St. Vincent's East (~5 mi): (205) 838-3000
+- UAB Hospital (~8 mi): Level I Trauma | (205) 934-3411
+
+## City & County Agency Directory (ALL URLs)
+- City of Tarrant: https://www.cityoftarrant.com
+- TPD: https://www.cityoftarrant.com/police
+- Municipal Court: https://www.cityoftarrant.com/municipal-court
+- Court Payments: https://tarrantal.govtportal.com
+- UAB Medicine: https://www.uabmedicine.org
+- Jefferson County Jail: https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
+## Legal Aid
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+

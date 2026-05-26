@@ -1,14 +1,15 @@
-# Sitka Legal Resources — Quick Reference
+﻿# Sitka Legal Resources â€” Quick Reference
 
 ## Courts
-- Sitka Courthouse — 304 Lake St — (907) 747-3291 — https://public.courts.alaska.gov/
+- Sitka Courthouse â€” 304 Lake St â€” (907) 747-3291 â€” https://public.courts.alaska.gov/
 
 ## Law Enforcement
-- Sitka Police — (907) 747-3245
-- Alaska State Troopers — (907) 747-3262
+- Sitka Police â€” (907) 747-3245
+- Alaska State Troopers â€” (907) 747-3262
 
 ## Tribal Law
-- Sitka Tribal Court — (907) 747-3207 — https://www.sitkatribe.org/
+- Sitka Tribal Court â€” (907) 747-3207 â€” https://www.sitkatribe.org/
 
 ## Legal Aid
-- Alaska Legal Services — (907) 272-9431 (statewide)
+- Alaska Legal Services â€” (907) 272-9431 (statewide)
+

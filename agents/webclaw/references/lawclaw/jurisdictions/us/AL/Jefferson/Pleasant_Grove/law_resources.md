@@ -1,27 +1,61 @@
-﻿# Pleasant Grove — Local Law Resources
+﻿# Pleasant Grove City (Jefferson County, AL) — Local Law Resources
+
 ## City Website
-- https://www.pleasantgroveal.org
-## City Hall
-- 100 Main Street, Pleasant Grove, AL 35127 — (205) 427-3303
+- https://www.cityofpg.com
+- 501 Park Road, Pleasant Grove, AL 35127 | (205) 744-1720
+- Jefferson County | Pop: ~10,000
+- Coordinates: 33.4909° N, 86.9703° W
+- Closes early Friday (11 AM) | I-22 corridor
+
 ## Law Enforcement
-- Jefferson County Sheriff's Office – Pleasant Grove Precinct — 100 Main Street, Pleasant Grove, AL 35127 — (205) 325-4000 (Non-emergency)
-- Emergency: 911
+- Pleasant Grove Police Department — 501 Park Road
+- Emergency: 911 | Non-Emergency: (205) 744-1735
+- Website: https://www.cityofpg.com
+
 ## Courts
-- Pleasant Grove Municipal Court — 100 Main Street, Pleasant Grove, AL 35127 — (205) 427-3303
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.pleasantgroveal.org/court
-## Detention Center
-- Jefferson County Jail — Inmate Search: https://www.jcmsonline.com
+### Pleasant Grove Municipal Court — BY APPOINTMENT
+- 501 Park Road | (205) 744-1729
+- Website: https://www.cityofpg.com
+
+## Detention Facilities (ALL URLs)
+- Pleasant Grove City Jail: 501 Park Road | (205) 744-1735
+  Website: https://www.cityofpg.com/police-department/
+- Jefferson County Jail (Birmingham): https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building Department — 100 Main Street, Pleasant Grove, AL 35127 — (205) 427-3303
-- Building Dept: https://www.pleasantgroveal.org/building
-- Permits: https://www.pleasantgroveal.org/DocumentCenter/View/7/Building-Permit-Applications
-- Zoning & Planning: https://www.pleasantgroveal.org/planning
-- Zoning Map: https://www.pleasantgroveal.org/DocumentCenter/View/6/Zoning-Map
+- Inspections & Permitting: 501 Park Road | (205) 744-1726
+- Website: https://www.cityofpg.com/index.php/departments/inspections
+
 ## Library
-- Pleasant Grove Public Library — 200 Library Lane, Pleasant Grove, AL 35127 — (205) 427-3310
-- Library Website: https://www.bplonline.org/locations/pleasant-grove
-## Hospitals
-- St. Vincent's East — 1500 Gray Ln, Trussville — (205) 983-2000 — 33.5468° N, 86.6637° W
-- Princeton Baptist Medical Center — 5500 Montclair Road, Birmingham — (205) 930-5000 — 33.5068° N, 86.7855° W
-- UAB Hospital — 1900 6th Avenue South, Birmingham — (205) 934-3000 — 33.5017° N, 86.8092° W
+- NO STANDALONE LIBRARY
+- Jefferson County Library System: https://pleasantgrove.lib.al.us/
+- Nearest: Irondale Public Library | (205) 956-9200
+
+## Hospitals & Medical
+- NO HOSPITAL IN PLEASANT GROVE
+- UAB Medicine at The Summit (~8 mi): 2200 Summit Blvd, Birmingham, AL 35243
+  (205) 930-8100 | 24/7 ER, surgery, imaging, primary care | 33.4289° N, 86.7788° W
+- UAB Hospital (~10 mi): Level I Trauma | (205) 934-3411
+- UAB Medical West (~8 mi): (205) 481-8650
+
+## City & County Agency Directory (ALL URLs)
+- City of Pleasant Grove: https://www.cityofpg.com
+- PGPD: https://www.cityofpg.com
+- City Jail: https://www.cityofpg.com/police-department/
+- UAB Medicine: https://www.uabmedicine.org
+- UAB Medical West: https://medicalwesthospital.org
+- Jefferson County Library: https://pleasantgrove.lib.al.us/
+- Jefferson County Jail: https://www.jccal.org/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
+## Legal Aid
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+

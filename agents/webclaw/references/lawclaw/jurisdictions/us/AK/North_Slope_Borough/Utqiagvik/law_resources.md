@@ -1,28 +1,62 @@
-﻿# Utqiaġvik — Local Law Resources
+﻿# Utqiagvik City (North Slope Borough, Alaska) — Local Law Resources
+
 ## City Website
-- https://utqiagvik.us
+- https://www.utqiagvik.us
+- PO Box 629, Utqiagvik, AK 99723 | (907) 852-5211
+- First-Class City | Northernmost U.S. city | Pop: ~4,900
+- Coordinates: 71.2906° N, 156.7886° W
+- Above Arctic Circle | Formerly Barrow | Iñupiat community
+
 ## Law Enforcement
-- Utqiaġvik Police Department — 1068 Kiogak Street, Utqiaġvik, AK 99723 — (907) 852-0311 (Admin)
-- Community Jail: (907) 855-0457
-- Website: https://utqiagvik.us/police-department
-- Alaska State Troopers — https://dps.alaska.gov/ast/
+- North Slope Borough Police Department (NSBPD) — 1068 Kiogak Street
+- Emergency: 911 | Non-Emergency: (907) 852-0311 | Jail: (907) 855-0457
+- Website: https://www.north-slope.org/police
+- Operates Utqiagvik Community Jail | Alaska State Troopers: https://dps.alaska.gov/ast/
+
 ## Courts
-- Utqiaġvik Trial Court — 1250 Agvik Street, Utqiaġvik, AK 99723 — (907) 852-4800
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
+### Utqiagvik Municipal Court — NONE
+- Utqiagvik Superior & District Court: 1250 Agvik Street | (907) 852-4800
 - Court Website: https://courts.alaska.gov
-## Detention Center
-- Utqiaġvik Community Jail — 1068 Kiogak Street, Utqiaġvik, AK 99723 — (907) 855-0457
-- State-contracted short-term facility; longer-term inmates at DOC facilities
-## Hunting & Fishing
-- Alaska Department of Fish and Game — https://adfg.alaska.gov
-- Subsistence hunting: whaling, seal, caribou
-- Fishing central to Iñupiat culture
-- Licenses: https://adfg.alaska.gov
-- Hunting Regulations: https://adfg.alaska.gov
-- Fishing Regulations: https://adfg.alaska.gov
+
+## Detention Facilities (ALL URLs)
+- Utqiagvik Community Jail (NSBPD): 1068 Kiogak Street | (907) 855-0457
+  Type I correctional facility | Short-term detention & pretrial
+- Alaska DOC: https://doc.alaska.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Utqiaġvik Building Department — https://utqiagvik.us
-## Legal Aid
-- Alaska Legal Services Corporation — https://www.alsc-law.org/
-## Corrections
-- Utqiaġvik Community Jail
+- North Slope Borough Planning: (907) 852-0320 | 1274 Agvik Street
+- Website: https://www.north-slope.org/planning
+
+## Library
+- Tuzzy Consortium Library: 1320 Kiogak Street | (907) 852-2255
+- Northernmost U.S. library | Federal depository
+- Website: https://www.tuzzy.org
+
+## Hospitals & Medical
+- Iñupiat Community Clinic (ICC): 1300 Kiogak Street, Utqiagvik, AK 99723
+  (907) 852-2800 | Primary, emergency stabilization, behavioral health, dental | 71.2906° N, 156.7886° W
+  Website: https://www.iccak.org
+
+## College
+- Ilisagvik College (Tribal College): https://ilisagvik.edu | (907) 852-2211
+
+## City & Borough Agency Directory (ALL URLs)
+- City of Utqiagvik: https://www.utqiagvik.us
+- NSBPD: https://www.north-slope.org/police
+- North Slope Borough: https://www.north-slope.org
+- ICC: https://www.iccak.org
+- Tuzzy Library: https://www.tuzzy.org
+- Ilisagvik College: https://ilisagvik.edu
+- Airport: https://dot.alaska.gov | (907) 852-5281
+- Inupiat Heritage Center: https://inupiatheritagecenter.org
+- Alaska Court System: https://courts.alaska.gov
+- Alaska DOC: https://doc.alaska.gov
+- Alaska Legal Services: https://www.alsc-law.org/
+
+## Hunting & Fishing Regulations
+- Alaska Department of Fish & Game: https://adfg.alaska.gov
+
+## Additional Resources
+- State of Alaska: https://alaska.gov
+- Arctic NWR: https://fws.gov/refuge/arctic
+- Alaska Court Records: https://alaskacourtrecords.us

@@ -1,26 +1,26 @@
-# Aleutians East Borough — Local Law Resources
+﻿# Aleutians East Borough â€” Local Law Resources
 
 ## Law Enforcement
-- Alaska State Troopers — King Salmon/Kodiak (nearest posts) — https://www.dps.alaska.gov/
-- Alaska Wildlife Troopers — (907) 246-3364 (King Salmon)
-- Sand Point Police Department — (907) 383-2292 — https://www.aleutianseast.org/
-- Village Public Safety Officers — Akutan, Cold Bay, False Pass, King Cove, Nelson Lagoon
+- Alaska State Troopers â€” King Salmon/Kodiak (nearest posts) â€” https://www.dps.alaska.gov/
+- Alaska Wildlife Troopers â€” (907) 246-3364 (King Salmon)
+- Sand Point Police Department â€” (907) 383-2292 â€” https://www.aleutianseast.org/
+- Village Public Safety Officers â€” Akutan, Cold Bay, False Pass, King Cove, Nelson Lagoon
 
 ## Courts
-- Sand Point Courthouse (limited) — served by Anchorage/Kodiak — https://public.courts.alaska.gov/
+- Sand Point Courthouse (limited) â€” served by Anchorage/Kodiak â€” https://public.courts.alaska.gov/
 - No permanent judge; magistrate judge by teleconference
 
 ## Fish & Game
-- ADF&G Sand Point Office — (907) 383-2066 — https://www.adfg.alaska.gov/
-- ADF&G Dutch Harbor/Unalaska — (907) 581-1239
-- Major commercial fishing grounds — salmon (both drift gillnet and seine permits), halibut, crab, pollock, cod, black cod
-- Izembek National Wildlife Refuge — Cold Bay — USFWS — https://www.fws.gov/refuge/izembek/
+- ADF&G Sand Point Office â€” (907) 383-2066 â€” https://www.adfg.alaska.gov/
+- ADF&G Dutch Harbor/Unalaska â€” (907) 581-1239
+- Major commercial fishing grounds â€” salmon (both drift gillnet and seine permits), halibut, crab, pollock, cod, black cod
+- Izembek National Wildlife Refuge â€” Cold Bay â€” USFWS â€” https://www.fws.gov/refuge/izembek/
 - Brown bear, caribou (on the Alaska Peninsula), waterfowl
-- Marine mammal enforcement — NOAA, Wildlife Troopers
+- Marine mammal enforcement â€” NOAA, Wildlife Troopers
 
 ## Tribal Law
-- Aleutian Pribilof Islands Association (APIA) — https://www.apiai.org/
-- Aleut Corporation Legal — Anchorage — https://www.aleutcorp.com/
+- Aleutian Pribilof Islands Association (APIA) â€” https://www.apiai.org/
+- Aleut Corporation Legal â€” Anchorage â€” https://www.aleutcorp.com/
 - Agdaagux Tribe of King Cove
 - Native Village of Akutan
 - Native Village of False Pass
@@ -28,16 +28,16 @@
 - Qagan Tayagungin Tribe of Sand Point
 
 ## Legal Aid
-- Alaska Legal Services — Anchorage — (907) 272-9431
-- Alaska Public Defender — Anchorage — (907) 334-4400
+- Alaska Legal Services â€” Anchorage â€” (907) 272-9431
+- Alaska Public Defender â€” Anchorage â€” (907) 334-4400
 
 ## Military & Coast Guard
-- Cold Bay Airport — former WWII base, now civilian with USCG use
-- USCG seasonal presence — Alaska Peninsula/Bering Sea fisheries
+- Cold Bay Airport â€” former WWII base, now civilian with USCG use
+- USCG seasonal presence â€” Alaska Peninsula/Bering Sea fisheries
 
 ## Municipal
-- Aleutians East Borough Attorney — Sand Point — (907) 383-2699 — https://www.aleutianseast.org/
-- Borough Code — https://www.aleutianseast.org/
+- Aleutians East Borough Attorney â€” Sand Point â€” (907) 383-2699 â€” https://www.aleutianseast.org/
+- Borough Code â€” https://www.aleutianseast.org/
 - City of Sand Point
 - City of King Cove
 - City of Cold Bay
@@ -45,5 +45,6 @@
 - City of Akutan
 
 ## Corrections
-- No DOC facility in borough — nearest: Anchorage or Nome
+- No DOC facility in borough â€” nearest: Anchorage or Nome
 - Holding facilities in Sand Point
+

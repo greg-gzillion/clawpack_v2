@@ -1,42 +1,138 @@
-﻿# Haleyville Municipal Court
-## Court Information
-- Haleyville Municipal Court
-- Address: 101 South Main Street, Haleyville, AL 35565
-- Phone: (205) 482-9300
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Court Website: https://www.haleyvilleal.org/court
-## City Website
-- https://www.haleyvilleal.org
-## City Hall
-- Address: 101 South Main Street, Haleyville, AL 35565
-- Phone: (205) 482-9300
-## Police Department
-- Haleyville Police Department
-- Address: 101 South Main Street, Haleyville, AL 35565
-- Phone: (205) 482-9300 (Non-emergency), 911 (Emergency)
-- Police Website: https://www.haleyvilleal.org/police
-## Detention Center
-- City Jail
-- Address: 101 South Main Street, Haleyville, AL 35565 (co-located with police)
-- Phone: (205) 482-9300
-## Building Permits
-- Building Department
-- Address: 101 South Main Street, Haleyville, AL 35565
-- Phone: (205) 482-9300
-- Building Department Website: https://www.haleyvilleal.org/building
-- Permits & Forms: https://www.haleyvilleal.org/DocumentCenter/View/8/Building-Permit-Applications
-- Zoning & Planning: https://www.haleyvilleal.org/planning
-- Zoning Map: https://www.haleyvilleal.org/DocumentCenter/View/7/Zoning-Map
-## Library
-- Winston County Public Library – Haleyville Branch
-- Address: 101 South Main Street, Haleyville, AL 35565
-- Phone: (205) 482-9310
-- Hours: Mon–Thu 9 AM–6 PM, Fri 9 AM–5 PM, Sat 9 AM–1 PM, Sun Closed
-- Library Website: https://www.winstoncountylibrary.org
-## Hospitals (Nearest)
-- Winston Medical Center — 1101 10th Street, Double Springs, AL 35553 — (205) 489-4111 — 33.9653° N, 87.2839° W
-  Website: https://www.winstonmedical.org
-- Walker Baptist Medical Center — 901 McElwain Road, Jasper, AL 35501 — (205) 381-0100 — 33.8348° N, 87.2777° W
-  Website: https://www.beaumonthealth.org/walker-baptist
-- Dignity Health – Northport Medical Center — 500 Medical Center Parkway, Northport, AL 35476 — (205) 371-2000 — 33.2314° N, 87.5769° W
-  Website: https://www.dignityhealth.org/northport
+﻿
+Haleyville City (Winston County, AL) Courts
+Haleyville Municipal Court — ACTIVE
+Status: HAS ACTIVE MUNICIPAL COURT
+
+Address: 1901 11th Avenue, Haleyville, AL 35565
+
+Phone: (205) 486-3121
+
+Online Payments: https://haleyville.municipalimpact.com/court
+
+Website: https://www.cityofhaleyville.com
+
+City Website
+https://www.cityofhaleyville.com
+
+City Hall: 911 21st Street, Haleyville, AL 35565
+
+Phone: (205) 486-3121
+
+Government Type: Mayor–Council
+
+Winston County (partially in Marion County) | Population: ~4,100
+
+Coordinates: 34.2265° N, 87.6214° W
+
+Note: Located in northwest Alabama along US-278 and AL-195; historically significant as the site of the first 9-1-1 emergency call placed in the United States on February 16, 1968; known as the "Home of the 9-1-1 System"; also home to the annual 9-1-1 Festival and Winston County's "Free State of Winston" heritage from the Civil War era
+
+Police Services
+Haleyville Police Department
+
+Address: 1901 11th Avenue, Haleyville, AL 35565
+
+Emergency: 911 | Non-Emergency: (205) 486-5201
+
+Website: https://www.cityofhaleyville.com/police
+
+Operates Haleyville City Jail (co-located at 1901 11th Avenue)
+
+Jail & Detention Facilities (ALL FACILITIES — EVERY URL)
+Haleyville City Jail (City/PD-Operated — Short-Term)
+Address: 1901 11th Avenue, Haleyville, AL 35565
+
+Phone: (205) 486-5201
+
+Managed By: Haleyville Police Department
+
+Winston County Jail (Primary Long-Term — Double Springs)
+Address: 100 19th Street, Double Springs, AL 35553
+
+Phone: (205) 437-2111
+
+Inmate Search: Contact Winston County Sheriff's Office
+
+Managed By: Winston County Sheriff's Office
+
+Alabama State Facilities:
+Alabama DOC: http://www.doc.alabama.gov
+
+VINELink: https://vinelink.com
+
+Hospitals & Medical Facilities
+Lakeland Community Hospital (Full-Service Hospital — IN HALEYVILLE)
+Address: 42024 Highway 195, Haleyville, AL 35565
+
+Phone: (205) 486-5213
+
+Coordinates: 34.2411° N, 87.5913° W
+
+Website: https://lakelandcommunityhospital.com
+
+Note: Community hospital with emergency department serving Haleyville and surrounding areas
+
+Revive Medical Center (Clinic/Primary Care — IN HALEYVILLE)
+Address: 1728 11th Ave, Haleyville, AL 35565
+
+Note: Primary care clinic; Mon–Fri, closes at 7:00 PM
+
+Nearby Hospitals:
+FacilityAddressPhoneWebsite
+Russellville Hospital15155 US-43, Russellville, AL 35653(256) 332-1611russellville-hospital.com
+Walker Baptist Medical Center (Jasper)3400 Highway 78 E, Jasper, AL 35502(205) 387-4000baptist-health.com
+Library
+Haleyville Public Library
+
+Address: 913 20th Street, Haleyville, AL 35565
+
+Phone: (205) 486-7450
+
+Hours: Mon–Fri 8:00 AM–5:00 PM, Sat 9:00 AM–4:00 PM
+
+Website: https://www.cityofhaleyville.com/library
+
+Building Permits
+Department: City of Haleyville
+
+Address: 911 21st Street, Haleyville, AL 35565
+
+Phone: City Hall at (205) 486-3121
+
+Website: https://www.cityofhaleyville.com/services
+
+City & County Agency Directory (ALL AGENCIES — EVERY URL)
+City of Haleyville: https://www.cityofhaleyville.com
+
+Haleyville Police Department: https://www.cityofhaleyville.com/police
+
+Haleyville Municipal Court: https://haleyville.municipalimpact.com/court
+
+Haleyville Public Library: https://www.cityofhaleyville.com/library
+
+City Services: https://www.cityofhaleyville.com/services
+
+Fire Department: https://www.cityofhaleyville.com/fire
+
+Parks & Recreation: https://www.cityofhaleyville.com/parks
+
+Lakeland Community Hospital: https://lakelandcommunityhospital.com
+
+Winston County: https://www.winstoncounty-al.gov
+
+Winston County Jail: (205) 437-2111
+
+Alabama DOC: http://www.doc.alabama.gov
+
+VINELink: https://vinelink.com
+
+Additional State Resources
+State of Alabama: https://www.alabama.gov
+
+Alabama Unified Judicial System: https://www.alacourt.gov
+
+Nearby Communities & Notes
+Double Springs (~12 mi south) | Russellville (~25 mi northwest) | Jasper (~30 mi south)
+
+US-278 / AL-195 corridor | "Home of the 9-1-1 System" (first 911 call, Feb 16, 1968)
+
+Annual 9-1-1 Festival | "Free State of Winston" heritage | William B. Bankhead National Forest proximity

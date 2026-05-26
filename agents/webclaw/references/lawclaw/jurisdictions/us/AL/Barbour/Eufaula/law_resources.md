@@ -1,35 +1,57 @@
-﻿# Eufaula — Local Law Resources
+﻿# Eufaula City (Barbour County, AL) — Local Law Resources
+
 ## City Website
-- https://eufaulaalabama.com
-## City Hall
-- 205 E Barbour Street, Eufaula, AL 36027 — (334) 688-2000
+- https://www.eufaulaalabama.com
+- 545 East Barbour Street, Eufaula, AL 36027 | (334) 687-1200
+- Barbour County | Lake Eufaula | Pop: ~12,000
+- Coordinates: 31.8910° N, 85.1455° W
+- Second largest historic district in AL | "Bass Capital of the World"
+
 ## Law Enforcement
-- Eufaula Police Department — 545 E Barbour Street, Eufaula, AL 36027 — (334) 687-1200 (Non-emergency)
-- Emergency: 911
-- Website: https://eufaulaalabama.com/181/Police-Department
-- Alabama State Troopers — https://www.alea.gov/
+- Eufaula Police Department — 545 East Barbour Street
+- Emergency: 911 | Non-Emergency: (334) 687-1200
+- Chief: Steve Watkins
+- Website: https://www.eufaulaalabama.com/163/Police-Department
+
 ## Courts
-- Eufaula Municipal Court — 545 E Barbour Street, Eufaula, AL 36027 — (334) 687-1235
-- Hours: Monday–Friday, 8:00 AM – 5:00 PM
-- Pay Online: https://eufaula.govtportal.com
-- Court Website: https://eufaulaalabama.com/177/Municipal-Court
-## Detention Center
-- Eufaula City Jail — 545 E Barbour Street, Eufaula, AL 36027 — (334) 687-1200
-- 21-inmate capacity; short-term holding
-- Website: http://www.eufaulaalabama.com/CITYDEPARTMENTS/POLICEDEPARTMENT/MUNICIPALJAIL.aspx
+### Eufaula Municipal Court — ACTIVE
+- 545 East Barbour Street | (334) 687-1235 | Fax: (334) 687-1257
+- Website: https://www.eufaulaalabama.com/164/Municipal-Court
+
+## Detention Facilities (ALL URLs)
+- Eufaula City Jail: 545 East Barbour Street | (334) 687-1200 | Capacity: 21
+  Website: https://www.eufaulaalabama.com/163/Police-Department
+- Barbour County Jail: Via Barbour County Sheriff
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building / Planning Dept. — 205 E Barbour Street, Eufaula, AL 36027 — (334) 688-2008
-- Business License: https://eufaulaalabama.com/FormCenter/Business_License
-- Zoning & Subdivision: https://eufaulaalabama.com/faq
-## Hunting & Fishing
-- Alabama Department of Conservation and Natural Resources
-- Hunting Regulations: https://www.outdooralabama.com/hunting
-- Fishing Regulations: https://www.outdooralabama.com/fishing
-- Buy Licenses: https://www.outdooralabama.com/licensing
+- Planning & Zoning: 545 East Barbour Street | (334) 687-1200
+- Website: https://www.eufaulaalabama.com/162/Building-Planning
+
 ## Library
-- Eufaula Public Library — 105 W Jackson St, Eufaula, AL 36027 — (334) 687-5879
-- Website: https://eufaula.lib.al.us
+- Eufaula Carnegie Library: 217 N Eufaula Avenue | (334) 687-2337
+- Hours: Mon/Wed 9–6, Tue/Thu 9–8, Fri 9–5, Sat 9–2
+- Website: https://aplsnew-web.apls.state.al.us:10129/eufaula/web/
+
+## Hospitals & Medical
+- Medical Center Barbour: 820 West Washington Street, Eufaula, AL 36027
+  (334) 688-7000 | 24/7 ER, surgery, geriatric behavioral health, swing bed, telehealth | 31.8890° N, 85.1561° W
+  Website: https://www.southeasthealth.org/
+
+## City & County Agency Directory (ALL URLs)
+- City of Eufaula: https://www.eufaulaalabama.com
+- EPD: https://www.eufaulaalabama.com/163/Police-Department
+- Municipal Court: https://www.eufaulaalabama.com/164/Municipal-Court
+- Medical Center Barbour: https://www.southeasthealth.org/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
 ## Legal Aid
-- Legal Services Alabama — https://www.legalservicesalabama.org/
-## Corrections
-- Eufaula City Jail
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+

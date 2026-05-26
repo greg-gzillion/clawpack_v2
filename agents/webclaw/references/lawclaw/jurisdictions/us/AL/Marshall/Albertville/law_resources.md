@@ -1,25 +1,59 @@
-﻿# Albertville — Local Law Resources
+﻿# Albertville City (Marshall County, AL) — Local Law Resources
+
 ## City Website
-- https://www.albertvilleal.org
-## City Hall
-- 105 West 10th Street, Albertville, AL 35950 — (256) 878-1414
+- https://www.cityofalbertville.com
+- 100 South Main Street, Albertville, AL 35950 | (256) 891-8200
+- Marshall County | "Fire Hydrant Capital" | Pop: ~22,000
+- Coordinates: 34.2676° N, 86.2086° W
+- Sand Mountain | US 431 corridor
+
 ## Law Enforcement
-- Albertville Police Department — 105 West 10th Street, Albertville, AL 35950 — (256) 878-1414 (Non-emergency)
-- Emergency: 911
-- Police Website: https://www.albertvilleal.org/police
+- Albertville Police Department (APD) — 201 South Broad Street
+- Emergency: 911 | Non-Emergency: (256) 891-8221
+- Chief: J.T. Cartee | Website: https://www.cityofalbertville.com/175/Police
+
 ## Courts
-- Albertville Municipal Court — 105 West 10th Street, Albertville, AL 35950 — (256) 878-1414
-- Hours: Monday–Friday, 8:00 AM – 4:30 PM
-- Pay Online: https://albertvilleal.govtportal.com
-- Court Website: https://www.albertvilleal.org/municipal-court
-## Detention Center
-- City Detention — 105 West 10th Street, Albertville, AL 35950 — (256) 878-1414
+### Albertville Municipal Court — ACTIVE
+- 116 Sand Mountain Drive NW | (256) 891-8291
+- Hours: Mon/Wed/Thu/Fri 8–4 (closed Tue)
+- Website: https://www.cityofalbertville.com/182/Municipal-Court
+
+## Detention Facilities (ALL URLs)
+- Albertville City Jail: 201 South Broad Street | (256) 279-0639 (Jail Warden)
+  Website: https://www.cityofalbertville.com/175/Police
+- Marshall County Jail (Guntersville): https://www.marshallsheriff.com/
+- Alabama DOC: http://www.doc.alabama.gov | VINELink: https://vinelink.com
+
 ## Building Permits
-- Building Department — 105 West 10th Street, Albertville, AL 35950 — (256) 878-1414
-- Building Dept: https://www.albertvilleal.org/building
-- Permit Applications: https://www.albertvilleal.org/DocumentCenter/View/11/Building-Permit-Applications
-- Zoning & Planning: https://www.albertvilleal.org/planning
-- Zoning Map: https://www.albertvilleal.org/DocumentCenter/View/10/Zoning-Map
+- Building Services: 100 South Main Street | (256) 891-8200
+- Website: https://www.cityofalbertville.com/161/Building-Permit-Information
+
 ## Library
-- Albertville Public Library — 200 West 11th Street, Albertville, AL 35950 — (256) 878-1424
-- Library Website: https://www.albertvillelibrary.org
+- Albertville Public Library: 115 South Main Street | (256) 891-8181
+- Hours: Mon–Thu 9–7, Fri–Sat 9–5
+- Website: https://www.cityofalbertville.com/152/Library
+
+## Hospitals & Medical
+- Marshall Medical Center South: 100 Hospital Drive, Albertville, AL 35950
+  (256) 891-8100 | 24/7 ER, surgery, imaging, ICU, women's health | 34.2711° N, 86.2150° W
+  Website: https://www.marshallmedical.com
+
+## City & County Agency Directory (ALL URLs)
+- City of Albertville: https://www.cityofalbertville.com
+- APD: https://www.cityofalbertville.com/175/Police
+- Municipal Court: https://www.cityofalbertville.com/182/Municipal-Court
+- City Jail: https://www.cityofalbertville.com/175/Police
+- Marshall Medical: https://www.marshallmedical.com
+- Marshall County Jail: https://www.marshallsheriff.com/
+- Alabama DOC: http://www.doc.alabama.gov
+
+## Hunting & Fishing Regulations
+- Alabama DCNR: https://www.outdooralabama.com
+
+## Legal Aid
+- Alabama Legal Services: https://www.alsp.org
+
+## Additional Resources
+- State of Alabama: https://www.alabama.gov
+- Alabama Courts: https://www.alacourt.gov
+
