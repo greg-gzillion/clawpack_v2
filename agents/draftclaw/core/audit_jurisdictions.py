@@ -1,8 +1,8 @@
-﻿from pathlib import Path
+from pathlib import Path
 import re
 import json
 
-base = Path(r'C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\draftclaw\jurisdictions\us')
+base = Path(r'C:\Users\greg\dev\clawpack_v2\agents\\webclaw\\references\\lawclaw\\jurisdictions\\us')
 
 report = {
     'total_states': 0,

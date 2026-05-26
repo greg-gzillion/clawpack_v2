@@ -61,6 +61,13 @@ class BaseAgent:
         self.memory_file.parent.mkdir(exist_ok=True)
         self.memory_file.write_text(json.dumps(data, indent=2))
 
+    def _log_error(self, context, error):
+        """Safe error logger for all agents."""
+        try:
+            print(f"[{self.name}] {context}: {error}", flush=True)
+        except:
+            pass
+
     def learn(self, key: str, value: Any):
         self.state[key] = value
         self._save_state()

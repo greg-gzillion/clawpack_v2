@@ -1,3 +1,64 @@
+
+
+Alaska
+
+AK
+
+Anchorage, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Bethel, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Cordova, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Dillingham, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Fairbanks, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Haines, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Healy, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Homer, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Juneau, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Kenai, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Ketchikan, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+King Cove, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Kodiak, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Kotzebue, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Nome, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+North Pole, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Palmer, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Petersburg, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Seward, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Sitka, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Soldotna, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Unalaska, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Utqiagvik, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Valdez, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Wasilla, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Wrangell, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Yakutat, AK — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
 https://www.unalaska.gov/
 
 Harlowton — city site, police, municipal court, jail, library, hunt/fish
@@ -142,13 +203,303 @@ Court: https://www.muni.org/departments/municipal-attorney/pages/municipal-court
 I'll write them directly into the law_resources.md files with verified URLs only.
 
 
-Research needed for each Alabama city:
+Alabama
 
-City website (URL)
+AL
 
-Police department (URL or phone)
 
-Municipal court (URL or note that county court handles it)
+
+Autauga County:
+
+Prattville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Baldwin County:
+
+2. Bay Minette, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+3. Daphne, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+4. Fairhope, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+5. Foley, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+6. Gulf Shores, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+7. Orange Beach, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+8. Robertsdale, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+9. Spanish Fort, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Barbour County:
+
+10. Eufaula, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Blount County:
+
+11. Oneonta, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Butler County:
+
+12. Greenville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Calhoun County:
+
+13. Anniston, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+14. Jacksonville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+15. Oxford, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Chambers County:
+
+16. Lanett, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+17. Valley, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Cherokee County:
+
+18. Centre, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Chilton County:
+
+19. Clanton, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Clarke County:
+
+20. Jackson, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+21. Thomasville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Coffee County:
+
+22. Enterprise, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Colbert County:
+
+23. Muscle Shoals, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+24. Sheffield, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+25. Tuscumbia, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Covington County:
+
+26. Andalusia, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+27. Opp, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Cullman County:
+
+28. Cullman, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Dale County:
+
+29. Ozark, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Dallas County:
+
+30. Selma, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+DeKalb County:
+
+31. Fort Payne, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Elmore County:
+
+32. Millbrook, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+33. Wetumpka, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Escambia County:
+
+34. Atmore, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+35. Brewton, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Etowah County:
+
+36. Gadsden, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+37. Rainbow City, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+38. Southside, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Franklin County:
+
+39. Russellville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Houston County:
+
+40. Dothan, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Jackson County:
+
+41. Scottsboro, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Jefferson County:
+
+42. Bessemer, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+43. Birmingham, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+44. Center Point, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+45. Fairfield, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+46. Fultondale, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+47. Gardendale, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+48. Homewood, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+49. Hoover, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+50. Irondale, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+51. Leeds, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+52. Mountain Brook, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+53. Pinson, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+54. Pleasant Grove, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+55. Tarrant, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+56. Trussville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+57. Vestavia Hills, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Lauderdale County:
+
+58. Florence, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Lawrence County:
+
+59. Moulton, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Lee County:
+
+60. Auburn, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+61. Opelika, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Limestone County:
+
+62. Athens, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Madison County:
+
+63. Huntsville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+64. Madison, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Marengo County:
+
+65. Demopolis, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Marion County:
+
+66. Hamilton, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Marshall County:
+
+67. Albertville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+68. Boaz, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+69. Guntersville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Mobile County:
+
+70. Chickasaw, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+71. Mobile, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+72. Prichard, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+73. Saraland, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+74. Satsuma, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+Monroe County:
+
+75. Monroeville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Montgomery County:
+
+76. Montgomery, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Morgan County:
+
+77. Decatur, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+78. Hartselle, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Pike County:
+
+79. Troy, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Randolph County:
+
+80. Roanoke, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Russell County:
+
+81. Phenix City, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Shelby County:
+
+82. Alabaster, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+83. Calera, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+84. Helena, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+85. Pelham, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+St. Clair County:
+
+86. Moody, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+87. Pell City, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Talladega County:
+
+88. Childersburg, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+89. Lincoln, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+90. Sylacauga, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+91. Talladega, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+Tallapoosa County:
+
+92. Alexander City, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Tuscaloosa County:
+
+93. Northport, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+94. Tuscaloosa, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Walker County:
+
+95. Jasper, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Winston County:
+
+96. Haleyville, AL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+That's 96 cities in Alabama. Plus there may be some duplicates (Jackson_AL/Jackson_City, Cullman/Cullman_City, Geneva/Geneva_City, etc.) that are the same city. The earlier scan showed AL at 96.1% with 4 missing — those 4 are likely the duplicates that need consolidating.
+
+
+
+
 
 
 
@@ -3356,6 +3707,104 @@ FLORIDA BATCH 5 — REMAINING 5,000+ CITIES
 36	Winter Springs	Seminole	city site, police, municipal court
 37	Zephyrhills	Pasco	city site, police, municipal court
 
+
+
+
+
+Blountstown, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Cross City, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Cantonment, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Apalachicola, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Quincy, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Trenton, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Port St. Joe, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Jasper, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Bonifay, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Marianna, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Monticello, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Sanibel, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Woodville, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Chiefland, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Williston, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Bristol, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Madison, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Anna Maria, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Ellenton, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Belleview, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Dunnellon, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Yulee, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Wright, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Poinciana, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Hudson, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Pace, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Englewood South, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Siesta Key, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Fruit Cove, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Ponte Vedra, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Tradition, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Lake Panasoffkee, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Branford, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Live Oak, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Perry, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Crawfordville, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Miramar Beach, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Chipley, FL — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 GEORGIA
 
 
@@ -5487,6 +5936,27 @@ Zachary — city site, police, municipal court, jail, hospital(s) with coordinat
 
 #	City	Parish	Needs
 
+
+
+Benton (Bossier Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Central (East Baton Rouge Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Denham Springs (Livingston Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Walker (Livingston Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Pineville (Rapides Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Mandeville (St. Tammany Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+Franklinton (Washington Parish) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+
+
+
 1	Alexandria	Rapides	city site, police, municipal court
 2	Baton Rouge	East Baton Rouge	city site, police, municipal court
 3	Bossier City	Bossier	city site, police, municipal court
@@ -5563,6 +6033,38 @@ MA
 
 
 Massachusetts is next. All existing cities need verified data with correct court types. Let me list all MA cities over 5,000 — both existing and missing:
+
+1. Raynham MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+2. Swansea MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+3. Saugus MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+4. Melrose MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+5. Natick MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+6. Reading MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+7. Somerville MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+8. Quincy MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+9. Wareham MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+10. Shrewsbury MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+11. Webster MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+12. Worcester MA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+
+
+
+
+
 
 Adams — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit urls with all agencies urls
 
@@ -11456,6 +11958,61 @@ Portales — city site, police, municipal court, jail, hospital(s) with coordina
 Socorro — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
 
 
+Nevada
+
+NV
+
+1. Las Vegas NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+2. Henderson NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+3. Reno NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+4. North Las Vegas NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+5. Sparks NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+6. Carson City NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+7. Fernley NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+8. Elko NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+9. Boulder City NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+10. Fallon NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+11. Pahrump NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+12. Gardnerville NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+13. Mesquite NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+14. Winnemucca NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+15. West Wendover NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+16. Yerington NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+17. Carlin NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+18. Lovelock NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+19. Wells NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+20. Battle Mountain NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+21. Hawthorne NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+22. Tonopah NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+23. Caliente NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+24. Pioche NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+25. Goldfield NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+26. Virginia City NV — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
 
 New York
 
@@ -11981,6 +12538,35 @@ Frankfort — city site, police, municipal court, jail, hospital(s) with coordin
 Ohio
 
 OH
+
+
+1. St. Clairsville OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+2. Springfield OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+3. Union Township OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+4. Cleveland OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+5. Sandusky OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+6. Westerville OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+7. Steubenville OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+8. Toledo OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+9. Youngstown OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+10. Zanesville OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+11. Warren OH — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+12. Warren OH (Trumbull County) — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+
 
 
 
@@ -15146,6 +15732,94 @@ Washington
 
 WA
 
+
+
+
+
+
+
+1. Kennewick WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+2. Pasco WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+3. Richland WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+4. Wenatchee WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+5. Port Angeles WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+6. Vancouver WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+7. Longview WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+8. Moses Lake WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+9. Aberdeen WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+10. Auburn WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+11. Bellevue WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+12. Federal Way WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+13. Kent WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+14. Kirkland WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+15. Redmond WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+16. Renton WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+17. Seattle WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+18. Bremerton WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+19. Centralia WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+20. Lakewood WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+21. Puyallup WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+22. Tacoma WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+23. Mount Vernon WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+24. Everett WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+25. Lynnwood WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+26. Marysville WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+27. Spokane WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+28. Spokane Valley WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+29. Olympia WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+30. Walla Walla WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+31. Bellingham WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+32. Yakima WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Airway Heights WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
 
 Anacortes WA — city site, police, municipal court, jail, hospital(s) with coordinates, library, building permit detail and urls, EVERY DETENTION CENTER URL FOR EVERY CITY, EVERY CITY AGENCIES URL! also include the coordinates of hospital(s)
@@ -15815,7 +16489,36 @@ Worland, WY — city site, police, municipal court, jail, hospital(s) with coord
 
 
 
+Excellent. The scan reveals 136 cities still missing files — down significantly from the original 238. Here's the summary:
 
+Priority by volume (excluding design_resources and .git noise):
+
+State	Missing	Type
+WA	32	Both files (major cities: Seattle, Tacoma, Bellevue, Spokane, Vancouver)
+OH	12	Both files
+MA	12	municipal_court.md only
+LA	7	municipal_court.md only
+MI	6	municipal_court.md only
+SD	6	Both files
+RI	6	Both files
+NY	5	Both files (NYC boroughs + Brookhaven)
+MD	5	municipal_court.md only
+PA	4	Both files
+TX	3	Both files (San Antonio!)
+NE	3	Both files (Omaha!)
+OR	2	Both files
+IA	2	Both files
+NM	2	Both files
+ND	1	Both files (Grand Forks)
+ME	1	Both files
+MS	1	municipal_court.md only
+OK	1	Both files
+NJ	1	municipal_court.md only
+IL	1	.git false positive
+AK	11	design_resources (not city files)
+KY	6	design_resources (not city files)
+DC	6	design_resources (not city files)
+NV is now 100% complete — zero missing! The biggest priorities are WA (32 cities), OH (12), and the NYC boroughs (5). Want to start with Washington?
 
 95.1% complete overall — 4,626 of 4,864 cities done.
 

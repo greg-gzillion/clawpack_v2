@@ -46,7 +46,8 @@ class LawClawAgent(BaseAgent):
                 else:
                     result = f"No URL for: {query}"
             elif cmd in ("/ask", "/case", "/statute", "/contract") and query:
-                result = self.ask_llm(query)
+                from agents.lawclaw.commands.ask import run as ask_run
+                result = ask_run(query)
             elif cmd == "/draft" and query:
                 result = self.call_agent("draftclaw", f"/draft {query}", timeout=30)
             elif query:

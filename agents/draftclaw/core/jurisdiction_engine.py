@@ -1,4 +1,4 @@
-﻿# DraftClaw Shared Jurisdiction Engine
+# DraftClaw Shared Jurisdiction Engine
 # Core module: lookup_jurisdiction, score_confidence, classify_occupancy, extract_design_criteria
 # v3: Chronicle-powered. Queries chronicle.db instead of filesystem walk.
 
@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Dict, List
 
 CHRONICLE_DB = Path(r"C:/Users/greg/dev/clawpack_v2/data/chronicle.db")
-JURISDICTION_BASE = Path(r'C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\draftclaw\jurisdictions\us')
+JURISDICTION_BASE = Path(r'C:\Users\greg\dev\clawpack_v2\agents\\webclaw\\references\\lawclaw\\jurisdictions\\us')
 
 STATE_NAMES = {
     'alabama': 'AL', 'alaska': 'AK', 'arizona': 'AZ', 'arkansas': 'AR', 'california': 'CA',

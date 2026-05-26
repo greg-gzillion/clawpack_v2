@@ -1,8 +1,8 @@
-ï»¿from pathlib import Path
+from pathlib import Path
 import re
 import json
 
-base = Path(r'C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\draftclaw\jurisdictions\us')
+base = Path(r'C:\Users\greg\dev\clawpack_v2\agents\\webclaw\\references\\lawclaw\\jurisdictions\\us')
 
 def score_jurisdiction(content, state_code, county_name):
     """Score a single jurisdiction's data confidence from 0-100"""
@@ -105,7 +105,7 @@ for entry in sorted(results['low'], key=lambda x: x['score'])[:10]:
 print(f'\n--- STATE AVERAGES ---')
 for st in sorted(results['per_state'].keys()):
     data = results['per_state'][st]
-    bar = 'â–ˆ' * int(data['avg_score'] / 2) + 'â–‘' * (50 - int(data['avg_score'] / 2))
+    bar = '¦' * int(data['avg_score'] / 2) + '¦' * (50 - int(data['avg_score'] / 2))
     print(f'{st}: {data["avg_score"]:.0f}% avg | H:{data["high"]} M:{data["medium"]} L:{data["low"]} {bar}')
 
 # Save report
