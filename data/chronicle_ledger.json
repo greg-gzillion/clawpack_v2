@@ -284027,5 +284027,20 @@
     "decision": "allowed",
     "fallback_used": false,
     "fallback_provider": null
+  },
+  {
+    "timestamp": "2026-05-27T18:04:15.558700+00:00",
+    "agent": "webclaw",
+    "model": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "prompt_hash": "cc4751274640d301",
+    "response_hash": "9cb55b0e5e44dbbe",
+    "tokens_used": 48658,
+    "cost": 0.015,
+    "duration_ms": 5900.899,
+    "cached": false,
+    "decision": "allowed",
+    "fallback_used": false,
+    "fallback_provider": null
   }
 ]
