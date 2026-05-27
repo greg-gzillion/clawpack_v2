@@ -283172,5 +283172,50 @@
     "decision": "allowed",
     "fallback_used": false,
     "fallback_provider": null
+  },
+  {
+    "timestamp": "2026-05-27T12:22:56.317705+00:00",
+    "agent": "webclaw",
+    "model": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "prompt_hash": "e6aaaaf584212ce5",
+    "response_hash": "6cfab3681f6f71b0",
+    "tokens_used": 7982,
+    "cost": 0.015,
+    "duration_ms": 4675.452,
+    "cached": false,
+    "decision": "allowed",
+    "fallback_used": false,
+    "fallback_provider": null
+  },
+  {
+    "timestamp": "2026-05-27T12:29:41.977861+00:00",
+    "agent": "webclaw",
+    "model": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "prompt_hash": "e6aaaaf584212ce5",
+    "response_hash": "d902eb249cc4a6aa",
+    "tokens_used": 8006,
+    "cost": 0.015,
+    "duration_ms": 4860.247,
+    "cached": false,
+    "decision": "allowed",
+    "fallback_used": false,
+    "fallback_provider": null
+  },
+  {
+    "timestamp": "2026-05-27T12:30:01.471187+00:00",
+    "agent": "lawclaw",
+    "model": "claude-haiku-4-5-20251001",
+    "provider": "anthropic",
+    "prompt_hash": "7eb5508f36268c21",
+    "response_hash": "7fe48ee238fbba70",
+    "tokens_used": 1988,
+    "cost": 0.015,
+    "duration_ms": 3356.5299999999997,
+    "cached": false,
+    "decision": "allowed",
+    "fallback_used": false,
+    "fallback_provider": null
   }
 ]

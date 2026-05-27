@@ -1,4 +1,4 @@
-"""list command - List jurisdictions"""
+﻿"""list command - List jurisdictions"""
 from pathlib import Path
 
 name = "/list"

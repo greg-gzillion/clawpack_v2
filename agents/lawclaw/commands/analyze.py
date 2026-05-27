@@ -1,4 +1,4 @@
-"""analyze command - Comprehensive law text analysis"""
+﻿"""analyze command - Comprehensive law text analysis"""
 import re
 import sys
 import requests

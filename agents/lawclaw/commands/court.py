@@ -1,4 +1,4 @@
-"""court command - County court info with LLM (ALL THROUGH A2A)"""
+﻿"""court command - County court info with LLM (ALL THROUGH A2A)"""
 import requests
 import json
 import sys

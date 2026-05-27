@@ -1,4 +1,4 @@
-"""stats command - System statistics"""
+﻿"""stats command - System statistics"""
 import os
 import subprocess
 from pathlib import Path
