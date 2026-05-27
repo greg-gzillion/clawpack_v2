@@ -1,6 +1,5 @@
 ﻿"""judge command - Federal judge lookup via FJC + Chronicle + CourtListener"""
 import requests
-import re
 from pathlib import Path
 
 name = "/judge"
@@ -89,7 +88,7 @@ def cl_get(path, params=None, timeout=15):
 
 def run(args):
     if not args:
-        return "[JUDGE] Usage: /judge [judge name] -- e.g., /judge Sotomayor, /judge John Roberts"
+        return "[JUDGE] Usage: /judge [judge name] -- e.g., /judge Sotomayor, /judge Robert Pitman"
 
     out = []
     out.append("")
@@ -99,19 +98,21 @@ def run(args):
 
     try:
         name_slug = args.lower().strip().replace(" ", "-").replace(".", "")
-        
+        parts = args.strip().split()
+        last_name = parts[-1] if len(parts) >= 2 else args
+
         # STEP 1: Chronicle
         out.append("")
         out.append("[1/3] Searching Chronicle...")
         chronicle_results = chronicle_search(f"{args} judge federal court supreme", limit=8)
         chronicle_context = ""
         if chronicle_results:
-            parts = []
+            parts_ctx = []
             for r in chronicle_results[:5]:
                 ctx = r["context"] if isinstance(r, dict) else str(r)
                 url = r.get("url", "") if isinstance(r, dict) else ""
-                parts.append(f"SOURCE: {url}\n{ctx[:1200]}")
-            chronicle_context = "\n\n---\n\n".join(parts)
+                parts_ctx.append(f"SOURCE: {url}\n{ctx[:1200]}")
+            chronicle_context = "\n\n---\n\n".join(parts_ctx)
             out.append(f"  Found {len(chronicle_results)} Chronicle references")
 
         # STEP 2: FJC
@@ -119,21 +120,27 @@ def run(args):
         fjc_url = f"https://www.fjc.gov/history/judges/{name_slug}"
         fjc_html = webclaw_fetch(fjc_url)
         fjc_context = ""
-        
+
         if fjc_html and len(fjc_html) > 200:
             fjc_context = f"FJC SOURCE: {fjc_url}\n{fjc_html[:3000]}"
-            out.append(f"  FJC biography retrieved")
+            out.append("  FJC biography retrieved")
         else:
             search_url = f"https://www.fjc.gov/history/judges/search?q={args.replace(' ', '%20')}"
             out.append(f"  Direct FJC lookup failed. Search: {search_url}")
 
-        # STEP 3: CourtListener
+        # STEP 3: CourtListener (search by last name for better coverage)
         out.append("[3/3] Checking CourtListener...")
-        people = cl_get("people/", {"name__icontains": args, "page_size": 5})
+        people = cl_get("people/", {"name__icontains": last_name, "page_size": 10})
+        # Filter to exact name match if multiple results
+        if len(parts) >= 2 and len(people) > 1:
+            people = [p for p in people if all(
+                pt.lower() in f"{p.get('name_first', '')} {p.get('name_last', '')}".lower()
+                for pt in parts
+            )]
         cl_context = ""
         if people:
             out.append(f"  Found {len(people)} CourtListener records")
-            parts = []
+            parts_cl = []
             for p in people[:5]:
                 first = p.get("name_first", "") or ""
                 last = p.get("name_last", "") or ""
@@ -151,10 +158,10 @@ def run(args):
                 fjc_id = p.get("fjc_id", "") or ""
                 if fjc_id:
                     pos_lines.append(f"FJC ID: {fjc_id} | https://www.fjc.gov/node/{fjc_id}")
-                parts.append(f"{first} {last}\n" + "\n".join(pos_lines))
-            cl_context = "\n\n".join(parts)
+                parts_cl.append(f"{first} {last}\n" + "\n".join(pos_lines))
+            cl_context = "\n\n".join(parts_cl)
         else:
-            out.append("  No CourtListener records (expected for SCOTUS justices)")
+            out.append("  No CourtListener records found")
 
         # STEP 4: LLM synthesis
         all_context = ""
@@ -170,15 +177,17 @@ def run(args):
             out.append("[SYNTHESIS] Generating biography...")
 
             prompt = f"""Write a concise biography of {args} in 3-4 sentences. 
-            Each sentence must contain new information not already stated.
-            Do not repeat any fact. Do not use bullet points.
+Each sentence must contain new information not already stated.
+Do not repeat any fact. Do not use bullet points.
+Only mention specific cases if they appear explicitly in the source data provided.
+Do not infer or guess case involvement from names or context.
 
-            Sources:
-            FJC: {fjc_context[:2000]}
-            Chronicle: {chronicle_context[:1000]}
-            CourtListener: {cl_context[:500] if cl_context else "None."}
+Sources:
+FJC: {fjc_context[:2000]}
+Chronicle: {chronicle_context[:1000]}
+CourtListener: {cl_context[:500] if cl_context else "No CourtListener data found."}
 
-            Biography:"""
+Biography:"""
 
             result = llm(prompt, timeout=90)
             if result and len(result) > 50:
