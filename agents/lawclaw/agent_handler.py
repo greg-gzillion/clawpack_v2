@@ -1,4 +1,4 @@
-﻿"""A2A Handler for LawClaw - Law Research Agent with A2A routing"""
+ï»¿"""A2A Handler for LawClaw - Law Research Agent with A2A routing"""
 import sys
 from pathlib import Path
 
@@ -63,12 +63,15 @@ class LawClawHandler(BaseAgent):
                     result = f"No results for: {args}"
             elif cmd == "/browse" and args:
                 state = args.strip().upper()
-                p = Path(f"C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/lawclaw/jurisdictions/us/{state}")
-                if p.exists():
-                    counties = sorted([d.name for d in p.iterdir() if d.is_dir()])
-                    result = f"{state}: {len(counties)} counties\n" + "\n".join(f"  {c}" for c in counties[:50])
+                if not state.isalpha() or len(state) != 2:
+                    result = f"Invalid state code: {state}. Use 2-letter code."
                 else:
-                    result = f"State '{state}' not found"
+                    p = Path(f"C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/lawclaw/jurisdictions/us/{state}")
+                    if p.exists():
+                        counties = sorted([d.name for d in p.iterdir() if d.is_dir()])
+                        result = f"{state}: {len(counties)} counties\n" + "\n".join(f"  {c}" for c in counties[:50])
+                    else:
+                        result = f"State '{state}' not found"
             elif cmd == "/list":
                 p = Path("C:/Users/greg/dev/clawpack_v2/agents/webclaw/references/lawclaw/jurisdictions/us")
                 states = sorted([d.name for d in p.iterdir() if d.is_dir()])
