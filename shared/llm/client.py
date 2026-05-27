@@ -46,7 +46,7 @@ class LLMClient:
     
     async def call(self, prompt, agent='unknown', model=None, provider=None, max_tokens=4096, temperature=0.7, task_id=None):
         if model is None:
-            model = self.registry.get_active_model()  # Fresh read from file
+            model = self.registry.get_active_model()
         resolved_model, _ = self.registry.resolve_model(model)
         if model is None:
             model = resolved_model
@@ -80,37 +80,36 @@ class LLMClient:
         r = LLMResponse(content=f'All providers failed: {str(last_error)[:200]}', provider=LLMProvider.OLLAMA, model='governance', agent=agent, duration_ms=duration, access_decision=AccessDecision.DENIED_PROVIDER, request_hash=req_hash, fallback_used=True)
         self.auditor.log(agent, prompt, r)
         return r
-    
-    def call_sync(self, prompt, agent='unknown', model=None, max_tokens=4096, temperature=0.7, capability=None):
+
+    def call_sync(self, prompt, agent='unknown', model=None, provider=None, max_tokens=4096, temperature=0.7, capability=None):
         try:
             loop = asyncio.get_event_loop()
             if loop.is_running():
                 import concurrent.futures
                 with concurrent.futures.ThreadPoolExecutor() as ex:
-                    return ex.submit(asyncio.run, self.call(prompt, agent, model, max_tokens=max_tokens, temperature=temperature)).result(timeout=120)
-            return loop.run_until_complete(self.call(prompt, agent, model, max_tokens=max_tokens, temperature=temperature))
+                    return ex.submit(asyncio.run, self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature)).result(timeout=120)
+            return loop.run_until_complete(self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature))
         except RuntimeError:
-            return asyncio.run(self.call(prompt, agent, model, max_tokens=max_tokens, temperature=temperature))
-    
+            return asyncio.run(self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature))
+
     def get_stats(self):
         s = self.auditor.get_stats()
         b = self.budget.get_stats()
         return {**s, 'budget': b}
-    
+
     def list_models(self, tier=None):
         mt = ModelTier(tier) if tier else None
         return [{'name': m.name, 'provider': m.provider, 'tier': m.tier.value, 'size_gb': m.size_gb, 'is_obliterated': m.is_obliterated} for m in self.registry.list_models(mt)]
-    
+
     def set_active_model(self, name):
         return self.registry.set_active_model(name)
-    
+
     def get_active_model(self):
-        # Always read fresh from file so llmclaw /use takes effect immediately
         active = self.registry.get_active_model()
         return active
 
 async def generate(prompt, agent='unknown', model=None, provider=None, max_tokens=4096, temperature=0.7):
     return await get_llm_client().call(prompt, agent, model, provider, max_tokens, temperature)
 
-def generate_sync(prompt, agent='unknown', model=None, max_tokens=4096, temperature=0.7):
-    return get_llm_client().call_sync(prompt, agent, model, max_tokens, temperature)
+def generate_sync(prompt, agent='unknown', model=None, provider=None, max_tokens=4096, temperature=0.7):
+    return get_llm_client().call_sync(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature)

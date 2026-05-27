@@ -17,7 +17,7 @@ def detect_providers(config):
     if config.get('OPENROUTER_API_KEY'):
         providers.append({'type': LLMProvider.OPENROUTER, 'key': config['OPENROUTER_API_KEY'], 'model': config.get('OPENROUTER_MODEL', 'z-ai/glm-5.1'), 'base_url': 'https://openrouter.ai/api/v1', 'cost_per_call': 0.002})
     if config.get('ANTHROPIC_API_KEY'):
-        providers.append({'type': LLMProvider.ANTHROPIC, 'key': config['ANTHROPIC_API_KEY'], 'model': 'claude-3-haiku-20240307', 'base_url': 'https://api.anthropic.com/v1', 'cost_per_call': 0.015})
+        providers.append({'type': LLMProvider.ANTHROPIC, 'key': config['ANTHROPIC_API_KEY'], 'model': 'claude-haiku-4-5-20251001', 'base_url': 'https://api.anthropic.com/v1', 'cost_per_call': 0.015})
     if config.get('GROQ_API_KEY'):
         providers.append({'type': LLMProvider.GROQ, 'key': config['GROQ_API_KEY'], 'model': 'llama-3.1-8b-instant', 'base_url': 'https://api.groq.com/openai/v1', 'cost_per_call': 0.001})
     if config.get('OPENAI_API_KEY'):

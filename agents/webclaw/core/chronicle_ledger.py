@@ -43,6 +43,7 @@ class ChronicleLedger:
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
             # Try FTS first with source filter
+            rows = []
             try:
                 if source_filter:
                     rows = conn.execute("""

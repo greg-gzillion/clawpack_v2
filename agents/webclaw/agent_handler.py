@@ -1,6 +1,7 @@
 ﻿"""A2A Handler for WebClaw - AI-Powered Search & Fetch"""
 import sys
 from pathlib import Path
+from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 sys.path.insert(0, str(Path(__file__).parent))
@@ -26,8 +27,14 @@ class WebClawAgent(BaseAgent):
             try:
                 result = webclaw.fetch_with_citation(url)
                 if result.get("success"):
-                    return {"status": "success", "result": result["citation"] + "\n\n" + result["content"]}
-                return {"status": "error", "result": result.get("error", "fetch failed")}
+                    return {
+                        "status": "success",
+                        "result": result["citation"] + "\n\n" + result["content"]
+                    }
+                return {
+                    "status": "error",
+                    "result": result.get("error", "fetch failed")
+                }
             except Exception as e:
                 return {"status": "error", "result": str(e)}
 
@@ -50,21 +57,25 @@ class WebClawAgent(BaseAgent):
                         try:
                             cited = webclaw.fetch_with_citation(url)
                             if cited.get("success"):
-                                result += f"\n\n{cited['citation']}\n{cited['content'][:1000]}"
+                                result += "\n\n" + cited["citation"] + "\n"
+                                result += cited["content"][:1000]
                         except Exception:
                             pass
             except Exception as e:
-                result += f"\n\n(chronicle: {e})"
+                result += "\n\n(chronicle: " + str(e) + ")"
 
             try:
-                analysis = self.ask_llm(
-                    f"Analyze these search results and provide the most relevant information for: {query}\n\nResults:\n{result[:3000]}"
+                prompt = (
+                    "Analyze these search results and provide the most "
+                    "relevant information for: " + query + "\n\nResults:\n" +
+                    result[:3000]
                 )
+                analysis = self.ask_llm(prompt)
                 if analysis:
-                    result = f"## AI Analysis\n{analysis}\n\n## Raw Results\n{result}"
-                    self.learn(f"search:{query}", result[:1000])
+                    result = "## AI Analysis\n" + analysis + "\n\n## Raw Results\n" + result
+                    self.learn("search:" + query, result[:1000])
             except Exception as e:
-                result += f"\n\n(AI analysis: {e})"
+                result += "\n\n(AI analysis: " + str(e) + ")"
 
             return {"status": "success", "result": result}
         except Exception as e:
@@ -74,5 +85,5 @@ class WebClawAgent(BaseAgent):
 _agent = WebClawAgent()
 
 
-def process_task(task: str, agent: str = None):
+def process_task(task: str, agent: Optional[str] = None):
     return _agent.handle(task)
