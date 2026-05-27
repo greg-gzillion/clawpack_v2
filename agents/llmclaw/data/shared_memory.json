@@ -13,7 +13,8 @@
       "interactions": 53
     },
     "lawclaw": {
-      "interactions": 41
+      "interactions": 23,
+      "successful": 0
     },
     "crustyclaw": {
       "interactions": 37
@@ -55,10 +56,13 @@
       "interactions": 4
     },
     "llmclaw": {
-      "interactions": 166
+      "interactions": 11
     },
     "mathematicaclaw": {
       "interactions": 118
+    },
+    "webclaw": {
+      "interactions": 18
     }
   }
 }
