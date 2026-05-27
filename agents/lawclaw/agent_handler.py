@@ -1,4 +1,4 @@
-ï»¿"""A2A Handler for LawClaw - Law Research Agent with A2A routing"""
+"""A2A Handler for LawClaw - Law Research Agent with A2A routing"""
 import sys
 from pathlib import Path
 
