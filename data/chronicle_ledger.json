@@ -284042,5 +284042,20 @@
     "decision": "allowed",
     "fallback_used": false,
     "fallback_provider": null
+  },
+  {
+    "timestamp": "2026-05-27T21:28:28.903771+00:00",
+    "agent": "llmclaw",
+    "model": "llama-3.1-8b-instant",
+    "provider": "groq",
+    "prompt_hash": "a8b89919e73f066b",
+    "response_hash": "d512a9eeb01fed49",
+    "tokens_used": 1632,
+    "cost": 0.001,
+    "duration_ms": 1458.223,
+    "cached": false,
+    "decision": "allowed",
+    "fallback_used": false,
+    "fallback_provider": null
   }
 ]
