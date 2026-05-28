@@ -19,6 +19,87 @@
       "hash": "c6181d38af228de6",
       "recall_count": 0,
       "last_recalled": null
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/oral",
+      "query": "Dobbs",
+      "fact": "Based on the provided data, the case appears to be related to \"Dobbs\" but the specific details of the case are not specified. However, I can provide information about the oral arguments provided.\n\nThe audio recordings available for \"Dobbs\" at CourtListener (https://www.courtlistener.com/audio/88765/fernando-nunez-jr-v-tom-wolf/ and https://www.courtlistener.com/audio/96517/state-of-tennessee-v-rob",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/audio/88765/fernando-nunez-jr-v-tom-wolf/",
+        "https://www.courtlistener.com/audio/96517/state-of-tennessee-v-robert-f-kennedy-jr/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:35:27.017615+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/oral",
+      "query": "Trump v United States",
+      "fact": "I couldn't find sufficient information about the case \"Trump v United States\" in the provided Chronicle references. However, the Oyez database does have information about the case. \n\nTo find more information about the case, please refer to the Oyez website: https://www.oyez.org/search/Trump+v+United+States. Oyez provides comprehensive information about the case, including the issue, arguments, and",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.oyez.org/search/Trump+v+United+States"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:40:24.691746+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/oral",
+      "query": "Citizens United",
+      "fact": "The Citizens United case was a landmark Supreme Court decision that centered on campaign finance reform. The issue at hand was whether the government could restrict corporate spending in support of or opposition to a candidate in an election. In particular, the case focused on a documentary film critical of Hillary Clinton, \"Hillary: The Movie,\" which was produced by a corporate entity and its dis",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/audio/100713/springer-v-seventh-judicial-district-court/",
+        "https://www.courtlistener.com/audio/97350/end-citizens-united-pac-v-fec/",
+        "https://www.courtlistener.com/audio/86429/end-citizens-united-pac-v-fec/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:42:16.154750+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/oral",
+      "query": "Citizens United",
+      "fact": "Based on the provided sources, I found limited information about the case \"Citizens United.\" However, I can tell you that the case is likely related to the Supreme Court decision in Citizens United v. Federal Election Commission (2010). \n\nAccording to the Oyez website, the case was about a non-profit corporation, Citizens United, which produced a documentary critical of Hillary Clinton and sought ",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.oyez.org/search/Citizens+United"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:42:25.191792+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/oral",
+      "query": "Roe v Wade",
+      "fact": "Based on the provided reference, the case of Roe v. Wade was about a woman's constitutional right to have an abortion. The issue at hand was whether a Texas statute that prohibited abortion except when necessary to save the life of the mother was constitutional. In essence, the case challenged the state's right to restrict access to abortion.",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.oyez.org/search/Roe+v+Wade"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:42:43.502813+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/oral",
+      "query": "Dobbs",
+      "fact": "Based on the provided context, the case \"Dobbs\" refers to the landmark United States Supreme Court case, Dobbs v. Jackson Women's Health Organization (2022). \n\nThe case was about a Mississippi law that banned most abortions after 15 weeks of pregnancy, with some exceptions. At issue was whether the Supreme Court would uphold the law, effectively overturning the precedent set by the 1973 case of Ro",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.oyez.org/search/Dobbs"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:43:03.378720+00:00"
     }
   ],
   "index": {
@@ -39,7 +120,29 @@
     ],
     "corpus": [
       "c6181d38af228de6"
+    ],
+    "dobbs": [
+      2,
+      7
+    ],
+    "trump": [
+      3
+    ],
+    "united": [
+      3,
+      4,
+      5
+    ],
+    "states": [
+      3
+    ],
+    "citizens": [
+      4,
+      5
+    ],
+    "wade": [
+      6
     ]
   },
-  "updated_at": "2026-05-01T04:08:55.669762+00:00"
+  "updated_at": "2026-05-28T01:43:03.378720+00:00"
 }
