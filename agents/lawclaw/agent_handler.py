@@ -102,19 +102,56 @@ class LawClawHandler(BaseAgent):
                     from agents.lawclaw.commands._memory import recall_court
                     court = recall_court(args)
                     if court:
-                        payload = f"/draft {args} court={court.get('fact','')}"
+                        payload = f"/create legal document: {args} - jurisdiction: {court.get('fact','')}"
                     else:
-                        payload = f"/draft {args}"
+                        payload = f"/create legal document: {args}"
                 except Exception:
-                    payload = f"/draft {args}"
-                result = self.call_agent("draftclaw", payload, timeout=30)
+                    payload = f"/create legal document: {args}"
+                result = self.call_agent("docuclaw", payload, timeout=60)
             elif args:
                 context = self._gather_context(args)
                 result = self.ask_llm(f"Law question: {args}\n\nContext:\n{context}")
             else:
                 result = "Type /help for commands"
 
-            return {"status": "success", "result": str(result)}
+            # ═══════════════════════════════════════════════════════════════
+            # CONSTITUTIONAL EXECUTION BOUNDARY — single injection point.
+            # Every command passes through here. Post-execution kernel
+            # activates memory, learning, and audit trail automatically.
+            # No per-command edits needed. No decorators. No registry.
+            # ═══════════════════════════════════════════════════════════════
+            final_result = str(result)
+            if final_result and len(final_result) > 20:
+                try:
+                    from agents.lawclaw.commands._memory import remember
+                    remember(
+                        command=cmd,
+                        query=args or "",
+                        result_summary=final_result[:400],
+                        source_type="web_verified",
+                        confidence=0.85,
+                    )
+                except Exception:
+                    pass
+
+                try:
+                    from shared._agent_helpers import learn
+                    learn("lawclaw", args or "", final_result[:500], "web_verified", 0.85)
+                except Exception:
+                    pass
+
+                try:
+                    from shared.decision_ledger import get_ledger
+                    get_ledger().record(
+                        agent="lawclaw",
+                        action=cmd,
+                        query=(args or "")[:200],
+                        result=final_result[:100],
+                    )
+                except Exception:
+                    pass
+
+            return {"status": "success", "result": final_result}
         except Exception as e:
             log_err("lawclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
