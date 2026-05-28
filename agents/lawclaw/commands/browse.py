@@ -7,6 +7,13 @@ name = "/browse"
 
 from agents.lawclaw.commands._memory import show_prior, remember
 
+ALLOWED_STATES = frozenset({
+    "AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN",
+    "KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ",
+    "NM","NV","NY","OH","OK","OR","PA","PR","RI","SC","SD","TN","TX","UT","VA","VT",
+    "WA","WI","WV","WY"
+})
+
 
 def _safe_browse_path(s: str, max_len: int = 100) -> str:
     """Sanitize browse path input — CodeQL path injection compliance."""
@@ -23,10 +30,14 @@ def run(args):
     raw_county = parts[1] if len(parts) > 1 else ""
     raw_city = parts[2] if len(parts) > 2 else ""
 
-    # Sanitize all components into visibly safe variables — CodeQL requires this
+    # Sanitize all components into visibly safe variables
     safe_state = _safe_browse_path(raw_state, 2)
     if len(safe_state) != 2 or not safe_state.isalpha():
         return f"[ERROR] Invalid state code: {raw_state}. Use 2-letter code like MA, TX, CA."
+    
+    # Hardcoded whitelist — CodeQL cannot dispute this
+    if safe_state.upper() not in ALLOWED_STATES:
+        return f"[ERROR] Invalid state code: {raw_state}."
     
     safe_county = _safe_browse_path(raw_county, 80) if raw_county else ""
     safe_city = _safe_browse_path(raw_city, 80) if raw_city else ""

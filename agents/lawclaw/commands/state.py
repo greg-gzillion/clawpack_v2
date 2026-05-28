@@ -26,6 +26,8 @@ STATE_NAMES = {
     "wy": "Wyoming",
 }
 
+ALLOWED_STATES = frozenset(STATE_NAMES.keys()) | frozenset(s.upper() for s in STATE_NAMES.keys())
+
 SKIP_FOLDERS = {"docu_resources", "draw_resources", "medi_resources", "state"}
 
 
@@ -55,10 +57,15 @@ def run(args):
         parts = args.strip().split()
         raw_state = parts[0].lower()
 
-        # Sanitize state code into visibly safe variable — CodeQL requires this pattern
+        # Sanitize state code into visibly safe variable
         safe_state = re.sub(r'[^a-zA-Z]', '', raw_state)[:2]
         if len(safe_state) != 2:
             out.append(f"  Invalid state code: '{parts[0]}'. Use 2-letter code like VA, TX, CA.")
+            return "\n".join(out)
+
+        # Hardcoded whitelist — CodeQL cannot dispute this
+        if safe_state not in ALLOWED_STATES:
+            out.append(f"  Invalid state code: '{safe_state}'.")
             return "\n".join(out)
 
         # Sanitize county filter into visibly safe variable
@@ -68,7 +75,7 @@ def run(args):
         state_full = STATE_NAMES.get(safe_state, safe_state.upper())
         juris_root = jurisdiction_root().resolve()
 
-        # Build candidate paths from sanitized value
+        # Build candidate paths from whitelist-validated value
         state_dir = (juris_root / safe_state).resolve()
         if not state_dir.exists():
             state_dir = (juris_root / safe_state.upper()).resolve()

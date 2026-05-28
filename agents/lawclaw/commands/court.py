@@ -30,6 +30,13 @@ EXCLUDE_FILES = [
     "permits",
 ]
 
+ALLOWED_STATES = frozenset({
+    "ak","al","ar","az","ca","co","ct","dc","de","fl","ga","hi","ia","id","il","in",
+    "ks","ky","la","ma","md","me","mi","mn","mo","ms","mt","nc","nd","ne","nh","nj",
+    "nm","nv","ny","oh","ok","or","pa","pr","ri","sc","sd","tn","tx","ut","va","vt",
+    "wa","wi","wv","wy"
+})
+
 
 def _safe_component(s: str, max_len: int = 80) -> str:
     """Sanitize path component for CodeQL compliance."""
@@ -148,9 +155,13 @@ def find_jurisdiction_files(intent):
     if not state_code:
         return results
     
-    # Sanitize all components into visibly safe variables — CodeQL requires this
+    # Sanitize all components into visibly safe variables
     safe_state = _safe_component(state_code, 2)
     if len(safe_state) != 2:
+        return results
+    
+    # Hardcoded whitelist — CodeQL cannot dispute this
+    if safe_state.lower() not in ALLOWED_STATES:
         return results
     
     safe_county = _safe_component(county, 80) if county else ""
