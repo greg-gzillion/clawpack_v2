@@ -49,16 +49,33 @@ def run(args):
     try:
         parts = args.strip().split()
         state_code = parts[0].lower()
+        
+        # Validate state code - must be exactly 2 letters, no path traversal
+        if len(state_code) != 2 or not state_code.isalpha():
+            out.append(f"  Invalid state code: '{parts[0]}'. Use 2-letter code like VA, TX, CA.")
+            return "\n".join(out)
+        
         county_filter = " ".join(parts[1:]) if len(parts) > 1 else None
+        # Sanitize county filter - no path separators
+        if county_filter and any(c in county_filter for c in "/\\.:"):
+            out.append(f"  Invalid county name.")
+            return "\n".join(out)
 
         state_full = STATE_NAMES.get(state_code, state_code.upper())
         juris_root = jurisdiction_root()
+        
+        # Build path safely using Path object - prevents traversal
         state_dir = juris_root / state_code
         if not state_dir.exists():
             state_dir = juris_root / state_code.upper()
         if not state_dir.exists():
             out.append(f"  State '{state_code.upper()}' not found.")
             out.append("  Run /list to see all available states.")
+            return "\n".join(out)
+        
+        # Verify resolved path is still within jurisdiction root
+        if not str(state_dir.resolve()).startswith(str(juris_root.resolve())):
+            out.append("  Invalid path.")
             return "\n".join(out)
 
         # No county specified — show county list
@@ -105,7 +122,6 @@ def run(args):
 
         out.append(f"  {files_found} court files found in {state_full}")
 
-        # Fuzzy match if no files found
         if files_found == 0:
             close = []
             for d in sorted(state_dir.iterdir()):
@@ -115,13 +131,11 @@ def run(args):
                 out.append(f"  Did you mean: {', '.join(close[:3])}?")
                 return "\n".join(out)
 
-        # STEP 2: Chronicle
         out.append("[2/3] Searching Chronicle...")
         chronicle_ctx = chronicle_context(f"{state_full} {county_filter} state court", limit=8)
         if chronicle_ctx:
             out.append("  Chronicle references found")
 
-        # STEP 3: LLM synthesis
         out.append("[3/3] Generating state court profile...")
 
         result = ""
@@ -163,7 +177,6 @@ Profile:"""
         if result:
             remember(command="/state", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.90)
 
-        # URLs from matched files
         unique_urls = list(dict.fromkeys(all_urls))
         if unique_urls:
             gov_urls = [u for u in unique_urls if ".gov" in u.lower()]

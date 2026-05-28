@@ -25,12 +25,19 @@ class CrustyClawAgent(BaseAgent):
         except Exception as e: return str(e)
 
     def _run_standalone(self, command, args=""):
+        # Only allow known safe commands
+        allowed_commands = {"audit", "pinch", "explain", "fix"}
+        if command not in allowed_commands:
+            return None
+        # Sanitize args - alphanumeric, spaces, underscores, hyphens, periods, colons, slashes only
+        safe_args = "".join(c for c in args if c.isalnum() or c in " _-.:/")[:200]
+        
         binary_paths = [CRUSTY_DIR/"target"/"release"/"crustyclaw.exe", CRUSTY_DIR/"target"/"release"/"crustyclaw", Path.home()/".cargo"/"bin"/"crustyclaw"]
         for binary in binary_paths:
             if binary.exists():
                 try:
-                    cmd = [str(binary), command]; 
-                    if args: cmd.append(args)
+                    cmd = [str(binary), command]
+                    if safe_args: cmd.append(safe_args)
                     result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
                     return result.stdout or result.stderr
                 except: pass
@@ -110,10 +117,12 @@ class CrustyClawAgent(BaseAgent):
             elif cmd in ("/cargo",) and query:
                 allowed = {"build","check","test","run","clean","doc","fmt","clippy","bench","update","version","help"}
                 parts_cmd = query.split()
-                if not parts_cmd or parts_cmd[0] not in allowed: result = f"Allowed: {sorted(allowed)}"
+                if not parts_cmd or parts_cmd[0] not in allowed: 
+                    result = f"Allowed: {sorted(allowed)}"
                 else:
+                    safe_cmd = parts_cmd[0]
                     try:
-                        cargo_result = subprocess.run(["cargo"]+parts_cmd, capture_output=True, text=True, timeout=60, cwd=self.cargo_path)
+                        cargo_result = subprocess.run(["cargo", safe_cmd], capture_output=True, text=True, timeout=60, cwd=self.cargo_path)
                         result = cargo_result.stdout or cargo_result.stderr or "Cargo completed"
                     except Exception as e: result = f"Cargo error: {e}"
 
