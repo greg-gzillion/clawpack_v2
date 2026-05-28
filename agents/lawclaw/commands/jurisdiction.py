@@ -362,6 +362,16 @@ URLs — all links"""
 
         if result:
             remember(command="/jurisdiction", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.95)
+            # Persist structured court context for cross-agent delegation
+            try:
+                from agents.lawclaw.commands._memory import remember_court
+                court_data = {
+                    "jurisdiction": args.strip(),
+                    "summary": result[:500],
+                }
+                remember_court(args.strip(), court_data)
+            except Exception:
+                pass
 
         unique_urls = list(dict.fromkeys(all_urls))
         if unique_urls:

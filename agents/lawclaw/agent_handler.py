@@ -97,7 +97,17 @@ class LawClawHandler(BaseAgent):
                 from agents.lawclaw.commands.summarize import run as cmd_run
                 result = cmd_run(args)
             elif cmd == "/draft" and args:
-                result = self.call_agent("draftclaw", f"/draft {args}", timeout=30)
+                # Enrich delegation with jurisdiction context from shared memory
+                try:
+                    from agents.lawclaw.commands._memory import recall_court
+                    court = recall_court(args)
+                    if court:
+                        payload = f"/draft {args} court={court.get('fact','')}"
+                    else:
+                        payload = f"/draft {args}"
+                except Exception:
+                    payload = f"/draft {args}"
+                result = self.call_agent("draftclaw", payload, timeout=30)
             elif args:
                 context = self._gather_context(args)
                 result = self.ask_llm(f"Law question: {args}\n\nContext:\n{context}")
