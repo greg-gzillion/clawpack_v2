@@ -62,15 +62,22 @@ def run(args):
             return "\n".join(out)
 
         state_full = STATE_NAMES.get(state_code, state_code.upper())
-        juris_root = jurisdiction_root()
+        juris_root = jurisdiction_root().resolve()
         
-        # Build path safely using Path object - prevents traversal
-        state_dir = juris_root / state_code
+        # Build candidate paths under canonical jurisdiction root
+        state_dir = (juris_root / state_code).resolve()
         if not state_dir.exists():
-            state_dir = juris_root / state_code.upper()
+            state_dir = (juris_root / state_code.upper()).resolve()
         if not state_dir.exists():
             out.append(f"  State '{state_code.upper()}' not found.")
             out.append("  Run /list to see all available states.")
+            return "\n".join(out)
+        
+        # Verify canonical path is contained within jurisdiction root
+        try:
+            state_dir.relative_to(juris_root)
+        except ValueError:
+            out.append("  Invalid path.")
             return "\n".join(out)
         
         # Verify resolved path is still within jurisdiction root
