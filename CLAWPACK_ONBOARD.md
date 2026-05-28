@@ -47,16 +47,25 @@ Uses chronicle_search(), search_jurisdiction_files(), cl_get(), webclaw_fetch().
 Working: circuits, supreme, pacer, frcp, Bedford VA city lookups.
 SDNY judges: page is JS-rendered. WebClaw returns metadata only. Honest fallback in place — NOT a bug, don't "fix" it.
 
-Stub Status
-/judge — not started. Target: CourtListener /people/ endpoint via cl_get().
+/judge — FJC biography + CourtListener positions + Chronicle. Working: Sotomayor, Pitman.
+CourtListener /people/ is sparse — FJC is primary source. ✓
 
+/jurisdiction — Chronicle + filesystem civic intelligence. City and county lookup.
+Courts, police, jail, hospitals with GPS, library, permits. 3,800+ cities indexed.
+Working: Bedford VA, Daytona Beach FL, Volusia County FL, Chicago IL, Chipley FL,
+St Augustine FL, Bedford TX. ✓
+
+/law — Chronicle + CourtListener federal opinions (SCOTUS + circuits).
+Topic-based research, real citations, /docket chain ready.
+Working: qualified immunity ✓
+Note: Do not summarize case holdings without full text in data.
+
+Stub Status
 /state — not started. Mirror /federal but for state courts via jurisdiction files.
 
 /statute — not started. Target: law.cornell.edu via webclaw_fetch.
 
-/jurisdiction — not started. Likely wraps /court + /federal + /state.
-
-/oral, /precedent, /summarize, /law — true stubs (197-460 bytes), replace entirely.
+/oral, /precedent, /summarize — true stubs (197-460 bytes), replace entirely.
 
 Patterns That Work
 python
@@ -113,6 +122,9 @@ shared/llm/client.py — Sovereign Gateway
 
 .env — API tokens
 
-
-## Session Log
-- 2026-05-27: /docket complete (CourtListener API, paginated entries, jury demand, LLM summaries). /federal working (Chronicle-first, filesystem-backed, circuits/SCOTUS/PACER/FRCP/city lookups). SDNY judges JS-limitation documented as intentional. /court and /cite working. CLAWPACK_ONBOARD.md created.
+Session Log
+2026-05-27: /docket complete. /federal working. SDNY judges JS-limitation documented.
+/judge complete (FJC primary, CourtListener supplemental).
+/jurisdiction complete (3,800+ cities, hospitals with GPS, civic intelligence).
+/law complete (SCOTUS + circuit opinions, topic research with real citations).
+CLAWPACK_ONBOARD.md created. 4 commands built today. 3 stubs remain.

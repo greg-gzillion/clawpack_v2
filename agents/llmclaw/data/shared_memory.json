@@ -13,7 +13,7 @@
       "interactions": 53
     },
     "lawclaw": {
-      "interactions": 56,
+      "interactions": 96,
       "successful": 0
     },
     "crustyclaw": {
@@ -56,13 +56,14 @@
       "interactions": 4
     },
     "llmclaw": {
-      "interactions": 16
+      "interactions": 47
     },
     "mathematicaclaw": {
       "interactions": 118
     },
     "webclaw": {
-      "interactions": 36
+      "interactions": 47,
+      "search:+ /courts/nysd/": "## AI Analysis\n# Analysis: Search Query for `/courts/nysd/`\n\n## Result Assessment\n\nBased on the search results provided, **there is no relevant information available** for the query `/courts/nysd/`.\n\n### Why This Query Has No Results\n\nThe search returned 10 results, but all of them are related to:\n\n1. **Programming Language References** (claw_coder)\n   - Python, JavaScript, TypeScript, Java, Go, Rust, etc.\n   - Code examples and syntax documentation\n\n2. **Flowchart & Diagram References** (flowclaw)\n   - Visualization tools and templates\n\n3. **Service Documentation** (txclaw/minicms)\n   - Content management system API documentation\n\n### What `/courts/nysd/` Likely Represents\n\nThe query path `/courts/nysd/` suggests:\n- **NYSD** = U.S. District Court for the Southern District of New York\n- This appears to be a request for legal/court-related information\n\n### Knowledge Gap\n\nThe current knowledge base in the provided context contains:\n- \u2705 Programming language references\n- \u2705 Development and "
     }
   }
 }
