@@ -84,14 +84,14 @@ clawpack_v2/
 ├── agents/                # 21 specialized agents
 ├── data/                  # Chronicle + budget + memory index
 └── exports/               # Generated files
-A2A Protocol
-Server: a2a_server.py · Port: 8766
+## A2A Protocol
+**Server:** a2a_server.py · Port: 8766
 
 bash
 python a2a_server.py
-Endpoints: GET /health · GET /v1/agents · GET /memory/stats · POST /v1/message/{agent}
+**Endpoints:** GET /health · GET /v1/agents · GET /memory/stats · POST /v1/message/{agent}
 
-Example
+## Example
 bash
 $ /law qualified immunity
   [MEMORY] 2 related prior searches found
@@ -103,7 +103,7 @@ $ /llmclaw /use claude-haiku
 
 $ /jurisdiction Daytona Beach FL
   Courts · Police · Jail · 2 Hospitals (GPS) · Library · Permits
-Constitutional Law
+## Constitutional Law
 All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
 
 Data Licensing Notice (Effective May 4, 2026)
