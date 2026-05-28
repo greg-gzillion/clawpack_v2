@@ -100,6 +100,39 @@
       ],
       "metadata": {},
       "timestamp": "2026-05-28T01:43:03.378720+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/list",
+      "query": "all states",
+      "fact": "51 states, 5,104 cities indexed",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:57:01.681098+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/list",
+      "query": "all states",
+      "fact": "51 states, 5,104 cities indexed",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:57:09.547060+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/list",
+      "query": "all states",
+      "fact": "51 states, 5,104 cities indexed",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-28T01:57:24.213479+00:00"
     }
   ],
   "index": {
@@ -134,7 +167,10 @@
       5
     ],
     "states": [
-      3
+      3,
+      8,
+      9,
+      10
     ],
     "citizens": [
       4,
@@ -144,5 +180,5 @@
       6
     ]
   },
-  "updated_at": "2026-05-28T01:43:03.378720+00:00"
+  "updated_at": "2026-05-28T01:57:24.213479+00:00"
 }
