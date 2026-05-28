@@ -5,31 +5,33 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 
-**21 agents · 15 sovereign ministries · Chronicle audit (35K+) · A2A routing**
+**21 agents * 15 sovereign ministries * Chronicle audit (35K+) * A2A routing**
 
 ---
 
+> No agent may speak to a model directly.
+
 ## Sovereign Ministries
 
-Every agent inherits these through shared/. No agent works alone. No agent speaks to a model directly.
+Every agent inherits these through `shared/`. No agent works alone.
 
 | Ministry | Path | Purpose |
 |----------|------|---------|
-| **Sovereign Gateway** | shared/llm/ | All model access. Budget, audit, fallback. 4 providers, 25 models. |
-| **Judiciary** | shared/enforcement/ | 19 forbidden patterns. Pre/post execution gates. |
-| **Unified Memory** | shared/memory/ | Chronicle-backed. Cross-agent recall. All 23 lawclaw commands wired. |
-| **Imperial Documents** | shared/files/ | File format conversion. 52 extensions, 8 categories. |
-| **DocuClaw API** | shared/docuclaw_api.py | Document creation for all agents. Any agent to DocuClaw. |
-| **Agent Registry** | shared/registry.py | 21 agents registered. Capability map. Delegation routing. |
-| **Truth Resolver** | shared/truth_resolver.py | web_verified > chronicle > memory > inference. |
-| **Source Registry** | shared/source_registry.py | 40+ trusted sources. 4 tiers. Domain overrides. |
-| **Execution Policy** | shared/execution_policy.py | Hard boundaries. Delete blocked. Shell blocked. |
-| **Guarded Executor** | shared/guarded_executor.py | Only legal path for dangerous operations. |
-| **Decision Ledger** | shared/decision_ledger.py | Tamper-evident hash chain. Verifiable audit. |
-| **Import Scanner** | shared/import_scanner.py | Detects forbidden LLM imports. |
-| **Memory Guard** | shared/memory_guard.py | Inference never persists. Confidence >= 0.75. |
-| **Direct Model Provider** | shared/llm/providers/direct_model.py | Obliterated safetensors from disk. True sovereignty. |
-| **Agent Helpers** | shared/_agent_helpers.py | Empire-wide bridge. All 21 agents connected. |
+| **Sovereign Gateway** | `shared/llm/` | All model access. Budget, audit, fallback. 4 providers, 25 models. |
+| **Judiciary** | `shared/enforcement/` | 19 forbidden patterns. Pre/post execution gates. |
+| **Unified Memory** | `shared/memory/` | Chronicle-backed. Cross-agent recall. |
+| **Imperial Documents** | `shared/files/` | File format conversion. 52 extensions, 8 categories. |
+| **DocuClaw API** | `shared/docuclaw_api.py` | Document creation for all agents. |
+| **Agent Registry** | `shared/registry.py` | 21 agents registered. Capability map. Delegation routing. |
+| **Truth Resolver** | `shared/truth_resolver.py` | `web_verified > chronicle > memory > inference`. |
+| **Source Registry** | `shared/source_registry.py` | 40+ trusted sources. 4 tiers. Domain overrides. |
+| **Execution Policy** | `shared/execution_policy.py` | Hard boundaries. Delete blocked. Shell blocked. |
+| **Guarded Executor** | `shared/guarded_executor.py` | Only legal path for dangerous operations. |
+| **Decision Ledger** | `shared/decision_ledger.py` | Tamper-evident hash chain. Verifiable audit. |
+| **Import Scanner** | `shared/import_scanner.py` | Detects sovereignty bypass attempts. |
+| **Memory Guard** | `shared/memory_guard.py` | Inference never persists. Confidence >= 0.75. |
+| **Direct Model Provider** | `shared/llm/providers/direct_model.py` | Direct local execution from liberated weights. Zero external runtime dependency. |
+| **Agent Helpers** | `shared/_agent_helpers.py` | Shared execution substrate connecting all 21 agents. |
 
 ## Agents (21)
 
@@ -37,20 +39,20 @@ Every agent inherits these through shared/. No agent works alone. No agent speak
 |-------|--------|-------------|
 | **llmclaw** | Model management and orchestration | Sovereign gateway |
 | **claw_coder** | 39-language code generation | DocuClaw, FileClaw, WebClaw |
-| **mathematicaclaw** | Math engine - SymPy - Plotly | DocuClaw, PlotClaw |
-| **mediclaw** | Medical analysis - 66 specialties | DocuClaw, WebClaw, LawClaw |
+| **mathematicaclaw** | Math engine * SymPy * Plotly | DocuClaw, PlotClaw |
+| **mediclaw** | Medical analysis * 66 specialties | DocuClaw, WebClaw, LawClaw |
 | **lawclaw** | Law research and analysis (23 commands) | DocuClaw, WebClaw, PlotClaw, FlowClaw |
 | **webclaw** | Web search and indexing | Chronicle |
 | **dataclaw** | Data search and analysis | FileClaw |
 | **docuclaw** | Document creation for ALL agents | FileClaw, InterpretClaw |
-| **fileclaw** | File operations - 52 formats | DocuClaw |
+| **fileclaw** | File operations * 52 formats | DocuClaw |
 | **drawclaw** | Visual art and illustration | DocuClaw |
 | **plotclaw** | Charts, graphs, data viz | DocuClaw |
 | **flowclaw** | Diagrams and flowcharts | DocuClaw, WebClaw, DataClaw, FileClaw |
 | **designclaw** | Brand and design | DocuClaw |
 | **draftclaw** | Technical drawings | DocuClaw |
 | **dreamclaw** | AI vision and generation | Sovereign gateway |
-| **interpretclaw** | Translation - 39 languages | WebClaw |
+| **interpretclaw** | Translation * 39 languages | WebClaw |
 | **langclaw** | Language teaching | WebClaw |
 | **crustyclaw** | Rust AI and compiler | ClawCoder |
 | **liberateclaw** | Model obliteration | Sovereign gateway |
@@ -59,38 +61,48 @@ Every agent inherits these through shared/. No agent works alone. No agent speak
 
 ## LLM Models (25 via sovereign gateway)
 
-**4 providers:** Ollama (local) - Groq - OpenRouter - Anthropic
+**4 providers:** Ollama (local) * Groq * OpenRouter * Anthropic
 
-**Obliterated:** deepseek-coder-liberated - codellama-liberated - smollm2-liberated - tinyllama-liberated - gemma3-liberated
+**Obliterated:** deepseek-coder-liberated * codellama-liberated * smollm2-liberated * tinyllama-liberated * gemma3-liberated
 
-**Default runtime:** constitutional routing (provider-selectable via llmclaw /use)
+**Default runtime:** constitutional routing (provider-selectable via `llmclaw /use`)
 
 ## Architecture
+
+```text
 clawpack_v2/
-├── a2a_server.py # Central A2A server (port 8766)
-├── shared/ # 15 SOVEREIGN MINISTRIES
-│ ├── llm/ # Sovereign Gateway
-│ ├── enforcement/ # Judiciary
-│ ├── memory/ # Unified Knowledge
-│ ├── files/ # Imperial Documents
-│ ├── _agent_helpers.py # Empire-wide bridge (all 21 agents)
-│ └── base_agent.py # Foundation class
-├── agents/ # 21 specialized agents
-├── data/ # Chronicle + budget + memory index
-└── exports/ # Generated files
+├── a2a_server.py          # Central A2A server (port 8766)
+├── shared/                # 15 sovereign ministries
+│   ├── llm/               # Sovereign Gateway
+│   ├── enforcement/       # Judiciary
+│   ├── memory/            # Unified Knowledge
+│   ├── files/             # Imperial Documents
+│   ├── _agent_helpers.py  # Shared execution substrate
+│   └── base_agent.py      # Foundation class
+├── agents/                # 21 specialized agents
+├── data/                  # Chronicle + budget + memory index
+└── exports/               # Generated files
+A2A Protocol
+Server: a2a_server.py * Port: 8766
 
-text
-
-## A2A Protocol
-
-**Server:** a2a_server.py - **Port:** 8766
-
-```bash
+bash
 python a2a_server.py
-Endpoints: GET /health - GET /v1/agents - GET /memory/stats - POST /v1/message/{agent}
+Endpoints: GET /health * GET /v1/agents * GET /memory/stats * POST /v1/message/{agent}
 
+Example
+bash
+$ /law qualified immunity
+  [MEMORY] 2 related prior searches found
+  31,918 cases found * 8 displayed
+  SCOTUS: Salazar-Limon v. City of Hous. (2017)
+
+$ /llmclaw /use claude-haiku
+  Switched to: claude-haiku-4-5-20251001
+
+$ /jurisdiction Daytona Beach FL
+  Courts * Police * Jail * 2 Hospitals (GPS) * Library * Permits
 Constitutional Law
-No agent may speak to a model directly. All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
+All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
 
 Data Licensing Notice (Effective May 4, 2026)
 All jurisdictional data, court records, building codes, and design resources in this repository are licensed under CC BY 4.0. See LICENSE-DATA for full terms.
@@ -101,4 +113,4 @@ Suggested attribution: Data sourced from Clawpack V2 Jurisdictional Dataset (git
 
 DOI: 10.5281/zenodo.19713157 (latest version via Zenodo)
 
-MIT License - greg-gzillion
+MIT License * greg-gzillion
