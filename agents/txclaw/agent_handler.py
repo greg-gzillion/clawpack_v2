@@ -9,13 +9,14 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 from commands.llm_enhanced import run as llm_run
 
 class TXClawA2AHandler(BaseAgent):
     def __init__(self):
         super().__init__('txclaw')
         self.session = {"queries": []}
-        self.refs_dir = Path("str(PROJECT_ROOT)/agents/webclaw/references/txclaw")
+        self.refs_dir = PROJECT_ROOT / "agents" / "webclaw" / "references" / "txclaw"
         self._load_references()
 
     def _load_references(self):
@@ -36,7 +37,6 @@ class TXClawA2AHandler(BaseAgent):
         if data: parts.append("[DataClaw]: " + data)
         coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
         if coder: parts.append("[ClawCoder]: " + coder)
-                # Search chronicle index
         chronicle_results = self.search_chronicle(query, limit=2000000)
         if chronicle_results:
             for c in chronicle_results:
@@ -111,8 +111,12 @@ IMPORTANT: Only reference TX.org blockchain. If you don't know, say "I don't hav
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("txclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = TXClawA2AHandler()
+
+
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

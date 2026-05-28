@@ -10,6 +10,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DATACLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 SKIP_DIRS = {'node_modules','venv','__pycache__','.git','lib64'}
 
@@ -192,6 +193,7 @@ class DataClawAgent(BaseAgent):
 
             return {"status":"success","result":str(result)}
         except Exception as e:
+            log_err("dataclaw", cmd or "unknown", str(e)[:200])
             return {"status":"error","result":str(e)}
 
     def _execute(self, payload):
@@ -205,8 +207,12 @@ class DataClawAgent(BaseAgent):
             results = self._search_local_files(query, max_results=10)
             return {"status":"success","result":json.dumps(results, indent=2, default=str)}
         except Exception as e:
+            log_err("dataclaw", "execute_error", str(e)[:200])
             return {"status":"error","result":str(e)}
 
+
 _agent = DataClawAgent()
+
+
 def process_task(task, agent=None):
     return _agent.handle(task)

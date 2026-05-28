@@ -9,6 +9,7 @@ sys.path.insert(0, str(PLOTCLAW_DIR))
 
 import json
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 class PlotClawAgent(BaseAgent):
     def __init__(self):
@@ -20,7 +21,6 @@ class PlotClawAgent(BaseAgent):
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data)
-                # Search chronicle index
         chronicle_results = self.search_chronicle(query, limit=2000000)
         if chronicle_results:
             for c in chronicle_results:
@@ -38,7 +38,6 @@ class PlotClawAgent(BaseAgent):
         query = args if args else task
 
         try:
-            # --- CSV/JSON import ---
             if cmd in ("/csv", "/import") and query:
                 parts2 = query.split()
                 filepath = parts2[0]
@@ -51,7 +50,6 @@ class PlotClawAgent(BaseAgent):
                     headers, rows, col_data = read_csv(filepath, col)
                     if col_data and isinstance(col_data, list) and len(col_data) > 0:
                         labels = [str(r[0])[:20] for r in rows] if rows else [f"Row {i+1}" for i in range(len(col_data))]
-                        # Structured routing: no string assembly
                         chart_spec = {
                             "type": chart_type if chart_type in ("bar", "pie") else "bar",
                             "labels": labels[:30],
@@ -60,7 +58,6 @@ class PlotClawAgent(BaseAgent):
                         }
                         if chart_spec["type"] == "pie":
                             from agents.plotclaw.commands.pie import run as pie_run
-                            # Build label:value string for pie (its expected format)
                             args_str = ",".join(f"{l}:{v}" for l, v in zip(chart_spec["labels"], chart_spec["values"]))
                             result = pie_run(args_str)
                         else:
@@ -80,12 +77,10 @@ class PlotClawAgent(BaseAgent):
                 else:
                     result = f"Unknown format. Use .csv or .json files.\nAvailable: {list_data_dir()}"
             
-            # --- List data files ---
             elif cmd in ("/data", "/files"):
                 from data_io import list_data_dir
                 result = "Available data files:\n" + "\n".join(f"  {f}" for f in list_data_dir())
             
-            # --- Shared memory ---
             elif cmd == "/shared" and query:
                 from data_io import read_shared, write_shared
                 parts2 = query.split(maxsplit=1)
@@ -105,12 +100,10 @@ class PlotClawAgent(BaseAgent):
                 else:
                     result = "Usage: /shared [read [key]] [write key:value]"
             
-            # --- Export last chart to shared ---
             elif cmd == "/publish" and query:
                 from data_io import write_shared
                 result = write_shared("plotclaw_latest", query)
             
-            # --- Chart commands (all support universal flags) ---
             elif cmd in ("/bar", "bar") and query:
                 from agents.plotclaw.commands.bar import run
                 result = run(query)
@@ -151,7 +144,6 @@ class PlotClawAgent(BaseAgent):
                 from agents.plotclaw.commands.dashboard import run
                 result = run(query)
             
-            # --- Delegate to other agents ---
             elif cmd == "/delegate" and query:
                 parts2 = query.split(maxsplit=1)
                 target = parts2[0]
@@ -161,7 +153,6 @@ class PlotClawAgent(BaseAgent):
                 else:
                     result = f"Unknown agent: {target}. Try: docuclaw, interpretclaw, dataclaw, webclaw, mathematicaclaw"
             
-            # --- Help ---
             elif cmd in ("/help",):
                 result = """PlotClaw v3 - 13 Chart Types + Data I/O
   CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard
@@ -181,9 +172,12 @@ class PlotClawAgent(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("plotclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = PlotClawAgent()
+
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

@@ -18,6 +18,12 @@ STATE_CODES = {
     "TX","UT","VT","VA","WA","WV","WI","WY","DC","PR","GU","MP"
 }
 
+LEGAL_HINTS = [
+    "law", "legal", "ordinance", "code", "municipal", "court",
+    "forms", "statute", "library", "zoning", "permit", "tenant",
+    "housing", "landlord", "clerk", "filing", "rules", "procedures"
+]
+
 
 def _log(agent, event, detail=""):
     try:
@@ -43,6 +49,22 @@ def llm(prompt, timeout=120):
     return ""
 
 
+def webclaw(url, timeout=20):
+    try:
+        resp = requests.post(
+            f"{A2A}/v1/message/webclaw",
+            json={"task": f"fetch {url}", "agent": "lawclaw"},
+            timeout=timeout,
+        )
+        if resp.status_code == 200:
+            result = resp.json().get("result", "")
+            if result and len(result) > 50:
+                return result
+    except Exception as e:
+        _log("lawclaw", "jurisdiction_webclaw_error", str(e)[:100])
+    return ""
+
+
 def chronicle_search(query, limit=10):
     try:
         from agents.webclaw.core.chronicle_ledger import get_chronicle
@@ -58,6 +80,32 @@ def normalize(s):
     if not s:
         return ""
     return s.lower().replace(" ", "_").replace("-", "_").replace(".", "").replace(",", "").strip("_")
+
+
+def is_legal_resource(url):
+    u = url.lower()
+    return any(h in u for h in LEGAL_HINTS)
+
+
+def classify_resource(url):
+    u = url.lower()
+    if "code" in u or "ordinance" in u:
+        return "Municipal Code"
+    if "form" in u:
+        return "Court Forms"
+    if "zoning" in u:
+        return "Zoning"
+    if "tenant" in u or "housing" in u or "landlord" in u:
+        return "Tenant/Housing"
+    if "legal" in u and "aid" in u:
+        return "Legal Aid"
+    if "library" in u:
+        return "Library"
+    if "clerk" in u or "filing" in u:
+        return "Court Filings"
+    if "rule" in u or "procedure" in u:
+        return "Court Rules"
+    return "Legal Resource"
 
 
 def parse_query(args):
@@ -121,13 +169,11 @@ def find_folders(query):
             if not county_match:
                 continue
 
-            # County-level files (courts) — always include when county matches
             county_md = [f for f in county_dir.iterdir() if f.suffix == ".md"]
             if county_md:
                 label = f"{county_dir.name.replace('_',' ').title()} County Courts, {state_dir.name.upper()}"
                 matches.append(("county", county_dir, label, 1))
 
-            # City subfolders
             for city_dir in sorted(county_dir.iterdir()):
                 if not city_dir.is_dir() or city_dir.name in SKIP_FOLDERS:
                     continue
@@ -174,7 +220,7 @@ def run(args):
 
         # STEP 1: Chronicle
         out.append("")
-        out.append("[1/3] Chronicle search...")
+        out.append("[1/4] Chronicle search...")
         search = " ".join(filter(None, [
             query.get("city") or "",
             query.get("county") or "",
@@ -193,7 +239,7 @@ def run(args):
             out.append(f"  {len(chronicle_results)} Chronicle references")
 
         # STEP 2: Filesystem
-        out.append("[2/3] Searching jurisdiction files...")
+        out.append("[2/4] Searching jurisdiction files...")
         folders = find_folders(query)
 
         if not folders:
@@ -226,8 +272,43 @@ def run(args):
         out.append(f"  {len(folder_labels)} folder(s): {', '.join(folder_labels[:5])}")
         out.append(f"  {len(all_content)} file(s), {len(set(all_urls))} unique URLs")
 
-        # STEP 3: LLM synthesis
-        out.append("[3/3] Building civic profile...")
+        # STEP 3: Live resource discovery via library URLs
+        out.append("[3/4] Discovering legal resources via libraries...")
+        library_urls = [u for u in all_urls if "library" in u.lower()][:2]
+        discovered = []
+
+        if library_urls:
+            for lib_url in library_urls:
+                try:
+                    page = webclaw(lib_url)
+                    if page and len(page) > 100:
+                        links = re.findall(r'https?://[^\s\)\]\<\>\"\']+', page)
+                        legal_links = [l for l in links if is_legal_resource(l)]
+                        for link in legal_links[:10]:
+                            category = classify_resource(link)
+                            discovered.append((category, link))
+                except:
+                    pass
+
+            if discovered:
+                seen = set()
+                unique_discovered = []
+                for cat, url in discovered:
+                    if url not in seen:
+                        seen.add(url)
+                        unique_discovered.append((cat, url))
+
+                out.append(f"  Found {len(unique_discovered)} resources via libraries")
+                for cat, url in unique_discovered[:15]:
+                    all_urls.append(url)
+                    all_content.append(f"[DISCOVERED] {cat}: {url}")
+            else:
+                out.append("  No additional legal resources discovered")
+        else:
+            out.append("  No library URLs found in jurisdiction files")
+
+        # STEP 4: LLM synthesis
+        out.append("[4/4] Building civic profile...")
 
         combined = ""
         for block in all_content:
@@ -236,27 +317,32 @@ def run(args):
             combined += block + "\n\n"
 
         prompt = f"""Create a structured civic profile for: {args}
-        - Only include URLs that appear in the JURISDICTION DATA section above, not from CHRONICLE.
-        JURISDICTION DATA:
-        {combined[:6000]}
 
-        Rules:
-        - Use ONLY the data provided. No invented addresses, phones, or URLs.
-        - If an address is not explicitly in the source data, omit it entirely.
-        Do not guess or note that you are guessing.
-        - Skip any section with no data. Each fact must appear only once.
-        - If a URL looks incorrect or generic, omit it rather than including it.
+JURISDICTION DATA:
+{combined[:6000]}
 
-        Sections (omit if no data):
+CHRONICLE:
+{chronicle_context[:1500] if chronicle_context else "None."}
 
-        COURTS — each court: name, address, phone, website
-        POLICE — department, non-emergency phone, address, website. Emergency: 911
-        JAIL — facility name, address, phone, website
-        HOSPITALS — each: name, address, phone, coordinates, website
-        LIBRARY — name, address, phone, hours, website
-        BUILDING PERMITS — office, address, phone, website
-        CITY HALL — address, phone, hours, website
-        URLs — all links"""
+Rules:
+- Use ONLY the data provided. No invented addresses, phones, or URLs.
+- If an address is not explicitly in the source data, omit it entirely.
+  Do not guess or note that you are guessing.
+- Skip any section with no data. Each fact must appear only once.
+- If a URL looks incorrect or generic, omit it.
+- Include DISCOVERED resources in the relevant sections.
+
+Sections (omit if no data):
+
+COURTS — each court: name, address, phone, website
+POLICE — department, non-emergency phone, address, website. Emergency: 911
+JAIL — facility name, address, phone, website
+HOSPITALS — each: name, address, phone, coordinates, website
+LIBRARY — name, address, phone, hours, website
+BUILDING PERMITS — office, address, phone, website
+CITY HALL — address, phone, hours, website
+LEGAL RESOURCES — municipal code, court forms, legal aid, tenant rights
+URLs — all links"""
 
         result = llm(prompt, timeout=120)
 

@@ -8,6 +8,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(RUSTYPYCRAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 from agents.rustypycraw.modules.scanner.code_scanner import CodeScanner
 from agents.rustypycraw.modules.analyzer.code_analyzer import CodeAnalyzer
 
@@ -27,7 +28,6 @@ class RustyPyCrawAgent(BaseAgent):
         if rust: parts.append("[CrustyClaw]: " + rust[:600])
         coder = self.call_agent("claw_coder", f"/explain {query}", timeout=15)
         if coder: parts.append("[ClawCoder]: " + coder[:600])
-                # Search chronicle index
         chronicle_results = self.search_chronicle(query, limit=3)
         if chronicle_results:
             for c in chronicle_results[:3]:
@@ -93,9 +93,12 @@ class RustyPyCrawAgent(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("rustypycraw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = RustyPyCrawAgent()
+
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

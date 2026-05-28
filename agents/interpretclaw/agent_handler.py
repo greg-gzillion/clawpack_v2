@@ -4,6 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 class InterpretClawAgent(BaseAgent):
     def __init__(self):
@@ -15,7 +16,6 @@ class InterpretClawAgent(BaseAgent):
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data)
-                # Search chronicle index
         chronicle_results = self.search_chronicle(query, limit=2000000)
         if chronicle_results:
             for c in chronicle_results:
@@ -66,9 +66,12 @@ uk - Ukrainian    vi - Vietnamese   cy - Welsh       zu - Zulu"""
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("interpretclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = InterpretClawAgent()
+
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

@@ -9,6 +9,8 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DRAWCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import delegate, log_err
+
 
 class DrawClawAgent(BaseAgent):
     def __init__(self):
@@ -21,9 +23,20 @@ class DrawClawAgent(BaseAgent):
         cmd = parts[0].lower() if parts else ""
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
+
         try:
+            # Cross-Agent Delegation
+            if cmd in ("/delegate", "delegate") and args:
+                parts2 = args.split(maxsplit=1)
+                target = parts2[0]
+                task_text = parts2[1] if len(parts2) > 1 else ""
+                result = delegate("drawclaw", target, task_text)
+
+            elif cmd in ("/export", "export") and query:
+                result = delegate("drawclaw", "docuclaw", f"/create art: {query}", timeout=60)
+
             # Drawing commands
-            if cmd in ("/canvas", "canvas"):
+            elif cmd in ("/canvas", "canvas"):
                 from agents.drawclaw.commands.canvas import run
                 result = run(query)
             elif cmd in ("/sketch", "sketch") and query:
@@ -59,7 +72,7 @@ class DrawClawAgent(BaseAgent):
                 from agents.drawclaw.commands.compose import run
                 result = run(query)
 
-            # New commands - animation, filters, QR
+            # Animation, filters, QR
             elif cmd in ("/animate", "animate") and query:
                 from agents.drawclaw.commands.animate import run
                 result = run(query)
@@ -83,9 +96,10 @@ class DrawClawAgent(BaseAgent):
             /describe <visual> - Visual reference card
             /style <concept> - Art style guide card
             /compose <scene> - Composition overlay
-  TOOLS:    /animate <style> <frames> - Animated GIF (spiral/wave/geometric/bloom/bubble/kaleidoscope)
-            /filter <mode> - Apply filter to last drawing (blur/edges/cartoon/pencil/sepia...)
+  TOOLS:    /animate <style> <frames> - Animated GIF
+            /filter <mode> - Apply filter to last drawing
             /qr <url/text> - Generate QR code
+  DELEGATE: /delegate /export
   META:     /help /stats"""
 
             elif cmd == "/stats":
@@ -98,8 +112,12 @@ class DrawClawAgent(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("drawclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = DrawClawAgent()
+
+
 def process_task(task, agent=None):
     return _agent.handle(task)

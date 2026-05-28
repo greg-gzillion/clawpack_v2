@@ -8,6 +8,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(LAWCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 class LawClawHandler(BaseAgent):
     def __init__(self):
@@ -76,7 +77,7 @@ class LawClawHandler(BaseAgent):
                 result = cmd_run(args)
             elif cmd == "/list":
                 from agents.lawclaw.commands.list import run as cmd_run
-                result = cmd_run("")
+                result = cmd_run(args)
             elif cmd == "/oral" and args:
                 from agents.lawclaw.commands.oral import run as cmd_run
                 result = cmd_run(args)
@@ -105,8 +106,12 @@ class LawClawHandler(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("lawclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = LawClawHandler()
+
+
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

@@ -133,6 +133,17 @@
       "urls": [],
       "metadata": {},
       "timestamp": "2026-05-28T01:57:24.213479+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/search",
+      "query": "Miranda",
+      "fact": "Found 8 files matching 'Miranda'",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-28T13:32:42.783229+00:00"
     }
   ],
   "index": {
@@ -178,7 +189,10 @@
     ],
     "wade": [
       6
+    ],
+    "miranda": [
+      11
     ]
   },
-  "updated_at": "2026-05-28T01:57:24.213479+00:00"
+  "updated_at": "2026-05-28T13:32:42.784249+00:00"
 }

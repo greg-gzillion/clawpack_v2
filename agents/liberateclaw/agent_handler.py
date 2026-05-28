@@ -3,10 +3,12 @@ import sys
 import json
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
-MODELS_FILE = Path("str(PROJECT_ROOT)/models/working_llms.json")
+MODELS_FILE = PROJECT_ROOT / "models" / "working_llms.json"
 
 class LiberateClawAgent(BaseAgent):
     def __init__(self):
@@ -23,7 +25,6 @@ class LiberateClawAgent(BaseAgent):
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data)
-                # Search chronicle index
         chronicle_results = self.search_chronicle(query, limit=2000000)
         if chronicle_results:
             for c in chronicle_results:
@@ -45,9 +46,9 @@ class LiberateClawAgent(BaseAgent):
                 models = self._get_models()
                 obliterated = [m for m in models if m.get('obliterated')]
                 standard = [m for m in models if not m.get('obliterated')]
-                result = f"🔥 OBLITERATED MODELS ({len(obliterated)}):\n"
+                result = f"OBLITERATED MODELS ({len(obliterated)}):\n"
                 result += "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in obliterated)
-                result += f"\n\n📦 STANDARD MODELS ({len(standard)}):\n"
+                result += f"\n\nSTANDARD MODELS ({len(standard)}):\n"
                 result += "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in standard)
             elif cmd in ("/obliterated", "obliterated"):
                 models = self._get_models()
@@ -73,9 +74,12 @@ class LiberateClawAgent(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("liberateclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = LiberateClawAgent()
+
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

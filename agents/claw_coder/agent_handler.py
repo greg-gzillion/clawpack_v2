@@ -11,6 +11,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(CODER_DIR))
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "llmclaw"))
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 from agents.claw_coder.engine.code_generator import CodeGenerator, _detect_lang, LANG_EXT, LANG_VERSION, _extract_code
 import importlib.util
 
@@ -249,6 +250,7 @@ class ClawCoderAgent(BaseAgent):
 
             return {"status":"success","result":str(result)}
         except Exception as e:
+            log_err("claw_coder", cmd or "unknown", str(e)[:200])
             return {"status":"error","result":str(e)}
 
     def _execute(self, payload):
@@ -291,9 +293,12 @@ class ClawCoderAgent(BaseAgent):
 
             return {"status":"success","result":str(result)}
         except Exception as e:
+            log_err("claw_coder", "execute_error", str(e)[:200])
             return {"status":"error","result":str(e)}
 
+
 _agent = ClawCoderAgent()
+
 
 def process_task(task, agent=None):
     return _agent.handle(task)

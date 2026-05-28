@@ -10,6 +10,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(FLOWCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 from agents.flowclaw.engine.diagram_engine import DiagramEngine
 from agents.flowclaw.viewer.diagram_viewer import DiagramViewer
 from agents.flowclaw.exporters.base_exporter import DocxExporter, PdfExporter, HtmlExporter, MarkdownExporter, JsonExporter
@@ -98,7 +99,6 @@ class FlowClawAgent(BaseAgent):
                 from agents.flowclaw.data_io import list_exports
                 return {"status": "success", "result": "Exports:\n" + list_exports()}
 
-            # Diagram generation - opens browser by default
             diagram_type = "flowchart"
             if cmd in ("/flowchart",): diagram_type = "flowchart"
             elif cmd in ("/sequence",): diagram_type = "sequence"
@@ -130,6 +130,7 @@ class FlowClawAgent(BaseAgent):
             return {"status": "success", "result": str(result)}
 
         except Exception as e:
+            log_err("flowclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
     def _execute(self, payload):
@@ -162,9 +163,12 @@ class FlowClawAgent(BaseAgent):
             return {"status": "success", "result": str(result)}
 
         except Exception as e:
+            log_err("flowclaw", "execute_error", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = FlowClawAgent()
+
 
 def process_task(task, agent=None):
     return _agent.handle(task)

@@ -8,6 +8,7 @@ EXPORTS = PROJECT_ROOT / "exports"
 sys.path.insert(0, str(PROJECT_ROOT))
 from shared.base_agent import BaseAgent
 from shared.security import InputSanitizer
+from shared._agent_helpers import delegate, log_err
 
 class FileClawAgent(BaseAgent):
     def __init__(self):
@@ -201,7 +202,8 @@ class FileClawAgent(BaseAgent):
         else:
             cmd, rest = "", task
         try:
-            if cmd == "/import" and rest: result = self._import(rest)
+            if cmd == "/import" and rest:
+                result = self._import(rest)
             elif cmd == "/export" and rest:
                 fp = rest.split(maxsplit=1)
                 result = self._export(fp[0], fp[1]) if len(fp) == 2 else "Usage: /export <format> <content>"
@@ -210,13 +212,21 @@ class FileClawAgent(BaseAgent):
                 if len(cp) == 2:
                     c = self._import(cp[0])
                     result = self._export(cp[1], c, Path(cp[0]).stem)
-                else: result = "Usage: /convert <source> <target_format>"
+                else:
+                    result = "Usage: /convert <source> <target_format>"
             elif cmd in ("/formats", "/list"):
                 result = f"FileClaw Formats ({len(self.binary_importers) + len(self.text_formats)} total)\n\n"
                 result += "Binary Import: " + ", ".join(sorted(self.binary_importers.keys())) + "\n\n"
                 result += "Text Formats: " + ", ".join(sorted(self.text_formats))
+            elif cmd == "/delegate" and rest:
+                parts2 = rest.split(maxsplit=1)
+                target = parts2[0]
+                task_text = parts2[1] if len(parts2) > 1 else ""
+                result = delegate("fileclaw", target, task_text)
+            elif cmd == "/docuclaw" and rest:
+                result = delegate("fileclaw", "docuclaw", f"/create {rest}", timeout=60)
             elif cmd == "/help":
-                result = f"FileClaw - {len(self.binary_importers) + len(self.text_formats)} Format Handler\n\n  /import <file>     - Read any supported file\n  /export <fmt> <content> - Export to any format\n  /convert <src> <fmt> - Convert between formats\n  /formats           - List supported formats\n  /help /stats"
+                result = f"FileClaw - {len(self.binary_importers) + len(self.text_formats)} Format Handler\n\n  /import <file>     - Read any supported file\n  /export <fmt> <content> - Export to any format\n  /convert <src> <fmt> - Convert between formats\n  /formats           - List supported formats\n  /delegate <agent> <task> - Cross-agent delegation\n  /help /stats"
             elif cmd == "/stats":
                 total = len(self.binary_importers) + len(self.text_formats)
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
@@ -224,8 +234,12 @@ class FileClawAgent(BaseAgent):
                 result = "FileClaw: Use /import, /export, /convert, /formats, or /help"
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("fileclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = FileClawAgent()
+
+
 def process_task(task, agent=None):
     return _agent.handle(task)

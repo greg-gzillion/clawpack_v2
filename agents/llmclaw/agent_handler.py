@@ -8,6 +8,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 def _get_working_llms():
     f = PROJECT_ROOT / "models" / "working_llms.json"
@@ -45,9 +46,7 @@ class LLMClawAgent(BaseAgent):
         return run(prompt)
 
     def orchestrate(self, query: str, domain: str = "") -> str:
-        """Intelligent multi-agent orchestration. Claude decides which agents to call."""
-        
-        # Available agents and their capabilities
+        """Intelligent multi-agent orchestration."""
         agent_catalog = """Available agents and what they do:
 - mediclaw: medical research, diagnoses, treatments, medications, lab tests
 - lawclaw: legal research, case law, statutes, court information, contracts
@@ -62,7 +61,6 @@ class LLMClawAgent(BaseAgent):
 - rustypycraw: code scanning and analysis
 - plotclaw: data visualization and charts"""
         
-        # Ask Claude to decide what to do
         plan_prompt = f"""You are an AI orchestrator. Decide which agents to query and what to ask them.
 
 USER QUERY: {query}
@@ -80,9 +78,7 @@ Return ONLY valid JSON, no other text:"""
         
         plan_json = self._run_llm(plan_prompt)
         
-        # Parse the plan
         try:
-            # Extract JSON from response (Claude might wrap it)
             import re
             json_match = re.search(r'\{.*\}', plan_json, re.DOTALL)
             if json_match:
@@ -90,12 +86,10 @@ Return ONLY valid JSON, no other text:"""
             else:
                 plan = json.loads(plan_json)
         except:
-            # Fallback: basic chronicle + web search
             plan = {"agents": [
                 {"agent": "webclaw", "task": f"search {query}"}
             ]}
         
-        # Execute the plan
         context_parts = []
         for step in plan.get("agents", []):
             agent = step["agent"]
@@ -107,7 +101,6 @@ Return ONLY valid JSON, no other text:"""
             except:
                 pass
         
-        # Also search chronicle directly
         chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:
             chronicle_lines = []
@@ -119,7 +112,6 @@ Return ONLY valid JSON, no other text:"""
         
         context = "\n\n".join(context_parts)
         
-        # Final synthesis
         final_prompt = f"""User query: {query}
 
 Research context from specialists:
@@ -172,14 +164,16 @@ Provide a comprehensive answer with citations from the context above. Include sp
                 active = _get_active()
                 result = f"LLMClaw | Active: {active.get('model')} ({active.get('source')}) | Interactions: {self.state.get('interactions', 0)}"
             else:
-                # Default: orchestrate unknown commands
                 result = self.orchestrate(task)
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("llmclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = LLMClawAgent()
+
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)

@@ -8,6 +8,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(MATHCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import delegate, chronicle, log_err
 import importlib.util
 
 def _load_mod(name):
@@ -41,10 +42,23 @@ class MathematicaClawAgent(BaseAgent):
         query = args if args else task
 
         try:
+            # ---- Cross-Agent Delegation ----
+            if cmd in ("/delegate", "delegate") and args:
+                parts2 = args.split(maxsplit=1)
+                target = parts2[0]
+                task_text = parts2[1] if len(parts2) > 1 else ""
+                result = delegate("mathematicaclaw", target, task_text)
+
+            elif cmd in ("/export", "export") and query:
+                result = delegate("mathematicaclaw", "docuclaw", f"/create math: {query}", timeout=60)
+
+            elif cmd in ("/chart", "chart") and query:
+                result = delegate("mathematicaclaw", "plotclaw", f"/plot {query}", timeout=30)
+
             # ---- Equation Solving ----
-            if cmd in ("/solve", "solve") and query:
+            elif cmd in ("/solve", "solve") and query:
                 result = _solve_mod.run(query)
-            
+
             # ---- Algebra ----
             elif cmd in ("/simplify", "simplify") and query:
                 result = _algebra_mod.simplify(query)
@@ -54,7 +68,7 @@ class MathematicaClawAgent(BaseAgent):
                 result = _algebra_mod.expand(query)
             elif cmd in ("/algebra", "algebra") and query:
                 result = _algebra_mod.solve(query)
-            
+
             # ---- Calculus ----
             elif cmd in ("/derivative", "/diff", "derivative", "diff") and query:
                 result = _calculus_mod.derivative(query)
@@ -65,7 +79,7 @@ class MathematicaClawAgent(BaseAgent):
             elif cmd in ("/proof", "proof") and query:
                 from handlers.calculus import proof
                 result = proof(query)
-            
+
             # ---- Systems & Matrices ----
             elif cmd in ("/system", "system") and query:
                 try:
@@ -103,7 +117,7 @@ class MathematicaClawAgent(BaseAgent):
                     result = f"Matrix:\n{mat}\n\nDeterminant: {det}\n\nRow-Reduced Echelon Form:\n{rref}\n\nEigenvalues: {eigenvalues}"
                 except Exception as e:
                     result = f"Error: {e}"
-            
+
             # ---- Arithmetic ----
             elif cmd in ("/add", "add") and query:
                 result = _arithmetic_mod.add(query)
@@ -119,7 +133,7 @@ class MathematicaClawAgent(BaseAgent):
                 result = _arithmetic_mod.sqrt(query)
             elif cmd in ("/percent", "percent") and query:
                 result = _arithmetic_mod.percent(query)
-            
+
             # ---- Visualization ----
             elif cmd in ("/plot", "plot") and query:
                 result = _plot_mod.run(query)
@@ -138,11 +152,11 @@ class MathematicaClawAgent(BaseAgent):
             elif cmd in ("/contour", "contour") and query:
                 from visualization.graph_builder import GraphBuilder
                 result = GraphBuilder.contour_plot(query)
-            
+
             # ---- Explanation & LLM ----
             elif cmd in ("/explain", "explain") and query:
                 result = self.ask_llm(f"Explain this mathematical concept in detail with examples, proofs, and applications: {query}")
-            
+
             # ---- Meta ----
             elif cmd in ("/help", "help"):
                 result = """MathematicaClaw - Complete Math Engine
@@ -152,10 +166,11 @@ class MathematicaClawAgent(BaseAgent):
   ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent
   VISUALIZE:  /plot /animate
   EXPLAIN:    /explain <concept>
+  DELEGATE:   /delegate /export /chart
   META:       /help /stats"""
             elif cmd in ("/stats", "stats"):
                 result = f"MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: {self.state.get('interactions', 0)}"
-            
+
             # ---- Fallback: try to solve as equation ----
             elif query:
                 result = _solve_mod.run(query)
@@ -164,6 +179,7 @@ class MathematicaClawAgent(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("mathematicaclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
 _agent = MathematicaClawAgent()

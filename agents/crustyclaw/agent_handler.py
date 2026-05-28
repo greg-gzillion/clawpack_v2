@@ -10,6 +10,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(CRUSTY_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 class CrustyClawAgent(BaseAgent):
     def __init__(self):
@@ -144,6 +145,7 @@ class CrustyClawAgent(BaseAgent):
 
             return {"status":"success","result":str(result)}
         except Exception as e:
+            log_err("crustyclaw", cmd or "unknown", str(e)[:200])
             return {"status":"error","result":str(e)}
 
     def _execute(self, payload):
@@ -156,8 +158,12 @@ class CrustyClawAgent(BaseAgent):
             query = payload.get("query",""); result = self.ask_llm(f"Write clean Rust 2024 edition code. Task: {query}")
             return {"status":"success","result":str(result)}
         except Exception as e:
+            log_err("crustyclaw", "execute_error", str(e)[:200])
             return {"status":"error","result":str(e)}
 
+
 _agent = CrustyClawAgent()
+
+
 def process_task(task, agent=None):
     return _agent.handle(task)

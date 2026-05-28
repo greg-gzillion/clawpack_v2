@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from webclaw import Webclaw
 from agents.webclaw.providers.webclaw_provider import WebclawProvider
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 webclaw = Webclaw()
 provider = WebclawProvider()
@@ -36,6 +37,7 @@ class WebClawAgent(BaseAgent):
                     "result": result.get("error", "fetch failed")
                 }
             except Exception as e:
+                log_err("webclaw", "fetch_error", str(e)[:200])
                 return {"status": "error", "result": str(e)}
 
         if task.startswith("search "):
@@ -79,6 +81,7 @@ class WebClawAgent(BaseAgent):
 
             return {"status": "success", "result": result}
         except Exception as e:
+            log_err("webclaw", "search_error", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
 

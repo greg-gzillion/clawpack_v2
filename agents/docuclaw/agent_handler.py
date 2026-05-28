@@ -11,6 +11,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(DOCUCLAW_DIR))
 
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 from modules.viewer import view_document
 from modules.validator import validate_claims, generate_trust_footer
 
@@ -292,8 +293,12 @@ class DocuClawAgent(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("docuclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = DocuClawAgent()
+
+
 def process_task(task, agent=None):
     return _agent.handle(task)

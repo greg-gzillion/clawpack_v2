@@ -10,6 +10,7 @@ sys.path.insert(0, str(DRAFTCLAW_DIR))
 
 from shared.base_agent import BaseAgent
 from shared.truth_resolver import merge_with_retriever
+from shared._agent_helpers import log_err
 from references import search_references
 from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact, classify_occupancy
 
@@ -369,7 +370,8 @@ class DraftClawAgent(BaseAgent):
                         export = self._fileclaw_export("png", str(pil_result))
                         result = f"{export}\n\n{result}"
                 except Exception as e:
-                    result += f" [Blueprint visual: {str(e)[:80]}]"
+                  log_err("draftclaw", cmd or "unknown", str(e)[:200])
+                return {"status":"error","result":str(e)}
 
             elif cmd in ("/cad","/schematic") and query:
                 prompt = f"Generate a technical schematic with precise measurements, component layout, and connection points. Format as ASCII art diagram.\n\nSpecs: {query}"

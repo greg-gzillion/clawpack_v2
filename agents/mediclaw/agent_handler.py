@@ -9,6 +9,7 @@ sys.path.insert(0, str(MEDICLAW_DIR))
 
 from core.agent import MediclawAgent
 from shared.base_agent import BaseAgent
+from shared._agent_helpers import log_err
 
 class MedicLawHandler(BaseAgent):
     def __init__(self):
@@ -34,7 +35,6 @@ class MedicLawHandler(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
 
         try:
-            # Fast local commands
             if cmd in ("/help", "help"):
                 result = """MedicLaw - Medical AI Agent
   /research <topic> /diagnose <symptoms> /treatment <condition>
@@ -47,15 +47,11 @@ class MedicLawHandler(BaseAgent):
                 result = f"Medical Sources ({len(self.agent.list_sources())}):\n" + "\n".join(f"  {i}. {s}" for i, s in enumerate(self.agent.list_sources(), 1))
             elif cmd in ("/stats", "stats"):
                 result = f"MedicLaw | Queries: {len(self.agent.session['queries'])} | Sources: {len(self.agent.list_sources())} | Started: {self.agent.session['started']}"
-            
-            # Engine-backed commands (use chronicle directly, fast)
             elif cmd in ("/diagnose", "/treatment", "/research", "/med") and args:
                 method = {"diagnose": self.agent.diagnose, "treatment": self.agent.treatment, "research": self.agent.research, "med": self.agent.research}[cmd.lstrip("/")]
                 result = method(args)
                 export = self.call_agent("fileclaw", f"/export md MedicLaw: {args}\n\n{result}")
                 if export: result = f"{export}\n\n{result}"
-            
-            # LLM-backed commands with A2A context
             elif cmd == "/medications" and args: result = self.agent.medications(args)
             elif cmd == "/interactions" and args: result = self.agent.interactions(args)
             elif cmd == "/warnings" and args: result = self.agent.warnings(args)
@@ -71,8 +67,6 @@ class MedicLawHandler(BaseAgent):
             elif cmd == "/prognosis" and args: result = self.agent.prognosis(args)
             elif cmd == "/referral" and args: result = self.agent.referral(args)
             elif cmd == "/emergency" and args: result = self.agent.emergency(args)
-            
-            # Generic query: gather context via A2A + ask LLMClaw
             elif args:
                 context = self._gather_context(args)
                 result = self.ask_llm(f"Medical information: {args}\n\nContext:\n{context}")
@@ -81,8 +75,12 @@ class MedicLawHandler(BaseAgent):
 
             return {"status": "success", "result": str(result)}
         except Exception as e:
+            log_err("mediclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
+
 _agent = MedicLawHandler()
+
+
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)
