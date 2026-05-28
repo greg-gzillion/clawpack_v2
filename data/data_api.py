@@ -1,4 +1,5 @@
 ﻿import sqlite3
+import re
 import json
 from pathlib import Path
 
@@ -66,25 +67,31 @@ def query_building_codes(state=None, city=None, county=None):
     db.close()
     return results
 
+
+def _safe_component(s: str, max_len: int = 80) -> str:
+    """Sanitize path component for CodeQL compliance."""
+    return re.sub(r'[^a-zA-Z0-9\s\-\']', '', str(s).strip())[:max_len]
+
+
 def query_design_resources(state=None, city=None):
     """Query design resources."""
     if not state:
         return []
 
-    # Validate state code - must be 2 letters, no path separators
-    state = state.strip()
-    if len(state) != 2 or not state.isalpha():
+    # Sanitize into visibly safe variables — CodeQL requires this pattern
+    safe_state = re.sub(r'[^a-zA-Z]', '', str(state).strip())[:2]
+    if len(safe_state) != 2:
         return []
 
-    # Sanitize city - no path separators
+    safe_city = None
     if city:
-        city = city.strip()
-        if any(c in city for c in "/\\.:"):
-            return []
+        safe_city = _safe_component(city, 80)
+        if not safe_city:
+            safe_city = None
 
     # Build path safely with canonical resolution and containment check
     design_root = (Path(r"C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\designclaw\jurisdictions\us")).resolve()
-    design_path = (design_root / state.lower() / "design_resources").resolve()
+    design_path = (design_root / safe_state.lower() / "design_resources").resolve()
 
     # Verify path containment
     try:
@@ -105,12 +112,12 @@ def query_design_resources(state=None, city=None):
             return []
         results.append({
             "level": "state",
-            "jurisdiction": state.upper(),
+            "jurisdiction": safe_state.upper(),
             "content": state_file.read_text(encoding="utf-8")[:1000]
         })
 
-    if city:
-        city_path = (design_path / city).resolve()
+    if safe_city:
+        city_path = (design_path / safe_city).resolve()
         try:
             city_path.relative_to(design_root)
         except ValueError:
@@ -124,11 +131,12 @@ def query_design_resources(state=None, city=None):
                 return results
             results.append({
                 "level": "city",
-                "jurisdiction": f"{city}, {state.upper()}",
+                "jurisdiction": f"{safe_city}, {safe_state.upper()}",
                 "content": city_file.read_text(encoding="utf-8")[:1000]
             })
 
     return results
+
 
 def data_response(data, query_params):
     """Wrap data with attribution metadata."""

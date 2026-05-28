@@ -31,6 +31,11 @@ EXCLUDE_FILES = [
 ]
 
 
+def _safe_component(s: str, max_len: int = 80) -> str:
+    """Sanitize path component for CodeQL compliance."""
+    return re.sub(r'[^a-zA-Z0-9\s\-\']', '', str(s).strip())[:max_len]
+
+
 def rank_court_files(files):
     """Rank files by court relevance. Exclude building/zoning files."""
     ranked = []
@@ -143,19 +148,17 @@ def find_jurisdiction_files(intent):
     if not state_code:
         return results
     
-    # Validate state code
-    if len(state_code) != 2 or not state_code.isalpha():
+    # Sanitize all components into visibly safe variables — CodeQL requires this
+    safe_state = _safe_component(state_code, 2)
+    if len(safe_state) != 2:
         return results
     
-    # Sanitize county and city
-    if county and any(c in county for c in "/\\.:"):
-        return results
-    if city and any(c in city for c in "/\\.:"):
-        return results
+    safe_county = _safe_component(county, 80) if county else ""
+    safe_city = _safe_component(city, 80) if city else ""
     
-    state_path = (juris_root / state_code).resolve()
+    state_path = (juris_root / safe_state).resolve()
     if not state_path.exists():
-        state_path = (juris_root / state_code.lower()).resolve()
+        state_path = (juris_root / safe_state.lower()).resolve()
     if not state_path.exists():
         return results
     
@@ -166,39 +169,39 @@ def find_jurisdiction_files(intent):
         return results
     
     # City level
-    if city and county:
+    if safe_city and safe_county:
         for county_dir in state_path.iterdir():
             if not county_dir.is_dir():
                 continue
-            if county.lower() == county_dir.name.replace("_", " ").lower():
+            if safe_county.lower() == county_dir.name.replace("_", " ").lower():
                 for city_dir in county_dir.iterdir():
                     if city_dir.is_dir():
-                        if city.lower() == city_dir.name.replace("_", " ").lower():
+                        if safe_city.lower() == city_dir.name.replace("_", " ").lower():
                             city_files = list(city_dir.glob("*.md"))
                             if city_files:
                                 results["files"] = rank_court_files(sorted(city_files))
-                                results["display_path"] = f"{state_code}/{county_dir.name}/{city_dir.name}"
+                                results["display_path"] = f"{safe_state}/{county_dir.name}/{city_dir.name}"
                                 results["level"] = "city"
                                 return results
                 county_files = list(county_dir.glob("*.md"))
                 results["files"] = rank_court_files(sorted(county_files))
-                results["display_path"] = f"{state_code}/{county_dir.name}"
+                results["display_path"] = f"{safe_state}/{county_dir.name}"
                 results["level"] = "county"
                 return results
     
     # County level
-    if county:
+    if safe_county:
         for county_dir in state_path.iterdir():
             if not county_dir.is_dir():
                 continue
-            if county.lower() == county_dir.name.replace("_", " ").lower():
+            if safe_county.lower() == county_dir.name.replace("_", " ").lower():
                 all_files = list(county_dir.glob("*.md"))
                 for sub_dir in county_dir.iterdir():
                     if sub_dir.is_dir():
                         all_files.extend(sub_dir.glob("*.md"))
                 if all_files:
                     results["files"] = rank_court_files(sorted(all_files))
-                    results["display_path"] = f"{state_code}/{county_dir.name}"
+                    results["display_path"] = f"{safe_state}/{county_dir.name}"
                     results["level"] = "county"
                     return results
     
@@ -206,7 +209,7 @@ def find_jurisdiction_files(intent):
     all_files = list(state_path.glob("*.md"))
     if all_files:
         results["files"] = rank_court_files(sorted(all_files))[:10]
-        results["display_path"] = f"{state_code}"
+        results["display_path"] = f"{safe_state}"
         results["level"] = "state"
     
     return results

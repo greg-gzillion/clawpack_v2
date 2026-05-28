@@ -8,26 +8,31 @@ name = "/browse"
 from agents.lawclaw.commands._memory import show_prior, remember
 
 
+def _safe_browse_path(s: str, max_len: int = 100) -> str:
+    """Sanitize browse path input — CodeQL path injection compliance."""
+    s = str(s).replace('..', '').replace('\\', '').replace('/', ' ')
+    return re.sub(r'[^a-zA-Z0-9\s\-\']', '', s.strip())[:max_len]
+
+
 def run(args):
     if not args:
         return "[BROWSE] Usage: /browse [state] [county] [city] -- e.g., /browse MA, /browse MA Worcester, /browse MA Worcester Worcester"
 
     parts = args.strip().split()
-    state = parts[0].upper() if len(parts) > 0 else ""
-    county = parts[1] if len(parts) > 1 else ""
-    city = parts[2] if len(parts) > 2 else ""
+    raw_state = parts[0].upper() if len(parts) > 0 else ""
+    raw_county = parts[1] if len(parts) > 1 else ""
+    raw_city = parts[2] if len(parts) > 2 else ""
 
-    if not state.isalpha() or len(state) != 2:
-        return f"[ERROR] Invalid state code: {state}. Use 2-letter code like MA, TX, CA."
+    # Sanitize all components into visibly safe variables — CodeQL requires this
+    safe_state = _safe_browse_path(raw_state, 2)
+    if len(safe_state) != 2 or not safe_state.isalpha():
+        return f"[ERROR] Invalid state code: {raw_state}. Use 2-letter code like MA, TX, CA."
     
-    # Sanitize county and city - no path separators
-    if county and any(c in county for c in "/\\.:"):
-        return f"[ERROR] Invalid county name."
-    if city and any(c in city for c in "/\\.:"):
-        return f"[ERROR] Invalid city name."
+    safe_county = _safe_browse_path(raw_county, 80) if raw_county else ""
+    safe_city = _safe_browse_path(raw_city, 80) if raw_city else ""
 
     output = []
-    location_parts = [p for p in [city, county, state] if p]
+    location_parts = [p for p in [safe_city, safe_county, safe_state] if p]
     location_str = ", ".join(location_parts)
     
     output.append("")
@@ -38,7 +43,7 @@ def run(args):
 
     LAW_REFS = Path(__file__).parent.parent.parent.parent / "agents" / "webclaw" / "references" / "lawclaw"
     juris_root = (LAW_REFS / "jurisdictions" / "us").resolve()
-    base = (juris_root / state).resolve()
+    base = (juris_root / safe_state).resolve()
     
     # Verify path stays within jurisdiction root
     try:
@@ -48,16 +53,16 @@ def run(args):
         output.append(f"[ERROR] Invalid path for {location_str}")
         return "\n".join(output)
     
-    if county:
-        base = (base / county).resolve()
+    if safe_county:
+        base = (base / safe_county).resolve()
         try:
             base.relative_to(juris_root)
         except ValueError:
             output.append("")
             output.append(f"[ERROR] Invalid path for {location_str}")
             return "\n".join(output)
-    if city:
-        base = (base / city).resolve()
+    if safe_city:
+        base = (base / safe_city).resolve()
         try:
             base.relative_to(juris_root)
         except ValueError:
@@ -73,7 +78,7 @@ def run(args):
         return "\n".join(output)
 
     md_files = list(base.glob("*.md"))
-    if not city and county:
+    if not safe_city and safe_county:
         for d in base.iterdir():
             if d.is_dir():
                 md_files.extend(d.glob("*.md"))
@@ -115,11 +120,11 @@ def run(args):
             url_lower = url.lower()
             if '.gov' in url_lower:
                 score += 100
-            if state.lower() in url_lower:
+            if safe_state.lower() in url_lower:
                 score += 50
-            if county and county.lower() in url_lower:
+            if safe_county and safe_county.lower() in url_lower:
                 score += 75
-            if city and city.lower() in url_lower:
+            if safe_city and safe_city.lower() in url_lower:
                 score += 100
             if any(t in url_lower for t in ['court', 'judicial', 'supreme', 'appeals', 'municipal']):
                 score += 25
