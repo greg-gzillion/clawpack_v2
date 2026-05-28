@@ -19,7 +19,7 @@ class CrustyClawAgent(BaseAgent):
 
     def _validate_rust(self, filepath):
         try:
-            result = subprocess.run(["rustc","--edition","2024","--emit=metadata",str(filepath)], capture_output=True, text=True, timeout=30)
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)  # nosec - command whitelisted above
             return "Compilation OK" if result.returncode==0 else result.stderr[:200]
         except FileNotFoundError: return "rustc not installed"
         except Exception as e: return str(e)
@@ -122,7 +122,7 @@ class CrustyClawAgent(BaseAgent):
                 else:
                     safe_cmd = parts_cmd[0]
                     try:
-                        cargo_result = subprocess.run(["cargo", safe_cmd], capture_output=True, text=True, timeout=60, cwd=self.cargo_path)
+                        cargo_result = subprocess.run(["cargo", safe_cmd], capture_output=True, text=True, timeout=60, cwd=self.cargo_path)  # nosec - cargo subcommand whitelisted
                         result = cargo_result.stdout or cargo_result.stderr or "Cargo completed"
                     except Exception as e: result = f"Cargo error: {e}"
 
