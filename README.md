@@ -1,11 +1,13 @@
 ﻿# CLAWPACK V2
 
+Constitutional multi-agent runtime with sovereign model governance, audited memory, and enforced execution law.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg)](https://doi.org/10.5281/zenodo.19713157)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--9191--5556-a6ce39?logo=orcid)](https://orcid.org/0009-0001-9191-5556)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 
-**21 agents * 15 sovereign ministries * Chronicle audit (35K+) * A2A routing**
+**21 agents · 15 sovereign ministries · Chronicle audit (35K+) · A2A routing**
 
 ---
 
@@ -39,20 +41,20 @@ Every agent inherits these through `shared/`. No agent works alone.
 |-------|--------|-------------|
 | **llmclaw** | Model management and orchestration | Sovereign gateway |
 | **claw_coder** | 39-language code generation | DocuClaw, FileClaw, WebClaw |
-| **mathematicaclaw** | Math engine * SymPy * Plotly | DocuClaw, PlotClaw |
-| **mediclaw** | Medical analysis * 66 specialties | DocuClaw, WebClaw, LawClaw |
+| **mathematicaclaw** | Math engine · SymPy · Plotly | DocuClaw, PlotClaw |
+| **mediclaw** | Medical analysis · 66 specialties | DocuClaw, WebClaw, LawClaw |
 | **lawclaw** | Law research and analysis (23 commands) | DocuClaw, WebClaw, PlotClaw, FlowClaw |
 | **webclaw** | Web search and indexing | Chronicle |
 | **dataclaw** | Data search and analysis | FileClaw |
 | **docuclaw** | Document creation for ALL agents | FileClaw, InterpretClaw |
-| **fileclaw** | File operations * 52 formats | DocuClaw |
+| **fileclaw** | File operations · 52 formats | DocuClaw |
 | **drawclaw** | Visual art and illustration | DocuClaw |
 | **plotclaw** | Charts, graphs, data viz | DocuClaw |
 | **flowclaw** | Diagrams and flowcharts | DocuClaw, WebClaw, DataClaw, FileClaw |
 | **designclaw** | Brand and design | DocuClaw |
 | **draftclaw** | Technical drawings | DocuClaw |
 | **dreamclaw** | AI vision and generation | Sovereign gateway |
-| **interpretclaw** | Translation * 39 languages | WebClaw |
+| **interpretclaw** | Translation · 39 languages | WebClaw |
 | **langclaw** | Language teaching | WebClaw |
 | **crustyclaw** | Rust AI and compiler | ClawCoder |
 | **liberateclaw** | Model obliteration | Sovereign gateway |
@@ -61,9 +63,9 @@ Every agent inherits these through `shared/`. No agent works alone.
 
 ## LLM Models (25 via sovereign gateway)
 
-**4 providers:** Ollama (local) * Groq * OpenRouter * Anthropic
+**4 providers:** Ollama (local) · Groq · OpenRouter · Anthropic
 
-**Obliterated:** deepseek-coder-liberated * codellama-liberated * smollm2-liberated * tinyllama-liberated * gemma3-liberated
+**Obliterated:** deepseek-coder-liberated · codellama-liberated · smollm2-liberated · tinyllama-liberated · gemma3-liberated
 
 **Default runtime:** constitutional routing (provider-selectable via `llmclaw /use`)
 
@@ -83,24 +85,24 @@ clawpack_v2/
 ├── data/                  # Chronicle + budget + memory index
 └── exports/               # Generated files
 A2A Protocol
-Server: a2a_server.py * Port: 8766
+Server: a2a_server.py · Port: 8766
 
 bash
 python a2a_server.py
-Endpoints: GET /health * GET /v1/agents * GET /memory/stats * POST /v1/message/{agent}
+Endpoints: GET /health · GET /v1/agents · GET /memory/stats · POST /v1/message/{agent}
 
 Example
 bash
 $ /law qualified immunity
   [MEMORY] 2 related prior searches found
-  31,918 cases found * 8 displayed
-  SCOTUS: Salazar-Limon v. City of Hous. (2017)
+  31,918 cases found · 8 displayed
+  SCOTUS: Pearson v. Callahan (2009)
 
 $ /llmclaw /use claude-haiku
   Switched to: claude-haiku-4-5-20251001
 
 $ /jurisdiction Daytona Beach FL
-  Courts * Police * Jail * 2 Hospitals (GPS) * Library * Permits
+  Courts · Police · Jail · 2 Hospitals (GPS) · Library · Permits
 Constitutional Law
 All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
 
@@ -113,4 +115,4 @@ Suggested attribution: Data sourced from Clawpack V2 Jurisdictional Dataset (git
 
 DOI: 10.5281/zenodo.19713157 (latest version via Zenodo)
 
-MIT License * greg-gzillion
+MIT License · greg-gzillion
