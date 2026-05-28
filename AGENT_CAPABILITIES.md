@@ -1,126 +1,94 @@
-﻿
-Agent Capability Map — Clawpack V2
-The 21 Agents and Their Jurisdictions
-#AgentJurisdictionDelegates To
-1lawclawLaw research & analysisdocuclaw, webclaw, plotclaw, flowclaw
-2flowclawFlowcharts & diagramsdocuclaw, webclaw, dataclaw, fileclaw
-3docuclawDocument creation for ALL agentsfileclaw, interpretclaw
-4mathematicaclawMath & computationdocuclaw, plotclaw
-5liberateclawModel liberationSovereign Gateway
-6txclawBlockchain & smart contractsdocuclaw, fileclaw
-7interpretclawTranslation & speechwebclaw
-8langclawLanguage learningwebclaw
-9claw_coderCode generation (39 langs)webclaw, dataclaw, crustyclaw, docuclaw
-10dataclawData processing & analysisfileclaw
-11webclawWeb search & indexingChronicle
-12fileclawFile operations (52 formats)docuclaw
-13plotclawCharts & graphsdocuclaw
-14mediclawMedical analysisdocuclaw, webclaw, dataclaw, lawclaw
-15dreamclawAI vision & generationSovereign Gateway
-16designclawGraphic designdocuclaw
-17draftclawTechnical drawingsdocuclaw
-18crustyclawRust AI assistantclaw_coder
-19rustypycrawCode crawlerwebclaw, dataclaw, crustyclaw, claw_coder
-20drawclawAI drawing & artdocuclaw
-21llmclawModel managerSovereign Gateway
-lawclaw Cross-Agent Connections
-lawclaw → docuclaw
-When: User runs /export or asks to create a document
+﻿# Agent Capability Map - Clawpack V2
 
-How: delegate("docuclaw", f"/create {research_summary}", timeout=60)
+## The 21 Agents and Their Jurisdictions
 
-Trigger: /export command in agent_handler.py
+| # | Agent | Jurisdiction | Delegates To |
+|---|-------|-------------|-------------|
+| 1 | lawclaw | Law research and analysis | docuclaw, webclaw, plotclaw, flowclaw |
+| 2 | flowclaw | Flowcharts and diagrams | docuclaw, webclaw, dataclaw, fileclaw |
+| 3 | docuclaw | Document creation for ALL agents | fileclaw, interpretclaw |
+| 4 | mathematicaclaw | Math and computation | docuclaw, plotclaw |
+| 5 | liberateclaw | Model liberation | Sovereign Gateway |
+| 6 | txclaw | Blockchain and smart contracts | docuclaw, fileclaw |
+| 7 | interpretclaw | Translation and speech | webclaw |
+| 8 | langclaw | Language learning | webclaw |
+| 9 | claw_coder | Code generation (39 langs) | webclaw, dataclaw, crustyclaw, docuclaw |
+| 10 | dataclaw | Data processing and analysis | fileclaw |
+| 11 | webclaw | Web search and indexing | Chronicle |
+| 12 | fileclaw | File operations (52 formats) | docuclaw |
+| 13 | plotclaw | Charts and graphs | docuclaw |
+| 14 | mediclaw | Medical analysis | docuclaw, webclaw, dataclaw, lawclaw |
+| 15 | dreamclaw | AI vision and generation | Sovereign Gateway |
+| 16 | designclaw | Graphic design | docuclaw |
+| 17 | draftclaw | Technical drawings | docuclaw |
+| 18 | crustyclaw | Rust AI assistant | claw_coder |
+| 19 | rustypycraw | Code crawler | webclaw, dataclaw, crustyclaw, claw_coder |
+| 20 | drawclaw | AI drawing and art | docuclaw |
+| 21 | llmclaw | Model manager | Sovereign Gateway |
 
-lawclaw → webclaw
-When: Fetching live URLs, web search
+## lawclaw Cross-Agent Connections
 
-How: webclaw(url) from _helpers.py
+### lawclaw to docuclaw
+- When: User runs /export or asks to create a document
+- How: delegate("docuclaw", f"/create {research_summary}", timeout=60)
 
-Rule: NEVER use requests.get() directly — always through webclaw A2A
+### lawclaw to webclaw
+- When: Fetching live URLs, web search
+- How: webclaw(url) from _helpers.py
+- Rule: NEVER use requests.get() directly
 
-lawclaw → plotclaw
-When: Visualizing circuit splits, case timelines, jurisdiction maps
+### lawclaw to plotclaw
+- When: Visualizing circuit splits, case timelines
+- How: delegate("plotclaw", f"/plot {data}", timeout=30)
 
-How: delegate("plotclaw", f"/plot {data}", timeout=30)
+### lawclaw to flowclaw
+- When: Legal procedure flows, court hierarchy diagrams
+- How: delegate("flowclaw", f"/flowchart {description}", timeout=30)
 
-Trigger: /chart command in agent_handler.py
+## Agents That Call lawclaw
 
-lawclaw → flowclaw
-When: Legal procedure flows, court hierarchy diagrams
+### mediclaw to lawclaw
+- When: Medical cases with legal dimensions (HIPAA, malpractice)
+- Status: ACTIVE - wired in mediclaw/agent_handler.py
 
-How: delegate("flowclaw", f"/flowchart {description}", timeout=30)
+### txclaw to lawclaw (available)
+- When: Blockchain regulatory research
 
-Trigger: /diagram command in agent_handler.py
+### dataclaw to lawclaw (available)
+- When: Legal data analysis needs jurisdiction context
 
-Agents That Call lawclaw
-mediclaw → lawclaw
-When: Medical cases with legal dimensions (HIPAA, malpractice)
+## Shared Infrastructure (All 21 Agents)
 
-How: self.call_agent("lawclaw", f"search medical regulation {query}")
+| System | Path | Purpose |
+|--------|------|---------|
+| Chronicle | data/chronicle.db (448MB) | Full-text indexed audit trail |
+| Unified Memory | data/memory_index.json | Fast keyword index for cross-agent recall |
+| Sovereign Gateway | shared/llm/client.py | All LLM calls route here |
+| Truth Resolver | shared/truth_resolver.py | Source conflict resolution |
+| Memory Guard | shared/memory_guard.py | Blocks inference-tier, enforces 0.75 threshold |
+| Agent Registry | shared/registry.py | Canonical delegation map |
+| Decision Ledger | shared/decision_ledger.py | Tamper-evident audit hash chain |
+| Agent Helpers | shared/_agent_helpers.py | Empire-wide utilities (all 21 agents) |
 
-Status: ACTIVE — wired in mediclaw/agent_handler.py line 25
+## Connection Status by Agent (May 28, 2026)
 
-txclaw → lawclaw
-When: Blockchain regulatory research
+All 21 agents now import shared/_agent_helpers.py for constitutional audit logging.
+All 21 agents inherit from BaseAgent with call_agent(), ask_llm(), search_chronicle().
+No isolated agents remain - every agent has cross-agent communication capability.
 
-How: delegate("lawclaw", f"/statute {regulation}")
+## One-Session Connection Checklist
 
-Status: Available, not yet wired
-
-dataclaw → lawclaw
-When: Legal data analysis needs jurisdiction context
-
-How: delegate("lawclaw", f"/jurisdiction {location}")
-
-Status: Available, not yet wired
-
-Shared Infrastructure (All 21 Agents)
-SystemPathPurpose
-Chronicledata/chronicle.db (448MB)Full-text indexed audit trail
-Unified Memorydata/memory_index.jsonFast keyword index for cross-agent recall
-Sovereign Gatewayshared/llm/client.pyAll LLM calls route here
-Truth Resolvershared/truth_resolver.pySource conflict resolution
-Memory Guardshared/memory_guard.pyBlocks inference-tier, enforces 0.75 threshold
-Agent Registryshared/registry.pyCanonical delegation map
-Decision Ledgershared/decision_ledger.pyTamper-evident audit hash chain
-Connection Status by Agent (May 2026)
-AgentChronicleUnified MemoryCross-agent callsStatus
-lawclawYESYES4Connected
-claw_coderYESYES5Most outbound
-flowclawYESNO5Connected
-docuclawNONO4Connected
-mediclawNONO4Connected
-rustypycrawYESNO4Connected
-draftclawNONO3Connected
-plotclawNONO3Connected
-txclawYESNO3Connected
-webclawYESNO0Writes Chronicle
-drawclawNONO0Isolated
-fileclawNONO0Isolated
-mathematicaclawNONO0Isolated
-One-Session Connection Checklist
-A2A_PROTOCOL.md — how agents call each other
-
-SHARED_MEMORY_PROTOCOL.md — how agents learn together
-
-AGENT_CAPABILITIES.md — this file
-
-lawclaw → webclaw (via _helpers.webclaw())
-
-lawclaw → docuclaw (/export in agent_handler.py)
-
-lawclaw → plotclaw (/chart in agent_handler.py)
-
-lawclaw → flowclaw (/diagram in agent_handler.py)
-
-auto_delegate() + memory_write() in _helpers.py
-
-/law + /precedent wired for memory + delegation
-
-/state command
-
-/statute command
-
-/summarize command
-
-Memory wired in remaining commands
+- [x] A2A_PROTOCOL.md
+- [x] SHARED_MEMORY_PROTOCOL.md
+- [x] AGENT_CAPABILITIES.md (this file)
+- [x] All 21 agents wired with _agent_helpers
+- [x] All 12 lawclaw commands complete
+- [x] 4 civic commands added (/police, /detention, /library, /hospital)
+- [x] _helpers.py for lawclaw shared utilities
+- [x] _memory.py for cross-command shared learning
+- [x] auto_delegate() + memory_write() in _helpers.py
+- [x] /export, /chart, /diagram delegation routes in agent_handler.py
+- [x] Root documentation cleaned up
+- [ ] Shared memory wired into all lawclaw commands
+- [ ] Enforcement engine activated in a2a_server.py
+- [ ] Decision ledger wired into BaseAgent

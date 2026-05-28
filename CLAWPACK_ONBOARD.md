@@ -1,6 +1,6 @@
-> READ THIS FIRST. Do not write any code until you have read this entire document.
+﻿> READ THIS FIRST. Do not write any code until you have read this entire document.
 
-# CLAWPACK V2 — AI ONBOARDING CONTEXT
+# CLAWPACK V2 - AI ONBOARDING CONTEXT
 
 ## What This Is
 21-agent AI ecosystem. Menu-driven CLI. A2A routing on port 8766.
@@ -10,99 +10,103 @@ Built by Greg. You are helping build and maintain lawclaw commands.
 ## Before You Write Any Code
 1. Ask to see the current file if modifying an existing command.
 2. Ask to see a working command (e.g. docket.py or jurisdiction.py) if building a new stub.
-3. Do not assume file contents — they may differ from what's in conversation history.
-4. State what you're about to do before doing it. One function at a time.
+3. Do not assume file contents - they may differ from what is in conversation history.
+4. State what you are about to do before doing it. One function at a time.
 
 ## How Commands Load
-Commands in `agents/lawclaw/commands/` are loaded dynamically by `__init__.py`.
-Each file needs: `name = "/commandname"` and `def run(args):` at module level.
-No manual registration — just drop the .py file in the directory.
+Commands in agents/lawclaw/commands/ are loaded dynamically by __init__.py.
+Each file needs: name = "/commandname" and def run(args): at module level.
+No manual registration - just drop the .py file in the directory.
 
 ## Constitution (NON-NEGOTIABLE)
-- All LLM access → Sovereign Gateway only (A2A → llmclaw). No direct API calls.
-- All exceptions must log. `except: pass` is UNCONSTITUTIONAL.
+- All LLM access goes to Sovereign Gateway only (A2A to llmclaw). No direct API calls.
+- All exceptions must log. except: pass is UNCONSTITUTIONAL.
 - Truth hierarchy: web_verified > chronicle > memory > inference.
 - Every agent has defined jurisdiction. No crossing.
 
 ## Correct Exception Handling
 ```python
-# WRONG — unconstitutional
+# WRONG - unconstitutional
 except:
     pass
 
 # CORRECT
-except requests.exceptions.Timeout:
-    _log("lawclaw", "command_timeout", str(e)[:100])
 except Exception as e:
-    _log("lawclaw", "command_error", str(e)[:200])
-Working Commands
+    log_err("agent_name", "context", str(e)[:200])
+Working Commands (all 12 lawclaw commands complete)
 /docket
 CourtListener API. Real docket entries from recap_documents. Paginated entry fetch.
 Jury demand detection. LLM timeline summaries. Multi-court disambiguation.
-Working: case number search, CourtListener URL drill-down. ✓
 
 /court
 Filesystem jurisdiction lookup. State/county/city matching. URL ranking with .gov preference.
-Excludes non-legal civic files. LLM synthesis of court info.
-Working: all states, counties, cities with jurisdiction files. ✓
 
 /cite
-Citation parsing with concept router. Chronicle search for reference data.
-WebClaw fetch for live sources. LLM citation analysis with retry and fallback.
-Working: statutes, case law, UCC, federal rules. ✓
+Citation parsing with concept router. Chronicle search + WebClaw fetch + LLM analysis.
 
 /federal
 Chronicle-first, filesystem-backed. NO HARDCODED DICTS.
-Uses chronicle_search(), search_jurisdiction_files(), cl_get(), webclaw_fetch().
-Working: circuits, SCOTUS, PACER, FRCP, city lookups (Bedford VA).
-SDNY judges: page is JS-rendered. WebClaw returns metadata only. Honest fallback in place — NOT a bug, don't "fix" it. ✓
+Circuits, SCOTUS, PACER, FRCP, city lookups.
+SDNY judges: page is JS-rendered. Honest fallback in place - NOT a bug, do not fix.
 
 /judge
 FJC biography (primary) + CourtListener positions (supplemental) + Chronicle.
-Anti-repetition prompt. Last-name search for better CourtListener coverage.
-Case hallucination guard. Working: Sotomayor, Pitman.
-Note: CourtListener /people/ is sparse — FJC is primary source. ✓
+Anti-repetition prompt. Last-name search. Case hallucination guard.
 
 /jurisdiction
 Chronicle + filesystem civic intelligence. City and county lookup.
 Courts, police, jail, hospitals with GPS coordinates, library, building permits.
 3,800+ cities indexed. County-level court files + city-level civic files.
-Per-file truncation to prevent LLM timeout. Working: Bedford VA, Daytona Beach FL,
-Volusia County FL (all 12 cities), Chicago IL (106 folders, 639 files),
-Chipley FL, St Augustine FL, Bedford TX. ✓
 
 /law
 Chronicle + CourtListener federal opinions (SCOTUS + circuits).
-Topic-based research with real citations from CourtListener search endpoint.
-Federal court filter. Anti-hallucination prompt (no fabricated holdings).
-/docket chain ready — every case links to full docket.
-Working: qualified immunity (99,057 results, 8 displayed). ✓
+Topic-based research with real citations. /docket chain ready.
 
 /oral
 CourtListener docket search + audio lookup (two-step pipeline).
-SCOTUS + circuit court filter. Smart search adds "Supreme Court" context.
-Chronicle index search. Oyez.org fallback for cases not in CourtListener.
-Duration parsing (seconds → readable). Shared memory via _memory.py.
-Working: Citizens United (real audio found), Dobbs, Roe v Wade, Trump v United States. ✓
+SCOTUS + circuit court filter. Oyez.org fallback. Duration parsing.
+
+/precedent
+Doctrine tracker by circuit. SCOTUS + circuit court case search.
+Controlling authority, circuit splits, trend direction. Cross-agent delegation offers.
+
+/state
+State court lookup via jurisdiction files. County list + court details.
+101 VA counties working. Fuzzy matching for misspelled counties.
+
+/statute
+Statute lookup via law.cornell.edu + Chronicle + LLM.
+USC, UCC, FRCP, FRE, FRAP, state statutes. Real statutory text fetching.
+
+/summarize
+Universal legal input summarizer. Case names, docket URLs, statutes, text.
+Structured summary: overview, facts, issue, holding, reasoning, significance.
+
+Civic Commands
+/police - Police department lookup via jurisdiction files
+/detention - Jail/detention facility lookup via jurisdiction files
+/library - Library lookup with legal resource discovery
+/hospital - Hospital lookup with GPS coordinates
 
 Shared Memory (_memory.py)
 Cross-command learning via UnifiedMemory + MemoryGuard.
-Commands write results on success, recall prior searches on start.
 Confidence threshold: 0.75. Source types: web_verified, chronicle.
-Wired into: /oral. Ready for: /law, /judge, /docket, /jurisdiction. ✓
+Wired into: /oral, /law, /precedent, /list.
 
-Stub Status
-/state — not started. Mirror /federal but for state courts via jurisdiction files.
+Empire-Wide Connection Layer
+All 21 agents now import shared/_agent_helpers.py for:
 
-/statute — not started. Target: law.cornell.edu via webclaw_fetch.
+log_err() - constitutional audit logging
 
-/precedent — true stub (460 bytes). Replace entirely. Suggested: doctrine tracker by circuit.
+delegate() - cross-agent delegation to any agent
 
-/summarize — true stub (397 bytes). Replace entirely. Suggested: universal legal input → structured summary.
+llm() - Sovereign Gateway LLM calls
+
+chronicle() - Chronicle index search
 
 Patterns That Work
 python
-# LLM via A2A (every command uses this)
+# LLM via A2A
 resp = requests.post(f"{A2A}/v1/message/llmclaw",
     json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=120)
 
@@ -123,55 +127,75 @@ for md_file in (LAW_REFS / "jurisdictions" / "us").rglob("*.md"):
 # CourtListener API (token from .env)
 GET {COURTLISTENER_API}/search/?q=term&type=o&order_by=score desc
 GET {COURTLISTENER_API}/dockets/?docket_number=X
-GET {COURTLISTENER_API}/audio/?docket=ID
 
 # Shared memory
 from agents.lawclaw.commands._memory import recall, remember, show_prior
+
+# Empire-wide helpers (any agent)
+from shared._agent_helpers import delegate, llm, chronicle, log_err
 Forbidden (DO NOT DO)
 import anthropic or any direct LLM provider import
 
-requests.get() in lawclaw commands (use webclaw_fetch via A2A)
+requests.get() in lawclaw commands (use webclaw via A2A)
 
 Hardcoded lookup dicts when data exists in Chronicle
 
 Silent exception handling (log everything)
 
-DeepSeek will suggest requests.get() fallbacks when webclaw fails. Reject this. Unconstitutional.
+DeepSeek will suggest requests.get() fallbacks when webclaw fails. Reject this.
 
 Known Issues
-URL noise in /federal results — some URLs from unrelated Chronicle hits leak in
+URL noise in /federal results from unrelated Chronicle hits
 
-SDNY judges page is JS-rendered — not fixable without headless browser in webclaw
+SDNY judges page is JS-rendered
 
-CourtListener rate limits (429) on rapid successive queries — reduce page_size
+CourtListener rate limits (429) on rapid queries
 
-/oral CourtListener audio database is sparse — Oyez fallback handles this honestly
+/oral CourtListener audio database is sparse - Oyez fallback handles this
 
 Key Files
-a2a_server.py — port 8766
+a2a_server.py - port 8766
 
-agents/lawclaw/commands/ — all lawclaw commands
+shared/_agent_helpers.py - empire-wide agent utilities (all 21 agents import)
 
-agents/lawclaw/commands/__init__.py — dynamic command loader
+shared/base_agent.py - BaseAgent foundation class
 
-agents/lawclaw/commands/_memory.py — shared memory helper
+shared/llm/client.py - Sovereign Gateway
 
-agents/webclaw/core/chronicle_ledger.py — Chronicle interface
+shared/memory/unified_memory.py - UnifiedMemory
 
-agents/webclaw/references/lawclaw/jurisdictions/us/ — all jurisdiction data
+shared/memory_guard.py - MemoryGuard (0.75 threshold)
 
-shared/llm/client.py — Sovereign Gateway
+agents/lawclaw/commands/ - all lawclaw commands
 
-shared/memory/unified_memory.py — UnifiedMemory
+agents/lawclaw/commands/_helpers.py - lawclaw shared utilities
 
-shared/memory_guard.py — MemoryGuard (0.75 threshold)
+agents/lawclaw/commands/_memory.py - shared memory helper
 
-.env — API tokens (COURTLISTENER_TOKEN, ANTHROPIC_API_KEY)
+agents/webclaw/core/chronicle_ledger.py - Chronicle interface
+
+agents/webclaw/references/lawclaw/jurisdictions/us/ - all jurisdiction data
+
+.env - API tokens
+
+Architecture Docs (read these)
+A2A_PROTOCOL.md - how agents call each other
+
+SHARED_MEMORY_PROTOCOL.md - how agents learn together
+
+AGENT_CAPABILITIES.md - who does what, connection status
+
+BASEAGENT_GUIDE.md - what BaseAgent provides
+
+CHRONICLE_GUIDE.md - data layer guide
 
 Session Log
-2026-05-27: /docket complete. /federal working with Chronicle-first architecture.
-/judge complete (FJC primary). /jurisdiction complete (3,800+ cities, GPS coordinates).
-/law complete (SCOTUS + circuit opinions, real citations).
-/oral complete (CourtListener + Chronicle + Oyez, memory wired).
-_memory.py created for cross-command learning.
-8 commands working. 4 stubs remain.
+2026-05-27: All 12 lawclaw commands built and working. 4 civic commands added.
+_helpers.py created for shared command utilities.
+_memory.py created for cross-command shared learning.
+
+2026-05-28: All 21 agents wired with shared/_agent_helpers.py (log_err, delegate).
+Cross-agent delegation available empire-wide.
+Root documentation cleaned up and organized.
+All stub commands completed (/state, /statute, /precedent, /summarize).
+Civic commands added (/police, /detention, /library, /hospital).
