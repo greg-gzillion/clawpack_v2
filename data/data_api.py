@@ -12,6 +12,9 @@ ALLOWED_STATES = frozenset({
     "wa","wi","wv","wy"
 })
 
+DESIGN_ROOT = (Path(r"C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\designclaw\jurisdictions\us")).resolve()
+STATE_DESIGN_PATHS = {s: (DESIGN_ROOT / s / "design_resources").resolve() for s in ALLOWED_STATES}
+
 
 def query_building_codes(state=None, city=None, county=None):
     """Query building codes from chronicle. Returns list of dicts with attribution."""
@@ -101,11 +104,13 @@ def query_design_resources(state=None, city=None):
         if not safe_city:
             safe_city = None
 
-    # Build path safely with canonical resolution and containment check
-    design_root = (Path(r"C:\Users\greg\dev\clawpack_v2\agents\webclaw\references\designclaw\jurisdictions\us")).resolve()
-    design_path = (design_root / safe_state.lower() / "design_resources").resolve()
+    # Look up precomputed path from module-level constant — no user input in Path()
+    design_root = DESIGN_ROOT
+    design_path = STATE_DESIGN_PATHS.get(safe_state.lower())
+    if design_path is None:
+        return []
 
-    # Verify path containment
+    # Verify path containment (defense in depth)
     try:
         design_path.relative_to(design_root)
     except ValueError:
