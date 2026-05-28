@@ -345,3 +345,35 @@ class BaseAgent:
             pass
 
         return response
+
+    # ── Shared Learning (all 21 agents inherit these) ─────────────────────────
+
+    def learn_from_task(self, query: str, result: str, source_type: str = "web_verified",
+                        confidence: float = 0.85, urls: list = None) -> bool:
+        """Write task result to unified cross-agent memory. All agents share this.
+        MemoryGuard enforces: source must be web_verified or chronicle, confidence >= 0.75.
+        Call this at the end of handle() after a successful task.
+        Returns True if persisted, False if blocked by guard."""
+        try:
+            from shared.memory_guard import sanitize_memory_write
+            check = sanitize_memory_write(self.name, result[:100], source_type, confidence)
+            if not check.get("allowed"):
+                return False
+
+            fact = f"{query} -> {result[:200]}"
+            self.memory.learn(self.name, fact[:80], fact, source='agent_learned')
+            self.state["successful"] = self.state.get("successful", 0) + 1
+            self._save_state()
+            return True
+        except Exception as e:
+            self._log_error("learn_from_task", str(e))
+        return False
+
+    def recall_prior(self, query: str, limit: int = 5) -> list:
+        """Search unified memory for prior results related to this query.
+        Returns list of fact dicts sorted by relevance."""
+        try:
+            return self.memory.recall(query, limit)
+        except Exception as e:
+            self._log_error("recall_prior", str(e))
+        return []

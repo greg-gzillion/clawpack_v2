@@ -5,6 +5,8 @@ import re
 name = "/cite"
 A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
 # Concept router: maps citation patterns to the correct legal domain
 CONCEPT_MAP = {
     # Constitutional Law
@@ -69,7 +71,6 @@ CONCEPT_MAP = {
 def route_concept(query):
     """Map a citation query to the correct legal domain for Chronicle search."""
     query_lower = query.lower().strip()
-    # Sort by key length (longest match first) to prefer "42 usc 1983" over "usc"
     for key in sorted(CONCEPT_MAP.keys(), key=len, reverse=True):
         if key in query_lower:
             return CONCEPT_MAP[key]
@@ -85,6 +86,8 @@ def run(args):
     output.append("=" * 60)
     output.append(f"CITATION: {args}")
     output.append("=" * 60)
+
+    prior = show_prior(args, output)
 
     try:
         # STEP 0: Route to correct legal domain
@@ -163,6 +166,7 @@ Cite your sources. If you don't know, say so rather than guessing.
 
 Citation Analysis:"""
 
+        result = ""
         for attempt in range(2):
             resp = requests.post(
                 f"{A2A}/v1/message/llmclaw",
@@ -176,6 +180,16 @@ Citation Analysis:"""
                     output.append("=" * 60)
                     output.append(result)
                     output.append("=" * 60)
+                    
+                    # Write to shared memory
+                    remember(
+                        command="/cite",
+                        query=args[:200],
+                        result_summary=result[:400],
+                        source_type="web_verified" if web_context else "chronicle",
+                        confidence=0.85 if web_context else 0.80,
+                    )
+                    
                     return "\n".join(output)
 
         # LLM failed — fall back to WebClaw AI analysis
@@ -195,6 +209,16 @@ Citation Analysis:"""
                     output.append("[WEBCLAW ANALYSIS]")
                     output.append(result)
                     output.append("=" * 60)
+                    
+                    # Write to shared memory
+                    remember(
+                        command="/cite",
+                        query=args[:200],
+                        result_summary=result[:400],
+                        source_type="web_verified",
+                        confidence=0.80,
+                    )
+                    
                     return "\n".join(output)
 
         output.append("[ERROR] Unable to retrieve citation information")

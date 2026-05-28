@@ -8,6 +8,8 @@ A2A = "http://127.0.0.1:8766"
 
 COURTLISTENER_API = "https://www.courtlistener.com/api/rest/v4"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
 CASE_NUMBER_PATTERN = re.compile(r'\d+:\d+-[a-z]+-\d+|\d+-[A-Z]+-\d+|\d+-\d+', re.IGNORECASE)
 MDL_PATTERN = re.compile(r'\d+-MD-\d+', re.IGNORECASE)
 
@@ -61,6 +63,8 @@ def run(args):
     output.append("=" * 60)
     output.append(f"DOCKET: {args}")
     output.append("=" * 60)
+
+    prior = show_prior(args, output)
 
     try:
         token = get_token()
@@ -138,6 +142,7 @@ def run(args):
                 entry_lines.append(line)
 
             # LLM summary
+            summary = ""
             if len(entries) > 3:
                 output.append("")
                 output.append("  [SUMMARY] Generating timeline summary...")
@@ -166,6 +171,9 @@ Summary:"""
                             output.append(f"    {summary}")
                 except:
                     pass
+
+            if summary:
+                remember(command="/docket", query=case_name, result_summary=summary[:400], source_type="web_verified", confidence=0.85)
 
             return "\n".join(output)
 

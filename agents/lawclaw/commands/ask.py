@@ -1,24 +1,30 @@
 ﻿"""ask command - AI law Q&A with full context via LLMClaw"""
 import requests
 import json
+import re
 
 name = "/ask"
 A2A = "http://127.0.0.1:8766"
+
+from agents.lawclaw.commands._memory import show_prior, remember
+
 
 def run(args):
     if not args:
         return "Usage: /ask [law question]"
 
     output = []
-    output.append("=" * 70)
-    output.append("LAW Q&A")
-    output.append("=" * 70)
-    output.append(f"QUESTION: {args[:200]}{'...' if len(args) > 200 else ''}")
     output.append("")
+    output.append("=" * 60)
+    output.append(f"ASK: {args[:100]}{'...' if len(args) > 100 else ''}")
+    output.append("=" * 60)
+
+    prior = show_prior(args, output)
 
     try:
-        # STEP 1: Search Chronicle for relevant references
-        output.append("[1/3] Searching Chronicle for relevant law references...")
+        # STEP 1: Search Chronicle
+        output.append("")
+        output.append("[1/3] Searching Chronicle...")
         chronicle_context = ""
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
@@ -37,9 +43,8 @@ def run(args):
         except Exception as e:
             output.append(f"  Chronicle error: {e}")
 
-        # STEP 2: Fetch any URLs found in the question or Chronicle results
-        output.append("[2/3] Fetching relevant web sources...")
-        import re
+        # STEP 2: Fetch URLs
+        output.append("[2/3] Fetching web sources...")
         urls_found = re.findall(r'https?://[^\s\)\]\<\>\"]+', args + " " + chronicle_context)
         web_context = ""
         for url in urls_found[:3]:
@@ -60,7 +65,7 @@ def run(args):
         if not web_context:
             output.append("  No web sources fetched")
 
-        # STEP 3: Build prompt and call LLM
+        # STEP 3: LLM
         output.append("[3/3] Researching answer via LLM...")
         prompt = f"""You are an experienced legal researcher. Answer the following law question thoroughly and accurately.
 
@@ -90,18 +95,28 @@ Answer:"""
             timeout=180
         )
 
+        result = ""
         if resp.status_code == 200:
             result = resp.json().get("result", "")
             if result:
-                output.append("=" * 70)
-                output.append("ANSWER:")
-                output.append("=" * 70)
+                output.append("")
+                output.append("=" * 60)
                 output.append(result)
-                output.append("=" * 70)
+                output.append("=" * 60)
             else:
                 output.append("ERROR: LLM returned empty response")
         else:
             output.append(f"ERROR: LLM returned status {resp.status_code}")
+
+        # Write to shared memory
+        if result:
+            remember(
+                command="/ask",
+                query=args[:200],
+                result_summary=result[:400],
+                source_type="web_verified" if web_context else "chronicle",
+                confidence=0.85 if web_context else 0.80,
+            )
 
         return "\n".join(output)
 

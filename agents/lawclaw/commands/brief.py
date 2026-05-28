@@ -5,19 +5,24 @@ import re
 name = "/brief"
 A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
+
 def run(args):
     if not args:
         return "Usage: /brief [case name]"
 
     output = []
-    output.append("=" * 70)
-    output.append("CASE BRIEF")
-    output.append("=" * 70)
-    output.append(f"CASE: {args[:200]}{'...' if len(args) > 200 else ''}")
     output.append("")
+    output.append("=" * 60)
+    output.append(f"BRIEF: {args[:100]}{'...' if len(args) > 100 else ''}")
+    output.append("=" * 60)
+
+    prior = show_prior(args, output)
 
     try:
         # STEP 1: Search Chronicle
+        output.append("")
         output.append("[1/3] Searching Chronicle...")
         chronicle_context = ""
         try:
@@ -61,14 +66,28 @@ WEB: {web_context if web_context else "None"}
 
 Brief:"""
         resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=180)
+        
+        result = ""
         if resp.status_code == 200:
             result = resp.json().get("result", "")
             if result:
-                output.append("=" * 70)
+                output.append("")
+                output.append("=" * 60)
                 output.append(result)
-                output.append("=" * 70)
+                output.append("=" * 60)
             else:
                 output.append("ERROR: Empty response")
+        
+        # Write to shared memory
+        if result:
+            remember(
+                command="/brief",
+                query=args[:200],
+                result_summary=result[:400],
+                source_type="web_verified" if web_context else "chronicle",
+                confidence=0.85 if web_context else 0.80,
+            )
+
         return "\n".join(output)
     except Exception as e:
         output.append(f"ERROR: {str(e)[:200]}")

@@ -5,7 +5,8 @@ Replaces duplicated _log(), llm(), chronicle_search(), webclaw_fetch(),
 get_cl_token() functions across every command file.
 
 Usage in any command:
-    from agents.lawclaw.commands._helpers import log, llm, chronicle, webclaw, cl_get, cl_token
+    from agents.lawclaw.commands._helpers import log, llm, chronicle_context, cl_search, memory_write, delegate
+    from agents.lawclaw.commands._memory import show_prior
 
 All LLM calls route through A2A → llmclaw → Sovereign Gateway. Constitutional.
 All exceptions are logged. No silent failures. Constitutional.
@@ -267,7 +268,7 @@ def delegate(agent_name: str, task: str, timeout: int = 60) -> str:
         )
         if resp.status_code == 200:
             return resp.json().get("result", "")
-        log("delegate_non200", f"{resp.status_code} → {agent_name}")
+        log("delegate_non200", f"{resp.status_code} -> {agent_name}")
     except requests.exceptions.Timeout:
         log("delegate_timeout", f"{agent_name} {timeout}s")
     except requests.exceptions.ConnectionError:
@@ -275,6 +276,49 @@ def delegate(agent_name: str, task: str, timeout: int = 60) -> str:
     except Exception as e:
         log("delegate_error", f"{agent_name}: {e}")
     return ""
+
+
+# ── Shared memory bridge ──────────────────────────────────────────────────────
+
+def memory_write(command: str, query: str, result_summary: str,
+                 source_type: str = "web_verified", confidence: float = 0.85,
+                 urls: list = None) -> bool:
+    """Write result to shared memory via _memory.py. Returns True if persisted."""
+    try:
+        from agents.lawclaw.commands._memory import remember
+        return remember(
+            command=command,
+            query=query,
+            result_summary=result_summary[:400],
+            source_type=source_type,
+            confidence=confidence,
+            urls=(urls or [])[:5],
+        )
+    except Exception as e:
+        log("memory_write_error", str(e)[:100])
+    return False
+
+
+# ── Cross-command memory + delegation ────────────────────────────────────────
+
+def auto_delegate(result: str, urls: list, out: list) -> None:
+    """
+    Offer cross-agent actions based on result content.
+    Call at end of any command that produces research output.
+    """
+    if not result or len(result) < 100:
+        return
+    
+    out.append("")
+    out.append("  Cross-agent actions (Ctrl+Click):")
+    
+    if len(result) > 300:
+        cmd = result[:200].replace('"', "'").replace('\n', ' ')
+        out.append(f"    delegate docuclaw - /export {cmd}...")
+    
+    if urls and len(urls) >= 3:
+        url_list = ",".join(urls[:3])
+        out.append(f"    delegate plotclaw - /chart {url_list}")
 
 
 # ── Jurisdiction filesystem ───────────────────────────────────────────────────

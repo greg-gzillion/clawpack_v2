@@ -144,6 +144,66 @@
       "urls": [],
       "metadata": {},
       "timestamp": "2026-05-28T13:32:42.783229+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "**Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal doctrine that shields government officials from liability for monetary damages in civil rights cases, unless their actions violated a clearly established constitutional or statutory right. This doctrine aims to balance the need to hold officials accountable for their actions with the need to protect them from frivolous lawsuits.\n\n**KEY ELEMENTS**\n\nTo overcome qualified immunity, plaintiffs in civil rights cases must s",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/520059/lacy-m-henry-dba-qualified-personnel-v-the-united-states/",
+        "https://www.courtlistener.com/opinion/4417303/eric-darden-v-city-of-fort-worth-texas/",
+        "https://www.courtlistener.com/opinion/5093580/spikes-v-mcvea/",
+        "https://www.courtlistener.com/opinion/8698097/colburn-v-huddleston/",
+        "https://www.courtlistener.com/opinion/8698118/burwell-v-moody/",
+        "https://www.courtlistener.com/opinion/8697832/rau-v-schweizer/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T16:29:48.652424+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "**Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal doctrine that shields government officials from liability for monetary damages in civil lawsuits, unless their actions violate a clearly established constitutional or statutory right. This doctrine provides a level of protection to government officials, preventing them from being held accountable for actions that may be unconstitutional, but not clearly established as such. The doctrine is intended to balance the need",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/520059/lacy-m-henry-dba-qualified-personnel-v-the-united-states/",
+        "https://www.courtlistener.com/opinion/4417303/eric-darden-v-city-of-fort-worth-texas/",
+        "https://www.courtlistener.com/opinion/5093580/spikes-v-mcvea/",
+        "https://www.courtlistener.com/opinion/8698097/colburn-v-huddleston/",
+        "https://www.courtlistener.com/opinion/8698118/burwell-v-moody/",
+        "https://www.courtlistener.com/opinion/8697832/rau-v-schweizer/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T16:56:44.289744+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "Found 8 cases",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/520059/lacy-m-henry-dba-qualified-personnel-v-the-united-states/",
+        "https://www.courtlistener.com/opinion/4417303/eric-darden-v-city-of-fort-worth-texas/",
+        "https://www.courtlistener.com/opinion/5093580/spikes-v-mcvea/",
+        "https://www.courtlistener.com/opinion/8698097/colburn-v-huddleston/",
+        "https://www.courtlistener.com/opinion/8698118/burwell-v-moody/",
+        "https://www.courtlistener.com/opinion/8697832/rau-v-schweizer/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T16:56:48.983247+00:00"
     }
   ],
   "index": {
@@ -192,7 +252,17 @@
     ],
     "miranda": [
       11
+    ],
+    "qualified": [
+      12,
+      13,
+      14
+    ],
+    "immunity": [
+      12,
+      13,
+      14
     ]
   },
-  "updated_at": "2026-05-28T13:32:42.784249+00:00"
+  "updated_at": "2026-05-28T16:56:48.983247+00:00"
 }

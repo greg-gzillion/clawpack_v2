@@ -7,6 +7,7 @@ name = "/statute"
 from agents.lawclaw.commands._helpers import (
     log, llm, webclaw, chronicle, chronicle_context, jurisdiction_root
 )
+from agents.lawclaw.commands._memory import show_prior, remember
 
 # URL patterns for common statute sources
 STATUTE_URLS = {
@@ -22,7 +23,6 @@ def parse_citation(args):
     """Parse statute citation into components. Returns dict or None."""
     args = args.strip()
 
-    # UCC pattern: "UCC 2-207" or "UCC 2-201"
     ucc_match = re.match(r'ucc\s+(\d+)[-.](\d+[a-z]*)', args, re.IGNORECASE)
     if ucc_match:
         return {
@@ -32,7 +32,6 @@ def parse_citation(args):
             "url": STATUTE_URLS["ucc"].format(article=ucc_match.group(1), section=ucc_match.group(2)),
         }
 
-    # Federal Rules: "FRCP 12" or "FRE 403"
     rules_match = re.match(r'(frcp|fre|frap)\s+(\d+)', args, re.IGNORECASE)
     if rules_match:
         rule_type = rules_match.group(1).lower()
@@ -43,7 +42,6 @@ def parse_citation(args):
             "url": STATUTE_URLS[rule_type].format(rule=rule_num),
         }
 
-    # USC pattern: "42 USC 1983" or "18 U.S.C. 242"
     usc_match = re.match(r'(\d+)\s*(?:u\.?s\.?c\.?|usc)\s*(\d+[a-z]*)', args, re.IGNORECASE)
     if usc_match:
         title = usc_match.group(1)
@@ -55,12 +53,10 @@ def parse_citation(args):
             "url": STATUTE_URLS["uscode"].format(title=title, section=section),
         }
 
-    # State statute: "Florida 784.011" or "CA Penal 187"
     state_match = re.match(r'([a-z]{2}|[a-z]+)\s+([\d.]+[a-z]*)', args, re.IGNORECASE)
     if state_match:
         state = state_match.group(1)
         section = state_match.group(2)
-        # Construct state statute URL
         state_lower = state.lower()
         url = f"https://www.law.cornell.edu/statutes/{state_lower}#{section}"
         return {
@@ -89,6 +85,8 @@ def run(args):
     out.append(f"STATUTE: {args}")
     out.append("=" * 60)
 
+    prior = show_prior(args, out)
+
     try:
         citation = parse_citation(args)
 
@@ -112,7 +110,6 @@ def run(args):
             else:
                 out.append("  WebClaw could not fetch statute text")
         else:
-            # Fallback: search for the citation on law.cornell.edu
             search_url = f"https://www.law.cornell.edu/search/site/{args.replace(' ', '%20')}"
             out.append(f"  No direct URL pattern matched. Search: {search_url}")
             html = webclaw(search_url)
@@ -123,6 +120,7 @@ def run(args):
         # STEP 3: LLM synthesis
         out.append("[3/3] Analyzing statute...")
 
+        result = ""
         if statute_text or chronicle_ctx:
             prompt = f"""Analyze this statute: {args}
 
@@ -162,7 +160,9 @@ Analysis:"""
             out.append("  No data found for this statute.")
             out.append(f"  Try: https://www.law.cornell.edu/search/site/{args.replace(' ', '%20')}")
 
-        # Links
+        if result:
+            remember(command="/statute", query=args[:200], result_summary=result[:400], source_type="web_verified", confidence=0.85)
+
         out.append("")
         out.append("  Resources (Ctrl+Click):")
         if citation and citation.get("url"):

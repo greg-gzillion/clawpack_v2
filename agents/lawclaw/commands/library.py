@@ -7,6 +7,7 @@ name = "/library"
 from agents.lawclaw.commands._helpers import (
     log, llm, webclaw, chronicle_context, jurisdiction_root
 )
+from agents.lawclaw.commands._memory import show_prior, remember
 
 STATE_CODES = {
     "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
@@ -37,6 +38,8 @@ def run(args):
     out.append("=" * 60)
     out.append(f"LIBRARY: {args}")
     out.append("=" * 60)
+
+    prior = show_prior(args, out)
 
     try:
         parts = args.strip().split()
@@ -81,7 +84,6 @@ def run(args):
             out.append(f"  Try: /jurisdiction {args} for full civic profile")
             return "\n".join(out)
 
-        # Discover legal resources from library URLs
         out.append("  Discovering legal resources via library website...")
         discovered = []
         for lib_url in [u for u in library_urls if "library" in u.lower()][:1]:
@@ -121,6 +123,9 @@ Use ONLY the data provided. Under 200 words."""
         else:
             out.append(combined[:2000])
         out.append("=" * 60)
+
+        if result:
+            remember(command="/library", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.90)
 
         return "\n".join(out)
 

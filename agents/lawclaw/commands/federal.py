@@ -7,6 +7,8 @@ name = "/federal"
 A2A = "http://127.0.0.1:8766"
 COURTLISTENER_API = "https://www.courtlistener.com/api/rest/v4"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
 # ── Helpers ──────────────────────────────────────────────────────────────
 
 def _log(agent, event, detail=""):
@@ -61,13 +63,12 @@ def webclaw_fetch(url):
 
 
 def chronicle_search(query, limit=10):
-    """Search Chronicle — the 448MB indexed jurisdiction database."""
     try:
         from agents.webclaw.core.chronicle_ledger import get_chronicle
         c = get_chronicle()
         results = c.recover_by_context(query, limit=limit)
         if results:
-            return results  # Return raw results for flexible use
+            return results
     except Exception as e:
         _log("lawclaw", "federal_chronicle_error", str(e)[:100])
     return []
@@ -92,7 +93,6 @@ def cl_get(path, params=None, timeout=15):
 
 
 def search_jurisdiction_files(query_terms, max_files=10):
-    """Search the filesystem jurisdiction tree directly — same pattern as court.py."""
     file_contents = []
     all_urls = []
     try:
@@ -144,13 +144,13 @@ def run(args):
     out.append("")
     out.append("  Tip: Hold Ctrl+Click on any URL to open it in your browser.")
 
+    prior = show_prior(args, out)
+
     try:
         al = args.lower().strip()
 
-        # ── CHRONICLE-FIRST: Search the index for EVERY query ────────────
         chronicle_results = chronicle_search(f"{args} federal court district circuit judge", limit=10)
         
-        # Build context from Chronicle hits
         chronicle_context = ""
         chronicle_urls = []
         if chronicle_results:
@@ -163,7 +163,6 @@ def run(args):
                 parts.append(f"SOURCE: {url}\n{ctx[:1200]}")
             chronicle_context = "\n\n---\n\n".join(parts)
 
-        # ── FILESYSTEM: Search jurisdiction files for matching content ──
         query_terms = [t for t in al.split() if len(t) > 1]
         filesystem_files, filesystem_urls = search_jurisdiction_files(query_terms, max_files=8)
         
@@ -174,7 +173,6 @@ def run(args):
                 parts.append(f"--- {path} ---\n{content}")
             filesystem_context = "\n\n".join(parts)
 
-        # ── SUPREME COURT ────────────────────────────────────────────────
         if "supreme" in al or "scotus" in al:
             out.append("  Supreme Court of the United States")
             out.append("  Website: https://www.supremecourt.gov")
@@ -196,7 +194,6 @@ def run(args):
             out.append("    https://www.oyez.org")
             return "\n".join(out)
 
-        # ── PACER ────────────────────────────────────────────────────────
         if al == "pacer":
             out.append("  PACER — Public Access to Court Electronic Records")
             out.append("")
@@ -209,7 +206,6 @@ def run(args):
             out.append("  /docket [case number] — search for a specific case")
             return "\n".join(out)
 
-        # ── FEDERAL RULES ────────────────────────────────────────────────
         if any(kw in al for kw in ["rule", "frcp", "fre", "frap"]):
             out.append("  Federal Rules Reference")
             out.append("")
@@ -239,8 +235,6 @@ def run(args):
                 out.append("  Tip:  /federal frcp 12  — text of FRCP Rule 12")
             return "\n".join(out)
 
-        # ── CORE: Chronicle + Filesystem + LLM synthesis ─────────────────
-        # Combine all data sources
         all_context = ""
         if filesystem_context:
             all_context += f"JURISDICTION FILES:\n{filesystem_context[:3000]}\n\n"
@@ -249,11 +243,11 @@ def run(args):
         
         all_urls = list(set(filesystem_urls + chronicle_urls))
 
+        result = ""
         if all_context.strip():
             out.append("")
             out.append(f"  Sources: Chronicle + {len(filesystem_files)} jurisdiction files")
             
-            # Let the LLM synthesize from real data
             prompt = f"""Answer this federal court query using ONLY the data below: {args}
 
 {all_context[:4000]}
@@ -272,7 +266,6 @@ Answer:"""
                 out.append(result)
                 out.append("=" * 60)
             else:
-                # LLM failed — show raw filesystem data
                 out.append("")
                 out.append("=" * 60)
                 out.append("[RAW DATA FROM JURISDICTION FILES]")
@@ -283,7 +276,6 @@ Answer:"""
             out.append("  No data found in Chronicle or jurisdiction files.")
             out.append("  Try: /federal supreme, /federal pacer, /federal frcp 12")
 
-        # ── Show URLs ────────────────────────────────────────────────────
         if all_urls:
             gov_urls = sorted(set(u for u in all_urls if '.gov' in u.lower()))
             other_urls = sorted(set(u for u in all_urls if '.gov' not in u.lower()))
@@ -293,6 +285,9 @@ Answer:"""
                 out.append("  Relevant URLs (Ctrl+Click):")
                 for url in ranked[:15]:
                     out.append(f"    {url}")
+
+        if result:
+            remember(command="/federal", query=args[:200], result_summary=result[:400], source_type="chronicle", confidence=0.85)
 
         out.append("")
         out.append("  Federal Resources (Ctrl+Click):")

@@ -5,6 +5,8 @@ from pathlib import Path
 name = "/court"
 A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
 # File ranking: court files first, exclude non-legal civic files
 COURT_FILE_PRIORITY = [
     "municipal_court",
@@ -204,6 +206,8 @@ def run(args):
     output.append(f"COURT: {args}")
     output.append("=" * 60)
 
+    prior = show_prior(args, output)
+
     try:
         intent = parse_intent(args)
         
@@ -215,11 +219,14 @@ def run(args):
             import requests
             prompt = f"Provide information about the {label} Supreme Court. Include website URL, address, phone, number of justices, and key information."
             resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=120)
+            result = ""
             if resp.status_code == 200:
                 result = resp.json().get("result", "")
                 if result:
                     output.append("")
                     output.append(result)
+            if result:
+                remember(command="/court", query=args, result_summary=result[:400], source_type="web_verified", confidence=0.85)
             return "\n".join(output)
         
         # Handle federal queries
@@ -228,11 +235,14 @@ def run(args):
             import requests
             prompt = "Describe the US federal court system including Supreme Court, Circuit Courts of Appeals, and District Courts. Include structure, jurisdiction, and website URLs."
             resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=120)
+            result = ""
             if resp.status_code == 200:
                 result = resp.json().get("result", "")
                 if result:
                     output.append("")
                     output.append(result)
+            if result:
+                remember(command="/court", query=args, result_summary=result[:400], source_type="web_verified", confidence=0.85)
             return "\n".join(output)
         
         # Find jurisdiction files
@@ -253,11 +263,13 @@ def run(args):
                         context += ctx[:1500] + "\n\n"
                     prompt = f"Provide court information for: {args}\n\nDatabase context:\n{context}\n\nInclude addresses, phone numbers, websites, and jurisdiction details."
                     resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=180)
+                    result = ""
                     if resp.status_code == 200:
                         result = resp.json().get("result", "")
                         if result:
                             output.append("")
                             output.append(result)
+                            remember(command="/court", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.80)
                             return "\n".join(output)
             except:
                 pass
@@ -298,6 +310,7 @@ def run(args):
                 output.append(f"  {url}")
         
         # LLM synthesis
+        result = ""
         if file_results["files"]:
             output.append("")
             output.append("[SYNTHESIS] Generating summary...")
@@ -318,6 +331,9 @@ def run(args):
                 if result and len(result) > 50:
                     output.append("")
                     output.append(result)
+
+        if result:
+            remember(command="/court", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.90)
 
         return "\n".join(output)
 

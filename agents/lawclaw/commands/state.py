@@ -7,6 +7,7 @@ name = "/state"
 from agents.lawclaw.commands._helpers import (
     log, llm, chronicle, chronicle_context, jurisdiction_root
 )
+from agents.lawclaw.commands._memory import show_prior, remember
 
 STATE_NAMES = {
     "ak": "Alaska", "al": "Alabama", "ar": "Arkansas", "az": "Arizona",
@@ -42,6 +43,8 @@ def run(args):
     out.append("=" * 60)
     out.append(f"STATE COURTS: {args}")
     out.append("=" * 60)
+
+    prior = show_prior(args, out)
 
     try:
         parts = args.strip().split()
@@ -81,7 +84,6 @@ def run(args):
         all_content = []
         all_urls = []
         files_found = 0
-        matched_counties = []
 
         for county_dir in sorted(state_dir.iterdir()):
             if not county_dir.is_dir() or county_dir.name in SKIP_FOLDERS:
@@ -89,7 +91,6 @@ def run(args):
 
             cname = county_dir.name.replace("_", " ").lower()
             if county_filter.lower() in cname:
-                matched_counties.append(county_dir.name)
                 for f in sorted(county_dir.iterdir()):
                     if f.suffix == ".md":
                         try:
@@ -123,6 +124,7 @@ def run(args):
         # STEP 3: LLM synthesis
         out.append("[3/3] Generating state court profile...")
 
+        result = ""
         if all_content:
             combined = "\n\n".join(block[:1500] for block in all_content[:10])
 
@@ -157,6 +159,9 @@ Profile:"""
         else:
             out.append("  No court files found for this county.")
             out.append(f"  Try: /jurisdiction [city] {state_code.upper()}")
+
+        if result:
+            remember(command="/state", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.90)
 
         # URLs from matched files
         unique_urls = list(dict.fromkeys(all_urls))

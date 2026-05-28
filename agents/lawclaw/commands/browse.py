@@ -5,6 +5,9 @@ from pathlib import Path
 
 name = "/browse"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
+
 def run(args):
     if not args:
         return "[BROWSE] Usage: /browse [state] [county] [city] -- e.g., /browse MA, /browse MA Worcester, /browse MA Worcester Worcester"
@@ -24,6 +27,8 @@ def run(args):
     output.append("")
     output.append(f"BROWSE: {location_str}")
     output.append("=" * 60)
+
+    prior = show_prior(args, output)
 
     LAW_REFS = Path(__file__).parent.parent.parent.parent / "agents" / "webclaw" / "references" / "lawclaw"
     base = LAW_REFS / "jurisdictions" / "us" / state
@@ -103,7 +108,6 @@ def run(args):
         for i, url in enumerate(ranked[:10], 1):
             output.append(f"  [{i}] {url}")
         
-        # Try URLs in ranked order, use first one that responds
         best_url = ranked[0]
         for url in ranked[:5]:
             try:
@@ -121,5 +125,15 @@ def run(args):
             webbrowser.open(best_url, new=2)
         except:
             output.append("  (Could not open browser automatically)")
+
+    # Write to shared memory
+    if md_files:
+        remember(
+            command="/browse",
+            query=location_str,
+            result_summary=f"Found {len(md_files)} files for {location_str}",
+            source_type="chronicle",
+            confidence=0.95,
+        )
 
     return "\n".join(output)

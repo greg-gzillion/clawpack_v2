@@ -246,7 +246,96 @@ def log_err(agent_name: str, context: str, error: str) -> None:
         except Exception:
             pass
 
+# ── Shared Learning ───────────────────────────────────────────────────────────
 
+def learn(agent_name: str, query: str, result: str,
+          source_type: str = "web_verified", confidence: float = 0.85,
+          urls: list = None) -> bool:
+    """
+    Write a result to unified cross-agent memory. All 21 agents share this.
+    MemoryGuard enforces: source must be web_verified or chronicle, confidence >= 0.75.
+    Returns True if persisted, False if blocked by guard.
+
+    Usage:
+        from shared._agent_helpers import learn
+        learn("lawclaw", "qualified immunity", result, "web_verified", 0.85, urls)
+    """
+    try:
+        from shared.memory_guard import sanitize_memory_write
+        check = sanitize_memory_write(agent_name, result[:100], source_type, confidence)
+        if not check.get("allowed"):
+            return False
+
+        from shared.memory.unified_memory import UnifiedMemory
+        from datetime import datetime, timezone
+
+        mem = UnifiedMemory()
+        fact = {
+            "agent": agent_name,
+            "query": query,
+            "fact": result[:500],
+            "source_type": source_type,
+            "confidence": confidence,
+            "urls": urls or [],
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
+        mem._facts.append(fact)
+        for word in query.lower().split():
+            if len(word) > 3:
+                if word not in mem._index:
+                    mem._index[word] = []
+                mem._index[word].append(len(mem._facts) - 1)
+        mem._save_index()
+        return True
+    except Exception as e:
+        _log(agent_name, "learn_error", str(e)[:200])
+    return False
+
+
+def recall_memory(agent_name: str, query: str, limit: int = 5) -> list:
+    """
+    Search unified memory for prior results across all agents.
+    Returns list of fact dicts sorted by relevance and confidence.
+
+    Usage:
+        from shared._agent_helpers import recall_memory
+        prior = recall_memory("lawclaw", "Miranda rights")
+        for p in prior:
+            print(p.get("agent"), p.get("fact")[:80])
+    """
+    try:
+        from shared.memory.unified_memory import UnifiedMemory
+        mem = UnifiedMemory()
+        terms = query.lower().split()
+        matches = []
+        for fact in mem._facts:
+            fact_text = (fact.get("fact", "") + " " + fact.get("query", "")).lower()
+            score = sum(1 for t in terms if t in fact_text)
+            if score > 0:
+                matches.append((score, fact))
+        matches.sort(key=lambda x: (-x[0], -x[1].get("confidence", 0)))
+        return [m[1] for m in matches[:limit]]
+    except Exception as e:
+        _log(agent_name, "recall_error", str(e)[:200])
+    return []
+
+
+def smart_llm(agent_name: str, prompt: str, timeout: int = 120) -> str:
+    """
+    Full truth resolver pipeline: retriever + Chronicle + memory guard + conflict detection.
+    Use this instead of llm() when you want verified answers with source trust scoring.
+
+    Usage:
+        from shared._agent_helpers import smart_llm
+        result = smart_llm("lawclaw", "What is qualified immunity?")
+    """
+    try:
+        from shared.base_agent import BaseAgent
+        agent = BaseAgent(agent_name)
+        return agent.smart_ask(prompt)
+    except Exception as e:
+        _log(agent_name, "smart_llm_fallback", str(e)[:100])
+        return llm(agent_name, prompt, timeout=timeout)
 # ── Internal ──────────────────────────────────────────────────────────────────
 
 def _log(agent_name: str, context: str, detail: str = "") -> None:

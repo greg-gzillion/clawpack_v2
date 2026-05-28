@@ -9,19 +9,24 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 name = "/analyze"
 A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
+
 def run(args):
     if not args:
         return "Usage: /analyze [law text, case citation, statute, or legal document excerpt]"
 
     output = []
-    output.append("=" * 70)
-    output.append("LAW TEXT ANALYSIS")
-    output.append("=" * 70)
-    output.append(f"TEXT: {args[:200]}{'...' if len(args) > 200 else ''}")
     output.append("")
+    output.append("=" * 60)
+    output.append(f"ANALYZE: {args[:100]}{'...' if len(args) > 100 else ''}")
+    output.append("=" * 60)
+
+    prior = show_prior(args, out)
 
     try:
         # STEP 1: Search Chronicle for relevant references
+        output.append("")
         output.append("[1/4] Searching Chronicle...")
         chronicle_context = ""
         try:
@@ -127,13 +132,24 @@ Analysis:"""
         if resp.status_code == 200:
             result = resp.json().get("result", "")
             if result:
-                output.append("=" * 70)
+                output.append("")
+                output.append("=" * 60)
                 output.append(result)
-                output.append("=" * 70)
+                output.append("=" * 60)
             else:
                 output.append("ERROR: LLM returned empty response")
         else:
             output.append(f"ERROR: LLM returned status {resp.status_code}")
+
+        # Write to shared memory
+        if result:
+            remember(
+                command="/analyze",
+                query=args[:200],
+                result_summary=result[:400],
+                source_type="web_verified" if web_context else "chronicle",
+                confidence=0.85 if web_context else 0.80,
+            )
 
         return "\n".join(output)
 

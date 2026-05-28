@@ -5,6 +5,8 @@ from pathlib import Path
 name = "/judge"
 A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
 
 def _log(agent, event, detail=""):
     try:
@@ -96,6 +98,8 @@ def run(args):
     out.append(f"JUDGE: {args}")
     out.append("=" * 60)
 
+    prior = show_prior(args, out)
+
     try:
         name_slug = args.lower().strip().replace(" ", "-").replace(".", "")
         parts = args.strip().split()
@@ -128,10 +132,9 @@ def run(args):
             search_url = f"https://www.fjc.gov/history/judges/search?q={args.replace(' ', '%20')}"
             out.append(f"  Direct FJC lookup failed. Search: {search_url}")
 
-        # STEP 3: CourtListener (search by last name for better coverage)
+        # STEP 3: CourtListener
         out.append("[3/3] Checking CourtListener...")
         people = cl_get("people/", {"name__icontains": last_name, "page_size": 10})
-        # Filter to exact name match if multiple results
         if len(parts) >= 2 and len(people) > 1:
             people = [p for p in people if all(
                 pt.lower() in f"{p.get('name_first', '')} {p.get('name_last', '')}".lower()
@@ -172,6 +175,7 @@ def run(args):
         if cl_context:
             all_context += f"COURTLISTENER:\n{cl_context[:1000]}\n\n"
 
+        result = ""
         if all_context.strip():
             out.append("")
             out.append("[SYNTHESIS] Generating biography...")
@@ -200,7 +204,9 @@ Biography:"""
             out.append("  No data found from any source.")
             out.append(f"  Try FJC directly: {fjc_url}")
 
-        # URLs
+        if result:
+            remember(command="/judge", query=args, result_summary=result[:400], source_type="web_verified", confidence=0.85)
+
         out.append("")
         out.append("  Resources (Ctrl+Click):")
         out.append(f"    FJC Biography: {fjc_url}")

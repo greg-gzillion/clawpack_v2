@@ -7,6 +7,7 @@ name = "/hospital"
 from agents.lawclaw.commands._helpers import (
     log, llm, chronicle_context, jurisdiction_root
 )
+from agents.lawclaw.commands._memory import show_prior, remember
 
 STATE_CODES = {
     "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
@@ -31,6 +32,8 @@ def run(args):
     out.append("=" * 60)
     out.append(f"HOSPITAL: {args}")
     out.append("=" * 60)
+
+    prior = show_prior(args, out)
 
     try:
         parts = args.strip().split()
@@ -95,6 +98,9 @@ Use ONLY the data provided. Under 200 words."""
         else:
             out.append(combined[:2000])
         out.append("=" * 60)
+
+        if result:
+            remember(command="/hospital", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.90)
 
         return "\n".join(out)
 

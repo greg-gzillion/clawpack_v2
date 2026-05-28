@@ -7,6 +7,7 @@ name = "/summarize"
 from agents.lawclaw.commands._helpers import (
     log, llm, webclaw, chronicle, chronicle_context, cl_search, cl_token
 )
+from agents.lawclaw.commands._memory import show_prior, remember
 
 
 def run(args):
@@ -24,8 +25,9 @@ def run(args):
     out.append(f"SUMMARIZE: {args}")
     out.append("=" * 60)
 
+    prior = show_prior(args, out)
+
     try:
-        # Detect input type
         is_url = args.startswith("http")
         is_docket = "courtlistener.com/docket/" in args
         is_case = " v " in args.lower() or " v. " in args.lower()
@@ -63,7 +65,6 @@ def run(args):
                 except:
                     pass
         elif is_case:
-            # Search CourtListener for opinions
             cases = cl_search(args, search_type="o", limit=5)
             if cases:
                 out.append(f"  {len(cases)} case(s) found")
@@ -86,13 +87,13 @@ def run(args):
             else:
                 out.append("  Could not fetch URL content")
         else:
-            # Text input — use as-is
             source_text = args
             out.append("  Processing text input")
 
         # STEP 3: LLM synthesis
         out.append("[3/3] Generating summary...")
 
+        result = ""
         if source_text or chronicle_ctx:
             prompt = f"""Create a structured legal summary for: {args}
 
@@ -131,6 +132,9 @@ Summary:"""
         else:
             out.append("  No data found to summarize.")
             out.append("  Try: /law [topic] or /docket [case URL]")
+
+        if result:
+            remember(command="/summarize", query=args[:200], result_summary=result[:400], source_type="web_verified", confidence=0.85)
 
         return "\n".join(out)
 

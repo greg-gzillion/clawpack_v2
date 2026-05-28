@@ -7,6 +7,7 @@ name = "/police"
 from agents.lawclaw.commands._helpers import (
     log, llm, chronicle_context, jurisdiction_root
 )
+from agents.lawclaw.commands._memory import show_prior, remember
 
 STATE_CODES = {
     "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
@@ -32,6 +33,8 @@ def run(args):
     out.append(f"POLICE: {args}")
     out.append("=" * 60)
 
+    prior = show_prior(args, out)
+
     try:
         parts = args.strip().split()
         state = None
@@ -45,11 +48,6 @@ def run(args):
         city_norm = normalize(city)
 
         juris_root = jurisdiction_root()
-        if not juris_root.exists():
-            out.append("  Jurisdiction database not found.")
-            return "\n".join(out)
-
-        # Search for police info in city files
         all_content = []
         found = False
 
@@ -78,10 +76,8 @@ def run(args):
             out.append(f"  Try: /jurisdiction {args} for full civic profile")
             return "\n".join(out)
 
-        # Chronicle
         chronicle_ctx = chronicle_context(f"{args} police department law enforcement", limit=5)
 
-        # LLM
         combined = "\n\n".join(block[:1500] for block in all_content[:3])
         prompt = f"""Extract police department information for: {args}
 
@@ -103,6 +99,9 @@ Emergency is always 911. Use ONLY the data provided. Under 200 words."""
         else:
             out.append(combined[:2000])
         out.append("=" * 60)
+
+        if result:
+            remember(command="/police", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.90)
 
         return "\n".join(out)
 

@@ -24,6 +24,8 @@ LEGAL_HINTS = [
     "housing", "landlord", "clerk", "filing", "rules", "procedures"
 ]
 
+from agents.lawclaw.commands._memory import show_prior, remember
+
 
 def _log(agent, event, detail=""):
     try:
@@ -215,6 +217,8 @@ def run(args):
     out.append(f"JURISDICTION: {args}")
     out.append("=" * 60)
 
+    prior = show_prior(args, out)
+
     try:
         query = parse_query(args)
 
@@ -327,9 +331,7 @@ CHRONICLE:
 Rules:
 - Use ONLY the data provided. No invented addresses, phones, or URLs.
 - If an address is not explicitly in the source data, omit it entirely.
-  Do not guess or note that you are guessing.
 - Skip any section with no data. Each fact must appear only once.
-- If a URL looks incorrect or generic, omit it.
 - Include DISCOVERED resources in the relevant sections.
 
 Sections (omit if no data):
@@ -358,7 +360,9 @@ URLs — all links"""
                 out.append("")
         out.append("=" * 60)
 
-        # URLs
+        if result:
+            remember(command="/jurisdiction", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.95)
+
         unique_urls = list(dict.fromkeys(all_urls))
         if unique_urls:
             gov_urls = [u for u in unique_urls if ".gov" in u.lower()]
