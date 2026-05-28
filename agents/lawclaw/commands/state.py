@@ -1,22 +1,181 @@
-﻿"""state command - State courts"""
+﻿"""state command - State court lookup via jurisdiction files + Chronicle + LLM"""
+import re
+from pathlib import Path
 
 name = "/state"
 
+from agents.lawclaw.commands._helpers import (
+    log, llm, chronicle, chronicle_context, jurisdiction_root
+)
+
+STATE_NAMES = {
+    "ak": "Alaska", "al": "Alabama", "ar": "Arkansas", "az": "Arizona",
+    "ca": "California", "co": "Colorado", "ct": "Connecticut", "dc": "District of Columbia",
+    "de": "Delaware", "fl": "Florida", "ga": "Georgia", "hi": "Hawaii",
+    "ia": "Iowa", "id": "Idaho", "il": "Illinois", "in": "Indiana",
+    "ks": "Kansas", "ky": "Kentucky", "la": "Louisiana", "ma": "Massachusetts",
+    "md": "Maryland", "me": "Maine", "mi": "Michigan", "mn": "Minnesota",
+    "mo": "Missouri", "ms": "Mississippi", "mt": "Montana", "nc": "North Carolina",
+    "nd": "North Dakota", "ne": "Nebraska", "nh": "New Hampshire", "nj": "New Jersey",
+    "nm": "New Mexico", "nv": "Nevada", "ny": "New York", "oh": "Ohio",
+    "ok": "Oklahoma", "or": "Oregon", "pa": "Pennsylvania", "pr": "Puerto Rico",
+    "ri": "Rhode Island", "sc": "South Carolina", "sd": "South Dakota",
+    "tn": "Tennessee", "tx": "Texas", "ut": "Utah", "va": "Virginia",
+    "vt": "Vermont", "wa": "Washington", "wi": "Wisconsin", "wv": "West Virginia",
+    "wy": "Wyoming",
+}
+
+SKIP_FOLDERS = {"docu_resources", "draw_resources", "medi_resources", "state"}
+
+
 def run(args):
-    print("\n" + "="*60)
-    print("🏛️ STATE COURT SYSTEM")
-    print("="*60)
-    if args:
-        print(f"Looking up: {args.upper()}")
-        from core.data import get_state_info
-        info = get_state_info(args.upper())
-        if info["exists"]:
-            print(f"\n{args.upper()} has {info['total']} counties with court data.")
-            print(f"Use /browse {args.upper()} to see all counties.")
+    if not args:
+        return (
+            "[STATE] Usage: /state [state code] [county]\n"
+            "  /state TX              — Texas state court system\n"
+            "  /state TX Harris       — Harris County courts\n"
+            "  /state VA Bedford      — Bedford County courts"
+        )
+
+    out = []
+    out.append("")
+    out.append("=" * 60)
+    out.append(f"STATE COURTS: {args}")
+    out.append("=" * 60)
+
+    try:
+        parts = args.strip().split()
+        state_code = parts[0].lower()
+        county_filter = " ".join(parts[1:]) if len(parts) > 1 else None
+
+        state_full = STATE_NAMES.get(state_code, state_code.upper())
+        juris_root = jurisdiction_root()
+        state_dir = juris_root / state_code
+        if not state_dir.exists():
+            state_dir = juris_root / state_code.upper()
+        if not state_dir.exists():
+            out.append(f"  State '{state_code.upper()}' not found.")
+            out.append("  Run /list to see all available states.")
+            return "\n".join(out)
+
+        # No county specified — show county list
+        if not county_filter:
+            counties = sorted([
+                d.name.replace("_", " ").title()
+                for d in state_dir.iterdir()
+                if d.is_dir() and d.name not in SKIP_FOLDERS
+            ])
+            out.append(f"  {state_full}: {len(counties)} counties with court data")
+            out.append("")
+            for c in counties:
+                out.append(f"    {c}")
+            out.append("")
+            out.append(f"  /state {state_code.upper()} [county] — court details")
+            out.append(f"  /jurisdiction [city] {state_code.upper()} — civic profile")
+            return "\n".join(out)
+
+        # County specified — search files
+        out.append("")
+        out.append("[1/3] Searching jurisdiction files...")
+
+        all_content = []
+        all_urls = []
+        files_found = 0
+        matched_counties = []
+
+        for county_dir in sorted(state_dir.iterdir()):
+            if not county_dir.is_dir() or county_dir.name in SKIP_FOLDERS:
+                continue
+
+            cname = county_dir.name.replace("_", " ").lower()
+            if county_filter.lower() in cname:
+                matched_counties.append(county_dir.name)
+                for f in sorted(county_dir.iterdir()):
+                    if f.suffix == ".md":
+                        try:
+                            content = f.read_text(encoding="utf-8", errors="ignore").strip()
+                            if content:
+                                label = f"{county_dir.name.replace('_', ' ').title()} County — {f.name}"
+                                all_content.append(f"### {label}\n{content}")
+                                all_urls.extend(re.findall(r'https?://[^\s\)\]\<\>\"\']+', content))
+                                files_found += 1
+                        except:
+                            pass
+
+        out.append(f"  {files_found} court files found in {state_full}")
+
+        # Fuzzy match if no files found
+        if files_found == 0:
+            close = []
+            for d in sorted(state_dir.iterdir()):
+                if d.is_dir() and county_filter[:4].lower() in d.name.lower():
+                    close.append(d.name.replace("_", " ").title())
+            if close:
+                out.append(f"  Did you mean: {', '.join(close[:3])}?")
+                return "\n".join(out)
+
+        # STEP 2: Chronicle
+        out.append("[2/3] Searching Chronicle...")
+        chronicle_ctx = chronicle_context(f"{state_full} {county_filter} state court", limit=8)
+        if chronicle_ctx:
+            out.append("  Chronicle references found")
+
+        # STEP 3: LLM synthesis
+        out.append("[3/3] Generating state court profile...")
+
+        if all_content:
+            combined = "\n\n".join(block[:1500] for block in all_content[:10])
+
+            prompt = f"""Create a state court profile for: {args}
+
+JURISDICTION FILES:
+{combined}
+
+CHRONICLE:
+{chronicle_ctx[:1500] if chronicle_ctx else "None."}
+
+Cover: state court structure, types of courts, key courts found in the files,
+how to access records, and relevant URLs.
+Use ONLY the data provided. Do not invent courts or URLs.
+Under 300 words.
+
+Profile:"""
+
+            result = llm(prompt, timeout=120)
+            if result and len(result) > 50:
+                out.append("")
+                out.append("=" * 60)
+                out.append(result)
+                out.append("=" * 60)
+            else:
+                out.append("")
+                out.append("[LLM unavailable — showing raw data]")
+                out.append("")
+                for block in all_content[:4]:
+                    out.append(block[:1500])
+                    out.append("")
         else:
-            print(f"State '{args}' not found in database.")
-    else:
-        print("Usage: /state [state code]")
-        print("Example: /state TX")
-        print("Use /list to see all available states.")
-    print("="*60)
+            out.append("  No court files found for this county.")
+            out.append(f"  Try: /jurisdiction [city] {state_code.upper()}")
+
+        # URLs from matched files
+        unique_urls = list(dict.fromkeys(all_urls))
+        if unique_urls:
+            gov_urls = [u for u in unique_urls if ".gov" in u.lower()]
+            other_urls = [u for u in unique_urls if ".gov" not in u.lower()]
+            ranked = gov_urls + other_urls
+            out.append("")
+            out.append("  URLs (Ctrl+Click):")
+            for url in ranked[:15]:
+                out.append(f"    {url}")
+
+        out.append("")
+        out.append(f"  /jurisdiction [city] {state_code.upper()} — full civic profile")
+        out.append(f"  /list {state_code.upper()} — all counties")
+
+        return "\n".join(out)
+
+    except Exception as e:
+        log("state_run_error", str(e)[:300])
+        out.append(f"\n[ERROR] {str(e)[:300]}")
+        return "\n".join(out)
