@@ -5,31 +5,31 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
 
-**21 agents · 6 shared ministries · Sovereign LLM governance · Chronicle audit (35K+) · A2A routing**
+**21 agents · 15 sovereign ministries · Chronicle audit (35K+) · A2A routing**
 
 ---
 
-## Shared Ministries
+## Sovereign Ministries
 
-Every agent inherits these through shared/. No agent works alone.
+Every agent inherits these through shared/. No agent works alone. No agent speaks to a model directly.
 
 | Ministry | Path | Purpose |
 |----------|------|---------|
 | **Sovereign Gateway** | shared/llm/ | All model access. Budget, audit, fallback. 4 providers, 25 models. |
-| **Judiciary** | shared/enforcement/ | 19 forbidden patterns. Pre/post execution gates. Recursion guard. |
+| **Judiciary** | shared/enforcement/ | 19 forbidden patterns. Pre/post execution gates. |
 | **Unified Memory** | shared/memory/ | Chronicle-backed. Cross-agent recall. All 23 lawclaw commands wired. |
-| **Imperial Documents** | shared/files/ | File format conversion. 52 extensions, 8 categories. Batch operations. |
+| **Imperial Documents** | shared/files/ | File format conversion. 52 extensions, 8 categories. |
 | **DocuClaw API** | shared/docuclaw_api.py | Document creation for all agents. Any agent to DocuClaw. |
 | **Agent Registry** | shared/registry.py | 21 agents registered. Capability map. Delegation routing. |
-| **Truth Resolver** | shared/truth_resolver.py | Epistemic constitution. web_verified > chronicle > memory > inference. |
-| **Source Registry** | shared/source_registry.py | 40+ trusted sources. 4 tiers. Domain-specific overrides. |
-| **Execution Policy** | shared/execution_policy.py | Hard boundaries. Delete blocked. Shell blocked. Force push blocked. |
-| **Guarded Executor** | shared/guarded_executor.py | Only legal path for dangerous operations. Checks policy + logs to ledger. |
-| **Decision Ledger** | shared/decision_ledger.py | Tamper-evident hash chain. Cryptographically verifiable audit trail. |
-| **Import Scanner** | shared/import_scanner.py | Detects subprocess, os.system, shell=True bypass attempts. |
-| **Memory Guard** | shared/memory_guard.py | Inference never persists. Confidence must exceed 0.75 threshold. |
-| **Direct Model Provider** | shared/llm/providers/direct_model.py | Loads obliterated safetensors from disk. No Ollama. No duplication. True sovereignty. |
-| **Agent Helpers** | shared/_agent_helpers.py | Empire-wide utilities. All 21 agents connected. LLM, Chronicle, delegation, memory. |
+| **Truth Resolver** | shared/truth_resolver.py | web_verified > chronicle > memory > inference. |
+| **Source Registry** | shared/source_registry.py | 40+ trusted sources. 4 tiers. Domain overrides. |
+| **Execution Policy** | shared/execution_policy.py | Hard boundaries. Delete blocked. Shell blocked. |
+| **Guarded Executor** | shared/guarded_executor.py | Only legal path for dangerous operations. |
+| **Decision Ledger** | shared/decision_ledger.py | Tamper-evident hash chain. Verifiable audit. |
+| **Import Scanner** | shared/import_scanner.py | Detects forbidden LLM imports. |
+| **Memory Guard** | shared/memory_guard.py | Inference never persists. Confidence >= 0.75. |
+| **Direct Model Provider** | shared/llm/providers/direct_model.py | Obliterated safetensors from disk. True sovereignty. |
+| **Agent Helpers** | shared/_agent_helpers.py | Empire-wide bridge. All 21 agents connected. |
 
 ## Agents (21)
 
@@ -63,16 +63,16 @@ Every agent inherits these through shared/. No agent works alone.
 
 **Obliterated:** deepseek-coder-liberated - codellama-liberated - smollm2-liberated - tinyllama-liberated - gemma3-liberated
 
-**Active:** claude-haiku-4-5-20251001 (controlled by llmclaw /use system-wide)
+**Default runtime:** constitutional routing (provider-selectable via llmclaw /use)
 
 ## Architecture
 clawpack_v2/
 ├── a2a_server.py # Central A2A server (port 8766)
-├── shared/ # UNIVERSAL MINISTRIES
+├── shared/ # 15 SOVEREIGN MINISTRIES
 │ ├── llm/ # Sovereign Gateway
-│ ├── enforcement/ # Judiciary (7 files, 19 patterns)
+│ ├── enforcement/ # Judiciary
 │ ├── memory/ # Unified Knowledge
-│ ├── files/ # Imperial Documents (52 formats)
+│ ├── files/ # Imperial Documents
 │ ├── _agent_helpers.py # Empire-wide bridge (all 21 agents)
 │ └── base_agent.py # Foundation class
 ├── agents/ # 21 specialized agents
