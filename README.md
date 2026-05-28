@@ -84,15 +84,17 @@ clawpack_v2/
 ├── agents/                # 21 specialized agents
 ├── data/                  # Chronicle + budget + memory index
 └── exports/               # Generated files
+`
 ## A2A Protocol
 **Server:** a2a_server.py · Port: 8766
 
-bash
+`ash
 python a2a_server.py
+`
 **Endpoints:** GET /health · GET /v1/agents · GET /memory/stats · POST /v1/message/{agent}
 
 ## Example
-bash
+`ash
 $ /law qualified immunity
   [MEMORY] 2 related prior searches found
   31,918 cases found · 8 displayed
@@ -103,10 +105,11 @@ $ /llmclaw /use claude-haiku
 
 $ /jurisdiction Daytona Beach FL
   Courts · Police · Jail · 2 Hospitals (GPS) · Library · Permits
+`
 ## Constitutional Law
 All model access routes through shared/llm/client.py. Enforced by pre-commit hook, enforcement engine, and 9 sovereignty patterns. Every call is audited, budgeted, and governed.
 
-Data Licensing Notice (Effective May 4, 2026)
+## Data Licensing Notice (Effective May 4, 2026)
 All jurisdictional data, court records, building codes, and design resources in this repository are licensed under CC BY 4.0. See LICENSE-DATA for full terms.
 
 Clones prior to v3.1.0-data-license were under MIT only. Current and future use requires attribution.
