@@ -23,9 +23,10 @@ STATUTE_URLS = {
 
 def parse_citation(args):
     """Parse statute citation into components. Returns dict or None."""
-    args = args.strip()[:MAX_INPUT_LENGTH]
+    # Sanitize into visibly separate variable — CodeQL requires this pattern
+    safe = re.sub(r'[^\w\s\-\.\(\)\:\;\,\'\"\#\&]', '', args.strip())[:MAX_INPUT_LENGTH]
 
-    ucc_match = re.match(r'ucc\s+(\d+)[-.](\d+[a-z]*)', args, re.IGNORECASE)
+    ucc_match = re.match(r'ucc\s+(\d+)[-.](\d+[a-z]*)', safe, re.IGNORECASE)
     if ucc_match:
         return {
             "type": "ucc",
@@ -34,7 +35,7 @@ def parse_citation(args):
             "url": STATUTE_URLS["ucc"].format(article=ucc_match.group(1), section=ucc_match.group(2)),
         }
 
-    rules_match = re.match(r'(frcp|fre|frap)\s+(\d+)', args, re.IGNORECASE)
+    rules_match = re.match(r'(frcp|fre|frap)\s+(\d+)', safe, re.IGNORECASE)
     if rules_match:
         rule_type = rules_match.group(1).lower()
         rule_num = rules_match.group(2)
@@ -44,7 +45,7 @@ def parse_citation(args):
             "url": STATUTE_URLS[rule_type].format(rule=rule_num),
         }
 
-    usc_match = re.match(r'(\d+)\s*(?:u\.?s\.?c\.?|usc)\s*(\d+[a-z]*)', args, re.IGNORECASE)
+    usc_match = re.match(r'(\d+)\s*(?:u\.?s\.?c\.?|usc)\s*(\d+[a-z]*)', safe, re.IGNORECASE)
     if usc_match:
         title = usc_match.group(1)
         section = usc_match.group(2)
@@ -55,7 +56,7 @@ def parse_citation(args):
             "url": STATUTE_URLS["uscode"].format(title=title, section=section),
         }
 
-    state_match = re.match(r'([a-z]{2}|[a-z]+)\s+([\d.]+[a-z]*)', args, re.IGNORECASE)
+    state_match = re.match(r'([a-z]{2}|[a-z]+)\s+([\d.]+[a-z]*)', safe, re.IGNORECASE)
     if state_match:
         state = state_match.group(1)
         section = state_match.group(2)
@@ -81,24 +82,24 @@ def run(args):
             "  /statute Florida 784.011    — state statute"
         )
 
-    # Truncate input to prevent ReDoS
-    args = args[:MAX_INPUT_LENGTH]
+    # Sanitize into visibly separate variable — CodeQL requires this pattern
+    safe_args = re.sub(r'[^\w\s\-\.\(\)\:\;\,\'\"\#\&]', '', args.strip())[:MAX_INPUT_LENGTH]
 
     out = []
     out.append("")
     out.append("=" * 60)
-    out.append(f"STATUTE: {args}")
+    out.append(f"STATUTE: {safe_args}")
     out.append("=" * 60)
 
-    prior = show_prior(args, out)
+    prior = show_prior(safe_args, out)
 
     try:
-        citation = parse_citation(args)
+        citation = parse_citation(safe_args)
 
         # STEP 1: Chronicle
         out.append("")
         out.append("[1/3] Searching Chronicle...")
-        chronicle_ctx = chronicle_context(f"{args} statute uscode law", limit=8)
+        chronicle_ctx = chronicle_context(f"{safe_args} statute uscode law", limit=8)
         if chronicle_ctx:
             out.append("  Chronicle references found")
 
@@ -115,7 +116,7 @@ def run(args):
             else:
                 out.append("  WebClaw could not fetch statute text")
         else:
-            search_url = f"https://www.law.cornell.edu/search/site/{args.replace(' ', '%20')}"
+            search_url = f"https://www.law.cornell.edu/search/site/{safe_args.replace(' ', '%20')}"
             out.append(f"  No direct URL pattern matched. Search: {search_url}")
             html = webclaw(search_url)
             if html and len(html) > 100:
@@ -127,7 +128,7 @@ def run(args):
 
         result = ""
         if statute_text or chronicle_ctx:
-            prompt = f"""Analyze this statute: {args}
+            prompt = f"""Analyze this statute: {safe_args}
 
 STATUTE TEXT (from law.cornell.edu):
 {statute_text[:4000] if statute_text else "Not available."}
@@ -163,10 +164,10 @@ Analysis:"""
                     out.append(statute_text[:3000])
         else:
             out.append("  No data found for this statute.")
-            out.append(f"  Try: https://www.law.cornell.edu/search/site/{args.replace(' ', '%20')}")
+            out.append(f"  Try: https://www.law.cornell.edu/search/site/{safe_args.replace(' ', '%20')}")
 
         if result:
-            remember(command="/statute", query=args[:200], result_summary=result[:400], source_type="web_verified", confidence=0.85)
+            remember(command="/statute", query=safe_args[:200], result_summary=result[:400], source_type="web_verified", confidence=0.85)
 
         out.append("")
         out.append("  Resources (Ctrl+Click):")
@@ -174,7 +175,7 @@ Analysis:"""
             out.append(f"    Full text: {citation['url']}")
         out.append("    US Code: https://www.law.cornell.edu/uscode/text")
         out.append("    UCC: https://www.law.cornell.edu/ucc")
-        out.append("    Search: https://www.law.cornell.edu/search/site/" + args.replace(" ", "%20"))
+        out.append("    Search: https://www.law.cornell.edu/search/site/" + safe_args.replace(" ", "%20"))
 
         return "\n".join(out)
 
