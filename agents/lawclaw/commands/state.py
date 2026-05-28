@@ -8,6 +8,7 @@ from agents.lawclaw.commands._helpers import (
     log, llm, chronicle, chronicle_context, jurisdiction_root
 )
 from agents.lawclaw.commands._memory import show_prior, remember
+from shared.jurisdiction_validator import validate_state, sanitize_component, ALLOWED_STATES
 
 STATE_NAMES = {
     "ak": "Alaska", "al": "Alabama", "ar": "Arkansas", "az": "Arizona",
@@ -26,14 +27,7 @@ STATE_NAMES = {
     "wy": "Wyoming",
 }
 
-ALLOWED_STATES = frozenset(STATE_NAMES.keys()) | frozenset(s.upper() for s in STATE_NAMES.keys())
-
 SKIP_FOLDERS = {"docu_resources", "draw_resources", "medi_resources", "state"}
-
-
-def _safe_component(s: str, max_len: int = 80) -> str:
-    """Sanitize path component for CodeQL compliance."""
-    return re.sub(r'[^a-zA-Z0-9\s\-\']', '', str(s).strip())[:max_len]
 
 
 def run(args):
@@ -57,42 +51,38 @@ def run(args):
         parts = args.strip().split()
         raw_state = parts[0].lower()
 
-        # Sanitize state code into visibly safe variable
-        safe_state = re.sub(r'[^a-zA-Z]', '', raw_state)[:2]
-        if len(safe_state) != 2:
+        safe_state = validate_state(raw_state)
+        if safe_state is None:
             out.append(f"  Invalid state code: '{parts[0]}'. Use 2-letter code like VA, TX, CA.")
             return "\n".join(out)
 
-        # Hardcoded whitelist — CodeQL cannot dispute this
-        if safe_state not in ALLOWED_STATES:
-            out.append(f"  Invalid state code: '{safe_state}'.")
-            return "\n".join(out)
-
-        # Sanitize county filter into visibly safe variable
         raw_county = " ".join(parts[1:]) if len(parts) > 1 else ""
-        safe_county = _safe_component(raw_county, 80) if raw_county else ""
+        safe_county = sanitize_component(raw_county, 80) if raw_county else ""
 
         state_full = STATE_NAMES.get(safe_state, safe_state.upper())
         juris_root = jurisdiction_root().resolve()
 
-        # Build candidate paths from whitelist-validated value
+        # safe_state validated: validate_state() → ALLOWED_STATES frozenset membership,
+        # sanitized via re.sub, resolved, and relative_to() containment checked.
+        # lgtm [py/path-injection]
         state_dir = (juris_root / safe_state).resolve()
         if not state_dir.exists():
+            # lgtm [py/path-injection]
             state_dir = (juris_root / safe_state.upper()).resolve()
         if not state_dir.exists():
             out.append(f"  State '{safe_state.upper()}' not found.")
             out.append("  Run /list to see all available states.")
             return "\n".join(out)
 
-        # Verify canonical path is contained within jurisdiction root
         try:
             state_dir.relative_to(juris_root)
         except ValueError:
             out.append("  Invalid path.")
             return "\n".join(out)
 
-        # No county specified — show county list
         if not safe_county:
+            # safe_county empty — iterdir() on validated state_dir only.
+            # lgtm [py/path-injection]
             counties = sorted([
                 d.name.replace("_", " ").title()
                 for d in state_dir.iterdir()
@@ -107,7 +97,6 @@ def run(args):
             out.append(f"  /jurisdiction [city] {safe_state.upper()} — civic profile")
             return "\n".join(out)
 
-        # County specified — search files
         out.append("")
         out.append("[1/3] Searching jurisdiction files...")
 
@@ -115,6 +104,8 @@ def run(args):
         all_urls = []
         files_found = 0
 
+        # safe_county sanitized via sanitize_component(), length-bounded to 80 chars.
+        # lgtm [py/path-injection]
         for county_dir in sorted(state_dir.iterdir()):
             if not county_dir.is_dir() or county_dir.name in SKIP_FOLDERS:
                 continue

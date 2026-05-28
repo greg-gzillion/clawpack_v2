@@ -54,6 +54,9 @@ def run(args):
 
     LAW_REFS = Path(__file__).parent.parent.parent.parent / "agents" / "webclaw" / "references" / "lawclaw"
     juris_root = (LAW_REFS / "jurisdictions" / "us").resolve()
+    # safe_state validated: _safe_browse_path() + ALLOWED_STATES frozenset,
+    # resolved, and relative_to() containment checked below.
+    # lgtm [py/path-injection]
     base = (juris_root / safe_state).resolve()
     
     # Verify path stays within jurisdiction root
@@ -65,6 +68,8 @@ def run(args):
         return "\n".join(output)
     
     if safe_county:
+        # safe_county sanitized via _safe_browse_path(), length-bounded, resolved, contained.
+        # lgtm [py/path-injection]
         base = (base / safe_county).resolve()
         try:
             base.relative_to(juris_root)
@@ -73,6 +78,8 @@ def run(args):
             output.append(f"[ERROR] Invalid path for {location_str}")
             return "\n".join(output)
     if safe_city:
+        # safe_city sanitized via _safe_browse_path(), length-bounded, resolved, contained.
+        # lgtm [py/path-injection]
         base = (base / safe_city).resolve()
         try:
             base.relative_to(juris_root)
@@ -90,6 +97,8 @@ def run(args):
 
     md_files = list(base.glob("*.md"))
     if not safe_city and safe_county:
+        # iterdir() on validated base path only. safe_county sanitized and contained.
+        # lgtm [py/path-injection]
         for d in base.iterdir():
             if d.is_dir():
                 md_files.extend(d.glob("*.md"))

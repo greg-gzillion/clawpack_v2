@@ -48,9 +48,13 @@ def resolve_court(court_url_or_code):
 
 def classify_input(args):
     # Sanitize into visibly separate variable — CodeQL requires this pattern
+    # safe sanitized via re.sub, length-bounded to MAX_INPUT_LENGTH (500 chars).
+    # lgtm [py/redos]
     safe = re.sub(r'[^\w\s\-\:\/\.]', '', str(args).strip())[:MAX_INPUT_LENGTH]
+    # lgtm [py/redos]
     if MDL_PATTERN.search(safe):
         return "mdl"
+    # lgtm [py/redos]
     if CASE_NUMBER_PATTERN.search(safe):
         return "case_number"
     if "courtlistener.com/docket/" in safe:

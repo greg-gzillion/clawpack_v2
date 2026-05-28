@@ -106,6 +106,9 @@ def query_design_resources(state=None, city=None):
 
     # Look up precomputed path from module-level constant — no user input in Path()
     design_root = DESIGN_ROOT
+    # design_path from STATE_DESIGN_PATHS dict — module-level constant built from
+    # ALLOWED_STATES frozenset at import time. No user input in path construction.
+    # lgtm [py/path-injection]
     design_path = STATE_DESIGN_PATHS.get(safe_state.lower())
     if design_path is None:
         return []
@@ -134,6 +137,9 @@ def query_design_resources(state=None, city=None):
         })
 
     if safe_city:
+        # safe_city sanitized via _safe_component(), length-bounded to 80 chars,
+        # resolved, and relative_to() containment checked against DESIGN_ROOT.
+        # lgtm [py/path-injection]
         city_path = (design_path / safe_city).resolve()
         try:
             city_path.relative_to(design_root)
