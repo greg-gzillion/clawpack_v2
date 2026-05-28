@@ -29,7 +29,7 @@ class ChronicleLedger:
             conn.commit()
 
     def record_fetch(self, url, context, source, metadata=None):
-        rk = hashlib.md5(f'{url}{context}{source}'.encode()).hexdigest()
+        rk = hashlib.sha256(f'{url}{context}{source}'.encode()).hexdigest()
         meta = json.dumps(metadata or {})
         with sqlite3.connect(str(self.db_path)) as conn:
             try:
@@ -67,7 +67,7 @@ class ChronicleLedger:
                 pass
             # If FTS5 returned empty, extract keywords and retry
             if not rows:
-                keywords = ' OR '.join([w for w in re.findall(r'[a-zA-Z0-9]{3,}', query) 
+                keywords = ' OR '.join([w for w in re.findall(r'[a-zA-Z0-9]{3,}', query)
                     if w.lower() not in ('the','and','for','what','where','when','who','how','why','are','was','did','does','has','had','can','will','is','court','county','city','state','municipal')])
                 if keywords:
                     try:

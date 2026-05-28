@@ -22,7 +22,7 @@ def run(args):
     output.append(f"ANALYZE: {args[:100]}{'...' if len(args) > 100 else ''}")
     output.append("=" * 60)
 
-    prior = show_prior(args, out)
+    prior = show_prior(args, output)
 
     try:
         # STEP 1: Search Chronicle for relevant references

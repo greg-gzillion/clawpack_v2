@@ -19,6 +19,12 @@ def run(args):
 
     if not state.isalpha() or len(state) != 2:
         return f"[ERROR] Invalid state code: {state}. Use 2-letter code like MA, TX, CA."
+    
+    # Sanitize county and city - no path separators
+    if county and any(c in county for c in "/\\.:"):
+        return f"[ERROR] Invalid county name."
+    if city and any(c in city for c in "/\\.:"):
+        return f"[ERROR] Invalid city name."
 
     output = []
     location_parts = [p for p in [city, county, state] if p]
@@ -31,12 +37,33 @@ def run(args):
     prior = show_prior(args, output)
 
     LAW_REFS = Path(__file__).parent.parent.parent.parent / "agents" / "webclaw" / "references" / "lawclaw"
-    base = LAW_REFS / "jurisdictions" / "us" / state
+    juris_root = (LAW_REFS / "jurisdictions" / "us").resolve()
+    base = (juris_root / state).resolve()
+    
+    # Verify path stays within jurisdiction root
+    try:
+        base.relative_to(juris_root)
+    except ValueError:
+        output.append("")
+        output.append(f"[ERROR] Invalid path for {location_str}")
+        return "\n".join(output)
     
     if county:
-        base = base / county
+        base = (base / county).resolve()
+        try:
+            base.relative_to(juris_root)
+        except ValueError:
+            output.append("")
+            output.append(f"[ERROR] Invalid path for {location_str}")
+            return "\n".join(output)
     if city:
-        base = base / city
+        base = (base / city).resolve()
+        try:
+            base.relative_to(juris_root)
+        except ValueError:
+            output.append("")
+            output.append(f"[ERROR] Invalid path for {location_str}")
+            return "\n".join(output)
 
     if not base.exists():
         output.append("")

@@ -10,8 +10,10 @@ COURTLISTENER_API = "https://www.courtlistener.com/api/rest/v4"
 
 from agents.lawclaw.commands._memory import show_prior, remember
 
+# Pre-compiled patterns with input length limits to prevent ReDoS
 CASE_NUMBER_PATTERN = re.compile(r'\d+:\d+-[a-z]+-\d+|\d+-[A-Z]+-\d+|\d+-\d+', re.IGNORECASE)
 MDL_PATTERN = re.compile(r'\d+-MD-\d+', re.IGNORECASE)
+MAX_INPUT_LENGTH = 500  # prevent ReDoS on pathological input
 
 COURT_CODES = {
     "miwd": "W.D. Mich.", "nywd": "W.D.N.Y.", "tnwd": "W.D. Tenn.",
@@ -45,6 +47,8 @@ def resolve_court(court_url_or_code):
 
 
 def classify_input(args):
+    # Truncate to prevent ReDoS on pathological input
+    args = args[:MAX_INPUT_LENGTH]
     if MDL_PATTERN.search(args):
         return "mdl"
     if CASE_NUMBER_PATTERN.search(args):
@@ -57,6 +61,9 @@ def classify_input(args):
 def run(args):
     if not args:
         return "[DOCKET] Usage: /docket [case number or CourtListener URL]"
+
+    # Truncate input to prevent ReDoS
+    args = args[:MAX_INPUT_LENGTH]
 
     output = []
     output.append("")

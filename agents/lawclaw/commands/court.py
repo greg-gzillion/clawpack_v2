@@ -129,11 +129,11 @@ def parse_intent(args):
 def find_jurisdiction_files(intent):
     """Find jurisdiction files with exact matching and court-priority ranking."""
     LAW_REFS = Path(__file__).parent.parent.parent.parent / "agents" / "webclaw" / "references" / "lawclaw"
-    juris_base = LAW_REFS / "jurisdictions" / "us"
+    juris_root = (LAW_REFS / "jurisdictions" / "us").resolve()
     
     results = {"files": [], "display_path": "", "level": ""}
     
-    if not juris_base.exists():
+    if not juris_root.exists():
         return results
     
     state_code = intent.get("state_code")
@@ -143,11 +143,27 @@ def find_jurisdiction_files(intent):
     if not state_code:
         return results
     
-    state_path = juris_base / state_code
+    # Validate state code
+    if len(state_code) != 2 or not state_code.isalpha():
+        return results
+    
+    # Sanitize county and city
+    if county and any(c in county for c in "/\\.:"):
+        return results
+    if city and any(c in city for c in "/\\.:"):
+        return results
+    
+    state_path = (juris_root / state_code).resolve()
     if not state_path.exists():
-        state_path = juris_base / state_code.lower()
-        if not state_path.exists():
-            return results
+        state_path = (juris_root / state_code.lower()).resolve()
+    if not state_path.exists():
+        return results
+    
+    # Verify path containment
+    try:
+        state_path.relative_to(juris_root)
+    except ValueError:
+        return results
     
     # City level
     if city and county:

@@ -9,6 +9,8 @@ from agents.lawclaw.commands._helpers import (
 )
 from agents.lawclaw.commands._memory import show_prior, remember
 
+MAX_INPUT_LENGTH = 300  # prevent ReDoS on pathological input
+
 # URL patterns for common statute sources
 STATUTE_URLS = {
     "uscode": "https://www.law.cornell.edu/uscode/text/{title}/{section}",
@@ -21,7 +23,7 @@ STATUTE_URLS = {
 
 def parse_citation(args):
     """Parse statute citation into components. Returns dict or None."""
-    args = args.strip()
+    args = args.strip()[:MAX_INPUT_LENGTH]
 
     ucc_match = re.match(r'ucc\s+(\d+)[-.](\d+[a-z]*)', args, re.IGNORECASE)
     if ucc_match:
@@ -78,6 +80,9 @@ def run(args):
             "  /statute FRCP 12            — Federal Rules of Civil Procedure\n"
             "  /statute Florida 784.011    — state statute"
         )
+
+    # Truncate input to prevent ReDoS
+    args = args[:MAX_INPUT_LENGTH]
 
     out = []
     out.append("")

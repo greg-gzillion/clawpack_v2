@@ -14,6 +14,9 @@ from shared._agent_helpers import log_err
 from references import search_references
 from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact, classify_occupancy
 
+MAX_INPUT_LENGTH = 1000  # prevent ReDoS on pathological regex input
+ALLOWED_FORMATS = {"png", "jpg", "jpeg", "pdf", "svg", "dxf", "dwg", "txt", "md", "json", "csv", "html"}  # whitelist for _fileclaw_export
+
 class DraftClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("draftclaw")
@@ -50,6 +53,11 @@ class DraftClawAgent(BaseAgent):
                 pass
 
     def _fileclaw_export(self, fmt, content):
+        # Validate format against whitelist - prevents path traversal via extension
+        fmt = fmt.strip().lower().lstrip(".")
+        if fmt not in ALLOWED_FORMATS:
+            log_err("draftclaw", "fileclaw_export", f"Blocked format: {fmt}")
+            return f"Error: Format '{fmt}' not allowed. Use: {', '.join(sorted(ALLOWED_FORMATS))}"
         try:
             safe = content.replace(chr(10), '\\n').replace('"', '\\"')
             result = self.call_agent("fileclaw", f"/export {fmt} {safe}", timeout=30)
@@ -68,6 +76,9 @@ class DraftClawAgent(BaseAgent):
         ALL criteria MUST come from webclaw/references/draftclaw/jurisdictions/us/
         No hardcoded fallback values permitted."""
         from agents.draftclaw.core.jurisdiction_engine import lookup_jurisdiction, extract_design_criteria, extract_contact
+
+        # Truncate query to prevent ReDoS
+        query = query[:MAX_INPUT_LENGTH]
 
         jur_match = re.search(r'(?:in|for|at)\s+([a-zA-Z\s,]+?)(?:\s*$)', query.lower())
         jur_names = []
@@ -200,7 +211,7 @@ class DraftClawAgent(BaseAgent):
             if cmd in ("/lookup","/jurisdiction") and query:
                 results = lookup_jurisdiction(query)
                 import re as re_module
-                state_match = re_module.search(r'(?<![A-Z])([A-Z]{2})(?![A-Z])', query.upper())
+                state_match = re_module.search(r'(?<![A-Z])([A-Z]{2})(?![A-Z])', query[:MAX_INPUT_LENGTH].upper())
                 if state_match:
                     st = state_match.group(1)
                     results = [r for r in results if st in r.get('jurisdiction', '')]

@@ -5,8 +5,12 @@ from pathlib import Path
 name = "blueprint"
 description = "Generate architectural floor plan from query specifications"
 
+MAX_INPUT_LENGTH = 500  # prevent ReDoS on pathological input
+
+
 def parse_dimensions(args):
     """Extract dimensions like '100x200' or '100ft x 200ft'"""
+    args = args[:MAX_INPUT_LENGTH]
     dims = re.findall(r'(\d+)\s*[xX]\s*(\d+)', args)
     if dims:
         return int(dims[0][0]), int(dims[0][1])
@@ -15,9 +19,10 @@ def parse_dimensions(args):
         return int(dims[0]), int(dims[1])
     return None, None
 
+
 def detect_type(args):
     """Determine building type from keywords"""
-    args_lower = args.lower()
+    args_lower = args[:MAX_INPUT_LENGTH].lower()
     if any(kw in args_lower for kw in ['warehouse','storage','distribution','industrial','logistics']):
         return 'warehouse'
     if any(kw in args_lower for kw in ['office','commercial','business','coworking']):
@@ -32,10 +37,11 @@ def detect_type(args):
         return 'manufacturing'
     return 'general'
 
+
 def detect_features(args):
     """Detect requested features like loading docks, offices, etc."""
     features = []
-    args_lower = args.lower()
+    args_lower = args[:MAX_INPUT_LENGTH].lower()
     if any(kw in args_lower for kw in ['loading dock','dock','truck','shipping']):
         features.append('loading_docks')
     if any(kw in args_lower for kw in ['office','admin','administration']):
@@ -54,9 +60,13 @@ def detect_features(args):
             features.append(f'clear_height_{height[0]}ft')
     return features
 
+
 def run(args):
     if not args:
         return "Usage: /blueprint <specs>\nExample: /blueprint warehouse 100x200 with loading docks and office"
+
+    # Truncate input to prevent ReDoS
+    args = args[:MAX_INPUT_LENGTH]
 
     try:
         from PIL import Image, ImageDraw, ImageFont
