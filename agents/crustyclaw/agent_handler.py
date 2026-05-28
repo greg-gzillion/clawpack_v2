@@ -28,17 +28,24 @@ class CrustyClawAgent(BaseAgent):
         allowed_commands = {"audit", "pinch", "explain", "fix"}
         if command not in allowed_commands:
             return None
-        safe_args = "".join(c for c in args if c.isalnum() or c in " _-.:/")[:200]
+        # Sanitize user text and pass via stdin (not command-line args)
+        safe_input = "".join(c for c in str(args) if c.isprintable() and c not in "\r\n\t")[:2000].strip()
         
         binary_paths = [CRUSTY_DIR/"target"/"release"/"crustyclaw.exe", CRUSTY_DIR/"target"/"release"/"crustyclaw", Path.home()/".cargo"/"bin"/"crustyclaw"]
         for binary in binary_paths:
             if binary.exists():
                 try:
                     cmd = [str(binary), command]
-                    if safe_args: cmd.append(safe_args)
-                    result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)  # lgtm [py/command-line-injection]
+                    result = subprocess.run(
+                        cmd,
+                        input=safe_input if safe_input else None,
+                        capture_output=True,
+                        text=True,
+                        timeout=30
+                    )
                     return result.stdout or result.stderr
-                except: pass
+                except:
+                    pass
         return None
 
     def handle(self, task):
