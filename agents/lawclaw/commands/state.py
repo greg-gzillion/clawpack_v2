@@ -64,6 +64,11 @@ def run(args):
         state_full = STATE_NAMES.get(state_code, state_code.upper())
         juris_root = jurisdiction_root().resolve()
         
+        # Validate state code at point of use - CodeQL requires inline validation
+        if len(state_code) != 2 or not state_code.isalpha():
+            out.append(f"  Invalid state code: '{state_code}'.")
+            return "\n".join(out)
+        
         # Build candidate paths under canonical jurisdiction root
         state_dir = (juris_root / state_code).resolve()
         if not state_dir.exists():
