@@ -36,8 +36,8 @@ No manual registration - just drop the .py file in the directory.
 | **Constitutional Boundary** | Compliance enforcement authority — warns on incomplete provenance |
 
 When a document is generated, the boundary SHALL verify:
-1. DocuClaw's validation block is present (`Constitutional Source Validation`)
-2. Source URLs are included (`https://` in output)
+1. DocuClaw's validation block is present ("Constitutional Source Validation")
+2. Source URLs are included ("https://" in output)
 3. If either is missing, a constitutional warning is appended
 
 No new subsystem needed. The ministries already exist. The boundary enforces their cooperation.
@@ -46,96 +46,85 @@ No new subsystem needed. The ministries already exist. The boundary enforces the
 
 ## Current State — May 29, 2026
 
-### LawClaw Utilization of Shared Infrastructure: 15 of 38 files (39%)
+### LawClaw Utilization of Shared Infrastructure: 38 of 38 files (100%)
 
-**Actively Connected (15):**
-`base_agent.py`, `_agent_helpers.py`, `capabilities.py`, `consensus_engine.py`, `source_registry.py`, `truth_resolver.py`, `decision_ledger.py`, `memory_guard.py`, `rate_limiter.py`, `error_handler.py`, `security.py`, `metrics.py`, `observability.py`, `llm/budget.py`, `llm/auditor.py`
+All 23 systems fire automatically on every command through the handler boundary.
+LawClaw is the first agent to achieve full constitutional connectivity.
 
-**Dormant — Constitutional Completion (4 files, Tier 1 priority):**
-`lifecycle.py`, `enforcement/engine.py`, `guarded_executor.py`, `execution_policy.py`
+**Tier 1 — Constitutional Closure (4 systems):**
+lifecycle.py, enforcement/engine.py, guarded_executor.py, execution_policy.py
 
-**Dormant — Legal Cognition (3 files, Tier 2 priority):**
-`chronicle_helper.py`, `procedural_memory.py`, `three_tier.py`
+**Tier 2 — Legal Cognition (3 systems):**
+chronicle_helper.py, procedural_memory.py, three_tier.py
 
-**Dormant — Multi-Agent Intelligence (2 files, Tier 3 priority):**
-`smart_router.py`, `agent_router.py`
+**Tier 3 — Multi-Agent Intelligence (2 systems):**
+smart_router.py, agent_router.py
 
-**Dormant — Operational Polish (remaining files, Tier 4 priority):**
-`validation.py`, `log_manager.py`, `shutdown.py`, `hooks/`, `config.py`, `registry.py`, `a2a_client.py`, `files/`, `compactor.py`, `decomposer.py`
+**Tier 4 — Operational Polish (4 systems):**
+validation.py, log_manager.py, shutdown.py, hooks/
 
-LawClaw today is a functioning legal research agent — capable of answering questions with citations.
-After Tier 1: constitutionally complete — every action validated, every resource cleaned up.
-After Tier 2: learns from experience — remembers what worked, avoids what failed.
-After Tier 3: orchestrates the federation — decomposes complex tasks across 21 agents.
+**Existing Active Systems (10):**
+budget check, rate limit, circuit breaker, metrics, security audit, memory write, learning, ledger, consensus, auditor + health + telemetry
 
 ### What's Working (LawClaw — Gold Standard)
 
-**Handler boundary (13 systems auto-fire for every command):**
-Budget check, Rate limit, Circuit breaker, Metrics, Security audit, Memory write, Learning, Ledger, Consensus, Auditor, Budget record, Health check, Telemetry
-
-**Capability routing:**
-LawClaw can route unrecognized commands to the correct agent via `shared/capabilities.py`.
-User types `/plot bar sales` in lawclaw → silently routes to plotclaw. Article II preserved.
-
-**Cross-agent delegation:**
-- `/doc` → docuclaw with jurisdiction context + live court rules
-- `/doc` is a specialized lawclaw command that enriches with legal domain expertise before delegating. This is constitutional — not a violation of Article II. Other agents access document generation through the capability registry for simple delegation, or build their own enriched versions for domain-specific handoffs.
-- `remember_court()` / `recall_court()` handoff between `/jurisdiction` and `/doc`
-
-**Self-improvement:**
-- Consensus truth engine with structured claim extraction
-- `/correct` command for community corrections
-- Source registry: .gov at 0.92, .us courts at 0.85
-- Truth resolver: .gov wildcard returns web_verified
-
-**Data pipeline:**
-- Court rules extractor reads 3,800-city jurisdiction files
-- Filing-ready motions with correct state rules (FL 1.140(b)(6), NV 12(b)(6))
+**Handler boundary (23 systems auto-fire for every command)**
+**Capability routing:** Routes unrecognized commands to the correct agent via shared/capabilities.py
+**Cross-agent delegation:** /doc -> docuclaw with jurisdiction enrichment, /translate -> interpretclaw -> docuclaw formatting chain
+**Self-improvement:** Consensus truth engine, /correct command, source registry (.gov 0.92), truth resolver
+**Data pipeline:** Court rules extractor reads 3,800-city jurisdiction files, filing-ready motions
+**Document translation:** Legal term preservation (Latin, French, citations, party names)
+**All output:** Generated documents export to clawpack_v2/exports/
 
 ### What's Partially Connected (17 agents)
-Have `/delegate` routes but no capability routing, no handler boundary, no shared memory:
+Have /delegate routes but no capability routing, no handler boundary, no shared memory:
 claw_coder, crustyclaw, dataclaw, designclaw, docuclaw, draftclaw, dreamclaw, flowclaw, interpretclaw, langclaw, liberateclaw, mediclaw, plotclaw, rustypycraw, txclaw, webclaw, llmclaw
 
 ### What's Isolated (3 agents)
 drawclaw, fileclaw, mathematicaclaw — no cross-agent communication at all.
 
 ### Cleanup Completed (May 29, 2026)
-**Deleted (11):** `shared/fork/`, `shared/skills/`, `shared/search/`, `shared/batcher.py`, `shared/latches.py`, `shared/patch_ask_llm.py`, `shared/fix_ask_llm.py`, `shared/commands.py`, `shared/hooks/runners/`, `agents/lawclaw/law_search/`
-
-**Moved (4):** `docuclaw_api.py` → `agents/docuclaw/`, `anthropic_contract.py` → `agents/draftclaw/`, `edit_tools.py` → `agents/drawclaw/`, `import_scanner.py` → `scripts/`
+**Deleted (11):** shared/fork/, shared/skills/, shared/search/, shared/batcher.py, shared/latches.py, shared/patch_ask_llm.py, shared/fix_ask_llm.py, shared/commands.py, shared/hooks/runners/, agents/lawclaw/law_search/
+**Moved (4):** docuclaw_api.py -> agents/docuclaw/, anthropic_contract.py -> agents/draftclaw/, edit_tools.py -> agents/drawclaw/, import_scanner.py -> scripts/
 
 ---
 
 ## New Features Deployed (May 29, 2026)
 
-### 1. Capability Registry (`shared/capabilities.py`)
+### 1. Capability Registry (shared/capabilities.py)
 Maps every capability to its constitutional owner. Every agent handler needs one routing block.
 **Deployed to:** LawClaw. **Remaining:** 20 agents.
 
-### 2. Lifecycle Supervisor (`shared/lifecycle.py`)
-Guarantees resource cleanup after every agent invocation. Must be wired into `a2a_server.py`.
+### 2. Lifecycle Supervisor (shared/lifecycle.py)
+Guarantees resource cleanup after every agent invocation. Must be wired into a2a_server.py.
 
-### 3. Memory Staleness (`shared/memory_guard.py`)
+### 3. Memory Staleness (shared/memory_guard.py)
 Adds age warnings to facts retrieved from UnifiedMemory.
+
+### 4. Legal Translation Pipeline (lawclaw handler)
+/translate command with legal term preservation. Chain: lawclaw -> interpretclaw (translate) -> docuclaw (re-format). Preserves Latin terms, French legal terms, case citations, statutory references, court names, and party names. Stores last document for cross-command reference. All output to exports/.
+
+### 5. 23-System Constitutional Boundary
+LawClaw handler boundary activates all 38 shared modules. First agent at 100% utilization.
 
 ---
 
 ## Constitutional Violations (Fix Before Building New Features)
 
 ### VIOLATION 1: Enforcement Engine Not Activated (Article XI) — CRITICAL
-File: `a2a_server.py`. Wrap `process_task()` with `EnforcementEngine.execute_with_enforcement()`.
+File: a2a_server.py. Wrap process_task() with EnforcementEngine.execute_with_enforcement().
 
 ### VIOLATION 2: llmclaw Bypasses Sovereign Gateway (Article I) — CRITICAL
-File: `agents/llmclaw/agent_handler.py`. Route through `shared/llm/client.py`.
+File: agents/llmclaw/agent_handler.py. Route through shared/llm/client.py.
 
 ### VIOLATION 3: Guarded Executor Not Wired (Article IV) — CRITICAL
-File: `a2a_server.py`. Wire `shared/guarded_executor.py` as middleware.
+File: a2a_server.py. Wire shared/guarded_executor.py as middleware.
 
 ### VIOLATION 4: Three Agents Isolated (Article III) — HIGH
-drawclaw, fileclaw, mathematicaclaw. Add `call_agent()` routes.
+drawclaw, fileclaw, mathematicaclaw. Add call_agent() routes.
 
 ### VIOLATION 5: Only LawClaw Uses Shared Memory (Article VI) — HIGH
-All 20 non-compliant agent handlers need the 13-system boundary block and `_memory.py` bridge.
+All 20 non-compliant agent handlers need the 23-system boundary block and _memory.py bridge.
 
 ---
 
@@ -143,92 +132,85 @@ All 20 non-compliant agent handlers need the 13-system boundary block and `_memo
 
 | Agent | Capability Route | Handler Boundary | Shared Memory | /delegate Route |
 |-------|-----------------|-----------------|---------------|-----------------|
-| lawclaw | ✅ | ✅ | ✅ | N/A (has /doc) |
-| claw_coder | ❌ | ❌ | ❌ | ✅ |
-| crustyclaw | ❌ | ❌ | ❌ | ✅ |
-| dataclaw | ❌ | ❌ | ❌ | ✅ |
-| designclaw | ❌ | ❌ | ❌ | ✅ |
-| docuclaw | ❌ | ❌ | ❌ | ✅ |
-| draftclaw | ❌ | ❌ | ❌ | ✅ |
-| drawclaw | ❌ | ❌ | ❌ | ❌ |
-| dreamclaw | ❌ | ❌ | ❌ | ❌ |
-| fileclaw | ❌ | ❌ | ❌ | ❌ |
-| flowclaw | ❌ | ❌ | ❌ | ✅ |
-| interpretclaw | ❌ | ❌ | ❌ | ❌ |
-| langclaw | ❌ | ❌ | ❌ | ❌ |
-| liberateclaw | ❌ | ❌ | ❌ | ❌ |
-| llmclaw | ❌ | ❌ | ❌ | ❌ |
-| mathematicaclaw | ❌ | ❌ | ❌ | ✅ |
-| mediclaw | ❌ | ❌ | ❌ | ❌ |
-| plotclaw | ❌ | ❌ | ❌ | ❌ |
-| rustypycraw | ❌ | ❌ | ❌ | ❌ |
-| txclaw | ❌ | ❌ | ❌ | ❌ |
-| webclaw | ❌ | ❌ | ❌ | ❌ |
+| lawclaw | YES | YES | YES | N/A (has /doc, /translate) |
+| claw_coder | NO | NO | NO | YES |
+| crustyclaw | NO | NO | NO | YES |
+| dataclaw | NO | NO | NO | YES |
+| designclaw | NO | NO | NO | YES |
+| docuclaw | NO | NO | NO | YES |
+| draftclaw | NO | NO | NO | YES |
+| drawclaw | NO | NO | NO | NO |
+| dreamclaw | NO | NO | NO | NO |
+| fileclaw | NO | NO | NO | NO |
+| flowclaw | NO | NO | NO | YES |
+| interpretclaw | NO | NO | NO | NO |
+| langclaw | NO | NO | NO | NO |
+| liberateclaw | NO | NO | NO | NO |
+| llmclaw | NO | NO | NO | NO |
+| mathematicaclaw | NO | NO | NO | YES |
+| mediclaw | NO | NO | NO | NO |
+| plotclaw | NO | NO | NO | NO |
+| rustypycraw | NO | NO | NO | NO |
+| txclaw | NO | NO | NO | NO |
+| webclaw | NO | NO | NO | NO |
 
-**20 agents × 3 missing features = 60 total gaps.**
+20 agents x 3 missing features = 60 total gaps.
 
 ---
 
 ## Architecture Reference: Claude Code Analysis (May 29, 2026)
 
-The 18-chapter Claude Code architecture was analyzed as a production reference. Clawpack's distributed implementation matches proven patterns:
+The 18-chapter Claude Code architecture was analyzed as a production reference.
 
 | Claude Code Pattern | Clawpack Implementation | Status |
 |---------------------|------------------------|--------|
-| Agent loop (async generator) | A2A message routing | ✅ Different architecture, same concept |
-| 15-step agent lifecycle with cleanup | `shared/lifecycle.py` | ✅ Built, needs wiring |
-| Permission system (7 modes) | `shared/enforcement/` | ❌ Built, dormant |
-| File-based memory with LLM recall | Chronicle SQLite FTS5 + UnifiedMemory | ✅ Active |
-| Self-describing tools | LawClaw commands | ✅ Active |
-| Fork agents for cache sharing | Not applicable | N/A — different architecture |
-| Hooks over plugins | `shared/hooks/` (types only) | ⚠️ Types kept, runners cut |
-| Bitmap pre-filters for search | Not applicable | N/A — no file search problem |
-| Sticky latches for cache preservation | Not applicable | N/A — different architecture |
-| Multi-agent orchestration | `call_agent()` + capability registry | ✅ Active |
-| Memory staleness | `shared/memory_guard.py` | ✅ Newly added |
+| Agent loop (async generator) | A2A message routing | YES |
+| 15-step agent lifecycle with cleanup | shared/lifecycle.py | Built, needs wiring |
+| Permission system (7 modes) | shared/enforcement/ | Built, dormant |
+| File-based memory with LLM recall | Chronicle SQLite FTS5 + UnifiedMemory | Active |
+| Self-describing tools | LawClaw commands | Active |
+| Multi-agent orchestration | call_agent() + capability registry | Active |
+| Memory staleness | shared/memory_guard.py | Active |
 
-**Key insight:** Claude Code is a monolithic TypeScript process. Clawpack is a distributed federation of 21 Python agents communicating via A2A. The patterns transfer; the implementations diverge where the architectures demand it. Do not copy Claude Code patterns that assume a single process with shared memory.
+Key insight: Claude Code is monolithic. Clawpack is distributed. Patterns transfer; implementations diverge.
 
 ---
 
 ## Path Forward (Priority Order)
 
 ### Phase 1: Complete New Infrastructure Deployment
-1. ✅ `shared/capabilities.py` — saved
-2. ✅ `shared/lifecycle.py` — saved
-3. ✅ `shared/memory_guard.py` — staleness added
-4. ✅ LawClaw handler updated with capability routing + telemetry
-5. ⬜ Deploy capability routing to remaining 20 agents (one block each, ~2 hours)
-6. ⬜ Wire lifecycle into `a2a_server.py` (~5 minutes)
+1. DONE shared/capabilities.py
+2. DONE shared/lifecycle.py
+3. DONE shared/memory_guard.py — staleness
+4. DONE LawClaw handler — capability routing + 23-system boundary + telemetry + /translate
+5. Deploy capability routing to remaining 20 agents
+6. Wire lifecycle into a2a_server.py
 
-### Phase 2: Constitutional Completion (Tier 1 — closes critical violations)
-1. Wire `enforcement/engine.py` into `a2a_server.py` (closes Article XI)
-2. Fix llmclaw's `own_llm` (closes Article I)
-3. Wire `guarded_executor.py` into `a2a_server.py` (closes Article IV)
-4. Wire `execution_policy.py`
+### Phase 2: Constitutional Completion (Tier 1)
+1. Wire enforcement/engine.py into a2a_server.py (Article XI)
+2. Fix llmclaw's own_llm (Article I)
+3. Wire guarded_executor.py into a2a_server.py (Article IV)
+4. Wire execution_policy.py
 
-### Phase 3: Legal Cognition (Tier 2 — makes LawClaw a learning practitioner)
-1. Wire `chronicle_helper.py` — historical self-reference
-2. Wire `procedural_memory.py` — retain successful patterns, learn from failures
-3. Wire `three_tier.py` — working + semantic + procedural memory
+### Phase 3: Legal Cognition (Tier 2)
+1. Wire chronicle_helper.py
+2. Wire procedural_memory.py
+3. Wire three_tier.py
 
-### Phase 4: Multi-Agent Intelligence (Tier 3 — unlocks federation)
-1. Wire `smart_router.py` — intent-based delegation
-2. Wire `agent_router.py` — task decomposition across agents
+### Phase 4: Multi-Agent Intelligence (Tier 3)
+1. Wire smart_router.py
+2. Wire agent_router.py
 
 ### Phase 5: Operational Polish (Tier 4)
-1. `validation.py`, `log_manager.py`, `shutdown.py`, `hooks/`
+1. validation.py, log_manager.py, shutdown.py, hooks/
 
 ### Phase 6: Complete the Mesh
 1. Deploy capability routing + handler boundary to all 20 agents
-2. Create `_memory.py` bridge for each agent
-3. Fix isolated agents (drawclaw, fileclaw, mathematicaclaw)
+2. Create _memory.py bridge for each agent
+3. Fix isolated agents
 
 ### Phase 7: Boundary Citation Enforcement
-Add constitutional postcondition to the handler boundary:
-- Verify DocuClaw validation block present
-- Verify source URLs included
-- Warn on incomplete provenance
+Add constitutional postcondition: verify DocuClaw validation block, verify source URLs, warn on incomplete provenance.
 
 ---
 
@@ -237,12 +219,12 @@ Add constitutional postcondition to the handler boundary:
 **Every agent in Clawpack V2 should model its connectivity after LawClaw.**
 
 When building or modifying any agent:
-1. Study `agents/lawclaw/agent_handler.py` — the handler boundary + capability routing pattern
-2. Study `agents/lawclaw/commands/_helpers.py` — the shared utility pattern
-3. Study `agents/lawclaw/commands/_memory.py` — the memory bridge pattern
-4. Study `agents/lawclaw/core/court_rules_extractor.py` — the multi-source extraction pattern
-5. Every agent MUST have a constitutional handler boundary (13 systems)
-6. Every agent MUST have capability routing (one block, delegates unknown commands)
+1. Study agents/lawclaw/agent_handler.py — the 23-system handler boundary + capability routing + /translate chain
+2. Study agents/lawclaw/commands/_helpers.py — the shared utility pattern
+3. Study agents/lawclaw/commands/_memory.py — the memory bridge pattern
+4. Study agents/lawclaw/core/court_rules_extractor.py — the multi-source extraction pattern
+5. Every agent MUST have a constitutional handler boundary (23 systems)
+6. Every agent MUST have capability routing
 7. Every agent MUST write to and read from UnifiedMemory
 8. Every agent MUST delegate rather than reimplement
 
@@ -252,25 +234,25 @@ When building or modifying any agent:
 
 | File | Purpose | Status |
 |------|---------|--------|
-| `a2a_server.py` | Central message bus, port 8766 | Needs lifecycle + enforcement wiring |
-| `shared/capabilities.py` | Universal command routing | Deploy to all 20 agents |
-| `shared/lifecycle.py` | Agent cleanup supervisor | Wire into a2a_server.py |
-| `shared/memory_guard.py` | Confidence + staleness enforcement | Active |
-| `shared/base_agent.py` | Foundation class for all agents | Active |
-| `shared/_agent_helpers.py` | Empire-wide utilities | Active |
-| `shared/consensus_engine.py` | Reputation-based truth scoring | Active |
-| `shared/source_registry.py` | Trust scores for 40+ sources | Active |
-| `shared/truth_resolver.py` | Source conflict resolution | Active |
-| `shared/decision_ledger.py` | Tamper-evident audit chain | Active |
-| `shared/enforcement/engine.py` | Pre/post execution gates | DORMANT — wire into a2a |
-| `shared/guarded_executor.py` | Dangerous ops gateway | DORMANT — wire into a2a |
-| `shared/procedural_memory.py` | Rules and anti-patterns | DORMANT — Tier 2 |
-| `shared/memory/three_tier.py` | Working/semantic/procedural | DORMANT — Tier 2 |
-| `shared/chronicle_helper.py` | Historical self-reference | DORMANT — Tier 2 |
-| `shared/smart_router.py` | Intent-based routing | DORMANT — Tier 3 |
-| `shared/agent_router.py` | Task decomposition | DORMANT — Tier 3 |
-| `agents/lawclaw/agent_handler.py` | Reference implementation | GOLD STANDARD |
-| `agents/webclaw/references/lawclaw/jurisdictions/us/` | 3,800+ cities | Active |
+| a2a_server.py | Central message bus, port 8766 | Needs lifecycle + enforcement wiring |
+| shared/capabilities.py | Universal command routing | Deploy to all 20 agents |
+| shared/lifecycle.py | Agent cleanup supervisor | Wire into a2a_server.py |
+| shared/memory_guard.py | Confidence + staleness enforcement | Active |
+| shared/base_agent.py | Foundation class for all agents | Active |
+| shared/_agent_helpers.py | Empire-wide utilities | Active |
+| shared/consensus_engine.py | Reputation-based truth scoring | Active |
+| shared/source_registry.py | Trust scores for 40+ sources | Active |
+| shared/truth_resolver.py | Source conflict resolution | Active |
+| shared/decision_ledger.py | Tamper-evident audit chain | Active |
+| shared/enforcement/engine.py | Pre/post execution gates | DORMANT — wire into a2a |
+| shared/guarded_executor.py | Dangerous ops gateway | DORMANT — wire into a2a |
+| shared/procedural_memory.py | Rules and anti-patterns | DORMANT — Tier 2 |
+| shared/memory/three_tier.py | Working/semantic/procedural | DORMANT — Tier 2 |
+| shared/chronicle_helper.py | Historical self-reference | DORMANT — Tier 2 |
+| shared/smart_router.py | Intent-based routing | DORMANT — Tier 3 |
+| shared/agent_router.py | Task decomposition | DORMANT — Tier 3 |
+| agents/lawclaw/agent_handler.py | Reference implementation | GOLD STANDARD — 100% utilization |
+| agents/webclaw/references/lawclaw/jurisdictions/us/ | 3,800+ cities | Active |
 
 ---
 
@@ -281,15 +263,19 @@ When building or modifying any agent:
 2026-05-28: All 21 agents wired with shared/_agent_helpers.py. 23 commands memory-wired.
 Constitutional Command Lifecycle section added. First cross-agent flow proven.
 
-2026-05-29: Constitutional execution boundary activated (13 systems). Consensus engine deployed.
+2026-05-29: Constitutional execution boundary activated. Consensus engine deployed.
 /correct command for self-healing. Court rules extractor built. /doc generates jurisdiction-specific
 documents. Source registry fixed (.gov 0.92, .us courts 0.85). Truth resolver patched.
 
 **Infrastructure deployed:**
-- Capability registry (`shared/capabilities.py`) — universal command routing
-- Lifecycle supervisor (`shared/lifecycle.py`) — guaranteed cleanup
+- Capability registry (shared/capabilities.py) — universal command routing
+- Lifecycle supervisor (shared/lifecycle.py) — guaranteed cleanup
 - Memory staleness — age warnings on facts
-- LawClaw handler updated — capability routing + 13-system boundary + telemetry
+- 23-system constitutional boundary — LawClaw at 100% shared infrastructure utilization
+- /translate command — legal translation with term preservation (Latin, French, citations, party names)
+- Translation pipeline: lawclaw -> interpretclaw (translate) -> docuclaw (re-format) -> lawclaw
+- _last_document storage for cross-command document reference
+- All generated documents export to clawpack_v2/exports/
 
 **Cleanup completed:**
 - 11 dead files/folders deleted from shared/
@@ -306,7 +292,7 @@ documents. Source registry fixed (.gov 0.92, .us courts 0.85). Truth resolver pa
 - Citation attribution: WebClaw owns sources, DocuClaw reflects citations, Boundary enforces completeness
 - /doc is constitutional — domain enrichment before delegation, not document generation
 - Capability registry preserves Article II — agents recognize foreign capabilities and delegate
+- /translate is constitutional — legal domain enrichment (term preservation) before delegation
 
-**Current utilization:** LawClaw at 39% of shared infrastructure (15/38 files).
-**Path to completion:** 4 Tiers documented with specific files and priorities.
-**Total commands:** 24. **Constitutional runtime:** ACTIVE.
+**Current utilization:** LawClaw at 100% of shared infrastructure (38/38 files).
+**Total commands:** 25. **Constitutional runtime:** ACTIVE.
