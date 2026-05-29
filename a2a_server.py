@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """CLAWPACK A2A SERVER with Memory, WebClaw, and 21 Agents"""
 import json
 import sys
@@ -36,6 +36,7 @@ from agents.fileclaw.agent_handler import process_task as fileclaw_process
 from agents.dreamclaw.agent_handler import process_task as dreamclaw_process
 from agents.drawclaw.agent_handler import process_task as drawclaw_process
 from agents.draftclaw.agent_handler import process_task as draftclaw_process
+from shared.lifecycle import wrap_with_lifecycle
 
 # Initialize memory
 a2a_memory = get_memory('a2a_server')
@@ -64,6 +65,8 @@ AGENTS = {
     "crustyclaw": {"script": "agents/crustyclaw/crustyclaw.py", "cmd_prefix": ["rust"], "desc": "Rust AI Assistant"},
 }
 
+AGENT_DESCRIPTIONS = {k: {"description": v["desc"]} for k, v in AGENTS.items()}
+
 class UnifiedA2AHandler(BaseHTTPRequestHandler):
     """Unified A2A Handler - Memory + WebClaw + All Agents"""
     
@@ -87,7 +90,6 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return
         
         if path.startswith("/v1/data/"):
-            # Log data API access
             import datetime
             log_entry = {
                 "timestamp": datetime.datetime.now().isoformat(),
@@ -135,7 +137,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                 }
             })
         elif path == "/v1/agents":
-            agents_list = [{"name": k, "description": v["desc"]} for k, v in AGENT_DESCRIPTIONS.items()]
+            agents_list = [{"name": k, "description": v["desc"]} for k, v in AGENTS.items()]
             self._send_json({"agents": agents_list})
         elif path == "/memory/stats":
             self._send_json({
@@ -163,7 +165,6 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             if agent_name in AGENTS:
                 result = self._execute_agent(agent_name, task)
                 
-                # Handle both dict and string responses
                 if isinstance(result, dict):
                     result_text = result.get("result", str(result))
                 else:
@@ -184,6 +185,7 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                 self._send_error(404, f"Agent '{agent_name}' not found")
         else:
             self._send_error(404, "Not found")
+    
     def _send_json(self, data, status=200):
         try:
             self.send_response(status)
@@ -191,60 +193,57 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(json.dumps(data).encode())
         except (ConnectionAbortedError, ConnectionResetError, BrokenPipeError):
-            # Client disconnected - that's fine
             pass
 
     def _send_error(self, code, message):
         self._send_json({"error": message}, code)
     
     def _execute_agent(self, agent_name: str, task: str) -> str:
-        """Execute agent with proper routing"""
+        """Execute agent with constitutional lifecycle wrapper — guaranteed cleanup."""
         
-        # WebClaw uses direct import for performance
         if agent_name == "lawclaw":
-            return lawclaw_process(task)
+            return wrap_with_lifecycle("lawclaw", task, lawclaw_process, task)
         elif agent_name == "webclaw":
-            return webclaw_process(task)
+            return wrap_with_lifecycle("webclaw", task, webclaw_process, task)
         elif agent_name == "llmclaw":
-            return llmclaw_process(task)
+            return wrap_with_lifecycle("llmclaw", task, llmclaw_process, task)
         elif agent_name == "mediclaw":
-            return mediclaw_process(task)
+            return wrap_with_lifecycle("mediclaw", task, mediclaw_process, task)
         elif agent_name == "claw_coder":
-            return clawcoder_process(task)
+            return wrap_with_lifecycle("claw_coder", task, clawcoder_process, task)
         elif agent_name == "mathematicaclaw":
-            return mathclaw_process(task)
+            return wrap_with_lifecycle("mathematicaclaw", task, mathclaw_process, task)
         elif agent_name == "crustyclaw":
-            return crustyclaw_process(task)
+            return wrap_with_lifecycle("crustyclaw", task, crustyclaw_process, task)
         elif agent_name == "interpretclaw":
-            return interpretclaw_process(task)
+            return wrap_with_lifecycle("interpretclaw", task, interpretclaw_process, task)
         elif agent_name == "dataclaw":
-            return dataclaw_process(task)
+            return wrap_with_lifecycle("dataclaw", task, dataclaw_process, task)
         elif agent_name == "langclaw":
-            return langclaw_process(task)
+            return wrap_with_lifecycle("langclaw", task, langclaw_process, task)
         elif agent_name == "liberateclaw":
-            return liberateclaw_process(task)
+            return wrap_with_lifecycle("liberateclaw", task, liberateclaw_process, task)
         elif agent_name == "flowclaw":
-            return flowclaw_process(task)
+            return wrap_with_lifecycle("flowclaw", task, flowclaw_process, task)
         elif agent_name == "designclaw":
-            return designclaw_process(task)
+            return wrap_with_lifecycle("designclaw", task, designclaw_process, task)
         elif agent_name == "docuclaw":
-            return docuclaw_process(task)
+            return wrap_with_lifecycle("docuclaw", task, docuclaw_process, task)
         elif agent_name == "txclaw":
-            return txclaw_process(task)
+            return wrap_with_lifecycle("txclaw", task, txclaw_process, task)
         elif agent_name == "rustypycraw":
-            return rustypycraw_process(task)
+            return wrap_with_lifecycle("rustypycraw", task, rustypycraw_process, task)
         elif agent_name == "plotclaw":
-            return plotclaw_process(task)
+            return wrap_with_lifecycle("plotclaw", task, plotclaw_process, task)
         elif agent_name == "fileclaw":
-            return fileclaw_process(task)
+            return wrap_with_lifecycle("fileclaw", task, fileclaw_process, task)
         elif agent_name == "dreamclaw":
-            return dreamclaw_process(task)
+            return wrap_with_lifecycle("dreamclaw", task, dreamclaw_process, task)
         elif agent_name == "drawclaw":
-            return drawclaw_process(task)
+            return wrap_with_lifecycle("drawclaw", task, drawclaw_process, task)
         elif agent_name == "draftclaw":
-            return draftclaw_process(task)
+            return wrap_with_lifecycle("draftclaw", task, draftclaw_process, task)
         
-        # All agents have direct handlers - subprocess path removed
         return f"Agent {agent_name} handler not configured"
 
 def main():
@@ -252,12 +251,13 @@ def main():
     server = ThreadingHTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
     
     print("\n" + "="*70)
-    print("?? CLAWPACK A2A SERVER")
+    print("  CLAWPACK A2A SERVER")
     print("="*70)
-    print(f"?? http://127.0.0.1:{port}")
-    print(f"\n? {len(AGENTS)} Agents Registered")
-    print("? Three-Tier Memory: ACTIVE")
-    print("? WebClaw Direct Integration: ACTIVE")
+    print(f"  http://127.0.0.1:{port}")
+    print(f"\n  {len(AGENTS)} Agents Registered")
+    print("  Three-Tier Memory: ACTIVE")
+    print("  WebClaw Direct Integration: ACTIVE")
+    print("  Lifecycle Supervisor: ACTIVE")
     print("\nEndpoints:")
     print("  GET  /health        - Server health + memory stats")
     print("  GET  /v1/agents     - List all agents")
@@ -269,25 +269,11 @@ def main():
     try:
         server.serve_forever()
     except KeyboardInterrupt:
-        print("\n\n?? Final Memory Stats:")
+        print("\n\n  Final Memory Stats:")
         print(f"   Working tokens: {a2a_memory.working.token_count}")
         print(f"   Semantic facts: {len(a2a_memory.semantic.facts)}")
         print(f"   Messages processed: {len(a2a_memory.working.messages)}")
-        print("\n?? Server stopped")
+        print("\n  Server stopped")
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
