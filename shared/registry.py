@@ -70,7 +70,7 @@ AGENT_REGISTRY: Dict[str, Dict] = {
         "domain": "Data Processing & Analysis",
         "icon": "📊",
         "capabilities": ["process_data", "analyze_dataset", "search_data", "index_data", "export_data"],
-    }
+    },
 
     "draftclaw": {
         "domain": "Technical Drawing, Permit Review & Jurisdiction Intelligence",
@@ -90,7 +90,6 @@ AGENT_REGISTRY: Dict[str, Dict] = {
             "docuclaw": ["proposal", "letter", "permit_packet"],
         },
     },
-,
     "txclaw": {
         "domain": "Transaction & Deployment",
         "icon": "💎",
@@ -177,10 +176,10 @@ def delegate(calling_agent: str, capability: str, **kwargs) -> Dict:
         }
     try:
         if target == "docuclaw":
-            from shared.docuclaw_api import create_for_agent
+            from agents.docuclaw.docuclaw_api import create_document
             template = kwargs.get("template", "letter")
             values = kwargs.get("values", {})
-            return create_for_agent(calling_agent, template, values)
+            return create_document(title=template, content=str(values), agent=calling_agent, doc_type="document")
         elif target == "fileclaw":
             from shared.files import convert_file, analyze_file, find_files
             op = kwargs.get("operation", "analyze")
@@ -220,38 +219,8 @@ def delegate(calling_agent: str, capability: str, **kwargs) -> Dict:
                 "note": f"Task routed to {target}. Full delegation via A2A pending.",
             }
     except Exception as e:
-        return {"status": "error", "error": str(e), "to_agent": target
-    "crustyclaw": {
-        "domain": "Rust AI & Compiler",
-        "icon": "🦀",
-        "capabilities": ['rust_audit', 'rust_compile', 'borrow_check', 'cargo_build'],
-        "delegates_to": "claw_coder",
-    },
-    "designclaw": {
-        "domain": "Brand & Graphic Design",
-        "icon": "🎨",
-        "capabilities": ['create_brand', 'design_layout', 'color_palette', 'typography'],
-        "delegates_to": "docuclaw",
-    },
-    "dreamclaw": {
-        "domain": "AI Vision & Generation",
-        "icon": "🎆",
-        "capabilities": ['generate_image', 'vision_analyze', 'dream_prompt', 'style_transfer'],
-        "delegates_to": "llmclaw",
-    },
-    "liberateclaw": {
-        "domain": "Model Liberation & Obliteration",
-        "icon": "💥",
-        "capabilities": ['liberate_model', 'obliterate', 'quantize', 'safetensor_export'],
-        "delegates_to": "llmclaw",
-    },
-    "rustypycraw": {
-        "domain": "Code Crawler & Analyzer",
-        "icon": "🔍",
-        "capabilities": ['crawl_code', 'analyze_deps', 'find_patterns', 'code_graph'],
-        "delegates_to": "fileclaw",
-    },}
-
+        return {"status": "error", "error": str(e), "to_agent": target}
+        return {"status": "error", "error": str(e), "to_agent": target}
 __all__ = [
     "AGENT_REGISTRY", "CAPABILITY_MAP", "DOMAIN_SHORTCUTS",
     "get_all_agents", "get_capabilities", "find_agent_for",
