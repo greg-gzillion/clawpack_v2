@@ -1,35 +1,25 @@
 """
-Agent Lifecycle Supervisor — guaranteed cleanup for every agent invocation.
+Agent Lifecycle Supervisor - guaranteed cleanup for every agent invocation.
 
 Claude Code's runAgent() has a 15-step finally block that cleans up every
-resource an agent touched. This is the distributed equivalent — called
+resource an agent touched. This is the distributed equivalent - called
 from a2a_server.py around every process_task() invocation.
 
 Usage in a2a_server.py:
     from shared.lifecycle import wrap_with_lifecycle
     result = wrap_with_lifecycle("lawclaw", task, lawclaw_process, task)
 """
-import sys
 import gc
 import time
-from pathlib import Path
-from datetime import datetime, timezone
 
 
 def agent_cleanup(agent_name: str, task: str = "", duration_ms: float = 0):
-    """
-    Called after every agent invocation. Guaranteed to run regardless of
-    whether the agent completed, errored, or was aborted.
-    """
+    """Called after every agent invocation. Guaranteed to run."""
     errors = []
-
-    # 1. Force garbage collection — release memory from large responses
     try:
         gc.collect()
     except Exception as e:
         errors.append(f"gc: {e}")
-
-    # 2. Log completion to Chronicle for telemetry
     try:
         from agents.webclaw.core.chronicle_ledger import log_event
         log_event(
@@ -39,8 +29,6 @@ def agent_cleanup(agent_name: str, task: str = "", duration_ms: float = 0):
         )
     except Exception as e:
         errors.append(f"log: {e}")
-
-    # 3. Record to decision ledger
     try:
         from shared.decision_ledger import get_ledger
         get_ledger().record(
@@ -51,7 +39,6 @@ def agent_cleanup(agent_name: str, task: str = "", duration_ms: float = 0):
         )
     except Exception as e:
         errors.append(f"ledger: {e}")
-
     if errors:
         try:
             print(f"[lifecycle] {agent_name} cleanup errors: {errors}", flush=True)
@@ -60,13 +47,7 @@ def agent_cleanup(agent_name: str, task: str = "", duration_ms: float = 0):
 
 
 def wrap_with_lifecycle(agent_name: str, task: str, fn, *args, **kwargs):
-    """
-    Wrap an agent invocation with lifecycle management.
-    Use in a2a_server.py around process_task() calls.
-
-    Usage:
-        result = wrap_with_lifecycle("lawclaw", task, lawclaw_process, task)
-    """
+    """Wrap an agent invocation with lifecycle management."""
     start = time.time()
     try:
         result = fn(*args, **kwargs)

@@ -3236,9 +3236,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-29T19:11:25.855792+00:00",
-      "last_updated": "2026-05-29T19:11:25.856805+00:00"
+      "last_updated": "2026-05-29T20:28:46.841734+00:00"
     },
     "d753918187ffe4fe": {
       "fact_id": "d753918187ffe4fe",
@@ -3365,6 +3365,528 @@
       "truth_score": 0.48,
       "first_seen": "2026-05-29T19:12:13.478694+00:00",
       "last_updated": "2026-05-29T19:12:13.478694+00:00"
+    },
+    "e2736d45de9f4192": {
+      "fact_id": "e2736d45de9f4192",
+      "fact_value": "source_url:https://courtlistener.com/...",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://courtlistener.com/...",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:14:44.405189+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:14:44.405189+00:00",
+      "last_updated": "2026-05-29T20:14:44.406204+00:00"
+    },
+    "a34c8ccc2cdb3e41": {
+      "fact_id": "a34c8ccc2cdb3e41",
+      "fact_value": "source_url:https://oyez.org/...",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://oyez.org/...",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:14:44.424223+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:14:44.424223+00:00",
+      "last_updated": "2026-05-29T20:14:44.424223+00:00"
+    },
+    "14ff9fdeee01b4bf": {
+      "fact_id": "14ff9fdeee01b4bf",
+      "fact_value": "query:python function to calculate compound interest with principal rate and years",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:25:21.529983+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:25:21.529983+00:00",
+      "last_updated": "2026-05-29T20:25:21.529983+00:00"
+    },
+    "fc07d224faa2ea16": {
+      "fact_id": "fc07d224faa2ea16",
+      "fact_value": "query:employment offer letter from TechCorp Inc to Maria Santos for Senior Developer position - salary $145000 per year - start date July 15 2026 - at-will employment - governing law California",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:25:56.626519+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:25:56.626519+00:00",
+      "last_updated": "2026-05-29T20:25:56.626519+00:00"
+    },
+    "ff7dd4a03734ab51": {
+      "fact_id": "ff7dd4a03734ab51",
+      "fact_value": "concept:TechCorp Inc.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:25:56.645562+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T20:25:56.645562+00:00",
+      "last_updated": "2026-05-29T20:26:57.794044+00:00"
+    },
+    "b014922edfb9ca1d": {
+      "fact_id": "b014922edfb9ca1d",
+      "fact_value": "concept:Employment Start Date:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:25:56.669824+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:25:56.669824+00:00",
+      "last_updated": "2026-05-29T20:25:56.669824+00:00"
+    },
+    "60257968b98853fc": {
+      "fact_id": "60257968b98853fc",
+      "fact_value": "query:the contract to Spanish",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:26:57.764536+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.764536+00:00",
+      "last_updated": "2026-05-29T20:26:57.764536+00:00"
+    },
+    "b6e15c1eea55cbf8": {
+      "fact_id": "b6e15c1eea55cbf8",
+      "fact_value": "concept:Carta de Oferta de Empleo",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:26:57.779528+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.779528+00:00",
+      "last_updated": "2026-05-29T20:26:57.779528+00:00"
+    },
+    "f358144b15a017ab": {
+      "fact_id": "f358144b15a017ab",
+      "fact_value": "concept:Fecha de Emisi\u00f3n",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:26:57.808065+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.808065+00:00",
+      "last_updated": "2026-05-29T20:26:57.808065+00:00"
+    },
+    "fded3c242f3aa8e6": {
+      "fact_id": "fded3c242f3aa8e6",
+      "fact_value": "concept:Destinatario",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:26:57.822577+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.822577+00:00",
+      "last_updated": "2026-05-29T20:26:57.822577+00:00"
+    },
+    "64e2881241c0e2d4": {
+      "fact_id": "64e2881241c0e2d4",
+      "fact_value": "concept:Posici\u00f3n Ofrecida",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:26:57.843616+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.843616+00:00",
+      "last_updated": "2026-05-29T20:26:57.843616+00:00"
+    },
+    "de55463b8b65af66": {
+      "fact_id": "de55463b8b65af66",
+      "fact_value": "source_url:https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=LAB&division=1.&title=&part=&chapter=2.&article=",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=LAB&division=1.&title=&part=&chapter=2.&article=",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:26:57.858123+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.858123+00:00",
+      "last_updated": "2026-05-29T20:26:57.858123+00:00"
+    },
+    "02b3be5c1b61118c": {
+      "fact_id": "02b3be5c1b61118c",
+      "fact_value": "source_url:https://leginfo.legislature.ca.gov/faces/code...",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://leginfo.legislature.ca.gov/faces/code...",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:26:57.872684+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:26:57.872684+00:00",
+      "last_updated": "2026-05-29T20:26:57.872684+00:00"
+    },
+    "467570a8f3e64b70": {
+      "fact_id": "467570a8f3e64b70",
+      "fact_value": "query:derivative of x^3 + 4x^2 - 7x + 12",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:27:20.569741+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:27:20.569741+00:00",
+      "last_updated": "2026-05-29T20:27:20.569741+00:00"
+    },
+    "700ea5c14719ae74": {
+      "fact_id": "700ea5c14719ae74",
+      "fact_value": "query:civil litigation process from complaint to trial",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:27:32.320993+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:27:32.320993+00:00",
+      "last_updated": "2026-05-29T20:27:32.321990+00:00"
+    },
+    "01c61fc9c1b94509": {
+      "fact_id": "01c61fc9c1b94509",
+      "fact_value": "query:modern law firm specializing in environmental law called EarthJustice Legal",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:16.680413+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.680413+00:00",
+      "last_updated": "2026-05-29T20:28:16.680413+00:00"
+    },
+    "c8790e1209514699": {
+      "fact_id": "c8790e1209514699",
+      "fact_value": "concept:Core Purpose:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:28:16.698477+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.698477+00:00",
+      "last_updated": "2026-05-29T20:28:16.698477+00:00"
+    },
+    "6e9bb93c543bed66": {
+      "fact_id": "6e9bb93c543bed66",
+      "fact_value": "concept:Brand Pillars:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:28:16.717573+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.717573+00:00",
+      "last_updated": "2026-05-29T20:28:16.717573+00:00"
+    },
+    "7d4551964de0ba99": {
+      "fact_id": "7d4551964de0ba99",
+      "fact_value": "source_url:https://www.logodesignlove.com/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.logodesignlove.com/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:16.736047+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.736047+00:00",
+      "last_updated": "2026-05-29T20:28:16.736047+00:00"
+    },
+    "0def65e64560d697": {
+      "fact_id": "0def65e64560d697",
+      "fact_value": "source_url:https://www.pentagram.com/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.pentagram.com/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:16.752080+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.752080+00:00",
+      "last_updated": "2026-05-29T20:28:16.752080+00:00"
+    },
+    "cd6b42538fb76427": {
+      "fact_id": "cd6b42538fb76427",
+      "fact_value": "source_url:https://www.figma.com/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.figma.com/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:16.770812+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.769832+00:00",
+      "last_updated": "2026-05-29T20:28:16.770812+00:00"
+    },
+    "ec3e83b3c297d07c": {
+      "fact_id": "ec3e83b3c297d07c",
+      "fact_value": "source_url:https://www.adobe.com/illustrator",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.adobe.com/illustrator",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:16.787344+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.787344+00:00",
+      "last_updated": "2026-05-29T20:28:16.787344+00:00"
+    },
+    "5cb688b67af84723": {
+      "fact_id": "5cb688b67af84723",
+      "fact_value": "source_url:https://www.creativebloq.com/graphic-design/brand-identity",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.creativebloq.com/graphic-design/brand-identity",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:16.806415+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:16.806415+00:00",
+      "last_updated": "2026-05-29T20:28:16.806415+00:00"
+    },
+    "b6ef91e75f90c9e2": {
+      "fact_id": "b6ef91e75f90c9e2",
+      "fact_value": "query:Denver CO",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:46.801568+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:46.801568+00:00",
+      "last_updated": "2026-05-29T20:28:46.801568+00:00"
+    },
+    "d3fa4657ab037c8d": {
+      "fact_id": "d3fa4657ab037c8d",
+      "fact_value": "concept:Adams County Building Division",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T20:28:46.822148+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:46.822148+00:00",
+      "last_updated": "2026-05-29T20:28:46.822148+00:00"
+    },
+    "78a91a1177508568": {
+      "fact_id": "78a91a1177508568",
+      "fact_value": "source_url:https://www.denvergov.org/police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denvergov.org/police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:46.860760+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:46.860760+00:00",
+      "last_updated": "2026-05-29T20:28:46.861771+00:00"
+    },
+    "3bd998d292260fa9": {
+      "fact_id": "3bd998d292260fa9",
+      "fact_value": "source_url:https://www.denvercountycourt.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denvercountycourt.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:46.883824+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:46.883824+00:00",
+      "last_updated": "2026-05-29T20:28:46.883824+00:00"
+    },
+    "3054d2221d562ce4": {
+      "fact_id": "3054d2221d562ce4",
+      "fact_value": "source_url:https://www.denvergov.org/dcpd",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denvergov.org/dcpd",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:46.903889+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:46.903889+00:00",
+      "last_updated": "2026-05-29T20:28:46.903889+00:00"
+    },
+    "c245417348d4682f": {
+      "fact_id": "c245417348d4682f",
+      "fact_value": "source_url:https://www.denverlibrary.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denverlibrary.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T20:28:46.924693+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T20:28:46.924693+00:00",
+      "last_updated": "2026-05-29T20:28:46.924693+00:00"
     }
   },
   "corrections": [
@@ -3385,5 +3907,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T19:12:13.479694+00:00"
+  "updated_at": "2026-05-29T20:28:46.925693+00:00"
 }

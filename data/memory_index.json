@@ -1488,6 +1488,206 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T19:12:13.331836+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket ent",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:14:44.375741+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket entries, jury demand, summaries\n                         Example: /docket 42 USC 1983\n  /cite [citation",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:14:44.389500+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/bar",
+      "query": "revenue by quarter: Q1 $45K Q2 $62K Q3 $58K Q4 $71K",
+      "fact": "[FAIL] matplotlib/numpy not installed",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:24:54.530375+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "revenue by quarter: Q1 $45K Q2 $62K Q3 $58K Q4 $71K",
+      "fact": "[FAIL] matplotlib/numpy not installed",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:24:54.545886+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/code",
+      "query": "python function to calculate compound interest with principal rate and years",
+      "fact": "Saved: python_function_to_calculate_compound_interest_wit_20260529_142521.py | Validated: Syntax OK\n\n```python\ndef calculate_compound_interest(principal: float, rate: float, years: int, compounds_per_year: int = 1) -> float:\n    \"\"\"\n    Calculate compound interest using the formula: A = P(1 + r/n)^(nt)\n    \n    Args:\n        principal: Initial amount\n        rate: Annual interest rate (as decimal,",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:25:21.498198+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "python function to calculate compound interest with principal rate and years",
+      "fact": "Saved: python_function_to_calculate_compound_interest_wit_20260529_142521.py | Validated: Syntax OK\n\n```python\ndef calculate_compound_interest(principal: float, rate: float, years: int, compounds_per_year: int = 1) -> float:\n    \"\"\"\n    Calculate compound interest using the formula: A = P(1 + r/n)^(nt)\n    \n    Args:\n        principal: Initial amount\n        rate: Annual interest rate (as decimal, e.g., 0.05 for 5%)\n        years: Time period in years\n        compounds_per_year: Compounding freq",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:25:21.512936+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "employment offer letter from TechCorp Inc to Maria Santos for Senior Developer position - salary $145000 per year - start date July 15 2026 - at-will employment - governing law California",
+      "fact": "Exported: export_20260529_142556.md (5.3KB)\n\n# Employment Offer Letter\n\n**TechCorp Inc.**\n\n---\n\n## OFFER OF EMPLOYMENT\n\n**Date:** [Current Date]\n\n**To:** Maria Santos\n\n**Position:** Senior Developer\n\n**Employment Start Date:** July 15, 2026\n\n---\n\n## 1. POSITION AND COMPENSATION\n\nTechCorp Inc. (\"Company\") is pleased to offer you employment in the position of **Senior Developer** on the following te",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:25:56.594797+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "employment offer letter from TechCorp Inc to Maria Santos for Senior Developer position - salary $145000 per year - start date July 15 2026 - at-will employment - governing law California",
+      "fact": "Exported: export_20260529_142556.md (5.3KB)\n\n# Employment Offer Letter\n\n**TechCorp Inc.**\n\n---\n\n## OFFER OF EMPLOYMENT\n\n**Date:** [Current Date]\n\n**To:** Maria Santos\n\n**Position:** Senior Developer\n\n**Employment Start Date:** July 15, 2026\n\n---\n\n## 1. POSITION AND COMPENSATION\n\nTechCorp Inc. (\"Company\") is pleased to offer you employment in the position of **Senior Developer** on the following terms and conditions:\n\n- **Annual Salary:** $145,000.00 per year\n- **Pay Frequency:** [Bi-weekly/Semi-",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:25:56.609834+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract to Spanish",
+      "fact": "Exported: export_20260529_142657.md (8.0KB)\n\n# Documento Legal Profesional: Carta de Oferta de Empleo\n## Traducci\u00f3n al Espa\u00f1ol\n\n---\n\n## INTRODUCCI\u00d3N\n\nEste documento presenta una **Carta de Oferta de Empleo** formalmente estructurada, traducida al espa\u00f1ol conforme a est\u00e1ndares legales profesionales. El documento est\u00e1 dise\u00f1ado para cumplir con la legislaci\u00f3n laboral de California y las leyes federal",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:26:57.727985+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract to Spanish",
+      "fact": "Exported: export_20260529_142657.md (8.0KB)\n\n# Documento Legal Profesional: Carta de Oferta de Empleo\n## Traducci\u00f3n al Espa\u00f1ol\n\n---\n\n## INTRODUCCI\u00d3N\n\nEste documento presenta una **Carta de Oferta de Empleo** formalmente estructurada, traducida al espa\u00f1ol conforme a est\u00e1ndares legales profesionales. El documento est\u00e1 dise\u00f1ado para cumplir con la legislaci\u00f3n laboral de California y las leyes federales de empleo de los Estados Unidos.\n\n---\n\n## CARTA DE OFERTA DE EMPLEO\n\n**TechCorp Inc.**  \n[Direcci",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:26:57.744977+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/solve",
+      "query": "derivative of x^3 + 4x^2 - 7x + 12",
+      "fact": "Error: Sympify of expression 'could not parse 'derivative of x^3 + 4x^2 - 7x + 12'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:27:20.539635+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "derivative of x^3 + 4x^2 - 7x + 12",
+      "fact": "Error: Sympify of expression 'could not parse 'derivative of x^3 + 4x^2 - 7x + 12'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:27:20.555160+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/flow",
+      "query": "civil litigation process from complaint to trial",
+      "fact": "Opened in browser.\n\n`mermaid\ngraph TD\n    A[Start: civil litigation process from complaint to trial]\n    B[Process Step 1]\n    C{Decision?}\n    D[Process Step 2]\n    E[End]\n    \n    A --> B\n    B --> C\n    C -->|Yes| D\n    C -->|No| E\n    D --> E\n`",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:27:32.282889+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "civil litigation process from complaint to trial",
+      "fact": "Opened in browser.\n\n`mermaid\ngraph TD\n    A[Start: civil litigation process from complaint to trial]\n    B[Process Step 1]\n    C{Decision?}\n    D[Process Step 2]\n    E[End]\n    \n    A --> B\n    B --> C\n    C -->|Yes| D\n    C -->|No| E\n    D --> E\n`",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:27:32.298918+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/brand",
+      "query": "modern law firm specializing in environmental law called EarthJustice Legal",
+      "fact": "# EarthJustice Legal - Complete Brand Identity\n\n## 1. BRAND ESSENCE\n\n**Core Purpose:** EarthJustice Legal is a modern law firm that champions environmental protection through strategic legal advocacy, making complex environmental law accessible and actionable.\n\n**Brand Pillars:**\n- **Integrity** - Unwavering commitment to environmental justice\n- **Innovation** - Modern, forward-thinking legal solu",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:28:16.644495+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "modern law firm specializing in environmental law called EarthJustice Legal",
+      "fact": "# EarthJustice Legal - Complete Brand Identity\n\n## 1. BRAND ESSENCE\n\n**Core Purpose:** EarthJustice Legal is a modern law firm that champions environmental protection through strategic legal advocacy, making complex environmental law accessible and actionable.\n\n**Brand Pillars:**\n- **Integrity** - Unwavering commitment to environmental justice\n- **Innovation** - Modern, forward-thinking legal solutions\n- **Impact** - Measurable outcomes that protect ecosystems and communities\n- **Accessibility**",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:28:16.661350+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Denver CO",
+      "fact": "\n============================================================\nJURISDICTION: Denver CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /doc [2026-05-29]: Exported: export_20260529_131125.md (7.2KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC...\n    unknown [2026-05-29]: Exported: export_20260529_131125.md (7.2KB)\n\n# SERVICE AGREEMENT\n\n## Betwee",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:28:46.762500+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Denver CO",
+      "fact": "\n============================================================\nJURISDICTION: Denver CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /doc [2026-05-29]: Exported: export_20260529_131125.md (7.2KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC...\n    unknown [2026-05-29]: Exported: export_20260529_131125.md (7.2KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC...\n\n[1/4] Chronicle search...\n  3 Chronicle references\n[2/4] Searching jurisdiction files...\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:28:46.783517+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/bar",
+      "query": "revenue by quarter: Q1 $45K Q2 $62K Q3 $58K Q4 $71K",
+      "fact": "[FAIL] matplotlib/numpy not installed",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T20:31:03.088349+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "revenue by quarter: Q1 $45K Q2 $62K Q3 $58K Q4 $71K",
+      "fact": "[FAIL] matplotlib/numpy not installed",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T20:31:03.103872+00:00"
     }
   ],
   "index": {
@@ -1770,7 +1970,11 @@
     ],
     "from": [
       58,
-      59
+      59,
+      147,
+      148,
+      153,
+      154
     ],
     "agents.lawclaw.core.court_rules_extractor": [
       58,
@@ -2022,7 +2226,9 @@
     ],
     "maria": [
       86,
-      87
+      87,
+      147,
+      148
     ],
     "garcia": [
       86,
@@ -2080,7 +2286,9 @@
       96,
       97,
       109,
-      110
+      110,
+      145,
+      146
     ],
     "hello": [
       96,
@@ -2100,7 +2308,11 @@
     ],
     "revenue": [
       100,
-      101
+      101,
+      143,
+      144,
+      159,
+      160
     ],
     "/code": [
       109,
@@ -2124,7 +2336,9 @@
       135,
       136,
       139,
-      140
+      140,
+      149,
+      150
     ],
     "binding": [
       113,
@@ -2132,7 +2346,9 @@
     ],
     "spanish": [
       113,
-      114
+      114,
+      149,
+      150
     ],
     "service": [
       115,
@@ -2240,7 +2456,9 @@
       133,
       134,
       137,
-      138
+      138,
+      147,
+      148
     ],
     "june": [
       115,
@@ -2270,7 +2488,9 @@
       133,
       134,
       137,
-      138
+      138,
+      147,
+      148
     ],
     "term": [
       115,
@@ -2380,7 +2600,9 @@
       133,
       134,
       137,
-      138
+      138,
+      147,
+      148
     ],
     "delaware": [
       115,
@@ -2452,7 +2674,9 @@
     ],
     "july": [
       123,
-      124
+      124,
+      147,
+      148
     ],
     "$125": [
       123,
@@ -2469,7 +2693,187 @@
     "japanese": [
       139,
       140
+    ],
+    "quarter:": [
+      143,
+      144,
+      159,
+      160
+    ],
+    "$45k": [
+      143,
+      144,
+      159,
+      160
+    ],
+    "$62k": [
+      143,
+      144,
+      159,
+      160
+    ],
+    "$58k": [
+      143,
+      144,
+      159,
+      160
+    ],
+    "$71k": [
+      143,
+      144,
+      159,
+      160
+    ],
+    "function": [
+      145,
+      146
+    ],
+    "calculate": [
+      145,
+      146
+    ],
+    "compound": [
+      145,
+      146
+    ],
+    "interest": [
+      145,
+      146
+    ],
+    "with": [
+      145,
+      146
+    ],
+    "principal": [
+      145,
+      146
+    ],
+    "rate": [
+      145,
+      146
+    ],
+    "years": [
+      145,
+      146
+    ],
+    "employment": [
+      147,
+      147,
+      148,
+      148
+    ],
+    "offer": [
+      147,
+      148
+    ],
+    "letter": [
+      147,
+      148
+    ],
+    "techcorp": [
+      147,
+      148
+    ],
+    "santos": [
+      147,
+      148
+    ],
+    "senior": [
+      147,
+      148
+    ],
+    "developer": [
+      147,
+      148
+    ],
+    "position": [
+      147,
+      148
+    ],
+    "salary": [
+      147,
+      148
+    ],
+    "$145000": [
+      147,
+      148
+    ],
+    "year": [
+      147,
+      148
+    ],
+    "start": [
+      147,
+      148
+    ],
+    "at-will": [
+      147,
+      148
+    ],
+    "california": [
+      147,
+      148
+    ],
+    "derivative": [
+      151,
+      152
+    ],
+    "4x^2": [
+      151,
+      152
+    ],
+    "civil": [
+      153,
+      154
+    ],
+    "litigation": [
+      153,
+      154
+    ],
+    "process": [
+      153,
+      154
+    ],
+    "complaint": [
+      153,
+      154
+    ],
+    "trial": [
+      153,
+      154
+    ],
+    "modern": [
+      155,
+      156
+    ],
+    "firm": [
+      155,
+      156
+    ],
+    "specializing": [
+      155,
+      156
+    ],
+    "environmental": [
+      155,
+      156
+    ],
+    "called": [
+      155,
+      156
+    ],
+    "earthjustice": [
+      155,
+      156
+    ],
+    "legal": [
+      155,
+      156
+    ],
+    "denver": [
+      157,
+      158
     ]
   },
-  "updated_at": "2026-05-29T19:12:13.331836+00:00"
+  "updated_at": "2026-05-29T20:31:03.104870+00:00"
 }
