@@ -1,5 +1,5 @@
 """A2A Handler for DraftClaw v5 - Constitutional Technical Drawing Agent"""
-import sys, os, json, re, datetime, webbrowser
+import sys, os, json, re, datetime, webbrowser, time
 from pathlib import Path
 
 DRAFTCLAW_DIR = Path(__file__).resolve().parent
@@ -20,6 +20,19 @@ ALLOWED_FORMATS = {"png", "jpg", "jpeg", "pdf", "svg", "dxf", "dwg", "txt", "md"
 class DraftClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("draftclaw")
+
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + str(web)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx: lines.append(ctx[:1000])
+            if lines: parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
 
     def _log_error(self, context, error):
         """Safe error logger."""
@@ -410,7 +423,12 @@ class DraftClawAgent(BaseAgent):
                 specs = self.ask_llm(f"Generate technical drawing specifications with dimensions for: {query}")
                 result = f"Specifications generated. Use /blueprint to render.\n\n{specs}"
             else:
-                result = "Type /help for commands"
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "draftclaw")
+                if target:
+                    result = self.call_agent(target, task, timeout=60)
+                else:
+                    result = "Type /help for commands"
 
             from data_io import write_shared
             write_shared("draftclaw_latest", {
