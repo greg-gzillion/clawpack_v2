@@ -1,10 +1,10 @@
-"""Pie command - Constitutional contract + CLI compatibility"""
+﻿"""Pie command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "pie"
 
 def cli_to_payload(args: str) -> dict:
-    from schema import parse_label_values
+    from agents.plotclaw.schema import parse_label_values
     payload = {"type": "pie", "intent": "generate_chart", "task_type": "code_generation", "confidence": 1.0, "source": "user", "flags": {}}
     remaining = []
     parts = args.split()
@@ -80,3 +80,4 @@ def run(args):
         return "[FAIL] matplotlib not installed"
     except Exception as e:
         return f"[FAIL] {e}"
+

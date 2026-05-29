@@ -1,4 +1,4 @@
-"""Polar command - Constitutional contract + CLI compatibility"""
+﻿"""Polar command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "polar"

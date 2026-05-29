@@ -1,4 +1,4 @@
-"""Stats command - Constitutional contract + CLI compatibility"""
+﻿"""Stats command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "stats"

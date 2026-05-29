@@ -1,23 +1,56 @@
-"""Bar command - Constitutional contract + CLI compatibility"""
+﻿"""Bar command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "bar"
 
 def cli_to_payload(args: str) -> dict:
     """Convert CLI string to constitutional payload."""
-    from schema import parse_label_values, CANONICAL_PAYLOAD
+    from agents.plotclaw.schema import parse_label_values, CANONICAL_PAYLOAD
+    
+    # Extract title and axis labels from descriptive prefix
+    title = "Bar Chart"
+    xlabel = ""
+    ylabel = "Value"
+    clean_args = args
+    
+    # Detect "Title: data" pattern
+    if ":" in args:
+        parts = args.split(":", 1)
+        prefix = parts[0].strip()
+        if prefix and not any(ch.isdigit() for ch in prefix.split()[-1] if len(prefix.split()) > 0):
+            title = prefix
+            clean_args = parts[1].strip()
+    
+    # Detect "ylabel vs xlabel" pattern for axis labels
+    if " vs " in title.lower():
+        axis_parts = title.lower().split(" vs ")
+        if len(axis_parts) == 2:
+            ylabel = axis_parts[0].strip().title()
+            xlabel = axis_parts[1].strip().title()
+    
+    # Detect "by" pattern: "revenue by quarter" -> ylabel="Revenue", xlabel="Quarter"
+    if " by " in title.lower():
+        by_parts = title.lower().split(" by ")
+        if len(by_parts) == 2:
+            ylabel = by_parts[0].strip().title()
+            xlabel = by_parts[1].strip().title()
+    
     payload = {
         "type": "bar",
         "intent": "generate_chart",
         "task_type": "code_generation",
         "confidence": 1.0,
         "source": "user",
-        "flags": {},
+        "flags": {
+            "title": title,
+            "xlabel": xlabel,
+            "ylabel": ylabel,
+        },
     }
     
     # Parse flags
     remaining = []
-    parts = args.split()
+    parts = clean_args.split()
     i = 0
     while i < len(parts):
         if parts[i].startswith("--"):
@@ -32,6 +65,12 @@ def cli_to_payload(args: str) -> dict:
                     payload["flags"]["colors"] = [c.strip() for c in val.split(",")]
                 elif key == "labels":
                     payload["labels"] = [l.strip() for l in val.split(",")]
+                elif key == "title":
+                    payload["flags"]["title"] = val
+                elif key == "xlabel":
+                    payload["flags"]["xlabel"] = val
+                elif key == "ylabel":
+                    payload["flags"]["ylabel"] = val
                 elif key == "annotate":
                     parts_a = val.split(",")
                     if len(parts_a) >= 3:
@@ -51,7 +90,6 @@ def cli_to_payload(args: str) -> dict:
     groups = clean.split()
     
     if len(groups) > 1 and all(":" in g for g in groups):
-        # Multi-series stacked
         payload["series"] = []
         for g in groups:
             name, vals = g.split(":", 1)
@@ -62,8 +100,6 @@ def cli_to_payload(args: str) -> dict:
         payload["flags"]["stacked"] = True
     else:
         parsed = parse_label_values(clean)
-        payload["series"] = [{"label": parsed["labels"][i] if i < len(parsed["labels"]) else f"Item {i+1}", "values": [parsed["values"][i]]} for i in range(len(parsed["values"]))]
-        # Flatten for simple bar chart
         payload["series"] = [{"label": l, "values": [v]} for l, v in zip(parsed["labels"], parsed["values"])]
     
     return payload
@@ -87,7 +123,6 @@ def execute(payload: dict) -> str:
     is_horizontal = flags.get("horizontal", False)
     
     if is_stacked and len(series) > 1:
-        # Stacked bar
         labels = payload.get("labels", [s["label"] for s in series])
         n_items = len(series[0]["values"])
         colors = plt.cm.Set2(range(len(series)))
@@ -101,7 +136,6 @@ def execute(payload: dict) -> str:
         ax.set_xticklabels(labels)
         ax.legend()
     else:
-        # Simple/flat bar
         labels = [s["label"] for s in series]
         values = [s["values"][0] for s in series]
         n = len(values)

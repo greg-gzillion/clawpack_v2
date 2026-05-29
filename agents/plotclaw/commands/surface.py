@@ -1,4 +1,4 @@
-"""Surface command - Constitutional contract + CLI compatibility"""
+﻿"""Surface command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "surface"

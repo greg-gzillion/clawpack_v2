@@ -1,4 +1,4 @@
-"""Heatmap command - Constitutional contract + CLI compatibility"""
+﻿"""Heatmap command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "heatmap"

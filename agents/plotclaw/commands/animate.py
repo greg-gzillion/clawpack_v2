@@ -1,4 +1,4 @@
-"""Animate command - Constitutional contract + CLI compatibility"""
+﻿"""Animate command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "animate"

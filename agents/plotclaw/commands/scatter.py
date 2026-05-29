@@ -1,4 +1,4 @@
-"""Scatter command - Constitutional contract + CLI compatibility"""
+﻿"""Scatter command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "scatter"

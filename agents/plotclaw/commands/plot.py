@@ -1,4 +1,4 @@
-"""Plot command - Constitutional contract + CLI compatibility (sympy-only)"""
+﻿"""Plot command - Constitutional contract + CLI compatibility (sympy-only)"""
 import os
 from pathlib import Path
 name = "plot"

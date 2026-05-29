@@ -1,4 +1,4 @@
-"""Box command - Constitutional contract + CLI compatibility"""
+﻿"""Box command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "box"

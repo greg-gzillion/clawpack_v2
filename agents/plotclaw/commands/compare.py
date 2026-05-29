@@ -1,4 +1,4 @@
-"""Compare command - Constitutional contract + CLI compatibility"""
+﻿"""Compare command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "compare"

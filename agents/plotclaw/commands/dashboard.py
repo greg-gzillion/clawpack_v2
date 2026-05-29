@@ -1,4 +1,4 @@
-"""Dashboard command - Constitutional contract + CLI compatibility"""
+﻿"""Dashboard command - Constitutional contract + CLI compatibility"""
 import os
 from pathlib import Path
 name = "dashboard"
