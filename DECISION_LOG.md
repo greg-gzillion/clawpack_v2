@@ -103,3 +103,26 @@ When making architectural decisions, document:
 3. **Constitutional basis** (which Article supports or constrains the decision)
 4. **Alternatives considered** (what else was evaluated and why it was rejected)
 5. **Date** (for chronological context)
+
+## 2026-05-29: Consensus Engine — Domain-Aware Claim Extraction Needed for Non-Legal Agents
+
+**Decision:** The consensus engine's _extract_claims() function currently uses US-legal-specific regex patterns (Bluebook citations, U.S. reporter format). When wiring mediclaw, txclaw, or other agents to the consensus engine, their claim extraction must be domain-aware.
+
+**Why:** The current patterns match:
+- Case citations: "Miranda v. Arizona, 384 U.S. 436 (1966)"
+- Statutory references: "42 U.S.C. 1983"
+- Legal concepts: lines starting with ** or ##
+
+Medical claims, blockchain transactions, code patterns, and mathematical proofs have completely different structures. Running medical diagnoses through legal citation regex will produce zero matches and fall back to raw text extraction — causing consensus pollution.
+
+**What needs to happen before wiring non-legal agents:**
+1. Add agent_type parameter to _extract_claims(result, args, agent_type="legal")
+2. Implement agent-specific extraction patterns:
+   - "medical" — diagnoses, treatments, drug names, ICD codes, study citations
+   - "blockchain" — transaction hashes, contract addresses, token amounts, block numbers
+   - "code" — function signatures, file paths, error patterns, language-specific syntax
+   - "math" — equations, theorems, proofs, numerical results
+3. Each domain gets its own claim prefix namespace (diagnosis:, tx_hash:, function:, theorem:)
+4. Cross-domain facts (like source_url:) remain universal
+
+**Constitutional basis:** Article V (Truth Hierarchy) — claims must be comparable across agents to build consensus. Article II (Separation of Powers) — each agent's domain knowledge should inform how it extracts truth claims.
