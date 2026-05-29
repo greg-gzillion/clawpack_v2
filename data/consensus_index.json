@@ -2609,6 +2609,546 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-29T17:38:33.447212+00:00",
       "last_updated": "2026-05-29T17:38:33.447212+00:00"
+    },
+    "58108ce137bf5394": {
+      "fact_id": "58108ce137bf5394",
+      "fact_value": "query:service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:43:18.082962+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T17:43:18.082962+00:00",
+      "last_updated": "2026-05-29T18:53:22.484765+00:00"
+    },
+    "451c317acf98fb4e": {
+      "fact_id": "451c317acf98fb4e",
+      "fact_value": "concept:Service Provider:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:43:18.103517+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T17:43:18.103517+00:00",
+      "last_updated": "2026-05-29T18:53:22.500280+00:00"
+    },
+    "7b8cb68dedc08abf": {
+      "fact_id": "7b8cb68dedc08abf",
+      "fact_value": "concept:Effective Date:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:43:18.119032+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T17:43:18.119032+00:00",
+      "last_updated": "2026-05-29T18:53:22.519863+00:00"
+    },
+    "a14455554a0683a0": {
+      "fact_id": "a14455554a0683a0",
+      "fact_value": "concept:Initial Term:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:43:18.138074+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T17:43:18.138074+00:00",
+      "last_updated": "2026-05-29T18:53:22.540427+00:00"
+    },
+    "a52095dc02cd649a": {
+      "fact_id": "a52095dc02cd649a",
+      "fact_value": "concept:Termination Date:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:43:18.155784+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T17:43:18.155784+00:00",
+      "last_updated": "2026-05-29T18:53:22.555738+00:00"
+    },
+    "ffc9f536d7bc3930": {
+      "fact_id": "ffc9f536d7bc3930",
+      "fact_value": "source_url:https://www.delaware.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.delaware.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:43:18.169294+00:00"
+        }
+      ],
+      "verifications": 7,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-29T17:43:18.169294+00:00",
+      "last_updated": "2026-05-29T18:06:30.702376+00:00"
+    },
+    "43c058fe7bd90407": {
+      "fact_id": "43c058fe7bd90407",
+      "fact_value": "query:/translate the above contract to German",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:01:51.163356+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:01:51.162353+00:00",
+      "last_updated": "2026-05-29T18:01:51.163356+00:00"
+    },
+    "c670f1ad96da731b": {
+      "fact_id": "c670f1ad96da731b",
+      "fact_value": "concept:The documentation provided above is NOT a smart contract itself",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:01:51.179384+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:01:51.179384+00:00",
+      "last_updated": "2026-05-29T18:01:51.179384+00:00"
+    },
+    "bc1d7d544dc313fc": {
+      "fact_id": "bc1d7d544dc313fc",
+      "fact_value": "concept:German translation framework",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:01:51.193919+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:01:51.193919+00:00",
+      "last_updated": "2026-05-29T18:01:51.193919+00:00"
+    },
+    "349a9357a98da9d9": {
+      "fact_id": "349a9357a98da9d9",
+      "fact_value": "concept:interpretclaw",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:01:51.207948+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:01:51.207948+00:00",
+      "last_updated": "2026-05-29T18:01:51.207948+00:00"
+    },
+    "ddd83f5cc737e6c4": {
+      "fact_id": "ddd83f5cc737e6c4",
+      "fact_value": "concept:Smart Contract",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:01:51.222378+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:01:51.222378+00:00",
+      "last_updated": "2026-05-29T18:01:51.222378+00:00"
+    },
+    "a5d3779bd6444a82": {
+      "fact_id": "a5d3779bd6444a82",
+      "fact_value": "source_url:https://courts.delaware.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://courts.delaware.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:06:30.655781+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-29T18:06:30.655781+00:00",
+      "last_updated": "2026-05-29T18:34:32.877646+00:00"
+    },
+    "fbfa65bce601d02e": {
+      "fact_id": "fbfa65bce601d02e",
+      "fact_value": "source_url:https://dnrec.delaware.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://dnrec.delaware.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:06:30.669839+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:06:30.669839+00:00",
+      "last_updated": "2026-05-29T18:06:30.669839+00:00"
+    },
+    "e9ed8ebab6f4e33f": {
+      "fact_id": "e9ed8ebab6f4e33f",
+      "fact_value": "query:the contract to German",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:06:37.287322+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T18:06:37.286316+00:00",
+      "last_updated": "2026-05-29T18:54:00.987106+00:00"
+    },
+    "a510f71aab270b96": {
+      "fact_id": "a510f71aab270b96",
+      "fact_value": "concept:Der Vertrag",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:06:37.302837+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:06:37.302837+00:00",
+      "last_updated": "2026-05-29T18:06:37.302837+00:00"
+    },
+    "4a778c2488ff265e": {
+      "fact_id": "4a778c2488ff265e",
+      "fact_value": "concept:den Vertrag",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:06:37.320905+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:06:37.320905+00:00",
+      "last_updated": "2026-05-29T18:06:37.320905+00:00"
+    },
+    "99cd9727134f5eef": {
+      "fact_id": "99cd9727134f5eef",
+      "fact_value": "concept:dem Vertrag",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:06:37.336417+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:06:37.336417+00:00",
+      "last_updated": "2026-05-29T18:06:37.336417+00:00"
+    },
+    "8c55918138ec14f8": {
+      "fact_id": "8c55918138ec14f8",
+      "fact_value": "concept:des Vertrags",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:06:37.353470+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:06:37.353470+00:00",
+      "last_updated": "2026-05-29T18:06:37.353470+00:00"
+    },
+    "b8b0c2014397c77c": {
+      "fact_id": "b8b0c2014397c77c",
+      "fact_value": "query:independent contractor agreement between Mountain Tech Solutions LLC and Jane Rivera for software development services - effective date July 1 2026 - payment $125 per hour net 15 days - governing law ",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:12:23.753895+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:12:23.753895+00:00",
+      "last_updated": "2026-05-29T18:12:23.753895+00:00"
+    },
+    "eb2da218229b8967": {
+      "fact_id": "eb2da218229b8967",
+      "fact_value": "concept:Service Provider (Contractor):",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:12:23.771425+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:12:23.771425+00:00",
+      "last_updated": "2026-05-29T18:12:23.771425+00:00"
+    },
+    "2bb80e293ee4b96c": {
+      "fact_id": "2bb80e293ee4b96c",
+      "fact_value": "concept:Client (Company):",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:12:23.796569+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:12:23.796569+00:00",
+      "last_updated": "2026-05-29T18:12:23.796569+00:00"
+    },
+    "37923a06919f2552": {
+      "fact_id": "37923a06919f2552",
+      "fact_value": "concept:Dienstleister (Auftragnehmer):",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:13:25.119963+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:13:25.119963+00:00",
+      "last_updated": "2026-05-29T18:13:25.119963+00:00"
+    },
+    "1309182731e08688": {
+      "fact_id": "1309182731e08688",
+      "fact_value": "concept:Auftraggeber (Unternehmen):",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:13:25.135006+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:13:25.135006+00:00",
+      "last_updated": "2026-05-29T18:13:25.135006+00:00"
+    },
+    "00a56edbb061eec5": {
+      "fact_id": "00a56edbb061eec5",
+      "fact_value": "concept:Anf\u00e4ngliche Laufzeit:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:13:25.150529+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T18:13:25.150529+00:00",
+      "last_updated": "2026-05-29T18:54:01.017555+00:00"
+    },
+    "6f1ea4a6c30a2b01": {
+      "fact_id": "6f1ea4a6c30a2b01",
+      "fact_value": "concept:K\u00fcndigungsdatum:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:13:25.165588+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T18:13:25.165588+00:00",
+      "last_updated": "2026-05-29T18:54:01.035596+00:00"
+    },
+    "52d6b282356a1f05": {
+      "fact_id": "52d6b282356a1f05",
+      "fact_value": "concept:Dienstleister:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:31:04.826249+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:31:04.826249+00:00",
+      "last_updated": "2026-05-29T18:31:04.826249+00:00"
+    },
+    "f01ff3616b4365ad": {
+      "fact_id": "f01ff3616b4365ad",
+      "fact_value": "concept:Auftraggeber:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:31:04.839779+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:31:04.839779+00:00",
+      "last_updated": "2026-05-29T18:31:04.839779+00:00"
+    },
+    "5c9b0d058be8c4a2": {
+      "fact_id": "5c9b0d058be8c4a2",
+      "fact_value": "source_url:https://delaware.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://delaware.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:34:32.893204+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:34:32.893204+00:00",
+      "last_updated": "2026-05-29T18:34:32.893204+00:00"
+    },
+    "6b614f356fbe844b": {
+      "fact_id": "6b614f356fbe844b",
+      "fact_value": "source_url:https://courts.delaware.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://courts.delaware.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T18:53:22.575763+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:53:22.575763+00:00",
+      "last_updated": "2026-05-29T18:53:22.575763+00:00"
+    },
+    "8ad79dbf219f967d": {
+      "fact_id": "8ad79dbf219f967d",
+      "fact_value": "concept:Dienstleistungsanbieter:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T18:54:01.002135+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T18:54:01.002135+00:00",
+      "last_updated": "2026-05-29T18:54:01.002135+00:00"
     }
   },
   "corrections": [
@@ -2629,5 +3169,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T17:38:33.448225+00:00"
+  "updated_at": "2026-05-29T18:54:01.036595+00:00"
 }

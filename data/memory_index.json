@@ -1228,6 +1228,226 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T17:38:33.398604+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_114317.md (6.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:43:18.056406+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_114317.md (6.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in accordance with this Agreement)\n\n---\n\n## 3. SCOPE OF SERVICES\n\nABC Consulting LLC (\"Provider\") agrees ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:43:18.068931+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/translate the above contract to German",
+      "fact": "# Translation of TX Blockchain Smart Contract Documentation to German\n\nI appreciate your request, but I need to clarify an important distinction: **The documentation provided above is NOT a smart contract itself** \u2014 it's API documentation and service reference materials for blockchain services (MiniCMS Service, Update Service, Reference Service, etc.).\n\nHowever, I can provide you with a **German t",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:01:51.130796+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/translate the above contract to German",
+      "fact": "# Translation of TX Blockchain Smart Contract Documentation to German\n\nI appreciate your request, but I need to clarify an important distinction: **The documentation provided above is NOT a smart contract itself** \u2014 it's API documentation and service reference materials for blockchain services (MiniCMS Service, Update Service, Reference Service, etc.).\n\nHowever, I can provide you with a **German translation framework** for these technical documents using the resources available in the CLAWPACK s",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:01:51.145307+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_120630.md (6.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:06:30.522898+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_120630.md (6.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in accordance with Section 6)\n\n---\n\n## 3. SCOPE OF SERVICES\n\nABC Consulting LLC (\"Service Provider\") agre",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:06:30.536953+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract to German",
+      "fact": "# Translation: \"the contract\" to German\n\n**Der Vertrag**\n\n(literal: \"the contract\" - definite article \"der\" + noun \"Vertrag\")\n\nAlternative forms depending on context:\n- **den Vertrag** (accusative case)\n- **dem Vertrag** (dative case)\n- **des Vertrags** (genitive case)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:06:37.259862+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract to German",
+      "fact": "# Translation: \"the contract\" to German\n\n**Der Vertrag**\n\n(literal: \"the contract\" - definite article \"der\" + noun \"Vertrag\")\n\nAlternative forms depending on context:\n- **den Vertrag** (accusative case)\n- **dem Vertrag** (dative case)\n- **des Vertrags** (genitive case)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:06:37.274372+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "independent contractor agreement between Mountain Tech Solutions LLC and Jane Rivera for software development services - effective date July 1 2026 - payment $125 per hour net 15 days - governing law Colorado - term 6 months",
+      "fact": "Exported: export_20260529_121223.md (8.9KB)\n\n# INDEPENDENT CONTRACTOR AGREEMENT\n\n## Between Mountain Tech Solutions LLC and Jane Rivera for Software Development Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider (Contractor):** Jane Rivera, an independent contractor  \n**Client (Company):** Mountain Tech Solutions LLC, a limited liability company organized under the laws of Colorado\n\n---\n\n## 2. EFFEC",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:12:23.716210+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "independent contractor agreement between Mountain Tech Solutions LLC and Jane Rivera for software development services - effective date July 1 2026 - payment $125 per hour net 15 days - governing law Colorado - term 6 months",
+      "fact": "Exported: export_20260529_121223.md (8.9KB)\n\n# INDEPENDENT CONTRACTOR AGREEMENT\n\n## Between Mountain Tech Solutions LLC and Jane Rivera for Software Development Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider (Contractor):** Jane Rivera, an independent contractor  \n**Client (Company):** Mountain Tech Solutions LLC, a limited liability company organized under the laws of Colorado\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** July 1, 2026\n- **Initial Term:** Six (6) months\n- **Termin",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:12:23.733233+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract to German",
+      "fact": "# UNABH\u00c4NGIGER AUFTRAGNEHMER-VEREINBARUNG\n\n## Zwischen Mountain Tech Solutions LLC und Jane Rivera f\u00fcr Softwareentwicklungsdienste\n\n---\n\n## 1. PARTEIEN\n\n**Dienstleister (Auftragnehmer):** Jane Rivera, ein unabh\u00e4ngiger Auftragnehmer  \n**Auftraggeber (Unternehmen):** Mountain Tech Solutions LLC, eine Gesellschaft mit beschr\u00e4nkter Haftung, die nach den Gesetzen von Colorado gegr\u00fcndet wurde\n\n---\n\n## 2",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:13:25.074302+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract to German",
+      "fact": "# UNABH\u00c4NGIGER AUFTRAGNEHMER-VEREINBARUNG\n\n## Zwischen Mountain Tech Solutions LLC und Jane Rivera f\u00fcr Softwareentwicklungsdienste\n\n---\n\n## 1. PARTEIEN\n\n**Dienstleister (Auftragnehmer):** Jane Rivera, ein unabh\u00e4ngiger Auftragnehmer  \n**Auftraggeber (Unternehmen):** Mountain Tech Solutions LLC, eine Gesellschaft mit beschr\u00e4nkter Haftung, die nach den Gesetzen von Colorado gegr\u00fcndet wurde\n\n---\n\n## 2. STICHTAG UND LAUFZEIT\n\n- **Stichtag:** 1. Juli 2026\n- **Anf\u00e4ngliche Laufzeit:** Sechs (6) Monate\n-",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:13:25.087840+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_123018.md (6.4KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:30:18.162573+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_123018.md (6.4KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in accordance with Section 6 below)\n\n---\n\n## 3. SCOPE OF SERVICES\n\nABC Consulting LLC agrees to provide i",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:30:18.178612+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract to German",
+      "fact": "# SERVICEVERTRAG\n\n## Zwischen ABC Consulting LLC und XYZ Corp f\u00fcr IT-Dienstleistungen\n\n---\n\n## 1. PARTEIEN\n\n**Dienstleister:** ABC Consulting LLC\n\n**Auftraggeber:** XYZ Corp\n\n---\n\n## 2. STICHTAG UND LAUFZEIT\n\n- **Stichtag:** 1. Juni 2026\n- **Anf\u00e4ngliche Laufzeit:** Zw\u00f6lf (12) Monate\n- **K\u00fcndigungsdatum:** 31. Mai 2027 (sofern nicht gem\u00e4\u00df Abschnitt 6 unten verl\u00e4ngert oder fr\u00fcher beendet)\n\n---\n\n## 3",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:31:04.784529+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract to German",
+      "fact": "# SERVICEVERTRAG\n\n## Zwischen ABC Consulting LLC und XYZ Corp f\u00fcr IT-Dienstleistungen\n\n---\n\n## 1. PARTEIEN\n\n**Dienstleister:** ABC Consulting LLC\n\n**Auftraggeber:** XYZ Corp\n\n---\n\n## 2. STICHTAG UND LAUFZEIT\n\n- **Stichtag:** 1. Juni 2026\n- **Anf\u00e4ngliche Laufzeit:** Zw\u00f6lf (12) Monate\n- **K\u00fcndigungsdatum:** 31. Mai 2027 (sofern nicht gem\u00e4\u00df Abschnitt 6 unten verl\u00e4ngert oder fr\u00fcher beendet)\n\n---\n\n## 3. LEISTUNGSUMFANG\n\nABC Consulting LLC erkl\u00e4rt sich bereit, XYZ Corp Informationstechnologie-(IT)-Die",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:31:04.798062+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_123432.md (9.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:34:32.773238+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_123432.md (9.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in accordance with Section 6)\n\n---\n\n## 3. SCOPE OF SERVICES\n\nABC Consulting LLC agrees to provide informa",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:34:32.786778+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_125322.md (5.9KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:53:22.456493+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Delaware",
+      "fact": "Exported: export_20260529_125322.md (5.9KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in accordance with Section 6)\n\n---\n\n## 3. SCOPE OF SERVICES\n\nABC Consulting LLC (\"Provider\") agrees to pr",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:53:22.470029+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract to German",
+      "fact": "Exported: export_20260529_125400.md (5.3KB)\n\n# SERVICEVERTRAG\n\n## Zwischen ABC Consulting LLC und XYZ Corp f\u00fcr IT-Dienstleistungen\n\n---\n\n## 1. PARTEIEN\n\n**Dienstleistungsanbieter:** ABC Consulting LLC\n\n**Kunde:** XYZ Corp\n\n---\n\n## 2. STICHTAG UND LAUFZEIT\n\n- **Stichtag:** 1. Juni 2026\n- **Anf\u00e4ngliche Laufzeit:** Zw\u00f6lf (12) Monate\n- **K\u00fcndigungsdatum:** 31. Mai 2027 (sofern nicht verl\u00e4ngert oder fr",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T18:54:00.957516+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract to German",
+      "fact": "Exported: export_20260529_125400.md (5.3KB)\n\n# SERVICEVERTRAG\n\n## Zwischen ABC Consulting LLC und XYZ Corp f\u00fcr IT-Dienstleistungen\n\n---\n\n## 1. PARTEIEN\n\n**Dienstleistungsanbieter:** ABC Consulting LLC\n\n**Kunde:** XYZ Corp\n\n---\n\n## 2. STICHTAG UND LAUFZEIT\n\n- **Stichtag:** 1. Juni 2026\n- **Anf\u00e4ngliche Laufzeit:** Zw\u00f6lf (12) Monate\n- **K\u00fcndigungsdatum:** 31. Mai 2027 (sofern nicht verl\u00e4ngert oder fr\u00fcher gem\u00e4\u00df Abschnitt 6 beendet)\n\n---\n\n## 3. LEISTUNGSUMFANG\n\nABC Consulting LLC (\u201eAnbieter\") erkl\u00e4rt",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T18:54:00.971049+00:00"
     }
   ],
   "index": {
@@ -1660,7 +1880,17 @@
       84,
       85,
       105,
-      106
+      106,
+      115,
+      116,
+      119,
+      120,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
     ],
     "case:": [
       78,
@@ -1840,7 +2070,17 @@
     ],
     "contract": [
       113,
-      114
+      114,
+      117,
+      118,
+      121,
+      122,
+      125,
+      126,
+      129,
+      130,
+      135,
+      136
     ],
     "binding": [
       113,
@@ -1849,7 +2089,303 @@
     "spanish": [
       113,
       114
+    ],
+    "service": [
+      115,
+      116,
+      119,
+      120,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "agreement": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "between": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "consulting": [
+      115,
+      116,
+      119,
+      120,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "services": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "effective": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "date": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "june": [
+      115,
+      116,
+      119,
+      120,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "2026": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "term": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "months": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "payment": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "$150": [
+      115,
+      116,
+      119,
+      120,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "hour": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "days": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "governing": [
+      115,
+      116,
+      119,
+      120,
+      123,
+      124,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "delaware": [
+      115,
+      116,
+      119,
+      120,
+      127,
+      128,
+      131,
+      132,
+      133,
+      134
+    ],
+    "/translate": [
+      117,
+      118
+    ],
+    "above": [
+      117,
+      118
+    ],
+    "german": [
+      117,
+      118,
+      121,
+      122,
+      125,
+      126,
+      129,
+      130,
+      135,
+      136
+    ],
+    "independent": [
+      123,
+      124
+    ],
+    "contractor": [
+      123,
+      124
+    ],
+    "mountain": [
+      123,
+      124
+    ],
+    "tech": [
+      123,
+      124
+    ],
+    "solutions": [
+      123,
+      124
+    ],
+    "jane": [
+      123,
+      124
+    ],
+    "rivera": [
+      123,
+      124
+    ],
+    "software": [
+      123,
+      124
+    ],
+    "development": [
+      123,
+      124
+    ],
+    "july": [
+      123,
+      124
+    ],
+    "$125": [
+      123,
+      124
+    ],
+    "colorado": [
+      123,
+      124
     ]
   },
-  "updated_at": "2026-05-29T17:38:33.399588+00:00"
+  "updated_at": "2026-05-29T18:54:00.971049+00:00"
 }

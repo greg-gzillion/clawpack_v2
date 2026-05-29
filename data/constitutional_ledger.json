@@ -91,6 +91,149 @@
       },
       "previous_hash": "0ebe7d36e896d490",
       "hash": "9b2d206ec5c5d2cf"
+    },
+    {
+      "timestamp": "2026-05-29T17:43:18.012634+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "9b2d206ec5c5d2cf",
+      "hash": "332c50efa1e4a3e8"
+    },
+    {
+      "timestamp": "2026-05-29T18:01:51.100459+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "lawclaw>"
+      },
+      "previous_hash": "332c50efa1e4a3e8",
+      "hash": "6cb9c1aa98165036"
+    },
+    {
+      "timestamp": "2026-05-29T18:06:30.468756+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "6cb9c1aa98165036",
+      "hash": "03aba0f4ed923109"
+    },
+    {
+      "timestamp": "2026-05-29T18:06:37.225270+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "03aba0f4ed923109",
+      "hash": "f4270678f8abf9ce"
+    },
+    {
+      "timestamp": "2026-05-29T18:12:23.661591+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "f4270678f8abf9ce",
+      "hash": "e0469085e515178f"
+    },
+    {
+      "timestamp": "2026-05-29T18:13:25.040717+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "e0469085e515178f",
+      "hash": "7d8f606375c44c79"
+    },
+    {
+      "timestamp": "2026-05-29T18:30:18.113790+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "7d8f606375c44c79",
+      "hash": "f77bf228ed69da11"
+    },
+    {
+      "timestamp": "2026-05-29T18:31:04.755919+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "f77bf228ed69da11",
+      "hash": "55fb1047e20f965e"
+    },
+    {
+      "timestamp": "2026-05-29T18:34:32.723626+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "55fb1047e20f965e",
+      "hash": "88910b4c6011e207"
+    },
+    {
+      "timestamp": "2026-05-29T18:53:22.401886+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "88910b4c6011e207",
+      "hash": "4cd41a6c4b972497"
+    },
+    {
+      "timestamp": "2026-05-29T18:54:00.924456+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "4cd41a6c4b972497",
+      "hash": "790575591de4c558"
     }
   ],
   "version": "v1.0"

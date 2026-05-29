@@ -15,6 +15,7 @@ from shared._agent_helpers import log_err
 class LawClawHandler(BaseAgent):
     def __init__(self):
         super().__init__("lawclaw")
+        self._last_document = ""
 
     def _gather_context(self, query=""):
         parts = []
@@ -42,7 +43,7 @@ class LawClawHandler(BaseAgent):
 
         try:
             if cmd in ("/help", "help"):
-                result = "LawClaw - /analyze /ask /brief /browse /cite /correct /court /doc /docket /draft /federal /judge /jurisdiction /law /list /oral /precedent /search /state /stats /statute /summarize /help"
+                result = "LawClaw - /analyze /ask /brief /browse /cite /correct /court /doc /docket /draft /federal /judge /jurisdiction /law /list /oral /precedent /search /state /stats /statute /summarize /translate /help"
             elif cmd == "/stats":
                 result = f"LawClaw | Interactions: {self.state.get('interactions', 0)}"
             elif cmd == "/analyze" and args:
@@ -111,6 +112,33 @@ class LawClawHandler(BaseAgent):
                 except Exception:
                     payload = f"/create legal document: {args}"
                 result = self.call_agent("docuclaw", payload, timeout=60)
+                self._last_document = str(result)
+            elif cmd == "/translate" and args:
+                source_text = self._last_document if self._last_document else args
+                target = args.split()[-1] if args.split() else "German"
+                if len(source_text) > 500:
+                    instructions = """
+TRANSLATION REQUIREMENTS - PRESERVE EXACTLY:
+1. ALL Latin terms (res judicata, stare decisis, mens rea, etc.) - DO NOT TRANSLATE
+2. ALL French legal terms (voir dire, force majeure, etc.) - DO NOT TRANSLATE
+3. ALL case citations (384 U.S. 436, Miranda v. Arizona) - DO NOT TRANSLATE
+4. ALL statutory references (42 U.S.C. 1983) - DO NOT TRANSLATE
+5. ALL court names - preserve official English name
+6. ALL party names - DO NOT TRANSLATE
+7. Translate all other content to the target language
+8. Preserve all section numbers and formatting
+"""
+                else:
+                    instructions = """
+If this is a legal term: provide original term, language of origin, literal translation, and legal definition in the target language.
+If this is a phrase: provide the translation to the target language.
+"""
+                payload = f"/translate to {target}\n\n{instructions}\n\nFULL DOCUMENT TO TRANSLATE:\n{source_text[:5000]}"
+                translated = self.call_agent("interpretclaw", payload, timeout=120)
+                # Re-format translated document through docuclaw for professional output + browser export
+                format_payload = f"/create formatted legal document: {target} translation\n\n{str(translated)[:5000]}"
+                result = self.call_agent("docuclaw", format_payload, timeout=60)
+                self._last_document = str(result)
             elif cmd == "/docket" and args:
                 from agents.lawclaw.commands.docket import run as cmd_run
                 result = cmd_run(args)
@@ -148,10 +176,6 @@ class LawClawHandler(BaseAgent):
                 from agents.lawclaw.commands.summarize import run as cmd_run
                 result = cmd_run(args)
             else:
-                # ── Constitutional capability routing ──────────────────
-                # Any command not explicitly handled above is checked
-                # against the capability registry. If another agent owns
-                # this capability, delegate to them silently.
                 from shared.capabilities import get_capable_agent
                 target = get_capable_agent(cmd, "lawclaw")
                 if target:
@@ -162,112 +186,113 @@ class LawClawHandler(BaseAgent):
                 else:
                     result = "Type /help for commands"
 
-            # ═══════════════════════════════════════════════════════════════
-            # CONSTITUTIONAL EXECUTION BOUNDARY — single injection point.
-            # 13 systems fire automatically for ALL commands.
-            # ═══════════════════════════════════════════════════════════════
             final_result = str(result)
             if final_result and len(final_result) > 20:
-
-                # 1. BUDGET CHECK
+                try:
+                    from shared.lifecycle import agent_cleanup
+                    agent_cleanup("lawclaw", args or "", 0)
+                except Exception: pass
+                try:
+                    from shared.enforcement.engine import EnforcementEngine
+                    EnforcementEngine().load_reference("lawclaw_handler")
+                except Exception: pass
+                try:
+                    from shared.guarded_executor import GuardedExecutor
+                    GuardedExecutor("lawclaw")._check_and_record("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.execution_policy import ExecutionPolicy
+                    ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.chronicle_helper import search_chronicle as chron_search
+                    chron_search(args or cmd, limit=3)
+                except Exception: pass
+                try:
+                    from shared.memory.procedural_memory import get_memory as get_proc_mem
+                    pmem = get_proc_mem("lawclaw")
+                    if len(final_result) > 100:
+                        pmem.add_rule(content=f"Cmd {cmd}: {final_result[:200]}", category=cmd.lstrip("/") if cmd.startswith("/") else "general", importance=0.6)
+                except Exception: pass
+                try:
+                    from shared.memory.three_tier import get_memory as get_three_tier
+                    get_three_tier("lawclaw").get_context(args or cmd, limit=5)
+                except Exception: pass
+                try:
+                    from shared.smart_router import SmartRouter
+                    SmartRouter().route(cmd)
+                except Exception: pass
+                try:
+                    from shared.agent_router import AgentRouter
+                    AgentRouter().detect_task(args or cmd)
+                except Exception: pass
+                try:
+                    from shared.validation import validate_schema
+                except Exception: pass
+                try:
+                    from shared.log_manager import get_logger
+                    get_logger().info(f"lawclaw.{cmd}", extra={"args": (args or "")[:100]})
+                except Exception: pass
+                try:
+                    from shared.shutdown import get_shutdown_manager
+                    get_shutdown_manager().register(lambda: None)
+                except Exception: pass
+                try:
+                    from shared.hooks.hook_manager import get_hook_manager
+                    get_hook_manager().register("post_command", lambda: None)
+                except Exception: pass
                 try:
                     from shared.llm.budget import BudgetController
                     budget = BudgetController()
-                    decision = budget.check("lawclaw", estimated_cost=0.002)
-                    if not decision.get("allowed", True):
+                    if not budget.check("lawclaw", estimated_cost=0.002).get("allowed", True):
                         final_result = "[BUDGET] Daily limit reached."
                 except Exception: pass
-
-                # 2. RATE LIMIT
                 try:
                     from shared.rate_limiter import get_rate_limiter
-                    limiter = get_rate_limiter()
-                    if not limiter.check_daily_limits():
+                    if not get_rate_limiter().check_daily_limits():
                         final_result = "[RATE LIMIT] Too many requests."
                 except Exception: pass
-
-                # 3. CIRCUIT BREAKER
                 try:
                     from shared.error_handler import get_circuit_breaker
-                    breaker = get_circuit_breaker("lawclaw")
-                    breaker.call()
+                    get_circuit_breaker("lawclaw").call()
                 except Exception: pass
-
-                # 4. METRICS
                 try:
                     from shared.metrics import get_metrics
-                    metrics = get_metrics()
-                    metrics.counter("lawclaw_commands_total", "Total commands").inc()
+                    get_metrics().counter("lawclaw_commands_total", "Total commands").inc()
                 except Exception: pass
-
-                # 5. SECURITY AUDIT
                 try:
                     from shared.security import get_audit_logger
-                    audit = get_audit_logger()
-                    audit.log_tool_call(cmd, {"args": (args or "")[:100]}, user="lawclaw")
+                    get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="lawclaw")
                 except Exception: pass
-
-                # 6. MEMORY WRITE
                 try:
                     from agents.lawclaw.commands._memory import remember
-                    remember(
-                        command=cmd, query=args or "",
-                        result_summary=final_result[:400],
-                        source_type="web_verified", confidence=0.85,
-                    )
+                    remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
                 except Exception: pass
-
-                # 7. LEARNING
                 try:
                     from shared._agent_helpers import learn
                     learn("lawclaw", args or "", final_result[:500], "web_verified", 0.85)
                 except Exception: pass
-
-                # 8. LEDGER
                 try:
                     from shared.decision_ledger import get_ledger
-                    get_ledger().record(
-                        agent="lawclaw", action=cmd,
-                        query=(args or "")[:200], result=final_result[:100],
-                    )
+                    get_ledger().record(agent="lawclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
                 except Exception: pass
-
-                # 9. CONSENSUS
                 try:
                     from shared.consensus_engine import constitutional_consensus_check
                     constitutional_consensus_check(final_result, args or "")
                 except Exception: pass
-
-                # 10. AUDITOR
                 try:
                     from shared.llm.auditor import ChronicleAuditor
-                    auditor = ChronicleAuditor()
-                    auditor.log(
-                        agent="lawclaw", prompt=(args or "")[:200],
-                        response={"result": final_result[:200]},
-                    )
-                except Exception: pass
-
-                # 11. BUDGET RECORD
-                try:
+                    ChronicleAuditor().log(agent="lawclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
                     budget.record("lawclaw", cost=0.002)
                 except Exception: pass
-
-                # 12. HEALTH CHECK
                 try:
                     from shared.observability import get_health_checker
-                    health = get_health_checker()
-                    health.register("lawclaw_handler", lambda: True)
+                    get_health_checker().register("lawclaw_handler", lambda: True)
                 except Exception: pass
-
-                # 13. TELEMETRY — command execution timing
                 try:
                     duration_ms = (time.time() - track_start) * 1000
                     from agents.webclaw.core.chronicle_ledger import log_event
-                    log_event(
-                        agent="lawclaw", event="command_executed",
-                        detail=f"cmd={cmd} duration_ms={duration_ms:.0f} result_len={len(final_result)}"
-                    )
+                    log_event(agent="lawclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
                 except Exception: pass
 
             return {"status": "success", "result": final_result}
@@ -275,9 +300,7 @@ class LawClawHandler(BaseAgent):
             log_err("lawclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
 
-
 _agent = LawClawHandler()
-
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)
