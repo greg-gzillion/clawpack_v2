@@ -1,1 +1,97 @@
-{"genesis": "5f28b5b6410b5c0b6b1ad4968f6cb81f76f380b7ffd268b5fcafe7b62a89c6da", "entries": [{"timestamp": "2026-05-01T16:21:59.424346+00:00", "agent": "test", "query": "chain test", "resolved_source": "x", "source_type": "web_verified", "confidence": 0.1, "conflicts": 0, "policy_checks": [], "status": "unknown", "previous_hash": "5f28b5b6410b5c0b6b1ad4968f6cb81f76f380b7ffd268b5fcafe7b62a89c6da", "hash": "09c1aecc0e0bcdcb"}], "version": "v1.0"}
+{
+  "genesis": "5f28b5b6410b5c0b6b1ad4968f6cb81f76f380b7ffd268b5fcafe7b62a89c6da",
+  "entries": [
+    {
+      "timestamp": "2026-05-01T16:21:59.424346+00:00",
+      "agent": "test",
+      "query": "chain test",
+      "resolved_source": "x",
+      "source_type": "web_verified",
+      "confidence": 0.1,
+      "conflicts": 0,
+      "policy_checks": [],
+      "status": "unknown",
+      "previous_hash": "5f28b5b6410b5c0b6b1ad4968f6cb81f76f380b7ffd268b5fcafe7b62a89c6da",
+      "hash": "09c1aecc0e0bcdcb"
+    },
+    {
+      "timestamp": "2026-05-29T17:31:34.842344+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/law"
+      },
+      "previous_hash": "09c1aecc0e0bcdcb",
+      "hash": "7e445795314a409b"
+    },
+    {
+      "timestamp": "2026-05-29T17:32:21.679512+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "7e445795314a409b",
+      "hash": "6c65e3bb3ef8bbd4"
+    },
+    {
+      "timestamp": "2026-05-29T17:32:52.885226+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/plot"
+      },
+      "previous_hash": "6c65e3bb3ef8bbd4",
+      "hash": "0a0d86ea348ed74c"
+    },
+    {
+      "timestamp": "2026-05-29T17:33:45.713122+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "."
+      },
+      "previous_hash": "0a0d86ea348ed74c",
+      "hash": "8e840985eb4f9902"
+    },
+    {
+      "timestamp": "2026-05-29T17:34:43.245670+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "8e840985eb4f9902",
+      "hash": "0ebe7d36e896d490"
+    },
+    {
+      "timestamp": "2026-05-29T17:38:33.298782+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "0ebe7d36e896d490",
+      "hash": "9b2d206ec5c5d2cf"
+    }
+  ],
+  "version": "v1.0"
+}

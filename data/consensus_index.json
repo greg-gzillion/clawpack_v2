@@ -68,9 +68,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-29T01:32:22.012514+00:00",
-      "last_updated": "2026-05-29T01:32:22.012514+00:00"
+      "last_updated": "2026-05-29T17:31:34.955223+00:00"
     },
     "a72497c141723efa": {
       "fact_id": "a72497c141723efa",
@@ -88,7 +88,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T01:32:22.024557+00:00",
-      "last_updated": "2026-05-29T01:32:22.034083+00:00"
+      "last_updated": "2026-05-29T17:31:34.999352+00:00"
     },
     "de45d6ab491683c2": {
       "fact_id": "de45d6ab491683c2",
@@ -1330,7 +1330,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T04:37:22.259238+00:00",
-      "last_updated": "2026-05-29T05:20:50.420335+00:00"
+      "last_updated": "2026-05-29T17:32:21.752141+00:00"
     },
     "3233e35fb578fde4": {
       "fact_id": "3233e35fb578fde4",
@@ -1380,11 +1380,11 @@
           "timestamp": "2026-05-29T04:37:22.312726+00:00"
         }
       ],
-      "verifications": 13,
+      "verifications": 18,
       "corrections": [],
       "truth_score": 0.5525,
       "first_seen": "2026-05-29T04:37:22.312726+00:00",
-      "last_updated": "2026-05-29T05:20:50.507906+00:00"
+      "last_updated": "2026-05-29T17:32:21.898770+00:00"
     },
     "cc9eb2e8f00b5d16": {
       "fact_id": "cc9eb2e8f00b5d16",
@@ -1780,7 +1780,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T04:54:30.876249+00:00",
-      "last_updated": "2026-05-29T05:20:50.392144+00:00"
+      "last_updated": "2026-05-29T17:32:21.732594+00:00"
     },
     "191b7374a3897199": {
       "fact_id": "191b7374a3897199",
@@ -1834,7 +1834,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T05:02:46.785218+00:00",
-      "last_updated": "2026-05-29T05:20:50.407806+00:00"
+      "last_updated": "2026-05-29T17:32:21.818839+00:00"
     },
     "2d68f2e56ca05af2": {
       "fact_id": "2d68f2e56ca05af2",
@@ -2228,9 +2228,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-29T16:26:20.749842+00:00",
-      "last_updated": "2026-05-29T16:26:20.749842+00:00"
+      "last_updated": "2026-05-29T17:32:52.937551+00:00"
     },
     "26d493a9dfc2921a": {
       "fact_id": "26d493a9dfc2921a",
@@ -2303,6 +2303,312 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-29T16:27:17.305987+00:00",
       "last_updated": "2026-05-29T16:27:17.305987+00:00"
+    },
+    "0723e7f23228f61c": {
+      "fact_id": "0723e7f23228f61c",
+      "fact_value": "citation:Harlow v. Fitzgerald, 457 U.S. 800 (1982)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-29T17:31:34.969232+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:34.969232+00:00",
+      "last_updated": "2026-05-29T17:31:34.969232+00:00"
+    },
+    "3b220404a0ed9f29": {
+      "fact_id": "3b220404a0ed9f29",
+      "fact_value": "concept:1. DEFINITION \u2014 Plain English, 2-3 sentences",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:31:35.014879+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:35.014879+00:00",
+      "last_updated": "2026-05-29T17:31:35.015880+00:00"
+    },
+    "27fa274856d7578b": {
+      "fact_id": "27fa274856d7578b",
+      "fact_value": "source_url:https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:31:35.028935+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:35.028935+00:00",
+      "last_updated": "2026-05-29T17:31:35.028935+00:00"
+    },
+    "ded524a8ed47e48c": {
+      "fact_id": "ded524a8ed47e48c",
+      "fact_value": "source_url:https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:31:35.042454+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:35.042454+00:00",
+      "last_updated": "2026-05-29T17:31:35.042454+00:00"
+    },
+    "5a5c60fc1baa0389": {
+      "fact_id": "5a5c60fc1baa0389",
+      "fact_value": "source_url:https://www.courtlistener.com/opinion/10612573/martha-stringer-v-county-of-bucks/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/opinion/10612573/martha-stringer-v-county-of-bucks/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:31:35.055978+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:35.055978+00:00",
+      "last_updated": "2026-05-29T17:31:35.055978+00:00"
+    },
+    "9b4496d47e21b5cd": {
+      "fact_id": "9b4496d47e21b5cd",
+      "fact_value": "source_url:https://www.courtlistener.com/opinion/10374613/villarreal-v-city-of-laredo/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/opinion/10374613/villarreal-v-city-of-laredo/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:31:35.074042+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:35.073041+00:00",
+      "last_updated": "2026-05-29T17:31:35.074042+00:00"
+    },
+    "283acab93ab3f973": {
+      "fact_id": "283acab93ab3f973",
+      "fact_value": "source_url:https://www.courtlistener.com/opinion/10348799/green-v-thomas/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/opinion/10348799/green-v-thomas/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:31:35.090249+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:31:35.090249+00:00",
+      "last_updated": "2026-05-29T17:31:35.090249+00:00"
+    },
+    "1b0c9d4339e724eb": {
+      "fact_id": "1b0c9d4339e724eb",
+      "fact_value": "concept:IN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:32:21.769727+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:32:21.769727+00:00",
+      "last_updated": "2026-05-29T17:32:21.769727+00:00"
+    },
+    "c9de4a39d0df1de2": {
+      "fact_id": "c9de4a39d0df1de2",
+      "fact_value": "concept:IN AND FOR MIAMI-DADE COUNTY, FLORIDA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:32:21.785261+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:32:21.785261+00:00",
+      "last_updated": "2026-05-29T17:32:21.785261+00:00"
+    },
+    "d8135a9aec13edb4": {
+      "fact_id": "d8135a9aec13edb4",
+      "fact_value": "concept:CASE NO. 2024-CV-1234",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:32:21.802296+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:32:21.802296+00:00",
+      "last_updated": "2026-05-29T17:32:21.802296+00:00"
+    },
+    "b7bc164885398bf8": {
+      "fact_id": "b7bc164885398bf8",
+      "fact_value": "query:/code python hello world",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:33:45.772865+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:33:45.772865+00:00",
+      "last_updated": "2026-05-29T17:33:45.772865+00:00"
+    },
+    "ba8bf4e4b23d4414": {
+      "fact_id": "ba8bf4e4b23d4414",
+      "fact_value": "concept:Anthropic Foundry",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:33:45.786933+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:33:45.786933+00:00",
+      "last_updated": "2026-05-29T17:33:45.786933+00:00"
+    },
+    "2e04c471fd74c6fd": {
+      "fact_id": "2e04c471fd74c6fd",
+      "fact_value": "source_url:https://ai.azure.com/.default",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://ai.azure.com/.default",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:33:45.801468+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:33:45.801468+00:00",
+      "last_updated": "2026-05-29T17:33:45.801468+00:00"
+    },
+    "96e4e88f1b75e158": {
+      "fact_id": "96e4e88f1b75e158",
+      "fact_value": "query:My assessment:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:34:43.302284+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:34:43.302284+00:00",
+      "last_updated": "2026-05-29T17:34:43.302284+00:00"
+    },
+    "b0be1158293566a0": {
+      "fact_id": "b0be1158293566a0",
+      "fact_value": "query:the contract is binding to spanish",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T17:38:33.415639+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:38:33.415639+00:00",
+      "last_updated": "2026-05-29T17:38:33.415639+00:00"
+    },
+    "f0c0994c5f9f6969": {
+      "fact_id": "f0c0994c5f9f6969",
+      "fact_value": "concept:the contract is binding",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:38:33.430159+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:38:33.430159+00:00",
+      "last_updated": "2026-05-29T17:38:33.430159+00:00"
+    },
+    "593d2feb39911be8": {
+      "fact_id": "593d2feb39911be8",
+      "fact_value": "concept:el contrato es vinculante",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T17:38:33.447212+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T17:38:33.447212+00:00",
+      "last_updated": "2026-05-29T17:38:33.447212+00:00"
     }
   },
   "corrections": [
@@ -2323,5 +2629,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T16:27:17.306983+00:00"
+  "updated_at": "2026-05-29T17:38:33.448225+00:00"
 }

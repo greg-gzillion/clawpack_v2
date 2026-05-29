@@ -1,6 +1,2 @@
-﻿"""Clawpack shared modules"""
-from .llm.manager import LLMManager
-from .router import TaskRouter
-from . import commands
+# Shared modules for Clawpack V2
 
-__all__ = ['LLMManager', 'TaskRouter', 'commands']

@@ -1088,6 +1088,146 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T16:27:17.278399+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "**1. DEFINITION \u2014 Plain English, 2-3 sentences**\n\nQualified immunity is a doctrine that shields government officials from liability for monetary damages in civil rights cases, unless the official's actions violated a clearly established constitutional or statutory right. To benefit from qualified immunity, an official must demonstrate that they did not violate any constitutional or statutory right, or that the right in question was not clearly established at the time of the alleged violation. Th",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/10612573/martha-stringer-v-county-of-bucks/",
+        "https://www.courtlistener.com/opinion/10374613/villarreal-v-city-of-laredo/",
+        "https://www.courtlistener.com/opinion/10348799/green-v-thomas/",
+        "https://www.courtlistener.com/opinion/10346937/chanon-miller-v-juan-ramirez/",
+        "https://www.courtlistener.com/opinion/9502421/wendy-cockrun-v-berrien-cnty-mich/",
+        "https://www.courtlistener.com/opinion/10633884/benavides-v-nunez/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:31:34.811905+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:31:34.924039+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n\n[1/3] Searching Chronicle...\n  Chronicle references found\n[2/3] Searching CourtListener opini",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:31:34.938680+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260529_113221.md (4.4KB)\n\n# MOTION TO DISMISS\n\n**11th Judicial Circuit Court of Florida \u2013 Miami-Dade County**\n\n---\n\n## CAPTION\n\n**IN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT**  \n**IN AND FOR MIAMI-DADE COUNTY, FLORIDA**\n\n**CASE NO. 2024-CV-1234**\n\n**JOHN SMITH,**  \nPlaintiff,\n\nv.\n\n**ABC CORP,**  \nDefendant.\n\n---\n\n## DEFENDANT'S MOTION TO DISMISS FOR FAILURE TO STATE A ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:32:21.700509+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260529_113221.md (4.4KB)\n\n# MOTION TO DISMISS\n\n**11th Judicial Circuit Court of Florida \u2013 Miami-Dade County**\n\n---\n\n## CAPTION\n\n**IN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT**  \n**IN AND FOR MIAMI-DADE COUNTY, FLORIDA**\n\n**CASE NO. 2024-CV-1234**\n\n**JOHN SMITH,**  \nPlaintiff,\n\nv.\n\n**ABC CORP,**  \nDefendant.\n\n---\n\n## DEFENDANT'S MOTION TO DISMISS FOR FAILURE TO STATE A CLAIM\n\n---\n\n## I. INTRODUCTION\n\nDefendant ABC Corp (\"Defendant\"), by and through undersigned counsel",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:32:21.715551+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/plot",
+      "query": "bar sales data",
+      "fact": "[FAIL] Sympify of expression 'could not parse 'bar sales data'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:32:52.910804+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "bar sales data",
+      "fact": "[FAIL] Sympify of expression 'could not parse 'bar sales data'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:32:52.923338+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": ".",
+      "query": "/code python hello world",
+      "fact": "# Python \"Hello World\" Example\n\nBased on the context provided, here's a simple Python \"hello world\" example using the **Anthropic Foundry** library:\n\n```python\nfrom anthropic import AnthropicFoundry\n\nclient = AnthropicFoundry(\n    api_key=\"...\",  # defaults to ANTHROPIC_FOUNDRY_API_KEY environment variable\n    resource=\"my-resource\",  # your Foundry resource\n)\n\nmessage = client.messages.create(\n  ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:33:45.744745+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/code python hello world",
+      "fact": "# Python \"Hello World\" Example\n\nBased on the context provided, here's a simple Python \"hello world\" example using the **Anthropic Foundry** library:\n\n```python\nfrom anthropic import AnthropicFoundry\n\nclient = AnthropicFoundry(\n    api_key=\"...\",  # defaults to ANTHROPIC_FOUNDRY_API_KEY environment variable\n    resource=\"my-resource\",  # your Foundry resource\n)\n\nmessage = client.messages.create(\n    model=\"claude-3-5-sonnet-20241022\",\n    max_tokens=1024,\n    messages=[{\"role\": \"user\", \"content\":",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:33:45.757799+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "My assessment:",
+      "fact": "I don't have a target language specified in your query. The context provides translation APIs for multiple languages (Arabic, Bulgarian, Czech, Danish, German, Greek, English, Spanish, Estonian, and Finnish).\n\nPlease specify which language you'd like \"My assessment:\" translated to, and I can provide the translation using the available APIs.",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:34:43.277234+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "My assessment:",
+      "fact": "I don't have a target language specified in your query. The context provides translation APIs for multiple languages (Arabic, Bulgarian, Czech, Danish, German, Greek, English, Spanish, Estonian, and Finnish).\n\nPlease specify which language you'd like \"My assessment:\" translated to, and I can provide the translation using the available APIs.",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:34:43.289762+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract is binding to spanish",
+      "fact": "# Translation\n\n**the contract is binding** \u2192 **el contrato es vinculante**",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T17:38:33.384536+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract is binding to spanish",
+      "fact": "# Translation\n\n**the contract is binding** \u2192 **el contrato es vinculante**",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T17:38:33.398604+00:00"
     }
   ],
   "index": {
@@ -1146,7 +1286,10 @@
       17,
       26,
       27,
-      28
+      28,
+      102,
+      103,
+      104
     ],
     "immunity": [
       12,
@@ -1157,7 +1300,10 @@
       17,
       26,
       27,
-      28
+      28,
+      102,
+      103,
+      104
     ],
     "salazar-limon": [
       18,
@@ -1223,7 +1369,9 @@
       86,
       87,
       90,
-      91
+      91,
+      105,
+      106
     ],
     "dismiss": [
       29,
@@ -1269,7 +1417,9 @@
       86,
       87,
       90,
-      91
+      91,
+      105,
+      106
     ],
     "bedford": [
       29,
@@ -1430,7 +1580,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "vegas": [
       74,
@@ -1456,7 +1608,9 @@
       84,
       85,
       86,
-      87
+      87,
+      105,
+      106
     ],
     "john": [
       78,
@@ -1466,7 +1620,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "smith": [
       78,
@@ -1476,7 +1632,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "defendant:": [
       78,
@@ -1488,7 +1646,9 @@
       84,
       85,
       86,
-      87
+      87,
+      105,
+      106
     ],
     "corp": [
       78,
@@ -1498,7 +1658,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "case:": [
       78,
@@ -1510,7 +1672,9 @@
       84,
       85,
       86,
-      87
+      87,
+      105,
+      106
     ],
     "2024-cv-1234": [
       78,
@@ -1520,7 +1684,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "grounds:": [
       78,
@@ -1532,7 +1698,9 @@
       84,
       85,
       86,
-      87
+      87,
+      105,
+      106
     ],
     "failure": [
       78,
@@ -1542,7 +1710,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "state": [
       78,
@@ -1552,7 +1722,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "claim": [
       78,
@@ -1562,7 +1734,9 @@
       82,
       83,
       84,
-      85
+      85,
+      105,
+      106
     ],
     "tampa": [
       86,
@@ -1620,23 +1794,33 @@
     ],
     "sales": [
       94,
-      95
+      95,
+      107,
+      108
     ],
     "data": [
       94,
-      95
+      95,
+      107,
+      108
     ],
     "python": [
       96,
-      97
+      97,
+      109,
+      110
     ],
     "hello": [
       96,
-      97
+      97,
+      109,
+      110
     ],
     "world": [
       96,
-      97
+      97,
+      109,
+      110
     ],
     "hola": [
       98,
@@ -1645,7 +1829,27 @@
     "revenue": [
       100,
       101
+    ],
+    "/code": [
+      109,
+      110
+    ],
+    "assessment:": [
+      111,
+      112
+    ],
+    "contract": [
+      113,
+      114
+    ],
+    "binding": [
+      113,
+      114
+    ],
+    "spanish": [
+      113,
+      114
     ]
   },
-  "updated_at": "2026-05-29T16:27:17.278399+00:00"
+  "updated_at": "2026-05-29T17:38:33.399588+00:00"
 }
