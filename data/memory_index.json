@@ -1008,6 +1008,86 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T05:29:23.237231+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/plot",
+      "query": "bar sales data",
+      "fact": "[FAIL] Sympify of expression 'could not parse 'bar sales data'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T16:26:20.713788+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "bar sales data",
+      "fact": "[FAIL] Sympify of expression 'could not parse 'bar sales data'' failed, because of exception being raised:\nSyntaxError: invalid syntax (<string>, line 1)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T16:26:20.729820+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/code",
+      "query": "python hello world",
+      "fact": "Saved: python_hello_world_20260529_102649.py | Validated: Syntax OK\n\n```python\n# Simple Hello World program in Python 3.12\nprint(\"Hello, World!\")\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T16:26:49.837687+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "python hello world",
+      "fact": "Saved: python_hello_world_20260529_102649.py | Validated: Syntax OK\n\n```python\n# Simple Hello World program in Python 3.12\nprint(\"Hello, World!\")\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T16:26:49.853212+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "hola",
+      "fact": "Hola\n\n(Note: \"Hola\" is already in Spanish. If you meant to translate it to English, the translation is \"Hello\".)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T16:27:00.450800+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "hola",
+      "fact": "Hola\n\n(Note: \"Hola\" is already in Spanish. If you meant to translate it to English, the translation is \"Hello\".)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T16:27:00.464853+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/chart",
+      "query": "pie revenue",
+      "fact": "**Pie Chart Visualization for Revenue Breakdown**\n\nA pie chart is a circular statistical graphic divided into slices to illustrate numerical proportion. In this example, we'll create a pie chart to visualize the revenue breakdown of a company across different regions.\n\n### Data\n\nLet's assume we have the following revenue data for a company across three regions:\n\n| Region | Revenue |\n| --- | --- |\n",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T16:27:17.265893+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "pie revenue",
+      "fact": "**Pie Chart Visualization for Revenue Breakdown**\n\nA pie chart is a circular statistical graphic divided into slices to illustrate numerical proportion. In this example, we'll create a pie chart to visualize the revenue breakdown of a company across different regions.\n\n### Data\n\nLet's assume we have the following revenue data for a company across three regions:\n\n| Region | Revenue |\n| --- | --- |\n| North America | 40% |\n| Europe | 30% |\n| Asia Pacific | 30% |\n\n### Code\n\nWe'll use Python and the ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T16:27:17.278399+00:00"
     }
   ],
   "index": {
@@ -1537,7 +1617,35 @@
     "https://www.fljud13.org": [
       92,
       93
+    ],
+    "sales": [
+      94,
+      95
+    ],
+    "data": [
+      94,
+      95
+    ],
+    "python": [
+      96,
+      97
+    ],
+    "hello": [
+      96,
+      97
+    ],
+    "world": [
+      96,
+      97
+    ],
+    "hola": [
+      98,
+      99
+    ],
+    "revenue": [
+      100,
+      101
     ]
   },
-  "updated_at": "2026-05-29T05:29:23.237231+00:00"
+  "updated_at": "2026-05-29T16:27:17.278399+00:00"
 }

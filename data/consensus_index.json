@@ -2213,6 +2213,96 @@
       "truth_score": 0.41,
       "first_seen": "2026-05-29T05:29:23.265687+00:00",
       "last_updated": "2026-05-29T05:29:23.281930+00:00"
+    },
+    "cdcc42c6dde34b16": {
+      "fact_id": "cdcc42c6dde34b16",
+      "fact_value": "query:bar sales data",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T16:26:20.749842+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T16:26:20.749842+00:00",
+      "last_updated": "2026-05-29T16:26:20.749842+00:00"
+    },
+    "26d493a9dfc2921a": {
+      "fact_id": "26d493a9dfc2921a",
+      "fact_value": "query:python hello world",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T16:26:49.869852+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T16:26:49.869852+00:00",
+      "last_updated": "2026-05-29T16:26:49.869852+00:00"
+    },
+    "d140aa80884b9caf": {
+      "fact_id": "d140aa80884b9caf",
+      "fact_value": "query:hola",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T16:27:00.478403+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T16:27:00.478403+00:00",
+      "last_updated": "2026-05-29T16:27:00.478403+00:00"
+    },
+    "32ba64ca838beb37": {
+      "fact_id": "32ba64ca838beb37",
+      "fact_value": "query:pie revenue",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T16:27:17.290926+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T16:27:17.290926+00:00",
+      "last_updated": "2026-05-29T16:27:17.290926+00:00"
+    },
+    "f99e50e832298c13": {
+      "fact_id": "f99e50e832298c13",
+      "fact_value": "concept:Pie Chart Visualization for Revenue Breakdown",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T16:27:17.305987+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T16:27:17.305987+00:00",
+      "last_updated": "2026-05-29T16:27:17.305987+00:00"
     }
   },
   "corrections": [
@@ -2233,5 +2323,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T05:29:23.282935+00:00"
+  "updated_at": "2026-05-29T16:27:17.306983+00:00"
 }
