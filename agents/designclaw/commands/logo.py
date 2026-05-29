@@ -1,51 +1,53 @@
-﻿"""Logo command - Generate logos"""
-
-import os
+﻿"""logo command - Constitutional design generation with memory + enrichment"""
+import sys
 from pathlib import Path
-
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 name = "logo"
-description = "Generate logo design"
 
-def run(args):
-    if not args:
-        return "Usage: /logo <name> <style>\nExample: /logo Clawpack modern"
+def run(args: str, agent=None) -> str:
+    from agents.designclaw.commands._memory import recall, remember
+    from agents.designclaw.commands._helpers import save_html
     
-    try:
-        from PIL import Image, ImageDraw, ImageFont
-        
-        parts = args.split()
-        name = parts[0]
-        style = parts[1] if len(parts) > 1 else "modern"
-        
-        # Create logo canvas
-        img = Image.new('RGB', (600, 400), color='#1a1a2e')
-        draw = ImageDraw.Draw(img)
-        
-        # Style-based design
-        if style == "modern":
-            # Geometric shapes
-            draw.ellipse([100, 100, 300, 300], outline='#e94560', width=5)
-            draw.rectangle([250, 150, 450, 250], outline='#0f3460', width=3)
-            draw.text((150, 320), name.upper(), fill='white')
-        elif style == "minimal":
-            draw.line([100, 200, 500, 200], fill='#533483', width=4)
-            draw.text((200, 150), name, fill='white')
-        else:
-            draw.text((150, 180), name.upper(), fill='#e94560')
-            draw.text((180, 220), style.title(), fill='#533483')
-        
-        # Save
-        agent_dir = Path(__file__).parent.parent
-        exports_dir = agent_dir / "exports"
-        exports_dir.mkdir(exist_ok=True)
-        
-        path = exports_dir / f"logo_{name}_{hash(args)%1000}.png"
-        img.save(str(path))
-        os.startfile(str(path))
-        
-        return f"🎨 Logo created: {name} ({style})\n✅ Opening..."
-        
-    except ImportError:
-        return "❌ PIL not installed. Run: pip install pillow"
-    except Exception as e:
-        return f"❌ Error: {e}"
+    query = args.strip()
+    if not query:
+        return "Usage: /brand|/logo|/colors|/kit|/html <description>"
+    
+    # Check memory for prior designs
+    prior = recall(query, limit=2)
+    prior_text = ""
+    if prior:
+        prior_text = "\n".join(f"Prior design: {p.get('fact','')[:200]}" for p in prior)
+    
+    # Detect command type from query prefix
+    cmd_type = query.split()[0].lower() if query else "brand"
+    
+    prompts = {
+        "brand": f"Create a complete brand identity: 1. Brand essence 2. Logo concept 3. Color palette with hex codes 4. Typography 5. Brand voice.\n\nBrief: {query}",
+        "colors": f"Create a color palette with 5 hex codes and usage notes.\n\nContext: {query}",
+        "mood": f"Describe an aesthetic mood direction: vibe, color story, texture, typography style, references.\n\nContext: {query}",
+        "typography": f"Recommend font pairings with Google Fonts links, header and body.\n\nStyle: {query}",
+        "copy": f"Write brand copy: tagline, value proposition, mission, 3 brand voice adjectives.\n\nBrand: {query}",
+        "logo": f"Create an SVG logo design with shapes, colors, layout. Include SVG code.\n\nLogo for: {query}",
+        "kit": f"Create a complete brand kit as HTML with inline CSS: brand name, logo concept, color swatches, typography, brand voice, sample business card.\n\nBrand: {query}\n\nReturn complete HTML.",
+        "html": f"Create a complete responsive HTML page with embedded CSS. Beautiful and modern.\n\nDesign for: {query}\n\nReturn complete HTML.",
+    }
+    
+    prompt = prompts.get(cmd_type, f"Senior design consultant. Answer concisely: {query}")
+    if prior_text:
+        prompt = f"Prior designs for reference:\n{prior_text}\n\n{prompt}"
+    
+    if agent and hasattr(agent, 'ask_llm'):
+        result = agent.ask_llm(prompt)
+    else:
+        return "Error: No agent context"
+    
+    # Save HTML for kit/html commands
+    if cmd_type in ("kit", "html"):
+        fn = save_html(result, query.replace(" ", "_")[:40])
+        result = f"Saved: {fn}\n\n{result}"
+    
+    remember(command=cmd_type, query=query, result_summary=result[:400],
+             source_type="chronicle", confidence=0.85,
+             metadata={"type": cmd_type})
+    return result
