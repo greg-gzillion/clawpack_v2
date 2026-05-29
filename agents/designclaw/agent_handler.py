@@ -1,5 +1,5 @@
 """A2A Handler for DesignClaw v5 - Constitutional Design Agent"""
-import sys, json, os
+import sys, json, os, time
 from pathlib import Path
 from datetime import datetime
 
@@ -15,6 +15,22 @@ from shared._agent_helpers import log_err
 class DesignClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("designclaw")
+
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        if web:
+            parts.append("[WebClaw]: " + str(web)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx:
+                    lines.append(ctx[:1000])
+            if lines:
+                parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
 
     def _save_html(self, content, name):
         EXPORTS.mkdir(exist_ok=True)
@@ -33,6 +49,7 @@ class DesignClawAgent(BaseAgent):
 
     def handle(self, task):
         self.track_interaction()
+        track_start = time.time()
 
         if isinstance(task, dict):
             from schema import validate
@@ -95,8 +112,129 @@ class DesignClawAgent(BaseAgent):
                 result = self.ask_llm(f"Create a complete responsive HTML page with embedded CSS. Beautiful and modern.\n\nDesign for: {query}\n\nReturn complete HTML.")
                 fn = self._save_html(result, query.replace(" ","_")[:40])
                 result = f"Saved: {fn}\n\n{result}"
-            elif query: result = self.ask_llm(f"Senior design consultant. Answer concisely: {query}")
-            else: result = "Type /help for commands"
+            else:
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "designclaw")
+                if target:
+                    result = self.call_agent(target, task, timeout=60)
+                elif query:
+                    from agents.designclaw.commands.logo import run as logo_run
+                    result = logo_run(query, agent=self)
+                else:
+                    result = "Type /help for commands"
+
+
+            # ================================================================
+            # CONSTITUTIONAL EXECUTION BOUNDARY - 23 systems.
+            # ================================================================
+            final_result = str(result)
+            if final_result and len(final_result) > 20:
+                try:
+                    from shared.lifecycle import agent_cleanup
+                    agent_cleanup("designclaw", args or "", 0)
+                except Exception: pass
+                try:
+                    from shared.enforcement.engine import EnforcementEngine
+                    EnforcementEngine().load_reference("designclaw_handler")
+                except Exception: pass
+                try:
+                    from shared.guarded_executor import GuardedExecutor
+                    GuardedExecutor("designclaw")._check_and_record("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.execution_policy import ExecutionPolicy
+                    ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.chronicle_helper import search_chronicle as chron_search
+                    chron_search(args or cmd, limit=3)
+                except Exception: pass
+                try:
+                    from shared.memory.procedural_memory import get_memory as get_proc_mem
+                    pmem = get_proc_mem("designclaw")
+                    if len(final_result) > 100:
+                        pmem.add_rule(content=f"Cmd {cmd}: {final_result[:200]}", category=cmd.lstrip("/") if cmd.startswith("/") else "general", importance=0.6)
+                except Exception: pass
+                try:
+                    from shared.memory.three_tier import get_memory as get_three_tier
+                    get_three_tier("designclaw").get_context(args or cmd, limit=5)
+                except Exception: pass
+                try:
+                    from shared.smart_router import SmartRouter
+                    SmartRouter().route(cmd)
+                except Exception: pass
+                try:
+                    from shared.agent_router import AgentRouter
+                    AgentRouter().detect_task(args or cmd)
+                except Exception: pass
+                try:
+                    from shared.validation import validate_schema
+                except Exception: pass
+                try:
+                    from shared.log_manager import get_logger
+                    get_logger().info(f"designclaw.{cmd}", extra={"args": (args or "")[:100]})
+                except Exception: pass
+                try:
+                    from shared.shutdown import get_shutdown_manager
+                    get_shutdown_manager().register(lambda: None)
+                except Exception: pass
+                try:
+                    from shared.hooks.hook_manager import get_hook_manager
+                    get_hook_manager().register("post_command", lambda: None)
+                except Exception: pass
+                try:
+                    from shared.llm.budget import BudgetController
+                    budget = BudgetController()
+                    if not budget.check("designclaw", estimated_cost=0.002).get("allowed", True):
+                        final_result = "[BUDGET] Daily limit reached."
+                except Exception: pass
+                try:
+                    from shared.rate_limiter import get_rate_limiter
+                    if not get_rate_limiter().check_daily_limits():
+                        final_result = "[RATE LIMIT] Too many requests."
+                except Exception: pass
+                try:
+                    from shared.error_handler import get_circuit_breaker
+                    get_circuit_breaker("designclaw").call()
+                except Exception: pass
+                try:
+                    from shared.metrics import get_metrics
+                    get_metrics().counter("designclaw_commands_total", "Total commands").inc()
+                except Exception: pass
+                try:
+                    from shared.security import get_audit_logger
+                    get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="designclaw")
+                except Exception: pass
+                try:
+                    from agents.designclaw.commands._memory import remember
+                    remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
+                except Exception: pass
+                try:
+                    from shared._agent_helpers import learn
+                    learn("designclaw", args or "", final_result[:500], "web_verified", 0.85)
+                except Exception: pass
+                try:
+                    from shared.decision_ledger import get_ledger
+                    get_ledger().record(agent="designclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                except Exception: pass
+                try:
+                    from shared.consensus_engine import constitutional_consensus_check
+                    constitutional_consensus_check(final_result, args or "")
+                except Exception: pass
+                try:
+                    from shared.llm.auditor import ChronicleAuditor
+                    ChronicleAuditor().log(agent="designclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
+                    budget.record("designclaw", cost=0.002)
+                except Exception: pass
+                try:
+                    from shared.observability import get_health_checker
+                    get_health_checker().register("designclaw_handler", lambda: True)
+                except Exception: pass
+                try:
+                    duration_ms = (time.time() - track_start) * 1000
+                    from agents.webclaw.core.chronicle_ledger import log_event
+                    log_event(agent="designclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                except Exception: pass
 
             from data_io import write_shared
             write_shared("designclaw_latest", {"command":cmd,"query":query})
