@@ -84,8 +84,25 @@ claw_coder, crustyclaw, dataclaw, designclaw, docuclaw, draftclaw, dreamclaw, fl
 drawclaw, fileclaw, mathematicaclaw — no cross-agent communication at all.
 
 ### Cleanup Completed (May 29, 2026)
-**Deleted (11):** shared/fork/, shared/skills/, shared/search/, shared/batcher.py, shared/latches.py, shared/patch_ask_llm.py, shared/fix_ask_llm.py, shared/commands.py, shared/hooks/runners/, agents/lawclaw/law_search/
-**Moved (4):** docuclaw_api.py -> agents/docuclaw/, anthropic_contract.py -> agents/draftclaw/, edit_tools.py -> agents/drawclaw/, import_scanner.py -> scripts/
+**Deleted (15):**
+shared/fork/, shared/skills/, shared/search/, shared/batcher.py, shared/latches.py,
+shared/patch_ask_llm.py, shared/fix_ask_llm.py, shared/commands.py,
+shared/hooks/runners/, agents/lawclaw/law_search/,
+scripts/append_validator.py
+
+**Moved (4):**
+docuclaw_api.py -> agents/docuclaw/, anthropic_contract.py -> agents/draftclaw/,
+edit_tools.py -> agents/drawclaw/, import_scanner.py -> scripts/
+
+**Fixed:**
+shared/registry.py — 5 syntax errors repaired (missing commas, stray comma, unclosed dict, duplicate return).
+Broken docuclaw delegation path fixed (stale import + wrong function signature).
+Now imports cleanly with 16 agents registered via AGENT_REGISTRY.
+
+**Still Broken (known):**
+shared/registry.py has 5 agents missing from AGENT_REGISTRY (crustyclaw, designclaw,
+liberateclaw, rustypycraw, dreamclaw). Their entries were in unreachable dead code
+after the dict closing brace. Need to be merged into the main AGENT_REGISTRY dict.
 
 ---
 
@@ -107,6 +124,13 @@ Adds age warnings to facts retrieved from UnifiedMemory.
 ### 5. 23-System Constitutional Boundary
 LawClaw handler boundary activates all 38 shared modules. First agent at 100% utilization.
 
+### 6. PlotClaw Inter-Agent Fixes
+All 13 chart commands fixed for cross-agent calling:
+- Schema imports changed from relative (`from schema import`) to absolute (`from agents.plotclaw.schema import`)
+- Smart title/axis label extraction from natural language input
+- Value parsing handles $, K, M, %, comma formats
+- Pie chart, bar chart, plot, scatter all confirmed working from lawclaw
+
 ---
 
 ## Constitutional Violations (Fix Before Building New Features)
@@ -125,6 +149,9 @@ drawclaw, fileclaw, mathematicaclaw. Add call_agent() routes.
 
 ### VIOLATION 5: Only LawClaw Uses Shared Memory (Article VI) — HIGH
 All 20 non-compliant agent handlers need the 23-system boundary block and _memory.py bridge.
+
+### VIOLATION 6: Registry Missing 5 Agents (Article II) — HIGH
+shared/registry.py AGENT_REGISTRY is missing crustyclaw, designclaw, liberateclaw, rustypycraw, dreamclaw. Their entries exist in the file but outside the dict closing brace (unreachable dead code). Merge them into the main dict.
 
 ---
 
@@ -183,8 +210,9 @@ Key insight: Claude Code is monolithic. Clawpack is distributed. Patterns transf
 2. DONE shared/lifecycle.py
 3. DONE shared/memory_guard.py — staleness
 4. DONE LawClaw handler — capability routing + 23-system boundary + telemetry + /translate
-5. Deploy capability routing to remaining 20 agents
-6. Wire lifecycle into a2a_server.py
+5. DONE shared/registry.py — fixed syntax errors, docuclaw delegation path
+6. Deploy capability routing to remaining 20 agents
+7. Wire lifecycle into a2a_server.py
 
 ### Phase 2: Constitutional Completion (Tier 1)
 1. Wire enforcement/engine.py into a2a_server.py (Article XI)
@@ -208,6 +236,7 @@ Key insight: Claude Code is monolithic. Clawpack is distributed. Patterns transf
 1. Deploy capability routing + handler boundary to all 20 agents
 2. Create _memory.py bridge for each agent
 3. Fix isolated agents
+4. Merge 5 missing agents into registry AGENT_REGISTRY dict
 
 ### Phase 7: Boundary Citation Enforcement
 Add constitutional postcondition: verify DocuClaw validation block, verify source URLs, warn on incomplete provenance.
@@ -236,6 +265,7 @@ When building or modifying any agent:
 |------|---------|--------|
 | a2a_server.py | Central message bus, port 8766 | Needs lifecycle + enforcement wiring |
 | shared/capabilities.py | Universal command routing | Deploy to all 20 agents |
+| shared/registry.py | Agent registration + delegation | Fixed — 16 agents, needs 5 added |
 | shared/lifecycle.py | Agent cleanup supervisor | Wire into a2a_server.py |
 | shared/memory_guard.py | Confidence + staleness enforcement | Active |
 | shared/base_agent.py | Foundation class for all agents | Active |
@@ -263,9 +293,18 @@ When building or modifying any agent:
 2026-05-28: All 21 agents wired with shared/_agent_helpers.py. 23 commands memory-wired.
 Constitutional Command Lifecycle section added. First cross-agent flow proven.
 
-2026-05-29: Constitutional execution boundary activated. Consensus engine deployed.
+2026-05-29 (morning): Constitutional execution boundary activated. Consensus engine deployed.
 /correct command for self-healing. Court rules extractor built. /doc generates jurisdiction-specific
 documents. Source registry fixed (.gov 0.92, .us courts 0.85). Truth resolver patched.
+
+2026-05-29 (afternoon): Inter-agent mesh testing. PlotClaw schema imports fixed across all 13 chart
+commands (from schema -> from agents.plotclaw.schema). Smart title/axis label extraction added.
+Value parsing handles $, K, M, %, comma formats. Pie, bar, plot, scatter commands confirmed
+working from lawclaw. Capability registry routing verified (/bar, /pie, /plot all route to plotclaw).
+Registry syntax errors discovered and fixed — 5 bugs including missing commas, stray comma,
+unclosed dict, duplicate return statement. Docuclaw delegation path repaired (stale import
+from shared.docuclaw_api changed to agents.docuclaw.docuclaw_api, function signature
+corrected from create_for_agent to create_document).
 
 **Infrastructure deployed:**
 - Capability registry (shared/capabilities.py) — universal command routing
@@ -276,12 +315,16 @@ documents. Source registry fixed (.gov 0.92, .us courts 0.85). Truth resolver pa
 - Translation pipeline: lawclaw -> interpretclaw (translate) -> docuclaw (re-format) -> lawclaw
 - _last_document storage for cross-command document reference
 - All generated documents export to clawpack_v2/exports/
+- PlotClaw inter-agent chart generation from any agent
+- Agent Registry (shared/registry.py) — 16 agents registered, delegation layer active
 
 **Cleanup completed:**
-- 11 dead files/folders deleted from shared/
+- 15 dead files/folders deleted (fork/, skills/, search/, batcher.py, latches.py,
+  patch_ask_llm.py, fix_ask_llm.py, commands.py, hooks/runners/, law_search/,
+  append_validator.py)
 - 4 misplaced files moved to correct agent directories
-- 2 legacy law_search files removed
-- Hook runners deleted, types preserved
+- shared/registry.py repaired (was silently broken since creation)
+- shared/commands.py deleted (dead code, no imports)
 
 **Architecture analysis:**
 - Claude Code 18-chapter reference analyzed
@@ -293,6 +336,14 @@ documents. Source registry fixed (.gov 0.92, .us courts 0.85). Truth resolver pa
 - /doc is constitutional — domain enrichment before delegation, not document generation
 - Capability registry preserves Article II — agents recognize foreign capabilities and delegate
 - /translate is constitutional — legal domain enrichment (term preservation) before delegation
+
+**Known gaps:**
+- 5 agents missing from AGENT_REGISTRY (crustyclaw, designclaw, liberateclaw, rustypycraw, dreamclaw)
+- 20 agents lack capability routing + handler boundary + shared memory
+- 3 agents isolated (drawclaw, fileclaw, mathematicaclaw)
+- Enforcement engine dormant (Article XI)
+- Guarded executor not wired (Article IV)
+- llmclaw bypasses Sovereign Gateway (Article I)
 
 **Current utilization:** LawClaw at 100% of shared infrastructure (38/38 files).
 **Total commands:** 25. **Constitutional runtime:** ACTIVE.

@@ -6,8 +6,8 @@
 2. Replace AGENT_NAME with your agent's name (e.g., "mediclaw", "plotclaw")
 3. Add your domain-specific command routes in the COMMAND ROUTING section
 4. Register your agent in shared/capabilities.py for any capabilities you own
-5. Create gents/AGENT_NAME/commands/_memory.py (copy lawclaw's, change agent name)
-6. Create gents/AGENT_NAME/commands/_helpers.py (copy lawclaw's, adapt for your domain)
+5. Create agents/AGENT_NAME/commands/_memory.py (copy lawclaw's, change agent name)
+6. Create agents/AGENT_NAME/commands/_helpers.py (copy lawclaw's, adapt for your domain)
 7. Deploy and verify with the constitutional compliance audit scan
 
 ## Constitutional Requirements
@@ -22,7 +22,7 @@ Every agent MUST have:
 
 ## Handler Skeleton
 
-\\\python
+```python
 """A2A Handler for AGENT_NAME — Constitutional Agent"""
 import sys
 import json
@@ -67,21 +67,21 @@ class AgentNameHandler(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
 
         try:
-            # ═══════════════════════════════════════════════════════════
+            # ============================================================
             # COMMAND ROUTING — add your domain-specific commands here
-            # ═══════════════════════════════════════════════════════════
+            # ============================================================
             if cmd in ("/help", "help"):
                 result = "AGENT_NAME — list your commands here"
             elif cmd == "/stats":
                 result = f"AGENT_NAME | Interactions: {self.state.get('interactions', 0)}"
-            
+
             # ADD YOUR COMMANDS HERE:
             # elif cmd == "/yourcommand" and args:
             #     from agents.AGENT_NAME.commands.yourcommand import run as cmd_run
             #     result = cmd_run(args)
-            
+
             else:
-                # ── Constitutional capability routing ──────────────────
+                # -- Constitutional capability routing --
                 from shared.capabilities import get_capable_agent
                 target = get_capable_agent(cmd, "AGENT_NAME")
                 if target:
@@ -92,10 +92,10 @@ class AgentNameHandler(BaseAgent):
                 else:
                     result = "Type /help for commands"
 
-            # ═══════════════════════════════════════════════════════════
+            # ============================================================
             # CONSTITUTIONAL EXECUTION BOUNDARY — 23 systems.
             # Do not modify. This enforces constitutional compliance.
-            # ═══════════════════════════════════════════════════════════
+            # ============================================================
             final_result = str(result)
             if final_result and len(final_result) > 20:
                 try:
@@ -214,295 +214,20 @@ _agent = AgentNameHandler()
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)
-\\\
-
-## Verification Checklist
-
+Verification Checklist
 After deploying, run the constitutional compliance audit:
-\\\powershell
+
+powershell
 Get-ChildItem "agents" -Directory | ForEach-Object {
-    webclaw = .Name
-    C:\Users\greg\dev\clawpack_v2\agents\webclaw\agent_handler.py = Join-Path .FullName "agent_handler.py"
-    if (Test-Path C:\Users\greg\dev\clawpack_v2\agents\webclaw\agent_handler.py) {
-        """A2A Handler for WebClaw - AI-Powered Search & Fetch"""
-import sys
-from pathlib import Path
-from typing import Optional
-
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-sys.path.insert(0, str(Path(__file__).parent))
-
-from webclaw import Webclaw
-from agents.webclaw.providers.webclaw_provider import WebclawProvider
-from shared.base_agent import BaseAgent
-from shared._agent_helpers import log_err
-
-webclaw = Webclaw()
-provider = WebclawProvider()
-
-
-class WebClawAgent(BaseAgent):
-    def __init__(self):
-        super().__init__("webclaw")
-
-    def handle(self, task):
-        self.track_interaction()
-        task = task.strip()
-
-        if task.startswith("fetch ") or task.startswith("http"):
-            url = task.replace("fetch ", "", 1).strip() if task.startswith("fetch ") else task
-            try:
-                result = webclaw.fetch_with_citation(url)
-                if result.get("success"):
-                    return {
-                        "status": "success",
-                        "result": result["citation"] + "\n\n" + result["content"]
-                    }
-                return {
-                    "status": "error",
-                    "result": result.get("error", "fetch failed")
-                }
-            except Exception as e:
-                log_err("webclaw", "fetch_error", str(e)[:200])
-                return {"status": "error", "result": str(e)}
-
-        if task.startswith("search "):
-            query = task[7:].strip()
-        else:
-            query = task
-
-        try:
-            result = provider.search_with_context(query)
-
-            try:
-                from agents.webclaw.core.chronicle_ledger import get_chronicle
-                chronicle = get_chronicle()
-                chronicle_results = chronicle.recover_by_context(query, limit=2000000)
-                if chronicle_results:
-                    result += "\n\n=== Web Results ==="
-                    for c in chronicle_results[:3]:
-                        url = c.url if hasattr(c, "url") else str(c)
-                        try:
-                            cited = webclaw.fetch_with_citation(url)
-                            if cited.get("success"):
-                                result += "\n\n" + cited["citation"] + "\n"
-                                result += cited["content"][:1000]
-                        except Exception:
-                            pass
-            except Exception as e:
-                result += "\n\n(chronicle: " + str(e) + ")"
-
-            try:
-                prompt = (
-                    "Analyze these search results and provide the most "
-                    "relevant information for: " + query + "\n\nResults:\n" +
-                    result[:3000]
-                )
-                analysis = self.ask_llm(prompt)
-                if analysis:
-                    result = "## AI Analysis\n" + analysis + "\n\n## Raw Results\n" + result
-                    self.learn("search:" + query, result[:1000])
-            except Exception as e:
-                result += "\n\n(AI analysis: " + str(e) + ")"
-
-            return {"status": "success", "result": result}
-        except Exception as e:
-            log_err("webclaw", "search_error", str(e)[:200])
-            return {"status": "error", "result": str(e)}
-
-
-_agent = WebClawAgent()
-
-
-def process_task(task: str, agent: Optional[str] = None):
-    return _agent.handle(task) = Get-Content C:\Users\greg\dev\clawpack_v2\agents\webclaw\agent_handler.py -Raw
-        False = """A2A Handler for WebClaw - AI-Powered Search & Fetch"""
-import sys
-from pathlib import Path
-from typing import Optional
-
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-sys.path.insert(0, str(Path(__file__).parent))
-
-from webclaw import Webclaw
-from agents.webclaw.providers.webclaw_provider import WebclawProvider
-from shared.base_agent import BaseAgent
-from shared._agent_helpers import log_err
-
-webclaw = Webclaw()
-provider = WebclawProvider()
-
-
-class WebClawAgent(BaseAgent):
-    def __init__(self):
-        super().__init__("webclaw")
-
-    def handle(self, task):
-        self.track_interaction()
-        task = task.strip()
-
-        if task.startswith("fetch ") or task.startswith("http"):
-            url = task.replace("fetch ", "", 1).strip() if task.startswith("fetch ") else task
-            try:
-                result = webclaw.fetch_with_citation(url)
-                if result.get("success"):
-                    return {
-                        "status": "success",
-                        "result": result["citation"] + "\n\n" + result["content"]
-                    }
-                return {
-                    "status": "error",
-                    "result": result.get("error", "fetch failed")
-                }
-            except Exception as e:
-                log_err("webclaw", "fetch_error", str(e)[:200])
-                return {"status": "error", "result": str(e)}
-
-        if task.startswith("search "):
-            query = task[7:].strip()
-        else:
-            query = task
-
-        try:
-            result = provider.search_with_context(query)
-
-            try:
-                from agents.webclaw.core.chronicle_ledger import get_chronicle
-                chronicle = get_chronicle()
-                chronicle_results = chronicle.recover_by_context(query, limit=2000000)
-                if chronicle_results:
-                    result += "\n\n=== Web Results ==="
-                    for c in chronicle_results[:3]:
-                        url = c.url if hasattr(c, "url") else str(c)
-                        try:
-                            cited = webclaw.fetch_with_citation(url)
-                            if cited.get("success"):
-                                result += "\n\n" + cited["citation"] + "\n"
-                                result += cited["content"][:1000]
-                        except Exception:
-                            pass
-            except Exception as e:
-                result += "\n\n(chronicle: " + str(e) + ")"
-
-            try:
-                prompt = (
-                    "Analyze these search results and provide the most "
-                    "relevant information for: " + query + "\n\nResults:\n" +
-                    result[:3000]
-                )
-                analysis = self.ask_llm(prompt)
-                if analysis:
-                    result = "## AI Analysis\n" + analysis + "\n\n## Raw Results\n" + result
-                    self.learn("search:" + query, result[:1000])
-            except Exception as e:
-                result += "\n\n(AI analysis: " + str(e) + ")"
-
-            return {"status": "success", "result": result}
-        except Exception as e:
-            log_err("webclaw", "search_error", str(e)[:200])
-            return {"status": "error", "result": str(e)}
-
-
-_agent = WebClawAgent()
-
-
-def process_task(task: str, agent: Optional[str] = None):
-    return _agent.handle(task) -match 'capabilities|get_capable_agent'
-        False = """A2A Handler for WebClaw - AI-Powered Search & Fetch"""
-import sys
-from pathlib import Path
-from typing import Optional
-
-sys.path.insert(0, str(Path(__file__).parent.parent.parent))
-sys.path.insert(0, str(Path(__file__).parent))
-
-from webclaw import Webclaw
-from agents.webclaw.providers.webclaw_provider import WebclawProvider
-from shared.base_agent import BaseAgent
-from shared._agent_helpers import log_err
-
-webclaw = Webclaw()
-provider = WebclawProvider()
-
-
-class WebClawAgent(BaseAgent):
-    def __init__(self):
-        super().__init__("webclaw")
-
-    def handle(self, task):
-        self.track_interaction()
-        task = task.strip()
-
-        if task.startswith("fetch ") or task.startswith("http"):
-            url = task.replace("fetch ", "", 1).strip() if task.startswith("fetch ") else task
-            try:
-                result = webclaw.fetch_with_citation(url)
-                if result.get("success"):
-                    return {
-                        "status": "success",
-                        "result": result["citation"] + "\n\n" + result["content"]
-                    }
-                return {
-                    "status": "error",
-                    "result": result.get("error", "fetch failed")
-                }
-            except Exception as e:
-                log_err("webclaw", "fetch_error", str(e)[:200])
-                return {"status": "error", "result": str(e)}
-
-        if task.startswith("search "):
-            query = task[7:].strip()
-        else:
-            query = task
-
-        try:
-            result = provider.search_with_context(query)
-
-            try:
-                from agents.webclaw.core.chronicle_ledger import get_chronicle
-                chronicle = get_chronicle()
-                chronicle_results = chronicle.recover_by_context(query, limit=2000000)
-                if chronicle_results:
-                    result += "\n\n=== Web Results ==="
-                    for c in chronicle_results[:3]:
-                        url = c.url if hasattr(c, "url") else str(c)
-                        try:
-                            cited = webclaw.fetch_with_citation(url)
-                            if cited.get("success"):
-                                result += "\n\n" + cited["citation"] + "\n"
-                                result += cited["content"][:1000]
-                        except Exception:
-                            pass
-            except Exception as e:
-                result += "\n\n(chronicle: " + str(e) + ")"
-
-            try:
-                prompt = (
-                    "Analyze these search results and provide the most "
-                    "relevant information for: " + query + "\n\nResults:\n" +
-                    result[:3000]
-                )
-                analysis = self.ask_llm(prompt)
-                if analysis:
-                    result = "## AI Analysis\n" + analysis + "\n\n## Raw Results\n" + result
-                    self.learn("search:" + query, result[:1000])
-            except Exception as e:
-                result += "\n\n(AI analysis: " + str(e) + ")"
-
-            return {"status": "success", "result": result}
-        except Exception as e:
-            log_err("webclaw", "search_error", str(e)[:200])
-            return {"status": "error", "result": str(e)}
-
-
-_agent = WebClawAgent()
-
-
-def process_task(task: str, agent: Optional[str] = None):
-    return _agent.handle(task) -match '/delegate.*and args|call_agent'
-        Write-Host "webclaw | capability_route: False | delegate_route: False"
+    $name = $_.Name
+    $handler = Join-Path $_.FullName "agent_handler.py"
+    if (Test-Path $handler) {
+        $content = Get-Content $handler -Raw
+        $hasCapRoute = if ($content -match 'get_capable_agent') { "YES" } else { "NO" }
+        $hasDelegate = if ($content -match '/delegate.*and args|call_agent') { "YES" } else { "NO" }
+        $hasBoundary = if ($content -match 'shared\.lifecycle|shared\.enforcement|shared\.guarded_executor') { "YES" } else { "NO" }
+        $hasMemory = if ($content -match 'unified_memory|_memory|remember|recall_prior') { "YES" } else { "NO" }
+        Write-Host "$name | cap_route: $hasCapRoute | delegate: $hasDelegate | boundary: $hasBoundary | memory: $hasMemory"
     }
 }
-\\\
-
-Both should show True for a constitutional agent.
+All four columns should show YES for a constitutional agent.
