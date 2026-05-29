@@ -234,6 +234,32 @@
       },
       "previous_hash": "4cd41a6c4b972497",
       "hash": "790575591de4c558"
+    },
+    {
+      "timestamp": "2026-05-29T19:11:25.642208+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/doc"
+      },
+      "previous_hash": "790575591de4c558",
+      "hash": "c2e42241c0150038"
+    },
+    {
+      "timestamp": "2026-05-29T19:12:13.286227+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "c2e42241c0150038",
+      "hash": "96a57f3424982cd1"
     }
   ],
   "version": "v1.0"

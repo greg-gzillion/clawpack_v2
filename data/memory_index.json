@@ -1448,6 +1448,46 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T18:54:00.971049+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Denver, CO",
+      "fact": "Exported: export_20260529_131125.md (7.2KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T19:11:25.691419+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Denver, CO",
+      "fact": "Exported: export_20260529_131125.md (7.2KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in accordance with Section 6)\n\n---\n\n## 3. SCOPE OF SERVICES\n\nABC Consulting LLC agrees to provide informa",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T19:11:25.705452+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "the contract to Japanese",
+      "fact": "Exported: export_20260529_131213.md (8.3KB)\n\n# Professional Legal Document: Service Agreement (Japanese Translation)\n\n## Document Overview\n\nBelow is a professionally formatted **Service Agreement** between ABC Consulting LLC and XYZ Corp, presented in Japanese with proper legal structure and formatting.\n\n---\n\n# \u30b5\u30fc\u30d3\u30b9\u5951\u7d04\u66f8\n\n## ABC Consulting LLC \u3068 XYZ Corp \u9593\u306eIT \u30b5\u30fc\u30d3\u30b9\u5951\u7d04\n\n**\u5951\u7d04\u65e5:** 2026\u5e745\u670815\u65e5\n\n---\n\n## \u7b2c1\u6761",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T19:12:13.318136+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "the contract to Japanese",
+      "fact": "Exported: export_20260529_131213.md (8.3KB)\n\n# Professional Legal Document: Service Agreement (Japanese Translation)\n\n## Document Overview\n\nBelow is a professionally formatted **Service Agreement** between ABC Consulting LLC and XYZ Corp, presented in Japanese with proper legal structure and formatting.\n\n---\n\n# \u30b5\u30fc\u30d3\u30b9\u5951\u7d04\u66f8\n\n## ABC Consulting LLC \u3068 XYZ Corp \u9593\u306eIT \u30b5\u30fc\u30d3\u30b9\u5951\u7d04\n\n**\u5951\u7d04\u65e5:** 2026\u5e745\u670815\u65e5\n\n---\n\n## \u7b2c1\u6761 \u5f53\u4e8b\u8005\n\n\u672c\u5951\u7d04\u306f\u4ee5\u4e0b\u306e\u5f53\u4e8b\u8005\u9593\u3067\u7de0\u7d50\u3055\u308c\u308b\u3082\u306e\u3068\u3057\u307e\u3059\uff1a\n\n**\u30b5\u30fc\u30d3\u30b9\u63d0\u4f9b\u8005\uff08\u7532\uff09:** ABC Consulting LLC  \n\u6240\u5728\u5730\uff1a[\u4f4f\u6240\u8a18\u8f09]\n\n**\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\uff08\u4e59\uff09:** XYZ ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T19:12:13.331836+00:00"
     }
   ],
   "index": {
@@ -1890,7 +1930,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "case:": [
       78,
@@ -2080,7 +2122,9 @@
       129,
       130,
       135,
-      136
+      136,
+      139,
+      140
     ],
     "binding": [
       113,
@@ -2100,7 +2144,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "agreement": [
       115,
@@ -2114,7 +2160,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "between": [
       115,
@@ -2128,7 +2176,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "consulting": [
       115,
@@ -2140,7 +2190,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "services": [
       115,
@@ -2154,7 +2206,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "effective": [
       115,
@@ -2168,7 +2222,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "date": [
       115,
@@ -2182,7 +2238,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "june": [
       115,
@@ -2194,7 +2252,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "2026": [
       115,
@@ -2208,7 +2268,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "term": [
       115,
@@ -2222,7 +2284,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "months": [
       115,
@@ -2236,7 +2300,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "payment": [
       115,
@@ -2250,7 +2316,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "$150": [
       115,
@@ -2262,7 +2330,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "hour": [
       115,
@@ -2276,7 +2346,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "days": [
       115,
@@ -2290,7 +2362,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "governing": [
       115,
@@ -2304,7 +2378,9 @@
       131,
       132,
       133,
-      134
+      134,
+      137,
+      138
     ],
     "delaware": [
       115,
@@ -2385,7 +2461,15 @@
     "colorado": [
       123,
       124
+    ],
+    "denver,": [
+      137,
+      138
+    ],
+    "japanese": [
+      139,
+      140
     ]
   },
-  "updated_at": "2026-05-29T18:54:00.971049+00:00"
+  "updated_at": "2026-05-29T19:12:13.331836+00:00"
 }

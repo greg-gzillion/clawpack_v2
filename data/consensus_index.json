@@ -2644,7 +2644,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T17:43:18.103517+00:00",
-      "last_updated": "2026-05-29T18:53:22.500280+00:00"
+      "last_updated": "2026-05-29T19:11:25.739529+00:00"
     },
     "7b8cb68dedc08abf": {
       "fact_id": "7b8cb68dedc08abf",
@@ -2662,7 +2662,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T17:43:18.119032+00:00",
-      "last_updated": "2026-05-29T18:53:22.519863+00:00"
+      "last_updated": "2026-05-29T19:11:25.760040+00:00"
     },
     "a14455554a0683a0": {
       "fact_id": "a14455554a0683a0",
@@ -2680,7 +2680,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T17:43:18.138074+00:00",
-      "last_updated": "2026-05-29T18:53:22.540427+00:00"
+      "last_updated": "2026-05-29T19:11:25.778902+00:00"
     },
     "a52095dc02cd649a": {
       "fact_id": "a52095dc02cd649a",
@@ -2698,7 +2698,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-29T17:43:18.155784+00:00",
-      "last_updated": "2026-05-29T18:53:22.555738+00:00"
+      "last_updated": "2026-05-29T19:11:25.793935+00:00"
     },
     "ffc9f536d7bc3930": {
       "fact_id": "ffc9f536d7bc3930",
@@ -3149,6 +3149,222 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-29T18:54:01.002135+00:00",
       "last_updated": "2026-05-29T18:54:01.002135+00:00"
+    },
+    "f045dc88d56bf2ab": {
+      "fact_id": "f045dc88d56bf2ab",
+      "fact_value": "query:service agreement between ABC Consulting LLC and XYZ Corp for IT services - effective date June 1 2026 - term 12 months - payment $150 per hour net 30 days - governing law Denver, CO",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:11:25.720962+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:11:25.720962+00:00",
+      "last_updated": "2026-05-29T19:11:25.720962+00:00"
+    },
+    "7ce1504136923906": {
+      "fact_id": "7ce1504136923906",
+      "fact_value": "source_url:https://sos.colorado.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://sos.colorado.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:11:25.808444+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:11:25.807444+00:00",
+      "last_updated": "2026-05-29T19:11:25.808444+00:00"
+    },
+    "ec3b642c8f4ed98f": {
+      "fact_id": "ec3b642c8f4ed98f",
+      "fact_value": "source_url:https://leg.colorado.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://leg.colorado.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:11:25.822458+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:11:25.822458+00:00",
+      "last_updated": "2026-05-29T19:11:25.822458+00:00"
+    },
+    "74f0c6c2861cafb5": {
+      "fact_id": "74f0c6c2861cafb5",
+      "fact_value": "source_url:https://www.courts.state.co.us",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.co.us",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:11:25.838768+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:11:25.838768+00:00",
+      "last_updated": "2026-05-29T19:11:25.838768+00:00"
+    },
+    "f530b2557acad918": {
+      "fact_id": "f530b2557acad918",
+      "fact_value": "source_url:https://www.denvergov.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denvergov.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:11:25.856805+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:11:25.855792+00:00",
+      "last_updated": "2026-05-29T19:11:25.856805+00:00"
+    },
+    "d753918187ffe4fe": {
+      "fact_id": "d753918187ffe4fe",
+      "fact_value": "source_url:https://www.cobar.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cobar.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:11:25.876418+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:11:25.876418+00:00",
+      "last_updated": "2026-05-29T19:11:25.876418+00:00"
+    },
+    "f279473fbbafa354": {
+      "fact_id": "f279473fbbafa354",
+      "fact_value": "query:the contract to Japanese",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:12:13.347051+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:12:13.347051+00:00",
+      "last_updated": "2026-05-29T19:12:13.347051+00:00"
+    },
+    "c8ac03c955a5fa38": {
+      "fact_id": "c8ac03c955a5fa38",
+      "fact_value": "concept:Service Agreement",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T19:12:13.364071+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:12:13.364071+00:00",
+      "last_updated": "2026-05-29T19:12:13.364071+00:00"
+    },
+    "58cde334aa190004": {
+      "fact_id": "58cde334aa190004",
+      "fact_value": "concept:\u30b5\u30fc\u30d3\u30b9\u63d0\u4f9b\u8005\uff08\u7532\uff09:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T19:12:13.382047+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T19:12:13.382047+00:00",
+      "last_updated": "2026-05-29T19:12:13.382047+00:00"
+    },
+    "845b92085ae9f64b": {
+      "fact_id": "845b92085ae9f64b",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/limited_liability_company",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/limited_liability_company",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:12:13.402171+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.6625,
+      "first_seen": "2026-05-29T19:12:13.402171+00:00",
+      "last_updated": "2026-05-29T19:12:13.457667+00:00"
+    },
+    "502a352235d3bb0c": {
+      "fact_id": "502a352235d3bb0c",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/corporation",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/corporation",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:12:13.424128+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T19:12:13.424128+00:00",
+      "last_updated": "2026-05-29T19:12:13.424128+00:00"
+    },
+    "77b779b0b2486987": {
+      "fact_id": "77b779b0b2486987",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/limited_liabi...",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/limited_liabi...",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T19:12:13.478694+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T19:12:13.478694+00:00",
+      "last_updated": "2026-05-29T19:12:13.478694+00:00"
     }
   },
   "corrections": [
@@ -3169,5 +3385,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T18:54:01.036595+00:00"
+  "updated_at": "2026-05-29T19:12:13.479694+00:00"
 }
