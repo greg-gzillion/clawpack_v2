@@ -180,60 +180,24 @@ class ClawCoderAgent(BaseAgent):
 
             # Code generation (all LLM-powered commands)
             if cmd in ("/code",) and query:
-                lang = _detect_lang(query)
-                version = LANG_VERSION.get(lang, "latest")
-                refs = self._read_reference_file(lang, query)
-                project_ctx = ""
-                if "--scan" in query:
-                    query = query.replace("--scan","").strip()
-                    scanner = ProjectScanner(PROJECT_ROOT)
-                    project_ctx = scanner.full_context(query, lang)
-                rust_audit = ""
-                if lang=="rust":
-                    try:
-                        rust_audit = self.call_agent("crustyclaw", f"/audit {query}", timeout=10) or ""
-                    except Exception:
-                        pass
-
-                prompt = f"Write clean {lang} {version} code. Return only the code with brief comments.\n\nTask: {query}"
-                if refs: prompt = f"Reference material for {lang}:\n{refs[:3000]}\n\n{prompt}"
-                if rust_audit: prompt += f"\n\nRust best practices:\n{rust_audit[:1000]}"
-
-                result = self.ask_llm(prompt)
-                code = self._extract_code(result)
-                name = query.replace(" ","_").replace("\\","").replace("/","")[:50]
-                ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-                ext = LANG_EXT.get(lang, ".txt")
-                fn = name + "_" + ts + ext
-                filepath = EXPORTS / fn
-                EXPORTS.mkdir(exist_ok=True)
-                filepath.write_text(code, encoding="utf-8")
-                passed, validation = self._validate_code(filepath, lang)
-                if passed: result = f"Saved: {fn} | Validated: {validation}\n\n{result}"
-                elif validation: result = f"Saved: {fn} | Validation: {validation}\n\n{result}"
-                else: result = f"Saved: {fn} | Could not validate\n\n{result}"
+                from agents.claw_coder.commands.code import run as code_run
+                result = code_run(query, agent=self)
 
             elif cmd in ("/explain",) and query:
-                lang = _detect_lang(query)
-                refs = self._read_reference_file(lang, query)
-                prompt = f"Explain this clearly with code examples: {query}"
-                if refs: prompt = f"Reference:\n{refs[:2000]}\n\n{prompt}"
-                result = self.ask_llm(prompt)
+                from agents.claw_coder.commands.explain import run as explain_run
+                result = explain_run(query, agent=self)
 
             elif cmd in ("/debug",) and query:
-                lang = _detect_lang(query)
-                refs = self._read_reference_file(lang, query)
-                prompt = f"Debug and fix this code. Show corrected version with explanations: {query}"
-                if refs: prompt = f"Reference:\n{refs[:2000]}\n\n{prompt}"
-                result = self.ask_llm(prompt)
+                from agents.claw_coder.commands.debug import run as debug_run
+                result = debug_run(query, agent=self)
 
             elif cmd in ("/review",) and query:
-                result = self.ask_llm_smart(f"Do a thorough code review: {query}", task_type="verification")
+                from agents.claw_coder.commands.review import run as review_run
+                result = review_run(query, agent=self)
 
             elif cmd in ("/tutorial",) and query:
-                lang = _detect_lang(query)
-                version = LANG_VERSION.get(lang, "latest")
-                result = self.ask_llm_smart(f"Create a beginner-friendly {lang} {version} tutorial: {query}", task_type="summarization")
+                from agents.claw_coder.commands.tutorial import run as tutorial_run
+                result = tutorial_run(query, agent=self)
 
             elif cmd in ("/run","run") and query:
                 if _run_mod: result = _run_mod.run(query)

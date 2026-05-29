@@ -1,17 +1,33 @@
-﻿"""review command - Review code via LLMClaw"""
-import requests
+﻿"""review command - Constitutional code review with memory"""
+import sys
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 name = "review"
-A2A = "http://127.0.0.1:8766"
 
-def run(code: str) -> str:
-    if not code:
-        return "Usage: review <code>"
-    prompt = f"Review this code for quality, bugs, and improvements: {code}"
-    try:
-        response = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}"}, timeout=60)
-        if response.status_code == 200:
-            data = response.json()
-            return data.get("result", "") if data.get("status") == "success" else data.get("result", "Error")
-        return f"A2A Error: {response.status_code}"
-    except Exception as e:
-        return f"Error: {str(e)}"
+def run(args: str, agent=None) -> str:
+    from agents.claw_coder.commands._memory import recall, remember
+    
+    query = args.strip()
+    if not query:
+        return "Usage: /review <code to review>"
+    
+    prior = recall(f"review {query}", limit=2)
+    prior_text = ""
+    if prior:
+        prior_text = "\n".join(f"Prior review: {p.get('fact','')[:200]}" for p in prior)
+    
+    prompt = f"Do a thorough code review. Check for bugs, security issues, performance problems, and style: {query}"
+    if prior_text:
+        prompt = f"Prior reviews:\n{prior_text}\n\n{prompt}"
+    
+    if agent and hasattr(agent, 'ask_llm_smart'):
+        result = agent.ask_llm_smart(prompt, task_type="verification")
+    elif agent and hasattr(agent, 'ask_llm'):
+        result = agent.ask_llm(prompt)
+    else:
+        return "Error: No agent context"
+    
+    remember(command="review", query=query, result_summary=result[:400],
+             source_type="chronicle", confidence=0.85)
+    return result
