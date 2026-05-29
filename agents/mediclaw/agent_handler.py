@@ -1,5 +1,5 @@
 ﻿"""A2A Handler for MedicLaw - Medical Agent with A2A routing + chronicle engine"""
-import sys, time
+import sys, time, json
 from pathlib import Path
 
 MEDICLAW_DIR = Path(__file__).resolve().parent
@@ -38,6 +38,16 @@ class MedicLawHandler(BaseAgent):
         try:
             if cmd in ("/help", "help"):
                 result = """MedicLaw - Medical AI Agent
+  CONSTITUTIONAL RUNTIME: 23-system boundary active.
+  All commands memory-wired. Cross-agent delegation enabled.
+
+  CROSS-AGENT:
+  /delegate <agent> <task>  Send task to any agent
+  /translate <text> <lang>  Medical translation with term preservation
+  /shared read [key]        Read shared memory
+  /shared write key:value   Write to shared memory
+
+  MEDICAL COMMANDS:
   /research <topic> /diagnose <symptoms> /treatment <condition>
   /medications <drug> /interactions <drugs> /warnings <drug>
   /pediatrics <issue> /geriatrics <issue> /lab <test> /icd <diagnosis>
@@ -91,6 +101,40 @@ class MedicLawHandler(BaseAgent):
             elif cmd == "/emergency" and args:
                 from agents.mediclaw.commands.emergency import run as emergency_run
                 result = emergency_run(args, agent=self)
+            elif cmd in ("/delegate",) and args:
+                parts2 = args.split(maxsplit=1); target = parts2[0]
+                task_text = parts2[1] if len(parts2) > 1 else ""
+                known = ["plotclaw","flowclaw","claw_coder","crustyclaw","dataclaw","interpretclaw","docuclaw","webclaw","lawclaw","mathematicaclaw","langclaw","fileclaw","txclaw","liberateclaw","designclaw"]
+                if target in known:
+                    result = self.call_agent(target, task_text)
+                    result = str(result) if result else f"Agent {target} returned no response"
+                else: result = f"Unknown: {target}"
+            elif cmd in ("/translate",) and args:
+                # Chain: mediclaw preserves medical terms -> interpretclaw translates -> docuclaw formats
+                target_lang = args.split()[-1] if args.split() else "Spanish"
+                instructions = """TRANSLATION REQUIREMENTS - PRESERVE EXACTLY:
+1. ALL medical terminology (diagnosis names, anatomical terms, procedure names) - DO NOT TRANSLATE
+2. ALL medication names (generic and brand) - DO NOT TRANSLATE
+3. ALL lab values and units - DO NOT TRANSLATE
+4. ALL ICD codes and medical coding - DO NOT TRANSLATE
+5. ALL healthcare provider names and facility names - DO NOT TRANSLATE
+6. Translate all explanatory text and patient guidance to the target language
+7. Preserve all formatting and section structure"""
+                payload = f"/translate to {target_lang}\n\n{instructions}\n\nFULL DOCUMENT TO TRANSLATE:\n{args[:5000]}"
+                translated = self.call_agent("interpretclaw", payload, timeout=120)
+                format_payload = f"/create formatted medical document: {target_lang} translation\n\n{str(translated)[:5000]}"
+                result = self.call_agent("docuclaw", format_payload, timeout=60)
+            elif cmd=="/shared" and args:
+                from data_io import read_shared, write_shared
+                parts2 = args.split(maxsplit=1); action = parts2[0]
+                if action=="read":
+                    key = parts2[1] if len(parts2)>1 else None
+                    data, err = read_shared(key)
+                    result = json.dumps(data, indent=2, default=str)[:2000] if not err else err
+                elif action=="write" and len(parts2)>1:
+                    kv = parts2[1].split(":",1)
+                    result = write_shared(kv[0], kv[1]) if len(kv)==2 else "Usage: /shared write key:value"
+                else: result = "Usage: /shared read [key] | /shared write key:value"
             elif cmd in ("/hospital", "/hospitals") and args:
                 from agents.mediclaw.commands._helpers import lookup_hospitals
                 hospitals = lookup_hospitals(args)
