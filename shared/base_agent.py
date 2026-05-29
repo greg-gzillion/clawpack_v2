@@ -101,7 +101,14 @@ class BaseAgent:
         return ""
 
     def call_agent(self, agent_name: str, task: str, timeout: int = 120) -> str:
-        try:
+        """Call another agent with circuit breaker protection.
+        After 5 consecutive failures, the circuit opens and calls fail fast
+        for 60 seconds before attempting recovery.
+        """
+        from shared.error_handler import get_circuit_breaker
+        breaker = get_circuit_breaker(agent_name)
+        
+        def _do_call():
             r = requests.post(
                 f'{self.A2A}/v1/message/{agent_name}',
                 json={'task': task},
@@ -109,9 +116,13 @@ class BaseAgent:
             )
             if r.status_code == 200:
                 return r.json().get('result', '')
+                raise Exception(f'HTTP {r.status_code}')
+        
+        try:
+            return breaker.call(_do_call)
         except Exception as e:
-            self._log_error("http_request", str(e))
-        return ''
+            self._log_error(f'call_agent:{agent_name}', str(e)[:200])
+            return f'[{agent_name}] unavailable: {str(e)[:100]}'
 
     def _gather_all_context(self, query=""):
         parts = []
