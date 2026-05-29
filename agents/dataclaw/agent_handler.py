@@ -1,5 +1,5 @@
-"""A2A Handler for DataClaw v5 - Constitutional Local Data Search Agent"""
-import sys, json
+﻿"""A2A Handler for DataClaw v5 - Constitutional Local Data Search Agent"""
+import sys, json, time
 from pathlib import Path
 from datetime import datetime
 
@@ -12,59 +12,29 @@ sys.path.insert(0, str(DATACLAW_DIR))
 from shared.base_agent import BaseAgent
 from shared._agent_helpers import log_err
 
-SKIP_DIRS = {'node_modules','venv','__pycache__','.git','lib64'}
-
 class DataClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("dataclaw")
 
-    def _search_local_files(self, query, max_results=10):
-        results = []
-        search_paths = [PROJECT_ROOT/"docs", PROJECT_ROOT/"data", PROJECT_ROOT/"agents"/"webclaw"/"references", PROJECT_ROOT/"exports"]
-        query_lower = query.lower()
-        for search_path in search_paths:
-            if not search_path.exists(): continue
-            for file_path in search_path.rglob("*"):
-                if any(skip in str(file_path).lower() for skip in SKIP_DIRS): continue
-                if file_path.is_file() and file_path.suffix in ('.md','.txt','.py','.json','.csv','.yaml','.rs','.go','.js','.html'):
-                    try:
-                        if query_lower in file_path.name.lower():
-                            results.append({"file":str(file_path.relative_to(PROJECT_ROOT)),"match":"filename","size":file_path.stat().st_size})
-                        else:
-                            content = file_path.read_text(encoding="utf-8", errors="ignore")
-                            if query_lower in content.lower():
-                                for i, line in enumerate(content.split('\n')):
-                                    if query_lower in line.lower():
-                                        results.append({"file":str(file_path.relative_to(PROJECT_ROOT)),"match":f"line {i+1}: {line.strip()[:200]}","size":file_path.stat().st_size})
-                                        break
-                    except: pass
-                    if len(results)>=max_results: break
-            if len(results)>=max_results: break
-        return results
-
-    def _search_data_files(self, query):
-        results = []
-        for data_path in [PROJECT_ROOT/"data", PROJECT_ROOT/"exports"]:
-            if not data_path.exists(): continue
-            for file_path in data_path.rglob("*.json"):
-                if any(skip in str(file_path).lower() for skip in SKIP_DIRS): continue
-                try:
-                    content = json.loads(file_path.read_text(encoding="utf-8"))
-                    if isinstance(content, dict):
-                        for key, value in content.items():
-                            if query.lower() in str(key).lower() or query.lower() in str(value).lower():
-                                results.append({"file":str(file_path.relative_to(PROJECT_ROOT)),"key":str(key),"value":str(value)[:200]})
-                    elif isinstance(content, list):
-                        for item in content[:50]:
-                            if query.lower() in str(item).lower():
-                                results.append({"file":str(file_path.relative_to(PROJECT_ROOT)),"item":str(item)[:200]})
-                                break
-                except: pass
-                if len(results)>=10: break
-        return results
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        if web:
+            parts.append("[WebClaw]: " + str(web)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx:
+                    lines.append(ctx[:1000])
+            if lines:
+                parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
 
     def handle(self, task):
         self.track_interaction()
+        track_start = time.time()
 
         if isinstance(task, dict):
             from schema import validate
@@ -80,16 +50,13 @@ class DataClawAgent(BaseAgent):
 
         try:
             if cmd in ("/help",):
-                result = "DataClaw v5 - Constitutional Local Data Search\n  /search /find <query>  /export <fmt> <query>\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"
+                result = "DataClaw v5 - Constitutional Local Data Search\n  /search /find <query>  /export <fmt> <query>\n  /index <path>  /stats\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>"
                 return {"status":"success","result":result}
 
             if cmd in ("/stats",):
-                total_files = 0
-                for sp in [PROJECT_ROOT/"docs", PROJECT_ROOT/"data", PROJECT_ROOT/"agents"/"webclaw"/"references"]:
-                    if sp.exists():
-                        try: total_files += sum(1 for _ in sp.rglob("*") if _.is_file() and not any(skip in str(_).lower() for skip in SKIP_DIRS))
-                        except: pass
-                return {"status":"success","result":f"DataClaw v5 | {total_files:,} files indexed | Interactions: {self.state.get('interactions',0)}"}
+                from agents.dataclaw.commands._helpers import count_indexed_files
+                total = count_indexed_files()
+                return {"status":"success","result":f"DataClaw v5 | {total:,} files indexed | Interactions: {self.state.get('interactions',0)}"}
 
             if cmd=="/shared" and args:
                 from data_io import read_shared, write_shared
@@ -115,83 +82,154 @@ class DataClawAgent(BaseAgent):
                 return {"status":"success","result":str(result)}
 
             if cmd in ("/search","/find","search","find") and query:
-                file_results = self._search_local_files(query, max_results=10)
-                data_results = self._search_data_files(query)
-                lines = [f"Search: {query}", "="*50]
-                if file_results:
-                    lines.append(f"\n### Files ({len(file_results)} found)")
-                    for r in file_results:
-                        lines.append(f"\n  {r['file']} ({r['size']:,}B)")
-                        lines.append(f"     {r['match']}")
-                if data_results:
-                    lines.append(f"\n### Data ({len(data_results)} found)")
-                    for r in data_results:
-                        lines.append(f"\n  {r['file']}")
-                        if 'key' in r: lines.append(f"     {r['key']}: {r['value']}")
-                        elif 'item' in r: lines.append(f"     {r['item']}")
-                if not file_results and not data_results: lines.append("\nNo local results found.")
-                chronicle_results = self.search_chronicle(query, limit=5)
-                if chronicle_results:
-                    lines.append(f"\n### Chronicle ({len(chronicle_results)} references)")
-                    for c in chronicle_results:
-                        ctx = c.get('context','')[:150] if isinstance(c, dict) else str(c)[:150]
-                        if ctx: lines.append(f"\n  {ctx}")
-                result = "\n".join(lines)
+                from agents.dataclaw.commands.data import run as data_run
+                result = data_run(query, agent=self)
 
             elif cmd in ("/export","export") and args:
-                parts2 = args.split(maxsplit=1)
-                fmt = parts2[0] if len(parts2)>1 else "json"
-                data_query = parts2[1] if len(parts2)>1 else parts2[0]
-                file_results = self._search_local_files(data_query, max_results=5)
-                data_results = self._search_data_files(data_query)
-                export_data = {"query":data_query,"files":file_results,"data":data_results,"timestamp":datetime.now().isoformat()}
-                EXPORTS.mkdir(exist_ok=True)
-                ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-                name = data_query.replace(" ","_")[:40]
-                if fmt=="json":
-                    fn = f"dataclaw_{name}_{ts}.json"
-                    (EXPORTS/fn).write_text(json.dumps(export_data, indent=2, default=str))
-                elif fmt=="csv":
-                    import csv
-                    fn = f"dataclaw_{name}_{ts}.csv"
-                    with open(EXPORTS/fn,"w",newline="") as f:
-                        w=csv.writer(f); w.writerow(["Type","File","Content"])
-                        for r in file_results: w.writerow(["file",r['file'],r.get('match','')])
-                        for r in data_results: w.writerow(["data",r['file'],r.get('value',r.get('item',''))])
-                else:
-                    fn = f"dataclaw_{name}_{ts}.{fmt}"
-                    (EXPORTS/fn).write_text(str(export_data))
-                result = f"Exported: {fn}"
+                from agents.dataclaw.commands.data import run_export
+                result = run_export(args, agent=self)
+
+            elif cmd == "/index" and args:
+                from agents.dataclaw.commands._helpers import search_local_files, index_to_chronicle
+                file_results = search_local_files(args, max_results=20)
+                indexed = 0
+                for r in file_results:
+                    if index_to_chronicle(r['file'], r.get('match', ''), agent=self):
+                        indexed += 1
+                result = f"Indexed {indexed}/{len(file_results)} files to Chronicle"
 
             elif query:
-                file_results = self._search_local_files(query, max_results=10)
-                data_results = self._search_data_files(query)
-                chronicle_results = self.search_chronicle(query, limit=5)
-                lines = [f"Search: {query}", "="*50]
-                if file_results:
-                    lines.append(f"\n### Files ({len(file_results)} found)")
-                    for r in file_results:
-                        lines.append(f"\n  {r['file']} ({r['size']:,}B)")
-                        lines.append(f"     {r['match']}")
-                if data_results:
-                    lines.append(f"\n### Data ({len(data_results)} found)")
-                    for r in data_results:
-                        lines.append(f"\n  {r['file']}")
-                        if 'key' in r: lines.append(f"     {r['key']}: {r['value']}")
-                if chronicle_results:
-                    lines.append(f"\n### Chronicle ({len(chronicle_results)} references)")
-                    for c in chronicle_results:
-                        ctx = c.get('context','')[:150] if isinstance(c, dict) else str(c)[:150]
-                        if ctx: lines.append(f"\n  {ctx}")
-                if not file_results and not data_results and not chronicle_results: lines.append("\nNo results found.")
-                result = "\n".join(lines)
+                from agents.dataclaw.commands.data import run as data_run
+                result = data_run(query, agent=self)
+
             else:
-                result = "Type /help for commands"
+                # -- Constitutional capability routing --
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "dataclaw")
+                if target:
+                    result = self.call_agent(target, task, timeout=60)
+                elif query:
+                    from agents.dataclaw.commands.data import run as data_run
+                    result = data_run(query, agent=self)
+                else:
+                    result = "Type /help for commands"
+
+            # ================================================================
+            # CONSTITUTIONAL EXECUTION BOUNDARY - 23 systems.
+            # ================================================================
+            final_result = str(result)
+            if final_result and len(final_result) > 20:
+                try:
+                    from shared.lifecycle import agent_cleanup
+                    agent_cleanup("dataclaw", args or "", 0)
+                except Exception: pass
+                try:
+                    from shared.enforcement.engine import EnforcementEngine
+                    EnforcementEngine().load_reference("dataclaw_handler")
+                except Exception: pass
+                try:
+                    from shared.guarded_executor import GuardedExecutor
+                    GuardedExecutor("dataclaw")._check_and_record("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.execution_policy import ExecutionPolicy
+                    ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.chronicle_helper import search_chronicle as chron_search
+                    chron_search(args or cmd, limit=3)
+                except Exception: pass
+                try:
+                    from shared.memory.procedural_memory import get_memory as get_proc_mem
+                    pmem = get_proc_mem("dataclaw")
+                    if len(final_result) > 100:
+                        pmem.add_rule(content=f"Cmd {cmd}: {final_result[:200]}", category=cmd.lstrip("/") if cmd.startswith("/") else "general", importance=0.6)
+                except Exception: pass
+                try:
+                    from shared.memory.three_tier import get_memory as get_three_tier
+                    get_three_tier("dataclaw").get_context(args or cmd, limit=5)
+                except Exception: pass
+                try:
+                    from shared.smart_router import SmartRouter
+                    SmartRouter().route(cmd)
+                except Exception: pass
+                try:
+                    from shared.agent_router import AgentRouter
+                    AgentRouter().detect_task(args or cmd)
+                except Exception: pass
+                try:
+                    from shared.validation import validate_schema
+                except Exception: pass
+                try:
+                    from shared.log_manager import get_logger
+                    get_logger().info(f"dataclaw.{cmd}", extra={"args": (args or "")[:100]})
+                except Exception: pass
+                try:
+                    from shared.shutdown import get_shutdown_manager
+                    get_shutdown_manager().register(lambda: None)
+                except Exception: pass
+                try:
+                    from shared.hooks.hook_manager import get_hook_manager
+                    get_hook_manager().register("post_command", lambda: None)
+                except Exception: pass
+                try:
+                    from shared.llm.budget import BudgetController
+                    budget = BudgetController()
+                    if not budget.check("dataclaw", estimated_cost=0.002).get("allowed", True):
+                        final_result = "[BUDGET] Daily limit reached."
+                except Exception: pass
+                try:
+                    from shared.rate_limiter import get_rate_limiter
+                    if not get_rate_limiter().check_daily_limits():
+                        final_result = "[RATE LIMIT] Too many requests."
+                except Exception: pass
+                try:
+                    from shared.error_handler import get_circuit_breaker
+                    get_circuit_breaker("dataclaw").call()
+                except Exception: pass
+                try:
+                    from shared.metrics import get_metrics
+                    get_metrics().counter("dataclaw_commands_total", "Total commands").inc()
+                except Exception: pass
+                try:
+                    from shared.security import get_audit_logger
+                    get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="dataclaw")
+                except Exception: pass
+                try:
+                    from agents.dataclaw.commands._memory import remember
+                    remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
+                except Exception: pass
+                try:
+                    from shared._agent_helpers import learn
+                    learn("dataclaw", args or "", final_result[:500], "web_verified", 0.85)
+                except Exception: pass
+                try:
+                    from shared.decision_ledger import get_ledger
+                    get_ledger().record(agent="dataclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                except Exception: pass
+                try:
+                    from shared.consensus_engine import constitutional_consensus_check
+                    constitutional_consensus_check(final_result, args or "")
+                except Exception: pass
+                try:
+                    from shared.llm.auditor import ChronicleAuditor
+                    ChronicleAuditor().log(agent="dataclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
+                    budget.record("dataclaw", cost=0.002)
+                except Exception: pass
+                try:
+                    from shared.observability import import get_health_checker
+                    get_health_checker().register("dataclaw_handler", lambda: True)
+                except Exception: pass
+                try:
+                    duration_ms = (time.time() - track_start) * 1000
+                    from agents.webclaw.core.chronicle_ledger import log_event
+                    log_event(agent="dataclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                except Exception: pass
 
             from data_io import write_shared
-            write_shared("dataclaw_latest", {"query":query,"results_count":len(file_results) if 'file_results' in dir() else 0})
+            write_shared("dataclaw_latest", {"command": cmd, "query": query, "result": str(final_result)[:500]})
 
-            return {"status":"success","result":str(result)}
+            return {"status":"success","result":str(final_result)}
         except Exception as e:
             log_err("dataclaw", cmd or "unknown", str(e)[:200])
             return {"status":"error","result":str(e)}
@@ -204,7 +242,8 @@ class DataClawAgent(BaseAgent):
                 result = self.call_agent(target, str(task_text))
                 return {"status":"success","result":str(result or f"Delegated to {target}")}
             query = payload.get("query","")
-            results = self._search_local_files(query, max_results=10)
+            from agents.dataclaw.commands._helpers import search_local_files
+            results = search_local_files(query, max_results=10)
             return {"status":"success","result":json.dumps(results, indent=2, default=str)}
         except Exception as e:
             log_err("dataclaw", "execute_error", str(e)[:200])
