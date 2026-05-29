@@ -1853,6 +1853,366 @@
       "truth_score": 0.41,
       "first_seen": "2026-05-29T05:02:46.816903+00:00",
       "last_updated": "2026-05-29T05:20:50.435397+00:00"
+    },
+    "ccf30caabb2817ba": {
+      "fact_id": "ccf30caabb2817ba",
+      "fact_value": "query:motion to dismiss Tampa FL - plaintiff: Maria Garcia - defendant: Coastal Properties LLC - case: 2024-CA-008921 - grounds: lack of subject matter jurisdiction",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:16.177364+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:16.177364+00:00",
+      "last_updated": "2026-05-29T05:28:16.177364+00:00"
+    },
+    "9e39f0151fc12263": {
+      "fact_id": "9e39f0151fc12263",
+      "fact_value": "concept:IN THE CIRCUIT COURT OF THE THIRTEENTH JUDICIAL CIRCUIT",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:28:16.192916+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:16.192916+00:00",
+      "last_updated": "2026-05-29T05:28:16.192916+00:00"
+    },
+    "963facd4b3669c6a": {
+      "fact_id": "963facd4b3669c6a",
+      "fact_value": "concept:IN AND FOR HILLSBOROUGH COUNTY, FLORIDA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:28:16.205431+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:16.205431+00:00",
+      "last_updated": "2026-05-29T05:28:16.205431+00:00"
+    },
+    "b926c083bcd0d143": {
+      "fact_id": "b926c083bcd0d143",
+      "fact_value": "concept:MARIA GARCIA,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:28:16.219556+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:16.219556+00:00",
+      "last_updated": "2026-05-29T05:28:16.219556+00:00"
+    },
+    "f5742ae477772582": {
+      "fact_id": "f5742ae477772582",
+      "fact_value": "concept:COASTAL PROPERTIES LLC,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:28:16.235574+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:16.235574+00:00",
+      "last_updated": "2026-05-29T05:28:16.235574+00:00"
+    },
+    "8a784f6d88204db1": {
+      "fact_id": "8a784f6d88204db1",
+      "fact_value": "concept:Case No.: 2024-CA-008921",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:28:16.247612+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:16.247612+00:00",
+      "last_updated": "2026-05-29T05:28:16.247612+00:00"
+    },
+    "504a3d169ed28e9f": {
+      "fact_id": "504a3d169ed28e9f",
+      "fact_value": "source_url:https://www.flcourts13.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.flcourts13.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:16.262652+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T05:28:16.262652+00:00",
+      "last_updated": "2026-05-29T05:29:19.284271+00:00"
+    },
+    "41b307495a596615": {
+      "fact_id": "41b307495a596615",
+      "fact_value": "source_url:https://www.tampa.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.tampa.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:16.279165+00:00"
+        }
+      ],
+      "verifications": 4,
+      "corrections": [],
+      "truth_score": 0.5,
+      "first_seen": "2026-05-29T05:28:16.279165+00:00",
+      "last_updated": "2026-05-29T05:28:31.467091+00:00"
+    },
+    "9f7fe2fa5882359b": {
+      "fact_id": "9f7fe2fa5882359b",
+      "fact_value": "query:Tampa FL",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:31.379000+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:31.379000+00:00",
+      "last_updated": "2026-05-29T05:28:31.379000+00:00"
+    },
+    "5cfcb7fc34a358e7": {
+      "fact_id": "5cfcb7fc34a358e7",
+      "fact_value": "concept:County Building Department",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:28:31.393629+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:31.393629+00:00",
+      "last_updated": "2026-05-29T05:28:31.393629+00:00"
+    },
+    "f7a6f09935983bda": {
+      "fact_id": "f7a6f09935983bda",
+      "fact_value": "source_url:https://www.tampagov.net/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.tampagov.net/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:31.408953+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:31.408953+00:00",
+      "last_updated": "2026-05-29T05:28:31.408953+00:00"
+    },
+    "557f2ac4e5056349": {
+      "fact_id": "557f2ac4e5056349",
+      "fact_value": "source_url:https://www.floridabuilding.org/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.floridabuilding.org/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:31.422945+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:28:31.422945+00:00",
+      "last_updated": "2026-05-29T05:28:31.422945+00:00"
+    },
+    "aca1d7e06ed9fa37": {
+      "fact_id": "aca1d7e06ed9fa37",
+      "fact_value": "source_url:https://www.tampa.gov/police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.tampa.gov/police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:28:31.483137+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-29T05:28:31.483137+00:00",
+      "last_updated": "2026-05-29T05:29:19.254727+00:00"
+    },
+    "94ecb91c70a5de5e": {
+      "fact_id": "94ecb91c70a5de5e",
+      "fact_value": "query:motion to dismiss Tampa FL",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:29:19.177287+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:29:19.177287+00:00",
+      "last_updated": "2026-05-29T05:29:19.177287+00:00"
+    },
+    "581d24ef54d0002b": {
+      "fact_id": "581d24ef54d0002b",
+      "fact_value": "concept:13th Judicial Circuit Court of Florida \u2013 Hillsborough County",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:29:19.195118+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:29:19.195118+00:00",
+      "last_updated": "2026-05-29T05:29:19.195118+00:00"
+    },
+    "b000d30161223cbb": {
+      "fact_id": "b000d30161223cbb",
+      "fact_value": "concept:Lack of Subject Matter Jurisdiction",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:29:19.210145+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:29:19.210145+00:00",
+      "last_updated": "2026-05-29T05:29:19.210145+00:00"
+    },
+    "db8131a2d5a8897a": {
+      "fact_id": "db8131a2d5a8897a",
+      "fact_value": "source_url:https://hcplc.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://hcplc.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:29:19.268247+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:29:19.268247+00:00",
+      "last_updated": "2026-05-29T05:29:19.268247+00:00"
+    },
+    "839803511a9ab0c5": {
+      "fact_id": "839803511a9ab0c5",
+      "fact_value": "court url https://www.fljud13.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-29T05:29:23.204059+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:29:23.204059+00:00",
+      "last_updated": "2026-05-29T05:29:23.204059+00:00"
+    },
+    "09240b751e2fab83": {
+      "fact_id": "09240b751e2fab83",
+      "fact_value": "query:tampa court url https://www.fljud13.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:29:23.252179+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:29:23.252179+00:00",
+      "last_updated": "2026-05-29T05:29:23.252179+00:00"
+    },
+    "6528e7bea15fadf0": {
+      "fact_id": "6528e7bea15fadf0",
+      "fact_value": "source_url:https://www.fljud13.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.fljud13.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T05:29:23.265687+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T05:29:23.265687+00:00",
+      "last_updated": "2026-05-29T05:29:23.281930+00:00"
     }
   },
   "corrections": [
@@ -1863,7 +2223,15 @@
       "agent": "lawclaw",
       "reason": "user_correction",
       "timestamp": "2026-05-29T01:17:34.710988+00:00"
+    },
+    {
+      "original_fact": "tampa",
+      "corrected_fact": "court url https://www.fljud13.org",
+      "corrected_url": "",
+      "agent": "lawclaw",
+      "reason": "user_correction",
+      "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T05:20:50.508906+00:00"
+  "updated_at": "2026-05-29T05:29:23.282935+00:00"
 }
