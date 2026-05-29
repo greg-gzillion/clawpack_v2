@@ -1,7 +1,7 @@
 {
   "agent_states": {
     "fileclaw": {
-      "interactions": 4
+      "interactions": 6
     },
     "mediclaw": {
       "interactions": 68
@@ -13,7 +13,7 @@
       "interactions": 53
     },
     "lawclaw": {
-      "interactions": 165,
+      "interactions": 169,
       "successful": 0
     },
     "crustyclaw": {
@@ -35,7 +35,7 @@
       "interactions": 20
     },
     "docuclaw": {
-      "interactions": 4
+      "interactions": 6
     },
     "dataclaw": {
       "interactions": 102
@@ -56,13 +56,13 @@
       "interactions": 4
     },
     "llmclaw": {
-      "interactions": 75
+      "interactions": 78
     },
     "mathematicaclaw": {
       "interactions": 118
     },
     "webclaw": {
-      "interactions": 77,
+      "interactions": 79,
       "search:+ /courts/nysd/": "## AI Analysis\n# Analysis: Search Query for `/courts/nysd/`\n\n## Result Assessment\n\nBased on the search results provided, **there is no relevant information available** for the query `/courts/nysd/`.\n\n### Why This Query Has No Results\n\nThe search returned 10 results, but all of them are related to:\n\n1. **Programming Language References** (claw_coder)\n   - Python, JavaScript, TypeScript, Java, Go, Rust, etc.\n   - Code examples and syntax documentation\n\n2. **Flowchart & Diagram References** (flowclaw)\n   - Visualization tools and templates\n\n3. **Service Documentation** (txclaw/minicms)\n   - Content management system API documentation\n\n### What `/courts/nysd/` Likely Represents\n\nThe query path `/courts/nysd/` suggests:\n- **NYSD** = U.S. District Court for the Southern District of New York\n- This appears to be a request for legal/court-related information\n\n### Knowledge Gap\n\nThe current knowledge base in the provided context contains:\n- \u2705 Programming language references\n- \u2705 Development and ",
       "search:Daytona Beach FL": "## AI Analysis\n# Court Information for Daytona Beach, FL\n\nBased on the Florida court system data, here is the most relevant information for Daytona Beach:\n\n## District Court of Appeal - 5th District\n\n| Detail | Information |\n|--------|-------------|\n| **Location** | Daytona Beach |\n| **Phone** | (386) 947-1500 |\n| **Fax** | (386) 947-1505 |\n| **Address** | 300 S Beach Street, Daytona Beach, FL 32114 |\n| **Jurisdiction** | Appeals from trial courts, review of administrative agency decisions, original jurisdiction in certain matters |\n| **Hours** | Monday-Friday, 8:00 AM - 5:00 PM ET |\n\n## Circuit Court - 7th Circuit\n\n| Detail | Information |\n|--------|-------------|\n| **Seat** | Daytona Beach |\n| **Phone** | (386) 822-5900 |\n| **Fax** | (386) 822-5901 |\n| **Address** | 101 N Alabama Avenue, DeLand, FL 32724 |\n| **Jurisdiction** | Felonies, civil cases over $50,000, family law, probate, and juvenile matters |\n| **Hours** | Monday-Friday, 8:00 AM - 5:00 PM ET |\n\n## General Court Informati",
       "search:salazar-limon url https://www.oyez.org/cases/2016/15-617": "## AI Analysis\n# Analysis: Salazar-Limon Case Search\n\nI cannot provide relevant information for your query about the Salazar-Limon case (https://www.oyez.org/cases/2016/15-617) based on the available context.\n\n## Why This Query Cannot Be Answered\n\nThe search results returned are from the **ClawCoder** and **FlowClaw** reference libraries, which contain:\n\n- **Programming language references** (Python, JavaScript, Java, Rust, Go, etc.)\n- **Software development documentation** (frameworks, tools, DevOps)\n- **Technical architecture guides** (MiniCMS service, design patterns)\n- **Development workflow diagrams** (flowcharts, sequence diagrams)\n\n**None of these resources contain information about:**\n- Supreme Court cases\n- Legal proceedings\n- Case citations or oral arguments\n- The Salazar-Limon case specifically\n\n## What You're Looking For\n\nThe URL `https://www.oyez.org/cases/2016/15-617` points to **OYEZ.org**, which is an authoritative source for:\n- Supreme Court oral argument transcripts\n-",
