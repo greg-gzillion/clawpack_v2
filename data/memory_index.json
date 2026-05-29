@@ -908,6 +908,26 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T05:02:46.754286+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_232050.md (5.3KB)\n\n# MOTION TO DISMISS\n## Case No. 2024-CV-1234\n### John Smith v. ABC Corp\n\n---\n\n## I. CAPTION\n\nIN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT\nIN AND FOR MIAMI-DADE COUNTY, FLORIDA\n\n**JOHN SMITH,**\nPlaintiff,\n\nv.\n\n**ABC CORP,**\nDefendant.\n\n---\n\n## II. INTRODUCTION\n\nDefendant ABC Corp (\"Defendant\"), by and through undersigned counsel, respectfully su",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T05:20:50.365573+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_232050.md (5.3KB)\n\n# MOTION TO DISMISS\n## Case No. 2024-CV-1234\n### John Smith v. ABC Corp\n\n---\n\n## I. CAPTION\n\nIN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT\nIN AND FOR MIAMI-DADE COUNTY, FLORIDA\n\n**JOHN SMITH,**\nPlaintiff,\n\nv.\n\n**ABC CORP,**\nDefendant.\n\n---\n\n## II. INTRODUCTION\n\nDefendant ABC Corp (\"Defendant\"), by and through undersigned counsel, respectfully submits this Motion to Dismiss the Complaint filed by Plaintiff John Smith (\"Plaintiff\") pursuant to F",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T05:20:50.377604+00:00"
     }
   ],
   "index": {
@@ -1037,7 +1057,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "dismiss": [
       29,
@@ -1077,7 +1099,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "bedford": [
       29,
@@ -1236,7 +1260,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "vegas": [
       74,
@@ -1258,7 +1284,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "john": [
       78,
@@ -1266,7 +1294,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "smith": [
       78,
@@ -1274,7 +1304,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "defendant:": [
       78,
@@ -1282,7 +1314,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "corp": [
       78,
@@ -1290,7 +1324,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "case:": [
       78,
@@ -1298,7 +1334,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "2024-cv-1234": [
       78,
@@ -1306,7 +1344,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "grounds:": [
       78,
@@ -1314,7 +1354,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "failure": [
       78,
@@ -1322,7 +1364,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "state": [
       78,
@@ -1330,7 +1374,9 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ],
     "claim": [
       78,
@@ -1338,8 +1384,10 @@
       80,
       81,
       82,
-      83
+      83,
+      84,
+      85
     ]
   },
-  "updated_at": "2026-05-29T05:02:46.755293+00:00"
+  "updated_at": "2026-05-29T05:20:50.377604+00:00"
 }

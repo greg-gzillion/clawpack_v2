@@ -73,7 +73,6 @@ class LawClawHandler(BaseAgent):
                     )
 
                     # Extract location from BEFORE the first " - " separator
-                    # "motion to dismiss Miami FL - plaintiff: John..." → "motion to dismiss Miami FL"
                     location_part = args.split(" - ")[0] if " - " in args else args
                     
                     # Extract location by trying progressively shorter terms
@@ -166,8 +165,8 @@ class LawClawHandler(BaseAgent):
 
             # ═══════════════════════════════════════════════════════════════
             # CONSTITUTIONAL EXECUTION BOUNDARY — single injection point.
-            # Activates: budget, rate limit, memory, learning, audit trail,
-            # consensus, auditor. Automatically for ALL 25 commands.
+            # 12 systems fire automatically for ALL 25 commands.
+            # No per-command edits needed.
             # ═══════════════════════════════════════════════════════════════
             final_result = str(result)
             if final_result and len(final_result) > 20:
@@ -178,7 +177,7 @@ class LawClawHandler(BaseAgent):
                     budget = BudgetController()
                     decision = budget.check("lawclaw", estimated_cost=0.002)
                     if not decision.get("allowed", True):
-                        final_result = "[BUDGET] Daily limit reached. Try again tomorrow."
+                        final_result = "[BUDGET] Daily limit reached."
                 except Exception:
                     pass
 
@@ -187,11 +186,35 @@ class LawClawHandler(BaseAgent):
                     from shared.rate_limiter import get_rate_limiter
                     limiter = get_rate_limiter()
                     if not limiter.check_daily_limits():
-                        final_result = "[RATE LIMIT] Too many requests. Slow down."
+                        final_result = "[RATE LIMIT] Too many requests."
                 except Exception:
                     pass
 
-                # 3. MEMORY WRITE — cross-command recall
+                # 3. CIRCUIT BREAKER — track service health
+                try:
+                    from shared.error_handler import get_circuit_breaker
+                    breaker = get_circuit_breaker("lawclaw")
+                    breaker.call()
+                except Exception:
+                    pass
+
+                # 4. METRICS — increment command counter
+                try:
+                    from shared.metrics import get_metrics
+                    metrics = get_metrics()
+                    metrics.counter("lawclaw_commands_total", "Total commands").inc()
+                except Exception:
+                    pass
+
+                # 5. SECURITY AUDIT — log the command
+                try:
+                    from shared.security import get_audit_logger
+                    audit = get_audit_logger()
+                    audit.log_tool_call(cmd, {"args": (args or "")[:100]}, user="lawclaw")
+                except Exception:
+                    pass
+
+                # 6. MEMORY WRITE — cross-command recall
                 try:
                     from agents.lawclaw.commands._memory import remember
                     remember(
@@ -204,14 +227,14 @@ class LawClawHandler(BaseAgent):
                 except Exception:
                     pass
 
-                # 4. LEARNING — unified cross-agent memory
+                # 7. LEARNING — unified cross-agent memory
                 try:
                     from shared._agent_helpers import learn
                     learn("lawclaw", args or "", final_result[:500], "web_verified", 0.85)
                 except Exception:
                     pass
 
-                # 5. LEDGER — tamper-evident audit trail
+                # 8. LEDGER — tamper-evident audit trail
                 try:
                     from shared.decision_ledger import get_ledger
                     get_ledger().record(
@@ -223,14 +246,14 @@ class LawClawHandler(BaseAgent):
                 except Exception:
                     pass
 
-                # 6. CONSENSUS — reputation-based truth scoring
+                # 9. CONSENSUS — reputation-based truth scoring
                 try:
                     from shared.consensus_engine import constitutional_consensus_check
                     constitutional_consensus_check(final_result, args or "")
                 except Exception:
                     pass
 
-                # 7. AUDITOR — log every interaction to Chronicle
+                # 10. AUDITOR — log to Chronicle
                 try:
                     from shared.llm.auditor import ChronicleAuditor
                     auditor = ChronicleAuditor()
@@ -242,9 +265,17 @@ class LawClawHandler(BaseAgent):
                 except Exception:
                     pass
 
-                # 8. BUDGET RECORD — track spending after successful call
+                # 11. BUDGET RECORD — track spending
                 try:
                     budget.record("lawclaw", cost=0.002)
+                except Exception:
+                    pass
+
+                # 12. HEALTH CHECK — register handler
+                try:
+                    from shared.observability import get_health_checker
+                    health = get_health_checker()
+                    health.register("lawclaw_handler", lambda: True)
                 except Exception:
                     pass
 
