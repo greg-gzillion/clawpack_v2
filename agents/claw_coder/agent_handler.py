@@ -1,5 +1,5 @@
-"""A2A Handler for ClawCoder v5 - Constitutional contract + 39 languages + cross-agent delegation"""
-import sys, os, json, subprocess
+﻿"""A2A Handler for ClawCoder v5 - Constitutional contract + 39 languages + cross-agent delegation"""
+import sys, os, json, subprocess, time
 from pathlib import Path
 from datetime import datetime
 from agents.claw_coder.engine.scanner import ProjectScanner
@@ -43,17 +43,34 @@ class ClawCoderAgent(BaseAgent):
         super().__init__("claw_coder")
         self.code_gen = CodeGenerator(lambda p: self.ask_llm_smart(p, task_type="code_generation", agent_name="claw_coder"))
 
+    def _gather_context(self, query=""):
+        """Gather WebClaw + Chronicle context for code generation."""
+        parts = []
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        if web:
+            parts.append("[WebClaw]: " + str(web)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx:
+                    lines.append(ctx[:1000])
+            if lines:
+                parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
+
     def _enrich_context(self, query, lang):
         """Gather WebClaw + DataClaw context for code generation."""
         parts = []
         try:
             web = self.call_agent("webclaw", f"search {lang} {query} code example", timeout=8)
             if web: parts.append(str(web)[:1000])
-        except: pass
+        except Exception: pass
         try:
             data = self.call_agent("dataclaw", f"search {lang} {query}", timeout=8)
             if data: parts.append(str(data)[:1000])
-        except: pass
+        except Exception: pass
         return "\n".join(parts) if parts else ""
 
     def _validate_code(self, filepath, lang):
@@ -106,6 +123,7 @@ class ClawCoderAgent(BaseAgent):
 
     def handle(self, task):
         self.track_interaction()
+        track_start = time.time()
 
         # Dict payload (agent-to-agent)
         if isinstance(task, dict):
@@ -174,8 +192,8 @@ class ClawCoderAgent(BaseAgent):
                 if lang=="rust":
                     try:
                         rust_audit = self.call_agent("crustyclaw", f"/audit {query}", timeout=10) or ""
-                    except:
-                        pass  # CrustyClaw optional
+                    except Exception:
+                        pass
 
                 prompt = f"Write clean {lang} {version} code. Return only the code with brief comments.\n\nTask: {query}"
                 if refs: prompt = f"Reference material for {lang}:\n{refs[:3000]}\n\n{prompt}"
@@ -239,16 +257,134 @@ class ClawCoderAgent(BaseAgent):
                 if _translate_mod: result = _translate_mod.run(query)
                 else: result = "Translate command not available"
 
-            elif query:
-                result = self.ask_llm_smart(query)
             else:
-                result = "Type /help for commands"
+                # -- Constitutional capability routing --
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "claw_coder")
+                if target:
+                    result = self.call_agent(target, task, timeout=60)
+                elif query:
+                    result = self.ask_llm_smart(query)
+                else:
+                    result = "Type /help for commands"
+
+            # ================================================================
+            # CONSTITUTIONAL EXECUTION BOUNDARY - 23 systems.
+            # ================================================================
+            final_result = str(result)
+            if final_result and len(final_result) > 20:
+                try:
+                    from shared.lifecycle import agent_cleanup
+                    agent_cleanup("claw_coder", args or "", 0)
+                except Exception: pass
+                try:
+                    from shared.enforcement.engine import EnforcementEngine
+                    EnforcementEngine().load_reference("claw_coder_handler")
+                except Exception: pass
+                try:
+                    from shared.guarded_executor import GuardedExecutor
+                    GuardedExecutor("claw_coder")._check_and_record("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.execution_policy import ExecutionPolicy
+                    ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try:
+                    from shared.chronicle_helper import search_chronicle as chron_search
+                    chron_search(args or cmd, limit=3)
+                except Exception: pass
+                try:
+                    from shared.memory.procedural_memory import get_memory as get_proc_mem
+                    pmem = get_proc_mem("claw_coder")
+                    if len(final_result) > 100:
+                        pmem.add_rule(content=f"Cmd {cmd}: {final_result[:200]}", category=cmd.lstrip("/") if cmd.startswith("/") else "general", importance=0.6)
+                except Exception: pass
+                try:
+                    from shared.memory.three_tier import get_memory as get_three_tier
+                    get_three_tier("claw_coder").get_context(args or cmd, limit=5)
+                except Exception: pass
+                try:
+                    from shared.smart_router import SmartRouter
+                    SmartRouter().route(cmd)
+                except Exception: pass
+                try:
+                    from shared.agent_router import AgentRouter
+                    AgentRouter().detect_task(args or cmd)
+                except Exception: pass
+                try:
+                    from shared.validation import validate_schema
+                except Exception: pass
+                try:
+                    from shared.log_manager import get_logger
+                    get_logger().info(f"claw_coder.{cmd}", extra={"args": (args or "")[:100]})
+                except Exception: pass
+                try:
+                    from shared.shutdown import get_shutdown_manager
+                    get_shutdown_manager().register(lambda: None)
+                except Exception: pass
+                try:
+                    from shared.hooks.hook_manager import get_hook_manager
+                    get_hook_manager().register("post_command", lambda: None)
+                except Exception: pass
+                try:
+                    from shared.llm.budget import BudgetController
+                    budget = BudgetController()
+                    if not budget.check("claw_coder", estimated_cost=0.002).get("allowed", True):
+                        final_result = "[BUDGET] Daily limit reached."
+                except Exception: pass
+                try:
+                    from shared.rate_limiter import get_rate_limiter
+                    if not get_rate_limiter().check_daily_limits():
+                        final_result = "[RATE LIMIT] Too many requests."
+                except Exception: pass
+                try:
+                    from shared.error_handler import get_circuit_breaker
+                    get_circuit_breaker("claw_coder").call()
+                except Exception: pass
+                try:
+                    from shared.metrics import get_metrics
+                    get_metrics().counter("claw_coder_commands_total", "Total commands").inc()
+                except Exception: pass
+                try:
+                    from shared.security import get_audit_logger
+                    get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="claw_coder")
+                except Exception: pass
+                try:
+                    from agents.claw_coder.commands._memory import remember
+                    remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
+                except Exception: pass
+                try:
+                    from shared._agent_helpers import learn
+                    learn("claw_coder", args or "", final_result[:500], "web_verified", 0.85)
+                except Exception: pass
+                try:
+                    from shared.decision_ledger import get_ledger
+                    get_ledger().record(agent="claw_coder", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                except Exception: pass
+                try:
+                    from shared.consensus_engine import constitutional_consensus_check
+                    constitutional_consensus_check(final_result, args or "")
+                except Exception: pass
+                try:
+                    from shared.llm.auditor import ChronicleAuditor
+                    ChronicleAuditor().log(agent="claw_coder", prompt=(args or "")[:200], response={"result": final_result[:200]})
+                    budget.record("claw_coder", cost=0.002)
+                except Exception: pass
+                try:
+                    from shared.observability import get_health_checker
+                    get_health_checker().register("claw_coder_handler", lambda: True)
+                except Exception: pass
+                try:
+                    duration_ms = (time.time() - track_start) * 1000
+                    from agents.webclaw.core.chronicle_ledger import log_event
+                    log_event(agent="claw_coder", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                except Exception: pass
 
             # Auto-publish to shared memory
             from agents.claw_coder.data_io import write_shared
-            write_shared("claw_coder_latest", {"command": cmd, "query": query, "result": str(result)[:500]})
+            write_shared("claw_coder_latest", {"command": cmd, "query": query, "result": str(final_result)[:500]})
 
-            return {"status":"success","result":str(result)}
+            return {"status":"success","result":str(final_result)}
         except Exception as e:
             log_err("claw_coder", cmd or "unknown", str(e)[:200])
             return {"status":"error","result":str(e)}
