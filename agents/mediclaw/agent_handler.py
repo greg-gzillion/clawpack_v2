@@ -89,7 +89,7 @@ class MedicLawHandler(BaseAgent):
                     except Exception: pass
                 result = base_result
             elif cmd == "/emergency" and args:
-                from agents.mediclaw.commands.emergency_cmd import run as emergency_run
+                from agents.mediclaw.commands.emergency import run as emergency_run
                 result = emergency_run(args, agent=self)
             elif cmd in ("/hospital", "/hospitals") and args:
                 from agents.mediclaw.commands._helpers import lookup_hospitals
