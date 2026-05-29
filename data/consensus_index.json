@@ -1,0 +1,1869 @@
+{
+  "facts": {
+    "bd6ce210e74182f6": {
+      "fact_id": "bd6ce210e74182f6",
+      "fact_value": "# Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) based on the context provided.\n\n## Why:\n\nThe context provided contains detailed information about several administrative and constitutional law cases:\n\n- Humphrey's Executor v. United States (1935)\n- Citizens to Preserve Overton Park v. Volpe (1971)\n- Vermont Yankee Nuclear Power Corp. v. NRDC (1978)\n- Northern Pipeline Construction Co. v. Marathon Pipe Line ",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T01:17:01.880490+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T01:17:01.880490+00:00",
+      "last_updated": "2026-05-29T01:17:01.880490+00:00"
+    },
+    "cf9cc88e29bb0539": {
+      "fact_id": "cf9cc88e29bb0539",
+      "fact_value": "url https://www.oyez.org/cases/2016/15-617",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-29T01:17:34.720508+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T01:17:34.720508+00:00",
+      "last_updated": "2026-05-29T01:17:34.720508+00:00"
+    },
+    "d0f85c1968c9ebab": {
+      "fact_id": "d0f85c1968c9ebab",
+      "fact_value": "\n============================================================\nCORRECT: salazar-limon url https://www.oyez.org/cases/2016/15-617\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /correct [2026-05-29]: # Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-...\n    unknown [2026-05-29]: # Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-...\n\n[CONSENSUS] Recording correction...\n  Correc",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T01:17:34.749239+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T01:17:34.749239+00:00",
+      "last_updated": "2026-05-29T01:17:34.749239+00:00"
+    },
+    "0086d9be504b540a": {
+      "fact_id": "0086d9be504b540a",
+      "fact_value": "query:qualified immunity",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T01:32:22.012514+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T01:32:22.012514+00:00",
+      "last_updated": "2026-05-29T01:32:22.012514+00:00"
+    },
+    "a72497c141723efa": {
+      "fact_id": "a72497c141723efa",
+      "fact_value": "concept:Qualified Immunity Overview",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T01:32:22.024557+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T01:32:22.024557+00:00",
+      "last_updated": "2026-05-29T01:32:22.034083+00:00"
+    },
+    "de45d6ab491683c2": {
+      "fact_id": "de45d6ab491683c2",
+      "fact_value": "concept:1. DEFINITION \u2014 Plain English",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T01:32:22.044633+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T01:32:22.044633+00:00",
+      "last_updated": "2026-05-29T01:32:22.044633+00:00"
+    },
+    "9dac86916d412efb": {
+      "fact_id": "9dac86916d412efb",
+      "fact_value": "source_url:https://www.courtlistener.com/?q=qualified+immunity&type=o",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courtlistener.com/?q=qualified+immunity&type=o",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T01:32:22.053636+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T01:32:22.053636+00:00",
+      "last_updated": "2026-05-29T01:32:22.053636+00:00"
+    },
+    "e8c0c39ba677a8c4": {
+      "fact_id": "e8c0c39ba677a8c4",
+      "fact_value": "query:motion to dismiss Bedford VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:26:52.363593+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:26:52.363593+00:00",
+      "last_updated": "2026-05-29T03:43:35.652793+00:00"
+    },
+    "937d8e85483fbd0b": {
+      "fact_id": "937d8e85483fbd0b",
+      "fact_value": "concept:1. Rule Statement",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:26:52.377617+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.377617+00:00",
+      "last_updated": "2026-05-29T02:26:52.377617+00:00"
+    },
+    "3d58d545bfff285f": {
+      "fact_id": "3d58d545bfff285f",
+      "fact_value": "concept:2. Application",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:26:52.390653+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.390653+00:00",
+      "last_updated": "2026-05-29T02:26:52.390653+00:00"
+    },
+    "6aea445fd639258f": {
+      "fact_id": "6aea445fd639258f",
+      "fact_value": "concept:3. Conclusion",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:26:52.404170+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.404170+00:00",
+      "last_updated": "2026-05-29T02:26:52.404170+00:00"
+    },
+    "456af42b212fed09": {
+      "fact_id": "456af42b212fed09",
+      "fact_value": "concept:Conciseness",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:26:52.417686+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.417686+00:00",
+      "last_updated": "2026-05-29T02:26:52.417686+00:00"
+    },
+    "c3f32fa497d2c469": {
+      "fact_id": "c3f32fa497d2c469",
+      "fact_value": "source_url:https://law.lis.virginia.gov/vacode/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.lis.virginia.gov/vacode/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:26:52.431538+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:26:52.431538+00:00",
+      "last_updated": "2026-05-29T02:26:52.490136+00:00"
+    },
+    "e46028cb09f5901c": {
+      "fact_id": "e46028cb09f5901c",
+      "fact_value": "source_url:https://www.courts.state.va.us/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.va.us/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:26:52.443060+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.443060+00:00",
+      "last_updated": "2026-05-29T02:26:52.444057+00:00"
+    },
+    "e20341213d7ed5e9": {
+      "fact_id": "e20341213d7ed5e9",
+      "fact_value": "source_url:https://www.uscourts.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.uscourts.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:26:52.460092+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.460092+00:00",
+      "last_updated": "2026-05-29T02:26:52.460092+00:00"
+    },
+    "38b4b4effbce8ccb": {
+      "fact_id": "38b4b4effbce8ccb",
+      "fact_value": "source_url:https://www.americanbar.org/products/books/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.americanbar.org/products/books/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:26:52.472604+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:26:52.472604+00:00",
+      "last_updated": "2026-05-29T02:26:52.472604+00:00"
+    },
+    "1ebca0fb32f294bc": {
+      "fact_id": "1ebca0fb32f294bc",
+      "fact_value": "query:motion to dismiss SDNY",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:39:48.009093+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:39:48.009093+00:00",
+      "last_updated": "2026-05-29T02:39:48.009093+00:00"
+    },
+    "fb70723a3a46e3db": {
+      "fact_id": "fb70723a3a46e3db",
+      "fact_value": "concept:Conciseness:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:39:48.024135+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:39:48.024135+00:00",
+      "last_updated": "2026-05-29T02:39:48.024135+00:00"
+    },
+    "843dd1d8650eb5be": {
+      "fact_id": "843dd1d8650eb5be",
+      "fact_value": "source_url:https://www.law.cornell.edu/rules/frcp/rule_12",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/rules/frcp/rule_12",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:39:48.035837+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T02:39:48.035837+00:00",
+      "last_updated": "2026-05-29T02:39:48.035837+00:00"
+    },
+    "edb52d89bf0eef0d": {
+      "fact_id": "edb52d89bf0eef0d",
+      "fact_value": "source_url:https://supreme.justia.com/cases/federal/us/556/06-1195/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://supreme.justia.com/cases/federal/us/556/06-1195/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:39:48.047345+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:39:48.047345+00:00",
+      "last_updated": "2026-05-29T02:39:48.047345+00:00"
+    },
+    "3863eee18dbf5835": {
+      "fact_id": "3863eee18dbf5835",
+      "fact_value": "source_url:https://supreme.justia.com/cases/federal/us/550/05-1126/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://supreme.justia.com/cases/federal/us/550/05-1126/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:39:48.059884+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:39:48.059884+00:00",
+      "last_updated": "2026-05-29T02:39:48.059884+00:00"
+    },
+    "08f157084800bc04": {
+      "fact_id": "08f157084800bc04",
+      "fact_value": "source_url:https://www.nysd.uscourts.gov/cases-proceedings/rules-procedures",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.nysd.uscourts.gov/cases-proceedings/rules-procedures",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:39:48.071395+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:39:48.071395+00:00",
+      "last_updated": "2026-05-29T02:39:48.071395+00:00"
+    },
+    "02ca1fc287fe5953": {
+      "fact_id": "02ca1fc287fe5953",
+      "fact_value": "source_url:https://www.law.cornell.edu/rules/frcp/rule_11",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/rules/frcp/rule_11",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:39:48.088266+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T02:39:48.088266+00:00",
+      "last_updated": "2026-05-29T02:39:48.088266+00:00"
+    },
+    "e06472fd3d3640ef": {
+      "fact_id": "e06472fd3d3640ef",
+      "fact_value": "query:Bedford VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:40:11.464290+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:40:11.464290+00:00",
+      "last_updated": "2026-05-29T02:54:08.929111+00:00"
+    },
+    "1bc033598507c2a6": {
+      "fact_id": "1bc033598507c2a6",
+      "fact_value": "concept:Civic Profile: Bedford, VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:40:11.477012+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:40:11.477012+00:00",
+      "last_updated": "2026-05-29T02:54:08.940615+00:00"
+    },
+    "c4ea069c8d40b5e2": {
+      "fact_id": "c4ea069c8d40b5e2",
+      "fact_value": "concept:Bedford County General District Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:40:11.489551+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:40:11.489551+00:00",
+      "last_updated": "2026-05-29T02:40:11.489551+00:00"
+    },
+    "421dcf3e95e0d8ac": {
+      "fact_id": "421dcf3e95e0d8ac",
+      "fact_value": "concept:Bedford Police Department",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:40:11.500083+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:40:11.500083+00:00",
+      "last_updated": "2026-05-29T02:40:11.500083+00:00"
+    },
+    "746c819bdb77e98e": {
+      "fact_id": "746c819bdb77e98e",
+      "fact_value": "source_url:https://www.vacourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vacourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:40:11.512597+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:40:11.512597+00:00",
+      "last_updated": "2026-05-29T04:31:19.728499+00:00"
+    },
+    "13975d5450a0a67f": {
+      "fact_id": "13975d5450a0a67f",
+      "fact_value": "source_url:https://www.bedfordva.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.bedfordva.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:40:11.523673+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:40:11.523673+00:00",
+      "last_updated": "2026-05-29T03:43:35.730439+00:00"
+    },
+    "8f900eeda55a3c76": {
+      "fact_id": "8f900eeda55a3c76",
+      "fact_value": "source_url:https://www.brrja.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.brrja.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:40:11.535174+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:40:11.535174+00:00",
+      "last_updated": "2026-05-29T02:54:09.003216+00:00"
+    },
+    "159356ef574fb752": {
+      "fact_id": "159356ef574fb752",
+      "fact_value": "source_url:https://atriumhealth.org/locations/liberty",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://atriumhealth.org/locations/liberty",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:40:11.561741+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:40:11.561741+00:00",
+      "last_updated": "2026-05-29T02:54:09.014298+00:00"
+    },
+    "be34c44fe3011e94": {
+      "fact_id": "be34c44fe3011e94",
+      "fact_value": "query:/doc motion to dismiss Bedford VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:41:09.790719+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:41:09.790719+00:00",
+      "last_updated": "2026-05-29T03:39:27.630108+00:00"
+    },
+    "534a47a68cb2b1a7": {
+      "fact_id": "534a47a68cb2b1a7",
+      "fact_value": "concept:criminal cases",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:41:09.802249+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:41:09.802249+00:00",
+      "last_updated": "2026-05-29T04:27:16.232731+00:00"
+    },
+    "6b5928b064dcb9f8": {
+      "fact_id": "6b5928b064dcb9f8",
+      "fact_value": "concept:Challenge legal sufficiency",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:41:09.813274+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:41:09.813274+00:00",
+      "last_updated": "2026-05-29T04:27:16.244271+00:00"
+    },
+    "22f5dcea1db62154": {
+      "fact_id": "22f5dcea1db62154",
+      "fact_value": "concept:civil cases",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:41:09.824414+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:41:09.824414+00:00",
+      "last_updated": "2026-05-29T04:27:16.254809+00:00"
+    },
+    "03f0fed0d44dd408": {
+      "fact_id": "03f0fed0d44dd408",
+      "fact_value": "concept:FRCP Rule 12(b)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:41:09.835475+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T02:41:09.835475+00:00",
+      "last_updated": "2026-05-29T04:27:16.266317+00:00"
+    },
+    "6548bd29b6f36efc": {
+      "fact_id": "6548bd29b6f36efc",
+      "fact_value": "concept:Bedford, Virginia",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:41:09.845990+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:41:09.845990+00:00",
+      "last_updated": "2026-05-29T02:41:09.845990+00:00"
+    },
+    "684507f6f2264889": {
+      "fact_id": "684507f6f2264889",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/motion_to_dismiss",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/motion_to_dismiss",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:41:09.857506+00:00"
+        }
+      ],
+      "verifications": 9,
+      "corrections": [],
+      "truth_score": 0.745,
+      "first_seen": "2026-05-29T02:41:09.857506+00:00",
+      "last_updated": "2026-05-29T04:27:16.291431+00:00"
+    },
+    "6b39e4eeaf7d4e69": {
+      "fact_id": "6b39e4eeaf7d4e69",
+      "fact_value": "source_url:https://www.law.cornell.edu/rules/frcp/rule_12#b",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/rules/frcp/rule_12#b",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:41:09.869020+00:00"
+        }
+      ],
+      "verifications": 9,
+      "corrections": [],
+      "truth_score": 0.745,
+      "first_seen": "2026-05-29T02:41:09.869020+00:00",
+      "last_updated": "2026-05-29T04:27:16.302938+00:00"
+    },
+    "fe14070e05504c6f": {
+      "fact_id": "fe14070e05504c6f",
+      "fact_value": "concept:Civic Profile for Bedford, VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:54:08.954129+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:54:08.954129+00:00",
+      "last_updated": "2026-05-29T02:54:08.954129+00:00"
+    },
+    "844b899c69d4ff71": {
+      "fact_id": "844b899c69d4ff71",
+      "fact_value": "concept:Federal Rule of Civil Procedure 12(b)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:54:20.464629+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:54:20.464629+00:00",
+      "last_updated": "2026-05-29T02:54:20.464629+00:00"
+    },
+    "642b016824f49e83": {
+      "fact_id": "642b016824f49e83",
+      "fact_value": "concept:Sources Cited:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:54:20.475165+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:54:20.475165+00:00",
+      "last_updated": "2026-05-29T02:54:20.475165+00:00"
+    },
+    "6076640f567541e9": {
+      "fact_id": "6076640f567541e9",
+      "fact_value": "concept:Trust Level",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T02:54:20.486222+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T02:54:20.486222+00:00",
+      "last_updated": "2026-05-29T02:54:20.486222+00:00"
+    },
+    "5b30580e4edb4328": {
+      "fact_id": "5b30580e4edb4328",
+      "fact_value": "source_url:https://www.law.cornell.edu/rules/frcp/rule_1",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/rules/frcp/rule_1",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T02:54:20.553328+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T02:54:20.553328+00:00",
+      "last_updated": "2026-05-29T02:54:20.553328+00:00"
+    },
+    "b1aa585b796913ac": {
+      "fact_id": "b1aa585b796913ac",
+      "fact_value": "query:/jurisdiction Bedford VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:25:38.004070+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:25:38.004070+00:00",
+      "last_updated": "2026-05-29T03:38:57.281264+00:00"
+    },
+    "40911df80ad6a4ad": {
+      "fact_id": "40911df80ad6a4ad",
+      "fact_value": "concept:Jurisdiction:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:25:38.015186+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:25:38.015186+00:00",
+      "last_updated": "2026-05-29T04:37:22.297198+00:00"
+    },
+    "de0797b582aed8be": {
+      "fact_id": "de0797b582aed8be",
+      "fact_value": "source_url:https://www.vacourts.gov/courts/circuit/home.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vacourts.gov/courts/circuit/home.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:25:38.025720+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:25:38.025720+00:00",
+      "last_updated": "2026-05-29T04:31:19.714479+00:00"
+    },
+    "a6ff8385c7ac56ec": {
+      "fact_id": "a6ff8385c7ac56ec",
+      "fact_value": "concept:Motion to Dismiss",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:26:06.224322+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:26:06.224322+00:00",
+      "last_updated": "2026-05-29T04:20:08.929874+00:00"
+    },
+    "1d7a5610fa11cb3d": {
+      "fact_id": "1d7a5610fa11cb3d",
+      "fact_value": "concept:**Bedford County Circuit Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:38:57.294810+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:38:57.294810+00:00",
+      "last_updated": "2026-05-29T03:38:57.294810+00:00"
+    },
+    "825dd9c4e82a0f93": {
+      "fact_id": "825dd9c4e82a0f93",
+      "fact_value": "concept:federal procedure rules",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:39:28.461841+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:39:28.461841+00:00",
+      "last_updated": "2026-05-29T03:39:28.461841+00:00"
+    },
+    "309c81a9dbd70b89": {
+      "fact_id": "309c81a9dbd70b89",
+      "fact_value": "query:/jurisdiction Hazlehurst MS",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:56:51.030538+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:56:51.030538+00:00",
+      "last_updated": "2026-05-29T04:08:04.349941+00:00"
+    },
+    "8084d72d9e71cee2": {
+      "fact_id": "8084d72d9e71cee2",
+      "fact_value": "concept:Copiah County, Mississippi",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:56:51.043072+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:56:51.043072+00:00",
+      "last_updated": "2026-05-29T04:08:04.361727+00:00"
+    },
+    "5ec4d19d95a6d7c5": {
+      "fact_id": "5ec4d19d95a6d7c5",
+      "fact_value": "concept:Hazlehurst Municipal Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:56:51.053614+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:56:51.053614+00:00",
+      "last_updated": "2026-05-29T04:08:04.373248+00:00"
+    },
+    "08d0a441431fcdbf": {
+      "fact_id": "08d0a441431fcdbf",
+      "fact_value": "concept:Jurisdiction",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:56:51.066664+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:56:51.066664+00:00",
+      "last_updated": "2026-05-29T04:52:41.585627+00:00"
+    },
+    "dc6af4dda1503693": {
+      "fact_id": "dc6af4dda1503693",
+      "fact_value": "concept:Copiah County Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:56:51.077197+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:56:51.077197+00:00",
+      "last_updated": "2026-05-29T03:56:51.077197+00:00"
+    },
+    "f688148d3284eae0": {
+      "fact_id": "f688148d3284eae0",
+      "fact_value": "source_url:https://hazlehurstms.govtportal.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://hazlehurstms.govtportal.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:56:51.100800+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:56:51.100800+00:00",
+      "last_updated": "2026-05-29T04:08:04.384776+00:00"
+    },
+    "e4ccf4935620e52c": {
+      "fact_id": "e4ccf4935620e52c",
+      "fact_value": "source_url:https://courts.ms.gov/circuit-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://courts.ms.gov/circuit-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:56:51.112338+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:56:51.112338+00:00",
+      "last_updated": "2026-05-29T04:08:04.395842+00:00"
+    },
+    "53ce62c8293192a4": {
+      "fact_id": "53ce62c8293192a4",
+      "fact_value": "query:/doc motion to dismiss Hazlehurst MS",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:57:19.123324+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T03:57:19.123324+00:00",
+      "last_updated": "2026-05-29T04:27:16.221213+00:00"
+    },
+    "10cfb42069e5b7ef": {
+      "fact_id": "10cfb42069e5b7ef",
+      "fact_value": "query:-c \"import sys; sys.path.insert(0, 'C:/Users/greg/dev/clawpack_v2'); from agents.lawclaw.core.court_rules_extractor import _read_local_jurisdiction_files; content = _read_local_jurisdiction_files('Haz",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T03:58:53.567814+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:58:53.567814+00:00",
+      "last_updated": "2026-05-29T03:58:53.567814+00:00"
+    },
+    "7f30f117db84d951": {
+      "fact_id": "7f30f117db84d951",
+      "fact_value": "concept:However, the search results returned are completely unrelated",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:58:53.584853+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:58:53.584853+00:00",
+      "last_updated": "2026-05-29T03:58:53.584853+00:00"
+    },
+    "6b06c65bfb3a33bf": {
+      "fact_id": "6b06c65bfb3a33bf",
+      "fact_value": "concept:Programming language documentation",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:58:53.598366+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:58:53.598366+00:00",
+      "last_updated": "2026-05-29T03:58:53.598366+00:00"
+    },
+    "f7ef08e4b97d7ddd": {
+      "fact_id": "f7ef08e4b97d7ddd",
+      "fact_value": "concept:General legal topic overviews",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:58:53.614683+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:58:53.614683+00:00",
+      "last_updated": "2026-05-29T03:58:53.614683+00:00"
+    },
+    "8c81ee5ec5b47f35": {
+      "fact_id": "8c81ee5ec5b47f35",
+      "fact_value": "concept:NOT jurisdiction-specific court rules for Hazlehurst, MS",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:58:53.632406+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:58:53.632406+00:00",
+      "last_updated": "2026-05-29T03:58:53.632406+00:00"
+    },
+    "33b076450bce6656": {
+      "fact_id": "33b076450bce6656",
+      "fact_value": "concept:Verify the data exists",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T03:58:53.642873+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T03:58:53.642873+00:00",
+      "last_updated": "2026-05-29T03:58:53.642873+00:00"
+    },
+    "a66cf8e9f9207730": {
+      "fact_id": "a66cf8e9f9207730",
+      "fact_value": "concept:Criminal Context",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:20:08.941946+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:20:08.941946+00:00",
+      "last_updated": "2026-05-29T04:20:08.941946+00:00"
+    },
+    "70da4b0b78eea4de": {
+      "fact_id": "70da4b0b78eea4de",
+      "fact_value": "concept:Civil Context",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:20:08.957999+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:20:08.957999+00:00",
+      "last_updated": "2026-05-29T04:20:08.957999+00:00"
+    },
+    "b6d4cd221dfb3cb7": {
+      "fact_id": "b6d4cd221dfb3cb7",
+      "fact_value": "concept:To find specific information about motions to dismiss in Hazlehurst, MS, you would need to:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:27:16.279879+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:27:16.279879+00:00",
+      "last_updated": "2026-05-29T04:27:16.279879+00:00"
+    },
+    "55407bb659be29a7": {
+      "fact_id": "55407bb659be29a7",
+      "fact_value": "query:motion to dismiss Lynchburg VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:31:19.658046+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:31:19.658046+00:00",
+      "last_updated": "2026-05-29T04:31:19.658046+00:00"
+    },
+    "2fc16cd7b267e3e0": {
+      "fact_id": "2fc16cd7b267e3e0",
+      "fact_value": "concept:General District Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:31:19.671381+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:31:19.671381+00:00",
+      "last_updated": "2026-05-29T04:31:19.671381+00:00"
+    },
+    "3ccc3beee7b67e78": {
+      "fact_id": "3ccc3beee7b67e78",
+      "fact_value": "concept:Circuit Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:31:19.687443+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:31:19.687443+00:00",
+      "last_updated": "2026-05-29T04:31:19.688463+00:00"
+    },
+    "2741b52556b52529": {
+      "fact_id": "2741b52556b52529",
+      "fact_value": "source_url:https://www.vacourts.gov/courts/gd/lynchburg/home",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vacourts.gov/courts/gd/lynchburg/home",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:31:19.701973+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:31:19.701973+00:00",
+      "last_updated": "2026-05-29T04:31:19.757256+00:00"
+    },
+    "50bf2d76c3288b98": {
+      "fact_id": "50bf2d76c3288b98",
+      "fact_value": "source_url:https://www.lynchburgva.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.lynchburgva.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:31:19.741046+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:31:19.741046+00:00",
+      "last_updated": "2026-05-29T04:31:19.741046+00:00"
+    },
+    "809e4d53e4df8ac3": {
+      "fact_id": "809e4d53e4df8ac3",
+      "fact_value": "query:motion to dismiss Miami FL",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:37:22.246139+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:37:22.246139+00:00",
+      "last_updated": "2026-05-29T04:42:23.276642+00:00"
+    },
+    "354ffd2b56f98218": {
+      "fact_id": "354ffd2b56f98218",
+      "fact_value": "concept:11th Judicial Circuit Court of Florida \u2013 Miami-Dade County",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:37:22.259238+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:37:22.259238+00:00",
+      "last_updated": "2026-05-29T05:02:46.801267+00:00"
+    },
+    "3233e35fb578fde4": {
+      "fact_id": "3233e35fb578fde4",
+      "fact_value": "concept:Court Information:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:37:22.272812+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:37:22.272812+00:00",
+      "last_updated": "2026-05-29T04:37:22.272812+00:00"
+    },
+    "13789118b6a5bee7": {
+      "fact_id": "13789118b6a5bee7",
+      "fact_value": "concept:Official Website:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:37:22.284197+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:37:22.284197+00:00",
+      "last_updated": "2026-05-29T04:37:22.284197+00:00"
+    },
+    "5f14fc292a479aa0": {
+      "fact_id": "5f14fc292a479aa0",
+      "fact_value": "source_url:https://www.mdcourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.mdcourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:37:22.312726+00:00"
+        }
+      ],
+      "verifications": 9,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-29T04:37:22.312726+00:00",
+      "last_updated": "2026-05-29T05:02:46.907446+00:00"
+    },
+    "cc9eb2e8f00b5d16": {
+      "fact_id": "cc9eb2e8f00b5d16",
+      "fact_value": "source_url:https://www.miamidade.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.miamidade.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:37:22.342277+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:37:22.342277+00:00",
+      "last_updated": "2026-05-29T04:37:22.342277+00:00"
+    },
+    "0bcfe21229445461": {
+      "fact_id": "0bcfe21229445461",
+      "fact_value": "source_url:https://www.miami.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.miami.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:37:22.354343+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-29T04:37:22.354343+00:00",
+      "last_updated": "2026-05-29T05:02:46.875278+00:00"
+    },
+    "44be4408fd26f588": {
+      "fact_id": "44be4408fd26f588",
+      "fact_value": "source_url:https://www.mdpls.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.mdpls.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:37:22.366887+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:37:22.366887+00:00",
+      "last_updated": "2026-05-29T04:42:23.378048+00:00"
+    },
+    "a34f0b33299dfdba": {
+      "fact_id": "a34f0b33299dfdba",
+      "fact_value": "concept:Court Website:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:42:23.303898+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:42:23.303898+00:00",
+      "last_updated": "2026-05-29T05:02:46.832536+00:00"
+    },
+    "6209cd9eb5f08be1": {
+      "fact_id": "6209cd9eb5f08be1",
+      "fact_value": "concept:Important Note:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:42:23.317987+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:42:23.317987+00:00",
+      "last_updated": "2026-05-29T04:42:23.317987+00:00"
+    },
+    "a3f73543082927f5": {
+      "fact_id": "a3f73543082927f5",
+      "fact_value": "concept:Primary Reference:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:42:23.332709+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:42:23.332709+00:00",
+      "last_updated": "2026-05-29T04:42:23.332709+00:00"
+    },
+    "09e466b557fcbc54": {
+      "fact_id": "09e466b557fcbc54",
+      "fact_value": "query:motion to dismiss Las Vegas NV",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:46:08.712995+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:46:08.712995+00:00",
+      "last_updated": "2026-05-29T04:52:41.569025+00:00"
+    },
+    "4207b695058e2a01": {
+      "fact_id": "4207b695058e2a01",
+      "fact_value": "source_url:https://municourt.lasvegas.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://municourt.lasvegas.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:46:08.753318+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:46:08.753318+00:00",
+      "last_updated": "2026-05-29T04:46:08.753318+00:00"
+    },
+    "ba9c2891a5af29a5": {
+      "fact_id": "ba9c2891a5af29a5",
+      "fact_value": "source_url:https://www.clarkcountycourts.us",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.clarkcountycourts.us",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:46:08.766839+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:46:08.766839+00:00",
+      "last_updated": "2026-05-29T04:52:41.673271+00:00"
+    },
+    "075976ee25aa37a7": {
+      "fact_id": "075976ee25aa37a7",
+      "fact_value": "source_url:https://nvcourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://nvcourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:46:08.801421+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:46:08.801421+00:00",
+      "last_updated": "2026-05-29T04:46:08.801421+00:00"
+    },
+    "c4d02c55209cd7c5": {
+      "fact_id": "c4d02c55209cd7c5",
+      "fact_value": "source_url:https://www.nvcourts.gov/case-search",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.nvcourts.gov/case-search",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:46:08.818945+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:46:08.818945+00:00",
+      "last_updated": "2026-05-29T04:46:08.818945+00:00"
+    },
+    "5c8af0c288d9232e": {
+      "fact_id": "5c8af0c288d9232e",
+      "fact_value": "concept:Physical Address",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:52:41.601254+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:52:41.601254+00:00",
+      "last_updated": "2026-05-29T04:52:41.601254+00:00"
+    },
+    "4ed48dd9ec0a9e92": {
+      "fact_id": "4ed48dd9ec0a9e92",
+      "fact_value": "concept:Mailing Address",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:52:41.615685+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:52:41.615685+00:00",
+      "last_updated": "2026-05-29T04:52:41.615685+00:00"
+    },
+    "5c9fe33f9378f94f": {
+      "fact_id": "5c9fe33f9378f94f",
+      "fact_value": "source_url:https://www.cityofhenderson.com/government/departments/municipal-court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofhenderson.com/government/departments/municipal-court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:52:41.631710+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:52:41.630711+00:00",
+      "last_updated": "2026-05-29T04:52:41.631710+00:00"
+    },
+    "8273a18b5b4b9f9d": {
+      "fact_id": "8273a18b5b4b9f9d",
+      "fact_value": "source_url:https://www.cityofnorthlasvegas.com/residents/municipal-court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofnorthlasvegas.com/residents/municipal-court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:52:41.644236+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:52:41.644236+00:00",
+      "last_updated": "2026-05-29T04:52:41.644236+00:00"
+    },
+    "85fbdd863efe2aea": {
+      "fact_id": "85fbdd863efe2aea",
+      "fact_value": "source_url:https://municourt.cityofnorthlasvegas.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://municourt.cityofnorthlasvegas.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:52:41.658760+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:52:41.658760+00:00",
+      "last_updated": "2026-05-29T04:52:41.658760+00:00"
+    },
+    "3c4b6945b0abae0b": {
+      "fact_id": "3c4b6945b0abae0b",
+      "fact_value": "source_url:https://nvcourts.gov/district-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://nvcourts.gov/district-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:52:41.689839+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:52:41.689839+00:00",
+      "last_updated": "2026-05-29T04:52:41.689839+00:00"
+    },
+    "90ce865a2538f76e": {
+      "fact_id": "90ce865a2538f76e",
+      "fact_value": "query:motion to dismiss Tarpon Springs FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:53:45.064619+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:53:45.064619+00:00",
+      "last_updated": "2026-05-29T04:53:45.064619+00:00"
+    },
+    "7616779282166020": {
+      "fact_id": "7616779282166020",
+      "fact_value": "concept:critical jurisdictional issue",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:53:45.081318+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:53:45.081318+00:00",
+      "last_updated": "2026-05-29T04:53:45.081318+00:00"
+    },
+    "e787eee29e436d72": {
+      "fact_id": "e787eee29e436d72",
+      "fact_value": "concept:Query Specifications:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:53:45.094845+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:53:45.094845+00:00",
+      "last_updated": "2026-05-29T04:53:45.094845+00:00"
+    },
+    "117490498d0400b0": {
+      "fact_id": "117490498d0400b0",
+      "fact_value": "concept:Case Number",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:53:45.108891+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:53:45.108891+00:00",
+      "last_updated": "2026-05-29T04:54:30.901294+00:00"
+    },
+    "78395cc3522d03c0": {
+      "fact_id": "78395cc3522d03c0",
+      "fact_value": "query:motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T04:54:30.876249+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T04:54:30.876249+00:00",
+      "last_updated": "2026-05-29T05:02:46.771417+00:00"
+    },
+    "191b7374a3897199": {
+      "fact_id": "191b7374a3897199",
+      "fact_value": "concept:there is a critical jurisdictional incompatibility",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:54:30.889791+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:54:30.889791+00:00",
+      "last_updated": "2026-05-29T04:54:30.889791+00:00"
+    },
+    "2bb33a451b10f183": {
+      "fact_id": "2bb33a451b10f183",
+      "fact_value": "concept:Document Type",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T04:54:30.913585+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T04:54:30.913585+00:00",
+      "last_updated": "2026-05-29T04:54:30.913585+00:00"
+    },
+    "5b467b035b75aae3": {
+      "fact_id": "5b467b035b75aae3",
+      "fact_value": "concept:JOHN SMITH,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:02:46.785218+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:02:46.785218+00:00",
+      "last_updated": "2026-05-29T05:02:46.785218+00:00"
+    },
+    "2d68f2e56ca05af2": {
+      "fact_id": "2d68f2e56ca05af2",
+      "fact_value": "concept:Court Contact Information:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T05:02:46.816903+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T05:02:46.816903+00:00",
+      "last_updated": "2026-05-29T05:02:46.816903+00:00"
+    }
+  },
+  "corrections": [
+    {
+      "original_fact": "salazar-limon",
+      "corrected_fact": "url https://www.oyez.org/cases/2016/15-617",
+      "corrected_url": "",
+      "agent": "lawclaw",
+      "reason": "user_correction",
+      "timestamp": "2026-05-29T01:17:34.710988+00:00"
+    }
+  ],
+  "updated_at": "2026-05-29T05:02:46.908430+00:00"
+}

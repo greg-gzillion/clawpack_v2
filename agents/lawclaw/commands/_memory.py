@@ -74,8 +74,44 @@ def remember(command: str, query: str, result_summary: str,
     except Exception as e:
         _log("memory_write_error", str(e)[:200])
     return False
+def remember_court(code: str, data: dict) -> bool:
+    """Persist jurisdiction context for downstream agent use."""
+    import json
+    return remember(
+        command="jurisdiction_lookup",
+        query=f"court:{code}",
+        result_summary=json.dumps(data),
+        source_type="chronicle",
+        confidence=0.95
+    )
 
 
+def recall_court(code: str) -> dict | None:
+    """Retrieve stored court context for cross-agent delegation.
+    
+    Handles 2-character state codes that get filtered by the keyword index.
+    recall() ignores words < 3 chars, so "MS", "VA", "TX" get dropped.
+    """
+    # Try exact match first
+    matches = recall(f"court:{code}", limit=1)
+    if matches:
+        return matches[0]
+    
+    # If code ends with a 2-char state, search city name only
+    parts = code.strip().split()
+    if len(parts) >= 2 and len(parts[-1]) == 2:
+        city_only = " ".join(parts[:-1])
+        matches = recall(f"court:{city_only}", limit=3)
+        if matches:
+            return matches[0]
+        # Broader search for any court entry matching this city
+        matches = recall(city_only, limit=5)
+        if matches:
+            for m in matches:
+                if "court:" in m.get("query", ""):
+                    return m
+    
+    return None
 def show_prior(query: str, out: list) -> list:
     """Check memory and append prior search notice to output list if found."""
     prior = recall(query, limit=3)

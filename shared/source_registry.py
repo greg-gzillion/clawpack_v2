@@ -122,11 +122,11 @@ DOMAIN_OVERRIDES: Dict[str, Dict[str, float]] = {
 
 def get_trust(url: str, domain: str = None) -> float:
     """Get trust level for a source URL.
-    
+
     Args:
         url: The source URL
         domain: Optional domain context (medical, legal, code, math)
-        
+
     Returns:
         Trust score 0.0 - 1.0
     """
@@ -137,12 +137,20 @@ def get_trust(url: str, domain: str = None) -> float:
             if key in url:
                 return weight
         return overrides.get("DEFAULT", 0.50)
-    
+
     # Check general registry
     for key, weight in TRUST_REGISTRY.items():
         if key in url:
             return weight
+
+     # .gov domains are authoritative by default
+    if ".gov" in url:
+        return 0.92
     
+    # State court .us domains (e.g., clarkcountycourts.us)
+    if ".us" in url and any(kw in url for kw in ["court", "courts", "judicial"]):
+        return 0.85
+
     return TRUST_REGISTRY["DEFAULT"]
 
 

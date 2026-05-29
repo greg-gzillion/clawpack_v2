@@ -204,6 +204,710 @@
       ],
       "metadata": {},
       "timestamp": "2026-05-28T16:56:48.983247+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "**Definition \u2014 Plain English**\n\nQualified immunity is a legal doctrine that shields government officials from liability for damages in civil rights cases, unless their actions violated a clearly established constitutional or federal right. In plain terms, it protects public officials from being sued for doing their job, as long as they did not clearly break a specific rule or law. This doctrine is designed to prevent frivolous lawsuits and promote the performance of public duties without fear of",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/10612573/martha-stringer-v-county-of-bucks/",
+        "https://www.courtlistener.com/opinion/10348799/green-v-thomas/",
+        "https://www.courtlistener.com/opinion/10346937/chanon-miller-v-juan-ramirez/",
+        "https://www.courtlistener.com/opinion/9502421/wendy-cockrun-v-berrien-cnty-mich/",
+        "https://www.courtlistener.com/opinion/10374613/villarreal-v-city-of-laredo/",
+        "https://www.courtlistener.com/opinion/10633884/benavides-v-nunez/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-28T23:40:44.666447+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-28T23:40:44.681033+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n\n[1/3] Searching Chronicle...\n  Chronicle references found\n[2/3] Searching CourtListener opini",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-28T23:40:44.694562+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/correct",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "# Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) based on the context provided.\n\n## Why:\n\nThe context documents supplied do not contain any information about Salazar-Limon. The cases included in the context are:\n\n1. Humphrey's Executor v. United States (1935)\n2. Vermont Yankee Nuclear Power Corp. v. NRDC (197",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T00:54:40.059105+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "# Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) based on the context provided.\n\n## Why:\n\nThe context documents supplied do not contain any information about Salazar-Limon. The cases included in the context are:\n\n1. Humphrey's Executor v. United States (1935)\n2. Vermont Yankee Nuclear Power Corp. v. NRDC (1978)\n3. Citizens to Preserve Overton Park v. Volpe (1971)\n4. Northern Pipeline Construction Co. v. Mar",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T00:54:40.070105+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/correct",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "# Response to Salazar-Limon Query\n\nI cannot answer your question about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) because **this case is not included in the provided context data**.\n\nThe context provided contains information about these administrative and constitutional law cases:\n\n- Humphrey's Executor v. United States (1935)\n- Citizens to Preserve Overton Park v. Volpe ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T01:11:58.005501+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "# Response to Salazar-Limon Query\n\nI cannot answer your question about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) because **this case is not included in the provided context data**.\n\nThe context provided contains information about these administrative and constitutional law cases:\n\n- Humphrey's Executor v. United States (1935)\n- Citizens to Preserve Overton Park v. Volpe (1971)\n- Vermont Yankee Nuclear Power Corp. v. NRDC (1978)\n- Northern Pipeline Construction Co. v. M",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T01:11:58.018566+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "correct",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "# Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) based on the context provided.\n\n## Why:\n\nThe context provided contains detailed information about several administrative and constitutional law cases:\n\n- Humphrey's Executor v. United States (1935)\n- Citizens to Preserve Overton Park v. Volpe (1971)\n- Vermont Y",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T01:17:01.856464+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "# Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-Limon** (Oyez URL: https://www.oyez.org/cases/2016/15-617) based on the context provided.\n\n## Why:\n\nThe context provided contains detailed information about several administrative and constitutional law cases:\n\n- Humphrey's Executor v. United States (1935)\n- Citizens to Preserve Overton Park v. Volpe (1971)\n- Vermont Yankee Nuclear Power Corp. v. NRDC (1978)\n- Northern Pipeline Construction Co. v. Marathon Pipe Line ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T01:17:01.871975+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/correct",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "\n============================================================\nCORRECT: salazar-limon url https://www.oyez.org/cases/2016/15-617\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /correct [2026-05-29]: # Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-...\n    unknown [2026-05-29]: # Response to Salazar-Limon Q",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T01:17:34.723508+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "salazar-limon url https://www.oyez.org/cases/2016/15-617",
+      "fact": "\n============================================================\nCORRECT: salazar-limon url https://www.oyez.org/cases/2016/15-617\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /correct [2026-05-29]: # Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-...\n    unknown [2026-05-29]: # Response to Salazar-Limon Query\n\nI cannot provide information about **Salazar-...\n\n[CONSENSUS] Recording correction...\n  Correc",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T01:17:34.738542+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "**1. DEFINITION \u2014 Plain English**\n\nQualified immunity is a legal doctrine that shields government officials from being held personally liable for damages when they act within the scope of their official duties, unless their conduct was clearly unreasonable and violated a person's constitutional rights.\n\n**2. GOVERNING TEST**\n\nThe governing test for qualified immunity requires that a plaintiff must show that the official's actions violated a clearly established constitutional right and that the p",
+      "source_type": "chronicle",
+      "confidence": 0.8,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T01:32:21.980050+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T01:32:21.992610+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n\n[1/3] Searching Chronicle...\n  Chronicle references found\n[2/3] Searching CourtListener opini",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T01:32:22.004656+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Bedford VA",
+      "fact": "Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedford, Virginia\n\n---\n\n## I. INTRODUCTION\n\nThis Motion to Dismiss is filed pursuant to applicable Virginia procedural rules and seeks dismissal of the above-captioned action for the reasons set forth herein.\n\n---\n\n## II. STATEMENT OF FACTS\n\n[*Insert specific factual background relevant to the case, supported by citations to the r",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:26:52.334394+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Bedford VA",
+      "fact": "Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedford, Virginia\n\n---\n\n## I. INTRODUCTION\n\nThis Motion to Dismiss is filed pursuant to applicable Virginia procedural rules and seeks dismissal of the above-captioned action for the reasons set forth herein.\n\n---\n\n## II. STATEMENT OF FACTS\n\n[*Insert specific factual background relevant to the case, supported by citations to the record. Per legal writing standards, all factual assertions must be supported by record citations.*]\n",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T02:26:52.346899+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss SDNY",
+      "fact": "Exported: export_20260528_203947.md (8.1KB)\n\n# Motion to Dismiss\n## Southern District of New York\n\n---\n\n## I. INTRODUCTION\n\nThis Motion to Dismiss is submitted pursuant to Federal Rule of Civil Procedure 12(b)(6) for failure to state a claim upon which relief can be granted. The complaint fails to adequately allege the elements necessary to establish [insert cause of action], and therefore should ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:39:47.980818+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss SDNY",
+      "fact": "Exported: export_20260528_203947.md (8.1KB)\n\n# Motion to Dismiss\n## Southern District of New York\n\n---\n\n## I. INTRODUCTION\n\nThis Motion to Dismiss is submitted pursuant to Federal Rule of Civil Procedure 12(b)(6) for failure to state a claim upon which relief can be granted. The complaint fails to adequately allege the elements necessary to establish [insert cause of action], and therefore should be dismissed.\n\n---\n\n## II. STATEMENT OF FACTS\n\n[Insert factual background relevant to the motion, in",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T02:39:47.993675+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Bedford VA",
+      "fact": "**Civic Profile: Bedford, VA**\n\n**COURTS**\n\n1. **Bedford County General District Court**\n\t* Address: 123 E Main St, Suite 202, Bedford, VA 24523\n\t* Phone: (540) 586-7684\n\t* Website: https://www.vacourts.gov\n\t* Jurisdiction: Traffic, criminal, civil cases\n\n**POLICE**\n\n1. **Bedford Police Department**\n\t* Address: 215 E Main St (Town Hall)\n\t* Non-Emergency Phone: (540) 587-6011\n\t* Website: https://ww",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:40:11.420118+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Bedford VA",
+      "fact": "\n============================================================\nJURISDICTION: Bedford VA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /doc [2026-05-29]: Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedford, Vir...\n    unknown [2026-05-29]: Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedfor",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:40:11.440199+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Bedford VA",
+      "fact": "\n============================================================\nJURISDICTION: Bedford VA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /doc [2026-05-29]: Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedford, Vir...\n    unknown [2026-05-29]: Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedford, Vir...\n\n[1/4] Chronicle search...\n  5 Chronicle references\n[2/4] Searching jurisdiction files...\n",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T02:40:11.451236+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Bedford VA",
+      "fact": "# Motion to Dismiss - Bedford VA\n\nBased on the provided context, here is relevant information about motions to dismiss:\n\n## Criminal Procedure Context\nIn **criminal cases**, a Motion to Dismiss is used to:\n- **Challenge legal sufficiency** of charges\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure Context\nIn **civil cases**, a Motion to Dismiss is governed by:\n- ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:41:09.764560+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Bedford VA",
+      "fact": "# Motion to Dismiss - Bedford VA\n\nBased on the provided context, here is relevant information about motions to dismiss:\n\n## Criminal Procedure Context\nIn **criminal cases**, a Motion to Dismiss is used to:\n- **Challenge legal sufficiency** of charges\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure Context\nIn **civil cases**, a Motion to Dismiss is governed by:\n- **FRCP Rule 12(b)** - Defenses and Objections\n- Reference: https://www.law.cornell.edu/rules/frcp/ru",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T02:41:09.777683+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Bedford VA",
+      "fact": "**Civic Profile for Bedford, VA**\n\n**COURTS**\n\n1. Bedford County General District Court\n\t* Address: 123 E Main St, Suite 202, Bedford, VA 24523\n\t* Phone: (540) 586-7684\n\t* Website: https://www.vacourts.gov\n\t* Jurisdiction: Traffic, criminal, civil cases\n\n**POLICE**\n\n1. Bedford Police Department\n\t* Non-emergency phone: (540) 587-6011\n\t* Address: 215 E Main St (Town Hall)\n\t* Website: https://www.bed",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:54:08.870332+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "jurisdiction_lookup",
+      "query": "court:Bedford VA",
+      "fact": "{\"jurisdiction\": \"Bedford VA\", \"summary\": \"**Civic Profile for Bedford, VA**\\n\\n**COURTS**\\n\\n1. Bedford County General District Court\\n\\t* Address: 123 E Main St, Suite 202, Bedford, VA 24523\\n\\t* Phone: (540) 586-7684\\n\\t* Website: https://www.vacourts.gov\\n\\t* Jurisdiction: Traffic, criminal, civil cases\\n\\n**POLICE**\\n\\n1. Bedford Police Department\\n\\t* Non-emergency phone: (540) 587-6011\\n\\t* Address: 215 E Main St (Town Hall)\\n\\t* Website: https://www.bedfordva.gov\\n\\n**JAIL**\\n\\n1. Bedfor",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:54:08.880871+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Bedford VA",
+      "fact": "\n============================================================\nJURISDICTION: Bedford VA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: **Civic Profile: Bedford, VA**\n\n**COURTS**\n\n1. **Bedford County General District...\n    /doc [2026-05-29]: Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:54:08.902727+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Bedford VA",
+      "fact": "\n============================================================\nJURISDICTION: Bedford VA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: **Civic Profile: Bedford, VA**\n\n**COURTS**\n\n1. **Bedford County General District...\n    /doc [2026-05-29]: Exported: export_20260528_202652.md (5.3KB)\n\n# Motion to Dismiss\n## Bedford, Vir...\n\n[1/4] Chronicle search...\n  5 Chronicle references\n[2/4] Searching jurisdiction fil",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T02:54:08.914241+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Bedford VA",
+      "fact": "Exported: export_20260528_205420.md (2.9KB)\n\n# Motion to Dismiss\n## Bedford, Virginia\n\n---\n\n## I. INTRODUCTION\n\nThis Motion to Dismiss is filed pursuant to **Federal Rule of Civil Procedure 12(b)** and applicable Virginia procedural rules, and seeks dismissal of the above-captioned action for the reasons set forth herein.\n\n**Reference:** [Federal Rule of Civil Procedure 12(b)](https://www.law.corn",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T02:54:20.427563+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Bedford VA",
+      "fact": "Exported: export_20260528_205420.md (2.9KB)\n\n# Motion to Dismiss\n## Bedford, Virginia\n\n---\n\n## I. INTRODUCTION\n\nThis Motion to Dismiss is filed pursuant to **Federal Rule of Civil Procedure 12(b)** and applicable Virginia procedural rules, and seeks dismissal of the above-captioned action for the reasons set forth herein.\n\n**Reference:** [Federal Rule of Civil Procedure 12(b)](https://www.law.cornell.edu/rules/frcp/rule_12#b)\n\n---\n\n## II. STATEMENT OF FACTS\n\n[*Insert specific factual background ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T02:54:20.439582+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/jurisdiction Bedford VA",
+      "fact": "# Bedford County, Virginia Courts\n\nBased on your query for Bedford, VA jurisdiction, here are the relevant courts:\n\n## Bedford County Circuit Court\n- **Phone**: (540) 586-7628\n- **Address**: 123 E Main Street, Bedford, VA 24523\n- **Website**: https://www.vacourts.gov/courts/circuit/home.html\n- **Hours**: Monday-Friday, 8:15 AM - 5:00 PM ET\n\n**Jurisdiction:**\n- Felonies\n- Civil cases over $25,000\n-",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:25:37.977454+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/jurisdiction Bedford VA",
+      "fact": "# Bedford County, Virginia Courts\n\nBased on your query for Bedford, VA jurisdiction, here are the relevant courts:\n\n## Bedford County Circuit Court\n- **Phone**: (540) 586-7628\n- **Address**: 123 E Main Street, Bedford, VA 24523\n- **Website**: https://www.vacourts.gov/courts/circuit/home.html\n- **Hours**: Monday-Friday, 8:15 AM - 5:00 PM ET\n\n**Jurisdiction:**\n- Felonies\n- Civil cases over $25,000\n- Domestic relations\n- Probate\n- Juvenile matters (in some jurisdictions)\n- Appeals from General Dist",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:25:37.989974+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Bedford VA",
+      "fact": "# Motion to Dismiss - Bedford VA\n\nBased on the provided legal context, a **Motion to Dismiss** can apply in both criminal and civil proceedings:\n\n## Criminal Procedure Context\nIn criminal cases, a **Motion to Dismiss** is used to:\n- **Challenge legal sufficiency** of the charges against a defendant\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n\nThis is a pretrial motion available ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:26:06.187917+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Bedford VA",
+      "fact": "# Motion to Dismiss - Bedford VA\n\nBased on the provided legal context, a **Motion to Dismiss** can apply in both criminal and civil proceedings:\n\n## Criminal Procedure Context\nIn criminal cases, a **Motion to Dismiss** is used to:\n- **Challenge legal sufficiency** of the charges against a defendant\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n\nThis is a pretrial motion available during criminal procedure.\n\n## Civil Procedure Context\nIn civil cases, a **Motion to Dismiss** is go",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:26:06.201256+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/jurisdiction Bedford VA",
+      "fact": "# Bedford County, Virginia - Court Jurisdiction\n\nBased on your query for Bedford, VA jurisdiction, here are the relevant courts:\n\n## **Bedford County Circuit Court**\n- **Address**: 123 E Main Street, Bedford, VA 24523\n- **Phone**: (540) 586-7628\n- **Website**: https://www.vacourts.gov/courts/circuit/home.html\n- **Hours**: Monday-Friday, 8:15 AM - 5:00 PM ET\n\n### Jurisdiction:\n- Felonies\n- Civil ca",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:38:57.246907+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/jurisdiction Bedford VA",
+      "fact": "# Bedford County, Virginia - Court Jurisdiction\n\nBased on your query for Bedford, VA jurisdiction, here are the relevant courts:\n\n## **Bedford County Circuit Court**\n- **Address**: 123 E Main Street, Bedford, VA 24523\n- **Phone**: (540) 586-7628\n- **Website**: https://www.vacourts.gov/courts/circuit/home.html\n- **Hours**: Monday-Friday, 8:15 AM - 5:00 PM ET\n\n### Jurisdiction:\n- Felonies\n- Civil cases over $25,000\n- Domestic relations\n- Probate\n- Juvenile matters (in some jurisdictions)\n- Appeals",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:38:57.261936+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Bedford VA",
+      "fact": "# Motion to Dismiss - Bedford VA\n\nBased on the provided context, here is information about motions to dismiss that would apply in Bedford, VA:\n\n## Criminal Procedure Context\nIn **criminal cases**, a Motion to Dismiss is used to:\n- **Challenge legal sufficiency** of the charges\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n- Governed by Federal Rules of Criminal Procedure Rule 14\n\n",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:39:27.604496+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Bedford VA",
+      "fact": "# Motion to Dismiss - Bedford VA\n\nBased on the provided context, here is information about motions to dismiss that would apply in Bedford, VA:\n\n## Criminal Procedure Context\nIn **criminal cases**, a Motion to Dismiss is used to:\n- **Challenge legal sufficiency** of the charges\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n- Governed by Federal Rules of Criminal Procedure Rule 14\n\n## Civil Procedure Context\nIn **civil cases**, a Motion to Dismiss is governed by:\n- **FRCP Rule 12(",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:39:27.618050+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Bedford VA",
+      "fact": "Exported: export_20260528_214335.md (3.9KB)\n\n# Motion to Dismiss in Bedford, VA\n\n## Overview\n\nA **Motion to Dismiss** is a legal pleading filed in court to request that a case be dismissed before trial. In Bedford, Virginia, motions to dismiss are filed in the appropriate court based on the type of case and the grounds for dismissal.\n\n---\n\n## Applicable Courts in Bedford, VA\n\n### Bedford County Ge",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:43:35.618232+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Bedford VA",
+      "fact": "Exported: export_20260528_214335.md (3.9KB)\n\n# Motion to Dismiss in Bedford, VA\n\n## Overview\n\nA **Motion to Dismiss** is a legal pleading filed in court to request that a case be dismissed before trial. In Bedford, Virginia, motions to dismiss are filed in the appropriate court based on the type of case and the grounds for dismissal.\n\n---\n\n## Applicable Courts in Bedford, VA\n\n### Bedford County General District Court\n- **Address:** 123 E Main Street, Suite 202, Bedford, VA 24523\n- **Phone:** (54",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:43:35.636275+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/jurisdiction Hazlehurst MS",
+      "fact": "# Hazlehurst, MS \u2014 Jurisdiction Overview\n\nHazlehurst is located in **Copiah County, Mississippi** and has multiple courts with different jurisdictions:\n\n## Municipal Court\n- **Hazlehurst Municipal Court**\n- Address: 202 E Whitworth St, Hazlehurst, MS 39083\n- Phone: (601) 894-1181\n- Website: https://hazlehurstms.govtportal.com\n- **Jurisdiction**: Traffic violations, misdemeanors, and city ordinance",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:56:51.005940+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/jurisdiction Hazlehurst MS",
+      "fact": "# Hazlehurst, MS \u2014 Jurisdiction Overview\n\nHazlehurst is located in **Copiah County, Mississippi** and has multiple courts with different jurisdictions:\n\n## Municipal Court\n- **Hazlehurst Municipal Court**\n- Address: 202 E Whitworth St, Hazlehurst, MS 39083\n- Phone: (601) 894-1181\n- Website: https://hazlehurstms.govtportal.com\n- **Jurisdiction**: Traffic violations, misdemeanors, and city ordinance violations\n\n## County Court\n- **Copiah County Court**\n- Address: 101 Caldwell Drive, Hazlehurst, MS",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:56:51.017488+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Overview\n\nBased on the context provided, a **Motion to Dismiss** is available in both criminal and civil proceedings:\n\n## Criminal Procedure\n**Motion to Dismiss** - Challenge legal sufficiency\n- **Purpose**: Challenge the legal sufficiency of the charges against a defendant\n- **Reference**: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure\n**Motion to Dism",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:57:19.100090+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Overview\n\nBased on the context provided, a **Motion to Dismiss** is available in both criminal and civil proceedings:\n\n## Criminal Procedure\n**Motion to Dismiss** - Challenge legal sufficiency\n- **Purpose**: Challenge the legal sufficiency of the charges against a defendant\n- **Reference**: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure\n**Motion to Dismiss** - Rule 12(b)\n- **Rule**: Federal Rules of Civil Procedure Rule 12(b)\n- **Reference**: https://",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:57:19.112818+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "python",
+      "query": "-c \"import sys; sys.path.insert(0, 'C:/Users/greg/dev/clawpack_v2'); from agents.lawclaw.core.court_rules_extractor import _read_local_jurisdiction_files; content = _read_local_jurisdiction_files('Hazlehurst MS'); print('Found:' if content else 'NOT FOUND'); print(content[:500] if content else '')\"",
+      "fact": "# Analysis of Your Query\n\nBased on the search results provided, I need to give you straightforward feedback:\n\n## The Problem\n\nYour command is attempting to:\n1. Import a function from `agents.lawclaw.core.court_rules_extractor`\n2. Call `_read_local_jurisdiction_files('Hazlehurst MS')`\n3. Retrieve court rules for Hazlehurst, Mississippi\n\n**However, the search results returned are completely unrelate",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T03:58:53.539263+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "-c \"import sys; sys.path.insert(0, 'C:/Users/greg/dev/clawpack_v2'); from agents.lawclaw.core.court_rules_extractor import _read_local_jurisdiction_files; content = _read_local_jurisdiction_files('Hazlehurst MS'); print('Found:' if content else 'NOT FOUND'); print(content[:500] if content else '')\"",
+      "fact": "# Analysis of Your Query\n\nBased on the search results provided, I need to give you straightforward feedback:\n\n## The Problem\n\nYour command is attempting to:\n1. Import a function from `agents.lawclaw.core.court_rules_extractor`\n2. Call `_read_local_jurisdiction_files('Hazlehurst MS')`\n3. Retrieve court rules for Hazlehurst, Mississippi\n\n**However, the search results returned are completely unrelated** \u2014 they contain programming language references and general law overviews, not Hazlehurst court r",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T03:58:53.556302+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/jurisdiction Hazlehurst MS",
+      "fact": "# Jurisdiction Information for Hazlehurst, MS\n\nHazlehurst is located in **Copiah County, Mississippi** and has multiple court systems with different jurisdictions:\n\n## Municipal Court (City Level)\n**Hazlehurst Municipal Court**\n- **Address**: 202 E Whitworth St, Hazlehurst, MS 39083\n- **Phone**: (601) 894-1181\n- **Website**: https://hazlehurstms.govtportal.com\n- **Jurisdiction**: \n  - Traffic viol",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:08:04.324690+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/jurisdiction Hazlehurst MS",
+      "fact": "# Jurisdiction Information for Hazlehurst, MS\n\nHazlehurst is located in **Copiah County, Mississippi** and has multiple court systems with different jurisdictions:\n\n## Municipal Court (City Level)\n**Hazlehurst Municipal Court**\n- **Address**: 202 E Whitworth St, Hazlehurst, MS 39083\n- **Phone**: (601) 894-1181\n- **Website**: https://hazlehurstms.govtportal.com\n- **Jurisdiction**: \n  - Traffic violations\n  - Misdemeanors\n  - City ordinance violations\n\n## County Court\n**Copiah County Court**\n- **A",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:08:04.336902+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Legal Information\n\nBased on the context provided, here is information about motions to dismiss:\n\n## Criminal Procedure Context\nIn **criminal cases**, a **Motion to Dismiss** is used to:\n- **Challenge legal sufficiency** of charges against a defendant\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n\nThis is a pretrial motion available in criminal procedure.\n\n## ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:08:38.746612+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Legal Information\n\nBased on the context provided, here is information about motions to dismiss:\n\n## Criminal Procedure Context\nIn **criminal cases**, a **Motion to Dismiss** is used to:\n- **Challenge legal sufficiency** of charges against a defendant\n- Reference: https://www.law.cornell.edu/wex/motion_to_dismiss\n\nThis is a pretrial motion available in criminal procedure.\n\n## Civil Procedure Context\nIn **civil cases**, a **Motion to Dismiss** is governed by:\n- **FRCP Rule 12",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:08:38.757127+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Legal Resources\n\nBased on your query about a motion to dismiss, here are the relevant legal resources:\n\n## Criminal Procedure (Federal)\nIf this involves a criminal case in Hazlehurst, MS (federal court):\n\n**Motion to Dismiss** - Challenges the legal sufficiency of charges\n- Resource: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure (Federal)\nIf this invol",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:20:08.878658+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Legal Resources\n\nBased on your query about a motion to dismiss, here are the relevant legal resources:\n\n## Criminal Procedure (Federal)\nIf this involves a criminal case in Hazlehurst, MS (federal court):\n\n**Motion to Dismiss** - Challenges the legal sufficiency of charges\n- Resource: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure (Federal)\nIf this involves a civil case:\n\n**Motion to Dismiss** - Filed under FRCP Rule 12(b)\n- Resource: https://www.law.c",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:20:08.891733+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "lawclaw>",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Legal Information\n\nBased on the context provided, here is information about motions to dismiss:\n\n## Criminal Procedure Context\nIn **criminal cases**, a Motion to Dismiss is used to:\n- **Challenge legal sufficiency** of charges against a defendant\n- Resource: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure Context\nIn **civil cases**, a Motion to Dismiss i",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:27:16.195392+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "/doc motion to dismiss Hazlehurst MS",
+      "fact": "# Motion to Dismiss - Legal Information\n\nBased on the context provided, here is information about motions to dismiss:\n\n## Criminal Procedure Context\nIn **criminal cases**, a Motion to Dismiss is used to:\n- **Challenge legal sufficiency** of charges against a defendant\n- Resource: https://www.law.cornell.edu/wex/motion_to_dismiss\n\n## Civil Procedure Context\nIn **civil cases**, a Motion to Dismiss is governed by:\n- **FRCP Rule 12(b)** - Defenses and Objections\n- Resource: https://www.law.cornell.e",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:27:16.206579+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Lynchburg VA",
+      "fact": "Exported: export_20260528_223119.md (4.2KB)\n\n# Motion to Dismiss in Lynchburg, VA\n\n## Overview\n\nA motion to dismiss is a legal pleading used to challenge the validity or sufficiency of a case before trial. In Lynchburg, Virginia, motions to dismiss may be filed in either the **General District Court** or **Circuit Court**, depending on the nature and amount in controversy of the case.\n\n---\n\n## App",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:31:19.631348+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Lynchburg VA",
+      "fact": "Exported: export_20260528_223119.md (4.2KB)\n\n# Motion to Dismiss in Lynchburg, VA\n\n## Overview\n\nA motion to dismiss is a legal pleading used to challenge the validity or sufficiency of a case before trial. In Lynchburg, Virginia, motions to dismiss may be filed in either the **General District Court** or **Circuit Court**, depending on the nature and amount in controversy of the case.\n\n---\n\n## Applicable Courts in Lynchburg\n\n### Lynchburg General District Court\n- **Address:** 900 Church Street, ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:31:19.643883+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Miami FL",
+      "fact": "Exported: export_20260528_223722.md (3.6KB)\n\n# Motion to Dismiss in Miami, Florida\n\n## Court Jurisdiction\n\nAll cases in Miami, Florida are handled by the **11th Judicial Circuit Court of Florida \u2013 Miami-Dade County**. There is no municipal court in Miami; therefore, motions to dismiss must be filed in the circuit court.\n\n**Court Information:**\n- **Official Website:** https://www.mdcourts.gov\n- **J",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:37:22.218555+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Miami FL",
+      "fact": "Exported: export_20260528_223722.md (3.6KB)\n\n# Motion to Dismiss in Miami, Florida\n\n## Court Jurisdiction\n\nAll cases in Miami, Florida are handled by the **11th Judicial Circuit Court of Florida \u2013 Miami-Dade County**. There is no municipal court in Miami; therefore, motions to dismiss must be filed in the circuit court.\n\n**Court Information:**\n- **Official Website:** https://www.mdcourts.gov\n- **Jurisdiction:** 11th Judicial Circuit Court \u2013 Miami-Dade County\n\n---\n\n## Filing Location & Contact In",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:37:22.232081+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Miami FL",
+      "fact": "Exported: export_20260528_224223.md (4.1KB)\n\n# Motion to Dismiss in Miami, Florida\n\n## Overview\n\nA Motion to Dismiss is a legal filing that requests the court to dismiss a case before trial. In Miami, Florida, all cases\u2014including those that would otherwise fall under municipal court jurisdiction\u2014are handled by the **11th Judicial Circuit Court of Florida \u2013 Miami-Dade County**.\n\n---\n\n## Applicable ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:42:23.248487+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Miami FL",
+      "fact": "Exported: export_20260528_224223.md (4.1KB)\n\n# Motion to Dismiss in Miami, Florida\n\n## Overview\n\nA Motion to Dismiss is a legal filing that requests the court to dismiss a case before trial. In Miami, Florida, all cases\u2014including those that would otherwise fall under municipal court jurisdiction\u2014are handled by the **11th Judicial Circuit Court of Florida \u2013 Miami-Dade County**.\n\n---\n\n## Applicable Court\n\n### 11th Judicial Circuit Court \u2013 Miami-Dade County\n\n**Court Website:** https://www.mdcourts.",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:42:23.260014+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Las Vegas NV",
+      "fact": "Exported: export_20260528_224608.md (7.0KB)\n\n# Motion to Dismiss \u2014 Las Vegas, Nevada\n\n## Overview\n\nA Motion to Dismiss is a legal filing that challenges the validity or legal sufficiency of a case before the court. In Las Vegas and Clark County, Nevada, motions to dismiss may be filed in municipal court, district court, or justice court depending on the case type and jurisdiction.\n\n---\n\n## Applica",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:46:08.676992+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Las Vegas NV",
+      "fact": "Exported: export_20260528_224608.md (7.0KB)\n\n# Motion to Dismiss \u2014 Las Vegas, Nevada\n\n## Overview\n\nA Motion to Dismiss is a legal filing that challenges the validity or legal sufficiency of a case before the court. In Las Vegas and Clark County, Nevada, motions to dismiss may be filed in municipal court, district court, or justice court depending on the case type and jurisdiction.\n\n---\n\n## Applicable Courts in Las Vegas Area\n\n### Las Vegas Municipal Court\n- **Jurisdiction**: Misdemeanor offenses",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:46:08.693393+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Las Vegas NV",
+      "fact": "Exported: export_20260528_225241.md (8.2KB)\n\n# Motion to Dismiss \u2014 Las Vegas, Nevada\n\n## Overview\n\nA Motion to Dismiss is a legal filing that requests the court to dismiss a case based on procedural defects, lack of jurisdiction, failure to state a claim, or other legal grounds. In Las Vegas and Clark County, Nevada, motions to dismiss may be filed in municipal court, district court, or justice co",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:52:41.537845+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Las Vegas NV",
+      "fact": "Exported: export_20260528_225241.md (8.2KB)\n\n# Motion to Dismiss \u2014 Las Vegas, Nevada\n\n## Overview\n\nA Motion to Dismiss is a legal filing that requests the court to dismiss a case based on procedural defects, lack of jurisdiction, failure to state a claim, or other legal grounds. In Las Vegas and Clark County, Nevada, motions to dismiss may be filed in municipal court, district court, or justice court depending on the case type and jurisdiction.\n\n---\n\n## Applicable Courts in Las Vegas Area\n\n### H",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:52:41.551367+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Tarpon Springs FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_225345.md (2.4KB)\n\n# NOTICE: JURISDICTION MISMATCH\n\n## \u26a0\ufe0f Important Clarification\n\nBased on the query parameters provided, there is a **critical jurisdictional issue** that must be addressed before proceeding with a Motion to Dismiss document.\n\n---\n\n## Jurisdictional Problem\n\n**Query Specifications:**\n- **Location**: Tarpon Springs, FL\n- **Case Number**: 2024-CV-1234\n- **",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:53:45.038756+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Tarpon Springs FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_225345.md (2.4KB)\n\n# NOTICE: JURISDICTION MISMATCH\n\n## \u26a0\ufe0f Important Clarification\n\nBased on the query parameters provided, there is a **critical jurisdictional issue** that must be addressed before proceeding with a Motion to Dismiss document.\n\n---\n\n## Jurisdictional Problem\n\n**Query Specifications:**\n- **Location**: Tarpon Springs, FL\n- **Case Number**: 2024-CV-1234\n- **Parties**: John Smith (Plaintiff) v. ABC Corp (Defendant)\n\n**Available Data:**\n- All provided contex",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:53:45.052273+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_225430.md (2.1KB)\n\n# \u26a0\ufe0f JURISDICTION MISMATCH NOTICE\n\n## Important Clarification Required\n\nI must inform you that **there is a critical jurisdictional incompatibility** between your request and the available data:\n\n### Your Request Parameters:\n- **Venue**: Miami, Florida\n- **Case Number**: 2024-CV-1234\n- **Court Type**: Implied Federal or State Court (Miami-Dade County)\n-",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T04:54:30.851330+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_225430.md (2.1KB)\n\n# \u26a0\ufe0f JURISDICTION MISMATCH NOTICE\n\n## Important Clarification Required\n\nI must inform you that **there is a critical jurisdictional incompatibility** between your request and the available data:\n\n### Your Request Parameters:\n- **Venue**: Miami, Florida\n- **Case Number**: 2024-CV-1234\n- **Court Type**: Implied Federal or State Court (Miami-Dade County)\n- **Document Type**: Motion to Dismiss (FRCP 12(b)(6))\n\n### Available Data:\n- **Jurisdiction**: State",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T04:54:30.864208+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_230246.md (4.4KB)\n\n# MOTION TO DISMISS\n## Case No. 2024-CV-1234\n### John Smith v. ABC Corp\n\n---\n\n## I. CAPTION\n\nIN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT\nIN AND FOR MIAMI-DADE COUNTY, FLORIDA\n\n**JOHN SMITH,**\nPlaintiff,\n\nv.\n\n**ABC CORP,**\nDefendant.\n\n---\n\n## II. INTRODUCTION\n\nDefendant ABC Corp (\"Defendant\"), by and through undersigned counsel, respectfully su",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T05:02:46.739628+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp - case: 2024-CV-1234 - grounds: failure to state a claim",
+      "fact": "Exported: export_20260528_230246.md (4.4KB)\n\n# MOTION TO DISMISS\n## Case No. 2024-CV-1234\n### John Smith v. ABC Corp\n\n---\n\n## I. CAPTION\n\nIN THE CIRCUIT COURT OF THE ELEVENTH JUDICIAL CIRCUIT\nIN AND FOR MIAMI-DADE COUNTY, FLORIDA\n\n**JOHN SMITH,**\nPlaintiff,\n\nv.\n\n**ABC CORP,**\nDefendant.\n\n---\n\n## II. INTRODUCTION\n\nDefendant ABC Corp (\"Defendant\"), by and through undersigned counsel, respectfully submits this Motion to Dismiss Plaintiff's Complaint pursuant to Florida Rule of Civil Procedure 1.140",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T05:02:46.754286+00:00"
     }
   ],
   "index": {
@@ -256,13 +960,386 @@
     "qualified": [
       12,
       13,
-      14
+      14,
+      15,
+      16,
+      17,
+      26,
+      27,
+      28
     ],
     "immunity": [
       12,
       13,
-      14
+      14,
+      15,
+      16,
+      17,
+      26,
+      27,
+      28
+    ],
+    "salazar-limon": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "https://www.oyez.org/cases/2016/15-617": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "motion": [
+      29,
+      30,
+      31,
+      32,
+      36,
+      37,
+      42,
+      43,
+      46,
+      47,
+      50,
+      51,
+      52,
+      53,
+      56,
+      57,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "dismiss": [
+      29,
+      30,
+      31,
+      32,
+      36,
+      37,
+      42,
+      43,
+      46,
+      47,
+      50,
+      51,
+      52,
+      53,
+      56,
+      57,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "bedford": [
+      29,
+      30,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "sdny": [
+      31,
+      32
+    ],
+    "/doc": [
+      36,
+      37,
+      46,
+      47,
+      50,
+      51,
+      56,
+      57,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "court:bedford": [
+      39
+    ],
+    "/jurisdiction": [
+      44,
+      45,
+      48,
+      49,
+      54,
+      55,
+      60,
+      61
+    ],
+    "hazlehurst": [
+      54,
+      55,
+      56,
+      57,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "\"import": [
+      58,
+      59
+    ],
+    "sys;": [
+      58,
+      59
+    ],
+    "sys.path.insert(0,": [
+      58,
+      59
+    ],
+    "'c:/users/greg/dev/clawpack_v2');": [
+      58,
+      59
+    ],
+    "from": [
+      58,
+      59
+    ],
+    "agents.lawclaw.core.court_rules_extractor": [
+      58,
+      59
+    ],
+    "import": [
+      58,
+      59
+    ],
+    "_read_local_jurisdiction_files;": [
+      58,
+      59
+    ],
+    "content": [
+      58,
+      58,
+      58,
+      59,
+      59,
+      59
+    ],
+    "_read_local_jurisdiction_files('hazlehurst": [
+      58,
+      59
+    ],
+    "ms');": [
+      58,
+      59
+    ],
+    "print('found:'": [
+      58,
+      59
+    ],
+    "else": [
+      58,
+      58,
+      59,
+      59
+    ],
+    "'not": [
+      58,
+      59
+    ],
+    "found');": [
+      58,
+      59
+    ],
+    "print(content[:500]": [
+      58,
+      59
+    ],
+    "'')\"": [
+      58,
+      59
+    ],
+    "lynchburg": [
+      68,
+      69
+    ],
+    "miami": [
+      70,
+      71,
+      72,
+      73,
+      80,
+      81,
+      82,
+      83
+    ],
+    "vegas": [
+      74,
+      75,
+      76,
+      77
+    ],
+    "tarpon": [
+      78,
+      79
+    ],
+    "springs": [
+      78,
+      79
+    ],
+    "plaintiff:": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "john": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "smith": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "defendant:": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "corp": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "case:": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "2024-cv-1234": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "grounds:": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "failure": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "state": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "claim": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
     ]
   },
-  "updated_at": "2026-05-28T16:56:48.983247+00:00"
+  "updated_at": "2026-05-29T05:02:46.755293+00:00"
 }

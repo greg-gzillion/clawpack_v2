@@ -18,6 +18,7 @@ Formula:
 The more consensus, the truer it is.
 """
 import json
+import re
 import hashlib
 from pathlib import Path
 from datetime import datetime, timezone
@@ -52,6 +53,75 @@ def _fact_hash(value: str) -> str:
     """Create a stable hash for a fact to track consensus across sources."""
     normalized = value.strip().lower()[:500]
     return hashlib.sha256(normalized.encode()).hexdigest()[:16]
+
+
+# ── Claim Extraction ─────────────────────────────────────────────────────────
+
+def _extract_claims(result: str, args: str = "") -> List[Dict]:
+    """
+    Extract structured claims from a command result.
+    Returns list of {value, url, source_type, confidence} dicts.
+    Prevents consensus pollution from raw markdown responses.
+    """
+    claims = []
+
+    # Extract URLs from the result
+    urls = re.findall(r'https?://[^\s\)\]\<\>\"]+', result)
+
+    # Extract case citations (e.g., "Miranda v. Arizona, 384 U.S. 436 (1966)")
+    citations = re.findall(
+        r'([A-Z][a-z]+(?:\s+v\.?\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)?,?\s+\d+\s+U\.S\.\s+\d+\s*\(\d{4}\))',
+        result
+    )
+
+    # Extract key legal concepts (lines starting with ** or ##)
+    concepts = re.findall(r'(?:\*\*|##)\s*(.+?)(?:\*\*|##)', result)
+
+    # Claim 1: The primary topic/query
+    if args:
+        claims.append({
+            "value": f"query:{args.strip()[:200]}",
+            "source_type": "memory",
+            "confidence": 0.85,
+        })
+
+    # Claim 2: Each case citation found
+    for cite in citations[:5]:
+        claims.append({
+            "value": f"citation:{cite.strip()[:200]}",
+            "url": urls[0] if urls else "",
+            "source_type": "web_verified",
+            "confidence": 0.90,
+        })
+
+    # Claim 3: Key concepts extracted
+    for concept in concepts[:5]:
+        cleaned = concept.strip()[:200]
+        if len(cleaned) > 10:
+            claims.append({
+                "value": f"concept:{cleaned}",
+                "source_type": "web_verified",
+                "confidence": 0.80,
+            })
+
+    # Claim 4: Source URLs as verified endpoints
+    for url in urls[:5]:
+        claims.append({
+            "value": f"source_url:{url}",
+            "url": url,
+            "source_type": "web_verified",
+            "confidence": 0.85,
+        })
+
+    # Fallback: if no structured claims extracted, use first 200 chars
+    if not claims:
+        claims.append({
+            "value": result[:200].replace('\n', ' ').strip(),
+            "source_type": "web_verified",
+            "confidence": 0.80,
+        })
+
+    return claims
 
 
 # ── Scoring ──────────────────────────────────────────────────────────────────
@@ -130,6 +200,8 @@ def score_fact(
     return round(min(1.0, truth_score), 4)
 
 
+# ── Confirmation ─────────────────────────────────────────────────────────────
+
 def record_confirmation(
     fact_value: str,
     source_url: str = "",
@@ -198,6 +270,8 @@ def record_confirmation(
     return fact_entry
 
 
+# ── Correction ───────────────────────────────────────────────────────────────
+
 def record_correction(
     fact_value: str,
     corrected_value: str,
@@ -248,6 +322,8 @@ def record_correction(
     )
 
 
+# ── Query ────────────────────────────────────────────────────────────────────
+
 def get_consensus(fact_value: str) -> Dict[str, Any]:
     """Get the current consensus state for a fact."""
     fact_id = _fact_hash(fact_value)
@@ -290,32 +366,24 @@ def constitutional_consensus_check(
 ) -> None:
     """
     Called from the handler's constitutional boundary.
-    Automatically records consensus for every command result.
-    No per-command edits needed.
+    Normalizes facts before recording — stores structured claims,
+    not raw markdown responses. Prevents consensus pollution.
     """
     if not result or len(result) < 50:
         return
 
-    # Record the result as a confirmed fact
-    primary_url = urls[0] if urls else ""
-    record_confirmation(
-        fact_value=result[:500],
-        source_url=primary_url,
-        source_type="web_verified",
-        agent_name=agent_name,
-        confidence=0.85,
-    )
+    # Extract structured claims instead of dumping raw response
+    claims = _extract_claims(result, args)
 
-    # Record each URL as a separate confirmation (builds cross-source consensus)
-    for url in (urls or [])[:5]:
-        if url and url != primary_url:
-            record_confirmation(
-                fact_value=result[:500],
-                source_url=url,
-                source_type="web_verified",
-                agent_name=agent_name,
-                confidence=0.80,
-            )
+    # Record each claim as a separate consensus fact
+    for claim in claims:
+        record_confirmation(
+            fact_value=claim["value"],
+            source_url=claim.get("url", ""),
+            source_type=claim.get("source_type", "web_verified"),
+            agent_name=agent_name,
+            confidence=claim.get("confidence", 0.85),
+        )
 
 
 __all__ = [
@@ -326,4 +394,5 @@ __all__ = [
     "get_high_confidence_facts",
     "get_recent_corrections",
     "constitutional_consensus_check",
+    "_extract_claims",
 ]

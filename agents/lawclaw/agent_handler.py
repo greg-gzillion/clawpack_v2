@@ -1,5 +1,6 @@
 ﻿"""A2A Handler for LawClaw - Law Research Agent with A2A routing"""
 import sys
+import json
 from pathlib import Path
 
 LAWCLAW_DIR = Path(__file__).resolve().parent
@@ -39,7 +40,7 @@ class LawClawHandler(BaseAgent):
 
         try:
             if cmd in ("/help", "help"):
-                result = "LawClaw - /analyze /ask /brief /browse /cite /court /docket /federal /judge /jurisdiction /law /list /oral /precedent /search /state /stats /statute /summarize /draft /help"
+                result = "LawClaw - /analyze /ask /brief /browse /cite /correct /court /doc /docket /draft /federal /judge /jurisdiction /law /list /oral /precedent /search /state /stats /statute /summarize /help"
             elif cmd == "/stats":
                 result = f"LawClaw | Interactions: {self.state.get('interactions', 0)}"
             elif cmd == "/analyze" and args:
@@ -57,9 +58,70 @@ class LawClawHandler(BaseAgent):
             elif cmd == "/cite" and args:
                 from agents.lawclaw.commands.cite import run as cmd_run
                 result = cmd_run(args)
+            elif cmd == "/correct" and args:
+                from agents.lawclaw.commands.correct import run as cmd_run
+                result = cmd_run(args)
             elif cmd == "/court" and args:
                 from agents.lawclaw.commands.court import run as cmd_run
                 result = cmd_run(args)
+            elif cmd in ("/doc", "/draft") and args:
+                try:
+                    from agents.lawclaw.commands._memory import recall_court
+                    from agents.lawclaw.core.court_rules_extractor import (
+                        extract_court_rules, rules_to_prompt_context,
+                        jurisdiction_files_to_context
+                    )
+
+                    # Extract location from BEFORE the first " - " separator
+                    # "motion to dismiss Miami FL - plaintiff: John..." → "motion to dismiss Miami FL"
+                    location_part = args.split(" - ")[0] if " - " in args else args
+                    
+                    # Extract location by trying progressively shorter terms
+                    search_parts = location_part.strip().split()
+                    location = location_part  # fallback
+                    court = None
+                    for n in [3, 2, 1]:
+                        if len(search_parts) >= n:
+                            term = " ".join(search_parts[-n:])
+                            court = recall_court(term)
+                            if court:
+                                location = term
+                                break
+
+                    # Parse stored JSON for jurisdiction summary
+                    jurisdiction_context = ""
+                    if court:
+                        court_fact = court.get('fact', '')
+                        try:
+                            data = json.loads(court_fact)
+                            jurisdiction_context = data.get('summary', court_fact)[:600]
+                        except (json.JSONDecodeError, TypeError):
+                            jurisdiction_context = court_fact[:600]
+
+                    # Read local files using extracted location
+                    local_files = jurisdiction_files_to_context(location)
+
+                    # Extract live court rules
+                    rules_context = ""
+                    try:
+                        rules = extract_court_rules(location)
+                        if rules:
+                            rules_context = rules_to_prompt_context(rules)
+                    except Exception:
+                        pass
+
+                    # Build enriched payload
+                    payload_parts = [f"/create legal document: {args}"]
+                    if local_files:
+                        payload_parts.append(f"LOCAL COURT DATA:\n{local_files[:2000]}")
+                    if jurisdiction_context:
+                        payload_parts.append(f"JURISDICTION SUMMARY: {jurisdiction_context}")
+                    if rules_context:
+                        payload_parts.append(f"COURT RULES: {rules_context}")
+                    payload = "\n\n".join(payload_parts)
+                except Exception:
+                    payload = f"/create legal document: {args}"
+                result = self.call_agent("docuclaw", payload, timeout=60)
             elif cmd == "/docket" and args:
                 from agents.lawclaw.commands.docket import run as cmd_run
                 result = cmd_run(args)
@@ -96,18 +158,6 @@ class LawClawHandler(BaseAgent):
             elif cmd == "/summarize" and args:
                 from agents.lawclaw.commands.summarize import run as cmd_run
                 result = cmd_run(args)
-            elif cmd == "/draft" and args:
-                # Enrich delegation with jurisdiction context from shared memory
-                try:
-                    from agents.lawclaw.commands._memory import recall_court
-                    court = recall_court(args)
-                    if court:
-                        payload = f"/create legal document: {args} - jurisdiction: {court.get('fact','')}"
-                    else:
-                        payload = f"/create legal document: {args}"
-                except Exception:
-                    payload = f"/create legal document: {args}"
-                result = self.call_agent("docuclaw", payload, timeout=60)
             elif args:
                 context = self._gather_context(args)
                 result = self.ask_llm(f"Law question: {args}\n\nContext:\n{context}")
@@ -116,12 +166,32 @@ class LawClawHandler(BaseAgent):
 
             # ═══════════════════════════════════════════════════════════════
             # CONSTITUTIONAL EXECUTION BOUNDARY — single injection point.
-            # Every command passes through here. Post-execution kernel
-            # activates memory, learning, and audit trail automatically.
-            # No per-command edits needed. No decorators. No registry.
+            # Activates: budget, rate limit, memory, learning, audit trail,
+            # consensus, auditor. Automatically for ALL 25 commands.
             # ═══════════════════════════════════════════════════════════════
             final_result = str(result)
             if final_result and len(final_result) > 20:
+
+                # 1. BUDGET CHECK — enforce spending limits
+                try:
+                    from shared.llm.budget import BudgetController
+                    budget = BudgetController()
+                    decision = budget.check("lawclaw", estimated_cost=0.002)
+                    if not decision.get("allowed", True):
+                        final_result = "[BUDGET] Daily limit reached. Try again tomorrow."
+                except Exception:
+                    pass
+
+                # 2. RATE LIMIT — prevent API abuse
+                try:
+                    from shared.rate_limiter import get_rate_limiter
+                    limiter = get_rate_limiter()
+                    if not limiter.check_daily_limits():
+                        final_result = "[RATE LIMIT] Too many requests. Slow down."
+                except Exception:
+                    pass
+
+                # 3. MEMORY WRITE — cross-command recall
                 try:
                     from agents.lawclaw.commands._memory import remember
                     remember(
@@ -134,12 +204,14 @@ class LawClawHandler(BaseAgent):
                 except Exception:
                     pass
 
+                # 4. LEARNING — unified cross-agent memory
                 try:
                     from shared._agent_helpers import learn
                     learn("lawclaw", args or "", final_result[:500], "web_verified", 0.85)
                 except Exception:
                     pass
 
+                # 5. LEDGER — tamper-evident audit trail
                 try:
                     from shared.decision_ledger import get_ledger
                     get_ledger().record(
@@ -148,6 +220,31 @@ class LawClawHandler(BaseAgent):
                         query=(args or "")[:200],
                         result=final_result[:100],
                     )
+                except Exception:
+                    pass
+
+                # 6. CONSENSUS — reputation-based truth scoring
+                try:
+                    from shared.consensus_engine import constitutional_consensus_check
+                    constitutional_consensus_check(final_result, args or "")
+                except Exception:
+                    pass
+
+                # 7. AUDITOR — log every interaction to Chronicle
+                try:
+                    from shared.llm.auditor import ChronicleAuditor
+                    auditor = ChronicleAuditor()
+                    auditor.log(
+                        agent="lawclaw",
+                        prompt=(args or "")[:200],
+                        response={"result": final_result[:200]},
+                    )
+                except Exception:
+                    pass
+
+                # 8. BUDGET RECORD — track spending after successful call
+                try:
+                    budget.record("lawclaw", cost=0.002)
                 except Exception:
                     pass
 
