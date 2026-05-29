@@ -22,6 +22,62 @@ No manual registration - just drop the .py file in the directory.
 - Truth hierarchy: web_verified > chronicle > memory > inference.
 - Every agent has defined jurisdiction. No crossing.
 
+## Constitutional Violations Requiring Immediate Action (May 29, 2026)
+
+The Constitution is law. These violations exist. Fix them before building anything new.
+
+### VIOLATION 1: Enforcement Engine Not Activated (Article XI)
+**Severity: CRITICAL. The Judiciary exists but has no runtime authority.**
+
+File to modify: `a2a_server.py`
+What to do: Wrap every `process_task()` call with `EnforcementEngine.execute_with_enforcement()`.
+The engine, PreExecutionGate, PostExecutionGate, and ForbiddenPatternDetector (19 patterns)
+are all built in `shared/enforcement/`. They are never called. Fix this before anything else.
+
+### VIOLATION 2: llmclaw Bypasses Its Own Sovereign Gateway (Article I)
+**Severity: CRITICAL. The gatekeeper refuses to use the gate.**
+
+File to modify: `agents/llmclaw/agent_handler.py`
+What to do: llmclaw has `own_llm=True`. It must route through `shared/llm/client.py`
+like every other agent. The Sovereign Gateway cannot exempt itself.
+
+### VIOLATION 3: Guarded Executor Not Wired (Article IV)
+**Severity: CRITICAL. Dangerous operations have no constitutional review.**
+
+File to modify: `a2a_server.py`
+What to do: Wire `shared/guarded_executor.py` as middleware. All subprocess calls,
+file deletions, git operations, and shell commands must pass through GuardedExecutor.
+Currently bypassed by every agent.
+
+### VIOLATION 4: Three Agents Are Isolated (Article III)
+**Severity: HIGH. drawclaw, fileclaw, mathematicaclaw cannot communicate.**
+
+Files to modify: `agents/drawclaw/agent_handler.py`, `agents/fileclaw/agent_handler.py`,
+`agents/mathematicaclaw/agent_handler.py`
+What to do: Add `call_agent()` routes for delegation. Minimum: each must delegate to
+docuclaw for export and webclaw for search. Follow lawclaw's handler pattern.
+
+### VIOLATION 5: Only LawClaw Uses Shared Memory (Article VI)
+**Severity: HIGH. 20 agents do not write to or read from UnifiedMemory.**
+
+Files to modify: All 20 non-compliant agent handlers
+What to do: Add the 12-system constitutional boundary block to each handler.
+Copy from `agents/lawclaw/agent_handler.py` lines with "CONSTITUTIONAL EXECUTION BOUNDARY".
+Change agent name from "lawclaw" to the agent's name. Create a `_memory.py` bridge
+for each agent (copy lawclaw's, change agent name).
+
+### How to Verify Compliance
+Run the audit scan documented in `CONSTITUTIONAL_COMPLIANCE_AUDIT.md`.
+Re-run after each fix. The Constitution is law. Compliance is not optional.
+
+### Order of Operations
+1. Fix Violation 1 (Enforcement) — protects everything else
+2. Fix Violation 2 (llmclaw) — secures the Sovereign Gateway
+3. Fix Violation 3 (Guarded Executor) — secures dangerous operations
+4. Fix Violation 4 (Isolated Agents) — minimum 3 agents
+5. Fix Violation 5 (Shared Memory) — all 20 remaining agents
+
+Do not build new features until Violations 1-3 are closed.
 ## Constitutional Command Lifecycle (EFFECTIVE MAY 28, 2026)
 
 **Every command MUST participate in the constitutional runtime.**
@@ -226,3 +282,24 @@ Location extraction fixed for structured args (handles "- plaintiff: John Smith"
 Proven: /doc motion to dismiss Miami FL - plaintiff: John Smith - defendant: ABC Corp
 produced properly captioned motion with Florida Rule 1.140(b)(6), correct court, authoritative sources.
 Total commands: 24. Total shared modules actively used: 15. Constitutional runtime: ACTIVE.
+
+## LawClaw Is the Constitutional Reference Implementation (May 29, 2026)
+
+**Every agent in Clawpack V2 should model its connectivity after LawClaw.**
+
+LawClaw demonstrates the complete constitutional pattern:
+- Handler boundary enforces budget, rate limit, memory, learning, audit, consensus, auditor automatically
+- Commands use _helpers.py for LLM, Chronicle, webclaw, delegation (never direct API calls)
+- Cross-agent delegation via call_agent() with enriched context from shared memory
+- /doc command demonstrates the full flow: jurisdiction lookup → memory write → recall → extract court rules → delegate to docuclaw
+- /correct command demonstrates self-healing: correction → consensus engine → anti-pattern learning
+- Source registry and truth resolver trust .gov domains at 0.92 authoritative
+
+When building or modifying any agent:
+1. Study agents/lawclaw/agent_handler.py — the handler boundary pattern
+2. Study agents/lawclaw/commands/_helpers.py — the shared utility pattern
+3. Study agents/lawclaw/commands/_memory.py — the memory bridge pattern
+4. Study agents/lawclaw/core/court_rules_extractor.py — the multi-source extraction pattern
+5. Every agent MUST have a constitutional handler boundary
+6. Every agent MUST delegate rather than reimplement
+7. Every agent MUST write to and read from UnifiedMemory
