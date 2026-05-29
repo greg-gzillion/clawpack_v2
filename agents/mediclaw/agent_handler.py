@@ -48,8 +48,11 @@ class MedicLawHandler(BaseAgent):
                 result = f"Medical Sources ({len(self.agent.list_sources())}):\n" + "\n".join(f"  {i}. {s}" for i, s in enumerate(self.agent.list_sources(), 1))
             elif cmd in ("/stats", "stats"):
                 result = f"MedicLaw | Queries: {len(self.agent.session['queries'])} | Sources: {len(self.agent.list_sources())} | Started: {self.agent.session['started']}"
-            elif cmd in ("/diagnose", "/treatment", "/research", "/med") and args:
-                method = {"diagnose": self.agent.diagnose, "treatment": self.agent.treatment, "research": self.agent.research, "med": self.agent.research}[cmd.lstrip("/")]
+            elif cmd in ("/diagnose",) and args:
+                from agents.mediclaw.commands.diagnose import run as diagnose_run
+                result = diagnose_run(args, agent=self)
+            elif cmd in ("/treatment", "/research", "/med") and args:
+                method = {"treatment": self.agent.treatment, "research": self.agent.research, "med": self.agent.research}[cmd.lstrip("/")]
                 result = method(args)
                 export = self.call_agent("fileclaw", f"/export md MedicLaw: {args}\n\n{result}")
                 if export: result = f"{export}\n\n{result}"
@@ -66,8 +69,28 @@ class MedicLawHandler(BaseAgent):
             elif cmd == "/natural" and args: result = self.agent.natural(args)
             elif cmd == "/procedure" and args: result = self.agent.procedure(args)
             elif cmd == "/prognosis" and args: result = self.agent.prognosis(args)
-            elif cmd == "/referral" and args: result = self.agent.referral(args)
-            elif cmd == "/emergency" and args: result = self.agent.emergency(args)
+            elif cmd == "/referral" and args:
+                from agents.mediclaw.commands._helpers import lookup_hospitals
+                import re
+                # Get the core referral
+                base_result = self.agent.referral(args)
+                # Try to enrich with hospital data if location in query
+                loc_match = re.search(r'in\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*,?\s*([A-Z]{2})', args)
+                if loc_match:
+                    city_state = f"{loc_match.group(1)} {loc_match.group(2)}"
+                    try:
+                        hospitals = lookup_hospitals(city_state)
+                        if hospitals.get("hospitals"):
+                            base_result += f"\n\n### Facilities in {city_state}\n"
+                            for h in hospitals["hospitals"][:3]:
+                                base_result += f"\n- **{h.get('name','?')}**"
+                                if h.get('address'): base_result += f"\n  {h['address']}"
+                                if h.get('phone'): base_result += f"\n  {h['phone']}"
+                    except Exception: pass
+                result = base_result
+            elif cmd == "/emergency" and args:
+                from agents.mediclaw.commands.emergency_cmd import run as emergency_run
+                result = emergency_run(args, agent=self)
             elif cmd in ("/hospital", "/hospitals") and args:
                 from agents.mediclaw.commands._helpers import lookup_hospitals
                 hospitals = lookup_hospitals(args)
