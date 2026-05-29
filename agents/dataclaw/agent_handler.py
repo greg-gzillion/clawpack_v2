@@ -217,7 +217,7 @@ class DataClawAgent(BaseAgent):
                     budget.record("dataclaw", cost=0.002)
                 except Exception: pass
                 try:
-                    from shared.observability import import get_health_checker
+                    from shared.observability import get_health_checker
                     get_health_checker().register("dataclaw_handler", lambda: True)
                 except Exception: pass
                 try:
