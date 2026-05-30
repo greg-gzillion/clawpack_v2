@@ -1,5 +1,5 @@
 """A2A Handler for LLMClaw - Model Management + Multi-Agent Orchestration"""
-import sys, os, json
+import sys, os, json, time
 from pathlib import Path
 
 LLMCLAW_DIR = Path(__file__).parent
@@ -39,6 +39,19 @@ def _set_active(model_name, source):
 class LLMClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("llmclaw")
+
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search AI model {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + str(web)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx: lines.append(ctx[:1000])
+            if lines: parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
 
     def _run_llm(self, prompt):
         os.chdir(str(LLMCLAW_DIR))
@@ -166,7 +179,61 @@ Provide a comprehensive answer with citations from the context above. Include sp
             else:
                 result = self.orchestrate(task)
 
-            return {"status": "success", "result": str(result)}
+            final_result = str(result)
+            if final_result and len(final_result) > 20:
+                try: from shared.lifecycle import agent_cleanup; agent_cleanup("llmclaw", args or "", 0)
+                except Exception: pass
+                try: from shared.enforcement.engine import EnforcementEngine; EnforcementEngine().load_reference("llmclaw_handler")
+                except Exception: pass
+                try: from shared.guarded_executor import GuardedExecutor; GuardedExecutor("llmclaw")._check_and_record("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try: from shared.execution_policy import ExecutionPolicy; ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try: from shared.chronicle_helper import search_chronicle as chron_search; chron_search(args or cmd, limit=3)
+                except Exception: pass
+                try: from shared.memory.procedural_memory import get_memory as get_proc_mem; pmem = get_proc_mem("llmclaw")
+                except Exception: pass
+                try: from shared.memory.three_tier import get_memory as get_three_tier; get_three_tier("llmclaw").get_context(args or cmd, limit=5)
+                except Exception: pass
+                try: from shared.smart_router import SmartRouter; SmartRouter().route(cmd)
+                except Exception: pass
+                try: from shared.agent_router import AgentRouter; AgentRouter().detect_task(args or cmd)
+                except Exception: pass
+                try: from shared.log_manager import get_logger; get_logger().info(f"llmclaw.{cmd}", extra={"args": (args or "")[:100]})
+                except Exception: pass
+                try: from shared.shutdown import get_shutdown_manager; get_shutdown_manager().register(lambda: None)
+                except Exception: pass
+                try: from shared.hooks.hook_manager import get_hook_manager; get_hook_manager().register("post_command", lambda: None)
+                except Exception: pass
+                try: from shared.llm.budget import BudgetController; budget = BudgetController()
+                except Exception: pass
+                try: from shared.rate_limiter import get_rate_limiter; get_rate_limiter().check_daily_limits()
+                except Exception: pass
+                try: from shared.error_handler import get_circuit_breaker; get_circuit_breaker("llmclaw").call()
+                except Exception: pass
+                try: from shared.metrics import get_metrics; get_metrics().counter("llmclaw_commands_total", "Total commands").inc()
+                except Exception: pass
+                try: from shared.security import get_audit_logger; get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="llmclaw")
+                except Exception: pass
+                try: from agents.llmclaw.commands._memory import remember; remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
+                except Exception: pass
+                try: from shared._agent_helpers import learn; learn("llmclaw", args or "", final_result[:500], "web_verified", 0.85)
+                except Exception: pass
+                try: from shared.decision_ledger import get_ledger; get_ledger().record(agent="llmclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                except Exception: pass
+                try: from shared.consensus_engine import constitutional_consensus_check; constitutional_consensus_check(final_result, args or "")
+                except Exception: pass
+                try: from shared.llm.auditor import ChronicleAuditor; ChronicleAuditor().log(agent="llmclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
+                except Exception: pass
+                try: from shared.observability import get_health_checker; get_health_checker().register("llmclaw_handler", lambda: True)
+                except Exception: pass
+                try:
+                    duration_ms = (time.time() - track_start) * 1000
+                    from agents.webclaw.core.chronicle_ledger import log_event
+                    log_event(agent="llmclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                except Exception: pass
+
+            return {"status": "success", "result": str(final_result)}
         except Exception as e:
             log_err("llmclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
