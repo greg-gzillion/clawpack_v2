@@ -24,6 +24,26 @@ Not an orchestration wrapper around external APIs — a runtime where execution 
 | LLM providers | 4/4 operational |
 | Provider chain | Groq → Ollama → OpenRouter → Anthropic |
 | Lifecycle cleanup errors | 0 (contract drift resolved 2026-05-30) |
+| Chronicle search warnings | Non-blocking signature reconciliation in progress |
+
+---
+
+## Execution Flow
+User Command
+↓
+Constitutional Boundary (23-system handler)
+↓
+Validation + Enforcement Gates
+↓
+Truth Resolution (web_verified > chronicle > memory > inference)
+↓
+Capability Router (shared/capabilities.py)
+↓
+Agent Dispatch (A2A, port 8766)
+↓
+Chronicle Audit + Memory Commit
+
+text
 
 ---
 
@@ -90,16 +110,12 @@ DECISION_LOG.mdWhy architectural decisions were made
 CONSTITUTIONAL_COMPLIANCE_AUDIT.mdPer-agent constitutional compliance
 shared/CONSTITUTION_v1.mdConstitutional law (frozen)
 Known Active Work
-Chronicle recover_by_context signature normalization — 19 call sites across 8 modules use the method; signature drift between shared/base_agent.py and chronicle_ledger.py produces non-blocking warnings
-
-Shared memory adoption — 20 agents need UnifiedMemory bridge (lawclaw is reference implementation)
-
-Enforcement engine activation — shared/enforcement/engine.py exists but not wired into A2A request path
-
-Guarded executor wiring — shared/guarded_executor.py exists but not called by a2a_server.py
-
-Registry completeness — 5 agent entries exist in code but outside the AGENT_REGISTRY dict closing brace
-
+AreaStatus
+Chronicle recover_by_context signature normalization19 call sites across 8 modules; non-blocking warnings, no functional impact
+Shared memory adoption20 agents need UnifiedMemory bridge (lawclaw is reference implementation)
+Enforcement engine activationshared/enforcement/engine.py exists but not wired into A2A request path
+Guarded executor wiringshared/guarded_executor.py exists but not called by a2a_server.py
+Registry completeness5 agent entries exist in code but outside AGENT_REGISTRY dict closing brace
 Benchmark Snapshot (2026-05-30)
 MetricValue
 Agent /help latency (median)0.2s
