@@ -1688,6 +1688,984 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-29T20:31:03.103872+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "/code",
+      "query": "python function to add two numbers",
+      "fact": "Saved: python_function_to_add_two_numbers_20260529_162056.py | Validated: Syntax OK\n\n```python\ndef add_two_numbers(a: int | float, b: int | float) -> int | float:\n    \"\"\"Add two numbers and return the result.\"\"\"\n    return a + b\n\n\n# Usage example\nresult = add_two_numbers(5, 3)\nprint(result)  # Output: 8\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:20:56.864256+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "query": "python function to add two numbers",
+      "fact": "Saved: python_function_to_add_two_numbers_20260529_162056.py | Validated: Syntax OK\n\n```python\ndef add_two_numbers(a: int | float, b: int | float) -> int | float:\n    \"\"\"Add two numbers and return the result.\"\"\"\n    return a + b\n\n\n# Usage example\nresult = add_two_numbers(5, 3)\nprint(result)  # Output: 8\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:20:56.881286+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "/plot",
+      "query": "sin(x)",
+      "fact": "[OK] Plot -> C:\\Users\\greg\\dev\\clawpack_v2\\agents\\plotclaw\\exports\\plot_59931.png",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:21:33.719500+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "query": "sin(x)",
+      "fact": "[OK] Plot -> C:\\Users\\greg\\dev\\clawpack_v2\\agents\\plotclaw\\exports\\plot_59931.png",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:21:33.736061+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "test",
+      "query": "python sort list",
+      "fact": "Use list.sort() for in-place sorting",
+      "source_type": "web_verified",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:21:40.835865+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "test",
+      "query": "test",
+      "fact": "test",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:24:05.282489+00:00"
+    },
+    {
+      "agent": "test",
+      "query": "test",
+      "fact": "test",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:24:05.313045+00:00"
+    },
+    {
+      "agent": "crustyclaw",
+      "command": "/explain",
+      "query": "Rust ownership borrowing",
+      "fact": "# Rust Ownership and Borrowing\n\nBased on the context provided, while there isn't a dedicated section specifically explaining ownership and borrowing concepts, I can demonstrate these fundamental Rust concepts using examples from the smart contract code shown in the context.\n\n## Ownership\n\nOwnership is Rust's mechanism for managing memory. Each value has a single owner, and when the owner is droppe",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:28:05.962792+00:00"
+    },
+    {
+      "agent": "crustyclaw",
+      "query": "Rust ownership borrowing",
+      "fact": "# Rust Ownership and Borrowing\n\nBased on the context provided, while there isn't a dedicated section specifically explaining ownership and borrowing concepts, I can demonstrate these fundamental Rust concepts using examples from the smart contract code shown in the context.\n\n## Ownership\n\nOwnership is Rust's mechanism for managing memory. Each value has a single owner, and when the owner is dropped, the value is deallocated.\n\n### Example from the Context:\n\n```rust\n// From the testing-multiple-co",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:28:05.978849+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 190",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:29:56.532337+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 190",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:29:56.550403+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 191",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:30:44.066601+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 191",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:30:44.082120+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 191",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:35:05.997548+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 191",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:35:06.014144+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:35:51.845056+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:35:51.859213+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "code",
+      "query": "python function to sort a list",
+      "fact": "Generated python code: python function to sort a list -> python_function_to_sort_a_list_20260529_164905.py",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "lang": "python",
+        "file": "python_function_to_sort_a_list_20260529_164905.py"
+      },
+      "timestamp": "2026-05-29T22:49:05.425021+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "/code",
+      "query": "python function to sort a list",
+      "fact": "Saved: python_function_to_sort_a_list_20260529_164905.py | Validated: Syntax OK\n\n```python\ndef sort_list(items: list, reverse: bool = False, key=None) -> list:\n    \"\"\"\n    Sort a list using Python's built-in sorted() function.\n    \n    Args:\n        items: List to sort\n        reverse: If True, sort in descending order\n        key: Optional function to extract comparison key from each element\n    ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:49:05.495029+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "query": "python function to sort a list",
+      "fact": "Saved: python_function_to_sort_a_list_20260529_164905.py | Validated: Syntax OK\n\n```python\ndef sort_list(items: list, reverse: bool = False, key=None) -> list:\n    \"\"\"\n    Sort a list using Python's built-in sorted() function.\n    \n    Args:\n        items: List to sort\n        reverse: If True, sort in descending order\n        key: Optional function to extract comparison key from each element\n    \n    Returns:\n        New sorted list (does not modify original)\n    \"\"\"\n    return sorted(items, re",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:49:05.509245+00:00"
+    },
+    {
+      "agent": "crustyclaw",
+      "command": "/explain",
+      "query": "Rust ownership",
+      "fact": "# Rust Ownership Explained\n\nBased on the context provided, while there isn't a dedicated section on Rust ownership fundamentals, I can explain this core Rust concept using principles evident in the code examples throughout the documentation.\n\n## What is Ownership?\n\nRust ownership is a system of rules that governs how memory is managed. Every value in Rust has a single owner, and when the owner goe",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T22:52:33.536680+00:00"
+    },
+    {
+      "agent": "crustyclaw",
+      "query": "Rust ownership",
+      "fact": "# Rust Ownership Explained\n\nBased on the context provided, while there isn't a dedicated section on Rust ownership fundamentals, I can explain this core Rust concept using principles evident in the code examples throughout the documentation.\n\n## What is Ownership?\n\nRust ownership is a system of rules that governs how memory is managed. Every value in Rust has a single owner, and when the owner goes out of scope, the value is automatically cleaned up.\n\n## The Three Rules of Ownership\n\n1. **Each v",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T22:52:33.552199+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:12:27.246198+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:12:27.261800+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 193",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:13:06.588271+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 193",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:13:06.603748+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 193",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:16:23.003764+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 193",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:16:23.019595+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 194",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:17:01.501512+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 194",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:17:01.516576+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:22",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:22:11.641650+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:22",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:22:11.663210+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "search",
+      "query": "medical regulation sin(x)",
+      "fact": "## AI Analysis\n# Analysis: \"Medical Regulation sin(x)\"\n\n## Query Assessment\n\nYour search query appears to combine three unrelated concepts:\n- **\"Medical regulation\"** - a legal/healthcare topic\n- **\"sin(x)\"** - a trigonometric mathematics function\n\nThis is a **cross-domain query** that doesn't align with standard reference material in the CLAWPACK system.\n\n## Relevant Resources Available\n\nBased on",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:40:18.273544+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "medical regulation sin(x)",
+      "fact": "## AI Analysis\n# Analysis: \"Medical Regulation sin(x)\"\n\n## Query Assessment\n\nYour search query appears to combine three unrelated concepts:\n- **\"Medical regulation\"** - a legal/healthcare topic\n- **\"sin(x)\"** - a trigonometric mathematics function\n\nThis is a **cross-domain query** that doesn't align with standard reference material in the CLAWPACK system.\n\n## Relevant Resources Available\n\nBased on your query components, here are the most relevant agents and references:\n\n### 1. **Medical Regulati",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:40:18.289370+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 191",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:43:49.518947+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 191",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:43:49.533977+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:43",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:43:50.305191+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:43",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:43:50.320706+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:44:28.937495+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:44:28.953566+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:43",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:44:29.071062+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:43",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:44:29.090939+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:49",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:49:28.437485+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:49",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:49:28.453531+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:49:28.595206+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 192",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:49:28.615894+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:49:28.681104+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n  /research <topic> /diagnose <symptoms> /treatment <condition>\n  /medications <drug> /interactions <",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-29T23:49:28.698461+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "test",
+      "query": "claw_coder_test",
+      "fact": "test memory write",
+      "source_type": "web_verified",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-29T23:49:28.755286+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:08",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:08:11.117384+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:08",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:08:11.133462+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 193",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:08:11.276639+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 193",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:08:11.298702+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:08:11.361624+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n  /research <topic> /diagnose <symptoms> /treatment <condition>\n  /medications <drug> /interactions <",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:08:11.378737+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "test",
+      "query": "claw_coder_test",
+      "fact": "test memory write",
+      "source_type": "web_verified",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:08:11.440861+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:09:38.983527+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n  /research <topic> /diagnose <symptoms> /treatment <condition>\n  /medications <drug> /interactions <",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:09:39.009565+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket ent",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:09:39.148525+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket entries, jury demand, summaries\n                         Example: /docket 42 USC 1983\n  /cite [citation",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:09:39.168373+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "cross_test",
+      "query": "cross_agent_memory",
+      "fact": "Shared fact from claw_coder",
+      "source_type": "web_verified",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:09:39.391490+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 6",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:27:46.991827+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 6",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:27:47.007858+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 195",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:27:47.190425+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 195",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:27:47.207077+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:27",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:27:47.889074+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:27",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:27:47.906099+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 7",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:28:25.310913+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 7",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:28:25.338504+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 196",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:28:25.466987+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 196",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:28:25.481529+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:27",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:28:25.600522+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:27",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:28:25.617546+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 7",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:34:38.674184+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 7",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:34:38.690714+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 196",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:34:38.887851+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 196",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:34:38.906480+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:34",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:34:39.601644+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:34",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:34:39.619170+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 8",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:34:56.806558+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 8",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:34:56.829736+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 197",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:34:57.061579+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 197",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:34:57.080604+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:34",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:34:57.197099+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:34",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:34:57.214639+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 8",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:42:56.684746+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 8",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:42:56.700798+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 197",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:42:56.897173+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 197",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:42:56.929283+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:42",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:42:57.673747+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:42",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:42:57.690773+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 9",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:43:15.578319+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 9",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:43:15.598395+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 198",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:43:15.730459+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 198",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:43:15.749531+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:42",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T00:43:15.874467+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:42",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T00:43:15.898787+00:00"
     }
   ],
   "index": {
@@ -2288,7 +3266,13 @@
       109,
       110,
       145,
-      146
+      146,
+      161,
+      162,
+      165,
+      178,
+      179,
+      180
     ],
     "hello": [
       96,
@@ -2726,7 +3710,12 @@
     ],
     "function": [
       145,
-      146
+      146,
+      161,
+      162,
+      178,
+      179,
+      180
     ],
     "calculate": [
       145,
@@ -2873,7 +3862,64 @@
     "denver": [
       157,
       158
+    ],
+    "numbers": [
+      161,
+      162
+    ],
+    "sin(x)": [
+      163,
+      164,
+      193,
+      194
+    ],
+    "sort": [
+      165,
+      178,
+      179,
+      180
+    ],
+    "list": [
+      165,
+      178,
+      179,
+      180
+    ],
+    "test": [
+      166,
+      167
+    ],
+    "rust": [
+      168,
+      169,
+      181,
+      182
+    ],
+    "ownership": [
+      168,
+      169,
+      181,
+      182
+    ],
+    "borrowing": [
+      168,
+      169
+    ],
+    "medical": [
+      193,
+      194
+    ],
+    "regulation": [
+      193,
+      194
+    ],
+    "claw_coder_test": [
+      209,
+      216
+    ],
+    "cross_agent_memory": [
+      221
     ]
   },
-  "updated_at": "2026-05-29T20:31:03.104870+00:00"
+  "updated_at": "2026-05-30T00:43:15.899786+00:00"
 }

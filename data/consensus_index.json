@@ -3380,9 +3380,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-29T20:14:44.405189+00:00",
-      "last_updated": "2026-05-29T20:14:44.406204+00:00"
+      "last_updated": "2026-05-30T00:09:39.192941+00:00"
     },
     "a34c8ccc2cdb3e41": {
       "fact_id": "a34c8ccc2cdb3e41",
@@ -3398,9 +3398,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-29T20:14:44.424223+00:00",
-      "last_updated": "2026-05-29T20:14:44.424223+00:00"
+      "last_updated": "2026-05-30T00:09:39.215990+00:00"
     },
     "14ff9fdeee01b4bf": {
       "fact_id": "14ff9fdeee01b4bf",
@@ -3887,6 +3887,528 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-29T20:28:46.924693+00:00",
       "last_updated": "2026-05-29T20:28:46.924693+00:00"
+    },
+    "91c53abb37b29b66": {
+      "fact_id": "91c53abb37b29b66",
+      "fact_value": "query:python function to add two numbers",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T22:20:56.898827+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:20:56.898827+00:00",
+      "last_updated": "2026-05-29T22:20:56.900829+00:00"
+    },
+    "b15db2c3a0a0bd34": {
+      "fact_id": "b15db2c3a0a0bd34",
+      "fact_value": "query:sin(x)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T22:21:33.760612+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:21:33.760612+00:00",
+      "last_updated": "2026-05-29T22:21:33.762611+00:00"
+    },
+    "9179120ab0e2698e": {
+      "fact_id": "9179120ab0e2698e",
+      "fact_value": "query:Rust ownership borrowing",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T22:28:05.996891+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:28:05.996891+00:00",
+      "last_updated": "2026-05-29T22:28:05.997892+00:00"
+    },
+    "c2b03ed9af4f5414": {
+      "fact_id": "c2b03ed9af4f5414",
+      "fact_value": "concept:Immutable References",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:28:06.016549+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:28:06.016549+00:00",
+      "last_updated": "2026-05-29T22:28:06.016549+00:00"
+    },
+    "bdc787e292a2fe77": {
+      "fact_id": "bdc787e292a2fe77",
+      "fact_value": "concept:Mutable References",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:28:06.036765+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:28:06.036765+00:00",
+      "last_updated": "2026-05-29T22:28:06.036765+00:00"
+    },
+    "fda08547bdd5b9b0": {
+      "fact_id": "fda08547bdd5b9b0",
+      "fact_value": "query:python function to sort a list",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T22:49:05.517384+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:49:05.517384+00:00",
+      "last_updated": "2026-05-29T22:49:05.518385+00:00"
+    },
+    "f2eb7c908ba3adfd": {
+      "fact_id": "f2eb7c908ba3adfd",
+      "fact_value": "query:Rust ownership",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T22:52:33.568737+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.568737+00:00",
+      "last_updated": "2026-05-29T22:52:33.569736+00:00"
+    },
+    "290ea86a01b87b20": {
+      "fact_id": "290ea86a01b87b20",
+      "fact_value": "concept:Each value has one owner",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:52:33.586766+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.586766+00:00",
+      "last_updated": "2026-05-29T22:52:33.586766+00:00"
+    },
+    "e51700879c68a5d0": {
+      "fact_id": "e51700879c68a5d0",
+      "fact_value": "concept:You can borrow the value (create references)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:52:33.603796+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.603796+00:00",
+      "last_updated": "2026-05-29T22:52:33.603796+00:00"
+    },
+    "82f0b37bd15abff7": {
+      "fact_id": "82f0b37bd15abff7",
+      "fact_value": "concept:When the owner goes out of scope, the value is dropped",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:52:33.621336+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.621336+00:00",
+      "last_updated": "2026-05-29T22:52:33.621336+00:00"
+    },
+    "3ca886717f19b1f9": {
+      "fact_id": "3ca886717f19b1f9",
+      "fact_value": "concept:Key Points:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:52:33.643923+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.643923+00:00",
+      "last_updated": "2026-05-29T22:52:33.643923+00:00"
+    },
+    "5f868571ea8ab7dc": {
+      "fact_id": "5f868571ea8ab7dc",
+      "fact_value": "concept:What's happening:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T22:52:33.662447+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.662447+00:00",
+      "last_updated": "2026-05-29T22:52:33.662447+00:00"
+    },
+    "e0aabcb31862082f": {
+      "fact_id": "e0aabcb31862082f",
+      "fact_value": "source_url:https://grpc.testnet.tx.dev:443",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://grpc.testnet.tx.dev:443",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T22:52:33.681487+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T22:52:33.681487+00:00",
+      "last_updated": "2026-05-29T22:52:33.681487+00:00"
+    },
+    "acbbb09055c4726c": {
+      "fact_id": "acbbb09055c4726c",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:22",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T23:22:11.671225+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T23:22:11.671225+00:00",
+      "last_updated": "2026-05-29T23:22:11.672733+00:00"
+    },
+    "0ed2a6ac51f99254": {
+      "fact_id": "0ed2a6ac51f99254",
+      "fact_value": "query:medical regulation sin(x)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T23:40:18.295911+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T23:40:18.295911+00:00",
+      "last_updated": "2026-05-29T23:40:18.295911+00:00"
+    },
+    "3f112cb78e5c3eff": {
+      "fact_id": "3f112cb78e5c3eff",
+      "fact_value": "concept:\"Medical regulation\"",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T23:40:18.316494+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T23:40:18.316494+00:00",
+      "last_updated": "2026-05-29T23:40:18.316494+00:00"
+    },
+    "d71a0e630be2a4e0": {
+      "fact_id": "d71a0e630be2a4e0",
+      "fact_value": "concept:cross-domain query",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T23:40:18.334542+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T23:40:18.334542+00:00",
+      "last_updated": "2026-05-29T23:40:18.334542+00:00"
+    },
+    "2e2158fd40d6afe3": {
+      "fact_id": "2e2158fd40d6afe3",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/employment",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/employment",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T23:40:18.352640+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T23:40:18.352640+00:00",
+      "last_updated": "2026-05-29T23:40:18.352640+00:00"
+    },
+    "42a9b9448fcee0ec": {
+      "fact_id": "42a9b9448fcee0ec",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/employment_at_will",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/employment_at_will",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T23:40:18.370710+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T23:40:18.370710+00:00",
+      "last_updated": "2026-05-29T23:40:18.370710+00:00"
+    },
+    "71e54f91eb3ac7ed": {
+      "fact_id": "71e54f91eb3ac7ed",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/collective_bargaining",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/collective_bargaining",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T23:40:18.387363+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T23:40:18.387363+00:00",
+      "last_updated": "2026-05-29T23:40:18.387363+00:00"
+    },
+    "21123e046a7ed4ce": {
+      "fact_id": "21123e046a7ed4ce",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/title_vii",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/title_vii",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T23:40:18.405879+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T23:40:18.405879+00:00",
+      "last_updated": "2026-05-29T23:40:18.405879+00:00"
+    },
+    "3feadfa98aae6498": {
+      "fact_id": "3feadfa98aae6498",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/fair_labor_standards_act",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/fair_labor_standards_act",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-29T23:40:18.426928+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-29T23:40:18.426928+00:00",
+      "last_updated": "2026-05-29T23:40:18.426928+00:00"
+    },
+    "9413d517411c93c9": {
+      "fact_id": "9413d517411c93c9",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:43",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T23:43:50.326238+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T23:43:50.326238+00:00",
+      "last_updated": "2026-05-29T23:44:29.097004+00:00"
+    },
+    "6c12d807bdf03cac": {
+      "fact_id": "6c12d807bdf03cac",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 17:49",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T23:49:28.473290+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-29T23:49:28.473290+00:00",
+      "last_updated": "2026-05-29T23:49:28.474290+00:00"
+    },
+    "094bd62c301aabd2": {
+      "fact_id": "094bd62c301aabd2",
+      "fact_value": "MedicLaw - Medical AI Agent   CONSTITUTIONAL RUNTIME: 23-system boundary active.   All commands memory-wired. Cross-agent delegation enabled.    CROSS-AGENT:   /delegate <agent> <task>  Send task to a",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-29T23:49:28.717147+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-29T23:49:28.717147+00:00",
+      "last_updated": "2026-05-30T00:09:39.041638+00:00"
+    },
+    "f07ba5d7d518f99d": {
+      "fact_id": "f07ba5d7d518f99d",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:08",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T00:08:11.152515+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T00:08:11.152515+00:00",
+      "last_updated": "2026-05-30T00:08:11.154502+00:00"
+    },
+    "4fdd6b06bda190c8": {
+      "fact_id": "4fdd6b06bda190c8",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:27",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T00:27:47.912618+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T00:27:47.912618+00:00",
+      "last_updated": "2026-05-30T00:28:25.623048+00:00"
+    },
+    "b7e28af8bb8bbf38": {
+      "fact_id": "b7e28af8bb8bbf38",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:34",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T00:34:39.639245+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T00:34:39.639245+00:00",
+      "last_updated": "2026-05-30T00:34:57.230687+00:00"
+    },
+    "aaa6c1402ac51032": {
+      "fact_id": "aaa6c1402ac51032",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 18:42",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T00:42:57.706942+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T00:42:57.706942+00:00",
+      "last_updated": "2026-05-30T00:43:15.916828+00:00"
     }
   },
   "corrections": [
@@ -3907,5 +4429,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-29T20:28:46.925693+00:00"
+  "updated_at": "2026-05-30T00:43:15.918844+00:00"
 }
