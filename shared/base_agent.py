@@ -290,6 +290,65 @@ class BaseAgent:
         results = self.memory.recall('', limit=50)
         return {r['key']: r['value'] for r in results if r.get('agent') == self.name}
 
+    def lookup_jurisdiction(self, city_state: str, resource_type: str = "all") -> dict:
+        """Search 3,800+ city jurisdiction files for local resources.
+        Args: city_state e.g. 'Denver CO', resource_type: 'library','hospital','police','building_codes','all'
+        Returns: dict with libraries, hospitals, police, building_codes, urls, municipal_info
+        """
+        import re
+        from pathlib import Path
+        
+        parts = city_state.strip().split()
+        if len(parts) < 2:
+            return {"error": "Provide city and state, e.g. 'Denver CO'"}
+        
+        state = parts[-1].upper()
+        city = " ".join(parts[:-1])
+        juris_path = Path(__file__).parent.parent / "agents" / "webclaw" / "references" / "lawclaw" / "jurisdictions" / "us" / state
+        
+        if not juris_path.exists():
+            return {"error": f"No jurisdiction data for {state}"}
+        
+        result = {"city": city, "state": state, "libraries": [], "hospitals": [], "police": [], "building_codes": [], "urls": [], "municipal_info": []}
+        
+        for city_dir in juris_path.iterdir():
+            if not city_dir.is_dir(): continue
+            if city.lower() in city_dir.name.lower():
+                for md_file in city_dir.rglob("*.md"):
+                    try:
+                        content = md_file.read_text(encoding="utf-8", errors="ignore")
+                    except Exception: continue
+                    
+                    if resource_type in ("all", "library"):
+                        for line in content.split("\n"):
+                            if "library" in line.lower() and ("http" in line or chr(8212) in line):
+                                result["libraries"].append(line.strip()[:200])
+                    
+                    if resource_type in ("all", "hospital"):
+                        for line in content.split("\n"):
+                            if "hospital" in line.lower() or "medical center" in line.lower():
+                                result["hospitals"].append(line.strip()[:200])
+                    
+                    if resource_type in ("all", "police"):
+                        for line in content.split("\n"):
+                            if "police" in line.lower():
+                                result["police"].append(line.strip()[:200])
+                    
+                    if resource_type in ("all", "building_codes"):
+                        for line in content.split("\n"):
+                            if any(kw in line.lower() for kw in ["ibc ", "irc ", "building code", "frost depth", "snow load", "wind speed", "seismic", "permit"]):
+                                result["building_codes"].append(line.strip()[:200])
+                    
+                    for line in content.split("\n"):
+                        if "https://" in line:
+                            url = line[line.index("https://"):].split()[0].rstrip(")")
+                            if url not in result["urls"]:
+                                result["urls"].append(url)
+                
+                break
+        
+        return result
+    
     def track_interaction(self):
         self.state["interactions"] = self.state.get("interactions", 0) + 1
         self._save_state()
