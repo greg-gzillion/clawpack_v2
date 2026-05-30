@@ -171,3 +171,11 @@ PlotClaw schema imports fixed. Registry syntax repaired. /translate pipeline bui
 - CRITICAL BUG: Batch handler injection corrupted all 21 agents. Reverted.
   Lesson: Use command files, never inject into handlers.
 - README rewritten. Onboarding doc current. PowerShell survival guide created.
+- System-wide language preference (/language es) with auto-translate at A2A boundary.
+- Live bidirectional interpreter mode (/interpret) on all agents.
+- Mobile PWA with voice input, agent discovery, offline support, PWA manifest.
+- LawClaw handler cleaned: log_event and DecisionLedger.record replaced.
+- CHRONICLE_GUIDE.md updated: removed stale get_timeline/log_event references.
+- chronicle_helper.py fix: recover_by_context() now receives query argument.
+  Single-line fix eliminated noise across all 21 agents.
+- Enforcement engine wired: pre-execution gate active in A2A request path.
