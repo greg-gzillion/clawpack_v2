@@ -68,9 +68,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T04:59:53.618385+00:00",
-      "last_updated": "2026-05-30T04:59:53.618385+00:00"
+      "last_updated": "2026-05-30T15:29:10.561741+00:00"
     },
     "a34c8ccc2cdb3e41": {
       "fact_id": "a34c8ccc2cdb3e41",
@@ -86,9 +86,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T04:59:53.634445+00:00",
-      "last_updated": "2026-05-30T04:59:53.634445+00:00"
+      "last_updated": "2026-05-30T15:29:10.584819+00:00"
     },
     "b6ef91e75f90c9e2": {
       "fact_id": "b6ef91e75f90c9e2",
@@ -3437,8 +3437,422 @@
       "truth_score": 0.41,
       "first_seen": "2026-05-30T06:01:03.948521+00:00",
       "last_updated": "2026-05-30T06:04:40.358693+00:00"
+    },
+    "4ab4cdd59d797ed2": {
+      "fact_id": "4ab4cdd59d797ed2",
+      "fact_value": "LLMClaw - Model Manager + Orchestrator   /llm <prompt> - Direct inference   /orchestrate <query> - Multi-agent orchestration   /models /use /obliterated /normal /help /stats",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:16:51.926700+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:16:51.926700+00:00",
+      "last_updated": "2026-05-30T15:29:10.773241+00:00"
+    },
+    "becded5cde654d18": {
+      "fact_id": "becded5cde654d18",
+      "fact_value": "DrawClaw - AI Prompt Studio + Drawing Tools   DRAW:     /canvas - Interactive drawing window             /sketch <style> <subject> - Pencil/charcoal/ink sketch             /doodle <style> - Algorithmi",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:16:52.493356+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:16:52.493356+00:00",
+      "last_updated": "2026-05-30T15:29:11.367668+00:00"
+    },
+    "07f5fd3d0d2c3501": {
+      "fact_id": "07f5fd3d0d2c3501",
+      "fact_value": "InterpretClaw - 42 Languages   /translate <text> to <lang>   /detect <text>   /speak <text>   /listen   /languages   /delegate <agent> <task>   /stats",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:12.945247+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:12.945247+00:00",
+      "last_updated": "2026-05-30T15:29:11.874431+00:00"
+    },
+    "4d7630006b1dff4d": {
+      "fact_id": "4d7630006b1dff4d",
+      "fact_value": "LangClaw - AI Language Teacher   /lesson <lang> - Full lesson   /practice <lang> - Exercises   /vocab <lang> - Vocabulary   /conversation <lang> - Practice chat   /teach <lang> - Interactive teacher",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:13.187300+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:13.187300+00:00",
+      "last_updated": "2026-05-30T15:29:12.076036+00:00"
+    },
+    "8153003bb9b0872f": {
+      "fact_id": "8153003bb9b0872f",
+      "fact_value": "query:creative /help",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:13.971870+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:13.971870+00:00",
+      "last_updated": "2026-05-30T15:26:27.696291+00:00"
+    },
+    "435c91a0c7b1ac39": {
+      "fact_id": "435c91a0c7b1ac39",
+      "fact_value": "source_url:https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:14.070387+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.070387+00:00",
+      "last_updated": "2026-05-30T15:26:27.715332+00:00"
+    },
+    "82ba9ce6750253e0": {
+      "fact_id": "82ba9ce6750253e0",
+      "fact_value": "source_url:https://law.justia.com/cases/new-york/court-of-appeals/1928/249-n-y-458-0.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/new-york/court-of-appeals/1928/249-n-y-458-0.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:14.093395+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.093395+00:00",
+      "last_updated": "2026-05-30T15:26:27.732860+00:00"
+    },
+    "0afd5f0321e190a3": {
+      "fact_id": "0afd5f0321e190a3",
+      "fact_value": "source_url:https://law.justia.com/cases/delaware/supreme-court/1985/488-a-2d-858-5.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/delaware/supreme-court/1985/488-a-2d-858-5.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:14.119907+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.119907+00:00",
+      "last_updated": "2026-05-30T15:26:27.751915+00:00"
+    },
+    "74f75e79f4caa72f": {
+      "fact_id": "74f75e79f4caa72f",
+      "fact_value": "source_url:https://law.justia.com/cases/new-jersey/appellate-division-published/1957/47-nj-super-224-0.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/new-jersey/appellate-division-published/1957/47-nj-super-224-0.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:14.167910+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.167910+00:00",
+      "last_updated": "2026-05-30T15:26:27.771564+00:00"
+    },
+    "0ec375bbe33feaa3": {
+      "fact_id": "0ec375bbe33feaa3",
+      "fact_value": "source_url:https://law.justia.com/cases/federal/appellate-courts/F2/939/91/252628/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/federal/appellate-courts/F2/939/91/252628/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:14.198915+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.198915+00:00",
+      "last_updated": "2026-05-30T15:26:27.789966+00:00"
+    },
+    "094bd62c301aabd2": {
+      "fact_id": "094bd62c301aabd2",
+      "fact_value": "MedicLaw - Medical AI Agent   CONSTITUTIONAL RUNTIME: 23-system boundary active.   All commands memory-wired. Cross-agent delegation enabled.    CROSS-AGENT:   /delegate <agent> <task>  Send task to a",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:14.521991+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.521991+00:00",
+      "last_updated": "2026-05-30T15:29:12.680336+00:00"
+    },
+    "f54c86da68e3a8bd": {
+      "fact_id": "f54c86da68e3a8bd",
+      "fact_value": "PlotClaw v3 - 13 Chart Types + Data I/O   CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard   DATA:     /csv <file.csv> [column] [chart_type]",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:14.759063+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.759063+00:00",
+      "last_updated": "2026-05-30T15:29:12.863447+00:00"
+    },
+    "9bbb8caae7f17d37": {
+      "fact_id": "9bbb8caae7f17d37",
+      "fact_value": "RustyPyCraw - Python/Rust Interop   /scan <path> - Scan codebase   /analyze <path> - Analyze interop   /compare <py> <rs> - Compare Python/Rust   /stats   Uses: WebClaw + DataClaw + CrustyClaw + ClawC",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:14.912118+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:14.912118+00:00",
+      "last_updated": "2026-05-30T15:29:13.034590+00:00"
+    },
+    "e780ca3a0dd86bf8": {
+      "fact_id": "e780ca3a0dd86bf8",
+      "fact_value": "TXClaw - TX.org Blockchain Agent   /tx /block /address /token /validator /contract   /staking /gas /ecosystem /governance /network /mempool   /generate <name> /deploy <name> /test <name>   /networks /",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:15.128158+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:15.128158+00:00",
+      "last_updated": "2026-05-30T15:29:13.213438+00:00"
+    },
+    "7ea834d4753e6b46": {
+      "fact_id": "7ea834d4753e6b46",
+      "fact_value": "DreamClaw - AI Vision   /dream /imagine /style /stats   /delegate <agent> <task>",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:17:22.749534+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:22.749534+00:00",
+      "last_updated": "2026-05-30T15:26:17.348443+00:00"
+    },
+    "cee3c38ec8719a39": {
+      "fact_id": "cee3c38ec8719a39",
+      "fact_value": "query:/help",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:55.433618+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:55.433618+00:00",
+      "last_updated": "2026-05-30T15:26:16.753317+00:00"
+    },
+    "0d8e53028e209e41": {
+      "fact_id": "0d8e53028e209e41",
+      "fact_value": "source_url:https://help.github.com/articles/ignoring-files/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://help.github.com/articles/ignoring-files/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:55.450619+00:00"
+        }
+      ],
+      "verifications": 7,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-30T15:17:55.450619+00:00",
+      "last_updated": "2026-05-30T15:26:16.771341+00:00"
+    },
+    "c129bd6ce4faf83c": {
+      "fact_id": "c129bd6ce4faf83c",
+      "fact_value": "source_url:https://help.adobe.com/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://help.adobe.com/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:55.468146+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:55.468146+00:00",
+      "last_updated": "2026-05-30T15:26:16.790376+00:00"
+    },
+    "153d903ae4c4a98c": {
+      "fact_id": "153d903ae4c4a98c",
+      "fact_value": "source_url:https://help.autodesk.com/view/ACD/2025/ENU/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://help.autodesk.com/view/ACD/2025/ENU/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:55.485140+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:55.485140+00:00",
+      "last_updated": "2026-05-30T15:26:16.827424+00:00"
+    },
+    "08a1c4a9edf86244": {
+      "fact_id": "08a1c4a9edf86244",
+      "fact_value": "source_url:https://img.shields.io/npm/dw/readdirp.svg',",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://img.shields.io/npm/dw/readdirp.svg',",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T15:17:55.521139+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:17:55.521139+00:00",
+      "last_updated": "2026-05-30T15:26:16.847981+00:00"
+    },
+    "ef00b4f4d241e2d4": {
+      "fact_id": "ef00b4f4d241e2d4",
+      "fact_value": "DreamClaw - AI Vision   /dream /imagine /style /stats   /delegate [agent] [task]",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:28:39.124448+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T15:28:39.124448+00:00",
+      "last_updated": "2026-05-30T15:29:11.553681+00:00"
+    },
+    "1ce8d2cb24589e11": {
+      "fact_id": "1ce8d2cb24589e11",
+      "fact_value": "LiberateClaw - Model Liberation   /models - All 17 models   /liberated - Obliterated only   /obliterate <model> - Liberate model   /use <model> - Switch model   /stats",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:29:12.269881+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T15:29:12.269881+00:00",
+      "last_updated": "2026-05-30T15:29:12.269881+00:00"
+    },
+    "f34c22959c60aadf": {
+      "fact_id": "f34c22959c60aadf",
+      "fact_value": "MathematicaClaw - Complete Math Engine   CALCULUS:   /derivative /integral /limit   ALGEBRA:    /solve /simplify /factor /expand /algebra   SYSTEMS:    /system /matrix   ARITHMETIC: /add /subtract /mu",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T15:29:12.465085+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T15:29:12.465085+00:00",
+      "last_updated": "2026-05-30T15:29:12.465085+00:00"
     }
   },
   "corrections": [],
-  "updated_at": "2026-05-30T06:04:40.359698+00:00"
+  "updated_at": "2026-05-30T15:29:13.214878+00:00"
 }

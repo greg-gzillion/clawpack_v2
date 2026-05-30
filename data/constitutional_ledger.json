@@ -3573,6 +3573,591 @@
       },
       "previous_hash": "a7e802950d3919e8",
       "hash": "48b0a6c1d49a9a56"
+    },
+    {
+      "timestamp": "2026-05-30T15:16:51.399069+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "48b0a6c1d49a9a56",
+      "hash": "064eb0d49fb3584b"
+    },
+    {
+      "timestamp": "2026-05-30T15:16:51.816155+00:00",
+      "agent": "llmclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "064eb0d49fb3584b",
+      "hash": "c92226887242575f"
+    },
+    {
+      "timestamp": "2026-05-30T15:16:52.431342+00:00",
+      "agent": "drawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "c92226887242575f",
+      "hash": "4fa4f8c317258521"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:12.857723+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "4fa4f8c317258521",
+      "hash": "6c23db0e21010705"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:13.067767+00:00",
+      "agent": "langclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "6c23db0e21010705",
+      "hash": "ef3792882010aeeb"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:13.322563+00:00",
+      "agent": "liberateclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "ef3792882010aeeb",
+      "hash": "fe5489e3f477ec75"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:13.855361+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "fe5489e3f477ec75",
+      "hash": "10886a8380ec423f"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:14.069391+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "10886a8380ec423f",
+      "hash": "15e394fc7a3fe183"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:14.351940+00:00",
+      "agent": "mediclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "15e394fc7a3fe183",
+      "hash": "683de87c6e9df364"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:14.658519+00:00",
+      "agent": "plotclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "683de87c6e9df364",
+      "hash": "26bddf32633969ce"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:14.845609+00:00",
+      "agent": "rustypycraw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "26bddf32633969ce",
+      "hash": "702d917b2a82b8c0"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:15.024640+00:00",
+      "agent": "txclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "702d917b2a82b8c0",
+      "hash": "d4bd538a5dc4eae1"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:22.639312+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "d4bd538a5dc4eae1",
+      "hash": "b7605055759828ee"
+    },
+    {
+      "timestamp": "2026-05-30T15:17:55.362093+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "b7605055759828ee",
+      "hash": "b10b6c4b916f733a"
+    },
+    {
+      "timestamp": "2026-05-30T15:19:18.433448+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "b10b6c4b916f733a",
+      "hash": "5f280b920cb04f0e"
+    },
+    {
+      "timestamp": "2026-05-30T15:19:18.540956+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "5f280b920cb04f0e",
+      "hash": "4923090b7b10fdb0"
+    },
+    {
+      "timestamp": "2026-05-30T15:19:18.852305+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "4923090b7b10fdb0",
+      "hash": "b2cd21b10fc6222d"
+    },
+    {
+      "timestamp": "2026-05-30T15:20:20.871230+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "b2cd21b10fc6222d",
+      "hash": "f6f452dc98721e58"
+    },
+    {
+      "timestamp": "2026-05-30T15:20:21.162350+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "f6f452dc98721e58",
+      "hash": "a352fa3205daa6f6"
+    },
+    {
+      "timestamp": "2026-05-30T15:20:34.654618+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "a352fa3205daa6f6",
+      "hash": "f403a1ab33562db9"
+    },
+    {
+      "timestamp": "2026-05-30T15:20:43.636021+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "f403a1ab33562db9",
+      "hash": "a317f8ce55c853e7"
+    },
+    {
+      "timestamp": "2026-05-30T15:20:43.894270+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "a317f8ce55c853e7",
+      "hash": "2ff1ec411c3651d0"
+    },
+    {
+      "timestamp": "2026-05-30T15:20:55.596756+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "2ff1ec411c3651d0",
+      "hash": "edd9b86d2eb43249"
+    },
+    {
+      "timestamp": "2026-05-30T15:21:57.953555+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "edd9b86d2eb43249",
+      "hash": "486a2ff758f68b56"
+    },
+    {
+      "timestamp": "2026-05-30T15:21:58.260152+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "486a2ff758f68b56",
+      "hash": "2f83efd7ae44c0c2"
+    },
+    {
+      "timestamp": "2026-05-30T15:22:11.476257+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "2f83efd7ae44c0c2",
+      "hash": "2ade7cd0c517a1a8"
+    },
+    {
+      "timestamp": "2026-05-30T15:24:07.863760+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "2ade7cd0c517a1a8",
+      "hash": "0d33c73f1aee8ae5"
+    },
+    {
+      "timestamp": "2026-05-30T15:24:08.197850+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "0d33c73f1aee8ae5",
+      "hash": "a95a869961d18b1d"
+    },
+    {
+      "timestamp": "2026-05-30T15:24:21.689808+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "a95a869961d18b1d",
+      "hash": "8fcf63078a3f2f8d"
+    },
+    {
+      "timestamp": "2026-05-30T15:26:16.691710+00:00",
+      "agent": "dataclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "8fcf63078a3f2f8d",
+      "hash": "b664b3a4af14c849"
+    },
+    {
+      "timestamp": "2026-05-30T15:26:16.924722+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "b664b3a4af14c849",
+      "hash": "491fc9c79b206635"
+    },
+    {
+      "timestamp": "2026-05-30T15:26:27.622786+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "491fc9c79b206635",
+      "hash": "4a0274d737434de9"
+    },
+    {
+      "timestamp": "2026-05-30T15:28:38.657725+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "4a0274d737434de9",
+      "hash": "6bbcf88a02e4b6f8"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:10.361387+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "6bbcf88a02e4b6f8",
+      "hash": "fb779f5f6f30db38"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:10.673594+00:00",
+      "agent": "llmclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "fb779f5f6f30db38",
+      "hash": "aa0e48362902b026"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:11.289544+00:00",
+      "agent": "drawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "aa0e48362902b026",
+      "hash": "e3a6bd17dae902c2"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:11.458388+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "e3a6bd17dae902c2",
+      "hash": "c6ddffa5e1ef1722"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:11.774344+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "c6ddffa5e1ef1722",
+      "hash": "7bfeccff203726c4"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:11.974023+00:00",
+      "agent": "langclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "7bfeccff203726c4",
+      "hash": "f3af466d4f8742fa"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:12.169110+00:00",
+      "agent": "liberateclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "f3af466d4f8742fa",
+      "hash": "d109829e2cf56850"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:12.371645+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "d109829e2cf56850",
+      "hash": "7de6fd6394c8f625"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:12.576651+00:00",
+      "agent": "mediclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "7de6fd6394c8f625",
+      "hash": "44e3a5f26f8b5b21"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:12.768730+00:00",
+      "agent": "plotclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "44e3a5f26f8b5b21",
+      "hash": "225e38cc9dd5c51d"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:12.970495+00:00",
+      "agent": "rustypycraw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "225e38cc9dd5c51d",
+      "hash": "32afa0dbe96446c2"
+    },
+    {
+      "timestamp": "2026-05-30T15:29:13.122235+00:00",
+      "agent": "txclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "32afa0dbe96446c2",
+      "hash": "63e90c66bb19fb35"
     }
   ],
   "version": "v1.0"

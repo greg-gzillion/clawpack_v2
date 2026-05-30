@@ -6575,6 +6575,883 @@
       "urls": [],
       "metadata": {},
       "timestamp": "2026-05-30T15:09:10.631906+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket ent",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:16:51.628102+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket entries, jury demand, summaries\n                         Example: /docket 42 USC 1983\n  /cite [citation",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:16:51.662102+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "LLMClaw - Model Manager + Orchestrator\n  /llm <prompt> - Direct inference\n  /orchestrate <query> - Multi-agent orchestration\n  /models /use /obliterated /normal /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:16:51.870151+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "query": "",
+      "fact": "LLMClaw - Model Manager + Orchestrator\n  /llm <prompt> - Direct inference\n  /orchestrate <query> - Multi-agent orchestration\n  /models /use /obliterated /normal /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:16:51.904705+00:00"
+    },
+    {
+      "agent": "drawclaw",
+      "query": "",
+      "fact": "DrawClaw - AI Prompt Studio + Drawing Tools\n  DRAW:     /canvas - Interactive drawing window\n            /sketch <style> <subject> - Pencil/charcoal/ink sketch\n            /doodle <style> - Algorithmic art (11 styles)\n            /paint <style> <scene> - 14 painting styles\n            /illustrate <format> <desc> - Comic/storyboard/tutorial\n            /cartoon <mood> <character> - Expressive cartoon faces\n            /draw <scene> - AI-assisted scene rendering\n  PROMPTS:  /prompt <concept> - AI ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:16:52.472338+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:12.893735+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:12.927245+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "LangClaw - AI Language Teacher\n  /lesson <lang> - Full lesson\n  /practice <lang> - Exercises\n  /vocab <lang> - Vocabulary\n  /conversation <lang> - Practice chat\n  /teach <lang> - Interactive teacher\n  /speak <text> - TTS voice output\n  /listen - STT voice input\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:13.117301+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "query": "",
+      "fact": "LangClaw - AI Language Teacher\n  /lesson <lang> - Full lesson\n  /practice <lang> - Exercises\n  /vocab <lang> - Vocabulary\n  /conversation <lang> - Practice chat\n  /teach <lang> - Interactive teacher\n  /speak <text> - TTS voice output\n  /listen - STT voice input\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:13.153297+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:13.895365+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "query": "",
+      "fact": "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:13.927875+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:13.945871+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MathematicaClaw - Complete Math Engine\n  CALCULUS:   /derivative /integral /limit\n  ALGEBRA:    /solve /simplify /factor /expand /algebra\n  SYSTEMS:    /system /matrix\n  ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent\n  VISUALIZE:  /plot /animate\n  EXPLAIN:    /explain <concept>\n  DELEGATE:   /delegate /export /chart\n  META:       /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:14.131907+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "query": "",
+      "fact": "MathematicaClaw - Complete Math Engine\n  CALCULUS:   /derivative /integral /limit\n  ALGEBRA:    /solve /simplify /factor /expand /algebra\n  SYSTEMS:    /system /matrix\n  ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent\n  VISUALIZE:  /plot /animate\n  EXPLAIN:    /explain <concept>\n  DELEGATE:   /delegate /export /chart\n  META:       /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:14.169907+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:14.425467+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n  /research <topic> /diagnose <symptoms> /treatment <condition>\n  /medications <drug> /interactions <",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:14.476470+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "PlotClaw v3 - 13 Chart Types + Data I/O\n  CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard\n  DATA:     /csv <file.csv> [column] [chart_type]  |  /data (list files)  |  /import <file.json>\n  SHARED:   /shared read [key]  |  /shared write key:value  |  /publish <data>\n  DELEGATE: /delegate <agent> <task>\n  FLAGS:    --ylim 0,100 --xlim -5,5 -",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:14.707063+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "PlotClaw v3 - 13 Chart Types + Data I/O\n  CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard\n  DATA:     /csv <file.csv> [column] [chart_type]  |  /data (list files)  |  /import <file.json>\n  SHARED:   /shared read [key]  |  /shared write key:value  |  /publish <data>\n  DELEGATE: /delegate <agent> <task>\n  FLAGS:    --ylim 0,100 --xlim -5,5 --figsize 12,8 --dpi 200 --fontsize 12 --cmap magma --theme dark\n            --format svg|pdf|png --s",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:14.730068+00:00"
+    },
+    {
+      "agent": "rustypycraw",
+      "query": "",
+      "fact": "RustyPyCraw - Python/Rust Interop\n  /scan <path> - Scan codebase\n  /analyze <path> - Analyze interop\n  /compare <py> <rs> - Compare Python/Rust\n  /stats\n  Uses: WebClaw + DataClaw + CrustyClaw + ClawCoder -> LLMClaw -> FileClaw",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:14.889599+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "TXClaw - TX.org Blockchain Agent\n  /tx /block /address /token /validator /contract\n  /staking /gas /ecosystem /governance /network /mempool\n  /generate <name> /deploy <name> /test <name>\n  /networks /search <query> /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:15.076645+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "query": "",
+      "fact": "TXClaw - TX.org Blockchain Agent\n  /tx /block /address /token /validator /contract\n  /staking /gas /ecosystem /governance /network /mempool\n  /generate <name> /deploy <name> /test <name>\n  /networks /search <query> /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:15.106155+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:22.696877+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:22.725449+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:17:55.320082+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 2 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:17:55.395616+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 2 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,273,514B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:17:55.421625+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:19:18.460434+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:19:18.495436+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:19:18.576957+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,273,928B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:19:18.604959+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:19:18.887304+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:19:18.911311+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:20:20.821056+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:20:20.951229+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,274,342B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:20:20.974773+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:20:21.209877+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:20:21.238893+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:20:34.794684+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:20:43.586038+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:20:43.660021+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,274,756B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:20:43.696571+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:20:43.927260+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:20:43.951254+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:20:55.652755+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:21:57.904009+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:21:58.035086+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,275,170B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:21:58.058077+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:21:58.307150+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:21:58.331159+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:22:11.525261+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:24:07.798676+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:24:07.956512+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,275,594B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:24:07.983535+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:24:08.253496+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:24:08.283690+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:24:21.743085+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Found 10 files, 4 data matches for: /help",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 4
+      },
+      "timestamp": "2026-05-30T15:26:16.647639+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:26:16.716257+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/help",
+      "fact": "Search: /help\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 153: \ud83d\udcc4 help.py - /help\n\n  docs\\QUICKSTART.md (2,514B)\n     line 22: /help                     \u2192 All commands\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 575: \u2502   \u251c\u2500\u2500 \ud83d\udcc4 help.py (1372 B) - /help - Show commands\n\n  data\\chronicle_ledger.json (10,276,019B)\n     line 24283: \"url\": \"https",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:26:16.740799+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:26:17.293744+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:26:17.319377+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /help",
+      "fact": "Found 6 results:\n\n1. lawclaw\\business_law\\key_cases\\business_key_cases.md\n   # Business Law - Key Cases\n\n## Business Organizations\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| Walkovszky v. Carlton | 223 N.E.2d 6 (N.Y. 1966) | Piercing corporate veil | https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html |\n| Meinhard v. Salmon | 164 N.E. 545 (N.Y. 1928) | Fiduciary duty in partnership | https://law.justia.com/cases/new-york/court-of-appeals/19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:26:27.670836+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:28:39.072306+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:28:39.099860+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket ent",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:10.498457+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket entries, jury demand, summaries\n                         Example: /docket 42 USC 1983\n  /cite [citation",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:10.536132+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "LLMClaw - Model Manager + Orchestrator\n  /llm <prompt> - Direct inference\n  /orchestrate <query> - Multi-agent orchestration\n  /models /use /obliterated /normal /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:10.721308+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "query": "",
+      "fact": "LLMClaw - Model Manager + Orchestrator\n  /llm <prompt> - Direct inference\n  /orchestrate <query> - Multi-agent orchestration\n  /models /use /obliterated /normal /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:10.749691+00:00"
+    },
+    {
+      "agent": "drawclaw",
+      "query": "",
+      "fact": "DrawClaw - AI Prompt Studio + Drawing Tools\n  DRAW:     /canvas - Interactive drawing window\n            /sketch <style> <subject> - Pencil/charcoal/ink sketch\n            /doodle <style> - Algorithmic art (11 styles)\n            /paint <style> <scene> - 14 painting styles\n            /illustrate <format> <desc> - Comic/storyboard/tutorial\n            /cartoon <mood> <character> - Expressive cartoon faces\n            /draw <scene> - AI-assisted scene rendering\n  PROMPTS:  /prompt <concept> - AI ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:11.335552+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:11.504984+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:11.529611+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:11.818979+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:11.845877+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "LangClaw - AI Language Teacher\n  /lesson <lang> - Full lesson\n  /practice <lang> - Exercises\n  /vocab <lang> - Vocabulary\n  /conversation <lang> - Practice chat\n  /teach <lang> - Interactive teacher\n  /speak <text> - TTS voice output\n  /listen - STT voice input\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:12.015576+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "query": "",
+      "fact": "LangClaw - AI Language Teacher\n  /lesson <lang> - Full lesson\n  /practice <lang> - Exercises\n  /vocab <lang> - Vocabulary\n  /conversation <lang> - Practice chat\n  /teach <lang> - Interactive teacher\n  /speak <text> - TTS voice output\n  /listen - STT voice input\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:12.045970+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:12.212769+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "query": "",
+      "fact": "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:12.244833+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MathematicaClaw - Complete Math Engine\n  CALCULUS:   /derivative /integral /limit\n  ALGEBRA:    /solve /simplify /factor /expand /algebra\n  SYSTEMS:    /system /matrix\n  ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent\n  VISUALIZE:  /plot /animate\n  EXPLAIN:    /explain <concept>\n  DELEGATE:   /delegate /export /chart\n  META:       /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:12.406517+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "query": "",
+      "fact": "MathematicaClaw - Complete Math Engine\n  CALCULUS:   /derivative /integral /limit\n  ALGEBRA:    /solve /simplify /factor /expand /algebra\n  SYSTEMS:    /system /matrix\n  ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent\n  VISUALIZE:  /plot /animate\n  EXPLAIN:    /explain <concept>\n  DELEGATE:   /delegate /export /chart\n  META:       /help /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:12.436081+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:12.630250+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n  /research <topic> /diagnose <symptoms> /treatment <condition>\n  /medications <drug> /interactions <",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:12.653783+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "PlotClaw v3 - 13 Chart Types + Data I/O\n  CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard\n  DATA:     /csv <file.csv> [column] [chart_type]  |  /data (list files)  |  /import <file.json>\n  SHARED:   /shared read [key]  |  /shared write key:value  |  /publish <data>\n  DELEGATE: /delegate <agent> <task>\n  FLAGS:    --ylim 0,100 --xlim -5,5 -",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:12.812675+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "PlotClaw v3 - 13 Chart Types + Data I/O\n  CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard\n  DATA:     /csv <file.csv> [column] [chart_type]  |  /data (list files)  |  /import <file.json>\n  SHARED:   /shared read [key]  |  /shared write key:value  |  /publish <data>\n  DELEGATE: /delegate <agent> <task>\n  FLAGS:    --ylim 0,100 --xlim -5,5 --figsize 12,8 --dpi 200 --fontsize 12 --cmap magma --theme dark\n            --format svg|pdf|png --s",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:12.837235+00:00"
+    },
+    {
+      "agent": "rustypycraw",
+      "query": "",
+      "fact": "RustyPyCraw - Python/Rust Interop\n  /scan <path> - Scan codebase\n  /analyze <path> - Analyze interop\n  /compare <py> <rs> - Compare Python/Rust\n  /stats\n  Uses: WebClaw + DataClaw + CrustyClaw + ClawCoder -> LLMClaw -> FileClaw",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:13.012219+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "TXClaw - TX.org Blockchain Agent\n  /tx /block /address /token /validator /contract\n  /staking /gas /ecosystem /governance /network /mempool\n  /generate <name> /deploy <name> /test <name>\n  /networks /search <query> /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:29:13.158859+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "query": "",
+      "fact": "TXClaw - TX.org Blockchain Agent\n  /tx /block /address /token /validator /contract\n  /staking /gas /ecosystem /governance /network /mempool\n  /generate <name> /deploy <name> /test <name>\n  /networks /search <query> /stats",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:29:13.187405+00:00"
     }
   ],
   "index": {
@@ -8059,7 +8936,14 @@
     ],
     "creative": [
       480,
-      506
+      506,
+      658,
+      673,
+      684,
+      690,
+      696,
+      702,
+      708
     ],
     "/stats": [
       480,
@@ -8922,7 +9806,37 @@
       632,
       633,
       646
+    ],
+    "/help": [
+      658,
+      670,
+      671,
+      672,
+      673,
+      674,
+      675,
+      676,
+      679,
+      680,
+      681,
+      684,
+      685,
+      686,
+      687,
+      690,
+      691,
+      692,
+      693,
+      696,
+      697,
+      698,
+      699,
+      702,
+      703,
+      704,
+      705,
+      708
     ]
   },
-  "updated_at": "2026-05-30T15:09:10.632906+00:00"
+  "updated_at": "2026-05-30T15:29:13.188405+00:00"
 }
