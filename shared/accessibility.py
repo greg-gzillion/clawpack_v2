@@ -134,3 +134,69 @@ def speak_response(text, target_lang='en', original_lang=None):
     return speak(text, original_lang or target_lang)
 
 print("shared/accessibility.py created")
+def voice_mode(agent_handler, target_lang='en'):
+    """Universal voice mode for any agent. 
+    Listens, translates, processes through the agent, translates response back, speaks it.
+    Usage in any agent handler:
+        elif cmd == "/voice":
+            from shared.accessibility import voice_mode
+            result = voice_mode(self)
+    """
+    print("[VOICE] Listening... (speak now)")
+    text, lang, translated = listen_and_translate(target_lang)
+    if text.startswith('[STT]'):
+        return text
+    
+    print(f"[VOICE] Detected: {lang} -> "{text[:80]}..."")
+    print(f"[VOICE] Translated: "{translated[:80]}..."")
+    
+    # Process through the agent
+    response = agent_handler.handle(translated)
+    response_text = response.get('result', str(response))
+    
+    # Translate response back if needed
+    if lang and lang != target_lang:
+        print(f"[VOICE] Translating response to {lang}...")
+        final_text = translate(response_text, lang, target_lang)
+    else:
+        final_text = response_text
+    
+    # Speak the response
+    print(f"[VOICE] Speaking response...")
+    speak(final_text, lang or target_lang)
+    
+    return f"[VOICE] ({lang.upper()}) {text}\n-> {translated}\n\nResponse: {response_text[:500]}"
+
+def voice_mode(agent_handler, target_lang='en'):
+    """Universal voice mode for any agent. 
+    Listens, translates, processes through the agent, translates response back, speaks it.
+    Usage in any agent handler:
+        elif cmd == "/voice":
+            from shared.accessibility import voice_mode
+            result = voice_mode(self)
+    """
+    print("[VOICE] Listening... (speak now)")
+    text, lang, translated = listen_and_translate(target_lang)
+    if text.startswith('[STT]'):
+        return text
+    
+    print(f"[VOICE] Detected: {lang} -> "{text[:80]}..."")
+    print(f"[VOICE] Translated: "{translated[:80]}..."")
+    
+    # Process through the agent
+    response = agent_handler.handle(translated)
+    response_text = response.get('result', str(response))
+    
+    # Translate response back if needed
+    if lang and lang != target_lang:
+        print(f"[VOICE] Translating response to {lang}...")
+        final_text = translate(response_text, lang, target_lang)
+    else:
+        final_text = response_text
+    
+    # Speak the response
+    print(f"[VOICE] Speaking response...")
+    speak(final_text, lang or target_lang)
+    
+    return f"[VOICE] ({lang.upper()}) {text}\n-> {translated}\n\nResponse: {response_text[:500]}"
+

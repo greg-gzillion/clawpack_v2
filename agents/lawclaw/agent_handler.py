@@ -114,6 +114,8 @@ NAVIGATION & UTILITY
   /brief [case]          Generate case brief
                          Example: /brief Miranda v Arizona
   /stats                 System statistics
+  /voice                 Voice mode - speak in any language
+  /voice                 Voice mode - speak in any language
 
 CROSS-AGENT COMMANDS (routed via capability registry)
   /plot [data]           Route to plotclaw for charts
@@ -134,6 +136,9 @@ All commands are memory-wired. Cross-agent delegation via capability registry.
 """
             elif cmd == "/stats":
                 result = f"LawClaw | Interactions: {self.state.get('interactions', 0)}"
+            elif cmd == "/voice":
+                from shared.accessibility import voice_mode
+                result = voice_mode(self)
             elif cmd == "/analyze" and args:
                 from agents.lawclaw.commands.analyze import run as cmd_run
                 result = cmd_run(args)
