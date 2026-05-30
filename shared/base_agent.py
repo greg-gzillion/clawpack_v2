@@ -193,7 +193,7 @@ class BaseAgent:
                 )
             from shared.llm.client import get_llm_client
             client = get_llm_client()
-            response = client.call_sync(full_prompt, agent=self.name, provider='anthropic')
+            response = client.call_sync(full_prompt, agent=self.name)
             return response.content
         except Exception as e:
             self._log_error("sovereign_gateway", str(e))

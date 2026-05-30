@@ -6120,6 +6120,229 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T05:18:39.296632+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Longmont CO",
+      "fact": "## AI Analysis\n# Analysis: Query for \"Longmont CO\"\n\n## Finding\n\n**No relevant results found.**\n\nThe search results returned 10 items from the claw_coder reference library, which contains technical documentation for programming languages, frameworks, and DevOps tools. None of these results contain any information related to **Longmont, Colorado**.\n\n## Results Summary\n\nThe search returned references for:\n- Programming languages and frameworks (Python, JavaScript, Java, etc.)\n- Infrastructure tools",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:20:59.883810+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Longmont CO",
+      "fact": "# Longmont, Colorado \u2014 Local Law Resources & Information\n\n## City Government\n- **City Website:** https://longmontcolorado.gov\n- **City Hall:** 350 Kimbark Street, Longmont, CO 80501 \u2014 (303) 776-6050\n  - Hours: Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n\n## Courts\n- **Longmont Municipal Court**\n  - Address: 225 Kimbark Street, Longmont, CO 80501\n  - Phone: (303) 774-4804\n  - Website: https://longmontcolorado",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:21:55.337124+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Longmont CO",
+      "fact": "# Longmont, Colorado \u2014 Local Law Resources & Information\n\n## City Government\n- **City Website:** https://longmontcolorado.gov\n- **City Hall:** 350 Kimbark Street, Longmont, CO 80501 \u2014 (303) 776-6050\n  - Hours: Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n\n## Courts\n- **Longmont Municipal Court**\n  - Address: 225 Kimbark Street, Longmont, CO 80501\n  - Phone: (303) 774-4804\n  - Website: https://longmontcolorado.gov/court\n\n## Law Enforcement\n- **Longmont Police Department**\n  - Address: 225 Kimbark Street, Lon",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:21:55.362061+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Golden CO",
+      "fact": "## AI Analysis\n# Golden, CO - Court Information\n\nI appreciate your query, but I need to clarify an important point:\n\n**The provided context contains information exclusively about the California court system.** Golden, CO (Golden, Colorado) is located in **Colorado**, not California, so it is **not covered** in this database.\n\n## What I Can Help With:\n\nIf you need information about:\n- **California courts** - I have comprehensive data on all 58 California counties, the California Supreme Court, Co",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:24:30.296949+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Golden CO",
+      "fact": "## AI Analysis\n# Golden, CO - Court System Information\n\nI appreciate your query, but I need to clarify an important point:\n\n**The provided context contains information exclusively about the California (CA) court system**, covering all 58 California counties and state/federal courts within California.\n\n**Golden, CO (Golden, Colorado) is NOT covered in this database.**\n\n## What You Need Instead:\n\nTo find court information for Golden, Colorado, you would need:\n- **Colorado State Court System** reso",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:26:09.865985+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/hospital",
+      "query": "Golden CO",
+      "fact": "# Golden, CO - Court System Information\n\nGreat! I found comprehensive information about Golden, Colorado courts. Here's what you need to know:\n\n## Golden Municipal Court\n**Primary Local Court**\n- **Address**: 911 10th Street, Golden, CO 80401\n- **Phone**: (303) 384-8006\n- **Website**: https://www.cityofgolden.gov/court\n- **Hours**: Monday\u2013Thursday, 8:00 AM \u2013 5:00 PM\n- **Jurisdiction**: Municipal v",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:26:29.913340+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Golden CO",
+      "fact": "# Golden, CO - Court System Information\n\nGreat! I found comprehensive information about Golden, Colorado courts. Here's what you need to know:\n\n## Golden Municipal Court\n**Primary Local Court**\n- **Address**: 911 10th Street, Golden, CO 80401\n- **Phone**: (303) 384-8006\n- **Website**: https://www.cityofgolden.gov/court\n- **Hours**: Monday\u2013Thursday, 8:00 AM \u2013 5:00 PM\n- **Jurisdiction**: Municipal violations, traffic offenses, local ordinances\n\n---\n\n## Jefferson County District Court\n**County-Leve",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:26:29.934087+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Bedford VA",
+      "fact": "## AI Analysis\n# Search Results Analysis for Bedford VA\n\nI need to clarify an important finding: **The search results do not contain information for Bedford, VA (Virginia)**. \n\nInstead, the results returned information for **Bedford, IA (Iowa)** in Taylor County. These are two different locations:\n\n- **Bedford, IA** - County seat of Taylor County, Iowa\n- **Bedford, VA** - A separate city in Virginia (not covered in these results)\n\n## Results Found: Taylor County, Iowa Courts\n\nIf you're looking f",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:28:33.111926+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Bedford VA",
+      "fact": "# Bedford, VA \u2014 Legal Resources & Courts\n\nBased on your inquiry about Bedford, VA law matters, here's the key information:\n\n## Courts in Bedford\n\n**Bedford County General District Court**\n- Address: 123 E Main St, Suite 202, Bedford, VA 24523\n- Phone: (540) 586-7684\n- Hours: Monday\u2013Friday, 8:00 AM \u2013 4:00 PM\n- Jurisdiction: Traffic violations, misdemeanors, civil cases under $25,000, small claims, ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:28:59.961574+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Bedford VA",
+      "fact": "# Bedford, VA \u2014 Legal Resources & Courts\n\nBased on your inquiry about Bedford, VA law matters, here's the key information:\n\n## Courts in Bedford\n\n**Bedford County General District Court**\n- Address: 123 E Main St, Suite 202, Bedford, VA 24523\n- Phone: (540) 586-7684\n- Hours: Monday\u2013Friday, 8:00 AM \u2013 4:00 PM\n- Jurisdiction: Traffic violations, misdemeanors, civil cases under $25,000, small claims, landlord-tenant disputes, preliminary hearings\n- Note: No town municipal court exists; Bedford rever",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:28:59.983655+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Bedford VA",
+      "fact": "\n============================================================\nDETENTION: Bedford VA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: **Civic Profile: Bedford, VA**\n\n**COURTS**\n\n1. **Bedford County General District...\n    /jurisdiction [2026-05-29]: **Civic Profile for Bedford, VA**\n\n**COURTS**\n\n1. Bedford Coun",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:29:16.179196+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Bedford VA",
+      "fact": "## AI Analysis\n# Analysis: Bedford VA Search Query\n\n## Important Note\nThe search results returned information for **Bedford, Iowa** (Taylor County), not Bedford, Virginia. Based on your query for \"Bedford VA,\" there appears to be a geographic mismatch.\n\n## Results Found for Bedford, Iowa\n\nAll 20 results in the search correspond to **Taylor County, Iowa**, where Bedford is the county seat. The courts located at **405 Jefferson Street, Bedford, IA 50833** include:\n\n1. **Iowa District Court for Tay",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:31:28.036396+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Bedford VA",
+      "fact": "# Bedford, VA Legal Resources\n\nBased on your query about Bedford, VA law information, here's a comprehensive overview:\n\n## Court System\n\n**Bedford has NO town municipal court.** All judicial services are provided by Bedford County courts:\n\n### Bedford County General District Court\n- **Address:** 123 E Main St, Suite 202, Bedford, VA 24523\n- **Phone:** (540) 586-7684\n- **Hours:** 8:00 AM \u2013 4:00 PM,",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:31:54.672088+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Bedford VA",
+      "fact": "# Bedford, VA Legal Resources\n\nBased on your query about Bedford, VA law information, here's a comprehensive overview:\n\n## Court System\n\n**Bedford has NO town municipal court.** All judicial services are provided by Bedford County courts:\n\n### Bedford County General District Court\n- **Address:** 123 E Main St, Suite 202, Bedford, VA 24523\n- **Phone:** (540) 586-7684\n- **Hours:** 8:00 AM \u2013 4:00 PM, Monday\u2013Friday\n- **Jurisdiction:** Traffic violations, misdemeanors, small claims (up to $5,000), ci",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:31:54.693133+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Dallas TX",
+      "fact": "## AI Analysis\n# Administrative Law Resources for Dallas, TX\n\nBased on your Dallas location, here are the most relevant administrative law resources and standards:\n\n## Texas Administrative Law Framework\n\n### Key Governing Statutes\n- **Texas Administrative Procedure Act (TAPA)**: Government Code Chapter 2001\n- **Texas Register**: https://www.sos.texas.gov/texreg/\n- **Texas Administrative Code (TAC)**: https://texreg.sos.state.tx.us/public/readtac$ext.TacPage\n\n### Central ALJ System\n- **State Offi",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:34:22.239610+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Dallas TX",
+      "fact": "# Dallas, TX \u2014 Legal Resources & Court Information\n\nBased on your query about Dallas, TX, here are the key legal resources and government contacts:\n\n## **Dallas Municipal Court**\n- **Location:** 1500 Marilla St, Dallas, TX 75201 (City Hall)\n- **Phone:** (214) 670-3600\n- **Online Services:** https://dallas.municipalonlinepayments.com\n- **Jurisdiction:** Traffic violations, city code violations, Cla",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:34:46.994700+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Dallas TX",
+      "fact": "# Dallas, TX \u2014 Legal Resources & Court Information\n\nBased on your query about Dallas, TX, here are the key legal resources and government contacts:\n\n## **Dallas Municipal Court**\n- **Location:** 1500 Marilla St, Dallas, TX 75201 (City Hall)\n- **Phone:** (214) 670-3600\n- **Online Services:** https://dallas.municipalonlinepayments.com\n- **Jurisdiction:** Traffic violations, city code violations, Class C misdemeanors\n- **Website:** https://dallascityhall.com\n\n## **Dallas County Courthouse** (Superi",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:34:47.025811+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Dallas TX",
+      "fact": "## AI Analysis\n# Administrative Law Resources for Dallas, TX\n\nBased on your Dallas, TX location, here is the most relevant administrative law information:\n\n## Texas Administrative Law Framework\n\n### Key Governing Statute\n- **Texas Administrative Procedure Act (Gov. Code Ch. 2001)**\n- Resources: https://www.soah.texas.gov | https://www.sos.texas.gov/texreg\n\n### Central ALJ System\n- **State Office of Administrative Hearings (SOAH)** - Centralized panel for formal adjudications\n- Merit selection an",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:40:48.204767+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Dallas TX",
+      "fact": "\n============================================================\nDETENTION: Dallas TX\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    unknown [2026-05-30]: ## AI Analysis\n# Administrative Law Resources for Dallas, TX\n\nBased on your Dall...\n    /detention [2026-05-30]: # Dallas, TX \u2014 Legal Resources & Court Information\n\nBased on your query ",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:42:03.073515+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Dallas TX",
+      "fact": "## AI Analysis\n# Administrative Law Resources for Dallas, TX\n\nBased on your location in Dallas, Texas, here is the most relevant administrative law information:\n\n## Texas Administrative Law Framework\n\n### Key Statutory Authority\n- **Texas Administrative Procedure Act (TAPA)**: Government Code Chapter 2001\n- **Rulemaking**: Texas Register publication required\n- **Central ALJ System**: State Office of Administrative Hearings (SOAH)\n\n### Resources\n- **SOAH**: https://www.soah.texas.gov\n- **Texas Re",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:43:08.632025+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Dallas TX",
+      "fact": "## AI Analysis\n# Administrative Law Resources for Dallas, TX\n\nBased on your Dallas, TX location, here is the most relevant administrative law information:\n\n## Texas Administrative Law Framework\n\n### Governing Statute\n- **Texas Administrative Procedure Act (TAPA)**: Government Code Chapter 2001\n- Applies to all state agency rulemaking and adjudication in Texas\n\n### Key Texas Cases (Directly Applicable)\n\n**1. City of Dallas v. Stewart (2011)** 361 S.W.3d 562\n- **Standard**: Substantial evidence re",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:45:04.529089+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Dallas TX",
+      "fact": "# Dallas, TX \u2014 Legal Resources Overview\n\nBased on your query about Dallas, TX law resources, here's the comprehensive information:\n\n## **Dallas Municipal Court**\n- **Location:** 1500 Marilla St, Dallas, TX 75201\n- **Phone:** (214) 670-3600\n- **Online Services:** https://dallas.municipalonlinepayments.com\n- **Jurisdiction:** Traffic violations, city code violations, Class C misdemeanors\n- **Website",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:45:30.431348+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Dallas TX",
+      "fact": "# Dallas, TX \u2014 Legal Resources Overview\n\nBased on your query about Dallas, TX law resources, here's the comprehensive information:\n\n## **Dallas Municipal Court**\n- **Location:** 1500 Marilla St, Dallas, TX 75201\n- **Phone:** (214) 670-3600\n- **Online Services:** https://dallas.municipalonlinepayments.com\n- **Jurisdiction:** Traffic violations, city code violations, Class C misdemeanors\n- **Website:** https://dallascityhall.com\n\n## **Dallas County Courthouse** (Superior/District Court)\n- **Locati",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:45:30.454068+00:00"
     }
   ],
   "index": {
@@ -6347,7 +6570,14 @@
       50,
       51,
       52,
-      53
+      53,
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615
     ],
     "sdny": [
       31,
@@ -8409,8 +8639,28 @@
     "longmont": [
       599,
       600,
-      601
+      601,
+      602,
+      603,
+      604
+    ],
+    "golden": [
+      605,
+      606,
+      607,
+      608
+    ],
+    "dallas": [
+      616,
+      617,
+      618,
+      619,
+      620,
+      621,
+      622,
+      623,
+      624
     ]
   },
-  "updated_at": "2026-05-30T05:18:39.296632+00:00"
+  "updated_at": "2026-05-30T05:45:30.454068+00:00"
 }

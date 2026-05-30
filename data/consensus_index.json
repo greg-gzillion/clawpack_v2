@@ -1546,7 +1546,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T05:17:43.331146+00:00",
-      "last_updated": "2026-05-30T05:18:39.317654+00:00"
+      "last_updated": "2026-05-30T05:21:55.385105+00:00"
     },
     "1645e06a80d15408": {
       "fact_id": "1645e06a80d15408",
@@ -1598,9 +1598,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T05:17:43.367344+00:00",
-      "last_updated": "2026-05-30T05:17:43.367344+00:00"
+      "last_updated": "2026-05-30T05:20:59.959986+00:00"
     },
     "3dbf02a4001f98b6": {
       "fact_id": "3dbf02a4001f98b6",
@@ -1634,9 +1634,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T05:18:39.332206+00:00",
-      "last_updated": "2026-05-30T05:18:39.332206+00:00"
+      "last_updated": "2026-05-30T05:21:55.403174+00:00"
     },
     "a538d99cf53709e4": {
       "fact_id": "a538d99cf53709e4",
@@ -1652,9 +1652,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T05:18:39.348719+00:00",
-      "last_updated": "2026-05-30T05:18:39.348719+00:00"
+      "last_updated": "2026-05-30T05:21:55.417300+00:00"
     },
     "a3879525c293137f": {
       "fact_id": "a3879525c293137f",
@@ -1670,9 +1670,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T05:18:39.362746+00:00",
-      "last_updated": "2026-05-30T05:18:39.362746+00:00"
+      "last_updated": "2026-05-30T05:21:55.432083+00:00"
     },
     "d45b3d1c30ebd1a9": {
       "fact_id": "d45b3d1c30ebd1a9",
@@ -1686,11 +1686,11 @@
           "timestamp": "2026-05-30T05:18:39.376263+00:00"
         }
       ],
-      "verifications": 1,
+      "verifications": 2,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.44,
       "first_seen": "2026-05-30T05:18:39.376263+00:00",
-      "last_updated": "2026-05-30T05:18:39.376263+00:00"
+      "last_updated": "2026-05-30T05:21:55.460119+00:00"
     },
     "0b09a67fd005239c": {
       "fact_id": "0b09a67fd005239c",
@@ -1704,11 +1704,11 @@
           "timestamp": "2026-05-30T05:18:39.393104+00:00"
         }
       ],
-      "verifications": 1,
+      "verifications": 2,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.44,
       "first_seen": "2026-05-30T05:18:39.393104+00:00",
-      "last_updated": "2026-05-30T05:18:39.393104+00:00"
+      "last_updated": "2026-05-30T05:21:55.480299+00:00"
     },
     "61e48edc11207068": {
       "fact_id": "61e48edc11207068",
@@ -1722,11 +1722,11 @@
           "timestamp": "2026-05-30T05:18:39.406616+00:00"
         }
       ],
-      "verifications": 1,
+      "verifications": 2,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.44,
       "first_seen": "2026-05-30T05:18:39.406616+00:00",
-      "last_updated": "2026-05-30T05:18:39.406616+00:00"
+      "last_updated": "2026-05-30T05:21:55.494844+00:00"
     },
     "740bdd287700a15a": {
       "fact_id": "740bdd287700a15a",
@@ -1740,13 +1740,1273 @@
           "timestamp": "2026-05-30T05:18:39.421128+00:00"
         }
       ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:18:39.421128+00:00",
+      "last_updated": "2026-05-30T05:21:55.510375+00:00"
+    },
+    "6eda425250aa9799": {
+      "fact_id": "6eda425250aa9799",
+      "fact_value": "concept:No relevant results found.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:20:59.926727+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:20:59.926727+00:00",
+      "last_updated": "2026-05-30T05:20:59.926727+00:00"
+    },
+    "1dc41f6427d87702": {
+      "fact_id": "1dc41f6427d87702",
+      "fact_value": "concept:Longmont, Colorado",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:20:59.943445+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:20:59.943445+00:00",
+      "last_updated": "2026-05-30T05:20:59.943445+00:00"
+    },
+    "8c68e3a170522dd4": {
+      "fact_id": "8c68e3a170522dd4",
+      "fact_value": "concept:Recommendation:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:20:59.975688+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:20:59.975688+00:00",
+      "last_updated": "2026-05-30T05:20:59.975688+00:00"
+    },
+    "abb3c88bde3cd856": {
+      "fact_id": "abb3c88bde3cd856",
+      "fact_value": "concept:Longmont Jail",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:21:55.446588+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:21:55.446588+00:00",
+      "last_updated": "2026-05-30T05:21:55.446588+00:00"
+    },
+    "49cc5680676533e8": {
+      "fact_id": "49cc5680676533e8",
+      "fact_value": "query:Golden CO",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:24:30.321505+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:24:30.321505+00:00",
+      "last_updated": "2026-05-30T05:26:29.954153+00:00"
+    },
+    "acc3ef8c5d20080a": {
+      "fact_id": "acc3ef8c5d20080a",
+      "fact_value": "concept:The provided context contains information exclusively about the California court system.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:24:30.335012+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:24:30.335012+00:00",
+      "last_updated": "2026-05-30T05:24:30.335012+00:00"
+    },
+    "41b4f297173bc7e5": {
+      "fact_id": "41b4f297173bc7e5",
+      "fact_value": "concept:not covered",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:24:30.349252+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:24:30.349252+00:00",
+      "last_updated": "2026-05-30T05:24:30.349252+00:00"
+    },
+    "44c6c43d60a68f64": {
+      "fact_id": "44c6c43d60a68f64",
+      "fact_value": "concept:California courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:24:30.363307+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:24:30.363307+00:00",
+      "last_updated": "2026-05-30T05:24:30.363307+00:00"
+    },
+    "d64caf1e24588f5d": {
+      "fact_id": "d64caf1e24588f5d",
+      "fact_value": "concept:Colorado courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:24:30.376364+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:24:30.376364+00:00",
+      "last_updated": "2026-05-30T05:24:30.376364+00:00"
+    },
+    "59aa51574f334385": {
+      "fact_id": "59aa51574f334385",
+      "fact_value": "source_url:https://www.courts.ca.gov/supremecourt.htm",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.ca.gov/supremecourt.htm",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:24:30.391406+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:24:30.391406+00:00",
+      "last_updated": "2026-05-30T05:26:09.995833+00:00"
+    },
+    "9b6d5c3c3b2378b1": {
+      "fact_id": "9b6d5c3c3b2378b1",
+      "fact_value": "source_url:https://www.courts.ca.gov/courtsofappeal.htm",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.ca.gov/courtsofappeal.htm",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:24:30.404962+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:24:30.404962+00:00",
+      "last_updated": "2026-05-30T05:26:10.010887+00:00"
+    },
+    "b83a1c2a6707e30d": {
+      "fact_id": "b83a1c2a6707e30d",
+      "fact_value": "source_url:https://www.courts.ca.gov/superiorcourts.htm",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.ca.gov/superiorcourts.htm",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:24:30.418975+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:24:30.418975+00:00",
+      "last_updated": "2026-05-30T05:26:10.025425+00:00"
+    },
+    "6b693c00809b9d8a": {
+      "fact_id": "6b693c00809b9d8a",
+      "fact_value": "source_url:https://www.courts.ca.gov/selfhelp-family.htm",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.ca.gov/selfhelp-family.htm",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:24:30.434105+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:24:30.434105+00:00",
+      "last_updated": "2026-05-30T05:26:10.039460+00:00"
+    },
+    "f0aca762d51f2bde": {
+      "fact_id": "f0aca762d51f2bde",
+      "fact_value": "source_url:https://www.courts.ca.gov/selfhelp-juvenile.htm",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.ca.gov/selfhelp-juvenile.htm",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:24:30.448267+00:00"
+        }
+      ],
       "verifications": 1,
       "corrections": [],
       "truth_score": 0.2875,
-      "first_seen": "2026-05-30T05:18:39.421128+00:00",
-      "last_updated": "2026-05-30T05:18:39.421128+00:00"
+      "first_seen": "2026-05-30T05:24:30.448267+00:00",
+      "last_updated": "2026-05-30T05:24:30.448267+00:00"
+    },
+    "0b3f85259c84235c": {
+      "fact_id": "0b3f85259c84235c",
+      "fact_value": "concept:The provided context contains information exclusively about the California (CA) court system",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:26:09.908603+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:09.908603+00:00",
+      "last_updated": "2026-05-30T05:26:09.908603+00:00"
+    },
+    "8b4d73831e2217c9": {
+      "fact_id": "8b4d73831e2217c9",
+      "fact_value": "concept:Golden, CO (Golden, Colorado) is NOT covered in this database.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:26:09.924139+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:09.924139+00:00",
+      "last_updated": "2026-05-30T05:26:09.924139+00:00"
+    },
+    "ca7955ef4069f1de": {
+      "fact_id": "ca7955ef4069f1de",
+      "fact_value": "concept:Colorado State Court System",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:26:09.941130+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:09.941130+00:00",
+      "last_updated": "2026-05-30T05:26:09.941130+00:00"
+    },
+    "600dfd9cfbbb9bb1": {
+      "fact_id": "600dfd9cfbbb9bb1",
+      "fact_value": "concept:Clear Creek County Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:26:09.956241+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:09.955234+00:00",
+      "last_updated": "2026-05-30T05:26:09.956241+00:00"
+    },
+    "1c200a8092f00b4a": {
+      "fact_id": "1c200a8092f00b4a",
+      "fact_value": "concept:Colorado federal courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:26:09.969573+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:09.969573+00:00",
+      "last_updated": "2026-05-30T05:26:09.969573+00:00"
+    },
+    "74f0c6c2861cafb5": {
+      "fact_id": "74f0c6c2861cafb5",
+      "fact_value": "source_url:https://www.courts.state.co.us",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.co.us",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:26:09.982082+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:09.982082+00:00",
+      "last_updated": "2026-05-30T05:26:09.982082+00:00"
+    },
+    "e50c232d0a26b93a": {
+      "fact_id": "e50c232d0a26b93a",
+      "fact_value": "concept:Primary Local Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:26:29.967270+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:29.967270+00:00",
+      "last_updated": "2026-05-30T05:26:29.967270+00:00"
+    },
+    "a16a3a3215912623": {
+      "fact_id": "a16a3a3215912623",
+      "fact_value": "source_url:https://www.cityofgolden.gov/court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofgolden.gov/court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:26:29.981331+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:29.981331+00:00",
+      "last_updated": "2026-05-30T05:26:29.981331+00:00"
+    },
+    "f87e67b0feb2c05c": {
+      "fact_id": "f87e67b0feb2c05c",
+      "fact_value": "source_url:https://www.cityofgolden.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofgolden.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:26:29.995440+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:26:29.995440+00:00",
+      "last_updated": "2026-05-30T05:26:29.995440+00:00"
+    },
+    "e06472fd3d3640ef": {
+      "fact_id": "e06472fd3d3640ef",
+      "fact_value": "query:Bedford VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:28:33.140488+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:28:33.140488+00:00",
+      "last_updated": "2026-05-30T05:31:54.714174+00:00"
+    },
+    "7ea3f23a249690fa": {
+      "fact_id": "7ea3f23a249690fa",
+      "fact_value": "concept:The search results do not contain information for Bedford, VA (Virginia)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:28:33.158048+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:28:33.158048+00:00",
+      "last_updated": "2026-05-30T05:28:33.158048+00:00"
+    },
+    "e9c61bed368007ab": {
+      "fact_id": "e9c61bed368007ab",
+      "fact_value": "concept:Bedford, IA (Iowa)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:28:33.173564+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:28:33.173564+00:00",
+      "last_updated": "2026-05-30T05:28:33.173564+00:00"
+    },
+    "b0a999b584598b9b": {
+      "fact_id": "b0a999b584598b9b",
+      "fact_value": "concept:Bedford, IA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:28:33.189641+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:28:33.189641+00:00",
+      "last_updated": "2026-05-30T05:28:33.189641+00:00"
+    },
+    "315828873b398ec9": {
+      "fact_id": "315828873b398ec9",
+      "fact_value": "concept:Bedford, VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:28:33.206166+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:28:33.206166+00:00",
+      "last_updated": "2026-05-30T05:28:33.206166+00:00"
+    },
+    "d60b0c3b5a2e4069": {
+      "fact_id": "d60b0c3b5a2e4069",
+      "fact_value": "concept:Bedford, Iowa",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:28:33.225211+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:28:33.225211+00:00",
+      "last_updated": "2026-05-30T05:31:28.080186+00:00"
+    },
+    "1f15bec517f126ea": {
+      "fact_id": "1f15bec517f126ea",
+      "fact_value": "source_url:https://www.iowacourts.gov/district-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.iowacourts.gov/district-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:28:33.239268+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:28:33.239268+00:00",
+      "last_updated": "2026-05-30T05:31:28.172061+00:00"
+    },
+    "719fdc2c1a7f3009": {
+      "fact_id": "719fdc2c1a7f3009",
+      "fact_value": "source_url:https://www.in.gov/courts/circuit-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.in.gov/courts/circuit-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:28:33.255014+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:28:33.255014+00:00",
+      "last_updated": "2026-05-30T05:31:28.191095+00:00"
+    },
+    "c4ea069c8d40b5e2": {
+      "fact_id": "c4ea069c8d40b5e2",
+      "fact_value": "concept:Bedford County General District Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:29:00.020775+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:29:00.020775+00:00",
+      "last_updated": "2026-05-30T05:29:00.020775+00:00"
+    },
+    "c60acacfaa82de2a": {
+      "fact_id": "c60acacfaa82de2a",
+      "fact_value": "concept:Bedford County Circuit Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:29:00.042841+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:29:00.042841+00:00",
+      "last_updated": "2026-05-30T05:29:00.042841+00:00"
+    },
+    "2e7c093fc97b61ef": {
+      "fact_id": "2e7c093fc97b61ef",
+      "fact_value": "concept:Probate Division",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:29:00.062485+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:29:00.062485+00:00",
+      "last_updated": "2026-05-30T05:29:00.062485+00:00"
+    },
+    "13975d5450a0a67f": {
+      "fact_id": "13975d5450a0a67f",
+      "fact_value": "source_url:https://www.bedfordva.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.bedfordva.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:29:00.078526+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:29:00.078526+00:00",
+      "last_updated": "2026-05-30T05:31:54.758782+00:00"
+    },
+    "760184f92d009ab6": {
+      "fact_id": "760184f92d009ab6",
+      "fact_value": "source_url:https://www.vlas.org/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vlas.org/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:29:00.094069+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:29:00.094069+00:00",
+      "last_updated": "2026-05-30T05:31:54.788891+00:00"
+    },
+    "5a7c56143c459637": {
+      "fact_id": "5a7c56143c459637",
+      "fact_value": "source_url:https://www.vsp.virginia.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vsp.virginia.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:29:00.109125+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:29:00.109125+00:00",
+      "last_updated": "2026-05-30T05:29:00.109125+00:00"
+    },
+    "6b29b2b7d46b0aa5": {
+      "fact_id": "6b29b2b7d46b0aa5",
+      "fact_value": "source_url:https://www.vadefenders.org/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vadefenders.org/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:29:00.124651+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:29:00.124651+00:00",
+      "last_updated": "2026-05-30T05:31:54.803402+00:00"
+    },
+    "746c819bdb77e98e": {
+      "fact_id": "746c819bdb77e98e",
+      "fact_value": "source_url:https://www.vacourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vacourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:29:00.140723+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:29:00.140723+00:00",
+      "last_updated": "2026-05-30T05:31:54.772834+00:00"
+    },
+    "ad1c1c4f05a60c2a": {
+      "fact_id": "ad1c1c4f05a60c2a",
+      "fact_value": "concept:Taylor County, Iowa",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:31:28.103265+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:31:28.103265+00:00",
+      "last_updated": "2026-05-30T05:31:28.103265+00:00"
+    },
+    "bcd6d482f2308ae1": {
+      "fact_id": "bcd6d482f2308ae1",
+      "fact_value": "concept:405 Jefferson Street, Bedford, IA 50833",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:31:28.121290+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:31:28.121290+00:00",
+      "last_updated": "2026-05-30T05:31:28.121290+00:00"
+    },
+    "64ffdf6845196576": {
+      "fact_id": "64ffdf6845196576",
+      "fact_value": "concept:Iowa District Court for Taylor County",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:31:28.139925+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:31:28.139925+00:00",
+      "last_updated": "2026-05-30T05:31:28.139925+00:00"
+    },
+    "bcc0697c071fa23e": {
+      "fact_id": "bcc0697c071fa23e",
+      "fact_value": "concept:Iowa Family Court for Taylor County",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:31:28.156034+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:31:28.156034+00:00",
+      "last_updated": "2026-05-30T05:31:28.156034+00:00"
+    },
+    "596b63da7a881ba0": {
+      "fact_id": "596b63da7a881ba0",
+      "fact_value": "concept:Bedford has NO town municipal court.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:31:54.730199+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:31:54.730199+00:00",
+      "last_updated": "2026-05-30T05:31:54.730199+00:00"
+    },
+    "40911df80ad6a4ad": {
+      "fact_id": "40911df80ad6a4ad",
+      "fact_value": "concept:Jurisdiction:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:31:54.744727+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:31:54.744727+00:00",
+      "last_updated": "2026-05-30T05:45:30.525803+00:00"
+    },
+    "e5a29ef5cb148765": {
+      "fact_id": "e5a29ef5cb148765",
+      "fact_value": "query:Dallas TX",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:22.265719+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:22.265719+00:00",
+      "last_updated": "2026-05-30T05:45:30.474121+00:00"
+    },
+    "83f6e81d91ea1d97": {
+      "fact_id": "83f6e81d91ea1d97",
+      "fact_value": "concept:Texas Administrative Procedure Act (TAPA)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:22.280242+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:22.280242+00:00",
+      "last_updated": "2026-05-30T05:45:04.573659+00:00"
+    },
+    "d601906355f4af4c": {
+      "fact_id": "d601906355f4af4c",
+      "fact_value": "concept:Texas Register",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:22.293779+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:22.293779+00:00",
+      "last_updated": "2026-05-30T05:43:08.710501+00:00"
+    },
+    "b8567d6dc03eb4cb": {
+      "fact_id": "b8567d6dc03eb4cb",
+      "fact_value": "concept:Texas Administrative Code (TAC)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:22.309834+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:34:22.309834+00:00",
+      "last_updated": "2026-05-30T05:34:22.309834+00:00"
+    },
+    "3edfe6b7662ce8c2": {
+      "fact_id": "3edfe6b7662ce8c2",
+      "fact_value": "concept:State Office of Administrative Hearings (SOAH)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:22.323342+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:22.323342+00:00",
+      "last_updated": "2026-05-30T05:40:48.258719+00:00"
+    },
+    "420b577a11ac8917": {
+      "fact_id": "420b577a11ac8917",
+      "fact_value": "concept:1. City of Dallas v. Stewart (2011)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:22.340460+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:22.340460+00:00",
+      "last_updated": "2026-05-30T05:45:04.594198+00:00"
+    },
+    "b729645ada7c7298": {
+      "fact_id": "b729645ada7c7298",
+      "fact_value": "source_url:https://www.sos.texas.gov/texreg/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.sos.texas.gov/texreg/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:22.355016+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-30T05:34:22.355016+00:00",
+      "last_updated": "2026-05-30T05:40:48.354034+00:00"
+    },
+    "223211a053b53a6a": {
+      "fact_id": "223211a053b53a6a",
+      "fact_value": "source_url:https://texreg.sos.state.tx.us/public/readtac$ext.TacPage",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://texreg.sos.state.tx.us/public/readtac$ext.TacPage",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:22.369481+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:22.369481+00:00",
+      "last_updated": "2026-05-30T05:45:04.680194+00:00"
+    },
+    "c7c00676ef67b3d1": {
+      "fact_id": "c7c00676ef67b3d1",
+      "fact_value": "source_url:https://www.soah.texas.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.soah.texas.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:22.386104+00:00"
+        }
+      ],
+      "verifications": 5,
+      "corrections": [],
+      "truth_score": 0.53,
+      "first_seen": "2026-05-30T05:34:22.386104+00:00",
+      "last_updated": "2026-05-30T05:45:04.644787+00:00"
+    },
+    "d45e559ca229529a": {
+      "fact_id": "d45e559ca229529a",
+      "fact_value": "concept:**Dallas Municipal Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:47.065407+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:47.065407+00:00",
+      "last_updated": "2026-05-30T05:45:30.489808+00:00"
+    },
+    "d63e52d0a200ab96": {
+      "fact_id": "d63e52d0a200ab96",
+      "fact_value": "concept:Online Services:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:34:47.081939+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:47.081939+00:00",
+      "last_updated": "2026-05-30T05:45:30.505859+00:00"
+    },
+    "cdb6bfc9dac6bca1": {
+      "fact_id": "cdb6bfc9dac6bca1",
+      "fact_value": "source_url:https://dallas.municipalonlinepayments.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://dallas.municipalonlinepayments.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:47.114994+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:47.114994+00:00",
+      "last_updated": "2026-05-30T05:45:30.542825+00:00"
+    },
+    "7aec5cf55ec29aaa": {
+      "fact_id": "7aec5cf55ec29aaa",
+      "fact_value": "source_url:https://dallascityhall.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://dallascityhall.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:47.130517+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:47.130517+00:00",
+      "last_updated": "2026-05-30T05:45:30.558368+00:00"
+    },
+    "b297afbdbc3da0c0": {
+      "fact_id": "b297afbdbc3da0c0",
+      "fact_value": "source_url:https://www.dallascounty.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.dallascounty.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:47.145552+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:47.145552+00:00",
+      "last_updated": "2026-05-30T05:45:30.576417+00:00"
+    },
+    "9efbc759f0d1b38b": {
+      "fact_id": "9efbc759f0d1b38b",
+      "fact_value": "source_url:https://dallascounty.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://dallascounty.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:34:47.187634+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:34:47.187634+00:00",
+      "last_updated": "2026-05-30T05:45:30.592456+00:00"
+    },
+    "3fe8f2e5866d5d19": {
+      "fact_id": "3fe8f2e5866d5d19",
+      "fact_value": "concept:Texas Administrative Procedure Act (Gov. Code Ch. 2001)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:40:48.243176+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:40:48.243176+00:00",
+      "last_updated": "2026-05-30T05:40:48.243176+00:00"
+    },
+    "95dd99c9cae41bc0": {
+      "fact_id": "95dd99c9cae41bc0",
+      "fact_value": "concept:Texas Administrative Code",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:40:48.292822+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:40:48.292822+00:00",
+      "last_updated": "2026-05-30T05:40:48.292822+00:00"
+    },
+    "56bdf9d79274a3b7": {
+      "fact_id": "56bdf9d79274a3b7",
+      "fact_value": "concept:City of Dallas v. Stewart (2011)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:40:48.308366+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:40:48.308366+00:00",
+      "last_updated": "2026-05-30T05:40:48.308366+00:00"
+    },
+    "d380c810b9ee0e1e": {
+      "fact_id": "d380c810b9ee0e1e",
+      "fact_value": "source_url:https://www.sos.texas.gov/texreg",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.sos.texas.gov/texreg",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:40:48.337985+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-30T05:40:48.337985+00:00",
+      "last_updated": "2026-05-30T05:45:04.660424+00:00"
+    },
+    "c74d9184e24e82ac": {
+      "fact_id": "c74d9184e24e82ac",
+      "fact_value": "source_url:https://judicial.alabama.gov/circuit-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://judicial.alabama.gov/circuit-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:40:48.385321+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-30T05:40:48.385321+00:00",
+      "last_updated": "2026-05-30T05:45:04.696232+00:00"
+    },
+    "c0f08de53ebbb97c": {
+      "fact_id": "c0f08de53ebbb97c",
+      "fact_value": "concept:Central ALJ System",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:43:08.694392+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:43:08.694392+00:00",
+      "last_updated": "2026-05-30T05:43:08.694392+00:00"
+    },
+    "3205a776603dc9ff": {
+      "fact_id": "3205a776603dc9ff",
+      "fact_value": "source_url:https://www.arcourts.gov/courts/circuit-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.arcourts.gov/courts/circuit-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:43:08.824988+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-30T05:43:08.824988+00:00",
+      "last_updated": "2026-05-30T05:45:04.712263+00:00"
+    },
+    "51eb9e622532272c": {
+      "fact_id": "51eb9e622532272c",
+      "fact_value": "concept:Application",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:45:04.611251+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:45:04.611251+00:00",
+      "last_updated": "2026-05-30T05:45:04.611251+00:00"
+    },
+    "536491c379535c04": {
+      "fact_id": "536491c379535c04",
+      "fact_value": "concept:Key Principle",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:45:04.627757+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:45:04.627757+00:00",
+      "last_updated": "2026-05-30T05:45:04.628755+00:00"
+    },
+    "b12812fe1da9af4e": {
+      "fact_id": "b12812fe1da9af4e",
+      "fact_value": "source_url:https://dallaspermitsnow.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://dallaspermitsnow.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:45:30.608964+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:45:30.608964+00:00",
+      "last_updated": "2026-05-30T05:45:30.608964+00:00"
     }
   },
   "corrections": [],
-  "updated_at": "2026-05-30T05:18:39.422641+00:00"
+  "updated_at": "2026-05-30T05:45:30.610473+00:00"
 }
