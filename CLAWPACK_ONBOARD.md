@@ -1,4 +1,4 @@
-# CLAWPACK V2 - AI ONBOARDING CONTEXT
+﻿# CLAWPACK V2 - AI ONBOARDING CONTEXT
 
 ## What This Is
 21-agent AI ecosystem. Menu-driven CLI. A2A routing on port 8766.
@@ -10,15 +10,6 @@ Built by Greg.
 2. Ask to see a working command if building a new stub.
 3. Do not assume file contents - they may differ from conversation history.
 4. State what you are about to do before doing it. One function at a time.
-## CRITICAL: PowerShell Environment (Windows)
-The operator uses Windows PowerShell. Key rules for AI agents:
-- NEVER use python -c with multi-line code. Write to scripts/_temp.py and run it.
-- NEVER pipe to Out-File for files over 100 lines. Write from Python directly.
-- NEVER use PowerShell heredocs with Python code. They eat escape characters.
-- ALWAYS verify writes with: python -c "print(len(open('path').read()))"
-- ALWAYS kill Python before restarting server: taskkill /F /IM python.exe 2>$null
-- ALWAYS clear __pycache__ after changing shared modules.
-- Use @' ... '@ for PowerShell-only scripts. Use .py files for Python code.
 
 ## How Commands Load
 Commands in each agent's commands/ directory are loaded dynamically.

@@ -190,3 +190,149 @@ Changes the shared infrastructure
 Activates a dormant module
 
 The Constitution is law. Compliance is not optional.
+# POWERSHELL_SURVIVAL_GUIDE.md
+## Why This File Exists
+On May 30, 2026, approximately 2 hours were lost to PowerShell-specific failures
+when trying to write files, execute Python, and restart the A2A server.
+This document exists so no future session repeats those failures.
+
+## What FAILED (Do Not Repeat)
+
+### 1. python -c with multi-line code
+FAILED EVERY TIME. PowerShell mangles nested quotes, eats backslashes,
+and randomly terminates strings mid-execution.
+
+Example of FAILURE:
+```powershell
+python -c "
+import sys
+print('hello')
+"
+PowerShell interprets the double quotes as PowerShell string delimiters,
+not Python string delimiters. The code never reaches Python intact.
+
+2. PowerShell heredocs containing Python code
+FAILED EVERY TIME. Single-quoted heredocs (@'...'@) terminate early when
+they encounter Python single quotes. Double-quoted heredocs (@"..."@)
+expand PowerShell variables and break Python syntax.
+
+Example of FAILURE:
+
+powershell
+@'
+python_code = 'this breaks the heredoc'
+'@
+The middle single quote closes the heredoc. Everything after is executed
+as raw PowerShell, which locks up the terminal.
+
+3. Out-File for files over ~100 lines
+FAILED SILENTLY. The file appears to write but is silently truncated.
+Only discovered by checking GitHub or counting lines after the fact.
+
+Example of FAILURE:
+
+powershell
+@"
+[200+ lines of content]
+"@ | Out-File -FilePath "target.md" -Encoding UTF8
+# File on disk: only ~80 lines. No error message.
+4. echo appending for multi-line content
+FAILED. Cannot handle special characters, newlines in strings, or any
+content more complex than a single plaintext sentence.
+
+What WORKED (Use These Patterns)
+Pattern A: Write a Python script to disk, then execute it
+This is the ONLY method that reliably wrote files over 50 lines.
+The Python script itself must be under ~50 lines (Out-File limit).
+
+powershell
+@"
+with open(r'target_file.md', 'w', encoding='utf-8') as f:
+    f.write('''content here''')
+print('Done')
+"@ | Out-File -FilePath "scripts/_fix.py" -Encoding ASCII
+python scripts/_fix.py
+Remove-Item scripts/_fix.py -Force
+Pattern B: For large files, construct content in Python programmatically
+Instead of embedding the file content in the PowerShell script (which
+triggers escaping issues), have the Python script build the content
+as a list of lines, then join and write.
+
+powershell
+@"
+lines = []
+lines.append('# Title')
+lines.append('')
+lines.append('Content line 1')
+lines.append('Content line 2')
+with open('target.md', 'w') as f:
+    f.write('\n'.join(lines))
+print(f'Written: {len(lines)} lines')
+"@ | Out-File -FilePath "scripts/_build_file.py" -Encoding ASCII
+python scripts/_build_file.py
+Remove-Item scripts/_build_file.py -Force
+Pattern C: Verify every file write immediately
+powershell
+python -c "print(len(open('target.md').read().splitlines()))"
+Compare against expected line count. Several May 30 fixes appeared
+to work but files were truncated on disk.
+
+Pattern D: Read a file before modifying it
+powershell
+Get-Content "path/to/file.py" | Select-Object -First 5
+Or:
+
+powershell
+python -c "print(open('path/to/file.py').read()[:200])"
+Server Management Commands
+Kill all Python processes
+powershell
+taskkill /F /IM python.exe 2>$null
+Clear Python bytecode cache (REQUIRED after any shared/ module change)
+powershell
+Get-ChildItem -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+Get-ChildItem -Recurse -Filter "*.pyc" | Remove-Item -Force -ErrorAction SilentlyContinue
+Start A2A server
+powershell
+cd C:\Users\greg\dev\clawpack_v2
+python a2a_server.py
+Or in background:
+
+powershell
+Start-Process python -ArgumentList "a2a_server.py" -NoNewWindow
+Start-Sleep 4
+Test if server is running
+powershell
+python -c "import requests; r=requests.post('http://127.0.0.1:8766/v1/message/lawclaw',json={'task':'/stats'},timeout=10); print(r.status_code)"
+Check what's listening on A2A port
+powershell
+netstat -ano | findstr "8766.*LISTENING"
+Why Python Files Are the Only Reliable Method
+The core issue: PowerShell and Python have conflicting string delimiters.
+
+PowerShell: @'...'@ (single-quote heredoc), @"..."@ (double-quote heredoc)
+
+Python: '''...''' (triple single), """...""" (triple double)
+
+When Python code is embedded in PowerShell:
+
+Single quotes in Python terminate PowerShell single-quote heredocs
+
+Double quotes in Python get variable-expanded by PowerShell double-quote heredocs
+
+Backslashes in Python are interpreted as PowerShell escape characters
+
+The ONLY safe boundary is a .py file on disk. Write it. Execute it. Delete it.
+Never try to inline Python in PowerShell. It will fail.
+
+Quick Test Matrix
+Task	Method	Works?
+Read file	Get-Content	YES
+Read file	python -c "print(open('f').read()[:100])"	YES (short)
+Write small file	@"..."@ | Out-File	YES (<50 lines)
+Write large file	@"..."@ | Out-File	NO (truncates silently)
+Write any file	Python script on disk	YES (always)
+Multi-line Python	python -c "..."	NO
+Python heredoc in PS	@'...python...'@	NO (locks terminal)
+Python script on disk	python scripts/_fix.py	YES (always)
+"@	Out-File -FilePath "POWERSHELL_SURVIVAL_GUIDE.md" -Encoding UTF8
