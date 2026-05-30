@@ -84,7 +84,11 @@ designclaw, drawclaw, docuclaw, draftclaw: Design resources
 All other agents: Language, math, blockchain references
 
 Known Limitations
-ChronicleLedger does NOT have a get_timeline method — boundary errors are false positives
+- The index is organized by county, not city. FTS5 handles cross-boundary search.
+- recover_by_context() has 19 call sites with minor signature drift. Non-blocking warnings.
+- ChronicleLedger exports: ChronicleLedger, get_chronicle, record_fetch, recover_by_context.
+  Do not import log_event or call get_timeline. Neither exists (resolved May 30, 2026).
+- Civic commands use Chronicle FTS5 directly via lookup_jurisdiction(). 0.03-0.28s. No LLM calls.
 
 log_event is not a top-level export — use chronicle.record_fetch() instead
 
