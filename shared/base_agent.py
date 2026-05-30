@@ -333,7 +333,7 @@ class BaseAgent:
                         continue
                     
                     if resource_type in ("all", "library"):
-                        if "library" in line_stripped.lower() and ("http" in line_stripped or chr(8212) in line_stripped or "—" in line_stripped):
+                        if "library" in line_stripped.lower() and ("http" in line_stripped or chr(8212) in line_stripped or "" in line_stripped):
                             if line_stripped not in result["libraries"]:
                                 result["libraries"].append(line_stripped[:200])
                     
