@@ -170,6 +170,10 @@ class PlotClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = """PlotClaw v3 - 13 Chart Types + Data I/O
   CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard

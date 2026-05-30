@@ -80,6 +80,10 @@ class DesignClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "DesignClaw v5 - Constitutional Design Agent\n  /brand /colors /mood /type /copy /logo /kit /html\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

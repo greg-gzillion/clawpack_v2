@@ -65,6 +65,10 @@ class DataClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "DataClaw v5 - Constitutional Local Data Search\n  /search /find <query>  /export <fmt> <query>\n  /index <path>  /stats\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>"
                 return {"status":"success","result":result}

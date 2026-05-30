@@ -79,6 +79,10 @@ class LiberateClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats"
             elif cmd in ("/stats",):

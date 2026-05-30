@@ -46,6 +46,10 @@ class DreamClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]"
             elif cmd in ("/stats",):

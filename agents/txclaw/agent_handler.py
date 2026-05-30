@@ -119,6 +119,10 @@ IMPORTANT: Only reference TX.org blockchain. If you don't know, say "I don't hav
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             elif cmd == "/help":
                 result = "TXClaw - TX.org Blockchain Agent\n  /tx /block /address /token /validator /contract\n  /staking /gas /ecosystem /governance /network /mempool\n  /generate <name> /deploy <name> /test <name>\n  /networks /search <query> /stats"
             elif cmd == "/stats":

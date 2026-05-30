@@ -64,6 +64,10 @@ class WebClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
             return {"status": "success", "result": "WebClaw - Web Search & Chronicle\n  search <query>  fetch <url>  /stats  /delegate <agent> <task>"}
         if task.startswith("fetch ") or task.startswith("http"):

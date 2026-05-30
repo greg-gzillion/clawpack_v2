@@ -149,6 +149,10 @@ class DocuClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "DocuClaw v5 - Constitutional Document Agent\n  CREATE: /create /letter /report /memo /resume /proposal\n  IMPORT: /import <file>  EXPORT: /export <fmt> <content>\n  CONVERT: /convert <fmt> <file>  COMBINE: /combine <files>\n  TRANSLATE: /translate <lang> <text>  TEMPLATES: /templates\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}
@@ -319,7 +323,15 @@ class DocuClawAgent(BaseAgent):
                 export_result = self._fileclaw_export("md", content)
                 result = f"{export_result}\n\n{content}"
             else:
-                result = "Type /help for commands"
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "docuclaw")
+                if target:
+                    result = self.call_agent(target, task, timeout=60)
+                elif args:
+                    context = self._gather_context(args)
+                    result = self.ask_llm(f"Query: {args}\n\nContext:\n{context}")
+                else:
+                    result = "Type /help for commands"
 
             final_result = str(result)
             if final_result and len(final_result) > 20:

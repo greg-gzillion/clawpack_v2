@@ -113,6 +113,10 @@ class RustyPyCrawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "RustyPyCraw - Python/Rust Interop\n  /scan <path> - Scan codebase\n  /analyze <path> - Analyze interop\n  /compare <py> <rs> - Compare Python/Rust\n  /stats\n  Uses: WebClaw + DataClaw + CrustyClaw + ClawCoder -> LLMClaw -> FileClaw"
             elif cmd in ("/stats",):

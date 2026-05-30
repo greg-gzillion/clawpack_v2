@@ -241,6 +241,10 @@ class FileClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             elif cmd == "/help":
                 result = f"FileClaw - {len(self.binary_importers) + len(self.text_formats)} Format Handler\n\n  /import <file>     - Read any supported file\n  /export <fmt> <content> - Export to any format\n  /convert <src> <fmt> - Convert between formats\n  /formats           - List supported formats\n  /delegate <agent> <task> - Cross-agent delegation\n  /help /stats"
             elif cmd == "/stats":

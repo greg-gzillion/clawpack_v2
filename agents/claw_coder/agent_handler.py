@@ -158,6 +158,10 @@ class ClawCoderAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             if cmd in ("/help",):
                 result = "ClawCoder v5 - 39 Languages\n  /code <task>  /explain /debug /review /tutorial\n  /translate <from> <to> <file>  /run <file>  /test <file>\n  /scan structure|patterns <lang>  /docs /project /deps /perf\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

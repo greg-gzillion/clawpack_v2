@@ -205,7 +205,15 @@ class MathematicaClawAgent(BaseAgent):
             elif query and cmd.startswith('/'):
                 result = _solve_mod.run(query)
             else:
-                result = "Type /help for commands"
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "mathematicaclaw")
+                if target:
+                    result = self.call_agent(target, task, timeout=60)
+                elif args:
+                    context = self._gather_context(args)
+                    result = self.ask_llm(f"Query: {args}\n\nContext:\n{context}")
+                else:
+                    result = "Type /help for commands"
 
             final_result = str(result)
             if final_result and len(final_result) > 20:

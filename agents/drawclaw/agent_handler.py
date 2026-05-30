@@ -113,6 +113,10 @@ class DrawClawAgent(BaseAgent):
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
+
             elif cmd == "/help":
                 result = """DrawClaw - AI Prompt Studio + Drawing Tools
   DRAW:     /canvas - Interactive drawing window
