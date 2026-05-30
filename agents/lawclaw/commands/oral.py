@@ -26,7 +26,7 @@ def get_cl_token():
     return ""
 
 
-def llm(prompt, agent=agent, timeout=120):
+def llm(prompt, timeout=120, agent=None):
     try:
         resp = requests.post(
             f"{A2A}/v1/message/llmclaw",
