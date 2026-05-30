@@ -71,6 +71,15 @@ class DreamClawAgent(BaseAgent):
                 except Exception: pass
                 try: from shared.validation import validate_schema
                 except Exception: pass
+                try:
+                    from shared.memory_guard import sanitize_memory_write
+                except Exception: pass
+                try:
+                    from shared.source_registry import get_trust
+                except Exception: pass
+                try:
+                    from shared.truth_resolver import merge_with_retriever
+                except Exception: pass
                 try: from shared.log_manager import get_logger; get_logger().info(f"dreamclaw.{cmd}", extra={"args": (args or "")[:100]})
                 except Exception: pass
                 try: from shared.shutdown import get_shutdown_manager; get_shutdown_manager().register(lambda: None)

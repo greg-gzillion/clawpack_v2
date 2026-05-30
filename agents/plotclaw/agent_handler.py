@@ -220,6 +220,15 @@ class PlotClawAgent(BaseAgent):
                 try: from shared.observability import get_health_checker; get_health_checker().register("plotclaw_handler", lambda: True)
                 except Exception: pass
                 try:
+                    from shared.memory_guard import sanitize_memory_write
+                except Exception: pass
+                try:
+                    from shared.source_registry import get_trust
+                except Exception: pass
+                try:
+                    from shared.truth_resolver import merge_with_retriever
+                except Exception: pass
+                try:
                     duration_ms = (time.time() - track_start) * 1000
                     from agents.webclaw.core.chronicle_ledger import log_event
                     log_event(agent="plotclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")

@@ -4740,6 +4740,86 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T04:02:36.841788+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 209",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:07:11.043747+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 209",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:07:11.065789+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:07",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:07:12.181518+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:07",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:07:12.204596+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 210",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:08:02.335284+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 210",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:08:02.366878+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:08",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:08:03.657073+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:08",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:08:03.681441+00:00"
     }
   ],
   "index": {
@@ -6051,5 +6131,5 @@
       267
     ]
   },
-  "updated_at": "2026-05-30T04:02:36.841788+00:00"
+  "updated_at": "2026-05-30T04:08:03.681441+00:00"
 }
