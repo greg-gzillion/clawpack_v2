@@ -26,6 +26,17 @@ content more complex than a single plaintext sentence.
 
 ## What WORKED (Use These Patterns)
 
+### Pattern 0: echo for small files (THE WINNER on May 30)
+Deployed 60 command files to 21 agents with zero errors.
+`powershell
+echo "line" > file.py
+echo "line2" >> file.py
+`
+Deploy: Get-ChildItem -Directory "agents" | ForEach-Object { Copy-Item source dest }
+Contrast: batch Python injection corrupted ALL 21 handlers. Required git revert.
+
+## What WORKED (Use These Patterns)
+
 ### Pattern A: Write a Python script to disk, then execute it
 This is the ONLY method that reliably wrote files over 50 lines.
 Keep the script under 50 lines to avoid Out-File truncation.
@@ -47,6 +58,10 @@ Get-Content "path/to/file.py" | Select-Object -First 5
   Get-ChildItem -Recurse -Filter "*.pyc" | Remove-Item -Force
 - Start server: python a2a_server.py (from C:\Users\greg\dev\clawpack_v2)
 - Test server: python -c "import requests; r=requests.post('http://127.0.0.1:8766/v1/message/lawclaw',json={'task':'/stats'},timeout=10); print(r.status_code)"
+
+## CRITICAL: Command Files vs Handler Injection
+On May 30, batch Python injection corrupted ALL 21 agents. Required git revert to 03cd28c89.
+Lesson: Write command files once, Copy-Item to deploy. Never inject into handlers.
 
 ## Why Python Files Are the Only Reliable Method
 PowerShell and Python have conflicting string delimiters.
