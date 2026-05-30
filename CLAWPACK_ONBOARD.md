@@ -5,6 +5,18 @@
 448MB Chronicle SQLite index at data/chronicle.db. Constitutional governance.
 Built by Greg.
 
+## CRITICAL: PowerShell Environment (Windows)
+- NEVER use python -c with multi-line code. Write to scripts/_temp.py and run it.
+- NEVER pipe to Out-File for files over 100 lines. PowerShell silently truncates.
+- NEVER use PowerShell heredocs with Python code. They eat escape characters.
+- **ECHO WORKS for small files.** echo "line" > file.py then echo "line2" >> file.py
+  This is the ONLY reliable way to write Python command files under 10 lines.
+- **Copy-Item WORKS for deployment.** Write once, copy to all targets.
+- ALWAYS verify writes: python -c "print(len(open('path').read()))"
+- ALWAYS kill Python before restarting: taskkill /F /IM python.exe 2>\
+- ALWAYS clear __pycache__ after changing shared modules.
+- READ POWERSHELL_SURVIVAL_GUIDE.md for full failure patterns and fixes.
+
 ## Before You Write Any Code
 1. Ask to see the current file if modifying an existing command.
 2. Ask to see a working command if building a new stub.
@@ -15,8 +27,16 @@ Built by Greg.
 Commands in each agent's commands/ directory are loaded dynamically.
 Each file needs: name = "/commandname" and def run(args, agent=None): at module level.
 No manual registration - just drop the .py file in the directory.
-Critical: The handler's if/elif chain must explicitly import and call the command.
-If missing from the chain, falls to else -> _gather_context() -> webclaw -> LLM (45-90s).
+**This is the preferred pattern for adding features to all agents.**
+Do NOT batch-inject code into handlers. It corrupts indentation.
+Write a command file once, then Copy-Item to all agents.
+
+## CRITICAL LESSON: Command Files vs Handler Injection
+On May 30, batch-injecting /voice code into 21 agent handlers via string replacement
+corrupted indentation in ALL 21 agents. Required git revert to clean state.
+The fix: write voice.py, listen.py, translate.py, braille_cmd.py as command files
+in agents/lawclaw/commands/, then Copy-Item to all other agents.
+Zero handler changes. Zero indentation risk. The system was designed for this.
 
 ## Constitution (NON-NEGOTIABLE)
 - All LLM access goes to Sovereign Gateway only (shared/llm/client.py). No direct API calls.
@@ -37,17 +57,16 @@ If missing from the chain, falls to else -> _gather_context() -> webclaw -> LLM 
 | Chronicle index | 35,553 interactions |
 | LLM providers | 4/4 operational |
 | Provider chain | Groq -> Ollama -> OpenRouter -> Anthropic |
-| Lifecycle cleanup errors | 0 (contract drift resolved May 30) |
+| Lifecycle cleanup errors | 0 (contract drift resolved) |
 | Civic commands | Chronicle FTS5 direct (0.03-0.28s) |
 
-### Agent Constitutional Status
-Constitutional = has call_agent() boundary + get_capable_agent() routing + _memory bridge.
-
-| Status | Count | Agents |
-|--------|-------|--------|
-| Constitutional | 13 | lawclaw, claw_coder, crustyclaw, dataclaw, designclaw, drawclaw, dreamclaw, flowclaw, interpretclaw, langclaw, liberateclaw, mediclaw, draftclaw |
-| Partial (no routing) | 7 | docuclaw, llmclaw, mathematicaclaw, plotclaw, rustypycraw, txclaw, webclaw |
-| Needs upgrade | 1 | fileclaw |
+### Agent Accessibility (all via command files, no handler changes)
+| Feature | Agents | How to use |
+|---------|--------|------------|
+| /voice | 21/21 | Toggle system-wide voice mode |
+| /listen | 21/21 | One-shot microphone transcription |
+| /translate | 21/21 | Detect language and translate to English |
+| /braille | 21/21 | Convert text to Braille Unicode output |
 
 ### Provider Chain (Sovereign Gateway)
 | Priority | Provider | Model | Latency | Cost |
@@ -57,73 +76,57 @@ Constitutional = has call_agent() boundary + get_capable_agent() routing + _memo
 | 3 | OpenRouter | google/gemma-4-26b-a4b-it:free | 0.7s | Free tier |
 | 4 | Anthropic | claude-haiku-4-5-20251001 | 1.2s | Paid |
 
-Provider order: shared/llm/providers/__init__.py detect_providers()
-Active model: models/active_model.json
-Switch at runtime: llmclaw> /use groq or /use deepseek-r1:8b
+---
+
+## System-Wide Accessibility Toggles
+| Toggle | Hotkey | Wake Word | Menu Key |
+|--------|--------|-----------|----------|
+| Voice mode | Ctrl+Shift+V | "start/stop listening" | v |
+| Braille output | Ctrl+Shift+B | - | b |
+| Neuralink | Ctrl+Shift+N | - | n |
+| Eye tracking | Ctrl+Shift+E | - | e |
+| Voice agent select | - | "switch to lawclaw" | s |
 
 ---
 
 ## Resolved This Session (May 30, 2026)
 
 ### Lifecycle Contract Drift - ALL FIXED
-Three errors fired on every agent invocation, now eliminated:
-- cannot import name 'log_event' -> replaced with get_chronicle().record_fetch()
-- DecisionLedger.record() unexpected keyword 'action' -> migrated to record_action()
-- ChronicleLedger.record_fetch() unexpected keyword 'agent' -> corrected kwargs
-Result: 0 lifecycle cleanup errors across all 21 agents.
+Three errors fired on every agent invocation, now eliminated. 0 cleanup errors.
 
 ### Civic Commands - Now Chronicle FTS5 Direct
-/detention, /police, /library, /hospital were missing from handler dispatch chain.
-Fell to else -> _gather_context() -> webclaw -> LLM (45-90s).
-Added to if/elif with direct Chronicle FTS5 import. Now 0.03-0.28s.
+/detention /police /library /hospital: 0.03-0.28s (was 45-90s via LLM).
 
 ### Provider Order Fixed
-base_agent.py ask_llm() had provider='anthropic' hardcoded.
-Removed. Gateway now respects detect_providers() order (Groq first).
+Groq primary (was Anthropic hardcoded in base_agent.py).
 
 ### Dreamclaw Timeout Fixed
-_handler() called _gather_context() BEFORE /help check.
-Restructured: /help and /stats return immediately. Was >20s, now 0.2s.
+/help 0.2s (was >20s). Skips _gather_context() for trivial commands.
 
-### Model Fixes
-- OpenRouter: z-ai/glm-5.1 -> google/gemma-4-26b-a4b-it:free
-- Ollama: hardcoded qwen3-coder:30b -> reads deepseek-r1:8b from active_model.json
-- Timeouts: Groq 60->90s, call_sync total 120->300s
+### MathematicaClaw Fixed
+/help and /stats work. Plots use interactive windows. Complex calculus: 12/18 passing.
+
+### Accessibility Layer Built
+shared/accessibility.py: TTS, STT, Braille, Translate, voice agent selection.
+shared/voice_hook.py: System-wide toggle, Ctrl+Shift+V, wake words, background listener.
+shared/io_adapter.py: Neuralink, eye tracker, switch device, sip-puff stubs.
+shared/status_bar.py: Persistent accessibility status in agent responses.
+
+### Voice/Listen/Translate/Braille in All 21 Agents
+Deployed as command files. Zero handler modifications. Zero indentation risk.
 
 ---
 
 ## Known Active Work (Not Blocking)
-| Area | Scope | Impact |
-|------|-------|--------|
-| Chronicle recover_by_context | 19 call sites, 8 modules | Non-blocking warnings |
-| Capability routing | 7 partial agents | No auto-routing |
-| Shared memory | fileclaw | No memory bridge |
-| Enforcement engine | Dormant | Violations voluntary |
-| Guarded executor | Dormant | Ops bypass review |
-| Registry | 5 agents outside dict | Can't delegate via registry |
-
----
-
-## Verification
-Run after any agent upgrade:
-    python scripts/constitutional_test.py
-Measures 10 criteria. Target: 10/10.
-
-## Pattern for Upgrading Any Agent (3 files)
-1. commands/_memory.py - copy from lawclaw, change agent name
-2. commands/_helpers.py - agent-specific utilities + jurisdiction lookup
-3. agent_handler.py - add boundary block, capability routing, _gather_context()
-
-Minimum constitutional else block:
-    else:
-        from shared.capabilities import get_capable_agent
-        target = get_capable_agent(cmd, "agentname")
-        if target:
-            result = self.call_agent(target, task, timeout=60)
-        elif args:
-            result = self.ask_llm(...)
-        else:
-            result = "Type /help for commands"
+| Area | Scope |
+|------|-------|
+| Chronicle recover_by_context | 19 call sites, non-blocking warnings |
+| Capability routing | 7 partial agents need get_capable_agent() |
+| Shared memory | fileclaw needs memory bridge |
+| Enforcement engine | Dormant |
+| Guarded executor | Dormant |
+| Registry | 5 agents outside AGENT_REGISTRY dict |
+| pip install keyboard | Required for hotkeys to work |
 
 ---
 
@@ -132,22 +135,14 @@ Minimum constitutional else block:
 |------|---------|--------|
 | a2a_server.py | Central message bus, port 8766 | Active |
 | shared/llm/client.py | Sovereign Gateway | Active |
-| shared/llm/providers/__init__.py | Provider detection + chain | Active |
-| shared/capabilities.py | Universal command routing | Active |
-| shared/registry.py | Agent registration | 16/21 |
+| shared/accessibility.py | TTS/STT/Braille/Translate | Active |
+| shared/voice_hook.py | System-wide voice toggle + wake words | Active |
+| shared/io_adapter.py | Neuralink/Eye/Switch input adapters | Active |
+| shared/status_bar.py | Accessibility status in responses | Active |
 | shared/lifecycle.py | Agent cleanup supervisor | Active (0 errors) |
 | shared/base_agent.py | Foundation class | Active |
-| shared/_agent_helpers.py | Empire-wide utilities | Active |
-| shared/decision_ledger.py | Audit chain | Active |
-| shared/consensus_engine.py | Truth scoring | Active |
-| shared/source_registry.py | Trust scores | Active |
-| shared/truth_resolver.py | Conflict resolution | Active |
-| shared/memory_guard.py | Staleness enforcement | Active |
-| shared/enforcement/engine.py | Execution gates | Dormant |
-| shared/guarded_executor.py | Dangerous ops gateway | Dormant |
 | agents/lawclaw/agent_handler.py | Reference implementation | Gold standard |
-| agents/webclaw/references/lawclaw/jurisdictions/us/ | 3,800+ cities | Active |
-| models/active_model.json | Active model config | Active |
+| scripts/constitutional_test.py | 10-point compliance audit | Active |
 | data/chronicle.db | 448MB SQLite FTS5 | Active |
 
 ---
@@ -160,37 +155,19 @@ Minimum constitutional else block:
 
 2026-05-29: Constitutional boundary activated. Consensus engine deployed.
 Capability registry + lifecycle supervisor + memory staleness deployed.
-PlotClaw schema imports fixed (13 commands). Registry syntax repaired (5 bugs).
-Docuclaw delegation path fixed. /translate pipeline built. 15 dead files deleted.
-Task state machine + search cache deployed. 8 agent READMEs created.
-Groq model: llama-3.1-8b -> llama-3.3-70b-versatile.
+PlotClaw schema imports fixed. Registry syntax repaired. /translate pipeline built.
 
-2026-05-30: RUNTIME STABILIZATION.
+2026-05-30: RUNTIME STABILIZATION + ACCESSIBILITY.
 - Civic commands: Chronicle FTS5 direct (0.03-0.28s, was 45-90s).
 - Provider order: Groq primary (was Anthropic hardcoded).
 - Lifecycle contract drift: RESOLVED. 0 cleanup errors, all 21 agents.
 - Dreamclaw: /help 0.2s (was >20s timeout).
-- OpenRouter: google/gemma-4-26b-a4b-it:free (was broken).
-- Ollama: synced to active_model.json (was hardcoded).
 - All 21 agents tested: 21/21 responsive, median /help 0.2s.
 - All 4 LLM providers tested: all operational.
-- README rewritten: benchmark data, known work, execution flow diagram.
-- MathematicaClaw: /help and /stats fixed (was broken, caught all input as math).
-  Plot pop-ups fixed (Agg backend -> interactive plt.show()).
-  Complex calculus tested: 12/18 passing (0.3-0.7s).
-- Accessibility layer deployed: shared/accessibility.py (TTS, STT, Braille, Translate).
-  Wired into interpretclaw (/speak, /listen, /braille) and langclaw (/speak, /listen).
-- Voice mode: /voice command + Ctrl+Shift+V global hotkey (shared/voice_hook.py).
-  Banner shows mic status. Background listener. Auto-detect language, translate,
-  process, translate response back, speak aloud. Spanish speaker can use any agent.
-- Menu: 'v' for voice mode in clawpack.py launcher.
-
----
-
-## Priority Backlog (Next Session)
-
-1. **Deploy /voice to all 21 agents** ? only lawclaw has it. Pattern: add /voice elif block calling shared.voice_hook.toggle(self). Each agent takes 2 minutes.
-2. **Fix recover_by_context signature drift** ? 19 call sites across 8 modules. The method expects (self, query, limit, source_filter) but callers pass args differently. Non-blocking but noisy in every log.
-3. **Complete 7 partial agents** ? docuclaw, llmclaw, mathematicaclaw, plotclaw, rustypycraw, txclaw, webclaw need capability routing (get_capable_agent in else block).
-4. **Test voice mode end-to-end** ? Spanish speaker speaks, system detects, translates, processes, responds aloud. Full pipeline validation.
-5. **pip install keyboard** ? required for Ctrl+Shift+V global hotkey. Without it, only /voice command works.
+- MathematicaClaw: /help fixed, plots interactive, 12/18 calculus passing.
+- Accessibility layer: TTS, STT, Braille, Translate, voice mode.
+- System-wide toggles: Ctrl+Shift+V/B/N/E, wake words, menu keys.
+- Voice/listen/translate/braille: 60 command files across all 21 agents.
+- CRITICAL BUG: Batch handler injection corrupted all 21 agents. Reverted.
+  Lesson: Use command files, never inject into handlers.
+- README rewritten. Onboarding doc current. PowerShell survival guide created.
