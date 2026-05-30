@@ -4158,6 +4158,231 @@
       },
       "previous_hash": "32afa0dbe96446c2",
       "hash": "63e90c66bb19fb35"
+    },
+    {
+      "timestamp": "2026-05-30T15:36:10.487308+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "63e90c66bb19fb35",
+      "hash": "32e92a8aea133ebb"
+    },
+    {
+      "timestamp": "2026-05-30T15:38:10.287146+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "32e92a8aea133ebb",
+      "hash": "2c24351b7e4bbaa1"
+    },
+    {
+      "timestamp": "2026-05-30T15:40:00.419530+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "2c24351b7e4bbaa1",
+      "hash": "1f1d5090a0a41c8a"
+    },
+    {
+      "timestamp": "2026-05-30T15:40:00.462114+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "1f1d5090a0a41c8a",
+      "hash": "d1897c0bd44340e3"
+    },
+    {
+      "timestamp": "2026-05-30T15:40:00.802579+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "d1897c0bd44340e3",
+      "hash": "677a1c9624d2b357"
+    },
+    {
+      "timestamp": "2026-05-30T15:44:02.259307+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "677a1c9624d2b357",
+      "hash": "b2f14a5fbf05c611"
+    },
+    {
+      "timestamp": "2026-05-30T15:46:54.177593+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b2f14a5fbf05c611",
+      "hash": "f489fe5a8031d3d2"
+    },
+    {
+      "timestamp": "2026-05-30T15:46:54.200112+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "f489fe5a8031d3d2",
+      "hash": "7eecff7af5ab7472"
+    },
+    {
+      "timestamp": "2026-05-30T15:46:54.387343+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "7eecff7af5ab7472",
+      "hash": "f12614607d616dca"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:18.618760+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f12614607d616dca",
+      "hash": "5012b8ad6690cf6e"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:18.639798+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "5012b8ad6690cf6e",
+      "hash": "943f849b01ef3936"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:18.804753+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "943f849b01ef3936",
+      "hash": "b467d4db6fcb6d71"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:19.384541+00:00",
+      "agent": "dreamclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b467d4db6fcb6d71",
+      "hash": "82a973b8dd082e25"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:19.402552+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "82a973b8dd082e25",
+      "hash": "060905f589daeb59"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:19.567421+00:00",
+      "agent": "dreamclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "060905f589daeb59",
+      "hash": "0bdbc4fdf3dffd62"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:20.172189+00:00",
+      "agent": "webclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0bdbc4fdf3dffd62",
+      "hash": "9688c56fb2f38baf"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:20.763131+00:00",
+      "agent": "mediclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "9688c56fb2f38baf",
+      "hash": "dc1af523b38917f7"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:20.778162+00:00",
+      "agent": "mediclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "dc1af523b38917f7",
+      "hash": "ff9bf08c693a3dbe"
+    },
+    {
+      "timestamp": "2026-05-30T15:47:20.950551+00:00",
+      "agent": "mediclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "ff9bf08c693a3dbe",
+      "hash": "acfc6074caaf63db"
     }
   ],
   "version": "v1.0"

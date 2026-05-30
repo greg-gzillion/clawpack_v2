@@ -7452,6 +7452,166 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T15:29:13.187405+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:36:10.597710+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:36:10.624278+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 259",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:38:10.561327+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 259",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:38:10.589357+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 260",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:40:00.715204+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 260",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:40:00.740975+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 261",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:44:02.498244+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 261",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:44:02.523296+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 262",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:46:54.311216+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 262",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:46:54.338256+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket ent",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:47:18.680876+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket entries, jury demand, summaries\n                         Example: /docket 42 USC 1983\n  /cite [citation",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:47:18.706924+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:47:19.459690+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:47:19.490263+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:47:20.833748+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw - Medical AI Agent\n  CONSTITUTIONAL RUNTIME: 23-system boundary active.\n  All commands memory-wired. Cross-agent delegation enabled.\n\n  CROSS-AGENT:\n  /delegate <agent> <task>  Send task to any agent\n  /translate <text> <lang>  Medical translation with term preservation\n  /shared read [key]        Read shared memory\n  /shared write key:value   Write to shared memory\n\n  MEDICAL COMMANDS:\n  /research <topic> /diagnose <symptoms> /treatment <condition>\n  /medications <drug> /interactions <",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T15:47:20.867340+00:00"
     }
   ],
   "index": {
@@ -9838,5 +9998,5 @@
       708
     ]
   },
-  "updated_at": "2026-05-30T15:29:13.188405+00:00"
+  "updated_at": "2026-05-30T15:47:20.867844+00:00"
 }
