@@ -126,3 +126,70 @@ Medical claims, blockchain transactions, code patterns, and mathematical proofs 
 4. Cross-domain facts (like source_url:) remain universal
 
 **Constitutional basis:** Article V (Truth Hierarchy) — claims must be comparable across agents to build consensus. Article II (Separation of Powers) — each agent's domain knowledge should inform how it extracts truth claims.
+Circuit Breaker on All Cross-Agent Calls
+
+**Decision:** Wired shared/error_handler.py CircuitBreaker into BaseAgent.call_agent(). 5 consecutive failures opens circuit for 60 seconds, then half-open with 3 test calls.
+
+**Why:** Without circuit breakers, a failed agent could cause infinite retry loops across the mesh. The circuit breaker fails fast ? after 5 failures, subsequent calls return immediately with "[agent] unavailable" rather than retrying.
+
+**Constitutional basis:** Article VIII (Budget Sovereignty) and Article VII (Silent Failure).
+
+---
+
+## 2026-05-29 (evening): lookup_jurisdiction() on BaseAgent via Chronicle FTS5
+
+**Decision:** Added lookup_jurisdiction(city_state, resource_type) to BaseAgent. All 21 agents inherit library, hospital, police, and building code lookup from 3,800+ city jurisdiction files via Chronicle FTS5.
+
+**Why:** Files organized by county, not city. Chronicle FTS5 searches across boundaries automatically.
+
+**Constitutional basis:** Article VI (Shared Memory) ? one canonical data source for all agents.
+
+---
+
+## 2026-05-29 (evening): Command Migration from Direct HTTP to Agent Context
+
+**Decision:** All lawclaw commands migrated from direct HTTP to agent context methods (agent.ask_llm(), agent.call_agent(), agent.search_chronicle()).
+
+**Why:** Direct HTTP bypasses circuit breaker, task state tracking, and budget enforcement.
+
+**Constitutional basis:** Article I (Sovereignty) and Article III (Delegation).
+
+---
+
+## 2026-05-29 (evening): 36-System Constitutional Boundary
+
+**Decision:** Expanded handler boundary from 23 to 36 systems across 19/21 agents.
+
+**Why:** Added systems were built but dormant. Activating them ensures full constitutional coverage.
+
+**Constitutional basis:** Article XI (Enforcement).
+
+---
+
+## 2026-05-29 (evening): Task State Machine on All Cross-Agent Calls
+
+**Decision:** Every call_agent() creates trackable task (pending->running->completed/failed/killed) with persistent storage. Pattern from Claude Code Ch8-10.
+
+**Why:** Operational visibility, failure analysis, performance metrics. Foundation for async delegation.
+
+**Constitutional basis:** Article VII (Silent Failure).
+
+---
+
+## 2026-05-29 (evening): Memory Staleness Warnings
+
+**Decision:** Facts from _memory.recall() carry age warnings. Pattern from Claude Code Ch11.
+
+**Why:** Stale facts need staleness metadata. Human-readable age triggers appropriate skepticism.
+
+**Constitutional basis:** Article V (Truth Hierarchy).
+
+---
+
+## 2026-05-29 (evening): Search Cache via DataClaw
+
+**Decision:** cached_search() on BaseAgent. 24hr TTL, organized by agent in dataclaw/cache/.
+
+**Why:** Repeat searches waste tokens. DataClaw becomes canonical cache layer.
+
+**Constitutional basis:** Article VIII (Budget Sovereignty).
