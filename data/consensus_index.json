@@ -3724,7 +3724,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T15:17:55.433618+00:00",
-      "last_updated": "2026-05-30T15:26:16.753317+00:00"
+      "last_updated": "2026-05-30T18:54:25.590550+00:00"
     },
     "0d8e53028e209e41": {
       "fact_id": "0d8e53028e209e41",
@@ -3848,9 +3848,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T15:29:12.465085+00:00",
-      "last_updated": "2026-05-30T15:29:12.465085+00:00"
+      "last_updated": "2026-05-30T18:53:34.641770+00:00"
     },
     "32bd569ce9680121": {
       "fact_id": "32bd569ce9680121",
@@ -4103,8 +4103,566 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-30T17:31:07.036714+00:00",
       "last_updated": "2026-05-30T17:31:07.036714+00:00"
+    },
+    "08645fbad059fe92": {
+      "fact_id": "08645fbad059fe92",
+      "fact_value": "query:x^",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:18.221337+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:18.221337+00:00",
+      "last_updated": "2026-05-30T18:54:18.221337+00:00"
+    },
+    "24ef04109340431d": {
+      "fact_id": "24ef04109340431d",
+      "fact_value": "query:to mathematicaclaw via A2A...",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:25.107811+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:25.107811+00:00",
+      "last_updated": "2026-05-30T18:54:25.107811+00:00"
+    },
+    "45f94fe35f21cee7": {
+      "fact_id": "45f94fe35f21cee7",
+      "fact_value": "query:'exit' to return to menu, 'help' for commands",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:25.365592+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:25.365592+00:00",
+      "last_updated": "2026-05-30T18:54:25.365592+00:00"
+    },
+    "6a95c45543275cde": {
+      "fact_id": "6a95c45543275cde",
+      "fact_value": "query:- Complete Math Engine",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:25.808814+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:25.808814+00:00",
+      "last_updated": "2026-05-30T18:54:25.808814+00:00"
+    },
+    "f1604ec072546da3": {
+      "fact_id": "f1604ec072546da3",
+      "fact_value": "query:/derivative /integral /limit",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:26.015722+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:26.015722+00:00",
+      "last_updated": "2026-05-30T18:54:26.015722+00:00"
+    },
+    "f98e13e496e7b2c8": {
+      "fact_id": "f98e13e496e7b2c8",
+      "fact_value": "query:/solve /simplify /factor /expand /algebra",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:26.229792+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:26.229792+00:00",
+      "last_updated": "2026-05-30T18:54:26.229792+00:00"
+    },
+    "8489e7eb6c9422d5": {
+      "fact_id": "8489e7eb6c9422d5",
+      "fact_value": "query:/system /matrix",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:26.471705+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:26.471705+00:00",
+      "last_updated": "2026-05-30T18:54:26.471705+00:00"
+    },
+    "cd13f8002fcfde3a": {
+      "fact_id": "cd13f8002fcfde3a",
+      "fact_value": "query:/add /subtract /multiply /divide /power /sqrt /percent",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:26.696895+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:26.696895+00:00",
+      "last_updated": "2026-05-30T18:54:26.696895+00:00"
+    },
+    "84db8043db7e6a68": {
+      "fact_id": "84db8043db7e6a68",
+      "fact_value": "query:/plot /animate",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:26.898272+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:26.898272+00:00",
+      "last_updated": "2026-05-30T18:54:26.898272+00:00"
+    },
+    "290d9f9fba6b3d26": {
+      "fact_id": "290d9f9fba6b3d26",
+      "fact_value": "query:/explain <concept>",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:27.110497+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:27.110497+00:00",
+      "last_updated": "2026-05-30T18:54:27.110497+00:00"
+    },
+    "1e29222500a3d928": {
+      "fact_id": "1e29222500a3d928",
+      "fact_value": "query:/delegate /export /chart",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:27.336113+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:27.336113+00:00",
+      "last_updated": "2026-05-30T18:54:27.336113+00:00"
+    },
+    "9d9ceb85a733a0c8": {
+      "fact_id": "9d9ceb85a733a0c8",
+      "fact_value": "query:/help /stats",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:27.619101+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:27.619101+00:00",
+      "last_updated": "2026-05-30T18:54:27.619101+00:00"
+    },
+    "c7d1d0caae6f0ae4": {
+      "fact_id": "c7d1d0caae6f0ae4",
+      "fact_value": "query:/derivative x^",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:27.887415+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:27.887415+00:00",
+      "last_updated": "2026-05-30T18:54:27.887415+00:00"
+    },
+    "9597c1c70237e6f4": {
+      "fact_id": "9597c1c70237e6f4",
+      "fact_value": "query:Sympify of expression 'could not parse 'x^'' failed, because of exception being raised:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:28.180800+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:28.180800+00:00",
+      "last_updated": "2026-05-30T18:54:28.180800+00:00"
+    },
+    "27350c54957e323f": {
+      "fact_id": "27350c54957e323f",
+      "fact_value": "query:invalid syntax (<string>, line 1)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:54:28.425640+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:28.425640+00:00",
+      "last_updated": "2026-05-30T18:54:28.425640+00:00"
+    },
+    "f1df887b9575e7b7": {
+      "fact_id": "f1df887b9575e7b7",
+      "fact_value": "Error: Sympify of expression 'could not parse 'mathematicaclaw>'' failed, because of exception being raised: SyntaxError: invalid syntax (<string>, line 1)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T18:54:28.686663+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:54:28.686663+00:00",
+      "last_updated": "2026-05-30T18:54:28.686663+00:00"
+    },
+    "3ced5f18288ff31d": {
+      "fact_id": "3ced5f18288ff31d",
+      "fact_value": "query:x^2",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:57:53.775442+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T18:57:53.775442+00:00",
+      "last_updated": "2026-05-30T18:58:21.281182+00:00"
+    },
+    "1421a347eacc15b2": {
+      "fact_id": "1421a347eacc15b2",
+      "fact_value": "query:[[1,2],[3,4]]",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:58:43.955670+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:58:43.955670+00:00",
+      "last_updated": "2026-05-30T18:58:43.955670+00:00"
+    },
+    "947436cf58fa29d0": {
+      "fact_id": "947436cf58fa29d0",
+      "fact_value": "query:sin(x^2)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:23.549737+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:23.549737+00:00",
+      "last_updated": "2026-05-30T18:59:23.549737+00:00"
+    },
+    "155248bc64743e36": {
+      "fact_id": "155248bc64743e36",
+      "fact_value": "query:e^(2x)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:23.886801+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:23.886801+00:00",
+      "last_updated": "2026-05-30T18:59:23.886801+00:00"
+    },
+    "68204f98a740603c": {
+      "fact_id": "68204f98a740603c",
+      "fact_value": "query:ln(x)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:24.164091+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:24.164091+00:00",
+      "last_updated": "2026-05-30T18:59:24.164091+00:00"
+    },
+    "15b1c096651675ee": {
+      "fact_id": "15b1c096651675ee",
+      "fact_value": "query:tan(x)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:24.493709+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:24.493709+00:00",
+      "last_updated": "2026-05-30T18:59:24.493709+00:00"
+    },
+    "33135d0dae87e864": {
+      "fact_id": "33135d0dae87e864",
+      "fact_value": "query:x*sin(x)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:24.857554+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:24.857554+00:00",
+      "last_updated": "2026-05-30T18:59:24.857554+00:00"
+    },
+    "3fd8bce7594056b9": {
+      "fact_id": "3fd8bce7594056b9",
+      "fact_value": "query:1/(x^2 + 1)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:25.172024+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:25.172024+00:00",
+      "last_updated": "2026-05-30T18:59:25.172024+00:00"
+    },
+    "b46861f0bdd63e1f": {
+      "fact_id": "b46861f0bdd63e1f",
+      "fact_value": "query:sin(x)/x as x->0",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:25.995059+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:25.995059+00:00",
+      "last_updated": "2026-05-30T18:59:25.995059+00:00"
+    },
+    "331f63f5f91e9bcd": {
+      "fact_id": "331f63f5f91e9bcd",
+      "fact_value": "query:(1+1/x)^x as x->inf",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:26.562989+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:26.562989+00:00",
+      "last_updated": "2026-05-30T18:59:26.562989+00:00"
+    },
+    "66bd0657df5cfb7c": {
+      "fact_id": "66bd0657df5cfb7c",
+      "fact_value": "query:x^2*y + y^3",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:26.874789+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:26.874789+00:00",
+      "last_updated": "2026-05-30T18:59:26.874789+00:00"
+    },
+    "a6c01ef976374b39": {
+      "fact_id": "a6c01ef976374b39",
+      "fact_value": "query:x*y dx dy",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:27.142010+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:27.142010+00:00",
+      "last_updated": "2026-05-30T18:59:27.142010+00:00"
+    },
+    "45b2b93effe408d2": {
+      "fact_id": "45b2b93effe408d2",
+      "fact_value": "query:x^3 - 6x^2 + 11x - 6 = 0",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:27.457965+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:27.457965+00:00",
+      "last_updated": "2026-05-30T18:59:27.457965+00:00"
+    },
+    "06edf1e32c20a866": {
+      "fact_id": "06edf1e32c20a866",
+      "fact_value": "query:[[1,2,3],[4,5,6],[7,8,9]]",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T18:59:27.860360+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T18:59:27.860360+00:00",
+      "last_updated": "2026-05-30T18:59:27.860360+00:00"
+    },
+    "7a0bcf1c10220152": {
+      "fact_id": "7a0bcf1c10220152",
+      "fact_value": "query:sin(x + t) from t=0 to 4*pi",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T19:08:45.281617+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T19:08:45.281617+00:00",
+      "last_updated": "2026-05-30T19:08:45.281617+00:00"
     }
   },
   "corrections": [],
-  "updated_at": "2026-05-30T17:31:07.038710+00:00"
+  "updated_at": "2026-05-30T19:08:45.282616+00:00"
 }

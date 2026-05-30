@@ -4959,6 +4959,1865 @@
       },
       "previous_hash": "9a5e6d77b60e2378",
       "hash": "1a98d148729bc0a0"
+    },
+    {
+      "timestamp": "2026-05-30T18:53:34.514261+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1a98d148729bc0a0",
+      "hash": "66f860bcde827227"
+    },
+    {
+      "timestamp": "2026-05-30T18:53:34.541751+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/help"
+      },
+      "previous_hash": "66f860bcde827227",
+      "hash": "bc6217246c6d1c59"
+    },
+    {
+      "timestamp": "2026-05-30T18:53:34.722565+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "bc6217246c6d1c59",
+      "hash": "8ee7a29efc39ba9c"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:18.126397+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "8ee7a29efc39ba9c",
+      "hash": "d1efcee4f11d97e5"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:18.142020+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "d1efcee4f11d97e5",
+      "hash": "17901d35ed9ccab2"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:18.260424+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "17901d35ed9ccab2",
+      "hash": "0b8bf1412eb58b25"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:24.995013+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0b8bf1412eb58b25",
+      "hash": "890a1322f1718757"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.024654+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "connecting"
+      },
+      "previous_hash": "890a1322f1718757",
+      "hash": "8698bafa6e1e5c27"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.155008+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "8698bafa6e1e5c27",
+      "hash": "143dbe04dba88a66"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.254791+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "143dbe04dba88a66",
+      "hash": "14c1cfb62b579de9"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.269995+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "type"
+      },
+      "previous_hash": "14c1cfb62b579de9",
+      "hash": "ae5fa7ce4ac05974"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.406157+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "ae5fa7ce4ac05974",
+      "hash": "49969c0dfef60721"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.484158+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "49969c0dfef60721",
+      "hash": "a75586c6ba47e11d"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.499175+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "mathematicaclaw>"
+      },
+      "previous_hash": "a75586c6ba47e11d",
+      "hash": "0556907a21cb4f43"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.628345+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0556907a21cb4f43",
+      "hash": "b02fe829c94c97a7"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.711682+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b02fe829c94c97a7",
+      "hash": "5aed8daadc05a87f"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.726710+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "mathematicaclaw"
+      },
+      "previous_hash": "5aed8daadc05a87f",
+      "hash": "e36e1a474e1b1bd5"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.849854+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e36e1a474e1b1bd5",
+      "hash": "e520eb3b048063eb"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.913750+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e520eb3b048063eb",
+      "hash": "d92a6a4d2131b8e0"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:25.930285+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "calculus:"
+      },
+      "previous_hash": "d92a6a4d2131b8e0",
+      "hash": "59c8e97892491c27"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.055697+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "59c8e97892491c27",
+      "hash": "ec1c76912b425e87"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.137014+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "ec1c76912b425e87",
+      "hash": "dc7e455e68700f45"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.151519+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "algebra:"
+      },
+      "previous_hash": "dc7e455e68700f45",
+      "hash": "ea7b6516128673e6"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.269492+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "ea7b6516128673e6",
+      "hash": "d5236528ad3b27ca"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.366755+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "d5236528ad3b27ca",
+      "hash": "2128a4268e0e2208"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.385973+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "systems:"
+      },
+      "previous_hash": "2128a4268e0e2208",
+      "hash": "3f57390a19931fad"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.511773+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "3f57390a19931fad",
+      "hash": "bcec565a80ae2fa3"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.581913+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "bcec565a80ae2fa3",
+      "hash": "8aacd7f45ee5aff7"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.614596+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "arithmetic:"
+      },
+      "previous_hash": "8aacd7f45ee5aff7",
+      "hash": "b7d062a187a181aa"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.737012+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b7d062a187a181aa",
+      "hash": "33bbee7f1dd146cd"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.801353+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "33bbee7f1dd146cd",
+      "hash": "253f0be9b4a047af"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.818424+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "visualize:"
+      },
+      "previous_hash": "253f0be9b4a047af",
+      "hash": "41eea3db9c2c9614"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:26.938985+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "41eea3db9c2c9614",
+      "hash": "7ebed905a8526f12"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.009160+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "7ebed905a8526f12",
+      "hash": "0a926e2ccd50ecad"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.025724+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "explain:"
+      },
+      "previous_hash": "0a926e2ccd50ecad",
+      "hash": "232fd90393932d63"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.160088+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "232fd90393932d63",
+      "hash": "282d82e12e60a7d8"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.229829+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "282d82e12e60a7d8",
+      "hash": "1d2d0c6021559db6"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.245885+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "delegate:"
+      },
+      "previous_hash": "1d2d0c6021559db6",
+      "hash": "0b5d6331145ea876"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.394511+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0b5d6331145ea876",
+      "hash": "5558f0c0ca4d97f7"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.480730+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "5558f0c0ca4d97f7",
+      "hash": "8d9b93ced4e3e713"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.501762+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "meta:"
+      },
+      "previous_hash": "8d9b93ced4e3e713",
+      "hash": "11e9361feee24629"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.671112+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "11e9361feee24629",
+      "hash": "78005ca2d500b5dc"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.774335+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "78005ca2d500b5dc",
+      "hash": "98b5e5682ab12bbc"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.791611+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "mathematicaclaw>"
+      },
+      "previous_hash": "98b5e5682ab12bbc",
+      "hash": "d798e1acf3e43433"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:27.946467+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "d798e1acf3e43433",
+      "hash": "1b7e7716610e127d"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.043203+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1b7e7716610e127d",
+      "hash": "6dd6cef0420d19d0"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.071774+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "error:"
+      },
+      "previous_hash": "6dd6cef0420d19d0",
+      "hash": "fa22cd30b66cf85c"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.225210+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "fa22cd30b66cf85c",
+      "hash": "a2a08e23b75befce"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.309740+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "a2a08e23b75befce",
+      "hash": "51ed20aa11dc61df"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.329388+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "syntaxerror:"
+      },
+      "previous_hash": "51ed20aa11dc61df",
+      "hash": "89b0228cbe6df66b"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.478290+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "89b0228cbe6df66b",
+      "hash": "725e7b81bcff6b0f"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.571725+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "725e7b81bcff6b0f",
+      "hash": "ee78a9a6b77dac7d"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.592400+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "mathematicaclaw>"
+      },
+      "previous_hash": "ee78a9a6b77dac7d",
+      "hash": "ce283e0e5048b2ee"
+    },
+    {
+      "timestamp": "2026-05-30T18:54:28.730645+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "ce283e0e5048b2ee",
+      "hash": "17d787e58b5f4da9"
+    },
+    {
+      "timestamp": "2026-05-30T18:57:29.569800+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "17d787e58b5f4da9",
+      "hash": "b65170b6e2f9d9a2"
+    },
+    {
+      "timestamp": "2026-05-30T18:57:53.633591+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b65170b6e2f9d9a2",
+      "hash": "1a8901d1959b45fb"
+    },
+    {
+      "timestamp": "2026-05-30T18:57:53.657373+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "1a8901d1959b45fb",
+      "hash": "606d5af9ee2fb5fa"
+    },
+    {
+      "timestamp": "2026-05-30T18:57:53.748842+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/derivative",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "606d5af9ee2fb5fa",
+      "hash": "f430fcba64989911"
+    },
+    {
+      "timestamp": "2026-05-30T18:57:54.670240+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f430fcba64989911",
+      "hash": "665fd1ab569c8feb"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:15.397203+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "665fd1ab569c8feb",
+      "hash": "cca5c45fd20ee312"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:21.165247+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "cca5c45fd20ee312",
+      "hash": "b3fb2dba113aede4"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:21.182303+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/integral"
+      },
+      "previous_hash": "b3fb2dba113aede4",
+      "hash": "037b4cad8caa393c"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:21.256124+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/integral",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "037b4cad8caa393c",
+      "hash": "f1bcef4e63dddc2d"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:21.333848+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f1bcef4e63dddc2d",
+      "hash": "f6553f4f0f6fa2b3"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:27.239903+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f6553f4f0f6fa2b3",
+      "hash": "2140e3c2e9526349"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:27.255371+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/factor"
+      },
+      "previous_hash": "2140e3c2e9526349",
+      "hash": "c450c816c8e17620"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:27.327189+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/factor",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "c450c816c8e17620",
+      "hash": "73dcd737a6349839"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:27.386190+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "73dcd737a6349839",
+      "hash": "3f96ef2d2411afa5"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:37.737129+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "3f96ef2d2411afa5",
+      "hash": "be469cf5cf76f9f9"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:43.812174+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "be469cf5cf76f9f9",
+      "hash": "9453598ef1dd9b64"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:43.829701+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/matrix"
+      },
+      "previous_hash": "9453598ef1dd9b64",
+      "hash": "fb070ad28edc008d"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:43.927999+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/matrix",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "fb070ad28edc008d",
+      "hash": "61f10507e8637135"
+    },
+    {
+      "timestamp": "2026-05-30T18:58:44.004964+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "61f10507e8637135",
+      "hash": "979b6b85b04edeec"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.416469+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "979b6b85b04edeec",
+      "hash": "c893700088fd55c2"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.433517+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "c893700088fd55c2",
+      "hash": "e16403ad3df40685"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.522698+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/derivative",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e16403ad3df40685",
+      "hash": "eca84764eb351eb5"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.606958+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "eca84764eb351eb5",
+      "hash": "a8b94878b952a4c7"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.722036+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "a8b94878b952a4c7",
+      "hash": "1b15dde249c173b6"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.746068+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "1b15dde249c173b6",
+      "hash": "f0752e6b74b6fabf"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.850699+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/derivative",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f0752e6b74b6fabf",
+      "hash": "6cbfaff5c788dd4f"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:23.948448+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "6cbfaff5c788dd4f",
+      "hash": "0a0c61574227c854"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.029050+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0a0c61574227c854",
+      "hash": "086b065062f19d3a"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.049092+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "086b065062f19d3a",
+      "hash": "b0df0c7ca40fd32d"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.134535+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/derivative",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b0df0c7ca40fd32d",
+      "hash": "09f3c62e35ae2b99"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.220731+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "09f3c62e35ae2b99",
+      "hash": "44aa40df471fbecf"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.356140+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "44aa40df471fbecf",
+      "hash": "b2a6340b3f7ec4a4"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.374183+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "b2a6340b3f7ec4a4",
+      "hash": "90f633035e09aa6c"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.460901+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/derivative",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "90f633035e09aa6c",
+      "hash": "8d9861d59491cc20"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.559525+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "8d9861d59491cc20",
+      "hash": "2a30dc592c3cd661"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.700405+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "2a30dc592c3cd661",
+      "hash": "be7442d98f05741e"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.721887+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/integral"
+      },
+      "previous_hash": "be7442d98f05741e",
+      "hash": "28fd5db67e2e627b"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.810561+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/integral",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "28fd5db67e2e627b",
+      "hash": "252d38ab396873c5"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:24.925349+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "252d38ab396873c5",
+      "hash": "63b4ce6bf6a21866"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.053783+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "63b4ce6bf6a21866",
+      "hash": "9dd9f889e39be48e"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.072810+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/integral"
+      },
+      "previous_hash": "9dd9f889e39be48e",
+      "hash": "dc567816e4a15dcf"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.145412+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/integral",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "dc567816e4a15dcf",
+      "hash": "b958532118795964"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.225640+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b958532118795964",
+      "hash": "8d825f8c64ecd56c"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.301595+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "8d825f8c64ecd56c",
+      "hash": "51b645ddb07089c9"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.322651+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/integral"
+      },
+      "previous_hash": "51b645ddb07089c9",
+      "hash": "64344b5032ec7992"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.428571+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/integral",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "64344b5032ec7992",
+      "hash": "62fadd559d8118cd"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.489529+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "62fadd559d8118cd",
+      "hash": "7942888dcdd9a3f9"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.589611+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "7942888dcdd9a3f9",
+      "hash": "78126837553c0136"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.610894+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/integral"
+      },
+      "previous_hash": "78126837553c0136",
+      "hash": "a5801670c5c9b23c"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.691108+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/integral",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "a5801670c5c9b23c",
+      "hash": "7afadddb05f1c90a"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.755227+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "7afadddb05f1c90a",
+      "hash": "882c9e409df2a058"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.852861+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "882c9e409df2a058",
+      "hash": "e62eaedd517fd6a8"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.875902+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/limit"
+      },
+      "previous_hash": "e62eaedd517fd6a8",
+      "hash": "4481bc113ccfc189"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:25.964859+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/limit",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "4481bc113ccfc189",
+      "hash": "d78ec765fca54dff"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.050864+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "d78ec765fca54dff",
+      "hash": "86affe948f7d6777"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.423148+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "86affe948f7d6777",
+      "hash": "c7797f2f1256fa0e"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.441156+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/limit"
+      },
+      "previous_hash": "c7797f2f1256fa0e",
+      "hash": "08a6491ed6af964e"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.519379+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/limit",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "08a6491ed6af964e",
+      "hash": "1bea1240c3cc3271"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.626319+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1bea1240c3cc3271",
+      "hash": "3595c61b87e3d570"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.733187+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "3595c61b87e3d570",
+      "hash": "057e2242fe897e53"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.751212+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/derivative"
+      },
+      "previous_hash": "057e2242fe897e53",
+      "hash": "18f7ef6dc69de3ea"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.842217+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/derivative",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "18f7ef6dc69de3ea",
+      "hash": "dc99c5e7337e706d"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:26.936008+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "dc99c5e7337e706d",
+      "hash": "d758aae095db9e95"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.016253+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "d758aae095db9e95",
+      "hash": "8f2daee8f7d49547"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.033318+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/integral"
+      },
+      "previous_hash": "8f2daee8f7d49547",
+      "hash": "87d019d64e8476c5"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.113794+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/integral",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "87d019d64e8476c5",
+      "hash": "1e0fb9d0a18b637c"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.210581+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1e0fb9d0a18b637c",
+      "hash": "e11dbc9ae30f9c4a"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.340561+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e11dbc9ae30f9c4a",
+      "hash": "2175e3fc20120c39"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.356637+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/solve"
+      },
+      "previous_hash": "2175e3fc20120c39",
+      "hash": "6a5d38e1887f3bc8"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.432268+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/solve",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "6a5d38e1887f3bc8",
+      "hash": "b4d88f7d0a822b57"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.527150+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "b4d88f7d0a822b57",
+      "hash": "306c3bd0568e4c0f"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.630437+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "306c3bd0568e4c0f",
+      "hash": "35a8e07ee0b66ded"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.729555+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "35a8e07ee0b66ded",
+      "hash": "091879707c86d6e3"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.747149+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/matrix"
+      },
+      "previous_hash": "091879707c86d6e3",
+      "hash": "df548da2fe88596f"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.831311+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/matrix",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "df548da2fe88596f",
+      "hash": "e7dfbc8ece6540cf"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:27.929622+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e7dfbc8ece6540cf",
+      "hash": "435ec8f19670bb9e"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.029249+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "435ec8f19670bb9e",
+      "hash": "3f9d81d8cf1485f3"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.050302+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/simplify"
+      },
+      "previous_hash": "3f9d81d8cf1485f3",
+      "hash": "fc0c5fbcb4a8297c"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.149197+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/simplify",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "fc0c5fbcb4a8297c",
+      "hash": "146f4480b5311c4d"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.221471+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "146f4480b5311c4d",
+      "hash": "3be425643e4cf1b8"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.313088+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "3be425643e4cf1b8",
+      "hash": "8416169b9e95926b"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.342668+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/simplify"
+      },
+      "previous_hash": "8416169b9e95926b",
+      "hash": "26119ea1a1e02461"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.438615+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/simplify",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "26119ea1a1e02461",
+      "hash": "0b3d365b5ee95bfd"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:28.522023+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0b3d365b5ee95bfd",
+      "hash": "08c1c77992d7efa0"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:29.016071+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "08c1c77992d7efa0",
+      "hash": "3a496aa5b905373d"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:29.040679+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/system"
+      },
+      "previous_hash": "3a496aa5b905373d",
+      "hash": "1e5777a203e32186"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:29.144615+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/system",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1e5777a203e32186",
+      "hash": "c3f1f032cb578277"
+    },
+    {
+      "timestamp": "2026-05-30T18:59:29.248709+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "c3f1f032cb578277",
+      "hash": "f811eb79f0b9ba8c"
+    },
+    {
+      "timestamp": "2026-05-30T19:05:27.863865+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f811eb79f0b9ba8c",
+      "hash": "7311392d3f1a193a"
+    },
+    {
+      "timestamp": "2026-05-30T19:05:27.881932+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/plot"
+      },
+      "previous_hash": "7311392d3f1a193a",
+      "hash": "fadf472c5e548824"
+    },
+    {
+      "timestamp": "2026-05-30T19:05:27.979481+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/plot",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "fadf472c5e548824",
+      "hash": "3e7a12006fbf9517"
+    },
+    {
+      "timestamp": "2026-05-30T19:05:28.076307+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "3e7a12006fbf9517",
+      "hash": "54379ac340bdbc38"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:01.600028+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "54379ac340bdbc38",
+      "hash": "c734a1e31a4ea17f"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:01.626749+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "4"
+      },
+      "previous_hash": "c734a1e31a4ea17f",
+      "hash": "6e0685083753ed59"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:01.813136+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "6e0685083753ed59",
+      "hash": "c4b24ecb05e266ef"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:18.827544+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "c4b24ecb05e266ef",
+      "hash": "f04bafd509a6ddb7"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:18.849580+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/plot"
+      },
+      "previous_hash": "f04bafd509a6ddb7",
+      "hash": "4222688f7d700858"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:18.981863+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/plot",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "4222688f7d700858",
+      "hash": "0960eff7f959d934"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:19.056980+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0960eff7f959d934",
+      "hash": "38d727c3f4d0e47f"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:33.510561+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "38d727c3f4d0e47f",
+      "hash": "a8ae76b0cfbd48e0"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:33.531595+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/plot"
+      },
+      "previous_hash": "a8ae76b0cfbd48e0",
+      "hash": "2cd295ab60a76d39"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:33.650087+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/plot",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "2cd295ab60a76d39",
+      "hash": "e650d584612a18a5"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:33.727713+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e650d584612a18a5",
+      "hash": "84249a692b910740"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:45.163054+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "84249a692b910740",
+      "hash": "3dc747cc62a52fc9"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:45.181120+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/animate"
+      },
+      "previous_hash": "3dc747cc62a52fc9",
+      "hash": "1580fdac72e489f7"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:45.256397+00:00",
+      "agent": "mathematicaclaw",
+      "action": "/animate",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1580fdac72e489f7",
+      "hash": "7e2a8a966f09ca2a"
+    },
+    {
+      "timestamp": "2026-05-30T19:08:45.358284+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "7e2a8a966f09ca2a",
+      "hash": "d8d1f22a5ec74f4c"
     }
   ],
   "version": "v1.0"
