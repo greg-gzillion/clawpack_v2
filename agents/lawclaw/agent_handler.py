@@ -246,7 +246,7 @@ If this is a phrase: provide the translation to the target language.
                 result = cmd_run(args)
             elif cmd == "/oral" and args:
                 from agents.lawclaw.commands.oral import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/precedent" and args:
                 from agents.lawclaw.commands.precedent import run as cmd_run
                 result = cmd_run(args)
