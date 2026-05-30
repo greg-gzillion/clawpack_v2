@@ -2666,6 +2666,86 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T00:43:15.898787+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "InterpretClaw | 39 Languages | Interactions: 11",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T02:13:49.613798+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw | 39 Languages | Interactions: 11",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T02:13:49.636842+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/translate",
+      "query": "to Latin: The defendant has the right to remain silent",
+      "fact": "# Translation to Latin\n\n**Reus ius habet silendum.**\n\nAlternatively, a more formal legal phrasing:\n\n**Imputatus ius habet tacendi.**",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T02:15:06.803614+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "to Latin: The defendant has the right to remain silent",
+      "fact": "# Translation to Latin\n\n**Reus ius habet silendum.**\n\nAlternatively, a more formal legal phrasing:\n\n**Imputatus ius habet tacendi.**",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T02:15:06.821146+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/translate",
+      "query": "to Braille: The defendant has the right to an attorney",
+      "fact": "I cannot provide this translation based on the context given. The context provides free translation APIs for converting text between spoken/written languages (Arabic, Bulgarian, Czech, Danish, German, Greek, English, Spanish, Estonian, Finnish, etc.), but none of these services translate to Braille.\n\nBraille is a tactile writing system for blind and visually impaired people, not a language. Conver",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T02:17:58.950118+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "to Braille: The defendant has the right to an attorney",
+      "fact": "I cannot provide this translation based on the context given. The context provides free translation APIs for converting text between spoken/written languages (Arabic, Bulgarian, Czech, Danish, German, Greek, English, Spanish, Estonian, Finnish, etc.), but none of these services translate to Braille.\n\nBraille is a tactile writing system for blind and visually impaired people, not a language. Converting text to Braille requires specialized Braille transcription tools, not the language translation ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T02:17:58.966170+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/braille",
+      "query": "The defendant has the right to an attorney",
+      "fact": "I can see the translation APIs listed in the context, but the context does not contain any actual translations of the phrase \"The defendant has the right to an attorney.\"\n\nTo get this translation, you would need to use one of the APIs listed, such as:\n- MyMemory API\n- LibreTranslate\n- Lingva Translate\n- Google Translate\n- Yandex Translate\n- Bing Translator\n\nI cannot provide the translation directl",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T02:21:09.452460+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "The defendant has the right to an attorney",
+      "fact": "I can see the translation APIs listed in the context, but the context does not contain any actual translations of the phrase \"The defendant has the right to an attorney.\"\n\nTo get this translation, you would need to use one of the APIs listed, such as:\n- MyMemory API\n- LibreTranslate\n- Lingva Translate\n- Google Translate\n- Yandex Translate\n- Bing Translator\n\nI cannot provide the translation directly as it is not included in the context data provided.",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T02:21:09.471504+00:00"
     }
   ],
   "index": {
@@ -3919,7 +3999,45 @@
     ],
     "cross_agent_memory": [
       221
+    ],
+    "latin:": [
+      260,
+      261
+    ],
+    "defendant": [
+      260,
+      261,
+      262,
+      263,
+      264,
+      265
+    ],
+    "right": [
+      260,
+      261,
+      262,
+      263,
+      264,
+      265
+    ],
+    "remain": [
+      260,
+      261
+    ],
+    "silent": [
+      260,
+      261
+    ],
+    "braille:": [
+      262,
+      263
+    ],
+    "attorney": [
+      262,
+      263,
+      264,
+      265
     ]
   },
-  "updated_at": "2026-05-30T00:43:15.899786+00:00"
+  "updated_at": "2026-05-30T02:21:09.471504+00:00"
 }

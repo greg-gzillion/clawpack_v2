@@ -986,6 +986,58 @@
       },
       "previous_hash": "3ad3491606c9596c",
       "hash": "d29da8dd8856e3b7"
+    },
+    {
+      "timestamp": "2026-05-30T02:13:49.204327+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "d29da8dd8856e3b7",
+      "hash": "eeb25b4b07098d63"
+    },
+    {
+      "timestamp": "2026-05-30T02:15:06.744516+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "eeb25b4b07098d63",
+      "hash": "11517480e378f095"
+    },
+    {
+      "timestamp": "2026-05-30T02:17:58.888925+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/translate"
+      },
+      "previous_hash": "11517480e378f095",
+      "hash": "6ea74858a89fb2ff"
+    },
+    {
+      "timestamp": "2026-05-30T02:21:09.370770+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/braille"
+      },
+      "previous_hash": "6ea74858a89fb2ff",
+      "hash": "7266e2fd776d162f"
     }
   ],
   "version": "v1.0"

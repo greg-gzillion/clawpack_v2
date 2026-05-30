@@ -4409,6 +4409,96 @@
       "truth_score": 0.41,
       "first_seen": "2026-05-30T00:42:57.706942+00:00",
       "last_updated": "2026-05-30T00:43:15.916828+00:00"
+    },
+    "5c8aaee2e1305f4d": {
+      "fact_id": "5c8aaee2e1305f4d",
+      "fact_value": "query:to Latin: The defendant has the right to remain silent",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T02:15:06.840153+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T02:15:06.840153+00:00",
+      "last_updated": "2026-05-30T02:15:06.841154+00:00"
+    },
+    "f099448d0f47c474": {
+      "fact_id": "f099448d0f47c474",
+      "fact_value": "concept:Reus ius habet silendum.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T02:15:06.858145+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T02:15:06.858145+00:00",
+      "last_updated": "2026-05-30T02:15:06.858145+00:00"
+    },
+    "5e1bf8b83aee3bd2": {
+      "fact_id": "5e1bf8b83aee3bd2",
+      "fact_value": "concept:Imputatus ius habet tacendi.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T02:15:06.877141+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T02:15:06.877141+00:00",
+      "last_updated": "2026-05-30T02:15:06.877141+00:00"
+    },
+    "0df7737ea22f980a": {
+      "fact_id": "0df7737ea22f980a",
+      "fact_value": "query:to Braille: The defendant has the right to an attorney",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T02:17:58.989263+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T02:17:58.989263+00:00",
+      "last_updated": "2026-05-30T02:17:58.989699+00:00"
+    },
+    "828175eb0ecd5be6": {
+      "fact_id": "828175eb0ecd5be6",
+      "fact_value": "query:The defendant has the right to an attorney",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T02:21:09.494582+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T02:21:09.494582+00:00",
+      "last_updated": "2026-05-30T02:21:09.495915+00:00"
     }
   },
   "corrections": [
@@ -4429,5 +4519,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-30T00:43:15.918844+00:00"
+  "updated_at": "2026-05-30T02:21:09.496915+00:00"
 }
