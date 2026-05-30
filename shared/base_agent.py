@@ -262,6 +262,31 @@ class BaseAgent:
             self._log_error("sovereign_gateway", str(e))
         return "Sovereign Gateway unavailable"
 
+    def cached_search(self, query: str, timeout: int = 15) -> str:
+        """Search web with automatic caching via DataClaw.
+        First checks cache, then hits webclaw, then caches result.
+        Subsequent identical queries return cached results for 24 hours.
+        """
+        try:
+            from shared.search_cache import get_cached, cache_search
+            
+            # Check cache first
+            cached = get_cached(self.name, query)
+            if cached:
+                return f"[CACHED] {cached['results'][:3000]}"
+            
+            # Search via webclaw
+            result = self.call_agent("webclaw", f"search {query}", timeout=timeout)
+            
+            # Cache the result
+            if result and len(result) > 20:
+                cache_search(self.name, query, str(result))
+            
+            return str(result) if result else ""
+        except Exception as e:
+            self._log_error("cached_search", str(e)[:200])
+            return ""
+
     def search_chronicle(self, query: str, limit: int = 10) -> list:
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle
