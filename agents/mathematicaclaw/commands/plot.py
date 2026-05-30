@@ -5,7 +5,7 @@
 
     try:
         import matplotlib
-        matplotlib.use('Agg')  # Non-interactive backend
+        # Use interactive backend for pop-up windows
         import matplotlib.pyplot as plt
         import numpy as np
         import sympy as sp
