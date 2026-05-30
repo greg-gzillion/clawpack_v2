@@ -144,6 +144,37 @@ class UnifiedMemory:
             self.learn(agent, key, fact, source='auto_extraction')
 
     # =========================================================================
+    # STALENESS
+    # =========================================================================
+
+    def _staleness_warning(self, fact: Dict) -> str:
+        """Calculate staleness warning for a fact.
+        Returns empty string if fresh, warning message if stale.
+        Pattern from Claude Code Ch11: human-readable age triggers staleness reasoning.
+        """
+        timestamp = fact.get("timestamp", "")
+        if not timestamp:
+            return ""
+        
+        try:
+            fact_time = datetime.fromisoformat(timestamp)
+            age = datetime.now(timezone.utc) - fact_time
+            days = age.days
+            
+            if days <= 1:
+                return ""  # Fresh ? no warning
+            elif days < 7:
+                return f"[{days} days old]"
+            elif days < 30:
+                return f"[{days // 7} weeks old ? verify before relying]"
+            elif days < 90:
+                return f"[{days // 30} months old ? may be outdated]"
+            else:
+                return f"[{days // 30} months old ? high risk of staleness, verify against current sources]"
+        except Exception:
+            return ""
+
+    # =========================================================================
     # RECALL
     # =========================================================================
 
@@ -173,7 +204,14 @@ class UnifiedMemory:
                 scored.append((score, fact))
 
         scored.sort(key=lambda x: x[0], reverse=True)
-        results = [f for _, f in scored[:limit]]
+        results = []
+        for _, fact in scored[:limit]:
+            # Attach staleness warning
+            warning = self._staleness_warning(fact)
+            if warning:
+                fact = dict(fact)  # Don't mutate original
+                fact["staleness"] = warning
+            results.append(fact)
 
         # Update recall stats
         for fact in results:
