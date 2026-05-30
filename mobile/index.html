@@ -270,12 +270,31 @@ async function connectServer() {
   localStorage.setItem('clawpack_server', SERVER);
   configEl.classList.add('hidden');
   await checkServer();
+  await loadAgents();
 }
 
 statusDot.onclick = () => {
   configEl.classList.toggle('hidden');
   urlInput.value = SERVER;
 };
+
+async function loadAgents() {
+  try {
+    const r = await fetch(SERVER + '/v1/agents');
+    const data = await r.json();
+    const select = document.getElementById('agentSelect');
+    select.innerHTML = '';
+    data.agents.forEach(a => {
+      const opt = document.createElement('option');
+      opt.value = a.name;
+      opt.textContent = a.name.toUpperCase();
+      select.appendChild(opt);
+    });
+    addMessage('AGENTS LOADED: ' + data.agents.length, 'system');
+  } catch(e) {
+    console.log('Agent discovery failed, using defaults');
+  }
+}
 
 async function checkServer() {
   try {
