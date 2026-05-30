@@ -237,7 +237,7 @@ If this is a phrase: provide the translation to the target language.
                 result = cmd_run(args)
             elif cmd == "/jurisdiction" and args:
                 from agents.lawclaw.commands.jurisdiction import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/law" and args:
                 from agents.lawclaw.commands.law import run as cmd_run
                 result = cmd_run(args)
