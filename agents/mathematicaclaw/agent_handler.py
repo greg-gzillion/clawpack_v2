@@ -56,8 +56,22 @@ class MathematicaClawAgent(BaseAgent):
         query = args if args else task
 
         try:
+            # ---- Meta (must be first to avoid fallback) ----
+            if cmd in ("/help", "help"):
+                result = """MathematicaClaw - Complete Math Engine
+  CALCULUS:   /derivative /integral /limit
+  ALGEBRA:    /solve /simplify /factor /expand /algebra
+  SYSTEMS:    /system /matrix
+  ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent
+  VISUALIZE:  /plot /animate
+  EXPLAIN:    /explain <concept>
+  DELEGATE:   /delegate /export /chart
+  META:       /help /stats"""
+            elif cmd in ("/stats", "stats"):
+                result = f"MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: {self.state.get('interactions', 0)}"
+
             # ---- Cross-Agent Delegation ----
-            if cmd in ("/delegate", "delegate") and args:
+            elif cmd in ("/delegate", "delegate") and args:
                 parts2 = args.split(maxsplit=1)
                 target = parts2[0]
                 task_text = parts2[1] if len(parts2) > 1 else ""
@@ -171,22 +185,8 @@ class MathematicaClawAgent(BaseAgent):
             elif cmd in ("/explain", "explain") and query:
                 result = self.ask_llm(f"Explain this mathematical concept in detail with examples, proofs, and applications: {query}")
 
-            # ---- Meta ----
-            elif cmd in ("/help", "help"):
-                result = """MathematicaClaw - Complete Math Engine
-  CALCULUS:   /derivative /integral /limit
-  ALGEBRA:    /solve /simplify /factor /expand /algebra
-  SYSTEMS:    /system /matrix
-  ARITHMETIC: /add /subtract /multiply /divide /power /sqrt /percent
-  VISUALIZE:  /plot /animate
-  EXPLAIN:    /explain <concept>
-  DELEGATE:   /delegate /export /chart
-  META:       /help /stats"""
-            elif cmd in ("/stats", "stats"):
-                result = f"MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: {self.state.get('interactions', 0)}"
-
             # ---- Fallback: try to solve as equation ----
-            elif query:
+            elif query and cmd.startswith('/'):
                 result = _solve_mod.run(query)
             else:
                 result = "Type /help for commands"
@@ -231,7 +231,7 @@ class MathematicaClawAgent(BaseAgent):
                 except Exception: pass
                 try: from shared._agent_helpers import learn; learn("mathematicaclaw", args or "", final_result[:500], "web_verified", 0.85)
                 except Exception: pass
-                try: from shared.decision_ledger import get_ledger; get_ledger().record(agent="mathematicaclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                try: from shared.decision_ledger import get_ledger; get_ledger().record_action(agent="mathematicaclaw", action=cmd, policy_result={"query": (args or "")[:200], "result": final_result[:100]})
                 except Exception: pass
                 try: from shared.consensus_engine import constitutional_consensus_check; constitutional_consensus_check(final_result, args or "")
                 except Exception: pass
@@ -286,8 +286,8 @@ class MathematicaClawAgent(BaseAgent):
                 except Exception: pass
                 try:
                     duration_ms = (time.time() - track_start) * 1000
-                    from agents.webclaw.core.chronicle_ledger import log_event
-                    log_event(agent="mathematicaclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                    from agents.webclaw.core.chronicle_ledger import get_chronicle
+                    get_chronicle().record_fetch(url=f"agent:mathematicaclaw", context="command_executed", source="mathematicaclaw", metadata={"cmd": cmd, "duration_ms": duration_ms})
                 except Exception: pass
 
             return {"status": "success", "result": str(final_result)}
