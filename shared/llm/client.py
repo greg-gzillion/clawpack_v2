@@ -87,7 +87,7 @@ class LLMClient:
             if loop.is_running():
                 import concurrent.futures
                 with concurrent.futures.ThreadPoolExecutor() as ex:
-                    return ex.submit(asyncio.run, self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature)).result(timeout=120)
+                    return ex.submit(asyncio.run, self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature)).result(timeout=300)
             return loop.run_until_complete(self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature))
         except RuntimeError:
             return asyncio.run(self.call(prompt, agent, model, provider=provider, max_tokens=max_tokens, temperature=temperature))
