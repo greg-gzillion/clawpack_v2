@@ -26,7 +26,7 @@ def get_cl_token():
     return ""
 
 
-def llm(prompt, timeout=120):
+def llm(prompt, agent=agent, timeout=120):
     try:
         resp = requests.post(
             f"{A2A}/v1/message/llmclaw",
@@ -53,7 +53,7 @@ def chronicle_search(query, limit=10):
     return []
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return (
             "[ORAL] Usage: /oral [case name]\n"
@@ -184,7 +184,7 @@ Do not fabricate details.
 
 Context:"""
 
-            result = llm(prompt, timeout=90)
+            result = llm(prompt, agent=agent, timeout=90)
             if result and len(result) > 30:
                 out.append("")
                 out.append("  [CONTEXT] " + result)

@@ -62,7 +62,7 @@ def classify_input(args):
     return "party_name"
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return "[DOCKET] Usage: /docket [case number or CourtListener URL]"
 

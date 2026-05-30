@@ -9,7 +9,7 @@ A2A = "http://127.0.0.1:8766"
 from agents.lawclaw.commands._memory import show_prior, remember
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return "Usage: /ask [law question]"
 

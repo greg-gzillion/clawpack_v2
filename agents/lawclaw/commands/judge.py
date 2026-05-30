@@ -27,7 +27,7 @@ def get_cl_token():
     return ""
 
 
-def llm(prompt, timeout=120):
+def llm(prompt, agent=agent, timeout=120):
     try:
         resp = requests.post(
             f"{A2A}/v1/message/llmclaw",
@@ -88,7 +88,7 @@ def cl_get(path, params=None, timeout=15):
     return []
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return "[JUDGE] Usage: /judge [judge name] -- e.g., /judge Sotomayor, /judge Robert Pitman"
 
@@ -193,7 +193,7 @@ CourtListener: {cl_context[:500] if cl_context else "No CourtListener data found
 
 Biography:"""
 
-            result = llm(prompt, timeout=90)
+            result = llm(prompt, agent=agent, timeout=90)
             if result and len(result) > 50:
                 out.append("")
                 out.append("=" * 60)

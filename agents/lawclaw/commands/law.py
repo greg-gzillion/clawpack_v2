@@ -20,7 +20,7 @@ def authority_score(case):
     return 0
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return (
             "[LAW] Usage: /law [topic or question]\n"
@@ -117,7 +117,7 @@ If data is limited, state what is missing rather than fabricating.
 
 Overview:"""
 
-        result = llm(prompt, timeout=120)
+        result = llm(prompt, agent=agent, timeout=120)
 
         out.append("")
         out.append("=" * 60)

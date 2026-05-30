@@ -234,7 +234,7 @@ def find_jurisdiction_files(intent):
     return results
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return "[COURT] Usage: /court [location] -- e.g., /court Denver CO, /court MA Worcester, /court CO supreme, /court federal"
 

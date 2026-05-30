@@ -30,7 +30,7 @@ def get_cl_token():
     return ""
 
 
-def llm(prompt, timeout=120):
+def llm(prompt, agent=agent, timeout=120):
     try:
         resp = requests.post(
             f"{A2A}/v1/message/llmclaw",
@@ -120,7 +120,7 @@ def search_jurisdiction_files(query_terms, max_files=10):
 
 # ── Main ─────────────────────────────────────────────────────────────────
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return (
             "[FEDERAL] Usage: /federal [circuit|district|supreme|city|state|rules|pacer|judges|opinions]\n"
@@ -221,7 +221,7 @@ def run(args):
                 html = webclaw_fetch(rule_url)
                 if html and len(html) > 100:
                     summary = llm(
-                        f"Summarize {rule_type.upper()} Rule {rule_num.group(1)} from this page. "
+                        f"Summarize {rule_type.upper(, agent=agent)} Rule {rule_num.group(1)} from this page. "
                         f"Be concise. Quote key language (under 15 words per quote).\n\n{html[:3000]}",
                         timeout=60,
                     )
@@ -259,7 +259,7 @@ Be specific. Cite sources. Include URLs.
 
 Answer:"""
             
-            result = llm(prompt, timeout=90)
+            result = llm(prompt, agent=agent, timeout=90)
             if result and len(result) > 50:
                 out.append("")
                 out.append("=" * 60)

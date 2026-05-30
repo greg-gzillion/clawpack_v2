@@ -12,7 +12,7 @@ from agents.lawclaw.commands._helpers import (
 )
 
 
-def run(args):
+def run(args, agent=None):
     if not args:
         return (
             "[PRECEDENT] Usage: /precedent [doctrine or case]\n"
@@ -136,7 +136,7 @@ Under 300 words.
 
 Analysis:"""
 
-            result = llm(prompt, timeout=120)
+            result = llm(prompt, agent=agent, timeout=120)
             if result and len(result) > 50:
                 out.append("")
                 out.append("=" * 60)
