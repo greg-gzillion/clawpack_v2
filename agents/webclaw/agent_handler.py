@@ -48,7 +48,23 @@ class WebClawAgent(BaseAgent):
                 return {"status": "success", "result": result}
         if cmd in ("/stats",):
             return {"status": "success", "result": f"WebClaw | Chronicle: 35K+ entries | Interactions: {self.state.get('interactions', 0)}"}
-        if cmd in ("/help",):
+                    elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
+            if cmd in ("/help",):
             return {"status": "success", "result": "WebClaw - Web Search & Chronicle\n  search <query>  fetch <url>  /stats  /delegate <agent> <task>"}
         if task.startswith("fetch ") or task.startswith("http"):
             url = task.replace("fetch ", "", 1).strip() if task.startswith("fetch ") else task

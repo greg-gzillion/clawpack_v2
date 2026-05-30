@@ -30,6 +30,22 @@ class DreamClawAgent(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
         try:
+                        elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
             if cmd in ("/help",):
                 result = "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]"
             elif cmd in ("/stats",):

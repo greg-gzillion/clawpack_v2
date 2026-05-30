@@ -103,6 +103,22 @@ IMPORTANT: Only reference TX.org blockchain. If you don't know, say "I don't hav
                 result = "TX.org Networks:\n  - mainnet -> https://rpc.tx.org\n  - testnet -> https://rpc.testnet.tx.org\n  - local -> http://localhost:26657"
             elif cmd == "/search" and args:
                 result = self._call(f"Search TX.org references for: {args}. Use the reference knowledge provided above.")
+                        elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
             elif cmd == "/help":
                 result = "TXClaw - TX.org Blockchain Agent\n  /tx /block /address /token /validator /contract\n  /staking /gas /ecosystem /governance /network /mempool\n  /generate <name> /deploy <name> /test <name>\n  /networks /search <query> /stats"
             elif cmd == "/stats":

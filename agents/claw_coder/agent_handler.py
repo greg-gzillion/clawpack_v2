@@ -142,6 +142,22 @@ class ClawCoderAgent(BaseAgent):
 
         try:
             # Instant commands (no LLM)
+                        elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
             if cmd in ("/help",):
                 result = "ClawCoder v5 - 39 Languages\n  /code <task>  /explain /debug /review /tutorial\n  /translate <from> <to> <file>  /run <file>  /test <file>\n  /scan structure|patterns <lang>  /docs /project /deps /perf\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

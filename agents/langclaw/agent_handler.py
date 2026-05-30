@@ -48,7 +48,23 @@ class LangClawAgent(BaseAgent):
                 result = f"[TTS] Speak: '{query}'\nLangClaw uses Google TTS, Edge TTS, and system TTS for voice output."
             elif cmd in ("/listen", "listen"):
                 result = "[STT] Listening...\nLangClaw uses Google Speech-to-Text for voice input. Speak clearly into your microphone."
-            elif cmd in ("/help",):
+            el            elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
+            if cmd in ("/help",):
                 result = "LangClaw - AI Language Teacher\n  /lesson <lang> - Full lesson\n  /practice <lang> - Exercises\n  /vocab <lang> - Vocabulary\n  /conversation <lang> - Practice chat\n  /teach <lang> - Interactive teacher\n  /speak <text> - TTS voice output\n  /listen - STT voice input\n  /stats"
             elif cmd in ("/stats",):
                 result = f"LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: {self.state.get('interactions', 0)}"

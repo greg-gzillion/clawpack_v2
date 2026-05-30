@@ -154,7 +154,23 @@ class PlotClawAgent(BaseAgent):
                 else:
                     result = f"Unknown agent: {target}. Try: docuclaw, interpretclaw, dataclaw, webclaw, mathematicaclaw"
             
-            elif cmd in ("/help",):
+            el            elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
+            if cmd in ("/help",):
                 result = """PlotClaw v3 - 13 Chart Types + Data I/O
   CHARTS:   /bar /pie /plot /scatter /hist /box /heatmap /polar /surface /compare /animate /stats /dashboard
   DATA:     /csv <file.csv> [column] [chart_type]  |  /data (list files)  |  /import <file.json>

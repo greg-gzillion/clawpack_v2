@@ -64,7 +64,23 @@ br - Braille (Grade 1 & 2)    asl - American Sign Language (gloss)"""
             elif cmd in ("/braille", "braille") and query:
                 from shared.accessibility import to_braille
                 result = to_braille(query)
-            elif cmd in ("/help",):
+            el            elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
+            if cmd in ("/help",):
                 result = "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats"
             elif cmd in ("/stats",):
                 result = f"InterpretClaw | 42 Languages | Interactions: {self.state.get('interactions', 0)}"

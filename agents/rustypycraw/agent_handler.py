@@ -97,7 +97,23 @@ class RustyPyCrawAgent(BaseAgent):
                 else:
                     result = "Usage: /compare <python_file> <rust_file>"
                     
-            elif cmd in ("/help",):
+            el            elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
+            if cmd in ("/help",):
                 result = "RustyPyCraw - Python/Rust Interop\n  /scan <path> - Scan codebase\n  /analyze <path> - Analyze interop\n  /compare <py> <rs> - Compare Python/Rust\n  /stats\n  Uses: WebClaw + DataClaw + CrustyClaw + ClawCoder -> LLMClaw -> FileClaw"
             elif cmd in ("/stats",):
                 result = f"RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: {self.state.get('interactions', 0)}"

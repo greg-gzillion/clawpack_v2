@@ -225,6 +225,22 @@ class FileClawAgent(BaseAgent):
                 result = delegate("fileclaw", target, task_text)
             elif cmd == "/docuclaw" and rest:
                 result = delegate("fileclaw", "docuclaw", f"/create {rest}", timeout=60)
+                        elif cmd == "/voice":
+                from shared.voice_hook import toggle
+                result = toggle(self)
+            elif cmd in ("/listen", "listen"):
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/translate", "translate") and query:
+                from shared.accessibility import translate, detect_language
+                lang = detect_language(query)
+                result = translate(query, 'en', lang)
+
             elif cmd == "/help":
                 result = f"FileClaw - {len(self.binary_importers) + len(self.text_formats)} Format Handler\n\n  /import <file>     - Read any supported file\n  /export <fmt> <content> - Export to any format\n  /convert <src> <fmt> - Convert between formats\n  /formats           - List supported formats\n  /delegate <agent> <task> - Cross-agent delegation\n  /help /stats"
             elif cmd == "/stats":
