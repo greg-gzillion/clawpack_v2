@@ -10,9 +10,9 @@ class DreamClawAgent(BaseAgent):
     
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search creative {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search creative {query}", timeout=5)
         if web: parts.append("[WebClaw]: " + web)
-        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
+        data = self.call_agent("dataclaw", f"search {query}", timeout=5)
         if data: parts.append("[DataClaw]: " + data)
         chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:
@@ -30,23 +30,26 @@ class DreamClawAgent(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
         query = args if args else task
         try:
-            ctx = self._gather_context(query)
-            if cmd in ("/dream","dream") and query: result = self.ask_llm(f"Context: {ctx}\n\nAI image generation prompt with style, lighting, composition: {query}")
-            elif cmd in ("/imagine","imagine") and query: result = self.ask_llm(f"Context: {ctx}\n\nCreative visual description for AI generation: {query}")
-            elif cmd in ("/help",): result = "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate <agent> <task>"
-            elif cmd in ("/stats",): result = f"DreamClaw | AI Vision | Interactions: {self.state.get('interactions', 0)}"
-            elif cmd in ("/delegate",) and args:
-                parts2 = args.split(maxsplit=1); target = parts2[0]
-                task_text = parts2[1] if len(parts2) > 1 else ""
-                known = ["plotclaw","flowclaw","claw_coder","crustyclaw","dataclaw","designclaw","draftclaw","drawclaw","interpretclaw","docuclaw","webclaw","lawclaw","mathematicaclaw","langclaw","fileclaw","txclaw","mediclaw","liberateclaw"]
-                if target in known: result = str(self.call_agent(target, task_text) or f"Agent {target} returned no response")
-                else: result = f"Unknown: {target}"
+            if cmd in ("/help",):
+                result = "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]"
+            elif cmd in ("/stats",):
+                result = f"DreamClaw | AI Vision | Interactions: {self.state.get("interactions", 0)}"
             else:
-                from shared.capabilities import get_capable_agent
-                target = get_capable_agent(cmd, "dreamclaw")
-                if target: result = str(self.call_agent(target, task, timeout=60) or "")
-                elif query: result = self.ask_llm(f"Context: {ctx}\n\nAI vision expert: {query}")
-                else: result = "Type /help for commands"
+                ctx = self._gather_context(query)
+                if cmd in ("/dream","dream") and query: result = self.ask_llm(f"Context: {ctx}\n\nAI image generation prompt with style, lighting, composition: {query}")
+                elif cmd in ("/imagine","imagine") and query: result = self.ask_llm(f"Context: {ctx}\n\nCreative visual description for AI generation: {query}")
+                elif cmd in ("/delegate",) and args:
+                    parts2 = args.split(maxsplit=1); target = parts2[0]
+                    task_text = parts2[1] if len(parts2) > 1 else ""
+                    known = ["plotclaw","flowclaw","claw_coder","crustyclaw","dataclaw","designclaw","draftclaw","drawclaw","interpretclaw","docuclaw","webclaw","lawclaw","mathematicaclaw","langclaw","fileclaw","txclaw","mediclaw","liberateclaw"]
+                    if target in known: result = str(self.call_agent(target, task_text) or f"Agent {target} returned no response")
+                    else: result = f"Unknown: {target}"
+                else:
+                    from shared.capabilities import get_capable_agent
+                    target = get_capable_agent(cmd, "dreamclaw")
+                    if target: result = str(self.call_agent(target, task, timeout=60) or "")
+                    elif query: result = self.ask_llm(f"Context: {ctx}\n\nAI vision expert: {query}")
+                    else: result = "Type /help for commands"
 
             # 23-system boundary
             final_result = str(result)
