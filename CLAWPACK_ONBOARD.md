@@ -218,3 +218,30 @@ Docuclaw delegation path repaired. PlotClaw schema imports fixed across 13 chart
 
 **Result: 1 -> 11 constitutional agents. 60 -> ~20 remaining gaps.**
 **Chronicle interactions: 35,000+. Constitutional runtime: ACTIVE.**
+
+2026-05-29 (late evening): OPERATIONAL EXCELLENCE PHASE.
+- Task state machine deployed (shared/task_state.py) — every call_agent() creates trackable task
+  (pending→running→completed/failed/killed) with persistent storage to data/task_store.json
+- Memory staleness implemented — facts carry age warnings (days/weeks/months old)
+  Pattern from Claude Code Ch11. All _memory.recall() calls return staleness metadata.
+- Search cache deployed (shared/search_cache.py) — DataClaw-based cache for all agent web searches
+  24hr TTL, organized by agent in dataclaw/cache/{agent_name}/. Zero tokens on repeat queries.
+  cached_search() method added to BaseAgent.
+- LawClaw commands fully migrated from direct HTTP to agent context:
+  _helpers.py rewritten — llm(), webclaw(), delegate(), chronicle() all use agent methods
+  11 command files updated to accept agent parameter and use constitutional paths
+  All local HTTP functions removed from commands
+- 36-system boundary deployed to 19/21 agents:
+  Added memory_guard, source_registry, truth_resolver (Tier 6)
+  Added input_handler, permissions, registry, jurisdiction_validator, enforcement/gates,
+  config, constitutional_command, court_rules_schema, decomposer, output_handler,
+  router, compactor (Tier 7)
+- Documentation complete:
+  8 agent README files created (mediclaw, webclaw, interpretclaw, langclaw, liberateclaw,
+  drawclaw, dreamclaw, rustypycraw)
+  ARCHITECTURE.md, A2A_PROTOCOL.md, AGENT_CAPABILITIES.md, BASEAGENT_GUIDE.md,
+  CHRONICLE_GUIDE.md, CITATION.cff, AGENT_TEMPLATE.md all updated to reflect current state
+- Launcher updated (clawpack.py) — added missing agents, V2 branding, 36-system status line
+- Groq model upgraded: llama-3.1-8b-instant → llama-3.3-70b-versatile
+
+**Result: 11 constitutional agents. 36 shared systems. Circuit breaker + task state + search cache + memory staleness. All documentation current. System ready for production.**
