@@ -149,8 +149,9 @@ All commands are memory-wired. Cross-agent delegation via capability registry.
                 lang = detect_language(args)
                 result = translate(args, 'en', lang)
             elif cmd == "/voice":
-                from shared.voice_hook import toggle
-                result = toggle(self)
+                from shared.voice_hook import is_active, toggle
+                result = toggle()  # toggle on/off
+
             elif cmd == "/analyze" and args:
                 from agents.lawclaw.commands.analyze import run as cmd_run
                 result = cmd_run(args)

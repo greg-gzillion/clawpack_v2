@@ -50,8 +50,9 @@ class DataClawAgent(BaseAgent):
 
         try:
                         elif cmd == "/voice":
-                from shared.voice_hook import toggle
-                result = toggle(self)
+                from shared.voice_hook import is_active, toggle
+                result = toggle()  # toggle on/off
+
             elif cmd in ("/listen", "listen"):
                 from shared.accessibility import listen, detect_language
                 text = listen()

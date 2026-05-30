@@ -64,8 +64,9 @@ class LiberateClawAgent(BaseAgent):
             elif cmd in ("/use", "use") and query:
                 result = f"[SWITCH] Activating model: {query}\nUse LLMClaw to manage active model selection."
             el            elif cmd == "/voice":
-                from shared.voice_hook import toggle
-                result = toggle(self)
+                from shared.voice_hook import is_active, toggle
+                result = toggle()  # toggle on/off
+
             elif cmd in ("/listen", "listen"):
                 from shared.accessibility import listen, detect_language
                 text = listen()

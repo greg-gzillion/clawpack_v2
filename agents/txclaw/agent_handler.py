@@ -104,8 +104,9 @@ IMPORTANT: Only reference TX.org blockchain. If you don't know, say "I don't hav
             elif cmd == "/search" and args:
                 result = self._call(f"Search TX.org references for: {args}. Use the reference knowledge provided above.")
                         elif cmd == "/voice":
-                from shared.voice_hook import toggle
-                result = toggle(self)
+                from shared.voice_hook import is_active, toggle
+                result = toggle()  # toggle on/off
+
             elif cmd in ("/listen", "listen"):
                 from shared.accessibility import listen, detect_language
                 text = listen()

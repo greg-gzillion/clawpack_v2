@@ -65,8 +65,9 @@ br - Braille (Grade 1 & 2)    asl - American Sign Language (gloss)"""
                 from shared.accessibility import to_braille
                 result = to_braille(query)
             el            elif cmd == "/voice":
-                from shared.voice_hook import toggle
-                result = toggle(self)
+                from shared.voice_hook import is_active, toggle
+                result = toggle()  # toggle on/off
+
             elif cmd in ("/listen", "listen"):
                 from shared.accessibility import listen, detect_language
                 text = listen()

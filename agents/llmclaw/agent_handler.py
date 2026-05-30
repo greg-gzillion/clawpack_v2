@@ -172,8 +172,9 @@ Provide a comprehensive answer with citations from the context above. Include sp
                 std = [m for m in models if not m.get("obliterated")]
                 result = f"Standard models available: {len(std)}\n" + "\n".join(m["model"] for m in std)
                         elif cmd == "/voice":
-                from shared.voice_hook import toggle
-                result = toggle(self)
+                from shared.voice_hook import is_active, toggle
+                result = toggle()  # toggle on/off
+
             elif cmd in ("/listen", "listen"):
                 from shared.accessibility import listen, detect_language
                 text = listen()
