@@ -3,8 +3,8 @@ import re
 from pathlib import Path
 
 name = "/court"
-A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
 
 # File ranking: court files first, exclude non-legal civic files
@@ -254,8 +254,7 @@ def run(args, agent=None):
             state_code = intent.get("state_code")
             label = f"{state_code} state" if state_code else "United States"
             output.append(f"  Supreme Court: {label}")
-            import requests
-            prompt = f"Provide information about the {label} Supreme Court. Include website URL, address, phone, number of justices, and key information."
+                        prompt = f"Provide information about the {label} Supreme Court. Include website URL, address, phone, number of justices, and key information."
             resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=120)
             result = ""
             if resp.status_code == 200:
@@ -270,8 +269,7 @@ def run(args, agent=None):
         # Handle federal queries
         if intent["is_federal"]:
             output.append("  Federal Court System")
-            import requests
-            prompt = "Describe the US federal court system including Supreme Court, Circuit Courts of Appeals, and District Courts. Include structure, jurisdiction, and website URLs."
+                        prompt = "Describe the US federal court system including Supreme Court, Circuit Courts of Appeals, and District Courts. Include structure, jurisdiction, and website URLs."
             resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=120)
             result = ""
             if resp.status_code == 200:
@@ -291,8 +289,7 @@ def run(args, agent=None):
             output.append("  No local jurisdiction files found. Trying database search...")
             try:
                 from agents.webclaw.core.chronicle_ledger import get_chronicle
-                import requests
-                chronicle = get_chronicle()
+                                chronicle = get_chronicle()
                 results = chronicle.recover_by_context(f"{args} court jurisdiction municipal", limit=10)
                 if results:
                     context = ""
@@ -352,8 +349,7 @@ def run(args, agent=None):
         if file_results["files"]:
             output.append("")
             output.append("[SYNTHESIS] Generating summary...")
-            import requests
-            file_summary = ""
+                        file_summary = ""
             for f in file_results["files"][:3]:
                 try:
                     content = f.read_text(encoding='utf-8', errors='ignore')

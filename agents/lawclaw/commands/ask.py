@@ -1,11 +1,10 @@
 ﻿"""ask command - AI law Q&A with full context via LLMClaw"""
-import requests
 import json
 import re
 
 name = "/ask"
-A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
 
 

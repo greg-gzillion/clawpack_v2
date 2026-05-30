@@ -1,10 +1,9 @@
 ﻿"""cite command - Parse and validate law citations with WebClaw intelligence"""
-import requests
 import re
 
 name = "/cite"
-A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
 
 # Concept router: maps citation patterns to the correct legal domain

@@ -1,14 +1,13 @@
 ﻿"""analyze command - Comprehensive law text analysis"""
 import re
 import sys
-import requests
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
 name = "/analyze"
-A2A = "http://127.0.0.1:8766"
 
+from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
 
 

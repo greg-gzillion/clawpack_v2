@@ -4,20 +4,12 @@ import re
 from pathlib import Path
 
 name = "/federal"
-A2A = "http://127.0.0.1:8766"
 COURTLISTENER_API = "https://www.courtlistener.com/api/rest/v4"
 
+from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
 
 # ── Helpers ──────────────────────────────────────────────────────────────
-
-def _log(agent, event, detail=""):
-    try:
-        from agents.webclaw.core.chronicle_ledger import log_event
-        log_event(agent=agent, event=event, detail=str(detail)[:500])
-    except Exception:
-        pass
-
 
 def get_cl_token():
     try:
@@ -27,22 +19,6 @@ def get_cl_token():
                 return line.split("=", 1)[1].strip().strip('"').strip("'")
     except Exception as e:
         _log("lawclaw", "federal_get_token_error", e)
-    return ""
-
-
-def llm(prompt, agent=agent, timeout=120):
-    try:
-        resp = requests.post(
-            f"{A2A}/v1/message/llmclaw",
-            json={"task": f"/llm {prompt}", "agent": "lawclaw"},
-            timeout=timeout,
-        )
-        if resp.status_code == 200:
-            result = resp.json().get("result", "")
-            if result and len(result) > 20:
-                return result
-    except Exception as e:
-        _log("lawclaw", "federal_llm_error", e)
     return ""
 
 
@@ -221,7 +197,7 @@ def run(args, agent=None):
                 html = webclaw_fetch(rule_url)
                 if html and len(html) > 100:
                     summary = llm(
-                        f"Summarize {rule_type.upper(, agent=agent)} Rule {rule_num.group(1)} from this page. "
+                        f"Summarize {rule_type.upper()} Rule {rule_num.group(1)} from this page. "
                         f"Be concise. Quote key language (under 15 words per quote).\n\n{html[:3000]}",
                         timeout=60,
                     )

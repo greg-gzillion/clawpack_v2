@@ -4,10 +4,10 @@ import re
 from pathlib import Path
 
 name = "/docket"
-A2A = "http://127.0.0.1:8766"
 
 COURTLISTENER_API = "https://www.courtlistener.com/api/rest/v4"
 
+from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
 
 # Pre-compiled patterns — safe, no user input in compilation
