@@ -6343,6 +6343,238 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T05:45:30.454068+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Tulsa OK",
+      "fact": "## AI Analysis\nBased on the search results, the most relevant information for Tulsa, OK is:\n\n1. The United States District Court for the Northern District of Oklahoma is located in Tulsa, OK. The court's information is as follows:\n   - **Court Name**: United States District Court for the Northern District of Oklahoma\n   - **Website**: https://www.oknd.uscourts.gov\n   - **Phone**: (918) 699-4700\n   - **Address**: 333 W 4th Street, Tulsa, OK 74103\n   - **Hours**: Monday-Friday, 8:30 AM - 5:00 PM l",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:50:25.771287+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Reno NV",
+      "fact": "## AI Analysis\nThe query \"Reno NV\" is likely referring to the city of Reno, Nevada. However, based on the search results provided, it appears that the query is more relevant to the context of administrative law and judicial review, particularly with regards to the \"Reno v. Catholic Social Services (1993)\" case mentioned in the first search result.\n\nIn the context of administrative law, Reno v. Catholic Social Services (1993) is a key case that deals with the ripeness doctrine, which determines w",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:59:17.437137+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Seatle WA",
+      "fact": "Found 10 results:\n\n1. txclaw\\blockchain_general.md\n   # General Blockchain Resources\n\n## Blockchain Fundamentals\nhttps://www.blockchain.com/learning\nhttps://ethereum.org/en/learn/\nhttps://bitcoin.org/en/bitcoin-paper\n\n## Development Tools\nhttps://hardhat.org/\nhttps://trufflesuite.com/\nhttps://web3js.org/\n\n## Security & Best Practices\nhttps://consensys.github.io/smart-contract-best-practices/\nhttps://github.com/ethereumbook/ethereumbook\n\n## Wallets & Exchanges\nhttps://metamask.io/\nhttps://www.coi",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T06:01:03.743546+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Seatle WA",
+      "fact": "Found 10 results:\n\n1. txclaw\\blockchain_general.md\n   # General Blockchain Resources\n\n## Blockchain Fundamentals\nhttps://www.blockchain.com/learning\nhttps://ethereum.org/en/learn/\nhttps://bitcoin.org/en/bitcoin-paper\n\n## Development Tools\nhttps://hardhat.org/\nhttps://trufflesuite.com/\nhttps://web3js.org/\n\n## Security & Best Practices\nhttps://consensys.github.io/smart-contract-best-practices/\nhttps://github.com/ethereumbook/ethereumbook\n\n## Wallets & Exchanges\nhttps://metamask.io/\nhttps://www.coi",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T06:02:46.698250+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Seatle WA",
+      "fact": "Found 10 results:\n\n1. txclaw\\blockchain_general.md\n   # General Blockchain Resources\n\n## Blockchain Fundamentals\nhttps://www.blockchain.com/learning\nhttps://ethereum.org/en/learn/\nhttps://bitcoin.org/en/bitcoin-paper\n\n## Development Tools\nhttps://hardhat.org/\nhttps://trufflesuite.com/\nhttps://web3js.org/\n\n## Security & Best Practices\nhttps://consensys.github.io/smart-contract-best-practices/\nhttps://github.com/ethereumbook/ethereumbook\n\n## Wallets & Exchanges\nhttps://metamask.io/\nhttps://www.coi",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T06:04:40.156922+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Seattle WA",
+      "fact": "\n============================================================\nDETENTION: Seattle WA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /oral [2026-05-28]: The Citizens United case was a landmark Supreme Court decision that centered on ...\n    /oral [2026-05-28]: Based on the provided sources, I found limited information about the case \"Cit",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.697595+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/police",
+      "query": "Seattle WA",
+      "fact": "\n============================================================\nPOLICE: Seattle WA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /detention [2026-05-30]: \n============================================================\nDETENTION: Seattle...\n    /oral [2026-05-28]: The Citizens United case was a landmark Supreme Court decision that centered",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.735174+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/library",
+      "query": "Seattle WA",
+      "fact": "\n============================================================\nLIBRARY: Seattle WA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Seattle WA...\n    /detention [2026-05-30]: \n============================================================\nDETENTION: ",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.777752+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/hospital",
+      "query": "Seattle WA",
+      "fact": "\n============================================================\nHOSPITALS: Seattle WA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Seattle WA...\n    /library [2026-05-30]: \n============================================================\nLIBRARY: Se",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.812876+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Dallas TX",
+      "fact": "\n============================================================\nDETENTION: Dallas TX\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /detention [2026-05-30]: \n============================================================\nDETENTION: Dallas ...\n    unknown [2026-05-30]: ## AI Analysis\n# Administrative Law Resources for Dallas, TX\n\nBased on y",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.860674+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/police",
+      "query": "Dallas TX",
+      "fact": "\n============================================================\nPOLICE: Dallas TX\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /detention [2026-05-30]: \n============================================================\nDETENTION: Dallas ...\n    /detention [2026-05-30]: \n============================================================\nDETENTION:",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.900300+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/library",
+      "query": "Dallas TX",
+      "fact": "\n============================================================\nLIBRARY: Dallas TX\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Dallas TX\n...\n    /detention [2026-05-30]: \n============================================================\nDETENTION: D",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.941399+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/hospital",
+      "query": "Dallas TX",
+      "fact": "\n============================================================\nHOSPITALS: Dallas TX\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Dallas TX\n...\n    /library [2026-05-30]: \n============================================================\nLIBRARY: Dal",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:44.979314+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Miami FL",
+      "fact": "\n============================================================\nDETENTION: Miami FL\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /doc [2026-05-29]: Exported: export_20260528_223722.md (3.6KB)\n\n# Motion to Dismiss in Miami, Flori...\n    unknown [2026-05-29]: Exported: export_20260528_223722.md (3.6KB)\n\n# Motion to Dismiss in Miami, Flor",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.021853+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/police",
+      "query": "Miami FL",
+      "fact": "\n============================================================\nPOLICE: Miami FL\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /detention [2026-05-30]: \n============================================================\nDETENTION: Miami F...\n    /doc [2026-05-29]: Exported: export_20260528_223722.md (3.6KB)\n\n# Motion to Dismiss in Miami, Flor",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.054982+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/library",
+      "query": "Miami FL",
+      "fact": "\n============================================================\nLIBRARY: Miami FL\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Miami FL\n=...\n    /detention [2026-05-30]: \n============================================================\nDETENTION: Mi",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.090079+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/hospital",
+      "query": "Miami FL",
+      "fact": "\n============================================================\nHOSPITALS: Miami FL\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Miami FL\n=...\n    /library [2026-05-30]: \n============================================================\nLIBRARY: Miam",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.127296+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Golden CO",
+      "fact": "\n============================================================\nDETENTION: Golden CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    unknown [2026-05-30]: ## AI Analysis\n# Golden, CO - Court Information\n\nI appreciate your query, but I ...\n    unknown [2026-05-30]: ## AI Analysis\n# Golden, CO - Court System Information\n\nI appreciate your q",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.173288+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/police",
+      "query": "Golden CO",
+      "fact": "\n============================================================\nPOLICE: Golden CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /detention [2026-05-30]: \n============================================================\nDETENTION: Golden ...\n    unknown [2026-05-30]: ## AI Analysis\n# Golden, CO - Court Information\n\nI appreciate your query, b",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.207928+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/library",
+      "query": "Golden CO",
+      "fact": "\n============================================================\nLIBRARY: Golden CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Golden CO\n...\n    /detention [2026-05-30]: \n============================================================\nDETENTION: G",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.241500+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/hospital",
+      "query": "Golden CO",
+      "fact": "\n============================================================\nHOSPITALS: Golden CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Golden CO\n...\n    /library [2026-05-30]: \n============================================================\nLIBRARY: Gol",
+      "source_type": "chronicle",
+      "confidence": 0.92,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:08:45.277367+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Seattle WA",
+      "fact": "\n============================================================\nDETENTION: Seattle WA\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /police [2026-05-30]: \n============================================================\nPOLICE: Seattle WA...\n    /library [2026-05-30]: \n============================================================\nLIBRARY: Se",
+      "source_type": "chronicle",
+      "confidence": 0.9,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T15:09:10.631906+00:00"
     }
   ],
   "index": {
@@ -6720,7 +6952,11 @@
       84,
       85,
       105,
-      106
+      106,
+      638,
+      639,
+      640,
+      641
     ],
     "vegas": [
       74,
@@ -8648,7 +8884,11 @@
       605,
       606,
       607,
-      608
+      608,
+      642,
+      643,
+      644,
+      645
     ],
     "dallas": [
       616,
@@ -8659,8 +8899,30 @@
       621,
       622,
       623,
-      624
+      624,
+      634,
+      635,
+      636,
+      637
+    ],
+    "tulsa": [
+      625
+    ],
+    "reno": [
+      626
+    ],
+    "seatle": [
+      627,
+      628,
+      629
+    ],
+    "seattle": [
+      630,
+      631,
+      632,
+      633,
+      646
     ]
   },
-  "updated_at": "2026-05-30T05:45:30.454068+00:00"
+  "updated_at": "2026-05-30T15:09:10.632906+00:00"
 }

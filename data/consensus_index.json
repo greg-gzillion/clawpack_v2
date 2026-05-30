@@ -3005,8 +3005,440 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-30T05:45:30.608964+00:00",
       "last_updated": "2026-05-30T05:45:30.608964+00:00"
+    },
+    "fbb3b26564c2150a": {
+      "fact_id": "fbb3b26564c2150a",
+      "fact_value": "query:Tulsa OK",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:50:25.806934+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:50:25.806934+00:00",
+      "last_updated": "2026-05-30T05:50:25.806934+00:00"
+    },
+    "c945d97c91d1e5d4": {
+      "fact_id": "c945d97c91d1e5d4",
+      "fact_value": "source_url:https://www.oknd.uscourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.oknd.uscourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:50:25.825968+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:50:25.825968+00:00",
+      "last_updated": "2026-05-30T05:50:25.825968+00:00"
+    },
+    "052ac059d739ff27": {
+      "fact_id": "052ac059d739ff27",
+      "fact_value": "source_url:https://www.oscn.net",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.oscn.net",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:50:25.842990+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T05:50:25.842990+00:00",
+      "last_updated": "2026-05-30T05:50:26.247941+00:00"
+    },
+    "c386d5b4f2f21b87": {
+      "fact_id": "c386d5b4f2f21b87",
+      "fact_value": "source_url:https://www.d.uscourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.d.uscourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:50:25.876538+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:50:25.876538+00:00",
+      "last_updated": "2026-05-30T05:50:25.876538+00:00"
+    },
+    "dbba2d5686f963ec": {
+      "fact_id": "dbba2d5686f963ec",
+      "fact_value": "query:Reno NV",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:59:17.464728+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.464728+00:00",
+      "last_updated": "2026-05-30T05:59:17.464728+00:00"
+    },
+    "cda109bfed68a3c8": {
+      "fact_id": "cda109bfed68a3c8",
+      "fact_value": "concept:Fitness for Judicial Review",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:59:17.482267+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.482267+00:00",
+      "last_updated": "2026-05-30T05:59:17.482267+00:00"
+    },
+    "2925be516b8ea2b8": {
+      "fact_id": "2925be516b8ea2b8",
+      "fact_value": "concept:Hardship to Parties",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:59:17.515930+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.515930+00:00",
+      "last_updated": "2026-05-30T05:59:17.515930+00:00"
+    },
+    "fc190ea6c61e359b": {
+      "fact_id": "fc190ea6c61e359b",
+      "fact_value": "concept:APA  704 (Actions Reviewable)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:59:17.532442+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.532442+00:00",
+      "last_updated": "2026-05-30T05:59:17.532442+00:00"
+    },
+    "847dfd6ee8198c46": {
+      "fact_id": "847dfd6ee8198c46",
+      "fact_value": "concept:CRS Ripeness Report",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:59:17.550479+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.550479+00:00",
+      "last_updated": "2026-05-30T05:59:17.550479+00:00"
+    },
+    "f40e391e5745064b": {
+      "fact_id": "f40e391e5745064b",
+      "fact_value": "concept:Abbott Laboratories v. Gardner (1967)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T05:59:17.574070+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.574070+00:00",
+      "last_updated": "2026-05-30T05:59:17.574070+00:00"
+    },
+    "3b69ee55ded79372": {
+      "fact_id": "3b69ee55ded79372",
+      "fact_value": "source_url:https://www.law.cornell.edu/uscode/text/5/704",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/uscode/text/5/704",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:59:17.592160+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-30T05:59:17.592160+00:00",
+      "last_updated": "2026-05-30T05:59:17.592160+00:00"
+    },
+    "635f3a6acfa87c3a": {
+      "fact_id": "635f3a6acfa87c3a",
+      "fact_value": "source_url:https://crsreports.congress.gov/product/pdf/LSB/LSB10794",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://crsreports.congress.gov/product/pdf/LSB/LSB10794",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:59:17.608234+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.608234+00:00",
+      "last_updated": "2026-05-30T05:59:17.608234+00:00"
+    },
+    "e01512a325db893d": {
+      "fact_id": "e01512a325db893d",
+      "fact_value": "source_url:https://www.acus.gov/report/ripeness",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.acus.gov/report/ripeness",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:59:17.628315+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.628315+00:00",
+      "last_updated": "2026-05-30T05:59:17.628315+00:00"
+    },
+    "591ce70a213fe3e1": {
+      "fact_id": "591ce70a213fe3e1",
+      "fact_value": "source_url:https://www.americanbar.org/groups/administrative_law/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.americanbar.org/groups/administrative_law/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:59:17.644344+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.644344+00:00",
+      "last_updated": "2026-05-30T05:59:17.644344+00:00"
+    },
+    "e79b59254c3880da": {
+      "fact_id": "e79b59254c3880da",
+      "fact_value": "source_url:https://www.dhs.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.dhs.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T05:59:17.661891+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T05:59:17.661891+00:00",
+      "last_updated": "2026-05-30T05:59:17.661891+00:00"
+    },
+    "a1fba1a6c7709d3f": {
+      "fact_id": "a1fba1a6c7709d3f",
+      "fact_value": "query:Seatle WA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T06:01:03.770865+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.770865+00:00",
+      "last_updated": "2026-05-30T06:04:40.187517+00:00"
+    },
+    "8b596ba1b9b5c536": {
+      "fact_id": "8b596ba1b9b5c536",
+      "fact_value": "concept:First Released",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T06:01:03.787442+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.787442+00:00",
+      "last_updated": "2026-05-30T06:04:40.206031+00:00"
+    },
+    "f0ec3cea32a31e0e": {
+      "fact_id": "f0ec3cea32a31e0e",
+      "fact_value": "concept:Designed By",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T06:01:03.805095+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.805095+00:00",
+      "last_updated": "2026-05-30T06:04:40.227085+00:00"
+    },
+    "129e5888151b8a0e": {
+      "fact_id": "129e5888151b8a0e",
+      "fact_value": "concept:File Extensions",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T06:01:03.826649+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.826649+00:00",
+      "last_updated": "2026-05-30T06:04:40.250146+00:00"
+    },
+    "71eebec1dc252907": {
+      "fact_id": "71eebec1dc252907",
+      "fact_value": "source_url:https://www.blockchain.com/learning",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.blockchain.com/learning",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T06:01:03.845746+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.845746+00:00",
+      "last_updated": "2026-05-30T06:04:40.272917+00:00"
+    },
+    "bc9570f4ab557372": {
+      "fact_id": "bc9570f4ab557372",
+      "fact_value": "source_url:https://ethereum.org/en/learn/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://ethereum.org/en/learn/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T06:01:03.862287+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.862287+00:00",
+      "last_updated": "2026-05-30T06:04:40.293267+00:00"
+    },
+    "9f33cb082d21fa15": {
+      "fact_id": "9f33cb082d21fa15",
+      "fact_value": "source_url:https://bitcoin.org/en/bitcoin-paper",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://bitcoin.org/en/bitcoin-paper",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T06:01:03.879313+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.879313+00:00",
+      "last_updated": "2026-05-30T06:04:40.313423+00:00"
+    },
+    "169496b5be96ba63": {
+      "fact_id": "169496b5be96ba63",
+      "fact_value": "source_url:https://hardhat.org/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://hardhat.org/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T06:01:03.898909+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.898909+00:00",
+      "last_updated": "2026-05-30T06:04:40.335524+00:00"
+    },
+    "8098c5960b87ccc2": {
+      "fact_id": "8098c5960b87ccc2",
+      "fact_value": "source_url:https://trufflesuite.com/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://trufflesuite.com/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T06:01:03.948521+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T06:01:03.948521+00:00",
+      "last_updated": "2026-05-30T06:04:40.358693+00:00"
     }
   },
   "corrections": [],
-  "updated_at": "2026-05-30T05:45:30.610473+00:00"
+  "updated_at": "2026-05-30T06:04:40.359698+00:00"
 }

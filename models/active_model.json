@@ -1,6 +1,6 @@
 {
-  "model": "deepseek-r1:8b",
-  "source": "ollama",
+  "model": "groq",
+  "source": "groq",
   "set_at": "2026-05-29T12:00:00",
   "set_by": "llmclaw",
   "providers": {

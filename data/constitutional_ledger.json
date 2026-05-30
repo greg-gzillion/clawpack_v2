@@ -3508,6 +3508,71 @@
       },
       "previous_hash": "6bf60be7fe01440a",
       "hash": "ead788a8638c6b32"
+    },
+    {
+      "timestamp": "2026-05-30T05:50:25.714196+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "ead788a8638c6b32",
+      "hash": "20db67eccbaddca5"
+    },
+    {
+      "timestamp": "2026-05-30T05:59:17.344385+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "20db67eccbaddca5",
+      "hash": "4a74b6126b94a8b9"
+    },
+    {
+      "timestamp": "2026-05-30T06:01:03.695622+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "4a74b6126b94a8b9",
+      "hash": "22802977902e891c"
+    },
+    {
+      "timestamp": "2026-05-30T06:02:46.632694+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "22802977902e891c",
+      "hash": "a7e802950d3919e8"
+    },
+    {
+      "timestamp": "2026-05-30T06:04:40.096786+00:00",
+      "agent": "webclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "search"
+      },
+      "previous_hash": "a7e802950d3919e8",
+      "hash": "48b0a6c1d49a9a56"
     }
   ],
   "version": "v1.0"
