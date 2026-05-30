@@ -5503,6 +5503,623 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T04:58:25.509647+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/stats",
+      "fact": "Found 10 files, 5 data matches for: /stats",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "files_found": 10,
+        "data_found": 5
+      },
+      "timestamp": "2026-05-30T04:59:14.268456+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/stats",
+      "fact": "Search: /stats\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\ARCHITECTURE.md (5,307B)\n     line 136: | GET | `/memory/stats` | Memory statistics |\n\n  docs\\ARCHITECTURE_COMPLETE.md (57,725B)\n     line 1506: | GET | /memory/stats | Detailed memory statistics |\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 54",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:59:14.334102+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/stats",
+      "fact": "Search: /stats\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\ARCHITECTURE.md (5,307B)\n     line 136: | GET | `/memory/stats` | Memory statistics |\n\n  docs\\ARCHITECTURE_COMPLETE.md (57,725B)\n     line 1506: | GET | /memory/stats | Detailed memory statistics |\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 540: \ud83d\udcc4 stats.py - /stats\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 94: \u2022 G",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:59:14.395217+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "command": "search",
+      "query": "/stats",
+      "fact": "Search: /stats\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\ARCHITECTURE.md (5,307B)\n     line 136: | GET | `/memory/stats` | Memory statistics |\n\n  docs\\ARCHITECTURE_COMPLETE.md (57,725B)\n     line 1506: | GET | /memory/stats | Detailed memory statistics |\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 54",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:59:14.446324+00:00"
+    },
+    {
+      "agent": "dataclaw",
+      "query": "/stats",
+      "fact": "Search: /stats\n==================================================\n  [MEMORY] 3 prior related search(es)\n\n### Local Files (10 found)\n\n  docs\\ARCHITECTURE.md (5,307B)\n     line 136: | GET | `/memory/stats` | Memory statistics |\n\n  docs\\ARCHITECTURE_COMPLETE.md (57,725B)\n     line 1506: | GET | /memory/stats | Detailed memory statistics |\n\n  docs\\COMPLETE_AGENT_DOCUMENTATION.md (33,115B)\n     line 540: \ud83d\udcc4 stats.py - /stats\n\n  docs\\THIS_IS_WTF_IS_GOING_ON_IN_CLAWPACK_V2.md (63,227B)\n     line 94: \u2022 G",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:59:14.470396+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 222",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:59:53.416275+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 222",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:59:53.441832+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/help",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket ent",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:59:53.559586+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "\n============================================================\n  LAWCLAW \u2014 Legal Research & Document Agent\n  Constitutional Reference Implementation\n============================================================\n\nCORE LEGAL RESEARCH\n  /law [topic]           Search case law via CourtListener + Chronicle\n                         Example: /law qualified immunity\n  /docket [case|URL]     Fetch docket entries, jury demand, summaries\n                         Example: /docket 42 USC 1983\n  /cite [citation",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:59:53.589145+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Denver CO",
+      "fact": "# DENVER, CO \u2014 CIVIC PROFILE\n\n## CITY HALL\n**City and County of Denver**\n- Address: 1437 Bannock Street, Denver, CO 80202\n- Phone: (720) 865-9090\n- Hours: Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n- Website: https://www.denvergov.org\n\n---\n\n## COURTS\n\n**Denver County Court**\n- Address: 1437 Bannock Street, Denver, CO 80202\n- Phone: (303) 837-2225 | (720) 865-9500\n- Website: https://www.denvercountycourt.org",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:25.169460+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "jurisdiction_lookup",
+      "query": "court:Denver CO",
+      "fact": "{\"jurisdiction\": \"Denver CO\", \"summary\": \"# DENVER, CO \\u2014 CIVIC PROFILE\\n\\n## CITY HALL\\n**City and County of Denver**\\n- Address: 1437 Bannock Street, Denver, CO 80202\\n- Phone: (720) 865-9090\\n- Hours: Monday\\u2013Friday, 8:00 AM \\u2013 5:00 PM\\n- Website: https://www.denvergov.org\\n\\n---\\n\\n## COURTS\\n\\n**Denver County Court**\\n- Address: 1437 Bannock Street, Denver, CO 80202\\n- Phone: (303) 837-2225 | (720) 865-9500\\n- Website: https://www.denvercountycourt.org\\n- Jurisdiction: Misdemean",
+      "source_type": "chronicle",
+      "confidence": 0.95,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:25.192383+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Denver CO",
+      "fact": "\n============================================================\nJURISDICTION: Denver CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: \n============================================================\nJURISDICTION: Denv...\n    unknown [2026-05-29]: \n============================================================\nJURI",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:25.254655+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Denver CO",
+      "fact": "\n============================================================\nJURISDICTION: Denver CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: \n============================================================\nJURISDICTION: Denv...\n    unknown [2026-05-29]: \n============================================================\nJURISDICTION: Denv...\n[1/4] Chronicle search...\n  10 Chronicle references\n[2/4] Searching jurisdiction f",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:25.276965+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "Found 8 cases",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/10612573/martha-stringer-v-county-of-bucks/",
+        "https://www.courtlistener.com/opinion/10374613/villarreal-v-city-of-laredo/",
+        "https://www.courtlistener.com/opinion/10346937/chanon-miller-v-juan-ramirez/",
+        "https://www.courtlistener.com/opinion/10348799/green-v-thomas/",
+        "https://www.courtlistener.com/opinion/10633884/benavides-v-nunez/",
+        "https://www.courtlistener.com/opinion/9502421/wendy-cockrun-v-berrien-cnty-mich/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:27.394775+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:27.457224+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n\n[1/3] Searching Chronicle...\n[2/3] Searching CourtListener opinions...\n  15 cases found\n    [",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:27.477621+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/plot",
+      "query": "sin(x)",
+      "fact": "[OK] Plot -> C:\\Users\\greg\\dev\\clawpack_v2\\agents\\plotclaw\\exports\\plot_67393.png",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:30.950012+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "sin(x)",
+      "fact": "[OK] Plot -> C:\\Users\\greg\\dev\\clawpack_v2\\agents\\plotclaw\\exports\\plot_67393.png",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:30.969869+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/plot",
+      "query": "sin(x)",
+      "fact": "[OK] Plot -> C:\\Users\\greg\\dev\\clawpack_v2\\agents\\plotclaw\\exports\\plot_67393.png",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:31.173198+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "sin(x)",
+      "fact": "[OK] Plot -> C:\\Users\\greg\\dev\\clawpack_v2\\agents\\plotclaw\\exports\\plot_67393.png",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:31.202103+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "code",
+      "query": "python hello",
+      "fact": "Generated python code: python hello -> python_hello_20260529_230135.py",
+      "source_type": "chronicle",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "lang": "python",
+        "file": "python_hello_20260529_230135.py"
+      },
+      "timestamp": "2026-05-30T05:01:35.839803+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "command": "/code",
+      "query": "python hello",
+      "fact": "Saved: python_hello_20260529_230135.py | Validated: Syntax OK\n\n```python\n# Simple Hello World program in Python 3.12\nprint(\"Hello, World!\")\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:35.947942+00:00"
+    },
+    {
+      "agent": "claw_coder",
+      "query": "python hello",
+      "fact": "Saved: python_hello_20260529_230135.py | Validated: Syntax OK\n\n```python\n# Simple Hello World program in Python 3.12\nprint(\"Hello, World!\")\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:35.973227+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/code",
+      "query": "python hello",
+      "fact": "Saved: python_hello_20260529_230135.py | Validated: Syntax OK\n\n```python\n# Simple Hello World program in Python 3.12\nprint(\"Hello, World!\")\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:36.111354+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "python hello",
+      "fact": "Saved: python_hello_20260529_230135.py | Validated: Syntax OK\n\n```python\n# Simple Hello World program in Python 3.12\nprint(\"Hello, World!\")\n```",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:36.136531+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/flow",
+      "query": "login process",
+      "fact": "cannot access local variable 'final_result' where it is not associated with a value",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:36.292355+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "login process",
+      "fact": "cannot access local variable 'final_result' where it is not associated with a value",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:36.313201+00:00"
+    },
+    {
+      "agent": "designclaw",
+      "command": "/brand",
+      "query": "test corp",
+      "fact": "# Complete Brand Identity for Test Corp\n\n## 1. Brand Essence\n\n**Brand Core:**\n- **Purpose:** Establish a distinctive market presence\n- **Values:** Clarity, reliability, professionalism\n- **Positioning:** A forward-thinking organization committed to quality and innovation\n- **Personality:** Approachable yet authoritative, modern yet trustworthy\n\n---\n\n## 2. Logo Concept\n\n**Design Direction:**\n- **St",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:49.741054+00:00"
+    },
+    {
+      "agent": "designclaw",
+      "query": "test corp",
+      "fact": "# Complete Brand Identity for Test Corp\n\n## 1. Brand Essence\n\n**Brand Core:**\n- **Purpose:** Establish a distinctive market presence\n- **Values:** Clarity, reliability, professionalism\n- **Positioning:** A forward-thinking organization committed to quality and innovation\n- **Personality:** Approachable yet authoritative, modern yet trustworthy\n\n---\n\n## 2. Logo Concept\n\n**Design Direction:**\n- **Style:** Modern, geometric, scalable\n- **Format:** Primary mark (icon) + wordmark combination\n- **Vers",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:49.764144+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/brand",
+      "query": "test corp",
+      "fact": "# Complete Brand Identity for Test Corp\n\n## 1. Brand Essence\n\n**Brand Core:**\n- **Purpose:** Establish a distinctive market presence\n- **Values:** Clarity, reliability, professionalism\n- **Positioning:** A forward-thinking organization committed to quality and innovation\n- **Personality:** Approachable yet authoritative, modern yet trustworthy\n\n---\n\n## 2. Logo Concept\n\n**Design Direction:**\n- **St",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:49.997477+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "test corp",
+      "fact": "# Complete Brand Identity for Test Corp\n\n## 1. Brand Essence\n\n**Brand Core:**\n- **Purpose:** Establish a distinctive market presence\n- **Values:** Clarity, reliability, professionalism\n- **Positioning:** A forward-thinking organization committed to quality and innovation\n- **Personality:** Approachable yet authoritative, modern yet trustworthy\n\n---\n\n## 2. Logo Concept\n\n**Design Direction:**\n- **Style:** Modern, geometric, scalable\n- **Format:** Primary mark (icon) + wordmark combination\n- **Vers",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:50.023083+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/translate",
+      "query": "to hola\n\n\nIf this is a legal term: provide original term, language of origin, literal translation, and legal definition in the target language.\nIf this is a phrase: provide the translation to the target language.\n\n\nFULL DOCUMENT TO TRANSLATE:\nhola",
+      "fact": "# Translation\n\n**hola** \u2192 **Hello** (or **Hi**)\n\n---\n\n**Language of Origin:** Spanish\n\n**Target Language:** English\n\n**Type:** Greeting/Phrase",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:01:52.716041+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "to hola\n\n\nIf this is a legal term: provide original term, language of origin, literal translation, and legal definition in the target language.\nIf this is a phrase: provide the translation to the target language.\n\n\nFULL DOCUMENT TO TRANSLATE:\nhola",
+      "fact": "# Translation\n\n**hola** \u2192 **Hello** (or **Hi**)\n\n---\n\n**Language of Origin:** Spanish\n\n**Target Language:** English\n\n**Type:** Greeting/Phrase",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:01:52.737080+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/translate",
+      "query": "hola",
+      "fact": "[docuclaw] unavailable: HTTPConnectionPool(host='127.0.0.1', port=8766): Read timed out. (read timeout=60)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:02:52.908623+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "hola",
+      "fact": "[docuclaw] unavailable: HTTPConnectionPool(host='127.0.0.1', port=8766): Read timed out. (read timeout=60)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:02:52.932969+00:00"
+    },
+    {
+      "agent": "crustyclaw",
+      "command": "/audit",
+      "query": "unsafe code",
+      "fact": "# Security Audit: Rust Code Analysis\n\nBased on the provided context, I cannot perform a complete security audit because **no actual Rust code was provided** in your query\u2014only the placeholder text \"unsafe code\".\n\nHowever, I can provide security audit guidance based on the CertiK audit framework and TX blockchain security practices documented in the context:\n\n## Key Security Audit Criteria for Rust",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:02:58.753368+00:00"
+    },
+    {
+      "agent": "crustyclaw",
+      "query": "unsafe code",
+      "fact": "# Security Audit: Rust Code Analysis\n\nBased on the provided context, I cannot perform a complete security audit because **no actual Rust code was provided** in your query\u2014only the placeholder text \"unsafe code\".\n\nHowever, I can provide security audit guidance based on the CertiK audit framework and TX blockchain security practices documented in the context:\n\n## Key Security Audit Criteria for Rust Code\n\n### 1. **Unsafe Blocks** \u26a0\ufe0f\n- Document why `unsafe` is necessary\n- Minimize scope of unsafe c",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:02:58.775399+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/audit",
+      "query": "unsafe code",
+      "fact": "# Security Audit: Rust Code Analysis\n\nBased on the provided context, I cannot perform a complete security audit because **no actual Rust code was provided** in your query\u2014only the placeholder text \"unsafe code\".\n\nHowever, I can provide security audit guidance based on the CertiK audit framework and TX blockchain security practices documented in the context:\n\n## Key Security Audit Criteria for Rust",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:02:58.918672+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "unsafe code",
+      "fact": "# Security Audit: Rust Code Analysis\n\nBased on the provided context, I cannot perform a complete security audit because **no actual Rust code was provided** in your query\u2014only the placeholder text \"unsafe code\".\n\nHowever, I can provide security audit guidance based on the CertiK audit framework and TX blockchain security practices documented in the context:\n\n## Key Security Audit Criteria for Rust Code\n\n### 1. **Unsafe Blocks** \u26a0\ufe0f\n- Document why `unsafe` is necessary\n- Minimize scope of unsafe c",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:02:58.943259+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/diagnose",
+      "query": "headache",
+      "fact": "[mediclaw] unavailable: HTTPConnectionPool(host='127.0.0.1', port=8766): Read timed out. (read timeout=60)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:03:59.060134+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "headache",
+      "fact": "[mediclaw] unavailable: HTTPConnectionPool(host='127.0.0.1', port=8766): Read timed out. (read timeout=60)",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:03:59.083206+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71",
+      "fact": "## AI Analysis\n# Analysis of Query: `plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71`\n\n## Issue with Query\n\nThis query appears to be requesting a **bar chart visualization** with quarterly data points (Q1-Q4), but **this command is incompatible with the mediclaw knowledge base provided**.\n\nThe query syntax `/bar Q1 45 Q2 62 Q3 58 Q4 71` does not match any content in the available medical/legal reference materials, which focus on:\n\n- **Opioid Use Disorder (OUD)** treatment protocols\n- **Withdrawal manageme",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:04:30.280063+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/delegate",
+      "query": "plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71",
+      "fact": "# Query Response: Bar Association Visualization Data\n\nBased on your query `plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71`, this appears to be a data visualization request with quarterly metrics.\n\n## Data Summary\n| Quarter | Value |\n|---------|-------|\n| Q1 | 45 |\n| Q2 | 62 |\n| Q3 | 58 |\n| Q4 | 71 |\n\n## Interpretation\nThis quarterly data shows:\n- **Q1**: 45 (baseline)\n- **Q2**: 62 (\u2191 37.8% increase)\n- **Q3",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:04:32.345638+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71",
+      "fact": "# Query Response: Bar Association Visualization Data\n\nBased on your query `plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71`, this appears to be a data visualization request with quarterly metrics.\n\n## Data Summary\n| Quarter | Value |\n|---------|-------|\n| Q1 | 45 |\n| Q2 | 62 |\n| Q3 | 58 |\n| Q4 | 71 |\n\n## Interpretation\nThis quarterly data shows:\n- **Q1**: 45 (baseline)\n- **Q2**: 62 (\u2191 37.8% increase)\n- **Q3**: 58 (\u2193 6.5% decrease)\n- **Q4**: 71 (\u2191 22.4% increase - highest value)\n\n**Overall Trend**: Upward ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:04:32.372237+00:00"
+    },
+    {
+      "agent": "docuclaw",
+      "command": "/create",
+      "query": "legal document: service agreement between ABC LLC and XYZ Corp for IT services - governing law Delaware\n\nLOCAL COURT DATA:\n### Spanish_Fort \u2014 municipal_court.md\n\ufeff# Spanish Fort City (Baldwin County, AL) Courts\n\n## Spanish Fort Municipal Court \u2014 ACTIVE\n- Status: **HAS ACTIVE MUNICIPAL COURT**\n- Location: Spanish Fort Community Center, 7361 Spanish Fort Blvd, Spanish Fort, AL 36527\n- Phone: (251) 626-4022\n- Email: magistrate@cityofspanishfort.com\n- Court Dates: 4th Thursday monthly at 3:30 PM\n- Judge: Hon. Derek C. Rose\n- Website: https://www.cityofspanishfort.com/court\n\n## City Website\n- https://www.cityofspanishfort.com\n- City Hall: 7361 Spanish Fort Boulevard, Spanish Fort, AL 36527\n- Phone: (251) 626-4884\n- Hours: Mon\u2013Fri 8:00 AM \u2013 5:00 PM\n- Government Type: Mayor\u2013Council\n- Baldwin County | Population: ~10,000\n- Coordinates: 30.6685\u00b0 N, 87.8730\u00b0 W\n- Note: On the Eastern Shore of Mobile Bay at the I-10 corridor; named for the Spanish fortifications built in 1780 during the American Revolutionary War; home to the Historic Blakeley State Park (site of the last major battle of the Civil War); known for the Eastern Shore Centre and Meaher State Park; adjacent to Daphne\n\n## Police Services\n- Spanish Fort Police Department\n- Address: 30500 State Highway 181, Suite 618, Spanish Fort, AL 36527\n- Emergency: 911 | Non-Emergency: (251) 626-4914\n- Chief: John Barber\n- Website: https://www.cityofspanishfort.com/spanishfortpd\n- Operates short-term holding only; all inmates housed at Daphne City Jail\n\n## Jail & Detention Facilities (ALL FACILITIES \u2014 EVERY URL)\n\n### Spanish Fort City Jail (Short-Term Holding \u2014 Inmates Housed at Daphne City Jail)\n- \n\n### Spanish_Fort \u2014 law_resources.md\n\ufeff# Spanish Fort City (Baldwin County, AL) \u2014 Local Law Resources\n\n## City Website\n- https://www.cityofspanishfort.com\n- 7361 Spanish Fort Boulevard, Spanish Fort, AL 36527 | (251) 626-4884\n- Baldwin County | Eastern Shore | Pop: ~10,000\n- Coordinates: 30.6685\u00b0 N, 87.8730\u00b0 W\n- Historic Blakeley State Park | I-10 corridor\n\n## Law Enforcement\n- Spanish Fort Police Department \u2014 30500 State Hwy 181, Suite 618\n- Emergency: 911 \n\nJURISDICTION SUMMARY: Exported: export_20260529_114317.md (6.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "fact": "Exported: export_20260529_230501.md (11.1KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC, a limited liability company\n\n**Client:** XYZ Corp, a corporation\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** [INSERT DATE]\n- **Initial Term:** Twelve (12) months from the Effective Date\n- **Renewa",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:05:01.824921+00:00"
+    },
+    {
+      "agent": "docuclaw",
+      "query": "legal document: service agreement between ABC LLC and XYZ Corp for IT services - governing law Delaware\n\nLOCAL COURT DATA:\n### Spanish_Fort \u2014 municipal_court.md\n\ufeff# Spanish Fort City (Baldwin County, AL) Courts\n\n## Spanish Fort Municipal Court \u2014 ACTIVE\n- Status: **HAS ACTIVE MUNICIPAL COURT**\n- Location: Spanish Fort Community Center, 7361 Spanish Fort Blvd, Spanish Fort, AL 36527\n- Phone: (251) 626-4022\n- Email: magistrate@cityofspanishfort.com\n- Court Dates: 4th Thursday monthly at 3:30 PM\n- Judge: Hon. Derek C. Rose\n- Website: https://www.cityofspanishfort.com/court\n\n## City Website\n- https://www.cityofspanishfort.com\n- City Hall: 7361 Spanish Fort Boulevard, Spanish Fort, AL 36527\n- Phone: (251) 626-4884\n- Hours: Mon\u2013Fri 8:00 AM \u2013 5:00 PM\n- Government Type: Mayor\u2013Council\n- Baldwin County | Population: ~10,000\n- Coordinates: 30.6685\u00b0 N, 87.8730\u00b0 W\n- Note: On the Eastern Shore of Mobile Bay at the I-10 corridor; named for the Spanish fortifications built in 1780 during the American Revolutionary War; home to the Historic Blakeley State Park (site of the last major battle of the Civil War); known for the Eastern Shore Centre and Meaher State Park; adjacent to Daphne\n\n## Police Services\n- Spanish Fort Police Department\n- Address: 30500 State Highway 181, Suite 618, Spanish Fort, AL 36527\n- Emergency: 911 | Non-Emergency: (251) 626-4914\n- Chief: John Barber\n- Website: https://www.cityofspanishfort.com/spanishfortpd\n- Operates short-term holding only; all inmates housed at Daphne City Jail\n\n## Jail & Detention Facilities (ALL FACILITIES \u2014 EVERY URL)\n\n### Spanish Fort City Jail (Short-Term Holding \u2014 Inmates Housed at Daphne City Jail)\n- \n\n### Spanish_Fort \u2014 law_resources.md\n\ufeff# Spanish Fort City (Baldwin County, AL) \u2014 Local Law Resources\n\n## City Website\n- https://www.cityofspanishfort.com\n- 7361 Spanish Fort Boulevard, Spanish Fort, AL 36527 | (251) 626-4884\n- Baldwin County | Eastern Shore | Pop: ~10,000\n- Coordinates: 30.6685\u00b0 N, 87.8730\u00b0 W\n- Historic Blakeley State Park | I-10 corridor\n\n## Law Enforcement\n- Spanish Fort Police Department \u2014 30500 State Hwy 181, Suite 618\n- Emergency: 911 \n\nJURISDICTION SUMMARY: Exported: export_20260529_114317.md (6.0KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC\n\n**Client:** XYZ Corp\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** June 1, 2026\n- **Initial Term:** Twelve (12) months\n- **Termination Date:** May 31, 2027 (unless renewed or terminated earlier in ac",
+      "fact": "Exported: export_20260529_230501.md (11.1KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC, a limited liability company\n\n**Client:** XYZ Corp, a corporation\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** [INSERT DATE]\n- **Initial Term:** Twelve (12) months from the Effective Date\n- **Renewal:** This Agreement shall automatically renew for successive one (1) year periods unless either part",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:05:01.892208+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/doc",
+      "query": "service agreement between ABC LLC and XYZ Corp for IT services - governing law Delaware",
+      "fact": "Exported: export_20260529_230501.md (11.1KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC, a limited liability company\n\n**Client:** XYZ Corp, a corporation\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** [INSERT DATE]\n- **Initial Term:** Twelve (12) months from the Effective Date\n- **Renewa",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:05:02.339677+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "service agreement between ABC LLC and XYZ Corp for IT services - governing law Delaware",
+      "fact": "Exported: export_20260529_230501.md (11.1KB)\n\n# SERVICE AGREEMENT\n\n## Between ABC Consulting LLC and XYZ Corp for IT Services\n\n---\n\n## 1. PARTIES\n\n**Service Provider:** ABC Consulting LLC, a limited liability company\n\n**Client:** XYZ Corp, a corporation\n\n---\n\n## 2. EFFECTIVE DATE AND TERM\n\n- **Effective Date:** [INSERT DATE]\n- **Initial Term:** Twelve (12) months from the Effective Date\n- **Renewal:** This Agreement shall automatically renew for successive one (1) year periods unless either part",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:05:02.379812+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Denver CO",
+      "fact": "## AI Analysis\n# Bankruptcy Means Test Information for Denver, CO\n\n## Colorado State Median Income (2024)\nFor means test purposes in Denver, Colorado, the following state median income thresholds apply:\n\n| Household Size | Median Income |\n|---|---|\n| 1 Person | $72,165 |\n| 2 People | $90,364 |\n| 3 People | $103,482 |\n| 4 People | $125,660 |\n\n**Note:** These figures should be verified at https://www.justice.gov/ust/means-testing for the most current information.\n\n## Denver Local Standards for Hou",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:05:35.037809+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "diagnose",
+      "query": "headache",
+      "fact": "# Headache: Patient Guidance\n\n## WHAT THIS COULD BE\n\nHeadaches are common and can fall into two main categories:\n\n### **Primary Headaches** (No underlying disease)\n- **Migraine** - Throbbing, often one-sided pain with nausea, light/sound sensitivity (4-72 hours)\n- **Tension-type** - Pressing, bilateral tightness, mild-moderate pain (30 min - 7 days)\n- **Cluster** - Severe orbital pain with tearing",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {
+        "professional": false
+      },
+      "timestamp": "2026-05-30T05:05:37.266847+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/diagnose",
+      "query": "headache",
+      "fact": "# Headache: Patient Guidance\n\n## WHAT THIS COULD BE\n\nHeadaches are common and can fall into two main categories:\n\n### **Primary Headaches** (No underlying disease)\n- **Migraine** - Throbbing, often one-sided pain with nausea, light/sound sensitivity (4-72 hours)\n- **Tension-type** - Pressing, bilateral tightness, mild-moderate pain (30 min - 7 days)\n- **Cluster** - Severe orbital pain with tearing",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:05:37.700721+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "headache",
+      "fact": "# Headache: Patient Guidance\n\n## WHAT THIS COULD BE\n\nHeadaches are common and can fall into two main categories:\n\n### **Primary Headaches** (No underlying disease)\n- **Migraine** - Throbbing, often one-sided pain with nausea, light/sound sensitivity (4-72 hours)\n- **Tension-type** - Pressing, bilateral tightness, mild-moderate pain (30 min - 7 days)\n- **Cluster** - Severe orbital pain with tearing/nasal congestion, very brief episodes (15-180 min)\n\n### **Secondary Headaches** (Caused by underlyi",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:05:37.742833+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/police",
+      "query": "Denver CO",
+      "fact": "# Denver, Colorado \u2014 Legal Resources & Building Code Information\n\n## Courts & Legal System\n\n**Denver County Court**\n- Address: 1437 Bannock Street, Denver, CO 80202\n- Phone: (720) 865-9500\n- Website: https://www.denvercountycourt.org\n- Hours: Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n\n**Denver District Court**\n- Website: https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=2\n\n## Law Enforce",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:06:27.200416+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Denver CO",
+      "fact": "# Denver, Colorado \u2014 Legal Resources & Building Code Information\n\n## Courts & Legal System\n\n**Denver County Court**\n- Address: 1437 Bannock Street, Denver, CO 80202\n- Phone: (720) 865-9500\n- Website: https://www.denvercountycourt.org\n- Hours: Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n\n**Denver District Court**\n- Website: https://www.courts.state.co.us/Courts/District/Index.cfm?District_ID=2\n\n## Law Enforcement\n\n**Denver Police Department**\n- Address: 1331 N Cherokee Street, Denver, CO 80204\n- Non-emergen",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:06:27.254036+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Denver CO",
+      "fact": "## AI Analysis\n# Bankruptcy Means Test Information for Denver, CO\n\n## Colorado State Median Income (2024)\nFor means test purposes in Denver, CO, use these Colorado state median income figures:\n\n| Household Size | Median Income |\n|---|---|\n| 1 Person | $72,165 |\n| 2 People | $90,364 |\n| 3 People | $103,482 |\n| 4 People | $125,660 |\n\n**Note:** Always verify current figures at: https://www.justice.gov/ust/means-testing\n\n## Denver Local Standards - Housing & Utilities (Monthly)\n\n| Household Size | M",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:06:39.521508+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Denver CO",
+      "fact": "## AI Analysis\n# Bankruptcy Means Test Information for Denver, CO\n\n## Colorado State Median Income (2024)\nFor means test purposes in Denver, CO, use these Colorado state median figures:\n\n| Household Size | Median Income |\n|---|---|\n| 1 Person | $72,165 |\n| 2 People | $90,364 |\n| 3 People | $103,482 |\n| 4 People | $125,660 |\n\n**Note:** These figures are current as of 2024. Always verify current amounts at: https://www.justice.gov/ust/means-testing\n\n## Denver Local Standards - Housing & Utilities ",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:12:18.621159+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Denver CO",
+      "fact": "## AI Analysis\n# Bankruptcy Means Test Information for Denver, CO\n\n## Colorado State Median Income (2024)\n\n| Household Size | Median Income |\n|---|---|\n| 1 Person | $72,165 |\n| 2 People | $90,364 |\n| 3 People | $103,482 |\n| 4 People | $125,660 |\n\n**Important**: Check the UST website for current figures: https://www.justice.gov/ust/means-testing\n\n## Denver Local Standards: Housing & Utilities (Monthly)\n\n| Household Size | Monthly Allowance |\n|---|---|\n| 1-2 Person | $1,700 |\n| 3-4 Person | $2,000",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:14:32.248429+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "Longmont CO",
+      "fact": "## AI Analysis\n# Analysis: Query \"Longmont CO\"\n\nI cannot provide relevant information for \"Longmont CO\" based on the available search results.\n\n## Why:\n\nThe search results returned 10 items from the **claw_coder reference library**, which contains technical documentation for:\n- Programming languages (Python, JavaScript, Java, etc.)\n- Infrastructure tools (Docker, Kubernetes, Terraform, etc.)\n- Development domains (APIs, Backend, Frontend, DevOps, Databases, etc.)\n\n**None of these results are rel",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:17:43.311112+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/detention",
+      "query": "Longmont CO",
+      "fact": "# Longmont, Colorado \u2014 Legal Resources & Information\n\nBased on the available resources, here's comprehensive information about Longmont, CO:\n\n## City Government\n- **City Website:** https://longmontcolorado.gov\n- **City Hall:** 350 Kimbark Street, Longmont, CO 80501 \u2014 (303) 776-6050\n- **Hours:** Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n\n## Courts & Legal System\n- **Longmont Municipal Court**\n  - Address: 2",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T05:18:39.273944+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Longmont CO",
+      "fact": "# Longmont, Colorado \u2014 Legal Resources & Information\n\nBased on the available resources, here's comprehensive information about Longmont, CO:\n\n## City Government\n- **City Website:** https://longmontcolorado.gov\n- **City Hall:** 350 Kimbark Street, Longmont, CO 80501 \u2014 (303) 776-6050\n- **Hours:** Monday\u2013Friday, 8:00 AM \u2013 5:00 PM\n\n## Courts & Legal System\n- **Longmont Municipal Court**\n  - Address: 225 Kimbark Street, Longmont, CO 80501\n  - Phone: (303) 774-4804\n  - Website: https://longmontcolorad",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T05:18:39.296632+00:00"
     }
   ],
   "index": {
@@ -5567,7 +6184,10 @@
       104,
       456,
       457,
-      458
+      458,
+      555,
+      556,
+      557
     ],
     "immunity": [
       12,
@@ -5584,7 +6204,10 @@
       104,
       456,
       457,
-      458
+      458,
+      555,
+      556,
+      557
     ],
     "salazar-limon": [
       18,
@@ -5907,7 +6530,9 @@
       84,
       85,
       105,
-      106
+      106,
+      586,
+      587
     ],
     "smith": [
       78,
@@ -5957,7 +6582,19 @@
       133,
       134,
       137,
-      138
+      138,
+      569,
+      570,
+      571,
+      572,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      588,
+      589
     ],
     "case:": [
       78,
@@ -6021,7 +6658,17 @@
       84,
       85,
       105,
-      106
+      106,
+      586,
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587,
+      587
     ],
     "claim": [
       78,
@@ -6081,11 +6728,19 @@
     ],
     "jurisdiction": [
       86,
-      87
+      87,
+      586,
+      587
     ],
     "court": [
       92,
-      93
+      93,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
     ],
     "https://www.fljud13.org": [
       92,
@@ -6115,14 +6770,24 @@
       165,
       178,
       179,
-      180
+      180,
+      562,
+      563,
+      564,
+      565,
+      566
     ],
     "hello": [
       96,
       97,
       109,
       110,
-      268
+      268,
+      562,
+      563,
+      564,
+      565,
+      566
     ],
     "world": [
       96,
@@ -6133,7 +6798,13 @@
     ],
     "hola": [
       98,
-      99
+      99,
+      573,
+      573,
+      574,
+      574,
+      575,
+      576
     ],
     "revenue": [
       100,
@@ -6177,7 +6848,37 @@
       113,
       114,
       149,
-      150
+      150,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587
     ],
     "service": [
       115,
@@ -6191,7 +6892,13 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      586,
+      587,
+      587,
+      588,
+      589
     ],
     "agreement": [
       115,
@@ -6207,7 +6914,13 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      586,
+      587,
+      587,
+      588,
+      589
     ],
     "between": [
       115,
@@ -6223,7 +6936,13 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      586,
+      587,
+      587,
+      588,
+      589
     ],
     "consulting": [
       115,
@@ -6237,7 +6956,11 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      586,
+      587,
+      587
     ],
     "services": [
       115,
@@ -6253,7 +6976,15 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      588,
+      589
     ],
     "effective": [
       115,
@@ -6269,7 +7000,9 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      587
     ],
     "date": [
       115,
@@ -6287,7 +7020,9 @@
       137,
       138,
       147,
-      148
+      148,
+      586,
+      587
     ],
     "june": [
       115,
@@ -6301,7 +7036,9 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      587
     ],
     "2026": [
       115,
@@ -6319,7 +7056,9 @@
       137,
       138,
       147,
-      148
+      148,
+      586,
+      587
     ],
     "term": [
       115,
@@ -6335,7 +7074,9 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      587
     ],
     "months": [
       115,
@@ -6351,7 +7092,9 @@
       133,
       134,
       137,
-      138
+      138,
+      586,
+      587
     ],
     "payment": [
       115,
@@ -6431,7 +7174,11 @@
       137,
       138,
       147,
-      148
+      148,
+      586,
+      587,
+      588,
+      589
     ],
     "delaware": [
       115,
@@ -6443,7 +7190,11 @@
       131,
       132,
       133,
-      134
+      134,
+      586,
+      587,
+      588,
+      589
     ],
     "/translate": [
       117,
@@ -6658,7 +7409,9 @@
     ],
     "civil": [
       153,
-      154
+      154,
+      586,
+      587
     ],
     "litigation": [
       153,
@@ -6666,7 +7419,9 @@
     ],
     "process": [
       153,
-      154
+      154,
+      567,
+      568
     ],
     "complaint": [
       153,
@@ -6702,13 +7457,28 @@
     ],
     "legal": [
       155,
-      156
+      156,
+      573,
+      573,
+      574,
+      574,
+      586,
+      587
     ],
     "denver": [
       157,
       158,
       452,
-      453
+      453,
+      551,
+      553,
+      554,
+      590,
+      594,
+      595,
+      596,
+      597,
+      598
     ],
     "numbers": [
       161,
@@ -6718,7 +7488,11 @@
       163,
       164,
       193,
-      194
+      194,
+      558,
+      559,
+      560,
+      561
     ],
     "sort": [
       165,
@@ -6736,7 +7510,11 @@
       166,
       167,
       405,
-      406
+      406,
+      569,
+      570,
+      571,
+      572
     ],
     "rust": [
       168,
@@ -6819,8 +7597,820 @@
     ],
     "/stats": [
       480,
-      506
+      506,
+      542,
+      543,
+      544,
+      545,
+      546
+    ],
+    "court:denver": [
+      552
+    ],
+    "login": [
+      567,
+      568
+    ],
+    "this": [
+      573,
+      573,
+      574,
+      574
+    ],
+    "term:": [
+      573,
+      574
+    ],
+    "provide": [
+      573,
+      573,
+      574,
+      574
+    ],
+    "original": [
+      573,
+      574
+    ],
+    "term,": [
+      573,
+      574
+    ],
+    "language": [
+      573,
+      574
+    ],
+    "origin,": [
+      573,
+      574
+    ],
+    "literal": [
+      573,
+      574
+    ],
+    "translation,": [
+      573,
+      574
+    ],
+    "definition": [
+      573,
+      574
+    ],
+    "target": [
+      573,
+      573,
+      574,
+      574
+    ],
+    "language.": [
+      573,
+      573,
+      574,
+      574
+    ],
+    "phrase:": [
+      573,
+      574
+    ],
+    "translation": [
+      573,
+      574
+    ],
+    "full": [
+      573,
+      574
+    ],
+    "document": [
+      573,
+      574
+    ],
+    "translate:": [
+      573,
+      574
+    ],
+    "unsafe": [
+      577,
+      578,
+      579,
+      580
+    ],
+    "code": [
+      577,
+      578,
+      579,
+      580
+    ],
+    "headache": [
+      581,
+      582,
+      591,
+      592,
+      593
+    ],
+    "plotclaw": [
+      583,
+      584,
+      585
+    ],
+    "/bar": [
+      583,
+      584,
+      585
+    ],
+    "document:": [
+      586,
+      587
+    ],
+    "local": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "data:": [
+      586,
+      587
+    ],
+    "spanish_fort": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "municipal_court.md": [
+      586,
+      587
+    ],
+    "fort": [
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587
+    ],
+    "city": [
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587,
+      587
+    ],
+    "(baldwin": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "county,": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "courts": [
+      586,
+      587
+    ],
+    "municipal": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "active": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "status:": [
+      586,
+      587
+    ],
+    "**has": [
+      586,
+      587
+    ],
+    "court**": [
+      586,
+      587
+    ],
+    "location:": [
+      586,
+      587
+    ],
+    "community": [
+      586,
+      587
+    ],
+    "center,": [
+      586,
+      587
+    ],
+    "7361": [
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
+    ],
+    "blvd,": [
+      586,
+      587
+    ],
+    "fort,": [
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587
+    ],
+    "36527": [
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587
+    ],
+    "phone:": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "(251)": [
+      586,
+      586,
+      586,
+      586,
+      587,
+      587,
+      587,
+      587
+    ],
+    "626-4022": [
+      586,
+      587
+    ],
+    "email:": [
+      586,
+      587
+    ],
+    "magistrate@cityofspanishfort.com": [
+      586,
+      587
+    ],
+    "dates:": [
+      586,
+      587
+    ],
+    "thursday": [
+      586,
+      587
+    ],
+    "monthly": [
+      586,
+      587
+    ],
+    "3:30": [
+      586,
+      587
+    ],
+    "judge:": [
+      586,
+      587
+    ],
+    "hon.": [
+      586,
+      587
+    ],
+    "derek": [
+      586,
+      587
+    ],
+    "rose": [
+      586,
+      587
+    ],
+    "website:": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "https://www.cityofspanishfort.com/court": [
+      586,
+      587
+    ],
+    "website": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "https://www.cityofspanishfort.com": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "hall:": [
+      586,
+      587
+    ],
+    "boulevard,": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "626-4884": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "hours:": [
+      586,
+      587
+    ],
+    "mon\u2013fri": [
+      586,
+      587
+    ],
+    "8:00": [
+      586,
+      587
+    ],
+    "5:00": [
+      586,
+      587
+    ],
+    "government": [
+      586,
+      587
+    ],
+    "type:": [
+      586,
+      587
+    ],
+    "mayor\u2013council": [
+      586,
+      587
+    ],
+    "baldwin": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "county": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "population:": [
+      586,
+      587
+    ],
+    "~10,000": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "coordinates:": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "30.6685\u00b0": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "87.8730\u00b0": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "note:": [
+      586,
+      587
+    ],
+    "eastern": [
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
+    ],
+    "shore": [
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
+    ],
+    "mobile": [
+      586,
+      587
+    ],
+    "i-10": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "corridor;": [
+      586,
+      587
+    ],
+    "named": [
+      586,
+      587
+    ],
+    "fortifications": [
+      586,
+      587
+    ],
+    "built": [
+      586,
+      587
+    ],
+    "1780": [
+      586,
+      587
+    ],
+    "during": [
+      586,
+      587
+    ],
+    "american": [
+      586,
+      587
+    ],
+    "revolutionary": [
+      586,
+      587
+    ],
+    "war;": [
+      586,
+      587
+    ],
+    "home": [
+      586,
+      587
+    ],
+    "historic": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "blakeley": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "park": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "(site": [
+      586,
+      587
+    ],
+    "last": [
+      586,
+      587
+    ],
+    "major": [
+      586,
+      587
+    ],
+    "battle": [
+      586,
+      587
+    ],
+    "war);": [
+      586,
+      587
+    ],
+    "known": [
+      586,
+      587
+    ],
+    "centre": [
+      586,
+      587
+    ],
+    "meaher": [
+      586,
+      587
+    ],
+    "park;": [
+      586,
+      587
+    ],
+    "adjacent": [
+      586,
+      587
+    ],
+    "daphne": [
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
+    ],
+    "police": [
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
+    ],
+    "department": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "address:": [
+      586,
+      587
+    ],
+    "30500": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "highway": [
+      586,
+      587
+    ],
+    "181,": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "suite": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "618,": [
+      586,
+      587
+    ],
+    "emergency:": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "non-emergency:": [
+      586,
+      587
+    ],
+    "626-4914": [
+      586,
+      587
+    ],
+    "chief:": [
+      586,
+      587
+    ],
+    "barber": [
+      586,
+      587
+    ],
+    "https://www.cityofspanishfort.com/spanishfortpd": [
+      586,
+      587
+    ],
+    "operates": [
+      586,
+      587
+    ],
+    "short-term": [
+      586,
+      587
+    ],
+    "holding": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "only;": [
+      586,
+      587
+    ],
+    "inmates": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "housed": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "jail": [
+      586,
+      586,
+      586,
+      587,
+      587,
+      587
+    ],
+    "detention": [
+      586,
+      587
+    ],
+    "facilities": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "(all": [
+      586,
+      587
+    ],
+    "every": [
+      586,
+      587
+    ],
+    "url)": [
+      586,
+      587
+    ],
+    "(short-term": [
+      586,
+      587
+    ],
+    "jail)": [
+      586,
+      587
+    ],
+    "law_resources.md": [
+      586,
+      587
+    ],
+    "resources": [
+      586,
+      587
+    ],
+    "pop:": [
+      586,
+      587
+    ],
+    "corridor": [
+      586,
+      587
+    ],
+    "enforcement": [
+      586,
+      587
+    ],
+    "summary:": [
+      586,
+      587
+    ],
+    "exported:": [
+      586,
+      587
+    ],
+    "export_20260529_114317.md": [
+      586,
+      587
+    ],
+    "(6.0kb)": [
+      586,
+      587
+    ],
+    "parties": [
+      586,
+      587
+    ],
+    "**service": [
+      586,
+      587
+    ],
+    "provider:**": [
+      586,
+      587
+    ],
+    "**client:**": [
+      586,
+      587
+    ],
+    "**effective": [
+      586,
+      587
+    ],
+    "date:**": [
+      586,
+      586,
+      587,
+      587
+    ],
+    "**initial": [
+      586,
+      587
+    ],
+    "term:**": [
+      586,
+      587
+    ],
+    "twelve": [
+      586,
+      587
+    ],
+    "(12)": [
+      586,
+      587
+    ],
+    "**termination": [
+      586,
+      587
+    ],
+    "2027": [
+      586,
+      587
+    ],
+    "(unless": [
+      586,
+      587
+    ],
+    "renewed": [
+      586,
+      587
+    ],
+    "terminated": [
+      586,
+      587
+    ],
+    "earlier": [
+      586,
+      587
+    ],
+    "longmont": [
+      599,
+      600,
+      601
     ]
   },
-  "updated_at": "2026-05-30T04:58:25.509647+00:00"
+  "updated_at": "2026-05-30T05:18:39.296632+00:00"
 }
