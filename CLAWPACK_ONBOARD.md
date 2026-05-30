@@ -112,6 +112,11 @@ shared/voice_hook.py: System-wide toggle, Ctrl+Shift+V, wake words, background l
 shared/io_adapter.py: Neuralink, eye tracker, switch device, sip-puff stubs.
 shared/status_bar.py: Persistent accessibility status in agent responses.
 
+### Enforcement Engine Activated
+Pre-execution gate now fires on every A2A request. Tasks triggering constitutional
+violations are blocked before agent processing. Currently non-blocking during
+activation phase (try/except). Post-gate validation pending.
+
 ### Voice/Listen/Translate/Braille in All 21 Agents
 Deployed as command files. Zero handler modifications. Zero indentation risk.
 
