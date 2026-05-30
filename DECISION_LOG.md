@@ -193,3 +193,81 @@ Circuit Breaker on All Cross-Agent Calls
 **Why:** Repeat searches waste tokens. DataClaw becomes canonical cache layer.
 
 **Constitutional basis:** Article VIII (Budget Sovereignty).
+
+
+---
+
+## 2026-05-30: Groq as Primary Provider (Not Anthropic)
+
+**Decision:** Changed provider priority order to Groq (1), Ollama (2), OpenRouter (3), Anthropic (4). Previously Anthropic was hardcoded as primary in base_agent.py ask_llm().
+
+**Why:** Anthropic credits are paid and limited. Groq is free and faster (0.7s vs 1.2s). The hardcoded provider='anthropic' in ask_llm() bypassed the entire provider chain configuration. Removing it allows the Sovereign Gateway to use its natural priority order from detect_providers().
+
+**Constitutional basis:** Article I (Sovereignty) and Article VIII (Budget Sovereignty).
+
+---
+
+## 2026-05-30: Civic Commands Use Chronicle FTS5 Direct (No LLM)
+
+**Decision:** /detention, /police, /library, /hospital now query Chronicle FTS5 directly via agent.lookup_jurisdiction(). Previously they called _gather_context() -> webclaw -> LLM (45-90s latency).
+
+**Why:** These commands were missing from lawclaw's handler if/elif dispatch chain. They fell through to the else block which called the full LLM pipeline. The data already exists in the 3,800-city Chronicle index. Direct FTS5 lookup returns in 0.03-0.28s with zero API calls.
+
+**Lesson:** Always check if a command is in the handler dispatch chain. Missing commands silently fall to the expensive else path.
+
+**Constitutional basis:** Article V (Truth Hierarchy) ? chronicle data should be used directly when available, not re-synthesized through inference.
+
+---
+
+## 2026-05-30: Lifecycle Contract Drift Resolution
+
+**Decision:** Fixed three API contract mismatches that caused errors on every agent invocation:
+- log_event: symbol removed from chronicle_ledger, replaced with get_chronicle().record_fetch()
+- DecisionLedger.record(action=): signature changed to record_action(agent, action, policy_result)
+- ChronicleLedger.record_fetch(agent=): kwarg changed to url=
+
+**Why:** The shared API layer had drifted from its callers. These errors fired on every single agent invocation but were caught by except blocks, making them silent but noisy in logs. Centralized fix in shared/lifecycle.py and shared/_agent_helpers.py cleaned all 21 agents simultaneously.
+
+**Constitutional basis:** Article VII (Silent Failure) ? exceptions must not be silenced without audit visibility.
+
+---
+
+## 2026-05-30: Command Files Instead of Handler Injection
+
+**Decision:** Accessibility commands (/voice, /listen, /translate, /braille) deployed as command files in each agent's commands/ directory. Zero handler modifications.
+
+**Why:** A batch Python script attempted to inject these commands into 21 agent handlers via string replacement. Result: ALL 21 agents corrupted with indentation errors. Required git revert. The system was designed for commands/ directory loading ? dropping a .py file with name="/commandname" and def run(args, agent=None) is the intended extension mechanism.
+
+**Lesson:** Write once with echo, Copy-Item to deploy. Never batch-inject into handlers.
+
+**Constitutional basis:** Article II (Separation of Powers) ? command files preserve agent handler integrity.
+
+---
+
+## 2026-05-30: System-Wide Voice Toggle (Not Per-Agent)
+
+**Decision:** Voice mode is a global toggle (shared/voice_hook.py), not per-agent state. Ctrl+Shift+V toggles system-wide. Wake words ("start listening"/"stop listening") provide hands-free control. The background listener routes to whichever agent is currently active via A2A.
+
+**Why:** Per-agent voice toggles would require activation in every agent separately. A Spanish speaker navigating between agents would need to re-enable voice each time. Global state with persistent banner ensures continuity.
+
+**Constitutional basis:** Article III (Delegation) ? accessibility is infrastructure, not an agent domain.
+
+---
+
+## 2026-05-30: Accessibility as Shared Infrastructure (Not Agent Feature)
+
+**Decision:** TTS, STT, Braille, translation, and IO adapters live in shared/ (accessibility.py, voice_hook.py, io_adapter.py, status_bar.py). No agent owns accessibility. Every agent inherits it.
+
+**Why:** Accessibility is universal infrastructure, not a domain specialty. interpretclaw handles translation quality but the pipeline itself is shared. This prevents duplication and ensures consistent behavior across all 21 agents.
+
+**Constitutional basis:** Article VI (Shared Memory) ? accessibility is a shared capability, not a ministry.
+
+---
+
+## 2026-05-30: PowerShell Environment Constraints
+
+**Decision:** All file writes in this environment must use echo for small files (<10 lines) or Python scripts executed from disk for larger files. Never use python -c with multi-line code, never use PowerShell heredocs with Python, never use Out-File for files over ~100 lines.
+
+**Why:** Approximately 2 hours were lost to PowerShell-specific failures. These constraints are documented in POWERSHELL_SURVIVAL_GUIDE.md and CLAWPACK_ONBOARD.md.
+
+**Constitutional basis:** Operational ? not constitutional, but necessary for any agent to function in this environment.
