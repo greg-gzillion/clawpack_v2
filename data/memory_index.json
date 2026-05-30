@@ -4880,6 +4880,509 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T04:15:17.463472+00:00"
+    },
+    {
+      "agent": "drawclaw",
+      "query": "",
+      "fact": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 19",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:05.297858+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /stats",
+      "fact": "## AI Analysis\n# Analysis: Creative /stats Query\n\nBased on the search results, there are **6 documents found** containing legal case references. Here's the statistical breakdown:\n\n## Document Distribution\n\n| Source | Count |\n|--------|-------|\n| Business Law Key Cases | 1 |\n| UCC Key Cases | 1 |\n| Contract Law Key Cases | 2 |\n| Landmark Contract Cases | 1 |\n| Civil Law Reference | 1 |\n| **Total Documents** | **6** |\n\n## Case Statistics by Subject Area\n\n### Most Represented Topics:\n1. **Commercia",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:33.659574+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 14",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:35.430438+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 14",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:35.454037+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 21",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:35.574229+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 21",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:35.595408+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 16",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:35.661632+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 16",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:35.682671+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 213",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:35.826708+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 213",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:35.847760+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:35.932251+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:35.953875+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 100",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:36.065820+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 100",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:36.087521+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 35",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:36.745707+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 35",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:36.769526+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:50",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:36.907233+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:50",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:36.926273+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:37.064394+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:37.089917+00:00"
+    },
+    {
+      "agent": "rustypycraw",
+      "query": "",
+      "fact": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 31",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:37.217559+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 54",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:50:39.070566+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 54",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:39.089768+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "",
+      "fact": "## AI Analysis\n# Analysis: No Relevant Results for '/stats'\n\nBased on the provided context, **there are no results that directly address a `/stats` endpoint or route**.\n\n## What the Context Contains\n\nThe documentation provided focuses on:\n\n1. **Chokidar** - A file watching library for Node.js\n2. **Next.js Analytics & Web Vitals** - Tools for measuring and reporting performance metrics including:\n   - `useReportWebVitals` hook\n   - Core Web Vitals (TTFB, FCP, LCP, FID, CLS, INP)\n   - Custom Next.",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:50:46.092804+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 214",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:52:03.403377+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 214",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:52:03.424930+00:00"
+    },
+    {
+      "agent": "drawclaw",
+      "query": "",
+      "fact": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 20",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:52:41.211049+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "creative /stats",
+      "fact": "## AI Analysis\n# Analysis: Creative /stats\n\nBased on your search query \"creative /stats\", here are the relevant results from the legal database:\n\n## Intellectual Property - Creative Works Cases\n\nThe most directly relevant case for creative work protection is:\n\n| Case | Citation | Topic | URL |\n|------|----------|-------|-----|\n| **Feist Publications v. Rural Telephone** | 499 U.S. 340 (1991) | Originality in copyright | https://supreme.justia.com/cases/federal/us/499/340/ |\n\nThis landmark case e",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:03.613829+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:11.335476+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:11.364506+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 22",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:11.491863+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 22",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:11.512914+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 17",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:11.586597+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 17",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:11.611648+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 215",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:11.752989+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 215",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:11.777525+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 16",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:11.863335+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 16",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:11.886906+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 101",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:11.999837+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 101",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:12.023401+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 36",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:12.695286+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 36",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:12.717512+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:53",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:12.862463+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:53",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:12.885299+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:13.028601+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:13.050623+00:00"
+    },
+    {
+      "agent": "rustypycraw",
+      "query": "",
+      "fact": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 32",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:13.178466+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 55",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:53:15.708444+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 55",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:53:15.737524+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:54:16.852022+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:54:16.874110+00:00"
     }
   ],
   "index": {
@@ -6189,7 +6692,15 @@
       265,
       266,
       267
+    ],
+    "creative": [
+      480,
+      506
+    ],
+    "/stats": [
+      480,
+      506
     ]
   },
-  "updated_at": "2026-05-30T04:15:17.463472+00:00"
+  "updated_at": "2026-05-30T04:54:16.875116+00:00"
 }

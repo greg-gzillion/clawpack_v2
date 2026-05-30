@@ -4858,7 +4858,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T03:26:47.120574+00:00",
-      "last_updated": "2026-05-30T03:41:19.379942+00:00"
+      "last_updated": "2026-05-30T04:54:16.898166+00:00"
     },
     "ccbc5b97b656fe83": {
       "fact_id": "ccbc5b97b656fe83",
@@ -5342,9 +5342,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T03:41:18.635040+00:00",
-      "last_updated": "2026-05-30T03:41:18.635040+00:00"
+      "last_updated": "2026-05-30T04:50:35.711855+00:00"
     },
     "18baeebdfc174c05": {
       "fact_id": "18baeebdfc174c05",
@@ -5360,9 +5360,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T03:41:18.886076+00:00",
-      "last_updated": "2026-05-30T03:41:18.886076+00:00"
+      "last_updated": "2026-05-30T04:50:35.979419+00:00"
     },
     "3e7c74753be74700": {
       "fact_id": "3e7c74753be74700",
@@ -5378,9 +5378,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T03:41:19.012774+00:00",
-      "last_updated": "2026-05-30T03:41:19.012774+00:00"
+      "last_updated": "2026-05-30T04:50:36.108737+00:00"
     },
     "298c2c61d5afb3bb": {
       "fact_id": "298c2c61d5afb3bb",
@@ -5468,9 +5468,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T03:41:24.276989+00:00",
-      "last_updated": "2026-05-30T03:41:24.276989+00:00"
+      "last_updated": "2026-05-30T04:50:46.134587+00:00"
     },
     "4e13a223dce6560f": {
       "fact_id": "4e13a223dce6560f",
@@ -5669,6 +5669,600 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-30T04:10:57.676480+00:00",
       "last_updated": "2026-05-30T04:10:57.676480+00:00"
+    },
+    "1b0f38883e1b14a7": {
+      "fact_id": "1b0f38883e1b14a7",
+      "fact_value": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 19",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:05.324906+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:05.324906+00:00",
+      "last_updated": "2026-05-30T04:50:05.324906+00:00"
+    },
+    "db0924ff419b0376": {
+      "fact_id": "db0924ff419b0376",
+      "fact_value": "query:creative /stats",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:50:33.673098+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T04:50:33.673098+00:00",
+      "last_updated": "2026-05-30T04:53:03.625693+00:00"
+    },
+    "6e6669d8bb2f5469": {
+      "fact_id": "6e6669d8bb2f5469",
+      "fact_value": "concept:6 documents found",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:33.691131+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.691131+00:00",
+      "last_updated": "2026-05-30T04:50:33.691131+00:00"
+    },
+    "48439a5b820bcea5": {
+      "fact_id": "48439a5b820bcea5",
+      "fact_value": "concept:Total Documents",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:33.710674+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.710674+00:00",
+      "last_updated": "2026-05-30T04:50:33.710674+00:00"
+    },
+    "d215f83aed913fcb": {
+      "fact_id": "d215f83aed913fcb",
+      "fact_value": "concept:Commercial Transactions/UCC",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:33.730265+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.730265+00:00",
+      "last_updated": "2026-05-30T04:50:33.730265+00:00"
+    },
+    "d2e173e7849043a0": {
+      "fact_id": "d2e173e7849043a0",
+      "fact_value": "concept:Contract Law (Formation)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:33.758423+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.758423+00:00",
+      "last_updated": "2026-05-30T04:50:33.758423+00:00"
+    },
+    "435c91a0c7b1ac39": {
+      "fact_id": "435c91a0c7b1ac39",
+      "fact_value": "source_url:https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/new-york/court-of-appeals/1966/18-n-y-2d-414-0.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:50:33.778474+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T04:50:33.778474+00:00",
+      "last_updated": "2026-05-30T04:53:03.839831+00:00"
+    },
+    "82ba9ce6750253e0": {
+      "fact_id": "82ba9ce6750253e0",
+      "fact_value": "source_url:https://law.justia.com/cases/new-york/court-of-appeals/1928/249-n-y-458-0.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/new-york/court-of-appeals/1928/249-n-y-458-0.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:50:33.800063+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T04:50:33.800063+00:00",
+      "last_updated": "2026-05-30T04:53:03.862432+00:00"
+    },
+    "0afd5f0321e190a3": {
+      "fact_id": "0afd5f0321e190a3",
+      "fact_value": "source_url:https://law.justia.com/cases/delaware/supreme-court/1985/488-a-2d-858-5.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/delaware/supreme-court/1985/488-a-2d-858-5.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:50:33.823116+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.823116+00:00",
+      "last_updated": "2026-05-30T04:50:33.823116+00:00"
+    },
+    "74f75e79f4caa72f": {
+      "fact_id": "74f75e79f4caa72f",
+      "fact_value": "source_url:https://law.justia.com/cases/new-jersey/appellate-division-published/1957/47-nj-super-224-0.html",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/new-jersey/appellate-division-published/1957/47-nj-super-224-0.html",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:50:33.843158+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.843158+00:00",
+      "last_updated": "2026-05-30T04:50:33.843158+00:00"
+    },
+    "0ec375bbe33feaa3": {
+      "fact_id": "0ec375bbe33feaa3",
+      "fact_value": "source_url:https://law.justia.com/cases/federal/appellate-courts/F2/939/91/252628/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/cases/federal/appellate-courts/F2/939/91/252628/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:50:33.863200+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:33.863200+00:00",
+      "last_updated": "2026-05-30T04:50:33.863200+00:00"
+    },
+    "9ae764d397bcc372": {
+      "fact_id": "9ae764d397bcc372",
+      "fact_value": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 35",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:36.793082+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:36.793082+00:00",
+      "last_updated": "2026-05-30T04:50:36.793082+00:00"
+    },
+    "676234e86998eba8": {
+      "fact_id": "676234e86998eba8",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:50",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:36.949881+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:36.949881+00:00",
+      "last_updated": "2026-05-30T04:50:36.949881+00:00"
+    },
+    "7a7f9bdf8c1c4f06": {
+      "fact_id": "7a7f9bdf8c1c4f06",
+      "fact_value": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 31",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:37.241582+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:37.241582+00:00",
+      "last_updated": "2026-05-30T04:50:37.241582+00:00"
+    },
+    "2611225b502d19b7": {
+      "fact_id": "2611225b502d19b7",
+      "fact_value": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 54",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:39.112327+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:39.112327+00:00",
+      "last_updated": "2026-05-30T04:50:39.112327+00:00"
+    },
+    "be721ec00a8f8d3e": {
+      "fact_id": "be721ec00a8f8d3e",
+      "fact_value": "concept:there are no results that directly address a `/stats` endpoint or route",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:46.112015+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:46.112015+00:00",
+      "last_updated": "2026-05-30T04:50:46.112015+00:00"
+    },
+    "2f1399df73dd6fb3": {
+      "fact_id": "2f1399df73dd6fb3",
+      "fact_value": "concept:Other Next.js features",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:50:46.155980+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:50:46.155980+00:00",
+      "last_updated": "2026-05-30T04:50:46.155980+00:00"
+    },
+    "6cb71d995d51971f": {
+      "fact_id": "6cb71d995d51971f",
+      "fact_value": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 20",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:52:41.231081+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:52:41.231081+00:00",
+      "last_updated": "2026-05-30T04:52:41.231081+00:00"
+    },
+    "42dc6acb00d803da": {
+      "fact_id": "42dc6acb00d803da",
+      "fact_value": "concept:Feist Publications v. Rural Telephone",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:03.645380+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.645380+00:00",
+      "last_updated": "2026-05-30T04:53:03.645380+00:00"
+    },
+    "8d9ec9218a3178c8": {
+      "fact_id": "8d9ec9218a3178c8",
+      "fact_value": "concept:originality",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:03.668441+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.668441+00:00",
+      "last_updated": "2026-05-30T04:53:03.668441+00:00"
+    },
+    "3cad4094dcfa756b": {
+      "fact_id": "3cad4094dcfa756b",
+      "fact_value": "concept:Diamond v. Chakrabarty",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:03.687520+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.687520+00:00",
+      "last_updated": "2026-05-30T04:53:03.687520+00:00"
+    },
+    "b45ede0ad717d5b1": {
+      "fact_id": "b45ede0ad717d5b1",
+      "fact_value": "concept:Qualitex v. Jacobson",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:03.708594+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.708594+00:00",
+      "last_updated": "2026-05-30T04:53:03.708594+00:00"
+    },
+    "bfc0cd215f530e07": {
+      "fact_id": "bfc0cd215f530e07",
+      "fact_value": "concept:Copyright Protection",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:03.728208+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.728208+00:00",
+      "last_updated": "2026-05-30T04:53:03.728208+00:00"
+    },
+    "fcd84d4d33350c3c": {
+      "fact_id": "fcd84d4d33350c3c",
+      "fact_value": "source_url:https://supreme.justia.com/cases/federal/us/499/340/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://supreme.justia.com/cases/federal/us/499/340/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:53:03.754822+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.754822+00:00",
+      "last_updated": "2026-05-30T04:53:03.754822+00:00"
+    },
+    "2490c70ddd678044": {
+      "fact_id": "2490c70ddd678044",
+      "fact_value": "source_url:https://supreme.justia.com/cases/federal/us/447/303/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://supreme.justia.com/cases/federal/us/447/303/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:53:03.786198+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.786198+00:00",
+      "last_updated": "2026-05-30T04:53:03.786198+00:00"
+    },
+    "7c2ed35abe0bb404": {
+      "fact_id": "7c2ed35abe0bb404",
+      "fact_value": "source_url:https://supreme.justia.com/cases/federal/us/514/159/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://supreme.justia.com/cases/federal/us/514/159/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-30T04:53:03.812224+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:03.812224+00:00",
+      "last_updated": "2026-05-30T04:53:03.812224+00:00"
+    },
+    "dc99cc62d32a3e9b": {
+      "fact_id": "dc99cc62d32a3e9b",
+      "fact_value": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 17",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:11.632503+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:11.632503+00:00",
+      "last_updated": "2026-05-30T04:53:11.632503+00:00"
+    },
+    "b903c95796e54a33": {
+      "fact_id": "b903c95796e54a33",
+      "fact_value": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 16",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:11.911928+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:11.911928+00:00",
+      "last_updated": "2026-05-30T04:53:11.911928+00:00"
+    },
+    "7db934f93cc1587b": {
+      "fact_id": "7db934f93cc1587b",
+      "fact_value": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 101",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:12.043440+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:12.043440+00:00",
+      "last_updated": "2026-05-30T04:53:12.043440+00:00"
+    },
+    "fc5043f2d8cad622": {
+      "fact_id": "fc5043f2d8cad622",
+      "fact_value": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 36",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:12.739101+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:12.738100+00:00",
+      "last_updated": "2026-05-30T04:53:12.739101+00:00"
+    },
+    "3547ac1338411994": {
+      "fact_id": "3547ac1338411994",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:53",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:12.908970+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:12.908970+00:00",
+      "last_updated": "2026-05-30T04:53:12.908970+00:00"
+    },
+    "22f9c1dd8f10a11a": {
+      "fact_id": "22f9c1dd8f10a11a",
+      "fact_value": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 32",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:13.198507+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:13.198507+00:00",
+      "last_updated": "2026-05-30T04:53:13.198507+00:00"
+    },
+    "3fe89cf71afe0257": {
+      "fact_id": "3fe89cf71afe0257",
+      "fact_value": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 55",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:53:15.763085+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:53:15.763085+00:00",
+      "last_updated": "2026-05-30T04:53:15.763085+00:00"
     }
   },
   "corrections": [
@@ -5689,5 +6283,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-30T04:10:57.678462+00:00"
+  "updated_at": "2026-05-30T04:54:16.904167+00:00"
 }
