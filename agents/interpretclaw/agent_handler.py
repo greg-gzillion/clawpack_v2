@@ -51,9 +51,19 @@ th - Thai  tr - Turkish  uk - Ukrainian  vi - Vietnamese  cy - Welsh  zu - Zulu
 la - Latin
 br - Braille (Grade 1 & 2)    asl - American Sign Language (gloss)"""
             elif cmd in ("/speak", "speak") and query:
-                result = f"[TTS] {query} (TTS requires espeak or system TTS)"
+                from shared.accessibility import speak
+                result = speak(query)
             elif cmd in ("/listen", "listen"):
-                result = "[STT] Speech recognition requires microphone access"
+                from shared.accessibility import listen, detect_language
+                text = listen()
+                if text.startswith('[STT]'):
+                    result = text
+                else:
+                    lang = detect_language(text)
+                    result = f"[{lang.upper()}] {text}"
+            elif cmd in ("/braille", "braille") and query:
+                from shared.accessibility import to_braille
+                result = to_braille(query)
             elif cmd in ("/help",):
                 result = "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats"
             elif cmd in ("/stats",):

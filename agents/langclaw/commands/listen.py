@@ -1,4 +1,4 @@
-﻿# agents/interpretclaw/commands/listen.py
+﻿# agents/langclaw/commands/listen.py
 name = "/listen"
 def run(args, agent=None):
     '''Listen to microphone and transcribe'''
