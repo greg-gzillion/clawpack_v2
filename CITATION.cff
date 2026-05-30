@@ -4,19 +4,23 @@ authors:
   - family-names: Frank
     given-names: Greg
     orcid: "https://orcid.org/0009-0001-9191-5556"
-title: "Clawpack V2 - Unified AI Agent Ecosystem with Cross-Learning Agents"
-version: 3.0.0
+title: "Clawpack V2 - Constitutional Multi-Agent AI Ecosystem with Shared Memory and A2A Routing"
+version: 3.1.0
 doi: 10.5281/zenodo.19713157
-date-released: 2026-04-23
+date-released: 2026-05-29
 url: "https://github.com/greg-gzillion/clawpack_v2"
-abstract: "20 specialized AI agents communicating via A2A protocol with shared three-tier memory, WebClaw SQLite knowledge index (1.5M terms, 20K files), chronicle ledger, and multi-provider LLM routing through Groq, Ollama, and OpenRouter."
+abstract: "21 specialized AI agents governed by a Constitution, communicating via A2A protocol (port 8766) with circuit breaker protection and task state tracking. Features 448MB Chronicle SQLite FTS5 index (35,000+ interactions), 3,800-city jurisdiction database, 36-system constitutional boundary, multi-provider LLM routing through Ollama, Groq, OpenRouter, and Anthropic, and cross-agent unified memory with staleness detection."
 keywords:
   - "ai-agents"
   - "agent-to-agent"
+  - "multi-agent-system"
+  - "constitutional-ai"
   - "knowledge-management"
   - "cross-learning"
   - "llm"
   - "groq"
   - "ollama"
   - "chronicle-ledger"
+  - "jurisdiction-database"
+  - "a2a-protocol"
 license: MIT
