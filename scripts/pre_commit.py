@@ -50,7 +50,9 @@ for f in get_staged():
 
 if violations:
     print("CONSTITUTIONAL VIOLATIONS DETECTED:")
-    for v in violations: print(f"  {v}")
+    for v in violations:
+        safe = str(v)[:200].replace("\", "/")
+        print(f"  {safe}")
     print("\nCommit BLOCKED. Fix violations before committing.")
     sys.exit(1)
 print("Constitutional check passed")
