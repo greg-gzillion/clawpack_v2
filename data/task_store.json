@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "task-07b24de0",
+      "caller": "test",
+      "target": "webclaw",
+      "task": "search test",
+      "timeout": 120,
+      "status": "pending",
+      "created_at": "2026-05-30T04:15:16.408971+00:00",
+      "started_at": null,
+      "completed_at": null,
+      "duration_ms": 0,
+      "result": null,
+      "error": null
+    }
+  ],
+  "updated_at": "2026-05-30T04:15:16.408971+00:00"
+}
