@@ -253,6 +253,13 @@ class FileClawAgent(BaseAgent):
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
             else:
                 result = "FileClaw: Use /import, /export, /convert, /formats, or /help"
+                        # Accessibility status bar
+            try:
+                from shared.status_bar import wrap_result_with_status
+                result = wrap_result_with_status(str(result))
+            except:
+                pass
+
             return {"status": "success", "result": str(result)}
         except Exception as e:
             log_err("fileclaw", cmd or "unknown", str(e)[:200])
