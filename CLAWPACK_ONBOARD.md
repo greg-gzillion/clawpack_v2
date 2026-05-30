@@ -184,3 +184,13 @@ Groq model: llama-3.1-8b -> llama-3.3-70b-versatile.
   Banner shows mic status. Background listener. Auto-detect language, translate,
   process, translate response back, speak aloud. Spanish speaker can use any agent.
 - Menu: 'v' for voice mode in clawpack.py launcher.
+
+---
+
+## Priority Backlog (Next Session)
+
+1. **Deploy /voice to all 21 agents** ? only lawclaw has it. Pattern: add /voice elif block calling shared.voice_hook.toggle(self). Each agent takes 2 minutes.
+2. **Fix recover_by_context signature drift** ? 19 call sites across 8 modules. The method expects (self, query, limit, source_filter) but callers pass args differently. Non-blocking but noisy in every log.
+3. **Complete 7 partial agents** ? docuclaw, llmclaw, mathematicaclaw, plotclaw, rustypycraw, txclaw, webclaw need capability routing (get_capable_agent in else block).
+4. **Test voice mode end-to-end** ? Spanish speaker speaks, system detects, translates, processes, responds aloud. Full pipeline validation.
+5. **pip install keyboard** ? required for Ctrl+Shift+V global hotkey. Without it, only /voice command works.
