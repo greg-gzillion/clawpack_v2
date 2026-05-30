@@ -142,13 +142,40 @@ def main():
         banner()
         show_agents()
         
-        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), v for voice, 'm' for model, or 'q' to quit: {RESET}").strip()
+        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), v=voice b=braille n=neuralink e=eye, 'm' for model, or 'q' to quit: {RESET}").strip()
         
         if choice.lower() == 'q':
             clear()
             print(f"{GREEN} Goodbye!{RESET}")
             break
         
+        elif choice.lower() == 'b':
+            try:
+                from shared.voice_hook import toggle_braille
+                print(toggle_braille())
+            except Exception as e:
+                print(f"Braille toggle unavailable: {e}")
+            input("Press Enter...")
+            continue
+
+        elif choice.lower() == 'n':
+            try:
+                from shared.voice_hook import toggle_neuralink
+                print(toggle_neuralink())
+            except Exception as e:
+                print(f"Neuralink toggle unavailable: {e}")
+            input("Press Enter...")
+            continue
+
+        elif choice.lower() == 'e':
+            try:
+                from shared.voice_hook import toggle_eye_tracker
+                print(toggle_eye_tracker())
+            except Exception as e:
+                print(f"Eye tracking unavailable: {e}")
+            input("Press Enter...")
+            continue
+
         elif choice.lower() == 'm':
             launch_model_selector()
             continue

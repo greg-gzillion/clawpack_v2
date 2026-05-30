@@ -79,5 +79,8 @@ def unregister_hotkey():
     if _kb:
         try:
             keyboard.remove_hotkey('ctrl+shift+v')
+            keyboard.remove_hotkey('ctrl+shift+b')
+            keyboard.remove_hotkey('ctrl+shift+n')
+            keyboard.remove_hotkey('ctrl+shift+e')
         except:
             pass
