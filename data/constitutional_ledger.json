@@ -2429,6 +2429,32 @@
       },
       "previous_hash": "ed1030cbc8536325",
       "hash": "599b18bb8c253454"
+    },
+    {
+      "timestamp": "2026-05-30T04:10:55.814091+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "599b18bb8c253454",
+      "hash": "ee1e64b38ea47bb7"
+    },
+    {
+      "timestamp": "2026-05-30T04:10:57.522205+00:00",
+      "agent": "mediclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "ee1e64b38ea47bb7",
+      "hash": "43bed908d4c43185"
     }
   ],
   "version": "v1.0"

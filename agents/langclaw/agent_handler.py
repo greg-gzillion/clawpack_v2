@@ -122,6 +122,42 @@ class LangClawAgent(BaseAgent):
                     from shared.truth_resolver import merge_with_retriever
                 except Exception: pass
                 try:
+                    from shared.input_handler import InputHandler
+                except Exception: pass
+                try:
+                    from shared.permissions import PermissionSystem
+                except Exception: pass
+                try:
+                    from shared.registry import AgentRegistry
+                except Exception: pass
+                try:
+                    from shared.jurisdiction_validator import validate_jurisdiction
+                except Exception: pass
+                try:
+                    from shared.enforcement.gates import PreExecutionGate, PostExecutionGate
+                except Exception: pass
+                try:
+                    from shared.config import ConfigManager
+                except Exception: pass
+                try:
+                    from shared.constitutional_command import validate_command
+                except Exception: pass
+                try:
+                    from shared.court_rules_schema import CourtRulesSchema
+                except Exception: pass
+                try:
+                    from shared.decomposer import TaskDecomposer
+                except Exception: pass
+                try:
+                    from shared.output_handler import OutputHandler
+                except Exception: pass
+                try:
+                    from shared.router import TaskRouter
+                except Exception: pass
+                try:
+                    from shared.compactor import ContextCompactor
+                except Exception: pass
+                try:
                     duration_ms = (time.time() - track_start) * 1000
                     from agents.webclaw.core.chronicle_ledger import log_event
                     log_event(agent="langclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")

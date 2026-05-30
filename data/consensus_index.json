@@ -5651,6 +5651,24 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-30T04:08:03.704475+00:00",
       "last_updated": "2026-05-30T04:08:03.704475+00:00"
+    },
+    "e2b32c680702bad5": {
+      "fact_id": "e2b32c680702bad5",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 22:10",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T04:10:57.676480+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T04:10:57.676480+00:00",
+      "last_updated": "2026-05-30T04:10:57.676480+00:00"
     }
   },
   "corrections": [
@@ -5671,5 +5689,5 @@
       "timestamp": "2026-05-29T05:29:23.189001+00:00"
     }
   ],
-  "updated_at": "2026-05-30T04:08:03.707987+00:00"
+  "updated_at": "2026-05-30T04:10:57.678462+00:00"
 }
