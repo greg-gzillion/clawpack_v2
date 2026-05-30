@@ -127,7 +127,7 @@ Chronicle FTS5 entries35,553
 Circuit breaker trips0 (no cascading failures)
 Lifecycle cleanup errors0
 Data Licensing
-Jurisdictional data, court records, building codes: CC BY 4.0 — See LICENSE-DATA
+Jurisdictional data, court records, building codes: CC BY 4.0 — See LICENSE_DATA
 
 Software code: MIT License — See LICENSE
 
