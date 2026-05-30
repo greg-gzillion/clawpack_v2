@@ -83,6 +83,12 @@ class FlowClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 return {"status": "success", "result": "FlowClaw v5\n  DIAGRAMS: /flowchart /sequence /architecture /mindmap\n  EXPORT: /export <fmt> <query>\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"}
 

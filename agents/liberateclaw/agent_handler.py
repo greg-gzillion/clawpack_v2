@@ -84,6 +84,12 @@ class LiberateClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats"
             elif cmd in ("/stats",):

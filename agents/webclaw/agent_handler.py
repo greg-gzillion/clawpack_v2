@@ -69,6 +69,12 @@ class WebClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
             return {"status": "success", "result": "WebClaw - Web Search & Chronicle\n  search <query>  fetch <url>  /stats  /delegate <agent> <task>"}
         if task.startswith("fetch ") or task.startswith("http"):

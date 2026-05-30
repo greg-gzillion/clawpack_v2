@@ -163,6 +163,12 @@ class ClawCoderAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "ClawCoder v5 - 39 Languages\n  /code <task>  /explain /debug /review /tutorial\n  /translate <from> <to> <file>  /run <file>  /test <file>\n  /scan structure|patterns <lang>  /docs /project /deps /perf\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

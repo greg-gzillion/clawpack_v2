@@ -154,6 +154,12 @@ class DocuClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "DocuClaw v5 - Constitutional Document Agent\n  CREATE: /create /letter /report /memo /resume /proposal\n  IMPORT: /import <file>  EXPORT: /export <fmt> <content>\n  CONVERT: /convert <fmt> <file>  COMBINE: /combine <files>\n  TRANSLATE: /translate <lang> <text>  TEMPLATES: /templates\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

@@ -51,6 +51,12 @@ class DreamClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "DreamClaw - AI Vision\n  /dream /imagine /style /stats\n  /delegate [agent] [task]"
             elif cmd in ("/stats",):

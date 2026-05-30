@@ -69,6 +69,12 @@ class LangClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "LangClaw - AI Language Teacher\n  /lesson <lang> - Full lesson\n  /practice <lang> - Exercises\n  /vocab <lang> - Vocabulary\n  /conversation <lang> - Practice chat\n  /teach <lang> - Interactive teacher\n  /speak <text> - TTS voice output\n  /listen - STT voice input\n  /stats"
             elif cmd in ("/stats",):

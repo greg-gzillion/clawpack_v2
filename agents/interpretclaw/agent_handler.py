@@ -81,6 +81,12 @@ br - Braille (Grade 1 & 2)    asl - American Sign Language (gloss)"""
                 lang = detect_language(query)
                 result = translate(query, 'en', lang)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "InterpretClaw - 42 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats"
             elif cmd in ("/stats",):

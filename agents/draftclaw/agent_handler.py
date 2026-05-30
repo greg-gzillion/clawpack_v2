@@ -208,6 +208,12 @@ class DraftClawAgent(BaseAgent):
                 from shared.accessibility import to_braille
                 result = to_braille(query)
 
+                        elif cmd in ("/simple", "simple"):
+                from shared.accessibility import simplify_response, large_print
+                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
+            elif cmd in ("/normal", "normal"):
+                result = "Normal mode restored."
+
             if cmd in ("/help",):
                 result = "DraftClaw v5 - Constitutional Technical Drawing Agent\n  /permit <project> [jurisdiction]  /structural <project> [jurisdiction]  /blueprint /floorplan <specs>  /cad /schematic <specs>\n  /circuit /wiring <design>  /specs <project>\n  /lookup <jurisdiction> - Search jurisdiction database\n  /correct <id> <field> <value> - Community edit (3 confirmations = consensus)\n  SHARED: /shared read|write  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

@@ -142,7 +142,7 @@ def main():
         banner()
         show_agents()
         
-        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), v=voice b=braille n=neuralink e=eye, 'm' for model, or 'q' to quit: {RESET}").strip()
+        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), v=voice b=braille n=neuralink e=eye s=voice-select, 'm' for model, or 'q' to quit: {RESET}").strip()
         
         if choice.lower() == 'q':
             clear()
@@ -156,6 +156,25 @@ def main():
             except Exception as e:
                 print(f"Braille toggle unavailable: {e}")
             input("Press Enter...")
+            continue
+
+        elif choice.lower() == 's':
+            try:
+                from shared.accessibility import voice_select_agent
+                print("Say the agent name or number...")
+                num = voice_select_agent()
+                if num and num in agents_map:
+                    try:
+                        from shared.voice_hook import set_active_agent
+                        set_active_agent(agents_map[num])
+                    except: pass
+                    launch_agent(agents_map[num])
+                else:
+                    print("Could not understand. Try again.")
+                    input("Press Enter...")
+            except Exception as e:
+                print(f"Voice selection unavailable: {e}")
+                input("Press Enter...")
             continue
 
         elif choice.lower() == 'n':
