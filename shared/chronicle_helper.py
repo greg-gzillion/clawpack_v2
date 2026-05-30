@@ -20,7 +20,7 @@ def search_chronicle(query: str, limit: int = 10):
         results = []
         query_lower = query.lower()
         
-        for card in chronicle.recover_by_context():
+        for card in chronicle.recover_by_context(query, limit=20):
             if (query_lower in card.url.lower() or 
                 query_lower in card.source.lower() or 
                 query_lower in card.context.lower()):
