@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<title>Clawpack V2</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #14141f;
+    --border: #252535;
+    --text: #c8c8d4;
+    --dim: #6b6b7b;
+    --accent: #e94560;
+    --accent-glow: #ff6b81;
+    --green: #2ed573;
+    --amber: #ffa502;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+  header {
+    padding: 20px 20px 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .logo {
+    width: 36px; height: 36px;
+    background: var(--accent);
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 900; font-size: 18px; color: #fff;
+    box-shadow: 0 0 20px rgba(233,69,96,0.3);
+  }
+  h1 { font-size: 16px; font-weight: 600; letter-spacing: 1px; color: #fff; }
+  h1 span { color: var(--dim); font-weight: 400; font-size: 11px; display: block; letter-spacing: 2px; }
+  .status-bar {
+    margin-left: auto;
+    display: flex; gap: 8px; align-items: center;
+  }
+  .status-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--dim);
+  }
+  .status-dot.online { background: var(--green); box-shadow: 0 0 8px var(--green); }
+  .status-dot.voice { background: var(--accent); box-shadow: 0 0 8px var(--accent-glow); animation: pulse 1.5s infinite; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+  main {
+    flex: 1;
+    padding: 12px 16px;
+    overflow-y: auto;
+    display: flex; flex-direction: column; gap: 10px;
+  }
+  .message {
+    max-width: 90%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    animation: slideIn 0.2s ease;
+  }
+  @keyframes slideIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+  .message.user {
+    align-self: flex-end;
+    background: var(--accent);
+    color: #fff;
+    border-bottom-right-radius: 2px;
+  }
+  .message.agent {
+    align-self: flex-start;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-bottom-left-radius: 2px;
+    color: var(--text);
+  }
+  .message.system {
+    align-self: center;
+    background: transparent;
+    color: var(--dim);
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  footer {
+    padding: 12px 16px;
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+    border-top: 1px solid var(--border);
+    display: flex; gap: 8px; align-items: flex-end;
+    background: var(--bg);
+  }
+  .agent-select {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 12px;
+    max-width: 140px;
+    appearance: none;
+    cursor: pointer;
+  }
+  .input-wrap {
+    flex: 1;
+    display: flex; gap: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 4px;
+    transition: border-color 0.2s;
+  }
+  .input-wrap:focus-within { border-color: var(--accent); }
+  .input-wrap input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 14px;
+    padding: 8px;
+    outline: none;
+  }
+  .input-wrap input::placeholder { color: var(--dim); }
+  .btn {
+    width: 40px; height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.15s;
+  }
+  .btn-send { background: var(--accent); color: #fff; }
+  .btn-send:active { background: #c23152; transform: scale(0.95); }
+  .btn-mic { background: var(--surface); color: var(--dim); border: 1px solid var(--border); }
+  .btn-mic.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-mic:active { transform: scale(0.95); }
+  .server-config {
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(10,10,15,0.95);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 100;
+  }
+  .server-config.hidden { display: none; }
+  .server-config > div {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    width: 90%;
+    max-width: 360px;
+  }
+  .server-config h2 { font-size: 14px; margin-bottom: 16px; color: #fff; }
+  .server-config input {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    outline: none;
+  }
+  .server-config input:focus { border-color: var(--accent); }
+  .server-config button {
+    width: 100%;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="server-config" id="serverConfig">
+  <div>
+    <h2>A2A SERVER CONFIG</h2>
+    <input type="text" id="serverUrl" placeholder="http://192.168.1.100:8766" value="">
+    <button onclick="connectServer()">CONNECT</button>
+  </div>
+</div>
+
+<header>
+  <div class="logo">C</div>
+  <h1>CLAWPACK<span>CONSTITUTIONAL RUNTIME</span></h1>
+  <div class="status-bar">
+    <div class="status-dot" id="statusDot" title="Server status"></div>
+  </div>
+</header>
+
+<main id="messages">
+  <div class="message system">SELECT AGENT TO BEGIN</div>
+</main>
+
+<footer>
+  <select class="agent-select" id="agentSelect" onchange="onAgentChange()">
+    <option value="lawclaw">LAW</option>
+    <option value="mediclaw">MED</option>
+    <option value="mathematicaclaw">MATH</option>
+    <option value="interpretclaw">INT</option>
+    <option value="claw_coder">CODE</option>
+    <option value="plotclaw">PLOT</option>
+    <option value="webclaw">WEB</option>
+    <option value="docuclaw">DOC</option>
+    <option value="flowclaw">FLOW</option>
+    <option value="designclaw">DSGN</option>
+    <option value="draftclaw">DRFT</option>
+    <option value="drawclaw">DRAW</option>
+    <option value="dreamclaw">DREAM</option>
+    <option value="fileclaw">FILE</option>
+    <option value="dataclaw">DATA</option>
+    <option value="langclaw">LANG</option>
+    <option value="liberateclaw">LIB</option>
+    <option value="llmclaw">LLM</option>
+    <option value="crustyclaw">RUST</option>
+    <option value="rustypycraw">CRAWL</option>
+    <option value="txclaw">TX</option>
+  </select>
+  <div class="input-wrap">
+    <input type="text" id="msgInput" placeholder="Type command or message..." autocomplete="off" onkeydown="if(event.key==='Enter')sendMessage()">
+    <button class="btn btn-mic" id="micBtn" onclick="toggleMic()" title="Voice input">M</button>
+  </div>
+  <button class="btn btn-send" onclick="sendMessage()">S</button>
+</footer>
+
+<script>
+let SERVER = localStorage.getItem('clawpack_server') || '';
+const configEl = document.getElementById('serverConfig');
+const urlInput = document.getElementById('serverUrl');
+const statusDot = document.getElementById('statusDot');
+const messagesEl = document.getElementById('messages');
+const msgInput = document.getElementById('msgInput');
+const agentSelect = document.getElementById('agentSelect');
+const micBtn = document.getElementById('micBtn');
+
+if (!SERVER) {
+  configEl.classList.remove('hidden');
+} else {
+  urlInput.value = SERVER;
+  checkServer();
+}
+
+async function connectServer() {
+  SERVER = urlInput.value.trim().replace(/\/$/, '');
+  localStorage.setItem('clawpack_server', SERVER);
+  configEl.classList.add('hidden');
+  await checkServer();
+}
+
+statusDot.onclick = () => {
+  configEl.classList.toggle('hidden');
+  urlInput.value = SERVER;
+};
+
+async function checkServer() {
+  try {
+    const r = await fetch(SERVER + '/health');
+    if (r.ok) {
+      statusDot.className = 'status-dot online';
+      statusDot.title = 'Server online';
+    } else {
+      statusDot.className = 'status-dot';
+    }
+  } catch(e) {
+    statusDot.className = 'status-dot';
+    statusDot.title = 'Server offline';
+  }
+}
+setInterval(checkServer, 15000);
+
+function addMessage(text, type) {
+  const div = document.createElement('div');
+  div.className = 'message ' + type;
+  div.textContent = text;
+  messagesEl.appendChild(div);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function onAgentChange() {
+  addMessage('AGENT: ' + agentSelect.value.toUpperCase(), 'system');
+}
+
+async function sendMessage() {
+  const msg = msgInput.value.trim();
+  if (!msg || !SERVER) return;
+  addMessage(msg, 'user');
+  msgInput.value = '';
+  
+  const agent = agentSelect.value;
+  try {
+    const r = await fetch(SERVER + '/v1/message/' + agent, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({task: msg})
+    });
+    const data = await r.json();
+    addMessage(data.result || JSON.stringify(data), 'agent');
+  } catch(e) {
+    addMessage('CONNECTION ERROR: ' + e.message, 'system');
+  }
+}
+
+// Voice input
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+let listening = false;
+if (SpeechRecognition) {
+  const recognition = new SpeechRecognition();
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  recognition.onresult = (e) => {
+    msgInput.value = e.results[0][0].transcript;
+    micBtn.classList.remove('active');
+    micBtn.textContent = 'M';
+    listening = false;
+    statusDot.classList.remove('voice');
+    sendMessage();
+  };
+  recognition.onerror = () => {
+    micBtn.classList.remove('active');
+    micBtn.textContent = 'M';
+    listening = false;
+    statusDot.classList.remove('voice');
+  };
+  recognition.onend = () => {
+    micBtn.classList.remove('active');
+    micBtn.textContent = 'M';
+    listening = false;
+    statusDot.classList.remove('voice');
+  };
+  window.toggleMic = () => {
+    if (listening) {
+      recognition.stop();
+    } else {
+      recognition.start();
+      micBtn.classList.add('active');
+      micBtn.textContent = '...';
+      listening = true;
+      statusDot.classList.add('voice');
+    }
+  };
+} else {
+  micBtn.style.display = 'none';
+}
+
+// PWA registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</body>
+</html>
