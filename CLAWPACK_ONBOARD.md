@@ -175,3 +175,12 @@ Groq model: llama-3.1-8b -> llama-3.3-70b-versatile.
 - All 21 agents tested: 21/21 responsive, median /help 0.2s.
 - All 4 LLM providers tested: all operational.
 - README rewritten: benchmark data, known work, execution flow diagram.
+- MathematicaClaw: /help and /stats fixed (was broken, caught all input as math).
+  Plot pop-ups fixed (Agg backend -> interactive plt.show()).
+  Complex calculus tested: 12/18 passing (0.3-0.7s).
+- Accessibility layer deployed: shared/accessibility.py (TTS, STT, Braille, Translate).
+  Wired into interpretclaw (/speak, /listen, /braille) and langclaw (/speak, /listen).
+- Voice mode: /voice command + Ctrl+Shift+V global hotkey (shared/voice_hook.py).
+  Banner shows mic status. Background listener. Auto-detect language, translate,
+  process, translate response back, speak aloud. Spanish speaker can use any agent.
+- Menu: 'v' for voice mode in clawpack.py launcher.
