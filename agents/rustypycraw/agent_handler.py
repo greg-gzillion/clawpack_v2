@@ -97,34 +97,7 @@ class RustyPyCrawAgent(BaseAgent):
                 else:
                     result = "Usage: /compare <python_file> <rust_file>"
                     
-            el            elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and query:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(query)
-                result = translate(query, 'en', lang)
-
-                        elif cmd in ("/braille", "braille") and query:
-                from shared.accessibility import to_braille
-                result = to_braille(query)
-
-                        elif cmd in ("/simple", "simple"):
-                from shared.accessibility import simplify_response, large_print
-                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
-            elif cmd in ("/normal", "normal"):
-                result = "Normal mode restored."
-
-            if cmd in ("/help",):
+            elif cmd in ("/help",):
                 result = "RustyPyCraw - Python/Rust Interop\n  /scan <path> - Scan codebase\n  /analyze <path> - Analyze interop\n  /compare <py> <rs> - Compare Python/Rust\n  /stats\n  Uses: WebClaw + DataClaw + CrustyClaw + ClawCoder -> LLMClaw -> FileClaw"
             elif cmd in ("/stats",):
                 result = f"RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: {self.state.get('interactions', 0)}"

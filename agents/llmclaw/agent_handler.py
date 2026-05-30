@@ -171,23 +171,6 @@ Provide a comprehensive answer with citations from the context above. Include sp
                 models = _get_working_llms()
                 std = [m for m in models if not m.get("obliterated")]
                 result = f"Standard models available: {len(std)}\n" + "\n".join(m["model"] for m in std)
-                        elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and query:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(query)
-                result = translate(query, 'en', lang)
-
             elif cmd in ("/help", "help"):
                 result = "LLMClaw - Model Manager + Orchestrator\n  /llm <prompt> - Direct inference\n  /orchestrate <query> - Multi-agent orchestration\n  /models /use /obliterated /normal /help /stats"
             elif cmd in ("/stats", "stats"):

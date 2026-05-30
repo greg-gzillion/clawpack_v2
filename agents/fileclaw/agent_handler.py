@@ -225,27 +225,6 @@ class FileClawAgent(BaseAgent):
                 result = delegate("fileclaw", target, task_text)
             elif cmd == "/docuclaw" and rest:
                 result = delegate("fileclaw", "docuclaw", f"/create {rest}", timeout=60)
-                        elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and query:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(query)
-                result = translate(query, 'en', lang)
-
-                        elif cmd in ("/braille", "braille") and query:
-                from shared.accessibility import to_braille
-                result = to_braille(query)
-
             elif cmd == "/help":
                 result = f"FileClaw - {len(self.binary_importers) + len(self.text_formats)} Format Handler\n\n  /import <file>     - Read any supported file\n  /export <fmt> <content> - Export to any format\n  /convert <src> <fmt> - Convert between formats\n  /formats           - List supported formats\n  /delegate <agent> <task> - Cross-agent delegation\n  /help /stats"
             elif cmd == "/stats":
@@ -253,13 +232,6 @@ class FileClawAgent(BaseAgent):
                 result = f"FileClaw | {total} formats | Import: {len(self.binary_importers)} binary + {len(self.text_formats)} text | Interactions: {self.state.get('interactions', 0)}"
             else:
                 result = "FileClaw: Use /import, /export, /convert, /formats, or /help"
-                        # Accessibility status bar
-            try:
-                from shared.status_bar import wrap_result_with_status
-                result = wrap_result_with_status(str(result))
-            except:
-                pass
-
             return {"status": "success", "result": str(result)}
         except Exception as e:
             log_err("fileclaw", cmd or "unknown", str(e)[:200])

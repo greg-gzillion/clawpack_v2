@@ -97,27 +97,6 @@ class DrawClawAgent(BaseAgent):
                 from agents.drawclaw.commands.qrcode_cmd import run
                 result = run(query)
 
-                        elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and query:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(query)
-                result = translate(query, 'en', lang)
-
-                        elif cmd in ("/braille", "braille") and query:
-                from shared.accessibility import to_braille
-                result = to_braille(query)
-
             elif cmd == "/help":
                 result = """DrawClaw - AI Prompt Studio + Drawing Tools
   DRAW:     /canvas - Interactive drawing window

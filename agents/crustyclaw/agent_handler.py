@@ -80,33 +80,6 @@ class CrustyClawAgent(BaseAgent):
         query = args if args else task
 
         try:
-                        elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and query:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(query)
-                result = translate(query, 'en', lang)
-
-                        elif cmd in ("/braille", "braille") and query:
-                from shared.accessibility import to_braille
-                result = to_braille(query)
-
-                        elif cmd in ("/simple", "simple"):
-                from shared.accessibility import simplify_response, large_print
-                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
-            elif cmd in ("/normal", "normal"):
-                result = "Normal mode restored."
-
             if cmd in ("/help",):
                 result = "CrustyClaw v5 - Constitutional Rust Agent\n  /rust /code <task>  /explain /audit /pinch /fix /test\n  /cargo <cmd>  /run\n  SHARED: /shared read|write\n  DELEGATE: /delegate <agent> <task>\n  /stats"
                 return {"status":"success","result":result}

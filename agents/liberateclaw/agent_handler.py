@@ -63,34 +63,7 @@ class LiberateClawAgent(BaseAgent):
                 result = f"[OBLITERATE] '{query}' - LiberateClaw removes refusal mechanisms via ablation.\nModels path: models/obliterated/"
             elif cmd in ("/use", "use") and query:
                 result = f"[SWITCH] Activating model: {query}\nUse LLMClaw to manage active model selection."
-            el            elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and query:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(query)
-                result = translate(query, 'en', lang)
-
-                        elif cmd in ("/braille", "braille") and query:
-                from shared.accessibility import to_braille
-                result = to_braille(query)
-
-                        elif cmd in ("/simple", "simple"):
-                from shared.accessibility import simplify_response, large_print
-                result = "Simplified mode active. All responses will use simple language. Type /normal to disable."
-            elif cmd in ("/normal", "normal"):
-                result = "Normal mode restored."
-
-            if cmd in ("/help",):
+            elif cmd in ("/help",):
                 result = "LiberateClaw - Model Liberation\n  /models - All 17 models\n  /liberated - Obliterated only\n  /obliterate <model> - Liberate model\n  /use <model> - Switch model\n  /stats"
             elif cmd in ("/stats",):
                 models = self._get_models()

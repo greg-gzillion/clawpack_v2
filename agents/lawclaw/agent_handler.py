@@ -136,22 +136,9 @@ All commands are memory-wired. Cross-agent delegation via capability registry.
 """
             elif cmd == "/stats":
                 result = f"LawClaw | Interactions: {self.state.get('interactions', 0)}"
-            elif cmd in ("/listen", "listen"):
-                from shared.accessibility import listen, detect_language
-                text = listen()
-                if text.startswith('[STT]'):
-                    result = text
-                else:
-                    lang = detect_language(text)
-                    result = f"[{lang.upper()}] {text}"
-            elif cmd in ("/translate", "translate") and args:
-                from shared.accessibility import translate, detect_language
-                lang = detect_language(args)
-                result = translate(args, 'en', lang)
             elif cmd == "/voice":
-                from shared.voice_hook import is_active, toggle
-                result = toggle()  # toggle on/off
-
+                from shared.voice_hook import toggle
+                result = toggle(self)
             elif cmd == "/analyze" and args:
                 from agents.lawclaw.commands.analyze import run as cmd_run
                 result = cmd_run(args)
