@@ -44,7 +44,7 @@ def run(args, agent=None):
 
     from agents.lawclaw.commands._helpers import llm, webclaw, chronicle, delegate
 from agents.lawclaw.commands._memory import show_prior, remember
-    prior = show_prior(args, out)
+        prior = show_prior(args, out)
 
     try:
         cl_context = ""

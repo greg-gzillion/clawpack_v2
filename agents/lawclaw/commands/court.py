@@ -254,7 +254,7 @@ def run(args, agent=None):
             state_code = intent.get("state_code")
             label = f"{state_code} state" if state_code else "United States"
             output.append(f"  Supreme Court: {label}")
-                        prompt = f"Provide information about the {label} Supreme Court. Include website URL, address, phone, number of justices, and key information."
+            prompt = f"Provide information about the {label} Supreme Court. Include website URL, address, phone, number of justices, and key information."
             resp = requests.post(f"{A2A}/v1/message/llmclaw", json={"task": f"/llm {prompt}", "agent": "lawclaw"}, timeout=120)
             result = ""
             if resp.status_code == 200:
