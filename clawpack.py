@@ -142,7 +142,7 @@ def main():
         banner()
         show_agents()
         
-        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), 'm' for model, or 'q' to quit: {RESET}").strip()
+        choice = input(f"\n{BOLD}{YELLOW} Select agent (1-21), v for voice, 'm' for model, or 'q' to quit: {RESET}").strip()
         
         if choice.lower() == 'q':
             clear()
@@ -174,4 +174,9 @@ def main():
             input("Press Enter...")
 
 if __name__ == "__main__":
+    try:
+        from shared.voice_hook import register_hotkey
+        register_hotkey()
+    except Exception:
+        pass
     main()
