@@ -1,4 +1,4 @@
-"""A2A Handler for DrawClaw - AI Prompts + Drawing Commands"""
+﻿"""A2A Handler for DrawClaw - AI Prompts + Drawing Commands"""
 import sys
 from pathlib import Path
 
