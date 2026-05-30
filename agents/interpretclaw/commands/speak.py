@@ -1,24 +1,29 @@
-def run(args):
-    """Text-to-speech using espeak"""
+﻿"""speak command - Cross-platform text-to-speech for translation pronunciation"""
+import sys
+import subprocess
+
+def run(args, agent=None):
     if not args:
-        return "Usage: speak <text>"
+        return "Usage: /speak <text>  — Speaks translated text aloud"
     
-    import subprocess
-    import sys
+    text = args.strip()
+    platform = sys.platform
     
     try:
-        # Try espeak (Linux)
-        result = subprocess.run(
-            ["espeak", args],
-            capture_output=True,
-            text=True,
-            timeout=10
-        )
-        if result.returncode == 0:
-            return f"🔊 Speaking: {args}"
+        if platform == "win32":
+            ps_script = f'Add-Type -AssemblyName System.Speech; $s = New-Object System.Speech.Synthesis.SpeechSynthesizer; $s.Speak("{text}")'
+            subprocess.run(["powershell", "-Command", ps_script], capture_output=True, timeout=15)
+            return f"Speaking: {text[:100]}"
+        
+        elif platform == "darwin":
+            subprocess.run(["say", text], capture_output=True, timeout=15)
+            return f"Speaking: {text[:100]}"
+        
         else:
-            return f"🔊 TTS error: {result.stderr}"
+            subprocess.run(["espeak", text], capture_output=True, timeout=10)
+            return f"Speaking: {text[:100]}"
+    
     except FileNotFoundError:
-        return "🔊 espeak not installed. Run: sudo apt install espeak"
+        return "TTS not available. Install espeak (Linux) or use Windows/macOS."
     except Exception as e:
-        return f"🔊 Error: {e}"
+        return f"TTS error: {str(e)[:100]}"
