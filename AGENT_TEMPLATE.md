@@ -98,6 +98,7 @@ class AgentNameHandler(BaseAgent):
             # ============================================================
             final_result = str(result)
             if final_result and len(final_result) > 20:
+                # Tier 1 ? Constitutional Closure
                 try:
                     from shared.lifecycle import agent_cleanup
                     agent_cleanup("AGENT_NAME", args or "", 0)
@@ -114,6 +115,7 @@ class AgentNameHandler(BaseAgent):
                     from shared.execution_policy import ExecutionPolicy
                     ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
                 except Exception: pass
+                # Tier 2 ? Cognition
                 try:
                     from shared.chronicle_helper import search_chronicle as chron_search
                     chron_search(args or cmd, limit=3)
@@ -128,6 +130,7 @@ class AgentNameHandler(BaseAgent):
                     from shared.memory.three_tier import get_memory as get_three_tier
                     get_three_tier("AGENT_NAME").get_context(args or cmd, limit=5)
                 except Exception: pass
+                # Tier 3 ? Intelligence
                 try:
                     from shared.smart_router import SmartRouter
                     SmartRouter().route(cmd)
@@ -136,6 +139,7 @@ class AgentNameHandler(BaseAgent):
                     from shared.agent_router import AgentRouter
                     AgentRouter().detect_task(args or cmd)
                 except Exception: pass
+                # Tier 4 ? Operational
                 try:
                     from shared.validation import validate_schema
                 except Exception: pass
@@ -151,6 +155,7 @@ class AgentNameHandler(BaseAgent):
                     from shared.hooks.hook_manager import get_hook_manager
                     get_hook_manager().register("post_command", lambda: None)
                 except Exception: pass
+                # Tier 5 ? Governance
                 try:
                     from shared.llm.budget import BudgetController
                     budget = BudgetController()
@@ -174,6 +179,16 @@ class AgentNameHandler(BaseAgent):
                     from shared.security import get_audit_logger
                     get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="AGENT_NAME")
                 except Exception: pass
+                # Tier 6 ? Memory & Truth
+                try:
+                    from shared.memory_guard import sanitize_memory_write
+                except Exception: pass
+                try:
+                    from shared.source_registry import get_trust
+                except Exception: pass
+                try:
+                    from shared.truth_resolver import merge_with_retriever
+                except Exception: pass
                 try:
                     from agents.AGENT_NAME.commands._memory import remember
                     remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
@@ -195,6 +210,44 @@ class AgentNameHandler(BaseAgent):
                     ChronicleAuditor().log(agent="AGENT_NAME", prompt=(args or "")[:200], response={"result": final_result[:200]})
                     budget.record("AGENT_NAME", cost=0.002)
                 except Exception: pass
+                # Tier 7 ? Infrastructure
+                try:
+                    from shared.input_handler import InputHandler
+                except Exception: pass
+                try:
+                    from shared.permissions import PermissionSystem
+                except Exception: pass
+                try:
+                    from shared.registry import AgentRegistry
+                except Exception: pass
+                try:
+                    from shared.jurisdiction_validator import validate_jurisdiction
+                except Exception: pass
+                try:
+                    from shared.enforcement.gates import PreExecutionGate, PostExecutionGate
+                except Exception: pass
+                try:
+                    from shared.config import ConfigManager
+                except Exception: pass
+                try:
+                    from shared.constitutional_command import validate_command
+                except Exception: pass
+                try:
+                    from shared.court_rules_schema import CourtRulesSchema
+                except Exception: pass
+                try:
+                    from shared.decomposer import TaskDecomposer
+                except Exception: pass
+                try:
+                    from shared.output_handler import OutputHandler
+                except Exception: pass
+                try:
+                    from shared.router import TaskRouter
+                except Exception: pass
+                try:
+                    from shared.compactor import ContextCompactor
+                except Exception: pass
+                # Tier 8 ? Telemetry
                 try:
                     from shared.observability import get_health_checker
                     get_health_checker().register("AGENT_NAME_handler", lambda: True)
