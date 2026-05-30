@@ -291,12 +291,11 @@ class BaseAgent:
         return {r['key']: r['value'] for r in results if r.get('agent') == self.name}
 
     def lookup_jurisdiction(self, city_state: str, resource_type: str = "all") -> dict:
-        """Search 3,800+ city jurisdiction files for local resources.
+        """Search 3,800+ city jurisdiction files using Chronicle FTS5 index.
         Args: city_state e.g. 'Denver CO', resource_type: 'library','hospital','police','building_codes','all'
         Returns: dict with libraries, hospitals, police, building_codes, urls, municipal_info
         """
         import re
-        from pathlib import Path
         
         parts = city_state.strip().split()
         if len(parts) < 2:
@@ -304,48 +303,62 @@ class BaseAgent:
         
         state = parts[-1].upper()
         city = " ".join(parts[:-1])
-        juris_path = Path(__file__).parent.parent / "agents" / "webclaw" / "references" / "lawclaw" / "jurisdictions" / "us" / state
-        
-        if not juris_path.exists():
-            return {"error": f"No jurisdiction data for {state}"}
         
         result = {"city": city, "state": state, "libraries": [], "hospitals": [], "police": [], "building_codes": [], "urls": [], "municipal_info": []}
         
-        for city_dir in juris_path.iterdir():
-            if not city_dir.is_dir(): continue
-            if city.lower() in city_dir.name.lower():
-                for md_file in city_dir.rglob("*.md"):
-                    try:
-                        content = md_file.read_text(encoding="utf-8", errors="ignore")
-                    except Exception: continue
+        # Use Chronicle FTS5 index ? searches across county boundaries automatically
+        try:
+            from agents.webclaw.core.chronicle_ledger import get_chronicle
+            chronicle = get_chronicle()
+            
+            # Search for city+state in the jurisdiction reference files
+            query = f"{city} {state}"
+            chronicle_results = chronicle.recover_by_context(query, limit=50)
+            
+            for entry in chronicle_results:
+                ctx = entry.get("context", "") if isinstance(entry, dict) else str(entry)
+                url = entry.get("url", "") if isinstance(entry, dict) else ""
+                
+                if not ctx:
+                    continue
+                
+                # Only process jurisdiction reference files
+                if "jurisdictions/us" not in str(url) and "jurisdictions/us" not in str(ctx):
+                    continue
+                
+                # Extract by resource type
+                for line in ctx.split("\n"):
+                    line_stripped = line.strip()
+                    if not line_stripped or len(line_stripped) < 10:
+                        continue
                     
                     if resource_type in ("all", "library"):
-                        for line in content.split("\n"):
-                            if "library" in line.lower() and ("http" in line or chr(8212) in line):
-                                result["libraries"].append(line.strip()[:200])
+                        if "library" in line_stripped.lower() and ("http" in line_stripped or chr(8212) in line_stripped or "—" in line_stripped):
+                            if line_stripped not in result["libraries"]:
+                                result["libraries"].append(line_stripped[:200])
                     
                     if resource_type in ("all", "hospital"):
-                        for line in content.split("\n"):
-                            if "hospital" in line.lower() or "medical center" in line.lower():
-                                result["hospitals"].append(line.strip()[:200])
+                        if ("hospital" in line_stripped.lower() or "medical center" in line_stripped.lower()) and len(line_stripped) > 20:
+                            if line_stripped not in result["hospitals"]:
+                                result["hospitals"].append(line_stripped[:200])
                     
                     if resource_type in ("all", "police"):
-                        for line in content.split("\n"):
-                            if "police" in line.lower():
-                                result["police"].append(line.strip()[:200])
+                        if "police" in line_stripped.lower() and len(line_stripped) > 20:
+                            if line_stripped not in result["police"]:
+                                result["police"].append(line_stripped[:200])
                     
                     if resource_type in ("all", "building_codes"):
-                        for line in content.split("\n"):
-                            if any(kw in line.lower() for kw in ["ibc ", "irc ", "building code", "frost depth", "snow load", "wind speed", "seismic", "permit"]):
-                                result["building_codes"].append(line.strip()[:200])
+                        if any(kw in line_stripped.lower() for kw in ["ibc ", "irc ", "building code", "frost depth", "snow load", "wind speed", "seismic", "permit"]):
+                            if line_stripped not in result["building_codes"]:
+                                result["building_codes"].append(line_stripped[:200])
                     
-                    for line in content.split("\n"):
-                        if "https://" in line:
-                            url = line[line.index("https://"):].split()[0].rstrip(")")
-                            if url not in result["urls"]:
-                                result["urls"].append(url)
-                
-                break
+                    if "https://" in line_stripped:
+                        extracted_url = line_stripped[line_stripped.index("https://"):].split()[0].rstrip(")")
+                        if extracted_url not in result["urls"]:
+                            result["urls"].append(extracted_url)
+        
+        except Exception:
+            pass
         
         return result
     
