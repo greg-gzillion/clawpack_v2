@@ -125,6 +125,17 @@ Adds age warnings to facts retrieved from UnifiedMemory.
 LawClaw handler boundary activates all 38 shared modules. First agent at 100% utilization.
 
 ### 6. PlotClaw Inter-Agent Fixes
+All 13 chart commands fixed for cross-agent calling.
+
+### 7. Circuit Breaker on BaseAgent.call_agent()
+5 consecutive failures opens circuit for 60s, then half-open recovery. Protects all cross-agent calls.
+
+### 8. lookup_jurisdiction() on BaseAgent
+All 21 agents inherit Chronicle-powered jurisdiction lookup. Library, hospital, police, and building code data from 3,800+ cities via FTS5 index.
+
+### 9. Agent Constitutionalization (7 agents upgraded)
+Pattern: _memory.py bridge + _helpers.py utilities + 23-system boundary block + capability routing.
+Deployed to claw_coder, crustyclaw, dataclaw, designclaw, mediclaw, draftclaw.
 All 13 chart commands fixed for cross-agent calling:
 - Schema imports changed from relative (`from schema import`) to absolute (`from agents.plotclaw.schema import`)
 - Smart title/axis label extraction from natural language input
