@@ -1,66 +1,107 @@
-﻿# A2A Communication Protocol - Clawpack V2
+﻿# A2A Communication Protocol — Clawpack V2
 
 ## How Agents Talk to Each Other
 
 All agent-to-agent communication routes through the A2A server on port 8766.
-The constitutional path is BaseAgent.call_agent() inherited by every agent.
+The constitutional path is `BaseAgent.call_agent()` — inherited by all 21 agents,
+protected by circuit breaker (5 failures = 60s open circuit), and tracked by
+the task state machine (pending → running → completed/failed/killed).
 
 ## Calling Another Agent
 
 ### From any agent handler (via BaseAgent):
+```python
 result = self.call_agent("webclaw", f"search {query}", timeout=15)
 result = self.call_agent("docuclaw", f"/create {content}", timeout=60)
+From any command (pass agent=self from handler):
+python
+def run(args, agent=None):
+    result = agent.call_agent("plotclaw", f"/bar {data}", timeout=30)
+    context = agent.ask_llm(prompt)  # Sovereign Gateway
+    chronicle_results = agent.search_chronicle(query, limit=5)
+    hospitals = agent.lookup_jurisdiction("Denver CO", "hospital")
+Cached search (automatic 24hr cache via DataClaw):
+python
+result = self.cached_search("qualified immunity", timeout=15)
+# First call: hits webclaw, caches result
+# Subsequent calls within 24hr: returns cached result (zero tokens)
+Communication Paths
+1. Capability Registry (Automatic)
+Unrecognized commands auto-route to the correct agent via shared/capabilities.py.
+Any agent can type /plot data and it silently routes to plotclaw.
 
-### From any command (via shared/_agent_helpers.py):
-from shared._agent_helpers import delegate
-result = delegate("myclaw", "docuclaw", "/create legal brief: {content}", timeout=60)
+2. Direct Delegation (Explicit)
+python
+/delegate plotclaw /bar Q1 45 Q2 62 Q3 58 Q4 71
+3. Enriched Delegation (Domain-Specific)
+Agents add domain expertise before delegating:
 
-### Empire-wide helper (all 21 agents import this):
-from shared._agent_helpers import delegate, llm, chronicle, log_err
+lawclaw /doc → enriches with jurisdiction data → docuclaw
 
-## What Each Agent Accepts
+lawclaw /translate → adds legal term preservation → interpretclaw → docuclaw
 
-| Agent | Command | Returns |
-|-------|---------|---------|
-| docuclaw | /create [content] | document path |
-| plotclaw | /plot [data] | chart |
-| webclaw | fetch [url] | page content |
-| webclaw | search [query] | search results |
-| dataclaw | search [query] | local file results |
-| flowclaw | /flowchart [desc] | diagram |
-| mediclaw | /med [query] | medical analysis |
-| claw_coder | /code [task] | generated code file |
-| fileclaw | /export [fmt] [content] | exported file path |
-| interpretclaw | /translate [text] to [lang] | translated text |
-| lawclaw | /law [topic] | legal research |
-| lawclaw | /docket [case] | docket entries |
-| lawclaw | /jurisdiction [location] | civic profile |
+mediclaw /translate → adds medical term preservation → interpretclaw → docuclaw
 
-## Response Format
+claw_coder /code rust → calls crustclaw /audit for best practices
 
-All agents return the same format:
+Response Format
+All agents return:
+
+json
 {"status": "success"|"error", "result": "string content"}
+What Each Agent Accepts
+AgentCommandsReturns
+docuclaw/create [content]Formatted document
+plotclaw/bar, /pie, /plot, /scatter, /hist, 9 moreChart PNG
+webclawfetch [url], search [query]Page content / search results
+dataclaw/search [query], /export [fmt] [query]Local file results
+flowclaw/flowchart, /sequence, /architecture, /mindmapMermaid diagram
+mediclaw/diagnose, /emergency, /er, /hospital, /specialty, /doc, /referralMedical analysis + hospital routing
+claw_coder/code, /explain, /debug, /review, /tutorialGenerated code
+crustyclaw/rust, /audit, /pinch, /fix, /test, /cargoRust audit/analysis
+fileclaw/import [path], /export [fmt] [content], /convertFile operations
+interpretclaw/translate [text] to [lang], /detect, /braille, /speakTranslation (42 languages)
+langclaw/lesson, /vocab, /practice, /teach, /speakLanguage teaching
+lawclaw/law, /docket, /jurisdiction, /doc, /translate, 18 moreLegal research + documents
+mathematicaclaw/solve, /plot, /math, /calculusMath solutions
+designclaw/brand, /logo, /colors, /kit, /buildingcodesBrand identity + building codes
+draftclaw/structural, /permit, /blueprint, /cad, /lookupTechnical drawings
+drawclaw/draw, /sketch, /paint, /illustrate, /libraryArt prompts + resources
+dreamclaw/dream, /imagineAI vision prompts
+liberateclaw/models, /liberated, /obliterate, /useModel management
+llmclaw/llm, /use, /list, /normal, /obliteratedModel orchestration
+txclawBlockchain commandsTX operations
+rustypycraw/crawl, /scan, /analyzeCode analysis
+Connection Status (May 29, 2026 — EVENING)
+11 agents fully constitutional (10/10 audit score):
+lawclaw, claw_coder, crustyclaw, designclaw, mediclaw, draftclaw, dreamclaw,
+interpretclaw, langclaw, liberateclaw, dataclaw
 
-Extract with:
-resp.json().get("result", "")
+9 agents partially connected (boundary + routing active, audit cosmetic gaps):
+docuclaw, drawclaw, fileclaw, flowclaw, llmclaw, mathematicaclaw, plotclaw,
+rustypycraw, txclaw, webclaw
 
-## Connection Status (May 28, 2026)
+All agents share:
 
-All 21 agents inherit from BaseAgent. All 21 agents import shared/_agent_helpers.py.
-Cross-agent delegation available empire-wide via call_agent() and delegate().
-Constitutional audit logging (log_err) active on all agents.
+23-system constitutional boundary (36 shared systems)
 
-Key outbound connections:
-- claw_coder: webclaw, dataclaw, crustyclaw + 14 via /delegate
-- flowclaw: webclaw, dataclaw, fileclaw + 14 via /delegate
-- docuclaw: fileclaw, interpretclaw + 14 via /delegate
-- mediclaw: webclaw, dataclaw, lawclaw, fileclaw
-- rustypycraw: webclaw, dataclaw, crustyclaw, claw_coder
-- lawclaw: webclaw, docuclaw, plotclaw, flowclaw
+Circuit breaker on all cross-agent calls
 
-## Adding a New Connection
+Task state machine (pending → running → completed/failed/killed)
 
-1. Agent must inherit from BaseAgent (all 21 do)
-2. Use self.call_agent(target, task, timeout) in handler
-3. Or use delegate(agent_name, target, task, timeout) from _agent_helpers
-4. Document in AGENT_CAPABILITIES.md
+Chronicle FTS5 jurisdiction lookup via BaseAgent.lookup_jurisdiction()
+
+Memory staleness warnings on facts older than 24 hours
+
+Search result caching via DataClaw (24hr TTL)
+
+Adding a New Connection
+Agent must inherit from BaseAgent (all 21 do)
+
+Use self.call_agent(target, task, timeout) for cross-agent calls
+
+Use self.cached_search(query, timeout) for cached web searches
+
+Use self.ask_llm(prompt) for Sovereign Gateway access
+
+Use self.lookup_jurisdiction(city_state, type) for civic data
