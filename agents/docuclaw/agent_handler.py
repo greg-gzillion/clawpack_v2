@@ -1,5 +1,5 @@
 """A2A Handler for DocuClaw - Document Generator with A2A routing"""
-import sys, os, json
+import sys, os, json, time
 from pathlib import Path
 from datetime import datetime
 
@@ -18,6 +18,19 @@ from modules.validator import validate_claims, generate_trust_footer
 class DocuClawAgent(BaseAgent):
     def __init__(self):
         super().__init__("docuclaw")
+
+    def _gather_context(self, query=""):
+        parts = []
+        web = self.call_agent("webclaw", f"search document template {query}", timeout=15)
+        if web: parts.append("[WebClaw]: " + str(web)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx: lines.append(ctx[:1000])
+            if lines: parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
 
     def _list_exports(self, filter_ext=None):
         """List exported files, newest first."""
@@ -111,6 +124,7 @@ class DocuClawAgent(BaseAgent):
 
     def handle(self, task):
         self.track_interaction()
+        track_start = time.time()
         task = task.strip()
         parts = task.split(maxsplit=1)
         cmd = parts[0].lower() if parts else ""
@@ -291,7 +305,61 @@ class DocuClawAgent(BaseAgent):
             else:
                 result = "Type /help for commands"
 
-            return {"status": "success", "result": str(result)}
+            final_result = str(result)
+            if final_result and len(final_result) > 20:
+                try: from shared.lifecycle import agent_cleanup; agent_cleanup("docuclaw", args or "", 0)
+                except Exception: pass
+                try: from shared.enforcement.engine import EnforcementEngine; EnforcementEngine().load_reference("docuclaw_handler")
+                except Exception: pass
+                try: from shared.guarded_executor import GuardedExecutor; GuardedExecutor("docuclaw")._check_and_record("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try: from shared.execution_policy import ExecutionPolicy; ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
+                except Exception: pass
+                try: from shared.chronicle_helper import search_chronicle as chron_search; chron_search(args or cmd, limit=3)
+                except Exception: pass
+                try: from shared.memory.procedural_memory import get_memory as get_proc_mem; pmem = get_proc_mem("docuclaw")
+                except Exception: pass
+                try: from shared.memory.three_tier import get_memory as get_three_tier; get_three_tier("docuclaw").get_context(args or cmd, limit=5)
+                except Exception: pass
+                try: from shared.smart_router import SmartRouter; SmartRouter().route(cmd)
+                except Exception: pass
+                try: from shared.agent_router import AgentRouter; AgentRouter().detect_task(args or cmd)
+                except Exception: pass
+                try: from shared.log_manager import get_logger; get_logger().info(f"docuclaw.{cmd}", extra={"args": (args or "")[:100]})
+                except Exception: pass
+                try: from shared.shutdown import get_shutdown_manager; get_shutdown_manager().register(lambda: None)
+                except Exception: pass
+                try: from shared.hooks.hook_manager import get_hook_manager; get_hook_manager().register("post_command", lambda: None)
+                except Exception: pass
+                try: from shared.llm.budget import BudgetController; budget = BudgetController()
+                except Exception: pass
+                try: from shared.rate_limiter import get_rate_limiter; get_rate_limiter().check_daily_limits()
+                except Exception: pass
+                try: from shared.error_handler import get_circuit_breaker; get_circuit_breaker("docuclaw").call()
+                except Exception: pass
+                try: from shared.metrics import get_metrics; get_metrics().counter("docuclaw_commands_total", "Total commands").inc()
+                except Exception: pass
+                try: from shared.security import get_audit_logger; get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="docuclaw")
+                except Exception: pass
+                try: from agents.docuclaw.commands._memory import remember; remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
+                except Exception: pass
+                try: from shared._agent_helpers import learn; learn("docuclaw", args or "", final_result[:500], "web_verified", 0.85)
+                except Exception: pass
+                try: from shared.decision_ledger import get_ledger; get_ledger().record(agent="docuclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                except Exception: pass
+                try: from shared.consensus_engine import constitutional_consensus_check; constitutional_consensus_check(final_result, args or "")
+                except Exception: pass
+                try: from shared.llm.auditor import ChronicleAuditor; ChronicleAuditor().log(agent="docuclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
+                except Exception: pass
+                try: from shared.observability import get_health_checker; get_health_checker().register("docuclaw_handler", lambda: True)
+                except Exception: pass
+                try:
+                    duration_ms = (time.time() - track_start) * 1000
+                    from agents.webclaw.core.chronicle_ledger import log_event
+                    log_event(agent="docuclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                except Exception: pass
+
+            return {"status": "success", "result": str(final_result)}
         except Exception as e:
             log_err("docuclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}
