@@ -21,21 +21,21 @@ def agent_cleanup(agent_name: str, task: str = "", duration_ms: float = 0):
     except Exception as e:
         errors.append(f"gc: {e}")
     try:
-        from agents.webclaw.core.chronicle_ledger import log_event
-        log_event(
-            agent=agent_name,
-            event="agent_invocation_complete",
-            detail=f"task={str(task)[:100]} duration_ms={duration_ms:.0f}"
+        from agents.webclaw.core.chronicle_ledger import get_chronicle
+        get_chronicle().record_fetch(
+            url=f"agent:{agent_name}",
+            context="agent_invocation_complete",
+            source="lifecycle",
+            metadata={"task": str(task)[:100], "duration_ms": duration_ms}
         )
     except Exception as e:
         errors.append(f"log: {e}")
     try:
         from shared.decision_ledger import get_ledger
-        get_ledger().record(
+        get_ledger().record_action(
             agent=agent_name,
             action="invocation_complete",
-            query=str(task)[:200],
-            result=f"duration_ms={duration_ms:.0f}"
+            policy_result={"query": str(task)[:200], "duration_ms": duration_ms}
         )
     except Exception as e:
         errors.append(f"ledger: {e}")

@@ -238,8 +238,8 @@ def log_err(agent_name: str, context: str, error: str) -> None:
             log_err("myclaw", "fetch_timeout", str(e)[:200])
     """
     try:
-        from agents.webclaw.core.chronicle_ledger import log_event
-        log_event(agent=agent_name, event=context, detail=str(error)[:500])
+        from agents.webclaw.core.chronicle_ledger import get_chronicle
+        get_chronicle().record_fetch(url=f"agent:{agent_name}", context=context, source="_agent_helpers", metadata={"detail": str(error)[:500]})
     except Exception:
         try:
             print(f"[{agent_name}] {context}: {error}", flush=True)
@@ -341,7 +341,7 @@ def smart_llm(agent_name: str, prompt: str, timeout: int = 120) -> str:
 def _log(agent_name: str, context: str, detail: str = "") -> None:
     """Internal logging — always silent on failure."""
     try:
-        from agents.webclaw.core.chronicle_ledger import log_event
-        log_event(agent=agent_name, event=context, detail=str(detail)[:500])
+        from agents.webclaw.core.chronicle_ledger import get_chronicle
+        get_chronicle().record_fetch(url=f"agent:{agent_name}", context=context, source="_agent_helpers", metadata={"detail": str(detail)[:500]})
     except Exception:
         pass
