@@ -1,5 +1,5 @@
 ﻿"""A2A Handler for DrawClaw - AI Prompts + Drawing Commands"""
-import sys
+import sys, time
 from pathlib import Path
 
 DRAWCLAW_DIR = Path(__file__).resolve().parent
