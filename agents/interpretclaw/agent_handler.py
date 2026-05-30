@@ -38,7 +38,7 @@ class InterpretClawAgent(BaseAgent):
             elif cmd in ("/detect", "detect") and query:
                 result = self.ask_llm(f"Detect language of this text. Reply with language name only: {query}")
             elif cmd in ("/languages", "/langs"):
-                result = """LANGUAGES (39 supported)
+                result = """LANGUAGES (40 supported)
 af - Afrikaans  sq - Albanian  am - Amharic  ar - Arabic  hy - Armenian  az - Azerbaijani
 eu - Basque  be - Belarusian  bn - Bengali  bs - Bosnian  bg - Bulgarian  ca - Catalan
 zh - Chinese  hr - Croatian  cs - Czech  da - Danish  nl - Dutch  en - English
@@ -47,15 +47,16 @@ hi - Hindi  hu - Hungarian  is - Icelandic  id - Indonesian  it - Italian
 ja - Japanese  ko - Korean  lv - Latvian  lt - Lithuanian  ms - Malay  mt - Maltese
 no - Norwegian  pl - Polish  pt - Portuguese  ro - Romanian  ru - Russian
 sr - Serbian  sk - Slovak  sl - Slovenian  es - Spanish  sw - Swahili  sv - Swedish
-th - Thai  tr - Turkish  uk - Ukrainian  vi - Vietnamese  cy - Welsh  zu - Zulu"""
+th - Thai  tr - Turkish  uk - Ukrainian  vi - Vietnamese  cy - Welsh  zu - Zulu
+la - Latin"""
             elif cmd in ("/speak", "speak") and query:
                 result = f"[TTS] {query} (TTS requires espeak or system TTS)"
             elif cmd in ("/listen", "listen"):
                 result = "[STT] Speech recognition requires microphone access"
             elif cmd in ("/help",):
-                result = "InterpretClaw - 39 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats"
+                result = "InterpretClaw - 40 Languages\n  /translate <text> to <lang>\n  /detect <text>\n  /speak <text>\n  /listen\n  /languages\n  /delegate <agent> <task>\n  /stats"
             elif cmd in ("/stats",):
-                result = f"InterpretClaw | 39 Languages | Interactions: {self.state.get('interactions', 0)}"
+                result = f"InterpretClaw | 40 Languages | Interactions: {self.state.get('interactions', 0)}"
             elif cmd in ("/delegate",) and args:
                 parts2 = args.split(maxsplit=1); target = parts2[0]
                 task_text = parts2[1] if len(parts2) > 1 else ""
