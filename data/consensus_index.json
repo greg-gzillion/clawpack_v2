@@ -3851,8 +3851,260 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-30T15:29:12.465085+00:00",
       "last_updated": "2026-05-30T15:29:12.465085+00:00"
+    },
+    "32bd569ce9680121": {
+      "fact_id": "32bd569ce9680121",
+      "fact_value": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 21",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:45.275420+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:45.275420+00:00",
+      "last_updated": "2026-05-30T17:30:45.275420+00:00"
+    },
+    "98e687a8a3effeed": {
+      "fact_id": "98e687a8a3effeed",
+      "fact_value": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 18",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:45.726089+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:45.726089+00:00",
+      "last_updated": "2026-05-30T17:30:45.726089+00:00"
+    },
+    "63600c61078cf477": {
+      "fact_id": "63600c61078cf477",
+      "fact_value": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 17",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:46.040574+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:46.040574+00:00",
+      "last_updated": "2026-05-30T17:30:46.040574+00:00"
+    },
+    "397cb928d2fd1f37": {
+      "fact_id": "397cb928d2fd1f37",
+      "fact_value": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 11",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:46.798317+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:46.798317+00:00",
+      "last_updated": "2026-05-30T17:30:46.798317+00:00"
+    },
+    "acf657129f799bf8": {
+      "fact_id": "acf657129f799bf8",
+      "fact_value": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-30 11:30",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:46.979981+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T17:30:46.979981+00:00",
+      "last_updated": "2026-05-30T17:31:06.505336+00:00"
+    },
+    "e1c0777fe35256da": {
+      "fact_id": "e1c0777fe35256da",
+      "fact_value": "[FAIL] could not convert string to float: '/stats'",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:47.159967+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-30T17:30:47.159967+00:00",
+      "last_updated": "2026-05-30T17:31:06.683137+00:00"
+    },
+    "13c9038bc6bc1c3b": {
+      "fact_id": "13c9038bc6bc1c3b",
+      "fact_value": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 4",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:47.304055+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:47.304055+00:00",
+      "last_updated": "2026-05-30T17:30:47.304055+00:00"
+    },
+    "9732d04ad1655d17": {
+      "fact_id": "9732d04ad1655d17",
+      "fact_value": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 6",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:48.984060+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:48.984060+00:00",
+      "last_updated": "2026-05-30T17:30:48.984060+00:00"
+    },
+    "9c0646d4e481f03c": {
+      "fact_id": "9c0646d4e481f03c",
+      "fact_value": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 22",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:30:59.059237+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:30:59.059237+00:00",
+      "last_updated": "2026-05-30T17:30:59.059237+00:00"
+    },
+    "eee7363c500d04f4": {
+      "fact_id": "eee7363c500d04f4",
+      "fact_value": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 19",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:31:05.705320+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:31:05.705320+00:00",
+      "last_updated": "2026-05-30T17:31:05.705320+00:00"
+    },
+    "d4fc10e9d519a25f": {
+      "fact_id": "d4fc10e9d519a25f",
+      "fact_value": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 18",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:31:06.016906+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:31:06.016906+00:00",
+      "last_updated": "2026-05-30T17:31:06.016906+00:00"
+    },
+    "2458da133d4ab045": {
+      "fact_id": "2458da133d4ab045",
+      "fact_value": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 12",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:31:06.327557+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:31:06.327557+00:00",
+      "last_updated": "2026-05-30T17:31:06.327557+00:00"
+    },
+    "725b3411452dcf5d": {
+      "fact_id": "725b3411452dcf5d",
+      "fact_value": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 5",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:31:06.870186+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:31:06.870186+00:00",
+      "last_updated": "2026-05-30T17:31:06.870186+00:00"
+    },
+    "c697973ddd5a0a7e": {
+      "fact_id": "c697973ddd5a0a7e",
+      "fact_value": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 7",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-30T17:31:07.036714+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-30T17:31:07.036714+00:00",
+      "last_updated": "2026-05-30T17:31:07.036714+00:00"
     }
   },
   "corrections": [],
-  "updated_at": "2026-05-30T15:47:20.903418+00:00"
+  "updated_at": "2026-05-30T17:31:07.038710+00:00"
 }

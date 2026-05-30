@@ -104,6 +104,11 @@ Restructured: /help and /stats return immediately. Was >20s, now 0.2s.
 
 ---
 
+## Verification
+Run after any agent upgrade:
+    python scripts/constitutional_test.py
+Measures 10 criteria. Target: 10/10.
+
 ## Pattern for Upgrading Any Agent (3 files)
 1. commands/_memory.py - copy from lawclaw, change agent name
 2. commands/_helpers.py - agent-specific utilities + jurisdiction lookup

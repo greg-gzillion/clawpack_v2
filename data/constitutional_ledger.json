@@ -4383,6 +4383,582 @@
       "context": {},
       "previous_hash": "ff9bf08c693a3dbe",
       "hash": "acfc6074caaf63db"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:44.805522+00:00",
+      "agent": "drawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "acfc6074caaf63db",
+      "hash": "a8f59167d3febb8a"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:44.832229+00:00",
+      "agent": "drawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "a8f59167d3febb8a",
+      "hash": "e851d2c11098cf95"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.319923+00:00",
+      "agent": "dreamclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e851d2c11098cf95",
+      "hash": "c7dd2d789f089f46"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.334465+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "c7dd2d789f089f46",
+      "hash": "add6f9a854e5f430"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.499012+00:00",
+      "agent": "interpretclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "add6f9a854e5f430",
+      "hash": "dd1622359dcb3f14"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.515028+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "dd1622359dcb3f14",
+      "hash": "ed5e8c147569df87"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.625538+00:00",
+      "agent": "langclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "ed5e8c147569df87",
+      "hash": "c76108d305e53be1"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.641054+00:00",
+      "agent": "langclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "c76108d305e53be1",
+      "hash": "d85fa0bac1984a38"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.770614+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "d85fa0bac1984a38",
+      "hash": "474275d205a71945"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.784619+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "474275d205a71945",
+      "hash": "0d78926301a6ca6c"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.931591+00:00",
+      "agent": "liberateclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "0d78926301a6ca6c",
+      "hash": "b6195bb0c7f14766"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:45.947024+00:00",
+      "agent": "liberateclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "b6195bb0c7f14766",
+      "hash": "83356b33b8c798e7"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:46.080087+00:00",
+      "agent": "llmclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "83356b33b8c798e7",
+      "hash": "3a5c7433e3bd45a4"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:46.095090+00:00",
+      "agent": "llmclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "3a5c7433e3bd45a4",
+      "hash": "81e891011b4f7cdf"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:46.699710+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "81e891011b4f7cdf",
+      "hash": "bebd717a9f706627"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:46.715793+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "bebd717a9f706627",
+      "hash": "1e73496cfd0d0c99"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:46.864857+00:00",
+      "agent": "mediclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "1e73496cfd0d0c99",
+      "hash": "4723f60630f5c539"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:46.878863+00:00",
+      "agent": "mediclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "4723f60630f5c539",
+      "hash": "03cf5646282b9b9b"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:47.057827+00:00",
+      "agent": "plotclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "03cf5646282b9b9b",
+      "hash": "fce3190c4cc68329"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:47.072846+00:00",
+      "agent": "plotclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "fce3190c4cc68329",
+      "hash": "9b5e1d10d61720d5"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:47.232045+00:00",
+      "agent": "rustypycraw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "9b5e1d10d61720d5",
+      "hash": "e6aca4d74f9e3f5d"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:47.247056+00:00",
+      "agent": "rustypycraw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "e6aca4d74f9e3f5d",
+      "hash": "dac7459d2c94c658"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:48.877585+00:00",
+      "agent": "txclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "dac7459d2c94c658",
+      "hash": "98a62805724b5507"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:48.894520+00:00",
+      "agent": "txclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "98a62805724b5507",
+      "hash": "be38e5fedf48758f"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:56.051774+00:00",
+      "agent": "drawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "be38e5fedf48758f",
+      "hash": "ab3216d28931dff4"
+    },
+    {
+      "timestamp": "2026-05-30T17:30:58.987722+00:00",
+      "agent": "drawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "ab3216d28931dff4",
+      "hash": "f1fd9f462d43eae5"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.217108+00:00",
+      "agent": "dreamclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "f1fd9f462d43eae5",
+      "hash": "77106f8192b9ceb4"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.283652+00:00",
+      "agent": "dreamclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "77106f8192b9ceb4",
+      "hash": "be882740b1412433"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.449227+00:00",
+      "agent": "interpretclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "be882740b1412433",
+      "hash": "b9c761819c7ad528"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.467225+00:00",
+      "agent": "interpretclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "b9c761819c7ad528",
+      "hash": "426743d3cdba66f0"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.602786+00:00",
+      "agent": "langclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "426743d3cdba66f0",
+      "hash": "9711c67f73abd6bb"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.619783+00:00",
+      "agent": "langclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "9711c67f73abd6bb",
+      "hash": "bec4c1fb78f88931"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.762837+00:00",
+      "agent": "lawclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "bec4c1fb78f88931",
+      "hash": "aac8a44d5ea7a337"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.779838+00:00",
+      "agent": "lawclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "aac8a44d5ea7a337",
+      "hash": "595662cd5ffb45ec"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.909354+00:00",
+      "agent": "liberateclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "595662cd5ffb45ec",
+      "hash": "ff7fe07793574e9b"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:05.929372+00:00",
+      "agent": "liberateclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "ff7fe07793574e9b",
+      "hash": "c56096c25bf7233a"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.070463+00:00",
+      "agent": "llmclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "c56096c25bf7233a",
+      "hash": "06a1121389d091d8"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.085464+00:00",
+      "agent": "llmclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "06a1121389d091d8",
+      "hash": "4be69e6c1aabc232"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.216011+00:00",
+      "agent": "mathematicaclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "4be69e6c1aabc232",
+      "hash": "520c4926a2918cef"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.238035+00:00",
+      "agent": "mathematicaclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "520c4926a2918cef",
+      "hash": "a644533aafdbf23b"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.391076+00:00",
+      "agent": "mediclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "a644533aafdbf23b",
+      "hash": "892042db79b18420"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.408072+00:00",
+      "agent": "mediclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "892042db79b18420",
+      "hash": "9e07912d821047f3"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.558597+00:00",
+      "agent": "plotclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "9e07912d821047f3",
+      "hash": "9890ba9dffba36bc"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.585596+00:00",
+      "agent": "plotclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "9890ba9dffba36bc",
+      "hash": "faea62ff9f14eebb"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.749656+00:00",
+      "agent": "rustypycraw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "faea62ff9f14eebb",
+      "hash": "0ab2aa3b4ba89432"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.774657+00:00",
+      "agent": "rustypycraw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "0ab2aa3b4ba89432",
+      "hash": "e9021bc233ebb19f"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.927196+00:00",
+      "agent": "txclaw",
+      "action": "invocation_complete",
+      "allowed": false,
+      "level": "unknown",
+      "reason": "",
+      "context": {},
+      "previous_hash": "e9021bc233ebb19f",
+      "hash": "9a5e6d77b60e2378"
+    },
+    {
+      "timestamp": "2026-05-30T17:31:06.946707+00:00",
+      "agent": "txclaw",
+      "action": "handler_boundary",
+      "allowed": false,
+      "level": "ApprovalLevel.BLOCKED",
+      "reason": "Unknown action: handler_boundary",
+      "context": {
+        "cmd": "/stats"
+      },
+      "previous_hash": "9a5e6d77b60e2378",
+      "hash": "1a98d148729bc0a0"
     }
   ],
   "version": "v1.0"
