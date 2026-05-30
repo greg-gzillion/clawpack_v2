@@ -1,6 +1,8 @@
 ﻿# CLAWPACK V2
 
-Policy-enforced local-first multi-agent runtime with audited memory and constitutional execution boundaries. Not an orchestration wrapper around external APIs — a runtime where execution passes through enforced policy gates before agent dispatch.
+Policy-enforced local-first multi-agent runtime with audited memory and constitutional execution boundaries.
+
+Not an orchestration wrapper around external APIs — a runtime where execution passes through enforced policy gates before agent dispatch.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg)](https://doi.org/10.5281/zenodo.19713157)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--9191--5556-a6ce39?logo=orcid)](https://orcid.org/0009-0001-9191-5556)
@@ -9,13 +11,25 @@ Policy-enforced local-first multi-agent runtime with audited memory and constitu
 
 **21 agents · 36 shared systems · Chronicle FTS5 (35K+) · A2A routing · Circuit breaker protected**
 
-**Runtime Health:** 20/21 agents loading clean · Chronicle index: 35K+ interactions · A2A port: 8766
+---
+
+## Runtime Health
+
+| Metric | Value |
+|--------|-------|
+| Agent availability | 21/21 responsive |
+| Median control-path latency | 0.2s |
+| A2A transport | Healthy (port 8766) |
+| Chronicle index | 35,553 interactions |
+| LLM providers | 4/4 operational |
+| Provider chain | Groq → Ollama → OpenRouter → Anthropic |
+| Lifecycle cleanup errors | 0 (contract drift resolved 2026-05-30) |
 
 ---
 
 ## What It Does
 
-### Legal Document Drafting — One Command
+### Legal Document Drafting
 
 ```bash
 lawclaw> /doc service agreement between ABC LLC and XYZ Corp for IT services - governing law Delaware
@@ -30,13 +44,16 @@ Differential assessment with urgency triage, nearest ER with GPS coordinates, au
 3,800+ City Civic Database
 bash
 lawclaw> /jurisdiction Daytona Beach FL
-Courts · Police · Jail · Hospitals (GPS) · Library · Building Permits. Shared jurisdiction lookup available across the mesh. Returns from Chronicle FTS5 — no API calls, no latency.
+Courts · Police · Jail · Hospitals (GPS) · Library · Building Permits. Returns from Chronicle FTS5 in under 0.05s — no API calls.
 
 Cross-Agent Mesh
-Type /plot bar sales data in lawclaw → routes to plotclaw. Type /code python hello → routes to claw_coder. Any agent accesses any capability. Circuit breaker protected. Task state tracked. Delegation governed by capability registry.
+bash
+lawclaw> /plot bar sales data     # routes to plotclaw
+lawclaw> /code python hello       # routes to claw_coder
+Any agent accesses any capability. Circuit breaker protected. Delegation governed by capability registry.
 
 Architecture
-36 shared systems in 8 tiers fire on every command through the constitutional handler boundary. LawClaw is the reference implementation at 100% shared infrastructure utilization.
+36 shared systems organized in tiers. LawClaw is the reference implementation exercising the full constitutional execution stack.
 
 TierSystemsPurpose
 Constitutional Closurelifecycle, enforcement, guarded_executor, execution_policyExecution safety
@@ -49,7 +66,7 @@ Infrastructureinput_handler, permissions, registry, jurisdiction_validator, enfo
 Telemetryobservability, chronicle_ledgerMonitoring
 Truth hierarchy enforced at runtime: web_verified > chronicle > memory > inference. Lower-tier facts cannot override higher-tier sources. Inference-tier facts never persist to shared memory.
 
-LLM access governed by Sovereign Gateway. All model calls route through shared/llm/client.py. Direct API access is constitutionally blocked. Provider chain: Groq → Ollama → OpenRouter → Anthropic. Fallback automatic. Budget enforced.
+LLM access governed by Sovereign Gateway. All model calls route through shared/llm/client.py. Direct API access is blocked by enforcement gates. Provider chain: Groq → Ollama → OpenRouter → Anthropic. Budget enforced.
 
 Quick Start
 bash
@@ -71,7 +88,28 @@ BASEAGENT_GUIDE.mdMethods every agent inherits
 CHRONICLE_GUIDE.mdShared knowledge database
 DECISION_LOG.mdWhy architectural decisions were made
 CONSTITUTIONAL_COMPLIANCE_AUDIT.mdPer-agent constitutional compliance
-shared/CONSTITUTION_v1.mdSupreme law (frozen)
+shared/CONSTITUTION_v1.mdConstitutional law (frozen)
+Known Active Work
+Chronicle recover_by_context signature normalization — 19 call sites across 8 modules use the method; signature drift between shared/base_agent.py and chronicle_ledger.py produces non-blocking warnings
+
+Shared memory adoption — 20 agents need UnifiedMemory bridge (lawclaw is reference implementation)
+
+Enforcement engine activation — shared/enforcement/engine.py exists but not wired into A2A request path
+
+Guarded executor wiring — shared/guarded_executor.py exists but not called by a2a_server.py
+
+Registry completeness — 5 agent entries exist in code but outside the AGENT_REGISTRY dict closing brace
+
+Benchmark Snapshot (2026-05-30)
+MetricValue
+Agent /help latency (median)0.2s
+Agent /help latency (max)0.5s
+Civic command latency (Chronicle FTS5)0.03-0.28s
+LLM inference latency (Groq)0.7s
+LLM inference latency (Ollama local)0.8s
+Chronicle FTS5 entries35,553
+Circuit breaker trips0 (no cascading failures)
+Lifecycle cleanup errors0
 Data Licensing
 Jurisdictional data, court records, building codes: CC BY 4.0 — See LICENSE-DATA
 
