@@ -4155,6 +4155,591 @@
       "confidence": 0.85,
       "urls": [],
       "timestamp": "2026-05-30T03:40:08.651170+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 13",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:56.553383+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 13",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:56.573421+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 20",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:56.708923+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 20",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:56.725977+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:56.812451+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:56.856650+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 202",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:57.019321+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 202",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:57.039233+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 14",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:57.129558+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 14",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:57.150605+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 99",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:57.257189+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 99",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:57.279863+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 33",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:58.008441+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 33",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:58.028486+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 21:40",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:58.166869+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 21:40",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:58.186829+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:40:58.313842+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:58.336563+00:00"
+    },
+    {
+      "agent": "rustypycraw",
+      "query": "",
+      "fact": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 29",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:40:58.458246+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 52",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:00.291731+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 52",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:00.310676+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "",
+      "fact": "## AI Analysis\n# Analysis for `/stats`\n\nBased on the provided context, there are **no direct results for a `/stats` endpoint or page**.\n\nHowever, the context does contain relevant information about **analytics and performance metrics** that would typically be associated with a stats page:\n\n## Relevant Information Found:\n\n### 1. **Web Vitals Metrics Available**\nThe following performance metrics can be tracked and reported:\n- **TTFB** (Time to First Byte)\n- **FCP** (First Contentful Paint)\n- **LCP",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:07.644261+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 14",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:18.344324+00:00"
+    },
+    {
+      "agent": "dreamclaw",
+      "query": "",
+      "fact": "DreamClaw | AI Vision | Interactions: 14",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:18.367180+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 21",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:18.485648+00:00"
+    },
+    {
+      "agent": "interpretclaw",
+      "query": "",
+      "fact": "InterpretClaw | 42 Languages | Interactions: 21",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:18.506181+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 16",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:18.594766+00:00"
+    },
+    {
+      "agent": "langclaw",
+      "query": "",
+      "fact": "LangClaw | AI Teacher | STT + TTS | Lessons/Conversation | Interactions: 16",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:18.616984+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 203",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:18.726882+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 203",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:18.752419+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:18.841004+00:00"
+    },
+    {
+      "agent": "liberateclaw",
+      "query": "",
+      "fact": "LiberateClaw | 5 Obliterated + 12 Standard = 17 Total | Interactions: 15",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:18.861035+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 100",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:18.973658+00:00"
+    },
+    {
+      "agent": "llmclaw",
+      "query": "",
+      "fact": "LLMClaw | Active: deepseek-r1:8b (ollama) | Interactions: 100",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:18.992678+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 34",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:19.096545+00:00"
+    },
+    {
+      "agent": "mathematicaclaw",
+      "query": "",
+      "fact": "MathematicaClaw | SymPy + NumPy + Matplotlib + Plotly | A2A Routing | Interactions: 34",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:19.118681+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 21:40",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:19.220475+00:00"
+    },
+    {
+      "agent": "mediclaw",
+      "query": "",
+      "fact": "MedicLaw | Queries: 0 | Sources: 0 | Started: 2026-05-29 21:40",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:19.240215+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:19.341056+00:00"
+    },
+    {
+      "agent": "plotclaw",
+      "query": "",
+      "fact": "[FAIL] could not convert string to float: '/stats'",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:19.360128+00:00"
+    },
+    {
+      "agent": "rustypycraw",
+      "query": "",
+      "fact": "RustyPyCraw | Python/Rust Interop | Scanner + Analyzer | Interactions: 30",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:19.478675+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 53",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:41:19.591587+00:00"
+    },
+    {
+      "agent": "txclaw",
+      "query": "",
+      "fact": "TXClaw | TX.org Blockchain | Queries: 0 | Interactions: 53",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:19.610847+00:00"
+    },
+    {
+      "agent": "webclaw",
+      "query": "",
+      "fact": "## AI Analysis\n# Analysis: No Relevant Results for '/stats'\n\nBased on the provided context, there are **no direct results** for a `/stats` endpoint or page.\n\n## What the Context Contains Instead\n\nThe context primarily documents:\n\n1. **Chokidar** - A file watching library for Node.js\n2. **Next.js Analytics & Web Vitals** - Tools for measuring and reporting performance metrics including:\n   - `useReportWebVitals` hook\n   - Web Vitals metrics (TTFB, FCP, LCP, FID, CLS, INP)\n   - Integration with Go",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:41:24.236052+00:00"
+    },
+    {
+      "agent": "drawclaw",
+      "query": "",
+      "fact": "DrawClaw | 14 Commands + GIF + Filters + QR | Interactions: 18",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:43:43.577175+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/jurisdiction",
+      "query": "Denver CO",
+      "fact": "\n============================================================\nJURISDICTION: Denver CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: \n============================================================\nJURISDICTION: Denv...\n    unknown [2026-05-29]: \n============================================================\nJURI",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:48:25.099883+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "Denver CO",
+      "fact": "\n============================================================\nJURISDICTION: Denver CO\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /jurisdiction [2026-05-29]: \n============================================================\nJURISDICTION: Denv...\n    unknown [2026-05-29]: \n============================================================\nJURISDICTION: Denv...\n[1/4] Chronicle search...\n[2/4] Searching jurisdiction files...\n  65 folder(s), 62",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:48:25.122872+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 204",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:58:36.790152+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 204",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:58:36.819724+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "Found 8 cases",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [
+        "https://www.courtlistener.com/opinion/8431118/salazar-limon-v-city-of-hous/",
+        "https://www.courtlistener.com/opinion/8344060/hill-v-smoot/",
+        "https://www.courtlistener.com/opinion/10612573/martha-stringer-v-county-of-bucks/",
+        "https://www.courtlistener.com/opinion/10346937/chanon-miller-v-juan-ramirez/",
+        "https://www.courtlistener.com/opinion/10348799/green-v-thomas/",
+        "https://www.courtlistener.com/opinion/10374613/villarreal-v-city-of-laredo/",
+        "https://www.courtlistener.com/opinion/9502421/wendy-cockrun-v-berrien-cnty-mich/",
+        "https://www.courtlistener.com/opinion/10633884/benavides-v-nunez/"
+      ],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:58:39.380003+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/law",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:58:39.439709+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "qualified immunity",
+      "fact": "\n============================================================\nLAW: qualified immunity\n============================================================\n  [MEMORY] 3 related prior search(es) found:\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n    /law [2026-05-28]: **Qualified Immunity Overview**\n\n**DEFINITION**\n\nQualified immunity is a legal d...\n\n[1/3] Searching Chronicle...\n[2/3] Searching CourtListener opinions...\n  15 cases found\n    [",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:58:39.465270+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 206",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T03:59:17.862332+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 206",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T03:59:17.891901+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 207",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:01:33.636243+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 207",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:01:33.658287+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "command": "/stats",
+      "query": "",
+      "fact": "LawClaw | Interactions: 208",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "metadata": {},
+      "timestamp": "2026-05-30T04:02:36.819206+00:00"
+    },
+    {
+      "agent": "lawclaw",
+      "query": "",
+      "fact": "LawClaw | Interactions: 208",
+      "source_type": "web_verified",
+      "confidence": 0.85,
+      "urls": [],
+      "timestamp": "2026-05-30T04:02:36.841788+00:00"
     }
   ],
   "index": {
@@ -4216,7 +4801,10 @@
       28,
       102,
       103,
-      104
+      104,
+      456,
+      457,
+      458
     ],
     "immunity": [
       12,
@@ -4230,7 +4818,10 @@
       28,
       102,
       103,
-      104
+      104,
+      456,
+      457,
+      458
     ],
     "salazar-limon": [
       18,
@@ -5352,7 +5943,9 @@
     ],
     "denver": [
       157,
-      158
+      158,
+      452,
+      453
     ],
     "numbers": [
       161,
@@ -5458,5 +6051,5 @@
       267
     ]
   },
-  "updated_at": "2026-05-30T03:40:08.651170+00:00"
+  "updated_at": "2026-05-30T04:02:36.841788+00:00"
 }
