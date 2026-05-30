@@ -235,6 +235,12 @@ class FlowClawAgent(BaseAgent):
             from agents.flowclaw.data_io import write_shared
             write_shared("flowclaw_latest", {"type": diagram_type, "query": query, "code": code})
 
+            # Constitutional capability routing for unrecognized commands
+            if cmd and cmd not in ("/help", "/stats", "/shared", "/delegate", "/flowchart", "/sequence", "/architecture", "/mindmap", "/export", "/flow", "/diagram"):
+                from shared.capabilities import get_capable_agent
+                target = get_capable_agent(cmd, "flowclaw")
+                if target:
+                    result = str(self.call_agent(target, task, timeout=60) or "")
             final_result = str(result)
             if final_result and len(final_result) > 20:
                 try: from shared.lifecycle import agent_cleanup; agent_cleanup("flowclaw", args or "", 0)
