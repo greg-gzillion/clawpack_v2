@@ -411,7 +411,7 @@ If this is a phrase: provide the translation to the target language.
                 except Exception: pass
                 try:
                     from shared.decision_ledger import get_ledger
-                    get_ledger().record(agent="lawclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
+                    get_ledger().record_action(agent="lawclaw", action=cmd, policy_result={"query": (args or "")[:200], "result": final_result[:100]})
                 except Exception: pass
                 try:
                     from shared.consensus_engine import constitutional_consensus_check
@@ -428,8 +428,8 @@ If this is a phrase: provide the translation to the target language.
                 except Exception: pass
                 try:
                     duration_ms = (time.time() - track_start) * 1000
-                    from agents.webclaw.core.chronicle_ledger import log_event
-                    log_event(agent="lawclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
+                    from agents.webclaw.core.chronicle_ledger import get_chronicle
+                    get_chronicle().record_fetch(url=f"agent:lawclaw", context="command_executed", source="lawclaw", metadata={"cmd": cmd, "duration_ms": duration_ms})
                 except Exception: pass
 
             return {"status": "success", "result": final_result}
