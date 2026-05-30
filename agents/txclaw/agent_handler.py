@@ -175,3 +175,4 @@ _agent = TXClawA2AHandler()
 
 def process_task(task: str, agent: str = None):
     return _agent.handle(task)
+
