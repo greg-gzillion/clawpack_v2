@@ -1,0 +1,8 @@
+name = '/listen'
+def run(args, agent=None):
+    from shared.accessibility import listen, detect_language
+    text = listen()
+    if text.startswith('[STT]'):
+        return text
+    lang = detect_language(text)
+    return f'[{lang.upper()}] {text}'

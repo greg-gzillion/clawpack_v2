@@ -1,0 +1,4 @@
+name = '/voice'
+def run(args, agent=None):
+    from shared.voice_hook import toggle
+    return toggle()

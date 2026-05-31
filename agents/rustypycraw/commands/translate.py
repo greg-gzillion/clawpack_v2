@@ -1,0 +1,7 @@
+name = '/translate'
+def run(args, agent=None):
+    from shared.accessibility import translate, detect_language
+    if not args:
+        return 'Usage: /translate <text>'
+    lang = detect_language(args)
+    return translate(args, 'en', lang)

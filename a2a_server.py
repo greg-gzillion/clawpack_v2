@@ -259,7 +259,7 @@ if not verify_universal_commands():
     print("Fix: python -c \"import os, shutil; [shutil.copy(f'agents/lawclaw/commands/{f}', f'agents/{a}/commands/{f}') for a in os.listdir('agents') if os.path.isdir(f'agents/{a}/commands') for f in ['voice.py','listen.py','translate.py','read.py','braille_cmd.py','language.py']]\"")
     import sys; sys.exit(1)
 
-print("="*70)
+    print("="*70)
     print(f"  http://127.0.0.1:{port}")
     print(f"\n  {len(AGENTS)} Agents Registered")
     print("  Three-Tier Memory: ACTIVE")

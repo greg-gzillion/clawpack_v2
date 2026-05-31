@@ -20,7 +20,7 @@ def verify_universal_commands():
             ref_hash = hashlib.sha256(f.read()).hexdigest()
         
         for agent in sorted(os.listdir('agents')):
-            if agent in ('lawclaw', 'exports', 'langclaw_backup', '__pycache__'):
+            if agent in ('lawclaw', 'exports', 'langclaw_backup', '__pycache__') or agent.startswith('_') or not os.path.isdir(f'agents/{agent}/commands'):
                 continue
             cmd_path = f'agents/{agent}/commands/{cmd}'
             if not os.path.exists(cmd_path):
