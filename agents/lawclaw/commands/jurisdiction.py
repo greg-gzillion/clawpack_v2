@@ -81,7 +81,7 @@ def run(args, agent=None):
 
     try:
         # Check DataClaw cache first
-        cache_key = f'jurisdiction:{args.strip().lower().replace(" ", "_")}'
+        cache_key = f'jurisdiction:v2:{args.strip().lower().replace(" ", "_")}'
         if agent and hasattr(agent, 'get_cached_result'):
             cached = agent.get_cached_result('lawclaw', cache_key)
             if cached:
