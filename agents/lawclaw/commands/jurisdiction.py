@@ -58,7 +58,15 @@ def extract_entities(content, city, state):
         ])
         
         if has_info and current_section:
-            entities[current_section].append(line_stripped[:200])
+            # Keep URL paired with its context
+            if 'https://' in line_stripped:
+                # Extract the URL and prepend it to the entity
+                url_match = re.search(r'(https?://[^\s)]+)', line_stripped)
+                if url_match:
+                    url = url_match.group(1).rstrip(')')
+                    entities[current_section].append(f"{line_stripped[:200]}")
+            else:
+                entities[current_section].append(line_stripped[:200])
     
     return entities
 
@@ -188,7 +196,8 @@ def run(args, agent=None):
 Rules:
 - Use ONLY the data provided. Never invent addresses, phones, or URLs.
 - Skip any section with no data.
-- Format as: COURT NAME ? Address ? Phone ? Website
+- Format each entry as: NAME ? Address ? Phone ? WEBSITE URL
+- EVERY entry MUST include its URL if one exists in the data.
 - Keep each entry to one line.
 
 Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS | CITY HALL"""
