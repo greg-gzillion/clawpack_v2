@@ -27,6 +27,11 @@ content more complex than a single plaintext sentence.
 ## What WORKED (Use These Patterns)
 
 ### Pattern 0: echo for small files (THE WINNER on May 30)
+WARNING: echo writes UTF-16 with BOM. This produces null bytes that break Python imports.
+ALWAYS run the UTF-16 fix script after using echo for .py files.
+On May 30, 84 files had this issue. Server crashed until fixed.
+
+### Pattern 0: echo for small files (THE WINNER on May 30)
 Deployed 60 command files to 21 agents with zero errors.
 `powershell
 echo "line" > file.py
