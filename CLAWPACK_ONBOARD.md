@@ -71,12 +71,12 @@ Zero handler changes. Zero indentation risk. The system was designed for this.
 | /read | 21/21 | TTS reader with voice profiles, file reading, speed control |
 | /language | 21/21 | Set system-wide language preference |
 | /interpret | 21/21 | Live bidirectional interpreter mode |
-| /access | pending | Toggle Braille/Neuralink/Eye tracking (command file echo-failed, recreate next session) |
+| /access | 21/21 | Toggle Braille/Neuralink/Eye tracking on/off |
 | /speak | 21/21 | Speak text aloud in current language |
 | /read | 21/21 | TTS reader with voice profiles, file reading, speed control |
 | /language | 21/21 | Set system-wide language preference |
 | /interpret | 21/21 | Live bidirectional interpreter mode |
-| /access | pending | Toggle Braille/Neuralink/Eye tracking (command file echo-failed, recreate next session) |
+| /access | 21/21 | Toggle Braille/Neuralink/Eye tracking on/off |
 
 ### Provider Chain (Sovereign Gateway)
 | Priority | Provider | Model | Latency | Cost |
