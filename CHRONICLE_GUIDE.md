@@ -89,7 +89,3 @@ Known Limitations
 - ChronicleLedger exports: ChronicleLedger, get_chronicle, record_fetch, recover_by_context.
   Do not import log_event or call get_timeline. Neither exists (resolved May 30, 2026).
 - Civic commands use Chronicle FTS5 directly via lookup_jurisdiction(). 0.03-0.28s. No LLM calls.
-
-log_event is not a top-level export — use chronicle.record_fetch() instead
-
-The index is organized by county, not city — FTS5 handles cross-boundary search
