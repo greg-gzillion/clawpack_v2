@@ -72,6 +72,10 @@ def register_hotkey(agent_handler=None):
         msg = toggle(_current_agent)
         print(msg)
     keyboard.add_hotkey('ctrl+shift+v', on_hotkey)
+    keyboard.add_hotkey('ctrl+shift+b', lambda: print(toggle_braille()))
+    keyboard.add_hotkey('ctrl+shift+n', lambda: print(toggle_neuralink()))
+    keyboard.add_hotkey('ctrl+shift+e', lambda: print(toggle_eye()))
+    print('[ACCESSIBILITY] Hotkeys: Ctrl+Shift+V=voice B=braille N=neuralink E=eye')
     print("[VOICE] Ctrl+Shift+V registered for voice toggle.")
     return True
 

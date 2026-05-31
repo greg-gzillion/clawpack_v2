@@ -38,6 +38,13 @@ def banner():
         if needs_translation():
             status.append(f"LANG:{get_language().upper()}")
         status_line = " | ".join(status) if status else "Type /voice to activate voice mode"
+        try:
+            from shared.accessibility_toggles import get_active
+            for t in get_active():
+                status.append(t)
+            status_line = " | ".join(status) if status else status_line
+        except:
+            pass
         print(f"{BOLD}{RED}    {status_line}{RESET}")
         print(f"{DIM}    /voice /listen /translate /read /braille /language /interpret{RESET}")
     except:
