@@ -287,6 +287,17 @@ class BaseAgent:
             self._log_error("cached_search", str(e)[:200])
             return ""
 
+    def get_cached_result(self, agent_name: str, query: str):
+        """Retrieve a cached result from DataClaw. Returns None if not found."""
+        from shared.search_cache import get_cached
+        return get_cached(agent_name, query)
+
+    def cache_result(self, agent_name: str, query: str, results: str):
+        """Cache a result to DataClaw for instant future retrieval."""
+        from shared.search_cache import cache_search
+        return cache_search(agent_name, query, results)
+
+
     def search_chronicle(self, query: str, limit: int = 10) -> list:
         try:
             from agents.webclaw.core.chronicle_ledger import get_chronicle

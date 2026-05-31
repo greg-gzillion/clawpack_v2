@@ -16,9 +16,9 @@ def run(args, agent=None):
     elif toggle_type == "eye":
         current = toggle_eye()
         if current:
-        from shared.accessibility_eye_tracker import calibrate
-        return f"Eye tracking: ON\n{calibrate()}"
-    return "Eye tracking: OFF"
+            from shared.accessibility_eye_tracker import calibrate
+            return f"Eye tracking: ON\n{calibrate()}"
+        return "Eye tracking: OFF"
     elif toggle_type == "status":
         return status()
     else:

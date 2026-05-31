@@ -80,6 +80,19 @@ def run(args, agent=None):
         show_prior(f"jurisdiction {args}", out)
 
     try:
+        # Check DataClaw cache first
+        cache_key = f'jurisdiction:{args.strip().lower().replace(" ", "_")}'
+        if agent and hasattr(agent, 'get_cached_search'):
+            cached = agent.get_cached_result('lawclaw', cache_key)
+            if cached:
+                cached_text = cached.get('results', str(cached))
+                out.append("[CACHE HIT] Returning cached result")
+                out.append("")
+                out.append("=" * 60)
+                out.append(cached_text)
+                out.append("=" * 60)
+                return "\n".join(out)
+
         # Parse city and state
         parts = args.strip().split()
         state_code = None
@@ -210,10 +223,17 @@ Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS |
             for url in ranked[:15]:
                 out.append(f"    {url}")
 
-        # Remember for future
+        # Save to DataClaw cache for instant future retrieval
         final = result if result else structured
-        if len(final) > 50:
-            remember(command="/jurisdiction", query=args, result_summary=final[:400], source_type="chronicle", confidence=0.95)
+        if len(final) > 50 and agent and hasattr(agent, 'cache_search'):
+            try:
+                agent.cache_result('lawclaw', cache_key, final)
+                out.append("  [Cached for instant recall]")
+            except:
+                pass
+
+        # Remember for future
+        remember(command="/jurisdiction", query=args, result_summary=final[:400], source_type="chronicle", confidence=0.95)
 
         return "\n".join(out)
 
