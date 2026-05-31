@@ -72,6 +72,11 @@ Zero handler changes. Zero indentation risk. The system was designed for this.
 | /language | 21/21 | Set system-wide language preference |
 | /interpret | 21/21 | Live bidirectional interpreter mode |
 | /access | pending | Toggle Braille/Neuralink/Eye tracking (command file echo-failed, recreate next session) |
+| /speak | 21/21 | Speak text aloud in current language |
+| /read | 21/21 | TTS reader with voice profiles, file reading, speed control |
+| /language | 21/21 | Set system-wide language preference |
+| /interpret | 21/21 | Live bidirectional interpreter mode |
+| /access | pending | Toggle Braille/Neuralink/Eye tracking (command file echo-failed, recreate next session) |
 
 ### Provider Chain (Sovereign Gateway)
 | Priority | Provider | Model | Latency | Cost |
@@ -150,6 +155,8 @@ Deployed as command files. Zero handler modifications. Zero indentation risk.
 | shared/io_adapter.py | Neuralink/Eye/Switch input adapters | Active |
 | shared/speech.py | TTS abstraction layer, voice profiles | Active |
 | shared/accessibility_toggles.py | Braille/Neuralink/Eye toggles | Active |
+| shared/speech.py | TTS abstraction layer, voice profiles | Active |
+| shared/accessibility_toggles.py | Braille/Neuralink/Eye toggles | Active |
 | shared/status_bar.py | Accessibility status in responses | Active |
 | shared/lifecycle.py | Agent cleanup supervisor | Active (0 errors) |
 | shared/base_agent.py | Foundation class | Active |
@@ -191,6 +198,16 @@ PlotClaw schema imports fixed. Registry syntax repaired. /translate pipeline bui
 - chronicle_helper.py fix: recover_by_context() now receives query argument.
   Single-line fix eliminated noise across all 21 agents.
 - Enforcement engine wired: pre-execution gate active in A2A request path.
+- shared/accessibility.py rewritten: escaped-quote corruption repaired (broken since creation).
+- shared/speech.py: TTS abstraction with voice profiles, language routing, fallback chain.
+- /speak command deployed to all 21 agents.
+- /read refactored to use shared/speech.py.
+- shared/accessibility_toggles.py: Braille, Neuralink, Eye tracking toggles.
+- Menu banner shows VOICE ON/LANG/accessibility toggle status.
+- Accessibility namespace collision resolved: flat naming (no package directory).
+- recover_by_context signature drift FIXED (chronicle_helper.py single-line fix).
+- UTF-16 encoding issue: echo writes produce null bytes. Fix script created.
+  84 files fixed. Lesson: always run UTF-16 check after echo writes.
 - shared/accessibility.py rewritten: escaped-quote corruption repaired (broken since creation).
 - shared/speech.py: TTS abstraction with voice profiles, language routing, fallback chain.
 - /speak command deployed to all 21 agents.
