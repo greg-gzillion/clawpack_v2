@@ -21,25 +21,7 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def banner():
-    try:
-        from shared.voice_hook import is_active as voice_on
-        from shared.locale import get_language, needs_translation
-        status = []
-        if voice_on():
-            status.append('VOICE ON')
-        if needs_translation():
-            status.append(f'LANG:{get_language().upper()}')
-        print(f"{BOLD}  ACCESSIBILITY CONTROLS{RESET}")
-        print(f"    {GREEN}/voice{RESET} or {GREEN}v{RESET} key ? Toggle voice mode (or say start listening)")
-        print(f"    {GREEN}Ctrl+Shift+V{RESET} ? Toggle voice from anywhere")
-        print(f"    {GREEN}/read <text>{RESET} ? Read text aloud with TTS")
-        print(f"    {GREEN}/language es{RESET} ? Switch system language")
-        print(f"    {GREEN}/listen{RESET} ? Microphone transcription")
-        print(f"    {GREEN}/braille <text>{RESET} ? Braille output")
-        print(f"    {GREEN}s{RESET} key ? Select agent by voice")
-        print()
-        print(f"{BOLD}{RED}    {status_line}{RESET}")
-    except:
+    print(f"""{CYAN}
 
                           CLAWPACK V2 - AI AGENT ECOSYSTEM                        
 
@@ -226,10 +208,6 @@ def main():
                 13: "plotclaw", 14: "mediclaw", 15: "dreamclaw", 16: "designclaw",
                 17: "draftclaw", 18: "crustyclaw", 19: "rustypycraw",  20: "drawclaw",
                 21: "llmclaw"
-            }
-
-            # Show accessibility quick reference
-            agents_map = {
             }
             
             if num in agents_map:
