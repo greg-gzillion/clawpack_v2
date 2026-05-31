@@ -15,7 +15,10 @@ def run(args, agent=None):
         return f"Neuralink interface: {'ON' if current else 'OFF'}"
     elif toggle_type == "eye":
         current = toggle_eye()
-        return f"Eye tracking: {'ON' if current else 'OFF'}"
+        if current:
+        from shared.accessibility_eye_tracker import calibrate
+        return f"Eye tracking: ON\n{calibrate()}"
+    return "Eye tracking: OFF"
     elif toggle_type == "status":
         return status()
     else:
