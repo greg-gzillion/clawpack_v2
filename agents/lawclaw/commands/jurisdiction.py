@@ -224,11 +224,22 @@ Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS |
         # URLs
         unique_urls = list(dict.fromkeys(all_urls))
         if unique_urls:
-            gov_urls = [u for u in unique_urls if ".gov" in u.lower()]
-            other_urls = [u for u in unique_urls if ".gov" not in u.lower()]
+            # Validate and fix URLs
+            try:
+                from agents.lawclaw.commands.url_fixer import validate_urls
+                working, broken, fixed = validate_urls(unique_urls[:20], timeout=3)
+                if fixed:
+                    out.append(f"  [URL Fixer] Corrected {len(fixed)} URL(s):")
+                    for old_u, new_u in fixed[:5]:
+                        out.append(f"    {old_u} -> {new_u}")
+            except:
+                working = unique_urls
+            
+            gov_urls = [u for u in working if ".gov" in u.lower()]
+            other_urls = [u for u in working if ".gov" not in u.lower()]
             ranked = gov_urls + other_urls
             out.append("")
-            out.append("  Reference URLs:")
+            out.append("  Reference URLs (validated):")
             for url in ranked[:15]:
                 out.append(f"    {url}")
 
