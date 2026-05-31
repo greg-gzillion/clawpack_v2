@@ -1,8 +1,14 @@
 ﻿# CLAWPACK V2
 
-Policy-enforced local-first multi-agent runtime with audited memory and constitutional execution boundaries.
+**An accessibility-first local multi-agent AI operating system with voice control, sovereign model routing, and 21 domain-specialized agents.**
 
-Not an orchestration wrapper around external APIs. A runtime where execution passes through enforced policy gates before agent dispatch. Speak any language. Get responses in your language.
+Speak any language. Get responses in your language. All LLM access governed by constitutional enforcement. No API keys required for local use.
+
+---
+
+### Why Clawpack Exists
+
+Most AI tools are single-model chatbots behind API paywalls. They can't delegate between specialists, can't be used hands-free, and can't be governed. Clawpack is different: 21 agents with defined jurisdictions, cross-agent delegation, universal voice/braille/translation accessibility, and constitutional enforcement that blocks forbidden operations before they execute. It runs locally. It works offline. It speaks your language.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg)](https://doi.org/10.5281/zenodo.19713157)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--9191--5556-a6ce39?logo=orcid)](https://orcid.org/0009-0001-9191-5556)
@@ -27,6 +33,21 @@ Not an orchestration wrapper around external APIs. A runtime where execution pas
 | Voice/listen/translate/braille | 21/21 agents |
 
 ---
+
+## See It In Action
+
+`ash
+# One command
+python run.py
+
+# Then try:
+lawclaw> /jurisdiction Miami FL          # 3,800+ cities, 0.03s
+lawclaw> /voice                           # Speak instead of type
+mediclaw> /diagnose chest pain           # Medical triage with GPS
+lawclaw> /translate the contract to German # 42 languages
+lawclaw> /plot bar sales data            # Auto-routes to PlotClaw
+any agent> /language es                   # Switch to Spanish
+`
 
 ## Getting Started
 
