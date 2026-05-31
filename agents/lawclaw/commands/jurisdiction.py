@@ -1,4 +1,5 @@
-﻿"""jurisdiction command - Civic intelligence via Chronicle FTS5 + Sovereign Gateway"""
+# agents/lawclaw/commands/jurisdiction.py - Rewritten with intelligence pipeline
+# Chronicle FTS5 -> relevance scoring -> structured extraction -> compact prompt -> Groq (2-3s)
 import re
 from pathlib import Path
 
@@ -6,22 +7,60 @@ name = "/jurisdiction"
 
 LAW_REFS = Path(__file__).parent.parent.parent.parent / "agents" / "webclaw" / "references" / "lawclaw"
 JURISDICTIONS_ROOT = LAW_REFS / "jurisdictions" / "us"
-
 SKIP_FOLDERS = {"docu_resources", "draw_resources", "medi_resources", "state"}
+STATE_CODES = {"AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","DC","PR","GU","MP"}
 
-STATE_CODES = {
-    "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
-    "IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV",
-    "NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN",
-    "TX","UT","VT","VA","WA","WV","WI","WY","DC","PR","GU","MP"
+ENTITY_PATTERNS = {
+    "courts": [r"(?i)(municipal|court|circuit|district|superior|supreme|appellate|judicial|clerk of court|county court)"],
+    "police": [r"(?i)(police department|sheriff|law enforcement|chief of police|public safety|highway patrol|state police)"],
+    "detention": [r"(?i)(jail|detention|correction|inmate|correctional facility)"],
+    "hospital": [r"(?i)(hospital|medical center|emergency room|ER|urgent care|health system|regional health)"],
+    "library": [r"(?i)(library|public library|law library|county library|branch library)"],
+    "building": [r"(?i)(building permit|building department|code enforcement|zoning|planning department|building inspection)"],
+    "city_hall": [r"(?i)(city hall|municipal building|town hall|county administration|government center|mayor)"],
 }
 
-LEGAL_HINTS = [
-    "law", "legal", "ordinance", "code", "municipal", "court",
-    "forms", "statute", "library", "zoning", "permit", "tenant",
-    "housing", "landlord", "clerk", "filing", "rules", "procedures"
-]
+def score_block(block, city, state):
+    """Score a block for relevance to the query city/state."""
+    text = block.lower()
+    city_lower = city.lower()
+    state_lower = state.lower()
+    score = 0
+    if city_lower in text: score += 15
+    if state_lower in text: score += 5
+    legal_terms = ["court","municipal","ordinance","police","detention","clerk","records","statute","code","sheriff","jail","permit","zoning"]
+    score += sum(2 for t in legal_terms if t in text)
+    return score
 
+def extract_entities(content, city, state):
+    """Extract structured entities from raw content."""
+    entities = {k: [] for k in ENTITY_PATTERNS}
+    lines = content.split('\n')
+    current_section = None
+    
+    for line in lines:
+        line_stripped = line.strip()
+        if not line_stripped: continue
+        
+        # Detect section headers
+        for section, patterns in ENTITY_PATTERNS.items():
+            for pattern in patterns:
+                if re.search(pattern, line_stripped):
+                    current_section = section
+                    break
+        
+        # Collect lines with URLs, addresses, or phone numbers
+        has_info = any([
+            'https://' in line_stripped,
+            re.search(r'\d{3}[-.]\d{3}[-.]\d{4}', line_stripped),
+            re.search(r'\d{1,5}\s+\w+\s+(Street|St|Avenue|Ave|Road|Rd|Drive|Dr|Boulevard|Blvd|Lane|Ln|Way|Court|Ct|Plaza|Pkwy|Highway|Hwy)', line_stripped, re.IGNORECASE),
+            current_section and len(line_stripped) > 15,
+        ])
+        
+        if has_info and current_section:
+            entities[current_section].append(line_stripped[:200])
+    
+    return entities
 
 def run(args, agent=None):
     if not args:
@@ -35,36 +74,13 @@ def run(args, agent=None):
     out.append(f"JURISDICTION: {args}")
     out.append("=" * 60)
 
-    # Check memory first
+    # Memory check
     prior = recall(f"jurisdiction {args}", limit=3)
     if prior:
         show_prior(f"jurisdiction {args}", out)
 
     try:
-        # STEP 1: Chronicle search
-        out.append("[1/4] Chronicle search...")
-        chronicle_context = ""
-        all_urls = []
-        if agent and hasattr(agent, 'search_chronicle'):
-            try:
-                chronicle_results = agent.search_chronicle(args, limit=10)
-                if chronicle_results:
-                    lines = []
-                    for c in chronicle_results:
-                        ctx = c.get("context", "") if isinstance(c, dict) else str(c)
-                        url = c.get("url", "") if isinstance(c, dict) else ""
-                        if ctx:
-                            lines.append(ctx[:500])
-                        if url and "https://" in url:
-                            all_urls.append(url)
-                    chronicle_context = "\n".join(lines)
-                    out.append(f"  {len(chronicle_results)} Chronicle references")
-            except Exception as e:
-                out.append(f"  Chronicle: {str(e)[:50]}")
-
-        # STEP 2: Search jurisdiction files
-        out.append("[2/4] Searching jurisdiction files...")
-        
+        # Parse city and state
         parts = args.strip().split()
         state_code = None
         city_query = args.strip()
@@ -74,121 +90,130 @@ def run(args, agent=None):
                 city_query = " ".join(p for p in parts if p.upper() != state_code)
                 break
 
-        all_content = []
-        folder_count = 0
-        file_count = 0
-
-        if state_code:
-            state_dir = JURISDICTIONS_ROOT / state_code
-            if state_dir.exists():
-                for folder in sorted(state_dir.iterdir()):
-                    if not folder.is_dir() or folder.name in SKIP_FOLDERS:
-                        continue
-                    folder_count += 1
-                    for md_file in folder.rglob("*.md"):
-                        try:
-                            content = md_file.read_text(encoding="utf-8", errors="ignore")
-                            file_count += 1
-                            if city_query.lower() in folder.name.lower() or city_query.lower() in content.lower()[:500]:
-                                all_content.append(f"### {folder.name}/{md_file.name}\n{content[:2000]}")
-                                # Extract URLs
-                                for line in content.split("\n"):
-                                    if "https://" in line:
-                                        url = line[line.index("https://"):].split()[0].rstrip(")")
-                                        if url not in all_urls:
-                                            all_urls.append(url)
-                        except Exception:
-                            pass
-
-        out.append(f"  {folder_count} folder(s), {file_count} file(s), {len(set(all_urls))} unique URLs")
-
-        # STEP 3: Library discovery
-        out.append("[3/4] Discovering legal resources via libraries...")
-        if agent and hasattr(agent, 'lookup_jurisdiction'):
+        # STEP 1: Chronicle search
+        out.append("[1/3] Chronicle search...")
+        all_urls = []
+        chronicle_blocks = []
+        if agent and hasattr(agent, 'search_chronicle'):
             try:
-                lib_data = agent.lookup_jurisdiction(args, "library")
-                if lib_data.get("libraries"):
-                    out.append(f"  {len(lib_data['libraries'])} library resource(s) found")
-                    for lib in lib_data["libraries"][:3]:
-                        out.append(f"    {lib[:120]}")
-            except Exception:
-                out.append("  No additional legal resources discovered")
-        else:
-            out.append("  No library URLs found in jurisdiction files")
+                results = agent.search_chronicle(args, limit=10)
+                if results:
+                    for c in results:
+                        ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                        url = c.get("url", "") if isinstance(c, dict) else ""
+                        if ctx:
+                            chronicle_blocks.append(ctx[:300])
+                        if url and "https://" in url:
+                            all_urls.append(url)
+                    out.append(f"  {len(results)} references found")
+            except Exception as e:
+                out.append(f"  Search error: {str(e)[:50]}")
 
-        # STEP 4: LLM synthesis via Sovereign Gateway
-        out.append("[4/4] Building civic profile...")
+        # STEP 2: Scored file search with entity extraction
+        out.append("[2/3] Extracting civic entities...")
+        scored_blocks = []
+        
+        if state_code and JURISDICTIONS_ROOT.joinpath(state_code).exists():
+            state_dir = JURISDICTIONS_ROOT / state_code
+            for folder in sorted(state_dir.iterdir()):
+                if not folder.is_dir() or folder.name in SKIP_FOLDERS:
+                    continue
+                for md_file in folder.rglob("*.md"):
+                    try:
+                        content = md_file.read_text(encoding="utf-8", errors="ignore")
+                        score = score_block(content, city_query, state_code)
+                        if score > 0:
+                            scored_blocks.append((score, content[:1500], folder.name))
+                        # Extract URLs from all files
+                        for line in content.split("\n"):
+                            if "https://" in line:
+                                url = line[line.index("https://"):].split()[0].rstrip(")")
+                                if url not in all_urls:
+                                    all_urls.append(url)
+                    except Exception:
+                        pass
 
-        combined = ""
-        for block in all_content:
-            if len(combined) + len(block) > 6000:
-                break
-            combined += block + "\n\n"
+        # Sort by relevance score, take top 15
+        scored_blocks.sort(key=lambda x: x[0], reverse=True)
+        top_blocks = scored_blocks[:15]
+        
+        # Extract structured entities from top blocks
+        all_entities = {k: [] for k in ENTITY_PATTERNS}
+        for score, content, folder in top_blocks:
+            entities = extract_entities(content, city_query, state_code or "")
+            for section, items in entities.items():
+                all_entities[section].extend(items)
 
-        prompt = f"""Create a structured civic profile for: {args}
+        # Deduplicate
+        for section in all_entities:
+            all_entities[section] = list(dict.fromkeys(all_entities[section]))[:5]
 
-JURISDICTION DATA:
-{combined[:6000]}
+        # Build structured summary
+        structured = f"City: {city_query}, State: {state_code or 'unknown'}\n\n"
+        section_names = {
+            "courts": "COURTS", "police": "POLICE", "detention": "DETENTION",
+            "hospital": "HOSPITALS", "library": "LIBRARY", "building": "BUILDING PERMITS",
+            "city_hall": "CITY HALL"
+        }
+        for key, title in section_names.items():
+            items = all_entities.get(key, [])
+            if items:
+                structured += f"\n{title}:\n"
+                for item in items[:5]:
+                    structured += f"  {item}\n"
 
-CHRONICLE:
-{chronicle_context[:1500] if chronicle_context else "None."}
+        entity_count = sum(len(v) for v in all_entities.values())
+        out.append(f"  {len(top_blocks)} relevant sources, {entity_count} entities extracted")
+
+        # STEP 3: Compact synthesis via LLM
+        out.append("[3/3] Synthesizing civic profile...")
+        
+        prompt = f"""Generate a professional civic profile from this structured data.
+
+{structured}
 
 Rules:
-- Use ONLY the data provided. No invented addresses, phones, or URLs.
-- If an address is not explicitly in the source data, omit it entirely.
-- Skip any section with no data. Each fact must appear only once.
-- Include DISCOVERED resources in the relevant sections.
+- Use ONLY the data provided. Never invent addresses, phones, or URLs.
+- Skip any section with no data.
+- Format as: COURT NAME ? Address ? Phone ? Website
+- Keep each entry to one line.
 
-Sections (omit if no data):
+Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS | CITY HALL"""
 
-COURTS — each court: name, address, phone, website
-POLICE — department, non-emergency phone, address, website. Emergency: 911
-JAIL — facility name, address, phone, website
-HOSPITALS — each: name, address, phone, coordinates, website
-LIBRARY — name, address, phone, hours, website
-BUILDING PERMITS — office, address, phone, website
-CITY HALL — address, phone, hours, website
-LEGAL RESOURCES — municipal code, court forms, legal aid, tenant rights
-URLs — all links"""
-
+        result = ""
         if agent and hasattr(agent, 'ask_llm'):
-            result = agent.ask_llm(prompt)
-        else:
-            result = ""
-
-        out.append("")
-        out.append("=" * 60)
-        if result and len(result) > 50:
-            out.append(result)
-        else:
-            out.append("[LLM unavailable — showing raw data]")
-            out.append("")
-            for block in all_content[:4]:
-                out.append(block)
-                out.append("")
-        out.append("=" * 60)
-
-        if result:
-            remember(command="/jurisdiction", query=args, result_summary=result[:400], source_type="chronicle", confidence=0.95)
             try:
-                from agents.lawclaw.commands._memory import remember_court
-                court_data = {
-                    "jurisdiction": args.strip(),
-                    "summary": result[:500],
-                }
-                remember_court(args.strip(), court_data)
+                result = agent.ask_llm(prompt[:3000])  # Compact prompt fits Groq
             except Exception:
                 pass
 
+        out.append("")
+        out.append("=" * 60)
+        
+        if result and len(result) > 50 and "no information" not in result.lower():
+            out.append(result)
+        else:
+            # Fallback: render structured data directly
+            out.append(structured)
+            out.append("[Structured data rendered directly ? LLM unavailable]")
+        
+        out.append("=" * 60)
+
+        # URLs
         unique_urls = list(dict.fromkeys(all_urls))
         if unique_urls:
             gov_urls = [u for u in unique_urls if ".gov" in u.lower()]
             other_urls = [u for u in unique_urls if ".gov" not in u.lower()]
             ranked = gov_urls + other_urls
             out.append("")
-            out.append("  URLs (Ctrl+Click):")
-            for url in ranked[:20]:
+            out.append("  Reference URLs:")
+            for url in ranked[:15]:
                 out.append(f"    {url}")
+
+        # Remember for future
+        final = result if result else structured
+        if len(final) > 50:
+            remember(command="/jurisdiction", query=args, result_summary=final[:400], source_type="chronicle", confidence=0.95)
 
         return "\n".join(out)
 
