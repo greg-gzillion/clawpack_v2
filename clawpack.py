@@ -21,17 +21,18 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def banner():
-    from shared.voice_hook import is_active as voice_on, is_braille_active as braille_on
-    from shared.locale import get_language, needs_translation
-    status = []
-    if voice_on():
-        status.append('VOICE ON')
-    if braille_on():
-        status.append('BRAILLE ON')
-    if needs_translation():
-        status.append(f'LANG:{get_language().upper()}')
-    status_line = ' | '.join(status) if status else 'Accessibility: inactive'
-    print(f"{BOLD}{RED}    {status_line}{RESET}")
+    try:
+        from shared.voice_hook import is_active as voice_on
+        from shared.locale import get_language, needs_translation
+        status = []
+        if voice_on():
+            status.append('VOICE ON')
+        if needs_translation():
+            status.append(f'LANG:{get_language().upper()}')
+        status_line = ' | '.join(status) if status else 'Accessibility: /voice /read /language'
+        print(f"{BOLD}{RED}    {status_line}{RESET}")
+    except:
+        print(f"{DIM}    Accessibility: /voice /read /language{RESET}")
     print(f"""{CYAN}
 
                           CLAWPACK V2 - AI AGENT ECOSYSTEM                        
@@ -222,9 +223,16 @@ def main():
             }
 
             # Show accessibility quick reference
-            print(f"{DIM}  Accessibility:{RESET}")
-            print(f"    {GREEN}v{RESET}=voice {GREEN}b{RESET}=braille {GREEN}s{RESET}=voice-select {GREEN}Ctrl+Shift+V{RESET}=toggle")
-            print(f"    In-agent: {GREEN}/voice /listen /translate /read /braille /language{RESET}")
+            print(f"{BOLD}  ACCESSIBILITY CONTROLS{RESET}")
+            print(f"    {GREEN}/voice{RESET} or {GREEN}v{RESET} key or say {GREEN}'start listening'{RESET} ? Toggle voice mode")
+            print(f"    {GREEN}Ctrl+Shift+V{RESET} ? Toggle voice from anywhere")
+            print(f"    {GREEN}/read <text>{RESET} ? Read text aloud with TTS")
+            print(f"    {GREEN}/language es{RESET} ? Switch system language")
+            print(f"    {GREEN}/listen{RESET} ? Microphone transcription")
+            print(f"    {GREEN}/braille <text>{RESET} ? Braille output")
+            print(f"    {GREEN}s{RESET} key ? Select agent by voice")
+            
+            
             agents_map = {
             }
             
