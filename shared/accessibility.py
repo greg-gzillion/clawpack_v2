@@ -35,16 +35,24 @@ def listen(timeout=5, phrase_limit=10):
         return "[STT] speech_recognition not installed"
     except Exception as e:
         return f"[STT] {str(e)[:100]}"
-
+    
 def detect_language(text):
     import re
     if re.search(r"[\u0400-\u04FF]", text): return "ru"
     if re.search(r"[\u0600-\u06FF]", text): return "ar"
     if re.search(r"[\u4E00-\u9FFF]", text): return "zh"
-    t = text.lower()
-    if any(w in t for w in ["el","la","los","es","de","que","en"]): return "es"
-    if any(w in t for w in ["le","la","les","des","une","dans"]): return "fr"
-    if any(w in t for w in ["der","die","das","ist","und"]): return "de"
+    words = set(text.lower().split())
+    if words & {"el","la","los","las","es","de","que","en","un","una","por","para","con","hola","mundo","gracias"}: return "es"
+    if words & {"le","la","les","des","est","une","dans","pas","sur","pour","avec","bonjour","merci","monde"}: return "fr"
+    if words & {"der","die","das","ist","und","nicht","von","mit","auf","ein","eine","auch","hallo","welt"}: return "de"
+    if words & {"il","che","non","una","per","con","sono","nel","gli","ciao","mondo","grazie"}: return "it"
+    if words & {"que","nao","uma","para","com","como","mas","dos","das","ola","mundo","obrigado"}: return "pt"
+    return "en"
+    if words & {"el","la","los","las","es","de","que","en","un","una","por","para","con","hola","mundo","gracias"}: return "es"
+    if words & {"le","la","les","des","est","une","dans","pas","sur","pour","avec","bonjour","merci","monde"}: return "fr"
+    if words & {"der","die","das","ist","und","nicht","von","mit","auf","ein","eine","auch","hallo","welt"}: return "de"
+    if words & {"il","che","non","una","per","con","sono","nel","gli","ciao","mondo","grazie"}: return "it"
+    if words & {"que","nao","uma","para","com","como","mas","dos","das","ola","mundo","obrigado"}: return "pt"
     return "en"
 
 def translate(text, target_lang="en", source_lang=None):
