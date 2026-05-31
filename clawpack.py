@@ -40,16 +40,6 @@ def banner():
         print()
         print(f"{BOLD}{RED}    {status_line}{RESET}")
     except:
-        print(f"{BOLD}  ACCESSIBILITY CONTROLS{RESET}")
-        print(f"    {GREEN}/voice{RESET} or {GREEN}v{RESET} key ? Toggle voice mode (or say start listening)")
-        print(f"    {GREEN}Ctrl+Shift+V{RESET} ? Toggle voice from anywhere")
-        print(f"    {GREEN}/read <text>{RESET} ? Read text aloud with TTS")
-        print(f"    {GREEN}/language es{RESET} ? Switch system language")
-        print(f"    {GREEN}/listen{RESET} ? Microphone transcription")
-        print(f"    {GREEN}/braille <text>{RESET} ? Braille output")
-        print(f"    {GREEN}s{RESET} key ? Select agent by voice")
-        print()
-    print(f"""{CYAN}
 
                           CLAWPACK V2 - AI AGENT ECOSYSTEM                        
 
@@ -239,16 +229,6 @@ def main():
             }
 
             # Show accessibility quick reference
-            print(f"{BOLD}  ACCESSIBILITY CONTROLS{RESET}")
-            print(f"    {GREEN}/voice{RESET} or {GREEN}v{RESET} key or say {GREEN}'start listening'{RESET} ? Toggle voice mode")
-            print(f"    {GREEN}Ctrl+Shift+V{RESET} ? Toggle voice from anywhere")
-            print(f"    {GREEN}/read <text>{RESET} ? Read text aloud with TTS")
-            print(f"    {GREEN}/language es{RESET} ? Switch system language")
-            print(f"    {GREEN}/listen{RESET} ? Microphone transcription")
-            print(f"    {GREEN}/braille <text>{RESET} ? Braille output")
-            print(f"    {GREEN}s{RESET} key ? Select agent by voice")
-            
-            
             agents_map = {
             }
             
