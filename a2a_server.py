@@ -247,6 +247,10 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
         return f"Agent {agent_name} handler not configured"
 
 def main():
+    from shared.startup_check import verify_universal_commands
+    if not verify_universal_commands():
+        import sys; sys.exit(1)
+
     port = 8766
     server = ThreadingHTTPServer(('127.0.0.1', port), UnifiedA2AHandler)
     
