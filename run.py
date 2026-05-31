@@ -117,11 +117,11 @@ if __name__ == '__main__':
     import time
     time.sleep(3)
     
-    # Launch menu
-    import clawpack
-    try:
-        # The menu runs its own main loop
-        pass
-    finally:
-        server_proc.terminate()
-        print("Server stopped.")
+    # Launch menu in a separate process
+    menu_proc = subprocess.Popen(
+        [sys.executable, 'clawpack.py'],
+        stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr
+    )
+    menu_proc.wait()
+    server_proc.terminate()
+    print("Server stopped.")
