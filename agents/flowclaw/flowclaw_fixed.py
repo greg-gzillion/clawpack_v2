@@ -179,10 +179,10 @@ function showTextPreview() {{
         if(line.includes('-->')) {{
             preview += line.replace(/-->/, '<span class="arrow">→</span>') + '<br>';
         }} else if(!line.includes('graph') && !line.includes('end')) {{
-            preview += line + '<br>';
+            preview += line + '\n';
         }}
     }}
-    document.getElementById('preview').innerHTML = preview;
+    document.getElementById('preview').textContent = preview;
 }}
 
 showTextPreview();

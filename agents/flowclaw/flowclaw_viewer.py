@@ -348,7 +348,7 @@ class FlowClaw:
     setTimeout(() => {{
         const svg = document.querySelector('#diagram svg');
         if (!svg) {{
-            document.getElementById('diagramContainer').innerHTML = '<div style="text-align:center;padding:40px;color:#dc3545;">⚠️ Diagram rendering error. Check console for details.</div>';
+            document.getElementById('diagramContainer').textContent = '<div style="text-align:center;padding:40px;color:#dc3545;">⚠️ Diagram rendering error. Check console for details.</div>';
         }} else {{
             showStatus('✅ Diagram rendered successfully');
         }}
