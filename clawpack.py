@@ -28,6 +28,20 @@ def banner():
    21 AI Agents     LLM Powered     A2A Ready     Chronicle        
 {RESET}
 """)
+    # Accessibility status
+    try:
+        from shared.voice_hook import is_active as voice_on
+        from shared.locale import get_language, needs_translation
+        status = []
+        if voice_on():
+            status.append("VOICE ON")
+        if needs_translation():
+            status.append(f"LANG:{get_language().upper()}")
+        status_line = " | ".join(status) if status else "Type /voice to activate voice mode"
+        print(f"{BOLD}{RED}    {status_line}{RESET}")
+        print(f"{DIM}    /voice /listen /translate /read /braille /language /interpret{RESET}")
+    except:
+        pass
 
 def get_active_model_display():
     """Show currently active model"""
