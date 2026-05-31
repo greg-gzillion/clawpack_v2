@@ -82,7 +82,7 @@ def run(args, agent=None):
     try:
         # Check DataClaw cache first
         cache_key = f'jurisdiction:{args.strip().lower().replace(" ", "_")}'
-        if agent and hasattr(agent, 'get_cached_search'):
+        if agent and hasattr(agent, 'get_cached_result'):
             cached = agent.get_cached_result('lawclaw', cache_key)
             if cached:
                 cached_text = cached.get('results', str(cached))
@@ -225,7 +225,7 @@ Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS |
 
         # Save to DataClaw cache for instant future retrieval
         final = result if result else structured
-        if len(final) > 50 and agent and hasattr(agent, 'cache_search'):
+        if len(final) > 50 and agent and hasattr(agent, 'cache_result'):
             try:
                 agent.cache_result('lawclaw', cache_key, final)
                 out.append("  [Cached for instant recall]")
