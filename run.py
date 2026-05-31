@@ -1,4 +1,15 @@
 ﻿#!/usr/bin/env python3
+"""
+run.py - One-command launcher with platform auto-detection.
+Starts the A2A server AND launches the clawpack menu automatically.
+
+vs clawpack.py: just the menu (requires a2a_server.py already running).
+vs claw.py: launches a single agent directly (bypasses A2A, for quick testing).
+vs a2a_server.py: the server only, no menu.
+
+Use run.py when you want everything in one command.
+Use the two-terminal approach (a2a_server.py + clawpack.py) for development.
+"""
 # run.py - Clawpack V2 launcher with platform auto-detection
 # Works on Windows, Mac, Linux, Raspberry Pi
 # Usage: python run.py
