@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-05-30",
+  "universal_commands": {
+    "/voice": {
+      "file": "voice.py",
+      "description": "Toggle system-wide voice mode",
+      "shared_implementation": "shared/voice_hook.py"
+    },
+    "/listen": {
+      "file": "listen.py",
+      "description": "Microphone transcription",
+      "shared_implementation": "shared/accessibility.py"
+    },
+    "/translate": {
+      "file": "translate.py",
+      "description": "Detect language and translate",
+      "shared_implementation": "shared/accessibility.py"
+    },
+    "/read": {
+      "file": "read.py",
+      "description": "Text-to-speech reader",
+      "shared_implementation": "shared/accessibility.py"
+    },
+    "/braille": {
+      "file": "braille_cmd.py",
+      "description": "Braille Unicode output",
+      "shared_implementation": "shared/accessibility.py"
+    },
+    "/language": {
+      "file": "language.py",
+      "description": "System language preference",
+      "shared_implementation": "shared/locale.py"
+    },
+    "/interpret": {
+      "file": "interpret.py",
+      "description": "Bidirectional interpreter",
+      "shared_implementation": "agents/interpretclaw/commands/interpret.py"
+    }
+  }
+}
