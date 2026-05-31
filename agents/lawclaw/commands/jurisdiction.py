@@ -195,10 +195,17 @@ Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS |
 
         result = ""
         if agent and hasattr(agent, 'ask_llm'):
-            try:
-                result = agent.ask_llm(prompt[:3000])  # Compact prompt fits Groq
-            except Exception:
-                pass
+            # Try Groq first, then OpenRouter, then render structured
+            import time as time_mod
+            for attempt in range(2):
+                try:
+                    result = agent.ask_llm(prompt[:2500])
+                    if result and len(result) > 100 and 'rate' not in result.lower():
+                        break
+                except Exception:
+                    pass
+                if attempt == 0:
+                    time_mod.sleep(3)  # Brief pause before retry
 
         out.append("")
         out.append("=" * 60)
@@ -207,8 +214,10 @@ Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS |
             out.append(result)
         else:
             # Fallback: render structured data directly
+            out.append("")
+            out.append("CIVIC PROFILE (structured data):")
+            out.append("")
             out.append(structured)
-            out.append("[Structured data rendered directly ? LLM unavailable]")
         
         out.append("=" * 60)
 
