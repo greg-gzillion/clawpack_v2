@@ -21,6 +21,17 @@ def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def banner():
+    from shared.voice_hook import is_active as voice_on, is_braille_active as braille_on
+    from shared.locale import get_language, needs_translation
+    status = []
+    if voice_on():
+        status.append('VOICE ON')
+    if braille_on():
+        status.append('BRAILLE ON')
+    if needs_translation():
+        status.append(f'LANG:{get_language().upper()}')
+    status_line = ' | '.join(status) if status else 'Accessibility: inactive'
+    print(f"{BOLD}{RED}    {status_line}{RESET}")
     print(f"""{CYAN}
 
                           CLAWPACK V2 - AI AGENT ECOSYSTEM                        
@@ -208,6 +219,13 @@ def main():
                 13: "plotclaw", 14: "mediclaw", 15: "dreamclaw", 16: "designclaw",
                 17: "draftclaw", 18: "crustyclaw", 19: "rustypycraw",  20: "drawclaw",
                 21: "llmclaw"
+            }
+
+            # Show accessibility quick reference
+            print(f"{DIM}  Accessibility:{RESET}")
+            print(f"    {GREEN}v{RESET}=voice {GREEN}b{RESET}=braille {GREEN}s{RESET}=voice-select {GREEN}Ctrl+Shift+V{RESET}=toggle")
+            print(f"    In-agent: {GREEN}/voice /listen /translate /read /braille /language{RESET}")
+            agents_map = {
             }
             
             if num in agents_map:
