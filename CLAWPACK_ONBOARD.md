@@ -156,6 +156,43 @@ Deployed as command files. Zero handler modifications. Zero indentation risk.
 
 ## Session Log
 
+2026-05-31 / 2026-06-01: COURT RESOLVER + ACCESSIBILITY UNIFICATION + TIER 2 WIRING
+- /court resolver: city-first traversal with all-county fallback search.
+  Georgetown CO now resolves Clear_Creek/Georgetown/municipal_court.md in ~500ms.
+  Previously returned entire state court_system.md (15k chars). Fix in court.py find_jurisdiction_files().
+- shared/accessibility.py unified: voice toggle, braille, neuralink, eye tracking, TTS, STT,
+  wake words ("start/stop listening"), auto-sleep after 2min silence, USB mic preference,
+  / prefix auto-detection for voice commands, state name?code mapping (Nevada?NV),
+  flexible command detection (finds command word anywhere in utterance).
+- shared/event_bus.py: canonical event bus for all system input (voice, keyboard, API, system).
+  CommandEvent dataclass with EventSource, EventIntent enums. Queue-based cross-thread delivery.
+- a2a_server.py Tier 2 wiring: rate limiter on every POST, enforcement engine pre-execution gate,
+  metrics counter per agent request, structured JSON logging, /metrics endpoint.
+- agent=self passed to all 19 lawclaw command dispatches (previously all commands ran with agent=None,
+  silently skipping Chronicle, A2A, cache, and jurisdiction lookups).
+- jurisdiction.py: undefined variables fixed (sections?all_entities, final?structured).
+  Cache now stores raw entity data + URLs, not LLM output. Cache re-renders from source on hit.
+- 34 Miami-Dade reference files: mdcourts.gov (Maryland) ? jud11.flcourts.org (Florida 11th Circuit).
+- chronicle_helper.py: safe dict/object access for Chronicle cards, stderr debug noise removed.
+- llm/providers/__init__.py: Ollama now reads active model from active_model.json instead of hardcoded deepseek-r1:8b.
+- 49 files across all 21 agents updated to import from unified shared.accessibility.
+- clawpack.py: v key voice toggle with persistent VOICE ACTIVE banner, event bus poll in agent loop
+  for hands-free voice commands inside agents, natural language command mapping.
+- Voice pipeline functional: speech?transcribe?intent?prefix?A2A?response.
+  Accuracy limited by speech_recognition library (not architecture). PWA uses native Web Speech API.
+  Desktop voice is dev tooling; PWA is the production voice interface.
+
+KNOWN ISSUES:
+- Memory recall is jurisdiction-unaware. Bedford VA bleeds into Colorado queries because
+  keyword index has no geographic filtering. Fix: add state/county/city metadata to memory writes
+  and filter before semantic ranking in recall.
+- Some remember() calls missing command= kwarg, causing "unknown" command tag in memory.
+- Menu voice navigation works via event bus poll but requires msvcrt for non-blocking keyboard
+  input on Windows (currently falls back to blocking input()).
+- Ledger JSON corruption (Extra data: line 10373) from malformed append operations.
+- LawClaw commands print at module level - loads for every agent, not just lawclaw.
+- Missing cities in jurisdiction dataset (Greeley CO under Weld County, etc.).
+
 2026-05-27: All 12 lawclaw commands built. _helpers.py and _memory.py created.
 
 2026-05-28: All 21 agents wired with shared/_agent_helpers.py. First cross-agent flow.
