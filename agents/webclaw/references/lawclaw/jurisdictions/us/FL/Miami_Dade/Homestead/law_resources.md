@@ -9,7 +9,7 @@
 - Police Website: https://www.homesteadfl.gov/Police-Services
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Homestead City Jail — 45 NW 1st Avenue, Homestead, FL 33030
 ## Building Permits

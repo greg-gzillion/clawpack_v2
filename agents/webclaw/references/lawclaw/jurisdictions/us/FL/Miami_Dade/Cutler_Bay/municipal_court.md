@@ -1,7 +1,7 @@
 ﻿# Cutler Bay Municipal Court
 ## Court Information
 - No municipal court; cases handled by 11th Judicial Circuit Court of Florida – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Town Website
 - https://www.cutlerbay-fl.gov
 ## Town Hall

@@ -9,7 +9,7 @@
 - Police Website: https://www.indiancreekvillagefl.gov/police
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Miami-Dade County Jail system
 - Inmate Roster: https://www.miamidade.gov/global/sheriff/home.page

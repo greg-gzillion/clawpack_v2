@@ -15,7 +15,13 @@ def detect_providers(config):
     if config.get('GROQ_API_KEY'):
         providers.append({'type': LLMProvider.GROQ, 'key': config['GROQ_API_KEY'], 'model': 'llama-3.3-70b-versatile', 'base_url': 'https://api.groq.com/openai/v1', 'cost_per_call': 0.0})
     if check_ollama():
-        providers.append({'type': LLMProvider.OLLAMA, 'model': 'deepseek-r1:8b', 'base_url': 'http://localhost:11434', 'cost_per_call': 0.0})
+        try:
+            import json as _j
+            am = _j.loads(open('models/active_model.json').read())
+            ollama_model = am.get('model', 'deepseek-r1:8b')
+        except Exception:
+            ollama_model = 'deepseek-r1:8b'
+        providers.append({'type': LLMProvider.OLLAMA, 'model': ollama_model, 'base_url': 'http://localhost:11434', 'cost_per_call': 0.0})
     if config.get('OPENROUTER_API_KEY'):
         providers.append({'type': LLMProvider.OPENROUTER, 'key': config['OPENROUTER_API_KEY'], 'model': 'google/gemma-4-26b-a4b-it:free', 'base_url': 'https://openrouter.ai/api/v1', 'cost_per_call': 0.002})
     if config.get('ANTHROPIC_API_KEY'):

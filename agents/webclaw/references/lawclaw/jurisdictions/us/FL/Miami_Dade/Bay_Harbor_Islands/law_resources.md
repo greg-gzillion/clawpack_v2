@@ -9,7 +9,7 @@
 - Police Website: https://balharbourfl.gov/police
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Turner Guilford Knight Correctional Center — 18181 NW 27th Ave, Miami Gardens, FL 33056
 - Inmate Roster: https://www.miamidade.gov/global/sheriff/home.page

@@ -15,11 +15,17 @@ def set_agent(agent_handler):
     _current_agent = agent_handler
 
 def _listen_loop():
+    import time as _time
+    awake = True
+    last_speech = _time.time()
     global _voice_active, _current_agent
     from shared.accessibility import listen_and_translate, translate, speak
+    import time as _time
+    awake = True
+    last_speech = _time.time()
     while _voice_active:
         try:
-            print("\n[VOICE] Listening...")
+            print("\n[VOICE] " + ("? Listening..." if awake else "? Sleeping..."), flush=True)
             text, lang, translated = listen_and_translate('en')
             if text.startswith('[STT]'):
                 print(f"[VOICE] {text}")

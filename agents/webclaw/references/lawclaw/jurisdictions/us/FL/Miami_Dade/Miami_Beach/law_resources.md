@@ -9,7 +9,7 @@
 - Police Website: https://www.miamibeachfl.gov/yourmbpd
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Miami Beach Police Holding Facility — 1100 15th Street, Miami Beach, FL 33139 (temporary, up to 6 hours)
 - Transfers to Miami-Dade County jails

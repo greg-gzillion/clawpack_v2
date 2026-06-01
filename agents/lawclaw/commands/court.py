@@ -183,29 +183,45 @@ def find_jurisdiction_files(intent):
     except ValueError:
         return results
     
-    # City level
+    # City level - search ALL counties for matching city folder
     # safe_county and safe_city sanitized via _safe_component(), length-bounded,
     # iterating within validated state_path only. relative_to() containment checked.
-    if safe_city and safe_county:
-        # lgtm [py/path-injection]
-        for county_dir in state_path.iterdir():
-            if not county_dir.is_dir():
-                continue
-            if safe_county.lower() == county_dir.name.replace("_", " ").lower():
-                for city_dir in county_dir.iterdir():
-                    if city_dir.is_dir():
-                        if safe_city.lower() == city_dir.name.replace("_", " ").lower():
+    if safe_city:
+        # First, try exact county match if provided
+        if safe_county:
+            for county_dir in state_path.iterdir():
+                if not county_dir.is_dir():
+                    continue
+                if safe_county.lower() == county_dir.name.replace("_", " ").lower():
+                    for city_dir in county_dir.iterdir():
+                        if city_dir.is_dir() and safe_city.lower() == city_dir.name.replace("_", " ").lower():
                             city_files = list(city_dir.glob("*.md"))
                             if city_files:
                                 results["files"] = rank_court_files(sorted(city_files))
                                 results["display_path"] = f"{safe_state}/{county_dir.name}/{city_dir.name}"
                                 results["level"] = "city"
                                 return results
-                county_files = list(county_dir.glob("*.md"))
-                results["files"] = rank_court_files(sorted(county_files))
-                results["display_path"] = f"{safe_state}/{county_dir.name}"
-                results["level"] = "county"
-                return results
+                    # City not in this county, but county matches - return county files
+                    county_files = list(county_dir.glob("*.md"))
+                    if county_files:
+                        results["files"] = rank_court_files(sorted(county_files))
+                        results["display_path"] = f"{safe_state}/{county_dir.name}"
+                        results["level"] = "county"
+                        return results
+        # County not provided or not found - search ALL counties for the city
+        for county_dir in state_path.iterdir():
+            if not county_dir.is_dir() or county_dir.name == 'state':
+                continue
+            for city_dir in county_dir.iterdir():
+                if city_dir.is_dir() and safe_city.lower() == city_dir.name.replace("_", " ").lower():
+                    city_files = list(city_dir.glob("*.md"))
+                    if city_files:
+                        results["files"] = rank_court_files(sorted(city_files))
+                        results["display_path"] = f"{safe_state}/{county_dir.name}/{city_dir.name}"
+                        results["level"] = "city"
+                        # Also store the discovered county for URL scoring
+                        intent["county"] = county_dir.name.replace("_", " ")
+                        return results
     
     # County level
     if safe_county:

@@ -1,6 +1,6 @@
 name = "/access"
 def run(args, agent=None):
-    from shared.accessibility_toggles import toggle_braille, toggle_neuralink, toggle_eye, status
+    from shared.accessibility import toggle_braille, toggle_neuralink, toggle_eye, status
     if not args:
         return status() + "\nUsage: /access braille|neuralink|eye on|off"
     parts = args.lower().split()

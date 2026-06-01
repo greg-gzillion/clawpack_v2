@@ -9,7 +9,7 @@
 - Police Website: https://medleypd.com
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Medley City Jail — 7331 NW 74th Street, Medley, FL 33166 — (305) 883-2047
 - Transfers to Miami-Dade County facilities

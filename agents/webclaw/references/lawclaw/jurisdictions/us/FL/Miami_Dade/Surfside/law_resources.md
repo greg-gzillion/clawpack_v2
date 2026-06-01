@@ -9,7 +9,7 @@
 - Police Website: https://www.townofsurfsidefl.gov/police
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Surfside Temporary Holding — 9293 Harding Avenue, Surfside, FL 33154
 - Transfers to Miami-Dade County Jail

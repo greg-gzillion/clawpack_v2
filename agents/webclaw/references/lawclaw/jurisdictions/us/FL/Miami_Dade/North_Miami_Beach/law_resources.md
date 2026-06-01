@@ -9,7 +9,7 @@
 - Police Website: https://www.citynmb.com/police
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - NMB PD Temporary Holding — 16901 NE 19th Avenue, North Miami Beach, FL 33162
 - 6-hour max hold; transfers to Miami-Dade County Jail

@@ -9,7 +9,7 @@
 - Police Website: https://balharbourfl.gov/police
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Bal Harbour City Jail — 655 96th Street, Bal Harbour, FL 33154 — (305) 866-5000
 - Transfers to Turner Guilford Knight Correctional Center

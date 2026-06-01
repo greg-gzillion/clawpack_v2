@@ -1,9 +1,9 @@
-﻿# shared/status_bar.py - Persistent accessibility status for all agents
+# shared/status_bar.py - Persistent accessibility status for all agents
 
 def get_status_line():
     '''Returns a one-line status bar showing active accessibility toggles.'''
     try:
-        from shared.voice_hook import is_active, is_braille_active, is_neuralink_active, is_eye_tracker_active
+        from shared.accessibility import is_active, is_braille_active, is_neuralink_active, is_eye_tracker_active
         parts = []
         if is_active():
             parts.append('VOICE ON')

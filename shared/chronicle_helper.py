@@ -1,4 +1,5 @@
 """Chronicle helper - search across all indexed references"""
+from shared._agent_helpers import log_err
 import sys
 from pathlib import Path
 
@@ -9,7 +10,7 @@ def search_chronicle(query: str, limit: int = 10):
         project_root = Path(__file__).parent.parent
         chronicle_path = project_root / "agents/webclaw/core/chronicle_ledger.py"
         
-        print(f"Looking for chronicle at: {chronicle_path}", file=sys.stderr)
+        # Chronicle path resolved silently
         
         import importlib.util
         spec = importlib.util.spec_from_file_location("chronicle_ledger", chronicle_path)
@@ -29,7 +30,7 @@ def search_chronicle(query: str, limit: int = 10):
                     break
         return results
     except Exception as e:
-        print(f"Chronicle search error: {e}", file=sys.stderr)
+        log_err("chronicle_helper", "search_error", str(e)[:200])
         return []
 
 def get_chronicle_stats():

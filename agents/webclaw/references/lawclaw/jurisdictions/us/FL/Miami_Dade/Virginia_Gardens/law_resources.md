@@ -9,7 +9,7 @@
 - Police Website: https://www.vgpd.com
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Miami-Dade County Corrections — DCJ: (305) 545-4004 | TGK: (305) 470-7600
 - Inmate Roster: https://www.miamidade.gov/global/sheriff/home.page

@@ -93,13 +93,38 @@ def run(args, agent=None):
         if agent and hasattr(agent, 'get_cached_result'):
             cached = agent.get_cached_result('lawclaw', cache_key)
             if cached:
-                cached_text = cached.get('results', str(cached))
-                out.append("[CACHE HIT] Returning cached result")
-                out.append("")
-                out.append("=" * 60)
-                out.append(cached_text)
-                out.append("=" * 60)
-                return "\n".join(out)
+                try:
+                    import json as _json
+                    cd = _json.loads(cached.get('results', '{}'))
+                    out.append("[CACHE HIT] Rendering from source data")
+                    out.append("")
+                    for sec in ["COURTS","POLICE","DETENTION","HOSPITALS","LIBRARY","BUILDING PERMITS","CITY HALL"]:
+                        items = cd.get('sections', {}).get(sec, [])
+                        if items:
+                            out.append(f"{sec}:")
+                            seen = set()
+                            for item in items[:10]:
+                                if item not in seen:
+                                    seen.add(item)
+                                    out.append(f"  {item}")
+                            out.append("")
+                    cached_urls = cd.get('urls', [])
+                    if cached_urls:
+                        gov = [u for u in cached_urls if '.gov' in u.lower()]
+                        other = [u for u in cached_urls if '.gov' not in u.lower()]
+                        out.append("REFERENCE URLs:")
+                        for url in (gov + other)[:20]:
+                            out.append(f"  {url}")
+                    out.append("=" * 60)
+                    return "\n".join(out)
+                except:
+                    cached_text = cached.get('results', str(cached))
+                    out.append("[CACHE HIT]")
+                    out.append("")
+                    out.append("=" * 60)
+                    out.append(cached_text)
+                    out.append("=" * 60)
+                    return "\n".join(out)
 
         # Parse city and state
         parts = args.strip().split()
@@ -252,17 +277,23 @@ Sections: COURTS | POLICE | DETENTION | HOSPITALS | LIBRARY | BUILDING PERMITS |
             for url in ranked[:15]:
                 out.append(f"    {url}")
 
-        # Save to DataClaw cache for instant future retrieval
-        final = result if result else structured
-        if len(final) > 50 and agent and hasattr(agent, 'cache_result'):
+        # Cache RAW section data + URLs (not LLM output)
+        import json as _json
+        cache_payload = _json.dumps({
+            'sections': {k: v[:15] for k, v in all_entities.items()},
+            'urls': all_urls[:50],
+            'city': city_query,
+            'state': state_code
+        })
+        if agent and hasattr(agent, 'cache_result'):
             try:
-                agent.cache_result('lawclaw', cache_key, final)
-                out.append("  [Cached for instant recall]")
+                agent.cache_result('lawclaw', cache_key, cache_payload)
+                out.append("  [Cached]")
             except:
                 pass
 
         # Remember for future
-        remember(command="/jurisdiction", query=args, result_summary=final[:400], source_type="chronicle", confidence=0.95)
+        remember(command="/jurisdiction", query=args, result_summary=structured[:400], source_type="chronicle", confidence=0.95)
 
         return "\n".join(out)
 

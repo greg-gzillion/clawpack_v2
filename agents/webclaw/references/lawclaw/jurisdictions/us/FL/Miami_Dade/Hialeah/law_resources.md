@@ -9,7 +9,7 @@
 - Police Website: https://www.hialeahfl.gov/Police-Services
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Hialeah City Jail — 5555 East 8th Avenue, Hialeah, FL 33013
 ## Building Permits

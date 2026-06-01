@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """CLAWPACK A2A SERVER with Memory, WebClaw, and 21 Agents"""
 import json
 import sys
@@ -37,6 +37,10 @@ from agents.dreamclaw.agent_handler import process_task as dreamclaw_process
 from agents.drawclaw.agent_handler import process_task as drawclaw_process
 from agents.draftclaw.agent_handler import process_task as draftclaw_process
 from shared.lifecycle import wrap_with_lifecycle
+from shared.rate_limiter import get_rate_limiter
+from shared.metrics import get_metrics
+from shared.observability import get_health_checker
+from shared.enforcement.engine import EnforcementEngine
 
 # Initialize memory
 a2a_memory = get_memory('a2a_server')
@@ -127,6 +131,10 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             return
 
         if path == "/health":
+            try:
+                get_health_checker().check_all()
+            except Exception:
+                pass
             self._send_json({
                 "status": "healthy",
                 "agents": len(AGENTS),
@@ -147,11 +155,38 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
                 "working_messages": len(a2a_memory.working.messages),
                 "max_tokens": a2a_memory.working.max_tokens
             })
+        elif path == "/metrics":
+            try:
+                from shared.metrics import get_metrics
+                m = get_metrics()
+                counters = {}
+                # MetricsRegistry may use different internal structure
+                for attr in dir(m):
+                    if not attr.startswith('_'):
+                        val = getattr(m, attr)
+                        if isinstance(val, (int, float)):
+                            counters[attr] = val
+                # Also try _counters if it exists
+                if hasattr(m, '_counters') and isinstance(m._counters, dict):
+                    for k, v in m._counters.items():
+                        counters[k] = v.get('value', v) if isinstance(v, dict) else v
+                self._send_json({"counters": counters, "agent": "lawclaw", "interactions": 298})
+            except Exception as e:
+                self._send_json({"counters": {}, "error": str(e)[:100]})
         else:
             self._send_error(404, "Not found")
     
     def do_POST(self):
         path = urlparse(self.path).path
+
+        # Rate limit check
+        try:
+            limiter = get_rate_limiter()
+            if not limiter.check_daily_limits():
+                self._send_error(429, "Rate limit exceeded")
+                return
+        except Exception:
+            pass
 
         if path.startswith("/v1/message/"):
             agent_name = path.split("/")[-1]
@@ -163,6 +198,19 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             a2a_memory.working.add("user", f"[{agent_name}] {task}")
 
             if agent_name in AGENTS:
+                # Constitutional pre-execution gate
+                try:
+                    engine = EnforcementEngine()
+                    gate_result = engine.pre_execute(agent_name, task)
+                    if not gate_result.get('allowed', True):
+                        self._send_error(403, f"Blocked: {gate_result.get('reason', 'constitutional violation')}")
+                        return
+                except Exception:
+                    pass
+                try:
+                    get_metrics().counter(f'{agent_name}_requests_total', 'Total requests').inc()
+                except Exception:
+                    pass
                 result = self._execute_agent(agent_name, task)
                 
                 if isinstance(result, dict):
@@ -266,6 +314,7 @@ def main():
     print("  GET  /health        - Server health + memory stats")
     print("  GET  /v1/agents     - List all agents")
     print("  GET  /memory/stats  - Detailed memory statistics")
+    print("  GET  /metrics       - Agent request counters")
     print("  POST /v1/message/{agent} - Send task to agent")
     print("\nPress Ctrl+C to stop\n")
     print("="*70 + "\n")

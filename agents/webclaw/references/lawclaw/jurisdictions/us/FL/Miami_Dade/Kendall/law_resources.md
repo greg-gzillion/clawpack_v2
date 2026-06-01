@@ -8,7 +8,7 @@
 - Police Website: https://www.miamidade.gov/global/police/about-kendall-district-station.page
 ## Courts
 - 11th Judicial Circuit Court – Miami-Dade County
-- Court Website: https://www.mdcourts.gov
+- Court Website: https://www.jud11.flcourts.org
 ## Detention Center
 - Miami-Dade County jails — Inmate Search: https://www.miamidade.gov/InmateSearch/
 ## Building Permits

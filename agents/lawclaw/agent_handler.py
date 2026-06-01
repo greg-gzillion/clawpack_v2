@@ -42,7 +42,10 @@ class LawClawHandler(BaseAgent):
         args = parts[1] if len(parts) > 1 else ""
 
         try:
-            if cmd in ("/help", "help"):
+            if cmd == "/access":
+                from agents.lawclaw.commands.access import run as cmd_run
+                result = cmd_run(args, agent=self)
+            elif cmd in ("/help", "help"):
                 result = """
 ============================================================
   LAWCLAW — Legal Research & Document Agent
@@ -137,29 +140,29 @@ All commands are memory-wired. Cross-agent delegation via capability registry.
             elif cmd == "/stats":
                 result = f"LawClaw | Interactions: {self.state.get('interactions', 0)}"
             elif cmd == "/voice":
-                from shared.voice_hook import toggle
+                from shared.accessibility import toggle_voice as toggle
                 result = toggle(self)
             elif cmd == "/analyze" and args:
                 from agents.lawclaw.commands.analyze import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/ask" and args:
                 from agents.lawclaw.commands.ask import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/brief" and args:
                 from agents.lawclaw.commands.brief import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/browse" and args:
                 from agents.lawclaw.commands.browse import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/cite" and args:
                 from agents.lawclaw.commands.cite import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/correct" and args:
                 from agents.lawclaw.commands.correct import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/court" and args:
                 from agents.lawclaw.commands.court import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd in ("/doc", "/draft") and args:
                 try:
                     from agents.lawclaw.commands._memory import recall_court
@@ -233,40 +236,40 @@ If this is a phrase: provide the translation to the target language.
                 self._last_document = str(result)
             elif cmd == "/docket" and args:
                 from agents.lawclaw.commands.docket import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/federal" and args:
                 from agents.lawclaw.commands.federal import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/judge" and args:
                 from agents.lawclaw.commands.judge import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/jurisdiction" and args:
                 from agents.lawclaw.commands.jurisdiction import run as cmd_run
                 result = cmd_run(args, agent=self)
             elif cmd == "/law" and args:
                 from agents.lawclaw.commands.law import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/list":
                 from agents.lawclaw.commands.list import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/oral" and args:
                 from agents.lawclaw.commands.oral import run as cmd_run
                 result = cmd_run(args, agent=self)
             elif cmd == "/precedent" and args:
                 from agents.lawclaw.commands.precedent import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/search" and args:
                 from agents.lawclaw.commands.search import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/state" and args:
                 from agents.lawclaw.commands.state import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/statute" and args:
                 from agents.lawclaw.commands.statute import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             elif cmd == "/summarize" and args:
                 from agents.lawclaw.commands.summarize import run as cmd_run
-                result = cmd_run(args)
+                result = cmd_run(args, agent=self)
             else:
                 from shared.capabilities import get_capable_agent
                 target = get_capable_agent(cmd, "lawclaw")

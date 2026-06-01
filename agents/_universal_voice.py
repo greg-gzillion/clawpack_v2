@@ -3,5 +3,5 @@
 name = "/voice"
 
 def run(args, agent=None):
-    from shared.voice_hook import toggle
+    from shared.accessibility import toggle_voice as toggle
     return toggle(agent)
