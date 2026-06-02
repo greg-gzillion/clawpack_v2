@@ -550,4 +550,41 @@ Biggest risks: Inactive enforcement (constitutional violations pass unimpeded), 
 
 This document is a frozen historical snapshot capturing Clawpack V2 state as of June 2, 2026. It is not a living document. Future assessments should be saved as docs/reports/STATE_OF_CLAWPACK_V2_YYYY_MM_DD.md to enable objective progress measurement against this baseline. The next recommended audit date is September 1, 2026.
 
-*Document score: Accuracy 9.5/10 Â· Honesty 10/10 Â· Technical Depth 9.5/10 Â· Roadmap Clarity 9/10 Â· Historical Usefulness 9/10*
+*Document score: Accuracy 9.5/10 Â· Honesty 10/10 Â· Technical Depth 9.5/10 Â· Roadmap Clarity 9/10 Â· Historical Usefulness 9/10* 
+ - - -  
+  
+ # #   A d d e n d u m :   J u n e   2 ,   2 0 2 6   ( E v e n i n g   S e s s i o n )  
+  
+ # # #   P r i o r i t y   1   C o m p l e t e d :   S o v e r e i g n t y   E n f o r c e m e n t   A c t i v a t e d  
+  
+ S o v e r e i g n t y   e n f o r c e m e n t   m o v e d   f r o m   d e t e c t i o n - o n l y   t o   a c t i v e   b l o c k i n g   a t   t h e   H T T P   b o u n d a r y .   T h e   F o r b i d d e n P a t t e r n D e t e c t o r   n o w   s c a n s   e v e r y   A 2 A   r e q u e s t   b e f o r e   a g e n t   d i s p a t c h .   S i x   s o v e r e i g n t y   v i o l a t i o n   p a t t e r n s   r e t u r n   4 0 3 :  
+  
+ -   \ i m p o r t   a n t h r o p i c \   ’!  4 0 3   B L O C K E D  
+ -   \  r o m   g r o q   i m p o r t \   ’!  4 0 3   B L O C K E D  
+ -   \ i m p o r t   o l l a m a \   ’!  4 0 3   B L O C K E D  
+ -   \ o p e n r o u t e r . a i \   U R L   ’!  4 0 3   B L O C K E D  
+ -   \  p i . g r o q . c o m \   U R L   ’!  4 0 3   B L O C K E D  
+ -   \ l o c a l h o s t : 1 1 4 3 4 \   ’!  4 0 3   B L O C K E D  
+  
+ N o r m a l   c o m m a n d s   ( \ / h e l p \ ,   \ / s t a t s \ ,   \ / c o u r t \ )   p a s s   t h r o u g h   u n a f f e c t e d .   T h e   \ e x c e p t :   p a s s \   a n t i - p a t t e r n   w a s   r e m o v e d      e n f o r c e m e n t   f a i l u r e s   a r e   n o w   l o g g e d .   A r c h i t e c t u r a l   d e c i s i o n   d o c u m e n t e d   i n   D E C I S I O N _ L O G . m d :   t h i s   a c t i v a t e s   t h e   d e t e c t o r   a s   a   l i g h t w e i g h t   H T T P   f i r e w a l l .   T h e   f u l l   E n f o r c e m e n t E n g i n e   ( P r e E x e c u t i o n G a t e ,   P o s t E x e c u t i o n G a t e ,   r e f e r e n c e   l o a d i n g ,   e s c a l a t i o n ,   c o n f i d e n c e   s c o r i n g )   r e m a i n s   i n   s h a r e d / e n f o r c e m e n t /   f o r   f u t u r e   a c t i v a t i o n   w h e n   r e f e r e n c e   f i l e s   a r e   c r e a t e d .  
+  
+ * * E n f o r c e m e n t   s c o r e   r e v i s e d :   3 . 0   ’!  6 . 0 / 1 0 . * *   S o v e r e i g n t y   v i o l a t i o n s   a c t i v e l y   b l o c k e d .   F u l l   g o v e r n a n c e   p i p e l i n e   p r e s e r v e d   f o r   f u t u r e   a c t i v a t i o n .  
+  
+ # # #   R u n t i m e   S t a t e   S e p a r a t i o n   C o m p l e t e d  
+  
+ A l l   r u n t i m e   f i l e s   m o v e d   f r o m   \ d a t a / \   t o   \  u n t i m e / \   t o   p e r m a n e n t l y   e l i m i n a t e   G i t   c o n t a m i n a t i o n   f r o m   e x e c u t i o n   s t a t e .   T h e   \  u n t i m e / \   d i r e c t o r y   i s   g i t i g n o r e d .   \ d a t a / \   n o w   c o n t a i n s   o n l y   s t a t i c   r e f e r e n c e   d a t a   ( j u r i s d i c t i o n   f i l e s ,   s c h e m a s ) .   T h i s   f i x e s   t h e   c l a s s   o f   G i t   c o n f l i c t   t h a t   c a u s e d   r e b a s e / s t a s h   c o r r u p t i o n   t h r o u g h o u t   t h e   M a y   3 0 - J u n e   2   s e s s i o n s .  
+  
+ * * F i l e s   m o v e d : * *   6   J S O N   l e d g e r s / i n d e x e s ,   c h r o n i c l e . d b   ( 2 3 7 , 7 5 1   r o w s ,   4 4 8   M B ) ,   s e r v e r . l o g ,   e n f o r c e m e n t   a r t i f a c t s .  
+ * * S o u r c e   f i l e s   p a t c h e d : * *   1 0   ( 8   s h a r e d   m o d u l e s   +   2   d r a f t c l a w   f i l e s ) .  
+ * * B u g s   f i x e d : * *   2   a b s o l u t e   p a t h   b u g s   i n   d r a f t c l a w   r e p l a c e d   w i t h   \ P a t h ( _ _ f i l e _ _ ) \ - b a s e d   r e l a t i v e   p a t h s .  
+  
+ * * I n f r a s t r u c t u r e   s c o r e   r e v i s e d :   8 . 5   ’!  9 . 0 / 1 0 . * *   R e p o s i t o r y   a r c h i t e c t u r e   n o w   f o l l o w s   p r o d u c t i o n   s e r v i c e   p a t t e r n s   ( s t a t i c   d a t a   v s   r u n t i m e   s t a t e   s e p a r a t i o n ) .  
+  
+ # # #   U p d a t e d   S c o r e s  
+  
+ |   S y s t e m   |   W a s   |   N o w   |   C h a n g e   |  
+ | - - - - - - - - | - - - - - | - - - - - | - - - - - - - - |  
+ |   E n f o r c e m e n t   |   3 . 0   |   6 . 0   |   S o v e r e i g n t y   v i o l a t i o n s   a c t i v e l y   b l o c k e d   |  
+ |   I n f r a s t r u c t u r e   |   8 . 5   |   9 . 0   |   R u n t i m e / s o u r c e   s e p a r a t i o n   c o m p l e t e   |  
+ |   * * O v e r a l l * *   |   * * 6 . 6 * *   |   * * 7 . 0 * *   |   T w o   h i g h e s t - p r i o r i t y   g a p s   p a r t i a l l y   a d d r e s s e d   |  
+ 
