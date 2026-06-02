@@ -150,14 +150,36 @@ Provide a comprehensive answer with citations from the context above. Include sp
                 result = self.orchestrate(args)
             
             elif cmd in ("/models", "/list", "models", "list"):
-                models = _get_working_llms()
-                obliterated = [m for m in models if m.get("obliterated")]
-                standard = [m for m in models if not m.get("obliterated")]
                 active = _get_active()
                 result = f"Active: {active.get('model')} ({active.get('source')})\n\n"
+                
+                # Read obliterated models from actual disk
+                oblit_dir = Path(__file__).parent.parent.parent / "models" / "obliterated"
+                obliterated = []
+                if oblit_dir.exists():
+                    for model_dir in sorted(oblit_dir.iterdir()):
+                        if model_dir.is_dir():
+                            meta = model_dir / "abliteration_metadata.json"
+                            if meta.exists():
+                                d = json.loads(meta.read_text())
+                                obliterated.append({
+                                    "name": model_dir.name,
+                                    "source": d.get("source_model", "unknown"),
+                                    "technique": d.get("technique", "unknown"),
+                                })
+                            else:
+                                obliterated.append({"name": model_dir.name, "source": "unknown", "technique": "unknown"})
+                
                 result += f"OBLITERATED ({len(obliterated)}):\n"
-                result += "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in obliterated)
-                result += f"\n\nSTANDARD ({len(standard)}):\n"
+                for m in obliterated:
+                    result += f"  - {m['name']}\n"
+                    result += f"    Source: {m['source']}\n"
+                    result += f"    Method: {m['technique']}\n"
+                
+                # Standard models from working_llms.json (non-obliterated only)
+                models = _get_working_llms()
+                standard = [m for m in models if not m.get("obliterated")]
+                result += f"\nSTANDARD ({len(standard)}):\n"
                 result += "\n".join(f"  - {m['model']} ({m.get('size','?')})" for m in standard)
                 result += "\n\nUse /use <model_name> to switch"
             elif cmd in ("/use", "use") and args:
