@@ -18,18 +18,84 @@ def _log(event, detail=""):
         pass
 
 
+def _extract_location(query: str):
+    """Extract city and state from a query for geographic filtering.
+    Returns (city, state_code) or (None, None) if no location detected."""
+    import re
+    _STATE_CODES = {
+        "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
+        "IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV",
+        "NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN",
+        "TX","UT","VT","VA","WA","WV","WI","WY","DC","PR"
+    }
+    _STATE_NAMES = {
+        "alabama":"AL","alaska":"AK","arizona":"AZ","arkansas":"AR",
+        "california":"CA","colorado":"CO","connecticut":"CT","delaware":"DE",
+        "florida":"FL","georgia":"GA","hawaii":"HI","idaho":"ID",
+        "illinois":"IL","indiana":"IN","iowa":"IA","kansas":"KS",
+        "kentucky":"KY","louisiana":"LA","maine":"ME","maryland":"MD",
+        "massachusetts":"MA","michigan":"MI","minnesota":"MN",
+        "mississippi":"MS","missouri":"MO","montana":"MT","nebraska":"NE",
+        "nevada":"NV","new hampshire":"NH","new jersey":"NJ",
+        "new mexico":"NM","new york":"NY","north carolina":"NC",
+        "north dakota":"ND","ohio":"OH","oklahoma":"OK","oregon":"OR",
+        "pennsylvania":"PA","rhode island":"RI","south carolina":"SC",
+        "south dakota":"SD","tennessee":"TN","texas":"TX","utah":"UT",
+        "vermont":"VT","virginia":"VA","washington":"WA",
+        "west virginia":"WV","wisconsin":"WI","wyoming":"WY",
+        "district of columbia":"DC","puerto rico":"PR",
+    }
+    # Strip leading command prefix like /court, /jurisdiction, /law
+    clean = re.sub(r'^/[a-z_]+\s+', '', query.strip(), count=1)
+    # Pattern: "City, ST" or "City ST" at end
+    match = re.search(r"([A-Za-z\s]+),?\s+([A-Z]{2})\s*$", clean.strip())
+    if match:
+        city = match.group(1).strip()
+        state = match.group(2).upper()
+        if state in _STATE_CODES:
+            return city, state
+    # Pattern: standalone 2-letter code anywhere
+    words = clean.upper().split()
+    for w in words:
+        if w in _STATE_CODES:
+            # Find what comes before the state code as potential city
+            idx = words.index(w)
+            if idx > 0:
+                return words[idx-1].title(), w
+            return None, w
+    # Pattern: full state name
+    clean_lower = clean.lower()
+    for name, code in sorted(_STATE_NAMES.items(), key=lambda x: -len(x[0])):
+        if name in clean_lower:
+            return None, code
+    return None, None
+
+
 def recall(query: str, limit: int = 5) -> list:
-    """Search unified memory for prior results related to this query."""
+    """Search unified memory for prior results related to this query.
+    Applies geographic filtering when city/state detected in query."""
     try:
         from shared.memory.unified_memory import UnifiedMemory
         mem = UnifiedMemory()
+        
+        # Extract location for geographic filtering
+        city, state = _extract_location(query)
+        
         terms = query.lower().split()
         matches = []
         for fact in mem._facts:
             fact_text = (fact.get("fact", "") + " " + fact.get("query", "")).lower()
             score = sum(1 for t in terms if t in fact_text)
             if score > 0:
-                matches.append((score, fact))
+                # Geographic filter: if query has a location, prefer same-state results
+                geo_bonus = 0
+                if state and state.lower() in fact_text:
+                    geo_bonus = 3  # Strong preference for same-state results
+                if city and city.lower() in fact_text:
+                    geo_bonus += 2  # Even stronger for same-city
+                matches.append((score + geo_bonus, fact))
+        
+        # Sort by combined score (keyword + geographic), then confidence
         matches.sort(key=lambda x: (-x[0], -x[1].get("confidence", 0)))
         return [m[1] for m in matches[:limit]]
     except Exception as e:

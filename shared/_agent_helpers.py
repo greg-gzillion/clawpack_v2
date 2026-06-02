@@ -13,17 +13,10 @@ All exceptions logged. No silent failures.
 from typing import Optional
 
 
-# ── LLM via Sovereign Gateway ─────────────────────────────────────────────────
+# ── LLM via Sovereign Gateway ────────────────────────────────────────────
 
 def llm(agent_name: str, prompt: str, timeout: int = 120) -> str:
-    """
-    Call LLM through Sovereign Gateway. Chronicle-enriched, budget-tracked.
-    Equivalent to BaseAgent.ask_llm() without needing a BaseAgent instance.
-
-    Usage:
-        from shared._agent_helpers import llm
-        result = llm("myclaw", "Explain this concept: ...")
-    """
+    """Call LLM through Sovereign Gateway. Chronicle-enriched, budget-tracked."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -34,14 +27,7 @@ def llm(agent_name: str, prompt: str, timeout: int = 120) -> str:
 
 
 def smart(agent_name: str, prompt: str) -> str:
-    """
-    Full truth resolver pipeline: retriever + Chronicle + memory guard + conflict detection.
-    Equivalent to BaseAgent.smart_ask().
-
-    Usage:
-        from shared._agent_helpers import smart
-        result = smart("myclaw", "What is qualified immunity?")
-    """
+    """Full truth resolver pipeline: retriever + Chronicle + memory guard + conflict detection."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -51,19 +37,10 @@ def smart(agent_name: str, prompt: str) -> str:
     return ""
 
 
-# ── Chronicle search ──────────────────────────────────────────────────────────
+# ── Chronicle search ─────────────────────────────────────────────────────
 
 def chronicle(agent_name: str, query: str, limit: int = 10) -> list:
-    """
-    Search 448MB Chronicle SQLite index.
-    Returns list of result dicts with 'context' and 'url' keys.
-
-    Usage:
-        from shared._agent_helpers import chronicle
-        results = chronicle("myclaw", "Miranda v Arizona", limit=5)
-        for r in results:
-            print(r.get("context", "")[:200])
-    """
+    """Search 448MB Chronicle SQLite index. Returns list of result dicts."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -75,13 +52,7 @@ def chronicle(agent_name: str, query: str, limit: int = 10) -> list:
 
 def chronicle_text(agent_name: str, query: str, limit: int = 10,
                    max_chars: int = 800) -> str:
-    """
-    Search Chronicle and return formatted string for LLM prompts.
-
-    Usage:
-        ctx = chronicle_text("myclaw", "Fourth Amendment search seizure")
-        result = llm("myclaw", f"Analyze this: ...\n\nContext:\n{ctx}")
-    """
+    """Search Chronicle and return formatted string for LLM prompts."""
     results = chronicle(agent_name, query, limit)
     if not results:
         return ""
@@ -94,16 +65,10 @@ def chronicle_text(agent_name: str, query: str, limit: int = 10,
     return "\n---\n".join(parts)
 
 
-# ── Web search ────────────────────────────────────────────────────────────────
+# ── Web search ───────────────────────────────────────────────────────────
 
 def web(agent_name: str, query: str, max_results: int = 10) -> str:
-    """
-    Search the web via webclaw. Results indexed to Chronicle automatically.
-
-    Usage:
-        from shared._agent_helpers import web
-        results = web("myclaw", "qualified immunity Supreme Court 2024")
-    """
+    """Search the web via webclaw. Results indexed to Chronicle automatically."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -114,13 +79,7 @@ def web(agent_name: str, query: str, max_results: int = 10) -> str:
 
 
 def fetch(agent_name: str, url: str, timeout: int = 20) -> str:
-    """
-    Fetch a URL through webclaw A2A. Constitutional — no direct requests.get().
-
-    Usage:
-        from shared._agent_helpers import fetch
-        content = fetch("myclaw", "https://www.fjc.gov/history/judges/sotomayor")
-    """
+    """Fetch a URL through webclaw A2A. Constitutional — no direct requests.get()."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -130,26 +89,11 @@ def fetch(agent_name: str, url: str, timeout: int = 20) -> str:
     return ""
 
 
-# ── Cross-agent delegation ────────────────────────────────────────────────────
+# ── Cross-agent delegation ───────────────────────────────────────────────
 
 def delegate(from_agent: str, to_agent: str, task: str,
              timeout: int = 60) -> str:
-    """
-    Delegate a task to another agent via A2A. Constitutional cross-agent call.
-    Returns result string or '' on failure.
-
-    Usage:
-        from shared._agent_helpers import delegate
-
-        # lawclaw → docuclaw
-        doc = delegate("lawclaw", "docuclaw", "/create legal brief: ...")
-
-        # mediclaw → lawclaw
-        legal = delegate("mediclaw", "lawclaw", "/law HIPAA patient rights")
-
-        # any agent → webclaw
-        page = delegate("myclaw", "webclaw", "fetch https://...")
-    """
+    """Delegate a task to another agent via A2A. Constitutional cross-agent call."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(from_agent)
@@ -159,15 +103,10 @@ def delegate(from_agent: str, to_agent: str, task: str,
     return ""
 
 
-# ── Memory ────────────────────────────────────────────────────────────────────
+# ── Memory ───────────────────────────────────────────────────────────────
 
 def remember(agent_name: str, key: str, value: str) -> None:
-    """
-    Store a value in agent state (persists to data/shared_memory.json).
-
-    Usage:
-        remember("myclaw", "last_query", "Miranda v Arizona")
-    """
+    """Store a value in agent state (persists to runtime/shared_memory.json)."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -177,12 +116,7 @@ def remember(agent_name: str, key: str, value: str) -> None:
 
 
 def recall(agent_name: str, key: str) -> Optional[str]:
-    """
-    Retrieve a stored value from agent state.
-
-    Usage:
-        last = recall("myclaw", "last_query")
-    """
+    """Retrieve a stored value from agent state."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -193,13 +127,7 @@ def recall(agent_name: str, key: str) -> Optional[str]:
 
 
 def learn_fact(agent_name: str, fact: str) -> None:
-    """
-    Write a fact to unified cross-agent memory (all 21 agents share this).
-    Facts are searchable by any agent via recall_facts().
-
-    Usage:
-        learn_fact("lawclaw", "Qualified immunity requires clearly established rights")
-    """
+    """Write a fact to unified cross-agent memory (all 21 agents share this)."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -208,17 +136,10 @@ def learn_fact(agent_name: str, fact: str) -> None:
         _log(agent_name, "learn_fact_error", str(e)[:200])
 
 
-# ── Chronicle recording ───────────────────────────────────────────────────────
+# ── Chronicle recording ──────────────────────────────────────────────────
 
 def record(agent_name: str, url: str, context: str) -> None:
-    """
-    Index a URL and its content to Chronicle.
-    Makes this content searchable by all agents.
-
-    Usage:
-        record("lawclaw", "https://fjc.gov/judges/sotomayor",
-               "Sonia Sotomayor appointed 2009 by Obama, SCOTUS")
-    """
+    """Index a URL and its content to Chronicle. Makes content searchable by all agents."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -227,26 +148,26 @@ def record(agent_name: str, url: str, context: str) -> None:
         _log(agent_name, "record_error", str(e)[:200])
 
 
-# ── Error logging ─────────────────────────────────────────────────────────────
+# ── Error logging ────────────────────────────────────────────────────────
 
 def log_err(agent_name: str, context: str, error: str) -> None:
-    """
-    Constitutional audit logging. Never raises.
-
-    Usage:
-        except Exception as e:
-            log_err("myclaw", "fetch_timeout", str(e)[:200])
-    """
+    """Constitutional audit logging. Never raises."""
     try:
         from agents.webclaw.core.chronicle_ledger import get_chronicle
-        get_chronicle().record_fetch(url=f"agent:{agent_name}", context=context, source="_agent_helpers", metadata={"detail": str(error)[:500]})
+        get_chronicle().record_fetch(
+            url=f"agent:{agent_name}",
+            context=context,
+            source="_agent_helpers",
+            metadata={"detail": str(error)[:500]},
+        )
     except Exception:
         try:
             print(f"[{agent_name}] {context}: {error}", flush=True)
         except Exception:
             pass
 
-# ── Shared Learning ───────────────────────────────────────────────────────────
+
+# ── Shared learning ──────────────────────────────────────────────────────
 
 def learn(agent_name: str, query: str, result: str,
           source_type: str = "web_verified", confidence: float = 0.85,
@@ -255,14 +176,12 @@ def learn(agent_name: str, query: str, result: str,
     Write a result to unified cross-agent memory. All 21 agents share this.
     MemoryGuard enforces: source must be web_verified or chronicle, confidence >= 0.75.
     Returns True if persisted, False if blocked by guard.
-
-    Usage:
-        from shared._agent_helpers import learn
-        learn("lawclaw", "qualified immunity", result, "web_verified", 0.85, urls)
     """
     try:
         from shared.memory_guard import sanitize_memory_write
-        check = sanitize_memory_write(agent_name, result[:100], source_type, confidence)
+        check = sanitize_memory_write(
+            agent_name, result[:100], source_type, confidence
+        )
         if not check.get("allowed"):
             return False
 
@@ -292,27 +211,83 @@ def learn(agent_name: str, query: str, result: str,
     return False
 
 
-def recall_memory(agent_name: str, query: str, limit: int = 5) -> list:
-    """
-    Search unified memory for prior results across all agents.
-    Returns list of fact dicts sorted by relevance and confidence.
+def _extract_location_helpers(query: str):
+    """Extract city and state from a query for geographic filtering.
+    Returns (city, state_code) or (None, None) if no location detected."""
+    import re
+    _STATE_CODES = {
+        "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
+        "IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV",
+        "NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN",
+        "TX","UT","VT","VA","WA","WV","WI","WY","DC","PR"
+    }
+    _STATE_NAMES = {
+        "alabama":"AL","alaska":"AK","arizona":"AZ","arkansas":"AR",
+        "california":"CA","colorado":"CO","connecticut":"CT","delaware":"DE",
+        "florida":"FL","georgia":"GA","hawaii":"HI","idaho":"ID",
+        "illinois":"IL","indiana":"IN","iowa":"IA","kansas":"KS",
+        "kentucky":"KY","louisiana":"LA","maine":"ME","maryland":"MD",
+        "massachusetts":"MA","michigan":"MI","minnesota":"MN",
+        "mississippi":"MS","missouri":"MO","montana":"MT","nebraska":"NE",
+        "nevada":"NV","new hampshire":"NH","new jersey":"NJ",
+        "new mexico":"NM","new york":"NY","north carolina":"NC",
+        "north dakota":"ND","ohio":"OH","oklahoma":"OK","oregon":"OR",
+        "pennsylvania":"PA","rhode island":"RI","south carolina":"SC",
+        "south dakota":"SD","tennessee":"TN","texas":"TX","utah":"UT",
+        "vermont":"VT","virginia":"VA","washington":"WA",
+        "west virginia":"WV","wisconsin":"WI","wyoming":"WY",
+        "district of columbia":"DC","puerto rico":"PR",
+    }
+    # Strip leading command prefix like /court, /jurisdiction, /law
+    clean = re.sub(r'^/[a-z_]+\s+', '', query.strip(), count=1)
+    # Pattern: "City, ST" or "City ST" at end
+    match = re.search(r"([A-Za-z\s]+),?\s+([A-Z]{2})\s*$", clean.strip())
+    if match:
+        city = match.group(1).strip()
+        state = match.group(2).upper()
+        if state in _STATE_CODES:
+            return city, state
+    # Pattern: standalone 2-letter code anywhere
+    words = clean.upper().split()
+    for w in words:
+        if w in _STATE_CODES:
+            # Find what comes before the state code as potential city
+            idx = words.index(w)
+            if idx > 0:
+                return words[idx-1].title(), w
+            return None, w
+    # Pattern: full state name
+    clean_lower = clean.lower()
+    for name, code in sorted(_STATE_NAMES.items(), key=lambda x: -len(x[0])):
+        if name in clean_lower:
+            return None, code
+    return None, None
 
-    Usage:
-        from shared._agent_helpers import recall_memory
-        prior = recall_memory("lawclaw", "Miranda rights")
-        for p in prior:
-            print(p.get("agent"), p.get("fact")[:80])
-    """
+
+def recall_memory(agent_name: str, query: str, limit: int = 5) -> list:
+    """Search unified memory for prior results across all agents.
+    Applies geographic filtering when city/state detected in query."""
     try:
         from shared.memory.unified_memory import UnifiedMemory
         mem = UnifiedMemory()
+        
+        city, state = _extract_location_helpers(query)
+        
         terms = query.lower().split()
         matches = []
         for fact in mem._facts:
-            fact_text = (fact.get("fact", "") + " " + fact.get("query", "")).lower()
+            fact_text = (
+                fact.get("fact", "") + " " + fact.get("query", "")
+            ).lower()
             score = sum(1 for t in terms if t in fact_text)
             if score > 0:
-                matches.append((score, fact))
+                geo_bonus = 0
+                if state and state.lower() in fact_text:
+                    geo_bonus = 3
+                if city and city.lower() in fact_text:
+                    geo_bonus += 2
+                matches.append((score + geo_bonus, fact))
+        
         matches.sort(key=lambda x: (-x[0], -x[1].get("confidence", 0)))
         return [m[1] for m in matches[:limit]]
     except Exception as e:
@@ -321,14 +296,7 @@ def recall_memory(agent_name: str, query: str, limit: int = 5) -> list:
 
 
 def smart_llm(agent_name: str, prompt: str, timeout: int = 120) -> str:
-    """
-    Full truth resolver pipeline: retriever + Chronicle + memory guard + conflict detection.
-    Use this instead of llm() when you want verified answers with source trust scoring.
-
-    Usage:
-        from shared._agent_helpers import smart_llm
-        result = smart_llm("lawclaw", "What is qualified immunity?")
-    """
+    """Full truth resolver pipeline with fallback to standard llm()."""
     try:
         from shared.base_agent import BaseAgent
         agent = BaseAgent(agent_name)
@@ -336,12 +304,19 @@ def smart_llm(agent_name: str, prompt: str, timeout: int = 120) -> str:
     except Exception as e:
         _log(agent_name, "smart_llm_fallback", str(e)[:100])
         return llm(agent_name, prompt, timeout=timeout)
-# ── Internal ──────────────────────────────────────────────────────────────────
+
+
+# ── Internal ─────────────────────────────────────────────────────────────
 
 def _log(agent_name: str, context: str, detail: str = "") -> None:
     """Internal logging — always silent on failure."""
     try:
         from agents.webclaw.core.chronicle_ledger import get_chronicle
-        get_chronicle().record_fetch(url=f"agent:{agent_name}", context=context, source="_agent_helpers", metadata={"detail": str(detail)[:500]})
+        get_chronicle().record_fetch(
+            url=f"agent:{agent_name}",
+            context=context,
+            source="_agent_helpers",
+            metadata={"detail": str(detail)[:500]},
+        )
     except Exception:
         pass
