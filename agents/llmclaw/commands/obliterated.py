@@ -4,7 +4,7 @@ name = "/obliterated"
 def run(args):
     from pathlib import Path
     
-    models_dir = Path("str(PROJECT_ROOT)/models")
+    models_dir = Path(__file__).parent.parent.parent.parent / "models"
     obliterated_dir = models_dir / "obliterated"
     
     output = ["\n🔥 OBLITERATED MODELS\n" + "="*50]

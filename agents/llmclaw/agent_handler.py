@@ -164,9 +164,31 @@ Provide a comprehensive answer with citations from the context above. Include sp
                 _set_active(args, "ollama" if ":" in args else "groq")
                 result = f"Switched to: {args}"
             elif cmd in ("/obliterated", "obliterated"):
-                models = _get_working_llms()
-                lib = [m for m in models if m.get("obliterated")]
-                result = f"Obliterated models available: {len(lib)}\n" + "\n".join(m["model"] for m in lib)
+                from pathlib import Path
+                import json as _json
+                oblit_dir = Path(__file__).parent.parent.parent / "models" / "obliterated"
+                lines = ["OBLITERATED MODELS (safety guardrails surgically removed):", ""]
+                if oblit_dir.exists():
+                    for model_dir in sorted(oblit_dir.iterdir()):
+                        if model_dir.is_dir():
+                            meta = model_dir / "abliteration_metadata.json"
+                            if meta.exists():
+                                d = _json.loads(meta.read_text())
+                                source = d.get("source_model", model_dir.name)
+                                technique = d.get("technique", "unknown")
+                                lines.append("  " + model_dir.name)
+                                lines.append("    Source: " + source)
+                                lines.append("    Method: " + technique)
+                                lines.append("")
+                            else:
+                                lines.append("  " + model_dir.name + " (no metadata)")
+                                lines.append("")
+                else:
+                    lines.append("  No obliterated models found.")
+                lines.append("Use /use <model_name> to activate.")
+                result = "\n".join(lines)
+                
+                
             elif cmd in ("/normal", "normal"):
                 models = _get_working_llms()
                 std = [m for m in models if not m.get("obliterated")]
