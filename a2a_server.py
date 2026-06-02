@@ -198,15 +198,22 @@ class UnifiedA2AHandler(BaseHTTPRequestHandler):
             a2a_memory.working.add("user", f"[{agent_name}] {task}")
 
             if agent_name in AGENTS:
-                # Constitutional pre-execution gate
+                # Constitutional sovereignty check (Article I)
+                # Scans task for forbidden LLM provider access patterns
                 try:
-                    engine = EnforcementEngine()
-                    gate_result = engine.pre_execute(agent_name, task)
-                    if not gate_result.get('allowed', True):
-                        self._send_error(403, f"Blocked: {gate_result.get('reason', 'constitutional violation')}")
+                    from shared.enforcement.detector import ForbiddenPatternDetector
+                    detector = ForbiddenPatternDetector()
+                    detected = detector.scan_task(task)
+                    if detected:
+                        violations_text = "; ".join(detected[:5])
+                        self._send_error(403, f"Blocked: sovereignty violation(s) - {violations_text}")
                         return
-                except Exception:
-                    pass
+                except Exception as e:
+                    try:
+                        from shared._agent_helpers import log_err
+                        log_err("a2a_server", "sovereignty_check_failure", str(e)[:200])
+                    except Exception:
+                        pass
                 try:
                     get_metrics().counter(f'{agent_name}_requests_total', 'Total requests').inc()
                 except Exception:
