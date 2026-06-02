@@ -186,7 +186,6 @@ Provide a comprehensive answer with citations from the context above. Include sp
                 _set_active(args, "ollama" if ":" in args else "groq")
                 result = f"Switched to: {args}"
             elif cmd in ("/obliterated", "obliterated"):
-                from pathlib import Path
                 import json as _json
                 oblit_dir = Path(__file__).parent.parent.parent / "models" / "obliterated"
                 lines = ["OBLITERATED MODELS (safety guardrails surgically removed):", ""]
