@@ -119,9 +119,24 @@ class FlowClawAgent(BaseAgent):
 
                 # Open browser popup with rendered diagram
                 try:
-                    from agents.flowclaw.flowclaw_viewer import FlowClaw
-                    viewer = FlowClaw()
-                    viewer.show_diagram(code, f"{diagram_type}: {query}")
+                    import tempfile, webbrowser
+                    html = """<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>""" + query + """ - FlowClaw</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+body{font-family:Arial,sans-serif;background:#f0f2f5;padding:20px;margin:0}
+.container{max-width:1200px;margin:0 auto;background:#fff;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);padding:30px}
+h1{color:#333;border-bottom:2px solid #667eea;padding-bottom:10px}
+.mermaid{display:flex;justify-content:center;padding:20px;background:#fafafa;border-radius:8px}
+</style></head><body><div class="container">
+<h1>""" + diagram_type.title() + """: """ + query + """</h1>
+<div class="mermaid">
+""" + code + """
+</div></div></body></html>"""
+                    tmp = tempfile.NamedTemporaryFile(suffix='.html', delete=False, mode='w', encoding='utf-8')
+                    tmp.write(html)
+                    tmp.close()
+                    webbrowser.open('file:///' + tmp.name.replace('\\', '/'))
                 except Exception:
                     pass
 

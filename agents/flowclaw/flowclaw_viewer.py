@@ -78,292 +78,132 @@ class FlowClaw:
     Active --> Completed : Finish
     Completed --> [*]"""
     
-    def show_diagram(self, code, title):
+        def show_diagram(self, code, title):
         """Show diagram in browser with local Mermaid rendering"""
-        html = f"""<!DOCTYPE html>
+        html = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{title} - FlowClaw</title>
+    <title>""" + title + """ - FlowClaw</title>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
     <style>
-        * {{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }}
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }}
-        .container {{
-            max-width: 1400px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
-        }}
-        .header {{
+            min-height: 100vh; padding: 20px;
+        }
+        .container {
+            max-width: 1400px; margin: 0 auto; background: white;
+            border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden;
+        }
+        .header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 25px 35px;
-        }}
-        .header h1 {{
-            font-size: 28px;
-            margin-bottom: 5px;
-        }}
-        .header p {{
-            opacity: 0.9;
-            font-size: 14px;
-        }}
-        .toolbar {{
-            padding: 15px 35px;
-            background: #f8f9fa;
-            border-bottom: 1px solid #e0e0e0;
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            align-items: center;
-        }}
-        button {{
-            padding: 10px 20px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 14px;
-            transition: all 0.3s;
-        }}
-        .btn-primary {{
-            background: #667eea;
-            color: white;
-        }}
-        .btn-primary:hover {{
-            background: #5a67d8;
-            transform: translateY(-2px);
-        }}
-        .btn-success {{
-            background: #28a745;
-            color: white;
-        }}
-        .btn-success:hover {{
-            background: #218838;
-            transform: translateY(-2px);
-        }}
-        .btn-secondary {{
-            background: #6c757d;
-            color: white;
-        }}
-        .btn-secondary:hover {{
-            background: #5a6268;
-        }}
-        .diagram-container {{
-            padding: 40px;
-            background: #f8f9fa;
-            min-height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: auto;
-        }}
-        .mermaid {{
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            display: inline-block;
-            min-width: 300px;
-        }}
-        .status {{
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: rgba(0,0,0,0.8);
-            color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 12px;
-            pointer-events: none;
-            z-index: 1000;
-        }}
-        .footer {{
-            padding: 15px 35px;
-            background: #f8f9fa;
-            text-align: center;
-            font-size: 12px;
-            color: #6c757d;
-            border-top: 1px solid #e0e0e0;
-        }}
-        @media (max-width: 768px) {{
-            .toolbar {{
-                padding: 15px 20px;
-            }}
-            .diagram-container {{
-                padding: 20px;
-            }}
-            button {{
-                padding: 8px 16px;
-                font-size: 12px;
-            }}
-        }}
+            color: white; padding: 30px; text-align: center;
+        }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .header p { opacity: 0.9; font-size: 1.1em; }
+        .diagram {
+            padding: 40px; display: flex; justify-content: center;
+            background: #f8f9fa; min-height: 400px;
+        }
+        .mermaid { width: 100%; }
+        .controls {
+            display: flex; gap: 10px; justify-content: center;
+            padding: 20px; background: #f1f3f5; border-top: 1px solid #dee2e6;
+        }
+        button {
+            padding: 10px 20px; border: none; border-radius: 8px;
+            cursor: pointer; font-size: 14px; font-weight: 600;
+            transition: all 0.2s;
+        }
+        .btn-primary { background: #667eea; color: white; }
+        .btn-primary:hover { background: #5a6fd6; }
+        .btn-secondary { background: #6c757d; color: white; }
+        .btn-secondary:hover { background: #5a6268; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-success:hover { background: #218838; }
+        #status { text-align: center; padding: 10px; color: #6c757d; font-size: 14px; }
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="header">
-        <h1>🎨 {title}</h1>
-        <p>Generated by FlowClaw AI - Premium Diagram Generator</p>
-    </div>
-    <div class="toolbar">
-        <button class="btn-primary" onclick="copyCode()">📋 Copy Mermaid Code</button>
-        <button class="btn-success" onclick="downloadPNG()">📸 Save as PNG</button>
-        <button class="btn-secondary" onclick="downloadMMD()">💾 Download .mmd</button>
-        <button class="btn-secondary" onclick="zoomIn()">🔍 Zoom In</button>
-        <button class="btn-secondary" onclick="zoomOut()">🔍 Zoom Out</button>
-        <button class="btn-secondary" onclick="resetZoom()">⟳ Reset</button>
-    </div>
-    <div class="diagram-container" id="diagramContainer">
-        <div id="zoomWrapper" style="transition: transform 0.2s;">
-            <pre class="mermaid" id="diagram">
-{code}
-            </pre>
+    <div class="container">
+        <div class="header">
+            <h1>""" + title + """</h1>
+            <p>FlowClaw - Premium Diagram Generator</p>
         </div>
+        <div class="diagram">
+            <div class="mermaid">
+""" + code + """
+            </div>
+        </div>
+        <div class="controls">
+            <button class="btn-primary" onclick="zoomIn()">Zoom In</button>
+            <button class="btn-primary" onclick="zoomOut()">Zoom Out</button>
+            <button class="btn-secondary" onclick="resetZoom()">Reset</button>
+            <button class="btn-success" onclick="savePNG()">Save as PNG</button>
+            <button class="btn-secondary" onclick="window.print()">Print</button>
+        </div>
+        <div id="status">Ready</div>
     </div>
-    <div class="footer">
-        💡 Tip: Right-click on diagram → Save as SVG | Zoom with buttons or Ctrl+Mouse Wheel
-    </div>
-</div>
-<div class="status" id="status">Ready</div>
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'default' });
 
-<script>
-    let currentZoom = 1;
-    const zoomWrapper = document.getElementById('zoomWrapper');
-    
-    function updateZoom() {{
-        zoomWrapper.style.transform = `scale(${{currentZoom}})`;
-        document.getElementById('status').textContent = `Zoom: {Math.round(currentZoom * 100)}%`;
-    }}
-    
-    function zoomIn() {{
-        currentZoom = Math.min(currentZoom + 0.1, 3);
-        updateZoom();
-    }}
-    
-    function zoomOut() {{
-        currentZoom = Math.max(currentZoom - 0.1, 0.5);
-        updateZoom();
-    }}
-    
-    function resetZoom() {{
-        currentZoom = 1;
-        updateZoom();
-    }}
-    
-    mermaid.initialize({{
-        startOnLoad: true,
-        theme: 'base',
-        themeVariables: {{
-            'background': '#ffffff',
-            'primaryColor': '#667eea',
-            'primaryBorderColor': '#764ba2',
-            'primaryTextColor': '#333',
-            'lineColor': '#555',
-            'secondaryColor': '#f0f0f0',
-            'tertiaryColor': '#ffffff',
-            'fontSize': '16px'
-        }},
-        flowchart: {{
-            useMaxWidth: false,
-            htmlLabels: true,
-            curve: 'basis'
-        }},
-        securityLevel: 'loose'
-    }});
-    
-    function copyCode() {{
-        const code = document.getElementById('diagram').textContent;
-        navigator.clipboard.writeText(code);
-        showStatus('✅ Code copied!');
-    }}
-    
-    function downloadMMD() {{
-        const code = document.getElementById('diagram').textContent;
-        const blob = new Blob([code], {{type: 'text/plain'}});
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'flowclaw_diagram.mmd';
-        a.click();
-        URL.revokeObjectURL(url);
-        showStatus('✅ File downloaded!');
-    }}
-    
-    async function downloadPNG() {{
-        const svg = document.querySelector('#diagram svg');
-        if (!svg) {{
-            showStatus('⚠️ Please wait for diagram to render', true);
-            return;
-        }}
-        
-        showStatus('📸 Rendering PNG...');
-        
-        const canvas = document.createElement('canvas');
-        const ctx = canvas.getContext('2d');
-        const data = new XMLSerializer().serializeToString(svg);
-        const img = new Image();
-        
-        img.onload = () => {{
-            canvas.width = img.width * 2;
-            canvas.height = img.height * 2;
-            ctx.scale(2, 2);
-            ctx.drawImage(img, 0, 0);
-            const png = canvas.toDataURL('image/png');
-            const a = document.createElement('a');
-            a.href = png;
-            a.download = 'flowclaw_diagram.png';
-            a.click();
-            showStatus('✅ PNG saved!');
-        }};
-        
-        img.onerror = () => {{
-            showStatus('❌ Error rendering PNG', true);
-        }};
-        
-        img.src = 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(data)));
-    }}
-    
-    function showStatus(msg, isError = false) {{
-        const status = document.getElementById('status');
-        status.textContent = msg;
-        status.style.background = isError ? 'rgba(220,53,69,0.9)' : 'rgba(0,0,0,0.8)';
-        setTimeout(() => {{
-            status.style.background = 'rgba(0,0,0,0.8)';
-        }}, 2000);
-    }}
-    
-    // Handle rendering
-    setTimeout(() => {{
-        const svg = document.querySelector('#diagram svg');
-        if (!svg) {{
-            document.getElementById('diagramContainer').textContent = '<div style="text-align:center;padding:40px;color:#dc3545;">⚠️ Diagram rendering error. Check console for details.</div>';
-        }} else {{
-            showStatus('✅ Diagram rendered successfully');
-        }}
-    }}, 2000);
-</script>
+        let currentZoom = 1;
+        function zoomIn() {
+            currentZoom += 0.1;
+            document.querySelector('.mermaid').style.transform = 'scale(' + currentZoom + ')';
+            document.getElementById('status').textContent = 'Zoom: ' + Math.round(currentZoom * 100) + '%';
+        }
+        function zoomOut() {
+            currentZoom = Math.max(0.2, currentZoom - 0.1);
+            document.querySelector('.mermaid').style.transform = 'scale(' + currentZoom + ')';
+            document.getElementById('status').textContent = 'Zoom: ' + Math.round(currentZoom * 100) + '%';
+        }
+        function resetZoom() {
+            currentZoom = 1;
+            document.querySelector('.mermaid').style.transform = 'scale(1)';
+            document.getElementById('status').textContent = 'Zoom: 100%';
+        }
+        async function savePNG() {
+            const svg = document.querySelector('.mermaid svg');
+            if (!svg) {
+                document.getElementById('status').textContent = 'No diagram to save';
+                return;
+            }
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            const svgData = new XMLSerializer().serializeToString(svg);
+            const img = new Image();
+            const blob = new Blob([svgData], {type: 'image/svg+xml;charset=utf-8'});
+            const url = URL.createObjectURL(blob);
+            img.onload = function() {
+                canvas.width = img.width * 2;
+                canvas.height = img.height * 2;
+                ctx.scale(2, 2);
+                ctx.fillStyle = '#ffffff';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                ctx.drawImage(img, 0, 0);
+                canvas.toBlob(function(blob) {
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(blob);
+                    a.download = 'flowclaw_diagram.png';
+                    a.click();
+                    document.getElementById('status').textContent = 'PNG saved!';
+                });
+                URL.revokeObjectURL(url);
+            };
+            img.src = url;
+        }
+    </script>
 </body>
 </html>"""
-        
-        with tempfile.NamedTemporaryFile(mode='w', suffix='.html', delete=False, encoding='utf-8') as f:
-            f.write(html)
-            temp_path = f.name
-        
-        webbrowser.open(f'file://{temp_path}')
-        return temp_path
-    
+        import tempfile, webbrowser, os
+        tmp = tempfile.NamedTemporaryFile(suffix='.html', delete=False, mode='w', encoding='utf-8')
+        tmp.write(html)
+        tmp.close()
+        webbrowser.open('file:///' + tmp.name.replace('\\', '/'))
+        return "Diagram opened in browser"
     def view(self, diagram_type, description):
         generators = {
             'flowchart': self.generate_flowchart,
