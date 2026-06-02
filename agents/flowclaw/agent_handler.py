@@ -117,6 +117,14 @@ class FlowClawAgent(BaseAgent):
                 code = self._generate_diagram(diagram_type, query)
                 result = "`mermaid\n" + code + "\n`"
 
+                # Open browser popup with rendered diagram
+                try:
+                    from agents.flowclaw.flowclaw_viewer import FlowClaw
+                    viewer = FlowClaw()
+                    viewer.show_diagram(code, f"{diagram_type}: {query}")
+                except Exception:
+                    pass
+
                 # Auto-publish to shared memory
                 try:
                     from agents.flowclaw.data_io import write_shared
