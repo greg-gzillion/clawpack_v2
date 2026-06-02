@@ -288,7 +288,7 @@ class DraftClawAgent(BaseAgent):
                     jurisdiction_id = parts2[0]
                     field = parts2[1]
                     new_value = parts2[2] if len(parts2) > 2 else ""
-                    db_path = str(PROJECT_ROOT / "runtime" / "chronicle.db")
+                    db_path = str(Path(__file__).resolve().parent.parent.parent / "runtime" / "chronicle.db")
                     db = sqlite3.connect(db_path)
                     pct = chr(37)
                     entry = db.execute(
