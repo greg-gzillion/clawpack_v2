@@ -47,6 +47,11 @@ def _extract_location(query: str):
     }
     # Strip leading command prefix like /court, /jurisdiction, /law
     clean = re.sub(r'^/[a-z_]+\s+', '', query.strip(), count=1)
+    # Strip bare command words: "court Denver CO" -> "Denver CO"
+    _CMD_WORDS = {"court", "jurisdiction", "law", "state", "federal", "police", "hospital", "library", "detention", "judge", "statute", "docket", "precedent"}
+    _parts = clean.strip().split()
+    if _parts and _parts[0].lower() in _CMD_WORDS:
+        clean = " ".join(_parts[1:])
     # Pattern: "City, ST" or "City ST" at end
     match = re.search(r"([A-Za-z\s]+),?\s+([A-Z]{2})\s*$", clean.strip())
     if match:
