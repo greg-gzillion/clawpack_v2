@@ -8,7 +8,7 @@ Built by Greg.
 ## CRITICAL: PowerShell Environment (Windows)
 - NEVER use python -c with multi-line code. Write to scripts/_temp.py and run it.
 - NEVER pipe to Out-File for files over 100 lines. PowerShell silently truncates.
-- NEVER use PowerShell heredocs with Python code. They eat escape characters.
+- Avoid PowerShell heredocs for large Python scripts; they have previously caused escaping issues. For small files under 10 lines, echo works reliably.
 - ECHO WORKS for small files. Copy-Item WORKS for deployment.
 - ALWAYS verify writes: python -c "print(len(open("path").read()))"
 - ALWAYS kill Python: taskkill /F /IM python.exe
@@ -84,7 +84,7 @@ GPU: NVIDIA GeForce GTX 970, 4GB VRAM (~2.8GB available).
 Fits GPU: tinyllama (0.6GB), gemma3:1b (0.8GB), gemma3:4b (3.3GB), smollm2-liberated (3.4GB).
 Does NOT fit: deepseek-r1:8b (5.2GB), codellama:7b (3.8GB), gemma3:12b+.
 Obliterated models (6): codellama_7b, deepseek_coder_6.7b, phi2, qwen_coder_7b, smollm2_1.7b, tinyllama.
-Best quality that fits GPU: phi2 (2.7GB).
+Current preferred GPU-fit model: phi2 (2.7GB).
 
 ### System-Wide Accessibility Toggles
 | Toggle | Hotkey | Wake Word | Menu Key |
@@ -201,35 +201,40 @@ Infrastructure - Query normalizer: DONE
 
 ---
 
-## NEXT SESSION MISSION - June 3, 2026
+## NEXT SESSION AGENDA - June 3, 2026
 
-### Priority 5: Agent Validation - DONE
-All 21 agents tested and verified responsive. 4 LLM-heavy agents time out under provider rate limiting but /help and /stats work for all.
+### Priority 6: Codebase Consolidation (HIGHEST PRIORITY)
+Duplicate implementations create maintenance burden and confusion about canonical code.
 
-### Priority 6: Codebase Consolidation
-| Agent | Variants | Target |
-|-------|----------|--------|
-| flowclaw | 13 flowclaw*.py files | 1 using engine/ modules |
-| docuclaw | 3 implementations | 1 |
-| mediclaw | 3 Ollama providers, 2 OpenRouter | 1 each |
-| llmclaw | 4 llm*.py variants | 1 |
-| webclaw | 2 A2A servers | 1 |
-| langclaw | backup directory | Delete |
+| Agent | Variants | Action | Risk |
+|-------|----------|--------|------|
+| flowclaw | 13 flowclaw*.py files | Keep the one imported by agent_handler.py, move rest to _archive/ | Medium - verify engine/ modules still work |
+| docuclaw | 3 implementations (docuclaw_clean.py, agent_handler.py, core/) | Keep agent_handler.py, merge unique functionality, archive others | Medium - test all 31 commands |
+| mediclaw | 3 Ollama providers, 2 OpenRouter | Keep one of each, verify they route through Sovereign Gateway | Low - providers are interchangeable |
+| llmclaw | 4 llm*.py command variants | Keep the one imported by handler, archive llm_backup/llm_enhanced/llm_smart | Low - check which one handler uses |
+| webclaw | 2 A2A server implementations | Keep a2a_server.py, remove a2a/integrated_server.py | Low - verify no imports reference it |
+| langclaw | langclaw_backup/ directory | Delete entirely | Low - already has langclaw/ |
 
-### Priority 7: Security Assessment
-- Prompt injection, memory poisoning, privilege escalation, subprocess safety.
+Approach: One agent at a time. Check which file agent_handler.py imports. Keep that one. Archive the rest. Test /help after each.
 
-### Infrastructure Gaps
-- Switch active model to gemma3:4b (3.3GB, fits GPU, faster Ollama fallback).
-- Ollama serve needs to be running for local fallback to work.
+### Infrastructure: Ollama Recovery
+- Start ollama serve (currently not running)
+- Switch active model to gemma3:4b (3.3GB, fits GTX 970 GPU)
+- Verify Ollama fallback works in provider chain
+- This eliminates the 4-agent timeout problem (lawclaw, docuclaw, interpretclaw, claw_coder)
 
-### Beta Gate Progress (4 of 10 passed)
+### Priority 7: Security Assessment (IF TIME)
+- Run ForbiddenPatternDetector against all agent handlers for Article I violations
+- Test prompt injection: 10 known patterns against webclaw, lawclaw, claw_coder
+- Document any direct LLM imports found (rustypycraw/groq_client.py is known)
+
+### Beta Gate Progress (5 of 10 passed)
 | # | Requirement | Status |
 |---|-------------|--------|
 | 1 | Enforcement blocks violations | DONE |
 | 2 | Constitutional ledger repaired | DONE |
 | 3 | Memory geographic filtering | DONE |
-| 4 | All 21 agents tested | DONE (21/21 responsive) |
+| 4 | All 21 agents tested | DONE |
 | 5 | Provider fallback validated | DONE |
 | 6 | Duplicate implementations reduced | NOT STARTED |
 | 7 | Coverage tests added | NOT STARTED |
