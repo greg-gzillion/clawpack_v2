@@ -24,7 +24,7 @@ Central message bus. Every agent registers here. Every inter-agent communication
 - Lifecycle cleanup fires on every request (0 errors as of May 30)
 
 ### Layer 2: Shared Infrastructure (`shared/`)
-36 shared systems organized in 8 tiers:
+36+ shared systems organized in 8 tiers:
 
 | Tier | Systems | Purpose |
 |------|---------|---------|
@@ -36,6 +36,7 @@ Central message bus. Every agent registers here. Every inter-agent communication
 | Memory & Truth | memory_guard, source_registry, truth_resolver, decision_ledger, consensus_engine, auditor | Knowledge integrity |
 | Infrastructure | input_handler, permissions, registry, jurisdiction_validator, enforcement/gates, config, constitutional_command, court_rules_schema, decomposer, output_handler, router, compactor | System services |
 | Telemetry | observability, chronicle_ledger | Monitoring |
+| Accessibility | accessibility.py (unified), speech.py, locale.py | Voice, TTS, STT, Braille, translation |
 
 **BaseAgent** (`shared/base_agent.py`) provides:
 - `call_agent()` - cross-agent calls with circuit breaker + task state tracking
@@ -125,7 +126,7 @@ Every agent queries the same Chronicle. No per-agent databases. Civic commands (
 | Priority | Provider | Model | Latency | Cost |
 |----------|----------|-------|---------|------|
 | 1 | Groq | llama-3.3-70b-versatile | 0.7s | Free |
-| 2 | Ollama | deepseek-r1:8b | 0.8s | Free (local) |
+| 2 | Ollama | model from active_model.json (currently gemma3:4b) | 0.8-30s | Free (local) |
 | 3 | OpenRouter | google/gemma-4-26b-a4b-it:free | 0.7s | Free tier |
 | 4 | Anthropic | claude-haiku-4-5-20251001 | 1.2s | Paid |
 
@@ -143,9 +144,10 @@ llm/providers/ Provider detection + chain order
 base_agent.py Foundation class
 capabilities.py Universal command routing
 lifecycle.py Agent cleanup supervisor (0 errors)
+event_bus.py Canonical event bus for all system input
 registry.py Agent registration (16/21)
-enforcement/engine.py Execution gates (dormant)
-guarded_executor.py Dangerous ops gateway (dormant)
+enforcement/engine.py Execution gates (active - pre-execution gate on every A2A request)
+guarded_executor.py Dangerous ops gateway (wired, dormant pending activation)
 agents/ 21 specialized agents
 lawclaw/ Gold standard reference implementation
 webclaw/ Chronicle owner, 3,800+ city references
