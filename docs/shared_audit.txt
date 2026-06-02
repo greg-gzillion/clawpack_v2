@@ -1,0 +1,90 @@
+====================================================================================================
+MODULE                                        STATUS       IMP   KEY FUNCTIONS/CLASSES
+====================================================================================================
+_agent_helpers.py                             CONNECTED     25   llm, smart, chronicle
+a2a_client.py                                 CONNECTED      3   search_index, get_categories, get_urls_for_category, A2
+accessibility.py                              CONNECTED    122   speak, listen, detect_language
+accessibility_eye_tracker.py                  CONNECTED     22   is_available, get_input, calibrate
+agent_router.py                               CONNECTED     19   AgentRouter
+base_agent.py                                 CONNECTED     34   BaseAgent
+capabilities.py                               CONNECTED     14   resolve_capability, get_capable_agent
+chronicle_helper.py                           CONNECTED     36   search_chronicle, get_chronicle_stats
+compactor.py                                  CONNECTED     19   get_compactor, CompressionResult, ContextCompactor
+config.py                                     CONNECTED     19   get_config, ConfigSource, LLMConfig
+consensus_engine.py                           CONNECTED     20   _load_consensus, _save_consensus, _fact_hash
+constitutional_command.py                     CONNECTED     20   constitutional_command
+court_rules_schema.py                         CONNECTED     20   completeness_score, _grade, CourtRules
+decision_ledger.py                            CONNECTED     22   get_ledger, DecisionLedger
+decomposer.py                                 CONNECTED     19   TaskType, SubTask
+error_handler.py                              CONNECTED     21   retryable, get_circuit_breaker, get_dead_letter_queue, 
+event_bus.py                                  CONNECTED      2   push_event, get_event, pending_events, EventSource, Eve
+execution_policy.py                           CONNECTED     21   ApprovalLevel, ExecutionPolicy
+guarded_executor.py                           CONNECTED     19   GuardedExecutor
+input_handler.py                              CONNECTED     19   find_file, open_file, detect_type, InputHandler
+jurisdiction_validator.py                     CONNECTED     20   validate_state, sanitize_component, safe_path_join
+lifecycle.py                                  CONNECTED     21   agent_cleanup, wrap_with_lifecycle
+llm\config.py                                 CONNECTED     19   load_config
+llm\registry.py                               CONNECTED     19   ModelRegistry
+llm\router.py                                 CONNECTED     19   route, get_provider_list
+locale.py                                     CONNECTED     24   set_language, get_language, get_language_name
+log_manager.py                                CONNECTED     19   get_logger, debug, info, LogLevel, StructuredLogger
+memory_guard.py                               CONNECTED     40   should_persist, sanitize_memory_write
+metrics.py                                    CONNECTED     20   get_metrics, export_metrics, Counter, Gauge
+observability.py                              CONNECTED     20   get_health_checker, get_tracer, HealthStatus, HealthChe
+output_handler.py                             CONNECTED     19   show_popup, save_image, save_text, OutputHandler
+permissions.py                                CONNECTED     19   get_permission_system, PermissionMode, RuleBehavior
+rate_limiter.py                               CONNECTED     20   get_rate_limiter, RateLimitConfig, TokenBucket
+registry.py                                   CONNECTED     19   get_all_agents, get_capabilities, find_agent_for
+router.py                                     CONNECTED     19   TaskRouter
+search_cache.py                               CONNECTED      1   _query_hash, cache_search, get_cached
+security.py                                   CONNECTED     20   get_sanitizer, get_audit_logger, get_secret_manager, In
+shutdown.py                                   CONNECTED     19   get_shutdown_manager, on_shutdown, ShutdownContext, Gra
+smart_router.py                               CONNECTED     20   RoutingTier, RouteResult
+source_registry.py                            CONNECTED     22   get_trust, classify_trust, list_registry
+speech.py                                     CONNECTED     45   _load_profiles, _save_profiles, _speak_local
+startup_check.py                              CONNECTED      1   verify_universal_commands
+truth_resolver.py                             CONNECTED     22   resolve_truth, classify_source, merge_with_retriever
+validation.py                                 CONNECTED      8   validate_schema, validate_translate, validate_crop, Val
+accessibility_toggles.py                      DORMANT        0   toggle_braille, toggle_neuralink, toggle_eye
+enforcement\audit.py                          DORMANT        0   AuditTrail
+enforcement\detector.py                       DORMANT        0   ForbiddenPatternDetector
+enforcement\engine.py                         DORMANT        0   EnforcementEngine, OutcomeLogger
+enforcement\gates.py                          DORMANT        0   PreExecutionGate, PostExecutionGate
+enforcement\patterns.py                       DORMANT        0   
+enforcement\types.py                          DORMANT        0   ConfidenceLevel, GateResult
+files\analyzer.py                             DORMANT        0   analyze_file
+files\batch.py                                DORMANT        0   batch_process
+files\converter.py                            DORMANT        0   convert_file
+files\finder.py                               DORMANT        0   find_files
+files\formats.py                              DORMANT        0   detect_type, calculate_hash, get_metadata
+hooks\hook_manager.py                         DORMANT        0   get_hook_manager, RegisteredHook, HookManager
+hooks\hook_matcher.py                         DORMANT        0   HookMatcher
+hooks\hook_types.py                           DORMANT        0   HookEvent, HookType
+io_adapter.py                                 DORMANT        0   input_microphone, input_keyboard, input_neuralink
+llm\anthropic.py                              DORMANT        0   AnthropicProvider
+llm\auditor.py                                DORMANT        0   ChronicleAuditor
+llm\budget.py                                 DORMANT        0   BudgetController
+llm\client.py                                 DORMANT        0   get_llm_client, generate_sync, LLMClient
+llm\manager.py                                DORMANT        0   get_active_model, get_active_model, LLMManager
+llm\ollama.py                                 DORMANT        0   OllamaProvider
+llm\openrouter.py                             DORMANT        0   OpenRouterProvider
+llm\provider.py                               DORMANT        0   LLMProvider
+llm\providers\anthropic.py                    DORMANT        0   
+llm\providers\direct_model.py                 DORMANT        0   list_models, get_model_info, generate
+llm\providers\groq.py                         DORMANT        0   
+llm\providers\ollama.py                       DORMANT        0   
+llm\providers\openai.py                       DORMANT        0   
+llm\providers\openrouter.py                   DORMANT        0   
+llm\response.py                               DORMANT        0   LLMProvider, ModelTier
+llm\slot_reservation.py                       DORMANT        0   get_slot_reservation, SlotReservation
+llm\streaming.py                              DORMANT        0   get_streaming_llm, CacheEntry, LLMCache
+llm\webclaw.py                                DORMANT        0   WebclawProvider
+memory\procedural_memory.py                   DORMANT        0   get_memory, ProceduralMemory
+memory\three_tier.py                          DORMANT        0   get_memory, WorkingMemory, SemanticMemory
+memory\unified_memory.py                      DORMANT        0   get_memory, UnifiedMemory
+platform_config.py                            DORMANT        0   get_platform, get_device_type, current_platform
+status_bar.py                                 DORMANT        0   get_status_line, wrap_result_with_status
+task_state.py                                 DORMANT        0   get_task_store, TaskStatus, Task
+voice_hook.py                                 DORMANT        0   is_active, set_agent, _listen_loop
+
+CONNECTED: 44 | DORMANT: 41 | TOTAL: 85
