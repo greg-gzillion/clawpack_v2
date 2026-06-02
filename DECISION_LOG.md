@@ -271,3 +271,16 @@ Circuit Breaker on All Cross-Agent Calls
 **Why:** Approximately 2 hours were lost to PowerShell-specific failures. These constraints are documented in POWERSHELL_SURVIVAL_GUIDE.md and CLAWPACK_ONBOARD.md.
 
 **Constitutional basis:** Operational ? not constitutional, but necessary for any agent to function in this environment.
+ 
+ # #   2 0 2 6 - 0 6 - 0 2 :   S o v e r e i g n t y   E n f o r c e m e n t   A c t i v a t e d   a s   H T T P   F i r e w a l l   ( N o t   F u l l   E n g i n e )  
+  
+ * * D e c i s i o n : * *   A c t i v a t e d   F o r b i d d e n P a t t e r n D e t e c t o r . s c a n _ t a s k ( )   a t   t h e   H T T P   b o u n d a r y   i n   a 2 a _ s e r v e r . p y   r a t h e r   t h a n   w i r i n g   t h e   f u l l   E n f o r c e m e n t E n g i n e . e x e c u t e _ w i t h _ e n f o r c e m e n t ( )   p i p e l i n e .  
+  
+ * * W h y : * *   T h e   E n f o r c e m e n t E n g i n e   r e q u i r e s   m a n d a t o r y   r e f e r e n c e   f i l e s   ( O P E R A T I N G _ R U L E S . m d ,   R E F E R E N C E _ R A N K I N G . m d ,   S Y S T E M _ O V E R V I E W . m d )   t h a t   d o   n o t   e x i s t   i n   C l a w p a c k .   A t t e m p t i n g   t o   w i r e   i t   c a u s e d   a l l   r e q u e s t s   t o   b e   b l o c k e d   a f t e r   3   r e c u r s i v e   a t t e m p t s .   T h e   d e t e c t o r   p r o v i d e s   i m m e d i a t e   s o v e r e i g n t y   p r o t e c t i o n   w i t h o u t   t h e   r e f e r e n c e - l o a d i n g   d e p e n d e n c y .  
+  
+ * * T r a d e : * *   G a i n e d   r e l i a b l e   4 0 3   b l o c k i n g   o f   6   s o v e r e i g n t y   v i o l a t i o n   p a t t e r n s .   L o s t :   r e f e r e n c e - d r i v e n   v a l i d a t i o n ,   e s c a l a t i o n   l o g i c ,   c o n f i d e n c e   s c o r i n g ,   r e c u r s i v e   e n f o r c e m e n t   l o o p ,   p o s t - e x e c u t i o n   r e s p o n s e   s c a n n i n g .   T h e s e   r e m a i n   i n   s h a r e d / e n f o r c e m e n t /   f o r   f u t u r e   a c t i v a t i o n   w h e n   r e f e r e n c e   f i l e s   a r e   c r e a t e d .  
+  
+ * * C o n s t i t u t i o n a l   b a s i s : * *   A r t i c l e   I   ( S o v e r e i g n t y )   -   d i r e c t   L L M   p r o v i d e r   a c c e s s   i s   b l o c k e d   b e f o r e   a g e n t   d i s p a t c h .   A r t i c l e   X I   ( E n f o r c e m e n t )   -   t h e   e n f o r c e m e n t   e n g i n e   e x i s t s   b u t   o p e r a t e s   i n   s i m p l i f i e d   m o d e   p e n d i n g   r e f e r e n c e   i n f r a s t r u c t u r e .  
+  
+ * * P a t h   t o   f u l l   e n g i n e : * *   C r e a t e   d a t a / e n f o r c e m e n t / O P E R A T I N G _ R U L E S . m d ,   R E F E R E N C E _ R A N K I N G . m d ,   S Y S T E M _ O V E R V I E W . m d ,   t h e n   r e p l a c e   t h e   d e t e c t o r - o n l y   g a t e   w i t h   t h e   f u l l   e x e c u t e _ w i t h _ e n f o r c e m e n t ( )   p i p e l i n e .  
+ 
