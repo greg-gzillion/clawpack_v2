@@ -1,4 +1,4 @@
-# CLAWPACK V2 ? AI ONBOARDING CONTEXT
+﻿# CLAWPACK V2 ? AI ONBOARDING CONTEXT
 
 ## What This Is
 21-agent AI ecosystem. Menu-driven CLI. A2A routing on port 8766.
@@ -104,6 +104,7 @@ Current preferred GPU-fit model: phi2 (2.7GB).
 | shared/enforcement/engine.py | Full EnforcementEngine | Dormant |
 | shared/memory/unified_memory.py | Cross-agent shared memory | Active |
 | shared/accessibility.py | TTS/STT/Braille/Translate | Active |
+| shared/query_normalizer.py | Canonical location extraction + command stripping | Active |
 | shared/lifecycle.py | Agent cleanup supervisor | Active (0 errors) |
 | agents/lawclaw/agent_handler.py | Reference implementation | Gold standard |
 | agents/lawclaw/commands/_memory.py | Memory bridge with geo-filtering | Active |
@@ -203,6 +204,15 @@ Infrastructure - Query normalizer: DONE
 
 ## NEXT SESSION AGENDA - June 3, 2026
 
+### Step 0: Ollama Recovery (RUN FIRST)
+Before touching any agent files, restore the local provider to get clean validation baselines.
+- Start ollama serve
+- Verify with: ollama list
+- Update models/active_model.json to use gemma3:4b (3.3GB, fits GTX 970 GPU)
+- Test all 4 previously-timing-out agents: lawclaw, docuclaw, interpretclaw, claw_coder
+- If any still time out, provider chain is broken ? fix before consolidating
+- This eliminates false negatives during consolidation testing
+
 ### Priority 6: Codebase Consolidation (HIGHEST PRIORITY)
 Duplicate implementations create maintenance burden and confusion about canonical code.
 
@@ -241,3 +251,51 @@ Approach: One agent at a time. Check which file agent_handler.py imports. Keep t
 | 8 | Installation tested clean Windows | NOT STARTED |
 | 9 | Installation tested clean Linux | NOT STARTED |
 | 10 | Security review completed | NOT STARTED |
+
+
+
+A few things I want locked in before the next session starts:
+
+The consolidation ladder is set:
+
+text
+1. langclaw_backup     → delete (zero risk, no imports reference it)
+2. llmclaw variants    → identify which llm*.py the handler imports, archive rest
+3. mediclaw providers  → keep one Ollama + one OpenRouter, verify Sovereign Gateway routing
+4. webclaw duplicate   → check which A2A server a2a_server.py actually imports
+5. docuclaw merge      → inventory 3 implementations, keep agent_handler.py
+6. flowclaw inventory  → READ-ONLY. Map imports. Find canonical file. No deletions.
+The flowclaw rule is explicit:
+
+No deletions in the first session. Only inventory:
+
+Which flowclaw*.py does agent_handler.py import?
+
+Do any of the 13 variants contain logic not present in the canonical file?
+
+What do the engine/ modules actually do vs the standalone files?
+
+Build the dependency map, then decide what moves to _archive/.
+
+The May 30 lesson applies here directly:
+
+Making broad structural changes before establishing the actual runtime path.
+
+That's exactly what caused the handler-injection disaster. Flowclaw gets the inventory treatment because it's the highest-risk consolidation target.
+
+Current state before next session:
+
+5 of 10 Beta gates passed
+
+Working tree clean, all commits pushed
+
+Onboarding doc updated as operational runbook
+
+shared/query_normalizer.py is canonical source for location extraction
+
+All 21 agents tested and responsive
+
+Provider chain: Groq primary, OpenRouter fallback, Ollama offline, Anthropic disabled
+
+The project is in a good place to start consolidation work tomorrow.
+
