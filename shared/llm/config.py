@@ -7,10 +7,10 @@ from typing import Dict
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 MODELS_DIR = PROJECT_ROOT / "models"
 DATA_DIR = PROJECT_ROOT / "data"
-CHRONICLE_PATH = DATA_DIR / "chronicle_ledger.json"
+CHRONICLE_PATH = DATA_DIR / "runtime" / "ledgers" / "chronicle_ledger.json"
 ACTIVE_MODEL_PATH = MODELS_DIR / "active_model.json"
 WORKING_LLMS_PATH = MODELS_DIR / "working_llms.json"
-BUDGET_PATH = DATA_DIR / "llm_budget.json"
+BUDGET_PATH = DATA_DIR / "runtime" / "ledgers" / "llm_budget.json"
 
 
 def load_config() -> Dict[str, str]:

@@ -14,7 +14,7 @@ class BaseAgent:
 
     def __init__(self, name: str):
         self.name = name
-        self.memory_file = Path("data/shared_memory.json")
+        self.memory_file = Path("runtime/shared_memory.json")
         self.state = self._load_state()
         self.A2A = "http://127.0.0.1:8766"
         self._webclaw = None

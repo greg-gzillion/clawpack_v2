@@ -14,8 +14,8 @@ from datetime import datetime, timezone
 from typing import Optional, List, Dict, Any
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-CHRONICLE_PATH = PROJECT_ROOT / 'data' / 'chronicle_ledger.json'
-MEMORY_INDEX_PATH = PROJECT_ROOT / 'data' / 'memory_index.json'
+CHRONICLE_PATH = PROJECT_ROOT / 'runtime' / 'ledgers' / 'chronicle_ledger.json'
+MEMORY_INDEX_PATH = PROJECT_ROOT / 'runtime' / 'indexes' / 'memory_index.json'
 
 
 class UnifiedMemory:

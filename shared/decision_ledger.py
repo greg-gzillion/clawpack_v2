@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from typing import Dict, List, Optional, Any
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-LEDGER_PATH = PROJECT_ROOT / "data" / "constitutional_ledger.json"
+LEDGER_PATH = PROJECT_ROOT / "runtime" / "ledgers" / "constitutional_ledger.json"
 
 
 class DecisionLedger:

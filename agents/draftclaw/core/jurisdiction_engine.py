@@ -6,7 +6,7 @@ import re, json, sqlite3
 from pathlib import Path
 from typing import Dict, List
 
-CHRONICLE_DB = Path(r"C:/Users/greg/dev/clawpack_v2/data/chronicle.db")
+CHRONICLE_DB = PROJECT_ROOT / "runtime" / "chronicle.db"
 JURISDICTION_BASE = Path(r'C:\Users\greg\dev\clawpack_v2\agents\\webclaw\\references\\lawclaw\\jurisdictions\\us')
 
 STATE_NAMES = {

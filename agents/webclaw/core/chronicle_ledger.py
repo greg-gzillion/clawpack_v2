@@ -7,7 +7,7 @@ from typing import Dict, List, Optional
 
 class ChronicleLedger:
     def __init__(self, db_path=None):
-        self.db_path = db_path or Path(__file__).parent.parent.parent.parent / "data" / "chronicle.db"
+        self.db_path = db_path or Path(__file__).parent.parent.parent.parent / "runtime" / "chronicle.db"
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self._init_db()
 

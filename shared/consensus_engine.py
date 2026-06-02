@@ -27,7 +27,7 @@ from typing import Dict, List, Optional, Any
 
 # ── Storage ──────────────────────────────────────────────────────────────────
 
-CONSENSUS_PATH = Path(__file__).resolve().parent.parent / "data" / "consensus_index.json"
+CONSENSUS_PATH = Path(__file__).resolve().parent.parent / "runtime" / "indexes" / "consensus_index.json"
 
 
 def _load_consensus() -> Dict:
