@@ -70,7 +70,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T04:59:53.618385+00:00",
-      "last_updated": "2026-05-30T15:47:18.734071+00:00"
+      "last_updated": "2026-06-01T19:53:14.168949+00:00"
     },
     "a34c8ccc2cdb3e41": {
       "fact_id": "a34c8ccc2cdb3e41",
@@ -88,7 +88,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T04:59:53.634445+00:00",
-      "last_updated": "2026-05-30T15:47:18.753227+00:00"
+      "last_updated": "2026-06-01T19:53:14.191948+00:00"
     },
     "b6ef91e75f90c9e2": {
       "fact_id": "b6ef91e75f90c9e2",
@@ -106,7 +106,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T05:01:25.296011+00:00",
-      "last_updated": "2026-05-30T05:14:32.272455+00:00"
+      "last_updated": "2026-05-31T14:48:16.930698+00:00"
     },
     "325c46d3a0876493": {
       "fact_id": "325c46d3a0876493",
@@ -212,9 +212,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T05:01:25.366714+00:00",
-      "last_updated": "2026-05-30T05:01:25.366714+00:00"
+      "last_updated": "2026-05-31T14:48:17.031963+00:00"
     },
     "f530b2557acad918": {
       "fact_id": "f530b2557acad918",
@@ -250,7 +250,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T05:01:25.388355+00:00",
-      "last_updated": "2026-05-30T05:06:27.466300+00:00"
+      "last_updated": "2026-05-31T14:48:16.949731+00:00"
     },
     "1eb109c51e9be7b7": {
       "fact_id": "1eb109c51e9be7b7",
@@ -264,11 +264,11 @@
           "timestamp": "2026-05-30T05:01:25.399910+00:00"
         }
       ],
-      "verifications": 1,
+      "verifications": 3,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.47,
       "first_seen": "2026-05-30T05:01:25.399910+00:00",
-      "last_updated": "2026-05-30T05:01:25.399910+00:00"
+      "last_updated": "2026-06-01T22:31:56.561836+00:00"
     },
     "78a91a1177508568": {
       "fact_id": "78a91a1177508568",
@@ -286,7 +286,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T05:01:25.410950+00:00",
-      "last_updated": "2026-05-30T05:06:27.517016+00:00"
+      "last_updated": "2026-05-31T14:48:16.970778+00:00"
     },
     "0086d9be504b540a": {
       "fact_id": "0086d9be504b540a",
@@ -302,9 +302,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.4088,
       "first_seen": "2026-05-30T05:01:27.502456+00:00",
-      "last_updated": "2026-05-30T05:01:27.502456+00:00"
+      "last_updated": "2026-05-31T21:27:25.348888+00:00"
     },
     "a72497c141723efa": {
       "fact_id": "a72497c141723efa",
@@ -322,7 +322,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T05:01:27.515975+00:00",
-      "last_updated": "2026-05-30T05:01:27.526519+00:00"
+      "last_updated": "2026-06-01T22:31:37.922794+00:00"
     },
     "27fa274856d7578b": {
       "fact_id": "27fa274856d7578b",
@@ -1362,11 +1362,11 @@
           "timestamp": "2026-05-30T05:06:27.491941+00:00"
         }
       ],
-      "verifications": 1,
+      "verifications": 3,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.47,
       "first_seen": "2026-05-30T05:06:27.491941+00:00",
-      "last_updated": "2026-05-30T05:06:27.491941+00:00"
+      "last_updated": "2026-05-31T14:41:21.104374+00:00"
     },
     "24ea121b265b3fc4": {
       "fact_id": "24ea121b265b3fc4",
@@ -1382,9 +1382,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.2875,
+      "truth_score": 0.41,
       "first_seen": "2026-05-30T05:06:27.533047+00:00",
-      "last_updated": "2026-05-30T05:06:27.533047+00:00"
+      "last_updated": "2026-05-31T14:41:21.038981+00:00"
     },
     "c667142ace4a76e3": {
       "fact_id": "c667142ace4a76e3",
@@ -2442,11 +2442,11 @@
           "timestamp": "2026-05-30T05:29:00.140723+00:00"
         }
       ],
-      "verifications": 2,
+      "verifications": 5,
       "corrections": [],
-      "truth_score": 0.44,
+      "truth_score": 0.5288,
       "first_seen": "2026-05-30T05:29:00.140723+00:00",
-      "last_updated": "2026-05-30T05:31:54.772834+00:00"
+      "last_updated": "2026-06-01T22:14:17.655388+00:00"
     },
     "ad1c1c4f05a60c2a": {
       "fact_id": "ad1c1c4f05a60c2a",
@@ -2554,7 +2554,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T05:31:54.744727+00:00",
-      "last_updated": "2026-05-30T05:45:30.525803+00:00"
+      "last_updated": "2026-06-01T19:55:35.632057+00:00"
     },
     "e5a29ef5cb148765": {
       "fact_id": "e5a29ef5cb148765",
@@ -2946,11 +2946,11 @@
           "timestamp": "2026-05-30T05:43:08.824988+00:00"
         }
       ],
-      "verifications": 2,
+      "verifications": 3,
       "corrections": [],
-      "truth_score": 0.44,
+      "truth_score": 0.4677,
       "first_seen": "2026-05-30T05:43:08.824988+00:00",
-      "last_updated": "2026-05-30T05:45:04.712263+00:00"
+      "last_updated": "2026-06-01T22:06:45.555932+00:00"
     },
     "51eb9e622532272c": {
       "fact_id": "51eb9e622532272c",
@@ -3310,7 +3310,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T06:01:03.787442+00:00",
-      "last_updated": "2026-05-30T06:04:40.206031+00:00"
+      "last_updated": "2026-06-01T00:07:52.606880+00:00"
     },
     "f0ec3cea32a31e0e": {
       "fact_id": "f0ec3cea32a31e0e",
@@ -3328,7 +3328,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T06:01:03.805095+00:00",
-      "last_updated": "2026-05-30T06:04:40.227085+00:00"
+      "last_updated": "2026-06-01T00:07:52.632879+00:00"
     },
     "129e5888151b8a0e": {
       "fact_id": "129e5888151b8a0e",
@@ -3346,7 +3346,7 @@
       "corrections": [],
       "truth_score": 0.41,
       "first_seen": "2026-05-30T06:01:03.826649+00:00",
-      "last_updated": "2026-05-30T06:04:40.250146+00:00"
+      "last_updated": "2026-06-01T00:07:52.655888+00:00"
     },
     "71eebec1dc252907": {
       "fact_id": "71eebec1dc252907",
@@ -3452,9 +3452,9 @@
       ],
       "verifications": 0,
       "corrections": [],
-      "truth_score": 0.41,
+      "truth_score": 0.4088,
       "first_seen": "2026-05-30T15:16:51.926700+00:00",
-      "last_updated": "2026-05-30T15:29:10.773241+00:00"
+      "last_updated": "2026-06-01T00:20:14.387709+00:00"
     },
     "becded5cde654d18": {
       "fact_id": "becded5cde654d18",
@@ -4661,8 +4661,3500 @@
       "truth_score": 0.2875,
       "first_seen": "2026-05-30T19:08:45.281617+00:00",
       "last_updated": "2026-05-30T19:08:45.281617+00:00"
+    },
+    "64354c0fab914545": {
+      "fact_id": "64354c0fab914545",
+      "fact_value": "query:Miami FL",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:09:15.765574+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:09:15.765574+00:00",
+      "last_updated": "2026-05-31T21:25:57.319858+00:00"
+    },
+    "44be4408fd26f588": {
+      "fact_id": "44be4408fd26f588",
+      "fact_value": "source_url:https://www.mdpls.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.mdpls.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:09:15.782213+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T14:09:15.782213+00:00",
+      "last_updated": "2026-05-31T14:09:15.782213+00:00"
+    },
+    "b91c90d360990066": {
+      "fact_id": "b91c90d360990066",
+      "fact_value": "source_url:https://www.charlottecountyfl.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.charlottecountyfl.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:09:15.801257+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T14:09:15.801257+00:00",
+      "last_updated": "2026-05-31T14:09:15.801257+00:00"
+    },
+    "43962dc65e467834": {
+      "fact_id": "43962dc65e467834",
+      "fact_value": "source_url:https://www.charlottecountyfl.gov/building",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.charlottecountyfl.gov/building",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:09:15.817727+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T14:09:15.817727+00:00",
+      "last_updated": "2026-05-31T14:09:15.817727+00:00"
+    },
+    "18af07d26cafb789": {
+      "fact_id": "18af07d26cafb789",
+      "fact_value": "source_url:https://www.charlottecountyfl.gov/library",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.charlottecountyfl.gov/library",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:09:15.840251+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T14:09:15.840251+00:00",
+      "last_updated": "2026-05-31T14:09:15.840251+00:00"
+    },
+    "964e5951c39113c7": {
+      "fact_id": "964e5951c39113c7",
+      "fact_value": "source_url:https://www.flcourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.flcourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:09:15.863804+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-31T14:09:15.863804+00:00",
+      "last_updated": "2026-05-31T21:23:23.931738+00:00"
+    },
+    "5f14fc292a479aa0": {
+      "fact_id": "5f14fc292a479aa0",
+      "fact_value": "source_url:https://www.mdcourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.mdcourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:30.323420+00:00"
+        }
+      ],
+      "verifications": 12,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-31T14:21:30.323420+00:00",
+      "last_updated": "2026-05-31T21:25:57.361471+00:00"
+    },
+    "194f8402d9aa8f06": {
+      "fact_id": "194f8402d9aa8f06",
+      "fact_value": "source_url:https://www.vgpd.com,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vgpd.com,",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:30.341438+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:21:30.341438+00:00",
+      "last_updated": "2026-05-31T14:25:40.836600+00:00"
+    },
+    "7ac1e2f712cc139a": {
+      "fact_id": "7ac1e2f712cc139a",
+      "fact_value": "source_url:https://goldenbeach.us/police,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://goldenbeach.us/police,",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:30.363468+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:21:30.363468+00:00",
+      "last_updated": "2026-05-31T14:25:40.857782+00:00"
+    },
+    "f9151f7b91b10c2e": {
+      "fact_id": "f9151f7b91b10c2e",
+      "fact_value": "source_url:https://medleypd.com,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://medleypd.com,",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:30.386000+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:21:30.386000+00:00",
+      "last_updated": "2026-05-31T14:25:40.877813+00:00"
+    },
+    "00c14d2b1e7554dc": {
+      "fact_id": "00c14d2b1e7554dc",
+      "fact_value": "source_url:https://www.opalockafl.gov/140/Police,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.opalockafl.gov/140/Police,",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:30.406243+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-31T14:21:30.406243+00:00",
+      "last_updated": "2026-05-31T14:25:40.899849+00:00"
+    },
+    "2c4af7ad6b244879": {
+      "fact_id": "2c4af7ad6b244879",
+      "fact_value": "concept:Judicial District",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T14:21:48.914845+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:21:48.914845+00:00",
+      "last_updated": "2026-05-31T14:41:21.017938+00:00"
+    },
+    "655821436ca9b5d6": {
+      "fact_id": "655821436ca9b5d6",
+      "fact_value": "source_url:https://www.denvergov.org/Government/Departments/Police-Department",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denvergov.org/Government/Departments/Police-Department",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:48.976474+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:21:48.976474+00:00",
+      "last_updated": "2026-05-31T14:41:21.060268+00:00"
+    },
+    "426911289d7b1dc5": {
+      "fact_id": "426911289d7b1dc5",
+      "fact_value": "source_url:https://www.csp.colorado.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.csp.colorado.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:21:49.003511+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-31T14:21:49.003511+00:00",
+      "last_updated": "2026-05-31T14:41:21.084308+00:00"
+    },
+    "404bb1a9226dc18a": {
+      "fact_id": "404bb1a9226dc18a",
+      "fact_value": "query:Phoenix AZ",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:22:10.471664+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:22:10.471664+00:00",
+      "last_updated": "2026-05-31T14:54:17.852048+00:00"
+    },
+    "0884295611ff1f87": {
+      "fact_id": "0884295611ff1f87",
+      "fact_value": "source_url:https://www.avondaleaz.gov/court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.avondaleaz.gov/court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:22:10.493729+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-31T14:22:10.493729+00:00",
+      "last_updated": "2026-05-31T14:54:17.872891+00:00"
+    },
+    "0e4c3f6dee2a9eeb": {
+      "fact_id": "0e4c3f6dee2a9eeb",
+      "fact_value": "source_url:https://www.buckeyeaz.gov/court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.buckeyeaz.gov/court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:22:10.511791+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-31T14:22:10.511791+00:00",
+      "last_updated": "2026-05-31T14:54:17.892013+00:00"
+    },
+    "6d6d10d1291b864e": {
+      "fact_id": "6d6d10d1291b864e",
+      "fact_value": "source_url:https://www.casagrandeaz.gov/court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.casagrandeaz.gov/court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:22:10.530863+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-31T14:22:10.530863+00:00",
+      "last_updated": "2026-05-31T14:54:17.912713+00:00"
+    },
+    "d6e9fba91eee83fd": {
+      "fact_id": "d6e9fba91eee83fd",
+      "fact_value": "source_url:https://www.avondaleaz.gov/police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.avondaleaz.gov/police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:22:10.550895+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-31T14:22:10.550895+00:00",
+      "last_updated": "2026-05-31T14:54:17.932268+00:00"
+    },
+    "02918cec6ed25f4b": {
+      "fact_id": "02918cec6ed25f4b",
+      "fact_value": "source_url:https://www.buckeyeaz.gov/police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.buckeyeaz.gov/police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:22:10.569965+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-05-31T14:22:10.569965+00:00",
+      "last_updated": "2026-05-31T14:54:17.952308+00:00"
+    },
+    "0a007e2bf444edb8": {
+      "fact_id": "0a007e2bf444edb8",
+      "fact_value": "source_url:https://www.denverhealth.org,",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.denverhealth.org,",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:41:13.625726+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:41:13.625726+00:00",
+      "last_updated": "2026-05-31T14:48:16.989824+00:00"
+    },
+    "56705ede5b7c5f98": {
+      "fact_id": "56705ede5b7c5f98",
+      "fact_value": "source_url:https://www.healthonecares.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.healthonecares.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:41:13.646802+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:41:13.646802+00:00",
+      "last_updated": "2026-05-31T14:48:17.011915+00:00"
+    },
+    "dcc4199a7817f022": {
+      "fact_id": "dcc4199a7817f022",
+      "fact_value": "query:Lynchburg VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:51:16.468694+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:51:16.468694+00:00",
+      "last_updated": "2026-05-31T15:03:42.973533+00:00"
+    },
+    "1bc033598507c2a6": {
+      "fact_id": "1bc033598507c2a6",
+      "fact_value": "concept:Civic Profile: Bedford, VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T14:51:16.488742+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.4088,
+      "first_seen": "2026-05-31T14:51:16.488742+00:00",
+      "last_updated": "2026-06-01T22:31:56.459906+00:00"
+    },
+    "fe14070e05504c6f": {
+      "fact_id": "fe14070e05504c6f",
+      "fact_value": "concept:Civic Profile for Bedford, VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T14:51:16.507797+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.4088,
+      "first_seen": "2026-05-31T14:51:16.507797+00:00",
+      "last_updated": "2026-06-01T22:31:56.484475+00:00"
+    },
+    "2741b52556b52529": {
+      "fact_id": "2741b52556b52529",
+      "fact_value": "source_url:https://www.vacourts.gov/courts/gd/lynchburg/home",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vacourts.gov/courts/gd/lynchburg/home",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:51:16.528378+00:00"
+        }
+      ],
+      "verifications": 7,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-31T14:51:16.528378+00:00",
+      "last_updated": "2026-06-01T19:47:53.653197+00:00"
+    },
+    "9c1225efa57e825e": {
+      "fact_id": "9c1225efa57e825e",
+      "fact_value": "source_url:https://www.brrja.state.va.us",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.brrja.state.va.us",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:51:16.548446+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:51:16.548446+00:00",
+      "last_updated": "2026-06-01T19:47:53.739749+00:00"
+    },
+    "81dc8919b7d1fc29": {
+      "fact_id": "81dc8919b7d1fc29",
+      "fact_value": "source_url:https://www.centrahealth.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.centrahealth.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:51:16.567354+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:51:16.567354+00:00",
+      "last_updated": "2026-05-31T14:59:20.633549+00:00"
+    },
+    "50bf2d76c3288b98": {
+      "fact_id": "50bf2d76c3288b98",
+      "fact_value": "source_url:https://www.lynchburgva.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.lynchburgva.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:51:16.586404+00:00"
+        }
+      ],
+      "verifications": 10,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-31T14:51:16.586404+00:00",
+      "last_updated": "2026-06-01T19:47:53.683738+00:00"
+    },
+    "e5ef398c3718c85a": {
+      "fact_id": "e5ef398c3718c85a",
+      "fact_value": "query:Mobile AL",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:52:55.948178+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:52:55.948178+00:00",
+      "last_updated": "2026-05-31T14:54:22.973608+00:00"
+    },
+    "f80fdda5765006da": {
+      "fact_id": "f80fdda5765006da",
+      "fact_value": "concept:HAS ACTIVE MUNICIPAL COURT",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T14:52:55.970243+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:52:55.970243+00:00",
+      "last_updated": "2026-05-31T14:54:22.993322+00:00"
+    },
+    "8dcedcda0842c123": {
+      "fact_id": "8dcedcda0842c123",
+      "fact_value": "source_url:https://www.cityofsatsuma.com/196/Municipal-Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofsatsuma.com/196/Municipal-Court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:52:55.989817+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:52:55.989817+00:00",
+      "last_updated": "2026-05-31T14:54:23.014605+00:00"
+    },
+    "ef78f0288e756429": {
+      "fact_id": "ef78f0288e756429",
+      "fact_value": "source_url:https://www.cityofsatsuma.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofsatsuma.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:52:56.009854+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:52:56.009854+00:00",
+      "last_updated": "2026-05-31T14:54:23.034654+00:00"
+    },
+    "b2014a8ae7e5ce0b": {
+      "fact_id": "b2014a8ae7e5ce0b",
+      "fact_value": "source_url:https://www.mobilepubliclibr",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.mobilepubliclibr",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:52:56.030912+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:52:56.030912+00:00",
+      "last_updated": "2026-05-31T14:54:23.053830+00:00"
+    },
+    "258507f36d6cb11a": {
+      "fact_id": "258507f36d6cb11a",
+      "fact_value": "source_url:https://www.cityofsatsuma.com/198/Building-Inspection",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cityofsatsuma.com/198/Building-Inspection",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:52:56.050957+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T14:52:56.050957+00:00",
+      "last_updated": "2026-05-31T14:54:23.074640+00:00"
+    },
+    "97be127fab6ec5da": {
+      "fact_id": "97be127fab6ec5da",
+      "fact_value": "source_url:https://www.building.alabama.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.building.alabama.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T14:52:56.069918+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T14:52:56.069918+00:00",
+      "last_updated": "2026-05-31T14:52:56.069918+00:00"
+    },
+    "2e15f072a275a8c7": {
+      "fact_id": "2e15f072a275a8c7",
+      "fact_value": "source_url:https://vadoc.virginia.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://vadoc.virginia.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:02:37.997718+00:00"
+        }
+      ],
+      "verifications": 4,
+      "corrections": [],
+      "truth_score": 0.5,
+      "first_seen": "2026-05-31T15:02:37.997718+00:00",
+      "last_updated": "2026-06-01T19:47:53.764757+00:00"
+    },
+    "fbfa8be1ee399709": {
+      "fact_id": "fbfa8be1ee399709",
+      "fact_value": "source_url:https://www.vgpd.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.vgpd.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:10:06.273222+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T15:10:06.273222+00:00",
+      "last_updated": "2026-05-31T21:25:57.388073+00:00"
+    },
+    "d21fb9e8ad2f29f3": {
+      "fact_id": "d21fb9e8ad2f29f3",
+      "fact_value": "source_url:https://www.municode.com/library/fl/virginia_gardens/codes/code_of_ordinances",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.municode.com/library/fl/virginia_gardens/codes/code_of_ordinances",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:10:06.293807+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T15:10:06.293807+00:00",
+      "last_updated": "2026-05-31T16:07:32.242121+00:00"
+    },
+    "7d8ff928e0923a33": {
+      "fact_id": "7d8ff928e0923a33",
+      "fact_value": "source_url:https://mdpls.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://mdpls.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:10:06.314872+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T15:10:06.314872+00:00",
+      "last_updated": "2026-05-31T16:07:32.265145+00:00"
+    },
+    "a87a3c58669d8abc": {
+      "fact_id": "a87a3c58669d8abc",
+      "fact_value": "source_url:https://virginiagardens-fl.gov/building-zoning",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://virginiagardens-fl.gov/building-zoning",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:10:06.335923+00:00"
+        }
+      ],
+      "verifications": 6,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-05-31T15:10:06.335923+00:00",
+      "last_updated": "2026-05-31T16:07:32.287222+00:00"
+    },
+    "396e4a824f78a240": {
+      "fact_id": "396e4a824f78a240",
+      "fact_value": "source_url:https://www.miami-dadeclerk.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.miami-dadeclerk.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:59:35.400188+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T15:59:35.400188+00:00",
+      "last_updated": "2026-05-31T15:59:35.400188+00:00"
+    },
+    "2697c7256fd57e06": {
+      "fact_id": "2697c7256fd57e06",
+      "fact_value": "source_url:https://goldenbeach.us/police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://goldenbeach.us/police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T15:59:35.484576+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T15:59:35.484576+00:00",
+      "last_updated": "2026-05-31T21:25:57.408130+00:00"
+    },
+    "5fed51860a2700e1": {
+      "fact_id": "5fed51860a2700e1",
+      "fact_value": "source_url:https://www.gainesvillefl.gov/Police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.gainesvillefl.gov/Police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T16:05:28.941552+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-31T16:05:28.941552+00:00",
+      "last_updated": "2026-05-31T21:23:23.952799+00:00"
+    },
+    "be72810be14f16a7": {
+      "fact_id": "be72810be14f16a7",
+      "fact_value": "source_url:https://www.flhsmv.gov/florida-highway-patrol/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.flhsmv.gov/florida-highway-patrol/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T16:05:28.965604+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-31T16:05:28.965604+00:00",
+      "last_updated": "2026-05-31T21:23:23.973400+00:00"
+    },
+    "edeafab6d55e2803": {
+      "fact_id": "edeafab6d55e2803",
+      "fact_value": "source_url:https://www.fdacs.gov/Forest-Wildfire/Our-Forests/State-Forests/Goethe-State-Forest",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.fdacs.gov/Forest-Wildfire/Our-Forests/State-Forests/Goethe-State-Forest",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T16:05:28.988672+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-31T16:05:28.988672+00:00",
+      "last_updated": "2026-05-31T21:23:23.995047+00:00"
+    },
+    "c7ff023a4558bfeb": {
+      "fact_id": "c7ff023a4558bfeb",
+      "fact_value": "source_url:https://www.gainesvillefl.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.gainesvillefl.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T16:05:29.011233+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-05-31T16:05:29.011233+00:00",
+      "last_updated": "2026-05-31T21:23:24.015877+00:00"
+    },
+    "0e342aebb2edd8f3": {
+      "fact_id": "0e342aebb2edd8f3",
+      "fact_value": "source_url:https://www.jud11.flcourts.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.jud11.flcourts.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T20:55:17.798590+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T20:55:17.798590+00:00",
+      "last_updated": "2026-05-31T21:25:57.340923+00:00"
+    },
+    "0b5b8ff40e98b872": {
+      "fact_id": "0b5b8ff40e98b872",
+      "fact_value": "source_url:https://medleypd.com",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://medleypd.com",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T20:55:17.888121+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T20:55:17.888121+00:00",
+      "last_updated": "2026-05-31T21:25:57.433045+00:00"
+    },
+    "1370d268b0834244": {
+      "fact_id": "1370d268b0834244",
+      "fact_value": "citation:Culloch v. Maryland, 17 U.S. 316 (1819)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/statute",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-31T21:27:25.369927+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.369927+00:00",
+      "last_updated": "2026-05-31T21:27:25.369927+00:00"
+    },
+    "1f5cd3bac1c36cab": {
+      "fact_id": "1f5cd3bac1c36cab",
+      "fact_value": "citation:Myers v. United States, 272 U.S. 52 (1926)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/statute",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-31T21:27:25.392004+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.392004+00:00",
+      "last_updated": "2026-05-31T21:27:25.392004+00:00"
+    },
+    "38f15e1935c36450": {
+      "fact_id": "38f15e1935c36450",
+      "fact_value": "citation:Youngstown, 343 U.S. 579 (1952)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/statute",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-31T21:27:25.414112+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.414112+00:00",
+      "last_updated": "2026-05-31T21:27:25.414112+00:00"
+    },
+    "0a4e04d572893425": {
+      "fact_id": "0a4e04d572893425",
+      "fact_value": "citation:States v. Nixon, 418 U.S. 683 (1974)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/statute",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-31T21:27:25.434085+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.434085+00:00",
+      "last_updated": "2026-05-31T21:27:25.434085+00:00"
+    },
+    "9711bed60d09c98b": {
+      "fact_id": "9711bed60d09c98b",
+      "fact_value": "citation:Hampton v. United States, 276 U.S. 394 (1928)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/statute",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-05-31T21:27:25.455118+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.455118+00:00",
+      "last_updated": "2026-05-31T21:27:25.455118+00:00"
+    },
+    "a41bd01f7f64b00d": {
+      "fact_id": "a41bd01f7f64b00d",
+      "fact_value": "concept:United Nations Treaty Collection",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T21:27:25.476144+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.475139+00:00",
+      "last_updated": "2026-05-31T21:27:25.476144+00:00"
+    },
+    "c79e412bd6ed74f6": {
+      "fact_id": "c79e412bd6ed74f6",
+      "fact_value": "concept:International Court of Justice",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T21:27:25.496156+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.496156+00:00",
+      "last_updated": "2026-05-31T21:27:25.496156+00:00"
+    },
+    "8ca9c623d97a39ba": {
+      "fact_id": "8ca9c623d97a39ba",
+      "fact_value": "concept:Cornell LII - International Law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T21:27:25.515342+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.515342+00:00",
+      "last_updated": "2026-05-31T21:27:25.515342+00:00"
+    },
+    "87f05e1f44374949": {
+      "fact_id": "87f05e1f44374949",
+      "fact_value": "concept:American Society of International Law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T21:27:25.535384+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.535384+00:00",
+      "last_updated": "2026-05-31T21:27:25.535384+00:00"
+    },
+    "733b8f05d45f0999": {
+      "fact_id": "733b8f05d45f0999",
+      "fact_value": "source_url:https://www.icj-cij.org/en/statute",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/statute",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T21:27:25.558410+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.558410+00:00",
+      "last_updated": "2026-05-31T21:27:25.559410+00:00"
+    },
+    "cb6259734d4a032f": {
+      "fact_id": "cb6259734d4a032f",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/customary_international_law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/customary_international_law",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T21:27:25.591953+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-31T21:27:25.591953+00:00",
+      "last_updated": "2026-05-31T21:27:25.591953+00:00"
+    },
+    "94ba5c3023535921": {
+      "fact_id": "94ba5c3023535921",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/general_principles_of_law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/general_principles_of_law",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T21:27:25.617004+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-31T21:27:25.616005+00:00",
+      "last_updated": "2026-05-31T21:27:25.617004+00:00"
+    },
+    "9670811de7828b3b": {
+      "fact_id": "9670811de7828b3b",
+      "fact_value": "source_url:https://www.icj-cij.org/en/judgments",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.icj-cij.org/en/judgments",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T21:27:25.641055+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:25.641055+00:00",
+      "last_updated": "2026-05-31T21:27:25.641055+00:00"
+    },
+    "fab841a2306b6cfc": {
+      "fact_id": "fab841a2306b6cfc",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/sovereignty",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/sovereignty",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T21:27:25.666620+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-05-31T21:27:25.666620+00:00",
+      "last_updated": "2026-05-31T21:27:25.666620+00:00"
+    },
+    "ea09bee7b97ca5af": {
+      "fact_id": "ea09bee7b97ca5af",
+      "fact_value": "query:Miranda v Arizona",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T21:27:52.759990+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T21:27:52.759990+00:00",
+      "last_updated": "2026-05-31T21:27:52.759990+00:00"
+    },
+    "1b0a0886009188f1": {
+      "fact_id": "1b0a0886009188f1",
+      "fact_value": "Accessibility toggles: none active. Use /access braille|neuralink|eye on|off Usage: /access braille|neuralink|eye on|off",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T22:03:09.044628+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T22:03:09.044628+00:00",
+      "last_updated": "2026-05-31T23:04:46.404606+00:00"
+    },
+    "5618c05eefb22066": {
+      "fact_id": "5618c05eefb22066",
+      "fact_value": "query:status",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:03.628996+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T22:04:03.628996+00:00",
+      "last_updated": "2026-05-31T22:04:03.628996+00:00"
+    },
+    "bde8860664276ab7": {
+      "fact_id": "bde8860664276ab7",
+      "fact_value": "query:/analyze self defense",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:32.549095+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T22:04:32.549095+00:00",
+      "last_updated": "2026-05-31T22:04:32.549095+00:00"
+    },
+    "a29b4cfe5398e186": {
+      "fact_id": "a29b4cfe5398e186",
+      "fact_value": "source_url:https://www.python.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.python.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:32.631403+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T22:04:32.631403+00:00",
+      "last_updated": "2026-06-01T00:07:52.682887+00:00"
+    },
+    "4d1837caf3963ed2": {
+      "fact_id": "4d1837caf3963ed2",
+      "fact_value": "source_url:https://www.oracle.com/java/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.oracle.com/java/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:32.655000+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T22:04:32.655000+00:00",
+      "last_updated": "2026-06-01T00:07:52.704887+00:00"
+    },
+    "780348c2aab6c452": {
+      "fact_id": "780348c2aab6c452",
+      "fact_value": "source_url:https://api.example.com/data",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://api.example.com/data",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:32.678653+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T22:04:32.678653+00:00",
+      "last_updated": "2026-06-01T00:07:52.729888+00:00"
+    },
+    "824b372628312aa6": {
+      "fact_id": "824b372628312aa6",
+      "fact_value": "source_url:https://go.dev",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://go.dev",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:32.698721+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T22:04:32.698721+00:00",
+      "last_updated": "2026-06-01T00:07:52.752885+00:00"
+    },
+    "0c3a59777c539cd8": {
+      "fact_id": "0c3a59777c539cd8",
+      "fact_value": "source_url:https://api.mymemory.translated.net/get?q=TEXT&langpair=en|ar",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://api.mymemory.translated.net/get?q=TEXT&langpair=en|ar",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:04:32.720786+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T22:04:32.720786+00:00",
+      "last_updated": "2026-05-31T22:04:32.720786+00:00"
+    },
+    "c736b0b9e1120878": {
+      "fact_id": "c736b0b9e1120878",
+      "fact_value": "Active: groq (groq)  OBLITERATED (5):   - deepseek-coder-liberated (3.8 GB)   - codellama-liberated (3.8 GB)   - smollm2-liberated (3.4 GB)   - tinyllama-liberated (2.2 GB)   - gemma3-liberated (815 M",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T22:10:00.676214+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T22:10:00.676214+00:00",
+      "last_updated": "2026-05-31T22:10:00.676214+00:00"
+    },
+    "46a79781ee0d230a": {
+      "fact_id": "46a79781ee0d230a",
+      "fact_value": "query:\"shared/voice_hook.py\" | Select-String -Pattern \"Ctrl\\+Shift|hotkey|register|keyboard\" | Select-Object -First 10",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:33:50.643982+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T22:33:50.643982+00:00",
+      "last_updated": "2026-05-31T22:33:50.643982+00:00"
+    },
+    "9bd54b591e7a77f7": {
+      "fact_id": "9bd54b591e7a77f7",
+      "fact_value": "source_url:https://www.wordreference.com/ar/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.wordreference.com/ar/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T22:33:50.928988+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T22:33:50.928988+00:00",
+      "last_updated": "2026-05-31T22:33:50.928988+00:00"
+    },
+    "d967144643a70ba5": {
+      "fact_id": "d967144643a70ba5",
+      "fact_value": "Accessibility toggles: none active. Use /access voice|braille|neuralink|eye on|off Usage: /access braille|neuralink|eye on|off",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-05-31T23:05:45.891270+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-05-31T23:05:45.891270+00:00",
+      "last_updated": "2026-05-31T23:06:36.115628+00:00"
+    },
+    "fa4dc2b95e29152d": {
+      "fact_id": "fa4dc2b95e29152d",
+      "fact_value": "query:voice",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T23:07:39.224398+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T23:07:39.224398+00:00",
+      "last_updated": "2026-05-31T23:07:39.224398+00:00"
+    },
+    "4779816c95e2e7b6": {
+      "fact_id": "4779816c95e2e7b6",
+      "fact_value": "query:Lockhart",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T23:50:23.874253+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T23:50:23.874253+00:00",
+      "last_updated": "2026-05-31T23:50:23.874253+00:00"
+    },
+    "2d8eecb5f25e8122": {
+      "fact_id": "2d8eecb5f25e8122",
+      "fact_value": "source_url:https://www.txcourts.gov/district-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.txcourts.gov/district-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-05-31T23:50:23.912554+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-05-31T23:50:23.912554+00:00",
+      "last_updated": "2026-05-31T23:50:23.912554+00:00"
+    },
+    "c52f68e68d94659f": {
+      "fact_id": "c52f68e68d94659f",
+      "fact_value": "query:one",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:07:52.580881+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:07:52.580881+00:00",
+      "last_updated": "2026-06-01T00:07:52.580881+00:00"
+    },
+    "683a15c88fba9299": {
+      "fact_id": "683a15c88fba9299",
+      "fact_value": "source_url:https://www.wordreference.com/id/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.wordreference.com/id/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:07:52.774878+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:07:52.774878+00:00",
+      "last_updated": "2026-06-01T00:07:52.774878+00:00"
+    },
+    "9956a3339eeb55f8": {
+      "fact_id": "9956a3339eeb55f8",
+      "fact_value": "query:claw",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:12:08.295305+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:12:08.295305+00:00",
+      "last_updated": "2026-06-01T00:12:08.295305+00:00"
+    },
+    "4c6599ac44b9c0ac": {
+      "fact_id": "4c6599ac44b9c0ac",
+      "fact_value": "query:clock",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:18:37.341356+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T00:18:37.341356+00:00",
+      "last_updated": "2026-06-01T13:13:00.112721+00:00"
+    },
+    "1b5f6f5b84aca8fc": {
+      "fact_id": "1b5f6f5b84aca8fc",
+      "fact_value": "concept:APA's 6-year statute of limitations (28 U.S.C.  2401(a)) runs from when plaintiff is injured, not when agency acts.",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T00:18:37.369353+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:18:37.369353+00:00",
+      "last_updated": "2026-06-01T00:18:37.369353+00:00"
+    },
+    "9430c2814b497402": {
+      "fact_id": "9430c2814b497402",
+      "fact_value": "source_url:https://www.supremecourt.gov/opinions/23pdf/22-1008_1an2.pdf",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.supremecourt.gov/opinions/23pdf/22-1008_1an2.pdf",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:18:37.392351+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T00:18:37.392351+00:00",
+      "last_updated": "2026-06-01T00:18:37.392351+00:00"
+    },
+    "0db4fb0b8dfdfa43": {
+      "fact_id": "0db4fb0b8dfdfa43",
+      "fact_value": "source_url:https://www.scotusblog.com/case-files/cases/corner-post-inc-v-board-of-governors-of-the-federal-reserve-system/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.scotusblog.com/case-files/cases/corner-post-inc-v-board-of-governors-of-the-federal-reserve-system/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:18:37.427353+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:18:37.427353+00:00",
+      "last_updated": "2026-06-01T00:18:37.427353+00:00"
+    },
+    "b83acfcc31e35ce8": {
+      "fact_id": "b83acfcc31e35ce8",
+      "fact_value": "source_url:https://crsreports.congress.gov/product/pdf/LSB/LSB11179",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://crsreports.congress.gov/product/pdf/LSB/LSB11179",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:18:37.448366+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:18:37.448366+00:00",
+      "last_updated": "2026-06-01T00:18:37.448366+00:00"
+    },
+    "631dc9a667a25391": {
+      "fact_id": "631dc9a667a25391",
+      "fact_value": "source_url:https://www.law.cornell.edu/uscode/text/47/310",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/uscode/text/47/310",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:18:37.469349+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T00:18:37.469349+00:00",
+      "last_updated": "2026-06-01T00:18:37.469349+00:00"
+    },
+    "747190379a92cba7": {
+      "fact_id": "747190379a92cba7",
+      "fact_value": "source_url:https://www.fcc.gov/mergers",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.fcc.gov/mergers",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:18:37.494355+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:18:37.494355+00:00",
+      "last_updated": "2026-06-01T00:18:37.494355+00:00"
+    },
+    "40b1880440e481b9": {
+      "fact_id": "40b1880440e481b9",
+      "fact_value": "[docuclaw] unavailable: HTTPConnectionPool(host='127.0.0.1', port=8766): Read timed out. (read timeout=60)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T00:22:52.747309+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:22:52.747309+00:00",
+      "last_updated": "2026-06-01T00:22:52.748315+00:00"
+    },
+    "6ddbaa1355c2b779": {
+      "fact_id": "6ddbaa1355c2b779",
+      "fact_value": "concept:Request Body",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T00:30:25.552612+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T00:30:25.552612+00:00",
+      "last_updated": "2026-06-01T00:30:25.579629+00:00"
+    },
+    "b275e7c43880371c": {
+      "fact_id": "b275e7c43880371c",
+      "fact_value": "source_url:https://api.admin.sologenic.org/api/admindoc/create/draft",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://api.admin.sologenic.org/api/admindoc/create/draft",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:30:25.605616+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:30:25.605616+00:00",
+      "last_updated": "2026-06-01T00:30:25.605616+00:00"
+    },
+    "75e6152694e0a476": {
+      "fact_id": "75e6152694e0a476",
+      "fact_value": "source_url:https://api.admin.sologenic.org/api/admindoc/list?filter=",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://api.admin.sologenic.org/api/admindoc/list?filter=",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T00:30:25.629612+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T00:30:25.629612+00:00",
+      "last_updated": "2026-06-01T00:30:25.629612+00:00"
+    },
+    "508948e9ef099aab": {
+      "fact_id": "508948e9ef099aab",
+      "fact_value": "Active: deepseek-r1:8b (ollama)  OBLITERATED (5):   - deepseek-coder-liberated (3.8 GB)   - codellama-liberated (3.8 GB)   - smollm2-liberated (3.4 GB)   - tinyllama-liberated (2.2 GB)   - gemma3-libe",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:22:20.084473+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:22:20.084473+00:00",
+      "last_updated": "2026-06-01T01:22:20.084473+00:00"
+    },
+    "73813908301ac540": {
+      "fact_id": "73813908301ac540",
+      "fact_value": "query:Colorado",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:23:50.978970+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T01:23:50.978970+00:00",
+      "last_updated": "2026-06-01T01:32:35.475722+00:00"
+    },
+    "df18d5942fadfe71": {
+      "fact_id": "df18d5942fadfe71",
+      "fact_value": "concept:Colorado Privacy Act (CPA)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:23:51.002969+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T01:23:51.002969+00:00",
+      "last_updated": "2026-06-01T01:32:23.800855+00:00"
+    },
+    "73cfb8598faad5d1": {
+      "fact_id": "73cfb8598faad5d1",
+      "fact_value": "concept:Cornell LII - Cyber Law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:23:51.023970+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:23:51.023970+00:00",
+      "last_updated": "2026-06-01T01:23:51.023970+00:00"
+    },
+    "485a5056c9700d8c": {
+      "fact_id": "485a5056c9700d8c",
+      "fact_value": "concept:FTC Privacy and Security",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:23:51.048973+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:23:51.048973+00:00",
+      "last_updated": "2026-06-01T01:23:51.048973+00:00"
+    },
+    "c2bafbebc07f778a": {
+      "fact_id": "c2bafbebc07f778a",
+      "fact_value": "source_url:https://coag.gov/resources/colorado-privacy-act/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://coag.gov/resources/colorado-privacy-act/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:23:51.078971+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.47,
+      "first_seen": "2026-06-01T01:23:51.078971+00:00",
+      "last_updated": "2026-06-01T01:32:23.894213+00:00"
+    },
+    "fd518d4562ef8b77": {
+      "fact_id": "fd518d4562ef8b77",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/cyber_law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/cyber_law",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:23:51.104986+00:00"
+        }
+      ],
+      "verifications": 3,
+      "corrections": [],
+      "truth_score": 0.6625,
+      "first_seen": "2026-06-01T01:23:51.104986+00:00",
+      "last_updated": "2026-06-01T01:32:23.963387+00:00"
+    },
+    "218d623f3cbc9c2a": {
+      "fact_id": "218d623f3cbc9c2a",
+      "fact_value": "source_url:https://www.europarl.europa.eu",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.europarl.europa.eu",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:23:51.130985+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:23:51.130985+00:00",
+      "last_updated": "2026-06-01T01:23:51.130985+00:00"
+    },
+    "fef3e975e458107a": {
+      "fact_id": "fef3e975e458107a",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/common_law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/common_law",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:23:51.150985+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T01:23:51.150985+00:00",
+      "last_updated": "2026-06-01T01:23:51.150985+00:00"
+    },
+    "a962e7f4436edac6": {
+      "fact_id": "a962e7f4436edac6",
+      "fact_value": "source_url:https://www.nist.gov/cyberframework",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.nist.gov/cyberframework",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:23:51.176980+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T01:23:51.176980+00:00",
+      "last_updated": "2026-06-01T01:32:23.940290+00:00"
+    },
+    "cc8c050723ae9ce0": {
+      "fact_id": "cc8c050723ae9ce0",
+      "fact_value": "concept:Colorado Constitution & Legislature:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:30:18.885909+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:30:18.885909+00:00",
+      "last_updated": "2026-06-01T01:30:18.885909+00:00"
+    },
+    "9e30b541bafa0bf0": {
+      "fact_id": "9e30b541bafa0bf0",
+      "fact_value": "concept:Legal Writing Standards:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:30:18.916454+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:30:18.916454+00:00",
+      "last_updated": "2026-06-01T01:30:18.916454+00:00"
+    },
+    "a0570795bb0f4b8d": {
+      "fact_id": "a0570795bb0f4b8d",
+      "fact_value": "concept:Colorado State University (Fort Collins):",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:30:18.944034+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:30:18.944034+00:00",
+      "last_updated": "2026-06-01T01:30:18.944034+00:00"
+    },
+    "de3bb833d21f2f22": {
+      "fact_id": "de3bb833d21f2f22",
+      "fact_value": "concept:CU Boulder:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:30:18.966800+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:30:18.966800+00:00",
+      "last_updated": "2026-06-01T01:30:18.966800+00:00"
+    },
+    "adbac255b3ea883a": {
+      "fact_id": "adbac255b3ea883a",
+      "fact_value": "concept:Other Universities:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:30:18.994397+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:30:18.994397+00:00",
+      "last_updated": "2026-06-01T01:30:18.994397+00:00"
+    },
+    "b6d90970b3c576b7": {
+      "fact_id": "b6d90970b3c576b7",
+      "fact_value": "source_url:https://law.justia.com/constitution/colorado/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://law.justia.com/constitution/colorado/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:30:19.022621+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T01:30:19.022621+00:00",
+      "last_updated": "2026-06-01T01:32:35.679491+00:00"
+    },
+    "ec3b642c8f4ed98f": {
+      "fact_id": "ec3b642c8f4ed98f",
+      "fact_value": "source_url:https://leg.colorado.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://leg.colorado.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:30:19.046697+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T01:30:19.046697+00:00",
+      "last_updated": "2026-06-01T01:32:35.714055+00:00"
+    },
+    "a86907b9a662fc08": {
+      "fact_id": "a86907b9a662fc08",
+      "fact_value": "source_url:https://leg.colorado.gov/colorado-constitution",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://leg.colorado.gov/colorado-constitution",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:30:19.075293+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T01:30:19.075293+00:00",
+      "last_updated": "2026-06-01T01:32:35.744596+00:00"
+    },
+    "552ef228fea84d74": {
+      "fact_id": "552ef228fea84d74",
+      "fact_value": "source_url:https://ballotpedia.org/Colorado_Constitution",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://ballotpedia.org/Colorado_Constitution",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:30:19.099904+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T01:30:19.099904+00:00",
+      "last_updated": "2026-06-01T01:32:35.777251+00:00"
+    },
+    "ab3e0185a1846eec": {
+      "fact_id": "ab3e0185a1846eec",
+      "fact_value": "source_url:https://www.leg.colorado.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.leg.colorado.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T01:30:19.133124+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T01:30:19.133124+00:00",
+      "last_updated": "2026-06-01T01:32:35.810747+00:00"
+    },
+    "c5db88aa619e47c2": {
+      "fact_id": "c5db88aa619e47c2",
+      "fact_value": "concept:Official Resource:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:23.824535+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:23.824535+00:00",
+      "last_updated": "2026-06-01T01:32:23.824535+00:00"
+    },
+    "cb44d757ddcae66d": {
+      "fact_id": "cb44d757ddcae66d",
+      "fact_value": "concept:Key Consumer Rights:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:23.847314+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:23.847314+00:00",
+      "last_updated": "2026-06-01T01:32:23.847314+00:00"
+    },
+    "00eb49305b1dbf2b": {
+      "fact_id": "00eb49305b1dbf2b",
+      "fact_value": "concept:Colorado Constitution (1876)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:35.517318+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:35.517318+00:00",
+      "last_updated": "2026-06-01T01:32:35.517318+00:00"
+    },
+    "a666298a7e6a2760": {
+      "fact_id": "a666298a7e6a2760",
+      "fact_value": "concept:Colorado Legislature",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:35.551884+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:35.551884+00:00",
+      "last_updated": "2026-06-01T01:32:35.551884+00:00"
+    },
+    "d0619abd69960b7a": {
+      "fact_id": "d0619abd69960b7a",
+      "fact_value": "concept:Colorado Constitution",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:35.592450+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:35.592450+00:00",
+      "last_updated": "2026-06-01T01:32:35.592450+00:00"
+    },
+    "73dc439f174faee5": {
+      "fact_id": "73dc439f174faee5",
+      "fact_value": "concept:Ballotpedia - Colorado Constitution",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:35.617898+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:35.617898+00:00",
+      "last_updated": "2026-06-01T01:32:35.617898+00:00"
+    },
+    "e982f70acfd57f86": {
+      "fact_id": "e982f70acfd57f86",
+      "fact_value": "concept:Colorado Legislature \u2014 Bill Drafting",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T01:32:35.648442+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T01:32:35.648442+00:00",
+      "last_updated": "2026-06-01T01:32:35.648442+00:00"
+    },
+    "617a8828511b2879": {
+      "fact_id": "617a8828511b2879",
+      "fact_value": "Accessibility toggles: none active. Use /access voice|braille|neuralink|eye on|off Usage: /access voice|braille|neuralink|eye on|off",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T02:30:05.738738+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T02:30:05.738738+00:00",
+      "last_updated": "2026-06-01T02:30:05.738738+00:00"
+    },
+    "47570d05cf82dc6c": {
+      "fact_id": "47570d05cf82dc6c",
+      "fact_value": "query:denver colorado",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T02:42:26.471927+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T02:42:26.471927+00:00",
+      "last_updated": "2026-06-01T02:42:26.471927+00:00"
+    },
+    "9903ef5e1f71f99f": {
+      "fact_id": "9903ef5e1f71f99f",
+      "fact_value": "query:law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T14:55:11.558885+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T14:55:11.558885+00:00",
+      "last_updated": "2026-06-01T15:12:38.229639+00:00"
+    },
+    "f2a83e3a74bab751": {
+      "fact_id": "f2a83e3a74bab751",
+      "fact_value": "concept:**Premier Law Libraries",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T14:56:54.879787+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T14:56:54.879787+00:00",
+      "last_updated": "2026-06-01T14:56:54.879787+00:00"
+    },
+    "9d7e8ead58ab8f91": {
+      "fact_id": "9d7e8ead58ab8f91",
+      "fact_value": "concept:Harvard Law School Library",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T14:56:54.904405+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T14:56:54.904405+00:00",
+      "last_updated": "2026-06-01T14:56:54.904405+00:00"
+    },
+    "a7981cb5b78cb67e": {
+      "fact_id": "a7981cb5b78cb67e",
+      "fact_value": "concept:Yale Law Library (Lillian Goldman)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T14:56:54.930663+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T14:56:54.930663+00:00",
+      "last_updated": "2026-06-01T14:56:54.930663+00:00"
+    },
+    "6e1329a99be785da": {
+      "fact_id": "6e1329a99be785da",
+      "fact_value": "concept:Stanford Law Library (Robert Crown)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T14:56:54.954228+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T14:56:54.954228+00:00",
+      "last_updated": "2026-06-01T14:56:54.954228+00:00"
+    },
+    "4398ea7d6a53496f": {
+      "fact_id": "4398ea7d6a53496f",
+      "fact_value": "concept:Columbia Law Library",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T14:56:54.976255+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T14:56:54.976255+00:00",
+      "last_updated": "2026-06-01T14:56:54.976255+00:00"
+    },
+    "1c64575bb6b8e643": {
+      "fact_id": "1c64575bb6b8e643",
+      "fact_value": "cannot access local variable 'final_result' where it is not associated with a value",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T15:19:10.220874+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:19:10.220874+00:00",
+      "last_updated": "2026-06-01T15:19:10.220874+00:00"
+    },
+    "dd19008e1fa811b5": {
+      "fact_id": "dd19008e1fa811b5",
+      "fact_value": "query:back",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T15:49:23.094314+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:49:23.094314+00:00",
+      "last_updated": "2026-06-01T15:49:23.094314+00:00"
+    },
+    "3b028798fb03fec2": {
+      "fact_id": "3b028798fb03fec2",
+      "fact_value": "citation:Executor v. United States, 295 U.S. 602 (1935)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.ecfr.gov",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-06-01T15:49:23.116393+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:49:23.116393+00:00",
+      "last_updated": "2026-06-01T15:49:23.116393+00:00"
+    },
+    "04fc65bad090adb0": {
+      "fact_id": "04fc65bad090adb0",
+      "fact_value": "concept:General Purpose",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T15:49:23.140857+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T15:49:23.140857+00:00",
+      "last_updated": "2026-06-01T19:41:06.564422+00:00"
+    },
+    "bd8e679831e5c1b1": {
+      "fact_id": "bd8e679831e5c1b1",
+      "fact_value": "concept:Data Science",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T15:49:23.163913+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:49:23.163913+00:00",
+      "last_updated": "2026-06-01T15:49:23.163913+00:00"
+    },
+    "5f9a0b49304d2262": {
+      "fact_id": "5f9a0b49304d2262",
+      "fact_value": "concept:Shell Scripting",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T15:49:23.186971+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:49:23.186971+00:00",
+      "last_updated": "2026-06-01T15:49:23.186971+00:00"
+    },
+    "8b2496ee4a39da78": {
+      "fact_id": "8b2496ee4a39da78",
+      "fact_value": "concept:Frontend Frameworks",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T15:49:23.212538+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:49:23.212538+00:00",
+      "last_updated": "2026-06-01T15:49:23.212538+00:00"
+    },
+    "10c191c6fd9ea6b9": {
+      "fact_id": "10c191c6fd9ea6b9",
+      "fact_value": "source_url:https://www.ecfr.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.ecfr.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T15:49:23.239616+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T15:49:23.238612+00:00",
+      "last_updated": "2026-06-01T15:49:23.239616+00:00"
+    },
+    "ac593cc30d743ebc": {
+      "fact_id": "ac593cc30d743ebc",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/health_care_law",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/health_care_law",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T15:49:23.265694+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T15:49:23.265694+00:00",
+      "last_updated": "2026-06-01T15:49:23.265694+00:00"
+    },
+    "3c3c6785ea008379": {
+      "fact_id": "3c3c6785ea008379",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/affordable_care_act",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/affordable_care_act",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T15:49:23.288765+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T15:49:23.288765+00:00",
+      "last_updated": "2026-06-01T15:49:23.288765+00:00"
+    },
+    "e5093310c59485a8": {
+      "fact_id": "e5093310c59485a8",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/hipaa",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/hipaa",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T15:49:23.315883+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T15:49:23.315883+00:00",
+      "last_updated": "2026-06-01T15:49:23.315883+00:00"
+    },
+    "bb41d6df53b621b2": {
+      "fact_id": "bb41d6df53b621b2",
+      "fact_value": "source_url:https://www.law.cornell.edu/uscode/text/42/1395dd",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/uscode/text/42/1395dd",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T15:49:23.343006+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T15:49:23.343006+00:00",
+      "last_updated": "2026-06-01T15:49:23.343006+00:00"
+    },
+    "8f05922466a7cfef": {
+      "fact_id": "8f05922466a7cfef",
+      "fact_value": "query:Mobile Alabama",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:41:06.379425+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T19:41:06.379425+00:00",
+      "last_updated": "2026-06-01T19:41:06.379425+00:00"
+    },
+    "14eb958254b704ae": {
+      "fact_id": "14eb958254b704ae",
+      "fact_value": "citation:Katz v. United States, 389 U.S. 347 (1967)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_speech",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-06-01T19:41:06.409409+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.409409+00:00",
+      "last_updated": "2026-06-01T19:41:06.409409+00:00"
+    },
+    "3af5fe5dda75b12b": {
+      "fact_id": "3af5fe5dda75b12b",
+      "fact_value": "citation:Smith v. Maryland, 442 U.S. 735 (1979)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_speech",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-06-01T19:41:06.433424+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.433424+00:00",
+      "last_updated": "2026-06-01T19:41:06.433424+00:00"
+    },
+    "9664b3ad4ec40ef6": {
+      "fact_id": "9664b3ad4ec40ef6",
+      "fact_value": "citation:Chimel v. California, 395 U.S. 752 (1969)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_speech",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-06-01T19:41:06.455424+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.455424+00:00",
+      "last_updated": "2026-06-01T19:41:06.455424+00:00"
+    },
+    "d21d79ef91b440c1": {
+      "fact_id": "d21d79ef91b440c1",
+      "fact_value": "citation:Carroll v. United States, 267 U.S. 132 (1925)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_speech",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-06-01T19:41:06.479424+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.479424+00:00",
+      "last_updated": "2026-06-01T19:41:06.479424+00:00"
+    },
+    "bc65e44f21670d32": {
+      "fact_id": "bc65e44f21670d32",
+      "fact_value": "citation:Kentucky v. King, 563 U.S. 452 (2011)",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_speech",
+          "source_type": "web_verified",
+          "confidence": 0.9,
+          "timestamp": "2026-06-01T19:41:06.509422+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.509422+00:00",
+      "last_updated": "2026-06-01T19:41:06.509422+00:00"
+    },
+    "7ae15853f4ee258d": {
+      "fact_id": "7ae15853f4ee258d",
+      "fact_value": "concept:Mobile Development",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:41:06.540411+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T19:41:06.540411+00:00",
+      "last_updated": "2026-06-01T19:41:06.540411+00:00"
+    },
+    "a5482279a6c5c07a": {
+      "fact_id": "a5482279a6c5c07a",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/freedom_of_speech",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_speech",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:41:06.588407+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.588407+00:00",
+      "last_updated": "2026-06-01T19:41:06.588407+00:00"
+    },
+    "4e3a83dd62837b61": {
+      "fact_id": "4e3a83dd62837b61",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/freedom_of_religion",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_religion",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:41:06.612407+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.612407+00:00",
+      "last_updated": "2026-06-01T19:41:06.612407+00:00"
+    },
+    "9d7f2137c52c5932": {
+      "fact_id": "9d7f2137c52c5932",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/freedom_of_the_press",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_the_press",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:41:06.637417+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.637417+00:00",
+      "last_updated": "2026-06-01T19:41:06.637417+00:00"
+    },
+    "dc0a18478b7c051c": {
+      "fact_id": "dc0a18478b7c051c",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/freedom_of_assembly",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/freedom_of_assembly",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:41:06.660406+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.660406+00:00",
+      "last_updated": "2026-06-01T19:41:06.660406+00:00"
+    },
+    "4488f095e7940dc7": {
+      "fact_id": "4488f095e7940dc7",
+      "fact_value": "source_url:https://www.law.cornell.edu/wex/right_to_petition",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.law.cornell.edu/wex/right_to_petition",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:41:06.682408+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.48,
+      "first_seen": "2026-06-01T19:41:06.682408+00:00",
+      "last_updated": "2026-06-01T19:41:06.682408+00:00"
+    },
+    "12a50f163d321556": {
+      "fact_id": "12a50f163d321556",
+      "fact_value": "query:Provide court information for: lynchburg virginia\n\nDatabase context:\nAGENT: lawclaw | PATH: lawclaw\\jurisdictions\\us\\VA\\Campbell\\Lynchburg\\municipal_court.md\n---\n\ufeff# Lynchburg City (Lynchburg, VA) Cour",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:47:52.982829+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T19:47:52.982829+00:00",
+      "last_updated": "2026-06-01T19:47:52.982829+00:00"
+    },
+    "25b229563aaf8444": {
+      "fact_id": "25b229563aaf8444",
+      "fact_value": "concept:Lynchburg City Courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:47:53.010827+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:47:53.010827+00:00",
+      "last_updated": "2026-06-01T19:47:53.508673+00:00"
+    },
+    "a1cb7b986e58523a": {
+      "fact_id": "a1cb7b986e58523a",
+      "fact_value": "concept:Lynchburg General District Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:47:53.035827+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:47:53.035827+00:00",
+      "last_updated": "2026-06-01T19:47:53.534673+00:00"
+    },
+    "fcdc325674844096": {
+      "fact_id": "fcdc325674844096",
+      "fact_value": "concept:Lynchburg Circuit Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:47:53.061833+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:47:53.061833+00:00",
+      "last_updated": "2026-06-01T19:47:53.567694+00:00"
+    },
+    "36a034fea84dcc97": {
+      "fact_id": "36a034fea84dcc97",
+      "fact_value": "concept:City Information",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:47:53.085343+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:47:53.085343+00:00",
+      "last_updated": "2026-06-01T19:47:53.596199+00:00"
+    },
+    "9522223bf17ef6d6": {
+      "fact_id": "9522223bf17ef6d6",
+      "fact_value": "concept:Police Services",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:47:53.112340+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:47:53.112340+00:00",
+      "last_updated": "2026-06-01T19:47:53.627199+00:00"
+    },
+    "9e5522163cabdf0f": {
+      "fact_id": "9e5522163cabdf0f",
+      "fact_value": "source_url:https://www.lynchburgvapolice.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.lynchburgvapolice.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:47:53.186470+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T19:47:53.186470+00:00",
+      "last_updated": "2026-06-01T19:47:53.712739+00:00"
+    },
+    "7f80ee6eeb808b86": {
+      "fact_id": "7f80ee6eeb808b86",
+      "fact_value": "query:lynchburg virginia",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:47:53.478661+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T19:47:53.478661+00:00",
+      "last_updated": "2026-06-01T19:47:53.478661+00:00"
+    },
+    "c7dd49f37410b0d7": {
+      "fact_id": "c7dd49f37410b0d7",
+      "fact_value": "query:Provide court information for: greeley colorado\n\nDatabase context:\nAGENT: lawclaw | PATH: lawclaw\\jurisdictions\\us\\CO\\state\\medi_resources\\Greeley\\medi_state.md\n---\n# Greeley Medical Resources\n\n## Nur",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:26.584414+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:26.584414+00:00",
+      "last_updated": "2026-06-01T19:55:34.991437+00:00"
+    },
+    "1375ca5d16fae0d4": {
+      "fact_id": "1375ca5d16fae0d4",
+      "fact_value": "concept:Greeley, Colorado Court Information",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:55:26.620928+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:26.620928+00:00",
+      "last_updated": "2026-06-01T19:55:27.216921+00:00"
+    },
+    "bb092db6f344cc8f": {
+      "fact_id": "bb092db6f344cc8f",
+      "fact_value": "source_url:https://www.weldgov.com/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.weldgov.com/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:26.657929+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:26.657929+00:00",
+      "last_updated": "2026-06-01T19:55:27.291437+00:00"
+    },
+    "981831ef3d226bc3": {
+      "fact_id": "981831ef3d226bc3",
+      "fact_value": "source_url:https://www.courts.state.co.us/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.co.us/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:26.713450+00:00"
+        }
+      ],
+      "verifications": 7,
+      "corrections": [],
+      "truth_score": 0.5525,
+      "first_seen": "2026-06-01T19:55:26.713450+00:00",
+      "last_updated": "2026-06-01T23:21:53.513739+00:00"
+    },
+    "7ebf492b99c7cfa1": {
+      "fact_id": "7ebf492b99c7cfa1",
+      "fact_value": "query:greeley colorado",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:27.106386+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:27.106386+00:00",
+      "last_updated": "2026-06-01T19:55:35.547220+00:00"
+    },
+    "d84b6bc198f60e76": {
+      "fact_id": "d84b6bc198f60e76",
+      "fact_value": "concept:Court Information for Greeley, Colorado",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:55:35.022168+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:35.022168+00:00",
+      "last_updated": "2026-06-01T19:55:35.588873+00:00"
+    },
+    "f5d84290017ed906": {
+      "fact_id": "f5d84290017ed906",
+      "fact_value": "concept:Local Government:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:55:35.082937+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:35.082937+00:00",
+      "last_updated": "2026-06-01T19:55:35.660093+00:00"
+    },
+    "ce83699f92ef1873": {
+      "fact_id": "ce83699f92ef1873",
+      "fact_value": "concept:State Resources:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T19:55:35.116481+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T19:55:35.116481+00:00",
+      "last_updated": "2026-06-01T19:55:35.688724+00:00"
+    },
+    "c7eadac31a9e1dce": {
+      "fact_id": "c7eadac31a9e1dce",
+      "fact_value": "source_url:https://www.weld.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.weld.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:35.152283+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T19:55:35.152283+00:00",
+      "last_updated": "2026-06-01T19:55:35.718302+00:00"
+    },
+    "cc4ce23e41bf1afe": {
+      "fact_id": "cc4ce23e41bf1afe",
+      "fact_value": "source_url:https://cdola.colorado.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://cdola.colorado.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:35.178331+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T19:55:35.178331+00:00",
+      "last_updated": "2026-06-01T19:55:35.751891+00:00"
+    },
+    "7fd23bd68a8f06cd": {
+      "fact_id": "7fd23bd68a8f06cd",
+      "fact_value": "source_url:https://cdola.colorado.gov/building-codes",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://cdola.colorado.gov/building-codes",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:35.203867+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T19:55:35.203867+00:00",
+      "last_updated": "2026-06-01T19:55:35.794982+00:00"
+    },
+    "c81c49f4c596ac14": {
+      "fact_id": "c81c49f4c596ac14",
+      "fact_value": "source_url:https://dfpc.colorado.gov/wui",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://dfpc.colorado.gov/wui",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:35.239434+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T19:55:35.239434+00:00",
+      "last_updated": "2026-06-01T19:55:35.827527+00:00"
+    },
+    "a7d2e46662a70c79": {
+      "fact_id": "a7d2e46662a70c79",
+      "fact_value": "source_url:https://cdphe.colorado.gov/radon",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://cdphe.colorado.gov/radon",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T19:55:35.265502+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T19:55:35.265502+00:00",
+      "last_updated": "2026-06-01T19:55:35.860081+00:00"
+    },
+    "f15a9bde025ff1aa": {
+      "fact_id": "f15a9bde025ff1aa",
+      "fact_value": "query:as the bill goes into",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T20:04:17.539942+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T20:04:17.539942+00:00",
+      "last_updated": "2026-06-01T20:04:17.539942+00:00"
+    },
+    "e9904e83bbd196c3": {
+      "fact_id": "e9904e83bbd196c3",
+      "fact_value": "query:Danville VA",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:06:45.500294+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T22:06:45.500294+00:00",
+      "last_updated": "2026-06-01T22:14:17.576774+00:00"
+    },
+    "5901bb0ff19b6fdc": {
+      "fact_id": "5901bb0ff19b6fdc",
+      "fact_value": "concept:County Seat",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T22:06:45.531839+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T22:06:45.531839+00:00",
+      "last_updated": "2026-06-01T22:06:45.531839+00:00"
+    },
+    "0b370745ba3741a0": {
+      "fact_id": "0b370745ba3741a0",
+      "fact_value": "source_url:https://www.illinoiscourts.gov/circuit-courts",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.illinoiscourts.gov/circuit-courts",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:06:45.583467+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T22:06:45.583467+00:00",
+      "last_updated": "2026-06-01T22:06:45.583467+00:00"
+    },
+    "08d0a441431fcdbf": {
+      "fact_id": "08d0a441431fcdbf",
+      "fact_value": "concept:Jurisdiction",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T22:14:17.602128+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T22:14:17.602128+00:00",
+      "last_updated": "2026-06-01T22:14:17.602128+00:00"
+    },
+    "18f9c0dfc5e969c5": {
+      "fact_id": "18f9c0dfc5e969c5",
+      "fact_value": "source_url:https://www.danville-va.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.danville-va.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:14:17.628264+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T22:14:17.628264+00:00",
+      "last_updated": "2026-06-01T22:14:17.628264+00:00"
+    },
+    "d18da310832dc382": {
+      "fact_id": "d18da310832dc382",
+      "fact_value": "query:Clear Creek CO",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:31:37.875087+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T22:31:37.875087+00:00",
+      "last_updated": "2026-06-01T22:31:37.875087+00:00"
+    },
+    "7e0522fedb7e54e8": {
+      "fact_id": "7e0522fedb7e54e8",
+      "fact_value": "source_url:https://www.courts.state.co.us/Courts/Supreme_Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.co.us/Courts/Supreme_Court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:31:37.947694+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T22:31:37.947694+00:00",
+      "last_updated": "2026-06-01T22:31:56.509530+00:00"
+    },
+    "5d9768236a422c88": {
+      "fact_id": "5d9768236a422c88",
+      "fact_value": "source_url:https://www.courts.state.co.us/Courts/Court_of_Appeals",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.co.us/Courts/Court_of_Appeals",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:31:37.971761+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T22:31:37.971761+00:00",
+      "last_updated": "2026-06-01T22:31:56.534559+00:00"
+    },
+    "bb619dbfed85dfca": {
+      "fact_id": "bb619dbfed85dfca",
+      "fact_value": "source_url:https://www.cod.uscourts.gov",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.cod.uscourts.gov",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:31:38.021006+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T22:31:38.021006+00:00",
+      "last_updated": "2026-06-01T22:31:56.588409+00:00"
+    },
+    "5eb43a60a8076054": {
+      "fact_id": "5eb43a60a8076054",
+      "fact_value": "source_url:https://www.courts.state.co.us/Juvenile",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.courts.state.co.us/Juvenile",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:31:38.046548+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T22:31:38.046548+00:00",
+      "last_updated": "2026-06-01T22:31:56.615625+00:00"
+    },
+    "a8af0e9781803bc6": {
+      "fact_id": "a8af0e9781803bc6",
+      "fact_value": "query:Georgetown CO",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T22:31:56.434320+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T22:31:56.434320+00:00",
+      "last_updated": "2026-06-01T23:21:53.899101+00:00"
+    },
+    "968edd3b06dc792b": {
+      "fact_id": "968edd3b06dc792b",
+      "fact_value": "query:Summarize the court information for: Georgetown CO\n\nFiles found in city level at CO/Clear_Creek/Georgetown:\n\n\ufeff# Georgetown Municipal Court\n## Court Information\n- Georgetown Municipal Court\n- Address: ",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "memory",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:53.398148+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T23:21:53.398148+00:00",
+      "last_updated": "2026-06-01T23:21:53.398148+00:00"
+    },
+    "58a343daa7823d84": {
+      "fact_id": "58a343daa7823d84",
+      "fact_value": "concept:Georgetown, CO Court Information:",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T23:21:53.424165+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T23:21:53.424165+00:00",
+      "last_updated": "2026-06-01T23:21:53.927239+00:00"
+    },
+    "3a59585052b3cce7": {
+      "fact_id": "3a59585052b3cce7",
+      "fact_value": "concept:Georgetown Municipal Court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "",
+          "source_type": "web_verified",
+          "confidence": 0.8,
+          "timestamp": "2026-06-01T23:21:53.459285+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.41,
+      "first_seen": "2026-06-01T23:21:53.459285+00:00",
+      "last_updated": "2026-06-01T23:21:53.951317+00:00"
+    },
+    "f7ec57a933f0f5e4": {
+      "fact_id": "f7ec57a933f0f5e4",
+      "fact_value": "source_url:https://www.townofgeorgetown.us/court",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.townofgeorgetown.us/court",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:53.487406+00:00"
+        }
+      ],
+      "verifications": 2,
+      "corrections": [],
+      "truth_score": 0.44,
+      "first_seen": "2026-06-01T23:21:53.487406+00:00",
+      "last_updated": "2026-06-01T23:21:53.975450+00:00"
+    },
+    "e20341213d7ed5e9": {
+      "fact_id": "e20341213d7ed5e9",
+      "fact_value": "source_url:https://www.uscourts.gov/",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.uscourts.gov/",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:53.539280+00:00"
+        }
+      ],
+      "verifications": 1,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T23:21:53.539280+00:00",
+      "last_updated": "2026-06-01T23:21:53.539280+00:00"
+    },
+    "8581cffa388f443c": {
+      "fact_id": "8581cffa388f443c",
+      "fact_value": "source_url:https://www.townofgeorgetown.us",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.townofgeorgetown.us",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:54.002823+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T23:21:54.002823+00:00",
+      "last_updated": "2026-06-01T23:21:54.002823+00:00"
+    },
+    "0f8d76153f0e72e8": {
+      "fact_id": "0f8d76153f0e72e8",
+      "fact_value": "source_url:https://www.townofgeorgetown.us/police",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.townofgeorgetown.us/police",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:54.029426+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T23:21:54.029426+00:00",
+      "last_updated": "2026-06-01T23:21:54.029426+00:00"
+    },
+    "a7f3decd6e155add": {
+      "fact_id": "a7f3decd6e155add",
+      "fact_value": "source_url:https://www.georgetowncolorado.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.georgetowncolorado.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:54.059969+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T23:21:54.059969+00:00",
+      "last_updated": "2026-06-01T23:21:54.059969+00:00"
+    },
+    "9c9f0082c2712853": {
+      "fact_id": "9c9f0082c2712853",
+      "fact_value": "source_url:https://www.centura.org",
+      "confirmations": [
+        {
+          "agent": "lawclaw",
+          "source_url": "https://www.centura.org",
+          "source_type": "web_verified",
+          "confidence": 0.85,
+          "timestamp": "2026-06-01T23:21:54.099782+00:00"
+        }
+      ],
+      "verifications": 0,
+      "corrections": [],
+      "truth_score": 0.2875,
+      "first_seen": "2026-06-01T23:21:54.099782+00:00",
+      "last_updated": "2026-06-01T23:21:54.099782+00:00"
     }
   },
   "corrections": [],
-  "updated_at": "2026-05-30T19:08:45.282616+00:00"
+  "updated_at": "2026-06-01T23:21:54.102287+00:00"
 }

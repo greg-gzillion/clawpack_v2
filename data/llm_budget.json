@@ -1,16 +1,17 @@
 {
   "usage": {
     "mathematicaclaw": 0.002,
-    "llmclaw": 0.20300000000000015,
-    "lawclaw": 0.5380000000000004,
-    "test": 0.004,
-    "webclaw": 1.2169999999999992,
+    "llmclaw": 0.20800000000000016,
+    "lawclaw": 0.5980000000000004,
+    "test": 0.009000000000000001,
+    "webclaw": 1.2399999999999982,
     "docuclaw": 0.4350000000000003,
     "claw_coder": 0.06,
     "interpretclaw": 0.2250000000000001,
     "designclaw": 0.03,
     "crustyclaw": 0.03,
-    "mediclaw": 0.015
+    "mediclaw": 0.015,
+    "accessibility": 0.007
   },
   "global_budget": 50.0,
   "agent_budgets": {
@@ -22,5 +23,5 @@
     "llmclaw": 25.0,
     "default": 5.0
   },
-  "updated_at": "2026-05-30T15:26:27.164882+00:00"
+  "updated_at": "2026-06-01T23:21:40.651113+00:00"
 }
