@@ -213,6 +213,13 @@ Before touching any agent files, restore the local provider to get clean validat
 - If any still time out, provider chain is broken ? fix before consolidating
 - This eliminates false negatives during consolidation testing
 
+### Quick Win: STATE_NAMES Deduplication (5 min, zero risk)
+Four separate STATE_NAMES dicts found during pre-session scan. Consolidate to single source.
+- agents/lawclaw/commands/list.py -> import from shared/query_normalizer
+- agents/lawclaw/commands/state.py -> import from shared/query_normalizer
+- agents/draftclaw/core/jurisdiction_engine.py -> import from shared/query_normalizer
+- Zero behavior change. Eliminates drift risk. 3 fewer maintenance points.
+
 ### Priority 6: Codebase Consolidation (HIGHEST PRIORITY)
 Duplicate implementations create maintenance burden and confusion about canonical code.
 
