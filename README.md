@@ -1,21 +1,22 @@
-﻿# CLAWPACK V2
+# Clawpack V2
 
-**An accessibility-first local multi-agent AI operating system with voice control, sovereign model routing, and 21 domain-specialized agents.**
+A local multi-agent AI runtime. 21 specialized agents communicate through a
+central message bus with constitutional governance. Runs on your machine.
 
-Speak any language. Get responses in your language. All LLM access governed by constitutional enforcement. No API keys required for local use.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg)](https://doi.org/10.5281/zenodo.19713157)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
+
+**21 agents ? 90+ shared systems ? Chronicle FTS5 (35K+) ? A2A routing ? Voice/STT/TTS/Braille**
 
 ---
 
-### Why Clawpack Exists
+## Why Clawpack Exists
 
-Most AI tools are single-model chatbots behind API paywalls. They can't delegate between specialists, can't be used hands-free, and can't be governed. Clawpack is different: 21 agents with defined jurisdictions, cross-agent delegation, universal voice/braille/translation accessibility, and constitutional enforcement that blocks forbidden operations before they execute. It runs locally. It works offline. It speaks your language.
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713157.svg)](https://doi.org/10.5281/zenodo.19713157)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--9191--5556-a6ce39?logo=orcid)](https://orcid.org/0009-0001-9191-5556)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.12+-blue.svg)](https://python.org)
-
-**21 agents · 36 shared systems · Chronicle FTS5 (35K+) · A2A routing · Voice/STT/TTS/Braille · Circuit breaker protected**
+Most AI tools are single-model chatbots behind API paywalls. Clawpack is
+different: 21 agents with defined jurisdictions, cross-agent delegation,
+voice/braille/translation accessibility, and constitutional governance.
+Runs locally with Ollama. Also works with Groq, Anthropic, and OpenRouter.
 
 ---
 
@@ -24,7 +25,6 @@ Most AI tools are single-model chatbots behind API paywalls. They can't delegate
 | Metric | Value |
 |--------|-------|
 | Agent availability | 21/21 responsive |
-| Median control-path latency | 0.2s |
 | A2A transport | Healthy (port 8766) |
 | Chronicle index | 35,553 interactions |
 | LLM providers | 4/4 operational |
@@ -41,78 +41,24 @@ Most AI tools are single-model chatbots behind API paywalls. They can't delegate
 python run.py
 
 # Then try:
-lawclaw> /jurisdiction Miami FL          # 3,800+ cities, 0.03s
-lawclaw> /voice                           # Speak instead of type
-mediclaw> /diagnose chest pain           # Medical triage with GPS
-lawclaw> /translate the contract to German # 42 languages
-lawclaw> /plot bar sales data            # Auto-routes to PlotClaw
-any agent> /language es                   # Switch to Spanish
-`
+lawclaw> /court Denver CO           # Court lookup with real data
+lawclaw> /translate contract to German # Legal term preservation
+mediclaw> /diagnose chest pain      # Medical triage
+lawclaw> /plot bar sales data       # Auto-routes to PlotClaw
+Quick Start
+bash
+# Install Ollama and pull a model
+ollama pull gemma3:4b
 
-## Getting Started
+# Install dependencies
+pip install -r requirements.txt
 
-### Step 1: Start the server
-`ash
+# Terminal 1: Start the server
 python a2a_server.py
-Step 2: Launch the menu
-bash
+
+# Terminal 2: Launch the menu
 python clawpack.py
-Step 3: Navigate
-You see a menu of 21 agents. Choose how to interact:
-
-With keyboard: Type a number (1-21) and press Enter.
-With voice: Press v then Enter, or say "start listening". Then say "switch to lawclaw" or "agent four".
-With hotkeys: Ctrl+Shift+V toggles voice mode anywhere.
-
-Step 4: Use an agent
-Once inside an agent, type /help to see its commands. Every agent supports:
-
-CommandWhat it does
-/voiceToggle voice mode (speak instead of type)
-/listenOne-shot microphone transcription
-/translate <text>Detect language and translate to English
-/braille <text>Convert text to Braille output
-Step 5: Switch agents
-Type exit to return to the menu. Pick another agent.
-
-Accessibility Toggles (system-wide, persist across agents)
-ToggleHotkeyWake WordMenu
-Voice modeCtrl+Shift+V"start listening" / "stop listening"v
-Braille outputCtrl+Shift+B-b
-NeuralinkCtrl+Shift+N-n
-Eye trackingCtrl+Shift+E-e
-Voice agent select-"switch to lawclaw"s
-Voice mode flow: Say "start listening" -> speak in any language -> system auto-detects, translates to English, processes through the current agent, translates response back, speaks it aloud. Say "stop listening" to deactivate.
-
-What It Does
-Legal Document Drafting
-bash
-lawclaw> /doc service agreement between ABC LLC and XYZ Corp for IT services - governing law Delaware
-lawclaw> /translate the contract to German
-Structured draft contract. German translation with legal terms preserved. Three-agent chain.
-
-Clinical Triage + Hospital Routing
-bash
-mediclaw> /diagnose chest pain in Denver CO
-Differential assessment, urgency triage, nearest ER with GPS coordinates.
-
-3,800+ City Civic Database
-bash
-lawclaw> /jurisdiction Daytona Beach FL
-Courts, Police, Jail, Hospitals (GPS), Library, Building Permits. Returns in under 0.05s from Chronicle FTS5.
-
-Cross-Agent Mesh
-bash
-lawclaw> /plot bar sales data     # routes to plotclaw
-lawclaw> /code python hello       # routes to claw_coder
-Any agent accesses any capability. Circuit breaker protected.
-
-Multilingual Voice Mode
-bash
-any agent> /voice
-[VOICE] Listening... (speak "Necesito un documento legal")
-# System detects Spanish, translates, processes, responds in Spanish aloud
-Speak any language. System handles detection, translation, and response automatically.
+Type 1 for the legal agent. Try /court Denver CO or /help.
 
 Architecture
 TierSystemsPurpose
@@ -121,43 +67,70 @@ Cognitionchronicle_helper, procedural_memory, three_tierKnowledge retrieval
 Intelligencesmart_router, agent_routerTask routing
 Operationalvalidation, log_manager, shutdown, hooksOperations
 Governancebudget, rate_limiter, error_handler, metrics, securityResource protection
-Memory & Truthmemory_guard, source_registry, truth_resolver, decision_ledger, consensus, auditorKnowledge integrity
-Infrastructureinput_handler, permissions, registry, config, routerSystem services
+Memory & Truthmemory_guard, source_registry, truth_resolver, decision_ledger, consensusKnowledge integrity
+Infrastructureinput_handler, permissions, registry, config, router, event_busSystem services
 Telemetryobservability, chronicle_ledgerMonitoring
-Accessibilityvoice_hook, io_adapter, status_barTTS/STT/Braille/Neuralink/Eye
-Truth hierarchy: web_verified > chronicle > memory > inference. Lower-tier facts cannot override higher-tier sources.
+Accessibilityaccessibility.py (unified), speech.py, locale.pyVoice, TTS, STT, Braille
+Truth hierarchy: web_verified > chronicle > memory > inference.
+Lower-tier facts cannot override higher-tier sources.
 
-LLM access: Sovereign Gateway only (shared/llm/client.py). Provider chain: Groq -> Ollama -> OpenRouter -> Anthropic.
+LLM access: Sovereign Gateway only (shared/llm/client.py).
+No agent imports LLM libraries directly.
+
+The Agents
+Domain Specialists
+#AgentDomain
+1lawclawLegal research, court lookup, case law
+4mathematicaclawMath, calculus, equations
+7interpretclawTranslation (42 languages)
+8langclawLanguage teaching
+9claw_coderCode generation (39 languages)
+14mediclawMedical analysis, hospital lookup
+15dreamclawAI vision and generation
+16designclawGraphic design, logos
+17draftclawTechnical drawings, blueprints
+18crustyclawRust programming specialist
+20drawclawAI drawing and art
+System Utilities
+#AgentDomain
+2flowclawDiagrams, flowcharts, mindmaps
+3docuclawDocument creation, PDF export
+10dataclawData processing, local search
+11webclawWeb search, Chronicle indexing
+12fileclawFile operations, format conversion
+13plotclawCharts and graphs
+19rustypycrawCode analysis and crawling
+System Infrastructure
+#AgentDomain
+5liberateclawModel liberation and management
+6txclawBlockchain transactions
+21llmclawModel selection, Sovereign Gateway
+Honest Limitations
+Voice accuracy: Desktop Python STT is limited. The PWA (mobile/) uses
+native Web Speech API and is significantly better. Desktop voice is dev tooling.
+
+LLM speed: Local inference on CPU is slow. GPU helps substantially.
+Groq cloud API is fast when available (free tier, rate-limited).
+
+Jurisdiction coverage: Not all cities are populated. Some states are
+incomplete. The county?city hierarchy is correct ? needs population.
+
+Memory recall: Past searches can surface irrelevant results because the
+keyword index doesn't filter by geographic location. Being fixed.
+
+Enforcement engine: Logs constitutional violations but doesn't block them
+yet. Switch from warn-only to enforce is pending.
 
 Documentation
 FilePurpose
-CLAWPACK_ONBOARD.mdComplete system map + AI context
-POWERSHELL_SURVIVAL_GUIDE.mdPowerShell environment rules
+LANDING.mdQuick overview for new visitors
+docs/BEGINNERS_GUIDE.mdStep-by-step for non-developers
+docs/TECHNICAL_GUIDE.mdArchitecture, agent anatomy, API reference
+CLAWPACK_ONBOARD.mdFull system map + AI agent context
 ARCHITECTURE.mdSystem design and data flow
-AGENT_CAPABILITIES.mdCapability-to-agent registry
-AGENT_TEMPLATE.mdBootstrap a new agent
-BASEAGENT_GUIDE.mdMethods every agent inherits
+AGENT_CAPABILITIES.mdWhat each agent can do
 CHRONICLE_GUIDE.mdShared knowledge database
-CONSTITUTIONAL_COMPLIANCE_AUDIT.mdPer-agent compliance
 shared/CONSTITUTION_v1.mdConstitutional law (frozen)
-Known Active Work
-AreaStatus
-Chronicle recover_by_context19 call sites, non-blocking warnings
-Capability routing7 partial agents
-Enforcement engineDormant
-Guarded executorDormant
-Registry5 agents outside AGENT_REGISTRY dict
-Benchmark Snapshot (2026-05-30)
-MetricValue
-Agent /help latency (median)0.2s
-Civic command latency (Chronicle FTS5)0.03-0.28s
-LLM inference (Groq)0.7s
-LLM inference (Ollama)0.8s
-Chronicle FTS5 entries35,553
-Circuit breaker trips0
-Lifecycle cleanup errors0
-Voice commands deployed60 files, 21/21 agents
-Data Licensing
-Jurisdictional data, court records, building codes: CC BY 4.0 — See LICENSE_DATA
-Software code: MIT License — See LICENSE
+License
+Code: MIT. Jurisdictional data: CC BY 4.0.
 DOI: 10.5281/zenodo.19713157
