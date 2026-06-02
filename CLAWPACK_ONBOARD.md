@@ -156,6 +156,34 @@ Deployed as command files. Zero handler modifications. Zero indentation risk.
 
 ## Session Log
 
+2026-06-01 (evening): OBLITERATED MODELS + GPU TUNING + AGENT OUTPUTS
+- /obliterated command fixed: now reads from models/obliterated/ directory instead of working_llms.json.
+  Shows 6 real obliterated models (refusal_direction_ablation) with source model and technique metadata.
+  Previously conflated Ollama -liberated models with true obliterated models.
+- /models command still has labeling bug: shows -liberated models under "OBLITERATED" header.
+- Active model switched to gemma3:4b (3.3GB, fits GPU). deepseek-r1:8b (5.2GB) too large for GTX 970.
+- Ollama GPU: NVIDIA GeForce GTX 970, 4GB VRAM (~2.8GB available). CUDA enabled.
+  OLLAMA_MAX_LOADED_MODELS=1 set to prevent multi-model VRAM exhaustion.
+  Models that fit GPU: tinyllama (0.6GB), gemma3:1b (0.8GB), gemma3:4b (3.3GB), smollm2-liberated (3.4GB).
+  Models that DO NOT fit: deepseek-r1:8b (5.2GB), codellama:7b (3.8GB), gemma3:12b+.
+  Obliterated models in models/obliterated/: codellama_7b, deepseek_coder_6.7b, phi2, qwen_coder_7b, smollm2_1.7b, tinyllama.
+  phi2 (2.7GB) recommended for best quality that fits GPU.
+- Groq rate-limited all session. Fallback chain: Groq -> Ollama -> OpenRouter -> Anthropic.
+  Ollama works but deepseek-r1:8b times out on CPU. gemma3:4b works on GPU.
+  OpenRouter and Anthropic API keys set but untested this session.
+- 15 agent output demos generated in docs/agent_outputs/ for screenshots:
+  lawclaw (help, court Denver CO), claw_coder (help, python code gen),
+  interpretclaw (help, Spanish contract translation), mediclaw (help),
+  mathematicaclaw (help, derivative solved), docuclaw (help),
+  flowclaw (help), plotclaw (help), dreamclaw (help),
+  llmclaw (obliterated models, stats).
+- Voice pipeline: works inside agents via event bus. Menu voice navigation needs non-blocking input.
+  Hotkeys changed to Ctrl+Alt (Ctrl+Shift conflicts with Windows paste).
+- X post published promoting multi-agent runtime. 11,240 clones/840 unique cloners in 14 days organic.
+  May 30 spike: 408 unique cloners in single day. GitHub topics added for discoverability.
+- LANDING.md, TECHNICAL_GUIDE.md, BEGINNERS_GUIDE.md added to docs/. install.bat and install.sh created.
+ 5 outdated auto-generated docs deleted. CLAWPACK_ONBOARD.md updated to June 1 state.
+
 2026-05-31 / 2026-06-01: COURT RESOLVER + ACCESSIBILITY UNIFICATION + TIER 2 WIRING
 - /court resolver: city-first traversal with all-county fallback search.
   Georgetown CO now resolves Clear_Creek/Georgetown/municipal_court.md in ~500ms.
