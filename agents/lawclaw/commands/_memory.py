@@ -18,62 +18,7 @@ def _log(event, detail=""):
         pass
 
 
-def _extract_location(query: str):
-    """Extract city and state from a query for geographic filtering.
-    Returns (city, state_code) or (None, None) if no location detected."""
-    import re
-    _STATE_CODES = {
-        "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN",
-        "IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV",
-        "NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN",
-        "TX","UT","VT","VA","WA","WV","WI","WY","DC","PR"
-    }
-    _STATE_NAMES = {
-        "alabama":"AL","alaska":"AK","arizona":"AZ","arkansas":"AR",
-        "california":"CA","colorado":"CO","connecticut":"CT","delaware":"DE",
-        "florida":"FL","georgia":"GA","hawaii":"HI","idaho":"ID",
-        "illinois":"IL","indiana":"IN","iowa":"IA","kansas":"KS",
-        "kentucky":"KY","louisiana":"LA","maine":"ME","maryland":"MD",
-        "massachusetts":"MA","michigan":"MI","minnesota":"MN",
-        "mississippi":"MS","missouri":"MO","montana":"MT","nebraska":"NE",
-        "nevada":"NV","new hampshire":"NH","new jersey":"NJ",
-        "new mexico":"NM","new york":"NY","north carolina":"NC",
-        "north dakota":"ND","ohio":"OH","oklahoma":"OK","oregon":"OR",
-        "pennsylvania":"PA","rhode island":"RI","south carolina":"SC",
-        "south dakota":"SD","tennessee":"TN","texas":"TX","utah":"UT",
-        "vermont":"VT","virginia":"VA","washington":"WA",
-        "west virginia":"WV","wisconsin":"WI","wyoming":"WY",
-        "district of columbia":"DC","puerto rico":"PR",
-    }
-    # Strip leading command prefix like /court, /jurisdiction, /law
-    clean = re.sub(r'^/[a-z_]+\s+', '', query.strip(), count=1)
-    # Strip bare command words: "court Denver CO" -> "Denver CO"
-    _CMD_WORDS = {"court", "jurisdiction", "law", "state", "federal", "police", "hospital", "library", "detention", "judge", "statute", "docket", "precedent"}
-    _parts = clean.strip().split()
-    if _parts and _parts[0].lower() in _CMD_WORDS:
-        clean = " ".join(_parts[1:])
-    # Pattern: "City, ST" or "City ST" at end
-    match = re.search(r"([A-Za-z\s]+),?\s+([A-Z]{2})\s*$", clean.strip())
-    if match:
-        city = match.group(1).strip()
-        state = match.group(2).upper()
-        if state in _STATE_CODES:
-            return city, state
-    # Pattern: standalone 2-letter code anywhere
-    words = clean.upper().split()
-    for w in words:
-        if w in _STATE_CODES:
-            # Find what comes before the state code as potential city
-            idx = words.index(w)
-            if idx > 0:
-                return words[idx-1].title(), w
-            return None, w
-    # Pattern: full state name
-    clean_lower = clean.lower()
-    for name, code in sorted(_STATE_NAMES.items(), key=lambda x: -len(x[0])):
-        if name in clean_lower:
-            return None, code
-    return None, None
+from shared.query_normalizer import extract_location as _extract_location
 
 
 def recall(query: str, limit: int = 5) -> list:
