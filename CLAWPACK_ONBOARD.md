@@ -1,16 +1,22 @@
-﻿# CLAWPACK V2 ? AI ONBOARDING CONTEXT
+﻿# CLAWPACK V2 — AI ONBOARDING CONTEXT
 
 ## What This Is
 21-agent AI ecosystem. Menu-driven CLI. A2A routing on port 8766.
 448MB Chronicle SQLite index at runtime/chronicle.db. Constitutional governance.
 Built by Greg.
 
+## RUN THIS FIRST
+`python scripts/onboard.py` — prints everything you need to understand this system.
+It prints all required documents in order. Run it. Read the output.
+Also read: docs/WEBCLAW_MANUAL.md for the complete WebClaw guide.
+
 ## CRITICAL: PowerShell Environment (Windows)
 - NEVER use python -c with multi-line code. Write to scripts/_temp.py and run it.
 - NEVER pipe to Out-File for files over 100 lines. PowerShell silently truncates.
-- Avoid PowerShell heredocs for large Python scripts; they have previously caused escaping issues. For small files under 10 lines, echo works reliably.
+- NEVER use PowerShell heredocs with Python code. They eat escape characters.
 - ECHO WORKS for small files. Copy-Item WORKS for deployment.
-- ALWAYS verify writes: python -c "print(len(open("path").read()))"
+- Pattern B WORKS for large files: Python builds content as list of lines, joins, writes.
+- ALWAYS verify writes immediately.
 - ALWAYS kill Python: taskkill /F /IM python.exe
 - ALWAYS clear __pycache__ after changing shared modules.
 - READ POWERSHELL_SURVIVAL_GUIDE.md for full failure patterns and fixes.
@@ -18,13 +24,13 @@ Built by Greg.
 ## Before You Write Any Code
 1. Ask to see the current file if modifying an existing command.
 2. Ask to see a working command if building a new stub.
-3. Do not assume file contents - they may differ from conversation history.
+3. Do not assume file contents — they may differ from conversation history.
 4. State what you are about to do before doing it. One function at a time.
 
 ## How Commands Load
 Commands in each agent commands/ directory are loaded dynamically.
 Each file needs: name = "/commandname" and def run(args, agent=None) at module level.
-No manual registration - just drop the .py file in the directory.
+No manual registration — just drop the .py file in the directory.
 This is the preferred pattern for adding features to all agents.
 Do NOT batch-inject code into handlers. It corrupts indentation.
 Write a command file once, then Copy-Item to all agents.
@@ -43,266 +49,353 @@ Zero handler changes. Zero indentation risk. The system was designed for this.
 
 ---
 
-## Current State - June 2, 2026
+## Current State — June 3, 2026
 
 ### Runtime Health
 | Metric | Value |
 |--------|-------|
 | Agent availability | 21/21 responsive |
-| Median /help latency | 0.2s |
 | A2A transport | Healthy (port 8766) |
 | Chronicle index | 35,000+ interactions (runtime/chronicle.db) |
-| LLM providers | Groq + OpenRouter confirmed working |
-| Provider chain | Groq -> Ollama -> OpenRouter -> Anthropic |
+| LLM providers | Ollama primary, Groq/OpenRouter fallback |
+| Provider chain | Ollama(gemma3:4b) -> Groq -> OpenRouter -> Anthropic |
+| Active model | gemma3:4b (3.3GB, fits GTX 970 GPU) |
 | Lifecycle cleanup errors | 0 |
-| Enforcement | Active - 6 sovereignty patterns blocked at HTTP boundary |
+| Enforcement | Active — 6 sovereignty patterns blocked at HTTP boundary |
 | Civic commands | Chronicle FTS5 direct (0.03-0.28s) |
 | Memory filtering | Geographic scoring bonus active (city +5, state +3) |
 
-### Agent Accessibility (all via command files, no handler changes)
-| Feature | Agents | How to use |
-|---------|--------|------------|
-| /voice | 21/21 | Toggle system-wide voice mode |
-| /listen | 21/21 | One-shot microphone transcription |
-| /translate | 21/21 | Detect language and translate to English |
-| /braille | 21/21 | Convert text to Braille Unicode output |
-| /speak | 21/21 | Speak text aloud in current language |
-| /read | 21/21 | TTS reader with voice profiles, file reading, speed control |
-| /language | 21/21 | Set system-wide language preference |
-| /interpret | 21/21 | Live bidirectional interpreter mode |
-| /access | 21/21 | Toggle Braille/Neuralink/Eye tracking on/off |
-
-### Provider Chain (Sovereign Gateway)
-| Priority | Provider | Model | Latency | Cost |
-|----------|----------|-------|---------|------|
-| 1 | Groq | llama-3.3-70b-versatile | 0.7s | Free |
-| 2 | Ollama | deepseek-r1:8b | 0.8s GPU / 30-120s CPU | Free |
-| 3 | OpenRouter | google/gemma-4-26b-a4b-it:free | 0.7s | Free |
-| 4 | Anthropic | claude-haiku-4-5-20251001 | 1.2s | Paid |
-
-GPU: NVIDIA GeForce GTX 970, 4GB VRAM (~2.8GB available).
-Fits GPU: tinyllama (0.6GB), gemma3:1b (0.8GB), gemma3:4b (3.3GB), smollm2-liberated (3.4GB).
-Does NOT fit: deepseek-r1:8b (5.2GB), codellama:7b (3.8GB), gemma3:12b+.
-Obliterated models (6): codellama_7b, deepseek_coder_6.7b, phi2, qwen_coder_7b, smollm2_1.7b, tinyllama.
-Current preferred GPU-fit model: phi2 (2.7GB).
-
-### System-Wide Accessibility Toggles
-| Toggle | Hotkey | Wake Word | Menu Key |
-|--------|--------|-----------|----------|
-| Voice mode | Ctrl+Alt+V | start/stop listening | v |
-| Braille output | Ctrl+Alt+B | - | b |
-| Neuralink | Ctrl+Alt+N | - | n |
-| Eye tracking | Ctrl+Alt+E | - | e |
-
-### Quick Reference: Files That Matter
-| File | Purpose | Status |
-|------|---------|--------|
-| a2a_server.py | Central message bus, port 8766 | Active |
-| shared/llm/client.py | Sovereign Gateway | Active |
-| shared/base_agent.py | Foundation class for all 21 agents | Active |
-| shared/enforcement/detector.py | ForbiddenPatternDetector | Active |
-| shared/enforcement/engine.py | Full EnforcementEngine | Dormant |
-| shared/memory/unified_memory.py | Cross-agent shared memory | Active |
-| shared/accessibility.py | TTS/STT/Braille/Translate | Active |
-| shared/query_normalizer.py | Canonical location extraction + command stripping | Active |
-| shared/lifecycle.py | Agent cleanup supervisor | Active (0 errors) |
-| agents/lawclaw/agent_handler.py | Reference implementation | Gold standard |
-| agents/lawclaw/commands/_memory.py | Memory bridge with geo-filtering | Active |
-| agents/webclaw/core/chronicle_ledger.py | Chronicle FTS5 index | Active |
-| agents/llmclaw/agent_handler.py | Model manager + orchestrator | Active |
-| runtime/chronicle.db | 448MB SQLite FTS5 | Active |
-| runtime/ledgers/ | Constitutional ledger, budget, chronicle | Active |
-| runtime/indexes/ | Memory and consensus indexes | Active |
-| data/ | Static reference data only (jurisdictions, schemas) | Active |
-
 ---
 
-## Session Log
+## WEBCLAW — THE CENTRAL KNOWLEDGE SYSTEM
 
-### June 2, 2026 - ENFORCEMENT + RUNTIME SEPARATION + GEO-FILTERING
+### What WebClaw Is
+WebClaw is the intelligence layer for all 21 Clawpack agents. It is NOT a URL relay or
+search result passthrough. It must analyze web content, extract meaning, and return
+intelligent details that agents can use as factual context for LLM prompts.
 
-Priority 1 - Enforcement blocking: DONE
-- Sovereignty enforcement activated at HTTP boundary in a2a_server.py.
-- ForbiddenPatternDetector.scan_task() runs before every agent dispatch.
-- 6 patterns return 403: import anthropic, from groq import, import ollama,
-  openrouter.ai, api.groq.com, localhost:11434.
-- Normal commands (/help, /stats) pass through unaffected.
-- except:pass anti-pattern removed. Enforcement failures are logged.
-- Architectural decision: lightweight HTTP firewall. Full engine preserved for later.
+Every agent calls WebClaw through `_gather_context()`. WebClaw searches across three
+retrieval layers and returns combined results. The agent feeds those results to the LLM.
+If WebClaw returns garbage, every agent produces garbage. If WebClaw returns raw URLs
+instead of analyzed intelligence, agents hallucinate.
 
-Priority 2 - Ledger repair: RESOLVED
-- Constitutional ledger verified: 36 entries, valid JSON, hash chain intact.
-- Malformed JSON was in old data/ path, removed during runtime migration.
+### Three Retrieval Layers
 
-Priority 3 - Geographic memory filtering: DONE
-- _extract_location() extracts city/state from queries including full state names.
-- recall() applies +5 bonus for same-city, +3 for same-state matches.
-- Strips command prefixes (/court, /jurisdiction, /law, bare court/law etc).
-- 8/8 test cases pass. Bedford VA contamination prevented.
-- Patched: agents/lawclaw/commands/_memory.py and shared/_agent_helpers.py.
+**Layer 1: Live Web Fetching (webclaw.py)**
+- `fetch_with_citation(url)` — fetches real URLs via requests + BeautifulSoup
+- Extracts title, main content, cleans HTML (removes script/style/nav/footer/header)
+- Returns structured citation: source domain, title, retrieval date
+- Caches results in agents/webclaw/cache/
+- This is where intelligence extraction should happen — currently returns raw page text
 
-Priority 4 - Provider fallback validation: DONE
-- test_fallback_chain.py created for repeatable validation.
-- Groq (0.5s) and OpenRouter (1.1s) both confirmed working.
-- Fallback chain functional. Ollama offline, Anthropic disabled (paid).
+**Layer 2: SQLite Search Index (webclaw_provider.py)**
+- 280MB SQLite database at agents/webclaw/cache/web_cache.db
+- 1.5M search terms across 20K indexed files
+- `search_with_context(query)` — returns content snippets with URLs
+- Searches ALL agent namespaces with no scoping — THIS IS THE CONTAMINATION SOURCE
+
+**Layer 3: BM25 Retrieval with Source Confidence (retriever.py)**
+- BM25-ranked retrieval with configurable k1 and b parameters
+- Integrates source_registry.py for domain trust scoring
+- .gov domains score 0.92, state courts score 0.85
+- Ranks by relevance, source quality, and freshness
+
+### The Reference Corpus
+Located at `agents/webclaw/references/` — this is the canonical knowledge base for
+the entire Clawpack ecosystem. 35,000+ files organized by agent namespace.
+agents/webclaw/references/
+├── claw_coder/ — 80+ technology categories (python, rust, react, docker, etc.)
+│ ├── python/ — Python references
+│ ├── rust/ — Rust references
+│ ├── javascript/ — JavaScript references
+│ ├── OPERATING_RULES.md
+│ ├── REFERENCE_RANKING.md
+│ ├── SYSTEM_OVERVIEW.md
+│ └── ... (80+ technology directories)
+├── lawclaw/ — 3,800+ city jurisdictions across 50 states
+│ └── jurisdictions/us/{State}/{County}/{City}/
+│ ├── municipal_court.md
+│ ├── building_code.md
+│ ├── law_resources.md
+│ └── medi_resources.md
+├── mediclaw/ — 91 medical specialties
+├── txclaw/ — 60+ blockchain documentation categories
+├── draftclaw/ — 4,744 building code entries
+├── designclaw/ — Design resources, 50 states
+├── docuclaw/ — Document templates
+├── drawclaw/ — Art resources
+├── dreamclaw/ — AI vision resources
+├── crustyclaw/ — Rust references
+├── dataclaw/ — Data processing references
+├── fileclaw/ — File format references
+├── flowclaw/ — Diagram references
+├── interpretclaw/ — Translation references
+├── langclaw/ — Language teaching references
+├── liberateclaw/ — Model liberation references
+├── mathematicaclaw/ — Math references
+├── plotclaw/ — Chart references
+├── rustypycraw/ — Code crawling references
+└── MASTER_ATTRIBUTION_INDEX.md
+
+text
+
+### The Jurisdiction Dataset
+Located at `references/lawclaw/jurisdictions/us/`:
+- 50 states + DC
+- 3,000+ counties/parishes/boroughs
+- 3,800+ cities/towns
+- 13 tribal nations with court data
+- 5 US territories
+- Federal court system
+- 4,744 building code entries
+- 15,000+ court entries
+
+Organization: `{State}/{County}/{City}/`
+
+Example — West Virginia (55 counties, 100+ cities):
+us/WV/
+├── Kanawha/Charleston_WV/ — Municipal court, building codes
+├── Monongalia/Morgantown/
+├── Berkeley/Martinsburg/
+├── state/ — State-level design/docu/draw/medi resources
+└── ...
+
+text
+
+This dataset was populated over weeks by fetching real government websites, court
+systems, and municipal data sources. Each city folder contains municipal court data,
+police department info, jail/detention facilities, hospital locations with GPS
+coordinates, library locations, and building permit offices.
+
+### How Agents Use WebClaw
+Every agent's `_gather_context()` follows this pattern:
+
+```python
+def _gather_context(self, query=""):
+    parts = []
+    web = self.call_agent("webclaw", f"search {query}", timeout=15)
+    if web: parts.append("[WebClaw]: " + str(web)[:2000])  # RAW RESULTS
+    chronicle_results = self.search_chronicle(query, limit=5)
+    if chronicle_results:
+        for c in chronicle_results:
+            parts.append(c.get("context", "")[:1000])  # RAW CHRONICLE
+    return "\n".join(parts)  # DUMPED DIRECTLY INTO LLM PROMPT
+The raw results (up to 2000 chars) are dumped directly into the LLM prompt with no
+filtering, no summarization, and no namespace scoping.
+
+The Contamination Problem (CRITICAL BUG)
+WebClaw searches ALL agent namespaces regardless of which agent is asking. When
+docuclaw searches for "business letter", WebClaw returns matches from lawclaw
+references, txclaw documentation, Morgan docs, Sologenic API specs, and Next.js
+config files — because all namespaces are searched.
+
+This is why:
+
+/create business letter generates a nonprofit merger letter with IRS Form 990 references
+
+/create wedding invitation includes Organization Service REST API documentation
+
+/create job offer letter includes Morgan request-ID logging documentation
+
+/create project proposal includes Next.js allowedDevOrigins configuration
+
+The fix requires:
+
+Namespace-scoped search in webclaw_provider.py (search only the calling agent's references)
+
+Result summarization in _gather_context() instead of raw content dump
+
+Context length limits (currently 2000+ chars unrestricted)
+
+WebClaw must return analyzed intelligence, not raw page content or URLs
+
+Key WebClaw Files
+File	Purpose
+agents/webclaw/webclaw.py	Core class — fetch_with_citation(url)
+agents/webclaw/agent_handler.py	A2A handler — routes search/fetch requests
+agents/webclaw/providers/webclaw_provider.py	SQLite search — search_with_context()
+agents/webclaw/core/retriever.py	BM25 retrieval with source confidence scoring
+agents/webclaw/core/chronicle_ledger.py	Chronicle FTS5 — recover_by_context(), record_fetch()
+agents/webclaw/core/cache.py	WebCache for fetched URLs
+agents/webclaw/core/rate_limiter.py	RateLimiter + RobotsTxtParser
+agents/webclaw/utils/content_parser.py	TextExtractor for HTML content
+agents/webclaw/references/	35,000+ reference files organized by agent namespace
+agents/webclaw/cache/web_cache.db	280MB SQLite, 1.5M terms, 20K files
+runtime/chronicle.db	448MB SQLite FTS5 index
+Agent Accessibility (all via command files, no handler changes)
+Feature	Agents	How to use
+/voice	21/21	Toggle system-wide voice mode
+/listen	21/21	One-shot microphone transcription
+/translate	21/21	Detect language and translate to English
+/braille	21/21	Convert text to Braille Unicode output
+/speak	21/21	Speak text aloud in current language
+/read	21/21	TTS reader with voice profiles, file reading, speed control
+/language	21/21	Set system-wide language preference
+/interpret	21/21	Live bidirectional interpreter mode
+/access	21/21	Toggle Braille/Neuralink/Eye tracking on/off
+Provider Chain (Sovereign Gateway)
+Priority	Provider	Model	Latency	Cost
+1	Ollama	gemma3:4b	0.8s GPU	Free (local)
+2	Groq	llama-3.3-70b-versatile	0.7s	Free (rate-limited)
+3	OpenRouter	google/gemma-4-26b-a4b-it:free	0.7s	Free tier
+4	Anthropic	claude-haiku-4-5-20251001	1.2s	Paid
+GPU: NVIDIA GeForce GTX 970, 4GB VRAM (~2.8GB available).
+Fits GPU: tinyllama (0.6GB), gemma3:1b (0.8GB), gemma3:4b (3.3GB), smollm2 (3.4GB).
+Does NOT fit: deepseek-r1:8b (5.2GB), codellama:7b (3.8GB), gemma3:12b+.
+Obliterated models (6): codellama_7b, deepseek_coder_6.7b, phi2, qwen_coder_7b, smollm2_1.7b, tinyllama.
+Switch model: llmclaw> /use MODEL_NAME
+
+System-Wide Accessibility Toggles
+Toggle	Hotkey	Wake Word	Menu Key
+Voice mode	Ctrl+Alt+V	start/stop listening	v
+Braille output	Ctrl+Alt+B	—	b
+Neuralink	Ctrl+Alt+N	—	n
+Eye tracking	Ctrl+Alt+E	—	e
+Quick Reference: Files That Matter
+File	Purpose	Status
+a2a_server.py	Central message bus, port 8766	Active
+shared/llm/client.py	Sovereign Gateway	Active
+shared/llm/providers/init.py	Provider detection + chain order	Active
+shared/base_agent.py	Foundation class for all 21 agents	Active
+shared/_agent_helpers.py	Empire-wide utility belt	Active
+shared/enforcement/detector.py	ForbiddenPatternDetector (sovereignty)	Active
+shared/enforcement/engine.py	Full EnforcementEngine	Dormant
+shared/memory/unified_memory.py	Cross-agent shared memory	Active
+shared/query_normalizer.py	Canonical location extraction + geo-filtering	Active
+shared/accessibility.py	TTS/STT/Braille/Translate	Active
+shared/lifecycle.py	Agent cleanup supervisor	Active (0 errors)
+agents/lawclaw/agent_handler.py	Reference implementation	Gold standard
+agents/webclaw/agent_handler.py	WebClaw A2A handler	Active
+agents/webclaw/references/	35,000+ reference files by agent namespace	Active
+agents/webclaw/core/chronicle_ledger.py	Chronicle FTS5 index	Active
+agents/llmclaw/agent_handler.py	Model manager + orchestrator	Active
+runtime/chronicle.db	448MB SQLite FTS5	Active
+runtime/ledgers/	Constitutional ledger, budget, chronicle	Active
+runtime/indexes/	Memory and consensus indexes	Active
+data/	Static reference data only (jurisdictions, schemas)	Active
+models/active_model.json	Active model + provider priorities	Active
+scripts/onboard.py	Complete system onboarding — RUN THIS FIRST	Active
+docs/WEBCLAW_MANUAL.md	Comprehensive WebClaw guide	Active
+Session Log
+June 3, 2026 — DOCUCLAW + FLOWCLAW FIXES + DOCUMENTATION
+DocuClaw handler: Fixed document generation pipeline. Removed template routing and
+keyword detection. Clean research-via-webclaw -> LLM -> validate -> view -> export.
+Added intent detection: drafting mode for simple requests, research mode for legal/
+regulatory queries. Provider chain now respects active_model.json priority order.
+
+FlowClaw handler: Rewritten. Removed dead 23-system boundary block. Fixed diagram
+commands (/flowchart, /sequence, /architecture, /mindmap). Added inline browser
+popup viewer with Mermaid.js rendering. All 6 commands verified working.
+
+WebClaw documentation: Created docs/WEBCLAW_MANUAL.md (83 lines) documenting the
+three-layer retrieval system. Created docs/WEBCLAW_ARCHITECTURE.md (165 lines).
+Documented the contamination problem with real examples and fix requirements.
+
+Onboard script: Complete rewrite. Single command gives next AI agent everything:
+architecture, rules, WebClaw details, provider chain, known issues, next mission,
+and prints all 9 required documents. Zero syntax errors, zero null bytes.
+
+Docs cleanup: Deleted stale auto-generated files. Renamed historical docs with dates.
+Created cat_onboard.py to print all required reading. Updated README with model
+selection guide for beginners based on hardware capabilities.
+
+June 2, 2026 — ENFORCEMENT + RUNTIME SEPARATION + GEO-FILTERING
+Priority 1 — Enforcement blocking: DONE
+
+6 sovereignty patterns return 403 at HTTP boundary.
+
+except:pass anti-pattern removed. Architectural decision logged.
+
+Priority 2 — Ledger repair: RESOLVED
+
+36 entries, valid JSON, hash chain intact. Fixed by runtime migration.
+
+Priority 3 — Geographic memory filtering: DONE
+
+_extract_location() extracts city/state. +5 same-city, +3 same-state bonus.
+
+8/8 test cases pass. Bedford VA contamination prevented.
+
+Consolidated into shared/query_normalizer.py.
+
+Priority 4 — Provider fallback validation: DONE
+
+test_fallback_chain.py created. Groq + OpenRouter confirmed working.
+
+Priority 5 — Agent validation: DONE
+
+All 21 agents tested and responsive.
 
 Runtime state separation: DONE
-- All mutable files moved from data/ to runtime/. runtime/ is gitignored.
-- 10 source files patched. 2 absolute path bugs fixed in draftclaw.
-- Permanently eliminates stash contamination and rebase conflicts.
+
+All mutable files moved from data/ to runtime/. runtime/ gitignored.
+
+10 source files patched. 2 absolute path bugs fixed.
 
 Obliterated models listing: FIXED
-- /models now reads from models/obliterated/ directory.
-- Shows 6 real obliterated models with source and technique metadata.
-- /use smollm2_1.7b verified working.
+
+/models reads from models/obliterated/ directory with metadata.
 
 claw_coder handler cleanup: DONE
-- 75 lines of dead 23-system boundary block removed.
+
+75 lines of dead 23-system boundary block removed.
 
 State audit published at docs/reports/STATE_OF_CLAWPACK_V2_2026_06_02.md
 Scores: Enforcement 3.0->6.0, Infrastructure 8.5->9.0, Overall 6.6->7.0
 
-### May 31 / June 1, 2026
-- Court resolver: city-first traversal. Georgetown CO resolves in ~500ms.
-- Accessibility layer unified. Event bus created.
-- a2a_server.py Tier 2 wiring: rate limiter, enforcement gate, metrics, logging.
-- Voice pipeline functional inside agents.
+May 31 / June 1, 2026
+Court resolver: city-first traversal. Georgetown CO resolves in ~500ms.
 
-### May 30, 2026
-- Handler injection failure: batch script corrupted all 21 agents. Git revert.
-- Command-file deployment adopted as the only safe extension mechanism.
-- Lifecycle contract drift resolved (3 errors -> 0).
-- Provider chain fixed (Groq primary, was Anthropic hardcoded).
-- Civic commands -> Chronicle FTS5 direct (0.03s, was 45-90s).
-- Accessibility commands deployed to all 21 agents.
-- All 21 agents tested: 21/21 responsive.
+Accessibility layer unified. Event bus created. Voice pipeline functional.
 
-### May 27-29, 2026
-- 12 lawclaw commands built. Cross-agent flow established.
-- Constitutional boundary activated. Consensus engine deployed.
-- Capability registry + lifecycle supervisor + memory staleness deployed.
+May 30, 2026
+Handler injection failure: ALL 21 agents corrupted. Git revert required.
 
----
+Command-file deployment adopted as the only safe extension mechanism.
 
+Lifecycle contract drift resolved (3 errors -> 0).
 
+Provider chain fixed. Accessibility commands deployed to all 21 agents.
 
-### June 2, 2026 (afternoon) - AGENT VALIDATION + QUERY NORMALIZER
+May 27-29, 2026
+12 lawclaw commands built. Cross-agent flow established.
 
-Priority 5 - Agent validation: DONE
-- All 21 agents respond to /help (21/21).
-- 17/21 respond to domain commands.
-- 4 timeouts (lawclaw, docuclaw, interpretclaw, claw_coder) due to Groq+OpenRouter rate limiting.
-- rustypycraw and dataclaw /stats verified working (prior timeouts were false negatives).
-- All 11 "untested" agents now tested and confirmed responsive.
+Constitutional boundary activated. Consensus engine deployed.
 
-Infrastructure - Query normalizer: DONE
-- Created shared/query_normalizer.py as single canonical source for location extraction.
-- _memory.py and _agent_helpers.py now import from shared module.
-- Eliminates duplication risk. 8/8 tests pass.
+NEXT SESSION MISSION
+Priority 6: Codebase Consolidation
+Agent	Variants	Action	Risk
+flowclaw	13 flowclaw*.py files	Inventory first, then consolidate to 1	Medium
+docuclaw	3 implementations	Keep agent_handler.py, archive others	Medium
+mediclaw	3 Ollama providers, 2 OpenRouter	Deduplicate to 1 each	Low
+llmclaw	4 llm*.py variants	Consolidate to 1	Low
+webclaw	2 A2A servers	Keep one, remove a2a/integrated_server.py	Low
+langclaw	langclaw_backup/	Delete	Low
+FLOWCLAW RULE: No deletions in first session. READ-ONLY inventory.
+Map which file agent_handler.py imports. Find unique functionality.
+Build dependency map. Only then decide what moves to _archive/.
 
----
+Quick Win: STATE_NAMES Deduplication
+Four separate STATE_NAMES dicts. Import from shared/query_normalizer instead.
+Files: list.py, state.py, jurisdiction_engine.py. 5 min, zero risk.
 
-## NEXT SESSION AGENDA - June 3, 2026
+Priority 7: Security Assessment
+Prompt injection, memory poisoning, privilege escalation.
 
-### Step 0: Ollama Recovery (RUN FIRST)
-Before touching any agent files, restore the local provider to get clean validation baselines.
-- Start ollama serve
-- Verify with: ollama list
-- Update models/active_model.json to use gemma3:4b (3.3GB, fits GTX 970 GPU)
-- Test all 4 previously-timing-out agents: lawclaw, docuclaw, interpretclaw, claw_coder
-- If any still time out, provider chain is broken ? fix before consolidating
-- This eliminates false negatives during consolidation testing
+Activate guarded_executor.py. Run ForbiddenPatternDetector against all handlers.
 
-### Quick Win: STATE_NAMES Deduplication (5 min, zero risk)
-Four separate STATE_NAMES dicts found during pre-session scan. Consolidate to single source.
-- agents/lawclaw/commands/list.py -> import from shared/query_normalizer
-- agents/lawclaw/commands/state.py -> import from shared/query_normalizer
-- agents/draftclaw/core/jurisdiction_engine.py -> import from shared/query_normalizer
-- Zero behavior change. Eliminates drift risk. 3 fewer maintenance points.
+Infrastructure
+WebClaw namespace-scoped search (CRITICAL — fixes contamination bug)
 
-### Priority 6: Codebase Consolidation (HIGHEST PRIORITY)
-Duplicate implementations create maintenance burden and confusion about canonical code.
-
-| Agent | Variants | Action | Risk |
-|-------|----------|--------|------|
-| flowclaw | 13 flowclaw*.py files | Keep the one imported by agent_handler.py, move rest to _archive/ | Medium - verify engine/ modules still work |
-| docuclaw | 3 implementations (docuclaw_clean.py, agent_handler.py, core/) | Keep agent_handler.py, merge unique functionality, archive others | Medium - test all 31 commands |
-| mediclaw | 3 Ollama providers, 2 OpenRouter | Keep one of each, verify they route through Sovereign Gateway | Low - providers are interchangeable |
-| llmclaw | 4 llm*.py command variants | Keep the one imported by handler, archive llm_backup/llm_enhanced/llm_smart | Low - check which one handler uses |
-| webclaw | 2 A2A server implementations | Keep a2a_server.py, remove a2a/integrated_server.py | Low - verify no imports reference it |
-| langclaw | langclaw_backup/ directory | Delete entirely | Low - already has langclaw/ |
-
-Approach: One agent at a time. Check which file agent_handler.py imports. Keep that one. Archive the rest. Test /help after each.
-
-### Infrastructure: Ollama Recovery
-- Start ollama serve (currently not running)
-- Switch active model to gemma3:4b (3.3GB, fits GTX 970 GPU)
-- Verify Ollama fallback works in provider chain
-- This eliminates the 4-agent timeout problem (lawclaw, docuclaw, interpretclaw, claw_coder)
-
-### Priority 7: Security Assessment (IF TIME)
-- Run ForbiddenPatternDetector against all agent handlers for Article I violations
-- Test prompt injection: 10 known patterns against webclaw, lawclaw, claw_coder
-- Document any direct LLM imports found (rustypycraw/groq_client.py is known)
-
-### Beta Gate Progress (5 of 10 passed)
-| # | Requirement | Status |
-|---|-------------|--------|
-| 1 | Enforcement blocks violations | DONE |
-| 2 | Constitutional ledger repaired | DONE |
-| 3 | Memory geographic filtering | DONE |
-| 4 | All 21 agents tested | DONE |
-| 5 | Provider fallback validated | DONE |
-| 6 | Duplicate implementations reduced | NOT STARTED |
-| 7 | Coverage tests added | NOT STARTED |
-| 8 | Installation tested clean Windows | NOT STARTED |
-| 9 | Installation tested clean Linux | NOT STARTED |
-| 10 | Security review completed | NOT STARTED |
-
-
-
-A few things I want locked in before the next session starts:
-
-The consolidation ladder is set:
-
-text
-1. langclaw_backup     → delete (zero risk, no imports reference it)
-2. llmclaw variants    → identify which llm*.py the handler imports, archive rest
-3. mediclaw providers  → keep one Ollama + one OpenRouter, verify Sovereign Gateway routing
-4. webclaw duplicate   → check which A2A server a2a_server.py actually imports
-5. docuclaw merge      → inventory 3 implementations, keep agent_handler.py
-6. flowclaw inventory  → READ-ONLY. Map imports. Find canonical file. No deletions.
-The flowclaw rule is explicit:
-
-No deletions in the first session. Only inventory:
-
-Which flowclaw*.py does agent_handler.py import?
-
-Do any of the 13 variants contain logic not present in the canonical file?
-
-What do the engine/ modules actually do vs the standalone files?
-
-Build the dependency map, then decide what moves to _archive/.
-
-The May 30 lesson applies here directly:
-
-Making broad structural changes before establishing the actual runtime path.
-
-That's exactly what caused the handler-injection disaster. Flowclaw gets the inventory treatment because it's the highest-risk consolidation target.
-
-Current state before next session:
-
-5 of 10 Beta gates passed
-
-Working tree clean, all commits pushed
-
-Onboarding doc updated as operational runbook
-
-shared/query_normalizer.py is canonical source for location extraction
-
-All 21 agents tested and responsive
-
-Provider chain: Groq primary, OpenRouter fallback, Ollama offline, Anthropic disabled
-
-The project is in a good place to start consolidation work tomorrow.
-
+Beta Gate Progress (5 of 10 passed)
+#	Requirement	Status
+1	Enforcement blocks violations	DONE
+2	Constitutional ledger repaired	DONE
+3	Memory geographic filtering	DONE
+4	All 21 agents tested	DONE
+5	Provider fallback validated	DONE
+6	Duplicate implementations reduced	NOT STARTED
+7	Coverage tests added	NOT STARTED
+8	Installation tested clean Windows	NOT STARTED
+9	Installation tested clean Linux	NOT STARTED
+10	Security review completed	NOT STARTED
