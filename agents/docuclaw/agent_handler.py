@@ -21,7 +21,7 @@ class DocuClawAgent(BaseAgent):
 
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search document template {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search {query}", timeout=15)
         if web: parts.append("[WebClaw]: " + str(web)[:2000])
         chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:
@@ -159,21 +159,32 @@ class DocuClawAgent(BaseAgent):
                 else: result = f"Unknown: {target}"
                 return {"status":"success","result":str(result)}
 
-             # Document generation - research via webclaw/dataclaw, then LLM
+             # Document generation — detect intent: drafting vs research
             if cmd in ("/create", "/letter", "/report", "/memo", "/resume", "/proposal") and query:
-                ctx = self._gather_context(query)
-                prompt = f"Create a well-formatted Markdown document based on the following request. Use the provided context for factual accuracy. Include proper headings, structure, and citations where possible.\n\nCONTEXT:\n{ctx}\n\nREQUEST: {query}"
+                # Determine if this needs research-backed sources
+                _research_keywords = ["law", "legal", "statute", "regulation", "compliance", 
+                    "court", "tax", "code", "section", "article", "amendment", "ordinance",
+                    "nonprofit", "merger", "acquisition", "contract", "liability"]
+                _needs_research = any(kw in query.lower() for kw in _research_keywords)
+                
+                if _needs_research:
+                    ctx = self._gather_context(query)
+                    prompt = f"Create a well-formatted Markdown document. Use the provided context for factual accuracy. Include proper headings, structure, and citations.\n\nCONTEXT:\n{ctx}\n\nREQUEST: {query}"
+                else:
+                    prompt = f"Create a professional Markdown document based on this request. Use real names and specifics — no placeholders in brackets. Write complete, ready-to-use content.\n\nREQUEST: {query}"
+                
                 content = self.ask_llm(prompt)
                 if not content or len(content) < 20:
                     result = "Document generation failed. The LLM returned an empty response. Try again."
                 else:
-                    validation = validate_claims(content)
-                    if validation["claim_count"] > 0:
-                        content += generate_trust_footer(validation)
+                    if _needs_research:
+                        validation = validate_claims(content)
+                        if validation["claim_count"] > 0:
+                            content += generate_trust_footer(validation)
                     view_document(content, title=query[:60])
                     export_result = self._fileclaw_export("md", content)
                     from data_io import write_shared
-                    write_shared("docuclaw_latest", {"command": cmd, "query": query, "claims": validation["claim_count"], "trust": validation["trust_summary"]["level"], "confidence": validation["trust_summary"]["confidence"]})
+                    write_shared("docuclaw_latest", {"command": cmd, "query": query})
                     result = f"{export_result}\n\n{content}"
 
             # List exports

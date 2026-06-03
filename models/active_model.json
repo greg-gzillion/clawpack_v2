@@ -1,11 +1,11 @@
 {
-  "model": "phi2",
+  "model": "gemma3:4b",
   "source": "ollama",
   "set_at": "2026-05-29T12:00:00",
   "set_by": "llmclaw",
   "providers": {
     "ollama": {
-      "model": "phi2",
+      "model": "gemma3:4b",
       "priority": 1,
       "timeout": 120,
       "type": "normal"
