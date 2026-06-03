@@ -20,7 +20,7 @@ for i, (filepath, desc) in enumerate(FILES, 1):
     print(f"  {desc}")
     print(f"{"=" * 70}\n")
     if os.path.exists(filepath):
-        with open(filepath, "r", encoding="utf-8") as f:
+        with open(filepath, "r", encoding="utf-8", errors="replace") as f:
             print(f.read())
     else:
         print(f"  [FILE NOT FOUND: {filepath}]")
