@@ -88,3 +88,6 @@ task_state.py                                 DORMANT        0   get_task_store,
 voice_hook.py                                 DORMANT        0   is_active, set_agent, _listen_loop
 
 CONNECTED: 44 | DORMANT: 41 | TOTAL: 85
+
+
+ note that "DORMANT" means "not imported by lawclaw handler" not "not used by any agent."
