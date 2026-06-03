@@ -15,8 +15,49 @@ and rules they all follow.
 
 - A Windows, Mac, or Linux computer
 - Python 3.10 or newer installed
-- About 10GB of free disk space (for the AI models)
-- That's it. No cloud accounts required.
+- At least 8GB of free disk space for models
+- That is it. No cloud accounts required.
+
+## Choosing a Model
+
+Clawpack works with many AI models. The model you choose depends on your hardware and how thorough you want the answers to be. This is not a one-size-fits-all decision ? it is a feature.
+
+### If you have a GPU with 4GB+ VRAM (like GTX 970, RTX 2060)
+These models run fast on your graphics card:
+- gemma3:4b (3.3GB) ? Fast, capable, fits comfortably. Recommended default.
+- phi2 (2.7GB) ? Microsoft model, good quality for size. Obliterated (no refusals).
+- smollm2:1.7b (3.4GB) ? Small but capable. Obliterated.
+
+### If you have a GPU with 8GB+ VRAM (like RTX 3070, RTX 4070)
+You can run larger models that give more thorough answers:
+- deepseek-r1:8b (5.2GB) ? Strong reasoning, detailed responses
+- codellama:7b (3.8GB) ? Good for code generation
+- gemma3:12b (8.1GB) ? Very capable general purpose model
+
+### If you only have CPU (no dedicated GPU)
+Models will work but will be slower (30-120 seconds per response):
+- tinyllama:1.1b (637MB) ? Fastest, basic responses
+- gemma3:1b (815MB) ? Small but capable
+- gemma3:4b (3.3GB) ? Works on CPU, just slower
+
+### If you want cloud models (no local hardware needed)
+Add API keys to the .env file. Cloud models are fast but may have rate limits or costs:
+- Groq (free tier) ? Very fast, rate-limited
+- OpenRouter (free tier available) ? Good fallback
+- Anthropic (paid) ? Highest quality, costs per use
+
+### How to switch models
+From the menu, press m to open the model manager. Or from any agent, type:
+/use gemma3:4b
+/use deepseek-r1:8b
+/use phi2
+
+### The trade-off
+Smaller models = faster responses, lower quality, fits less hardware
+Larger models = slower responses, more thorough answers, needs better hardware
+Cloud models = fast and capable, but need internet and may have limits
+
+This is by design. You choose based on what matters to you: speed, quality, privacy, or cost.
 
 ## How do I install it?
 

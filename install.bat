@@ -38,9 +38,9 @@ echo [OK] Dependencies installed
 ollama --version >nul 2>&1
 if %ERRORLEVEL% EQU 0 (
     echo.
-    echo [MODEL] Pulling deepseek-r1:8b (about 5GB, one time only)...
+    echo [MODEL] Pulling gemma3:4b (about 3.3GB, one time only)...
     echo         Press Ctrl+C to skip and use cloud APIs instead.
-    ollama pull deepseek-r1:8b
+    ollama pull gemma3:4b
 )
 
 echo.
