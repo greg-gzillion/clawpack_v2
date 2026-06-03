@@ -1,24 +1,24 @@
 {
-  "model": "deepseek-r1:8b",
+  "model": "phi2",
   "source": "ollama",
   "set_at": "2026-05-29T12:00:00",
   "set_by": "llmclaw",
   "providers": {
     "ollama": {
-      "model": "deepseek-r1:8b",
-      "priority": 2,
+      "model": "phi2",
+      "priority": 1,
       "timeout": 120,
       "type": "normal"
     },
     "openrouter": {
       "model": "google/gemma-4-26b-a4b-it:free",
-      "priority": 3,
+      "priority": 99,
       "timeout": 60,
       "type": "cloud"
     },
     "groq": {
       "model": "llama-3.3-70b-versatile",
-      "priority": 1,
+      "priority": 99,
       "timeout": 60,
       "type": "cloud"
     },
@@ -30,7 +30,7 @@
     },
     "anthropic": {
       "model": "claude-haiku-4-5-20251001",
-      "priority": 4,
+      "priority": 99,
       "timeout": 60,
       "type": "cloud"
     }

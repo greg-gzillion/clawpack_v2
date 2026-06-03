@@ -162,6 +162,13 @@ class DocuClawAgent(BaseAgent):
             # Document generation
             if cmd in ("/create", "/letter", "/report", "/memo", "/resume", "/proposal") and query:
                 doc_type = cmd.replace("/", "")
+                
+                # Route to template system if query looks like a template path (contains /)
+                if "/" in query and not " " in query:
+                    from agents.docuclaw.commands.create import run as create_run
+                    result = create_run(query)
+                    return {"status": "success", "result": str(result)}
+                
                 parts2 = query.rsplit(" ", 1)
                 fmt = parts2[-1] if len(parts2) > 1 and parts2[-1] in (
                     "pdf","docx","html","md","txt","json","csv","yaml","xml","rtf","pptx","xlsx"
@@ -309,29 +316,9 @@ class DocuClawAgent(BaseAgent):
             if final_result and len(final_result) > 20:
                 try: from shared.lifecycle import agent_cleanup; agent_cleanup("docuclaw", args or "", 0)
                 except Exception: pass
-                try: from shared.enforcement.engine import EnforcementEngine; EnforcementEngine().load_reference("docuclaw_handler")
-                except Exception: pass
-                try: from shared.guarded_executor import GuardedExecutor; GuardedExecutor("docuclaw")._check_and_record("handler_boundary", {"cmd": cmd})
-                except Exception: pass
-                try: from shared.execution_policy import ExecutionPolicy; ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
-                except Exception: pass
-                try: from shared.chronicle_helper import search_chronicle as chron_search; chron_search(args or cmd, limit=3)
-                except Exception: pass
-                try: from shared.memory.procedural_memory import get_memory as get_proc_mem; pmem = get_proc_mem("docuclaw")
-                except Exception: pass
-                try: from shared.memory.three_tier import get_memory as get_three_tier; get_three_tier("docuclaw").get_context(args or cmd, limit=5)
-                except Exception: pass
-                try: from shared.smart_router import SmartRouter; SmartRouter().route(cmd)
-                except Exception: pass
-                try: from shared.agent_router import AgentRouter; AgentRouter().detect_task(args or cmd)
-                except Exception: pass
                 try: from shared.log_manager import get_logger; get_logger().info(f"docuclaw.{cmd}", extra={"args": (args or "")[:100]})
                 except Exception: pass
-                try: from shared.shutdown import get_shutdown_manager; get_shutdown_manager().register(lambda: None)
-                except Exception: pass
-                try: from shared.hooks.hook_manager import get_hook_manager; get_hook_manager().register("post_command", lambda: None)
-                except Exception: pass
-                try: from shared.llm.budget import BudgetController; budget = BudgetController()
+                try: from shared.llm.budget import BudgetController; budget = BudgetController(); budget.check("docuclaw", estimated_cost=0.002)
                 except Exception: pass
                 try: from shared.rate_limiter import get_rate_limiter; get_rate_limiter().check_daily_limits()
                 except Exception: pass
@@ -352,56 +339,6 @@ class DocuClawAgent(BaseAgent):
                 try: from shared.llm.auditor import ChronicleAuditor; ChronicleAuditor().log(agent="docuclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
                 except Exception: pass
                 try: from shared.observability import get_health_checker; get_health_checker().register("docuclaw_handler", lambda: True)
-                except Exception: pass
-                try:
-                    from shared.memory_guard import sanitize_memory_write
-                except Exception: pass
-                try:
-                    from shared.source_registry import get_trust
-                except Exception: pass
-                try:
-                    from shared.truth_resolver import merge_with_retriever
-                except Exception: pass
-                try:
-                    from shared.input_handler import InputHandler
-                except Exception: pass
-                try:
-                    from shared.permissions import PermissionSystem
-                except Exception: pass
-                try:
-                    from shared.registry import AgentRegistry
-                except Exception: pass
-                try:
-                    from shared.jurisdiction_validator import validate_jurisdiction
-                except Exception: pass
-                try:
-                    from shared.enforcement.gates import PreExecutionGate, PostExecutionGate
-                except Exception: pass
-                try:
-                    from shared.config import ConfigManager
-                except Exception: pass
-                try:
-                    from shared.constitutional_command import validate_command
-                except Exception: pass
-                try:
-                    from shared.court_rules_schema import CourtRulesSchema
-                except Exception: pass
-                try:
-                    from shared.decomposer import TaskDecomposer
-                except Exception: pass
-                try:
-                    from shared.output_handler import OutputHandler
-                except Exception: pass
-                try:
-                    from shared.router import TaskRouter
-                except Exception: pass
-                try:
-                    from shared.compactor import ContextCompactor
-                except Exception: pass
-                try:
-                    duration_ms = (time.time() - track_start) * 1000
-                    from agents.webclaw.core.chronicle_ledger import log_event
-                    log_event(agent="docuclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
                 except Exception: pass
 
             return {"status": "success", "result": str(final_result)}
