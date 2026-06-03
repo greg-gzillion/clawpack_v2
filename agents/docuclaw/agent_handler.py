@@ -159,34 +159,22 @@ class DocuClawAgent(BaseAgent):
                 else: result = f"Unknown: {target}"
                 return {"status":"success","result":str(result)}
 
-            # Document generation
+             # Document generation - research via webclaw/dataclaw, then LLM
             if cmd in ("/create", "/letter", "/report", "/memo", "/resume", "/proposal") and query:
-                doc_type = cmd.replace("/", "")
-                
-                # Route to template system if query looks like a template path (contains /)
-                if "/" in query and not " " in query:
-                    from agents.docuclaw.commands.create import run as create_run
-                    result = create_run(query)
-                    return {"status": "success", "result": str(result)}
-                
-                parts2 = query.rsplit(" ", 1)
-                fmt = parts2[-1] if len(parts2) > 1 and parts2[-1] in (
-                    "pdf","docx","html","md","txt","json","csv","yaml","xml","rtf","pptx","xlsx"
-                ) else "md"
-                if fmt == parts2[-1] and len(parts2) > 1:
-                    query = parts2[0]
-                
-                content = self.ask_llm(
-                    f"Create a professional {doc_type} in Markdown format. Include proper formatting, headings, and structure. Include specific sources, URLs, and citations where possible.\n\nTopic: {query}"
-                )
-                validation = validate_claims(content)
-                if validation["claim_count"] > 0:
-                    content += generate_trust_footer(validation)
-                view_document(content, title=doc_type)
-                export_result = self._fileclaw_export(fmt, content)
-                from data_io import write_shared
-                write_shared("docuclaw_latest", {"command": cmd, "doc_type": doc_type, "query": query, "claims": validation["claim_count"], "trust": validation["trust_summary"]["level"], "confidence": validation["trust_summary"]["confidence"]})
-                result = f"{export_result}\n\n{content}"
+                ctx = self._gather_context(query)
+                prompt = f"Create a well-formatted Markdown document based on the following request. Use the provided context for factual accuracy. Include proper headings, structure, and citations where possible.\n\nCONTEXT:\n{ctx}\n\nREQUEST: {query}"
+                content = self.ask_llm(prompt)
+                if not content or len(content) < 20:
+                    result = "Document generation failed. The LLM returned an empty response. Try again."
+                else:
+                    validation = validate_claims(content)
+                    if validation["claim_count"] > 0:
+                        content += generate_trust_footer(validation)
+                    view_document(content, title=query[:60])
+                    export_result = self._fileclaw_export("md", content)
+                    from data_io import write_shared
+                    write_shared("docuclaw_latest", {"command": cmd, "query": query, "claims": validation["claim_count"], "trust": validation["trust_summary"]["level"], "confidence": validation["trust_summary"]["confidence"]})
+                    result = f"{export_result}\n\n{content}"
 
             # List exports
             elif cmd in ("/exports", "/list") and args:
