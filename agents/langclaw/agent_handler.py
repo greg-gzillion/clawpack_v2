@@ -12,7 +12,7 @@ class LangClawAgent(BaseAgent):
 
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search language learning {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search ns:langclaw language learning {query}", timeout=15)
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data)

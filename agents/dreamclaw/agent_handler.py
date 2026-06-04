@@ -10,7 +10,7 @@ class DreamClawAgent(BaseAgent):
     
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search creative {query}", timeout=5)
+        web = self.call_agent("webclaw", f"search ns:dreamclaw creative {query}", timeout=5)
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=5)
         if data: parts.append("[DataClaw]: " + data)

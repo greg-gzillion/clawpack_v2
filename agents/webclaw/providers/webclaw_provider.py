@@ -9,7 +9,7 @@ class WebclawProvider:
     def __init__(self):
         self.cache_dir = Path(__file__).parent.parent / "cache"
         self.db_path = self.cache_dir / "web_cache.db"
-        self.references_path = Path("str(PROJECT_ROOT)/agents/webclaw/references")
+        self.references_path = Path(__file__).resolve().parent.parent / "references"
     
     def search(self, query: str, max_results: int = 20) -> str:
         """Search the SQLite index for matching terms"""
@@ -57,7 +57,7 @@ class WebclawProvider:
         
         return "\n".join(output)
     
-    def search_with_context(self, query: str, max_results: int = 10) -> str:
+    def search_with_context(self, query: str, max_results: int = 10, namespace: str = None) -> str:
         """Search with content snippets"""
         if not self.db_path.exists():
             return "Index not found"
@@ -74,10 +74,10 @@ class WebclawProvider:
                 SELECT DISTINCT si.url, wc.content, si.frequency
                 FROM search_index si
                 LEFT JOIN web_cache wc ON si.url = wc.url
-                WHERE si.term LIKE ?
+                WHERE si.term LIKE ? AND (? IS NULL OR si.url LIKE ?)
                 ORDER BY si.frequency DESC
                 LIMIT ?
-            """, (f'%{term}%', max_results))
+            """, (f"%{term}%", namespace, f"%{namespace}%" if namespace else None, max_results))
             
             for row in cursor.fetchall():
                 url = row[0]

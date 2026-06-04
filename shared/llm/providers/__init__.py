@@ -38,6 +38,16 @@ def detect_providers(config):
         providers.append({'type': LLMProvider.ANTHROPIC, 'key': config['ANTHROPIC_API_KEY'], 'model': 'claude-haiku-4-5-20251001', 'base_url': 'https://api.anthropic.com/v1', 'cost_per_call': 0.015, 'priority': _priorities.get('anthropic', 4)})
     if config.get('OPENAI_API_KEY'):
         providers.append({'type': LLMProvider.OPENAI, 'key': config['OPENAI_API_KEY'], 'model': 'gpt-4o', 'base_url': 'https://api.openai.com/v1', 'cost_per_call': 0.01, 'priority': _priorities.get('openai', 5)})
+    
+    if _priorities.get('direct_model'):
+        try:
+            import json as _j3
+            am3 = _j3.loads(open('models/active_model.json').read())
+            dn = am3.get('model', 'phi2')
+        except Exception:
+            dn = 'phi2'
+        providers.append({'type': LLMProvider.DIRECT_MODEL, 'model': dn, 'base_url': 'local', 'cost_per_call': 0.0, 'priority': _priorities.get('direct_model', 99)})
+
     # Sort by priority (lower number = higher priority)
     providers.sort(key=lambda p: p.get('priority', 99))
     return providers

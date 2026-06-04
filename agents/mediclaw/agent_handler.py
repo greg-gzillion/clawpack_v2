@@ -19,7 +19,7 @@ class MedicLawHandler(BaseAgent):
     def _gather_context(self, query=""):
         """Gather medical context from A2A specialists + chronicle"""
         parts = []
-        web = self.call_agent("webclaw", f"search medical {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search ns:mediclaw medical {query}", timeout=15)
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data)

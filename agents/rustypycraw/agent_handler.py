@@ -18,7 +18,7 @@ class RustyPyCrawAgent(BaseAgent):
 
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search code analysis {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search ns:rustypycraw code analysis {query}", timeout=15)
         if web: parts.append("[WebClaw]: " + str(web)[:2000])
         chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:
@@ -33,7 +33,7 @@ class RustyPyCrawAgent(BaseAgent):
 
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search rust python interop {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search ns:rustypycraw rust python interop {query}", timeout=15)
         if web: parts.append("[WebClaw]: " + web[:600])
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data[:600])

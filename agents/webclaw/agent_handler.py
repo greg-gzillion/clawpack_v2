@@ -1,4 +1,4 @@
-﻿"""A2A Handler for WebClaw - AI-Powered Search & Fetch"""
+"""A2A Handler for WebClaw - AI-Powered Search & Fetch"""
 import sys, time
 from pathlib import Path
 from typing import Optional
@@ -73,12 +73,18 @@ class WebClawAgent(BaseAgent):
             query = task
 
         try:
-            result = provider.search_with_context(query)
+            # Extract namespace from calling agent
+            namespace = None
+            if query.startswith("ns:"):
+                parts = query.split(" ", 1)
+                namespace = parts[0][3:]
+                query = parts[1] if len(parts) > 1 else query
+            result = provider.search_with_context(query, namespace=namespace)
 
             try:
                 from agents.webclaw.core.chronicle_ledger import get_chronicle
                 chronicle = get_chronicle()
-                chronicle_results = chronicle.recover_by_context(query, limit=2000000)
+                chronicle_results = chronicle.recover_by_context(f"ns:{namespace} {query}" if namespace else query, limit=5)
                 if chronicle_results:
                     result += "\n\n=== Web Results ==="
                     for c in chronicle_results[:3]:
@@ -93,18 +99,6 @@ class WebClawAgent(BaseAgent):
             except Exception as e:
                 result += "\n\n(chronicle: " + str(e) + ")"
 
-            try:
-                prompt = (
-                    "Analyze these search results and provide the most "
-                    "relevant information for: " + query + "\n\nResults:\n" +
-                    result[:3000]
-                )
-                analysis = self.ask_llm(prompt)
-                if analysis:
-                    result = "## AI Analysis\n" + analysis + "\n\n## Raw Results\n" + result
-                    self.learn("search:" + query, result[:1000])
-            except Exception as e:
-                result += "\n\n(AI analysis: " + str(e) + ")"
 
 
             # Constitutional boundary

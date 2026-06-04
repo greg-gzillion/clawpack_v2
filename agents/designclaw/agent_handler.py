@@ -18,7 +18,7 @@ class DesignClawAgent(BaseAgent):
 
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search {query}", timeout=15)
+        web = self.call_agent("webclaw", f"search ns:designclaw {query}", timeout=15)
         if web:
             parts.append("[WebClaw]: " + str(web)[:2000])
         chronicle_results = self.search_chronicle(query, limit=5)

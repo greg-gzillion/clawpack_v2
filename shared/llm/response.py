@@ -12,6 +12,7 @@ class LLMProvider(str, Enum):
     OPENROUTER = "openrouter"
     GROQ = "groq"
     OLLAMA = "ollama"
+    DIRECT_MODEL = "direct_model"
 
 
 class ModelTier(str, Enum):

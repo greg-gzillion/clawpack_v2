@@ -12,6 +12,7 @@ from .providers.ollama import call_ollama
 from .providers.groq import call_groq
 from .providers.openrouter import call_openrouter
 from .providers.anthropic import call_anthropic
+from .providers.direct_model import call_direct_model
 from .providers.openai import call_openai
 
 PROVIDER_CALLERS = {
@@ -20,6 +21,7 @@ PROVIDER_CALLERS = {
     LLMProvider.OPENROUTER: call_openrouter,
     LLMProvider.ANTHROPIC: call_anthropic,
     LLMProvider.OPENAI: call_openai,
+    LLMProvider.DIRECT_MODEL: call_direct_model,
 }
 
 _SOVEREIGN_CLIENT = None
@@ -50,6 +52,15 @@ class LLMClient:
         resolved_model, _ = self.registry.resolve_model(model)
         if model is None:
             model = resolved_model
+        # Constitutional context governance per Article I
+        try:
+            import json; am = json.loads(open("models/active_model.json").read())
+            src = am.get("source", "")
+            if src in ("ollama", "direct_model") and len(prompt) > 4000:
+                prompt = prompt[:4000]
+                print(f"[Gateway] Prompt capped at 4000 chars for local model ({src})")
+        except Exception:
+            pass
         if self.budget.check(agent) != AccessDecision.ALLOWED:
             r = LLMResponse(content=f'Budget exceeded for {agent}', provider=LLMProvider.OLLAMA, model='governance', agent=agent, access_decision=AccessDecision.DENIED_BUDGET)
             self.auditor.log(agent, prompt, r)
@@ -63,7 +74,8 @@ class LLMClient:
                 caller = PROVIDER_CALLERS.get(prov['type'])
                 if not caller: continue
                 if prov['type'] == LLMProvider.OLLAMA:
-                    result = await caller(prov, prompt, max_tokens, temperature, model)
+                    ollama_model = prov.get('model', model)
+                    result = await caller(prov, prompt, max_tokens, temperature, ollama_model)
                 else:
                     result = await caller(prov, prompt, max_tokens, temperature)
                 duration = (datetime.now() - start).total_seconds() * 1000

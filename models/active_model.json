@@ -1,13 +1,13 @@
 {
-  "model": "phi2",
-  "source": "direct_model",
+  "model": "gemma3:4b",
+  "source": "ollama",
   "set_at": "2026-05-29T12:00:00",
   "set_by": "llmclaw",
   "providers": {
     "ollama": {
       "model": "gemma3:4b",
-      "priority": 2,
-      "timeout": 120,
+      "priority": 1,
+      "timeout": 60,
       "type": "normal"
     },
     "openrouter": {
@@ -24,7 +24,7 @@
     },
     "direct_model": {
       "model": "phi2",
-      "priority": 1,
+      "priority": 2,
       "timeout": 60,
       "type": "obliterated"
     },

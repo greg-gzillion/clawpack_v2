@@ -90,3 +90,10 @@ def generate(prompt: str, model_name: str, max_tokens: int = 128) -> str:
     full_output = full_output.replace(chr(288)+chr(138), chr(10)).replace(chr(288)+chr(160), chr(32))
     return full_output
 __all__ = ['list_models', 'get_model_info', 'generate', 'OBLITERATED_MODELS']
+
+async def call_direct_model(provider, prompt, max_tokens, temp, model=None):
+    model_name = model or provider.get('model', 'phi2')
+    import asyncio
+    loop = asyncio.get_event_loop()
+    result = await loop.run_in_executor(None, generate, prompt, model_name, max_tokens)
+    return {'content': result, 'tokens': len(result.split()), 'cost': 0.0}

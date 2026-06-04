@@ -35,7 +35,7 @@ class FlowClawAgent(BaseAgent):
 
     def _gather_context(self, query="", diagram_type="flowchart"):
         parts = []
-        web = self.call_agent("webclaw", f"search mermaid {diagram_type} {query}", timeout=10)
+        web = self.call_agent("webclaw", f"search ns:flowclaw mermaid {diagram_type} {query}", timeout=10)
         if web: parts.append(str(web)[:500])
         data = self.call_agent("dataclaw", f"search {query}", timeout=10)
         if data: parts.append(str(data)[:500])

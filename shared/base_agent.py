@@ -71,7 +71,7 @@ class BaseAgent:
         return self.state.get(key)
 
     def search_web(self, query: str, max_results: int = 10) -> str:
-        return self.webclaw.search_with_context(query, max_results)
+        return self.webclaw.search_with_context(query, max_results, namespace=self.name)
 
     def search_web_raw(self, query: str, max_results: int = 20) -> str:
         return self.webclaw.search(query, max_results)
@@ -170,20 +170,6 @@ class BaseAgent:
         """Call Sovereign Gateway directly. Constitutional path per Article I."""
         try:
             context = ""
-            chronicle_results = self.search_chronicle(prompt, limit=10)
-            if chronicle_results:
-                lines_ctx = []
-                for c in chronicle_results:
-                    if isinstance(c, dict):
-                        ctx = c.get("context", "") or c.get("url", "")
-                    elif hasattr(c, "context"):
-                        ctx = getattr(c, "context", "")
-                    else:
-                        ctx = str(c)
-                    if ctx:
-                        lines_ctx.append(ctx)
-                if lines_ctx:
-                    context = "\n---\n".join(lines_ctx)
             full_prompt = prompt
             if context:
                 full_prompt = (
