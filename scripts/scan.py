@@ -87,5 +87,5 @@ print('  - RustPyCraw Article I violation resolved')
 
 print('\n' + '=' * 70)
 print('  SCAN COMPLETE')
-print('  Next: python scripts/onboard.py for full documentation')
+print('  Next: python scripts/onboard.py | Read: docs/READ_THIS_FIRST.md | Avoid: docs/KNOWN_TRAPS.md')
 print('=' * 70)

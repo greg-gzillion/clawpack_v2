@@ -8,6 +8,8 @@ Built by Greg.
 ## RUN THIS FIRST
 `python scripts/onboard.py` — prints everything you need to understand this system.
 It prints all required documents in order. Run it. Read the output.
+CRITICAL: Read docs/KNOWN_TRAPS.md before writing any code.
+Also read: docs/READ_THIS_FIRST.md for quick start.
 Also read: docs/WEBCLAW_MANUAL.md for the complete WebClaw guide.
 
 ## CRITICAL: PowerShell Environment (Windows)
