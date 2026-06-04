@@ -1,12 +1,12 @@
 {
-  "model": "gemma3:4b",
-  "source": "ollama",
+  "model": "phi2",
+  "source": "direct_model",
   "set_at": "2026-05-29T12:00:00",
   "set_by": "llmclaw",
   "providers": {
     "ollama": {
       "model": "gemma3:4b",
-      "priority": 1,
+      "priority": 2,
       "timeout": 120,
       "type": "normal"
     },
@@ -18,14 +18,14 @@
     },
     "groq": {
       "model": "llama-3.3-70b-versatile",
-      "priority": 99,
+      "priority": 2,
       "timeout": 60,
       "type": "cloud"
     },
     "direct_model": {
-      "model": "smollm2_1.7b",
-      "priority": 4,
-      "timeout": 120,
+      "model": "phi2",
+      "priority": 1,
+      "timeout": 60,
       "type": "obliterated"
     },
     "anthropic": {

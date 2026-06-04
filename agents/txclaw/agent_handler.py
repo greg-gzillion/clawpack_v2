@@ -10,7 +10,7 @@ sys.path.insert(0, str(LLMCLAW_DIR))
 
 from shared.base_agent import BaseAgent
 from shared._agent_helpers import log_err
-from commands.llm_enhanced import run as llm_run
+from commands.llm import run as llm_run
 
 class TXClawA2AHandler(BaseAgent):
     def __init__(self):

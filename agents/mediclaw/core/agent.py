@@ -8,9 +8,8 @@ PROJECT_ROOT = MEDICLAW_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(PROJECT_ROOT / "agents" / "llmclaw"))
 
+from commands.llm import run as llm_run
 from core.engine import MedicalEngine
-from commands.llm_enhanced import run as llm_run
-
 
 class MediclawAgent:
     def __init__(self):

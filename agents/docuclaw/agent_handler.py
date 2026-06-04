@@ -168,6 +168,7 @@ class DocuClawAgent(BaseAgent):
                 _needs_research = any(kw in query.lower() for kw in _research_keywords)
                 
                 if _needs_research:
+                    print(f"[DEBUG] _gather_context CALLED for: {query}", flush=True)
                     ctx = self._gather_context(query)
                     prompt = f"Create a well-formatted Markdown document. Use the provided context for factual accuracy. Include proper headings, structure, and citations.\n\nCONTEXT:\n{ctx}\n\nREQUEST: {query}"
                 else:

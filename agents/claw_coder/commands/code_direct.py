@@ -17,7 +17,7 @@ def run(prompt: str) -> str:
     
     try:
         # Direct import - no A2A overhead!
-        from commands.llm_smart import run as llm_run
+        from commands.llm import run as llm_run
         return llm_run(coding_prompt)
     except Exception as e:
         return f"Error: {str(e)}"
