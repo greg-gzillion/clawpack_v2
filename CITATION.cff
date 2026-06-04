@@ -5,7 +5,7 @@ authors:
     given-names: Greg
     orcid: "https://orcid.org/0009-0001-9191-5556"
 title: "Clawpack V2 - Constitutional Multi-Agent AI Ecosystem with Shared Memory and A2A Routing"
-version: 3.1.0
+version: 3.2.0
 doi: 10.5281/zenodo.19713157
 date-released: 2026-05-29
 url: "https://github.com/greg-gzillion/clawpack_v2"
