@@ -49,7 +49,14 @@ Zero handler changes. Zero indentation risk. The system was designed for this.
 
 ---
 
-## Current State — June 3, 2026
+## Current State — June 4, 2026 -- LLMCLaw CONSOLIDATION + WEBCLAW NAMESPACE SCOPING + PROVIDER CHAIN FIXES
+llmclaw: 4 llm*.py variants consolidated to 1 llm.py. /use fixed.
+Sovereign Gateway: direct_model first-class provider. Prompt cap 4000 chars for local models.
+WebClaw: namespace-scoped SQL search. ns:{agent} on all 19 agents. Chronicle removed from ask_llm().
+FlowClaw: 13 variants inventoried. RustPyCraw: Article I violation resolved.
+Scripts: 161 deleted, 16 kept. Version bumped to 3.2.0.
+
+June 3, 2026
 
 ### Runtime Health
 | Metric | Value |
@@ -277,6 +284,13 @@ models/active_model.json	Active model + provider priorities	Active
 scripts/onboard.py	Complete system onboarding — RUN THIS FIRST	Active
 docs/WEBCLAW_MANUAL.md	Comprehensive WebClaw guide	Active
 Session Log
+June 4, 2026 -- LLMCLaw CONSOLIDATION + WEBCLAW NAMESPACE SCOPING + PROVIDER CHAIN FIXES
+llmclaw: 4 llm*.py variants consolidated to 1 llm.py. /use fixed.
+Sovereign Gateway: direct_model first-class provider. Prompt cap 4000 chars for local models.
+WebClaw: namespace-scoped SQL search. ns:{agent} on all 19 agents. Chronicle removed from ask_llm().
+FlowClaw: 13 variants inventoried. RustPyCraw: Article I violation resolved.
+Scripts: 161 deleted, 16 kept. Version bumped to 3.2.0.
+
 June 3, 2026 — DOCUCLAW + FLOWCLAW FIXES + DOCUMENTATION
 DocuClaw handler: Fixed document generation pipeline. Removed template routing and
 keyword detection. Clean research-via-webclaw -> LLM -> validate -> view -> export.
@@ -363,7 +377,7 @@ May 27-29, 2026
 Constitutional boundary activated. Consensus engine deployed.
 
 NEXT SESSION MISSION
-Priority 6: Codebase Consolidation
+Priority 6: Codebase Consolidation (IN PROGRESS -- llmclaw DONE, flowclaw inventoried, scripts cleaned)
 Agent	Variants	Action	Risk
 flowclaw	13 flowclaw*.py files	Inventory first, then consolidate to 1	Medium
 docuclaw	3 implementations	Keep agent_handler.py, archive others	Medium
@@ -394,7 +408,7 @@ Beta Gate Progress (5 of 10 passed)
 3	Memory geographic filtering	DONE
 4	All 21 agents tested	DONE
 5	Provider fallback validated	DONE
-6	Duplicate implementations reduced	NOT STARTED
+6	Duplicate implementations reduced	IN PROGRESS
 7	Coverage tests added	NOT STARTED
 8	Installation tested clean Windows	NOT STARTED
 9	Installation tested clean Linux	NOT STARTED
