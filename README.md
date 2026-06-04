@@ -11,6 +11,17 @@ central message bus with constitutional governance. Runs on your machine.
 
 ---
 
+## Quickstart (AI Agents: Read This First)
+
+`ash
+python scripts/scan.py          # System health check (30 seconds)
+python scripts/onboard.py        # Full system documentation
+`
+
+Then read: docs/READ_THIS_FIRST.md -> docs/KNOWN_TRAPS.md -> docs/NEXT_SESSION_MISSION.md -> POWERSHELL_SURVIVAL_GUIDE.md
+
+---
+
 ## Why Clawpack Exists
 
 Most AI tools are single-model chatbots behind API paywalls. Clawpack is
