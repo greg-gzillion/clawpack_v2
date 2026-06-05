@@ -1,25 +1,24 @@
-﻿"""Recall command - Recall from webclaw memory"""
+"""Recall from Chronicle memory"""
+from pathlib import Path
 
-def recall_command(args):
+name = "/recall"
+
+def run(args, agent=None):
     if not args:
-        print("Usage: /recall [query]")
-        return
-    
-    from core import SharedMemory
-    
+        return "Usage: /recall <query>"
     try:
-        memory = SharedMemory("webclaw")
-        results = memory.recall(args)
-        
-        if results:
-            print(f"\n📖 RECALLED: '{args}'\n")
-            for r in results:
-                print(f"   📌 {r['query']}")
-                print(f"      {r['response'][:300]}...")
-                if 'timestamp' in r:
-                    print(f"      📅 {r['timestamp'][:10]}\n")
-        else:
-            print(f"No saved knowledge found for: {args}")
+        from agents.webclaw.core.chronicle_ledger import get_chronicle
+        chronicle = get_chronicle()
+        results = chronicle.recover_by_context(args, limit=10)
+        if not results:
+            return f"No results for {args!r}"
+        lines = [f"Found {len(results)} results:"]
+        for i, r in enumerate(results, 1):
+            url = r.get("url", "")
+            ctx = r.get("context", "")[:200]
+            lines.append(f"{i}. {url}")
+            if ctx:
+                lines.append(f"   {ctx}")
+        return "\n".join(lines)
     except Exception as e:
-        print(f"Error recalling: {e}")
-        print("Database may not be initialized yet. Save something first with /llm")
+        return f"Recall error: {e}"

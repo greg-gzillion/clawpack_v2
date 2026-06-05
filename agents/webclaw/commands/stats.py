@@ -1,22 +1,16 @@
-﻿"""WebClaw statistics - shows reference database info"""
+"""Reference statistics"""
+from pathlib import Path
 
-def stats_command(args=None):
-    from core.config import WEB_REFS
-    
-    print("\n" + "="*50)
-    print("🌐 WEBCLAW STATISTICS")
-    print("="*50)
-    
-    if WEB_REFS.exists():
-        # Count reference categories
-        categories = [d for d in WEB_REFS.iterdir() if d.is_dir()]
-        print(f"📚 Reference Categories: {len(categories)}")
-        
-        # Show top categories
-        print("\n📁 Top Categories:")
-        for cat in sorted(categories)[:10]:
-            print(f"   • {cat.name}")
-        if len(categories) > 10:
-            print(f"   ... and {len(categories) - 10} more")
-    
-    print("="*50)
+WEB_REFS = Path(__file__).resolve().parent.parent / "references"
+name = "/stats"
+
+def run(args, agent=None):
+    if not WEB_REFS.exists():
+        return "References not found"
+    cats = [d for d in WEB_REFS.iterdir() if d.is_dir()]
+    total_files = sum(1 for _ in WEB_REFS.rglob("*.md"))
+    lines = [f"Categories: {len(cats)}", f"Total files: {total_files}"]
+    for c in sorted(cats):
+        count = sum(1 for _ in c.rglob("*.md"))
+        lines.append(f"  {c.name}: {count} files")
+    return "\n".join(lines)

@@ -12,7 +12,7 @@ from typing import Dict, List, Optional
 from collections import Counter
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
-DB_PATH = PROJECT_ROOT / "data" / "chronicle.db"
+DB_PATH = PROJECT_ROOT / "runtime" / "chronicle.db"
 
 from shared.source_registry import get_trust as get_source_weight
 

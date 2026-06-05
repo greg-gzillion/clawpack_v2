@@ -1,21 +1,11 @@
-﻿"""List available web/cloud categories"""
+"""List reference files"""
+from pathlib import Path
 
-def list_command(args=None):
-    from core.config import WEB_REFS
-    
-    print("\n" + "="*50)
-    print("📋 WEBCLAW CATEGORIES")
-    print("="*50)
-    
-    if WEB_REFS.exists():
-        categories = sorted([d.name for d in WEB_REFS.iterdir() if d.is_dir()])
-        
-        # Display in columns
-        for i, cat in enumerate(categories):
-            if i % 4 == 0 and i > 0:
-                print()
-            print(f"  {cat:<25}", end="")
-    
-    print("\n" + "="*50)
-    print("💡 Use /browse [category] to explore")
-    print("   Use /search [term] to find specific content")
+WEB_REFS = Path(__file__).resolve().parent.parent / "references"
+name = "/list"
+
+def run(args, agent=None):
+    if not WEB_REFS.exists():
+        return "References not found"
+    cats = sorted([d.name for d in WEB_REFS.iterdir() if d.is_dir()])
+    return "Categories: " + ", ".join(cats)

@@ -1,31 +1,18 @@
-﻿"""Browse web/cloud categories"""
+"""Browse reference categories"""
+from pathlib import Path
 
-def browse_command(args=None):
-    from core.config import WEB_REFS
-    
+WEB_REFS = Path(__file__).resolve().parent.parent / "references"
+name = "/browse"
+
+def run(args, agent=None):
     if not args:
-        print("Usage: /browse [category]")
-        print("   Use /list to see all categories")
-        return
+        if WEB_REFS.exists():
+            cats = sorted([d.name for d in WEB_REFS.iterdir() if d.is_dir()])
+            return "Categories: " + ", ".join(cats)
+        return "References not found"
     
-    category_path = WEB_REFS / args
-    if not category_path.exists():
-        print(f"Category '{args}' not found")
-        print("Use /list to see available categories")
-        return
-    
-    print(f"\n📁 BROWSING: {args.upper()}\n")
-    
-    # Count files
-    md_files = list(category_path.rglob("*.md"))
-    print(f"📄 Files: {len(md_files)}\n")
-    
-    # Show first 20 files
-    for i, f in enumerate(md_files, 1):
-        rel_path = f.relative_to(category_path)
-        print(f"  {i:2}. {rel_path}")
-    
-    if len(md_files) > 20:
-        print(f"\n  ... and {len(md_files) - 20} more files")
-    
-    print(f"\n💡 Use /search [term] to search within {args}")
+    cat_path = WEB_REFS / args
+    if cat_path.exists():
+        files = sorted([f.stem for f in cat_path.rglob("*.md")])
+        return f"{args}: " + ", ".join(files[:50])
+    return f"Category not found: {args}"

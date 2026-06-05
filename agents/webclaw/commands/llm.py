@@ -1,51 +1,31 @@
-﻿"""LLM command - AI with shared memory"""
+"""LLM command with Chronicle-backed memory"""
+from pathlib import Path
 
-def llm_command(question):
-    if not question:
-        print("Usage: /llm [your web/cloud/security question]")
-        return
+WEB_REFS = Path(__file__).resolve().parent.parent / "references"
+name = "/llm"
+
+def run(args, agent=None):
+    if not args:
+        return "Usage: /llm <query>"
     
-    from core import get_api, SharedMemory, WEB_REFS
-    
-    print(f"\n🤔 Question: {question}\n")
-    
-    # Check shared memory first
-    memory = SharedMemory("webclaw")
-    existing = memory.recall(question)
-    
-    if existing:
-        print("📚 Found in shared memory:")
-        print("="*60)
-        print(existing[0]['response'])
-        print("="*60)
-        return
-    
-    # Search local references
-    context = ""
+    # Gather reference context
+    context_parts = []
     if WEB_REFS.exists():
-        for category in WEB_REFS.iterdir():
-            if category.is_dir():
-                for md_file in category.rglob("*.md"):
-                    try:
-                        content = md_file.read_text(encoding='utf-8', errors='ignore')
-                        if question.lower() in content.lower():
-                            context += f"\n[Source: {category.name}/{md_file.name}]\n{content}\n"
-                            if len(context) > 2000:
-                                break
-                    except:
-                        pass
-            if len(context) > 2000:
-                break
+        for cat in sorted(WEB_REFS.iterdir()):
+            if cat.is_dir():
+                context_parts.append(f"[{cat.name}] references available")
     
-    # Ask AI
-    api = get_api()
-    response = api.ask(question, context)
+    # Search Chronicle for relevant history
+    try:
+        from agents.webclaw.core.chronicle_ledger import get_chronicle
+        chronicle = get_chronicle()
+        results = chronicle.recover_by_context(args, limit=5)
+        if results:
+            context_parts.append("[Chronicle]: " + str(len(results)) + " past results")
+    except Exception:
+        pass
     
-    # Save to shared memory
-    memory.save(question, response, "web_question")
-    
-    print("="*60)
-    print("🤖 RESPONSE:")
-    print("="*60)
-    print(response)
-    print("="*60)
+    if agent:
+        prompt = f"Query: {args}\n\nContext:\n" + "\n".join(context_parts)
+        return agent.ask_llm(prompt)
+    return "\n".join(context_parts)
