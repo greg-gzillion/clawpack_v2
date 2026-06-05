@@ -1,4 +1,4 @@
-﻿"""dataclaw shared utilities — constitutional command helpers.
+"""dataclaw shared utilities — constitutional command helpers.
 
 Dataclaw-specific: local file indexing, Chronicle writing, data export.
 """
@@ -10,6 +10,7 @@ DATACLAW_DIR = Path(__file__).resolve().parent.parent
 PROJECT_ROOT = DATACLAW_DIR.parent.parent
 EXPORTS = PROJECT_ROOT / "exports"
 
+DATACLAW_REFS = DATACLAW_DIR / "references"
 SKIP_DIRS = {'node_modules', 'venv', '__pycache__', '.git', 'lib64'}
 SEARCH_EXTENSIONS = {'.md', '.txt', '.py', '.json', '.csv', '.yaml', '.rs', '.go', '.js', '.html'}
 
@@ -18,6 +19,7 @@ def search_local_files(query: str, max_results: int = 10) -> list:
     """Search local filesystem for query matches. Returns list of result dicts."""
     results = []
     search_paths = [
+        DATACLAW_REFS,
         PROJECT_ROOT / "docs",
         PROJECT_ROOT / "data",
         PROJECT_ROOT / "agents" / "webclaw" / "references",
@@ -111,6 +113,7 @@ def count_indexed_files() -> int:
     """Count total indexable files in search paths."""
     total = 0
     search_paths = [
+        DATACLAW_REFS,
         PROJECT_ROOT / "docs",
         PROJECT_ROOT / "data",
         PROJECT_ROOT / "agents" / "webclaw" / "references"

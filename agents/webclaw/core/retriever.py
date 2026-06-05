@@ -57,6 +57,14 @@ class BM25:
         return score
 
     def search(self, query: str, top_k=10) -> List[Dict]:
+        """Rank documents by BM25 relevance multiplied by source trust weight.
+
+        final_score = bm25_score * source_weight
+
+        source_weight comes from shared/source_registry.py (get_trust).
+        This makes source_registry a global ranking governor:
+        changing trust values there affects retrieval order for all 21 agents.
+        """
         scored = [(self.score(query, i), self.documents[i]) for i in range(self.N)]
         scored.sort(key=lambda x: x[0], reverse=True)
         results = []
@@ -64,7 +72,7 @@ class BM25:
             if score > 0:
                 doc = dict(doc)
                 doc["bm25_score"] = round(score, 4)
-                doc["source_weight"] = get_source_weight(doc.get("url", ""))
+                doc["source_weight"] = get_source_weight(doc.get("url", ""))  # global ranking governor
                 doc["final_score"] = round(score * doc["source_weight"], 4)
                 results.append(doc)
         results.sort(key=lambda x: x["final_score"], reverse=True)

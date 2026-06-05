@@ -1,4 +1,4 @@
-﻿"""data command - Constitutional local data search with memory + Chronicle indexing"""
+"""data command - Constitutional local data search with memory + Chronicle indexing"""
 import sys
 from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
@@ -27,9 +27,9 @@ def run(args: str, agent=None) -> str:
         lines.append(f"  [MEMORY] {len(prior)} prior related search(es)")
     
     if file_results:
-        lines.append(f"\n### Local Files ({len(file_results)} found)")
+        lines.append(f"\n### [DataClaw] Local Files ({len(file_results)} found)")
         for r in file_results:
-            lines.append(f"\n  {r['file']} ({r['size']:,}B)")
+            lines.append(f"\n  [DataClaw] {r['file']} ({r['size']:,}B)")
             lines.append(f"     {r['match']}")
             # Index to Chronicle for cross-agent visibility
             index_to_chronicle(r['file'], r.get('match', ''), agent=agent)
