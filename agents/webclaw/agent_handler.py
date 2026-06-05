@@ -101,13 +101,21 @@ class WebClawAgent(BaseAgent):
 
             # 3. Merge and BM25 re-rank with source confidence
             all_docs = provider_docs + chronicle_docs
-            if all_docs:
+            # Deduplicate by url before BM25 indexing
+            seen = set()
+            deduped = []
+            for d in all_docs:
+                key = d.get("url", "")
+                if key and key not in seen:
+                    seen.add(key)
+                    deduped.append(d)
+            if deduped:
                 from agents.webclaw.core.retriever import get_retriever
                 retriever = get_retriever()
-                retriever.bm25.index(all_docs)
+                retriever.bm25.index(deduped)
                 ranked = retriever.bm25.search(query, top_k=10)
 
-                lines = [f"Found {len(ranked)} results for '{query}':\n"]
+                lines = [f"Found {len(ranked)} results (deduped from {len(all_docs)} candidates) for {query!r}:\n"]
                 for i, doc in enumerate(ranked, 1):
                     lines.append(
                         f"{i}. {doc.get('url', '')} "
