@@ -1,4 +1,4 @@
-﻿"""A2A Handler for ClawCoder v5 - Constitutional contract + 39 languages + cross-agent delegation"""
+"""A2A Handler for ClawCoder v5 - Constitutional contract + 39 languages + cross-agent delegation"""
 import sys
 import json
 import subprocess
@@ -77,7 +77,7 @@ class ClawCoderAgent(BaseAgent):
     def _gather_context(self, query=""):
         """Gather WebClaw + Chronicle context for code generation."""
         parts = []
-        web = self.call_agent("webclaw", f"search ns:claw_coder {query}", timeout=15)
+        web = self.cached_search(f"ns:claw_coder {query}")
         if web:
             parts.append("[WebClaw]: " + str(web)[:2000])
         chronicle_results = self.search_chronicle(query, limit=5)
@@ -95,9 +95,7 @@ class ClawCoderAgent(BaseAgent):
         """Gather WebClaw + DataClaw context for code generation."""
         parts = []
         try:
-            web = self.call_agent(
-                "webclaw", f"search {lang} {query} code example", timeout=8
-            )
+            web = self.cached_search(f"{lang} {query} code example")
             if web:
                 parts.append(str(web)[:1000])
         except Exception:

@@ -27,7 +27,7 @@ class TXClawA2AHandler(BaseAgent):
             parts.append("[DataClaw]: " + str(data)[:2000])
         
         # Web search via WebClaw
-        web = self.call_agent("webclaw", f"search ns:txclaw TX.org blockchain {query}", timeout=15)
+        web = self.cached_search(f"ns:txclaw TX.org blockchain {query}")
         if web:
             parts.append("[WebClaw]: " + str(web)[:2000])
         

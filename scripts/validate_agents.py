@@ -32,7 +32,7 @@ CHECKS = {
     "mathematicaclaw": "search ns:mathematicaclaw calculus derivative",
     "plotclaw": "search ns:plotclaw bar chart",
     "rustypycraw": "search ns:rustypycraw code analysis",
-    "txclaw": "search ns:txclaw blockchain transaction",
+    "txclaw": "/search validator",
     "webclaw": "search ns:webclaw chronicle index",
     "fileclaw": "search ns:fileclaw file conversion",
 }

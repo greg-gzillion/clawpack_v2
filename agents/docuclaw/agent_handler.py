@@ -21,7 +21,7 @@ class DocuClawAgent(BaseAgent):
 
     def _gather_context(self, query=""):
         parts = []
-        web = self.call_agent("webclaw", f"search ns:docuclaw {query}", timeout=15)
+        web = self.cached_search(f"ns:docuclaw {query}")
         if web: parts.append("[WebClaw]: " + str(web)[:2000])
         chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:
