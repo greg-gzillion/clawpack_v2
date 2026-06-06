@@ -1,10 +1,10 @@
-﻿# AGENT_TEMPLATE.md - Constitutional Agent Skeleton
+# AGENT_TEMPLATE.md - Constitutional Agent Skeleton
 
 ## Quick Start
 Copy agents/lawclaw/agent_handler.py to agents/YOURAGENT/agent_handler.py
 Then modify:
 1. Replace all "lawclaw" with "youragent"
-2. Replace all "LawClawHandler" with "YourAgentHandler"  
+2. Replace all "LawClawHandler" with "YourAgentHandler"
 3. Replace /help text with your agent's commands
 4. Add your domain-specific elif blocks for each command
 5. Create commands/_memory.py (copy from lawclaw, change agent name)
@@ -14,50 +14,74 @@ Then modify:
 Every agent MUST have:
 - call_agent() boundary for cross-agent delegation
 - Capability routing (get_capable_agent in else clause)
-- Shared memory bridge (_memory.py with show_prior + remember)
 - All LLM through Sovereign Gateway (shared/llm/client.py)
 - All exceptions logged via log_err()
-- /help and /stats must NOT call _gather_context() (6s latency bug)
+- /help and /stats must NOT call _gather_context() (latency)
+- No constitutional boundary dead block (removed May 30)
 
-## Handler Structure (what lawclaw/agent_handler.py contains)
+## Handler Structure
 - __init__: super().__init__("agentname")
-- _gather_context(): calls webclaw + search_chronicle, returns context string
+- _gather_context(): use cached_search() for retrieval, returns context string
 - handle(): if/elif chain for commands, else clause with capability routing
-- else block: get_capable_agent -> call_agent or ask_llm fallback
-- No 23-system boundary block (removed May 30 - caused 6s /help latency)
 - Lifecycle cleanup handled by a2a_server.py, not individual handlers
+
+## Retrieval: Use cached_search()
+
+```python
+def _gather_context(self, query=""):
+    parts = []
+    # Primary retrieval via cache + WebClaw BM25 pipeline
+    web = self.cached_search(f"ns:{{self.name}} {query}")
+    if web:
+        parts.append(str(web)[:2000])
+    # Supplementary: local data via DataClaw
+    data = self.call_agent("dataclaw", f"/search ns:{{self.name}} {query}", timeout=15)
+    if data:
+        parts.append(str(data)[:2000])
+    return "\n".join(parts)
+```
+
+cached_search() provides:
+- DataClaw cache check (24hr TTL)
+- WebClaw BM25 fallback (provider + chronicle + dedup + source confidence)
+- Automatic cache write for future queries
+- [CACHED] marker on cache hits
 
 ## API Methods Available (from BaseAgent)
 - self.ask_llm(prompt) - Sovereign Gateway (Groq->Ollama->OpenRouter->Anthropic)
-- self.call_agent(name, task, timeout) - cross-agent delegation
+- self.call_agent(name, task, timeout) - cross-agent delegation with circuit breaker
+- self.cached_search(query) - cache-first retrieval with WebClaw BM25 fallback
 - self.search_chronicle(query, limit) - 448MB SQLite FTS5
-- self.lookup_jurisdiction(city, type) - 3,800+ cities (hospital/police/library/codes)
-- self.search_web(query) - via webclaw, cached 24hr
+- self.get_cached_result(agent, query) - retrieve from DataClaw cache
+- self.cache_result(agent, query, results) - store to DataClaw cache
 - log_err(agent, context, error) - from shared/_agent_helpers.py
 
 ## Command File Pattern
 Each command in commands/ directory:
-- name = "/commandname" 
+- name = "/commandname"
 - def run(args, agent=None): returns string
-- Use agent.lookup_jurisdiction() for civic data (0.03s via Chronicle FTS5)
+- Use agent.cached_search() for retrieval (cache + BM25)
 - Use agent.ask_llm() for LLM calls (never direct API)
-- Import show_prior/remember from _memory for cross-session recall
+- Pass agent=self from handler for context access
 
-## Provider Chain (May 30, 2026)
-| Priority | Provider | Model | Latency |
-|----------|----------|-------|---------|
-| 1 | Groq | llama-3.3-70b-versatile | 0.7s |
-| 2 | Ollama | deepseek-r1:8b | 0.8s |
-| 3 | OpenRouter | google/gemma-4-26b-a4b-it:free | 0.7s |
-| 4 | Anthropic | claude-haiku-4-5-20251001 | 1.2s |
+## Provider Chain (June 5, 2026)
+| Priority | Provider | Model | Latency | Cost |
+|----------|----------|-------|---------|------|
+| 1 | Groq | llama-3.3-70b-versatile | 0.7s | Free tier |
+| 2 | Ollama | gemma3:4b | 0.8s GPU | Free (local) |
+| 3 | OpenRouter | google/gemma-4-26b-a4b-it:free | 0.7s | Free tier |
+| 4 | Anthropic | claude-haiku-4-5-20251001 | 1.2s | Paid |
 
-## Key Differences from Pre-May-30 Templates
-- No 23-system boundary block (removed - caused 6s latency)
-- No log_event import (removed from chronicle_ledger)
-- No DecisionLedger.record(action=...) (signature changed to record_action)
-- Commands pass agent=self for jurisdiction lookups
-- Skip _gather_context() for /help and /stats
+Switch: llmclaw> /use groq
+GPU: GTX 970, 4GB VRAM. Fits: gemma3:4b (3.3GB). Does NOT fit: deepseek-r1:8b (5.2GB).
 
 ## Verification
+```bash
 python -c "import requests; r=requests.post('http://127.0.0.1:8766/v1/message/YOURAGENT',json={'task':'/help'},timeout=10); print(r.status_code, len(r.text))"
-Should return 200 with non-empty response in under 0.5s.
+```
+Should return 200 with non-empty response.
+
+```bash
+python scripts/validate_agents.py
+```
+Should show 21/21 agents pass.
