@@ -207,6 +207,45 @@ Groq: 200 | OpenRouter: 200 | Anthropic: SET | CourtListener: SET (as TOKEN)
 
 ---
 
+
+
+---
+
+## DORMANT INFRASTRUCTURE — Activation Path
+
+These systems exist on disk but are not wired into runtime. All agents should
+utilize them once activated. This is Beta Gate 6-9 work.
+
+### Memory Wiring (shared/memory/)
+| Module | Wire Into |
+|--------|-----------|
+| unified_memory.py | BaseAgent.learn()/recall()/learn_fact() |
+| procedural_memory.py | Agent command patterns |
+| three_tier.py | Working/semantic/episodic memory separation |
+
+### Enforcement Activation (shared/enforcement/)
+| Module | Wire Into |
+|--------|-----------|
+| engine.py | A2A request path (PreExecutionGate) |
+| gates.py | Agent dispatch (PostExecutionGate) |
+| audit.py | Chronicle ledger audit trail |
+
+Currently: 6 sovereignty patterns blocked at HTTP boundary (403).
+Full enforcement pipeline is DORMANT.
+
+### Other Dormant Systems
+| Module | Purpose |
+|--------|---------|
+| guarded_executor.py | Dangerous ops gateway (file delete, git, subprocess) |
+| hooks/hook_manager.py | Agent event subscriptions, plugin architecture |
+| task_state.py | Long-running workflow persistence |
+
+### Activation Priority
+1. enforcement/engine.py + gates.py — largest security gap
+2. memory/unified_memory.py — geographic filtering, cross-agent memory
+3. guarded_executor.py — subprocess/file safety
+4. hooks/hook_manager.py — plugin architecture
+5. task_state.py — workflow recovery
 ## Next Session Mission
 
 1. **Cache population** — cached_search() works but only lawclaw has entries.
