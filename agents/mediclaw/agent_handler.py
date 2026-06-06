@@ -1,5 +1,5 @@
-﻿"""A2A Handler for MedicLaw - Medical Agent with A2A routing + chronicle engine"""
-import sys, time, json
+"""A2A Handler for MedicLaw - Medical Agent with A2A routing"""
+import sys, time, json, re
 from pathlib import Path
 
 MEDICLAW_DIR = Path(__file__).resolve().parent
@@ -17,19 +17,23 @@ class MedicLawHandler(BaseAgent):
         self.agent = MediclawAgent()
 
     def _gather_context(self, query=""):
-        """Gather medical context from A2A specialists + chronicle"""
+        """Gather medical context from WebClaw and DataClaw."""
         parts = []
         web = self.call_agent("webclaw", f"search ns:mediclaw medical {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + web)
-        data = self.call_agent("dataclaw", f"search {query}", timeout=15)
-        if data: parts.append("[DataClaw]: " + data)
-        legal = self.call_agent("lawclaw", f"search medical regulation {query}", timeout=15)
-        if legal: parts.append("[LawClaw]: " + legal)
-        return "\n".join(parts)
+        if web: parts.append("[WebClaw]: " + str(web)[:2000])
+        data = self.call_agent("dataclaw", f"/search ns:mediclaw {query}", timeout=15)
+        if data: parts.append("[DataClaw]: " + str(data)[:2000])
+        chronicle_results = self.search_chronicle(query, limit=5)
+        if chronicle_results:
+            lines = []
+            for c in chronicle_results:
+                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
+                if ctx: lines.append(ctx[:500])
+            if lines: parts.append("[Chronicle]: " + "\n".join(lines))
+        return "\n".join(parts) if parts else ""
 
     def handle(self, task: str) -> dict:
         self.track_interaction()
-        track_start = time.time()
         task = task.strip()
         parts = task.split(maxsplit=1)
         cmd = parts[0].lower() if parts else ""
@@ -38,34 +42,24 @@ class MedicLawHandler(BaseAgent):
         try:
             if cmd in ("/help", "help"):
                 result = """MedicLaw - Medical AI Agent
-  CONSTITUTIONAL RUNTIME: 23-system boundary active.
-  All commands memory-wired. Cross-agent delegation enabled.
-
-  CROSS-AGENT:
-  /delegate <agent> <task>  Send task to any agent
-  /translate <text> <lang>  Medical translation with term preservation
-  /shared read [key]        Read shared memory
-  /shared write key:value   Write to shared memory
-
-  MEDICAL COMMANDS:
   /research <topic> /diagnose <symptoms> /treatment <condition>
   /medications <drug> /interactions <drugs> /warnings <drug>
   /pediatrics <issue> /geriatrics <issue> /lab <test> /icd <diagnosis>
   /prevention <condition> /diet <condition> /exercise <condition>
   /natural <condition> /procedure <name> /prognosis <condition>
-  /referral <condition> /emergency <symptom> /sources /stats /help"""
+  /referral <condition> /emergency <symptom> /hospital <city>
+  /delegate <agent> <task> /translate <text> <lang>
+  /sources /stats /help"""
             elif cmd in ("/sources", "sources"):
                 result = f"Medical Sources ({len(self.agent.list_sources())}):\n" + "\n".join(f"  {i}. {s}" for i, s in enumerate(self.agent.list_sources(), 1))
             elif cmd in ("/stats", "stats"):
-                result = f"MedicLaw | Queries: {len(self.agent.session['queries'])} | Sources: {len(self.agent.list_sources())} | Started: {self.agent.session['started']}"
+                result = f"MedicLaw | Queries: {len(self.agent.session["queries"])} | Sources: {len(self.agent.list_sources())} | Started: {self.agent.session["started"]}"
             elif cmd in ("/diagnose",) and args:
                 from agents.mediclaw.commands.diagnose import run as diagnose_run
                 result = diagnose_run(args, agent=self)
             elif cmd in ("/treatment", "/research", "/med") and args:
                 method = {"treatment": self.agent.treatment, "research": self.agent.research, "med": self.agent.research}[cmd.lstrip("/")]
                 result = method(args)
-                export = self.call_agent("fileclaw", f"/export md MedicLaw: {args}\n\n{result}")
-                if export: result = f"{export}\n\n{result}"
             elif cmd == "/medications" and args: result = self.agent.medications(args)
             elif cmd == "/interactions" and args: result = self.agent.interactions(args)
             elif cmd == "/warnings" and args: result = self.agent.warnings(args)
@@ -81,21 +75,20 @@ class MedicLawHandler(BaseAgent):
             elif cmd == "/prognosis" and args: result = self.agent.prognosis(args)
             elif cmd == "/referral" and args:
                 from agents.mediclaw.commands._helpers import lookup_hospitals
-                import re
-                # Get the core referral
                 base_result = self.agent.referral(args)
-                # Try to enrich with hospital data if location in query
-                loc_match = re.search(r'in\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*,?\s*([A-Z]{2})', args)
+                loc_match = re.search(r"in\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*,?\s*([A-Z]{2})", args)
                 if loc_match:
                     city_state = f"{loc_match.group(1)} {loc_match.group(2)}"
                     try:
-                        hospitals = lookup_hospitals(city_state)
+                        hospitals = lookup_hospitals(city_state, agent=self)
                         if hospitals.get("hospitals"):
                             base_result += f"\n\n### Facilities in {city_state}\n"
                             for h in hospitals["hospitals"][:3]:
-                                base_result += f"\n- **{h.get('name','?')}**"
-                                if h.get('address'): base_result += f"\n  {h['address']}"
-                                if h.get('phone'): base_result += f"\n  {h['phone']}"
+                                base_result += f"\n- **{h.get("name","?")}**"
+                                if h.get("address"): base_result += f"\n  {h["address"]}"
+                                if h.get("phone"): base_result += f"\n  {h["phone"]}"
+                                if h.get("url"): base_result += f"\n  {h["url"]}"
+                                if h.get("lat") and h.get("lon"): base_result += f"\n  {h["lat"]}, {h["lon"]}"
                     except Exception: pass
                 result = base_result
             elif cmd == "/emergency" and args:
@@ -110,20 +103,15 @@ class MedicLawHandler(BaseAgent):
                     result = str(result) if result else f"Agent {target} returned no response"
                 else: result = f"Unknown: {target}"
             elif cmd in ("/translate",) and args:
-                # Chain: mediclaw preserves medical terms -> interpretclaw translates -> docuclaw formats
                 target_lang = args.split()[-1] if args.split() else "Spanish"
                 instructions = """TRANSLATION REQUIREMENTS - PRESERVE EXACTLY:
 1. ALL medical terminology (diagnosis names, anatomical terms, procedure names) - DO NOT TRANSLATE
 2. ALL medication names (generic and brand) - DO NOT TRANSLATE
 3. ALL lab values and units - DO NOT TRANSLATE
 4. ALL ICD codes and medical coding - DO NOT TRANSLATE
-5. ALL healthcare provider names and facility names - DO NOT TRANSLATE
-6. Translate all explanatory text and patient guidance to the target language
-7. Preserve all formatting and section structure"""
-                payload = f"/translate to {target_lang}\n\n{instructions}\n\nFULL DOCUMENT TO TRANSLATE:\n{args[:5000]}"
-                translated = self.call_agent("interpretclaw", payload, timeout=120)
-                format_payload = f"/create formatted medical document: {target_lang} translation\n\n{str(translated)[:5000]}"
-                result = self.call_agent("docuclaw", format_payload, timeout=60)
+5. Translate all explanatory text and patient guidance to the target language"""
+                payload = f"/translate to {target_lang}\n\n{instructions}\n\n{args[:5000]}"
+                result = self.call_agent("interpretclaw", payload, timeout=120)
             elif cmd=="/shared" and args:
                 from data_io import read_shared, write_shared
                 parts2 = args.split(maxsplit=1); action = parts2[0]
@@ -137,36 +125,35 @@ class MedicLawHandler(BaseAgent):
                 else: result = "Usage: /shared read [key] | /shared write key:value"
             elif cmd in ("/hospital", "/hospitals") and args:
                 from agents.mediclaw.commands._helpers import lookup_hospitals
-                hospitals = lookup_hospitals(args)
+                hospitals = lookup_hospitals(args, agent=self)
                 if "error" in hospitals:
                     result = hospitals["error"]
                 else:
-                    lines = [f"Hospitals: {hospitals.get('city','')}, {hospitals.get('state','')}", "=" * 50]
+                    lines = [f"Hospitals: {hospitals.get("city","")}, {hospitals.get("state","")}", "=" * 50]
                     for h in hospitals.get("hospitals", []):
-                        lines.append(f"\n  {h.get('name','Unknown')}")
-                        if h.get('address'): lines.append(f"     Address: {h['address']}")
-                        if h.get('phone'): lines.append(f"     Phone: {h['phone']}")
-                        if h.get('url'): lines.append(f"     URL: {h['url']}")
-                        if h.get('lat') and h.get('lon'):
-                            lines.append(f"     GPS: {h['lat']}, {h['lon']}")
+                        lines.append(f"\n  {h.get("name","Unknown")}")
+                        if h.get("address"): lines.append(f"     Address: {h["address"]}")
+                        if h.get("phone"): lines.append(f"     Phone: {h["phone"]}")
+                        if h.get("url"): lines.append(f"     Website: {h["url"]}")
+                        if h.get("lat") and h.get("lon"): lines.append(f"     GPS: {h["lat"]}, {h["lon"]}")
                     result = "\n".join(lines)
             elif cmd == "/nearest" and args:
                 from agents.mediclaw.commands._helpers import find_nearest_hospital
-                parts = args.split(",")
-                if len(parts) == 2:
+                parts2 = args.split(",")
+                if len(parts2) == 2:
                     try:
-                        lat, lon = float(parts[0].strip()), float(parts[1].strip())
-                        hospitals = find_nearest_hospital(lat, lon)
+                        lat, lon = float(parts2[0].strip()), float(parts2[1].strip())
+                        hospitals = find_nearest_hospital(lat, lon, agent=self)
                         if "error" in hospitals:
                             result = hospitals["error"]
                         else:
                             lines = [f"Nearest Hospitals to ({lat}, {lon})", "=" * 50]
                             for h in hospitals.get("hospitals", []):
-                                lines.append(f"\n  {h.get('name','Unknown')}")
-                                if h.get('address'): lines.append(f"     {h['address']}")
-                                if h.get('phone'): lines.append(f"     Phone: {h['phone']}")
-                                if h.get('lat') and h.get('lon'):
-                                    lines.append(f"     GPS: {h['lat']}, {h['lon']}")
+                                lines.append(f"\n  {h.get("name","Unknown")}")
+                                if h.get("address"): lines.append(f"     {h["address"]}")
+                                if h.get("phone"): lines.append(f"     Phone: {h["phone"]}")
+                                if h.get("url"): lines.append(f"     Website: {h["url"]}")
+                                if h.get("lat") and h.get("lon"): lines.append(f"     GPS: {h["lat"]}, {h["lon"]}")
                             result = "\n".join(lines)
                     except ValueError:
                         result = "Usage: /nearest <lat>,<lon>"
@@ -183,164 +170,7 @@ class MedicLawHandler(BaseAgent):
                 else:
                     result = f"Usage: {cmd} <query>  |  Type /help for all commands"
 
-            # ================================================================
-            # CONSTITUTIONAL EXECUTION BOUNDARY - 23 systems.
-            # ================================================================
-            final_result = str(result)
-            if final_result and len(final_result) > 20:
-                try:
-                    from shared.lifecycle import agent_cleanup
-                    agent_cleanup("mediclaw", args or "", 0)
-                except Exception: pass
-                try:
-                    from shared.enforcement.engine import EnforcementEngine
-                    EnforcementEngine().load_reference("mediclaw_handler")
-                except Exception: pass
-                try:
-                    from shared.guarded_executor import GuardedExecutor
-                    GuardedExecutor("mediclaw")._check_and_record("handler_boundary", {"cmd": cmd})
-                except Exception: pass
-                try:
-                    from shared.execution_policy import ExecutionPolicy
-                    ExecutionPolicy().check("handler_boundary", {"cmd": cmd})
-                except Exception: pass
-                try:
-                    from shared.chronicle_helper import search_chronicle as chron_search
-                    chron_search(args or cmd, limit=3)
-                except Exception: pass
-                try:
-                    from shared.memory.procedural_memory import get_memory as get_proc_mem
-                    pmem = get_proc_mem("mediclaw")
-                    if len(final_result) > 100:
-                        pmem.add_rule(content=f"Cmd {cmd}: {final_result[:200]}", category=cmd.lstrip("/") if cmd.startswith("/") else "general", importance=0.6)
-                except Exception: pass
-                try:
-                    from shared.memory.three_tier import get_memory as get_three_tier
-                    get_three_tier("mediclaw").get_context(args or cmd, limit=5)
-                except Exception: pass
-                try:
-                    from shared.smart_router import SmartRouter
-                    SmartRouter().route(cmd)
-                except Exception: pass
-                try:
-                    from shared.agent_router import AgentRouter
-                    AgentRouter().detect_task(args or cmd)
-                except Exception: pass
-                try:
-                    from shared.validation import validate_schema
-                except Exception: pass
-                try:
-                    from shared.memory_guard import sanitize_memory_write
-                except Exception: pass
-                try:
-                    from shared.source_registry import get_trust
-                except Exception: pass
-                try:
-                    from shared.truth_resolver import merge_with_retriever
-                except Exception: pass
-                try:
-                    from shared.input_handler import InputHandler
-                except Exception: pass
-                try:
-                    from shared.permissions import PermissionSystem
-                except Exception: pass
-                try:
-                    from shared.registry import AgentRegistry
-                except Exception: pass
-                try:
-                    from shared.jurisdiction_validator import validate_jurisdiction
-                except Exception: pass
-                try:
-                    from shared.enforcement.gates import PreExecutionGate, PostExecutionGate
-                except Exception: pass
-                try:
-                    from shared.config import ConfigManager
-                except Exception: pass
-                try:
-                    from shared.constitutional_command import validate_command
-                except Exception: pass
-                try:
-                    from shared.court_rules_schema import CourtRulesSchema
-                except Exception: pass
-                try:
-                    from shared.decomposer import TaskDecomposer
-                except Exception: pass
-                try:
-                    from shared.output_handler import OutputHandler
-                except Exception: pass
-                try:
-                    from shared.router import TaskRouter
-                except Exception: pass
-                try:
-                    from shared.compactor import ContextCompactor
-                except Exception: pass
-                try:
-                    from shared.log_manager import get_logger
-                    get_logger().info(f"mediclaw.{cmd}", extra={"args": (args or "")[:100]})
-                except Exception: pass
-                try:
-                    from shared.shutdown import get_shutdown_manager
-                    get_shutdown_manager().register(lambda: None)
-                except Exception: pass
-                try:
-                    from shared.hooks.hook_manager import get_hook_manager
-                    get_hook_manager().register("post_command", lambda: None)
-                except Exception: pass
-                try:
-                    from shared.llm.budget import BudgetController
-                    budget = BudgetController()
-                    if not budget.check("mediclaw", estimated_cost=0.002).get("allowed", True):
-                        final_result = "[BUDGET] Daily limit reached."
-                except Exception: pass
-                try:
-                    from shared.rate_limiter import get_rate_limiter
-                    if not get_rate_limiter().check_daily_limits():
-                        final_result = "[RATE LIMIT] Too many requests."
-                except Exception: pass
-                try:
-                    from shared.error_handler import get_circuit_breaker
-                    get_circuit_breaker("mediclaw").call()
-                except Exception: pass
-                try:
-                    from shared.metrics import get_metrics
-                    get_metrics().counter("mediclaw_commands_total", "Total commands").inc()
-                except Exception: pass
-                try:
-                    from shared.security import get_audit_logger
-                    get_audit_logger().log_tool_call(cmd, {"args": (args or "")[:100]}, user="mediclaw")
-                except Exception: pass
-                try:
-                    from agents.mediclaw.commands._memory import remember
-                    remember(command=cmd, query=args or "", result_summary=final_result[:400], source_type="web_verified", confidence=0.85)
-                except Exception: pass
-                try:
-                    from shared._agent_helpers import learn
-                    learn("mediclaw", args or "", final_result[:500], "web_verified", 0.85)
-                except Exception: pass
-                try:
-                    from shared.decision_ledger import get_ledger
-                    get_ledger().record(agent="mediclaw", action=cmd, query=(args or "")[:200], result=final_result[:100])
-                except Exception: pass
-                try:
-                    from shared.consensus_engine import constitutional_consensus_check
-                    constitutional_consensus_check(final_result, args or "")
-                except Exception: pass
-                try:
-                    from shared.llm.auditor import ChronicleAuditor
-                    ChronicleAuditor().log(agent="mediclaw", prompt=(args or "")[:200], response={"result": final_result[:200]})
-                    budget.record("mediclaw", cost=0.002)
-                except Exception: pass
-                try:
-                    from shared.observability import get_health_checker
-                    get_health_checker().register("mediclaw_handler", lambda: True)
-                except Exception: pass
-                try:
-                    duration_ms = (time.time() - track_start) * 1000
-                    from agents.webclaw.core.chronicle_ledger import log_event
-                    log_event(agent="mediclaw", event="command_executed", detail=f"cmd={cmd} duration_ms={duration_ms:.0f}")
-                except Exception: pass
-
-            return {"status": "success", "result": str(final_result)}
+            return {"status": "success", "result": str(result)}
         except Exception as e:
             log_err("mediclaw", cmd or "unknown", str(e)[:200])
             return {"status": "error", "result": str(e)}

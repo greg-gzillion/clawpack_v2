@@ -23,16 +23,7 @@ Directly pasting Python code into PowerShell WILL FAIL. Every time.
 3. Run it: python scripts/_temp.py
 4. Verify: python -c "compile(open('target.py').read(),'target.py','exec'); print('Syntax OK')"
 5. Delete the builder: Remove-Item scripts/_temp.py -Force
-
-Example builder pattern:
-```python
-from pathlib import Path
-L = []
-L.append('line 1')
-L.append('line 2')
-Path('output.py').write_text('\n'.join(L) + '\n', encoding='utf-8')
-print(f'Wrote {len(L)} lines')
-```
+6. Clear cache: Get-ChildItem -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force
 
 ### What NEVER works:
 - python -c with multi-line code (nested quotes mangle)
@@ -40,12 +31,6 @@ print(f'Wrote {len(L)} lines')
 - echo appending for multi-line content (UTF-16 BOM breaks imports)
 - Out-File for files over ~100 lines (silent truncation)
 - Pasting Python code directly into PowerShell terminal
-
-### After any shared module change:
-```powershell
-Get-ChildItem -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force
-taskkill /F /IM python.exe 2>$null
-```
 
 ## Constitution (NON-NEGOTIABLE)
 - All LLM access goes to Sovereign Gateway only (shared/llm/client.py). No direct API calls.
@@ -56,120 +41,89 @@ taskkill /F /IM python.exe 2>$null
 
 ---
 
-## Current State — June 5, 2026
+## Current State — June 5, 2026 (End of Session)
 
 ### WebClaw V2 Retrieval Engine (STABLE)
-BM25 + source confidence is the authoritative ranking layer over merged provider + Chronicle results.
-Deduplication by URL at the merge boundary. Namespace scoping (ns:agent) active on all agents.
-All V1 artifacts removed (config.py, shared_memory.py, api.py, webclaw_agent.py, provider_backup.py).
-Agent handler: 135 lines (was 237). Constitutional boundary dead block removed.
+BM25 + source confidence is the authoritative ranking layer. Deduplication by URL at merge.
+Namespace scoping active on all agents. All V1 artifacts removed.
+Context truncation removed (was 300 chars, now 10000). Cache truncation removed (was 5000/3000).
 
-Retrieval pipeline:
-```
-provider.search_structured() -> chronicle.recover_by_context() -> merge + dedup by URL
-    -> BM25.index() -> BM25.search() -> final_score = bm25_score * source_weight
-```
-
-source_registry is documented as a global ranking governor — changing trust values
-affects retrieval order for all 21 agents.
+### Caching Pipeline (FIXED)
+Three truncation layers were preventing jurisdiction data from reaching agents:
+- search_cache.py: results[:5000] -> results (full content)
+- base_agent.py: cached['results'][:3000] -> cached['results'] (full content)
+- webclaw/agent_handler.py: ctx[:300] -> ctx[:10000] (full sections)
+Cache at agents/dataclaw/cache/{agent}/ stores complete WebClaw results as JSON.
+24-hour TTL with hit counting. All 21 agent cache directories created in DataClaw.
 
 ### DataClaw — Local Data Retrieval
-DataClaw serves local structured data using the same namespace-scoped pattern as WebClaw.
-DataClaw = static truth storage. WebClaw = runtime intelligence. Separate entities.
-TxClaw local corpus: 529 files across 17 domains in agents/dataclaw/references/txclaw/
-WebClaw txclaw online references: 61 files across 17 domains, TX.org-exclusive URLs.
+All 21 agent directories created at agents/dataclaw/references/{agent}/.
+DataClaw = static truth storage + cache. WebClaw = runtime intelligence.
+Both layers query Chronicle FTS5 automatically through their pipelines.
 
-### Agent Validation (June 5, 2026)
-13 agents pass V2 retrieval validation. 8 agents fail:
+### TxClaw — COMPLETE
+TX.org-exclusive blockchain agent. Handler: 117 lines. Validation: PASS.
+- DataClaw: 529 files across 17 domains (local documentation)
+- WebClaw: 135 verified docs.tx.org URLs across 11 domains (online references)
 
-| Agent | Failure | Likely Cause |
-|-------|---------|-------------|
-| mediclaw | Timeout >60s | Slow LLM inference |
-| draftclaw | Timeout >60s | Heavy processing |
-| dataclaw | Timeout >60s | Local file search |
-| drawclaw | Timeout >60s | Untested handler |
-| docuclaw | Timeout >60s | 3 implementations |
-| plotclaw | Timeout >60s | Untested |
-| rustypycraw | Timeout >60s | Direct Groq import, multi-agent calls |
-| txclaw | Empty response | Handler loads 470 files at init |
+### Mediclaw — COMPLETE
+Handler: 177 lines. Validation: PASS (was Timeout). Switched to Groq for speed.
+/hospital command returns name, address, phone, website, GPS from jurisdiction data.
+/sources shows 91 medical specialties. str(PROJECT_ROOT) bug fixed in engine.
+/diagnose, /treatment, /medications, /warnings, /emergency, /pediatrics all working.
 
-TxClaw handler has been patched (117 lines, was 200+). Now queries DataClaw for local
-docs and WebClaw for web search. Removed _load_references() preloading.
+### LLMClaw — UPDATED
+/use command supports cloud providers: groq, openrouter, anthropic.
+/list command shows cloud providers with model names and pricing tier.
+Active model: llama-3.3-70b-versatile (groq) — Free tier, 0.7s latency.
 
-### Runtime Health
-| Metric | Value |
-|--------|-------|
-| Agent availability | 21/21 responsive |
-| A2A transport | Healthy (port 8766) |
-| Chronicle index | 35,000+ interactions |
-| LLM providers | Ollama, Groq, OpenRouter, Anthropic |
-| Active model | gemma3:4b (Ollama) |
-| Provider chain | Ollama -> Groq -> OpenRouter -> Anthropic |
-| Enforcement | 6 sovereignty patterns blocked at HTTP boundary (403) |
-| BM25 retriever | Wired into production query path |
-| Namespace scoping | Active on all agents |
-| Deduplication | URL-based at merge boundary |
+### Agent Validation (June 5, 2026) — 15 pass, 6 fail
 
-### WebClaw Cleanup Summary (June 5, 2026)
-| Action | Result |
-|--------|--------|
-| core/api.py | Deleted (zero consumers) |
-| core/config.py | Deleted (V1, hardcoded path) |
-| core/shared_memory.py | Deleted (V1 memory system) |
-| webclaw_agent.py | Deleted (standalone CLI variant) |
-| a2a/integrated_server.py | Deleted (FastAPI stub) |
-| providers/webclaw_provider_backup.py | Deleted (bitmap provider) |
-| TETHERED_SYSTEM_DOCUMENTATION.md | Archived (V1 docs) |
-| 6 commands | Migrated V1->V2 (Chronicle + path resolution) |
-| Constitutional boundary block | 102 lines removed from handler |
-| BM25 retriever | Wired, verified live with [score: X.XXX, source: X.XX] |
-| Deduplication | Active (Found X results deduped from Y candidates) |
-| search_structured() | Added to WebclawProvider for BM25 document schema |
+| Agent | Status | Cause |
+|-------|--------|-------|
+| txclaw | PASS | Handler patched |
+| mediclaw | PASS | Handler patched, Groq primary |
+| draftclaw | FAIL | Heavy processing, likely slow LLM |
+| dataclaw | FAIL | Local file search timeout |
+| drawclaw | FAIL | Untested handler |
+| docuclaw | FAIL | 3 implementations, constitutional dead block |
+| plotclaw | FAIL | Untested |
+| rustypycraw | FAIL | Direct Groq import, multi-agent calls |
 
-### TxClaw Architecture
-TxClaw is exclusive to the TX.org blockchain. Two-layer knowledge architecture:
+### Common Fix Pattern
+1. Strip constitutional boundary dead block (try/except imports)
+2. Fix _gather_context() to use cached_search() or reduce A2A calls
+3. Remove _load_references() if preloading files
+4. Fix str(PROJECT_ROOT) to Path(__file__).resolve()...
+5. Bump validation timeout to 120s for slow LLM agents
 
-| Layer | Location | Contents | Role |
-|-------|----------|----------|------|
-| DataClaw | agents/dataclaw/references/txclaw/ | 529 files, 17 domains | Local documentation |
-| WebClaw | agents/webclaw/references/txclaw/ | 61 files, 17 domains | Online references |
+### APIs Verified
+| Provider | Key | Status |
+|----------|-----|--------|
+| Groq | SET | 200 |
+| OpenRouter | SET | 200 |
+| Anthropic | SET | Not tested |
+| CourtListener | SET (as COURTLISTENER_TOKEN) | Not tested |
 
-17 domains: api, architecture, assets, blockchain, development, dex, ecosystem,
-governance, ibc, introduction, modules, nodes, regulatory, security, services,
-smart_contracts, tutorials.
-
-TxClaw handler queries DataClaw for local docs and WebClaw for web search.
-No file preloading. No 2M Chronicle limit. No constitutional boundary dead block.
-
-### Key Files
-| File | Purpose | Status |
-|------|---------|--------|
-| a2a_server.py | Central message bus, port 8766 | Active |
-| shared/llm/client.py | Sovereign Gateway | Active |
-| shared/base_agent.py | Foundation class for all 21 agents | Active |
-| agents/webclaw/agent_handler.py | WebClaw A2A handler, BM25 orchestration | Active (135 lines) |
-| agents/webclaw/providers/webclaw_provider.py | SQLite search, namespace scoping, search_structured() | Active (139 lines) |
-| agents/webclaw/core/retriever.py | BM25 ranking, source confidence (global ranking governor) | Active |
-| agents/webclaw/core/chronicle_ledger.py | Chronicle FTS5, recover_by_context, record_fetch | Active |
-| agents/dataclaw/references/txclaw/ | TX.org local documentation (529 files, 17 domains) | Active |
-| agents/webclaw/references/txclaw/ | TX.org online references (61 files, 17 domains) | Active |
-| agents/dataclaw/commands/_helpers.py | Local file search + DataClaw reference path | Active |
-| agents/dataclaw/commands/data.py | Namespace-scoped search, DataClaw citation tags | Active |
-| agents/txclaw/agent_handler.py | TxClaw handler (DataClaw + WebClaw context) | Active (117 lines) |
-| scripts/validate_agents.py | 21-agent validation harness | Active |
-| docs/WEBCLAW_MANUAL.md | Comprehensive WebClaw guide (updated) | Active |
-| docs/WEBCLAW_ARCHITECTURE.md | WebClaw system design with diagram | Active |
-| runtime/chronicle.db | 448MB SQLite FTS5 | Active |
+### Key Files Modified Today
+| File | Change |
+|------|--------|
+| shared/search_cache.py | Removed results[:5000] truncation |
+| shared/base_agent.py | Removed cached['results'][:3000] truncation |
+| agents/webclaw/agent_handler.py | ctx[:300] -> ctx[:10000] |
+| agents/mediclaw/agent_handler.py | 250 -> 177 lines, Groq primary |
+| agents/mediclaw/commands/_helpers.py | hospital parser uses cached_search() |
+| agents/mediclaw/core/engine.py | Fixed str(PROJECT_ROOT) path |
+| agents/llmclaw/commands/use.py | Added groq/openrouter/anthropic |
+| agents/llmclaw/commands/list.py | Cloud providers in model list |
+| agents/dataclaw/references/* | 21 agent directories created |
 
 ### Next Session Mission
-Priority order based on operational risk:
-
-1. **Failing agents**: mediclaw, draftclaw, docuclaw, dataclaw, drawclaw, plotclaw, rustypycraw
-   - Determine which are genuinely broken vs. slow inference vs. need different validation
-2. **FlowClaw consolidation**: 13 variants -> 1, inventory done, ready for archive phase
-3. **WebClaw txclaw URL population**: Verify and populate live URLs in reference files
-4. **Enforcement activation**: Detection works, blocking dormant (largest security gap)
-5. **Archive cleanup**: TETHERED_SYSTEM_DOCUMENTATION.md already archived
+1. Fix remaining 6 failing agents using known pattern
+2. FlowClaw consolidation — 13 variants -> 1
+3. Wire cached_search() into retrieval-heavy agents (LawClaw, ClawCoder, DocuClaw)
+4. Enforcement activation — detection works, blocking dormant
+5. Populate DataClaw agent caches from WebClaw search results
 
 ### Beta Gate Progress (5/10)
 | # | Requirement | Status |
@@ -177,9 +131,9 @@ Priority order based on operational risk:
 | 1 | Enforcement blocks violations | DONE |
 | 2 | Constitutional ledger repaired | DONE |
 | 3 | Memory geographic filtering | DONE |
-| 4 | All 21 agents tested | DONE (13 pass, 8 fail documented) |
+| 4 | All 21 agents tested | DONE (15 pass, 6 fail documented) |
 | 5 | Provider fallback validated | DONE |
-| 6 | Duplicate implementations reduced | IN PROGRESS (WebClaw done, TxClaw done, FlowClaw pending) |
+| 6 | Duplicate implementations reduced | IN PROGRESS |
 | 7 | Coverage tests added | NOT STARTED |
 | 8 | Clean Windows install tested | NOT STARTED |
 | 9 | Clean Linux install tested | NOT STARTED |

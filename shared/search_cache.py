@@ -43,7 +43,7 @@ def cache_search(agent_name: str, query: str, results: str, urls: list = None) -
         "agent": agent_name,
         "query": query,
         "query_hash": qhash,
-        "results": results[:5000],  # Truncate to reasonable size
+        "results": results,  # Truncate to reasonable size
         "urls": urls or [],
         "cached_at": datetime.now(timezone.utc).isoformat(),
         "hit_count": 1,

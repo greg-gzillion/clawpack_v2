@@ -1,12 +1,12 @@
 {
-  "model": "gemma3:4b",
-  "source": "ollama",
+  "model": "llama-3.3-70b-versatile",
+  "source": "groq",
   "set_at": "2026-05-29T12:00:00",
   "set_by": "llmclaw",
   "providers": {
     "ollama": {
       "model": "gemma3:4b",
-      "priority": 1,
+      "priority": 2,
       "timeout": 60,
       "type": "normal"
     },
@@ -18,9 +18,10 @@
     },
     "groq": {
       "model": "llama-3.3-70b-versatile",
-      "priority": 2,
+      "priority": 1,
       "timeout": 60,
-      "type": "cloud"
+      "type": "cloud",
+      "note": "Free tier, 0.7s"
     },
     "direct_model": {
       "model": "phi2",

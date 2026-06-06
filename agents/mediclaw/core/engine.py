@@ -1,4 +1,4 @@
-﻿"""Core Medical Engine - uses chronicle index + LLMClaw with citations"""
+"""Core Medical Engine - uses chronicle index + LLMClaw with citations"""
 import sys
 from pathlib import Path
 
@@ -57,7 +57,7 @@ class MedicalEngine:
         )
 
     def list_sources(self) -> list:
-        path = Path("str(PROJECT_ROOT)/agents/webclaw/references/mediclaw")
+        path = Path(__file__).resolve().parent.parent.parent.parent / "agents" / "webclaw" / "references" / "mediclaw"
         if path.exists():
             return sorted([d.name for d in path.iterdir() if d.is_dir()])
         return []

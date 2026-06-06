@@ -124,7 +124,7 @@ class WebClawAgent(BaseAgent):
                     )
                     ctx = doc.get('context', '')
                     if ctx:
-                        lines.append(f"   {ctx[:300]}...")
+                        lines.append(f"   {ctx[:3000]}...")
                     lines.append("")
                 result = "\n".join(lines)
             else:
