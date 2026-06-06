@@ -4,74 +4,104 @@
 1. python scripts/scan.py
 2. python scripts/onboard.py
 3. docs/KNOWN_TRAPS.md
-4. docs/READ_THIS_FIRST.md
+4. CLAWPACK_ONBOARD.md  <-- YOUR PRIMARY REFERENCE
 
-## Mission: Build the AI Onboarding Infrastructure
+## Current State (June 5, 2026 End of Session)
 
-These are the 8 deliverables suggested by the June 4 external audit.
-Complete them in order. Each one makes the next easier.
+- **Validation**: 21/21 agents pass
+- **Provider**: Groq primary (llama-3.3-70b-versatile, 0.7s, free)
+- **BM25**: Retrieval engine stable. 9 agents show markers, 12 route through LLM
+- **Cache**: Infrastructure exists (shared/search_cache.py). Only lawclaw populated.
+- **Ledger**: Repaired. No lifecycle errors.
+- **TxClaw**: Complete. 135 docs.tx.org URLs, 529 local files, cached_search wired.
+- **Mediclaw**: Complete. 91 specialties, /hospital with GPS/URLs, cached_search wired.
+- **DocuClaw/ClawCoder**: cached_search wired in _gather_context().
 
-### 1. Dependency Map Generator (scripts/dependency_map.py)
-Script that prints import trees for all 21 agents.
-python scripts/dependency_map.py
-Output shows which files each agent_handler.py actually imports.
-Purpose: Immediately identifies dead code safe to archive.
-Reference: FlowClaw inventory already done (agents/flowclaw/ - 13 variants, 0 imported).
+## Priority 1: Cache Population (HIGHEST PRIORITY)
 
-### 2. Agent Jurisdiction Registry (shared/jurisdiction_registry.json)
-{
-  "lawclaw": {"domain": "legal", "can_call": ["webclaw","docuclaw","interpretclaw"]},
-  "docuclaw": {"domain": "documents", "can_call": ["webclaw","lawclaw"]},
-  ...
-}
-Purpose: Executable jurisdiction map. Verify agents stay in bounds.
+cached_search() exists and works. Only lawclaw has cache entries.
+Goal: WebClaw -> DataClaw cache -> local-first retrieval for all agents.
 
-### 3. Technical Debt Dashboard (docs/TECHNICAL_DEBT.md)
-One-page report listing remaining issues by severity.
-HIGH: Security review, prompt injection testing
-MEDIUM: FlowClaw variants (13), DocuClaw variants (3), MedicLaw provider duplication
-LOW: STATE_NAMES deduplication, LangClaw backup directory
-Purpose: Next agent knows exactly where to work.
+### Debug Checklist
+```
+# Check current cache state
+python -c "from shared.search_cache import get_cache_stats; import json; print(json.dumps(get_cache_stats(), indent=2))"
 
-### 4. Architecture Decision Log (docs/ARCHITECTURE_LOG.md)
-Chronological record of major irreversible decisions.
-Include: date, decision, reason, what breaks if reversed.
-Key entries: May 30 handler injection ban, June 4 Chronicle removal, June 4 namespace scoping.
-Purpose: Prevent future agents from undoing deliberate architecture.
+# List cache directories
+Get-ChildItem agents\dataclaw\cache -Recurse
 
-### 5. Milestone Record (docs/MILESTONES.md)
-Named milestones, not just dates.
-WebClaw Isolation Refactor (June 4, 2026)
-Sovereign Gateway Stabilization (June 2-4, 2026)
-LLM Consolidation (June 4, 2026)
-Purpose: Future agents understand WHY the architecture looks this way.
+# Verify cached_search exists
+python -c "from shared.base_agent import BaseAgent; print(hasattr(BaseAgent, 'cached_search'))"
+```
 
-### 6. Runtime Architecture Diagram (docs/ARCHITECTURE_DIAGRAM.md)
-One-screen ASCII art diagram:
-User -> Menu -> A2A Server -> Agent -> BaseAgent -> WebClaw -> Sovereign Gateway -> Provider Chain -> Response
-Purpose: 30-second mental model for any AI agent.
+Verify each step: cached_search() called -> cache_result() called -> directory
+created -> file written -> hit occurs -> hit count increments.
 
-### 7. Expand scan.py with Status Dashboard
-Add sections: ARCHITECTURE (pass/fail), TECHNICAL DEBT (counts), SECURITY (status), BETA GATE (x/10)
-Purpose: One-command executive summary.
+Investigate why agents calling cached_search() (mediclaw, txclaw, docuclaw,
+claw_coder) aren't creating cache directories under agents/dataclaw/cache/.
 
-### 8. Update READ_THIS_FIRST.md
-After building all the above, update the Essential Files section to include them.
-Purpose: Next next agent has everything.
+## Priority 2: BM25 Visibility
 
-## Rules (from KNOWN_TRAPS.md)
-- NEVER inject code into agent handlers. Use command files.
-- NEVER python -c with multi-line code in PowerShell. Write to scripts/_temp.py.
-- NEVER use PowerShell heredocs with Python code.
-- ALWAYS clear __pycache__ after shared module changes.
-- ALWAYS scope WebClaw searches with namespace.
-- NEVER add Chronicle context to ask_llm().
+BM25 markers (score:, source:, deduped from) exist in retrieval context
+but ask_llm() converts them to natural language. 12 agents show as
+"non-search" in validation because markers never reach the response.
 
-## Current State (June 4, 2026)
-- Version: 3.2.0
-- Agents: 21/21 operational
-- Active model: gemma3:4b (Ollama, GTX 970 4GB)
-- Beta gates: 5/10 complete
-- FlowClaw: 13 variants inventoried, ready to archive
-- Scripts: cleaned to 17 files
-- Next commit should be one of the deliverables above
+Recommended: split-command approach
+- /search -> return raw retrieval output with BM25 markers
+- Normal requests -> retrieval context -> ask_llm() -> natural language
+
+## Priority 3: _gather_context() Migration
+
+12 agents still use raw call_agent('webclaw', ...) instead of cached_search().
+Pattern is established. Replace in _gather_context() one agent at a time:
+
+```python
+# Before:
+web = self.call_agent("webclaw", f"search ns:{agent} {query}", timeout=15)
+
+# After:
+web = self.cached_search(f"ns:{agent} {query}")
+```
+
+Test after each agent: restart server, run validate_agents.py, verify 21/21.
+Check cache stats to confirm directory creation and hit counting.
+
+### Migration Order
+| Tier | Agents |
+|------|--------|
+| 1 (done) | txclaw, docuclaw, claw_coder |
+| 2 (next) | draftclaw, crustyclaw, mathematicaclaw |
+| 3 | drawclaw, plotclaw, flowclaw |
+| Skip | fileclaw, llmclaw (no retrieval needed) |
+
+## Priority 4: FlowClaw Consolidation
+
+13 flowclaw*.py variants inventoried. Dependency map done.
+agent_handler.py imports engine/, viewer/, exporters/ — those are canonical.
+Archive the unused variants. Risk: MEDIUM. Follow FLOWCLAW RULE: no deletions
+in first session, read-only inventory first.
+
+## Priority 5: Enforcement Activation
+
+Detection works (6 sovereignty patterns blocked at HTTP boundary).
+Full EnforcementEngine (PreExecutionGate, PostExecutionGate) is DORMANT.
+Activate: wire enforcement/engine.py and enforcement/gates.py into A2A path.
+
+## After Any Shared Module Change
+
+1. Delete __pycache__: Get-ChildItem -Recurse -Directory -Filter "__pycache__" | Remove-Item -Recurse -Force
+2. Compile: python -c "compile(open('file.py').read(),'file.py','exec'); print('OK')"
+3. Validate: python scripts/validate_agents.py
+4. Verify 21/21 pass
+5. Check cache: python -c "from shared.search_cache import get_cache_stats; print(get_cache_stats())"
+
+## Key Reference Files
+
+| File | Purpose |
+|------|---------|
+| CLAWPACK_ONBOARD.md | Primary reference — architecture, state, debug checklists |
+| docs/KNOWN_TRAPS.md | Mistakes that cost hours |
+| POWERSHELL_SURVIVAL_GUIDE.md | How to write files in this environment |
+| docs/WEBCLAW_MANUAL.md | WebClaw complete guide |
+| docs/WEBCLAW_ARCHITECTURE.md | WebClaw system design |
+| scripts/validate_agents.py | 21-agent validation harness |
