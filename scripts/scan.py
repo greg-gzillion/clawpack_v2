@@ -119,7 +119,7 @@ for hp in (ROOT / "agents").rglob("agent_handler.py"):
     for i, line in enumerate(lns):
         if line.strip() == "except:" and i+1 < len(lns):
             if lns[i+1].strip() == "pass":
-                warn(f"Article VII: {agent} bare except:pass at line {i+1}"); art7 += 1; break
+                warn(f"Article VII: {agent} bare except:pass at line {i+1}"); art7 += 1
     if "gather_context" in content and "ns:" not in content and "cached_search" not in content:
         warn(f"Namespace: {agent} _gather_context missing ns: prefix"); ns_bad += 1
 if art1 == 0: ok("Article I (Sovereignty): clean")
