@@ -104,36 +104,31 @@ class WebclawProvider:
         return "\n".join(output)
     
     def search_structured(self, query: str, max_results: int = 20, namespace: str = None) -> List[Dict]:
-        """Return structured results for BM25 ranking. Compatible with core/retriever.py."""
-        if not self.db_path.exists():
+        """Return structured results for BM25 ranking. Compatible with core/retriever.py.
+
+        Now queries Chronicle (runtime/chronicle.db) instead of the frozen
+        web_cache.db snapshot from April 2026. Chronicle indexes the same
+        corpus plus current content, so this is the single source of truth.
+        """
+        from agents.webclaw.core.chronicle_ledger import get_chronicle
+
+        try:
+            chronicle = get_chronicle()
+            scoped_query = f"ns:{namespace} {query}" if namespace else query
+            chronicle_results = chronicle.recover_by_context(scoped_query, limit=max_results)
+        except Exception:
             return []
-        
-        conn = sqlite3.connect(str(self.db_path))
-        cursor = conn.cursor()
-        
-        terms = query.lower().split()
+
         docs = []
         seen_urls = set()
-        
-        for term in terms:
-            cursor.execute("""
-                SELECT DISTINCT si.url, wc.content, si.frequency
-                FROM search_index si
-                LEFT JOIN web_cache wc ON si.url = wc.url
-                WHERE si.term LIKE ? AND (? IS NULL OR si.url LIKE ?)
-                ORDER BY si.frequency DESC
-                LIMIT ?
-            """, (f"%{term}%", namespace, f"%{namespace}%" if namespace else None, max_results))
-            
-            for row in cursor.fetchall():
-                url = row[0]
-                if url not in seen_urls:
-                    seen_urls.add(url)
-                    docs.append({
-                        "url": url,
-                        "context": row[1] or "",
-                        "source": "web_cache",
-                    })
-        
-        conn.close()
-        return docs[:max_results]
+        for r in chronicle_results:
+            url = r.get("url", "") if isinstance(r, dict) else ""
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            docs.append({
+                "url": url,
+                "context": (r.get("context", "") if isinstance(r, dict) else str(r)) or "",
+                "source": "chronicle",
+            })
+        return docs
