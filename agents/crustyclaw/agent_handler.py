@@ -1,4 +1,4 @@
-﻿"""A2A Handler for CrustyClaw v5 - Constitutional Rust agent"""
+"""A2A Handler for CrustyClaw v5 - Constitutional Rust agent"""
 import sys, os, json, subprocess, time
 from pathlib import Path
 from datetime import datetime
@@ -59,8 +59,8 @@ class CrustyClawAgent(BaseAgent):
                         timeout=30
                     )
                     return result.stdout or result.stderr
-                except:
-                    pass
+                except Exception as e:
+                    log_err("crustyclaw", "rust_toolchain", str(e)[:200])
         return None
 
     def handle(self, task):

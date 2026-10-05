@@ -100,8 +100,8 @@ class DocuClawAgent(BaseAgent):
             result = self.call_agent("fileclaw", f"/export {fmt} {safe_content}")
             if result:
                 return result
-        except:
-            pass
+        except Exception as e:
+            log_err("docuclaw", "fileclaw_delegate", str(e)[:200])
         EXPORTS.mkdir(exist_ok=True)
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         fn = EXPORTS / f"docuclaw_{ts}.{fmt}"
@@ -115,11 +115,12 @@ class DocuClawAgent(BaseAgent):
             result = self.call_agent("fileclaw", f"/import {safe_path}")
             if result:
                 return result
-        except:
-            pass
+        except Exception as e:
+            log_err("docuclaw", "fileclaw_import", str(e)[:200])
         try:
             return Path(filepath).read_text(encoding="utf-8", errors="replace")
-        except:
+        except Exception as e:
+            log_err("docuclaw", "file_read_fallback", str(e)[:200])
             return None
 
     def handle(self, task):

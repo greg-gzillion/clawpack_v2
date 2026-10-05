@@ -35,11 +35,8 @@ class DraftClawAgent(BaseAgent):
         return "\n".join(parts) if parts else ""
 
     def _log_error(self, context, error):
-        """Safe error logger."""
-        try:
-            print(f"[draftclaw] {context}: {error}", flush=True)
-        except:
-            pass
+        """Safe error logger — routes to constitutional audit."""
+        log_err("draftclaw", context, str(error)[:200])
 
     def _filter_fake_engineering(self, text):
         """Replace inference-tier structural values with DESIGN REQUIRED placeholders."""
@@ -62,8 +59,8 @@ class DraftClawAgent(BaseAgent):
         if url:
             try:
                 webbrowser.open(url)
-            except:
-                pass
+            except Exception as e:
+                log_err("draftclaw", "webbrowser_open_ahj", str(e)[:200])
 
     def _fileclaw_export(self, fmt, content):
         # Validate format against whitelist - prevents path traversal via extension
@@ -134,8 +131,8 @@ class DraftClawAgent(BaseAgent):
             try:
                 from shared.truth_resolver import merge_with_retriever
                 result = merge_with_retriever(result, source='chronicle')
-            except:
-                pass
+            except Exception as e:
+                log_err("draftclaw", "truth_resolver_merge", str(e)[:200])
             return result
 
         return {
@@ -274,8 +271,8 @@ class DraftClawAgent(BaseAgent):
                     if contact.get('url'):
                         try:
                             webbrowser.open(contact['url'])
-                        except:
-                            pass
+                        except Exception as e:
+                            log_err("draftclaw", "webbrowser_open_contact", str(e)[:200])
                 else:
                     result = f"No jurisdiction found for: {query}"
                 return {"status":"success","result":result}
@@ -354,8 +351,8 @@ class DraftClawAgent(BaseAgent):
                 if jur_data.get('contact', {}).get('url'):
                     try:
                         webbrowser.open(jur_data['contact']['url'])
-                    except:
-                        pass
+                    except Exception as e:
+                        log_err("draftclaw", "webbrowser_open_permit", str(e)[:200])
                 prompt = f"Generate a permit application compliance package for: {query}\n\nInclude:\n1. Jurisdiction: {jur_data['name']}\n2. Applicable Codes: {codes}\n3. Occupancy classification per IBC Chapter 3\n4. Construction type per IBC Chapter 6\n5. Fire separation requirements per IBC Chapter 7\n6. Egress calculations per IBC Chapter 10\n7. Accessibility requirements per ADA 2010\n8. Permit submission checklist\n9. Required stamped drawings list\n10. AHJ review notes\n\nCite specific code sections."
                 if refs:
                     prompt = f"Reference codes:\n{refs[:3000]}\n\n{prompt}"
@@ -375,8 +372,8 @@ class DraftClawAgent(BaseAgent):
                 if jur_data.get('contact', {}).get('url'):
                     try:
                         webbrowser.open(jur_data['contact']['url'])
-                    except:
-                        pass
+                    except Exception as e:
+                        log_err("draftclaw", "webbrowser_open_structural", str(e)[:200])
                 result += f"{nl}{nl}---{nl}## Structural Package Control{nl}| Field | Value |{nl}|-------|-------|{nl}| **Generated** | {datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')} |{nl}| **Jurisdiction** | {jur_data['name']} |{nl}| **Design Criteria** | Frost: {c.get('frost_depth','N/A')} | Snow: {c.get('snow_load','N/A')} | Wind: {c.get('wind_speed','N/A')} | Seismic: {c.get('seismic','N/A')} |{nl}| **WARNING** | REQUIRES PE/SE STAMP PRIOR TO CONSTRUCTION |{nl}{nl}*NOT FOR CONSTRUCTION*"
 
             elif cmd in ("/blueprint","/floorplan") and query:

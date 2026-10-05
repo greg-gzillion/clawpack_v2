@@ -15,8 +15,8 @@ def _get_working_llms():
     if f.exists():
         try:
             return json.loads(f.read_text(encoding="utf-8"))
-        except:
-            pass
+        except Exception as e:
+            log_err("llmclaw", "working_llms_parse", str(e)[:200])
     return []
 
 def _get_active():
@@ -24,8 +24,8 @@ def _get_active():
     if f.exists():
         try:
             return json.loads(f.read_text())
-        except:
-            pass
+        except Exception as e:
+            log_err("llmclaw", "active_model_parse", str(e)[:200])
     return {"model": "llama-3.1-8b-instant", "source": "groq"}
 
 def _set_active(model_name, source):
@@ -98,7 +98,8 @@ Return ONLY valid JSON, no other text:"""
                 plan = json.loads(json_match.group())
             else:
                 plan = json.loads(plan_json)
-        except:
+        except Exception as e:
+            log_err("llmclaw", "plan_json_parse", str(e)[:200])
             plan = {"agents": [
                 {"agent": "webclaw", "task": f"search {query}"}
             ]}
@@ -111,8 +112,8 @@ Return ONLY valid JSON, no other text:"""
                 result = self.call_agent(agent, task, timeout=20)
                 if result and "Error" not in str(result) and "error" not in str(result).lower():
                     context_parts.append(f"[{agent}]: {result[:1000]}")
-            except:
-                pass
+            except Exception as e:
+                log_err("llmclaw", "delegate_agent", str(e)[:200])
         
         chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:

@@ -198,8 +198,8 @@ def _execute(self, payload):
                     tmp.write(html)
                     tmp.close()
                     subprocess.Popen(['cmd', '/c', 'start', '', tmp.name], shell=True)
-                except:
-                    pass
+                except Exception as e:
+                    log_err("flowclaw", "browser_launch", str(e)[:200])
 
             result = f"`mermaid\n{code}\n`"
             final_result = str(result)
