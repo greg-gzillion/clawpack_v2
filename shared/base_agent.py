@@ -264,9 +264,12 @@ class BaseAgent:
             # Search via webclaw
             result = self.call_agent("webclaw", f"search {query}", timeout=timeout)
             
-            # Cache the result
-            if result and len(result) > 20:
-                cache_search(self.name, query, str(result))
+            # Cache the result — reject error/timeout strings (Article VII safe)
+            if result and len(result) > 100:
+                s_check = str(result).lower()[:200]
+                if "timed out" not in s_check and "connection" not in s_check \
+                   and "error" not in s_check[:50] and "traceback" not in s_check:
+                    cache_search(self.name, query, str(result))
             
             return str(result) if result else ""
         except Exception as e:
