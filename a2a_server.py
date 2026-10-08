@@ -315,6 +315,18 @@ def main():
     print(f"  http://127.0.0.1:{port}")
     print(f"\n  {len(AGENTS)} Agents Registered")
     print("  Three-Tier Memory: ACTIVE")
+
+    # Warm up the mem0-backed UnifiedMemory singleton (BaseAgent.memory).
+    # This is separate from a2a_memory (three-tier) above. Cold init costs
+    # 3-4s (Qdrant + fastembed model load); warming up here means the first
+    # user request doesn't pay that cost.
+    try:
+        from shared.memory.unified_memory import get_memory
+        get_memory()
+        print("  Mem0 Memory: ACTIVE (warm)")
+    except Exception as e:
+        print(f"  Mem0 Memory: WARN ({str(e)[:80]})")
+
     print("  WebClaw Direct Integration: ACTIVE")
     print("  Lifecycle Supervisor: ACTIVE")
     print("\nEndpoints:")
