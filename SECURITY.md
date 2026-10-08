@@ -17,7 +17,7 @@ Currently supported versions with security updates:
 If you discover a security vulnerability in Clawpack, please:
 
 1. **DO NOT** open a public GitHub issue
-2. **DO** email us directly at security@clawpack.io (or your preferred contact)
+2. **DO** email us at gjf20842@gmail.com
 3. **Provide** as much detail as possible:
    - Affected components (which agent: FlowClaw, DocuClaw, TXClaw, etc.)
    - Steps to reproduce
