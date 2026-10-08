@@ -182,11 +182,23 @@ class UnifiedMemory:
             return {"error": str(e)}
 
 
+import threading
+
 _instance: Optional[UnifiedMemory] = None
+_instance_lock = threading.Lock()
 
 
 def get_memory() -> UnifiedMemory:
+    """Thread-safe singleton.
+
+    Qdrant embedded storage holds a file lock. If two threads each
+    create a UnifiedMemory(), the second one blocks forever waiting
+    for the lock. Double-checked locking ensures only one instance
+    is ever created per process.
+    """
     global _instance
     if _instance is None:
-        _instance = UnifiedMemory()
+        with _instance_lock:
+            if _instance is None:
+                _instance = UnifiedMemory()
     return _instance
