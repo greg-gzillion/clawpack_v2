@@ -15,7 +15,7 @@ def run(args):
 
     # Cloud providers (fast API-based)
     CLOUD = {
-        "groq": {"model": "llama-3.3-70b-versatile", "note": "Free tier, 0.7s"},
+        "groq": {"model": "openai/gpt-oss-20b", "note": "Free tier, 0.7s"},
         "openrouter": {"model": "google/gemma-4-26b-a4b-it:free", "note": "Free tier, 0.7s"},
         "anthropic": {"model": "claude-haiku-4-5-20251001", "note": "Paid, 1.2s"},
     }

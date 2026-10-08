@@ -23,14 +23,19 @@ def detect_providers(config):
         pass
     # Build provider list
     if config.get('GROQ_API_KEY'):
-        providers.append({'type': LLMProvider.GROQ, 'key': config['GROQ_API_KEY'], 'model': 'llama-3.3-70b-versatile', 'base_url': 'https://api.groq.com/openai/v1', 'cost_per_call': 0.0, 'priority': _priorities.get('groq', 1)})
+        try:
+            _am_groq = _j.loads(open('models/active_model.json').read())
+            groq_model = _am_groq.get('providers', {}).get('groq', {}).get('model', 'openai/gpt-oss-20b')
+        except Exception:
+            groq_model = 'openai/gpt-oss-20b'
+        providers.append({'type': LLMProvider.GROQ, 'key': config['GROQ_API_KEY'], 'model': groq_model, 'base_url': 'https://api.groq.com/openai/v1', 'cost_per_call': 0.0, 'priority': _priorities.get('groq', 1)})
     if check_ollama():
         try:
             import json as _j2
             am2 = _j2.loads(open('models/active_model.json').read())
-            ollama_model = am2.get('model', 'deepseek-r1:8b')
+            ollama_model = am2.get('providers', {}).get('ollama', {}).get('model', 'gemma3:4b')
         except Exception:
-            ollama_model = 'deepseek-r1:8b'
+            ollama_model = 'gemma3:4b'
         providers.append({'type': LLMProvider.OLLAMA, 'model': ollama_model, 'base_url': 'http://localhost:11434', 'cost_per_call': 0.0, 'priority': _priorities.get('ollama', 2)})
     if config.get('OPENROUTER_API_KEY'):
         providers.append({'type': LLMProvider.OPENROUTER, 'key': config['OPENROUTER_API_KEY'], 'model': 'google/gemma-4-26b-a4b-it:free', 'base_url': 'https://openrouter.ai/api/v1', 'cost_per_call': 0.002, 'priority': _priorities.get('openrouter', 3)})
@@ -43,7 +48,7 @@ def detect_providers(config):
         try:
             import json as _j3
             am3 = _j3.loads(open('models/active_model.json').read())
-            dn = am3.get('model', 'phi2')
+            dn = am3.get('providers', {}).get('direct_model', {}).get('model', 'phi2')
         except Exception:
             dn = 'phi2'
         providers.append({'type': LLMProvider.DIRECT_MODEL, 'model': dn, 'base_url': 'local', 'cost_per_call': 0.0, 'priority': _priorities.get('direct_model', 99)})

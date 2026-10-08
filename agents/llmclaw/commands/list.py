@@ -17,7 +17,7 @@ def run(args):
 
     # Cloud providers
     CLOUD = {
-        "groq": "llama-3.3-70b-versatile (Free, 0.7s)",
+        "groq": "openai/gpt-oss-20b (Free, 0.7s)",
         "openrouter": "google/gemma-4-26b-a4b-it:free (Free, 0.7s)",
         "anthropic": "claude-haiku-4-5-20251001 (Paid, 1.2s)",
     }
