@@ -22,7 +22,7 @@ class TXClawA2AHandler(BaseAgent):
         parts = []
         
         # Local TX.org documentation via DataClaw
-        data = self.call_agent("dataclaw", f"/search ns:txclaw {query}", timeout=15)
+        data = self.call_agent("dataclaw", f"/search ns:txclaw {query}", timeout=5)
         if data:
             parts.append("[DataClaw]: " + str(data)[:2000])
         
