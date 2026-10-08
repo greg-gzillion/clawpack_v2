@@ -6,7 +6,8 @@ Currently supported versions with security updates:
 
 | Version | Supported |
 | ------- | --------- |
-| 2.x     | ✅ |
+| 3.x     | ✅ |
+| 2.x     | ❌ |
 | < 2.0   | ❌ |
 
 ## Reporting a Vulnerability
@@ -27,7 +28,7 @@ If you discover a security vulnerability in Clawpack, please:
 
 - **Initial Response**: Within 48 hours
 - **Status Updates**: Every 5-7 days until resolution
-- **Fix Timeline**: 
+- **Fix Timeline**:
   - Critical issues: 7-14 days
   - High severity: 30 days
   - Medium/Low: Next major release
@@ -37,7 +38,7 @@ If you discover a security vulnerability in Clawpack, please:
 Clawpack components covered by this policy:
 - Core LLM manager
 - Chronicle index system
-- All agents (FlowClaw, DocuClaw, MathematicaClaw, TXClaw, DataClaw, WebClaw)
+- All 21 agents (including but not limited to FlowClaw, DocuClaw, MathematicaClaw, TXClaw, DataClaw, WebClaw)
 - API routes
 - Shared utilities
 
@@ -48,3 +49,7 @@ We follow responsible disclosure practices and thank security researchers who he
 ---
 
 **Security is a journey, not a destination.** Help us make Clawpack safer for everyone.
+
+---
+
+*Last reviewed: 2026-10-08*
