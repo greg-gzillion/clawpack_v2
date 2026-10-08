@@ -16,49 +16,92 @@ SEARCH_EXTENSIONS = {'.md', '.txt', '.py', '.json', '.csv', '.yaml', '.rs', '.go
 
 
 def search_local_files(query: str, max_results: int = 10) -> list:
-    """Search local filesystem for query matches. Returns list of result dicts."""
-    results = []
-    search_paths = [
-        DATACLAW_REFS,
-        PROJECT_ROOT / "docs",
-        PROJECT_ROOT / "data",
-        PROJECT_ROOT / "agents" / "webclaw" / "references",
-        PROJECT_ROOT / "exports"
-    ]
-    query_lower = query.lower()
-    for search_path in search_paths:
-        if not search_path.exists():
-            continue
-        for file_path in search_path.rglob("*"):
-            if any(skip in str(file_path).lower() for skip in SKIP_DIRS):
-                continue
-            if file_path.is_file() and file_path.suffix in SEARCH_EXTENSIONS:
-                try:
-                    if query_lower in file_path.name.lower():
-                        results.append({
-                            "file": str(file_path.relative_to(PROJECT_ROOT)),
-                            "match": "filename",
-                            "size": file_path.stat().st_size
-                        })
-                    else:
-                        content = file_path.read_text(encoding="utf-8", errors="ignore")
-                        if query_lower in content.lower():
-                            for i, line in enumerate(content.split('\n')):
-                                if query_lower in line.lower():
-                                    results.append({
-                                        "file": str(file_path.relative_to(PROJECT_ROOT)),
-                                        "match": f"line {i+1}: {line.strip()[:200]}",
-                                        "size": file_path.stat().st_size
-                                    })
-                                    break
-                except Exception:
-                    pass
-                if len(results) >= max_results:
-                    break
-        if len(results) >= max_results:
-            break
-    return results
+    """Search the DataClaw file index (FTS5) for query matches.
 
+    Uses agents/dataclaw/references/data_index.db. If the index is missing,
+    returns an empty list (run scripts/_rebuild_data_index.py to build it).
+
+    Return shape: [{"file": str, "match": str, "size": int}]
+    """
+    import sqlite3
+
+    index_db = DATACLAW_REFS / "data_index.db"
+    if not index_db.exists():
+        return []
+
+    query = query.strip()
+    if not query:
+        return []
+
+    results = []
+    seen_paths = set()
+
+    try:
+        conn = sqlite3.connect(str(index_db))
+        conn.row_factory = sqlite3.Row
+        c = conn.cursor()
+
+        # Sanitize query for FTS5 — wrap terms in quotes for literal matching
+        # but keep basic AND behavior
+        terms = [t for t in query.lower().split() if len(t) > 1]
+        if not terms:
+            conn.close()
+            return []
+
+        # Try FTS5 first (fast path)
+        try:
+            fts_query = " OR ".join(f'"{t}"' for t in terms)
+            c.execute("""
+                SELECT fi.path, fi.filename, fi.size,
+                       snippet(file_index_fts, 1, '<<', '>>', '...', 20) as snippet
+                FROM file_index_fts
+                JOIN file_index fi ON fi.id = file_index_fts.rowid
+                WHERE file_index_fts MATCH ?
+                ORDER BY rank
+                LIMIT ?
+            """, (fts_query, max_results))
+            for row in c.fetchall():
+                path = row["path"]
+                if path in seen_paths:
+                    continue
+                seen_paths.add(path)
+                match = "content"
+                snippet = row["snippet"] or ""
+                if snippet:
+                    match = f"snippet: {snippet[:180]}"
+                results.append({
+                    "file": path,
+                    "match": match,
+                    "size": row["size"] or 0,
+                })
+        except Exception:
+            pass
+
+        # Fallback: direct filename LIKE if FTS5 gave nothing
+        if not results:
+            like = f"%{terms[0]}%"
+            c.execute("""
+                SELECT path, filename, size
+                FROM file_index
+                WHERE LOWER(filename) LIKE ?
+                LIMIT ?
+            """, (like, max_results))
+            for row in c.fetchall():
+                path = row["path"]
+                if path in seen_paths:
+                    continue
+                seen_paths.add(path)
+                results.append({
+                    "file": path,
+                    "match": "filename",
+                    "size": row["size"] or 0,
+                })
+
+        conn.close()
+    except Exception:
+        return []
+
+    return results
 
 def search_data_files(query: str) -> list:
     """Search JSON data files for query matches."""
