@@ -16,7 +16,7 @@ class LangClawAgent(BaseAgent):
         if web: parts.append("[WebClaw]: " + web)
         data = self.call_agent("dataclaw", f"search {query}", timeout=15)
         if data: parts.append("[DataClaw]: " + data)
-        chronicle_results = self.search_chronicle(query, limit=2000000)
+        chronicle_results = self.search_chronicle(query, limit=5)
         if chronicle_results:
             for c in chronicle_results:
                 if hasattr(c, "url"):
