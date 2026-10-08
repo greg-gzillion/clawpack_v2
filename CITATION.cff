@@ -9,7 +9,7 @@ version: 3.2.0
 doi: 10.5281/zenodo.19713157
 date-released: 2026-05-29
 url: "https://github.com/greg-gzillion/clawpack_v2"
-abstract: "21 specialized AI agents governed by a Constitution, communicating via A2A protocol (port 8766) with circuit breaker protection and task state tracking. Features 448MB Chronicle SQLite FTS5 index (35,000+ interactions), 3,800-city jurisdiction database, 36-system constitutional boundary, multi-provider LLM routing through Ollama, Groq, OpenRouter, and Anthropic, and cross-agent unified memory with staleness detection."
+abstract: "21 specialized AI agents governed by a Constitution, communicating via A2A protocol (port 8766) with circuit breaker protection and task state tracking. Features 587MB Chronicle SQLite FTS5 index (237,878 interactions), 3,800-city jurisdiction database, 36-system constitutional boundary, multi-provider LLM routing through Ollama, Groq, OpenRouter, and Anthropic, and cross-agent unified memory with staleness detection."
 keywords:
   - "ai-agents"
   - "agent-to-agent"
