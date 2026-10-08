@@ -34,18 +34,28 @@ def check_python():
     return True
 
 def check_dependencies():
+    """Required deps block startup; optional deps only warn."""
     missing = []
     try: import requests
     except ImportError: missing.append('requests')
-    try: import pyttsx3
-    except ImportError: missing.append('pyttsx3')
-    try: import speech_recognition
-    except ImportError: missing.append('speech_recognition')
+
     if missing:
-        print(f"Missing packages: {', '.join(missing)}")
+        print(f"Missing required packages: {', '.join(missing)}")
         print(f"Run: pip install {' '.join(missing)}")
         print("Or: pip install -r requirements.txt")
         return False
+
+    # Optional audio deps — voice/braille commands will be disabled if missing
+    optional = []
+    try: import pyttsx3
+    except ImportError: optional.append('pyttsx3')
+    try: import speech_recognition
+    except ImportError: optional.append('speech_recognition')
+    if optional:
+        print(f"Optional packages not installed: {', '.join(optional)}")
+        print(f"  Voice/braille features disabled. To enable: pip install {' '.join(optional)}")
+        print()
+
     return True
 
 def print_setup_guide(plat):
@@ -54,7 +64,7 @@ def print_setup_guide(plat):
 WINDOWS SETUP
 ============================================
 1. Open PowerShell or Command Prompt
-2. cd C:\\Users\\greg\\dev\\clawpack_v2
+2. cd <wherever you cloned clawpack_v2>
 3. python run.py
 4. The A2A server starts automatically on port 8766
 5. Menu appears. Select an agent (1-21).
@@ -102,37 +112,74 @@ Raspberry Pi: Same as Linux. TTS via espeak.
     }
     return guides.get(plat, guides['linux'])
 
+def wait_for_server(timeout=30, poll_interval=1):
+    """Poll /health until the server responds or we give up."""
+    import requests, time
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        try:
+            r = requests.get('http://127.0.0.1:8766/health', timeout=1)
+            if r.status_code == 200:
+                return True
+        except Exception:
+            pass
+        time.sleep(poll_interval)
+    return False
+
 if __name__ == '__main__':
     clear()
     check_python()
     plat = get_platform_info()
-    
+
     print("""
     CLAWPACK V2 - CONSTITUTIONAL MULTI-AGENT RUNTIME
     """)
     print(print_setup_guide(plat))
-    
+
     deps_ok = check_dependencies()
     if not deps_ok:
-        input("Press Enter after installing dependencies...")
-    
+        input("Press Enter after installing required dependencies...")
+
     print("Starting A2A server on port 8766...")
-    
-    # Start server in background
+
+    # Start server. Inherit stdout/stderr so logs stream to this terminal
+    # and the pipe buffer never fills (which would deadlock the server).
     import subprocess
     server_proc = subprocess.Popen(
         [sys.executable, 'a2a_server.py'],
-        stdout=subprocess.PIPE, stderr=subprocess.STDOUT
+        stdout=None,
+        stderr=None,
     )
-    
-    import time
-    time.sleep(3)
-    
-    # Launch menu in a separate process
-    menu_proc = subprocess.Popen(
-        [sys.executable, 'clawpack.py'],
-        stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr
-    )
-    menu_proc.wait()
-    server_proc.terminate()
-    print("Server stopped.")
+
+    # Wait for the server to actually be ready (not a fixed sleep).
+    # First-run warm-up includes mem0 + Chronicle + 21 agent registrations.
+    print("Waiting for server to become ready...")
+    if not wait_for_server(timeout=30):
+        print("Server did not respond within 30 seconds. Aborting.")
+        server_proc.terminate()
+        sys.exit(1)
+    print("Server ready.")
+    print()
+
+    try:
+        # Launch menu in a separate process, inheriting our stdio
+        menu_proc = subprocess.Popen(
+            [sys.executable, 'clawpack.py'],
+            stdin=sys.stdin, stdout=sys.stdout, stderr=sys.stderr
+        )
+        menu_proc.wait()
+    except KeyboardInterrupt:
+        print("\nInterrupted.")
+    finally:
+        # Give the server a moment to shut down cleanly.
+        # terminate() is abrupt on Windows, but the resulting Qdrant
+        # warning on exit is harmless.
+        print("Stopping server...")
+        server_proc.terminate()
+        try:
+            server_proc.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            print("Server did not stop in 5s; killing.")
+            server_proc.kill()
+        print("Server stopped.")
+
