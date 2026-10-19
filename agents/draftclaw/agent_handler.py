@@ -391,8 +391,8 @@ class DraftClawAgent(BaseAgent):
                         export = self._fileclaw_export("png", str(pil_result))
                         result = f"{export}\n\n{result}"
                 except Exception as e:
-                  log_err("draftclaw", cmd or "unknown", str(e)[:200])
-                return {"status":"error","result":str(e)}
+                    log_err("draftclaw", cmd or "unknown", str(e)[:200])
+                    return {"status":"error","result":str(e)}
 
             elif cmd in ("/cad","/schematic") and query:
                 prompt = f"Generate a technical schematic with precise measurements, component layout, and connection points. Format as ASCII art diagram.\n\nSpecs: {query}"
