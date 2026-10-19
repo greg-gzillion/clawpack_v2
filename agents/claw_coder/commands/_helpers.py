@@ -83,11 +83,17 @@ def validate_syntax(filepath: Path, lang: str) -> tuple:
             )
             return result.returncode == 0, result.stderr or "Syntax OK"
         elif lang == "rust":
-            result = subprocess.run(
-                ["rustc", "--edition", "2024", "--emit=metadata", str(filepath)],
-                capture_output=True, text=True, timeout=30
-            )
-            return result.returncode == 0, result.stderr or "Compilation OK"
+              # Compile as library if no main() — validates the code without requiring an entry point
+              content = filepath.read_text(encoding="utf-8", errors="ignore")
+              cmd = ["rustc", "--edition", "2024", "--emit=metadata"]
+              if "fn main" not in content:
+                  cmd.extend(["--crate-type", "lib"])
+              cmd.append(str(filepath))
+              result = subprocess.run(
+                  cmd,
+                  capture_output=True, text=True, timeout=30
+              )
+              return result.returncode == 0, result.stderr or "Compilation OK"
         elif lang == "go":
             result = subprocess.run(
                 ["go", "fmt", str(filepath)],
