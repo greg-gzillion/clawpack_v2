@@ -35,7 +35,12 @@ def run(args: str, agent=None) -> str:
         refs_context = agent._read_reference_file(lang, query)
     
     # 4. Build enriched prompt
-    prompt = f"Write clean {lang} {version} code. Return only the code with brief comments.\n\nTask: {query}"
+        prompt = f"""Write clean {lang} {version} code. Return only the code with brief comments.
+
+Prefer the standard library. Use only {lang}'s built-in modules unless an external dependency is truly necessary.
+If external dependencies are required, note them in a comment at the top of the file.
+
+Task: {query}"""
     if prior_context:
         prompt = f"Prior solutions for reference:\n{prior_context}\n\n{prompt}"
     if refs_context:
