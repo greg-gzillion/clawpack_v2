@@ -15,19 +15,6 @@ from agents.rustypycraw.modules.analyzer.code_analyzer import CodeAnalyzer
 class RustyPyCrawAgent(BaseAgent):
     def __init__(self):
         super().__init__("rustypycraw")
-
-    def _gather_context(self, query=""):
-        parts = []
-        web = self.call_agent("webclaw", f"search ns:rustypycraw code analysis {query}", timeout=15)
-        if web: parts.append("[WebClaw]: " + str(web)[:2000])
-        chronicle_results = self.search_chronicle(query, limit=5)
-        if chronicle_results:
-            lines = []
-            for c in chronicle_results:
-                ctx = c.get("context", "") if isinstance(c, dict) else str(c)
-                if ctx: lines.append(ctx[:1000])
-            if lines: parts.append("[Chronicle]: " + "\n".join(lines))
-        return "\n".join(parts) if parts else ""
         self.scanner = CodeScanner()
         self.analyzer = CodeAnalyzer()
 
